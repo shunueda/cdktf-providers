@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#account_moid DataIntersightComputeRackUnitIdentity#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#account_moid DataIntersightComputeRackUnitIdentity#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Serial Identifier of an adapter participating in SWM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#adapter_serial DataIntersightComputeRackUnitIdentity#adapter_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#adapter_serial DataIntersightComputeRackUnitIdentity#adapter_serial}
   */
   readonly adapterSerial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -32,7 +32,7 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   * * `Remove` - Remove the equipment permanently from Intersight management.
   * * `Replace` - Replace the equipment with the other one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#admin_action DataIntersightComputeRackUnitIdentity#admin_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#admin_action DataIntersightComputeRackUnitIdentity#admin_action}
   */
   readonly adminAction?: string;
   /**
@@ -43,7 +43,7 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   * * `Failed` - User configured settings could not be applied.
   * * `Scheduled` - User configured settings are scheduled to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#admin_action_state DataIntersightComputeRackUnitIdentity#admin_action_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#admin_action_state DataIntersightComputeRackUnitIdentity#admin_action_state}
   */
   readonly adminActionState?: string;
   /**
@@ -51,23 +51,23 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#create_time DataIntersightComputeRackUnitIdentity#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#create_time DataIntersightComputeRackUnitIdentity#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#domain_group_moid DataIntersightComputeRackUnitIdentity#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#domain_group_moid DataIntersightComputeRackUnitIdentity#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#id DataIntersightComputeRackUnitIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#id DataIntersightComputeRackUnitIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   /**
   * Numeric Identifier assigned by the management system to the equipment. Identifier can only be changed if it has been PATCHED with the AdminAction property set to 'Recommission'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#identifier DataIntersightComputeRackUnitIdentity#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#identifier DataIntersightComputeRackUnitIdentity#identifier}
   */
   readonly identifier?: number;
   /**
@@ -85,37 +85,37 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   * * `Deep` - The last discovery triggered is deep.
   * * `Shallow` - The last discovery triggered is shallow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#last_discovery_triggered DataIntersightComputeRackUnitIdentity#last_discovery_triggered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#last_discovery_triggered DataIntersightComputeRackUnitIdentity#last_discovery_triggered}
   */
   readonly lastDiscoveryTriggered?: string;
   /**
   * The time when the last life cycle state change happened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#lifecycle_mod_time DataIntersightComputeRackUnitIdentity#lifecycle_mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#lifecycle_mod_time DataIntersightComputeRackUnitIdentity#lifecycle_mod_time}
   */
   readonly lifecycleModTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#mod_time DataIntersightComputeRackUnitIdentity#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#mod_time DataIntersightComputeRackUnitIdentity#mod_time}
   */
   readonly modTime?: string;
   /**
   * The vendor provided model name for the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#model DataIntersightComputeRackUnitIdentity#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#model DataIntersightComputeRackUnitIdentity#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The name of the equipment for unique identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#name DataIntersightComputeRackUnitIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#name DataIntersightComputeRackUnitIdentity#name}
   */
   readonly name?: string;
   /**
@@ -145,92 +145,93 @@ export interface DataIntersightComputeRackUnitIdentityConfig extends cdktf.Terra
   * * `MovedAndReplaced` - The blade server has been moved from its discovered location to a new location within the domain and another blade has been inserted into the previously discovered location.
   * * `DomainRmaPendingUserAction` - Domain RMA detected due to the presence of an old pair of FIs with mismatched serial numbers within the same account. User to either initiate the 'Replace Domain workflow' or unclaim the old domain.
   * * `IdentityUnknown` - The endpoint cannot be identified because of incomplete vendor, model, or serial information.
+  * * `RestoreConfigInProgress` - Restore configuration is in progress on given physical entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#nr_lifecycle DataIntersightComputeRackUnitIdentity#nr_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#nr_lifecycle DataIntersightComputeRackUnitIdentity#nr_lifecycle}
   */
   readonly nrLifecycle?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#owners DataIntersightComputeRackUnitIdentity#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#owners DataIntersightComputeRackUnitIdentity#owners}
   */
   readonly owners?: string[];
   /**
   * Specifies whether device configurations need to be reset to default upon first-time discovery or recommission of a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#reset_to_default DataIntersightComputeRackUnitIdentity#reset_to_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#reset_to_default DataIntersightComputeRackUnitIdentity#reset_to_default}
   */
   readonly resetToDefault?: boolean | cdktf.IResolvable;
   /**
   * The serial number of the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#serial DataIntersightComputeRackUnitIdentity#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#serial DataIntersightComputeRackUnitIdentity#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#shared_scope DataIntersightComputeRackUnitIdentity#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#shared_scope DataIntersightComputeRackUnitIdentity#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The manufacturer of the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#vendor DataIntersightComputeRackUnitIdentity#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#vendor DataIntersightComputeRackUnitIdentity#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#ancestors DataIntersightComputeRackUnitIdentity#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#ancestors DataIntersightComputeRackUnitIdentity#ancestors}
   */
   readonly ancestors?: DataIntersightComputeRackUnitIdentityAncestors[] | cdktf.IResolvable;
   /**
   * custom_permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#custom_permission_resources DataIntersightComputeRackUnitIdentity#custom_permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#custom_permission_resources DataIntersightComputeRackUnitIdentity#custom_permission_resources}
   */
   readonly customPermissionResources?: DataIntersightComputeRackUnitIdentityCustomPermissionResources[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#parent DataIntersightComputeRackUnitIdentity#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#parent DataIntersightComputeRackUnitIdentity#parent}
   */
   readonly parent?: DataIntersightComputeRackUnitIdentityParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#permission_resources DataIntersightComputeRackUnitIdentity#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#permission_resources DataIntersightComputeRackUnitIdentity#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeRackUnitIdentityPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#physical_device_registration DataIntersightComputeRackUnitIdentity#physical_device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#physical_device_registration DataIntersightComputeRackUnitIdentity#physical_device_registration}
   */
   readonly physicalDeviceRegistration?: DataIntersightComputeRackUnitIdentityPhysicalDeviceRegistration;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#registered_device DataIntersightComputeRackUnitIdentity#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#registered_device DataIntersightComputeRackUnitIdentity#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeRackUnitIdentityRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#tags DataIntersightComputeRackUnitIdentity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#tags DataIntersightComputeRackUnitIdentity#tags}
   */
   readonly tags?: DataIntersightComputeRackUnitIdentityTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#version_context DataIntersightComputeRackUnitIdentity#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#version_context DataIntersightComputeRackUnitIdentity#version_context}
   */
   readonly versionContext?: DataIntersightComputeRackUnitIdentityVersionContext;
 }
@@ -1072,6 +1073,11 @@ export class DataIntersightComputeRackUnitIdentityResultsTagsOutputReference ext
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1638,7 +1644,7 @@ export class DataIntersightComputeRackUnitIdentityResultsList extends cdktf.Comp
 }
 export interface DataIntersightComputeRackUnitIdentityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1646,19 +1652,19 @@ export interface DataIntersightComputeRackUnitIdentityAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1671,7 +1677,7 @@ export interface DataIntersightComputeRackUnitIdentityAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -1903,7 +1909,7 @@ export class DataIntersightComputeRackUnitIdentityAncestorsList extends cdktf.Co
 }
 export interface DataIntersightComputeRackUnitIdentityCustomPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1911,19 +1917,19 @@ export interface DataIntersightComputeRackUnitIdentityCustomPermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1936,7 +1942,7 @@ export interface DataIntersightComputeRackUnitIdentityCustomPermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2168,7 +2174,7 @@ export class DataIntersightComputeRackUnitIdentityCustomPermissionResourcesList 
 }
 export interface DataIntersightComputeRackUnitIdentityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2176,19 +2182,19 @@ export interface DataIntersightComputeRackUnitIdentityParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2201,7 +2207,7 @@ export interface DataIntersightComputeRackUnitIdentityParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2401,7 +2407,7 @@ export class DataIntersightComputeRackUnitIdentityParentOutputReference extends 
 }
 export interface DataIntersightComputeRackUnitIdentityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2409,19 +2415,19 @@ export interface DataIntersightComputeRackUnitIdentityPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2434,7 +2440,7 @@ export interface DataIntersightComputeRackUnitIdentityPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2666,7 +2672,7 @@ export class DataIntersightComputeRackUnitIdentityPermissionResourcesList extend
 }
 export interface DataIntersightComputeRackUnitIdentityPhysicalDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2674,19 +2680,19 @@ export interface DataIntersightComputeRackUnitIdentityPhysicalDeviceRegistration
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2699,7 +2705,7 @@ export interface DataIntersightComputeRackUnitIdentityPhysicalDeviceRegistration
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2899,7 +2905,7 @@ export class DataIntersightComputeRackUnitIdentityPhysicalDeviceRegistrationOutp
 }
 export interface DataIntersightComputeRackUnitIdentityRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2907,19 +2913,19 @@ export interface DataIntersightComputeRackUnitIdentityRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2932,7 +2938,7 @@ export interface DataIntersightComputeRackUnitIdentityRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3132,7 +3138,7 @@ export class DataIntersightComputeRackUnitIdentityRegisteredDeviceOutputReferenc
 }
 export interface DataIntersightComputeRackUnitIdentityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3140,19 +3146,19 @@ export interface DataIntersightComputeRackUnitIdentityTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3165,7 +3171,7 @@ export interface DataIntersightComputeRackUnitIdentityTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3397,7 +3403,7 @@ export class DataIntersightComputeRackUnitIdentityTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightComputeRackUnitIdentityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3405,19 +3411,19 @@ export interface DataIntersightComputeRackUnitIdentityTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3430,7 +3436,7 @@ export interface DataIntersightComputeRackUnitIdentityTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3630,45 +3636,51 @@ export class DataIntersightComputeRackUnitIdentityTagsDefinitionOutputReference 
 }
 export interface DataIntersightComputeRackUnitIdentityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#key DataIntersightComputeRackUnitIdentity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#key DataIntersightComputeRackUnitIdentity#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#propagated DataIntersightComputeRackUnitIdentity#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#propagated DataIntersightComputeRackUnitIdentity#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#sys_tag DataIntersightComputeRackUnitIdentity#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#type DataIntersightComputeRackUnitIdentity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#type DataIntersightComputeRackUnitIdentity#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#value DataIntersightComputeRackUnitIdentity#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#value DataIntersightComputeRackUnitIdentity#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#ancestor_definitions DataIntersightComputeRackUnitIdentity#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#ancestor_definitions DataIntersightComputeRackUnitIdentity#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeRackUnitIdentityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#definition DataIntersightComputeRackUnitIdentity#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#definition DataIntersightComputeRackUnitIdentity#definition}
   */
   readonly definition?: DataIntersightComputeRackUnitIdentityTagsDefinition;
 }
@@ -3682,6 +3694,7 @@ export function dataIntersightComputeRackUnitIdentityTagsToTerraform(struct?: Da
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightComputeRackUnitIdentityTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3710,6 +3723,12 @@ export function dataIntersightComputeRackUnitIdentityTagsToHclTerraform(struct?:
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3776,6 +3795,10 @@ export class DataIntersightComputeRackUnitIdentityTagsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3802,6 +3825,7 @@ export class DataIntersightComputeRackUnitIdentityTagsOutputReference extends cd
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3817,6 +3841,7 @@ export class DataIntersightComputeRackUnitIdentityTagsOutputReference extends cd
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3870,6 +3895,22 @@ export class DataIntersightComputeRackUnitIdentityTagsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3958,7 +3999,7 @@ export class DataIntersightComputeRackUnitIdentityTagsList extends cdktf.Complex
 }
 export interface DataIntersightComputeRackUnitIdentityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3966,19 +4007,19 @@ export interface DataIntersightComputeRackUnitIdentityVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3991,7 +4032,7 @@ export interface DataIntersightComputeRackUnitIdentityVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -4223,7 +4264,7 @@ export class DataIntersightComputeRackUnitIdentityVersionContextInterestedMosLis
 }
 export interface DataIntersightComputeRackUnitIdentityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4231,19 +4272,19 @@ export interface DataIntersightComputeRackUnitIdentityVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#moid DataIntersightComputeRackUnitIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4256,7 +4297,7 @@ export interface DataIntersightComputeRackUnitIdentityVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#selector DataIntersightComputeRackUnitIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -4456,7 +4497,7 @@ export class DataIntersightComputeRackUnitIdentityVersionContextRefMoOutputRefer
 }
 export interface DataIntersightComputeRackUnitIdentityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#additional_properties DataIntersightComputeRackUnitIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4464,32 +4505,32 @@ export interface DataIntersightComputeRackUnitIdentityVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#class_id DataIntersightComputeRackUnitIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#marked_for_deletion DataIntersightComputeRackUnitIdentity#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#marked_for_deletion DataIntersightComputeRackUnitIdentity#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#nr_version DataIntersightComputeRackUnitIdentity#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#nr_version DataIntersightComputeRackUnitIdentity#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#object_type DataIntersightComputeRackUnitIdentity#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#timestamp DataIntersightComputeRackUnitIdentity#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#timestamp DataIntersightComputeRackUnitIdentity#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4500,19 +4541,19 @@ export interface DataIntersightComputeRackUnitIdentityVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#version_type DataIntersightComputeRackUnitIdentity#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#version_type DataIntersightComputeRackUnitIdentity#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#interested_mos DataIntersightComputeRackUnitIdentity#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#interested_mos DataIntersightComputeRackUnitIdentity#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeRackUnitIdentityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#ref_mo DataIntersightComputeRackUnitIdentity#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#ref_mo DataIntersightComputeRackUnitIdentity#ref_mo}
   */
   readonly refMo?: DataIntersightComputeRackUnitIdentityVersionContextRefMo;
 }
@@ -4828,7 +4869,7 @@ export class DataIntersightComputeRackUnitIdentityVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity intersight_compute_rack_unit_identity}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity intersight_compute_rack_unit_identity}
 */
 export class DataIntersightComputeRackUnitIdentity extends cdktf.TerraformDataSource {
 
@@ -4844,7 +4885,7 @@ export class DataIntersightComputeRackUnitIdentity extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightComputeRackUnitIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeRackUnitIdentity to import
-  * @param importFromId The id of the existing DataIntersightComputeRackUnitIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeRackUnitIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeRackUnitIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4856,7 +4897,7 @@ export class DataIntersightComputeRackUnitIdentity extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_rack_unit_identity intersight_compute_rack_unit_identity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_rack_unit_identity intersight_compute_rack_unit_identity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4867,8 +4908,8 @@ export class DataIntersightComputeRackUnitIdentity extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_compute_rack_unit_identity',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

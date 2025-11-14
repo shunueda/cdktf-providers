@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface UsersV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#description UsersV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#description UsersV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#display_name UsersV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#display_name UsersV2#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#email_id UsersV2#email_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#email_id UsersV2#email_id}
   */
   readonly emailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#first_name UsersV2#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#first_name UsersV2#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#force_reset_password UsersV2#force_reset_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#force_reset_password UsersV2#force_reset_password}
   */
   readonly forceResetPassword?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#id UsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#id UsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#idp_id UsersV2#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#idp_id UsersV2#idp_id}
   */
   readonly idpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#last_name UsersV2#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#last_name UsersV2#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#locale UsersV2#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#locale UsersV2#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#middle_initial UsersV2#middle_initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#middle_initial UsersV2#middle_initial}
   */
   readonly middleInitial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#password UsersV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#password UsersV2#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#region UsersV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#region UsersV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#status UsersV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#status UsersV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#user_type UsersV2#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#user_type UsersV2#user_type}
   */
   readonly userType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#username UsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#username UsersV2#username}
   */
   readonly username: string;
   /**
   * additional_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#additional_attributes UsersV2#additional_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#additional_attributes UsersV2#additional_attributes}
   */
   readonly additionalAttributes?: UsersV2AdditionalAttributes[] | cdktf.IResolvable;
 }
@@ -340,11 +340,11 @@ export class UsersV2LinksList extends cdktf.ComplexList {
 }
 export interface UsersV2AdditionalAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#name UsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#name UsersV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#value UsersV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#value UsersV2#value}
   */
   readonly value?: number;
 }
@@ -489,7 +489,7 @@ export class UsersV2AdditionalAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2 nutanix_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2 nutanix_users_v2}
 */
 export class UsersV2 extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class UsersV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UsersV2 to import
-  * @param importFromId The id of the existing UsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class UsersV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/users_v2 nutanix_users_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/users_v2 nutanix_users_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class UsersV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

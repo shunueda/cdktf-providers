@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciContainerengineNodePoolOptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option#compartment_id DataOciContainerengineNodePoolOption#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#compartment_id DataOciContainerengineNodePoolOption#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option#id DataOciContainerengineNodePoolOption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#id DataOciContainerengineNodePoolOption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option#node_pool_option_id DataOciContainerengineNodePoolOption#node_pool_option_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#node_pool_k8s_version DataOciContainerengineNodePoolOption#node_pool_k8s_version}
+  */
+  readonly nodePoolK8SVersion?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#node_pool_option_id DataOciContainerengineNodePoolOption#node_pool_option_id}
   */
   readonly nodePoolOptionId: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#node_pool_os_arch DataOciContainerengineNodePoolOption#node_pool_os_arch}
+  */
+  readonly nodePoolOsArch?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#node_pool_os_type DataOciContainerengineNodePoolOption#node_pool_os_type}
+  */
+  readonly nodePoolOsType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#should_list_all_patch_versions DataOciContainerengineNodePoolOption#should_list_all_patch_versions}
+  */
+  readonly shouldListAllPatchVersions?: boolean | cdktf.IResolvable;
 }
 export interface DataOciContainerengineNodePoolOptionSources {
 }
@@ -110,7 +126,7 @@ export class DataOciContainerengineNodePoolOptionSourcesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option}
 */
 export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSource {
 
@@ -126,7 +142,7 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciContainerengineNodePoolOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciContainerengineNodePoolOption to import
-  * @param importFromId The id of the existing DataOciContainerengineNodePoolOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciContainerengineNodePoolOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciContainerengineNodePoolOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +154,7 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/containerengine_node_pool_option oci_containerengine_node_pool_option} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +165,8 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_containerengine_node_pool_option',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -162,7 +178,11 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
     });
     this._compartmentId = config.compartmentId;
     this._id = config.id;
+    this._nodePoolK8SVersion = config.nodePoolK8SVersion;
     this._nodePoolOptionId = config.nodePoolOptionId;
+    this._nodePoolOsArch = config.nodePoolOsArch;
+    this._nodePoolOsType = config.nodePoolOsType;
+    this._shouldListAllPatchVersions = config.shouldListAllPatchVersions;
   }
 
   // ==========
@@ -211,6 +231,22 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
     return this.getListAttribute('kubernetes_versions');
   }
 
+  // node_pool_k8s_version - computed: false, optional: true, required: false
+  private _nodePoolK8SVersion?: string; 
+  public get nodePoolK8SVersion() {
+    return this.getStringAttribute('node_pool_k8s_version');
+  }
+  public set nodePoolK8SVersion(value: string) {
+    this._nodePoolK8SVersion = value;
+  }
+  public resetNodePoolK8SVersion() {
+    this._nodePoolK8SVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolK8SVersionInput() {
+    return this._nodePoolK8SVersion;
+  }
+
   // node_pool_option_id - computed: false, optional: false, required: true
   private _nodePoolOptionId?: string; 
   public get nodePoolOptionId() {
@@ -224,9 +260,57 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
     return this._nodePoolOptionId;
   }
 
+  // node_pool_os_arch - computed: false, optional: true, required: false
+  private _nodePoolOsArch?: string; 
+  public get nodePoolOsArch() {
+    return this.getStringAttribute('node_pool_os_arch');
+  }
+  public set nodePoolOsArch(value: string) {
+    this._nodePoolOsArch = value;
+  }
+  public resetNodePoolOsArch() {
+    this._nodePoolOsArch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolOsArchInput() {
+    return this._nodePoolOsArch;
+  }
+
+  // node_pool_os_type - computed: false, optional: true, required: false
+  private _nodePoolOsType?: string; 
+  public get nodePoolOsType() {
+    return this.getStringAttribute('node_pool_os_type');
+  }
+  public set nodePoolOsType(value: string) {
+    this._nodePoolOsType = value;
+  }
+  public resetNodePoolOsType() {
+    this._nodePoolOsType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodePoolOsTypeInput() {
+    return this._nodePoolOsType;
+  }
+
   // shapes - computed: true, optional: false, required: false
   public get shapes() {
     return this.getListAttribute('shapes');
+  }
+
+  // should_list_all_patch_versions - computed: false, optional: true, required: false
+  private _shouldListAllPatchVersions?: boolean | cdktf.IResolvable; 
+  public get shouldListAllPatchVersions() {
+    return this.getBooleanAttribute('should_list_all_patch_versions');
+  }
+  public set shouldListAllPatchVersions(value: boolean | cdktf.IResolvable) {
+    this._shouldListAllPatchVersions = value;
+  }
+  public resetShouldListAllPatchVersions() {
+    this._shouldListAllPatchVersions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldListAllPatchVersionsInput() {
+    return this._shouldListAllPatchVersions;
   }
 
   // sources - computed: true, optional: false, required: false
@@ -243,7 +327,11 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
     return {
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
       id: cdktf.stringToTerraform(this._id),
+      node_pool_k8s_version: cdktf.stringToTerraform(this._nodePoolK8SVersion),
       node_pool_option_id: cdktf.stringToTerraform(this._nodePoolOptionId),
+      node_pool_os_arch: cdktf.stringToTerraform(this._nodePoolOsArch),
+      node_pool_os_type: cdktf.stringToTerraform(this._nodePoolOsType),
+      should_list_all_patch_versions: cdktf.booleanToTerraform(this._shouldListAllPatchVersions),
     };
   }
 
@@ -261,11 +349,35 @@ export class DataOciContainerengineNodePoolOption extends cdktf.TerraformDataSou
         type: "simple",
         storageClassType: "string",
       },
+      node_pool_k8s_version: {
+        value: cdktf.stringToHclTerraform(this._nodePoolK8SVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       node_pool_option_id: {
         value: cdktf.stringToHclTerraform(this._nodePoolOptionId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      node_pool_os_arch: {
+        value: cdktf.stringToHclTerraform(this._nodePoolOsArch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      node_pool_os_type: {
+        value: cdktf.stringToHclTerraform(this._nodePoolOsType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      should_list_all_patch_versions: {
+        value: cdktf.booleanToHclTerraform(this._shouldListAllPatchVersions),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

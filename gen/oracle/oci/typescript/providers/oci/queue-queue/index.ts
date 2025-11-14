@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface QueueQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#channel_consumption_limit QueueQueue#channel_consumption_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#channel_consumption_limit QueueQueue#channel_consumption_limit}
   */
   readonly channelConsumptionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#compartment_id QueueQueue#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#compartment_id QueueQueue#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#custom_encryption_key_id QueueQueue#custom_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#custom_encryption_key_id QueueQueue#custom_encryption_key_id}
   */
   readonly customEncryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#dead_letter_queue_delivery_count QueueQueue#dead_letter_queue_delivery_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#dead_letter_queue_delivery_count QueueQueue#dead_letter_queue_delivery_count}
   */
   readonly deadLetterQueueDeliveryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#defined_tags QueueQueue#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#defined_tags QueueQueue#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#display_name QueueQueue#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#display_name QueueQueue#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#freeform_tags QueueQueue#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#freeform_tags QueueQueue#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#id QueueQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#id QueueQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#purge_trigger QueueQueue#purge_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#purge_trigger QueueQueue#purge_trigger}
   */
   readonly purgeTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#purge_type QueueQueue#purge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#purge_type QueueQueue#purge_type}
   */
   readonly purgeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#retention_in_seconds QueueQueue#retention_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#retention_in_seconds QueueQueue#retention_in_seconds}
   */
   readonly retentionInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#timeout_in_seconds QueueQueue#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#timeout_in_seconds QueueQueue#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#visibility_in_seconds QueueQueue#visibility_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#visibility_in_seconds QueueQueue#visibility_in_seconds}
   */
   readonly visibilityInSeconds?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#timeouts QueueQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#timeouts QueueQueue#timeouts}
   */
   readonly timeouts?: QueueQueueTimeouts;
 }
 export interface QueueQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#create QueueQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#create QueueQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#delete QueueQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#delete QueueQueue#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#update QueueQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#update QueueQueue#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class QueueQueueTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue oci_queue_queue}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue oci_queue_queue}
 */
 export class QueueQueue extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class QueueQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueQueue to import
-  * @param importFromId The id of the existing QueueQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class QueueQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/queue_queue oci_queue_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/queue_queue oci_queue_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class QueueQueue extends cdktf.TerraformResource {
       terraformResourceType: 'oci_queue_queue',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

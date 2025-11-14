@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/object_storage_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcObjectStorageBucketsConfig extends cdktf.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/object_storage_buckets mgc_object_storage_buckets}
 */
 export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcObjectStorageBuckets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcObjectStorageBuckets to import
-  * @param importFromId The id of the existing DataMgcObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcObjectStorageBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/object_storage_buckets mgc_object_storage_buckets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_object_storage_buckets',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

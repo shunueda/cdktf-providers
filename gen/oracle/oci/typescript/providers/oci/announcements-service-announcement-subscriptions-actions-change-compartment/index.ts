@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#announcement_subscription_id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#announcement_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#announcement_subscription_id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#announcement_subscription_id}
   */
   readonly announcementSubscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#compartment_id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#compartment_id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#id AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,21 @@ export interface AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompa
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#timeouts AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#timeouts AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#timeouts}
   */
   readonly timeouts?: AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartmentTimeouts;
 }
 export interface AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#create AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#create AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#delete AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#delete AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#update AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#update AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartme
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment oci_announcements_service_announcement_subscriptions_actions_change_compartment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment oci_announcements_service_announcement_subscriptions_actions_change_compartment}
 */
 export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartme
   * Generates CDKTF code for importing a AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment to import
-  * @param importFromId The id of the existing AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartme
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment oci_announcements_service_announcement_subscriptions_actions_change_compartment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/announcements_service_announcement_subscriptions_actions_change_compartment oci_announcements_service_announcement_subscriptions_actions_change_compartment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartme
       terraformResourceType: 'oci_announcements_service_announcement_subscriptions_actions_change_compartment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

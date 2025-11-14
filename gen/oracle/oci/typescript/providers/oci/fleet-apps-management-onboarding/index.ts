@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementOnboardingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#compartment_id FleetAppsManagementOnboarding#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#compartment_id FleetAppsManagementOnboarding#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#id FleetAppsManagementOnboarding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#defined_tags FleetAppsManagementOnboarding#defined_tags}
+  */
+  readonly definedTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#freeform_tags FleetAppsManagementOnboarding#freeform_tags}
+  */
+  readonly freeformTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#id FleetAppsManagementOnboarding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#is_cost_tracking_tag_enabled FleetAppsManagementOnboarding#is_cost_tracking_tag_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#is_cost_tracking_tag_enabled FleetAppsManagementOnboarding#is_cost_tracking_tag_enabled}
   */
   readonly isCostTrackingTagEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#is_fams_tag_enabled FleetAppsManagementOnboarding#is_fams_tag_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#is_fams_tag_enabled FleetAppsManagementOnboarding#is_fams_tag_enabled}
   */
   readonly isFamsTagEnabled?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#timeouts FleetAppsManagementOnboarding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#timeouts FleetAppsManagementOnboarding#timeouts}
   */
   readonly timeouts?: FleetAppsManagementOnboardingTimeouts;
 }
@@ -131,15 +139,15 @@ export class FleetAppsManagementOnboardingAppliedPoliciesList extends cdktf.Comp
 }
 export interface FleetAppsManagementOnboardingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#create FleetAppsManagementOnboarding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#create FleetAppsManagementOnboarding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#delete FleetAppsManagementOnboarding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#delete FleetAppsManagementOnboarding#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#update FleetAppsManagementOnboarding#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#update FleetAppsManagementOnboarding#update}
   */
   readonly update?: string;
 }
@@ -291,7 +299,7 @@ export class FleetAppsManagementOnboardingTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding oci_fleet_apps_management_onboarding}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding oci_fleet_apps_management_onboarding}
 */
 export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
 
@@ -307,7 +315,7 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementOnboarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementOnboarding to import
-  * @param importFromId The id of the existing FleetAppsManagementOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementOnboarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +327,7 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_onboarding oci_fleet_apps_management_onboarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_onboarding oci_fleet_apps_management_onboarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +338,8 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_onboarding',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -342,6 +350,8 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._compartmentId = config.compartmentId;
+    this._definedTags = config.definedTags;
+    this._freeformTags = config.freeformTags;
     this._id = config.id;
     this._isCostTrackingTagEnabled = config.isCostTrackingTagEnabled;
     this._isFamsTagEnabled = config.isFamsTagEnabled;
@@ -371,9 +381,19 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
     return this._compartmentId;
   }
 
-  // defined_tags - computed: true, optional: false, required: false
-  private _definedTags = new cdktf.StringMap(this, "defined_tags");
+  // defined_tags - computed: true, optional: true, required: false
+  private _definedTags?: { [key: string]: string }; 
   public get definedTags() {
+    return this.getStringMapAttribute('defined_tags');
+  }
+  public set definedTags(value: { [key: string]: string }) {
+    this._definedTags = value;
+  }
+  public resetDefinedTags() {
+    this._definedTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definedTagsInput() {
     return this._definedTags;
   }
 
@@ -382,9 +402,19 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
     return this.getStringAttribute('discovery_frequency');
   }
 
-  // freeform_tags - computed: true, optional: false, required: false
-  private _freeformTags = new cdktf.StringMap(this, "freeform_tags");
+  // freeform_tags - computed: true, optional: true, required: false
+  private _freeformTags?: { [key: string]: string }; 
   public get freeformTags() {
+    return this.getStringMapAttribute('freeform_tags');
+  }
+  public set freeformTags(value: { [key: string]: string }) {
+    this._freeformTags = value;
+  }
+  public resetFreeformTags() {
+    this._freeformTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freeformTagsInput() {
     return this._freeformTags;
   }
 
@@ -490,6 +520,8 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
+      defined_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._definedTags),
+      freeform_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._freeformTags),
       id: cdktf.stringToTerraform(this._id),
       is_cost_tracking_tag_enabled: cdktf.booleanToTerraform(this._isCostTrackingTagEnabled),
       is_fams_tag_enabled: cdktf.booleanToTerraform(this._isFamsTagEnabled),
@@ -504,6 +536,18 @@ export class FleetAppsManagementOnboarding extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      defined_tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._definedTags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      freeform_tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._freeformTags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

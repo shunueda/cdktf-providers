@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VnicEthQosPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#account_moid VnicEthQosPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#account_moid VnicEthQosPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#ancestors VnicEthQosPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#ancestors VnicEthQosPolicy#ancestors}
   */
   readonly ancestors?: VnicEthQosPolicyAncestors[] | cdktf.IResolvable;
   /**
   * The burst traffic, in bytes, allowed on the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#burst VnicEthQosPolicy#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#burst VnicEthQosPolicy#burst}
   */
   readonly burst?: number;
   /**
@@ -34,35 +34,35 @@ export interface VnicEthQosPolicyConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Class of Service to be associated to the traffic on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#cos VnicEthQosPolicy#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#cos VnicEthQosPolicy#cos}
   */
   readonly cos?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#create_time VnicEthQosPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#create_time VnicEthQosPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#description VnicEthQosPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#description VnicEthQosPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#domain_group_moid VnicEthQosPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#domain_group_moid VnicEthQosPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#id VnicEthQosPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#id VnicEthQosPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,56 +71,56 @@ export interface VnicEthQosPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#mod_time VnicEthQosPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#mod_time VnicEthQosPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The Maximum Transmission Unit (MTU) or packet size that the virtual interface accepts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#mtu VnicEthQosPolicy#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#mtu VnicEthQosPolicy#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#name VnicEthQosPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#name VnicEthQosPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#organization VnicEthQosPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#organization VnicEthQosPolicy#organization}
   */
   readonly organization?: VnicEthQosPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#owners VnicEthQosPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#owners VnicEthQosPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#parent VnicEthQosPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#parent VnicEthQosPolicy#parent}
   */
   readonly parent?: VnicEthQosPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#permission_resources VnicEthQosPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#permission_resources VnicEthQosPolicy#permission_resources}
   */
   readonly permissionResources?: VnicEthQosPolicyPermissionResources[] | cdktf.IResolvable;
   /**
@@ -132,58 +132,58 @@ export interface VnicEthQosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Silver` - QoS Priority for Silver traffic.
   * * `Bronze` - QoS Priority for Bronze traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#priority VnicEthQosPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#priority VnicEthQosPolicy#priority}
   */
   readonly priority?: string;
   /**
   * The value in Mbps (0-10G/40G/100G depending on Adapter Model) to use for limiting the data rate on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#rate_limit VnicEthQosPolicy#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#rate_limit VnicEthQosPolicy#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#shared_scope VnicEthQosPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#shared_scope VnicEthQosPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#tags VnicEthQosPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#tags VnicEthQosPolicy#tags}
   */
   readonly tags?: VnicEthQosPolicyTags[] | cdktf.IResolvable;
   /**
   * Enables usage of the Class of Service provided by the operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#trust_host_cos VnicEthQosPolicy#trust_host_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#trust_host_cos VnicEthQosPolicy#trust_host_cos}
   */
   readonly trustHostCos?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#version_context VnicEthQosPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#version_context VnicEthQosPolicy#version_context}
   */
   readonly versionContext?: VnicEthQosPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface VnicEthQosPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -415,23 +415,23 @@ export class VnicEthQosPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -663,23 +663,23 @@ export class VnicEthQosPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -911,23 +911,23 @@ export class VnicEthQosPolicyParentList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1159,23 +1159,23 @@ export class VnicEthQosPolicyPermissionResourcesList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1407,23 +1407,23 @@ export class VnicEthQosPolicyTagsAncestorDefinitionsList extends cdktf.ComplexLi
 }
 export interface VnicEthQosPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1655,31 +1655,35 @@ export class VnicEthQosPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#ancestor_definitions VnicEthQosPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#ancestor_definitions VnicEthQosPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VnicEthQosPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#definition VnicEthQosPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#definition VnicEthQosPolicy#definition}
   */
   readonly definition?: VnicEthQosPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#key VnicEthQosPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#key VnicEthQosPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#propagated VnicEthQosPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#propagated VnicEthQosPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#type VnicEthQosPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#sys_tag VnicEthQosPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#type VnicEthQosPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#value VnicEthQosPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#value VnicEthQosPolicy#value}
   */
   readonly value?: string;
 }
@@ -1695,6 +1699,7 @@ export function vnicEthQosPolicyTagsToTerraform(struct?: VnicEthQosPolicyTags | 
     definition: cdktf.listMapper(vnicEthQosPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1733,6 +1738,12 @@ export function vnicEthQosPolicyTagsToHclTerraform(struct?: VnicEthQosPolicyTags
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1795,6 +1806,10 @@ export class VnicEthQosPolicyTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1815,6 +1830,7 @@ export class VnicEthQosPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1830,6 +1846,7 @@ export class VnicEthQosPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1915,6 +1932,22 @@ export class VnicEthQosPolicyTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1969,23 +2002,23 @@ export class VnicEthQosPolicyTagsList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2217,23 +2250,23 @@ export class VnicEthQosPolicyVersionContextInterestedMosList extends cdktf.Compl
 }
 export interface VnicEthQosPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#moid VnicEthQosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#selector VnicEthQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2465,39 +2498,39 @@ export class VnicEthQosPolicyVersionContextRefMoList extends cdktf.ComplexList {
 }
 export interface VnicEthQosPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#additional_properties VnicEthQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#class_id VnicEthQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#interested_mos VnicEthQosPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#interested_mos VnicEthQosPolicy#interested_mos}
   */
   readonly interestedMos?: VnicEthQosPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#marked_for_deletion VnicEthQosPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#marked_for_deletion VnicEthQosPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#nr_version VnicEthQosPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#nr_version VnicEthQosPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#object_type VnicEthQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#ref_mo VnicEthQosPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#ref_mo VnicEthQosPolicy#ref_mo}
   */
   readonly refMo?: VnicEthQosPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#timestamp VnicEthQosPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#timestamp VnicEthQosPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#version_type VnicEthQosPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#version_type VnicEthQosPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -2845,7 +2878,7 @@ export class VnicEthQosPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy intersight_vnic_eth_qos_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy intersight_vnic_eth_qos_policy}
 */
 export class VnicEthQosPolicy extends cdktf.TerraformResource {
 
@@ -2861,7 +2894,7 @@ export class VnicEthQosPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VnicEthQosPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VnicEthQosPolicy to import
-  * @param importFromId The id of the existing VnicEthQosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VnicEthQosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VnicEthQosPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2873,7 +2906,7 @@ export class VnicEthQosPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_eth_qos_policy intersight_vnic_eth_qos_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_eth_qos_policy intersight_vnic_eth_qos_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2884,8 +2917,8 @@ export class VnicEthQosPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_vnic_eth_qos_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightApplianceAppStatusConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#account_moid DataIntersightApplianceAppStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#account_moid DataIntersightApplianceAppStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Unique label to identify the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#app_label DataIntersightApplianceAppStatus#app_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#app_label DataIntersightApplianceAppStatus#app_label}
   */
   readonly appLabel?: string;
   /**
@@ -28,23 +28,23 @@ export interface DataIntersightApplianceAppStatusConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#create_time DataIntersightApplianceAppStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#create_time DataIntersightApplianceAppStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#domain_group_moid DataIntersightApplianceAppStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#domain_group_moid DataIntersightApplianceAppStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#id DataIntersightApplianceAppStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#id DataIntersightApplianceAppStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,20 +53,20 @@ export interface DataIntersightApplianceAppStatusConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#mod_time DataIntersightApplianceAppStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#mod_time DataIntersightApplianceAppStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -89,11 +89,11 @@ export interface DataIntersightApplianceAppStatusConfig extends cdktf.TerraformM
   * * `WorkerNodeInstSuccess` - The worker node installation succeeded.
   * * `WorkerNodeInstFailed` - The worker node installation failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#operational_status DataIntersightApplianceAppStatus#operational_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#operational_status DataIntersightApplianceAppStatus#operational_status}
   */
   readonly operationalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#owners DataIntersightApplianceAppStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#owners DataIntersightApplianceAppStatus#owners}
   */
   readonly owners?: string[];
   /**
@@ -101,106 +101,106 @@ export interface DataIntersightApplianceAppStatusConfig extends cdktf.TerraformM
   * the application currently ready to perform its intended
   * functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#ready_count DataIntersightApplianceAppStatus#ready_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#ready_count DataIntersightApplianceAppStatus#ready_count}
   */
   readonly readyCount?: number;
   /**
   * Number of replicas provisioned. The number of instances
   * of the application provisioned to run on the Intersight appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#replica_count DataIntersightApplianceAppStatus#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#replica_count DataIntersightApplianceAppStatus#replica_count}
   */
   readonly replicaCount?: number;
   /**
   * Number of instance restarts in the last hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#restart_count1_hour DataIntersightApplianceAppStatus#restart_count1_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#restart_count1_hour DataIntersightApplianceAppStatus#restart_count1_hour}
   */
   readonly restartCount1Hour?: number;
   /**
   * Number of instance restarts in the last 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#restart_count24_hours DataIntersightApplianceAppStatus#restart_count24_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#restart_count24_hours DataIntersightApplianceAppStatus#restart_count24_hours}
   */
   readonly restartCount24Hours?: number;
   /**
   * Number of instance restarts in the last 5 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#restart_count5_mins DataIntersightApplianceAppStatus#restart_count5_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#restart_count5_mins DataIntersightApplianceAppStatus#restart_count5_mins}
   */
   readonly restartCount5Mins?: number;
   /**
   * Total number of restarts since last deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#restart_count_total DataIntersightApplianceAppStatus#restart_count_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#restart_count_total DataIntersightApplianceAppStatus#restart_count_total}
   */
   readonly restartCountTotal?: number;
   /**
   * Number of replicas running. The number of instances of
   * the application currently running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#running_count DataIntersightApplianceAppStatus#running_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#running_count DataIntersightApplianceAppStatus#running_count}
   */
   readonly runningCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#shared_scope DataIntersightApplianceAppStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#shared_scope DataIntersightApplianceAppStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#ancestors DataIntersightApplianceAppStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#ancestors DataIntersightApplianceAppStatus#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceAppStatusAncestors[] | cdktf.IResolvable;
   /**
   * api_statuses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#api_statuses DataIntersightApplianceAppStatus#api_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#api_statuses DataIntersightApplianceAppStatus#api_statuses}
   */
   readonly apiStatuses?: DataIntersightApplianceAppStatusApiStatuses[] | cdktf.IResolvable;
   /**
   * group_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#group_status DataIntersightApplianceAppStatus#group_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#group_status DataIntersightApplianceAppStatus#group_status}
   */
   readonly groupStatus?: DataIntersightApplianceAppStatusGroupStatus;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#parent DataIntersightApplianceAppStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#parent DataIntersightApplianceAppStatus#parent}
   */
   readonly parent?: DataIntersightApplianceAppStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#permission_resources DataIntersightApplianceAppStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#permission_resources DataIntersightApplianceAppStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceAppStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * status_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#status_checks DataIntersightApplianceAppStatus#status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#status_checks DataIntersightApplianceAppStatus#status_checks}
   */
   readonly statusChecks?: DataIntersightApplianceAppStatusStatusChecks[] | cdktf.IResolvable;
   /**
   * system_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#system_status DataIntersightApplianceAppStatus#system_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#system_status DataIntersightApplianceAppStatus#system_status}
   */
   readonly systemStatus?: DataIntersightApplianceAppStatusSystemStatus;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#tags DataIntersightApplianceAppStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#tags DataIntersightApplianceAppStatus#tags}
   */
   readonly tags?: DataIntersightApplianceAppStatusTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#version_context DataIntersightApplianceAppStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#version_context DataIntersightApplianceAppStatus#version_context}
   */
   readonly versionContext?: DataIntersightApplianceAppStatusVersionContext;
 }
@@ -1147,6 +1147,11 @@ export class DataIntersightApplianceAppStatusResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1704,7 +1709,7 @@ export class DataIntersightApplianceAppStatusResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightApplianceAppStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1712,19 +1717,19 @@ export interface DataIntersightApplianceAppStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1737,7 +1742,7 @@ export interface DataIntersightApplianceAppStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1969,7 +1974,7 @@ export class DataIntersightApplianceAppStatusAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightApplianceAppStatusApiStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1977,38 +1982,38 @@ export interface DataIntersightApplianceAppStatusApiStatuses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The elapsed time for query in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#elapsed_time DataIntersightApplianceAppStatus#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#elapsed_time DataIntersightApplianceAppStatus#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * Name to identify the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_name DataIntersightApplianceAppStatus#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_name DataIntersightApplianceAppStatus#object_name}
   */
   readonly objectName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * Reason to address why the API call failed, if API call was successed, reason would be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#reason DataIntersightApplianceAppStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#reason DataIntersightApplianceAppStatus#reason}
   */
   readonly reason?: string;
   /**
   * Response code of the API call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#response DataIntersightApplianceAppStatus#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#response DataIntersightApplianceAppStatus#response}
   */
   readonly response?: number;
 }
@@ -2298,7 +2303,7 @@ export class DataIntersightApplianceAppStatusApiStatusesList extends cdktf.Compl
 }
 export interface DataIntersightApplianceAppStatusGroupStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2311,19 @@ export interface DataIntersightApplianceAppStatusGroupStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2336,7 @@ export interface DataIntersightApplianceAppStatusGroupStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2531,7 +2536,7 @@ export class DataIntersightApplianceAppStatusGroupStatusOutputReference extends 
 }
 export interface DataIntersightApplianceAppStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2539,19 +2544,19 @@ export interface DataIntersightApplianceAppStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2564,7 +2569,7 @@ export interface DataIntersightApplianceAppStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2764,7 +2769,7 @@ export class DataIntersightApplianceAppStatusParentOutputReference extends cdktf
 }
 export interface DataIntersightApplianceAppStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2772,19 +2777,19 @@ export interface DataIntersightApplianceAppStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2797,7 +2802,7 @@ export interface DataIntersightApplianceAppStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3029,7 +3034,7 @@ export class DataIntersightApplianceAppStatusPermissionResourcesList extends cdk
 }
 export interface DataIntersightApplianceAppStatusStatusChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3037,20 +3042,20 @@ export interface DataIntersightApplianceAppStatusStatusChecks {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * Unique identifier of the status check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#code DataIntersightApplianceAppStatus#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#code DataIntersightApplianceAppStatus#code}
   */
   readonly code?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3060,7 +3065,7 @@ export interface DataIntersightApplianceAppStatusStatusChecks {
   * * `Critical` - Result of the check is Critical.
   * * `Info` - Result of the check is low.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#result DataIntersightApplianceAppStatus#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#result DataIntersightApplianceAppStatus#result}
   */
   readonly result?: string;
 }
@@ -3292,7 +3297,7 @@ export class DataIntersightApplianceAppStatusStatusChecksList extends cdktf.Comp
 }
 export interface DataIntersightApplianceAppStatusSystemStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3300,19 +3305,19 @@ export interface DataIntersightApplianceAppStatusSystemStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3325,7 +3330,7 @@ export interface DataIntersightApplianceAppStatusSystemStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3525,7 +3530,7 @@ export class DataIntersightApplianceAppStatusSystemStatusOutputReference extends
 }
 export interface DataIntersightApplianceAppStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3533,19 +3538,19 @@ export interface DataIntersightApplianceAppStatusTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3558,7 +3563,7 @@ export interface DataIntersightApplianceAppStatusTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3790,7 +3795,7 @@ export class DataIntersightApplianceAppStatusTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightApplianceAppStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3798,19 +3803,19 @@ export interface DataIntersightApplianceAppStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3823,7 +3828,7 @@ export interface DataIntersightApplianceAppStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4023,45 +4028,51 @@ export class DataIntersightApplianceAppStatusTagsDefinitionOutputReference exten
 }
 export interface DataIntersightApplianceAppStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#key DataIntersightApplianceAppStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#key DataIntersightApplianceAppStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#propagated DataIntersightApplianceAppStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#propagated DataIntersightApplianceAppStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#sys_tag DataIntersightApplianceAppStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#type DataIntersightApplianceAppStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#type DataIntersightApplianceAppStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#value DataIntersightApplianceAppStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#value DataIntersightApplianceAppStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#ancestor_definitions DataIntersightApplianceAppStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#ancestor_definitions DataIntersightApplianceAppStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceAppStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#definition DataIntersightApplianceAppStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#definition DataIntersightApplianceAppStatus#definition}
   */
   readonly definition?: DataIntersightApplianceAppStatusTagsDefinition;
 }
@@ -4075,6 +4086,7 @@ export function dataIntersightApplianceAppStatusTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceAppStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4103,6 +4115,12 @@ export function dataIntersightApplianceAppStatusTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4169,6 +4187,10 @@ export class DataIntersightApplianceAppStatusTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4195,6 +4217,7 @@ export class DataIntersightApplianceAppStatusTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4210,6 +4233,7 @@ export class DataIntersightApplianceAppStatusTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4263,6 +4287,22 @@ export class DataIntersightApplianceAppStatusTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4351,7 +4391,7 @@ export class DataIntersightApplianceAppStatusTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightApplianceAppStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4359,19 +4399,19 @@ export interface DataIntersightApplianceAppStatusVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4384,7 +4424,7 @@ export interface DataIntersightApplianceAppStatusVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4616,7 +4656,7 @@ export class DataIntersightApplianceAppStatusVersionContextInterestedMosList ext
 }
 export interface DataIntersightApplianceAppStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4624,19 +4664,19 @@ export interface DataIntersightApplianceAppStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#moid DataIntersightApplianceAppStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4649,7 +4689,7 @@ export interface DataIntersightApplianceAppStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#selector DataIntersightApplianceAppStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4849,7 +4889,7 @@ export class DataIntersightApplianceAppStatusVersionContextRefMoOutputReference 
 }
 export interface DataIntersightApplianceAppStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#additional_properties DataIntersightApplianceAppStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4857,32 +4897,32 @@ export interface DataIntersightApplianceAppStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#class_id DataIntersightApplianceAppStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#marked_for_deletion DataIntersightApplianceAppStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#marked_for_deletion DataIntersightApplianceAppStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#nr_version DataIntersightApplianceAppStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#nr_version DataIntersightApplianceAppStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#object_type DataIntersightApplianceAppStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#timestamp DataIntersightApplianceAppStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#timestamp DataIntersightApplianceAppStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4893,19 +4933,19 @@ export interface DataIntersightApplianceAppStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#version_type DataIntersightApplianceAppStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#version_type DataIntersightApplianceAppStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#interested_mos DataIntersightApplianceAppStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#interested_mos DataIntersightApplianceAppStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceAppStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#ref_mo DataIntersightApplianceAppStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#ref_mo DataIntersightApplianceAppStatus#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceAppStatusVersionContextRefMo;
 }
@@ -5221,7 +5261,7 @@ export class DataIntersightApplianceAppStatusVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status intersight_appliance_app_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status intersight_appliance_app_status}
 */
 export class DataIntersightApplianceAppStatus extends cdktf.TerraformDataSource {
 
@@ -5237,7 +5277,7 @@ export class DataIntersightApplianceAppStatus extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightApplianceAppStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceAppStatus to import
-  * @param importFromId The id of the existing DataIntersightApplianceAppStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceAppStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceAppStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5249,7 +5289,7 @@ export class DataIntersightApplianceAppStatus extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_app_status intersight_appliance_app_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_app_status intersight_appliance_app_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5260,8 +5300,8 @@ export class DataIntersightApplianceAppStatus extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_appliance_app_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

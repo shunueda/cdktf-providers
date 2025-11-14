@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBootPrecisionPolicyConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#account_moid DataIntersightBootPrecisionPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#account_moid DataIntersightBootPrecisionPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightBootPrecisionPolicyConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -30,35 +30,35 @@ export interface DataIntersightBootPrecisionPolicyConfig extends cdktf.Terraform
   * * `Uefi` - UEFI mode uses the GUID Partition Table (GPT) to locate EFI Service Partitions to boot from.
   * * `Legacy` - Legacy mode refers to the traditional process of booting from BIOS. Legacy mode uses the MBR to locate the bootloader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#configured_boot_mode DataIntersightBootPrecisionPolicy#configured_boot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#configured_boot_mode DataIntersightBootPrecisionPolicy#configured_boot_mode}
   */
   readonly configuredBootMode?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#create_time DataIntersightBootPrecisionPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#create_time DataIntersightBootPrecisionPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#description DataIntersightBootPrecisionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#description DataIntersightBootPrecisionPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#domain_group_moid DataIntersightBootPrecisionPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#domain_group_moid DataIntersightBootPrecisionPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * If UEFI secure boot is enabled, the boot mode is set to UEFI by default. Secure boot enforces that device boots using only software that is trusted by the Original Equipment Manufacturer (OEM).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#enforce_uefi_secure_boot DataIntersightBootPrecisionPolicy#enforce_uefi_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#enforce_uefi_secure_boot DataIntersightBootPrecisionPolicy#enforce_uefi_secure_boot}
   */
   readonly enforceUefiSecureBoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#id DataIntersightBootPrecisionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#id DataIntersightBootPrecisionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,85 +67,85 @@ export interface DataIntersightBootPrecisionPolicyConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#mod_time DataIntersightBootPrecisionPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#mod_time DataIntersightBootPrecisionPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#name DataIntersightBootPrecisionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#name DataIntersightBootPrecisionPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#owners DataIntersightBootPrecisionPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#owners DataIntersightBootPrecisionPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#shared_scope DataIntersightBootPrecisionPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#shared_scope DataIntersightBootPrecisionPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#ancestors DataIntersightBootPrecisionPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#ancestors DataIntersightBootPrecisionPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightBootPrecisionPolicyAncestors[] | cdktf.IResolvable;
   /**
   * boot_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#boot_devices DataIntersightBootPrecisionPolicy#boot_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#boot_devices DataIntersightBootPrecisionPolicy#boot_devices}
   */
   readonly bootDevices?: DataIntersightBootPrecisionPolicyBootDevices[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#organization DataIntersightBootPrecisionPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#organization DataIntersightBootPrecisionPolicy#organization}
   */
   readonly organization?: DataIntersightBootPrecisionPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#parent DataIntersightBootPrecisionPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#parent DataIntersightBootPrecisionPolicy#parent}
   */
   readonly parent?: DataIntersightBootPrecisionPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#permission_resources DataIntersightBootPrecisionPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#permission_resources DataIntersightBootPrecisionPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightBootPrecisionPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#profiles DataIntersightBootPrecisionPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#profiles DataIntersightBootPrecisionPolicy#profiles}
   */
   readonly profiles?: DataIntersightBootPrecisionPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#tags DataIntersightBootPrecisionPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#tags DataIntersightBootPrecisionPolicy#tags}
   */
   readonly tags?: DataIntersightBootPrecisionPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#version_context DataIntersightBootPrecisionPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#version_context DataIntersightBootPrecisionPolicy#version_context}
   */
   readonly versionContext?: DataIntersightBootPrecisionPolicyVersionContext;
 }
@@ -987,6 +987,11 @@ export class DataIntersightBootPrecisionPolicyResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1513,7 +1518,7 @@ export class DataIntersightBootPrecisionPolicyResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightBootPrecisionPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1521,19 +1526,19 @@ export interface DataIntersightBootPrecisionPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1546,7 +1551,7 @@ export interface DataIntersightBootPrecisionPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1778,7 +1783,7 @@ export class DataIntersightBootPrecisionPolicyAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightBootPrecisionPolicyBootDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1787,19 +1792,19 @@ export interface DataIntersightBootPrecisionPolicyBootDevices {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Specifies if the boot device is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#enabled DataIntersightBootPrecisionPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#enabled DataIntersightBootPrecisionPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A name that helps identify a boot device. It can be any string that adheres to the following constraints. It should start and end with an alphanumeric character. It can have underscores and hyphens. It cannot be more than 30 characters. It cannot be a reserved keyword. However, it can be used in conjunction with other letters, numbers, underscores, and hyphens (EU_CDROM-3, etc.). Reserved words include - all, ALL, CDROM, EFI, EOD, FDD, HDD, HDDANY, HTTP, ISCSI, ISCSIANY, LOCALCDD, LOCALHDD, NULL, NVME, NVMEANY, PCHSTORAGE, PCHSTORANY, PXE, SAN, SANANY, SDANY, SDCARD, UEFISHELL, USB, USBCD, USBFDD, USBHDD, VMCIMCCD, VMCIMCHDD, VMEDIA, VMFDD, VMKVMCD, VMKVMHDD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#name DataIntersightBootPrecisionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#name DataIntersightBootPrecisionPolicy#name}
   */
   readonly name?: string;
   /**
@@ -1807,7 +1812,7 @@ export interface DataIntersightBootPrecisionPolicyBootDevices {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -2039,7 +2044,7 @@ export class DataIntersightBootPrecisionPolicyBootDevicesList extends cdktf.Comp
 }
 export interface DataIntersightBootPrecisionPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2047,19 +2052,19 @@ export interface DataIntersightBootPrecisionPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2072,7 +2077,7 @@ export interface DataIntersightBootPrecisionPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2272,7 +2277,7 @@ export class DataIntersightBootPrecisionPolicyOrganizationOutputReference extend
 }
 export interface DataIntersightBootPrecisionPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2280,19 +2285,19 @@ export interface DataIntersightBootPrecisionPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2305,7 +2310,7 @@ export interface DataIntersightBootPrecisionPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2505,7 +2510,7 @@ export class DataIntersightBootPrecisionPolicyParentOutputReference extends cdkt
 }
 export interface DataIntersightBootPrecisionPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2513,19 +2518,19 @@ export interface DataIntersightBootPrecisionPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2538,7 +2543,7 @@ export interface DataIntersightBootPrecisionPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2770,7 +2775,7 @@ export class DataIntersightBootPrecisionPolicyPermissionResourcesList extends cd
 }
 export interface DataIntersightBootPrecisionPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2778,19 +2783,19 @@ export interface DataIntersightBootPrecisionPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2803,7 +2808,7 @@ export interface DataIntersightBootPrecisionPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3035,7 +3040,7 @@ export class DataIntersightBootPrecisionPolicyProfilesList extends cdktf.Complex
 }
 export interface DataIntersightBootPrecisionPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3043,19 +3048,19 @@ export interface DataIntersightBootPrecisionPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3068,7 +3073,7 @@ export interface DataIntersightBootPrecisionPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3300,7 +3305,7 @@ export class DataIntersightBootPrecisionPolicyTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightBootPrecisionPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3308,19 +3313,19 @@ export interface DataIntersightBootPrecisionPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3333,7 +3338,7 @@ export interface DataIntersightBootPrecisionPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3533,45 +3538,51 @@ export class DataIntersightBootPrecisionPolicyTagsDefinitionOutputReference exte
 }
 export interface DataIntersightBootPrecisionPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#key DataIntersightBootPrecisionPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#key DataIntersightBootPrecisionPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#propagated DataIntersightBootPrecisionPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#propagated DataIntersightBootPrecisionPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#sys_tag DataIntersightBootPrecisionPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#type DataIntersightBootPrecisionPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#type DataIntersightBootPrecisionPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#value DataIntersightBootPrecisionPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#value DataIntersightBootPrecisionPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#ancestor_definitions DataIntersightBootPrecisionPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#ancestor_definitions DataIntersightBootPrecisionPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBootPrecisionPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#definition DataIntersightBootPrecisionPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#definition DataIntersightBootPrecisionPolicy#definition}
   */
   readonly definition?: DataIntersightBootPrecisionPolicyTagsDefinition;
 }
@@ -3585,6 +3596,7 @@ export function dataIntersightBootPrecisionPolicyTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightBootPrecisionPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3613,6 +3625,12 @@ export function dataIntersightBootPrecisionPolicyTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3679,6 +3697,10 @@ export class DataIntersightBootPrecisionPolicyTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3705,6 +3727,7 @@ export class DataIntersightBootPrecisionPolicyTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3720,6 +3743,7 @@ export class DataIntersightBootPrecisionPolicyTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3773,6 +3797,22 @@ export class DataIntersightBootPrecisionPolicyTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3861,7 +3901,7 @@ export class DataIntersightBootPrecisionPolicyTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightBootPrecisionPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3869,19 +3909,19 @@ export interface DataIntersightBootPrecisionPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3894,7 +3934,7 @@ export interface DataIntersightBootPrecisionPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4126,7 +4166,7 @@ export class DataIntersightBootPrecisionPolicyVersionContextInterestedMosList ex
 }
 export interface DataIntersightBootPrecisionPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4134,19 +4174,19 @@ export interface DataIntersightBootPrecisionPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#moid DataIntersightBootPrecisionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4159,7 +4199,7 @@ export interface DataIntersightBootPrecisionPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#selector DataIntersightBootPrecisionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4359,7 +4399,7 @@ export class DataIntersightBootPrecisionPolicyVersionContextRefMoOutputReference
 }
 export interface DataIntersightBootPrecisionPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#additional_properties DataIntersightBootPrecisionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4367,32 +4407,32 @@ export interface DataIntersightBootPrecisionPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#class_id DataIntersightBootPrecisionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#marked_for_deletion DataIntersightBootPrecisionPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#marked_for_deletion DataIntersightBootPrecisionPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#nr_version DataIntersightBootPrecisionPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#nr_version DataIntersightBootPrecisionPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#object_type DataIntersightBootPrecisionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#timestamp DataIntersightBootPrecisionPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#timestamp DataIntersightBootPrecisionPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4403,19 +4443,19 @@ export interface DataIntersightBootPrecisionPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#version_type DataIntersightBootPrecisionPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#version_type DataIntersightBootPrecisionPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#interested_mos DataIntersightBootPrecisionPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#interested_mos DataIntersightBootPrecisionPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightBootPrecisionPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#ref_mo DataIntersightBootPrecisionPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#ref_mo DataIntersightBootPrecisionPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightBootPrecisionPolicyVersionContextRefMo;
 }
@@ -4731,7 +4771,7 @@ export class DataIntersightBootPrecisionPolicyVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy intersight_boot_precision_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy intersight_boot_precision_policy}
 */
 export class DataIntersightBootPrecisionPolicy extends cdktf.TerraformDataSource {
 
@@ -4747,7 +4787,7 @@ export class DataIntersightBootPrecisionPolicy extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightBootPrecisionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBootPrecisionPolicy to import
-  * @param importFromId The id of the existing DataIntersightBootPrecisionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBootPrecisionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBootPrecisionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4759,7 +4799,7 @@ export class DataIntersightBootPrecisionPolicy extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_precision_policy intersight_boot_precision_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_precision_policy intersight_boot_precision_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4770,8 +4810,8 @@ export class DataIntersightBootPrecisionPolicy extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_boot_precision_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

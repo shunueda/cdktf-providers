@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#execution_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#execution_id}
   */
   readonly executionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_object_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_object_id}
   */
   readonly sqlObjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#sql_tuning_advisor_task_id DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#sql_tuning_advisor_task_id}
   */
   readonly sqlTuningAdvisorTaskId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#filter DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter[] | cdktf.IResolvable;
 }
@@ -239,15 +239,15 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecomm
 }
 export interface DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#name DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#name DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#regex DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#regex DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#values DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#values DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations#values}
   */
   readonly values: string[];
 }
@@ -415,7 +415,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecomm
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations}
 */
 export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations extends cdktf.TerraformDataSource {
 
@@ -431,7 +431,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecomm
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecommendations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecomm
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_sql_tuning_advisor_tasks_recommendations oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningAdvisorTasksRecomm
       terraformResourceType: 'oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

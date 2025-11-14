@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RemoteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote#directory Remote#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote#directory Remote#directory}
   */
   readonly directory: string;
   /**
   * The name of the Git remote to manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote#name Remote#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote#name Remote#name}
   */
   readonly name: string;
   /**
   * The URLs of the Git remote to manage. The first URL will be a fetch/pull URL. All other URLs will be push only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote#urls Remote#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote#urls Remote#urls}
   */
   readonly urls: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote git_remote}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote git_remote}
 */
 export class Remote extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Remote extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Remote resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Remote to import
-  * @param importFromId The id of the existing Remote that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Remote that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Remote to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Remote extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/remote git_remote} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/remote git_remote} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Remote extends cdktf.TerraformResource {
       terraformResourceType: 'git_remote',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsSecurityQuestionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#active IdentityDomainsSecurityQuestion#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#active IdentityDomainsSecurityQuestion#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#attribute_sets IdentityDomainsSecurityQuestion#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#attribute_sets IdentityDomainsSecurityQuestion#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#attributes IdentityDomainsSecurityQuestion#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#attributes IdentityDomainsSecurityQuestion#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#authorization IdentityDomainsSecurityQuestion#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#authorization IdentityDomainsSecurityQuestion#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#external_id IdentityDomainsSecurityQuestion#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#external_id IdentityDomainsSecurityQuestion#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#idcs_endpoint IdentityDomainsSecurityQuestion#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#idcs_endpoint IdentityDomainsSecurityQuestion#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#ocid IdentityDomainsSecurityQuestion#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#ocid IdentityDomainsSecurityQuestion#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#resource_type_schema_version IdentityDomainsSecurityQuestion#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#resource_type_schema_version IdentityDomainsSecurityQuestion#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#schemas IdentityDomainsSecurityQuestion#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#schemas IdentityDomainsSecurityQuestion#schemas}
   */
   readonly schemas: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#type IdentityDomainsSecurityQuestion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#type IdentityDomainsSecurityQuestion#type}
   */
   readonly type: string;
   /**
   * question_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#question_text IdentityDomainsSecurityQuestion#question_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#question_text IdentityDomainsSecurityQuestion#question_text}
   */
   readonly questionText: IdentityDomainsSecurityQuestionQuestionText[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#tags IdentityDomainsSecurityQuestion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#tags IdentityDomainsSecurityQuestion#tags}
   */
   readonly tags?: IdentityDomainsSecurityQuestionTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#timeouts IdentityDomainsSecurityQuestion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#timeouts IdentityDomainsSecurityQuestion#timeouts}
   */
   readonly timeouts?: IdentityDomainsSecurityQuestionTimeouts;
 }
@@ -353,15 +353,15 @@ export class IdentityDomainsSecurityQuestionMetaList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsSecurityQuestionQuestionText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#default IdentityDomainsSecurityQuestion#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#default IdentityDomainsSecurityQuestion#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#locale IdentityDomainsSecurityQuestion#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#locale IdentityDomainsSecurityQuestion#locale}
   */
   readonly locale: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}
   */
   readonly value: string;
 }
@@ -529,11 +529,11 @@ export class IdentityDomainsSecurityQuestionQuestionTextList extends cdktf.Compl
 }
 export interface IdentityDomainsSecurityQuestionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#key IdentityDomainsSecurityQuestion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#key IdentityDomainsSecurityQuestion#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#value IdentityDomainsSecurityQuestion#value}
   */
   readonly value: string;
 }
@@ -672,15 +672,15 @@ export class IdentityDomainsSecurityQuestionTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsSecurityQuestionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#create IdentityDomainsSecurityQuestion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#create IdentityDomainsSecurityQuestion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#delete IdentityDomainsSecurityQuestion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#delete IdentityDomainsSecurityQuestion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#update IdentityDomainsSecurityQuestion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#update IdentityDomainsSecurityQuestion#update}
   */
   readonly update?: string;
 }
@@ -832,7 +832,7 @@ export class IdentityDomainsSecurityQuestionTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question oci_identity_domains_security_question}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question oci_identity_domains_security_question}
 */
 export class IdentityDomainsSecurityQuestion extends cdktf.TerraformResource {
 
@@ -848,7 +848,7 @@ export class IdentityDomainsSecurityQuestion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsSecurityQuestion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsSecurityQuestion to import
-  * @param importFromId The id of the existing IdentityDomainsSecurityQuestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsSecurityQuestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsSecurityQuestion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -860,7 +860,7 @@ export class IdentityDomainsSecurityQuestion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_domains_security_question oci_identity_domains_security_question} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_domains_security_question oci_identity_domains_security_question} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -871,8 +871,8 @@ export class IdentityDomainsSecurityQuestion extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_security_question',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,287 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreDedicatedVmHostShapesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#availability_domain DataOciCoreDedicatedVmHostShapes#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#availability_domain DataOciCoreDedicatedVmHostShapes#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#compartment_id DataOciCoreDedicatedVmHostShapes#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#compartment_id DataOciCoreDedicatedVmHostShapes#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#id DataOciCoreDedicatedVmHostShapes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#id DataOciCoreDedicatedVmHostShapes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#instance_shape_name DataOciCoreDedicatedVmHostShapes#instance_shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#instance_shape_name DataOciCoreDedicatedVmHostShapes#instance_shape_name}
   */
   readonly instanceShapeName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#filter DataOciCoreDedicatedVmHostShapes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#filter DataOciCoreDedicatedVmHostShapes#filter}
   */
   readonly filter?: DataOciCoreDedicatedVmHostShapesFilter[] | cdktf.IResolvable;
+}
+export interface DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBins {
+}
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsToTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBins): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsToHclTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBins): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBins | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBins | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // capacity_index - computed: true, optional: false, required: false
+  public get capacityIndex() {
+    return this.getNumberAttribute('capacity_index');
+  }
+
+  // supported_shapes - computed: true, optional: false, required: false
+  public get supportedShapes() {
+    return this.getListAttribute('supported_shapes');
+  }
+
+  // total_memory_in_gbs - computed: true, optional: false, required: false
+  public get totalMemoryInGbs() {
+    return this.getNumberAttribute('total_memory_in_gbs');
+  }
+
+  // total_ocpus - computed: true, optional: false, required: false
+  public get totalOcpus() {
+    return this.getNumberAttribute('total_ocpus');
+  }
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsOutputReference {
+    return new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilities {
+}
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesToTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilities): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesToHclTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilities): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilities | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilities | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // is_memory_encryption_supported - computed: true, optional: false, required: false
+  public get isMemoryEncryptionSupported() {
+    return this.getBooleanAttribute('is_memory_encryption_supported');
+  }
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesOutputReference {
+    return new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigs {
+}
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsToTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsToHclTerraform(struct?: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // capacity_bins - computed: true, optional: false, required: false
+  private _capacityBins = new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsCapacityBinsList(this, "capacity_bins", false);
+  public get capacityBins() {
+    return this._capacityBins;
+  }
+
+  // capacity_config_name - computed: true, optional: false, required: false
+  public get capacityConfigName() {
+    return this.getStringAttribute('capacity_config_name');
+  }
+
+  // is_default - computed: true, optional: false, required: false
+  public get isDefault() {
+    return this.getBooleanAttribute('is_default');
+  }
+
+  // supported_capabilities - computed: true, optional: false, required: false
+  private _supportedCapabilities = new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsSupportedCapabilitiesList(this, "supported_capabilities", false);
+  public get supportedCapabilities() {
+    return this._supportedCapabilities;
+  }
+}
+
+export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsOutputReference {
+    return new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapes {
 }
@@ -89,6 +346,12 @@ export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesOutputReferenc
     return this.getStringAttribute('availability_domain');
   }
 
+  // capacity_configs - computed: true, optional: false, required: false
+  private _capacityConfigs = new DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesCapacityConfigsList(this, "capacity_configs", false);
+  public get capacityConfigs() {
+    return this._capacityConfigs;
+  }
+
   // dedicated_vm_host_shape - computed: true, optional: false, required: false
   public get dedicatedVmHostShape() {
     return this.getStringAttribute('dedicated_vm_host_shape');
@@ -115,15 +378,15 @@ export class DataOciCoreDedicatedVmHostShapesDedicatedVmHostShapesList extends c
 }
 export interface DataOciCoreDedicatedVmHostShapesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#name DataOciCoreDedicatedVmHostShapes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#name DataOciCoreDedicatedVmHostShapes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#regex DataOciCoreDedicatedVmHostShapes#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#regex DataOciCoreDedicatedVmHostShapes#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#values DataOciCoreDedicatedVmHostShapes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#values DataOciCoreDedicatedVmHostShapes#values}
   */
   readonly values: string[];
 }
@@ -291,7 +554,7 @@ export class DataOciCoreDedicatedVmHostShapesFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes oci_core_dedicated_vm_host_shapes}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes oci_core_dedicated_vm_host_shapes}
 */
 export class DataOciCoreDedicatedVmHostShapes extends cdktf.TerraformDataSource {
 
@@ -307,7 +570,7 @@ export class DataOciCoreDedicatedVmHostShapes extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciCoreDedicatedVmHostShapes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreDedicatedVmHostShapes to import
-  * @param importFromId The id of the existing DataOciCoreDedicatedVmHostShapes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreDedicatedVmHostShapes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreDedicatedVmHostShapes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +582,7 @@ export class DataOciCoreDedicatedVmHostShapes extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host_shapes oci_core_dedicated_vm_host_shapes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host_shapes oci_core_dedicated_vm_host_shapes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +593,8 @@ export class DataOciCoreDedicatedVmHostShapes extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_core_dedicated_vm_host_shapes',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,190 +8,190 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualMachineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#availability_zone_reference VirtualMachine#availability_zone_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#availability_zone_reference VirtualMachine#availability_zone_reference}
   */
   readonly availabilityZoneReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#boot_device_disk_address VirtualMachine#boot_device_disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#boot_device_disk_address VirtualMachine#boot_device_disk_address}
   */
   readonly bootDeviceDiskAddress?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#boot_device_mac_address VirtualMachine#boot_device_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#boot_device_mac_address VirtualMachine#boot_device_mac_address}
   */
   readonly bootDeviceMacAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#boot_device_order_list VirtualMachine#boot_device_order_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#boot_device_order_list VirtualMachine#boot_device_order_list}
   */
   readonly bootDeviceOrderList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#boot_type VirtualMachine#boot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#boot_type VirtualMachine#boot_type}
   */
   readonly bootType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#cloud_init_cdrom_uuid VirtualMachine#cloud_init_cdrom_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#cloud_init_cdrom_uuid VirtualMachine#cloud_init_cdrom_uuid}
   */
   readonly cloudInitCdromUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#cluster_uuid VirtualMachine#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#cluster_uuid VirtualMachine#cluster_uuid}
   */
   readonly clusterUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#description VirtualMachine#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#description VirtualMachine#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#enable_cpu_passthrough VirtualMachine#enable_cpu_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#enable_cpu_passthrough VirtualMachine#enable_cpu_passthrough}
   */
   readonly enableCpuPassthrough?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#enable_script_exec VirtualMachine#enable_script_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#enable_script_exec VirtualMachine#enable_script_exec}
   */
   readonly enableScriptExec?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_cloud_init_custom_key_values VirtualMachine#guest_customization_cloud_init_custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_cloud_init_custom_key_values VirtualMachine#guest_customization_cloud_init_custom_key_values}
   */
   readonly guestCustomizationCloudInitCustomKeyValues?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_cloud_init_meta_data VirtualMachine#guest_customization_cloud_init_meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_cloud_init_meta_data VirtualMachine#guest_customization_cloud_init_meta_data}
   */
   readonly guestCustomizationCloudInitMetaData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_cloud_init_user_data VirtualMachine#guest_customization_cloud_init_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_cloud_init_user_data VirtualMachine#guest_customization_cloud_init_user_data}
   */
   readonly guestCustomizationCloudInitUserData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_is_overridable VirtualMachine#guest_customization_is_overridable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_is_overridable VirtualMachine#guest_customization_is_overridable}
   */
   readonly guestCustomizationIsOverridable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_sysprep VirtualMachine#guest_customization_sysprep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_sysprep VirtualMachine#guest_customization_sysprep}
   */
   readonly guestCustomizationSysprep?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_customization_sysprep_custom_key_values VirtualMachine#guest_customization_sysprep_custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_customization_sysprep_custom_key_values VirtualMachine#guest_customization_sysprep_custom_key_values}
   */
   readonly guestCustomizationSysprepCustomKeyValues?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#guest_os_id VirtualMachine#guest_os_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#guest_os_id VirtualMachine#guest_os_id}
   */
   readonly guestOsId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#hardware_clock_timezone VirtualMachine#hardware_clock_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#hardware_clock_timezone VirtualMachine#hardware_clock_timezone}
   */
   readonly hardwareClockTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#id VirtualMachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#id VirtualMachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#is_vcpu_hard_pinned VirtualMachine#is_vcpu_hard_pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#is_vcpu_hard_pinned VirtualMachine#is_vcpu_hard_pinned}
   */
   readonly isVcpuHardPinned?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#machine_type VirtualMachine#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#machine_type VirtualMachine#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#memory_size_mib VirtualMachine#memory_size_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#memory_size_mib VirtualMachine#memory_size_mib}
   */
   readonly memorySizeMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#ngt_credentials VirtualMachine#ngt_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#ngt_credentials VirtualMachine#ngt_credentials}
   */
   readonly ngtCredentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#ngt_enabled_capability_list VirtualMachine#ngt_enabled_capability_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#ngt_enabled_capability_list VirtualMachine#ngt_enabled_capability_list}
   */
   readonly ngtEnabledCapabilityList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#num_sockets VirtualMachine#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#num_sockets VirtualMachine#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#num_vcpus_per_socket VirtualMachine#num_vcpus_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#num_vcpus_per_socket VirtualMachine#num_vcpus_per_socket}
   */
   readonly numVcpusPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#num_vnuma_nodes VirtualMachine#num_vnuma_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#num_vnuma_nodes VirtualMachine#num_vnuma_nodes}
   */
   readonly numVnumaNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#nutanix_guest_tools VirtualMachine#nutanix_guest_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#nutanix_guest_tools VirtualMachine#nutanix_guest_tools}
   */
   readonly nutanixGuestTools?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#owner_reference VirtualMachine#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#owner_reference VirtualMachine#owner_reference}
   */
   readonly ownerReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#parent_reference VirtualMachine#parent_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#parent_reference VirtualMachine#parent_reference}
   */
   readonly parentReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#power_state VirtualMachine#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#power_state VirtualMachine#power_state}
   */
   readonly powerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#power_state_mechanism VirtualMachine#power_state_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#power_state_mechanism VirtualMachine#power_state_mechanism}
   */
   readonly powerStateMechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#project_reference VirtualMachine#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#project_reference VirtualMachine#project_reference}
   */
   readonly projectReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#should_fail_on_script_failure VirtualMachine#should_fail_on_script_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#should_fail_on_script_failure VirtualMachine#should_fail_on_script_failure}
   */
   readonly shouldFailOnScriptFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#use_hot_add VirtualMachine#use_hot_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#use_hot_add VirtualMachine#use_hot_add}
   */
   readonly useHotAdd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#vga_console_enabled VirtualMachine#vga_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#vga_console_enabled VirtualMachine#vga_console_enabled}
   */
   readonly vgaConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#categories VirtualMachine#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#categories VirtualMachine#categories}
   */
   readonly categories?: VirtualMachineCategories[] | cdktf.IResolvable;
   /**
   * disk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#disk_list VirtualMachine#disk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#disk_list VirtualMachine#disk_list}
   */
   readonly diskList?: VirtualMachineDiskListStruct[] | cdktf.IResolvable;
   /**
   * gpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#gpu_list VirtualMachine#gpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#gpu_list VirtualMachine#gpu_list}
   */
   readonly gpuList?: VirtualMachineGpuListStruct[] | cdktf.IResolvable;
   /**
   * nic_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#nic_list VirtualMachine#nic_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#nic_list VirtualMachine#nic_list}
   */
   readonly nicList?: VirtualMachineNicListStruct[] | cdktf.IResolvable;
   /**
   * serial_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#serial_port_list VirtualMachine#serial_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#serial_port_list VirtualMachine#serial_port_list}
   */
   readonly serialPortList?: VirtualMachineSerialPortListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
   */
   readonly timeouts?: VirtualMachineTimeouts;
 }
@@ -409,11 +409,11 @@ export class VirtualMachineNicListStatusList extends cdktf.ComplexList {
 }
 export interface VirtualMachineCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#name VirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#name VirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#value VirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#value VirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -558,11 +558,11 @@ export class VirtualMachineCategoriesList extends cdktf.ComplexList {
 }
 export interface VirtualMachineDiskListDeviceProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#device_type VirtualMachine#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#device_type VirtualMachine#device_type}
   */
   readonly deviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#disk_address VirtualMachine#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#disk_address VirtualMachine#disk_address}
   */
   readonly diskAddress?: { [key: string]: string };
 }
@@ -675,15 +675,15 @@ export class VirtualMachineDiskListDevicePropertiesOutputReference extends cdktf
 }
 export interface VirtualMachineDiskListStorageConfigStorageContainerReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#kind VirtualMachine#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#kind VirtualMachine#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#url VirtualMachine#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#url VirtualMachine#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
   */
   readonly uuid?: string;
 }
@@ -862,13 +862,13 @@ export class VirtualMachineDiskListStorageConfigStorageContainerReferenceList ex
 }
 export interface VirtualMachineDiskListStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#flash_mode VirtualMachine#flash_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#flash_mode VirtualMachine#flash_mode}
   */
   readonly flashMode?: string;
   /**
   * storage_container_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#storage_container_reference VirtualMachine#storage_container_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#storage_container_reference VirtualMachine#storage_container_reference}
   */
   readonly storageContainerReference?: VirtualMachineDiskListStorageConfigStorageContainerReference[] | cdktf.IResolvable;
 }
@@ -981,35 +981,35 @@ export class VirtualMachineDiskListStorageConfigOutputReference extends cdktf.Co
 }
 export interface VirtualMachineDiskListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#data_source_reference VirtualMachine#data_source_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#data_source_reference VirtualMachine#data_source_reference}
   */
   readonly dataSourceReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#disk_size_bytes VirtualMachine#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#disk_size_bytes VirtualMachine#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#disk_size_mib VirtualMachine#disk_size_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#disk_size_mib VirtualMachine#disk_size_mib}
   */
   readonly diskSizeMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#volume_group_reference VirtualMachine#volume_group_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#volume_group_reference VirtualMachine#volume_group_reference}
   */
   readonly volumeGroupReference?: { [key: string]: string };
   /**
   * device_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#device_properties VirtualMachine#device_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#device_properties VirtualMachine#device_properties}
   */
   readonly deviceProperties?: VirtualMachineDiskListDeviceProperties;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#storage_config VirtualMachine#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#storage_config VirtualMachine#storage_config}
   */
   readonly storageConfig?: VirtualMachineDiskListStorageConfig;
 }
@@ -1299,15 +1299,15 @@ export class VirtualMachineDiskListStructList extends cdktf.ComplexList {
 }
 export interface VirtualMachineGpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#device_id VirtualMachine#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#device_id VirtualMachine#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#mode VirtualMachine#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#mode VirtualMachine#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#vendor VirtualMachine#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#vendor VirtualMachine#vendor}
   */
   readonly vendor?: string;
 }
@@ -1516,11 +1516,11 @@ export class VirtualMachineGpuListStructList extends cdktf.ComplexList {
 }
 export interface VirtualMachineNicListIpEndpointListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#ip VirtualMachine#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#ip VirtualMachine#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#type VirtualMachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#type VirtualMachine#type}
   */
   readonly type?: string;
 }
@@ -1665,49 +1665,49 @@ export class VirtualMachineNicListIpEndpointListStructList extends cdktf.Complex
 }
 export interface VirtualMachineNicListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#is_connected VirtualMachine#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#is_connected VirtualMachine#is_connected}
   */
   readonly isConnected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#mac_address VirtualMachine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#mac_address VirtualMachine#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#model VirtualMachine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#model VirtualMachine#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#network_function_chain_reference VirtualMachine#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#network_function_chain_reference VirtualMachine#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#network_function_nic_type VirtualMachine#network_function_nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#network_function_nic_type VirtualMachine#network_function_nic_type}
   */
   readonly networkFunctionNicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#nic_type VirtualMachine#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#nic_type VirtualMachine#nic_type}
   */
   readonly nicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#num_queues VirtualMachine#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#num_queues VirtualMachine#num_queues}
   */
   readonly numQueues?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#subnet_name VirtualMachine#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#subnet_name VirtualMachine#subnet_name}
   */
   readonly subnetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#subnet_uuid VirtualMachine#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#subnet_uuid VirtualMachine#subnet_uuid}
   */
   readonly subnetUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#uuid VirtualMachine#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_endpoint_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#ip_endpoint_list VirtualMachine#ip_endpoint_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#ip_endpoint_list VirtualMachine#ip_endpoint_list}
   */
   readonly ipEndpointList?: VirtualMachineNicListIpEndpointListStruct[] | cdktf.IResolvable;
 }
@@ -2113,11 +2113,11 @@ export class VirtualMachineNicListStructList extends cdktf.ComplexList {
 }
 export interface VirtualMachineSerialPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#index VirtualMachine#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#index VirtualMachine#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#is_connected VirtualMachine#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#is_connected VirtualMachine#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
 }
@@ -2262,15 +2262,15 @@ export class VirtualMachineSerialPortListStructList extends cdktf.ComplexList {
 }
 export interface VirtualMachineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#create VirtualMachine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#create VirtualMachine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#delete VirtualMachine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#delete VirtualMachine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#update VirtualMachine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#update VirtualMachine#update}
   */
   readonly update?: string;
 }
@@ -2422,7 +2422,7 @@ export class VirtualMachineTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine nutanix_virtual_machine}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine nutanix_virtual_machine}
 */
 export class VirtualMachine extends cdktf.TerraformResource {
 
@@ -2438,7 +2438,7 @@ export class VirtualMachine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualMachine to import
-  * @param importFromId The id of the existing VirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2450,7 +2450,7 @@ export class VirtualMachine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/virtual_machine nutanix_virtual_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/virtual_machine nutanix_virtual_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2461,8 +2461,8 @@ export class VirtualMachine extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_virtual_machine',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VnicIscsiAdapterPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#account_moid VnicIscsiAdapterPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#account_moid VnicIscsiAdapterPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#ancestors VnicIscsiAdapterPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#ancestors VnicIscsiAdapterPolicy#ancestors}
   */
   readonly ancestors?: VnicIscsiAdapterPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,41 +28,41 @@ export interface VnicIscsiAdapterPolicyConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The number of seconds to wait until Cisco UCS assumes that the initial login has failed and the iSCSI adapter is unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#connection_time_out VnicIscsiAdapterPolicy#connection_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#connection_time_out VnicIscsiAdapterPolicy#connection_time_out}
   */
   readonly connectionTimeOut?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#create_time VnicIscsiAdapterPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#create_time VnicIscsiAdapterPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#description VnicIscsiAdapterPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#description VnicIscsiAdapterPolicy#description}
   */
   readonly description?: string;
   /**
   * The number of seconds to wait before the initiator assumes that the DHCP server is unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#dhcp_timeout VnicIscsiAdapterPolicy#dhcp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#dhcp_timeout VnicIscsiAdapterPolicy#dhcp_timeout}
   */
   readonly dhcpTimeout?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#domain_group_moid VnicIscsiAdapterPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#domain_group_moid VnicIscsiAdapterPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#id VnicIscsiAdapterPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#id VnicIscsiAdapterPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,95 +71,95 @@ export interface VnicIscsiAdapterPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * The number of times to retry the connection in case of a failure during iSCSI LUN discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#lun_busy_retry_count VnicIscsiAdapterPolicy#lun_busy_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#lun_busy_retry_count VnicIscsiAdapterPolicy#lun_busy_retry_count}
   */
   readonly lunBusyRetryCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#mod_time VnicIscsiAdapterPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#mod_time VnicIscsiAdapterPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#name VnicIscsiAdapterPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#name VnicIscsiAdapterPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#organization VnicIscsiAdapterPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#organization VnicIscsiAdapterPolicy#organization}
   */
   readonly organization?: VnicIscsiAdapterPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#owners VnicIscsiAdapterPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#owners VnicIscsiAdapterPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#parent VnicIscsiAdapterPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#parent VnicIscsiAdapterPolicy#parent}
   */
   readonly parent?: VnicIscsiAdapterPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#permission_resources VnicIscsiAdapterPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#permission_resources VnicIscsiAdapterPolicy#permission_resources}
   */
   readonly permissionResources?: VnicIscsiAdapterPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#shared_scope VnicIscsiAdapterPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#shared_scope VnicIscsiAdapterPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#tags VnicIscsiAdapterPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#tags VnicIscsiAdapterPolicy#tags}
   */
   readonly tags?: VnicIscsiAdapterPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#version_context VnicIscsiAdapterPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#version_context VnicIscsiAdapterPolicy#version_context}
   */
   readonly versionContext?: VnicIscsiAdapterPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface VnicIscsiAdapterPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -391,23 +391,23 @@ export class VnicIscsiAdapterPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface VnicIscsiAdapterPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -639,23 +639,23 @@ export class VnicIscsiAdapterPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface VnicIscsiAdapterPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -887,23 +887,23 @@ export class VnicIscsiAdapterPolicyParentList extends cdktf.ComplexList {
 }
 export interface VnicIscsiAdapterPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1135,23 +1135,23 @@ export class VnicIscsiAdapterPolicyPermissionResourcesList extends cdktf.Complex
 }
 export interface VnicIscsiAdapterPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1383,23 +1383,23 @@ export class VnicIscsiAdapterPolicyTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface VnicIscsiAdapterPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1631,31 +1631,35 @@ export class VnicIscsiAdapterPolicyTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface VnicIscsiAdapterPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#ancestor_definitions VnicIscsiAdapterPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#ancestor_definitions VnicIscsiAdapterPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VnicIscsiAdapterPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#definition VnicIscsiAdapterPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#definition VnicIscsiAdapterPolicy#definition}
   */
   readonly definition?: VnicIscsiAdapterPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#key VnicIscsiAdapterPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#key VnicIscsiAdapterPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#propagated VnicIscsiAdapterPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#propagated VnicIscsiAdapterPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#type VnicIscsiAdapterPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#sys_tag VnicIscsiAdapterPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#type VnicIscsiAdapterPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#value VnicIscsiAdapterPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#value VnicIscsiAdapterPolicy#value}
   */
   readonly value?: string;
 }
@@ -1671,6 +1675,7 @@ export function vnicIscsiAdapterPolicyTagsToTerraform(struct?: VnicIscsiAdapterP
     definition: cdktf.listMapper(vnicIscsiAdapterPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1709,6 +1714,12 @@ export function vnicIscsiAdapterPolicyTagsToHclTerraform(struct?: VnicIscsiAdapt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1771,6 +1782,10 @@ export class VnicIscsiAdapterPolicyTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1791,6 +1806,7 @@ export class VnicIscsiAdapterPolicyTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1806,6 +1822,7 @@ export class VnicIscsiAdapterPolicyTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1891,6 +1908,22 @@ export class VnicIscsiAdapterPolicyTagsOutputReference extends cdktf.ComplexObje
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1945,23 +1978,23 @@ export class VnicIscsiAdapterPolicyTagsList extends cdktf.ComplexList {
 }
 export interface VnicIscsiAdapterPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2193,23 +2226,23 @@ export class VnicIscsiAdapterPolicyVersionContextInterestedMosList extends cdktf
 }
 export interface VnicIscsiAdapterPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#moid VnicIscsiAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#selector VnicIscsiAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2441,39 +2474,39 @@ export class VnicIscsiAdapterPolicyVersionContextRefMoList extends cdktf.Complex
 }
 export interface VnicIscsiAdapterPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#additional_properties VnicIscsiAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#class_id VnicIscsiAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#interested_mos VnicIscsiAdapterPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#interested_mos VnicIscsiAdapterPolicy#interested_mos}
   */
   readonly interestedMos?: VnicIscsiAdapterPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#marked_for_deletion VnicIscsiAdapterPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#marked_for_deletion VnicIscsiAdapterPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#nr_version VnicIscsiAdapterPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#nr_version VnicIscsiAdapterPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#object_type VnicIscsiAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#ref_mo VnicIscsiAdapterPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#ref_mo VnicIscsiAdapterPolicy#ref_mo}
   */
   readonly refMo?: VnicIscsiAdapterPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#timestamp VnicIscsiAdapterPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#timestamp VnicIscsiAdapterPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#version_type VnicIscsiAdapterPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#version_type VnicIscsiAdapterPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -2821,7 +2854,7 @@ export class VnicIscsiAdapterPolicyVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy intersight_vnic_iscsi_adapter_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy intersight_vnic_iscsi_adapter_policy}
 */
 export class VnicIscsiAdapterPolicy extends cdktf.TerraformResource {
 
@@ -2837,7 +2870,7 @@ export class VnicIscsiAdapterPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VnicIscsiAdapterPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VnicIscsiAdapterPolicy to import
-  * @param importFromId The id of the existing VnicIscsiAdapterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VnicIscsiAdapterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VnicIscsiAdapterPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2849,7 +2882,7 @@ export class VnicIscsiAdapterPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_iscsi_adapter_policy intersight_vnic_iscsi_adapter_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_adapter_policy intersight_vnic_iscsi_adapter_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2860,8 +2893,8 @@ export class VnicIscsiAdapterPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_vnic_iscsi_adapter_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

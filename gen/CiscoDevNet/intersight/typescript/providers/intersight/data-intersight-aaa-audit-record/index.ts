@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightAaaAuditRecordConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#account_moid DataIntersightAaaAuditRecord#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#account_moid DataIntersightAaaAuditRecord#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The user-friendly label for the object type that was changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#affected_object_type_label DataIntersightAaaAuditRecord#affected_object_type_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#affected_object_type_label DataIntersightAaaAuditRecord#affected_object_type_label}
   */
   readonly affectedObjectTypeLabel?: string;
   /**
@@ -28,54 +28,54 @@ export interface DataIntersightAaaAuditRecordConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#create_time DataIntersightAaaAuditRecord#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#create_time DataIntersightAaaAuditRecord#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#domain_group_moid DataIntersightAaaAuditRecord#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#domain_group_moid DataIntersightAaaAuditRecord#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The email of the associated user that made the change.  In case the user is later deleted, we still have some reference to the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#email DataIntersightAaaAuditRecord#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#email DataIntersightAaaAuditRecord#email}
   */
   readonly email?: string;
   /**
   * The operation that was performed on this Managed Object.
   * The event is a compound string that includes the CRUD operation such as Create, Modify, Delete, and a string representing the Managed Object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#event DataIntersightAaaAuditRecord#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#event DataIntersightAaaAuditRecord#event}
   */
   readonly event?: string;
   /**
   * The REST URL for the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#http_operation DataIntersightAaaAuditRecord#http_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#http_operation DataIntersightAaaAuditRecord#http_operation}
   */
   readonly httpOperation?: string;
   /**
   * The response code of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#http_response_code DataIntersightAaaAuditRecord#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#http_response_code DataIntersightAaaAuditRecord#http_response_code}
   */
   readonly httpResponseCode?: number;
   /**
   * The response body of the operation, with JSON truncated to 2 nested levels when its size exceeds 10KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#http_response_payload DataIntersightAaaAuditRecord#http_response_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#http_response_payload DataIntersightAaaAuditRecord#http_response_payload}
   */
   readonly httpResponsePayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#id DataIntersightAaaAuditRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#id DataIntersightAaaAuditRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,79 +84,79 @@ export interface DataIntersightAaaAuditRecordConfig extends cdktf.TerraformMetaA
   /**
   * The instance id of AuditRecordLocal, which is used to identify if the comming AuditRecordLocal was already processed before.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#inst_id DataIntersightAaaAuditRecord#inst_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#inst_id DataIntersightAaaAuditRecord#inst_id}
   */
   readonly instId?: string;
   /**
   * The user-friendly names of the changed MO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#mo_display_names DataIntersightAaaAuditRecord#mo_display_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#mo_display_names DataIntersightAaaAuditRecord#mo_display_names}
   */
   readonly moDisplayNames?: string;
   /**
   * The object type of the REST resource that was created, modified or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#mo_type DataIntersightAaaAuditRecord#mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#mo_type DataIntersightAaaAuditRecord#mo_type}
   */
   readonly moType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#mod_time DataIntersightAaaAuditRecord#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#mod_time DataIntersightAaaAuditRecord#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The Moid of the REST resource that was created, modified or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_moid DataIntersightAaaAuditRecord#object_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_moid DataIntersightAaaAuditRecord#object_moid}
   */
   readonly objectMoid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#owners DataIntersightAaaAuditRecord#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#owners DataIntersightAaaAuditRecord#owners}
   */
   readonly owners?: string[];
   /**
   * The body of the REST request that was received from a client to create or modify a REST resource, represented as a JSON document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#request DataIntersightAaaAuditRecord#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#request DataIntersightAaaAuditRecord#request}
   */
   readonly request?: string;
   /**
   * The sessionId in which the user made the change. In case that the session is later deleted, we still have some reference to the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#session_id DataIntersightAaaAuditRecord#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#session_id DataIntersightAaaAuditRecord#session_id}
   */
   readonly sessionId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#shared_scope DataIntersightAaaAuditRecord#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#shared_scope DataIntersightAaaAuditRecord#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The source IP of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#source_ip DataIntersightAaaAuditRecord#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#source_ip DataIntersightAaaAuditRecord#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * The creation time of AuditRecordLocal, which is the time when the affected MO was created/modified/deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#timestamp DataIntersightAaaAuditRecord#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#timestamp DataIntersightAaaAuditRecord#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -164,73 +164,73 @@ export interface DataIntersightAaaAuditRecordConfig extends cdktf.TerraformMetaA
   * A trace id is a unique identifier for one particular REST request. It may be used for troubleshooting purpose
   * by the Intersight technical support team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#trace_id DataIntersightAaaAuditRecord#trace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#trace_id DataIntersightAaaAuditRecord#trace_id}
   */
   readonly traceId?: string;
   /**
   * The raw, string representation of the user agent of the request from the user-agent http request header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#user_agent_string DataIntersightAaaAuditRecord#user_agent_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#user_agent_string DataIntersightAaaAuditRecord#user_agent_string}
   */
   readonly userAgentString?: string;
   /**
   * The userId or the email of the associated user that made the change. In case that user is later deleted, we still have some reference to the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#user_id_or_email DataIntersightAaaAuditRecord#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#user_id_or_email DataIntersightAaaAuditRecord#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#account DataIntersightAaaAuditRecord#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#account DataIntersightAaaAuditRecord#account}
   */
   readonly account?: DataIntersightAaaAuditRecordAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#ancestors DataIntersightAaaAuditRecord#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#ancestors DataIntersightAaaAuditRecord#ancestors}
   */
   readonly ancestors?: DataIntersightAaaAuditRecordAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#parent DataIntersightAaaAuditRecord#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#parent DataIntersightAaaAuditRecord#parent}
   */
   readonly parent?: DataIntersightAaaAuditRecordParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#permission_resources DataIntersightAaaAuditRecord#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#permission_resources DataIntersightAaaAuditRecord#permission_resources}
   */
   readonly permissionResources?: DataIntersightAaaAuditRecordPermissionResources[] | cdktf.IResolvable;
   /**
   * sessions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#sessions DataIntersightAaaAuditRecord#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#sessions DataIntersightAaaAuditRecord#sessions}
   */
   readonly sessions?: DataIntersightAaaAuditRecordSessions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#tags DataIntersightAaaAuditRecord#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#tags DataIntersightAaaAuditRecord#tags}
   */
   readonly tags?: DataIntersightAaaAuditRecordTags[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#user DataIntersightAaaAuditRecord#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#user DataIntersightAaaAuditRecord#user}
   */
   readonly user?: DataIntersightAaaAuditRecordUser;
   /**
   * user_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#user_agent DataIntersightAaaAuditRecord#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#user_agent DataIntersightAaaAuditRecord#user_agent}
   */
   readonly userAgent?: DataIntersightAaaAuditRecordUserAgent;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#version_context DataIntersightAaaAuditRecord#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#version_context DataIntersightAaaAuditRecord#version_context}
   */
   readonly versionContext?: DataIntersightAaaAuditRecordVersionContext;
 }
@@ -975,6 +975,11 @@ export class DataIntersightAaaAuditRecordResultsTagsOutputReference extends cdkt
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1784,7 +1789,7 @@ export class DataIntersightAaaAuditRecordResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAaaAuditRecordAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1792,19 +1797,19 @@ export interface DataIntersightAaaAuditRecordAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1817,7 +1822,7 @@ export interface DataIntersightAaaAuditRecordAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -2017,7 +2022,7 @@ export class DataIntersightAaaAuditRecordAccountOutputReference extends cdktf.Co
 }
 export interface DataIntersightAaaAuditRecordAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2025,19 +2030,19 @@ export interface DataIntersightAaaAuditRecordAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2050,7 +2055,7 @@ export interface DataIntersightAaaAuditRecordAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -2282,7 +2287,7 @@ export class DataIntersightAaaAuditRecordAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightAaaAuditRecordParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2290,19 +2295,19 @@ export interface DataIntersightAaaAuditRecordParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2315,7 +2320,7 @@ export interface DataIntersightAaaAuditRecordParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -2515,7 +2520,7 @@ export class DataIntersightAaaAuditRecordParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightAaaAuditRecordPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2523,19 +2528,19 @@ export interface DataIntersightAaaAuditRecordPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2548,7 +2553,7 @@ export interface DataIntersightAaaAuditRecordPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -2780,7 +2785,7 @@ export class DataIntersightAaaAuditRecordPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightAaaAuditRecordSessions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2788,19 +2793,19 @@ export interface DataIntersightAaaAuditRecordSessions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2813,7 +2818,7 @@ export interface DataIntersightAaaAuditRecordSessions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -3013,7 +3018,7 @@ export class DataIntersightAaaAuditRecordSessionsOutputReference extends cdktf.C
 }
 export interface DataIntersightAaaAuditRecordTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3021,19 +3026,19 @@ export interface DataIntersightAaaAuditRecordTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3046,7 +3051,7 @@ export interface DataIntersightAaaAuditRecordTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -3278,7 +3283,7 @@ export class DataIntersightAaaAuditRecordTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightAaaAuditRecordTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3286,19 +3291,19 @@ export interface DataIntersightAaaAuditRecordTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3311,7 +3316,7 @@ export interface DataIntersightAaaAuditRecordTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -3511,45 +3516,51 @@ export class DataIntersightAaaAuditRecordTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightAaaAuditRecordTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#key DataIntersightAaaAuditRecord#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#key DataIntersightAaaAuditRecord#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#propagated DataIntersightAaaAuditRecord#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#propagated DataIntersightAaaAuditRecord#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#sys_tag DataIntersightAaaAuditRecord#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#type DataIntersightAaaAuditRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#type DataIntersightAaaAuditRecord#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#value DataIntersightAaaAuditRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#value DataIntersightAaaAuditRecord#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#ancestor_definitions DataIntersightAaaAuditRecord#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#ancestor_definitions DataIntersightAaaAuditRecord#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAaaAuditRecordTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#definition DataIntersightAaaAuditRecord#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#definition DataIntersightAaaAuditRecord#definition}
   */
   readonly definition?: DataIntersightAaaAuditRecordTagsDefinition;
 }
@@ -3563,6 +3574,7 @@ export function dataIntersightAaaAuditRecordTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightAaaAuditRecordTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3591,6 +3603,12 @@ export function dataIntersightAaaAuditRecordTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3657,6 +3675,10 @@ export class DataIntersightAaaAuditRecordTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3683,6 +3705,7 @@ export class DataIntersightAaaAuditRecordTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3698,6 +3721,7 @@ export class DataIntersightAaaAuditRecordTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3751,6 +3775,22 @@ export class DataIntersightAaaAuditRecordTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3839,7 +3879,7 @@ export class DataIntersightAaaAuditRecordTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAaaAuditRecordUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3847,19 +3887,19 @@ export interface DataIntersightAaaAuditRecordUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3872,7 +3912,7 @@ export interface DataIntersightAaaAuditRecordUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -4072,7 +4112,7 @@ export class DataIntersightAaaAuditRecordUserOutputReference extends cdktf.Compl
 }
 export interface DataIntersightAaaAuditRecordUserAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4080,55 +4120,55 @@ export interface DataIntersightAaaAuditRecordUserAgent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
   * The type of operating system that sent the request.
   * Not applicable to Intersight SDK requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#os_family DataIntersightAaaAuditRecord#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#os_family DataIntersightAaaAuditRecord#os_family}
   */
   readonly osFamily?: string;
   /**
   * The version of the operating system that sent the request.
   * Not applicable for Intersight SDK requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#os_version DataIntersightAaaAuditRecord#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#os_version DataIntersightAaaAuditRecord#os_version}
   */
   readonly osVersion?: string;
   /**
   * The type of client that made the request.
   * For browser requests, it is the specific browser that made the request (e.g. Chrome, Firefox, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#software_family DataIntersightAaaAuditRecord#software_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#software_family DataIntersightAaaAuditRecord#software_family}
   */
   readonly softwareFamily?: string;
   /**
   * The subtype of software that made the request.
   * For SDK requests, this is the programming language used in the SDK. For browser requests, this provides additional context on the client (e.g. if the client is running on a mobile device).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#software_subtype DataIntersightAaaAuditRecord#software_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#software_subtype DataIntersightAaaAuditRecord#software_subtype}
   */
   readonly softwareSubtype?: string;
   /**
   * The type of application that made the request.
   * This can be a browser or some other software, such as an SDK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#software_type DataIntersightAaaAuditRecord#software_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#software_type DataIntersightAaaAuditRecord#software_type}
   */
   readonly softwareType?: string;
   /**
   * The version of the client that made the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#software_version DataIntersightAaaAuditRecord#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#software_version DataIntersightAaaAuditRecord#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -4444,7 +4484,7 @@ export class DataIntersightAaaAuditRecordUserAgentOutputReference extends cdktf.
 }
 export interface DataIntersightAaaAuditRecordVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4452,19 +4492,19 @@ export interface DataIntersightAaaAuditRecordVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4477,7 +4517,7 @@ export interface DataIntersightAaaAuditRecordVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -4709,7 +4749,7 @@ export class DataIntersightAaaAuditRecordVersionContextInterestedMosList extends
 }
 export interface DataIntersightAaaAuditRecordVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4717,19 +4757,19 @@ export interface DataIntersightAaaAuditRecordVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#moid DataIntersightAaaAuditRecord#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4742,7 +4782,7 @@ export interface DataIntersightAaaAuditRecordVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#selector DataIntersightAaaAuditRecord#selector}
   */
   readonly selector?: string;
 }
@@ -4942,7 +4982,7 @@ export class DataIntersightAaaAuditRecordVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightAaaAuditRecordVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#additional_properties DataIntersightAaaAuditRecord#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4950,32 +4990,32 @@ export interface DataIntersightAaaAuditRecordVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#class_id DataIntersightAaaAuditRecord#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#marked_for_deletion DataIntersightAaaAuditRecord#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#marked_for_deletion DataIntersightAaaAuditRecord#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#nr_version DataIntersightAaaAuditRecord#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#nr_version DataIntersightAaaAuditRecord#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#object_type DataIntersightAaaAuditRecord#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#timestamp DataIntersightAaaAuditRecord#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#timestamp DataIntersightAaaAuditRecord#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4986,19 +5026,19 @@ export interface DataIntersightAaaAuditRecordVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#version_type DataIntersightAaaAuditRecord#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#version_type DataIntersightAaaAuditRecord#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#interested_mos DataIntersightAaaAuditRecord#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#interested_mos DataIntersightAaaAuditRecord#interested_mos}
   */
   readonly interestedMos?: DataIntersightAaaAuditRecordVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#ref_mo DataIntersightAaaAuditRecord#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#ref_mo DataIntersightAaaAuditRecord#ref_mo}
   */
   readonly refMo?: DataIntersightAaaAuditRecordVersionContextRefMo;
 }
@@ -5314,7 +5354,7 @@ export class DataIntersightAaaAuditRecordVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record intersight_aaa_audit_record}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record intersight_aaa_audit_record}
 */
 export class DataIntersightAaaAuditRecord extends cdktf.TerraformDataSource {
 
@@ -5330,7 +5370,7 @@ export class DataIntersightAaaAuditRecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightAaaAuditRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAaaAuditRecord to import
-  * @param importFromId The id of the existing DataIntersightAaaAuditRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAaaAuditRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAaaAuditRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5342,7 +5382,7 @@ export class DataIntersightAaaAuditRecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_audit_record intersight_aaa_audit_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_audit_record intersight_aaa_audit_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5353,8 +5393,8 @@ export class DataIntersightAaaAuditRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_aaa_audit_record',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

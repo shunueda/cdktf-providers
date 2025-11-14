@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectStoreV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#certificate_ext_ids ObjectStoreV2#certificate_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#certificate_ext_ids ObjectStoreV2#certificate_ext_ids}
   */
   readonly certificateExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#cluster_ext_id ObjectStoreV2#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#cluster_ext_id ObjectStoreV2#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#deployment_version ObjectStoreV2#deployment_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#deployment_version ObjectStoreV2#deployment_version}
   */
   readonly deploymentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#description ObjectStoreV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#description ObjectStoreV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#domain ObjectStoreV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#domain ObjectStoreV2#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#id ObjectStoreV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#id ObjectStoreV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#name ObjectStoreV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#name ObjectStoreV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#num_worker_nodes ObjectStoreV2#num_worker_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#num_worker_nodes ObjectStoreV2#num_worker_nodes}
   */
   readonly numWorkerNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#public_network_reference ObjectStoreV2#public_network_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#public_network_reference ObjectStoreV2#public_network_reference}
   */
   readonly publicNetworkReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#region ObjectStoreV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#region ObjectStoreV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#state ObjectStoreV2#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#state ObjectStoreV2#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#storage_network_reference ObjectStoreV2#storage_network_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#storage_network_reference ObjectStoreV2#storage_network_reference}
   */
   readonly storageNetworkReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#total_capacity_gib ObjectStoreV2#total_capacity_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#total_capacity_gib ObjectStoreV2#total_capacity_gib}
   */
   readonly totalCapacityGib?: number;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#metadata ObjectStoreV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#metadata ObjectStoreV2#metadata}
   */
   readonly metadata?: ObjectStoreV2Metadata[] | cdktf.IResolvable;
   /**
   * public_network_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#public_network_ips ObjectStoreV2#public_network_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#public_network_ips ObjectStoreV2#public_network_ips}
   */
   readonly publicNetworkIps?: ObjectStoreV2PublicNetworkIps[] | cdktf.IResolvable;
   /**
   * storage_network_dns_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#storage_network_dns_ip ObjectStoreV2#storage_network_dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#storage_network_dns_ip ObjectStoreV2#storage_network_dns_ip}
   */
   readonly storageNetworkDnsIp?: ObjectStoreV2StorageNetworkDnsIp;
   /**
   * storage_network_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#storage_network_vip ObjectStoreV2#storage_network_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#storage_network_vip ObjectStoreV2#storage_network_vip}
   */
   readonly storageNetworkVip?: ObjectStoreV2StorageNetworkVip;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#timeouts ObjectStoreV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#timeouts ObjectStoreV2#timeouts}
   */
   readonly timeouts?: ObjectStoreV2Timeouts;
 }
@@ -175,23 +175,23 @@ export class ObjectStoreV2LinksList extends cdktf.ComplexList {
 }
 export interface ObjectStoreV2Metadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#category_ids ObjectStoreV2#category_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#category_ids ObjectStoreV2#category_ids}
   */
   readonly categoryIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#owner_reference_id ObjectStoreV2#owner_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#owner_reference_id ObjectStoreV2#owner_reference_id}
   */
   readonly ownerReferenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#owner_user_name ObjectStoreV2#owner_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#owner_user_name ObjectStoreV2#owner_user_name}
   */
   readonly ownerUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#project_name ObjectStoreV2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#project_name ObjectStoreV2#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#project_reference_id ObjectStoreV2#project_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#project_reference_id ObjectStoreV2#project_reference_id}
   */
   readonly projectReferenceId?: string;
 }
@@ -423,11 +423,11 @@ export class ObjectStoreV2MetadataList extends cdktf.ComplexList {
 }
 export interface ObjectStoreV2PublicNetworkIpsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -537,11 +537,11 @@ export class ObjectStoreV2PublicNetworkIpsIpv4OutputReference extends cdktf.Comp
 }
 export interface ObjectStoreV2PublicNetworkIpsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -653,13 +653,13 @@ export interface ObjectStoreV2PublicNetworkIps {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
   */
   readonly ipv4?: ObjectStoreV2PublicNetworkIpsIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
   */
   readonly ipv6?: ObjectStoreV2PublicNetworkIpsIpv6;
 }
@@ -804,11 +804,11 @@ export class ObjectStoreV2PublicNetworkIpsList extends cdktf.ComplexList {
 }
 export interface ObjectStoreV2StorageNetworkDnsIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -918,11 +918,11 @@ export class ObjectStoreV2StorageNetworkDnsIpIpv4OutputReference extends cdktf.C
 }
 export interface ObjectStoreV2StorageNetworkDnsIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -1034,13 +1034,13 @@ export interface ObjectStoreV2StorageNetworkDnsIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
   */
   readonly ipv4?: ObjectStoreV2StorageNetworkDnsIpIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
   */
   readonly ipv6?: ObjectStoreV2StorageNetworkDnsIpIpv6;
 }
@@ -1153,11 +1153,11 @@ export class ObjectStoreV2StorageNetworkDnsIpOutputReference extends cdktf.Compl
 }
 export interface ObjectStoreV2StorageNetworkVipIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -1267,11 +1267,11 @@ export class ObjectStoreV2StorageNetworkVipIpv4OutputReference extends cdktf.Com
 }
 export interface ObjectStoreV2StorageNetworkVipIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#prefix_length ObjectStoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#value ObjectStoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#value ObjectStoreV2#value}
   */
   readonly value: string;
 }
@@ -1383,13 +1383,13 @@ export interface ObjectStoreV2StorageNetworkVip {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv4 ObjectStoreV2#ipv4}
   */
   readonly ipv4?: ObjectStoreV2StorageNetworkVipIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#ipv6 ObjectStoreV2#ipv6}
   */
   readonly ipv6?: ObjectStoreV2StorageNetworkVipIpv6;
 }
@@ -1502,19 +1502,19 @@ export class ObjectStoreV2StorageNetworkVipOutputReference extends cdktf.Complex
 }
 export interface ObjectStoreV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#create ObjectStoreV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#create ObjectStoreV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#default ObjectStoreV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#default ObjectStoreV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#delete ObjectStoreV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#delete ObjectStoreV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#update ObjectStoreV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#update ObjectStoreV2#update}
   */
   readonly update?: string;
 }
@@ -1695,7 +1695,7 @@ export class ObjectStoreV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2 nutanix_object_store_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2 nutanix_object_store_v2}
 */
 export class ObjectStoreV2 extends cdktf.TerraformResource {
 
@@ -1711,7 +1711,7 @@ export class ObjectStoreV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStoreV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStoreV2 to import
-  * @param importFromId The id of the existing ObjectStoreV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStoreV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStoreV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1723,7 +1723,7 @@ export class ObjectStoreV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/object_store_v2 nutanix_object_store_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/object_store_v2 nutanix_object_store_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1734,8 +1734,8 @@ export class ObjectStoreV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_object_store_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

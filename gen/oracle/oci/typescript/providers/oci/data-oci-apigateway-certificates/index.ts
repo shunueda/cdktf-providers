@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApigatewayCertificatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#compartment_id DataOciApigatewayCertificates#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#compartment_id DataOciApigatewayCertificates#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#display_name DataOciApigatewayCertificates#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#display_name DataOciApigatewayCertificates#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#id DataOciApigatewayCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#id DataOciApigatewayCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#state DataOciApigatewayCertificates#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#state DataOciApigatewayCertificates#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#filter DataOciApigatewayCertificates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#filter DataOciApigatewayCertificates#filter}
   */
   readonly filter?: DataOciApigatewayCertificatesFilter[] | cdktf.IResolvable;
 }
@@ -360,15 +360,15 @@ export class DataOciApigatewayCertificatesCertificateCollectionList extends cdkt
 }
 export interface DataOciApigatewayCertificatesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#name DataOciApigatewayCertificates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#name DataOciApigatewayCertificates#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#regex DataOciApigatewayCertificates#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#regex DataOciApigatewayCertificates#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#values DataOciApigatewayCertificates#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#values DataOciApigatewayCertificates#values}
   */
   readonly values: string[];
 }
@@ -536,7 +536,7 @@ export class DataOciApigatewayCertificatesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates oci_apigateway_certificates}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates oci_apigateway_certificates}
 */
 export class DataOciApigatewayCertificates extends cdktf.TerraformDataSource {
 
@@ -552,7 +552,7 @@ export class DataOciApigatewayCertificates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApigatewayCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApigatewayCertificates to import
-  * @param importFromId The id of the existing DataOciApigatewayCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApigatewayCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApigatewayCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class DataOciApigatewayCertificates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apigateway_certificates oci_apigateway_certificates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apigateway_certificates oci_apigateway_certificates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class DataOciApigatewayCertificates extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apigateway_certificates',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

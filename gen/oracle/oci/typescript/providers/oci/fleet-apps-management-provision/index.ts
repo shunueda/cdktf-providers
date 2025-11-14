@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementProvisionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}
   */
   readonly configCatalogItemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}
   */
   readonly packageCatalogItemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}
   */
   readonly provisionDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}
   */
   readonly tfVariableCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}
   */
   readonly tfVariableCurrentUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}
   */
   readonly tfVariableRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}
   */
   readonly tfVariableTenancyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
   */
   readonly timeouts?: FleetAppsManagementProvisionTimeouts;
 }
@@ -347,15 +347,15 @@ export class FleetAppsManagementProvisionTfOutputsList extends cdktf.ComplexList
 }
 export interface FleetAppsManagementProvisionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#create FleetAppsManagementProvision#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#create FleetAppsManagementProvision#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#delete FleetAppsManagementProvision#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#delete FleetAppsManagementProvision#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#update FleetAppsManagementProvision#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#update FleetAppsManagementProvision#update}
   */
   readonly update?: string;
 }
@@ -507,7 +507,7 @@ export class FleetAppsManagementProvisionTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision oci_fleet_apps_management_provision}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision oci_fleet_apps_management_provision}
 */
 export class FleetAppsManagementProvision extends cdktf.TerraformResource {
 
@@ -523,7 +523,7 @@ export class FleetAppsManagementProvision extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementProvision resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementProvision to import
-  * @param importFromId The id of the existing FleetAppsManagementProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementProvision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -535,7 +535,7 @@ export class FleetAppsManagementProvision extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_provision oci_fleet_apps_management_provision} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_provision oci_fleet_apps_management_provision} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,8 +546,8 @@ export class FleetAppsManagementProvision extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_provision',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

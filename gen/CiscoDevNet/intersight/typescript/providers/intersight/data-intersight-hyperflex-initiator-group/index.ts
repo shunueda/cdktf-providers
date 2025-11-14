@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexInitiatorGroupConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#account_moid DataIntersightHyperflexInitiatorGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#account_moid DataIntersightHyperflexInitiatorGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightHyperflexInitiatorGroupConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#create_time DataIntersightHyperflexInitiatorGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#create_time DataIntersightHyperflexInitiatorGroup#create_time}
   */
   readonly createTime?: string;
   /**
   * Short description about the host group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#description DataIntersightHyperflexInitiatorGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#description DataIntersightHyperflexInitiatorGroup#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#domain_group_moid DataIntersightHyperflexInitiatorGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#domain_group_moid DataIntersightHyperflexInitiatorGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#id DataIntersightHyperflexInitiatorGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#id DataIntersightHyperflexInitiatorGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ export interface DataIntersightHyperflexInitiatorGroupConfig extends cdktf.Terra
   /**
   * Count of initiators in the iSCSI initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#initiator_count DataIntersightHyperflexInitiatorGroup#initiator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#initiator_count DataIntersightHyperflexInitiatorGroup#initiator_count}
   */
   readonly initiatorCount?: number;
   /**
@@ -62,113 +62,113 @@ export interface DataIntersightHyperflexInitiatorGroupConfig extends cdktf.Terra
   * * `ONLINE` - The source of the HyperFlex inventory is online.
   * * `OFFLINE` - The source of the HyperFlex inventory is offline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#inventory_source DataIntersightHyperflexInitiatorGroup#inventory_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#inventory_source DataIntersightHyperflexInitiatorGroup#inventory_source}
   */
   readonly inventorySource?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#mod_time DataIntersightHyperflexInitiatorGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#mod_time DataIntersightHyperflexInitiatorGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * Name of the host group in storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#name DataIntersightHyperflexInitiatorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#name DataIntersightHyperflexInitiatorGroup#name}
   */
   readonly name?: string;
   /**
   * Version of the iSCSI initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#nr_version DataIntersightHyperflexInitiatorGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#nr_version DataIntersightHyperflexInitiatorGroup#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#owners DataIntersightHyperflexInitiatorGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#owners DataIntersightHyperflexInitiatorGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#shared_scope DataIntersightHyperflexInitiatorGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#shared_scope DataIntersightHyperflexInitiatorGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#target_uuids DataIntersightHyperflexInitiatorGroup#target_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#target_uuids DataIntersightHyperflexInitiatorGroup#target_uuids}
   */
   readonly targetUuids?: string[];
   /**
   * UUID of the HyperFlex iSCSI initiator group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#uuid DataIntersightHyperflexInitiatorGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#uuid DataIntersightHyperflexInitiatorGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#ancestors DataIntersightHyperflexInitiatorGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#ancestors DataIntersightHyperflexInitiatorGroup#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexInitiatorGroupAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#cluster DataIntersightHyperflexInitiatorGroup#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#cluster DataIntersightHyperflexInitiatorGroup#cluster}
   */
   readonly cluster?: DataIntersightHyperflexInitiatorGroupCluster;
   /**
   * initiators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#initiators DataIntersightHyperflexInitiatorGroup#initiators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#initiators DataIntersightHyperflexInitiatorGroup#initiators}
   */
   readonly initiators?: DataIntersightHyperflexInitiatorGroupInitiators[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#parent DataIntersightHyperflexInitiatorGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#parent DataIntersightHyperflexInitiatorGroup#parent}
   */
   readonly parent?: DataIntersightHyperflexInitiatorGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#permission_resources DataIntersightHyperflexInitiatorGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#permission_resources DataIntersightHyperflexInitiatorGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexInitiatorGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#storage_utilization DataIntersightHyperflexInitiatorGroup#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#storage_utilization DataIntersightHyperflexInitiatorGroup#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightHyperflexInitiatorGroupStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#tags DataIntersightHyperflexInitiatorGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#tags DataIntersightHyperflexInitiatorGroup#tags}
   */
   readonly tags?: DataIntersightHyperflexInitiatorGroupTags[] | cdktf.IResolvable;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#targets DataIntersightHyperflexInitiatorGroup#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#targets DataIntersightHyperflexInitiatorGroup#targets}
   */
   readonly targets?: DataIntersightHyperflexInitiatorGroupTargets[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#version_context DataIntersightHyperflexInitiatorGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#version_context DataIntersightHyperflexInitiatorGroup#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexInitiatorGroupVersionContext;
 }
@@ -1045,6 +1045,11 @@ export class DataIntersightHyperflexInitiatorGroupResultsTagsOutputReference ext
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1687,7 +1692,7 @@ export class DataIntersightHyperflexInitiatorGroupResultsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexInitiatorGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1695,19 +1700,19 @@ export interface DataIntersightHyperflexInitiatorGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1720,7 +1725,7 @@ export interface DataIntersightHyperflexInitiatorGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1952,7 +1957,7 @@ export class DataIntersightHyperflexInitiatorGroupAncestorsList extends cdktf.Co
 }
 export interface DataIntersightHyperflexInitiatorGroupCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1960,19 +1965,19 @@ export interface DataIntersightHyperflexInitiatorGroupCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1985,7 +1990,7 @@ export interface DataIntersightHyperflexInitiatorGroupCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2185,7 +2190,7 @@ export class DataIntersightHyperflexInitiatorGroupClusterOutputReference extends
 }
 export interface DataIntersightHyperflexInitiatorGroupInitiators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2193,36 +2198,36 @@ export interface DataIntersightHyperflexInitiatorGroupInitiators {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#ip_addresses DataIntersightHyperflexInitiatorGroup#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#ip_addresses DataIntersightHyperflexInitiatorGroup#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * IQN (iSCSI qualified name). Can be up to 255 characters long and has the format iqn.yyyy-mm.naming-authority:unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#iqn DataIntersightHyperflexInitiatorGroup#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#iqn DataIntersightHyperflexInitiatorGroup#iqn}
   */
   readonly iqn?: string;
   /**
   * Name of the initiator represented in the storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#name DataIntersightHyperflexInitiatorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#name DataIntersightHyperflexInitiatorGroup#name}
   */
   readonly name?: string;
   /**
   * NQN (NVMe Qualified Name). Can be up to 223 characters long and has the format nqn.yyyy-mm.naming-authority:unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#nqn DataIntersightHyperflexInitiatorGroup#nqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#nqn DataIntersightHyperflexInitiatorGroup#nqn}
   */
   readonly nqn?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2232,13 +2237,13 @@ export interface DataIntersightHyperflexInitiatorGroupInitiators {
   * * `NVMe` - NVMe initiator type which contains the NQN (NVMe Qualified Name) used by the host.
   * * `Mixed` - Initiator type for systems using both FC and iSCSI connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#type DataIntersightHyperflexInitiatorGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#type DataIntersightHyperflexInitiatorGroup#type}
   */
   readonly type?: string;
   /**
   * World wide name, 128 bit address represented in hexadecimal notation. For example, 51:4f:0c:50:14:1f:af:01:51:4f:0c:51:14:1f:af:01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#wwn DataIntersightHyperflexInitiatorGroup#wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#wwn DataIntersightHyperflexInitiatorGroup#wwn}
   */
   readonly wwn?: string;
 }
@@ -2586,7 +2591,7 @@ export class DataIntersightHyperflexInitiatorGroupInitiatorsList extends cdktf.C
 }
 export interface DataIntersightHyperflexInitiatorGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2594,19 +2599,19 @@ export interface DataIntersightHyperflexInitiatorGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2619,7 +2624,7 @@ export interface DataIntersightHyperflexInitiatorGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2819,7 +2824,7 @@ export class DataIntersightHyperflexInitiatorGroupParentOutputReference extends 
 }
 export interface DataIntersightHyperflexInitiatorGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2827,19 +2832,19 @@ export interface DataIntersightHyperflexInitiatorGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2852,7 +2857,7 @@ export interface DataIntersightHyperflexInitiatorGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3084,19 +3089,19 @@ export class DataIntersightHyperflexInitiatorGroupPermissionResourcesList extend
 }
 export interface DataIntersightHyperflexInitiatorGroupStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#available DataIntersightHyperflexInitiatorGroup#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#available DataIntersightHyperflexInitiatorGroup#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#capacity_utilization DataIntersightHyperflexInitiatorGroup#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#capacity_utilization DataIntersightHyperflexInitiatorGroup#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -3105,13 +3110,13 @@ export interface DataIntersightHyperflexInitiatorGroupStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#free DataIntersightHyperflexInitiatorGroup#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#free DataIntersightHyperflexInitiatorGroup#free}
   */
   readonly free?: number;
   /**
@@ -3119,19 +3124,19 @@ export interface DataIntersightHyperflexInitiatorGroupStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#total DataIntersightHyperflexInitiatorGroup#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#total DataIntersightHyperflexInitiatorGroup#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#used DataIntersightHyperflexInitiatorGroup#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#used DataIntersightHyperflexInitiatorGroup#used}
   */
   readonly used?: number;
 }
@@ -3418,7 +3423,7 @@ export class DataIntersightHyperflexInitiatorGroupStorageUtilizationOutputRefere
 }
 export interface DataIntersightHyperflexInitiatorGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3426,19 +3431,19 @@ export interface DataIntersightHyperflexInitiatorGroupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3451,7 +3456,7 @@ export interface DataIntersightHyperflexInitiatorGroupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3683,7 +3688,7 @@ export class DataIntersightHyperflexInitiatorGroupTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightHyperflexInitiatorGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3691,19 +3696,19 @@ export interface DataIntersightHyperflexInitiatorGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3716,7 +3721,7 @@ export interface DataIntersightHyperflexInitiatorGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3916,45 +3921,51 @@ export class DataIntersightHyperflexInitiatorGroupTagsDefinitionOutputReference 
 }
 export interface DataIntersightHyperflexInitiatorGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#key DataIntersightHyperflexInitiatorGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#key DataIntersightHyperflexInitiatorGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#propagated DataIntersightHyperflexInitiatorGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#propagated DataIntersightHyperflexInitiatorGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#sys_tag DataIntersightHyperflexInitiatorGroup#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#type DataIntersightHyperflexInitiatorGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#type DataIntersightHyperflexInitiatorGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#value DataIntersightHyperflexInitiatorGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#value DataIntersightHyperflexInitiatorGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#ancestor_definitions DataIntersightHyperflexInitiatorGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#ancestor_definitions DataIntersightHyperflexInitiatorGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexInitiatorGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#definition DataIntersightHyperflexInitiatorGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#definition DataIntersightHyperflexInitiatorGroup#definition}
   */
   readonly definition?: DataIntersightHyperflexInitiatorGroupTagsDefinition;
 }
@@ -3968,6 +3979,7 @@ export function dataIntersightHyperflexInitiatorGroupTagsToTerraform(struct?: Da
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexInitiatorGroupTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3996,6 +4008,12 @@ export function dataIntersightHyperflexInitiatorGroupTagsToHclTerraform(struct?:
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4062,6 +4080,10 @@ export class DataIntersightHyperflexInitiatorGroupTagsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4088,6 +4110,7 @@ export class DataIntersightHyperflexInitiatorGroupTagsOutputReference extends cd
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4103,6 +4126,7 @@ export class DataIntersightHyperflexInitiatorGroupTagsOutputReference extends cd
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4156,6 +4180,22 @@ export class DataIntersightHyperflexInitiatorGroupTagsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4244,7 +4284,7 @@ export class DataIntersightHyperflexInitiatorGroupTagsList extends cdktf.Complex
 }
 export interface DataIntersightHyperflexInitiatorGroupTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4252,19 +4292,19 @@ export interface DataIntersightHyperflexInitiatorGroupTargets {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4277,7 +4317,7 @@ export interface DataIntersightHyperflexInitiatorGroupTargets {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4509,7 +4549,7 @@ export class DataIntersightHyperflexInitiatorGroupTargetsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexInitiatorGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4517,19 +4557,19 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4542,7 +4582,7 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4774,7 +4814,7 @@ export class DataIntersightHyperflexInitiatorGroupVersionContextInterestedMosLis
 }
 export interface DataIntersightHyperflexInitiatorGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4782,19 +4822,19 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#moid DataIntersightHyperflexInitiatorGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4807,7 +4847,7 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#selector DataIntersightHyperflexInitiatorGroup#selector}
   */
   readonly selector?: string;
 }
@@ -5007,7 +5047,7 @@ export class DataIntersightHyperflexInitiatorGroupVersionContextRefMoOutputRefer
 }
 export interface DataIntersightHyperflexInitiatorGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#additional_properties DataIntersightHyperflexInitiatorGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5015,32 +5055,32 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#class_id DataIntersightHyperflexInitiatorGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#marked_for_deletion DataIntersightHyperflexInitiatorGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#marked_for_deletion DataIntersightHyperflexInitiatorGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#nr_version DataIntersightHyperflexInitiatorGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#nr_version DataIntersightHyperflexInitiatorGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#object_type DataIntersightHyperflexInitiatorGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#timestamp DataIntersightHyperflexInitiatorGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#timestamp DataIntersightHyperflexInitiatorGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5051,19 +5091,19 @@ export interface DataIntersightHyperflexInitiatorGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#version_type DataIntersightHyperflexInitiatorGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#version_type DataIntersightHyperflexInitiatorGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#interested_mos DataIntersightHyperflexInitiatorGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#interested_mos DataIntersightHyperflexInitiatorGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexInitiatorGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#ref_mo DataIntersightHyperflexInitiatorGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#ref_mo DataIntersightHyperflexInitiatorGroup#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexInitiatorGroupVersionContextRefMo;
 }
@@ -5379,7 +5419,7 @@ export class DataIntersightHyperflexInitiatorGroupVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group intersight_hyperflex_initiator_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group intersight_hyperflex_initiator_group}
 */
 export class DataIntersightHyperflexInitiatorGroup extends cdktf.TerraformDataSource {
 
@@ -5395,7 +5435,7 @@ export class DataIntersightHyperflexInitiatorGroup extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightHyperflexInitiatorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexInitiatorGroup to import
-  * @param importFromId The id of the existing DataIntersightHyperflexInitiatorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexInitiatorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexInitiatorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5407,7 +5447,7 @@ export class DataIntersightHyperflexInitiatorGroup extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_initiator_group intersight_hyperflex_initiator_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_initiator_group intersight_hyperflex_initiator_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5418,8 +5458,8 @@ export class DataIntersightHyperflexInitiatorGroup extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_hyperflex_initiator_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

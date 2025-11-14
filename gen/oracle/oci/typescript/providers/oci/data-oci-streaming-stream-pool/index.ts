@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/streaming_stream_pool
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/streaming_stream_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciStreamingStreamPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/streaming_stream_pool#stream_pool_id DataOciStreamingStreamPool#stream_pool_id}
   */
   readonly streamPoolId: string;
 }
@@ -269,7 +269,7 @@ export class DataOciStreamingStreamPoolPrivateEndpointSettingsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/streaming_stream_pool oci_streaming_stream_pool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/streaming_stream_pool oci_streaming_stream_pool}
 */
 export class DataOciStreamingStreamPool extends cdktf.TerraformDataSource {
 
@@ -285,7 +285,7 @@ export class DataOciStreamingStreamPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciStreamingStreamPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciStreamingStreamPool to import
-  * @param importFromId The id of the existing DataOciStreamingStreamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/streaming_stream_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciStreamingStreamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/streaming_stream_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciStreamingStreamPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -297,7 +297,7 @@ export class DataOciStreamingStreamPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/streaming_stream_pool oci_streaming_stream_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/streaming_stream_pool oci_streaming_stream_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -308,8 +308,8 @@ export class DataOciStreamingStreamPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_streaming_stream_pool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

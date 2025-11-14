@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesNetworkPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#account_moid KubernetesNetworkPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#account_moid KubernetesNetworkPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#ancestors KubernetesNetworkPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#ancestors KubernetesNetworkPolicy#ancestors}
   */
   readonly ancestors?: KubernetesNetworkPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,19 +28,19 @@ export interface KubernetesNetworkPolicyConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to kubernetesClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#cluster_profiles KubernetesNetworkPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#cluster_profiles KubernetesNetworkPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: KubernetesNetworkPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * CNI configuration for a Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#cni_config KubernetesNetworkPolicy#cni_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#cni_config KubernetesNetworkPolicy#cni_config}
   */
   readonly cniConfig?: KubernetesNetworkPolicyCniConfig[] | cdktf.IResolvable;
   /**
@@ -48,29 +48,29 @@ export interface KubernetesNetworkPolicyConfig extends cdktf.TerraformMetaArgume
   * * `Calico` - Calico CNI plugin as described in https://github.com/projectcalico/cni-plugin.
   * * `Aci` - Cisco ACI Container Network Interface plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#cni_type KubernetesNetworkPolicy#cni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#cni_type KubernetesNetworkPolicy#cni_type}
   */
   readonly cniType?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#create_time KubernetesNetworkPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#create_time KubernetesNetworkPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#description KubernetesNetworkPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#description KubernetesNetworkPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#domain_group_moid KubernetesNetworkPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#domain_group_moid KubernetesNetworkPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#id KubernetesNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#id KubernetesNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,101 +79,101 @@ export interface KubernetesNetworkPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#mod_time KubernetesNetworkPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#mod_time KubernetesNetworkPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#name KubernetesNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#name KubernetesNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#organization KubernetesNetworkPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#organization KubernetesNetworkPolicy#organization}
   */
   readonly organization?: KubernetesNetworkPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#owners KubernetesNetworkPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#owners KubernetesNetworkPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#parent KubernetesNetworkPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#parent KubernetesNetworkPolicy#parent}
   */
   readonly parent?: KubernetesNetworkPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#permission_resources KubernetesNetworkPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#permission_resources KubernetesNetworkPolicy#permission_resources}
   */
   readonly permissionResources?: KubernetesNetworkPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * CIDR block to allocate Pod network IP addresses from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#pod_network_cidr KubernetesNetworkPolicy#pod_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#pod_network_cidr KubernetesNetworkPolicy#pod_network_cidr}
   */
   readonly podNetworkCidr?: string;
   /**
   * CIDR block to allocate cluster service IP addresses from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#service_cidr KubernetesNetworkPolicy#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#service_cidr KubernetesNetworkPolicy#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#shared_scope KubernetesNetworkPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#shared_scope KubernetesNetworkPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#tags KubernetesNetworkPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#tags KubernetesNetworkPolicy#tags}
   */
   readonly tags?: KubernetesNetworkPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#version_context KubernetesNetworkPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#version_context KubernetesNetworkPolicy#version_context}
   */
   readonly versionContext?: KubernetesNetworkPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesNetworkPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -405,23 +405,23 @@ export class KubernetesNetworkPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface KubernetesNetworkPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -653,23 +653,23 @@ export class KubernetesNetworkPolicyClusterProfilesList extends cdktf.ComplexLis
 }
 export interface KubernetesNetworkPolicyCniConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#nr_version KubernetesNetworkPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#nr_version KubernetesNetworkPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#registry KubernetesNetworkPolicy#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#registry KubernetesNetworkPolicy#registry}
   */
   readonly registry?: string;
 }
@@ -901,23 +901,23 @@ export class KubernetesNetworkPolicyCniConfigList extends cdktf.ComplexList {
 }
 export interface KubernetesNetworkPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1149,23 +1149,23 @@ export class KubernetesNetworkPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface KubernetesNetworkPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1397,23 +1397,23 @@ export class KubernetesNetworkPolicyParentList extends cdktf.ComplexList {
 }
 export interface KubernetesNetworkPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1645,23 +1645,23 @@ export class KubernetesNetworkPolicyPermissionResourcesList extends cdktf.Comple
 }
 export interface KubernetesNetworkPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1893,23 +1893,23 @@ export class KubernetesNetworkPolicyTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface KubernetesNetworkPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2141,31 +2141,35 @@ export class KubernetesNetworkPolicyTagsDefinitionList extends cdktf.ComplexList
 }
 export interface KubernetesNetworkPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#ancestor_definitions KubernetesNetworkPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#ancestor_definitions KubernetesNetworkPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesNetworkPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#definition KubernetesNetworkPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#definition KubernetesNetworkPolicy#definition}
   */
   readonly definition?: KubernetesNetworkPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#key KubernetesNetworkPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#key KubernetesNetworkPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#propagated KubernetesNetworkPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#propagated KubernetesNetworkPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#type KubernetesNetworkPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#sys_tag KubernetesNetworkPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#type KubernetesNetworkPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#value KubernetesNetworkPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#value KubernetesNetworkPolicy#value}
   */
   readonly value?: string;
 }
@@ -2181,6 +2185,7 @@ export function kubernetesNetworkPolicyTagsToTerraform(struct?: KubernetesNetwor
     definition: cdktf.listMapper(kubernetesNetworkPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2219,6 +2224,12 @@ export function kubernetesNetworkPolicyTagsToHclTerraform(struct?: KubernetesNet
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2281,6 +2292,10 @@ export class KubernetesNetworkPolicyTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2301,6 +2316,7 @@ export class KubernetesNetworkPolicyTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2316,6 +2332,7 @@ export class KubernetesNetworkPolicyTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2401,6 +2418,22 @@ export class KubernetesNetworkPolicyTagsOutputReference extends cdktf.ComplexObj
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2455,23 +2488,23 @@ export class KubernetesNetworkPolicyTagsList extends cdktf.ComplexList {
 }
 export interface KubernetesNetworkPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2703,23 +2736,23 @@ export class KubernetesNetworkPolicyVersionContextInterestedMosList extends cdkt
 }
 export interface KubernetesNetworkPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#moid KubernetesNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#selector KubernetesNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2951,39 +2984,39 @@ export class KubernetesNetworkPolicyVersionContextRefMoList extends cdktf.Comple
 }
 export interface KubernetesNetworkPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#additional_properties KubernetesNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#class_id KubernetesNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#interested_mos KubernetesNetworkPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#interested_mos KubernetesNetworkPolicy#interested_mos}
   */
   readonly interestedMos?: KubernetesNetworkPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#marked_for_deletion KubernetesNetworkPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#marked_for_deletion KubernetesNetworkPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#nr_version KubernetesNetworkPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#nr_version KubernetesNetworkPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#object_type KubernetesNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#ref_mo KubernetesNetworkPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#ref_mo KubernetesNetworkPolicy#ref_mo}
   */
   readonly refMo?: KubernetesNetworkPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#timestamp KubernetesNetworkPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#timestamp KubernetesNetworkPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#version_type KubernetesNetworkPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#version_type KubernetesNetworkPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3331,7 +3364,7 @@ export class KubernetesNetworkPolicyVersionContextList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy intersight_kubernetes_network_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy intersight_kubernetes_network_policy}
 */
 export class KubernetesNetworkPolicy extends cdktf.TerraformResource {
 
@@ -3347,7 +3380,7 @@ export class KubernetesNetworkPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNetworkPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNetworkPolicy to import
-  * @param importFromId The id of the existing KubernetesNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNetworkPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3359,7 +3392,7 @@ export class KubernetesNetworkPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_network_policy intersight_kubernetes_network_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_network_policy intersight_kubernetes_network_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3370,8 +3403,8 @@ export class KubernetesNetworkPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

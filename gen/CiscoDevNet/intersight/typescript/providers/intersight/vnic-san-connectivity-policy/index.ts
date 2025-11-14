@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#account_moid VnicSanConnectivityPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#account_moid VnicSanConnectivityPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#ancestors VnicSanConnectivityPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#ancestors VnicSanConnectivityPolicy#ancestors}
   */
   readonly ancestors?: VnicSanConnectivityPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,35 +28,35 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#create_time VnicSanConnectivityPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#create_time VnicSanConnectivityPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#description VnicSanConnectivityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#description VnicSanConnectivityPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#domain_group_moid VnicSanConnectivityPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#domain_group_moid VnicSanConnectivityPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * An array of relationships to vnicFcIf resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#fc_ifs VnicSanConnectivityPolicy#fc_ifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#fc_ifs VnicSanConnectivityPolicy#fc_ifs}
   */
   readonly fcIfs?: VnicSanConnectivityPolicyFcIfs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#id VnicSanConnectivityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#id VnicSanConnectivityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,50 +65,50 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#mod_time VnicSanConnectivityPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#mod_time VnicSanConnectivityPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#name VnicSanConnectivityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#name VnicSanConnectivityPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#organization VnicSanConnectivityPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#organization VnicSanConnectivityPolicy#organization}
   */
   readonly organization?: VnicSanConnectivityPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#owners VnicSanConnectivityPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#owners VnicSanConnectivityPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#parent VnicSanConnectivityPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#parent VnicSanConnectivityPolicy#parent}
   */
   readonly parent?: VnicSanConnectivityPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#permission_resources VnicSanConnectivityPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#permission_resources VnicSanConnectivityPolicy#permission_resources}
   */
   readonly permissionResources?: VnicSanConnectivityPolicyPermissionResources[] | cdktf.IResolvable;
   /**
@@ -116,20 +116,20 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   * * `custom` - The placement of the vNICs / vHBAs on network adapters is manually chosen by the user.
   * * `auto` - The placement of the vNICs / vHBAs on network adapters is automatically determined by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#placement_mode VnicSanConnectivityPolicy#placement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#placement_mode VnicSanConnectivityPolicy#placement_mode}
   */
   readonly placementMode?: string;
   /**
   * An array of relationships to policyAbstractConfigProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#profiles VnicSanConnectivityPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#profiles VnicSanConnectivityPolicy#profiles}
   */
   readonly profiles?: VnicSanConnectivityPolicyProfiles[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#shared_scope VnicSanConnectivityPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#shared_scope VnicSanConnectivityPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -137,11 +137,11 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   * Allowed ranges are 20:00:00:00:00:00:00:00 to 20:FF:FF:FF:FF:FF:FF:FF or from 50:00:00:00:00:00:00:00 to 5F:FF:FF:FF:FF:FF:FF:FF.
   * To ensure uniqueness of WWN's in the SAN fabric, you are strongly encouraged to use the WWN prefix - 20:00:00:25:B5:xx:xx:xx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#static_wwnn_address VnicSanConnectivityPolicy#static_wwnn_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#static_wwnn_address VnicSanConnectivityPolicy#static_wwnn_address}
   */
   readonly staticWwnnAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#tags VnicSanConnectivityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#tags VnicSanConnectivityPolicy#tags}
   */
   readonly tags?: VnicSanConnectivityPolicyTags[] | cdktf.IResolvable;
   /**
@@ -150,13 +150,13 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   * * `FIAttached` - Servers which are connected to a Fabric Interconnect that is managed by Intersight.
   * * `UnifiedEdgeServer` - Unified Edge sleds that is managed by Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#target_platform VnicSanConnectivityPolicy#target_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#target_platform VnicSanConnectivityPolicy#target_platform}
   */
   readonly targetPlatform?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#version_context VnicSanConnectivityPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#version_context VnicSanConnectivityPolicy#version_context}
   */
   readonly versionContext?: VnicSanConnectivityPolicyVersionContext[] | cdktf.IResolvable;
   /**
@@ -164,36 +164,36 @@ export interface VnicSanConnectivityPolicyConfig extends cdktf.TerraformMetaArgu
   * * `POOL` - The user selects a pool from which the mac/wwn address will be leased for the Virtual Interface.
   * * `STATIC` - The user assigns a static mac/wwn address for the Virtual Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#wwnn_address_type VnicSanConnectivityPolicy#wwnn_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#wwnn_address_type VnicSanConnectivityPolicy#wwnn_address_type}
   */
   readonly wwnnAddressType?: string;
   /**
   * A reference to a fcpoolPool resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#wwnn_pool VnicSanConnectivityPolicy#wwnn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#wwnn_pool VnicSanConnectivityPolicy#wwnn_pool}
   */
   readonly wwnnPool?: VnicSanConnectivityPolicyWwnnPool[] | cdktf.IResolvable;
 }
 export interface VnicSanConnectivityPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -425,23 +425,23 @@ export class VnicSanConnectivityPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface VnicSanConnectivityPolicyFcIfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -673,23 +673,23 @@ export class VnicSanConnectivityPolicyFcIfsList extends cdktf.ComplexList {
 }
 export interface VnicSanConnectivityPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -921,23 +921,23 @@ export class VnicSanConnectivityPolicyOrganizationList extends cdktf.ComplexList
 }
 export interface VnicSanConnectivityPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1169,23 +1169,23 @@ export class VnicSanConnectivityPolicyParentList extends cdktf.ComplexList {
 }
 export interface VnicSanConnectivityPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1417,23 +1417,23 @@ export class VnicSanConnectivityPolicyPermissionResourcesList extends cdktf.Comp
 }
 export interface VnicSanConnectivityPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1665,23 +1665,23 @@ export class VnicSanConnectivityPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface VnicSanConnectivityPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1913,23 +1913,23 @@ export class VnicSanConnectivityPolicyTagsAncestorDefinitionsList extends cdktf.
 }
 export interface VnicSanConnectivityPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2161,31 +2161,35 @@ export class VnicSanConnectivityPolicyTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface VnicSanConnectivityPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#ancestor_definitions VnicSanConnectivityPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#ancestor_definitions VnicSanConnectivityPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VnicSanConnectivityPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#definition VnicSanConnectivityPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#definition VnicSanConnectivityPolicy#definition}
   */
   readonly definition?: VnicSanConnectivityPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#key VnicSanConnectivityPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#key VnicSanConnectivityPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#propagated VnicSanConnectivityPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#propagated VnicSanConnectivityPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#type VnicSanConnectivityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#sys_tag VnicSanConnectivityPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#type VnicSanConnectivityPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#value VnicSanConnectivityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#value VnicSanConnectivityPolicy#value}
   */
   readonly value?: string;
 }
@@ -2201,6 +2205,7 @@ export function vnicSanConnectivityPolicyTagsToTerraform(struct?: VnicSanConnect
     definition: cdktf.listMapper(vnicSanConnectivityPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2239,6 +2244,12 @@ export function vnicSanConnectivityPolicyTagsToHclTerraform(struct?: VnicSanConn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2301,6 +2312,10 @@ export class VnicSanConnectivityPolicyTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2321,6 +2336,7 @@ export class VnicSanConnectivityPolicyTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2336,6 +2352,7 @@ export class VnicSanConnectivityPolicyTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2421,6 +2438,22 @@ export class VnicSanConnectivityPolicyTagsOutputReference extends cdktf.ComplexO
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2475,23 +2508,23 @@ export class VnicSanConnectivityPolicyTagsList extends cdktf.ComplexList {
 }
 export interface VnicSanConnectivityPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2723,23 +2756,23 @@ export class VnicSanConnectivityPolicyVersionContextInterestedMosList extends cd
 }
 export interface VnicSanConnectivityPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2971,39 +3004,39 @@ export class VnicSanConnectivityPolicyVersionContextRefMoList extends cdktf.Comp
 }
 export interface VnicSanConnectivityPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#interested_mos VnicSanConnectivityPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#interested_mos VnicSanConnectivityPolicy#interested_mos}
   */
   readonly interestedMos?: VnicSanConnectivityPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#marked_for_deletion VnicSanConnectivityPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#marked_for_deletion VnicSanConnectivityPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#nr_version VnicSanConnectivityPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#nr_version VnicSanConnectivityPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#ref_mo VnicSanConnectivityPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#ref_mo VnicSanConnectivityPolicy#ref_mo}
   */
   readonly refMo?: VnicSanConnectivityPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#timestamp VnicSanConnectivityPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#timestamp VnicSanConnectivityPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#version_type VnicSanConnectivityPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#version_type VnicSanConnectivityPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3351,23 +3384,23 @@ export class VnicSanConnectivityPolicyVersionContextList extends cdktf.ComplexLi
 }
 export interface VnicSanConnectivityPolicyWwnnPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#additional_properties VnicSanConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#class_id VnicSanConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#moid VnicSanConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#object_type VnicSanConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#selector VnicSanConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3599,7 +3632,7 @@ export class VnicSanConnectivityPolicyWwnnPoolList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy intersight_vnic_san_connectivity_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy intersight_vnic_san_connectivity_policy}
 */
 export class VnicSanConnectivityPolicy extends cdktf.TerraformResource {
 
@@ -3615,7 +3648,7 @@ export class VnicSanConnectivityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VnicSanConnectivityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VnicSanConnectivityPolicy to import
-  * @param importFromId The id of the existing VnicSanConnectivityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VnicSanConnectivityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VnicSanConnectivityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3627,7 +3660,7 @@ export class VnicSanConnectivityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/vnic_san_connectivity_policy intersight_vnic_san_connectivity_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_san_connectivity_policy intersight_vnic_san_connectivity_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3638,8 +3671,8 @@ export class VnicSanConnectivityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_vnic_san_connectivity_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

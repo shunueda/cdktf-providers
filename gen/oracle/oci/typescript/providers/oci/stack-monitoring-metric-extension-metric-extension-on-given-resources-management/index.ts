@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#enable_metric_extension_on_given_resources StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#enable_metric_extension_on_given_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#enable_metric_extension_on_given_resources StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#enable_metric_extension_on_given_resources}
   */
   readonly enableMetricExtensionOnGivenResources: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#id StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#id StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#metric_extension_id StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#metric_extension_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#metric_extension_id StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#metric_extension_id}
   */
   readonly metricExtensionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#resource_ids StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#resource_ids StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#resource_ids}
   */
   readonly resourceIds: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#timeouts StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#timeouts StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#timeouts}
   */
   readonly timeouts?: StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagementTimeouts;
 }
 export interface StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#create StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#create StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#delete StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#delete StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#update StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#update StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManage
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management}
 */
 export class StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManage
   * Generates CDKTF code for importing a StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement to import
-  * @param importFromId The id of the existing StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManage
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_metric_extension_metric_extension_on_given_resources_management oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class StackMonitoringMetricExtensionMetricExtensionOnGivenResourcesManage
       terraformResourceType: 'oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

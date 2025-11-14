@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface SamlIdentityProvidersV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#custom_attributes SamlIdentityProvidersV2#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#custom_attributes SamlIdentityProvidersV2#custom_attributes}
   */
   readonly customAttributes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#email_attribute SamlIdentityProvidersV2#email_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#email_attribute SamlIdentityProvidersV2#email_attribute}
   */
   readonly emailAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#entity_issuer SamlIdentityProvidersV2#entity_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#entity_issuer SamlIdentityProvidersV2#entity_issuer}
   */
   readonly entityIssuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#ext_id SamlIdentityProvidersV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#ext_id SamlIdentityProvidersV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#groups_attribute SamlIdentityProvidersV2#groups_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#groups_attribute SamlIdentityProvidersV2#groups_attribute}
   */
   readonly groupsAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#groups_delim SamlIdentityProvidersV2#groups_delim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#groups_delim SamlIdentityProvidersV2#groups_delim}
   */
   readonly groupsDelim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#id SamlIdentityProvidersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#id SamlIdentityProvidersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#idp_metadata_url SamlIdentityProvidersV2#idp_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#idp_metadata_url SamlIdentityProvidersV2#idp_metadata_url}
   */
   readonly idpMetadataUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#idp_metadata_xml SamlIdentityProvidersV2#idp_metadata_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#idp_metadata_xml SamlIdentityProvidersV2#idp_metadata_xml}
   */
   readonly idpMetadataXml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#is_signed_authn_req_enabled SamlIdentityProvidersV2#is_signed_authn_req_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#is_signed_authn_req_enabled SamlIdentityProvidersV2#is_signed_authn_req_enabled}
   */
   readonly isSignedAuthnReqEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#name SamlIdentityProvidersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#name SamlIdentityProvidersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#username_attribute SamlIdentityProvidersV2#username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#username_attribute SamlIdentityProvidersV2#username_attribute}
   */
   readonly usernameAttribute?: string;
   /**
   * idp_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#idp_metadata SamlIdentityProvidersV2#idp_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#idp_metadata SamlIdentityProvidersV2#idp_metadata}
   */
   readonly idpMetadata?: SamlIdentityProvidersV2IdpMetadata[] | cdktf.IResolvable;
 }
 export interface SamlIdentityProvidersV2IdpMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#certificate SamlIdentityProvidersV2#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#certificate SamlIdentityProvidersV2#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#entity_id SamlIdentityProvidersV2#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#entity_id SamlIdentityProvidersV2#entity_id}
   */
   readonly entityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#error_url SamlIdentityProvidersV2#error_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#error_url SamlIdentityProvidersV2#error_url}
   */
   readonly errorUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#login_url SamlIdentityProvidersV2#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#login_url SamlIdentityProvidersV2#login_url}
   */
   readonly loginUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#logout_url SamlIdentityProvidersV2#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#logout_url SamlIdentityProvidersV2#logout_url}
   */
   readonly logoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#name_id_policy_format SamlIdentityProvidersV2#name_id_policy_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#name_id_policy_format SamlIdentityProvidersV2#name_id_policy_format}
   */
   readonly nameIdPolicyFormat?: string;
 }
@@ -339,7 +339,7 @@ export class SamlIdentityProvidersV2IdpMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2 nutanix_saml_identity_providers_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2 nutanix_saml_identity_providers_v2}
 */
 export class SamlIdentityProvidersV2 extends cdktf.TerraformResource {
 
@@ -355,7 +355,7 @@ export class SamlIdentityProvidersV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlIdentityProvidersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlIdentityProvidersV2 to import
-  * @param importFromId The id of the existing SamlIdentityProvidersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlIdentityProvidersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlIdentityProvidersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +367,7 @@ export class SamlIdentityProvidersV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/saml_identity_providers_v2 nutanix_saml_identity_providers_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/saml_identity_providers_v2 nutanix_saml_identity_providers_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +378,8 @@ export class SamlIdentityProvidersV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_saml_identity_providers_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#account_moid FabricMacSecPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#account_moid FabricMacSecPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#ancestors FabricMacSecPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#ancestors FabricMacSecPolicy#ancestors}
   */
   readonly ancestors?: FabricMacSecPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -30,7 +30,7 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GCM-AES-256` - This Cipher Suite utilizes Advanced Encryption Standard (AES) with a 256-bit key in Galois/Counter Mode, offering a higher level of security compared to GCM-AES-128 due to the larger key size.
   * * `GCM-AES-XPN-128` - An extended Cipher Suite of GCM-AES-128  used in MACsec (Media Access Control Security) that incorporates Extended Packet Numbering (XPN) to enhance security and scalability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#cipher_suite FabricMacSecPolicy#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#cipher_suite FabricMacSecPolicy#cipher_suite}
   */
   readonly cipherSuite?: string;
   /**
@@ -38,7 +38,7 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -47,35 +47,35 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `CONF-OFFSET-30` - The first 30 bytes of the ethernet frame are not encrypted, and the rest of the frame is encrypted.
   * * `CONF-OFFSET-50` - The first 50 bytes of the ethernet frame are not encrypted, and the rest of the frame is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#confidentiality_offset FabricMacSecPolicy#confidentiality_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#confidentiality_offset FabricMacSecPolicy#confidentiality_offset}
   */
   readonly confidentialityOffset?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#create_time FabricMacSecPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#create_time FabricMacSecPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#description FabricMacSecPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#description FabricMacSecPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#domain_group_moid FabricMacSecPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#domain_group_moid FabricMacSecPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Fallback keychain for managing an alternative set of security keys to be used when a secure session cannot be established using the primary keychain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#fallback_key_chain FabricMacSecPolicy#fallback_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#fallback_key_chain FabricMacSecPolicy#fallback_key_chain}
   */
   readonly fallbackKeyChain?: FabricMacSecPolicyFallbackKeyChain[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,86 +84,86 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configures inclusion of the optional integrity check value (ICV) indicator as part of the transmitted MACsec key agreement protocol data unit (PDU).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#include_icv_indicator FabricMacSecPolicy#include_icv_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#include_icv_indicator FabricMacSecPolicy#include_icv_indicator}
   */
   readonly includeIcvIndicator?: boolean | cdktf.IResolvable;
   /**
   * The key server is selected by comparing key-server priority values during MACsec key agreement (MKA) message exchange between peer devices. Valid values range from 0 to 255. The lower the value, the higher the chance it will be selected as the key server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#key_server_priority FabricMacSecPolicy#key_server_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#key_server_priority FabricMacSecPolicy#key_server_priority}
   */
   readonly keyServerPriority?: number;
   /**
   * Extensible authentication protocol over LAN (EAPoL). MACsec transmits MACsec key agreement (MKA) protocol data units (PDUs) using EAPoL packets to establish a secure session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#mac_sec_ea_pol FabricMacSecPolicy#mac_sec_ea_pol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#mac_sec_ea_pol FabricMacSecPolicy#mac_sec_ea_pol}
   */
   readonly macSecEaPol?: FabricMacSecPolicyMacSecEaPol[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#mod_time FabricMacSecPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#mod_time FabricMacSecPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#organization FabricMacSecPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#organization FabricMacSecPolicy#organization}
   */
   readonly organization?: FabricMacSecPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#owners FabricMacSecPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#owners FabricMacSecPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#parent FabricMacSecPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#parent FabricMacSecPolicy#parent}
   */
   readonly parent?: FabricMacSecPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#permission_resources FabricMacSecPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#permission_resources FabricMacSecPolicy#permission_resources}
   */
   readonly permissionResources?: FabricMacSecPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Primary keychain for managing the default set of security keys for encryption and decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#primary_key_chain FabricMacSecPolicy#primary_key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#primary_key_chain FabricMacSecPolicy#primary_key_chain}
   */
   readonly primaryKeyChain?: FabricMacSecPolicyPrimaryKeyChain[] | cdktf.IResolvable;
   /**
   * Defines the size of the replay protection window. It determines the number of packets that can be received out of order without being considered replay attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#replay_window_size FabricMacSecPolicy#replay_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#replay_window_size FabricMacSecPolicy#replay_window_size}
   */
   readonly replayWindowSize?: number;
   /**
   * Time in seconds to force secure association key (SAK) rekey. Valid range is from 60 to 2592000 seconds when configured. When not configured, the SAK rekey interval is determined based on the interface speed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#sak_expiry_time FabricMacSecPolicy#sak_expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#sak_expiry_time FabricMacSecPolicy#sak_expiry_time}
   */
   readonly sakExpiryTime?: number;
   /**
@@ -172,46 +172,46 @@ export interface FabricMacSecPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Should-secure` - Should secure allows unencrypted traffic to flow until the MACsec key agreement (MKA) session is secured. After the MKA session is secured, the policy switches to only allow encrypted traffic to flow.
   * * `Must-secure` - Must secure imposes only MACsec encrypted traffic to flow. Traffic will be dropped, until the MKA session is not secured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#security_policy FabricMacSecPolicy#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#security_policy FabricMacSecPolicy#security_policy}
   */
   readonly securityPolicy?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#shared_scope FabricMacSecPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#shared_scope FabricMacSecPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#tags FabricMacSecPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#tags FabricMacSecPolicy#tags}
   */
   readonly tags?: FabricMacSecPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#version_context FabricMacSecPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#version_context FabricMacSecPolicy#version_context}
   */
   readonly versionContext?: FabricMacSecPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricMacSecPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -443,62 +443,62 @@ export class FabricMacSecPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyFallbackKeyChainSecKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#cryptographic_algorithm FabricMacSecPolicy#cryptographic_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#cryptographic_algorithm FabricMacSecPolicy#cryptographic_algorithm}
   */
   readonly cryptographicAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#is_octet_string_set FabricMacSecPolicy#is_octet_string_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#is_octet_string_set FabricMacSecPolicy#is_octet_string_set}
   */
   readonly isOctetStringSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#key_type FabricMacSecPolicy#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#key_type FabricMacSecPolicy#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#octet_string FabricMacSecPolicy#octet_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#octet_string FabricMacSecPolicy#octet_string}
   */
   readonly octetString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_duration FabricMacSecPolicy#send_lifetime_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_duration FabricMacSecPolicy#send_lifetime_duration}
   */
   readonly sendLifetimeDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_end_time FabricMacSecPolicy#send_lifetime_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_end_time FabricMacSecPolicy#send_lifetime_end_time}
   */
   readonly sendLifetimeEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_infinite FabricMacSecPolicy#send_lifetime_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_infinite FabricMacSecPolicy#send_lifetime_infinite}
   */
   readonly sendLifetimeInfinite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_start_time FabricMacSecPolicy#send_lifetime_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_start_time FabricMacSecPolicy#send_lifetime_start_time}
   */
   readonly sendLifetimeStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_time_zone FabricMacSecPolicy#send_lifetime_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_time_zone FabricMacSecPolicy#send_lifetime_time_zone}
   */
   readonly sendLifetimeTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_unlimited FabricMacSecPolicy#send_lifetime_unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_unlimited FabricMacSecPolicy#send_lifetime_unlimited}
   */
   readonly sendLifetimeUnlimited?: boolean | cdktf.IResolvable;
 }
@@ -991,23 +991,23 @@ export class FabricMacSecPolicyFallbackKeyChainSecKeysList extends cdktf.Complex
 }
 export interface FabricMacSecPolicyFallbackKeyChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#sec_keys FabricMacSecPolicy#sec_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#sec_keys FabricMacSecPolicy#sec_keys}
   */
   readonly secKeys?: FabricMacSecPolicyFallbackKeyChainSecKeys[] | cdktf.IResolvable;
 }
@@ -1239,23 +1239,23 @@ export class FabricMacSecPolicyFallbackKeyChainList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyMacSecEaPol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#ea_pol_ethertype FabricMacSecPolicy#ea_pol_ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#ea_pol_ethertype FabricMacSecPolicy#ea_pol_ethertype}
   */
   readonly eaPolEthertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#ea_pol_mac_address FabricMacSecPolicy#ea_pol_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#ea_pol_mac_address FabricMacSecPolicy#ea_pol_mac_address}
   */
   readonly eaPolMacAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -1487,23 +1487,23 @@ export class FabricMacSecPolicyMacSecEaPolList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1735,23 +1735,23 @@ export class FabricMacSecPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1983,23 +1983,23 @@ export class FabricMacSecPolicyParentList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2231,62 +2231,62 @@ export class FabricMacSecPolicyPermissionResourcesList extends cdktf.ComplexList
 }
 export interface FabricMacSecPolicyPrimaryKeyChainSecKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#cryptographic_algorithm FabricMacSecPolicy#cryptographic_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#cryptographic_algorithm FabricMacSecPolicy#cryptographic_algorithm}
   */
   readonly cryptographicAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#id FabricMacSecPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#is_octet_string_set FabricMacSecPolicy#is_octet_string_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#is_octet_string_set FabricMacSecPolicy#is_octet_string_set}
   */
   readonly isOctetStringSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#key_type FabricMacSecPolicy#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#key_type FabricMacSecPolicy#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#octet_string FabricMacSecPolicy#octet_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#octet_string FabricMacSecPolicy#octet_string}
   */
   readonly octetString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_duration FabricMacSecPolicy#send_lifetime_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_duration FabricMacSecPolicy#send_lifetime_duration}
   */
   readonly sendLifetimeDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_end_time FabricMacSecPolicy#send_lifetime_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_end_time FabricMacSecPolicy#send_lifetime_end_time}
   */
   readonly sendLifetimeEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_infinite FabricMacSecPolicy#send_lifetime_infinite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_infinite FabricMacSecPolicy#send_lifetime_infinite}
   */
   readonly sendLifetimeInfinite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_start_time FabricMacSecPolicy#send_lifetime_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_start_time FabricMacSecPolicy#send_lifetime_start_time}
   */
   readonly sendLifetimeStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_time_zone FabricMacSecPolicy#send_lifetime_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_time_zone FabricMacSecPolicy#send_lifetime_time_zone}
   */
   readonly sendLifetimeTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#send_lifetime_unlimited FabricMacSecPolicy#send_lifetime_unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#send_lifetime_unlimited FabricMacSecPolicy#send_lifetime_unlimited}
   */
   readonly sendLifetimeUnlimited?: boolean | cdktf.IResolvable;
 }
@@ -2779,23 +2779,23 @@ export class FabricMacSecPolicyPrimaryKeyChainSecKeysList extends cdktf.ComplexL
 }
 export interface FabricMacSecPolicyPrimaryKeyChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#name FabricMacSecPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#sec_keys FabricMacSecPolicy#sec_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#sec_keys FabricMacSecPolicy#sec_keys}
   */
   readonly secKeys?: FabricMacSecPolicyPrimaryKeyChainSecKeys[] | cdktf.IResolvable;
 }
@@ -3027,23 +3027,23 @@ export class FabricMacSecPolicyPrimaryKeyChainList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3275,23 +3275,23 @@ export class FabricMacSecPolicyTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface FabricMacSecPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3523,31 +3523,35 @@ export class FabricMacSecPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#ancestor_definitions FabricMacSecPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#ancestor_definitions FabricMacSecPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricMacSecPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#definition FabricMacSecPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#definition FabricMacSecPolicy#definition}
   */
   readonly definition?: FabricMacSecPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#key FabricMacSecPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#key FabricMacSecPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#propagated FabricMacSecPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#propagated FabricMacSecPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#type FabricMacSecPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#sys_tag FabricMacSecPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#type FabricMacSecPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#value FabricMacSecPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#value FabricMacSecPolicy#value}
   */
   readonly value?: string;
 }
@@ -3563,6 +3567,7 @@ export function fabricMacSecPolicyTagsToTerraform(struct?: FabricMacSecPolicyTag
     definition: cdktf.listMapper(fabricMacSecPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3601,6 +3606,12 @@ export function fabricMacSecPolicyTagsToHclTerraform(struct?: FabricMacSecPolicy
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3663,6 +3674,10 @@ export class FabricMacSecPolicyTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3683,6 +3698,7 @@ export class FabricMacSecPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3698,6 +3714,7 @@ export class FabricMacSecPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3783,6 +3800,22 @@ export class FabricMacSecPolicyTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3837,23 +3870,23 @@ export class FabricMacSecPolicyTagsList extends cdktf.ComplexList {
 }
 export interface FabricMacSecPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4085,23 +4118,23 @@ export class FabricMacSecPolicyVersionContextInterestedMosList extends cdktf.Com
 }
 export interface FabricMacSecPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#moid FabricMacSecPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#selector FabricMacSecPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4333,39 +4366,39 @@ export class FabricMacSecPolicyVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface FabricMacSecPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#additional_properties FabricMacSecPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#class_id FabricMacSecPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#interested_mos FabricMacSecPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#interested_mos FabricMacSecPolicy#interested_mos}
   */
   readonly interestedMos?: FabricMacSecPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#marked_for_deletion FabricMacSecPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#marked_for_deletion FabricMacSecPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#nr_version FabricMacSecPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#nr_version FabricMacSecPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#object_type FabricMacSecPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#ref_mo FabricMacSecPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#ref_mo FabricMacSecPolicy#ref_mo}
   */
   readonly refMo?: FabricMacSecPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#timestamp FabricMacSecPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#timestamp FabricMacSecPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#version_type FabricMacSecPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#version_type FabricMacSecPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -4713,7 +4746,7 @@ export class FabricMacSecPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy intersight_fabric_mac_sec_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy intersight_fabric_mac_sec_policy}
 */
 export class FabricMacSecPolicy extends cdktf.TerraformResource {
 
@@ -4729,7 +4762,7 @@ export class FabricMacSecPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricMacSecPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricMacSecPolicy to import
-  * @param importFromId The id of the existing FabricMacSecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricMacSecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricMacSecPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4741,7 +4774,7 @@ export class FabricMacSecPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_mac_sec_policy intersight_fabric_mac_sec_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_mac_sec_policy intersight_fabric_mac_sec_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4752,8 +4785,8 @@ export class FabricMacSecPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_mac_sec_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

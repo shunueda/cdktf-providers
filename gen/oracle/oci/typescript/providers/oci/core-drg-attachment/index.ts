@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface CoreDrgAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#defined_tags CoreDrgAttachment#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#defined_tags CoreDrgAttachment#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#display_name CoreDrgAttachment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#display_name CoreDrgAttachment#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#drg_id CoreDrgAttachment#drg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#drg_id CoreDrgAttachment#drg_id}
   */
   readonly drgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#drg_route_table_id CoreDrgAttachment#drg_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#drg_route_table_id CoreDrgAttachment#drg_route_table_id}
   */
   readonly drgRouteTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#export_drg_route_distribution_id CoreDrgAttachment#export_drg_route_distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#export_drg_route_distribution_id CoreDrgAttachment#export_drg_route_distribution_id}
   */
   readonly exportDrgRouteDistributionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#freeform_tags CoreDrgAttachment#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#freeform_tags CoreDrgAttachment#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#id CoreDrgAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#id CoreDrgAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#remove_export_drg_route_distribution_trigger CoreDrgAttachment#remove_export_drg_route_distribution_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#remove_export_drg_route_distribution_trigger CoreDrgAttachment#remove_export_drg_route_distribution_trigger}
   */
   readonly removeExportDrgRouteDistributionTrigger?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#route_table_id CoreDrgAttachment#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#route_table_id CoreDrgAttachment#route_table_id}
   */
   readonly routeTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#vcn_id CoreDrgAttachment#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#vcn_id CoreDrgAttachment#vcn_id}
   */
   readonly vcnId?: string;
   /**
   * network_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#network_details CoreDrgAttachment#network_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#network_details CoreDrgAttachment#network_details}
   */
   readonly networkDetails?: CoreDrgAttachmentNetworkDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#timeouts CoreDrgAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#timeouts CoreDrgAttachment#timeouts}
   */
   readonly timeouts?: CoreDrgAttachmentTimeouts;
 }
 export interface CoreDrgAttachmentNetworkDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#id CoreDrgAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#id CoreDrgAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#route_table_id CoreDrgAttachment#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#route_table_id CoreDrgAttachment#route_table_id}
   */
   readonly routeTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#type CoreDrgAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#type CoreDrgAttachment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#vcn_route_type CoreDrgAttachment#vcn_route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#vcn_route_type CoreDrgAttachment#vcn_route_type}
   */
   readonly vcnRouteType?: string;
 }
@@ -268,15 +268,15 @@ export class CoreDrgAttachmentNetworkDetailsOutputReference extends cdktf.Comple
 }
 export interface CoreDrgAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#create CoreDrgAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#create CoreDrgAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#delete CoreDrgAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#delete CoreDrgAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#update CoreDrgAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#update CoreDrgAttachment#update}
   */
   readonly update?: string;
 }
@@ -428,7 +428,7 @@ export class CoreDrgAttachmentTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment oci_core_drg_attachment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment oci_core_drg_attachment}
 */
 export class CoreDrgAttachment extends cdktf.TerraformResource {
 
@@ -444,7 +444,7 @@ export class CoreDrgAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreDrgAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreDrgAttachment to import
-  * @param importFromId The id of the existing CoreDrgAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreDrgAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreDrgAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -456,7 +456,7 @@ export class CoreDrgAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_attachment oci_core_drg_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_attachment oci_core_drg_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -467,8 +467,8 @@ export class CoreDrgAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_drg_attachment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

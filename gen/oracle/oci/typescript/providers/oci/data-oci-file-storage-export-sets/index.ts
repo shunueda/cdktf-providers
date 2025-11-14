@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFileStorageExportSetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#availability_domain DataOciFileStorageExportSets#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#availability_domain DataOciFileStorageExportSets#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#compartment_id DataOciFileStorageExportSets#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#compartment_id DataOciFileStorageExportSets#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#display_name DataOciFileStorageExportSets#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#display_name DataOciFileStorageExportSets#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#id DataOciFileStorageExportSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#id DataOciFileStorageExportSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#state DataOciFileStorageExportSets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#state DataOciFileStorageExportSets#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#filter DataOciFileStorageExportSets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#filter DataOciFileStorageExportSets#filter}
   */
   readonly filter?: DataOciFileStorageExportSetsFilter[] | cdktf.IResolvable;
 }
@@ -159,15 +159,15 @@ export class DataOciFileStorageExportSetsExportSetsList extends cdktf.ComplexLis
 }
 export interface DataOciFileStorageExportSetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#name DataOciFileStorageExportSets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#name DataOciFileStorageExportSets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#regex DataOciFileStorageExportSets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#regex DataOciFileStorageExportSets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#values DataOciFileStorageExportSets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#values DataOciFileStorageExportSets#values}
   */
   readonly values: string[];
 }
@@ -335,7 +335,7 @@ export class DataOciFileStorageExportSetsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets oci_file_storage_export_sets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets oci_file_storage_export_sets}
 */
 export class DataOciFileStorageExportSets extends cdktf.TerraformDataSource {
 
@@ -351,7 +351,7 @@ export class DataOciFileStorageExportSets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciFileStorageExportSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFileStorageExportSets to import
-  * @param importFromId The id of the existing DataOciFileStorageExportSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFileStorageExportSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFileStorageExportSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class DataOciFileStorageExportSets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/file_storage_export_sets oci_file_storage_export_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/file_storage_export_sets oci_file_storage_export_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class DataOciFileStorageExportSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_file_storage_export_sets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

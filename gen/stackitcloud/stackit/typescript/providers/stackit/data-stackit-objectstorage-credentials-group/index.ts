@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitObjectstorageCredentialsGroupConfig extends cdktf.Te
   /**
   * The credentials group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group#credentials_group_id DataStackitObjectstorageCredentialsGroup#credentials_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group#credentials_group_id DataStackitObjectstorageCredentialsGroup#credentials_group_id}
   */
   readonly credentialsGroupId: string;
   /**
   * Object Storage Project ID to which the credentials group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group#project_id DataStackitObjectstorageCredentialsGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group#project_id DataStackitObjectstorageCredentialsGroup#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group#region DataStackitObjectstorageCredentialsGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group#region DataStackitObjectstorageCredentialsGroup#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group stackit_objectstorage_credentials_group}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group stackit_objectstorage_credentials_group}
 */
 export class DataStackitObjectstorageCredentialsGroup extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitObjectstorageCredentialsGroup extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataStackitObjectstorageCredentialsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitObjectstorageCredentialsGroup to import
-  * @param importFromId The id of the existing DataStackitObjectstorageCredentialsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitObjectstorageCredentialsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitObjectstorageCredentialsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitObjectstorageCredentialsGroup extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/objectstorage_credentials_group stackit_objectstorage_credentials_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_credentials_group stackit_objectstorage_credentials_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitObjectstorageCredentialsGroup extends cdktf.TerraformDat
       terraformResourceType: 'stackit_objectstorage_credentials_group',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

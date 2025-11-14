@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataIntersightPortMacBindingConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#account_moid DataIntersightPortMacBinding#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#account_moid DataIntersightPortMacBinding#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Aggregate Port ID of the local Switch Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#aggregate_port_id DataIntersightPortMacBinding#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#aggregate_port_id DataIntersightPortMacBinding#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
   * Chassis/FEX device idetifier that is local to a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#chassis_id DataIntersightPortMacBinding#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#chassis_id DataIntersightPortMacBinding#chassis_id}
   */
   readonly chassisId?: number;
   /**
   * Chassis/Rack Model that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#chassis_model DataIntersightPortMacBinding#chassis_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#chassis_model DataIntersightPortMacBinding#chassis_model}
   */
   readonly chassisModel?: string;
   /**
   * Chassis/Rack Serial that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#chassis_serial DataIntersightPortMacBinding#chassis_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#chassis_serial DataIntersightPortMacBinding#chassis_serial}
   */
   readonly chassisSerial?: string;
   /**
   * Chassis/Rack Vendor that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#chassis_vendor DataIntersightPortMacBinding#chassis_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#chassis_vendor DataIntersightPortMacBinding#chassis_vendor}
   */
   readonly chassisVendor?: string;
   /**
@@ -52,41 +52,41 @@ export interface DataIntersightPortMacBindingConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#create_time DataIntersightPortMacBinding#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#create_time DataIntersightPortMacBinding#create_time}
   */
   readonly createTime?: string;
   /**
   * Device ID value that is advertised and available as a part of LLDP TLV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#device_mac DataIntersightPortMacBinding#device_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#device_mac DataIntersightPortMacBinding#device_mac}
   */
   readonly deviceMac?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#device_mo_id DataIntersightPortMacBinding#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#device_mo_id DataIntersightPortMacBinding#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#dn DataIntersightPortMacBinding#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#dn DataIntersightPortMacBinding#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#domain_group_moid DataIntersightPortMacBinding#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#domain_group_moid DataIntersightPortMacBinding#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#id DataIntersightPortMacBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#id DataIntersightPortMacBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,145 +95,145 @@ export interface DataIntersightPortMacBindingConfig extends cdktf.TerraformMetaA
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#mod_time DataIntersightPortMacBinding#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#mod_time DataIntersightPortMacBinding#mod_time}
   */
   readonly modTime?: string;
   /**
   * IOM/SIOC/Adapter Mode that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_mode DataIntersightPortMacBinding#module_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_mode DataIntersightPortMacBinding#module_mode}
   */
   readonly moduleMode?: number;
   /**
   * IOM/SIOC/Adapter Model that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_model DataIntersightPortMacBinding#module_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_model DataIntersightPortMacBinding#module_model}
   */
   readonly moduleModel?: string;
   /**
   * Uplink port identifier of the VIC that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_port_id DataIntersightPortMacBinding#module_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_port_id DataIntersightPortMacBinding#module_port_id}
   */
   readonly modulePortId?: number;
   /**
   * IOM/SIOC/Adapter Serial that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_serial DataIntersightPortMacBinding#module_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_serial DataIntersightPortMacBinding#module_serial}
   */
   readonly moduleSerial?: string;
   /**
   * IOM/SIOC/Adapter Side that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_side DataIntersightPortMacBinding#module_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_side DataIntersightPortMacBinding#module_side}
   */
   readonly moduleSide?: number;
   /**
   * IOM/SIOC/Adapter Slot that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_slot DataIntersightPortMacBinding#module_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_slot DataIntersightPortMacBinding#module_slot}
   */
   readonly moduleSlot?: number;
   /**
   * IOM/SIOC/Adapter Vendor that is associated with the Switch/FEX interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#module_vendor DataIntersightPortMacBinding#module_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#module_vendor DataIntersightPortMacBinding#module_vendor}
   */
   readonly moduleVendor?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#owners DataIntersightPortMacBinding#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#owners DataIntersightPortMacBinding#owners}
   */
   readonly owners?: string[];
   /**
   * Port ID of the local Switch Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#port_id DataIntersightPortMacBinding#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#port_id DataIntersightPortMacBinding#port_id}
   */
   readonly portId?: number;
   /**
   * Port ID value that is advertised and available as a part of LLDP TLV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#port_mac DataIntersightPortMacBinding#port_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#port_mac DataIntersightPortMacBinding#port_mac}
   */
   readonly portMac?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#rn DataIntersightPortMacBinding#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#rn DataIntersightPortMacBinding#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#shared_scope DataIntersightPortMacBinding#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#shared_scope DataIntersightPortMacBinding#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Slot ID of the local Switch slot Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#slot_id DataIntersightPortMacBinding#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#slot_id DataIntersightPortMacBinding#slot_id}
   */
   readonly slotId?: number;
   /**
   * Switch Identifier that is local to a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#switch_id DataIntersightPortMacBinding#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#switch_id DataIntersightPortMacBinding#switch_id}
   */
   readonly switchId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#ancestors DataIntersightPortMacBinding#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#ancestors DataIntersightPortMacBinding#ancestors}
   */
   readonly ancestors?: DataIntersightPortMacBindingAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#network_element DataIntersightPortMacBinding#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#network_element DataIntersightPortMacBinding#network_element}
   */
   readonly networkElement?: DataIntersightPortMacBindingNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#parent DataIntersightPortMacBinding#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#parent DataIntersightPortMacBinding#parent}
   */
   readonly parent?: DataIntersightPortMacBindingParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#permission_resources DataIntersightPortMacBinding#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#permission_resources DataIntersightPortMacBinding#permission_resources}
   */
   readonly permissionResources?: DataIntersightPortMacBindingPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#registered_device DataIntersightPortMacBinding#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#registered_device DataIntersightPortMacBinding#registered_device}
   */
   readonly registeredDevice?: DataIntersightPortMacBindingRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#tags DataIntersightPortMacBinding#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#tags DataIntersightPortMacBinding#tags}
   */
   readonly tags?: DataIntersightPortMacBindingTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#version_context DataIntersightPortMacBinding#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#version_context DataIntersightPortMacBinding#version_context}
   */
   readonly versionContext?: DataIntersightPortMacBindingVersionContext;
 }
@@ -980,6 +980,11 @@ export class DataIntersightPortMacBindingResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1580,7 +1585,7 @@ export class DataIntersightPortMacBindingResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortMacBindingAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1588,19 +1593,19 @@ export interface DataIntersightPortMacBindingAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1613,7 +1618,7 @@ export interface DataIntersightPortMacBindingAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -1845,7 +1850,7 @@ export class DataIntersightPortMacBindingAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightPortMacBindingNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1853,19 +1858,19 @@ export interface DataIntersightPortMacBindingNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1878,7 +1883,7 @@ export interface DataIntersightPortMacBindingNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -2078,7 +2083,7 @@ export class DataIntersightPortMacBindingNetworkElementOutputReference extends c
 }
 export interface DataIntersightPortMacBindingParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2086,19 +2091,19 @@ export interface DataIntersightPortMacBindingParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2111,7 +2116,7 @@ export interface DataIntersightPortMacBindingParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -2311,7 +2316,7 @@ export class DataIntersightPortMacBindingParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightPortMacBindingPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2319,19 +2324,19 @@ export interface DataIntersightPortMacBindingPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2344,7 +2349,7 @@ export interface DataIntersightPortMacBindingPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -2576,7 +2581,7 @@ export class DataIntersightPortMacBindingPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightPortMacBindingRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2584,19 +2589,19 @@ export interface DataIntersightPortMacBindingRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2609,7 +2614,7 @@ export interface DataIntersightPortMacBindingRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -2809,7 +2814,7 @@ export class DataIntersightPortMacBindingRegisteredDeviceOutputReference extends
 }
 export interface DataIntersightPortMacBindingTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2817,19 +2822,19 @@ export interface DataIntersightPortMacBindingTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2842,7 +2847,7 @@ export interface DataIntersightPortMacBindingTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -3074,7 +3079,7 @@ export class DataIntersightPortMacBindingTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightPortMacBindingTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3082,19 +3087,19 @@ export interface DataIntersightPortMacBindingTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3107,7 +3112,7 @@ export interface DataIntersightPortMacBindingTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -3307,45 +3312,51 @@ export class DataIntersightPortMacBindingTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightPortMacBindingTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#key DataIntersightPortMacBinding#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#key DataIntersightPortMacBinding#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#propagated DataIntersightPortMacBinding#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#propagated DataIntersightPortMacBinding#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#sys_tag DataIntersightPortMacBinding#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#type DataIntersightPortMacBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#type DataIntersightPortMacBinding#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#value DataIntersightPortMacBinding#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#value DataIntersightPortMacBinding#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#ancestor_definitions DataIntersightPortMacBinding#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#ancestor_definitions DataIntersightPortMacBinding#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPortMacBindingTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#definition DataIntersightPortMacBinding#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#definition DataIntersightPortMacBinding#definition}
   */
   readonly definition?: DataIntersightPortMacBindingTagsDefinition;
 }
@@ -3359,6 +3370,7 @@ export function dataIntersightPortMacBindingTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightPortMacBindingTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3387,6 +3399,12 @@ export function dataIntersightPortMacBindingTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3453,6 +3471,10 @@ export class DataIntersightPortMacBindingTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3479,6 +3501,7 @@ export class DataIntersightPortMacBindingTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3494,6 +3517,7 @@ export class DataIntersightPortMacBindingTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3547,6 +3571,22 @@ export class DataIntersightPortMacBindingTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3635,7 +3675,7 @@ export class DataIntersightPortMacBindingTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortMacBindingVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3643,19 +3683,19 @@ export interface DataIntersightPortMacBindingVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3668,7 +3708,7 @@ export interface DataIntersightPortMacBindingVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -3900,7 +3940,7 @@ export class DataIntersightPortMacBindingVersionContextInterestedMosList extends
 }
 export interface DataIntersightPortMacBindingVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3908,19 +3948,19 @@ export interface DataIntersightPortMacBindingVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#moid DataIntersightPortMacBinding#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3933,7 +3973,7 @@ export interface DataIntersightPortMacBindingVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#selector DataIntersightPortMacBinding#selector}
   */
   readonly selector?: string;
 }
@@ -4133,7 +4173,7 @@ export class DataIntersightPortMacBindingVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightPortMacBindingVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#additional_properties DataIntersightPortMacBinding#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4141,32 +4181,32 @@ export interface DataIntersightPortMacBindingVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#class_id DataIntersightPortMacBinding#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#marked_for_deletion DataIntersightPortMacBinding#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#marked_for_deletion DataIntersightPortMacBinding#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#nr_version DataIntersightPortMacBinding#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#nr_version DataIntersightPortMacBinding#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#object_type DataIntersightPortMacBinding#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#timestamp DataIntersightPortMacBinding#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#timestamp DataIntersightPortMacBinding#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4177,19 +4217,19 @@ export interface DataIntersightPortMacBindingVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#version_type DataIntersightPortMacBinding#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#version_type DataIntersightPortMacBinding#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#interested_mos DataIntersightPortMacBinding#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#interested_mos DataIntersightPortMacBinding#interested_mos}
   */
   readonly interestedMos?: DataIntersightPortMacBindingVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#ref_mo DataIntersightPortMacBinding#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#ref_mo DataIntersightPortMacBinding#ref_mo}
   */
   readonly refMo?: DataIntersightPortMacBindingVersionContextRefMo;
 }
@@ -4505,7 +4545,7 @@ export class DataIntersightPortMacBindingVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding intersight_port_mac_binding}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding intersight_port_mac_binding}
 */
 export class DataIntersightPortMacBinding extends cdktf.TerraformDataSource {
 
@@ -4521,7 +4561,7 @@ export class DataIntersightPortMacBinding extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightPortMacBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPortMacBinding to import
-  * @param importFromId The id of the existing DataIntersightPortMacBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPortMacBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPortMacBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4533,7 +4573,7 @@ export class DataIntersightPortMacBinding extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/port_mac_binding intersight_port_mac_binding} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_mac_binding intersight_port_mac_binding} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4544,8 +4584,8 @@ export class DataIntersightPortMacBinding extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_port_mac_binding',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface PbrV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#description PbrV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#description PbrV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ext_id PbrV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ext_id PbrV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#id PbrV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#id PbrV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#name PbrV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#name PbrV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#priority PbrV2#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#priority PbrV2#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#vpc_ext_id PbrV2#vpc_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#vpc_ext_id PbrV2#vpc_ext_id}
   */
   readonly vpcExtId: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#policies PbrV2#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#policies PbrV2#policies}
   */
   readonly policies: PbrV2Policies[] | cdktf.IResolvable;
 }
@@ -294,11 +294,11 @@ export class PbrV2VpcList extends cdktf.ComplexList {
 }
 export interface PbrV2PoliciesPolicyActionNexthopIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -443,11 +443,11 @@ export class PbrV2PoliciesPolicyActionNexthopIpAddressIpv4List extends cdktf.Com
 }
 export interface PbrV2PoliciesPolicyActionNexthopIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -594,13 +594,13 @@ export interface PbrV2PoliciesPolicyActionNexthopIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyActionNexthopIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyActionNexthopIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -745,11 +745,11 @@ export class PbrV2PoliciesPolicyActionNexthopIpAddressList extends cdktf.Complex
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -894,11 +894,11 @@ export class PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpIpv4List exten
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -1045,13 +1045,13 @@ export interface PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpIpv6[] | cdktf.IResolvable;
 }
@@ -1196,11 +1196,11 @@ export class PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIpList extends c
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -1345,11 +1345,11 @@ export class PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpIpv4List exte
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -1496,13 +1496,13 @@ export interface PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpIpv6[] | cdktf.IResolvable;
 }
@@ -1647,11 +1647,11 @@ export class PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIpList extends 
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsServiceIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -1796,11 +1796,11 @@ export class PbrV2PoliciesPolicyActionRerouteParamsServiceIpIpv4List extends cdk
 }
 export interface PbrV2PoliciesPolicyActionRerouteParamsServiceIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -1947,13 +1947,13 @@ export interface PbrV2PoliciesPolicyActionRerouteParamsServiceIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyActionRerouteParamsServiceIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyActionRerouteParamsServiceIpIpv6[] | cdktf.IResolvable;
 }
@@ -2098,25 +2098,25 @@ export class PbrV2PoliciesPolicyActionRerouteParamsServiceIpList extends cdktf.C
 }
 export interface PbrV2PoliciesPolicyActionRerouteParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#reroute_fallback_action PbrV2#reroute_fallback_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#reroute_fallback_action PbrV2#reroute_fallback_action}
   */
   readonly rerouteFallbackAction?: string;
   /**
   * egress_service_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#egress_service_ip PbrV2#egress_service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#egress_service_ip PbrV2#egress_service_ip}
   */
   readonly egressServiceIp?: PbrV2PoliciesPolicyActionRerouteParamsEgressServiceIp[] | cdktf.IResolvable;
   /**
   * ingress_service_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ingress_service_ip PbrV2#ingress_service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ingress_service_ip PbrV2#ingress_service_ip}
   */
   readonly ingressServiceIp?: PbrV2PoliciesPolicyActionRerouteParamsIngressServiceIp[] | cdktf.IResolvable;
   /**
   * service_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#service_ip PbrV2#service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#service_ip PbrV2#service_ip}
   */
   readonly serviceIp?: PbrV2PoliciesPolicyActionRerouteParamsServiceIp[] | cdktf.IResolvable;
 }
@@ -2319,19 +2319,19 @@ export class PbrV2PoliciesPolicyActionRerouteParamsList extends cdktf.ComplexLis
 }
 export interface PbrV2PoliciesPolicyAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#action_type PbrV2#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#action_type PbrV2#action_type}
   */
   readonly actionType: string;
   /**
   * nexthop_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#nexthop_ip_address PbrV2#nexthop_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#nexthop_ip_address PbrV2#nexthop_ip_address}
   */
   readonly nexthopIpAddress?: PbrV2PoliciesPolicyActionNexthopIpAddress[] | cdktf.IResolvable;
   /**
   * reroute_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#reroute_params PbrV2#reroute_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#reroute_params PbrV2#reroute_params}
   */
   readonly rerouteParams?: PbrV2PoliciesPolicyActionRerouteParams[] | cdktf.IResolvable;
 }
@@ -2502,11 +2502,11 @@ export class PbrV2PoliciesPolicyActionList extends cdktf.ComplexList {
 }
 export interface PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -2651,13 +2651,13 @@ export class PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4IpList extends c
 }
 export interface PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ip PbrV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ip PbrV2#ip}
   */
   readonly ip?: PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4Ip[] | cdktf.IResolvable;
 }
@@ -2802,11 +2802,11 @@ export class PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4List extends cdk
 }
 export interface PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -2951,13 +2951,13 @@ export class PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv6IpList extends c
 }
 export interface PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ip PbrV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ip PbrV2#ip}
   */
   readonly ip?: PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv6Ip[] | cdktf.IResolvable;
 }
@@ -3104,13 +3104,13 @@ export interface PbrV2PoliciesPolicyMatchDestinationSubnetPrefix {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyMatchDestinationSubnetPrefixIpv6[] | cdktf.IResolvable;
 }
@@ -3255,13 +3255,13 @@ export class PbrV2PoliciesPolicyMatchDestinationSubnetPrefixList extends cdktf.C
 }
 export interface PbrV2PoliciesPolicyMatchDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#address_type PbrV2#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#address_type PbrV2#address_type}
   */
   readonly addressType: string;
   /**
   * subnet_prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#subnet_prefix PbrV2#subnet_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#subnet_prefix PbrV2#subnet_prefix}
   */
   readonly subnetPrefix?: PbrV2PoliciesPolicyMatchDestinationSubnetPrefix[] | cdktf.IResolvable;
 }
@@ -3403,11 +3403,11 @@ export class PbrV2PoliciesPolicyMatchDestinationList extends cdktf.ComplexList {
 }
 export interface PbrV2PoliciesPolicyMatchProtocolParametersIcmpObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#icmp_code PbrV2#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#icmp_code PbrV2#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#icmp_type PbrV2#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#icmp_type PbrV2#icmp_type}
   */
   readonly icmpType?: number;
 }
@@ -3552,11 +3552,11 @@ export class PbrV2PoliciesPolicyMatchProtocolParametersIcmpObjectList extends cd
 }
 export interface PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectDestinationPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#end_port PbrV2#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#end_port PbrV2#end_port}
   */
   readonly endPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#start_port PbrV2#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#start_port PbrV2#start_port}
   */
   readonly startPort: number;
 }
@@ -3695,11 +3695,11 @@ export class PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectDe
 }
 export interface PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectSourcePortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#end_port PbrV2#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#end_port PbrV2#end_port}
   */
   readonly endPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#start_port PbrV2#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#start_port PbrV2#start_port}
   */
   readonly startPort: number;
 }
@@ -3840,13 +3840,13 @@ export interface PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObje
   /**
   * destination_port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#destination_port_ranges PbrV2#destination_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#destination_port_ranges PbrV2#destination_port_ranges}
   */
   readonly destinationPortRanges?: PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectDestinationPortRanges[] | cdktf.IResolvable;
   /**
   * source_port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#source_port_ranges PbrV2#source_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#source_port_ranges PbrV2#source_port_ranges}
   */
   readonly sourcePortRanges?: PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectSourcePortRanges[] | cdktf.IResolvable;
 }
@@ -3991,7 +3991,7 @@ export class PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObjectLi
 }
 export interface PbrV2PoliciesPolicyMatchProtocolParametersProtocolNumberObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#protocol_number PbrV2#protocol_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#protocol_number PbrV2#protocol_number}
   */
   readonly protocolNumber: number;
 }
@@ -4106,19 +4106,19 @@ export interface PbrV2PoliciesPolicyMatchProtocolParameters {
   /**
   * icmp_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#icmp_object PbrV2#icmp_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#icmp_object PbrV2#icmp_object}
   */
   readonly icmpObject?: PbrV2PoliciesPolicyMatchProtocolParametersIcmpObject[] | cdktf.IResolvable;
   /**
   * layer_four_protocol_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#layer_four_protocol_object PbrV2#layer_four_protocol_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#layer_four_protocol_object PbrV2#layer_four_protocol_object}
   */
   readonly layerFourProtocolObject?: PbrV2PoliciesPolicyMatchProtocolParametersLayerFourProtocolObject[] | cdktf.IResolvable;
   /**
   * protocol_number_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#protocol_number_object PbrV2#protocol_number_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#protocol_number_object PbrV2#protocol_number_object}
   */
   readonly protocolNumberObject?: PbrV2PoliciesPolicyMatchProtocolParametersProtocolNumberObject[] | cdktf.IResolvable;
 }
@@ -4292,11 +4292,11 @@ export class PbrV2PoliciesPolicyMatchProtocolParametersList extends cdktf.Comple
 }
 export interface PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -4441,13 +4441,13 @@ export class PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4IpList extends cdktf.
 }
 export interface PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ip PbrV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ip PbrV2#ip}
   */
   readonly ip?: PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4Ip[] | cdktf.IResolvable;
 }
@@ -4592,11 +4592,11 @@ export class PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4List extends cdktf.Co
 }
 export interface PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#value PbrV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#value PbrV2#value}
   */
   readonly value?: string;
 }
@@ -4741,13 +4741,13 @@ export class PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv6IpList extends cdktf.
 }
 export interface PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#prefix_length PbrV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ip PbrV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ip PbrV2#ip}
   */
   readonly ip?: PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv6Ip[] | cdktf.IResolvable;
 }
@@ -4894,13 +4894,13 @@ export interface PbrV2PoliciesPolicyMatchSourceSubnetPrefix {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv4 PbrV2#ipv4}
   */
   readonly ipv4?: PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#ipv6 PbrV2#ipv6}
   */
   readonly ipv6?: PbrV2PoliciesPolicyMatchSourceSubnetPrefixIpv6[] | cdktf.IResolvable;
 }
@@ -5045,13 +5045,13 @@ export class PbrV2PoliciesPolicyMatchSourceSubnetPrefixList extends cdktf.Comple
 }
 export interface PbrV2PoliciesPolicyMatchSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#address_type PbrV2#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#address_type PbrV2#address_type}
   */
   readonly addressType: string;
   /**
   * subnet_prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#subnet_prefix PbrV2#subnet_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#subnet_prefix PbrV2#subnet_prefix}
   */
   readonly subnetPrefix?: PbrV2PoliciesPolicyMatchSourceSubnetPrefix[] | cdktf.IResolvable;
 }
@@ -5193,25 +5193,25 @@ export class PbrV2PoliciesPolicyMatchSourceList extends cdktf.ComplexList {
 }
 export interface PbrV2PoliciesPolicyMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#protocol_type PbrV2#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#protocol_type PbrV2#protocol_type}
   */
   readonly protocolType: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#destination PbrV2#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#destination PbrV2#destination}
   */
   readonly destination: PbrV2PoliciesPolicyMatchDestination[] | cdktf.IResolvable;
   /**
   * protocol_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#protocol_parameters PbrV2#protocol_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#protocol_parameters PbrV2#protocol_parameters}
   */
   readonly protocolParameters?: PbrV2PoliciesPolicyMatchProtocolParameters[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#source PbrV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#source PbrV2#source}
   */
   readonly source: PbrV2PoliciesPolicyMatchSource[] | cdktf.IResolvable;
 }
@@ -5405,19 +5405,19 @@ export class PbrV2PoliciesPolicyMatchList extends cdktf.ComplexList {
 }
 export interface PbrV2Policies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#is_bidirectional PbrV2#is_bidirectional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#is_bidirectional PbrV2#is_bidirectional}
   */
   readonly isBidirectional?: boolean | cdktf.IResolvable;
   /**
   * policy_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#policy_action PbrV2#policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#policy_action PbrV2#policy_action}
   */
   readonly policyAction: PbrV2PoliciesPolicyAction[] | cdktf.IResolvable;
   /**
   * policy_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#policy_match PbrV2#policy_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#policy_match PbrV2#policy_match}
   */
   readonly policyMatch: PbrV2PoliciesPolicyMatch[] | cdktf.IResolvable;
 }
@@ -5585,7 +5585,7 @@ export class PbrV2PoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2 nutanix_pbr_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2 nutanix_pbr_v2}
 */
 export class PbrV2 extends cdktf.TerraformResource {
 
@@ -5601,7 +5601,7 @@ export class PbrV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PbrV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PbrV2 to import
-  * @param importFromId The id of the existing PbrV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PbrV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PbrV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5613,7 +5613,7 @@ export class PbrV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr_v2 nutanix_pbr_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr_v2 nutanix_pbr_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5624,8 +5624,8 @@ export class PbrV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_pbr_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

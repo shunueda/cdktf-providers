@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#account_moid DataIntersightFabricFcStorageRole#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#account_moid DataIntersightFabricFcStorageRole#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -25,7 +25,7 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   * * `64Gbps` - Admin configurable speed 64Gbps.
   * * `Auto` - Admin configurable speed AUTO ( default ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#admin_speed DataIntersightFabricFcStorageRole#admin_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#admin_speed DataIntersightFabricFcStorageRole#admin_speed}
   */
   readonly adminSpeed?: string;
   /**
@@ -34,7 +34,7 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   * When a port is configured as a breakout port, the 'aggregatePortId' port number as labeled on the equipment,
   * e.g. the id of the port on the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#aggregate_port_id DataIntersightFabricFcStorageRole#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#aggregate_port_id DataIntersightFabricFcStorageRole#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
@@ -42,23 +42,23 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#create_time DataIntersightFabricFcStorageRole#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#create_time DataIntersightFabricFcStorageRole#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#domain_group_moid DataIntersightFabricFcStorageRole#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#domain_group_moid DataIntersightFabricFcStorageRole#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#id DataIntersightFabricFcStorageRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#id DataIntersightFabricFcStorageRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,24 +67,24 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#mod_time DataIntersightFabricFcStorageRole#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#mod_time DataIntersightFabricFcStorageRole#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#owners DataIntersightFabricFcStorageRole#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#owners DataIntersightFabricFcStorageRole#owners}
   */
   readonly owners?: string[];
   /**
@@ -93,68 +93,68 @@ export interface DataIntersightFabricFcStorageRoleConfig extends cdktf.Terraform
   * e.g. the id of the port on the switch, FEX or chassis.
   * When a port is configured as a breakout port, the 'portId' represents the port id on the fanout side of the breakout cable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#port_id DataIntersightFabricFcStorageRole#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#port_id DataIntersightFabricFcStorageRole#port_id}
   */
   readonly portId?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#shared_scope DataIntersightFabricFcStorageRole#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#shared_scope DataIntersightFabricFcStorageRole#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Slot Identifier of the Switch/FEX/Chassis Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#slot_id DataIntersightFabricFcStorageRole#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#slot_id DataIntersightFabricFcStorageRole#slot_id}
   */
   readonly slotId?: number;
   /**
   * The user defined label assigned to a Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#user_label DataIntersightFabricFcStorageRole#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#user_label DataIntersightFabricFcStorageRole#user_label}
   */
   readonly userLabel?: string;
   /**
   * Virtual San Identifier associated to the FC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#vsan_id DataIntersightFabricFcStorageRole#vsan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#vsan_id DataIntersightFabricFcStorageRole#vsan_id}
   */
   readonly vsanId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#ancestors DataIntersightFabricFcStorageRole#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#ancestors DataIntersightFabricFcStorageRole#ancestors}
   */
   readonly ancestors?: DataIntersightFabricFcStorageRoleAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#parent DataIntersightFabricFcStorageRole#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#parent DataIntersightFabricFcStorageRole#parent}
   */
   readonly parent?: DataIntersightFabricFcStorageRoleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#permission_resources DataIntersightFabricFcStorageRole#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#permission_resources DataIntersightFabricFcStorageRole#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricFcStorageRolePermissionResources[] | cdktf.IResolvable;
   /**
   * port_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#port_policy DataIntersightFabricFcStorageRole#port_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#port_policy DataIntersightFabricFcStorageRole#port_policy}
   */
   readonly portPolicy?: DataIntersightFabricFcStorageRolePortPolicy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#tags DataIntersightFabricFcStorageRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#tags DataIntersightFabricFcStorageRole#tags}
   */
   readonly tags?: DataIntersightFabricFcStorageRoleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#version_context DataIntersightFabricFcStorageRole#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#version_context DataIntersightFabricFcStorageRole#version_context}
   */
   readonly versionContext?: DataIntersightFabricFcStorageRoleVersionContext;
 }
@@ -806,6 +806,11 @@ export class DataIntersightFabricFcStorageRoleResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1330,7 +1335,7 @@ export class DataIntersightFabricFcStorageRoleResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightFabricFcStorageRoleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1338,19 +1343,19 @@ export interface DataIntersightFabricFcStorageRoleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1363,7 +1368,7 @@ export interface DataIntersightFabricFcStorageRoleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -1595,7 +1600,7 @@ export class DataIntersightFabricFcStorageRoleAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightFabricFcStorageRoleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1603,19 +1608,19 @@ export interface DataIntersightFabricFcStorageRoleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1628,7 +1633,7 @@ export interface DataIntersightFabricFcStorageRoleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -1828,7 +1833,7 @@ export class DataIntersightFabricFcStorageRoleParentOutputReference extends cdkt
 }
 export interface DataIntersightFabricFcStorageRolePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1836,19 +1841,19 @@ export interface DataIntersightFabricFcStorageRolePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1861,7 +1866,7 @@ export interface DataIntersightFabricFcStorageRolePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -2093,7 +2098,7 @@ export class DataIntersightFabricFcStorageRolePermissionResourcesList extends cd
 }
 export interface DataIntersightFabricFcStorageRolePortPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,19 +2106,19 @@ export interface DataIntersightFabricFcStorageRolePortPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2126,7 +2131,7 @@ export interface DataIntersightFabricFcStorageRolePortPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -2326,7 +2331,7 @@ export class DataIntersightFabricFcStorageRolePortPolicyOutputReference extends 
 }
 export interface DataIntersightFabricFcStorageRoleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2334,19 +2339,19 @@ export interface DataIntersightFabricFcStorageRoleTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2359,7 +2364,7 @@ export interface DataIntersightFabricFcStorageRoleTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -2591,7 +2596,7 @@ export class DataIntersightFabricFcStorageRoleTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightFabricFcStorageRoleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2599,19 +2604,19 @@ export interface DataIntersightFabricFcStorageRoleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2624,7 +2629,7 @@ export interface DataIntersightFabricFcStorageRoleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -2824,45 +2829,51 @@ export class DataIntersightFabricFcStorageRoleTagsDefinitionOutputReference exte
 }
 export interface DataIntersightFabricFcStorageRoleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#key DataIntersightFabricFcStorageRole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#key DataIntersightFabricFcStorageRole#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#propagated DataIntersightFabricFcStorageRole#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#propagated DataIntersightFabricFcStorageRole#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#sys_tag DataIntersightFabricFcStorageRole#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#type DataIntersightFabricFcStorageRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#type DataIntersightFabricFcStorageRole#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#value DataIntersightFabricFcStorageRole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#value DataIntersightFabricFcStorageRole#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#ancestor_definitions DataIntersightFabricFcStorageRole#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#ancestor_definitions DataIntersightFabricFcStorageRole#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricFcStorageRoleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#definition DataIntersightFabricFcStorageRole#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#definition DataIntersightFabricFcStorageRole#definition}
   */
   readonly definition?: DataIntersightFabricFcStorageRoleTagsDefinition;
 }
@@ -2876,6 +2887,7 @@ export function dataIntersightFabricFcStorageRoleTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricFcStorageRoleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2904,6 +2916,12 @@ export function dataIntersightFabricFcStorageRoleTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2970,6 +2988,10 @@ export class DataIntersightFabricFcStorageRoleTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2996,6 +3018,7 @@ export class DataIntersightFabricFcStorageRoleTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3011,6 +3034,7 @@ export class DataIntersightFabricFcStorageRoleTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3064,6 +3088,22 @@ export class DataIntersightFabricFcStorageRoleTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3152,7 +3192,7 @@ export class DataIntersightFabricFcStorageRoleTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightFabricFcStorageRoleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3160,19 +3200,19 @@ export interface DataIntersightFabricFcStorageRoleVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3185,7 +3225,7 @@ export interface DataIntersightFabricFcStorageRoleVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -3417,7 +3457,7 @@ export class DataIntersightFabricFcStorageRoleVersionContextInterestedMosList ex
 }
 export interface DataIntersightFabricFcStorageRoleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3425,19 +3465,19 @@ export interface DataIntersightFabricFcStorageRoleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#moid DataIntersightFabricFcStorageRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3450,7 +3490,7 @@ export interface DataIntersightFabricFcStorageRoleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#selector DataIntersightFabricFcStorageRole#selector}
   */
   readonly selector?: string;
 }
@@ -3650,7 +3690,7 @@ export class DataIntersightFabricFcStorageRoleVersionContextRefMoOutputReference
 }
 export interface DataIntersightFabricFcStorageRoleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#additional_properties DataIntersightFabricFcStorageRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3658,32 +3698,32 @@ export interface DataIntersightFabricFcStorageRoleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#class_id DataIntersightFabricFcStorageRole#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#marked_for_deletion DataIntersightFabricFcStorageRole#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#marked_for_deletion DataIntersightFabricFcStorageRole#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#nr_version DataIntersightFabricFcStorageRole#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#nr_version DataIntersightFabricFcStorageRole#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#object_type DataIntersightFabricFcStorageRole#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#timestamp DataIntersightFabricFcStorageRole#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#timestamp DataIntersightFabricFcStorageRole#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3694,19 +3734,19 @@ export interface DataIntersightFabricFcStorageRoleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#version_type DataIntersightFabricFcStorageRole#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#version_type DataIntersightFabricFcStorageRole#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#interested_mos DataIntersightFabricFcStorageRole#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#interested_mos DataIntersightFabricFcStorageRole#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricFcStorageRoleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#ref_mo DataIntersightFabricFcStorageRole#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#ref_mo DataIntersightFabricFcStorageRole#ref_mo}
   */
   readonly refMo?: DataIntersightFabricFcStorageRoleVersionContextRefMo;
 }
@@ -4022,7 +4062,7 @@ export class DataIntersightFabricFcStorageRoleVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role intersight_fabric_fc_storage_role}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role intersight_fabric_fc_storage_role}
 */
 export class DataIntersightFabricFcStorageRole extends cdktf.TerraformDataSource {
 
@@ -4038,7 +4078,7 @@ export class DataIntersightFabricFcStorageRole extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightFabricFcStorageRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricFcStorageRole to import
-  * @param importFromId The id of the existing DataIntersightFabricFcStorageRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricFcStorageRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricFcStorageRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4050,7 +4090,7 @@ export class DataIntersightFabricFcStorageRole extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_storage_role intersight_fabric_fc_storage_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_storage_role intersight_fabric_fc_storage_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4061,8 +4101,8 @@ export class DataIntersightFabricFcStorageRole extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_fabric_fc_storage_role',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

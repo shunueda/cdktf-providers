@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementCompliancePolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#compliance_policy_id FleetAppsManagementCompliancePolicyRule#compliance_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#compliance_policy_id FleetAppsManagementCompliancePolicyRule#compliance_policy_id}
   */
   readonly compliancePolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#defined_tags FleetAppsManagementCompliancePolicyRule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#defined_tags FleetAppsManagementCompliancePolicyRule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#display_name FleetAppsManagementCompliancePolicyRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#display_name FleetAppsManagementCompliancePolicyRule#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#freeform_tags FleetAppsManagementCompliancePolicyRule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#freeform_tags FleetAppsManagementCompliancePolicyRule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#grace_period FleetAppsManagementCompliancePolicyRule#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#grace_period FleetAppsManagementCompliancePolicyRule#grace_period}
   */
   readonly gracePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#id FleetAppsManagementCompliancePolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#id FleetAppsManagementCompliancePolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_type_id FleetAppsManagementCompliancePolicyRule#patch_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#patch_type_id FleetAppsManagementCompliancePolicyRule#patch_type_id}
   */
   readonly patchTypeId: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#severity FleetAppsManagementCompliancePolicyRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#severity FleetAppsManagementCompliancePolicyRule#severity}
   */
   readonly severity?: string[];
   /**
   * patch_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_selection FleetAppsManagementCompliancePolicyRule#patch_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#patch_selection FleetAppsManagementCompliancePolicyRule#patch_selection}
   */
   readonly patchSelection: FleetAppsManagementCompliancePolicyRulePatchSelection;
   /**
   * product_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#product_version FleetAppsManagementCompliancePolicyRule#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#product_version FleetAppsManagementCompliancePolicyRule#product_version}
   */
   readonly productVersion: FleetAppsManagementCompliancePolicyRuleProductVersion;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#timeouts FleetAppsManagementCompliancePolicyRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#timeouts FleetAppsManagementCompliancePolicyRule#timeouts}
   */
   readonly timeouts?: FleetAppsManagementCompliancePolicyRuleTimeouts;
 }
 export interface FleetAppsManagementCompliancePolicyRulePatchSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#days_since_release FleetAppsManagementCompliancePolicyRule#days_since_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#days_since_release FleetAppsManagementCompliancePolicyRule#days_since_release}
   */
   readonly daysSinceRelease?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_level FleetAppsManagementCompliancePolicyRule#patch_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#patch_level FleetAppsManagementCompliancePolicyRule#patch_level}
   */
   readonly patchLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_name FleetAppsManagementCompliancePolicyRule#patch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#patch_name FleetAppsManagementCompliancePolicyRule#patch_name}
   */
   readonly patchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#selection_type FleetAppsManagementCompliancePolicyRule#selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#selection_type FleetAppsManagementCompliancePolicyRule#selection_type}
   */
   readonly selectionType: string;
 }
@@ -243,11 +243,11 @@ export class FleetAppsManagementCompliancePolicyRulePatchSelectionOutputReferenc
 }
 export interface FleetAppsManagementCompliancePolicyRuleProductVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}
   */
   readonly isApplicableForAllHigherVersions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}
   */
   readonly version: string;
 }
@@ -357,15 +357,15 @@ export class FleetAppsManagementCompliancePolicyRuleProductVersionOutputReferenc
 }
 export interface FleetAppsManagementCompliancePolicyRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#create FleetAppsManagementCompliancePolicyRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#create FleetAppsManagementCompliancePolicyRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#delete FleetAppsManagementCompliancePolicyRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#delete FleetAppsManagementCompliancePolicyRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#update FleetAppsManagementCompliancePolicyRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#update FleetAppsManagementCompliancePolicyRule#update}
   */
   readonly update?: string;
 }
@@ -517,7 +517,7 @@ export class FleetAppsManagementCompliancePolicyRuleTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule oci_fleet_apps_management_compliance_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule oci_fleet_apps_management_compliance_policy_rule}
 */
 export class FleetAppsManagementCompliancePolicyRule extends cdktf.TerraformResource {
 
@@ -533,7 +533,7 @@ export class FleetAppsManagementCompliancePolicyRule extends cdktf.TerraformReso
   * Generates CDKTF code for importing a FleetAppsManagementCompliancePolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementCompliancePolicyRule to import
-  * @param importFromId The id of the existing FleetAppsManagementCompliancePolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementCompliancePolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementCompliancePolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -545,7 +545,7 @@ export class FleetAppsManagementCompliancePolicyRule extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_compliance_policy_rule oci_fleet_apps_management_compliance_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_compliance_policy_rule oci_fleet_apps_management_compliance_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -556,8 +556,8 @@ export class FleetAppsManagementCompliancePolicyRule extends cdktf.TerraformReso
       terraformResourceType: 'oci_fleet_apps_management_compliance_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

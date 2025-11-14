@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixAddressGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#id DataNutanixAddressGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#id DataNutanixAddressGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataNutanixAddressGroupsConfig extends cdktf.TerraformMetaArgum
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#metadata DataNutanixAddressGroups#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#metadata DataNutanixAddressGroups#metadata}
   */
   readonly metadata?: DataNutanixAddressGroupsMetadata[] | cdktf.IResolvable;
 }
@@ -366,27 +366,27 @@ export class DataNutanixAddressGroupsEntitiesList extends cdktf.ComplexList {
 }
 export interface DataNutanixAddressGroupsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#filter DataNutanixAddressGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#filter DataNutanixAddressGroups#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#kind DataNutanixAddressGroups#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#kind DataNutanixAddressGroups#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#length DataNutanixAddressGroups#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#length DataNutanixAddressGroups#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#offset DataNutanixAddressGroups#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#offset DataNutanixAddressGroups#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#sort_attribute DataNutanixAddressGroups#sort_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#sort_attribute DataNutanixAddressGroups#sort_attribute}
   */
   readonly sortAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#sort_order DataNutanixAddressGroups#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#sort_order DataNutanixAddressGroups#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -647,7 +647,7 @@ export class DataNutanixAddressGroupsMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups nutanix_address_groups}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups nutanix_address_groups}
 */
 export class DataNutanixAddressGroups extends cdktf.TerraformDataSource {
 
@@ -663,7 +663,7 @@ export class DataNutanixAddressGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixAddressGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixAddressGroups to import
-  * @param importFromId The id of the existing DataNutanixAddressGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixAddressGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixAddressGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -675,7 +675,7 @@ export class DataNutanixAddressGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/address_groups nutanix_address_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/address_groups nutanix_address_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -686,8 +686,8 @@ export class DataNutanixAddressGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_address_groups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

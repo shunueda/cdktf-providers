@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TaskMdsSystemScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#account_moid TaskMdsSystemScopedInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#account_moid TaskMdsSystemScopedInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#ancestors TaskMdsSystemScopedInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#ancestors TaskMdsSystemScopedInventory#ancestors}
   */
   readonly ancestors?: TaskMdsSystemScopedInventoryAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface TaskMdsSystemScopedInventoryConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#create_time TaskMdsSystemScopedInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#create_time TaskMdsSystemScopedInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#domain_group_moid TaskMdsSystemScopedInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#domain_group_moid TaskMdsSystemScopedInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#id TaskMdsSystemScopedInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#id TaskMdsSystemScopedInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,111 +53,111 @@ export interface TaskMdsSystemScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * Device will immediately collect the objects from the platform. If false, the device will wait for any in flight scheduled collections to complete first. Used to ensure that any long running collections do not delay the scoped collection result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#immediate TaskMdsSystemScopedInventory#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#immediate TaskMdsSystemScopedInventory#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#mod_time TaskMdsSystemScopedInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#mod_time TaskMdsSystemScopedInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
   * A property that uniquely identifies the object to be inventoried as a part of the scoped inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#naming_property TaskMdsSystemScopedInventory#naming_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#naming_property TaskMdsSystemScopedInventory#naming_property}
   */
   readonly namingProperty?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#owners TaskMdsSystemScopedInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#owners TaskMdsSystemScopedInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#parent TaskMdsSystemScopedInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#parent TaskMdsSystemScopedInventory#parent}
   */
   readonly parent?: TaskMdsSystemScopedInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#permission_resources TaskMdsSystemScopedInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#permission_resources TaskMdsSystemScopedInventory#permission_resources}
   */
   readonly permissionResources?: TaskMdsSystemScopedInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Set of queries to identify objects to be inventoried as part of this scoped inventory action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#queries TaskMdsSystemScopedInventory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#queries TaskMdsSystemScopedInventory#queries}
   */
   readonly queries?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#registered_device TaskMdsSystemScopedInventory#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#registered_device TaskMdsSystemScopedInventory#registered_device}
   */
   readonly registeredDevice?: TaskMdsSystemScopedInventoryRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#shared_scope TaskMdsSystemScopedInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#shared_scope TaskMdsSystemScopedInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#tags TaskMdsSystemScopedInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#tags TaskMdsSystemScopedInventory#tags}
   */
   readonly tags?: TaskMdsSystemScopedInventoryTags[] | cdktf.IResolvable;
   /**
   * Type of the object for which scoped inventory needs to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#type TaskMdsSystemScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#type TaskMdsSystemScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#values TaskMdsSystemScopedInventory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#values TaskMdsSystemScopedInventory#values}
   */
   readonly values?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#version_context TaskMdsSystemScopedInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#version_context TaskMdsSystemScopedInventory#version_context}
   */
   readonly versionContext?: TaskMdsSystemScopedInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface TaskMdsSystemScopedInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class TaskMdsSystemScopedInventoryAncestorsList extends cdktf.ComplexList
 }
 export interface TaskMdsSystemScopedInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class TaskMdsSystemScopedInventoryParentList extends cdktf.ComplexList {
 }
 export interface TaskMdsSystemScopedInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class TaskMdsSystemScopedInventoryPermissionResourcesList extends cdktf.C
 }
 export interface TaskMdsSystemScopedInventoryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class TaskMdsSystemScopedInventoryRegisteredDeviceList extends cdktf.Comp
 }
 export interface TaskMdsSystemScopedInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class TaskMdsSystemScopedInventoryTagsAncestorDefinitionsList extends cdk
 }
 export interface TaskMdsSystemScopedInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1629,31 +1629,35 @@ export class TaskMdsSystemScopedInventoryTagsDefinitionList extends cdktf.Comple
 }
 export interface TaskMdsSystemScopedInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#ancestor_definitions TaskMdsSystemScopedInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#ancestor_definitions TaskMdsSystemScopedInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TaskMdsSystemScopedInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#definition TaskMdsSystemScopedInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#definition TaskMdsSystemScopedInventory#definition}
   */
   readonly definition?: TaskMdsSystemScopedInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#key TaskMdsSystemScopedInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#key TaskMdsSystemScopedInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#propagated TaskMdsSystemScopedInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#propagated TaskMdsSystemScopedInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#type TaskMdsSystemScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#sys_tag TaskMdsSystemScopedInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#type TaskMdsSystemScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#value TaskMdsSystemScopedInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#value TaskMdsSystemScopedInventory#value}
   */
   readonly value?: string;
 }
@@ -1669,6 +1673,7 @@ export function taskMdsSystemScopedInventoryTagsToTerraform(struct?: TaskMdsSyst
     definition: cdktf.listMapper(taskMdsSystemScopedInventoryTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1707,6 +1712,12 @@ export function taskMdsSystemScopedInventoryTagsToHclTerraform(struct?: TaskMdsS
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1769,6 +1780,10 @@ export class TaskMdsSystemScopedInventoryTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1789,6 +1804,7 @@ export class TaskMdsSystemScopedInventoryTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1804,6 +1820,7 @@ export class TaskMdsSystemScopedInventoryTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1889,6 +1906,22 @@ export class TaskMdsSystemScopedInventoryTagsOutputReference extends cdktf.Compl
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1943,23 +1976,23 @@ export class TaskMdsSystemScopedInventoryTagsList extends cdktf.ComplexList {
 }
 export interface TaskMdsSystemScopedInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2191,23 +2224,23 @@ export class TaskMdsSystemScopedInventoryVersionContextInterestedMosList extends
 }
 export interface TaskMdsSystemScopedInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#moid TaskMdsSystemScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#selector TaskMdsSystemScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2439,39 +2472,39 @@ export class TaskMdsSystemScopedInventoryVersionContextRefMoList extends cdktf.C
 }
 export interface TaskMdsSystemScopedInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#additional_properties TaskMdsSystemScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#class_id TaskMdsSystemScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#interested_mos TaskMdsSystemScopedInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#interested_mos TaskMdsSystemScopedInventory#interested_mos}
   */
   readonly interestedMos?: TaskMdsSystemScopedInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#marked_for_deletion TaskMdsSystemScopedInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#marked_for_deletion TaskMdsSystemScopedInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#nr_version TaskMdsSystemScopedInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#nr_version TaskMdsSystemScopedInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#object_type TaskMdsSystemScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#ref_mo TaskMdsSystemScopedInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#ref_mo TaskMdsSystemScopedInventory#ref_mo}
   */
   readonly refMo?: TaskMdsSystemScopedInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#timestamp TaskMdsSystemScopedInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#timestamp TaskMdsSystemScopedInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#version_type TaskMdsSystemScopedInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#version_type TaskMdsSystemScopedInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -2819,7 +2852,7 @@ export class TaskMdsSystemScopedInventoryVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory intersight_task_mds_system_scoped_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory intersight_task_mds_system_scoped_inventory}
 */
 export class TaskMdsSystemScopedInventory extends cdktf.TerraformResource {
 
@@ -2835,7 +2868,7 @@ export class TaskMdsSystemScopedInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskMdsSystemScopedInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskMdsSystemScopedInventory to import
-  * @param importFromId The id of the existing TaskMdsSystemScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskMdsSystemScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskMdsSystemScopedInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2847,7 +2880,7 @@ export class TaskMdsSystemScopedInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_mds_system_scoped_inventory intersight_task_mds_system_scoped_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_mds_system_scoped_inventory intersight_task_mds_system_scoped_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2858,8 +2891,8 @@ export class TaskMdsSystemScopedInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_task_mds_system_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

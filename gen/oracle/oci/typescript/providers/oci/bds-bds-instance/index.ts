@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}
   */
   readonly bootstrapScriptUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}
   */
   readonly clusterAdminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}
   */
   readonly clusterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}
   */
   readonly clusterPublicKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}
   */
   readonly clusterVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#id BdsBdsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#id BdsBdsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}
   */
   readonly ignoreExistingNodesShape?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}
   */
   readonly isCloudSqlConfigured?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}
   */
   readonly isForceRemoveEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}
   */
   readonly isForceStopJobs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}
   */
   readonly isHighAvailability: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}
   */
   readonly isKafkaConfigured?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}
   */
   readonly isSecure: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}
   */
   readonly kerberosRealmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}
   */
   readonly osPatchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}
   */
   readonly removeNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#state BdsBdsInstance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#state BdsBdsInstance#state}
   */
   readonly state?: string;
   /**
   * bds_cluster_version_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
   */
   readonly bdsClusterVersionSummary?: BdsBdsInstanceBdsClusterVersionSummary;
   /**
   * cloud_sql_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
   */
   readonly cloudSqlDetails?: BdsBdsInstanceCloudSqlDetails[] | cdktf.IResolvable;
   /**
   * compute_only_worker_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
   */
   readonly computeOnlyWorkerNode?: BdsBdsInstanceComputeOnlyWorkerNode;
   /**
   * edge_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
   */
   readonly edgeNode?: BdsBdsInstanceEdgeNode;
   /**
   * kafka_broker_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
   */
   readonly kafkaBrokerNode?: BdsBdsInstanceKafkaBrokerNode;
   /**
   * master_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
   */
   readonly masterNode: BdsBdsInstanceMasterNode;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
   */
   readonly networkConfig?: BdsBdsInstanceNetworkConfig;
   /**
   * start_cluster_shape_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
   */
   readonly startClusterShapeConfigs?: BdsBdsInstanceStartClusterShapeConfigs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
   */
   readonly timeouts?: BdsBdsInstanceTimeouts;
   /**
   * util_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
   */
   readonly utilNode: BdsBdsInstanceUtilNode;
   /**
   * worker_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
   */
   readonly workerNode: BdsBdsInstanceWorkerNode;
 }
@@ -573,11 +573,11 @@ export class BdsBdsInstanceNodesList extends cdktf.ComplexList {
 }
 export interface BdsBdsInstanceBdsClusterVersionSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}
   */
   readonly bdsVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}
   */
   readonly odhVersion?: string;
 }
@@ -767,7 +767,7 @@ export class BdsBdsInstanceCloudSqlDetailsKerberosDetailsList extends cdktf.Comp
 }
 export interface BdsBdsInstanceCloudSqlDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
 }
@@ -916,15 +916,15 @@ export class BdsBdsInstanceCloudSqlDetailsList extends cdktf.ComplexList {
 }
 export interface BdsBdsInstanceComputeOnlyWorkerNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -1066,25 +1066,25 @@ export class BdsBdsInstanceComputeOnlyWorkerNodeShapeConfigOutputReference exten
 }
 export interface BdsBdsInstanceComputeOnlyWorkerNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceComputeOnlyWorkerNodeShapeConfig;
 }
@@ -1275,15 +1275,15 @@ export class BdsBdsInstanceComputeOnlyWorkerNodeOutputReference extends cdktf.Co
 }
 export interface BdsBdsInstanceEdgeNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -1425,25 +1425,25 @@ export class BdsBdsInstanceEdgeNodeShapeConfigOutputReference extends cdktf.Comp
 }
 export interface BdsBdsInstanceEdgeNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceEdgeNodeShapeConfig;
 }
@@ -1634,15 +1634,15 @@ export class BdsBdsInstanceEdgeNodeOutputReference extends cdktf.ComplexObject {
 }
 export interface BdsBdsInstanceKafkaBrokerNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -1784,25 +1784,25 @@ export class BdsBdsInstanceKafkaBrokerNodeShapeConfigOutputReference extends cdk
 }
 export interface BdsBdsInstanceKafkaBrokerNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_kafka_nodes BdsBdsInstance#number_of_kafka_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_kafka_nodes BdsBdsInstance#number_of_kafka_nodes}
   */
   readonly numberOfKafkaNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceKafkaBrokerNodeShapeConfig;
 }
@@ -1993,15 +1993,15 @@ export class BdsBdsInstanceKafkaBrokerNodeOutputReference extends cdktf.ComplexO
 }
 export interface BdsBdsInstanceMasterNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -2143,25 +2143,25 @@ export class BdsBdsInstanceMasterNodeShapeConfigOutputReference extends cdktf.Co
 }
 export interface BdsBdsInstanceMasterNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceMasterNodeShapeConfig;
 }
@@ -2352,11 +2352,11 @@ export class BdsBdsInstanceMasterNodeOutputReference extends cdktf.ComplexObject
 }
 export interface BdsBdsInstanceNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#cidr_block BdsBdsInstance#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#cidr_block BdsBdsInstance#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#is_nat_gateway_required BdsBdsInstance#is_nat_gateway_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#is_nat_gateway_required BdsBdsInstance#is_nat_gateway_required}
   */
   readonly isNatGatewayRequired?: boolean | cdktf.IResolvable;
 }
@@ -2469,11 +2469,11 @@ export class BdsBdsInstanceNetworkConfigOutputReference extends cdktf.ComplexObj
 }
 export interface BdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#node_type BdsBdsInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#node_type BdsBdsInstance#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape?: string;
 }
@@ -2620,7 +2620,7 @@ export interface BdsBdsInstanceStartClusterShapeConfigs {
   /**
   * node_type_shape_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#node_type_shape_configs BdsBdsInstance#node_type_shape_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#node_type_shape_configs BdsBdsInstance#node_type_shape_configs}
   */
   readonly nodeTypeShapeConfigs?: BdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs[] | cdktf.IResolvable;
 }
@@ -2736,15 +2736,15 @@ export class BdsBdsInstanceStartClusterShapeConfigsList extends cdktf.ComplexLis
 }
 export interface BdsBdsInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#create BdsBdsInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#create BdsBdsInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#delete BdsBdsInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#delete BdsBdsInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#update BdsBdsInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#update BdsBdsInstance#update}
   */
   readonly update?: string;
 }
@@ -2896,15 +2896,15 @@ export class BdsBdsInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface BdsBdsInstanceUtilNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -3046,25 +3046,25 @@ export class BdsBdsInstanceUtilNodeShapeConfigOutputReference extends cdktf.Comp
 }
 export interface BdsBdsInstanceUtilNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceUtilNodeShapeConfig;
 }
@@ -3255,15 +3255,15 @@ export class BdsBdsInstanceUtilNodeOutputReference extends cdktf.ComplexObject {
 }
 export interface BdsBdsInstanceWorkerNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}
   */
   readonly nvmes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -3405,25 +3405,25 @@ export class BdsBdsInstanceWorkerNodeShapeConfigOutputReference extends cdktf.Co
 }
 export interface BdsBdsInstanceWorkerNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}
   */
   readonly blockVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#number_of_nodes BdsBdsInstance#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
   */
   readonly shapeConfig?: BdsBdsInstanceWorkerNodeShapeConfig;
 }
@@ -3614,7 +3614,7 @@ export class BdsBdsInstanceWorkerNodeOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance oci_bds_bds_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance oci_bds_bds_instance}
 */
 export class BdsBdsInstance extends cdktf.TerraformResource {
 
@@ -3630,7 +3630,7 @@ export class BdsBdsInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BdsBdsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsInstance to import
-  * @param importFromId The id of the existing BdsBdsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3642,7 +3642,7 @@ export class BdsBdsInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance oci_bds_bds_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance oci_bds_bds_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3653,8 +3653,8 @@ export class BdsBdsInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_bds_bds_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

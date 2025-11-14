@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWorkflowBatchApiExecutorConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#account_moid DataIntersightWorkflowBatchApiExecutor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#account_moid DataIntersightWorkflowBatchApiExecutor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightWorkflowBatchApiExecutorConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#create_time DataIntersightWorkflowBatchApiExecutor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#create_time DataIntersightWorkflowBatchApiExecutor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed description of the batch APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#domain_group_moid DataIntersightWorkflowBatchApiExecutor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#domain_group_moid DataIntersightWorkflowBatchApiExecutor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#id DataIntersightWorkflowBatchApiExecutor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#id DataIntersightWorkflowBatchApiExecutor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,129 +53,129 @@ export interface DataIntersightWorkflowBatchApiExecutorConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#mod_time DataIntersightWorkflowBatchApiExecutor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#mod_time DataIntersightWorkflowBatchApiExecutor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * Name of the batch API task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
   * Collection of possible task outcomes, represented as workflow.Outcome objects. Outcomes can be mapped to messages and are evaluated in the given order. 
   * A catch-all success or failure outcome with condition 'true' can be included at the end. Optional property; if not specified, the task defaults to success.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
   * JSON mapping of extracted API response values to task output parameters, using API response grammar defined in Intersight Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#output DataIntersightWorkflowBatchApiExecutor#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#output DataIntersightWorkflowBatchApiExecutor#output}
   */
   readonly output?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#owners DataIntersightWorkflowBatchApiExecutor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#owners DataIntersightWorkflowBatchApiExecutor#owners}
   */
   readonly owners?: string[];
   /**
   * Flag indicating if the retry task should from the failed API or the first API in the batch execution; default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#retry_from_failed_api DataIntersightWorkflowBatchApiExecutor#retry_from_failed_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#retry_from_failed_api DataIntersightWorkflowBatchApiExecutor#retry_from_failed_api}
   */
   readonly retryFromFailedApi?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#shared_scope DataIntersightWorkflowBatchApiExecutor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#shared_scope DataIntersightWorkflowBatchApiExecutor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Optional skip expression allowing the batch API executor to skip task execution when the provided Go template expression evaluates to true. 
   * If not specified, the API will always be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
   * Data required for rendering the task in the user interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#ui_rendering_data DataIntersightWorkflowBatchApiExecutor#ui_rendering_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#ui_rendering_data DataIntersightWorkflowBatchApiExecutor#ui_rendering_data}
   */
   readonly uiRenderingData?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#ancestors DataIntersightWorkflowBatchApiExecutor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#ancestors DataIntersightWorkflowBatchApiExecutor#ancestors}
   */
   readonly ancestors?: DataIntersightWorkflowBatchApiExecutorAncestors[] | cdktf.IResolvable;
   /**
   * batch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#batch DataIntersightWorkflowBatchApiExecutor#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#batch DataIntersightWorkflowBatchApiExecutor#batch}
   */
   readonly batch?: DataIntersightWorkflowBatchApiExecutorBatch[] | cdktf.IResolvable;
   /**
   * cancel_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#cancel_action DataIntersightWorkflowBatchApiExecutor#cancel_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#cancel_action DataIntersightWorkflowBatchApiExecutor#cancel_action}
   */
   readonly cancelAction?: DataIntersightWorkflowBatchApiExecutorCancelAction[] | cdktf.IResolvable;
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#constraints DataIntersightWorkflowBatchApiExecutor#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#constraints DataIntersightWorkflowBatchApiExecutor#constraints}
   */
   readonly constraints?: DataIntersightWorkflowBatchApiExecutorConstraints;
   /**
   * error_response_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#error_response_handler DataIntersightWorkflowBatchApiExecutor#error_response_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#error_response_handler DataIntersightWorkflowBatchApiExecutor#error_response_handler}
   */
   readonly errorResponseHandler?: DataIntersightWorkflowBatchApiExecutorErrorResponseHandler;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#parent DataIntersightWorkflowBatchApiExecutor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#parent DataIntersightWorkflowBatchApiExecutor#parent}
   */
   readonly parent?: DataIntersightWorkflowBatchApiExecutorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#permission_resources DataIntersightWorkflowBatchApiExecutor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#permission_resources DataIntersightWorkflowBatchApiExecutor#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkflowBatchApiExecutorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#tags DataIntersightWorkflowBatchApiExecutor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#tags DataIntersightWorkflowBatchApiExecutor#tags}
   */
   readonly tags?: DataIntersightWorkflowBatchApiExecutorTags[] | cdktf.IResolvable;
   /**
   * task_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#task_definition DataIntersightWorkflowBatchApiExecutor#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#task_definition DataIntersightWorkflowBatchApiExecutor#task_definition}
   */
   readonly taskDefinition?: DataIntersightWorkflowBatchApiExecutorTaskDefinition;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#version_context DataIntersightWorkflowBatchApiExecutor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#version_context DataIntersightWorkflowBatchApiExecutor#version_context}
   */
   readonly versionContext?: DataIntersightWorkflowBatchApiExecutorVersionContext;
 }
@@ -1207,6 +1207,11 @@ export class DataIntersightWorkflowBatchApiExecutorResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1855,7 +1860,7 @@ export class DataIntersightWorkflowBatchApiExecutorResultsList extends cdktf.Com
 }
 export interface DataIntersightWorkflowBatchApiExecutorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1863,19 +1868,19 @@ export interface DataIntersightWorkflowBatchApiExecutorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1888,7 +1893,7 @@ export interface DataIntersightWorkflowBatchApiExecutorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -2120,7 +2125,7 @@ export class DataIntersightWorkflowBatchApiExecutorAncestorsList extends cdktf.C
 }
 export interface DataIntersightWorkflowBatchApiExecutorBatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2136,7 +2141,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * and form the API request to send to endpoints. In case of cloud asset targets, Jasmine
   * fetched the target details from DB, forms the API request and sends it to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#asset_target_moid DataIntersightWorkflowBatchApiExecutor#asset_target_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#asset_target_moid DataIntersightWorkflowBatchApiExecutor#asset_target_moid}
   */
   readonly assetTargetMoid?: string;
   /**
@@ -2144,7 +2149,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * The request body can contain a golang template that can be populated with task input
   * parameters and previous API output parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#body DataIntersightWorkflowBatchApiExecutor#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#body DataIntersightWorkflowBatchApiExecutor#body}
   */
   readonly body?: string;
   /**
@@ -2153,7 +2158,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
@@ -2163,14 +2168,14 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * The type of the content that gets passed as payload and response in this
   * API. The supported values are json, xml, text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#content_type DataIntersightWorkflowBatchApiExecutor#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#content_type DataIntersightWorkflowBatchApiExecutor#content_type}
   */
   readonly contentType?: string;
   /**
   * A description that task designer can add to individual API requests that explain 
   * what the API call is about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
   */
   readonly description?: string;
   /**
@@ -2182,13 +2187,13 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * the success response. If not specified, contentType input value is used to parse
   * the error response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#error_content_type DataIntersightWorkflowBatchApiExecutor#error_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#error_content_type DataIntersightWorkflowBatchApiExecutor#error_content_type}
   */
   readonly errorContentType?: string;
   /**
   * A user friendly label that task designers have given to the batch API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#label DataIntersightWorkflowBatchApiExecutor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#label DataIntersightWorkflowBatchApiExecutor#label}
   */
   readonly label?: string;
   /**
@@ -2196,7 +2201,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * This name shall be used to map the API output parameters to subsequent
   * API input parameters within a batch API task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
   */
   readonly name?: string;
   /**
@@ -2204,7 +2209,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2216,7 +2221,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * This is an optional
   * property and if not specified the task will be marked as success.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
@@ -2225,7 +2230,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * The specification should have extraction specification specified for
   * all the API output parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#response_spec DataIntersightWorkflowBatchApiExecutor#response_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#response_spec DataIntersightWorkflowBatchApiExecutor#response_spec}
   */
   readonly responseSpec?: string;
   /**
@@ -2235,7 +2240,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * evaluated to a final content true/false. The expression is an optional and in
   * case not provided, the API will always be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
@@ -2243,7 +2248,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * By default, the given API is executed immediately. Specifying a start delay adds to the delay to execution.
   * Start Delay is not supported for the first API in the Batch and cumulative delay of all the APIs in the Batch should not exceed the task time out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#start_delay DataIntersightWorkflowBatchApiExecutor#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#start_delay DataIntersightWorkflowBatchApiExecutor#start_delay}
   */
   readonly startDelay?: number;
   /**
@@ -2251,7 +2256,7 @@ export interface DataIntersightWorkflowBatchApiExecutorBatch {
   * If the end point does not respond for the API request within this timeout
   * duration, the task will be marked as failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#timeout DataIntersightWorkflowBatchApiExecutor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#timeout DataIntersightWorkflowBatchApiExecutor#timeout}
   */
   readonly timeout?: number;
 }
@@ -2773,7 +2778,7 @@ export class DataIntersightWorkflowBatchApiExecutorBatchList extends cdktf.Compl
 }
 export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2789,7 +2794,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * and form the API request to send to endpoints. In case of cloud asset targets, Jasmine
   * fetched the target details from DB, forms the API request and sends it to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#asset_target_moid DataIntersightWorkflowBatchApiExecutor#asset_target_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#asset_target_moid DataIntersightWorkflowBatchApiExecutor#asset_target_moid}
   */
   readonly assetTargetMoid?: string;
   /**
@@ -2797,7 +2802,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * The request body can contain a golang template that can be populated with task input
   * parameters and previous API output parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#body DataIntersightWorkflowBatchApiExecutor#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#body DataIntersightWorkflowBatchApiExecutor#body}
   */
   readonly body?: string;
   /**
@@ -2806,7 +2811,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
@@ -2816,14 +2821,14 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * The type of the content that gets passed as payload and response in this
   * API. The supported values are json, xml, text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#content_type DataIntersightWorkflowBatchApiExecutor#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#content_type DataIntersightWorkflowBatchApiExecutor#content_type}
   */
   readonly contentType?: string;
   /**
   * A description that task designer can add to individual API requests that explain 
   * what the API call is about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#description DataIntersightWorkflowBatchApiExecutor#description}
   */
   readonly description?: string;
   /**
@@ -2835,13 +2840,13 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * the success response. If not specified, contentType input value is used to parse
   * the error response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#error_content_type DataIntersightWorkflowBatchApiExecutor#error_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#error_content_type DataIntersightWorkflowBatchApiExecutor#error_content_type}
   */
   readonly errorContentType?: string;
   /**
   * A user friendly label that task designers have given to the batch API request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#label DataIntersightWorkflowBatchApiExecutor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#label DataIntersightWorkflowBatchApiExecutor#label}
   */
   readonly label?: string;
   /**
@@ -2849,7 +2854,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * This name shall be used to map the API output parameters to subsequent
   * API input parameters within a batch API task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#name DataIntersightWorkflowBatchApiExecutor#name}
   */
   readonly name?: string;
   /**
@@ -2857,7 +2862,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2869,7 +2874,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * This is an optional
   * property and if not specified the task will be marked as success.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#outcomes DataIntersightWorkflowBatchApiExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
@@ -2878,7 +2883,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * The specification should have extraction specification specified for
   * all the API output parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#response_spec DataIntersightWorkflowBatchApiExecutor#response_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#response_spec DataIntersightWorkflowBatchApiExecutor#response_spec}
   */
   readonly responseSpec?: string;
   /**
@@ -2888,7 +2893,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * evaluated to a final content true/false. The expression is an optional and in
   * case not provided, the API will always be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#skip_on_condition DataIntersightWorkflowBatchApiExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
@@ -2896,7 +2901,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * By default, the given API is executed immediately. Specifying a start delay adds to the delay to execution.
   * Start Delay is not supported for the first API in the Batch and cumulative delay of all the APIs in the Batch should not exceed the task time out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#start_delay DataIntersightWorkflowBatchApiExecutor#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#start_delay DataIntersightWorkflowBatchApiExecutor#start_delay}
   */
   readonly startDelay?: number;
   /**
@@ -2904,7 +2909,7 @@ export interface DataIntersightWorkflowBatchApiExecutorCancelAction {
   * If the end point does not respond for the API request within this timeout
   * duration, the task will be marked as failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#timeout DataIntersightWorkflowBatchApiExecutor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#timeout DataIntersightWorkflowBatchApiExecutor#timeout}
   */
   readonly timeout?: number;
 }
@@ -3426,7 +3431,7 @@ export class DataIntersightWorkflowBatchApiExecutorCancelActionList extends cdkt
 }
 export interface DataIntersightWorkflowBatchApiExecutorConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3434,20 +3439,20 @@ export interface DataIntersightWorkflowBatchApiExecutorConstraints {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
   * List of property constraints that helps to narrow down task implementations based on target device input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#target_data_type DataIntersightWorkflowBatchApiExecutor#target_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#target_data_type DataIntersightWorkflowBatchApiExecutor#target_data_type}
   */
   readonly targetDataType?: string;
 }
@@ -3618,7 +3623,7 @@ export class DataIntersightWorkflowBatchApiExecutorConstraintsOutputReference ex
 }
 export interface DataIntersightWorkflowBatchApiExecutorErrorResponseHandler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3626,19 +3631,19 @@ export interface DataIntersightWorkflowBatchApiExecutorErrorResponseHandler {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3651,7 +3656,7 @@ export interface DataIntersightWorkflowBatchApiExecutorErrorResponseHandler {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -3851,7 +3856,7 @@ export class DataIntersightWorkflowBatchApiExecutorErrorResponseHandlerOutputRef
 }
 export interface DataIntersightWorkflowBatchApiExecutorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3859,19 +3864,19 @@ export interface DataIntersightWorkflowBatchApiExecutorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3884,7 +3889,7 @@ export interface DataIntersightWorkflowBatchApiExecutorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -4084,7 +4089,7 @@ export class DataIntersightWorkflowBatchApiExecutorParentOutputReference extends
 }
 export interface DataIntersightWorkflowBatchApiExecutorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4092,19 +4097,19 @@ export interface DataIntersightWorkflowBatchApiExecutorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4117,7 +4122,7 @@ export interface DataIntersightWorkflowBatchApiExecutorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -4349,7 +4354,7 @@ export class DataIntersightWorkflowBatchApiExecutorPermissionResourcesList exten
 }
 export interface DataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4357,19 +4362,19 @@ export interface DataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4382,7 +4387,7 @@ export interface DataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -4614,7 +4619,7 @@ export class DataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitionsList e
 }
 export interface DataIntersightWorkflowBatchApiExecutorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4622,19 +4627,19 @@ export interface DataIntersightWorkflowBatchApiExecutorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4647,7 +4652,7 @@ export interface DataIntersightWorkflowBatchApiExecutorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -4847,45 +4852,51 @@ export class DataIntersightWorkflowBatchApiExecutorTagsDefinitionOutputReference
 }
 export interface DataIntersightWorkflowBatchApiExecutorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#key DataIntersightWorkflowBatchApiExecutor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#key DataIntersightWorkflowBatchApiExecutor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#propagated DataIntersightWorkflowBatchApiExecutor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#propagated DataIntersightWorkflowBatchApiExecutor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#sys_tag DataIntersightWorkflowBatchApiExecutor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#type DataIntersightWorkflowBatchApiExecutor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#type DataIntersightWorkflowBatchApiExecutor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#value DataIntersightWorkflowBatchApiExecutor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#value DataIntersightWorkflowBatchApiExecutor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#ancestor_definitions DataIntersightWorkflowBatchApiExecutor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#ancestor_definitions DataIntersightWorkflowBatchApiExecutor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#definition DataIntersightWorkflowBatchApiExecutor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#definition DataIntersightWorkflowBatchApiExecutor#definition}
   */
   readonly definition?: DataIntersightWorkflowBatchApiExecutorTagsDefinition;
 }
@@ -4899,6 +4910,7 @@ export function dataIntersightWorkflowBatchApiExecutorTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWorkflowBatchApiExecutorTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4927,6 +4939,12 @@ export function dataIntersightWorkflowBatchApiExecutorTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4993,6 +5011,10 @@ export class DataIntersightWorkflowBatchApiExecutorTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5019,6 +5041,7 @@ export class DataIntersightWorkflowBatchApiExecutorTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5034,6 +5057,7 @@ export class DataIntersightWorkflowBatchApiExecutorTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5087,6 +5111,22 @@ export class DataIntersightWorkflowBatchApiExecutorTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5175,7 +5215,7 @@ export class DataIntersightWorkflowBatchApiExecutorTagsList extends cdktf.Comple
 }
 export interface DataIntersightWorkflowBatchApiExecutorTaskDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5183,19 +5223,19 @@ export interface DataIntersightWorkflowBatchApiExecutorTaskDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5208,7 +5248,7 @@ export interface DataIntersightWorkflowBatchApiExecutorTaskDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -5408,7 +5448,7 @@ export class DataIntersightWorkflowBatchApiExecutorTaskDefinitionOutputReference
 }
 export interface DataIntersightWorkflowBatchApiExecutorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5416,19 +5456,19 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5441,7 +5481,7 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -5673,7 +5713,7 @@ export class DataIntersightWorkflowBatchApiExecutorVersionContextInterestedMosLi
 }
 export interface DataIntersightWorkflowBatchApiExecutorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5681,19 +5721,19 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#moid DataIntersightWorkflowBatchApiExecutor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5706,7 +5746,7 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#selector DataIntersightWorkflowBatchApiExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -5906,7 +5946,7 @@ export class DataIntersightWorkflowBatchApiExecutorVersionContextRefMoOutputRefe
 }
 export interface DataIntersightWorkflowBatchApiExecutorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#additional_properties DataIntersightWorkflowBatchApiExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5914,32 +5954,32 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#class_id DataIntersightWorkflowBatchApiExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#marked_for_deletion DataIntersightWorkflowBatchApiExecutor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#marked_for_deletion DataIntersightWorkflowBatchApiExecutor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#nr_version DataIntersightWorkflowBatchApiExecutor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#nr_version DataIntersightWorkflowBatchApiExecutor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#object_type DataIntersightWorkflowBatchApiExecutor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#timestamp DataIntersightWorkflowBatchApiExecutor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#timestamp DataIntersightWorkflowBatchApiExecutor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5950,19 +5990,19 @@ export interface DataIntersightWorkflowBatchApiExecutorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#version_type DataIntersightWorkflowBatchApiExecutor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#version_type DataIntersightWorkflowBatchApiExecutor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#interested_mos DataIntersightWorkflowBatchApiExecutor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#interested_mos DataIntersightWorkflowBatchApiExecutor#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkflowBatchApiExecutorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#ref_mo DataIntersightWorkflowBatchApiExecutor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#ref_mo DataIntersightWorkflowBatchApiExecutor#ref_mo}
   */
   readonly refMo?: DataIntersightWorkflowBatchApiExecutorVersionContextRefMo;
 }
@@ -6278,7 +6318,7 @@ export class DataIntersightWorkflowBatchApiExecutorVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor intersight_workflow_batch_api_executor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor intersight_workflow_batch_api_executor}
 */
 export class DataIntersightWorkflowBatchApiExecutor extends cdktf.TerraformDataSource {
 
@@ -6294,7 +6334,7 @@ export class DataIntersightWorkflowBatchApiExecutor extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightWorkflowBatchApiExecutor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkflowBatchApiExecutor to import
-  * @param importFromId The id of the existing DataIntersightWorkflowBatchApiExecutor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkflowBatchApiExecutor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkflowBatchApiExecutor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6306,7 +6346,7 @@ export class DataIntersightWorkflowBatchApiExecutor extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_batch_api_executor intersight_workflow_batch_api_executor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_batch_api_executor intersight_workflow_batch_api_executor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6317,8 +6357,8 @@ export class DataIntersightWorkflowBatchApiExecutor extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_workflow_batch_api_executor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirmwareHbaDescriptorConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#account_moid FirmwareHbaDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#account_moid FirmwareHbaDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#ancestors FirmwareHbaDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#ancestors FirmwareHbaDescriptor#ancestors}
   */
   readonly ancestors?: FirmwareHbaDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#brand_string FirmwareHbaDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#brand_string FirmwareHbaDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
   * An array of relationships to capabilityCapability resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#capabilities FirmwareHbaDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#capabilities FirmwareHbaDescriptor#capabilities}
   */
   readonly capabilities?: FirmwareHbaDescriptorCapabilities[] | cdktf.IResolvable;
   /**
@@ -41,29 +41,29 @@ export interface FirmwareHbaDescriptorConfig extends cdktf.TerraformMetaArgument
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#create_time FirmwareHbaDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#create_time FirmwareHbaDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#description FirmwareHbaDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#description FirmwareHbaDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#domain_group_moid FirmwareHbaDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#domain_group_moid FirmwareHbaDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#id FirmwareHbaDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#id FirmwareHbaDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,31 +72,31 @@ export interface FirmwareHbaDescriptorConfig extends cdktf.TerraformMetaArgument
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#label FirmwareHbaDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#label FirmwareHbaDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#mod_time FirmwareHbaDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#mod_time FirmwareHbaDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#model FirmwareHbaDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#model FirmwareHbaDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#nr_version FirmwareHbaDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#nr_version FirmwareHbaDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -104,75 +104,75 @@ export interface FirmwareHbaDescriptorConfig extends cdktf.TerraformMetaArgument
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#owners FirmwareHbaDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#owners FirmwareHbaDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#parent FirmwareHbaDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#parent FirmwareHbaDescriptor#parent}
   */
   readonly parent?: FirmwareHbaDescriptorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#permission_resources FirmwareHbaDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#permission_resources FirmwareHbaDescriptor#permission_resources}
   */
   readonly permissionResources?: FirmwareHbaDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#revision FirmwareHbaDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#revision FirmwareHbaDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#shared_scope FirmwareHbaDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#shared_scope FirmwareHbaDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#tags FirmwareHbaDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#tags FirmwareHbaDescriptor#tags}
   */
   readonly tags?: FirmwareHbaDescriptorTags[] | cdktf.IResolvable;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#vendor FirmwareHbaDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#vendor FirmwareHbaDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#version_context FirmwareHbaDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#version_context FirmwareHbaDescriptor#version_context}
   */
   readonly versionContext?: FirmwareHbaDescriptorVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwareHbaDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -404,23 +404,23 @@ export class FirmwareHbaDescriptorAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwareHbaDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -652,23 +652,23 @@ export class FirmwareHbaDescriptorCapabilitiesList extends cdktf.ComplexList {
 }
 export interface FirmwareHbaDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -900,23 +900,23 @@ export class FirmwareHbaDescriptorParentList extends cdktf.ComplexList {
 }
 export interface FirmwareHbaDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1148,23 +1148,23 @@ export class FirmwareHbaDescriptorPermissionResourcesList extends cdktf.ComplexL
 }
 export interface FirmwareHbaDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1396,23 +1396,23 @@ export class FirmwareHbaDescriptorTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface FirmwareHbaDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1644,31 +1644,35 @@ export class FirmwareHbaDescriptorTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FirmwareHbaDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#ancestor_definitions FirmwareHbaDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#ancestor_definitions FirmwareHbaDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareHbaDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#definition FirmwareHbaDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#definition FirmwareHbaDescriptor#definition}
   */
   readonly definition?: FirmwareHbaDescriptorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#key FirmwareHbaDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#key FirmwareHbaDescriptor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#propagated FirmwareHbaDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#propagated FirmwareHbaDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#type FirmwareHbaDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#sys_tag FirmwareHbaDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#type FirmwareHbaDescriptor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#value FirmwareHbaDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#value FirmwareHbaDescriptor#value}
   */
   readonly value?: string;
 }
@@ -1684,6 +1688,7 @@ export function firmwareHbaDescriptorTagsToTerraform(struct?: FirmwareHbaDescrip
     definition: cdktf.listMapper(firmwareHbaDescriptorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1722,6 +1727,12 @@ export function firmwareHbaDescriptorTagsToHclTerraform(struct?: FirmwareHbaDesc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1784,6 +1795,10 @@ export class FirmwareHbaDescriptorTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1804,6 +1819,7 @@ export class FirmwareHbaDescriptorTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1819,6 +1835,7 @@ export class FirmwareHbaDescriptorTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1904,6 +1921,22 @@ export class FirmwareHbaDescriptorTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1958,23 +1991,23 @@ export class FirmwareHbaDescriptorTagsList extends cdktf.ComplexList {
 }
 export interface FirmwareHbaDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2206,23 +2239,23 @@ export class FirmwareHbaDescriptorVersionContextInterestedMosList extends cdktf.
 }
 export interface FirmwareHbaDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#moid FirmwareHbaDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#selector FirmwareHbaDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2454,39 +2487,39 @@ export class FirmwareHbaDescriptorVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface FirmwareHbaDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#additional_properties FirmwareHbaDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#class_id FirmwareHbaDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#interested_mos FirmwareHbaDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#interested_mos FirmwareHbaDescriptor#interested_mos}
   */
   readonly interestedMos?: FirmwareHbaDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#marked_for_deletion FirmwareHbaDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#marked_for_deletion FirmwareHbaDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#nr_version FirmwareHbaDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#nr_version FirmwareHbaDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#object_type FirmwareHbaDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#ref_mo FirmwareHbaDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#ref_mo FirmwareHbaDescriptor#ref_mo}
   */
   readonly refMo?: FirmwareHbaDescriptorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#timestamp FirmwareHbaDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#timestamp FirmwareHbaDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#version_type FirmwareHbaDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#version_type FirmwareHbaDescriptor#version_type}
   */
   readonly versionType?: string;
 }
@@ -2834,7 +2867,7 @@ export class FirmwareHbaDescriptorVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor intersight_firmware_hba_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor intersight_firmware_hba_descriptor}
 */
 export class FirmwareHbaDescriptor extends cdktf.TerraformResource {
 
@@ -2850,7 +2883,7 @@ export class FirmwareHbaDescriptor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwareHbaDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareHbaDescriptor to import
-  * @param importFromId The id of the existing FirmwareHbaDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareHbaDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareHbaDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2862,7 +2895,7 @@ export class FirmwareHbaDescriptor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_hba_descriptor intersight_firmware_hba_descriptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_hba_descriptor intersight_firmware_hba_descriptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2873,8 +2906,8 @@ export class FirmwareHbaDescriptor extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_hba_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

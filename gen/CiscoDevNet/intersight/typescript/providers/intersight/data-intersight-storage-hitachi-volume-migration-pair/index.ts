@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#account_moid DataIntersightStorageHitachiVolumeMigrationPair#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#account_moid DataIntersightStorageHitachiVolumeMigrationPair#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * Copy mode. NotSynchronized or VolumeMigration is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#copy_mode DataIntersightStorageHitachiVolumeMigrationPair#copy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#copy_mode DataIntersightStorageHitachiVolumeMigrationPair#copy_mode}
   */
   readonly copyMode?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#create_time DataIntersightStorageHitachiVolumeMigrationPair#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#create_time DataIntersightStorageHitachiVolumeMigrationPair#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#domain_group_moid DataIntersightStorageHitachiVolumeMigrationPair#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#domain_group_moid DataIntersightStorageHitachiVolumeMigrationPair#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#id DataIntersightStorageHitachiVolumeMigrationPair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#id DataIntersightStorageHitachiVolumeMigrationPair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairConfig extends c
   /**
   * Object ID of the pair. The following informations of pair are output, separated by commas. <copy group name>, <device group name for the P-VOL (source volume)>, <device group name for the S-VOL (target volume)>, <name of the pair>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#local_clone_copypair_id DataIntersightStorageHitachiVolumeMigrationPair#local_clone_copypair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#local_clone_copypair_id DataIntersightStorageHitachiVolumeMigrationPair#local_clone_copypair_id}
   */
   readonly localCloneCopypairId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#mod_time DataIntersightStorageHitachiVolumeMigrationPair#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#mod_time DataIntersightStorageHitachiVolumeMigrationPair#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#owners DataIntersightStorageHitachiVolumeMigrationPair#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#owners DataIntersightStorageHitachiVolumeMigrationPair#owners}
   */
   readonly owners?: string[];
   /**
   * LDEV number of the P-VOL (source volume) with a decimal (base 10) number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#pvol_ldev_id DataIntersightStorageHitachiVolumeMigrationPair#pvol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#pvol_ldev_id DataIntersightStorageHitachiVolumeMigrationPair#pvol_ldev_id}
   */
   readonly pvolLdevId?: number;
   /**
   * Pair volume status of the P-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#pvol_status DataIntersightStorageHitachiVolumeMigrationPair#pvol_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#pvol_status DataIntersightStorageHitachiVolumeMigrationPair#pvol_status}
   */
   readonly pvolStatus?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#shared_scope DataIntersightStorageHitachiVolumeMigrationPair#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#shared_scope DataIntersightStorageHitachiVolumeMigrationPair#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * LDEV number of the S-VOL (target volume) with a decimal (base 10) number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#svol_ldev_id DataIntersightStorageHitachiVolumeMigrationPair#svol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#svol_ldev_id DataIntersightStorageHitachiVolumeMigrationPair#svol_ldev_id}
   */
   readonly svolLdevId?: number;
   /**
   * Pair volume status of the S-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#svol_status DataIntersightStorageHitachiVolumeMigrationPair#svol_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#svol_status DataIntersightStorageHitachiVolumeMigrationPair#svol_status}
   */
   readonly svolStatus?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#ancestors DataIntersightStorageHitachiVolumeMigrationPair#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#ancestors DataIntersightStorageHitachiVolumeMigrationPair#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiVolumeMigrationPairAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#array DataIntersightStorageHitachiVolumeMigrationPair#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#array DataIntersightStorageHitachiVolumeMigrationPair#array}
   */
   readonly array?: DataIntersightStorageHitachiVolumeMigrationPairArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#parent DataIntersightStorageHitachiVolumeMigrationPair#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#parent DataIntersightStorageHitachiVolumeMigrationPair#parent}
   */
   readonly parent?: DataIntersightStorageHitachiVolumeMigrationPairParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#permission_resources DataIntersightStorageHitachiVolumeMigrationPair#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#permission_resources DataIntersightStorageHitachiVolumeMigrationPair#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiVolumeMigrationPairPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#registered_device DataIntersightStorageHitachiVolumeMigrationPair#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#registered_device DataIntersightStorageHitachiVolumeMigrationPair#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiVolumeMigrationPairRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#tags DataIntersightStorageHitachiVolumeMigrationPair#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#tags DataIntersightStorageHitachiVolumeMigrationPair#tags}
   */
   readonly tags?: DataIntersightStorageHitachiVolumeMigrationPairTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#version_context DataIntersightStorageHitachiVolumeMigrationPair#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#version_context DataIntersightStorageHitachiVolumeMigrationPair#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiVolumeMigrationPairVersionContext;
 }
@@ -896,6 +896,11 @@ export class DataIntersightStorageHitachiVolumeMigrationPairResultsTagsOutputRef
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1426,7 +1431,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairResultsList extends 
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1434,19 +1439,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1459,7 +1464,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -1691,7 +1696,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairAncestorsList extend
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1699,19 +1704,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1724,7 +1729,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -1924,7 +1929,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairArrayOutputReference
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1932,19 +1937,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1957,7 +1962,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -2157,7 +2162,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairParentOutputReferenc
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2165,19 +2170,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2190,7 +2195,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -2422,7 +2427,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairPermissionResourcesL
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2430,19 +2435,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairRegisteredDevice
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2455,7 +2460,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairRegisteredDevice
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -2655,7 +2660,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairRegisteredDeviceOutp
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2663,19 +2668,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2688,7 +2693,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -2920,7 +2925,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefiniti
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2928,19 +2933,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2953,7 +2958,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -3153,45 +3158,51 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsDefinitionOutput
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#key DataIntersightStorageHitachiVolumeMigrationPair#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#key DataIntersightStorageHitachiVolumeMigrationPair#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#propagated DataIntersightStorageHitachiVolumeMigrationPair#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#propagated DataIntersightStorageHitachiVolumeMigrationPair#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#sys_tag DataIntersightStorageHitachiVolumeMigrationPair#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#type DataIntersightStorageHitachiVolumeMigrationPair#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#type DataIntersightStorageHitachiVolumeMigrationPair#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#value DataIntersightStorageHitachiVolumeMigrationPair#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#value DataIntersightStorageHitachiVolumeMigrationPair#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#ancestor_definitions DataIntersightStorageHitachiVolumeMigrationPair#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#ancestor_definitions DataIntersightStorageHitachiVolumeMigrationPair#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#definition DataIntersightStorageHitachiVolumeMigrationPair#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#definition DataIntersightStorageHitachiVolumeMigrationPair#definition}
   */
   readonly definition?: DataIntersightStorageHitachiVolumeMigrationPairTagsDefinition;
 }
@@ -3205,6 +3216,7 @@ export function dataIntersightStorageHitachiVolumeMigrationPairTagsToTerraform(s
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageHitachiVolumeMigrationPairTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3233,6 +3245,12 @@ export function dataIntersightStorageHitachiVolumeMigrationPairTagsToHclTerrafor
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3299,6 +3317,10 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsOutputReference 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3325,6 +3347,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsOutputReference 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3340,6 +3363,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsOutputReference 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3393,6 +3417,22 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsOutputReference 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3481,7 +3521,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairTagsList extends cdk
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3489,19 +3529,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3514,7 +3554,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -3746,7 +3786,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairVersionContextIntere
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3754,19 +3794,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#moid DataIntersightStorageHitachiVolumeMigrationPair#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3779,7 +3819,7 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#selector DataIntersightStorageHitachiVolumeMigrationPair#selector}
   */
   readonly selector?: string;
 }
@@ -3979,7 +4019,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairVersionContextRefMoO
 }
 export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#additional_properties DataIntersightStorageHitachiVolumeMigrationPair#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3987,32 +4027,32 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#class_id DataIntersightStorageHitachiVolumeMigrationPair#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#marked_for_deletion DataIntersightStorageHitachiVolumeMigrationPair#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#marked_for_deletion DataIntersightStorageHitachiVolumeMigrationPair#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#nr_version DataIntersightStorageHitachiVolumeMigrationPair#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#nr_version DataIntersightStorageHitachiVolumeMigrationPair#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#object_type DataIntersightStorageHitachiVolumeMigrationPair#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#timestamp DataIntersightStorageHitachiVolumeMigrationPair#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#timestamp DataIntersightStorageHitachiVolumeMigrationPair#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4023,19 +4063,19 @@ export interface DataIntersightStorageHitachiVolumeMigrationPairVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#version_type DataIntersightStorageHitachiVolumeMigrationPair#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#version_type DataIntersightStorageHitachiVolumeMigrationPair#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#interested_mos DataIntersightStorageHitachiVolumeMigrationPair#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#interested_mos DataIntersightStorageHitachiVolumeMigrationPair#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiVolumeMigrationPairVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#ref_mo DataIntersightStorageHitachiVolumeMigrationPair#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#ref_mo DataIntersightStorageHitachiVolumeMigrationPair#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiVolumeMigrationPairVersionContextRefMo;
 }
@@ -4351,7 +4391,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPairVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair intersight_storage_hitachi_volume_migration_pair}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair intersight_storage_hitachi_volume_migration_pair}
 */
 export class DataIntersightStorageHitachiVolumeMigrationPair extends cdktf.TerraformDataSource {
 
@@ -4367,7 +4407,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPair extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightStorageHitachiVolumeMigrationPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiVolumeMigrationPair to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiVolumeMigrationPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiVolumeMigrationPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiVolumeMigrationPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4379,7 +4419,7 @@ export class DataIntersightStorageHitachiVolumeMigrationPair extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_volume_migration_pair intersight_storage_hitachi_volume_migration_pair} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_volume_migration_pair intersight_storage_hitachi_volume_migration_pair} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4390,8 +4430,8 @@ export class DataIntersightStorageHitachiVolumeMigrationPair extends cdktf.Terra
       terraformResourceType: 'intersight_storage_hitachi_volume_migration_pair',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexVmImportOperationConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#account_moid DataIntersightHyperflexVmImportOperation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#account_moid DataIntersightHyperflexVmImportOperation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexVmImportOperationConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#create_time DataIntersightHyperflexVmImportOperation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#create_time DataIntersightHyperflexVmImportOperation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#domain_group_moid DataIntersightHyperflexVmImportOperation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#domain_group_moid DataIntersightHyperflexVmImportOperation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#id DataIntersightHyperflexVmImportOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#id DataIntersightHyperflexVmImportOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightHyperflexVmImportOperationConfig extends cdktf.Te
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#mod_time DataIntersightHyperflexVmImportOperation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#mod_time DataIntersightHyperflexVmImportOperation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#owners DataIntersightHyperflexVmImportOperation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#owners DataIntersightHyperflexVmImportOperation#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#shared_scope DataIntersightHyperflexVmImportOperation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#shared_scope DataIntersightHyperflexVmImportOperation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#ancestors DataIntersightHyperflexVmImportOperation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#ancestors DataIntersightHyperflexVmImportOperation#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexVmImportOperationAncestors[] | cdktf.IResolvable;
   /**
   * device_moid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#device_moid DataIntersightHyperflexVmImportOperation#device_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#device_moid DataIntersightHyperflexVmImportOperation#device_moid}
   */
   readonly deviceMoid?: DataIntersightHyperflexVmImportOperationDeviceMoid;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#organization DataIntersightHyperflexVmImportOperation#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#organization DataIntersightHyperflexVmImportOperation#organization}
   */
   readonly organization?: DataIntersightHyperflexVmImportOperationOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#parent DataIntersightHyperflexVmImportOperation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#parent DataIntersightHyperflexVmImportOperation#parent}
   */
   readonly parent?: DataIntersightHyperflexVmImportOperationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#permission_resources DataIntersightHyperflexVmImportOperation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#permission_resources DataIntersightHyperflexVmImportOperation#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexVmImportOperationPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#tags DataIntersightHyperflexVmImportOperation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#tags DataIntersightHyperflexVmImportOperation#tags}
   */
   readonly tags?: DataIntersightHyperflexVmImportOperationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#version_context DataIntersightHyperflexVmImportOperation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#version_context DataIntersightHyperflexVmImportOperation#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexVmImportOperationVersionContext;
 }
@@ -860,6 +860,11 @@ export class DataIntersightHyperflexVmImportOperationResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1360,7 +1365,7 @@ export class DataIntersightHyperflexVmImportOperationResultsList extends cdktf.C
 }
 export interface DataIntersightHyperflexVmImportOperationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1368,19 +1373,19 @@ export interface DataIntersightHyperflexVmImportOperationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1393,7 +1398,7 @@ export interface DataIntersightHyperflexVmImportOperationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1625,7 +1630,7 @@ export class DataIntersightHyperflexVmImportOperationAncestorsList extends cdktf
 }
 export interface DataIntersightHyperflexVmImportOperationDeviceMoid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1633,19 +1638,19 @@ export interface DataIntersightHyperflexVmImportOperationDeviceMoid {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1658,7 +1663,7 @@ export interface DataIntersightHyperflexVmImportOperationDeviceMoid {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1858,7 +1863,7 @@ export class DataIntersightHyperflexVmImportOperationDeviceMoidOutputReference e
 }
 export interface DataIntersightHyperflexVmImportOperationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1866,19 +1871,19 @@ export interface DataIntersightHyperflexVmImportOperationOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1891,7 +1896,7 @@ export interface DataIntersightHyperflexVmImportOperationOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2091,7 +2096,7 @@ export class DataIntersightHyperflexVmImportOperationOrganizationOutputReference
 }
 export interface DataIntersightHyperflexVmImportOperationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2099,19 +2104,19 @@ export interface DataIntersightHyperflexVmImportOperationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2124,7 +2129,7 @@ export interface DataIntersightHyperflexVmImportOperationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2324,7 +2329,7 @@ export class DataIntersightHyperflexVmImportOperationParentOutputReference exten
 }
 export interface DataIntersightHyperflexVmImportOperationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2332,19 +2337,19 @@ export interface DataIntersightHyperflexVmImportOperationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2357,7 +2362,7 @@ export interface DataIntersightHyperflexVmImportOperationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2589,7 +2594,7 @@ export class DataIntersightHyperflexVmImportOperationPermissionResourcesList ext
 }
 export interface DataIntersightHyperflexVmImportOperationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2597,19 +2602,19 @@ export interface DataIntersightHyperflexVmImportOperationTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2622,7 +2627,7 @@ export interface DataIntersightHyperflexVmImportOperationTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2854,7 +2859,7 @@ export class DataIntersightHyperflexVmImportOperationTagsAncestorDefinitionsList
 }
 export interface DataIntersightHyperflexVmImportOperationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2862,19 +2867,19 @@ export interface DataIntersightHyperflexVmImportOperationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2887,7 +2892,7 @@ export interface DataIntersightHyperflexVmImportOperationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -3087,45 +3092,51 @@ export class DataIntersightHyperflexVmImportOperationTagsDefinitionOutputReferen
 }
 export interface DataIntersightHyperflexVmImportOperationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#key DataIntersightHyperflexVmImportOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#key DataIntersightHyperflexVmImportOperation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#propagated DataIntersightHyperflexVmImportOperation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#propagated DataIntersightHyperflexVmImportOperation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#sys_tag DataIntersightHyperflexVmImportOperation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#type DataIntersightHyperflexVmImportOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#type DataIntersightHyperflexVmImportOperation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#value DataIntersightHyperflexVmImportOperation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#value DataIntersightHyperflexVmImportOperation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#ancestor_definitions DataIntersightHyperflexVmImportOperation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#ancestor_definitions DataIntersightHyperflexVmImportOperation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexVmImportOperationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#definition DataIntersightHyperflexVmImportOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#definition DataIntersightHyperflexVmImportOperation#definition}
   */
   readonly definition?: DataIntersightHyperflexVmImportOperationTagsDefinition;
 }
@@ -3139,6 +3150,7 @@ export function dataIntersightHyperflexVmImportOperationTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexVmImportOperationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3167,6 +3179,12 @@ export function dataIntersightHyperflexVmImportOperationTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3233,6 +3251,10 @@ export class DataIntersightHyperflexVmImportOperationTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3259,6 +3281,7 @@ export class DataIntersightHyperflexVmImportOperationTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3274,6 +3297,7 @@ export class DataIntersightHyperflexVmImportOperationTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3327,6 +3351,22 @@ export class DataIntersightHyperflexVmImportOperationTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3415,7 +3455,7 @@ export class DataIntersightHyperflexVmImportOperationTagsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexVmImportOperationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3423,19 +3463,19 @@ export interface DataIntersightHyperflexVmImportOperationVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3448,7 +3488,7 @@ export interface DataIntersightHyperflexVmImportOperationVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -3680,7 +3720,7 @@ export class DataIntersightHyperflexVmImportOperationVersionContextInterestedMos
 }
 export interface DataIntersightHyperflexVmImportOperationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3688,19 +3728,19 @@ export interface DataIntersightHyperflexVmImportOperationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#moid DataIntersightHyperflexVmImportOperation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3713,7 +3753,7 @@ export interface DataIntersightHyperflexVmImportOperationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#selector DataIntersightHyperflexVmImportOperation#selector}
   */
   readonly selector?: string;
 }
@@ -3913,7 +3953,7 @@ export class DataIntersightHyperflexVmImportOperationVersionContextRefMoOutputRe
 }
 export interface DataIntersightHyperflexVmImportOperationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#additional_properties DataIntersightHyperflexVmImportOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3921,32 +3961,32 @@ export interface DataIntersightHyperflexVmImportOperationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#class_id DataIntersightHyperflexVmImportOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#marked_for_deletion DataIntersightHyperflexVmImportOperation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#marked_for_deletion DataIntersightHyperflexVmImportOperation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#nr_version DataIntersightHyperflexVmImportOperation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#nr_version DataIntersightHyperflexVmImportOperation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#object_type DataIntersightHyperflexVmImportOperation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#timestamp DataIntersightHyperflexVmImportOperation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#timestamp DataIntersightHyperflexVmImportOperation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3957,19 +3997,19 @@ export interface DataIntersightHyperflexVmImportOperationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#version_type DataIntersightHyperflexVmImportOperation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#version_type DataIntersightHyperflexVmImportOperation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#interested_mos DataIntersightHyperflexVmImportOperation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#interested_mos DataIntersightHyperflexVmImportOperation#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexVmImportOperationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#ref_mo DataIntersightHyperflexVmImportOperation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#ref_mo DataIntersightHyperflexVmImportOperation#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexVmImportOperationVersionContextRefMo;
 }
@@ -4285,7 +4325,7 @@ export class DataIntersightHyperflexVmImportOperationVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation intersight_hyperflex_vm_import_operation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation intersight_hyperflex_vm_import_operation}
 */
 export class DataIntersightHyperflexVmImportOperation extends cdktf.TerraformDataSource {
 
@@ -4301,7 +4341,7 @@ export class DataIntersightHyperflexVmImportOperation extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightHyperflexVmImportOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexVmImportOperation to import
-  * @param importFromId The id of the existing DataIntersightHyperflexVmImportOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexVmImportOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexVmImportOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4313,7 +4353,7 @@ export class DataIntersightHyperflexVmImportOperation extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_import_operation intersight_hyperflex_vm_import_operation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_import_operation intersight_hyperflex_vm_import_operation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4324,8 +4364,8 @@ export class DataIntersightHyperflexVmImportOperation extends cdktf.TerraformDat
       terraformResourceType: 'intersight_hyperflex_vm_import_operation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

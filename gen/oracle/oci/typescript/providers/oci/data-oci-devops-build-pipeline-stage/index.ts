@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/devops_build_pipeline_stage
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/devops_build_pipeline_stage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDevopsBuildPipelineStageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}
   */
   readonly buildPipelineStageId: string;
 }
@@ -747,7 +747,7 @@ export class DataOciDevopsBuildPipelineStageWaitCriteriaList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/devops_build_pipeline_stage oci_devops_build_pipeline_stage}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/devops_build_pipeline_stage oci_devops_build_pipeline_stage}
 */
 export class DataOciDevopsBuildPipelineStage extends cdktf.TerraformDataSource {
 
@@ -763,7 +763,7 @@ export class DataOciDevopsBuildPipelineStage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDevopsBuildPipelineStage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDevopsBuildPipelineStage to import
-  * @param importFromId The id of the existing DataOciDevopsBuildPipelineStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/devops_build_pipeline_stage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDevopsBuildPipelineStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/devops_build_pipeline_stage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDevopsBuildPipelineStage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -775,7 +775,7 @@ export class DataOciDevopsBuildPipelineStage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/devops_build_pipeline_stage oci_devops_build_pipeline_stage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/devops_build_pipeline_stage oci_devops_build_pipeline_stage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -786,8 +786,8 @@ export class DataOciDevopsBuildPipelineStage extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_devops_build_pipeline_stage',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

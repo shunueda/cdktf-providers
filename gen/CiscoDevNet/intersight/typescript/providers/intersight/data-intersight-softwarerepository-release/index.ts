@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSoftwarerepositoryReleaseConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#account_moid DataIntersightSoftwarerepositoryRelease#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#account_moid DataIntersightSoftwarerepositoryRelease#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightSoftwarerepositoryReleaseConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#create_time DataIntersightSoftwarerepositoryRelease#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#create_time DataIntersightSoftwarerepositoryRelease#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#domain_group_moid DataIntersightSoftwarerepositoryRelease#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#domain_group_moid DataIntersightSoftwarerepositoryRelease#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#id DataIntersightSoftwarerepositoryRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#id DataIntersightSoftwarerepositoryRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,53 +47,53 @@ export interface DataIntersightSoftwarerepositoryReleaseConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#mod_time DataIntersightSoftwarerepositoryRelease#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#mod_time DataIntersightSoftwarerepositoryRelease#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * Cisco provided release version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#nr_version DataIntersightSoftwarerepositoryRelease#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#nr_version DataIntersightSoftwarerepositoryRelease#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#owners DataIntersightSoftwarerepositoryRelease#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#owners DataIntersightSoftwarerepositoryRelease#owners}
   */
   readonly owners?: string[];
   /**
   * The date when the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#release_date DataIntersightSoftwarerepositoryRelease#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#release_date DataIntersightSoftwarerepositoryRelease#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The URL for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#release_notes_url DataIntersightSoftwarerepositoryRelease#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#release_notes_url DataIntersightSoftwarerepositoryRelease#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#shared_scope DataIntersightSoftwarerepositoryRelease#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#shared_scope DataIntersightSoftwarerepositoryRelease#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#supported_models DataIntersightSoftwarerepositoryRelease#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#supported_models DataIntersightSoftwarerepositoryRelease#supported_models}
   */
   readonly supportedModels?: string[];
   /**
@@ -101,43 +101,43 @@ export interface DataIntersightSoftwarerepositoryReleaseConfig extends cdktf.Ter
   * * `FabricSwitch` - The images in a release that correspond to Fabric Interconnect switches.
   * * `ComputeSystem` - The images in a release that correspond to servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#type DataIntersightSoftwarerepositoryRelease#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#type DataIntersightSoftwarerepositoryRelease#type}
   */
   readonly type?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#ancestors DataIntersightSoftwarerepositoryRelease#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#ancestors DataIntersightSoftwarerepositoryRelease#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwarerepositoryReleaseAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#catalog DataIntersightSoftwarerepositoryRelease#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#catalog DataIntersightSoftwarerepositoryRelease#catalog}
   */
   readonly catalog?: DataIntersightSoftwarerepositoryReleaseCatalog;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#parent DataIntersightSoftwarerepositoryRelease#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#parent DataIntersightSoftwarerepositoryRelease#parent}
   */
   readonly parent?: DataIntersightSoftwarerepositoryReleaseParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#permission_resources DataIntersightSoftwarerepositoryRelease#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#permission_resources DataIntersightSoftwarerepositoryRelease#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwarerepositoryReleasePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#tags DataIntersightSoftwarerepositoryRelease#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#tags DataIntersightSoftwarerepositoryRelease#tags}
   */
   readonly tags?: DataIntersightSoftwarerepositoryReleaseTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#version_context DataIntersightSoftwarerepositoryRelease#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#version_context DataIntersightSoftwarerepositoryRelease#version_context}
   */
   readonly versionContext?: DataIntersightSoftwarerepositoryReleaseVersionContext;
 }
@@ -789,6 +789,11 @@ export class DataIntersightSoftwarerepositoryReleaseResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1308,7 +1313,7 @@ export class DataIntersightSoftwarerepositoryReleaseResultsList extends cdktf.Co
 }
 export interface DataIntersightSoftwarerepositoryReleaseAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1316,19 +1321,19 @@ export interface DataIntersightSoftwarerepositoryReleaseAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1341,7 +1346,7 @@ export interface DataIntersightSoftwarerepositoryReleaseAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -1573,7 +1578,7 @@ export class DataIntersightSoftwarerepositoryReleaseAncestorsList extends cdktf.
 }
 export interface DataIntersightSoftwarerepositoryReleaseCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1581,19 +1586,19 @@ export interface DataIntersightSoftwarerepositoryReleaseCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1606,7 +1611,7 @@ export interface DataIntersightSoftwarerepositoryReleaseCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -1806,7 +1811,7 @@ export class DataIntersightSoftwarerepositoryReleaseCatalogOutputReference exten
 }
 export interface DataIntersightSoftwarerepositoryReleaseParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1814,19 +1819,19 @@ export interface DataIntersightSoftwarerepositoryReleaseParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1839,7 +1844,7 @@ export interface DataIntersightSoftwarerepositoryReleaseParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -2039,7 +2044,7 @@ export class DataIntersightSoftwarerepositoryReleaseParentOutputReference extend
 }
 export interface DataIntersightSoftwarerepositoryReleasePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2047,19 +2052,19 @@ export interface DataIntersightSoftwarerepositoryReleasePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2072,7 +2077,7 @@ export interface DataIntersightSoftwarerepositoryReleasePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -2304,7 +2309,7 @@ export class DataIntersightSoftwarerepositoryReleasePermissionResourcesList exte
 }
 export interface DataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2312,19 +2317,19 @@ export interface DataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2337,7 +2342,7 @@ export interface DataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -2569,7 +2574,7 @@ export class DataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitionsList 
 }
 export interface DataIntersightSoftwarerepositoryReleaseTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2577,19 +2582,19 @@ export interface DataIntersightSoftwarerepositoryReleaseTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2602,7 +2607,7 @@ export interface DataIntersightSoftwarerepositoryReleaseTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -2802,45 +2807,51 @@ export class DataIntersightSoftwarerepositoryReleaseTagsDefinitionOutputReferenc
 }
 export interface DataIntersightSoftwarerepositoryReleaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#key DataIntersightSoftwarerepositoryRelease#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#key DataIntersightSoftwarerepositoryRelease#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#propagated DataIntersightSoftwarerepositoryRelease#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#propagated DataIntersightSoftwarerepositoryRelease#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#sys_tag DataIntersightSoftwarerepositoryRelease#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#type DataIntersightSoftwarerepositoryRelease#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#type DataIntersightSoftwarerepositoryRelease#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#value DataIntersightSoftwarerepositoryRelease#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#value DataIntersightSoftwarerepositoryRelease#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#ancestor_definitions DataIntersightSoftwarerepositoryRelease#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#ancestor_definitions DataIntersightSoftwarerepositoryRelease#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#definition DataIntersightSoftwarerepositoryRelease#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#definition DataIntersightSoftwarerepositoryRelease#definition}
   */
   readonly definition?: DataIntersightSoftwarerepositoryReleaseTagsDefinition;
 }
@@ -2854,6 +2865,7 @@ export function dataIntersightSoftwarerepositoryReleaseTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwarerepositoryReleaseTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2882,6 +2894,12 @@ export function dataIntersightSoftwarerepositoryReleaseTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2948,6 +2966,10 @@ export class DataIntersightSoftwarerepositoryReleaseTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2974,6 +2996,7 @@ export class DataIntersightSoftwarerepositoryReleaseTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2989,6 +3012,7 @@ export class DataIntersightSoftwarerepositoryReleaseTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3042,6 +3066,22 @@ export class DataIntersightSoftwarerepositoryReleaseTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3130,7 +3170,7 @@ export class DataIntersightSoftwarerepositoryReleaseTagsList extends cdktf.Compl
 }
 export interface DataIntersightSoftwarerepositoryReleaseVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3138,19 +3178,19 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3163,7 +3203,7 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -3395,7 +3435,7 @@ export class DataIntersightSoftwarerepositoryReleaseVersionContextInterestedMosL
 }
 export interface DataIntersightSoftwarerepositoryReleaseVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3403,19 +3443,19 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#moid DataIntersightSoftwarerepositoryRelease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3428,7 +3468,7 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#selector DataIntersightSoftwarerepositoryRelease#selector}
   */
   readonly selector?: string;
 }
@@ -3628,7 +3668,7 @@ export class DataIntersightSoftwarerepositoryReleaseVersionContextRefMoOutputRef
 }
 export interface DataIntersightSoftwarerepositoryReleaseVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#additional_properties DataIntersightSoftwarerepositoryRelease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3636,32 +3676,32 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#class_id DataIntersightSoftwarerepositoryRelease#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#marked_for_deletion DataIntersightSoftwarerepositoryRelease#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#marked_for_deletion DataIntersightSoftwarerepositoryRelease#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#nr_version DataIntersightSoftwarerepositoryRelease#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#nr_version DataIntersightSoftwarerepositoryRelease#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#object_type DataIntersightSoftwarerepositoryRelease#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#timestamp DataIntersightSoftwarerepositoryRelease#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#timestamp DataIntersightSoftwarerepositoryRelease#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3672,19 +3712,19 @@ export interface DataIntersightSoftwarerepositoryReleaseVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#version_type DataIntersightSoftwarerepositoryRelease#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#version_type DataIntersightSoftwarerepositoryRelease#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#interested_mos DataIntersightSoftwarerepositoryRelease#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#interested_mos DataIntersightSoftwarerepositoryRelease#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwarerepositoryReleaseVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#ref_mo DataIntersightSoftwarerepositoryRelease#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#ref_mo DataIntersightSoftwarerepositoryRelease#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwarerepositoryReleaseVersionContextRefMo;
 }
@@ -4000,7 +4040,7 @@ export class DataIntersightSoftwarerepositoryReleaseVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release intersight_softwarerepository_release}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release intersight_softwarerepository_release}
 */
 export class DataIntersightSoftwarerepositoryRelease extends cdktf.TerraformDataSource {
 
@@ -4016,7 +4056,7 @@ export class DataIntersightSoftwarerepositoryRelease extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightSoftwarerepositoryRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwarerepositoryRelease to import
-  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwarerepositoryRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4028,7 +4068,7 @@ export class DataIntersightSoftwarerepositoryRelease extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_release intersight_softwarerepository_release} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_release intersight_softwarerepository_release} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4039,8 +4079,8 @@ export class DataIntersightSoftwarerepositoryRelease extends cdktf.TerraformData
       terraformResourceType: 'intersight_softwarerepository_release',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

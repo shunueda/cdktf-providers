@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface VmCloneV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#id VmCloneV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#id VmCloneV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#memory_size_bytes VmCloneV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#memory_size_bytes VmCloneV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#name VmCloneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#name VmCloneV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#num_cores_per_socket VmCloneV2#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#num_cores_per_socket VmCloneV2#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#num_sockets VmCloneV2#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#num_sockets VmCloneV2#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#num_threads_per_core VmCloneV2#num_threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#num_threads_per_core VmCloneV2#num_threads_per_core}
   */
   readonly numThreadsPerCore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#vm_ext_id VmCloneV2#vm_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#vm_ext_id VmCloneV2#vm_ext_id}
   */
   readonly vmExtId: string;
   /**
   * boot_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_config VmCloneV2#boot_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_config VmCloneV2#boot_config}
   */
   readonly bootConfig?: VmCloneV2BootConfig[] | cdktf.IResolvable;
   /**
   * guest_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#guest_customization VmCloneV2#guest_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#guest_customization VmCloneV2#guest_customization}
   */
   readonly guestCustomization?: VmCloneV2GuestCustomization[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#nics VmCloneV2#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#nics VmCloneV2#nics}
   */
   readonly nics?: VmCloneV2Nics[] | cdktf.IResolvable;
 }
@@ -3511,11 +3511,11 @@ export class VmCloneV2VtpmConfigList extends cdktf.ComplexList {
 }
 export interface VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceDiskDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#index VmCloneV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#index VmCloneV2#index}
   */
   readonly index?: number;
 }
@@ -3662,7 +3662,7 @@ export interface VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceDisk {
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
   */
   readonly diskAddress?: VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceDiskDiskAddress[] | cdktf.IResolvable;
 }
@@ -3778,7 +3778,7 @@ export class VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceDiskList extends c
 }
 export interface VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceNic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -3896,13 +3896,13 @@ export interface VmCloneV2BootConfigLegacyBootBootDevice {
   /**
   * boot_device_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device_disk VmCloneV2#boot_device_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device_disk VmCloneV2#boot_device_disk}
   */
   readonly bootDeviceDisk?: VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceDisk[] | cdktf.IResolvable;
   /**
   * boot_device_nic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device_nic VmCloneV2#boot_device_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device_nic VmCloneV2#boot_device_nic}
   */
   readonly bootDeviceNic?: VmCloneV2BootConfigLegacyBootBootDeviceBootDeviceNic[] | cdktf.IResolvable;
 }
@@ -4047,13 +4047,13 @@ export class VmCloneV2BootConfigLegacyBootBootDeviceList extends cdktf.ComplexLi
 }
 export interface VmCloneV2BootConfigLegacyBoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_order VmCloneV2#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_order VmCloneV2#boot_order}
   */
   readonly bootOrder?: string[];
   /**
   * boot_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device VmCloneV2#boot_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device VmCloneV2#boot_device}
   */
   readonly bootDevice?: VmCloneV2BootConfigLegacyBootBootDevice[] | cdktf.IResolvable;
 }
@@ -4198,11 +4198,11 @@ export class VmCloneV2BootConfigLegacyBootList extends cdktf.ComplexList {
 }
 export interface VmCloneV2BootConfigUefiBootBootDeviceBootDeviceDiskDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#index VmCloneV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#index VmCloneV2#index}
   */
   readonly index?: number;
 }
@@ -4349,7 +4349,7 @@ export interface VmCloneV2BootConfigUefiBootBootDeviceBootDeviceDisk {
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
   */
   readonly diskAddress?: VmCloneV2BootConfigUefiBootBootDeviceBootDeviceDiskDiskAddress[] | cdktf.IResolvable;
 }
@@ -4465,7 +4465,7 @@ export class VmCloneV2BootConfigUefiBootBootDeviceBootDeviceDiskList extends cdk
 }
 export interface VmCloneV2BootConfigUefiBootBootDeviceBootDeviceNic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -4583,13 +4583,13 @@ export interface VmCloneV2BootConfigUefiBootBootDevice {
   /**
   * boot_device_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device_disk VmCloneV2#boot_device_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device_disk VmCloneV2#boot_device_disk}
   */
   readonly bootDeviceDisk?: VmCloneV2BootConfigUefiBootBootDeviceBootDeviceDisk[] | cdktf.IResolvable;
   /**
   * boot_device_nic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device_nic VmCloneV2#boot_device_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device_nic VmCloneV2#boot_device_nic}
   */
   readonly bootDeviceNic?: VmCloneV2BootConfigUefiBootBootDeviceBootDeviceNic[] | cdktf.IResolvable;
 }
@@ -4734,7 +4734,7 @@ export class VmCloneV2BootConfigUefiBootBootDeviceList extends cdktf.ComplexList
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceImageReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#image_ext_id VmCloneV2#image_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#image_ext_id VmCloneV2#image_ext_id}
   */
   readonly imageExtId?: string;
 }
@@ -4850,11 +4850,11 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceR
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReferenceDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#bus_type VmCloneV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#index VmCloneV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#index VmCloneV2#index}
   */
   readonly index?: number;
 }
@@ -4999,7 +4999,7 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceR
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReferenceVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -5115,19 +5115,19 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceR
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#disk_ext_id VmCloneV2#disk_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#disk_ext_id VmCloneV2#disk_ext_id}
   */
   readonly diskExtId?: string;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#disk_address VmCloneV2#disk_address}
   */
   readonly diskAddress?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReferenceDiskAddress[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#vm_reference VmCloneV2#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#vm_reference VmCloneV2#vm_reference}
   */
   readonly vmReference?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReferenceVmReference[] | cdktf.IResolvable;
 }
@@ -5303,13 +5303,13 @@ export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSou
   /**
   * image_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#image_reference VmCloneV2#image_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#image_reference VmCloneV2#image_reference}
   */
   readonly imageReference?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceImageReference[] | cdktf.IResolvable;
   /**
   * vm_disk_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#vm_disk_reference VmCloneV2#vm_disk_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#vm_disk_reference VmCloneV2#vm_disk_reference}
   */
   readonly vmDiskReference?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReferenceVmDiskReference[] | cdktf.IResolvable;
 }
@@ -5456,7 +5456,7 @@ export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSou
   /**
   * reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#reference VmCloneV2#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#reference VmCloneV2#reference}
   */
   readonly reference?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceReference[] | cdktf.IResolvable;
 }
@@ -5572,7 +5572,7 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSourceL
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#is_flash_mode_enabled VmCloneV2#is_flash_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#is_flash_mode_enabled VmCloneV2#is_flash_mode_enabled}
   */
   readonly isFlashModeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -5688,7 +5688,7 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageConf
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -5804,25 +5804,25 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageCont
 }
 export interface VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#disk_size_bytes VmCloneV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#disk_size_bytes VmCloneV2#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#data_source VmCloneV2#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#data_source VmCloneV2#data_source}
   */
   readonly dataSource?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoDataSource[] | cdktf.IResolvable;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#storage_config VmCloneV2#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#storage_config VmCloneV2#storage_config}
   */
   readonly storageConfig?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageConfig[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#storage_container VmCloneV2#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#storage_container VmCloneV2#storage_container}
   */
   readonly storageContainer?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfoStorageContainer[] | cdktf.IResolvable;
 }
@@ -6037,7 +6037,7 @@ export interface VmCloneV2BootConfigUefiBootNvramDevice {
   /**
   * backing_storage_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#backing_storage_info VmCloneV2#backing_storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#backing_storage_info VmCloneV2#backing_storage_info}
   */
   readonly backingStorageInfo?: VmCloneV2BootConfigUefiBootNvramDeviceBackingStorageInfo[] | cdktf.IResolvable;
 }
@@ -6153,23 +6153,23 @@ export class VmCloneV2BootConfigUefiBootNvramDeviceList extends cdktf.ComplexLis
 }
 export interface VmCloneV2BootConfigUefiBoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_order VmCloneV2#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_order VmCloneV2#boot_order}
   */
   readonly bootOrder?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#is_secure_boot_enabled VmCloneV2#is_secure_boot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#is_secure_boot_enabled VmCloneV2#is_secure_boot_enabled}
   */
   readonly isSecureBootEnabled?: boolean | cdktf.IResolvable;
   /**
   * boot_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#boot_device VmCloneV2#boot_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#boot_device VmCloneV2#boot_device}
   */
   readonly bootDevice?: VmCloneV2BootConfigUefiBootBootDevice[] | cdktf.IResolvable;
   /**
   * nvram_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#nvram_device VmCloneV2#nvram_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#nvram_device VmCloneV2#nvram_device}
   */
   readonly nvramDevice?: VmCloneV2BootConfigUefiBootNvramDevice[] | cdktf.IResolvable;
 }
@@ -6374,13 +6374,13 @@ export interface VmCloneV2BootConfig {
   /**
   * legacy_boot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#legacy_boot VmCloneV2#legacy_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#legacy_boot VmCloneV2#legacy_boot}
   */
   readonly legacyBoot?: VmCloneV2BootConfigLegacyBoot[] | cdktf.IResolvable;
   /**
   * uefi_boot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#uefi_boot VmCloneV2#uefi_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#uefi_boot VmCloneV2#uefi_boot}
   */
   readonly uefiBoot?: VmCloneV2BootConfigUefiBoot[] | cdktf.IResolvable;
 }
@@ -6525,11 +6525,11 @@ export class VmCloneV2BootConfigList extends cdktf.ComplexList {
 }
 export interface VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptCustomKeysKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#name VmCloneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#name VmCloneV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -6676,7 +6676,7 @@ export interface VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptCustom
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#key_value_pairs VmCloneV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#key_value_pairs VmCloneV2#key_value_pairs}
   */
   readonly keyValuePairs?: VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptCustomKeysKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -6792,7 +6792,7 @@ export class VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptCustomKeys
 }
 export interface VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -6910,13 +6910,13 @@ export interface VmCloneV2GuestCustomizationConfigCloudInitCloudInitScript {
   /**
   * custom_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#custom_keys VmCloneV2#custom_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#custom_keys VmCloneV2#custom_keys}
   */
   readonly customKeys?: VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptCustomKeys[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#user_data VmCloneV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#user_data VmCloneV2#user_data}
   */
   readonly userData?: VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -7061,17 +7061,17 @@ export class VmCloneV2GuestCustomizationConfigCloudInitCloudInitScriptList exten
 }
 export interface VmCloneV2GuestCustomizationConfigCloudInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#datasource_type VmCloneV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#datasource_type VmCloneV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#metadata VmCloneV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#metadata VmCloneV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#cloud_init_script VmCloneV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#cloud_init_script VmCloneV2#cloud_init_script}
   */
   readonly cloudInitScript?: VmCloneV2GuestCustomizationConfigCloudInitCloudInitScript[] | cdktf.IResolvable;
 }
@@ -7245,11 +7245,11 @@ export class VmCloneV2GuestCustomizationConfigCloudInitList extends cdktf.Comple
 }
 export interface VmCloneV2GuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#name VmCloneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#name VmCloneV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -7396,7 +7396,7 @@ export interface VmCloneV2GuestCustomizationConfigSysprepSysprepScriptCustomKeyV
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#key_value_pairs VmCloneV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#key_value_pairs VmCloneV2#key_value_pairs}
   */
   readonly keyValuePairs?: VmCloneV2GuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -7512,7 +7512,7 @@ export class VmCloneV2GuestCustomizationConfigSysprepSysprepScriptCustomKeyValue
 }
 export interface VmCloneV2GuestCustomizationConfigSysprepSysprepScriptUnattendXml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -7630,13 +7630,13 @@ export interface VmCloneV2GuestCustomizationConfigSysprepSysprepScript {
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#custom_key_values VmCloneV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#custom_key_values VmCloneV2#custom_key_values}
   */
   readonly customKeyValues?: VmCloneV2GuestCustomizationConfigSysprepSysprepScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * unattend_xml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#unattend_xml VmCloneV2#unattend_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#unattend_xml VmCloneV2#unattend_xml}
   */
   readonly unattendXml?: VmCloneV2GuestCustomizationConfigSysprepSysprepScriptUnattendXml[] | cdktf.IResolvable;
 }
@@ -7781,13 +7781,13 @@ export class VmCloneV2GuestCustomizationConfigSysprepSysprepScriptList extends c
 }
 export interface VmCloneV2GuestCustomizationConfigSysprep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#install_type VmCloneV2#install_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#install_type VmCloneV2#install_type}
   */
   readonly installType?: string;
   /**
   * sysprep_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#sysprep_script VmCloneV2#sysprep_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#sysprep_script VmCloneV2#sysprep_script}
   */
   readonly sysprepScript?: VmCloneV2GuestCustomizationConfigSysprepSysprepScript[] | cdktf.IResolvable;
 }
@@ -7934,13 +7934,13 @@ export interface VmCloneV2GuestCustomizationConfig {
   /**
   * cloud_init block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#cloud_init VmCloneV2#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#cloud_init VmCloneV2#cloud_init}
   */
   readonly cloudInit?: VmCloneV2GuestCustomizationConfigCloudInit[] | cdktf.IResolvable;
   /**
   * sysprep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#sysprep VmCloneV2#sysprep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#sysprep VmCloneV2#sysprep}
   */
   readonly sysprep?: VmCloneV2GuestCustomizationConfigSysprep[] | cdktf.IResolvable;
 }
@@ -8087,7 +8087,7 @@ export interface VmCloneV2GuestCustomization {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#config VmCloneV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#config VmCloneV2#config}
   */
   readonly config?: VmCloneV2GuestCustomizationConfig[] | cdktf.IResolvable;
 }
@@ -8203,19 +8203,19 @@ export class VmCloneV2GuestCustomizationList extends cdktf.ComplexList {
 }
 export interface VmCloneV2NicsBackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#is_connected VmCloneV2#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#is_connected VmCloneV2#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#mac_address VmCloneV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#model VmCloneV2#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#model VmCloneV2#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#num_queues VmCloneV2#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#num_queues VmCloneV2#num_queues}
   */
   readonly numQueues?: number;
 }
@@ -8418,11 +8418,11 @@ export class VmCloneV2NicsBackingInfoList extends cdktf.ComplexList {
 }
 export interface VmCloneV2NicsNetworkInfoIpv4ConfigIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#prefix_length VmCloneV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#prefix_length VmCloneV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -8567,11 +8567,11 @@ export class VmCloneV2NicsNetworkInfoIpv4ConfigIpAddressList extends cdktf.Compl
 }
 export interface VmCloneV2NicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#prefix_length VmCloneV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#prefix_length VmCloneV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#value VmCloneV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#value VmCloneV2#value}
   */
   readonly value?: string;
 }
@@ -8716,19 +8716,19 @@ export class VmCloneV2NicsNetworkInfoIpv4ConfigSecondaryIpAddressListStructList 
 }
 export interface VmCloneV2NicsNetworkInfoIpv4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#should_assign_ip VmCloneV2#should_assign_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#should_assign_ip VmCloneV2#should_assign_ip}
   */
   readonly shouldAssignIp?: boolean | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ip_address VmCloneV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ip_address VmCloneV2#ip_address}
   */
   readonly ipAddress?: VmCloneV2NicsNetworkInfoIpv4ConfigIpAddress[] | cdktf.IResolvable;
   /**
   * secondary_ip_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#secondary_ip_address_list VmCloneV2#secondary_ip_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#secondary_ip_address_list VmCloneV2#secondary_ip_address_list}
   */
   readonly secondaryIpAddressList?: VmCloneV2NicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct[] | cdktf.IResolvable;
 }
@@ -8902,7 +8902,7 @@ export class VmCloneV2NicsNetworkInfoIpv4ConfigList extends cdktf.ComplexList {
 }
 export interface VmCloneV2NicsNetworkInfoNetworkFunctionChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -9018,7 +9018,7 @@ export class VmCloneV2NicsNetworkInfoNetworkFunctionChainList extends cdktf.Comp
 }
 export interface VmCloneV2NicsNetworkInfoSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -9134,41 +9134,41 @@ export class VmCloneV2NicsNetworkInfoSubnetList extends cdktf.ComplexList {
 }
 export interface VmCloneV2NicsNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#network_function_nic_type VmCloneV2#network_function_nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#network_function_nic_type VmCloneV2#network_function_nic_type}
   */
   readonly networkFunctionNicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#nic_type VmCloneV2#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#nic_type VmCloneV2#nic_type}
   */
   readonly nicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#should_allow_unknown_macs VmCloneV2#should_allow_unknown_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#should_allow_unknown_macs VmCloneV2#should_allow_unknown_macs}
   */
   readonly shouldAllowUnknownMacs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#trunked_vlans VmCloneV2#trunked_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#trunked_vlans VmCloneV2#trunked_vlans}
   */
   readonly trunkedVlans?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#vlan_mode VmCloneV2#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#vlan_mode VmCloneV2#vlan_mode}
   */
   readonly vlanMode?: string;
   /**
   * ipv4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ipv4_config VmCloneV2#ipv4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ipv4_config VmCloneV2#ipv4_config}
   */
   readonly ipv4Config?: VmCloneV2NicsNetworkInfoIpv4Config[] | cdktf.IResolvable;
   /**
   * network_function_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#network_function_chain VmCloneV2#network_function_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#network_function_chain VmCloneV2#network_function_chain}
   */
   readonly networkFunctionChain?: VmCloneV2NicsNetworkInfoNetworkFunctionChain[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#subnet VmCloneV2#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#subnet VmCloneV2#subnet}
   */
   readonly subnet?: VmCloneV2NicsNetworkInfoSubnet[] | cdktf.IResolvable;
 }
@@ -9487,19 +9487,19 @@ export class VmCloneV2NicsNetworkInfoList extends cdktf.ComplexList {
 }
 export interface VmCloneV2Nics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#ext_id VmCloneV2#ext_id}
   */
   readonly extId?: string;
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#backing_info VmCloneV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#backing_info VmCloneV2#backing_info}
   */
   readonly backingInfo?: VmCloneV2NicsBackingInfo[] | cdktf.IResolvable;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#network_info VmCloneV2#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#network_info VmCloneV2#network_info}
   */
   readonly networkInfo?: VmCloneV2NicsNetworkInfo[] | cdktf.IResolvable;
 }
@@ -9673,7 +9673,7 @@ export class VmCloneV2NicsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2 nutanix_vm_clone_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2 nutanix_vm_clone_v2}
 */
 export class VmCloneV2 extends cdktf.TerraformResource {
 
@@ -9689,7 +9689,7 @@ export class VmCloneV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmCloneV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmCloneV2 to import
-  * @param importFromId The id of the existing VmCloneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmCloneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmCloneV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9701,7 +9701,7 @@ export class VmCloneV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_clone_v2 nutanix_vm_clone_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_clone_v2 nutanix_vm_clone_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9712,8 +9712,8 @@ export class VmCloneV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_vm_clone_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

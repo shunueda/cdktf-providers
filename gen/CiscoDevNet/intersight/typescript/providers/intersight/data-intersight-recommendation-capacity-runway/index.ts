@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightRecommendationCapacityRunwayConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#account_moid DataIntersightRecommendationCapacityRunway#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#account_moid DataIntersightRecommendationCapacityRunway#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Additional capacity is the capacity which is needed more after exhausting all hardware on current cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_capacity DataIntersightRecommendationCapacityRunway#additional_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_capacity DataIntersightRecommendationCapacityRunway#additional_capacity}
   */
   readonly additionalCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,23 +28,23 @@ export interface DataIntersightRecommendationCapacityRunwayConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#create_time DataIntersightRecommendationCapacityRunway#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#create_time DataIntersightRecommendationCapacityRunway#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#domain_group_moid DataIntersightRecommendationCapacityRunway#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#domain_group_moid DataIntersightRecommendationCapacityRunway#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#id DataIntersightRecommendationCapacityRunway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#id DataIntersightRecommendationCapacityRunway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightRecommendationCapacityRunwayConfig extends cdktf.
   /**
   * The time when the recommendation was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#last_updated_time DataIntersightRecommendationCapacityRunway#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#last_updated_time DataIntersightRecommendationCapacityRunway#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#mod_time DataIntersightRecommendationCapacityRunway#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#mod_time DataIntersightRecommendationCapacityRunway#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The name of the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#name DataIntersightRecommendationCapacityRunway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#name DataIntersightRecommendationCapacityRunway#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#owners DataIntersightRecommendationCapacityRunway#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#owners DataIntersightRecommendationCapacityRunway#owners}
   */
   readonly owners?: string[];
   /**
   * Number of months in future for which recommendation is provided for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#period DataIntersightRecommendationCapacityRunway#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#period DataIntersightRecommendationCapacityRunway#period}
   */
   readonly period?: number;
   /**
   * Indicates if the recommendation requirement is met by the existing setup by adding hardware components to it or it needs expansion. For example if the recommendation is to add 16 disks to a HyperFlex cluster but the cluster is already alost full and only 8 disks can be added, then this property is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#requirement_met DataIntersightRecommendationCapacityRunway#requirement_met}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#requirement_met DataIntersightRecommendationCapacityRunway#requirement_met}
   */
   readonly requirementMet?: boolean | cdktf.IResolvable;
   /**
   * This represents the new runway, that is the number of days remaining before the cluster's storage utilization reaches the recommended capacity limit after the recommended hardware is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#runway DataIntersightRecommendationCapacityRunway#runway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#runway DataIntersightRecommendationCapacityRunway#runway}
   */
   readonly runway?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#shared_scope DataIntersightRecommendationCapacityRunway#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#shared_scope DataIntersightRecommendationCapacityRunway#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Total capacity of the cluster after the recommended hardware is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#total_capacity DataIntersightRecommendationCapacityRunway#total_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#total_capacity DataIntersightRecommendationCapacityRunway#total_capacity}
   */
   readonly totalCapacity?: number;
   /**
@@ -125,55 +125,55 @@ export interface DataIntersightRecommendationCapacityRunwayConfig extends cdktf.
   * * `GHz` - The Enum value GHz represents that the measurement unit is in gigahertz.
   * * `Percentage` - The Enum value Percentage represents that the expansion request is in the percentage of resource increase. For example, a 20% increase in CPU capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#unit DataIntersightRecommendationCapacityRunway#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#unit DataIntersightRecommendationCapacityRunway#unit}
   */
   readonly unit?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#ancestors DataIntersightRecommendationCapacityRunway#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#ancestors DataIntersightRecommendationCapacityRunway#ancestors}
   */
   readonly ancestors?: DataIntersightRecommendationCapacityRunwayAncestors[] | cdktf.IResolvable;
   /**
   * forecast_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#forecast_instance DataIntersightRecommendationCapacityRunway#forecast_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#forecast_instance DataIntersightRecommendationCapacityRunway#forecast_instance}
   */
   readonly forecastInstance?: DataIntersightRecommendationCapacityRunwayForecastInstance;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#parent DataIntersightRecommendationCapacityRunway#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#parent DataIntersightRecommendationCapacityRunway#parent}
   */
   readonly parent?: DataIntersightRecommendationCapacityRunwayParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#permission_resources DataIntersightRecommendationCapacityRunway#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#permission_resources DataIntersightRecommendationCapacityRunway#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecommendationCapacityRunwayPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#physical_item DataIntersightRecommendationCapacityRunway#physical_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#physical_item DataIntersightRecommendationCapacityRunway#physical_item}
   */
   readonly physicalItem?: DataIntersightRecommendationCapacityRunwayPhysicalItem[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#registered_device DataIntersightRecommendationCapacityRunway#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#registered_device DataIntersightRecommendationCapacityRunway#registered_device}
   */
   readonly registeredDevice?: DataIntersightRecommendationCapacityRunwayRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#tags DataIntersightRecommendationCapacityRunway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#tags DataIntersightRecommendationCapacityRunway#tags}
   */
   readonly tags?: DataIntersightRecommendationCapacityRunwayTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#version_context DataIntersightRecommendationCapacityRunway#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#version_context DataIntersightRecommendationCapacityRunway#version_context}
   */
   readonly versionContext?: DataIntersightRecommendationCapacityRunwayVersionContext;
 }
@@ -1015,6 +1015,11 @@ export class DataIntersightRecommendationCapacityRunwayResultsTagsOutputReferenc
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1561,7 +1566,7 @@ export class DataIntersightRecommendationCapacityRunwayResultsList extends cdktf
 }
 export interface DataIntersightRecommendationCapacityRunwayAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1569,19 +1574,19 @@ export interface DataIntersightRecommendationCapacityRunwayAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1594,7 +1599,7 @@ export interface DataIntersightRecommendationCapacityRunwayAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -1826,7 +1831,7 @@ export class DataIntersightRecommendationCapacityRunwayAncestorsList extends cdk
 }
 export interface DataIntersightRecommendationCapacityRunwayForecastInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1834,19 +1839,19 @@ export interface DataIntersightRecommendationCapacityRunwayForecastInstance {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1859,7 +1864,7 @@ export interface DataIntersightRecommendationCapacityRunwayForecastInstance {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -2059,7 +2064,7 @@ export class DataIntersightRecommendationCapacityRunwayForecastInstanceOutputRef
 }
 export interface DataIntersightRecommendationCapacityRunwayParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2067,19 +2072,19 @@ export interface DataIntersightRecommendationCapacityRunwayParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2092,7 +2097,7 @@ export interface DataIntersightRecommendationCapacityRunwayParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -2292,7 +2297,7 @@ export class DataIntersightRecommendationCapacityRunwayParentOutputReference ext
 }
 export interface DataIntersightRecommendationCapacityRunwayPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2300,19 +2305,19 @@ export interface DataIntersightRecommendationCapacityRunwayPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2325,7 +2330,7 @@ export interface DataIntersightRecommendationCapacityRunwayPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -2557,7 +2562,7 @@ export class DataIntersightRecommendationCapacityRunwayPermissionResourcesList e
 }
 export interface DataIntersightRecommendationCapacityRunwayPhysicalItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2565,19 +2570,19 @@ export interface DataIntersightRecommendationCapacityRunwayPhysicalItem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2590,7 +2595,7 @@ export interface DataIntersightRecommendationCapacityRunwayPhysicalItem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -2822,7 +2827,7 @@ export class DataIntersightRecommendationCapacityRunwayPhysicalItemList extends 
 }
 export interface DataIntersightRecommendationCapacityRunwayRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2830,19 +2835,19 @@ export interface DataIntersightRecommendationCapacityRunwayRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2855,7 +2860,7 @@ export interface DataIntersightRecommendationCapacityRunwayRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -3055,7 +3060,7 @@ export class DataIntersightRecommendationCapacityRunwayRegisteredDeviceOutputRef
 }
 export interface DataIntersightRecommendationCapacityRunwayTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3063,19 +3068,19 @@ export interface DataIntersightRecommendationCapacityRunwayTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3088,7 +3093,7 @@ export interface DataIntersightRecommendationCapacityRunwayTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -3320,7 +3325,7 @@ export class DataIntersightRecommendationCapacityRunwayTagsAncestorDefinitionsLi
 }
 export interface DataIntersightRecommendationCapacityRunwayTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3328,19 +3333,19 @@ export interface DataIntersightRecommendationCapacityRunwayTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3353,7 +3358,7 @@ export interface DataIntersightRecommendationCapacityRunwayTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -3553,45 +3558,51 @@ export class DataIntersightRecommendationCapacityRunwayTagsDefinitionOutputRefer
 }
 export interface DataIntersightRecommendationCapacityRunwayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#key DataIntersightRecommendationCapacityRunway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#key DataIntersightRecommendationCapacityRunway#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#propagated DataIntersightRecommendationCapacityRunway#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#propagated DataIntersightRecommendationCapacityRunway#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#sys_tag DataIntersightRecommendationCapacityRunway#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#type DataIntersightRecommendationCapacityRunway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#type DataIntersightRecommendationCapacityRunway#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#value DataIntersightRecommendationCapacityRunway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#value DataIntersightRecommendationCapacityRunway#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#ancestor_definitions DataIntersightRecommendationCapacityRunway#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#ancestor_definitions DataIntersightRecommendationCapacityRunway#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecommendationCapacityRunwayTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#definition DataIntersightRecommendationCapacityRunway#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#definition DataIntersightRecommendationCapacityRunway#definition}
   */
   readonly definition?: DataIntersightRecommendationCapacityRunwayTagsDefinition;
 }
@@ -3605,6 +3616,7 @@ export function dataIntersightRecommendationCapacityRunwayTagsToTerraform(struct
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightRecommendationCapacityRunwayTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3633,6 +3645,12 @@ export function dataIntersightRecommendationCapacityRunwayTagsToHclTerraform(str
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3699,6 +3717,10 @@ export class DataIntersightRecommendationCapacityRunwayTagsOutputReference exten
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3725,6 +3747,7 @@ export class DataIntersightRecommendationCapacityRunwayTagsOutputReference exten
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3740,6 +3763,7 @@ export class DataIntersightRecommendationCapacityRunwayTagsOutputReference exten
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3793,6 +3817,22 @@ export class DataIntersightRecommendationCapacityRunwayTagsOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3881,7 +3921,7 @@ export class DataIntersightRecommendationCapacityRunwayTagsList extends cdktf.Co
 }
 export interface DataIntersightRecommendationCapacityRunwayVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3889,19 +3929,19 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3914,7 +3954,7 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -4146,7 +4186,7 @@ export class DataIntersightRecommendationCapacityRunwayVersionContextInterestedM
 }
 export interface DataIntersightRecommendationCapacityRunwayVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4154,19 +4194,19 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#moid DataIntersightRecommendationCapacityRunway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4179,7 +4219,7 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#selector DataIntersightRecommendationCapacityRunway#selector}
   */
   readonly selector?: string;
 }
@@ -4379,7 +4419,7 @@ export class DataIntersightRecommendationCapacityRunwayVersionContextRefMoOutput
 }
 export interface DataIntersightRecommendationCapacityRunwayVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#additional_properties DataIntersightRecommendationCapacityRunway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4387,32 +4427,32 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#class_id DataIntersightRecommendationCapacityRunway#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#marked_for_deletion DataIntersightRecommendationCapacityRunway#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#marked_for_deletion DataIntersightRecommendationCapacityRunway#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#nr_version DataIntersightRecommendationCapacityRunway#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#nr_version DataIntersightRecommendationCapacityRunway#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#object_type DataIntersightRecommendationCapacityRunway#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#timestamp DataIntersightRecommendationCapacityRunway#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#timestamp DataIntersightRecommendationCapacityRunway#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4423,19 +4463,19 @@ export interface DataIntersightRecommendationCapacityRunwayVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#version_type DataIntersightRecommendationCapacityRunway#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#version_type DataIntersightRecommendationCapacityRunway#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#interested_mos DataIntersightRecommendationCapacityRunway#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#interested_mos DataIntersightRecommendationCapacityRunway#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecommendationCapacityRunwayVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#ref_mo DataIntersightRecommendationCapacityRunway#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#ref_mo DataIntersightRecommendationCapacityRunway#ref_mo}
   */
   readonly refMo?: DataIntersightRecommendationCapacityRunwayVersionContextRefMo;
 }
@@ -4751,7 +4791,7 @@ export class DataIntersightRecommendationCapacityRunwayVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway intersight_recommendation_capacity_runway}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway intersight_recommendation_capacity_runway}
 */
 export class DataIntersightRecommendationCapacityRunway extends cdktf.TerraformDataSource {
 
@@ -4767,7 +4807,7 @@ export class DataIntersightRecommendationCapacityRunway extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightRecommendationCapacityRunway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecommendationCapacityRunway to import
-  * @param importFromId The id of the existing DataIntersightRecommendationCapacityRunway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecommendationCapacityRunway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecommendationCapacityRunway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4779,7 +4819,7 @@ export class DataIntersightRecommendationCapacityRunway extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_capacity_runway intersight_recommendation_capacity_runway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_capacity_runway intersight_recommendation_capacity_runway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4790,8 +4830,8 @@ export class DataIntersightRecommendationCapacityRunway extends cdktf.TerraformD
       terraformResourceType: 'intersight_recommendation_capacity_runway',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

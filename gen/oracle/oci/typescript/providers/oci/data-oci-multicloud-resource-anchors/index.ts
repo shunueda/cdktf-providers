@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudResourceAnchorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}
   */
   readonly isCompartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}
   */
   readonly lifecycleState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}
   */
   readonly linkedCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}
   */
   readonly subscriptionServiceName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
   */
   readonly filter?: DataOciMulticloudResourceAnchorsFilter[] | cdktf.IResolvable;
 }
@@ -259,15 +259,15 @@ export class DataOciMulticloudResourceAnchorsResourceAnchorCollectionList extend
 }
 export interface DataOciMulticloudResourceAnchorsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#name DataOciMulticloudResourceAnchors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#name DataOciMulticloudResourceAnchors#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#regex DataOciMulticloudResourceAnchors#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#regex DataOciMulticloudResourceAnchors#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#values DataOciMulticloudResourceAnchors#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#values DataOciMulticloudResourceAnchors#values}
   */
   readonly values: string[];
 }
@@ -435,7 +435,7 @@ export class DataOciMulticloudResourceAnchorsFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors}
 */
 export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource {
 
@@ -451,7 +451,7 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciMulticloudResourceAnchors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudResourceAnchors to import
-  * @param importFromId The id of the existing DataOciMulticloudResourceAnchors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudResourceAnchors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudResourceAnchors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_multicloud_resource_anchors',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

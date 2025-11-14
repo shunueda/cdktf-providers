@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightServerDisruptionConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#account_moid DataIntersightServerDisruption#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#account_moid DataIntersightServerDisruption#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightServerDisruptionConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#create_time DataIntersightServerDisruption#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#create_time DataIntersightServerDisruption#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#domain_group_moid DataIntersightServerDisruption#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#domain_group_moid DataIntersightServerDisruption#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#id DataIntersightServerDisruption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#id DataIntersightServerDisruption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,36 +47,36 @@ export interface DataIntersightServerDisruptionConfig extends cdktf.TerraformMet
   /**
   * Description of the disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#label DataIntersightServerDisruption#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#label DataIntersightServerDisruption#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#mod_time DataIntersightServerDisruption#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#mod_time DataIntersightServerDisruption#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * Disruption that happens when the policy is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#name DataIntersightServerDisruption#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#name DataIntersightServerDisruption#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#owners DataIntersightServerDisruption#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#owners DataIntersightServerDisruption#owners}
   */
   readonly owners?: string[];
   /**
@@ -85,14 +85,14 @@ export interface DataIntersightServerDisruptionConfig extends cdktf.TerraformMet
   * * `Major` - A disruption of major severity.
   * * `Moderate` - A disruption of moderate severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#severity DataIntersightServerDisruption#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#severity DataIntersightServerDisruption#severity}
   */
   readonly severity?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#shared_scope DataIntersightServerDisruption#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#shared_scope DataIntersightServerDisruption#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -100,43 +100,43 @@ export interface DataIntersightServerDisruptionConfig extends cdktf.TerraformMet
   * * `Informational` - Disruptions categorized as informational do not require any user action, nor do they cause a reboot.
   * * `ActionRequired` - User action is required to deploy the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#type DataIntersightServerDisruption#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#type DataIntersightServerDisruption#type}
   */
   readonly type?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#ancestors DataIntersightServerDisruption#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#ancestors DataIntersightServerDisruption#ancestors}
   */
   readonly ancestors?: DataIntersightServerDisruptionAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#organization DataIntersightServerDisruption#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#organization DataIntersightServerDisruption#organization}
   */
   readonly organization?: DataIntersightServerDisruptionOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#parent DataIntersightServerDisruption#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#parent DataIntersightServerDisruption#parent}
   */
   readonly parent?: DataIntersightServerDisruptionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#permission_resources DataIntersightServerDisruption#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#permission_resources DataIntersightServerDisruption#permission_resources}
   */
   readonly permissionResources?: DataIntersightServerDisruptionPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#tags DataIntersightServerDisruption#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#tags DataIntersightServerDisruption#tags}
   */
   readonly tags?: DataIntersightServerDisruptionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#version_context DataIntersightServerDisruption#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#version_context DataIntersightServerDisruption#version_context}
   */
   readonly versionContext?: DataIntersightServerDisruptionVersionContext;
 }
@@ -788,6 +788,11 @@ export class DataIntersightServerDisruptionResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1302,7 +1307,7 @@ export class DataIntersightServerDisruptionResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightServerDisruptionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1310,19 +1315,19 @@ export interface DataIntersightServerDisruptionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1335,7 +1340,7 @@ export interface DataIntersightServerDisruptionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -1567,7 +1572,7 @@ export class DataIntersightServerDisruptionAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightServerDisruptionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1575,19 +1580,19 @@ export interface DataIntersightServerDisruptionOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1600,7 +1605,7 @@ export interface DataIntersightServerDisruptionOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -1800,7 +1805,7 @@ export class DataIntersightServerDisruptionOrganizationOutputReference extends c
 }
 export interface DataIntersightServerDisruptionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1813,19 @@ export interface DataIntersightServerDisruptionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1838,7 @@ export interface DataIntersightServerDisruptionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -2033,7 +2038,7 @@ export class DataIntersightServerDisruptionParentOutputReference extends cdktf.C
 }
 export interface DataIntersightServerDisruptionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2041,19 +2046,19 @@ export interface DataIntersightServerDisruptionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2066,7 +2071,7 @@ export interface DataIntersightServerDisruptionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2303,7 @@ export class DataIntersightServerDisruptionPermissionResourcesList extends cdktf
 }
 export interface DataIntersightServerDisruptionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2311,19 @@ export interface DataIntersightServerDisruptionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2336,7 @@ export interface DataIntersightServerDisruptionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -2563,7 +2568,7 @@ export class DataIntersightServerDisruptionTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightServerDisruptionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2571,19 +2576,19 @@ export interface DataIntersightServerDisruptionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2596,7 +2601,7 @@ export interface DataIntersightServerDisruptionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -2796,45 +2801,51 @@ export class DataIntersightServerDisruptionTagsDefinitionOutputReference extends
 }
 export interface DataIntersightServerDisruptionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#key DataIntersightServerDisruption#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#key DataIntersightServerDisruption#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#propagated DataIntersightServerDisruption#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#propagated DataIntersightServerDisruption#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#sys_tag DataIntersightServerDisruption#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#type DataIntersightServerDisruption#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#type DataIntersightServerDisruption#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#value DataIntersightServerDisruption#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#value DataIntersightServerDisruption#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#ancestor_definitions DataIntersightServerDisruption#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#ancestor_definitions DataIntersightServerDisruption#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightServerDisruptionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#definition DataIntersightServerDisruption#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#definition DataIntersightServerDisruption#definition}
   */
   readonly definition?: DataIntersightServerDisruptionTagsDefinition;
 }
@@ -2848,6 +2859,7 @@ export function dataIntersightServerDisruptionTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightServerDisruptionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2876,6 +2888,12 @@ export function dataIntersightServerDisruptionTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2942,6 +2960,10 @@ export class DataIntersightServerDisruptionTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2968,6 +2990,7 @@ export class DataIntersightServerDisruptionTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2983,6 +3006,7 @@ export class DataIntersightServerDisruptionTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3036,6 +3060,22 @@ export class DataIntersightServerDisruptionTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3124,7 +3164,7 @@ export class DataIntersightServerDisruptionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightServerDisruptionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3132,19 +3172,19 @@ export interface DataIntersightServerDisruptionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3157,7 +3197,7 @@ export interface DataIntersightServerDisruptionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -3389,7 +3429,7 @@ export class DataIntersightServerDisruptionVersionContextInterestedMosList exten
 }
 export interface DataIntersightServerDisruptionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3397,19 +3437,19 @@ export interface DataIntersightServerDisruptionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#moid DataIntersightServerDisruption#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3422,7 +3462,7 @@ export interface DataIntersightServerDisruptionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#selector DataIntersightServerDisruption#selector}
   */
   readonly selector?: string;
 }
@@ -3622,7 +3662,7 @@ export class DataIntersightServerDisruptionVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightServerDisruptionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#additional_properties DataIntersightServerDisruption#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3630,32 +3670,32 @@ export interface DataIntersightServerDisruptionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#class_id DataIntersightServerDisruption#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#marked_for_deletion DataIntersightServerDisruption#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#marked_for_deletion DataIntersightServerDisruption#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#nr_version DataIntersightServerDisruption#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#nr_version DataIntersightServerDisruption#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#object_type DataIntersightServerDisruption#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#timestamp DataIntersightServerDisruption#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#timestamp DataIntersightServerDisruption#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3666,19 +3706,19 @@ export interface DataIntersightServerDisruptionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#version_type DataIntersightServerDisruption#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#version_type DataIntersightServerDisruption#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#interested_mos DataIntersightServerDisruption#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#interested_mos DataIntersightServerDisruption#interested_mos}
   */
   readonly interestedMos?: DataIntersightServerDisruptionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#ref_mo DataIntersightServerDisruption#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#ref_mo DataIntersightServerDisruption#ref_mo}
   */
   readonly refMo?: DataIntersightServerDisruptionVersionContextRefMo;
 }
@@ -3994,7 +4034,7 @@ export class DataIntersightServerDisruptionVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption intersight_server_disruption}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption intersight_server_disruption}
 */
 export class DataIntersightServerDisruption extends cdktf.TerraformDataSource {
 
@@ -4010,7 +4050,7 @@ export class DataIntersightServerDisruption extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightServerDisruption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightServerDisruption to import
-  * @param importFromId The id of the existing DataIntersightServerDisruption that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightServerDisruption that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightServerDisruption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4022,7 +4062,7 @@ export class DataIntersightServerDisruption extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_disruption intersight_server_disruption} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_disruption intersight_server_disruption} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4033,8 +4073,8 @@ export class DataIntersightServerDisruption extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_server_disruption',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

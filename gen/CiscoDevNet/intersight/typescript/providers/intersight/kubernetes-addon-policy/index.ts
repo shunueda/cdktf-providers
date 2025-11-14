@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface KubernetesAddonPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#account_moid KubernetesAddonPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#account_moid KubernetesAddonPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Addon configuration settings that are suitable to be shared across clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#addon_configuration KubernetesAddonPolicy#addon_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#addon_configuration KubernetesAddonPolicy#addon_configuration}
   */
   readonly addonConfiguration?: KubernetesAddonPolicyAddonConfiguration[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesAddonDefinition resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#addon_definition KubernetesAddonPolicy#addon_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#addon_definition KubernetesAddonPolicy#addon_definition}
   */
   readonly addonDefinition?: KubernetesAddonPolicyAddonDefinition[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#ancestors KubernetesAddonPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#ancestors KubernetesAddonPolicy#ancestors}
   */
   readonly ancestors?: KubernetesAddonPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -41,29 +41,29 @@ export interface KubernetesAddonPolicyConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#create_time KubernetesAddonPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#create_time KubernetesAddonPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#description KubernetesAddonPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#description KubernetesAddonPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#domain_group_moid KubernetesAddonPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#domain_group_moid KubernetesAddonPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#id KubernetesAddonPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#id KubernetesAddonPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,89 +72,89 @@ export interface KubernetesAddonPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#mod_time KubernetesAddonPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#mod_time KubernetesAddonPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#name KubernetesAddonPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#name KubernetesAddonPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#organization KubernetesAddonPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#organization KubernetesAddonPolicy#organization}
   */
   readonly organization?: KubernetesAddonPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#owners KubernetesAddonPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#owners KubernetesAddonPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#parent KubernetesAddonPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#parent KubernetesAddonPolicy#parent}
   */
   readonly parent?: KubernetesAddonPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#permission_resources KubernetesAddonPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#permission_resources KubernetesAddonPolicy#permission_resources}
   */
   readonly permissionResources?: KubernetesAddonPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#shared_scope KubernetesAddonPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#shared_scope KubernetesAddonPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#tags KubernetesAddonPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#tags KubernetesAddonPolicy#tags}
   */
   readonly tags?: KubernetesAddonPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#version_context KubernetesAddonPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#version_context KubernetesAddonPolicy#version_context}
   */
   readonly versionContext?: KubernetesAddonPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesAddonPolicyAddonConfigurationOverrideSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#key KubernetesAddonPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#key KubernetesAddonPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#value KubernetesAddonPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#value KubernetesAddonPolicy#value}
   */
   readonly value?: string;
 }
@@ -386,39 +386,39 @@ export class KubernetesAddonPolicyAddonConfigurationOverrideSetsList extends cdk
 }
 export interface KubernetesAddonPolicyAddonConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#install_strategy KubernetesAddonPolicy#install_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#install_strategy KubernetesAddonPolicy#install_strategy}
   */
   readonly installStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#override_sets KubernetesAddonPolicy#override_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#override_sets KubernetesAddonPolicy#override_sets}
   */
   readonly overrideSets?: KubernetesAddonPolicyAddonConfigurationOverrideSets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#overrides KubernetesAddonPolicy#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#overrides KubernetesAddonPolicy#overrides}
   */
   readonly overrides?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#release_name KubernetesAddonPolicy#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#release_name KubernetesAddonPolicy#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#release_namespace KubernetesAddonPolicy#release_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#release_namespace KubernetesAddonPolicy#release_namespace}
   */
   readonly releaseNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#upgrade_strategy KubernetesAddonPolicy#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#upgrade_strategy KubernetesAddonPolicy#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
 }
@@ -766,23 +766,23 @@ export class KubernetesAddonPolicyAddonConfigurationList extends cdktf.ComplexLi
 }
 export interface KubernetesAddonPolicyAddonDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1014,23 +1014,23 @@ export class KubernetesAddonPolicyAddonDefinitionList extends cdktf.ComplexList 
 }
 export interface KubernetesAddonPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1262,23 +1262,23 @@ export class KubernetesAddonPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface KubernetesAddonPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1510,23 +1510,23 @@ export class KubernetesAddonPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface KubernetesAddonPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1758,23 +1758,23 @@ export class KubernetesAddonPolicyParentList extends cdktf.ComplexList {
 }
 export interface KubernetesAddonPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2006,23 +2006,23 @@ export class KubernetesAddonPolicyPermissionResourcesList extends cdktf.ComplexL
 }
 export interface KubernetesAddonPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2254,23 +2254,23 @@ export class KubernetesAddonPolicyTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface KubernetesAddonPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2502,31 +2502,35 @@ export class KubernetesAddonPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface KubernetesAddonPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#ancestor_definitions KubernetesAddonPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#ancestor_definitions KubernetesAddonPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesAddonPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#definition KubernetesAddonPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#definition KubernetesAddonPolicy#definition}
   */
   readonly definition?: KubernetesAddonPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#key KubernetesAddonPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#key KubernetesAddonPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#propagated KubernetesAddonPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#propagated KubernetesAddonPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#type KubernetesAddonPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#sys_tag KubernetesAddonPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#type KubernetesAddonPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#value KubernetesAddonPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#value KubernetesAddonPolicy#value}
   */
   readonly value?: string;
 }
@@ -2542,6 +2546,7 @@ export function kubernetesAddonPolicyTagsToTerraform(struct?: KubernetesAddonPol
     definition: cdktf.listMapper(kubernetesAddonPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2580,6 +2585,12 @@ export function kubernetesAddonPolicyTagsToHclTerraform(struct?: KubernetesAddon
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2642,6 +2653,10 @@ export class KubernetesAddonPolicyTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2662,6 +2677,7 @@ export class KubernetesAddonPolicyTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2677,6 +2693,7 @@ export class KubernetesAddonPolicyTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2762,6 +2779,22 @@ export class KubernetesAddonPolicyTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2816,23 +2849,23 @@ export class KubernetesAddonPolicyTagsList extends cdktf.ComplexList {
 }
 export interface KubernetesAddonPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3064,23 +3097,23 @@ export class KubernetesAddonPolicyVersionContextInterestedMosList extends cdktf.
 }
 export interface KubernetesAddonPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#moid KubernetesAddonPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#selector KubernetesAddonPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3312,39 +3345,39 @@ export class KubernetesAddonPolicyVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface KubernetesAddonPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#additional_properties KubernetesAddonPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#class_id KubernetesAddonPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#interested_mos KubernetesAddonPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#interested_mos KubernetesAddonPolicy#interested_mos}
   */
   readonly interestedMos?: KubernetesAddonPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#marked_for_deletion KubernetesAddonPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#marked_for_deletion KubernetesAddonPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#nr_version KubernetesAddonPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#nr_version KubernetesAddonPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#object_type KubernetesAddonPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#ref_mo KubernetesAddonPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#ref_mo KubernetesAddonPolicy#ref_mo}
   */
   readonly refMo?: KubernetesAddonPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#timestamp KubernetesAddonPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#timestamp KubernetesAddonPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#version_type KubernetesAddonPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#version_type KubernetesAddonPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3692,7 +3725,7 @@ export class KubernetesAddonPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy intersight_kubernetes_addon_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy intersight_kubernetes_addon_policy}
 */
 export class KubernetesAddonPolicy extends cdktf.TerraformResource {
 
@@ -3708,7 +3741,7 @@ export class KubernetesAddonPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAddonPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAddonPolicy to import
-  * @param importFromId The id of the existing KubernetesAddonPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAddonPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAddonPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3720,7 +3753,7 @@ export class KubernetesAddonPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_addon_policy intersight_kubernetes_addon_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_addon_policy intersight_kubernetes_addon_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3731,8 +3764,8 @@ export class KubernetesAddonPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_addon_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

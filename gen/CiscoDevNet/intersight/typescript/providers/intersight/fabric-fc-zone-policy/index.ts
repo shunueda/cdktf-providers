@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FabricFcZonePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#account_moid FabricFcZonePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#account_moid FabricFcZonePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#ancestors FabricFcZonePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#ancestors FabricFcZonePolicy#ancestors}
   */
   readonly ancestors?: FabricFcZonePolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface FabricFcZonePolicyConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#create_time FabricFcZonePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#create_time FabricFcZonePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#description FabricFcZonePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#description FabricFcZonePolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#domain_group_moid FabricFcZonePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#domain_group_moid FabricFcZonePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#fc_target_members FabricFcZonePolicy#fc_target_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#fc_target_members FabricFcZonePolicy#fc_target_members}
   */
   readonly fcTargetMembers?: FabricFcZonePolicyFcTargetMembers[] | cdktf.IResolvable;
   /**
@@ -59,11 +59,11 @@ export interface FabricFcZonePolicyConfig extends cdktf.TerraformMetaArguments {
   * * `SIMT` - The system automatically creates one zone for each vHBA. Configure this type of zoning if the number of zones created is likely to exceed the maximum supported number of zones.
   * * `None` - FC zoning is not configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#fc_target_zoning_type FabricFcZonePolicy#fc_target_zoning_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#fc_target_zoning_type FabricFcZonePolicy#fc_target_zoning_type}
   */
   readonly fcTargetZoningType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#id FabricFcZonePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#id FabricFcZonePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,89 +72,89 @@ export interface FabricFcZonePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#mod_time FabricFcZonePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#mod_time FabricFcZonePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#name FabricFcZonePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#name FabricFcZonePolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#organization FabricFcZonePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#organization FabricFcZonePolicy#organization}
   */
   readonly organization?: FabricFcZonePolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#owners FabricFcZonePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#owners FabricFcZonePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#parent FabricFcZonePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#parent FabricFcZonePolicy#parent}
   */
   readonly parent?: FabricFcZonePolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#permission_resources FabricFcZonePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#permission_resources FabricFcZonePolicy#permission_resources}
   */
   readonly permissionResources?: FabricFcZonePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#shared_scope FabricFcZonePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#shared_scope FabricFcZonePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#tags FabricFcZonePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#tags FabricFcZonePolicy#tags}
   */
   readonly tags?: FabricFcZonePolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#version_context FabricFcZonePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#version_context FabricFcZonePolicy#version_context}
   */
   readonly versionContext?: FabricFcZonePolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricFcZonePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -386,31 +386,31 @@ export class FabricFcZonePolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyFcTargetMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#name FabricFcZonePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#name FabricFcZonePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#switch_id FabricFcZonePolicy#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#switch_id FabricFcZonePolicy#switch_id}
   */
   readonly switchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#vsan_id FabricFcZonePolicy#vsan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#vsan_id FabricFcZonePolicy#vsan_id}
   */
   readonly vsanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#wwpn FabricFcZonePolicy#wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#wwpn FabricFcZonePolicy#wwpn}
   */
   readonly wwpn?: string;
 }
@@ -700,23 +700,23 @@ export class FabricFcZonePolicyFcTargetMembersList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -948,23 +948,23 @@ export class FabricFcZonePolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1196,23 +1196,23 @@ export class FabricFcZonePolicyParentList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1444,23 +1444,23 @@ export class FabricFcZonePolicyPermissionResourcesList extends cdktf.ComplexList
 }
 export interface FabricFcZonePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1692,23 +1692,23 @@ export class FabricFcZonePolicyTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface FabricFcZonePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1940,31 +1940,35 @@ export class FabricFcZonePolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#ancestor_definitions FabricFcZonePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#ancestor_definitions FabricFcZonePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricFcZonePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#definition FabricFcZonePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#definition FabricFcZonePolicy#definition}
   */
   readonly definition?: FabricFcZonePolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#key FabricFcZonePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#key FabricFcZonePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#propagated FabricFcZonePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#propagated FabricFcZonePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#type FabricFcZonePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#sys_tag FabricFcZonePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#type FabricFcZonePolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#value FabricFcZonePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#value FabricFcZonePolicy#value}
   */
   readonly value?: string;
 }
@@ -1980,6 +1984,7 @@ export function fabricFcZonePolicyTagsToTerraform(struct?: FabricFcZonePolicyTag
     definition: cdktf.listMapper(fabricFcZonePolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2018,6 +2023,12 @@ export function fabricFcZonePolicyTagsToHclTerraform(struct?: FabricFcZonePolicy
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2080,6 +2091,10 @@ export class FabricFcZonePolicyTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2100,6 +2115,7 @@ export class FabricFcZonePolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2115,6 +2131,7 @@ export class FabricFcZonePolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2200,6 +2217,22 @@ export class FabricFcZonePolicyTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2254,23 +2287,23 @@ export class FabricFcZonePolicyTagsList extends cdktf.ComplexList {
 }
 export interface FabricFcZonePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2502,23 +2535,23 @@ export class FabricFcZonePolicyVersionContextInterestedMosList extends cdktf.Com
 }
 export interface FabricFcZonePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#moid FabricFcZonePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#selector FabricFcZonePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2750,39 +2783,39 @@ export class FabricFcZonePolicyVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface FabricFcZonePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#additional_properties FabricFcZonePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#class_id FabricFcZonePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#interested_mos FabricFcZonePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#interested_mos FabricFcZonePolicy#interested_mos}
   */
   readonly interestedMos?: FabricFcZonePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#marked_for_deletion FabricFcZonePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#marked_for_deletion FabricFcZonePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#nr_version FabricFcZonePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#nr_version FabricFcZonePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#object_type FabricFcZonePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#ref_mo FabricFcZonePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#ref_mo FabricFcZonePolicy#ref_mo}
   */
   readonly refMo?: FabricFcZonePolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#timestamp FabricFcZonePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#timestamp FabricFcZonePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#version_type FabricFcZonePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#version_type FabricFcZonePolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3130,7 +3163,7 @@ export class FabricFcZonePolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy intersight_fabric_fc_zone_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy intersight_fabric_fc_zone_policy}
 */
 export class FabricFcZonePolicy extends cdktf.TerraformResource {
 
@@ -3146,7 +3179,7 @@ export class FabricFcZonePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricFcZonePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricFcZonePolicy to import
-  * @param importFromId The id of the existing FabricFcZonePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricFcZonePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricFcZonePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3158,7 +3191,7 @@ export class FabricFcZonePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_fc_zone_policy intersight_fabric_fc_zone_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fc_zone_policy intersight_fabric_fc_zone_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3169,8 +3202,8 @@ export class FabricFcZonePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_fc_zone_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

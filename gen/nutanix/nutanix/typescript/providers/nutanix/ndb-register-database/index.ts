@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface NdbRegisterDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#auto_tune_staging_drive NdbRegisterDatabase#auto_tune_staging_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#auto_tune_staging_drive NdbRegisterDatabase#auto_tune_staging_drive}
   */
   readonly autoTuneStagingDrive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#category NdbRegisterDatabase#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#category NdbRegisterDatabase#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#clustered NdbRegisterDatabase#clustered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#clustered NdbRegisterDatabase#clustered}
   */
   readonly clustered?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#database_name NdbRegisterDatabase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#database_name NdbRegisterDatabase#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#database_type NdbRegisterDatabase#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#database_type NdbRegisterDatabase#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#delete NdbRegisterDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#delete NdbRegisterDatabase#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#delete_logical_cluster NdbRegisterDatabase#delete_logical_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#delete_logical_cluster NdbRegisterDatabase#delete_logical_cluster}
   */
   readonly deleteLogicalCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#delete_time_machine NdbRegisterDatabase#delete_time_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#delete_time_machine NdbRegisterDatabase#delete_time_machine}
   */
   readonly deleteTimeMachine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#description NdbRegisterDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#description NdbRegisterDatabase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#forced NdbRegisterDatabase#forced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#forced NdbRegisterDatabase#forced}
   */
   readonly forced?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#forced_install NdbRegisterDatabase#forced_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#forced_install NdbRegisterDatabase#forced_install}
   */
   readonly forcedInstall?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#id NdbRegisterDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#id NdbRegisterDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#nx_cluster_id NdbRegisterDatabase#nx_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#nx_cluster_id NdbRegisterDatabase#nx_cluster_id}
   */
   readonly nxClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#remove NdbRegisterDatabase#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#remove NdbRegisterDatabase#remove}
   */
   readonly remove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#reset_description_in_nx_cluster NdbRegisterDatabase#reset_description_in_nx_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#reset_description_in_nx_cluster NdbRegisterDatabase#reset_description_in_nx_cluster}
   */
   readonly resetDescriptionInNxCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#soft_remove NdbRegisterDatabase#soft_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#soft_remove NdbRegisterDatabase#soft_remove}
   */
   readonly softRemove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_description NdbRegisterDatabase#vm_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_description NdbRegisterDatabase#vm_description}
   */
   readonly vmDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_ip NdbRegisterDatabase#vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_ip NdbRegisterDatabase#vm_ip}
   */
   readonly vmIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_password NdbRegisterDatabase#vm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_password NdbRegisterDatabase#vm_password}
   */
   readonly vmPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_sshkey NdbRegisterDatabase#vm_sshkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_sshkey NdbRegisterDatabase#vm_sshkey}
   */
   readonly vmSshkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_username NdbRegisterDatabase#vm_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_username NdbRegisterDatabase#vm_username}
   */
   readonly vmUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#working_directory NdbRegisterDatabase#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#working_directory NdbRegisterDatabase#working_directory}
   */
   readonly workingDirectory?: string;
   /**
   * actionarguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#actionarguments NdbRegisterDatabase#actionarguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#actionarguments NdbRegisterDatabase#actionarguments}
   */
   readonly actionarguments?: NdbRegisterDatabaseActionarguments[] | cdktf.IResolvable;
   /**
   * postgress_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#postgress_info NdbRegisterDatabase#postgress_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#postgress_info NdbRegisterDatabase#postgress_info}
   */
   readonly postgressInfo?: NdbRegisterDatabasePostgressInfo[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tags NdbRegisterDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tags NdbRegisterDatabase#tags}
   */
   readonly tags?: NdbRegisterDatabaseTags[] | cdktf.IResolvable;
   /**
   * time_machine_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#time_machine_info NdbRegisterDatabase#time_machine_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#time_machine_info NdbRegisterDatabase#time_machine_info}
   */
   readonly timeMachineInfo?: NdbRegisterDatabaseTimeMachineInfo;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#timeouts NdbRegisterDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#timeouts NdbRegisterDatabase#timeouts}
   */
   readonly timeouts?: NdbRegisterDatabaseTimeouts;
 }
@@ -3572,11 +3572,11 @@ export class NdbRegisterDatabaseTimeMachineList extends cdktf.ComplexList {
 }
 export interface NdbRegisterDatabaseActionarguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#name NdbRegisterDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#name NdbRegisterDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
   */
   readonly value: string;
 }
@@ -3715,43 +3715,43 @@ export class NdbRegisterDatabaseActionargumentsList extends cdktf.ComplexList {
 }
 export interface NdbRegisterDatabasePostgressInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#allow_multiple_databases NdbRegisterDatabase#allow_multiple_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#allow_multiple_databases NdbRegisterDatabase#allow_multiple_databases}
   */
   readonly allowMultipleDatabases?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#backup_policy NdbRegisterDatabase#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#backup_policy NdbRegisterDatabase#backup_policy}
   */
   readonly backupPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#db_name NdbRegisterDatabase#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#db_name NdbRegisterDatabase#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#db_password NdbRegisterDatabase#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#db_password NdbRegisterDatabase#db_password}
   */
   readonly dbPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#db_user NdbRegisterDatabase#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#db_user NdbRegisterDatabase#db_user}
   */
   readonly dbUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#listener_port NdbRegisterDatabase#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#listener_port NdbRegisterDatabase#listener_port}
   */
   readonly listenerPort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#postgres_software_home NdbRegisterDatabase#postgres_software_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#postgres_software_home NdbRegisterDatabase#postgres_software_home}
   */
   readonly postgresSoftwareHome: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#software_home NdbRegisterDatabase#software_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#software_home NdbRegisterDatabase#software_home}
   */
   readonly softwareHome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#switch_log NdbRegisterDatabase#switch_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#switch_log NdbRegisterDatabase#switch_log}
   */
   readonly switchLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#vm_ip NdbRegisterDatabase#vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#vm_ip NdbRegisterDatabase#vm_ip}
   */
   readonly vmIp?: string;
 }
@@ -4116,15 +4116,15 @@ export class NdbRegisterDatabasePostgressInfoList extends cdktf.ComplexList {
 }
 export interface NdbRegisterDatabaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tag_id NdbRegisterDatabase#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tag_id NdbRegisterDatabase#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tag_name NdbRegisterDatabase#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tag_name NdbRegisterDatabase#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
   */
   readonly value?: string;
 }
@@ -4308,15 +4308,15 @@ export class NdbRegisterDatabaseTagsList extends cdktf.ComplexList {
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleContinuousschedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#logbackupinterval NdbRegisterDatabase#logbackupinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#logbackupinterval NdbRegisterDatabase#logbackupinterval}
   */
   readonly logbackupinterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#snapshotsperday NdbRegisterDatabase#snapshotsperday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#snapshotsperday NdbRegisterDatabase#snapshotsperday}
   */
   readonly snapshotsperday: number;
 }
@@ -4449,11 +4449,11 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleContinuousscheduleOutputR
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleMonthlyschedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
   */
   readonly dayofmonth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -4560,15 +4560,15 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleMonthlyscheduleOutputRefe
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleQuartelyschedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
   */
   readonly dayofmonth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#startmonth NdbRegisterDatabase#startmonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#startmonth NdbRegisterDatabase#startmonth}
   */
   readonly startmonth: string;
 }
@@ -4701,15 +4701,15 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleQuartelyscheduleOutputRef
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleSnapshottimeofday {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#hours NdbRegisterDatabase#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#hours NdbRegisterDatabase#hours}
   */
   readonly hours: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#minutes NdbRegisterDatabase#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#minutes NdbRegisterDatabase#minutes}
   */
   readonly minutes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#seconds NdbRegisterDatabase#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#seconds NdbRegisterDatabase#seconds}
   */
   readonly seconds: number;
 }
@@ -4842,11 +4842,11 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleSnapshottimeofdayOutputRe
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleWeeklyschedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#dayofweek NdbRegisterDatabase#dayofweek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#dayofweek NdbRegisterDatabase#dayofweek}
   */
   readonly dayofweek: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -4953,15 +4953,15 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleWeeklyscheduleOutputRefer
 }
 export interface NdbRegisterDatabaseTimeMachineInfoScheduleYearlyschedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#dayofmonth NdbRegisterDatabase#dayofmonth}
   */
   readonly dayofmonth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#enabled NdbRegisterDatabase#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#month NdbRegisterDatabase#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#month NdbRegisterDatabase#month}
   */
   readonly month: string;
 }
@@ -5096,37 +5096,37 @@ export interface NdbRegisterDatabaseTimeMachineInfoSchedule {
   /**
   * continuousschedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#continuousschedule NdbRegisterDatabase#continuousschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#continuousschedule NdbRegisterDatabase#continuousschedule}
   */
   readonly continuousschedule?: NdbRegisterDatabaseTimeMachineInfoScheduleContinuousschedule;
   /**
   * monthlyschedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#monthlyschedule NdbRegisterDatabase#monthlyschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#monthlyschedule NdbRegisterDatabase#monthlyschedule}
   */
   readonly monthlyschedule?: NdbRegisterDatabaseTimeMachineInfoScheduleMonthlyschedule;
   /**
   * quartelyschedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#quartelyschedule NdbRegisterDatabase#quartelyschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#quartelyschedule NdbRegisterDatabase#quartelyschedule}
   */
   readonly quartelyschedule?: NdbRegisterDatabaseTimeMachineInfoScheduleQuartelyschedule;
   /**
   * snapshottimeofday block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#snapshottimeofday NdbRegisterDatabase#snapshottimeofday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#snapshottimeofday NdbRegisterDatabase#snapshottimeofday}
   */
   readonly snapshottimeofday?: NdbRegisterDatabaseTimeMachineInfoScheduleSnapshottimeofday;
   /**
   * weeklyschedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#weeklyschedule NdbRegisterDatabase#weeklyschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#weeklyschedule NdbRegisterDatabase#weeklyschedule}
   */
   readonly weeklyschedule?: NdbRegisterDatabaseTimeMachineInfoScheduleWeeklyschedule;
   /**
   * yearlyschedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#yearlyschedule NdbRegisterDatabase#yearlyschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#yearlyschedule NdbRegisterDatabase#yearlyschedule}
   */
   readonly yearlyschedule?: NdbRegisterDatabaseTimeMachineInfoScheduleYearlyschedule;
 }
@@ -5355,13 +5355,13 @@ export class NdbRegisterDatabaseTimeMachineInfoScheduleOutputReference extends c
 }
 export interface NdbRegisterDatabaseTimeMachineInfoSlaDetailsPrimarySla {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#nx_cluster_ids NdbRegisterDatabase#nx_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#nx_cluster_ids NdbRegisterDatabase#nx_cluster_ids}
   */
   readonly nxClusterIds?: string[];
   /**
   * description of SLA ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#sla_id NdbRegisterDatabase#sla_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#sla_id NdbRegisterDatabase#sla_id}
   */
   readonly slaId: string;
 }
@@ -5505,7 +5505,7 @@ export interface NdbRegisterDatabaseTimeMachineInfoSlaDetails {
   /**
   * primary_sla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#primary_sla NdbRegisterDatabase#primary_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#primary_sla NdbRegisterDatabase#primary_sla}
   */
   readonly primarySla?: NdbRegisterDatabaseTimeMachineInfoSlaDetailsPrimarySla[] | cdktf.IResolvable;
 }
@@ -5621,15 +5621,15 @@ export class NdbRegisterDatabaseTimeMachineInfoSlaDetailsList extends cdktf.Comp
 }
 export interface NdbRegisterDatabaseTimeMachineInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tag_id NdbRegisterDatabase#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tag_id NdbRegisterDatabase#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tag_name NdbRegisterDatabase#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tag_name NdbRegisterDatabase#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#value NdbRegisterDatabase#value}
   */
   readonly value?: string;
 }
@@ -5815,43 +5815,43 @@ export interface NdbRegisterDatabaseTimeMachineInfo {
   /**
   * description of autoTuneLogDrive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#autotunelogdrive NdbRegisterDatabase#autotunelogdrive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#autotunelogdrive NdbRegisterDatabase#autotunelogdrive}
   */
   readonly autotunelogdrive?: boolean | cdktf.IResolvable;
   /**
   * description of time machine's
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#description NdbRegisterDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#description NdbRegisterDatabase#description}
   */
   readonly description?: string;
   /**
   * description of time machine's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#name NdbRegisterDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#name NdbRegisterDatabase#name}
   */
   readonly name: string;
   /**
   * description of SLA ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#slaid NdbRegisterDatabase#slaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#slaid NdbRegisterDatabase#slaid}
   */
   readonly slaid?: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#schedule NdbRegisterDatabase#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#schedule NdbRegisterDatabase#schedule}
   */
   readonly schedule: NdbRegisterDatabaseTimeMachineInfoSchedule;
   /**
   * sla_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#sla_details NdbRegisterDatabase#sla_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#sla_details NdbRegisterDatabase#sla_details}
   */
   readonly slaDetails?: NdbRegisterDatabaseTimeMachineInfoSlaDetails[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#tags NdbRegisterDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#tags NdbRegisterDatabase#tags}
   */
   readonly tags?: NdbRegisterDatabaseTimeMachineInfoTags[] | cdktf.IResolvable;
 }
@@ -6103,15 +6103,15 @@ export class NdbRegisterDatabaseTimeMachineInfoOutputReference extends cdktf.Com
 }
 export interface NdbRegisterDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#create NdbRegisterDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#create NdbRegisterDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#delete NdbRegisterDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#delete NdbRegisterDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#update NdbRegisterDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#update NdbRegisterDatabase#update}
   */
   readonly update?: string;
 }
@@ -6263,7 +6263,7 @@ export class NdbRegisterDatabaseTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database nutanix_ndb_register_database}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database nutanix_ndb_register_database}
 */
 export class NdbRegisterDatabase extends cdktf.TerraformResource {
 
@@ -6279,7 +6279,7 @@ export class NdbRegisterDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbRegisterDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbRegisterDatabase to import
-  * @param importFromId The id of the existing NdbRegisterDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbRegisterDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbRegisterDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6291,7 +6291,7 @@ export class NdbRegisterDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_register_database nutanix_ndb_register_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_register_database nutanix_ndb_register_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6302,8 +6302,8 @@ export class NdbRegisterDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_register_database',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

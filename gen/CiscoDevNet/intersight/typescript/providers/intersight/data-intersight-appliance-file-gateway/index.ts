@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightApplianceFileGatewayConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#account_moid DataIntersightApplianceFileGateway#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#account_moid DataIntersightApplianceFileGateway#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Bucket name in the cloud storage service where the file is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#bucket_name DataIntersightApplianceFileGateway#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#bucket_name DataIntersightApplianceFileGateway#bucket_name}
   */
   readonly bucketName?: string;
   /**
@@ -28,53 +28,53 @@ export interface DataIntersightApplianceFileGatewayConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#create_time DataIntersightApplianceFileGateway#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#create_time DataIntersightApplianceFileGateway#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#domain_group_moid DataIntersightApplianceFileGateway#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#domain_group_moid DataIntersightApplianceFileGateway#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Flag to specify if the requested file is served from an external host. An external host is a host other than the Intersight endpoint URL that resides outside of an endpoint device's local network. A download client (e.g. the Intersight Appliance device connector) should use this property to determine if a proxy is required to reach the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#external_host DataIntersightApplianceFileGateway#external_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#external_host DataIntersightApplianceFileGateway#external_host}
   */
   readonly externalHost?: boolean | cdktf.IResolvable;
   /**
   * Size of the file in bytes. FileSize maybe zero if the storage service does not report file size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#file_size DataIntersightApplianceFileGateway#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#file_size DataIntersightApplianceFileGateway#file_size}
   */
   readonly fileSize?: number;
   /**
   * File timestamp as reported by the cloud storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#file_time DataIntersightApplianceFileGateway#file_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#file_time DataIntersightApplianceFileGateway#file_time}
   */
   readonly fileTime?: string;
   /**
   * User defined file type supplied by the caller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#file_type DataIntersightApplianceFileGateway#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#file_type DataIntersightApplianceFileGateway#file_type}
   */
   readonly fileType?: string;
   /**
   * Full name of the file as it exists in the cloud storage service. If the file is in a subfolder, then the filename must contain the full path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#filename DataIntersightApplianceFileGateway#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#filename DataIntersightApplianceFileGateway#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#id DataIntersightApplianceFileGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#id DataIntersightApplianceFileGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,91 +83,91 @@ export interface DataIntersightApplianceFileGatewayConfig extends cdktf.Terrafor
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#mod_time DataIntersightApplianceFileGateway#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#mod_time DataIntersightApplianceFileGateway#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * File version as reported by the cloud storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#nr_version DataIntersightApplianceFileGateway#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#nr_version DataIntersightApplianceFileGateway#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#owners DataIntersightApplianceFileGateway#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#owners DataIntersightApplianceFileGateway#owners}
   */
   readonly owners?: string[];
   /**
   * Pre-signed URL obtained from the cloud storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#presigned_url DataIntersightApplianceFileGateway#presigned_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#presigned_url DataIntersightApplianceFileGateway#presigned_url}
   */
   readonly presignedUrl?: string;
   /**
   * SSL certificate of the cloud storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#server_cert DataIntersightApplianceFileGateway#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#server_cert DataIntersightApplianceFileGateway#server_cert}
   */
   readonly serverCert?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#shared_scope DataIntersightApplianceFileGateway#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#shared_scope DataIntersightApplianceFileGateway#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Signed URL's validity period in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#validity_period DataIntersightApplianceFileGateway#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#validity_period DataIntersightApplianceFileGateway#validity_period}
   */
   readonly validityPeriod?: number;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#account DataIntersightApplianceFileGateway#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#account DataIntersightApplianceFileGateway#account}
   */
   readonly account?: DataIntersightApplianceFileGatewayAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#ancestors DataIntersightApplianceFileGateway#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#ancestors DataIntersightApplianceFileGateway#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceFileGatewayAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#parent DataIntersightApplianceFileGateway#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#parent DataIntersightApplianceFileGateway#parent}
   */
   readonly parent?: DataIntersightApplianceFileGatewayParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#permission_resources DataIntersightApplianceFileGateway#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#permission_resources DataIntersightApplianceFileGateway#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceFileGatewayPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#tags DataIntersightApplianceFileGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#tags DataIntersightApplianceFileGateway#tags}
   */
   readonly tags?: DataIntersightApplianceFileGatewayTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#version_context DataIntersightApplianceFileGateway#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#version_context DataIntersightApplianceFileGateway#version_context}
   */
   readonly versionContext?: DataIntersightApplianceFileGatewayVersionContext;
 }
@@ -819,6 +819,11 @@ export class DataIntersightApplianceFileGatewayResultsTagsOutputReference extend
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1363,7 +1368,7 @@ export class DataIntersightApplianceFileGatewayResultsList extends cdktf.Complex
 }
 export interface DataIntersightApplianceFileGatewayAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1371,19 +1376,19 @@ export interface DataIntersightApplianceFileGatewayAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1396,7 +1401,7 @@ export interface DataIntersightApplianceFileGatewayAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -1596,7 +1601,7 @@ export class DataIntersightApplianceFileGatewayAccountOutputReference extends cd
 }
 export interface DataIntersightApplianceFileGatewayAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1604,19 +1609,19 @@ export interface DataIntersightApplianceFileGatewayAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1629,7 +1634,7 @@ export interface DataIntersightApplianceFileGatewayAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -1861,7 +1866,7 @@ export class DataIntersightApplianceFileGatewayAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightApplianceFileGatewayParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1869,19 +1874,19 @@ export interface DataIntersightApplianceFileGatewayParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1894,7 +1899,7 @@ export interface DataIntersightApplianceFileGatewayParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -2094,7 +2099,7 @@ export class DataIntersightApplianceFileGatewayParentOutputReference extends cdk
 }
 export interface DataIntersightApplianceFileGatewayPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2102,19 +2107,19 @@ export interface DataIntersightApplianceFileGatewayPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2127,7 +2132,7 @@ export interface DataIntersightApplianceFileGatewayPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -2359,7 +2364,7 @@ export class DataIntersightApplianceFileGatewayPermissionResourcesList extends c
 }
 export interface DataIntersightApplianceFileGatewayTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2367,19 +2372,19 @@ export interface DataIntersightApplianceFileGatewayTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2392,7 +2397,7 @@ export interface DataIntersightApplianceFileGatewayTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -2624,7 +2629,7 @@ export class DataIntersightApplianceFileGatewayTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightApplianceFileGatewayTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2632,19 +2637,19 @@ export interface DataIntersightApplianceFileGatewayTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2657,7 +2662,7 @@ export interface DataIntersightApplianceFileGatewayTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -2857,45 +2862,51 @@ export class DataIntersightApplianceFileGatewayTagsDefinitionOutputReference ext
 }
 export interface DataIntersightApplianceFileGatewayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#key DataIntersightApplianceFileGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#key DataIntersightApplianceFileGateway#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#propagated DataIntersightApplianceFileGateway#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#propagated DataIntersightApplianceFileGateway#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#sys_tag DataIntersightApplianceFileGateway#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#type DataIntersightApplianceFileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#type DataIntersightApplianceFileGateway#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#value DataIntersightApplianceFileGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#value DataIntersightApplianceFileGateway#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#ancestor_definitions DataIntersightApplianceFileGateway#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#ancestor_definitions DataIntersightApplianceFileGateway#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceFileGatewayTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#definition DataIntersightApplianceFileGateway#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#definition DataIntersightApplianceFileGateway#definition}
   */
   readonly definition?: DataIntersightApplianceFileGatewayTagsDefinition;
 }
@@ -2909,6 +2920,7 @@ export function dataIntersightApplianceFileGatewayTagsToTerraform(struct?: DataI
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceFileGatewayTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2937,6 +2949,12 @@ export function dataIntersightApplianceFileGatewayTagsToHclTerraform(struct?: Da
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3003,6 +3021,10 @@ export class DataIntersightApplianceFileGatewayTagsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3029,6 +3051,7 @@ export class DataIntersightApplianceFileGatewayTagsOutputReference extends cdktf
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3044,6 +3067,7 @@ export class DataIntersightApplianceFileGatewayTagsOutputReference extends cdktf
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3097,6 +3121,22 @@ export class DataIntersightApplianceFileGatewayTagsOutputReference extends cdktf
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3185,7 +3225,7 @@ export class DataIntersightApplianceFileGatewayTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightApplianceFileGatewayVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3193,19 +3233,19 @@ export interface DataIntersightApplianceFileGatewayVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3218,7 +3258,7 @@ export interface DataIntersightApplianceFileGatewayVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -3450,7 +3490,7 @@ export class DataIntersightApplianceFileGatewayVersionContextInterestedMosList e
 }
 export interface DataIntersightApplianceFileGatewayVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3458,19 +3498,19 @@ export interface DataIntersightApplianceFileGatewayVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#moid DataIntersightApplianceFileGateway#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3483,7 +3523,7 @@ export interface DataIntersightApplianceFileGatewayVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#selector DataIntersightApplianceFileGateway#selector}
   */
   readonly selector?: string;
 }
@@ -3683,7 +3723,7 @@ export class DataIntersightApplianceFileGatewayVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightApplianceFileGatewayVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#additional_properties DataIntersightApplianceFileGateway#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3691,32 +3731,32 @@ export interface DataIntersightApplianceFileGatewayVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#class_id DataIntersightApplianceFileGateway#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#marked_for_deletion DataIntersightApplianceFileGateway#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#marked_for_deletion DataIntersightApplianceFileGateway#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#nr_version DataIntersightApplianceFileGateway#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#nr_version DataIntersightApplianceFileGateway#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#object_type DataIntersightApplianceFileGateway#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#timestamp DataIntersightApplianceFileGateway#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#timestamp DataIntersightApplianceFileGateway#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3727,19 +3767,19 @@ export interface DataIntersightApplianceFileGatewayVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#version_type DataIntersightApplianceFileGateway#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#version_type DataIntersightApplianceFileGateway#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#interested_mos DataIntersightApplianceFileGateway#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#interested_mos DataIntersightApplianceFileGateway#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceFileGatewayVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#ref_mo DataIntersightApplianceFileGateway#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#ref_mo DataIntersightApplianceFileGateway#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceFileGatewayVersionContextRefMo;
 }
@@ -4055,7 +4095,7 @@ export class DataIntersightApplianceFileGatewayVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway intersight_appliance_file_gateway}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway intersight_appliance_file_gateway}
 */
 export class DataIntersightApplianceFileGateway extends cdktf.TerraformDataSource {
 
@@ -4071,7 +4111,7 @@ export class DataIntersightApplianceFileGateway extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightApplianceFileGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceFileGateway to import
-  * @param importFromId The id of the existing DataIntersightApplianceFileGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceFileGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceFileGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4083,7 +4123,7 @@ export class DataIntersightApplianceFileGateway extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_file_gateway intersight_appliance_file_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_file_gateway intersight_appliance_file_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4094,8 +4134,8 @@ export class DataIntersightApplianceFileGateway extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_appliance_file_gateway',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

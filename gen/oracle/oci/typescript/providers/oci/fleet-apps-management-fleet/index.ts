@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementFleetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#defined_tags FleetAppsManagementFleet#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#defined_tags FleetAppsManagementFleet#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#description FleetAppsManagementFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#description FleetAppsManagementFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#environment_type FleetAppsManagementFleet#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#environment_type FleetAppsManagementFleet#environment_type}
   */
   readonly environmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#freeform_tags FleetAppsManagementFleet#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#freeform_tags FleetAppsManagementFleet#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#id FleetAppsManagementFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#id FleetAppsManagementFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#is_target_auto_confirm FleetAppsManagementFleet#is_target_auto_confirm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#is_target_auto_confirm FleetAppsManagementFleet#is_target_auto_confirm}
   */
   readonly isTargetAutoConfirm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#parent_fleet_id FleetAppsManagementFleet#parent_fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#parent_fleet_id FleetAppsManagementFleet#parent_fleet_id}
   */
   readonly parentFleetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#products FleetAppsManagementFleet#products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#products FleetAppsManagementFleet#products}
   */
   readonly products?: string[];
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#credentials FleetAppsManagementFleet#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#credentials FleetAppsManagementFleet#credentials}
   */
   readonly credentials?: FleetAppsManagementFleetCredentials[] | cdktf.IResolvable;
   /**
   * details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#details FleetAppsManagementFleet#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#details FleetAppsManagementFleet#details}
   */
   readonly details?: FleetAppsManagementFleetDetails;
   /**
   * notification_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#notification_preferences FleetAppsManagementFleet#notification_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#notification_preferences FleetAppsManagementFleet#notification_preferences}
   */
   readonly notificationPreferences?: FleetAppsManagementFleetNotificationPreferences[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#properties FleetAppsManagementFleet#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#properties FleetAppsManagementFleet#properties}
   */
   readonly properties?: FleetAppsManagementFleetProperties[] | cdktf.IResolvable;
   /**
   * resource_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resource_selection FleetAppsManagementFleet#resource_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resource_selection FleetAppsManagementFleet#resource_selection}
   */
   readonly resourceSelection: FleetAppsManagementFleetResourceSelection;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resources FleetAppsManagementFleet#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resources FleetAppsManagementFleet#resources}
   */
   readonly resources?: FleetAppsManagementFleetResources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#timeouts FleetAppsManagementFleet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#timeouts FleetAppsManagementFleet#timeouts}
   */
   readonly timeouts?: FleetAppsManagementFleetTimeouts;
 }
 export interface FleetAppsManagementFleetCredentialsEntitySpecificsVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#name FleetAppsManagementFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#name FleetAppsManagementFleet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
   */
   readonly value?: string;
 }
@@ -244,21 +244,21 @@ export class FleetAppsManagementFleetCredentialsEntitySpecificsVariablesList ext
 }
 export interface FleetAppsManagementFleetCredentialsEntitySpecifics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#credential_level FleetAppsManagementFleet#credential_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#credential_level FleetAppsManagementFleet#credential_level}
   */
   readonly credentialLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resource_id FleetAppsManagementFleet#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resource_id FleetAppsManagementFleet#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#target FleetAppsManagementFleet#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#target FleetAppsManagementFleet#target}
   */
   readonly target?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#variables FleetAppsManagementFleet#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#variables FleetAppsManagementFleet#variables}
   */
   readonly variables?: FleetAppsManagementFleetCredentialsEntitySpecificsVariables[] | cdktf.IResolvable;
 }
@@ -426,31 +426,31 @@ export class FleetAppsManagementFleetCredentialsEntitySpecificsOutputReference e
 }
 export interface FleetAppsManagementFleetCredentialsPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#credential_type FleetAppsManagementFleet#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#credential_type FleetAppsManagementFleet#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#key_id FleetAppsManagementFleet#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#key_id FleetAppsManagementFleet#key_id}
   */
   readonly keyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#key_version FleetAppsManagementFleet#key_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#key_version FleetAppsManagementFleet#key_version}
   */
   readonly keyVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#secret_id FleetAppsManagementFleet#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#secret_id FleetAppsManagementFleet#secret_id}
   */
   readonly secretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#secret_version FleetAppsManagementFleet#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#secret_version FleetAppsManagementFleet#secret_version}
   */
   readonly secretVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#vault_id FleetAppsManagementFleet#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#vault_id FleetAppsManagementFleet#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -705,31 +705,31 @@ export class FleetAppsManagementFleetCredentialsPasswordOutputReference extends 
 }
 export interface FleetAppsManagementFleetCredentialsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#credential_type FleetAppsManagementFleet#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#credential_type FleetAppsManagementFleet#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#key_id FleetAppsManagementFleet#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#key_id FleetAppsManagementFleet#key_id}
   */
   readonly keyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#key_version FleetAppsManagementFleet#key_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#key_version FleetAppsManagementFleet#key_version}
   */
   readonly keyVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#secret_id FleetAppsManagementFleet#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#secret_id FleetAppsManagementFleet#secret_id}
   */
   readonly secretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#secret_version FleetAppsManagementFleet#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#secret_version FleetAppsManagementFleet#secret_version}
   */
   readonly secretVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#vault_id FleetAppsManagementFleet#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#vault_id FleetAppsManagementFleet#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -984,29 +984,29 @@ export class FleetAppsManagementFleetCredentialsUserOutputReference extends cdkt
 }
 export interface FleetAppsManagementFleetCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
   */
   readonly displayName: string;
   /**
   * entity_specifics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
   */
   readonly entitySpecifics: FleetAppsManagementFleetCredentialsEntitySpecifics;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
   */
   readonly password: FleetAppsManagementFleetCredentialsPassword;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
   */
   readonly user: FleetAppsManagementFleetCredentialsUser;
 }
@@ -1223,7 +1223,7 @@ export class FleetAppsManagementFleetCredentialsList extends cdktf.ComplexList {
 }
 export interface FleetAppsManagementFleetDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#fleet_type FleetAppsManagementFleet#fleet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#fleet_type FleetAppsManagementFleet#fleet_type}
   */
   readonly fleetType?: string;
 }
@@ -1307,11 +1307,11 @@ export class FleetAppsManagementFleetDetailsOutputReference extends cdktf.Comple
 }
 export interface FleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#notify_before FleetAppsManagementFleet#notify_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#notify_before FleetAppsManagementFleet#notify_before}
   */
   readonly notifyBefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_upcoming_schedule FleetAppsManagementFleet#on_upcoming_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_upcoming_schedule FleetAppsManagementFleet#on_upcoming_schedule}
   */
   readonly onUpcomingSchedule?: boolean | cdktf.IResolvable;
 }
@@ -1424,37 +1424,53 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingS
 }
 export interface FleetAppsManagementFleetNotificationPreferencesPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_job_failure FleetAppsManagementFleet#on_job_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_job_canceled FleetAppsManagementFleet#on_job_canceled}
+  */
+  readonly onJobCanceled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_job_failure FleetAppsManagementFleet#on_job_failure}
   */
   readonly onJobFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_resource_non_compliance FleetAppsManagementFleet#on_resource_non_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_job_schedule_change FleetAppsManagementFleet#on_job_schedule_change}
+  */
+  readonly onJobScheduleChange?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_job_start FleetAppsManagementFleet#on_job_start}
+  */
+  readonly onJobStart?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_job_success FleetAppsManagementFleet#on_job_success}
+  */
+  readonly onJobSuccess?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_resource_non_compliance FleetAppsManagementFleet#on_resource_non_compliance}
   */
   readonly onResourceNonCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_runbook_newer_version FleetAppsManagementFleet#on_runbook_newer_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_runbook_newer_version FleetAppsManagementFleet#on_runbook_newer_version}
   */
   readonly onRunbookNewerVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_task_failure FleetAppsManagementFleet#on_task_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_task_failure FleetAppsManagementFleet#on_task_failure}
   */
   readonly onTaskFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_task_pause FleetAppsManagementFleet#on_task_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_task_pause FleetAppsManagementFleet#on_task_pause}
   */
   readonly onTaskPause?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_task_success FleetAppsManagementFleet#on_task_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_task_success FleetAppsManagementFleet#on_task_success}
   */
   readonly onTaskSuccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#on_topology_modification FleetAppsManagementFleet#on_topology_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#on_topology_modification FleetAppsManagementFleet#on_topology_modification}
   */
   readonly onTopologyModification?: boolean | cdktf.IResolvable;
   /**
   * upcoming_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#upcoming_schedule FleetAppsManagementFleet#upcoming_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#upcoming_schedule FleetAppsManagementFleet#upcoming_schedule}
   */
   readonly upcomingSchedule?: FleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingSchedule;
 }
@@ -1465,7 +1481,11 @@ export function fleetAppsManagementFleetNotificationPreferencesPreferencesToTerr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    on_job_canceled: cdktf.booleanToTerraform(struct!.onJobCanceled),
     on_job_failure: cdktf.booleanToTerraform(struct!.onJobFailure),
+    on_job_schedule_change: cdktf.booleanToTerraform(struct!.onJobScheduleChange),
+    on_job_start: cdktf.booleanToTerraform(struct!.onJobStart),
+    on_job_success: cdktf.booleanToTerraform(struct!.onJobSuccess),
     on_resource_non_compliance: cdktf.booleanToTerraform(struct!.onResourceNonCompliance),
     on_runbook_newer_version: cdktf.booleanToTerraform(struct!.onRunbookNewerVersion),
     on_task_failure: cdktf.booleanToTerraform(struct!.onTaskFailure),
@@ -1483,8 +1503,32 @@ export function fleetAppsManagementFleetNotificationPreferencesPreferencesToHclT
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    on_job_canceled: {
+      value: cdktf.booleanToHclTerraform(struct!.onJobCanceled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     on_job_failure: {
       value: cdktf.booleanToHclTerraform(struct!.onJobFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    on_job_schedule_change: {
+      value: cdktf.booleanToHclTerraform(struct!.onJobScheduleChange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    on_job_start: {
+      value: cdktf.booleanToHclTerraform(struct!.onJobStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    on_job_success: {
+      value: cdktf.booleanToHclTerraform(struct!.onJobSuccess),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1551,9 +1595,25 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
   public get internalValue(): FleetAppsManagementFleetNotificationPreferencesPreferences | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._onJobCanceled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onJobCanceled = this._onJobCanceled;
+    }
     if (this._onJobFailure !== undefined) {
       hasAnyValues = true;
       internalValueResult.onJobFailure = this._onJobFailure;
+    }
+    if (this._onJobScheduleChange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onJobScheduleChange = this._onJobScheduleChange;
+    }
+    if (this._onJobStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onJobStart = this._onJobStart;
+    }
+    if (this._onJobSuccess !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onJobSuccess = this._onJobSuccess;
     }
     if (this._onResourceNonCompliance !== undefined) {
       hasAnyValues = true;
@@ -1589,7 +1649,11 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
   public set internalValue(value: FleetAppsManagementFleetNotificationPreferencesPreferences | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._onJobCanceled = undefined;
       this._onJobFailure = undefined;
+      this._onJobScheduleChange = undefined;
+      this._onJobStart = undefined;
+      this._onJobSuccess = undefined;
       this._onResourceNonCompliance = undefined;
       this._onRunbookNewerVersion = undefined;
       this._onTaskFailure = undefined;
@@ -1600,7 +1664,11 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._onJobCanceled = value.onJobCanceled;
       this._onJobFailure = value.onJobFailure;
+      this._onJobScheduleChange = value.onJobScheduleChange;
+      this._onJobStart = value.onJobStart;
+      this._onJobSuccess = value.onJobSuccess;
       this._onResourceNonCompliance = value.onResourceNonCompliance;
       this._onRunbookNewerVersion = value.onRunbookNewerVersion;
       this._onTaskFailure = value.onTaskFailure;
@@ -1609,6 +1677,22 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
       this._onTopologyModification = value.onTopologyModification;
       this._upcomingSchedule.internalValue = value.upcomingSchedule;
     }
+  }
+
+  // on_job_canceled - computed: true, optional: true, required: false
+  private _onJobCanceled?: boolean | cdktf.IResolvable; 
+  public get onJobCanceled() {
+    return this.getBooleanAttribute('on_job_canceled');
+  }
+  public set onJobCanceled(value: boolean | cdktf.IResolvable) {
+    this._onJobCanceled = value;
+  }
+  public resetOnJobCanceled() {
+    this._onJobCanceled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onJobCanceledInput() {
+    return this._onJobCanceled;
   }
 
   // on_job_failure - computed: true, optional: true, required: false
@@ -1625,6 +1709,54 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
   // Temporarily expose input value. Use with caution.
   public get onJobFailureInput() {
     return this._onJobFailure;
+  }
+
+  // on_job_schedule_change - computed: true, optional: true, required: false
+  private _onJobScheduleChange?: boolean | cdktf.IResolvable; 
+  public get onJobScheduleChange() {
+    return this.getBooleanAttribute('on_job_schedule_change');
+  }
+  public set onJobScheduleChange(value: boolean | cdktf.IResolvable) {
+    this._onJobScheduleChange = value;
+  }
+  public resetOnJobScheduleChange() {
+    this._onJobScheduleChange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onJobScheduleChangeInput() {
+    return this._onJobScheduleChange;
+  }
+
+  // on_job_start - computed: true, optional: true, required: false
+  private _onJobStart?: boolean | cdktf.IResolvable; 
+  public get onJobStart() {
+    return this.getBooleanAttribute('on_job_start');
+  }
+  public set onJobStart(value: boolean | cdktf.IResolvable) {
+    this._onJobStart = value;
+  }
+  public resetOnJobStart() {
+    this._onJobStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onJobStartInput() {
+    return this._onJobStart;
+  }
+
+  // on_job_success - computed: true, optional: true, required: false
+  private _onJobSuccess?: boolean | cdktf.IResolvable; 
+  public get onJobSuccess() {
+    return this.getBooleanAttribute('on_job_success');
+  }
+  public set onJobSuccess(value: boolean | cdktf.IResolvable) {
+    this._onJobSuccess = value;
+  }
+  public resetOnJobSuccess() {
+    this._onJobSuccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onJobSuccessInput() {
+    return this._onJobSuccess;
   }
 
   // on_resource_non_compliance - computed: true, optional: true, required: false
@@ -1741,17 +1873,17 @@ export class FleetAppsManagementFleetNotificationPreferencesPreferencesOutputRef
 }
 export interface FleetAppsManagementFleetNotificationPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#topic_id FleetAppsManagementFleet#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#topic_id FleetAppsManagementFleet#topic_id}
   */
   readonly topicId: string;
   /**
   * preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#preferences FleetAppsManagementFleet#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#preferences FleetAppsManagementFleet#preferences}
   */
   readonly preferences?: FleetAppsManagementFleetNotificationPreferencesPreferences;
 }
@@ -1919,23 +2051,23 @@ export class FleetAppsManagementFleetNotificationPreferencesList extends cdktf.C
 }
 export interface FleetAppsManagementFleetProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#fleet_property_type FleetAppsManagementFleet#fleet_property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#fleet_property_type FleetAppsManagementFleet#fleet_property_type}
   */
   readonly fleetPropertyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#is_required FleetAppsManagementFleet#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#is_required FleetAppsManagementFleet#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#value FleetAppsManagementFleet#value}
   */
   readonly value?: string;
 }
@@ -2161,15 +2293,15 @@ export class FleetAppsManagementFleetPropertiesList extends cdktf.ComplexList {
 }
 export interface FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#attr_group FleetAppsManagementFleet#attr_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#attr_group FleetAppsManagementFleet#attr_group}
   */
   readonly attrGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#attr_key FleetAppsManagementFleet#attr_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#attr_key FleetAppsManagementFleet#attr_key}
   */
   readonly attrKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#attr_value FleetAppsManagementFleet#attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#attr_value FleetAppsManagementFleet#attr_value}
   */
   readonly attrValue?: string;
 }
@@ -2343,21 +2475,29 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
 }
 export interface FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#basis FleetAppsManagementFleet#basis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#basis FleetAppsManagementFleet#basis}
   */
   readonly basis?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resource_compartment_id FleetAppsManagementFleet#resource_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id_in_subtree FleetAppsManagementFleet#compartment_id_in_subtree}
+  */
+  readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#match_condition FleetAppsManagementFleet#match_condition}
+  */
+  readonly matchCondition?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resource_compartment_id FleetAppsManagementFleet#resource_compartment_id}
   */
   readonly resourceCompartmentId?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#conditions FleetAppsManagementFleet#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#conditions FleetAppsManagementFleet#conditions}
   */
   readonly conditions?: FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditions[] | cdktf.IResolvable;
 }
@@ -2370,6 +2510,8 @@ export function fleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRu
   return {
     basis: cdktf.stringToTerraform(struct!.basis),
     compartment_id: cdktf.stringToTerraform(struct!.compartmentId),
+    compartment_id_in_subtree: cdktf.booleanToTerraform(struct!.compartmentIdInSubtree),
+    match_condition: cdktf.stringToTerraform(struct!.matchCondition),
     resource_compartment_id: cdktf.stringToTerraform(struct!.resourceCompartmentId),
     conditions: cdktf.listMapper(fleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditionsToTerraform, true)(struct!.conditions),
   }
@@ -2390,6 +2532,18 @@ export function fleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRu
     },
     compartment_id: {
       value: cdktf.stringToHclTerraform(struct!.compartmentId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    compartment_id_in_subtree: {
+      value: cdktf.booleanToHclTerraform(struct!.compartmentIdInSubtree),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    match_condition: {
+      value: cdktf.stringToHclTerraform(struct!.matchCondition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2440,6 +2594,14 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
       hasAnyValues = true;
       internalValueResult.compartmentId = this._compartmentId;
     }
+    if (this._compartmentIdInSubtree !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.compartmentIdInSubtree = this._compartmentIdInSubtree;
+    }
+    if (this._matchCondition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchCondition = this._matchCondition;
+    }
     if (this._resourceCompartmentId !== undefined) {
       hasAnyValues = true;
       internalValueResult.resourceCompartmentId = this._resourceCompartmentId;
@@ -2457,6 +2619,8 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
       this.resolvableValue = undefined;
       this._basis = undefined;
       this._compartmentId = undefined;
+      this._compartmentIdInSubtree = undefined;
+      this._matchCondition = undefined;
       this._resourceCompartmentId = undefined;
       this._conditions.internalValue = undefined;
     }
@@ -2469,6 +2633,8 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
       this.resolvableValue = undefined;
       this._basis = value.basis;
       this._compartmentId = value.compartmentId;
+      this._compartmentIdInSubtree = value.compartmentIdInSubtree;
+      this._matchCondition = value.matchCondition;
       this._resourceCompartmentId = value.resourceCompartmentId;
       this._conditions.internalValue = value.conditions;
     }
@@ -2504,6 +2670,38 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
   // Temporarily expose input value. Use with caution.
   public get compartmentIdInput() {
     return this._compartmentId;
+  }
+
+  // compartment_id_in_subtree - computed: true, optional: true, required: false
+  private _compartmentIdInSubtree?: boolean | cdktf.IResolvable; 
+  public get compartmentIdInSubtree() {
+    return this.getBooleanAttribute('compartment_id_in_subtree');
+  }
+  public set compartmentIdInSubtree(value: boolean | cdktf.IResolvable) {
+    this._compartmentIdInSubtree = value;
+  }
+  public resetCompartmentIdInSubtree() {
+    this._compartmentIdInSubtree = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get compartmentIdInSubtreeInput() {
+    return this._compartmentIdInSubtree;
+  }
+
+  // match_condition - computed: true, optional: true, required: false
+  private _matchCondition?: string; 
+  public get matchCondition() {
+    return this.getStringAttribute('match_condition');
+  }
+  public set matchCondition(value: string) {
+    this._matchCondition = value;
+  }
+  public resetMatchCondition() {
+    this._matchCondition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchConditionInput() {
+    return this._matchCondition;
   }
 
   // resource_compartment_id - computed: true, optional: true, required: false
@@ -2560,13 +2758,13 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules
 }
 export interface FleetAppsManagementFleetResourceSelectionRuleSelectionCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#match_condition FleetAppsManagementFleet#match_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#match_condition FleetAppsManagementFleet#match_condition}
   */
   readonly matchCondition?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#rules FleetAppsManagementFleet#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#rules FleetAppsManagementFleet#rules}
   */
   readonly rules?: FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules[] | cdktf.IResolvable;
 }
@@ -2679,13 +2877,13 @@ export class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaOutpu
 }
 export interface FleetAppsManagementFleetResourceSelection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resource_selection_type FleetAppsManagementFleet#resource_selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resource_selection_type FleetAppsManagementFleet#resource_selection_type}
   */
   readonly resourceSelectionType: string;
   /**
   * rule_selection_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#rule_selection_criteria FleetAppsManagementFleet#rule_selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#rule_selection_criteria FleetAppsManagementFleet#rule_selection_criteria}
   */
   readonly ruleSelectionCriteria?: FleetAppsManagementFleetResourceSelectionRuleSelectionCriteria;
 }
@@ -2795,19 +2993,19 @@ export class FleetAppsManagementFleetResourceSelectionOutputReference extends cd
 }
 export interface FleetAppsManagementFleetResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#fleet_resource_type FleetAppsManagementFleet#fleet_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#fleet_resource_type FleetAppsManagementFleet#fleet_resource_type}
   */
   readonly fleetResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#resource_id FleetAppsManagementFleet#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#resource_id FleetAppsManagementFleet#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#tenancy_id FleetAppsManagementFleet#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#tenancy_id FleetAppsManagementFleet#tenancy_id}
   */
   readonly tenancyId: string;
 }
@@ -3001,15 +3199,15 @@ export class FleetAppsManagementFleetResourcesList extends cdktf.ComplexList {
 }
 export interface FleetAppsManagementFleetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#create FleetAppsManagementFleet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#create FleetAppsManagementFleet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#delete FleetAppsManagementFleet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#delete FleetAppsManagementFleet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#update FleetAppsManagementFleet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#update FleetAppsManagementFleet#update}
   */
   readonly update?: string;
 }
@@ -3161,7 +3359,7 @@ export class FleetAppsManagementFleetTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet oci_fleet_apps_management_fleet}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet oci_fleet_apps_management_fleet}
 */
 export class FleetAppsManagementFleet extends cdktf.TerraformResource {
 
@@ -3177,7 +3375,7 @@ export class FleetAppsManagementFleet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementFleet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementFleet to import
-  * @param importFromId The id of the existing FleetAppsManagementFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3189,7 +3387,7 @@ export class FleetAppsManagementFleet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_fleet oci_fleet_apps_management_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_fleet oci_fleet_apps_management_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3200,8 +3398,8 @@ export class FleetAppsManagementFleet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_fleet',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

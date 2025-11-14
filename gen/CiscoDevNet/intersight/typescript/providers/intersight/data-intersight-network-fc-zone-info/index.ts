@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNetworkFcZoneInfoConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#account_moid DataIntersightNetworkFcZoneInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#account_moid DataIntersightNetworkFcZoneInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNetworkFcZoneInfoConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#create_time DataIntersightNetworkFcZoneInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#create_time DataIntersightNetworkFcZoneInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#device_mo_id DataIntersightNetworkFcZoneInfo#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#device_mo_id DataIntersightNetworkFcZoneInfo#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#dn DataIntersightNetworkFcZoneInfo#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#dn DataIntersightNetworkFcZoneInfo#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#domain_group_moid DataIntersightNetworkFcZoneInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#domain_group_moid DataIntersightNetworkFcZoneInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#id DataIntersightNetworkFcZoneInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#id DataIntersightNetworkFcZoneInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,109 @@ export interface DataIntersightNetworkFcZoneInfoConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#mod_time DataIntersightNetworkFcZoneInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#mod_time DataIntersightNetworkFcZoneInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#owners DataIntersightNetworkFcZoneInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#owners DataIntersightNetworkFcZoneInfo#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#rn DataIntersightNetworkFcZoneInfo#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#rn DataIntersightNetworkFcZoneInfo#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#shared_scope DataIntersightNetworkFcZoneInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#shared_scope DataIntersightNetworkFcZoneInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The number of Fibre Channel user zones defined on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#user_zone_count DataIntersightNetworkFcZoneInfo#user_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#user_zone_count DataIntersightNetworkFcZoneInfo#user_zone_count}
   */
   readonly userZoneCount?: number;
   /**
   * The maximum number of Fibre Channel user zones allowed on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#user_zone_limit DataIntersightNetworkFcZoneInfo#user_zone_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#user_zone_limit DataIntersightNetworkFcZoneInfo#user_zone_limit}
   */
   readonly userZoneLimit?: number;
   /**
   * The number of Fibre Channel zones defined on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#zone_count DataIntersightNetworkFcZoneInfo#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#zone_count DataIntersightNetworkFcZoneInfo#zone_count}
   */
   readonly zoneCount?: number;
   /**
   * The maximum number of Fibre Channel zones allowed on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#zone_limit DataIntersightNetworkFcZoneInfo#zone_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#zone_limit DataIntersightNetworkFcZoneInfo#zone_limit}
   */
   readonly zoneLimit?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#ancestors DataIntersightNetworkFcZoneInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#ancestors DataIntersightNetworkFcZoneInfo#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkFcZoneInfoAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#inventory_device_info DataIntersightNetworkFcZoneInfo#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#inventory_device_info DataIntersightNetworkFcZoneInfo#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightNetworkFcZoneInfoInventoryDeviceInfo;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#network_element DataIntersightNetworkFcZoneInfo#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#network_element DataIntersightNetworkFcZoneInfo#network_element}
   */
   readonly networkElement?: DataIntersightNetworkFcZoneInfoNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#parent DataIntersightNetworkFcZoneInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#parent DataIntersightNetworkFcZoneInfo#parent}
   */
   readonly parent?: DataIntersightNetworkFcZoneInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#permission_resources DataIntersightNetworkFcZoneInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#permission_resources DataIntersightNetworkFcZoneInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkFcZoneInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#registered_device DataIntersightNetworkFcZoneInfo#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#registered_device DataIntersightNetworkFcZoneInfo#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkFcZoneInfoRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#tags DataIntersightNetworkFcZoneInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#tags DataIntersightNetworkFcZoneInfo#tags}
   */
   readonly tags?: DataIntersightNetworkFcZoneInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#version_context DataIntersightNetworkFcZoneInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#version_context DataIntersightNetworkFcZoneInfo#version_context}
   */
   readonly versionContext?: DataIntersightNetworkFcZoneInfoVersionContext;
 }
@@ -1003,6 +1003,11 @@ export class DataIntersightNetworkFcZoneInfoResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1544,7 +1549,7 @@ export class DataIntersightNetworkFcZoneInfoResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightNetworkFcZoneInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1552,19 +1557,19 @@ export interface DataIntersightNetworkFcZoneInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1577,7 +1582,7 @@ export interface DataIntersightNetworkFcZoneInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1809,7 +1814,7 @@ export class DataIntersightNetworkFcZoneInfoAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightNetworkFcZoneInfoInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1817,19 +1822,19 @@ export interface DataIntersightNetworkFcZoneInfoInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1842,7 +1847,7 @@ export interface DataIntersightNetworkFcZoneInfoInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2042,7 +2047,7 @@ export class DataIntersightNetworkFcZoneInfoInventoryDeviceInfoOutputReference e
 }
 export interface DataIntersightNetworkFcZoneInfoNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2050,19 +2055,19 @@ export interface DataIntersightNetworkFcZoneInfoNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2075,7 +2080,7 @@ export interface DataIntersightNetworkFcZoneInfoNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2275,7 +2280,7 @@ export class DataIntersightNetworkFcZoneInfoNetworkElementOutputReference extend
 }
 export interface DataIntersightNetworkFcZoneInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2283,19 +2288,19 @@ export interface DataIntersightNetworkFcZoneInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2308,7 +2313,7 @@ export interface DataIntersightNetworkFcZoneInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2508,7 +2513,7 @@ export class DataIntersightNetworkFcZoneInfoParentOutputReference extends cdktf.
 }
 export interface DataIntersightNetworkFcZoneInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2516,19 +2521,19 @@ export interface DataIntersightNetworkFcZoneInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2541,7 +2546,7 @@ export interface DataIntersightNetworkFcZoneInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2773,7 +2778,7 @@ export class DataIntersightNetworkFcZoneInfoPermissionResourcesList extends cdkt
 }
 export interface DataIntersightNetworkFcZoneInfoRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2781,19 +2786,19 @@ export interface DataIntersightNetworkFcZoneInfoRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2806,7 +2811,7 @@ export interface DataIntersightNetworkFcZoneInfoRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3006,7 +3011,7 @@ export class DataIntersightNetworkFcZoneInfoRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightNetworkFcZoneInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3014,19 +3019,19 @@ export interface DataIntersightNetworkFcZoneInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3039,7 +3044,7 @@ export interface DataIntersightNetworkFcZoneInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3271,7 +3276,7 @@ export class DataIntersightNetworkFcZoneInfoTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightNetworkFcZoneInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3279,19 +3284,19 @@ export interface DataIntersightNetworkFcZoneInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3304,7 +3309,7 @@ export interface DataIntersightNetworkFcZoneInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3504,45 +3509,51 @@ export class DataIntersightNetworkFcZoneInfoTagsDefinitionOutputReference extend
 }
 export interface DataIntersightNetworkFcZoneInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#key DataIntersightNetworkFcZoneInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#key DataIntersightNetworkFcZoneInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#propagated DataIntersightNetworkFcZoneInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#propagated DataIntersightNetworkFcZoneInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#sys_tag DataIntersightNetworkFcZoneInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#type DataIntersightNetworkFcZoneInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#type DataIntersightNetworkFcZoneInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#value DataIntersightNetworkFcZoneInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#value DataIntersightNetworkFcZoneInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#ancestor_definitions DataIntersightNetworkFcZoneInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#ancestor_definitions DataIntersightNetworkFcZoneInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkFcZoneInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#definition DataIntersightNetworkFcZoneInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#definition DataIntersightNetworkFcZoneInfo#definition}
   */
   readonly definition?: DataIntersightNetworkFcZoneInfoTagsDefinition;
 }
@@ -3556,6 +3567,7 @@ export function dataIntersightNetworkFcZoneInfoTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkFcZoneInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3584,6 +3596,12 @@ export function dataIntersightNetworkFcZoneInfoTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3650,6 +3668,10 @@ export class DataIntersightNetworkFcZoneInfoTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3676,6 +3698,7 @@ export class DataIntersightNetworkFcZoneInfoTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3691,6 +3714,7 @@ export class DataIntersightNetworkFcZoneInfoTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3744,6 +3768,22 @@ export class DataIntersightNetworkFcZoneInfoTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3832,7 +3872,7 @@ export class DataIntersightNetworkFcZoneInfoTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNetworkFcZoneInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3840,19 +3880,19 @@ export interface DataIntersightNetworkFcZoneInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3865,7 +3905,7 @@ export interface DataIntersightNetworkFcZoneInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4097,7 +4137,7 @@ export class DataIntersightNetworkFcZoneInfoVersionContextInterestedMosList exte
 }
 export interface DataIntersightNetworkFcZoneInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4105,19 +4145,19 @@ export interface DataIntersightNetworkFcZoneInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#moid DataIntersightNetworkFcZoneInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4130,7 +4170,7 @@ export interface DataIntersightNetworkFcZoneInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#selector DataIntersightNetworkFcZoneInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4330,7 +4370,7 @@ export class DataIntersightNetworkFcZoneInfoVersionContextRefMoOutputReference e
 }
 export interface DataIntersightNetworkFcZoneInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#additional_properties DataIntersightNetworkFcZoneInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4338,32 +4378,32 @@ export interface DataIntersightNetworkFcZoneInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#class_id DataIntersightNetworkFcZoneInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#marked_for_deletion DataIntersightNetworkFcZoneInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#marked_for_deletion DataIntersightNetworkFcZoneInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#nr_version DataIntersightNetworkFcZoneInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#nr_version DataIntersightNetworkFcZoneInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#object_type DataIntersightNetworkFcZoneInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#timestamp DataIntersightNetworkFcZoneInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#timestamp DataIntersightNetworkFcZoneInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4374,19 +4414,19 @@ export interface DataIntersightNetworkFcZoneInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#version_type DataIntersightNetworkFcZoneInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#version_type DataIntersightNetworkFcZoneInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#interested_mos DataIntersightNetworkFcZoneInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#interested_mos DataIntersightNetworkFcZoneInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkFcZoneInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#ref_mo DataIntersightNetworkFcZoneInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#ref_mo DataIntersightNetworkFcZoneInfo#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkFcZoneInfoVersionContextRefMo;
 }
@@ -4702,7 +4742,7 @@ export class DataIntersightNetworkFcZoneInfoVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info intersight_network_fc_zone_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info intersight_network_fc_zone_info}
 */
 export class DataIntersightNetworkFcZoneInfo extends cdktf.TerraformDataSource {
 
@@ -4718,7 +4758,7 @@ export class DataIntersightNetworkFcZoneInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNetworkFcZoneInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkFcZoneInfo to import
-  * @param importFromId The id of the existing DataIntersightNetworkFcZoneInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkFcZoneInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkFcZoneInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4730,7 +4770,7 @@ export class DataIntersightNetworkFcZoneInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_fc_zone_info intersight_network_fc_zone_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_fc_zone_info intersight_network_fc_zone_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4741,8 +4781,8 @@ export class DataIntersightNetworkFcZoneInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_network_fc_zone_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

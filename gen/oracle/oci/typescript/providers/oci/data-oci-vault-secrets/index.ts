@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciVaultSecretsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#compartment_id DataOciVaultSecrets#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#compartment_id DataOciVaultSecrets#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#id DataOciVaultSecrets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#id DataOciVaultSecrets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#name DataOciVaultSecrets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#name DataOciVaultSecrets#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#state DataOciVaultSecrets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#state DataOciVaultSecrets#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#vault_id DataOciVaultSecrets#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#vault_id DataOciVaultSecrets#vault_id}
   */
   readonly vaultId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#filter DataOciVaultSecrets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#filter DataOciVaultSecrets#filter}
   */
   readonly filter?: DataOciVaultSecretsFilter[] | cdktf.IResolvable;
 }
@@ -950,15 +950,15 @@ export class DataOciVaultSecretsSecretsList extends cdktf.ComplexList {
 }
 export interface DataOciVaultSecretsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#name DataOciVaultSecrets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#name DataOciVaultSecrets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#regex DataOciVaultSecrets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#regex DataOciVaultSecrets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#values DataOciVaultSecrets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#values DataOciVaultSecrets#values}
   */
   readonly values: string[];
 }
@@ -1126,7 +1126,7 @@ export class DataOciVaultSecretsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets oci_vault_secrets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets oci_vault_secrets}
 */
 export class DataOciVaultSecrets extends cdktf.TerraformDataSource {
 
@@ -1142,7 +1142,7 @@ export class DataOciVaultSecrets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciVaultSecrets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciVaultSecrets to import
-  * @param importFromId The id of the existing DataOciVaultSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciVaultSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciVaultSecrets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1154,7 +1154,7 @@ export class DataOciVaultSecrets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/vault_secrets oci_vault_secrets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/vault_secrets oci_vault_secrets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1165,8 +1165,8 @@ export class DataOciVaultSecrets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_vault_secrets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

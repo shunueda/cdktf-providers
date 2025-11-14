@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightDnacFabricSiteConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#account_moid DataIntersightDnacFabricSite#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#account_moid DataIntersightDnacFabricSite#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Authentication profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#authentication_profile_name DataIntersightDnacFabricSite#authentication_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#authentication_profile_name DataIntersightDnacFabricSite#authentication_profile_name}
   */
   readonly authenticationProfileName?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightDnacFabricSiteConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#create_time DataIntersightDnacFabricSite#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#create_time DataIntersightDnacFabricSite#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#domain_group_moid DataIntersightDnacFabricSite#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#domain_group_moid DataIntersightDnacFabricSite#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * UUID for the Fabric Site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#fabric_site_id DataIntersightDnacFabricSite#fabric_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#fabric_site_id DataIntersightDnacFabricSite#fabric_site_id}
   */
   readonly fabricSiteId?: string;
   /**
   * Fabric site name hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#fabric_site_name_hierarchy DataIntersightDnacFabricSite#fabric_site_name_hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#fabric_site_name_hierarchy DataIntersightDnacFabricSite#fabric_site_name_hierarchy}
   */
   readonly fabricSiteNameHierarchy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#id DataIntersightDnacFabricSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#id DataIntersightDnacFabricSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,79 +65,79 @@ export interface DataIntersightDnacFabricSiteConfig extends cdktf.TerraformMetaA
   /**
   * Pub sub for the fabric site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#is_pub_sub_enabled DataIntersightDnacFabricSite#is_pub_sub_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#is_pub_sub_enabled DataIntersightDnacFabricSite#is_pub_sub_enabled}
   */
   readonly isPubSubEnabled?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#mod_time DataIntersightDnacFabricSite#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#mod_time DataIntersightDnacFabricSite#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#owners DataIntersightDnacFabricSite#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#owners DataIntersightDnacFabricSite#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#shared_scope DataIntersightDnacFabricSite#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#shared_scope DataIntersightDnacFabricSite#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Site id for the fabric site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#site_id DataIntersightDnacFabricSite#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#site_id DataIntersightDnacFabricSite#site_id}
   */
   readonly siteId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#ancestors DataIntersightDnacFabricSite#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#ancestors DataIntersightDnacFabricSite#ancestors}
   */
   readonly ancestors?: DataIntersightDnacFabricSiteAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#parent DataIntersightDnacFabricSite#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#parent DataIntersightDnacFabricSite#parent}
   */
   readonly parent?: DataIntersightDnacFabricSiteParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#permission_resources DataIntersightDnacFabricSite#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#permission_resources DataIntersightDnacFabricSite#permission_resources}
   */
   readonly permissionResources?: DataIntersightDnacFabricSitePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#registered_device DataIntersightDnacFabricSite#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#registered_device DataIntersightDnacFabricSite#registered_device}
   */
   readonly registeredDevice?: DataIntersightDnacFabricSiteRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#tags DataIntersightDnacFabricSite#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#tags DataIntersightDnacFabricSite#tags}
   */
   readonly tags?: DataIntersightDnacFabricSiteTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#version_context DataIntersightDnacFabricSite#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#version_context DataIntersightDnacFabricSite#version_context}
   */
   readonly versionContext?: DataIntersightDnacFabricSiteVersionContext;
 }
@@ -789,6 +789,11 @@ export class DataIntersightDnacFabricSiteResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1308,7 +1313,7 @@ export class DataIntersightDnacFabricSiteResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightDnacFabricSiteAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1316,19 +1321,19 @@ export interface DataIntersightDnacFabricSiteAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1341,7 +1346,7 @@ export interface DataIntersightDnacFabricSiteAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -1573,7 +1578,7 @@ export class DataIntersightDnacFabricSiteAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightDnacFabricSiteParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1581,19 +1586,19 @@ export interface DataIntersightDnacFabricSiteParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1606,7 +1611,7 @@ export interface DataIntersightDnacFabricSiteParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -1806,7 +1811,7 @@ export class DataIntersightDnacFabricSiteParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightDnacFabricSitePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1814,19 +1819,19 @@ export interface DataIntersightDnacFabricSitePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1839,7 +1844,7 @@ export interface DataIntersightDnacFabricSitePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -2071,7 +2076,7 @@ export class DataIntersightDnacFabricSitePermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightDnacFabricSiteRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2079,19 +2084,19 @@ export interface DataIntersightDnacFabricSiteRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2104,7 +2109,7 @@ export interface DataIntersightDnacFabricSiteRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -2304,7 +2309,7 @@ export class DataIntersightDnacFabricSiteRegisteredDeviceOutputReference extends
 }
 export interface DataIntersightDnacFabricSiteTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2312,19 +2317,19 @@ export interface DataIntersightDnacFabricSiteTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2337,7 +2342,7 @@ export interface DataIntersightDnacFabricSiteTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -2569,7 +2574,7 @@ export class DataIntersightDnacFabricSiteTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightDnacFabricSiteTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2577,19 +2582,19 @@ export interface DataIntersightDnacFabricSiteTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2602,7 +2607,7 @@ export interface DataIntersightDnacFabricSiteTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -2802,45 +2807,51 @@ export class DataIntersightDnacFabricSiteTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightDnacFabricSiteTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#key DataIntersightDnacFabricSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#key DataIntersightDnacFabricSite#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#propagated DataIntersightDnacFabricSite#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#propagated DataIntersightDnacFabricSite#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#sys_tag DataIntersightDnacFabricSite#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#type DataIntersightDnacFabricSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#type DataIntersightDnacFabricSite#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#value DataIntersightDnacFabricSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#value DataIntersightDnacFabricSite#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#ancestor_definitions DataIntersightDnacFabricSite#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#ancestor_definitions DataIntersightDnacFabricSite#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightDnacFabricSiteTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#definition DataIntersightDnacFabricSite#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#definition DataIntersightDnacFabricSite#definition}
   */
   readonly definition?: DataIntersightDnacFabricSiteTagsDefinition;
 }
@@ -2854,6 +2865,7 @@ export function dataIntersightDnacFabricSiteTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightDnacFabricSiteTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2882,6 +2894,12 @@ export function dataIntersightDnacFabricSiteTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2948,6 +2966,10 @@ export class DataIntersightDnacFabricSiteTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2974,6 +2996,7 @@ export class DataIntersightDnacFabricSiteTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2989,6 +3012,7 @@ export class DataIntersightDnacFabricSiteTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3042,6 +3066,22 @@ export class DataIntersightDnacFabricSiteTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3130,7 +3170,7 @@ export class DataIntersightDnacFabricSiteTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightDnacFabricSiteVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3138,19 +3178,19 @@ export interface DataIntersightDnacFabricSiteVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3163,7 +3203,7 @@ export interface DataIntersightDnacFabricSiteVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -3395,7 +3435,7 @@ export class DataIntersightDnacFabricSiteVersionContextInterestedMosList extends
 }
 export interface DataIntersightDnacFabricSiteVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3403,19 +3443,19 @@ export interface DataIntersightDnacFabricSiteVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#moid DataIntersightDnacFabricSite#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3428,7 +3468,7 @@ export interface DataIntersightDnacFabricSiteVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#selector DataIntersightDnacFabricSite#selector}
   */
   readonly selector?: string;
 }
@@ -3628,7 +3668,7 @@ export class DataIntersightDnacFabricSiteVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightDnacFabricSiteVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#additional_properties DataIntersightDnacFabricSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3636,32 +3676,32 @@ export interface DataIntersightDnacFabricSiteVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#class_id DataIntersightDnacFabricSite#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#marked_for_deletion DataIntersightDnacFabricSite#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#marked_for_deletion DataIntersightDnacFabricSite#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#nr_version DataIntersightDnacFabricSite#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#nr_version DataIntersightDnacFabricSite#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#object_type DataIntersightDnacFabricSite#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#timestamp DataIntersightDnacFabricSite#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#timestamp DataIntersightDnacFabricSite#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3672,19 +3712,19 @@ export interface DataIntersightDnacFabricSiteVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#version_type DataIntersightDnacFabricSite#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#version_type DataIntersightDnacFabricSite#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#interested_mos DataIntersightDnacFabricSite#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#interested_mos DataIntersightDnacFabricSite#interested_mos}
   */
   readonly interestedMos?: DataIntersightDnacFabricSiteVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#ref_mo DataIntersightDnacFabricSite#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#ref_mo DataIntersightDnacFabricSite#ref_mo}
   */
   readonly refMo?: DataIntersightDnacFabricSiteVersionContextRefMo;
 }
@@ -4000,7 +4040,7 @@ export class DataIntersightDnacFabricSiteVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site intersight_dnac_fabric_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site intersight_dnac_fabric_site}
 */
 export class DataIntersightDnacFabricSite extends cdktf.TerraformDataSource {
 
@@ -4016,7 +4056,7 @@ export class DataIntersightDnacFabricSite extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightDnacFabricSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightDnacFabricSite to import
-  * @param importFromId The id of the existing DataIntersightDnacFabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightDnacFabricSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightDnacFabricSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4028,7 +4068,7 @@ export class DataIntersightDnacFabricSite extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_fabric_site intersight_dnac_fabric_site} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_fabric_site intersight_dnac_fabric_site} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4039,8 +4079,8 @@ export class DataIntersightDnacFabricSite extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_dnac_fabric_site',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

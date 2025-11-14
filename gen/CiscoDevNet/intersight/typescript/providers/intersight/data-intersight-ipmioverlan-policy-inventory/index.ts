@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIpmioverlanPolicyInventoryConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#account_moid DataIntersightIpmioverlanPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#account_moid DataIntersightIpmioverlanPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightIpmioverlanPolicyInventoryConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#create_time DataIntersightIpmioverlanPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#create_time DataIntersightIpmioverlanPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#description DataIntersightIpmioverlanPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#description DataIntersightIpmioverlanPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#device_mo_id DataIntersightIpmioverlanPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#device_mo_id DataIntersightIpmioverlanPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#domain_group_moid DataIntersightIpmioverlanPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#domain_group_moid DataIntersightIpmioverlanPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * State of the IPMI Over LAN service on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#enabled DataIntersightIpmioverlanPolicyInventory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#enabled DataIntersightIpmioverlanPolicyInventory#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The encryption key to use for IPMI communication. It should have an even number of hexadecimal characters and not exceed 40 characters. Use “00” to disable encryption key use. This configuration is supported by all Standalone C-Series servers. FI-attached C-Series servers with firmware at minimum of 4.2.3a support this configuration. B/X-Series servers with firmware at minimum of 5.1.0.x support this configuration. IPMI commands using this key should append zeroes to the key to achieve a length of 40 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#encryption_key DataIntersightIpmioverlanPolicyInventory#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#encryption_key DataIntersightIpmioverlanPolicyInventory#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#id DataIntersightIpmioverlanPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#id DataIntersightIpmioverlanPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,36 +71,36 @@ export interface DataIntersightIpmioverlanPolicyInventoryConfig extends cdktf.Te
   /**
   * Indicates whether the value of the 'encryptionKey' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#is_encryption_key_set DataIntersightIpmioverlanPolicyInventory#is_encryption_key_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#is_encryption_key_set DataIntersightIpmioverlanPolicyInventory#is_encryption_key_set}
   */
   readonly isEncryptionKeySet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#mod_time DataIntersightIpmioverlanPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#mod_time DataIntersightIpmioverlanPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#name DataIntersightIpmioverlanPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#name DataIntersightIpmioverlanPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#owners DataIntersightIpmioverlanPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#owners DataIntersightIpmioverlanPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
@@ -109,50 +109,50 @@ export interface DataIntersightIpmioverlanPolicyInventoryConfig extends cdktf.Te
   * * `user` - Privilege to perform some functions through IPMI but restriction on performing administrative tasks.
   * * `read-only` - Privilege to view information throught IPMI but restriction on making any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#privilege DataIntersightIpmioverlanPolicyInventory#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#privilege DataIntersightIpmioverlanPolicyInventory#privilege}
   */
   readonly privilege?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#shared_scope DataIntersightIpmioverlanPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#shared_scope DataIntersightIpmioverlanPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#ancestors DataIntersightIpmioverlanPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#ancestors DataIntersightIpmioverlanPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightIpmioverlanPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#parent DataIntersightIpmioverlanPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#parent DataIntersightIpmioverlanPolicyInventory#parent}
   */
   readonly parent?: DataIntersightIpmioverlanPolicyInventoryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#permission_resources DataIntersightIpmioverlanPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#permission_resources DataIntersightIpmioverlanPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightIpmioverlanPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#tags DataIntersightIpmioverlanPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#tags DataIntersightIpmioverlanPolicyInventory#tags}
   */
   readonly tags?: DataIntersightIpmioverlanPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#target_mo DataIntersightIpmioverlanPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#target_mo DataIntersightIpmioverlanPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightIpmioverlanPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#version_context DataIntersightIpmioverlanPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#version_context DataIntersightIpmioverlanPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightIpmioverlanPolicyInventoryVersionContext;
 }
@@ -707,6 +707,11 @@ export class DataIntersightIpmioverlanPolicyInventoryResultsTagsOutputReference 
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1333,7 +1338,7 @@ export class DataIntersightIpmioverlanPolicyInventoryResultsList extends cdktf.C
 }
 export interface DataIntersightIpmioverlanPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1341,19 +1346,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1366,7 +1371,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1598,7 +1603,7 @@ export class DataIntersightIpmioverlanPolicyInventoryAncestorsList extends cdktf
 }
 export interface DataIntersightIpmioverlanPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1606,19 +1611,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1631,7 +1636,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1831,7 +1836,7 @@ export class DataIntersightIpmioverlanPolicyInventoryParentOutputReference exten
 }
 export interface DataIntersightIpmioverlanPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1839,19 +1844,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1864,7 +1869,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2096,7 +2101,7 @@ export class DataIntersightIpmioverlanPolicyInventoryPermissionResourcesList ext
 }
 export interface DataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2104,19 +2109,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2129,7 +2134,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2361,7 +2366,7 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitionsList
 }
 export interface DataIntersightIpmioverlanPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2369,19 +2374,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2394,7 +2399,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2594,45 +2599,51 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsDefinitionOutputReferen
 }
 export interface DataIntersightIpmioverlanPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#key DataIntersightIpmioverlanPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#key DataIntersightIpmioverlanPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#propagated DataIntersightIpmioverlanPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#propagated DataIntersightIpmioverlanPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#sys_tag DataIntersightIpmioverlanPolicyInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#type DataIntersightIpmioverlanPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#type DataIntersightIpmioverlanPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#value DataIntersightIpmioverlanPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#value DataIntersightIpmioverlanPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#ancestor_definitions DataIntersightIpmioverlanPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#ancestor_definitions DataIntersightIpmioverlanPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#definition DataIntersightIpmioverlanPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#definition DataIntersightIpmioverlanPolicyInventory#definition}
   */
   readonly definition?: DataIntersightIpmioverlanPolicyInventoryTagsDefinition;
 }
@@ -2646,6 +2657,7 @@ export function dataIntersightIpmioverlanPolicyInventoryTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIpmioverlanPolicyInventoryTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2674,6 +2686,12 @@ export function dataIntersightIpmioverlanPolicyInventoryTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2740,6 +2758,10 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2766,6 +2788,7 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2781,6 +2804,7 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2834,6 +2858,22 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2922,7 +2962,7 @@ export class DataIntersightIpmioverlanPolicyInventoryTagsList extends cdktf.Comp
 }
 export interface DataIntersightIpmioverlanPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2930,19 +2970,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2955,7 +2995,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3155,7 +3195,7 @@ export class DataIntersightIpmioverlanPolicyInventoryTargetMoOutputReference ext
 }
 export interface DataIntersightIpmioverlanPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3163,19 +3203,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3188,7 +3228,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3420,7 +3460,7 @@ export class DataIntersightIpmioverlanPolicyInventoryVersionContextInterestedMos
 }
 export interface DataIntersightIpmioverlanPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3428,19 +3468,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#moid DataIntersightIpmioverlanPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3453,7 +3493,7 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#selector DataIntersightIpmioverlanPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3653,7 +3693,7 @@ export class DataIntersightIpmioverlanPolicyInventoryVersionContextRefMoOutputRe
 }
 export interface DataIntersightIpmioverlanPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#additional_properties DataIntersightIpmioverlanPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3661,32 +3701,32 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#class_id DataIntersightIpmioverlanPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#marked_for_deletion DataIntersightIpmioverlanPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#marked_for_deletion DataIntersightIpmioverlanPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#nr_version DataIntersightIpmioverlanPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#nr_version DataIntersightIpmioverlanPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#object_type DataIntersightIpmioverlanPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#timestamp DataIntersightIpmioverlanPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#timestamp DataIntersightIpmioverlanPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3697,19 +3737,19 @@ export interface DataIntersightIpmioverlanPolicyInventoryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#version_type DataIntersightIpmioverlanPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#version_type DataIntersightIpmioverlanPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#interested_mos DataIntersightIpmioverlanPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#interested_mos DataIntersightIpmioverlanPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightIpmioverlanPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#ref_mo DataIntersightIpmioverlanPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#ref_mo DataIntersightIpmioverlanPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightIpmioverlanPolicyInventoryVersionContextRefMo;
 }
@@ -4025,7 +4065,7 @@ export class DataIntersightIpmioverlanPolicyInventoryVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory intersight_ipmioverlan_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory intersight_ipmioverlan_policy_inventory}
 */
 export class DataIntersightIpmioverlanPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -4041,7 +4081,7 @@ export class DataIntersightIpmioverlanPolicyInventory extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightIpmioverlanPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIpmioverlanPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightIpmioverlanPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIpmioverlanPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIpmioverlanPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4053,7 +4093,7 @@ export class DataIntersightIpmioverlanPolicyInventory extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ipmioverlan_policy_inventory intersight_ipmioverlan_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ipmioverlan_policy_inventory intersight_ipmioverlan_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4064,8 +4104,8 @@ export class DataIntersightIpmioverlanPolicyInventory extends cdktf.TerraformDat
       terraformResourceType: 'intersight_ipmioverlan_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

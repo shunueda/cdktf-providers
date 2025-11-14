@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightRecoveryOnDemandBackupConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#account_moid DataIntersightRecoveryOnDemandBackup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#account_moid DataIntersightRecoveryOnDemandBackup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightRecoveryOnDemandBackupConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#create_time DataIntersightRecoveryOnDemandBackup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#create_time DataIntersightRecoveryOnDemandBackup#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#description DataIntersightRecoveryOnDemandBackup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#description DataIntersightRecoveryOnDemandBackup#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#domain_group_moid DataIntersightRecoveryOnDemandBackup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#domain_group_moid DataIntersightRecoveryOnDemandBackup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Backup image file name prefix with timestamp (e.g., prefix-1572431305418).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#file_name_prefix DataIntersightRecoveryOnDemandBackup#file_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#file_name_prefix DataIntersightRecoveryOnDemandBackup#file_name_prefix}
   */
   readonly fileNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#id DataIntersightRecoveryOnDemandBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#id DataIntersightRecoveryOnDemandBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ export interface DataIntersightRecoveryOnDemandBackupConfig extends cdktf.Terraf
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#is_password_set DataIntersightRecoveryOnDemandBackup#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#is_password_set DataIntersightRecoveryOnDemandBackup#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
@@ -67,48 +67,48 @@ export interface DataIntersightRecoveryOnDemandBackupConfig extends cdktf.Terraf
   * * `Network Share` - Backup is stored remotely on a separate server.
   * * `Local Storage` - Backup is stored locally on endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#location_type DataIntersightRecoveryOnDemandBackup#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#location_type DataIntersightRecoveryOnDemandBackup#location_type}
   */
   readonly locationType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#mod_time DataIntersightRecoveryOnDemandBackup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#mod_time DataIntersightRecoveryOnDemandBackup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#name DataIntersightRecoveryOnDemandBackup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#name DataIntersightRecoveryOnDemandBackup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#owners DataIntersightRecoveryOnDemandBackup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#owners DataIntersightRecoveryOnDemandBackup#owners}
   */
   readonly owners?: string[];
   /**
   * The backup server password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#password DataIntersightRecoveryOnDemandBackup#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#password DataIntersightRecoveryOnDemandBackup#password}
   */
   readonly password?: string;
   /**
   * File system path for storing backup images, including IP address/hostname (e.g., 172.29.109.234/var/backups/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#path DataIntersightRecoveryOnDemandBackup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#path DataIntersightRecoveryOnDemandBackup#path}
   */
   readonly path?: string;
   /**
@@ -117,74 +117,74 @@ export interface DataIntersightRecoveryOnDemandBackupConfig extends cdktf.Terraf
   * * `SFTP` - SSH File Transfer Protocol (SFTP) to access file server.
   * * `FTP` - File Transfer Protocol (FTP) to access file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#protocol DataIntersightRecoveryOnDemandBackup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#protocol DataIntersightRecoveryOnDemandBackup#protocol}
   */
   readonly protocol?: string;
   /**
   * Number of backup copies maintained on local or remote server (older backups overwritten).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#retention_count DataIntersightRecoveryOnDemandBackup#retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#retention_count DataIntersightRecoveryOnDemandBackup#retention_count}
   */
   readonly retentionCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#shared_scope DataIntersightRecoveryOnDemandBackup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#shared_scope DataIntersightRecoveryOnDemandBackup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The backup server username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#user_name DataIntersightRecoveryOnDemandBackup#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#user_name DataIntersightRecoveryOnDemandBackup#user_name}
   */
   readonly userName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#ancestors DataIntersightRecoveryOnDemandBackup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#ancestors DataIntersightRecoveryOnDemandBackup#ancestors}
   */
   readonly ancestors?: DataIntersightRecoveryOnDemandBackupAncestors[] | cdktf.IResolvable;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#config_result DataIntersightRecoveryOnDemandBackup#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#config_result DataIntersightRecoveryOnDemandBackup#config_result}
   */
   readonly configResult?: DataIntersightRecoveryOnDemandBackupConfigResult;
   /**
   * device_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#device_id DataIntersightRecoveryOnDemandBackup#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#device_id DataIntersightRecoveryOnDemandBackup#device_id}
   */
   readonly deviceId?: DataIntersightRecoveryOnDemandBackupDeviceId;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#organization DataIntersightRecoveryOnDemandBackup#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#organization DataIntersightRecoveryOnDemandBackup#organization}
   */
   readonly organization?: DataIntersightRecoveryOnDemandBackupOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#parent DataIntersightRecoveryOnDemandBackup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#parent DataIntersightRecoveryOnDemandBackup#parent}
   */
   readonly parent?: DataIntersightRecoveryOnDemandBackupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#permission_resources DataIntersightRecoveryOnDemandBackup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#permission_resources DataIntersightRecoveryOnDemandBackup#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecoveryOnDemandBackupPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#tags DataIntersightRecoveryOnDemandBackup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#tags DataIntersightRecoveryOnDemandBackup#tags}
   */
   readonly tags?: DataIntersightRecoveryOnDemandBackupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#version_context DataIntersightRecoveryOnDemandBackup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#version_context DataIntersightRecoveryOnDemandBackup#version_context}
   */
   readonly versionContext?: DataIntersightRecoveryOnDemandBackupVersionContext;
 }
@@ -1026,6 +1026,11 @@ export class DataIntersightRecoveryOnDemandBackupResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1582,7 +1587,7 @@ export class DataIntersightRecoveryOnDemandBackupResultsList extends cdktf.Compl
 }
 export interface DataIntersightRecoveryOnDemandBackupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1590,19 +1595,19 @@ export interface DataIntersightRecoveryOnDemandBackupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1615,7 +1620,7 @@ export interface DataIntersightRecoveryOnDemandBackupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -1847,7 +1852,7 @@ export class DataIntersightRecoveryOnDemandBackupAncestorsList extends cdktf.Com
 }
 export interface DataIntersightRecoveryOnDemandBackupConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1855,19 +1860,19 @@ export interface DataIntersightRecoveryOnDemandBackupConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1880,7 +1885,7 @@ export interface DataIntersightRecoveryOnDemandBackupConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -2080,7 +2085,7 @@ export class DataIntersightRecoveryOnDemandBackupConfigResultOutputReference ext
 }
 export interface DataIntersightRecoveryOnDemandBackupDeviceId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2088,19 +2093,19 @@ export interface DataIntersightRecoveryOnDemandBackupDeviceId {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2113,7 +2118,7 @@ export interface DataIntersightRecoveryOnDemandBackupDeviceId {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -2313,7 +2318,7 @@ export class DataIntersightRecoveryOnDemandBackupDeviceIdOutputReference extends
 }
 export interface DataIntersightRecoveryOnDemandBackupOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2321,19 +2326,19 @@ export interface DataIntersightRecoveryOnDemandBackupOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2346,7 +2351,7 @@ export interface DataIntersightRecoveryOnDemandBackupOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -2546,7 +2551,7 @@ export class DataIntersightRecoveryOnDemandBackupOrganizationOutputReference ext
 }
 export interface DataIntersightRecoveryOnDemandBackupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2554,19 +2559,19 @@ export interface DataIntersightRecoveryOnDemandBackupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2579,7 +2584,7 @@ export interface DataIntersightRecoveryOnDemandBackupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -2779,7 +2784,7 @@ export class DataIntersightRecoveryOnDemandBackupParentOutputReference extends c
 }
 export interface DataIntersightRecoveryOnDemandBackupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2787,19 +2792,19 @@ export interface DataIntersightRecoveryOnDemandBackupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2812,7 +2817,7 @@ export interface DataIntersightRecoveryOnDemandBackupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -3044,7 +3049,7 @@ export class DataIntersightRecoveryOnDemandBackupPermissionResourcesList extends
 }
 export interface DataIntersightRecoveryOnDemandBackupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3052,19 +3057,19 @@ export interface DataIntersightRecoveryOnDemandBackupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3077,7 +3082,7 @@ export interface DataIntersightRecoveryOnDemandBackupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -3309,7 +3314,7 @@ export class DataIntersightRecoveryOnDemandBackupTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightRecoveryOnDemandBackupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3317,19 +3322,19 @@ export interface DataIntersightRecoveryOnDemandBackupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3342,7 +3347,7 @@ export interface DataIntersightRecoveryOnDemandBackupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -3542,45 +3547,51 @@ export class DataIntersightRecoveryOnDemandBackupTagsDefinitionOutputReference e
 }
 export interface DataIntersightRecoveryOnDemandBackupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#key DataIntersightRecoveryOnDemandBackup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#key DataIntersightRecoveryOnDemandBackup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#propagated DataIntersightRecoveryOnDemandBackup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#propagated DataIntersightRecoveryOnDemandBackup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#sys_tag DataIntersightRecoveryOnDemandBackup#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#type DataIntersightRecoveryOnDemandBackup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#type DataIntersightRecoveryOnDemandBackup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#value DataIntersightRecoveryOnDemandBackup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#value DataIntersightRecoveryOnDemandBackup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#ancestor_definitions DataIntersightRecoveryOnDemandBackup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#ancestor_definitions DataIntersightRecoveryOnDemandBackup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecoveryOnDemandBackupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#definition DataIntersightRecoveryOnDemandBackup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#definition DataIntersightRecoveryOnDemandBackup#definition}
   */
   readonly definition?: DataIntersightRecoveryOnDemandBackupTagsDefinition;
 }
@@ -3594,6 +3605,7 @@ export function dataIntersightRecoveryOnDemandBackupTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightRecoveryOnDemandBackupTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3622,6 +3634,12 @@ export function dataIntersightRecoveryOnDemandBackupTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3688,6 +3706,10 @@ export class DataIntersightRecoveryOnDemandBackupTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3714,6 +3736,7 @@ export class DataIntersightRecoveryOnDemandBackupTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3729,6 +3752,7 @@ export class DataIntersightRecoveryOnDemandBackupTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3782,6 +3806,22 @@ export class DataIntersightRecoveryOnDemandBackupTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3870,7 +3910,7 @@ export class DataIntersightRecoveryOnDemandBackupTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightRecoveryOnDemandBackupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3878,19 +3918,19 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3903,7 +3943,7 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -4135,7 +4175,7 @@ export class DataIntersightRecoveryOnDemandBackupVersionContextInterestedMosList
 }
 export interface DataIntersightRecoveryOnDemandBackupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4143,19 +4183,19 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#moid DataIntersightRecoveryOnDemandBackup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4168,7 +4208,7 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#selector DataIntersightRecoveryOnDemandBackup#selector}
   */
   readonly selector?: string;
 }
@@ -4368,7 +4408,7 @@ export class DataIntersightRecoveryOnDemandBackupVersionContextRefMoOutputRefere
 }
 export interface DataIntersightRecoveryOnDemandBackupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#additional_properties DataIntersightRecoveryOnDemandBackup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4376,32 +4416,32 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#class_id DataIntersightRecoveryOnDemandBackup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#marked_for_deletion DataIntersightRecoveryOnDemandBackup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#marked_for_deletion DataIntersightRecoveryOnDemandBackup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#nr_version DataIntersightRecoveryOnDemandBackup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#nr_version DataIntersightRecoveryOnDemandBackup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#object_type DataIntersightRecoveryOnDemandBackup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#timestamp DataIntersightRecoveryOnDemandBackup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#timestamp DataIntersightRecoveryOnDemandBackup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4412,19 +4452,19 @@ export interface DataIntersightRecoveryOnDemandBackupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#version_type DataIntersightRecoveryOnDemandBackup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#version_type DataIntersightRecoveryOnDemandBackup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#interested_mos DataIntersightRecoveryOnDemandBackup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#interested_mos DataIntersightRecoveryOnDemandBackup#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecoveryOnDemandBackupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#ref_mo DataIntersightRecoveryOnDemandBackup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#ref_mo DataIntersightRecoveryOnDemandBackup#ref_mo}
   */
   readonly refMo?: DataIntersightRecoveryOnDemandBackupVersionContextRefMo;
 }
@@ -4740,7 +4780,7 @@ export class DataIntersightRecoveryOnDemandBackupVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup intersight_recovery_on_demand_backup}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup intersight_recovery_on_demand_backup}
 */
 export class DataIntersightRecoveryOnDemandBackup extends cdktf.TerraformDataSource {
 
@@ -4756,7 +4796,7 @@ export class DataIntersightRecoveryOnDemandBackup extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightRecoveryOnDemandBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecoveryOnDemandBackup to import
-  * @param importFromId The id of the existing DataIntersightRecoveryOnDemandBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecoveryOnDemandBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecoveryOnDemandBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4768,7 +4808,7 @@ export class DataIntersightRecoveryOnDemandBackup extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_on_demand_backup intersight_recovery_on_demand_backup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_on_demand_backup intersight_recovery_on_demand_backup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4779,8 +4819,8 @@ export class DataIntersightRecoveryOnDemandBackup extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_recovery_on_demand_backup',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

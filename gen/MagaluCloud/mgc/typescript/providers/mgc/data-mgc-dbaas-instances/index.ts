@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/dbaas_instances
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/dbaas_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcDbaasInstancesConfig extends cdktf.TerraformMetaArgument
   /**
   * Status of the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/dbaas_instances#status DataMgcDbaasInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/dbaas_instances#status DataMgcDbaasInstances#status}
   */
   readonly status?: string;
 }
@@ -232,7 +232,7 @@ export class DataMgcDbaasInstancesInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/dbaas_instances mgc_dbaas_instances}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/dbaas_instances mgc_dbaas_instances}
 */
 export class DataMgcDbaasInstances extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataMgcDbaasInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcDbaasInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcDbaasInstances to import
-  * @param importFromId The id of the existing DataMgcDbaasInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/dbaas_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcDbaasInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/dbaas_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcDbaasInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataMgcDbaasInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/dbaas_instances mgc_dbaas_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/data-sources/dbaas_instances mgc_dbaas_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataMgcDbaasInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_dbaas_instances',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#artifact_content_disposition DatascienceJob#artifact_content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#artifact_content_disposition DatascienceJob#artifact_content_disposition}
   */
   readonly artifactContentDisposition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#artifact_content_length DatascienceJob#artifact_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#artifact_content_length DatascienceJob#artifact_content_length}
   */
   readonly artifactContentLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#compartment_id DatascienceJob#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#compartment_id DatascienceJob#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#defined_tags DatascienceJob#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#defined_tags DatascienceJob#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#delete_related_job_runs DatascienceJob#delete_related_job_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#delete_related_job_runs DatascienceJob#delete_related_job_runs}
   */
   readonly deleteRelatedJobRuns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#description DatascienceJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#description DatascienceJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#display_name DatascienceJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#display_name DatascienceJob#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#freeform_tags DatascienceJob#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#freeform_tags DatascienceJob#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#id DatascienceJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#id DatascienceJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_artifact DatascienceJob#job_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_artifact DatascienceJob#job_artifact}
   */
   readonly jobArtifact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#project_id DatascienceJob#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#project_id DatascienceJob#project_id}
   */
   readonly projectId: string;
   /**
   * job_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
   */
   readonly jobConfigurationDetails?: DatascienceJobJobConfigurationDetails;
   /**
   * job_environment_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
   */
   readonly jobEnvironmentConfigurationDetails?: DatascienceJobJobEnvironmentConfigurationDetails;
   /**
   * job_infrastructure_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
   */
   readonly jobInfrastructureConfigurationDetails?: DatascienceJobJobInfrastructureConfigurationDetails;
   /**
   * job_log_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_log_configuration_details DatascienceJob#job_log_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_log_configuration_details DatascienceJob#job_log_configuration_details}
   */
   readonly jobLogConfigurationDetails?: DatascienceJobJobLogConfigurationDetails;
   /**
   * job_node_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_node_configuration_details DatascienceJob#job_node_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_node_configuration_details DatascienceJob#job_node_configuration_details}
   */
   readonly jobNodeConfigurationDetails?: DatascienceJobJobNodeConfigurationDetails;
   /**
   * job_storage_mount_configuration_details_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_storage_mount_configuration_details_list DatascienceJob#job_storage_mount_configuration_details_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_storage_mount_configuration_details_list DatascienceJob#job_storage_mount_configuration_details_list}
   */
   readonly jobStorageMountConfigurationDetailsList?: DatascienceJobJobStorageMountConfigurationDetailsListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#timeouts DatascienceJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#timeouts DatascienceJob#timeouts}
   */
   readonly timeouts?: DatascienceJobTimeouts;
 }
 export interface DatascienceJobJobConfigurationDetailsStartupProbeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#command DatascienceJob#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#command DatascienceJob#command}
   */
   readonly command: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}
   */
   readonly initialDelayInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}
   */
   readonly jobProbeCheckType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}
   */
   readonly periodInSeconds?: number;
 }
@@ -309,25 +309,25 @@ export class DatascienceJobJobConfigurationDetailsStartupProbeDetailsOutputRefer
 }
 export interface DatascienceJobJobConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#command_line_arguments DatascienceJob#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#command_line_arguments DatascienceJob#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#environment_variables DatascienceJob#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#environment_variables DatascienceJob#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_type DatascienceJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_type DatascienceJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
   /**
   * startup_probe_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#startup_probe_details DatascienceJob#startup_probe_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#startup_probe_details DatascienceJob#startup_probe_details}
   */
   readonly startupProbeDetails?: DatascienceJobJobConfigurationDetailsStartupProbeDetails;
 }
@@ -524,27 +524,27 @@ export class DatascienceJobJobConfigurationDetailsOutputReference extends cdktf.
 }
 export interface DatascienceJobJobEnvironmentConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#cmd DatascienceJob#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#cmd DatascienceJob#cmd}
   */
   readonly cmd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#entrypoint DatascienceJob#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#entrypoint DatascienceJob#entrypoint}
   */
   readonly entrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image DatascienceJob#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image DatascienceJob#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image_digest DatascienceJob#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image_digest DatascienceJob#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image_signature_id DatascienceJob#image_signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image_signature_id DatascienceJob#image_signature_id}
   */
   readonly imageSignatureId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_environment_type DatascienceJob#job_environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_environment_type DatascienceJob#job_environment_type}
   */
   readonly jobEnvironmentType: string;
 }
@@ -767,15 +767,15 @@ export class DatascienceJobJobEnvironmentConfigurationDetailsOutputReference ext
 }
 export interface DatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#cpu_baseline DatascienceJob#cpu_baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#cpu_baseline DatascienceJob#cpu_baseline}
   */
   readonly cpuBaseline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#memory_in_gbs DatascienceJob#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#memory_in_gbs DatascienceJob#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#ocpus DatascienceJob#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#ocpus DatascienceJob#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -917,25 +917,25 @@ export class DatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDe
 }
 export interface DatascienceJobJobInfrastructureConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#block_storage_size_in_gbs DatascienceJob#block_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#block_storage_size_in_gbs DatascienceJob#block_storage_size_in_gbs}
   */
   readonly blockStorageSizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_infrastructure_type DatascienceJob#job_infrastructure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_infrastructure_type DatascienceJob#job_infrastructure_type}
   */
   readonly jobInfrastructureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#shape_name DatascienceJob#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#shape_name DatascienceJob#shape_name}
   */
   readonly shapeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * job_shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_shape_config_details DatascienceJob#job_shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_shape_config_details DatascienceJob#job_shape_config_details}
   */
   readonly jobShapeConfigDetails?: DatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails;
 }
@@ -1132,19 +1132,19 @@ export class DatascienceJobJobInfrastructureConfigurationDetailsOutputReference 
 }
 export interface DatascienceJobJobLogConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#enable_auto_log_creation DatascienceJob#enable_auto_log_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#enable_auto_log_creation DatascienceJob#enable_auto_log_creation}
   */
   readonly enableAutoLogCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#enable_logging DatascienceJob#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#enable_logging DatascienceJob#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#log_group_id DatascienceJob#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#log_group_id DatascienceJob#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#log_id DatascienceJob#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#log_id DatascienceJob#log_id}
   */
   readonly logId?: string;
 }
@@ -1315,11 +1315,11 @@ export class DatascienceJobJobLogConfigurationDetailsOutputReference extends cdk
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}
   */
   readonly jobNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -1429,23 +1429,23 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNetworkConfigurationOut
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetailsStartupProbeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#command DatascienceJob#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#command DatascienceJob#command}
   */
   readonly command: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}
   */
   readonly initialDelayInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}
   */
   readonly jobProbeCheckType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}
   */
   readonly periodInSeconds?: number;
 }
@@ -1639,25 +1639,25 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#command_line_arguments DatascienceJob#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#command_line_arguments DatascienceJob#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#environment_variables DatascienceJob#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#environment_variables DatascienceJob#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_type DatascienceJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_type DatascienceJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
   /**
   * startup_probe_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#startup_probe_details DatascienceJob#startup_probe_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#startup_probe_details DatascienceJob#startup_probe_details}
   */
   readonly startupProbeDetails?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetailsStartupProbeDetails;
 }
@@ -1854,27 +1854,27 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobEnvironmentConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#cmd DatascienceJob#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#cmd DatascienceJob#cmd}
   */
   readonly cmd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#entrypoint DatascienceJob#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#entrypoint DatascienceJob#entrypoint}
   */
   readonly entrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image DatascienceJob#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image DatascienceJob#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image_digest DatascienceJob#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image_digest DatascienceJob#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#image_signature_id DatascienceJob#image_signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#image_signature_id DatascienceJob#image_signature_id}
   */
   readonly imageSignatureId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_environment_type DatascienceJob#job_environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_environment_type DatascienceJob#job_environment_type}
   */
   readonly jobEnvironmentType: string;
 }
@@ -2097,15 +2097,15 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#cpu_baseline DatascienceJob#cpu_baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#cpu_baseline DatascienceJob#cpu_baseline}
   */
   readonly cpuBaseline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#memory_in_gbs DatascienceJob#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#memory_in_gbs DatascienceJob#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#ocpus DatascienceJob#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#ocpus DatascienceJob#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -2247,25 +2247,25 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#block_storage_size_in_gbs DatascienceJob#block_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#block_storage_size_in_gbs DatascienceJob#block_storage_size_in_gbs}
   */
   readonly blockStorageSizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_infrastructure_type DatascienceJob#job_infrastructure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_infrastructure_type DatascienceJob#job_infrastructure_type}
   */
   readonly jobInfrastructureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#shape_name DatascienceJob#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#shape_name DatascienceJob#shape_name}
   */
   readonly shapeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * job_shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_shape_config_details DatascienceJob#job_shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_shape_config_details DatascienceJob#job_shape_config_details}
   */
   readonly jobShapeConfigDetails?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetails;
 }
@@ -2462,33 +2462,33 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#minimum_success_replicas DatascienceJob#minimum_success_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#minimum_success_replicas DatascienceJob#minimum_success_replicas}
   */
   readonly minimumSuccessReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#name DatascienceJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#name DatascienceJob#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#replicas DatascienceJob#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#replicas DatascienceJob#replicas}
   */
   readonly replicas?: number;
   /**
   * job_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
   */
   readonly jobConfigurationDetails?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetails;
   /**
   * job_environment_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
   */
   readonly jobEnvironmentConfigurationDetails?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobEnvironmentConfigurationDetails;
   /**
   * job_infrastructure_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
   */
   readonly jobInfrastructureConfigurationDetails?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetails;
 }
@@ -2746,27 +2746,27 @@ export class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationD
 }
 export interface DatascienceJobJobNodeConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_node_type DatascienceJob#job_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_node_type DatascienceJob#job_node_type}
   */
   readonly jobNodeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#maximum_runtime_in_minutes DatascienceJob#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#startup_order DatascienceJob#startup_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#startup_order DatascienceJob#startup_order}
   */
   readonly startupOrder?: string;
   /**
   * job_network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_network_configuration DatascienceJob#job_network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_network_configuration DatascienceJob#job_network_configuration}
   */
   readonly jobNetworkConfiguration?: DatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration;
   /**
   * job_node_group_configuration_details_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#job_node_group_configuration_details_list DatascienceJob#job_node_group_configuration_details_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#job_node_group_configuration_details_list DatascienceJob#job_node_group_configuration_details_list}
   */
   readonly jobNodeGroupConfigurationDetailsList?: DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListStruct[] | cdktf.IResolvable;
 }
@@ -2963,35 +2963,35 @@ export class DatascienceJobJobNodeConfigurationDetailsOutputReference extends cd
 }
 export interface DatascienceJobJobStorageMountConfigurationDetailsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#bucket DatascienceJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#bucket DatascienceJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#destination_directory_name DatascienceJob#destination_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#destination_directory_name DatascienceJob#destination_directory_name}
   */
   readonly destinationDirectoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#destination_path DatascienceJob#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#destination_path DatascienceJob#destination_path}
   */
   readonly destinationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#export_id DatascienceJob#export_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#export_id DatascienceJob#export_id}
   */
   readonly exportId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#mount_target_id DatascienceJob#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#mount_target_id DatascienceJob#mount_target_id}
   */
   readonly mountTargetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#namespace DatascienceJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#namespace DatascienceJob#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#prefix DatascienceJob#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#prefix DatascienceJob#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#storage_type DatascienceJob#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#storage_type DatascienceJob#storage_type}
   */
   readonly storageType: string;
 }
@@ -3304,15 +3304,15 @@ export class DatascienceJobJobStorageMountConfigurationDetailsListStructList ext
 }
 export interface DatascienceJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#create DatascienceJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#create DatascienceJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#delete DatascienceJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#delete DatascienceJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#update DatascienceJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#update DatascienceJob#update}
   */
   readonly update?: string;
 }
@@ -3464,7 +3464,7 @@ export class DatascienceJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job oci_datascience_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job oci_datascience_job}
 */
 export class DatascienceJob extends cdktf.TerraformResource {
 
@@ -3480,7 +3480,7 @@ export class DatascienceJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceJob to import
-  * @param importFromId The id of the existing DatascienceJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3492,7 +3492,7 @@ export class DatascienceJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_job oci_datascience_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_job oci_datascience_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3503,8 +3503,8 @@ export class DatascienceJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

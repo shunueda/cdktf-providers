@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixServiceGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#id DataNutanixServiceGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#id DataNutanixServiceGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataNutanixServiceGroupsConfig extends cdktf.TerraformMetaArgum
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#metadata DataNutanixServiceGroups#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#metadata DataNutanixServiceGroups#metadata}
   */
   readonly metadata?: DataNutanixServiceGroupsMetadata[] | cdktf.IResolvable;
 }
@@ -619,27 +619,27 @@ export class DataNutanixServiceGroupsEntitiesList extends cdktf.ComplexList {
 }
 export interface DataNutanixServiceGroupsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#filter DataNutanixServiceGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#filter DataNutanixServiceGroups#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#kind DataNutanixServiceGroups#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#kind DataNutanixServiceGroups#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#length DataNutanixServiceGroups#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#length DataNutanixServiceGroups#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#offset DataNutanixServiceGroups#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#offset DataNutanixServiceGroups#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#sort_attribute DataNutanixServiceGroups#sort_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#sort_attribute DataNutanixServiceGroups#sort_attribute}
   */
   readonly sortAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#sort_order DataNutanixServiceGroups#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#sort_order DataNutanixServiceGroups#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -900,7 +900,7 @@ export class DataNutanixServiceGroupsMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups nutanix_service_groups}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups nutanix_service_groups}
 */
 export class DataNutanixServiceGroups extends cdktf.TerraformDataSource {
 
@@ -916,7 +916,7 @@ export class DataNutanixServiceGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixServiceGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixServiceGroups to import
-  * @param importFromId The id of the existing DataNutanixServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixServiceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixServiceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -928,7 +928,7 @@ export class DataNutanixServiceGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/service_groups nutanix_service_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/service_groups nutanix_service_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -939,8 +939,8 @@ export class DataNutanixServiceGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_service_groups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

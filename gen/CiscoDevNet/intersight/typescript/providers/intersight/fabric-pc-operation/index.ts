@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#account_moid FabricPcOperation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#account_moid FabricPcOperation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   * * `None` - No admin triggered action.
   * * `SetUserLabel` - Admin triggered operation to set the user label on the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#admin_action FabricPcOperation#admin_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#admin_action FabricPcOperation#admin_action}
   */
   readonly adminAction?: string;
   /**
@@ -30,13 +30,13 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   * * `Enabled` - Admin configured Enabled State.
   * * `Disabled` - Admin configured Disabled State.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#admin_state FabricPcOperation#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#admin_state FabricPcOperation#admin_state}
   */
   readonly adminState?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#ancestors FabricPcOperation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#ancestors FabricPcOperation#ancestors}
   */
   readonly ancestors?: FabricPcOperationAncestors[] | cdktf.IResolvable;
   /**
@@ -44,7 +44,7 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
@@ -55,23 +55,23 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   * * `Failed` - User configured settings could not be applied.
   * * `Scheduled` - User configured settings are scheduled to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#config_state FabricPcOperation#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#config_state FabricPcOperation#config_state}
   */
   readonly configState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#create_time FabricPcOperation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#create_time FabricPcOperation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#domain_group_moid FabricPcOperation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#domain_group_moid FabricPcOperation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#id FabricPcOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#id FabricPcOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,95 +80,95 @@ export interface FabricPcOperationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#mod_time FabricPcOperation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#mod_time FabricPcOperation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
   * A reference to a networkElement resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#network_element FabricPcOperation#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#network_element FabricPcOperation#network_element}
   */
   readonly networkElement?: FabricPcOperationNetworkElement[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#owners FabricPcOperation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#owners FabricPcOperation#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#parent FabricPcOperation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#parent FabricPcOperation#parent}
   */
   readonly parent?: FabricPcOperationParent[] | cdktf.IResolvable;
   /**
   * Port Channel Identifier for the collection of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#pc_id FabricPcOperation#pc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#pc_id FabricPcOperation#pc_id}
   */
   readonly pcId?: number;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#permission_resources FabricPcOperation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#permission_resources FabricPcOperation#permission_resources}
   */
   readonly permissionResources?: FabricPcOperationPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#shared_scope FabricPcOperation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#shared_scope FabricPcOperation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#tags FabricPcOperation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#tags FabricPcOperation#tags}
   */
   readonly tags?: FabricPcOperationTags[] | cdktf.IResolvable;
   /**
   * The user defined label assigned to the a Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#user_label FabricPcOperation#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#user_label FabricPcOperation#user_label}
   */
   readonly userLabel?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#version_context FabricPcOperation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#version_context FabricPcOperation#version_context}
   */
   readonly versionContext?: FabricPcOperationVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricPcOperationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -400,23 +400,23 @@ export class FabricPcOperationAncestorsList extends cdktf.ComplexList {
 }
 export interface FabricPcOperationNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -648,23 +648,23 @@ export class FabricPcOperationNetworkElementList extends cdktf.ComplexList {
 }
 export interface FabricPcOperationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -896,23 +896,23 @@ export class FabricPcOperationParentList extends cdktf.ComplexList {
 }
 export interface FabricPcOperationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1144,23 +1144,23 @@ export class FabricPcOperationPermissionResourcesList extends cdktf.ComplexList 
 }
 export interface FabricPcOperationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1392,23 +1392,23 @@ export class FabricPcOperationTagsAncestorDefinitionsList extends cdktf.ComplexL
 }
 export interface FabricPcOperationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1640,31 +1640,35 @@ export class FabricPcOperationTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FabricPcOperationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#ancestor_definitions FabricPcOperation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#ancestor_definitions FabricPcOperation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricPcOperationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#definition FabricPcOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#definition FabricPcOperation#definition}
   */
   readonly definition?: FabricPcOperationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#key FabricPcOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#key FabricPcOperation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#propagated FabricPcOperation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#propagated FabricPcOperation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#type FabricPcOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#sys_tag FabricPcOperation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#type FabricPcOperation#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#value FabricPcOperation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#value FabricPcOperation#value}
   */
   readonly value?: string;
 }
@@ -1680,6 +1684,7 @@ export function fabricPcOperationTagsToTerraform(struct?: FabricPcOperationTags 
     definition: cdktf.listMapper(fabricPcOperationTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1718,6 +1723,12 @@ export function fabricPcOperationTagsToHclTerraform(struct?: FabricPcOperationTa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1780,6 +1791,10 @@ export class FabricPcOperationTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1800,6 +1815,7 @@ export class FabricPcOperationTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1815,6 +1831,7 @@ export class FabricPcOperationTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1900,6 +1917,22 @@ export class FabricPcOperationTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1954,23 +1987,23 @@ export class FabricPcOperationTagsList extends cdktf.ComplexList {
 }
 export interface FabricPcOperationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2202,23 +2235,23 @@ export class FabricPcOperationVersionContextInterestedMosList extends cdktf.Comp
 }
 export interface FabricPcOperationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#moid FabricPcOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#selector FabricPcOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2450,39 +2483,39 @@ export class FabricPcOperationVersionContextRefMoList extends cdktf.ComplexList 
 }
 export interface FabricPcOperationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#additional_properties FabricPcOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#class_id FabricPcOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#interested_mos FabricPcOperation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#interested_mos FabricPcOperation#interested_mos}
   */
   readonly interestedMos?: FabricPcOperationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#marked_for_deletion FabricPcOperation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#marked_for_deletion FabricPcOperation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#nr_version FabricPcOperation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#nr_version FabricPcOperation#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#object_type FabricPcOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#ref_mo FabricPcOperation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#ref_mo FabricPcOperation#ref_mo}
   */
   readonly refMo?: FabricPcOperationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#timestamp FabricPcOperation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#timestamp FabricPcOperation#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#version_type FabricPcOperation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#version_type FabricPcOperation#version_type}
   */
   readonly versionType?: string;
 }
@@ -2830,7 +2863,7 @@ export class FabricPcOperationVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation intersight_fabric_pc_operation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation intersight_fabric_pc_operation}
 */
 export class FabricPcOperation extends cdktf.TerraformResource {
 
@@ -2846,7 +2879,7 @@ export class FabricPcOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricPcOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricPcOperation to import
-  * @param importFromId The id of the existing FabricPcOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricPcOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricPcOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2858,7 +2891,7 @@ export class FabricPcOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_pc_operation intersight_fabric_pc_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_pc_operation intersight_fabric_pc_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2869,8 +2902,8 @@ export class FabricPcOperation extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_pc_operation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

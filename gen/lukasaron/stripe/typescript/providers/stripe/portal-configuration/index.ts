@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PortalConfigurationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether the configuration is active and can be used to create portal sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#active PortalConfiguration#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#active PortalConfiguration#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The default URL to redirect customers to when they click on the portal's link to return to your website. This can be overriden when creating the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#default_return_url PortalConfiguration#default_return_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#default_return_url PortalConfiguration#default_return_url}
   */
   readonly defaultReturnUrl?: string;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#metadata PortalConfiguration#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#metadata PortalConfiguration#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * business_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#business_profile PortalConfiguration#business_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#business_profile PortalConfiguration#business_profile}
   */
   readonly businessProfile: PortalConfigurationBusinessProfile;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#features PortalConfiguration#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#features PortalConfiguration#features}
   */
   readonly features: PortalConfigurationFeatures;
   /**
   * login_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#login_page PortalConfiguration#login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#login_page PortalConfiguration#login_page}
   */
   readonly loginPage?: PortalConfigurationLoginPage;
 }
@@ -48,19 +48,19 @@ export interface PortalConfigurationBusinessProfile {
   /**
   * The messaging shown to customers in the portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#headline PortalConfiguration#headline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#headline PortalConfiguration#headline}
   */
   readonly headline?: string;
   /**
   * A link to the business's publicly available privacy policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#privacy_policy_url PortalConfiguration#privacy_policy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#privacy_policy_url PortalConfiguration#privacy_policy_url}
   */
   readonly privacyPolicyUrl?: string;
   /**
   * A link to the business's publicly available terms of service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#terms_of_service_url PortalConfiguration#terms_of_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#terms_of_service_url PortalConfiguration#terms_of_service_url}
   */
   readonly termsOfServiceUrl?: string;
 }
@@ -204,13 +204,13 @@ export interface PortalConfigurationFeaturesCustomerUpdate {
   /**
   * The types of customer updates that are supported. When empty, customers are not updatable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#allowed_updates PortalConfiguration#allowed_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#allowed_updates PortalConfiguration#allowed_updates}
   */
   readonly allowedUpdates?: string[];
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -322,7 +322,7 @@ export interface PortalConfigurationFeaturesInvoiceHistory {
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -405,7 +405,7 @@ export interface PortalConfigurationFeaturesPaymentMethodUpdate {
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -488,13 +488,13 @@ export interface PortalConfigurationFeaturesSubscriptionCancelCancellationReason
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Which cancellation reasons will be given as options to the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#options PortalConfiguration#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#options PortalConfiguration#options}
   */
   readonly options: string[];
 }
@@ -603,25 +603,25 @@ export interface PortalConfigurationFeaturesSubscriptionCancel {
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Whether to cancel subscriptions immediately or at the end of the billing period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#mode PortalConfiguration#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#mode PortalConfiguration#mode}
   */
   readonly mode?: string;
   /**
   * Whether to create prorations when canceling subscriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#proration_behavior PortalConfiguration#proration_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#proration_behavior PortalConfiguration#proration_behavior}
   */
   readonly prorationBehavior?: string;
   /**
   * cancellation_reason block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#cancellation_reason PortalConfiguration#cancellation_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#cancellation_reason PortalConfiguration#cancellation_reason}
   */
   readonly cancellationReason?: PortalConfigurationFeaturesSubscriptionCancelCancellationReason;
 }
@@ -791,13 +791,13 @@ export interface PortalConfigurationFeaturesSubscriptionUpdateProducts {
   /**
   * The list of price IDs for the product that a subscription can be updated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#prices PortalConfiguration#prices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#prices PortalConfiguration#prices}
   */
   readonly prices: string[];
   /**
   * The product id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#product PortalConfiguration#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#product PortalConfiguration#product}
   */
   readonly product: string;
 }
@@ -938,25 +938,25 @@ export interface PortalConfigurationFeaturesSubscriptionUpdate {
   /**
   * The types of subscription updates that are supported. When empty, subscriptions are not updateable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#default_allowed_updates PortalConfiguration#default_allowed_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#default_allowed_updates PortalConfiguration#default_allowed_updates}
   */
   readonly defaultAllowedUpdates: string[];
   /**
   * Whether the feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Determines how to handle prorations resulting from subscription updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#proration_behavior PortalConfiguration#proration_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#proration_behavior PortalConfiguration#proration_behavior}
   */
   readonly prorationBehavior?: string;
   /**
   * products block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#products PortalConfiguration#products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#products PortalConfiguration#products}
   */
   readonly products: PortalConfigurationFeaturesSubscriptionUpdateProducts[] | cdktf.IResolvable;
 }
@@ -1152,31 +1152,31 @@ export interface PortalConfigurationFeatures {
   /**
   * customer_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#customer_update PortalConfiguration#customer_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#customer_update PortalConfiguration#customer_update}
   */
   readonly customerUpdate?: PortalConfigurationFeaturesCustomerUpdate;
   /**
   * invoice_history block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#invoice_history PortalConfiguration#invoice_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#invoice_history PortalConfiguration#invoice_history}
   */
   readonly invoiceHistory?: PortalConfigurationFeaturesInvoiceHistory;
   /**
   * payment_method_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#payment_method_update PortalConfiguration#payment_method_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#payment_method_update PortalConfiguration#payment_method_update}
   */
   readonly paymentMethodUpdate?: PortalConfigurationFeaturesPaymentMethodUpdate;
   /**
   * subscription_cancel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#subscription_cancel PortalConfiguration#subscription_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#subscription_cancel PortalConfiguration#subscription_cancel}
   */
   readonly subscriptionCancel?: PortalConfigurationFeaturesSubscriptionCancel;
   /**
   * subscription_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#subscription_update PortalConfiguration#subscription_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#subscription_update PortalConfiguration#subscription_update}
   */
   readonly subscriptionUpdate?: PortalConfigurationFeaturesSubscriptionUpdate[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface PortalConfigurationLoginPage {
   /**
   * Set to true to generate a shareable URL login_page.url that will take your customers to a hosted login page for the customer portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#enabled PortalConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1467,7 +1467,7 @@ export class PortalConfigurationLoginPageOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration stripe_portal_configuration}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration stripe_portal_configuration}
 */
 export class PortalConfiguration extends cdktf.TerraformResource {
 
@@ -1483,7 +1483,7 @@ export class PortalConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortalConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortalConfiguration to import
-  * @param importFromId The id of the existing PortalConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortalConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortalConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1495,7 +1495,7 @@ export class PortalConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/portal_configuration stripe_portal_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/portal_configuration stripe_portal_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1506,8 +1506,8 @@ export class PortalConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_portal_configuration',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKvmPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#account_moid DataIntersightKvmPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#account_moid DataIntersightKvmPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightKvmPolicyConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#create_time DataIntersightKvmPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#create_time DataIntersightKvmPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#description DataIntersightKvmPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#description DataIntersightKvmPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#domain_group_moid DataIntersightKvmPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#domain_group_moid DataIntersightKvmPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * If enabled, displays KVM session on any monitor attached to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#enable_local_server_video DataIntersightKvmPolicy#enable_local_server_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#enable_local_server_video DataIntersightKvmPolicy#enable_local_server_video}
   */
   readonly enableLocalServerVideo?: boolean | cdktf.IResolvable;
   /**
   * If enabled, encrypts all video information sent through KVM. Please note that this can no longer be disabled for servers running versions 4.2 and above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#enable_video_encryption DataIntersightKvmPolicy#enable_video_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#enable_video_encryption DataIntersightKvmPolicy#enable_video_encryption}
   */
   readonly enableVideoEncryption?: boolean | cdktf.IResolvable;
   /**
   * State of the vKVM service on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#enabled DataIntersightKvmPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#enabled DataIntersightKvmPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#id DataIntersightKvmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#id DataIntersightKvmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface DataIntersightKvmPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The maximum number of concurrent KVM sessions allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#maximum_sessions DataIntersightKvmPolicy#maximum_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#maximum_sessions DataIntersightKvmPolicy#maximum_sessions}
   */
   readonly maximumSessions?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#mod_time DataIntersightKvmPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#mod_time DataIntersightKvmPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#name DataIntersightKvmPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#name DataIntersightKvmPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#owners DataIntersightKvmPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#owners DataIntersightKvmPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * The port used for KVM communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#remote_port DataIntersightKvmPolicy#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#remote_port DataIntersightKvmPolicy#remote_port}
   */
   readonly remotePort?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#shared_scope DataIntersightKvmPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#shared_scope DataIntersightKvmPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Enables Tunneled vKVM on the endpoint. Applicable only for Device Connectors that support Tunneled vKVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#tunneled_kvm_enabled DataIntersightKvmPolicy#tunneled_kvm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#tunneled_kvm_enabled DataIntersightKvmPolicy#tunneled_kvm_enabled}
   */
   readonly tunneledKvmEnabled?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#ancestors DataIntersightKvmPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#ancestors DataIntersightKvmPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightKvmPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#organization DataIntersightKvmPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#organization DataIntersightKvmPolicy#organization}
   */
   readonly organization?: DataIntersightKvmPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#parent DataIntersightKvmPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#parent DataIntersightKvmPolicy#parent}
   */
   readonly parent?: DataIntersightKvmPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#permission_resources DataIntersightKvmPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#permission_resources DataIntersightKvmPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightKvmPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#profiles DataIntersightKvmPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#profiles DataIntersightKvmPolicy#profiles}
   */
   readonly profiles?: DataIntersightKvmPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#tags DataIntersightKvmPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#tags DataIntersightKvmPolicy#tags}
   */
   readonly tags?: DataIntersightKvmPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#version_context DataIntersightKvmPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#version_context DataIntersightKvmPolicy#version_context}
   */
   readonly versionContext?: DataIntersightKvmPolicyVersionContext;
 }
@@ -908,6 +908,11 @@ export class DataIntersightKvmPolicyResultsTagsOutputReference extends cdktf.Com
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1448,7 +1453,7 @@ export class DataIntersightKvmPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1456,19 +1461,19 @@ export interface DataIntersightKvmPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1481,7 +1486,7 @@ export interface DataIntersightKvmPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1713,7 +1718,7 @@ export class DataIntersightKvmPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1721,19 +1726,19 @@ export interface DataIntersightKvmPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1746,7 +1751,7 @@ export interface DataIntersightKvmPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1946,7 +1951,7 @@ export class DataIntersightKvmPolicyOrganizationOutputReference extends cdktf.Co
 }
 export interface DataIntersightKvmPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1954,19 +1959,19 @@ export interface DataIntersightKvmPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1979,7 +1984,7 @@ export interface DataIntersightKvmPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2179,7 +2184,7 @@ export class DataIntersightKvmPolicyParentOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightKvmPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2187,19 +2192,19 @@ export interface DataIntersightKvmPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2212,7 +2217,7 @@ export interface DataIntersightKvmPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2444,7 +2449,7 @@ export class DataIntersightKvmPolicyPermissionResourcesList extends cdktf.Comple
 }
 export interface DataIntersightKvmPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2452,19 +2457,19 @@ export interface DataIntersightKvmPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2477,7 +2482,7 @@ export interface DataIntersightKvmPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2709,7 +2714,7 @@ export class DataIntersightKvmPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2717,19 +2722,19 @@ export interface DataIntersightKvmPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2742,7 +2747,7 @@ export interface DataIntersightKvmPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2974,7 +2979,7 @@ export class DataIntersightKvmPolicyTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface DataIntersightKvmPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2982,19 +2987,19 @@ export interface DataIntersightKvmPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3007,7 +3012,7 @@ export interface DataIntersightKvmPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3207,45 +3212,51 @@ export class DataIntersightKvmPolicyTagsDefinitionOutputReference extends cdktf.
 }
 export interface DataIntersightKvmPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#key DataIntersightKvmPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#key DataIntersightKvmPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#propagated DataIntersightKvmPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#propagated DataIntersightKvmPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#sys_tag DataIntersightKvmPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#type DataIntersightKvmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#type DataIntersightKvmPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#value DataIntersightKvmPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#value DataIntersightKvmPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#ancestor_definitions DataIntersightKvmPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#ancestor_definitions DataIntersightKvmPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKvmPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#definition DataIntersightKvmPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#definition DataIntersightKvmPolicy#definition}
   */
   readonly definition?: DataIntersightKvmPolicyTagsDefinition;
 }
@@ -3259,6 +3270,7 @@ export function dataIntersightKvmPolicyTagsToTerraform(struct?: DataIntersightKv
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightKvmPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3287,6 +3299,12 @@ export function dataIntersightKvmPolicyTagsToHclTerraform(struct?: DataIntersigh
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3353,6 +3371,10 @@ export class DataIntersightKvmPolicyTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3379,6 +3401,7 @@ export class DataIntersightKvmPolicyTagsOutputReference extends cdktf.ComplexObj
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3394,6 +3417,7 @@ export class DataIntersightKvmPolicyTagsOutputReference extends cdktf.ComplexObj
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3447,6 +3471,22 @@ export class DataIntersightKvmPolicyTagsOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3535,7 +3575,7 @@ export class DataIntersightKvmPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3543,19 +3583,19 @@ export interface DataIntersightKvmPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3568,7 +3608,7 @@ export interface DataIntersightKvmPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3800,7 +3840,7 @@ export class DataIntersightKvmPolicyVersionContextInterestedMosList extends cdkt
 }
 export interface DataIntersightKvmPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3808,19 +3848,19 @@ export interface DataIntersightKvmPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#moid DataIntersightKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3833,7 +3873,7 @@ export interface DataIntersightKvmPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#selector DataIntersightKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4033,7 +4073,7 @@ export class DataIntersightKvmPolicyVersionContextRefMoOutputReference extends c
 }
 export interface DataIntersightKvmPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#additional_properties DataIntersightKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4041,32 +4081,32 @@ export interface DataIntersightKvmPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#class_id DataIntersightKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#marked_for_deletion DataIntersightKvmPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#marked_for_deletion DataIntersightKvmPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#nr_version DataIntersightKvmPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#nr_version DataIntersightKvmPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#object_type DataIntersightKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#timestamp DataIntersightKvmPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#timestamp DataIntersightKvmPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4077,19 +4117,19 @@ export interface DataIntersightKvmPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#version_type DataIntersightKvmPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#version_type DataIntersightKvmPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#interested_mos DataIntersightKvmPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#interested_mos DataIntersightKvmPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightKvmPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#ref_mo DataIntersightKvmPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#ref_mo DataIntersightKvmPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightKvmPolicyVersionContextRefMo;
 }
@@ -4405,7 +4445,7 @@ export class DataIntersightKvmPolicyVersionContextOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy intersight_kvm_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy intersight_kvm_policy}
 */
 export class DataIntersightKvmPolicy extends cdktf.TerraformDataSource {
 
@@ -4421,7 +4461,7 @@ export class DataIntersightKvmPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightKvmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKvmPolicy to import
-  * @param importFromId The id of the existing DataIntersightKvmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKvmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKvmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4433,7 +4473,7 @@ export class DataIntersightKvmPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kvm_policy intersight_kvm_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_policy intersight_kvm_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4444,8 +4484,8 @@ export class DataIntersightKvmPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_kvm_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

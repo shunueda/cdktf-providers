@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNvmeRaidConfigurationConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#account_moid DataIntersightStorageNvmeRaidConfiguration#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#account_moid DataIntersightStorageNvmeRaidConfiguration#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightStorageNvmeRaidConfigurationConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The storage controller Dn Name for which Nvme RAID is created at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#controller_dn DataIntersightStorageNvmeRaidConfiguration#controller_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#controller_dn DataIntersightStorageNvmeRaidConfiguration#controller_dn}
   */
   readonly controllerDn?: string;
   /**
   * The storage controller Moid for which Nvme RAID creation is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#controller_moid DataIntersightStorageNvmeRaidConfiguration#controller_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#controller_moid DataIntersightStorageNvmeRaidConfiguration#controller_moid}
   */
   readonly controllerMoid?: string;
   /**
   * Describes series of the installed controller. This will be used in the activation step after reboot to calculate the different parameters w.r.t specific controller series.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#controller_series DataIntersightStorageNvmeRaidConfiguration#controller_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#controller_series DataIntersightStorageNvmeRaidConfiguration#controller_series}
   */
   readonly controllerSeries?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#create_time DataIntersightStorageNvmeRaidConfiguration#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#create_time DataIntersightStorageNvmeRaidConfiguration#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#domain_group_moid DataIntersightStorageNvmeRaidConfiguration#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#domain_group_moid DataIntersightStorageNvmeRaidConfiguration#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#id DataIntersightStorageNvmeRaidConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#id DataIntersightStorageNvmeRaidConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface DataIntersightStorageNvmeRaidConfigurationConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#mod_time DataIntersightStorageNvmeRaidConfiguration#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#mod_time DataIntersightStorageNvmeRaidConfiguration#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#owners DataIntersightStorageNvmeRaidConfiguration#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#owners DataIntersightStorageNvmeRaidConfiguration#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#shared_scope DataIntersightStorageNvmeRaidConfiguration#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#shared_scope DataIntersightStorageNvmeRaidConfiguration#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#ancestors DataIntersightStorageNvmeRaidConfiguration#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#ancestors DataIntersightStorageNvmeRaidConfiguration#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNvmeRaidConfigurationAncestors[] | cdktf.IResolvable;
   /**
   * disk_states block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#disk_states DataIntersightStorageNvmeRaidConfiguration#disk_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#disk_states DataIntersightStorageNvmeRaidConfiguration#disk_states}
   */
   readonly diskStates?: DataIntersightStorageNvmeRaidConfigurationDiskStates[] | cdktf.IResolvable;
   /**
   * drive_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#drive_groups DataIntersightStorageNvmeRaidConfiguration#drive_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#drive_groups DataIntersightStorageNvmeRaidConfiguration#drive_groups}
   */
   readonly driveGroups?: DataIntersightStorageNvmeRaidConfigurationDriveGroups[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#parent DataIntersightStorageNvmeRaidConfiguration#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#parent DataIntersightStorageNvmeRaidConfiguration#parent}
   */
   readonly parent?: DataIntersightStorageNvmeRaidConfigurationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#permission_resources DataIntersightStorageNvmeRaidConfiguration#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#permission_resources DataIntersightStorageNvmeRaidConfiguration#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNvmeRaidConfigurationPermissionResources[] | cdktf.IResolvable;
   /**
   * server_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#server_profile DataIntersightStorageNvmeRaidConfiguration#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#server_profile DataIntersightStorageNvmeRaidConfiguration#server_profile}
   */
   readonly serverProfile?: DataIntersightStorageNvmeRaidConfigurationServerProfile;
   /**
   * storage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#storage_policy DataIntersightStorageNvmeRaidConfiguration#storage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#storage_policy DataIntersightStorageNvmeRaidConfiguration#storage_policy}
   */
   readonly storagePolicy?: DataIntersightStorageNvmeRaidConfigurationStoragePolicy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#tags DataIntersightStorageNvmeRaidConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#tags DataIntersightStorageNvmeRaidConfiguration#tags}
   */
   readonly tags?: DataIntersightStorageNvmeRaidConfigurationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#version_context DataIntersightStorageNvmeRaidConfiguration#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#version_context DataIntersightStorageNvmeRaidConfiguration#version_context}
   */
   readonly versionContext?: DataIntersightStorageNvmeRaidConfigurationVersionContext;
 }
@@ -1342,6 +1342,11 @@ export class DataIntersightStorageNvmeRaidConfigurationResultsTagsOutputReferenc
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1869,7 +1874,7 @@ export class DataIntersightStorageNvmeRaidConfigurationResultsList extends cdktf
 }
 export interface DataIntersightStorageNvmeRaidConfigurationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1877,19 +1882,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1902,7 +1907,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2134,7 +2139,7 @@ export class DataIntersightStorageNvmeRaidConfigurationAncestorsList extends cdk
 }
 export interface DataIntersightStorageNvmeRaidConfigurationDiskStates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2142,26 +2147,26 @@ export interface DataIntersightStorageNvmeRaidConfigurationDiskStates {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * Physical Disk Slot that is to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#slot DataIntersightStorageNvmeRaidConfiguration#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#slot DataIntersightStorageNvmeRaidConfiguration#slot}
   */
   readonly slot?: string;
   /**
   * Physical Disk State that is to be set at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#state DataIntersightStorageNvmeRaidConfiguration#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#state DataIntersightStorageNvmeRaidConfiguration#state}
   */
   readonly state?: string;
 }
@@ -2395,17 +2400,17 @@ export interface DataIntersightStorageNvmeRaidConfigurationDriveGroupsConfigurat
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#access_policy DataIntersightStorageNvmeRaidConfiguration#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#access_policy DataIntersightStorageNvmeRaidConfiguration#access_policy}
   */
   readonly accessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#bootable DataIntersightStorageNvmeRaidConfiguration#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#bootable DataIntersightStorageNvmeRaidConfiguration#bootable}
   */
   readonly bootable?: boolean | cdktf.IResolvable;
   /**
@@ -2413,78 +2418,78 @@ export interface DataIntersightStorageNvmeRaidConfigurationDriveGroupsConfigurat
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * This defines the characteristics of a specific storage controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#controller_dn DataIntersightStorageNvmeRaidConfiguration#controller_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#controller_dn DataIntersightStorageNvmeRaidConfiguration#controller_dn}
   */
   readonly controllerDn?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#dedicated_hot_spare DataIntersightStorageNvmeRaidConfiguration#dedicated_hot_spare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#dedicated_hot_spare DataIntersightStorageNvmeRaidConfiguration#dedicated_hot_spare}
   */
   readonly dedicatedHotSpare?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#disk_cache_policy DataIntersightStorageNvmeRaidConfiguration#disk_cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#disk_cache_policy DataIntersightStorageNvmeRaidConfiguration#disk_cache_policy}
   */
   readonly diskCachePolicy?: string;
   /**
   * The name of the virtual drive. The name can be between 1 and 15 alphanumeric characters. Spaces or any special characters other than - (hyphen) and _ (underscore) are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#raid_level DataIntersightStorageNvmeRaidConfiguration#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#raid_level DataIntersightStorageNvmeRaidConfiguration#raid_level}
   */
   readonly raidLevel?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#read_policy DataIntersightStorageNvmeRaidConfiguration#read_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#read_policy DataIntersightStorageNvmeRaidConfiguration#read_policy}
   */
   readonly readPolicy?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#self_encrypt DataIntersightStorageNvmeRaidConfiguration#self_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#self_encrypt DataIntersightStorageNvmeRaidConfiguration#self_encrypt}
   */
   readonly selfEncrypt?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#size DataIntersightStorageNvmeRaidConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#size DataIntersightStorageNvmeRaidConfiguration#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#span_disks DataIntersightStorageNvmeRaidConfiguration#span_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#span_disks DataIntersightStorageNvmeRaidConfiguration#span_disks}
   */
   readonly spanDisks?: string[];
   /**
   * Virtual drive strip size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#strip_size DataIntersightStorageNvmeRaidConfiguration#strip_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#strip_size DataIntersightStorageNvmeRaidConfiguration#strip_size}
   */
   readonly stripSize?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#write_policy DataIntersightStorageNvmeRaidConfiguration#write_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#write_policy DataIntersightStorageNvmeRaidConfiguration#write_policy}
   */
   readonly writePolicy?: string;
 }
@@ -3035,7 +3040,7 @@ export class DataIntersightStorageNvmeRaidConfigurationDriveGroupsConfigurations
 }
 export interface DataIntersightStorageNvmeRaidConfigurationDriveGroupsDedicatedHotSparesForDriveGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3043,38 +3048,38 @@ export interface DataIntersightStorageNvmeRaidConfigurationDriveGroupsDedicatedH
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * This defines if the vd does not exists at endpoint for specific storage controller per drive group. Only if it's false we will create dedicated hot spares for the existing vds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#is_new_vd DataIntersightStorageNvmeRaidConfiguration#is_new_vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#is_new_vd DataIntersightStorageNvmeRaidConfiguration#is_new_vd}
   */
   readonly isNewVd?: boolean | cdktf.IResolvable;
   /**
   * The name of the virtual drive. The name can be between 1 and 15 alphanumeric characters. Spaces or any special characters other than - (hyphen) and _ (underscore) are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * Physical Disk Slot that is used as dedicated hot spare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#slot DataIntersightStorageNvmeRaidConfiguration#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#slot DataIntersightStorageNvmeRaidConfiguration#slot}
   */
   readonly slot?: string;
   /**
   * The volume dn of the dedicated hot spare, this will be unique for each dedicated hot spare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#volume_dn DataIntersightStorageNvmeRaidConfiguration#volume_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#volume_dn DataIntersightStorageNvmeRaidConfiguration#volume_dn}
   */
   readonly volumeDn?: string;
 }
@@ -3364,7 +3369,7 @@ export class DataIntersightStorageNvmeRaidConfigurationDriveGroupsDedicatedHotSp
 }
 export interface DataIntersightStorageNvmeRaidConfigurationDriveGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3372,32 +3377,32 @@ export interface DataIntersightStorageNvmeRaidConfigurationDriveGroups {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The DriveGroup Name which is used to create virtual Drives at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#name DataIntersightStorageNvmeRaidConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#configurations DataIntersightStorageNvmeRaidConfiguration#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#configurations DataIntersightStorageNvmeRaidConfiguration#configurations}
   */
   readonly configurations?: DataIntersightStorageNvmeRaidConfigurationDriveGroupsConfigurations[] | cdktf.IResolvable;
   /**
   * dedicated_hot_spares_for_drive_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#dedicated_hot_spares_for_drive_group DataIntersightStorageNvmeRaidConfiguration#dedicated_hot_spares_for_drive_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#dedicated_hot_spares_for_drive_group DataIntersightStorageNvmeRaidConfiguration#dedicated_hot_spares_for_drive_group}
   */
   readonly dedicatedHotSparesForDriveGroup?: DataIntersightStorageNvmeRaidConfigurationDriveGroupsDedicatedHotSparesForDriveGroup[] | cdktf.IResolvable;
 }
@@ -3658,7 +3663,7 @@ export class DataIntersightStorageNvmeRaidConfigurationDriveGroupsList extends c
 }
 export interface DataIntersightStorageNvmeRaidConfigurationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3666,19 +3671,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3691,7 +3696,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3891,7 +3896,7 @@ export class DataIntersightStorageNvmeRaidConfigurationParentOutputReference ext
 }
 export interface DataIntersightStorageNvmeRaidConfigurationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3899,19 +3904,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3924,7 +3929,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4156,7 +4161,7 @@ export class DataIntersightStorageNvmeRaidConfigurationPermissionResourcesList e
 }
 export interface DataIntersightStorageNvmeRaidConfigurationServerProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4164,19 +4169,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationServerProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4189,7 +4194,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationServerProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4389,7 +4394,7 @@ export class DataIntersightStorageNvmeRaidConfigurationServerProfileOutputRefere
 }
 export interface DataIntersightStorageNvmeRaidConfigurationStoragePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4397,19 +4402,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationStoragePolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4422,7 +4427,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationStoragePolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4622,7 +4627,7 @@ export class DataIntersightStorageNvmeRaidConfigurationStoragePolicyOutputRefere
 }
 export interface DataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4630,19 +4635,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4655,7 +4660,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4887,7 +4892,7 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitionsLi
 }
 export interface DataIntersightStorageNvmeRaidConfigurationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4895,19 +4900,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4920,7 +4925,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5120,45 +5125,51 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsDefinitionOutputRefer
 }
 export interface DataIntersightStorageNvmeRaidConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#key DataIntersightStorageNvmeRaidConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#key DataIntersightStorageNvmeRaidConfiguration#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#propagated DataIntersightStorageNvmeRaidConfiguration#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#propagated DataIntersightStorageNvmeRaidConfiguration#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#sys_tag DataIntersightStorageNvmeRaidConfiguration#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#type DataIntersightStorageNvmeRaidConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#type DataIntersightStorageNvmeRaidConfiguration#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#value DataIntersightStorageNvmeRaidConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#value DataIntersightStorageNvmeRaidConfiguration#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#ancestor_definitions DataIntersightStorageNvmeRaidConfiguration#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#ancestor_definitions DataIntersightStorageNvmeRaidConfiguration#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#definition DataIntersightStorageNvmeRaidConfiguration#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#definition DataIntersightStorageNvmeRaidConfiguration#definition}
   */
   readonly definition?: DataIntersightStorageNvmeRaidConfigurationTagsDefinition;
 }
@@ -5172,6 +5183,7 @@ export function dataIntersightStorageNvmeRaidConfigurationTagsToTerraform(struct
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNvmeRaidConfigurationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5200,6 +5212,12 @@ export function dataIntersightStorageNvmeRaidConfigurationTagsToHclTerraform(str
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5266,6 +5284,10 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsOutputReference exten
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5292,6 +5314,7 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsOutputReference exten
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5307,6 +5330,7 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsOutputReference exten
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5360,6 +5384,22 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5448,7 +5488,7 @@ export class DataIntersightStorageNvmeRaidConfigurationTagsList extends cdktf.Co
 }
 export interface DataIntersightStorageNvmeRaidConfigurationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5456,19 +5496,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5481,7 +5521,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5713,7 +5753,7 @@ export class DataIntersightStorageNvmeRaidConfigurationVersionContextInterestedM
 }
 export interface DataIntersightStorageNvmeRaidConfigurationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5721,19 +5761,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#moid DataIntersightStorageNvmeRaidConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5746,7 +5786,7 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#selector DataIntersightStorageNvmeRaidConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5946,7 +5986,7 @@ export class DataIntersightStorageNvmeRaidConfigurationVersionContextRefMoOutput
 }
 export interface DataIntersightStorageNvmeRaidConfigurationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#additional_properties DataIntersightStorageNvmeRaidConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5954,32 +5994,32 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#class_id DataIntersightStorageNvmeRaidConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#marked_for_deletion DataIntersightStorageNvmeRaidConfiguration#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#marked_for_deletion DataIntersightStorageNvmeRaidConfiguration#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#nr_version DataIntersightStorageNvmeRaidConfiguration#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#nr_version DataIntersightStorageNvmeRaidConfiguration#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#object_type DataIntersightStorageNvmeRaidConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#timestamp DataIntersightStorageNvmeRaidConfiguration#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#timestamp DataIntersightStorageNvmeRaidConfiguration#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5990,19 +6030,19 @@ export interface DataIntersightStorageNvmeRaidConfigurationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#version_type DataIntersightStorageNvmeRaidConfiguration#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#version_type DataIntersightStorageNvmeRaidConfiguration#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#interested_mos DataIntersightStorageNvmeRaidConfiguration#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#interested_mos DataIntersightStorageNvmeRaidConfiguration#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNvmeRaidConfigurationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#ref_mo DataIntersightStorageNvmeRaidConfiguration#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#ref_mo DataIntersightStorageNvmeRaidConfiguration#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNvmeRaidConfigurationVersionContextRefMo;
 }
@@ -6318,7 +6358,7 @@ export class DataIntersightStorageNvmeRaidConfigurationVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration intersight_storage_nvme_raid_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration intersight_storage_nvme_raid_configuration}
 */
 export class DataIntersightStorageNvmeRaidConfiguration extends cdktf.TerraformDataSource {
 
@@ -6334,7 +6374,7 @@ export class DataIntersightStorageNvmeRaidConfiguration extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightStorageNvmeRaidConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNvmeRaidConfiguration to import
-  * @param importFromId The id of the existing DataIntersightStorageNvmeRaidConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNvmeRaidConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNvmeRaidConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6346,7 +6386,7 @@ export class DataIntersightStorageNvmeRaidConfiguration extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_nvme_raid_configuration intersight_storage_nvme_raid_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_nvme_raid_configuration intersight_storage_nvme_raid_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6357,8 +6397,8 @@ export class DataIntersightStorageNvmeRaidConfiguration extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_nvme_raid_configuration',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

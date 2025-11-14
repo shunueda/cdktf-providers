@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightMerakiOrganizationConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#account_moid DataIntersightMerakiOrganization#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#account_moid DataIntersightMerakiOrganization#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightMerakiOrganizationConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#create_time DataIntersightMerakiOrganization#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#create_time DataIntersightMerakiOrganization#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#domain_group_moid DataIntersightMerakiOrganization#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#domain_group_moid DataIntersightMerakiOrganization#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#id DataIntersightMerakiOrganization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#id DataIntersightMerakiOrganization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightMerakiOrganizationConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#mod_time DataIntersightMerakiOrganization#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#mod_time DataIntersightMerakiOrganization#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The Meraki organization name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#name DataIntersightMerakiOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#name DataIntersightMerakiOrganization#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
   * The Meraki organization id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#organization_id DataIntersightMerakiOrganization#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#organization_id DataIntersightMerakiOrganization#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#owners DataIntersightMerakiOrganization#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#owners DataIntersightMerakiOrganization#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#shared_scope DataIntersightMerakiOrganization#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#shared_scope DataIntersightMerakiOrganization#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#ancestors DataIntersightMerakiOrganization#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#ancestors DataIntersightMerakiOrganization#ancestors}
   */
   readonly ancestors?: DataIntersightMerakiOrganizationAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#parent DataIntersightMerakiOrganization#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#parent DataIntersightMerakiOrganization#parent}
   */
   readonly parent?: DataIntersightMerakiOrganizationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#permission_resources DataIntersightMerakiOrganization#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#permission_resources DataIntersightMerakiOrganization#permission_resources}
   */
   readonly permissionResources?: DataIntersightMerakiOrganizationPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#registered_device DataIntersightMerakiOrganization#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#registered_device DataIntersightMerakiOrganization#registered_device}
   */
   readonly registeredDevice?: DataIntersightMerakiOrganizationRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#tags DataIntersightMerakiOrganization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#tags DataIntersightMerakiOrganization#tags}
   */
   readonly tags?: DataIntersightMerakiOrganizationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#version_context DataIntersightMerakiOrganization#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#version_context DataIntersightMerakiOrganization#version_context}
   */
   readonly versionContext?: DataIntersightMerakiOrganizationVersionContext;
 }
@@ -771,6 +771,11 @@ export class DataIntersightMerakiOrganizationResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1275,7 +1280,7 @@ export class DataIntersightMerakiOrganizationResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightMerakiOrganizationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1283,19 +1288,19 @@ export interface DataIntersightMerakiOrganizationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1308,7 +1313,7 @@ export interface DataIntersightMerakiOrganizationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -1540,7 +1545,7 @@ export class DataIntersightMerakiOrganizationAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightMerakiOrganizationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1548,19 +1553,19 @@ export interface DataIntersightMerakiOrganizationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1573,7 +1578,7 @@ export interface DataIntersightMerakiOrganizationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -1773,7 +1778,7 @@ export class DataIntersightMerakiOrganizationParentOutputReference extends cdktf
 }
 export interface DataIntersightMerakiOrganizationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1781,19 +1786,19 @@ export interface DataIntersightMerakiOrganizationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1806,7 +1811,7 @@ export interface DataIntersightMerakiOrganizationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -2038,7 +2043,7 @@ export class DataIntersightMerakiOrganizationPermissionResourcesList extends cdk
 }
 export interface DataIntersightMerakiOrganizationRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2046,19 +2051,19 @@ export interface DataIntersightMerakiOrganizationRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2071,7 +2076,7 @@ export interface DataIntersightMerakiOrganizationRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -2271,7 +2276,7 @@ export class DataIntersightMerakiOrganizationRegisteredDeviceOutputReference ext
 }
 export interface DataIntersightMerakiOrganizationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2279,19 +2284,19 @@ export interface DataIntersightMerakiOrganizationTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2304,7 +2309,7 @@ export interface DataIntersightMerakiOrganizationTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -2536,7 +2541,7 @@ export class DataIntersightMerakiOrganizationTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightMerakiOrganizationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2544,19 +2549,19 @@ export interface DataIntersightMerakiOrganizationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2569,7 +2574,7 @@ export interface DataIntersightMerakiOrganizationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -2769,45 +2774,51 @@ export class DataIntersightMerakiOrganizationTagsDefinitionOutputReference exten
 }
 export interface DataIntersightMerakiOrganizationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#key DataIntersightMerakiOrganization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#key DataIntersightMerakiOrganization#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#propagated DataIntersightMerakiOrganization#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#propagated DataIntersightMerakiOrganization#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#sys_tag DataIntersightMerakiOrganization#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#type DataIntersightMerakiOrganization#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#type DataIntersightMerakiOrganization#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#value DataIntersightMerakiOrganization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#value DataIntersightMerakiOrganization#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#ancestor_definitions DataIntersightMerakiOrganization#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#ancestor_definitions DataIntersightMerakiOrganization#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMerakiOrganizationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#definition DataIntersightMerakiOrganization#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#definition DataIntersightMerakiOrganization#definition}
   */
   readonly definition?: DataIntersightMerakiOrganizationTagsDefinition;
 }
@@ -2821,6 +2832,7 @@ export function dataIntersightMerakiOrganizationTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightMerakiOrganizationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2849,6 +2861,12 @@ export function dataIntersightMerakiOrganizationTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2915,6 +2933,10 @@ export class DataIntersightMerakiOrganizationTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2941,6 +2963,7 @@ export class DataIntersightMerakiOrganizationTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2956,6 +2979,7 @@ export class DataIntersightMerakiOrganizationTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3009,6 +3033,22 @@ export class DataIntersightMerakiOrganizationTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3097,7 +3137,7 @@ export class DataIntersightMerakiOrganizationTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightMerakiOrganizationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3105,19 +3145,19 @@ export interface DataIntersightMerakiOrganizationVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3130,7 +3170,7 @@ export interface DataIntersightMerakiOrganizationVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -3362,7 +3402,7 @@ export class DataIntersightMerakiOrganizationVersionContextInterestedMosList ext
 }
 export interface DataIntersightMerakiOrganizationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3370,19 +3410,19 @@ export interface DataIntersightMerakiOrganizationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#moid DataIntersightMerakiOrganization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3395,7 +3435,7 @@ export interface DataIntersightMerakiOrganizationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#selector DataIntersightMerakiOrganization#selector}
   */
   readonly selector?: string;
 }
@@ -3595,7 +3635,7 @@ export class DataIntersightMerakiOrganizationVersionContextRefMoOutputReference 
 }
 export interface DataIntersightMerakiOrganizationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#additional_properties DataIntersightMerakiOrganization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3603,32 +3643,32 @@ export interface DataIntersightMerakiOrganizationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#class_id DataIntersightMerakiOrganization#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#marked_for_deletion DataIntersightMerakiOrganization#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#marked_for_deletion DataIntersightMerakiOrganization#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#nr_version DataIntersightMerakiOrganization#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#nr_version DataIntersightMerakiOrganization#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#object_type DataIntersightMerakiOrganization#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#timestamp DataIntersightMerakiOrganization#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#timestamp DataIntersightMerakiOrganization#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3639,19 +3679,19 @@ export interface DataIntersightMerakiOrganizationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#version_type DataIntersightMerakiOrganization#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#version_type DataIntersightMerakiOrganization#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#interested_mos DataIntersightMerakiOrganization#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#interested_mos DataIntersightMerakiOrganization#interested_mos}
   */
   readonly interestedMos?: DataIntersightMerakiOrganizationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#ref_mo DataIntersightMerakiOrganization#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#ref_mo DataIntersightMerakiOrganization#ref_mo}
   */
   readonly refMo?: DataIntersightMerakiOrganizationVersionContextRefMo;
 }
@@ -3967,7 +4007,7 @@ export class DataIntersightMerakiOrganizationVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization intersight_meraki_organization}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization intersight_meraki_organization}
 */
 export class DataIntersightMerakiOrganization extends cdktf.TerraformDataSource {
 
@@ -3983,7 +4023,7 @@ export class DataIntersightMerakiOrganization extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightMerakiOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMerakiOrganization to import
-  * @param importFromId The id of the existing DataIntersightMerakiOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMerakiOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMerakiOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3995,7 +4035,7 @@ export class DataIntersightMerakiOrganization extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/meraki_organization intersight_meraki_organization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_organization intersight_meraki_organization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4006,8 +4046,8 @@ export class DataIntersightMerakiOrganization extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_meraki_organization',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

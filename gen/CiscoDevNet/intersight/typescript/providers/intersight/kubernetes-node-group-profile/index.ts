@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface KubernetesNodeGroupProfileConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#account_moid KubernetesNodeGroupProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#account_moid KubernetesNodeGroupProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#action KubernetesNodeGroupProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#action KubernetesNodeGroupProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#action_params KubernetesNodeGroupProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#action_params KubernetesNodeGroupProfile#action_params}
   */
   readonly actionParams?: KubernetesNodeGroupProfileActionParams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#ancestors KubernetesNodeGroupProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#ancestors KubernetesNodeGroupProfile#ancestors}
   */
   readonly ancestors?: KubernetesNodeGroupProfileAncestors[] | cdktf.IResolvable;
   /**
@@ -38,62 +38,62 @@ export interface KubernetesNodeGroupProfileConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a kubernetesClusterProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#cluster_profile KubernetesNodeGroupProfile#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#cluster_profile KubernetesNodeGroupProfile#cluster_profile}
   */
   readonly clusterProfile?: KubernetesNodeGroupProfileClusterProfile[] | cdktf.IResolvable;
   /**
   * The configuration state and results of the last configuration operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#config_context KubernetesNodeGroupProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#config_context KubernetesNodeGroupProfile#config_context}
   */
   readonly configContext?: KubernetesNodeGroupProfileConfigContext[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#create_time KubernetesNodeGroupProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#create_time KubernetesNodeGroupProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * Current number of nodes in this node group at any given point in time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#currentsize KubernetesNodeGroupProfile#currentsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#currentsize KubernetesNodeGroupProfile#currentsize}
   */
   readonly currentsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#deployed_policies KubernetesNodeGroupProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#deployed_policies KubernetesNodeGroupProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#description KubernetesNodeGroupProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#description KubernetesNodeGroupProfile#description}
   */
   readonly description?: string;
   /**
   * Desired number of nodes in this node group, same as minsize initially and is updated by the auto-scaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#desiredsize KubernetesNodeGroupProfile#desiredsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#desiredsize KubernetesNodeGroupProfile#desiredsize}
   */
   readonly desiredsize?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#domain_group_moid KubernetesNodeGroupProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#domain_group_moid KubernetesNodeGroupProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#gpu_config KubernetesNodeGroupProfile#gpu_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#gpu_config KubernetesNodeGroupProfile#gpu_config}
   */
   readonly gpuConfig?: KubernetesNodeGroupProfileGpuConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#id KubernetesNodeGroupProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#id KubernetesNodeGroupProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,54 +103,54 @@ export interface KubernetesNodeGroupProfileConfig extends cdktf.TerraformMetaArg
   * A reference to a kubernetesBaseInfrastructureProvider resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#infra_provider KubernetesNodeGroupProfile#infra_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#infra_provider KubernetesNodeGroupProfile#infra_provider}
   */
   readonly infraProvider?: KubernetesNodeGroupProfileInfraProvider[] | cdktf.IResolvable;
   /**
   * An array of relationships to ippoolPool resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#ip_pools KubernetesNodeGroupProfile#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#ip_pools KubernetesNodeGroupProfile#ip_pools}
   */
   readonly ipPools?: KubernetesNodeGroupProfileIpPools[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesVersionPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#kubernetes_version KubernetesNodeGroupProfile#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#kubernetes_version KubernetesNodeGroupProfile#kubernetes_version}
   */
   readonly kubernetesVersion?: KubernetesNodeGroupProfileKubernetesVersion[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#labels KubernetesNodeGroupProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#labels KubernetesNodeGroupProfile#labels}
   */
   readonly labels?: KubernetesNodeGroupProfileLabels[] | cdktf.IResolvable;
   /**
   * Maximum number of nodes this node group can scale up to during repair, replacement or upgrade operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#maxsize KubernetesNodeGroupProfile#maxsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#maxsize KubernetesNodeGroupProfile#maxsize}
   */
   readonly maxsize?: number;
   /**
   * Minimum number of available nodes this node group can scale down to during repair, replacement or upgrade operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#minsize KubernetesNodeGroupProfile#minsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#minsize KubernetesNodeGroupProfile#minsize}
   */
   readonly minsize?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#mod_time KubernetesNodeGroupProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#mod_time KubernetesNodeGroupProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#name KubernetesNodeGroupProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#name KubernetesNodeGroupProfile#name}
   */
   readonly name?: string;
   /**
@@ -159,108 +159,108 @@ export interface KubernetesNodeGroupProfileConfig extends cdktf.TerraformMetaArg
   * * `ControlPlane` - Node will be marked as a control plane node.
   * * `ControlPlaneWorker` - Node will be both a controle plane and a worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#node_type KubernetesNodeGroupProfile#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#node_type KubernetesNodeGroupProfile#node_type}
   */
   readonly nodeType?: string;
   /**
   * An array of relationships to kubernetesNodeProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#nodes KubernetesNodeGroupProfile#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#nodes KubernetesNodeGroupProfile#nodes}
   */
   readonly nodes?: KubernetesNodeGroupProfileNodes[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#owners KubernetesNodeGroupProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#owners KubernetesNodeGroupProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#parent KubernetesNodeGroupProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#parent KubernetesNodeGroupProfile#parent}
   */
   readonly parent?: KubernetesNodeGroupProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#permission_resources KubernetesNodeGroupProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#permission_resources KubernetesNodeGroupProfile#permission_resources}
   */
   readonly permissionResources?: KubernetesNodeGroupProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#policy_bucket KubernetesNodeGroupProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#policy_bucket KubernetesNodeGroupProfile#policy_bucket}
   */
   readonly policyBucket?: KubernetesNodeGroupProfilePolicyBucket[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#removed_policies KubernetesNodeGroupProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#removed_policies KubernetesNodeGroupProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#scheduled_actions KubernetesNodeGroupProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#scheduled_actions KubernetesNodeGroupProfile#scheduled_actions}
   */
   readonly scheduledActions?: KubernetesNodeGroupProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#shared_scope KubernetesNodeGroupProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#shared_scope KubernetesNodeGroupProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#src_template KubernetesNodeGroupProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#src_template KubernetesNodeGroupProfile#src_template}
   */
   readonly srcTemplate?: KubernetesNodeGroupProfileSrcTemplate[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#tags KubernetesNodeGroupProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#tags KubernetesNodeGroupProfile#tags}
   */
   readonly tags?: KubernetesNodeGroupProfileTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#taints KubernetesNodeGroupProfile#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#taints KubernetesNodeGroupProfile#taints}
   */
   readonly taints?: KubernetesNodeGroupProfileTaints[] | cdktf.IResolvable;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#type KubernetesNodeGroupProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#type KubernetesNodeGroupProfile#type}
   */
   readonly type?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#version_context KubernetesNodeGroupProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#version_context KubernetesNodeGroupProfile#version_context}
   */
   readonly versionContext?: KubernetesNodeGroupProfileVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesNodeGroupProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#name KubernetesNodeGroupProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#name KubernetesNodeGroupProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
   */
   readonly value?: string;
 }
@@ -492,23 +492,23 @@ export class KubernetesNodeGroupProfileActionParamsList extends cdktf.ComplexLis
 }
 export interface KubernetesNodeGroupProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -740,23 +740,23 @@ export class KubernetesNodeGroupProfileAncestorsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileClusterProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -988,43 +988,43 @@ export class KubernetesNodeGroupProfileClusterProfileList extends cdktf.ComplexL
 }
 export interface KubernetesNodeGroupProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#config_state KubernetesNodeGroupProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#config_state KubernetesNodeGroupProfile#config_state}
   */
   readonly configState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#config_state_summary KubernetesNodeGroupProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#config_state_summary KubernetesNodeGroupProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#config_type KubernetesNodeGroupProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#config_type KubernetesNodeGroupProfile#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#control_action KubernetesNodeGroupProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#control_action KubernetesNodeGroupProfile#control_action}
   */
   readonly controlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#error_state KubernetesNodeGroupProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#error_state KubernetesNodeGroupProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#inconsistency_reason KubernetesNodeGroupProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#inconsistency_reason KubernetesNodeGroupProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#oper_state KubernetesNodeGroupProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#oper_state KubernetesNodeGroupProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -1401,27 +1401,27 @@ export class KubernetesNodeGroupProfileConfigContextList extends cdktf.ComplexLi
 }
 export interface KubernetesNodeGroupProfileGpuConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#device_id KubernetesNodeGroupProfile#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#device_id KubernetesNodeGroupProfile#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#memory_size KubernetesNodeGroupProfile#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#memory_size KubernetesNodeGroupProfile#memory_size}
   */
   readonly memorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#vendor_id KubernetesNodeGroupProfile#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#vendor_id KubernetesNodeGroupProfile#vendor_id}
   */
   readonly vendorId?: number;
 }
@@ -1682,23 +1682,23 @@ export class KubernetesNodeGroupProfileGpuConfigList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileInfraProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1930,23 +1930,23 @@ export class KubernetesNodeGroupProfileInfraProviderList extends cdktf.ComplexLi
 }
 export interface KubernetesNodeGroupProfileIpPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2178,23 +2178,23 @@ export class KubernetesNodeGroupProfileIpPoolsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileKubernetesVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2426,23 +2426,23 @@ export class KubernetesNodeGroupProfileKubernetesVersionList extends cdktf.Compl
 }
 export interface KubernetesNodeGroupProfileLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
   */
   readonly value?: string;
 }
@@ -2674,23 +2674,23 @@ export class KubernetesNodeGroupProfileLabelsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2922,23 +2922,23 @@ export class KubernetesNodeGroupProfileNodesList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3170,23 +3170,23 @@ export class KubernetesNodeGroupProfileParentList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3418,23 +3418,23 @@ export class KubernetesNodeGroupProfilePermissionResourcesList extends cdktf.Com
 }
 export interface KubernetesNodeGroupProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3666,15 +3666,15 @@ export class KubernetesNodeGroupProfilePolicyBucketList extends cdktf.ComplexLis
 }
 export interface KubernetesNodeGroupProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -3848,27 +3848,27 @@ export class KubernetesNodeGroupProfileScheduledActionsActionQualifierList exten
 }
 export interface KubernetesNodeGroupProfileScheduledActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#action KubernetesNodeGroupProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#action KubernetesNodeGroupProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#action_qualifier KubernetesNodeGroupProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#action_qualifier KubernetesNodeGroupProfile#action_qualifier}
   */
   readonly actionQualifier?: KubernetesNodeGroupProfileScheduledActionsActionQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#proceed_on_reboot KubernetesNodeGroupProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#proceed_on_reboot KubernetesNodeGroupProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
 }
@@ -4129,23 +4129,23 @@ export class KubernetesNodeGroupProfileScheduledActionsList extends cdktf.Comple
 }
 export interface KubernetesNodeGroupProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4377,23 +4377,23 @@ export class KubernetesNodeGroupProfileSrcTemplateList extends cdktf.ComplexList
 }
 export interface KubernetesNodeGroupProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4625,23 +4625,23 @@ export class KubernetesNodeGroupProfileTagsAncestorDefinitionsList extends cdktf
 }
 export interface KubernetesNodeGroupProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4873,31 +4873,35 @@ export class KubernetesNodeGroupProfileTagsDefinitionList extends cdktf.ComplexL
 }
 export interface KubernetesNodeGroupProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#ancestor_definitions KubernetesNodeGroupProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#ancestor_definitions KubernetesNodeGroupProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesNodeGroupProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#definition KubernetesNodeGroupProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#definition KubernetesNodeGroupProfile#definition}
   */
   readonly definition?: KubernetesNodeGroupProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#propagated KubernetesNodeGroupProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#propagated KubernetesNodeGroupProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#type KubernetesNodeGroupProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#sys_tag KubernetesNodeGroupProfile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#type KubernetesNodeGroupProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
   */
   readonly value?: string;
 }
@@ -4913,6 +4917,7 @@ export function kubernetesNodeGroupProfileTagsToTerraform(struct?: KubernetesNod
     definition: cdktf.listMapper(kubernetesNodeGroupProfileTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -4951,6 +4956,12 @@ export function kubernetesNodeGroupProfileTagsToHclTerraform(struct?: Kubernetes
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5013,6 +5024,10 @@ export class KubernetesNodeGroupProfileTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5033,6 +5048,7 @@ export class KubernetesNodeGroupProfileTagsOutputReference extends cdktf.Complex
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -5048,6 +5064,7 @@ export class KubernetesNodeGroupProfileTagsOutputReference extends cdktf.Complex
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -5133,6 +5150,22 @@ export class KubernetesNodeGroupProfileTagsOutputReference extends cdktf.Complex
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -5187,27 +5220,27 @@ export class KubernetesNodeGroupProfileTagsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#effect KubernetesNodeGroupProfile#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#effect KubernetesNodeGroupProfile#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#key KubernetesNodeGroupProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#value KubernetesNodeGroupProfile#value}
   */
   readonly value?: string;
 }
@@ -5468,23 +5501,23 @@ export class KubernetesNodeGroupProfileTaintsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5716,23 +5749,23 @@ export class KubernetesNodeGroupProfileVersionContextInterestedMosList extends c
 }
 export interface KubernetesNodeGroupProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#moid KubernetesNodeGroupProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#selector KubernetesNodeGroupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5964,39 +5997,39 @@ export class KubernetesNodeGroupProfileVersionContextRefMoList extends cdktf.Com
 }
 export interface KubernetesNodeGroupProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#additional_properties KubernetesNodeGroupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#class_id KubernetesNodeGroupProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#interested_mos KubernetesNodeGroupProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#interested_mos KubernetesNodeGroupProfile#interested_mos}
   */
   readonly interestedMos?: KubernetesNodeGroupProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#marked_for_deletion KubernetesNodeGroupProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#marked_for_deletion KubernetesNodeGroupProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#nr_version KubernetesNodeGroupProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#nr_version KubernetesNodeGroupProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#object_type KubernetesNodeGroupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#ref_mo KubernetesNodeGroupProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#ref_mo KubernetesNodeGroupProfile#ref_mo}
   */
   readonly refMo?: KubernetesNodeGroupProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#timestamp KubernetesNodeGroupProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#timestamp KubernetesNodeGroupProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#version_type KubernetesNodeGroupProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#version_type KubernetesNodeGroupProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -6344,7 +6377,7 @@ export class KubernetesNodeGroupProfileVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile intersight_kubernetes_node_group_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile intersight_kubernetes_node_group_profile}
 */
 export class KubernetesNodeGroupProfile extends cdktf.TerraformResource {
 
@@ -6360,7 +6393,7 @@ export class KubernetesNodeGroupProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodeGroupProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodeGroupProfile to import
-  * @param importFromId The id of the existing KubernetesNodeGroupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodeGroupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodeGroupProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6372,7 +6405,7 @@ export class KubernetesNodeGroupProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_node_group_profile intersight_kubernetes_node_group_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_node_group_profile intersight_kubernetes_node_group_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6383,8 +6416,8 @@ export class KubernetesNodeGroupProfile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_node_group_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

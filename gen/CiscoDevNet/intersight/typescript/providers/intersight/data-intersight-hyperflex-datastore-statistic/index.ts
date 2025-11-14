@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,17 +13,17 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   * * `NOT_ACCESSIBLE` - The HyperFlex Accessibility Summary is Not Accessible.
   * * `PARTIALLY_ACCESSIBLE` - The HyperFlex Accessibility Summary is Partially Accessible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#accessibility_summary DataIntersightHyperflexDatastoreStatistic#accessibility_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#accessibility_summary DataIntersightHyperflexDatastoreStatistic#accessibility_summary}
   */
   readonly accessibilitySummary?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#account_moid DataIntersightHyperflexDatastoreStatistic#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#account_moid DataIntersightHyperflexDatastoreStatistic#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -31,19 +31,19 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#create_time DataIntersightHyperflexDatastoreStatistic#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#create_time DataIntersightHyperflexDatastoreStatistic#create_time}
   */
   readonly createTime?: string;
   /**
   * Timestamp the datastore object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#creation_time DataIntersightHyperflexDatastoreStatistic#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#creation_time DataIntersightHyperflexDatastoreStatistic#creation_time}
   */
   readonly creationTime?: string;
   /**
@@ -52,7 +52,7 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   * * `USER_CREATED` - HyperFlex datastore kind is user created.
   * * `INTERNAL` - HyperFlex datastore kind is internal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#datastore_kind DataIntersightHyperflexDatastoreStatistic#datastore_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#datastore_kind DataIntersightHyperflexDatastoreStatistic#datastore_kind}
   */
   readonly datastoreKind?: string;
   /**
@@ -61,23 +61,23 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   * * `ALERT` - The HyperFlex datastore status is alert.
   * * `FAILED` - The HyperFlex datastore status is failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#datastore_status DataIntersightHyperflexDatastoreStatistic#datastore_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#datastore_status DataIntersightHyperflexDatastoreStatistic#datastore_status}
   */
   readonly datastoreStatus?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#domain_group_moid DataIntersightHyperflexDatastoreStatistic#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#domain_group_moid DataIntersightHyperflexDatastoreStatistic#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Free capacity of the datastore in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#free_capacity_in_bytes DataIntersightHyperflexDatastoreStatistic#free_capacity_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#free_capacity_in_bytes DataIntersightHyperflexDatastoreStatistic#free_capacity_in_bytes}
   */
   readonly freeCapacityInBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#id DataIntersightHyperflexDatastoreStatistic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#id DataIntersightHyperflexDatastoreStatistic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,31 +86,31 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   /**
   * Indicates if the datastore is encrypted or un-encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#is_encrypted DataIntersightHyperflexDatastoreStatistic#is_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#is_encrypted DataIntersightHyperflexDatastoreStatistic#is_encrypted}
   */
   readonly isEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Timestamp the datastore object was last accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#last_access_time DataIntersightHyperflexDatastoreStatistic#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#last_access_time DataIntersightHyperflexDatastoreStatistic#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * Timestamp the datastore object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#last_modified_time DataIntersightHyperflexDatastoreStatistic#last_modified_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#last_modified_time DataIntersightHyperflexDatastoreStatistic#last_modified_time}
   */
   readonly lastModifiedTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#mod_time DataIntersightHyperflexDatastoreStatistic#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#mod_time DataIntersightHyperflexDatastoreStatistic#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
@@ -120,121 +120,121 @@ export interface DataIntersightHyperflexDatastoreStatisticConfig extends cdktf.T
   * * `MOUNT_FAILURE` - The HyperFlex mount summary is mount failure.
   * * `UNMOUNT_FAILURE` - The HyperFlex mount summary is unmount failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#mount_summary DataIntersightHyperflexDatastoreStatistic#mount_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#mount_summary DataIntersightHyperflexDatastoreStatistic#mount_summary}
   */
   readonly mountSummary?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#owners DataIntersightHyperflexDatastoreStatistic#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#owners DataIntersightHyperflexDatastoreStatistic#owners}
   */
   readonly owners?: string[];
   /**
   * UUID of the parent datastore object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#parent_uuid DataIntersightHyperflexDatastoreStatistic#parent_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#parent_uuid DataIntersightHyperflexDatastoreStatistic#parent_uuid}
   */
   readonly parentUuid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#shared_scope DataIntersightHyperflexDatastoreStatistic#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#shared_scope DataIntersightHyperflexDatastoreStatistic#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Total capacity of the datastore object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#total_capacity_in_bytes DataIntersightHyperflexDatastoreStatistic#total_capacity_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#total_capacity_in_bytes DataIntersightHyperflexDatastoreStatistic#total_capacity_in_bytes}
   */
   readonly totalCapacityInBytes?: number;
   /**
   * Number of uncompressed used bytes in the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#un_compressed_used_bytes DataIntersightHyperflexDatastoreStatistic#un_compressed_used_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#un_compressed_used_bytes DataIntersightHyperflexDatastoreStatistic#un_compressed_used_bytes}
   */
   readonly unCompressedUsedBytes?: number;
   /**
   * Unshared used capacity of the datastore in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#unshared_used_bytes DataIntersightHyperflexDatastoreStatistic#unshared_used_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#unshared_used_bytes DataIntersightHyperflexDatastoreStatistic#unshared_used_bytes}
   */
   readonly unsharedUsedBytes?: number;
   /**
   * UUID for the datastore object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#uuid DataIntersightHyperflexDatastoreStatistic#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#uuid DataIntersightHyperflexDatastoreStatistic#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#ancestors DataIntersightHyperflexDatastoreStatistic#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#ancestors DataIntersightHyperflexDatastoreStatistic#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexDatastoreStatisticAncestors[] | cdktf.IResolvable;
   /**
   * data_protection_peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#data_protection_peer DataIntersightHyperflexDatastoreStatistic#data_protection_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#data_protection_peer DataIntersightHyperflexDatastoreStatistic#data_protection_peer}
   */
   readonly dataProtectionPeer?: DataIntersightHyperflexDatastoreStatisticDataProtectionPeer;
   /**
   * dsconfig block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#dsconfig DataIntersightHyperflexDatastoreStatistic#dsconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#dsconfig DataIntersightHyperflexDatastoreStatistic#dsconfig}
   */
   readonly dsconfig?: DataIntersightHyperflexDatastoreStatisticDsconfig;
   /**
   * host_mount_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#host_mount_status DataIntersightHyperflexDatastoreStatistic#host_mount_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#host_mount_status DataIntersightHyperflexDatastoreStatistic#host_mount_status}
   */
   readonly hostMountStatus?: DataIntersightHyperflexDatastoreStatisticHostMountStatus[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#parent DataIntersightHyperflexDatastoreStatistic#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#parent DataIntersightHyperflexDatastoreStatistic#parent}
   */
   readonly parent?: DataIntersightHyperflexDatastoreStatisticParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#permission_resources DataIntersightHyperflexDatastoreStatistic#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#permission_resources DataIntersightHyperflexDatastoreStatistic#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexDatastoreStatisticPermissionResources[] | cdktf.IResolvable;
   /**
   * site block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#site DataIntersightHyperflexDatastoreStatistic#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#site DataIntersightHyperflexDatastoreStatistic#site}
   */
   readonly site?: DataIntersightHyperflexDatastoreStatisticSite;
   /**
   * src_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#src_cluster DataIntersightHyperflexDatastoreStatistic#src_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#src_cluster DataIntersightHyperflexDatastoreStatistic#src_cluster}
   */
   readonly srcCluster?: DataIntersightHyperflexDatastoreStatisticSrcCluster;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#tags DataIntersightHyperflexDatastoreStatistic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#tags DataIntersightHyperflexDatastoreStatistic#tags}
   */
   readonly tags?: DataIntersightHyperflexDatastoreStatisticTags[] | cdktf.IResolvable;
   /**
   * tgt_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#tgt_cluster DataIntersightHyperflexDatastoreStatistic#tgt_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#tgt_cluster DataIntersightHyperflexDatastoreStatistic#tgt_cluster}
   */
   readonly tgtCluster?: DataIntersightHyperflexDatastoreStatisticTgtCluster;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#version_context DataIntersightHyperflexDatastoreStatistic#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#version_context DataIntersightHyperflexDatastoreStatistic#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexDatastoreStatisticVersionContext;
 }
@@ -1397,6 +1397,11 @@ export class DataIntersightHyperflexDatastoreStatisticResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2086,7 +2091,7 @@ export class DataIntersightHyperflexDatastoreStatisticResultsList extends cdktf.
 }
 export interface DataIntersightHyperflexDatastoreStatisticAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2094,19 +2099,19 @@ export interface DataIntersightHyperflexDatastoreStatisticAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2119,7 +2124,7 @@ export interface DataIntersightHyperflexDatastoreStatisticAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -2351,7 +2356,7 @@ export class DataIntersightHyperflexDatastoreStatisticAncestorsList extends cdkt
 }
 export interface DataIntersightHyperflexDatastoreStatisticDataProtectionPeer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2359,19 +2364,19 @@ export interface DataIntersightHyperflexDatastoreStatisticDataProtectionPeer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2384,7 +2389,7 @@ export interface DataIntersightHyperflexDatastoreStatisticDataProtectionPeer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -2584,7 +2589,7 @@ export class DataIntersightHyperflexDatastoreStatisticDataProtectionPeerOutputRe
 }
 export interface DataIntersightHyperflexDatastoreStatisticDsconfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2592,50 +2597,50 @@ export interface DataIntersightHyperflexDatastoreStatisticDsconfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * Size of datablock for this HyperFlex datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#data_block_size DataIntersightHyperflexDatastoreStatistic#data_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#data_block_size DataIntersightHyperflexDatastoreStatistic#data_block_size}
   */
   readonly dataBlockSize?: number;
   /**
   * Unique name for the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#name DataIntersightHyperflexDatastoreStatistic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#name DataIntersightHyperflexDatastoreStatistic#name}
   */
   readonly name?: string;
   /**
   * Number of copies of data maintained for data redundancy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#num_mirrors DataIntersightHyperflexDatastoreStatistic#num_mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#num_mirrors DataIntersightHyperflexDatastoreStatistic#num_mirrors}
   */
   readonly numMirrors?: number;
   /**
   * Number of stripes to be used for large files in datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#num_stripes_for_large_files DataIntersightHyperflexDatastoreStatistic#num_stripes_for_large_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#num_stripes_for_large_files DataIntersightHyperflexDatastoreStatistic#num_stripes_for_large_files}
   */
   readonly numStripesForLargeFiles?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
   * Provisioned capacity of datastore in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#provisioned_capacity DataIntersightHyperflexDatastoreStatistic#provisioned_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#provisioned_capacity DataIntersightHyperflexDatastoreStatistic#provisioned_capacity}
   */
   readonly provisionedCapacity?: number;
   /**
   * Specifies if this datastore is a system datastore or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#system_datastore DataIntersightHyperflexDatastoreStatistic#system_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#system_datastore DataIntersightHyperflexDatastoreStatistic#system_datastore}
   */
   readonly systemDatastore?: boolean | cdktf.IResolvable;
   /**
@@ -2645,7 +2650,7 @@ export interface DataIntersightHyperflexDatastoreStatisticDsconfig {
   * * `ISCSI` - The HyperFlex datastore type is ISCSI.
   * * `UNKNOWN` - The HyperFlex datastore type is unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#usage_type DataIntersightHyperflexDatastoreStatistic#usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#usage_type DataIntersightHyperflexDatastoreStatistic#usage_type}
   */
   readonly usageType?: string;
 }
@@ -2998,11 +3003,11 @@ export interface DataIntersightHyperflexDatastoreStatisticHostMountStatus {
   * * `HOST_NOT_REACHABLE` - The HyperFlex datastore accessibility state is host not reachable.
   * * `UNKNOWN` - The HyperFlex datastore accessibility state is unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#accessibility DataIntersightHyperflexDatastoreStatistic#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#accessibility DataIntersightHyperflexDatastoreStatistic#accessibility}
   */
   readonly accessibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3010,32 +3015,32 @@ export interface DataIntersightHyperflexDatastoreStatisticHostMountStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * Name of host for the HyperFlex datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#host_name DataIntersightHyperflexDatastoreStatistic#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#host_name DataIntersightHyperflexDatastoreStatistic#host_name}
   */
   readonly hostName?: string;
   /**
   * Is the datastore mounted or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#mounted DataIntersightHyperflexDatastoreStatistic#mounted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#mounted DataIntersightHyperflexDatastoreStatistic#mounted}
   */
   readonly mounted?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
   * Reason for inaccessibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#reason DataIntersightHyperflexDatastoreStatistic#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#reason DataIntersightHyperflexDatastoreStatistic#reason}
   */
   readonly reason?: string;
 }
@@ -3325,7 +3330,7 @@ export class DataIntersightHyperflexDatastoreStatisticHostMountStatusList extend
 }
 export interface DataIntersightHyperflexDatastoreStatisticParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3333,19 +3338,19 @@ export interface DataIntersightHyperflexDatastoreStatisticParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3358,7 +3363,7 @@ export interface DataIntersightHyperflexDatastoreStatisticParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -3558,7 +3563,7 @@ export class DataIntersightHyperflexDatastoreStatisticParentOutputReference exte
 }
 export interface DataIntersightHyperflexDatastoreStatisticPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3566,19 +3571,19 @@ export interface DataIntersightHyperflexDatastoreStatisticPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3591,7 +3596,7 @@ export interface DataIntersightHyperflexDatastoreStatisticPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -3823,7 +3828,7 @@ export class DataIntersightHyperflexDatastoreStatisticPermissionResourcesList ex
 }
 export interface DataIntersightHyperflexDatastoreStatisticSiteZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3831,26 +3836,26 @@ export interface DataIntersightHyperflexDatastoreStatisticSiteZone {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * Number of nodes in the Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#num_nodes DataIntersightHyperflexDatastoreStatistic#num_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#num_nodes DataIntersightHyperflexDatastoreStatistic#num_nodes}
   */
   readonly numNodes?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
   * Zone UUID for this HyperFlex node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#uuid DataIntersightHyperflexDatastoreStatistic#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#uuid DataIntersightHyperflexDatastoreStatistic#uuid}
   */
   readonly uuid?: string;
 }
@@ -4050,7 +4055,7 @@ export class DataIntersightHyperflexDatastoreStatisticSiteZoneOutputReference ex
 }
 export interface DataIntersightHyperflexDatastoreStatisticSite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4058,26 +4063,26 @@ export interface DataIntersightHyperflexDatastoreStatisticSite {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the site for this HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#name DataIntersightHyperflexDatastoreStatistic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#name DataIntersightHyperflexDatastoreStatistic#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
   * zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#zone DataIntersightHyperflexDatastoreStatistic#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#zone DataIntersightHyperflexDatastoreStatistic#zone}
   */
   readonly zone?: DataIntersightHyperflexDatastoreStatisticSiteZone;
 }
@@ -4277,7 +4282,7 @@ export class DataIntersightHyperflexDatastoreStatisticSiteOutputReference extend
 }
 export interface DataIntersightHyperflexDatastoreStatisticSrcCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4285,19 +4290,19 @@ export interface DataIntersightHyperflexDatastoreStatisticSrcCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4310,7 +4315,7 @@ export interface DataIntersightHyperflexDatastoreStatisticSrcCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -4510,7 +4515,7 @@ export class DataIntersightHyperflexDatastoreStatisticSrcClusterOutputReference 
 }
 export interface DataIntersightHyperflexDatastoreStatisticTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4518,19 +4523,19 @@ export interface DataIntersightHyperflexDatastoreStatisticTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4543,7 +4548,7 @@ export interface DataIntersightHyperflexDatastoreStatisticTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -4775,7 +4780,7 @@ export class DataIntersightHyperflexDatastoreStatisticTagsAncestorDefinitionsLis
 }
 export interface DataIntersightHyperflexDatastoreStatisticTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4783,19 +4788,19 @@ export interface DataIntersightHyperflexDatastoreStatisticTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4808,7 +4813,7 @@ export interface DataIntersightHyperflexDatastoreStatisticTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -5008,45 +5013,51 @@ export class DataIntersightHyperflexDatastoreStatisticTagsDefinitionOutputRefere
 }
 export interface DataIntersightHyperflexDatastoreStatisticTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#key DataIntersightHyperflexDatastoreStatistic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#key DataIntersightHyperflexDatastoreStatistic#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#propagated DataIntersightHyperflexDatastoreStatistic#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#propagated DataIntersightHyperflexDatastoreStatistic#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#sys_tag DataIntersightHyperflexDatastoreStatistic#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#type DataIntersightHyperflexDatastoreStatistic#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#type DataIntersightHyperflexDatastoreStatistic#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#value DataIntersightHyperflexDatastoreStatistic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#value DataIntersightHyperflexDatastoreStatistic#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#ancestor_definitions DataIntersightHyperflexDatastoreStatistic#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#ancestor_definitions DataIntersightHyperflexDatastoreStatistic#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexDatastoreStatisticTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#definition DataIntersightHyperflexDatastoreStatistic#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#definition DataIntersightHyperflexDatastoreStatistic#definition}
   */
   readonly definition?: DataIntersightHyperflexDatastoreStatisticTagsDefinition;
 }
@@ -5060,6 +5071,7 @@ export function dataIntersightHyperflexDatastoreStatisticTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexDatastoreStatisticTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5088,6 +5100,12 @@ export function dataIntersightHyperflexDatastoreStatisticTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5154,6 +5172,10 @@ export class DataIntersightHyperflexDatastoreStatisticTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5180,6 +5202,7 @@ export class DataIntersightHyperflexDatastoreStatisticTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5195,6 +5218,7 @@ export class DataIntersightHyperflexDatastoreStatisticTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5248,6 +5272,22 @@ export class DataIntersightHyperflexDatastoreStatisticTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5336,7 +5376,7 @@ export class DataIntersightHyperflexDatastoreStatisticTagsList extends cdktf.Com
 }
 export interface DataIntersightHyperflexDatastoreStatisticTgtCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5344,19 +5384,19 @@ export interface DataIntersightHyperflexDatastoreStatisticTgtCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5369,7 +5409,7 @@ export interface DataIntersightHyperflexDatastoreStatisticTgtCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -5569,7 +5609,7 @@ export class DataIntersightHyperflexDatastoreStatisticTgtClusterOutputReference 
 }
 export interface DataIntersightHyperflexDatastoreStatisticVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5577,19 +5617,19 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5602,7 +5642,7 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -5834,7 +5874,7 @@ export class DataIntersightHyperflexDatastoreStatisticVersionContextInterestedMo
 }
 export interface DataIntersightHyperflexDatastoreStatisticVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5842,19 +5882,19 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#moid DataIntersightHyperflexDatastoreStatistic#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5867,7 +5907,7 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#selector DataIntersightHyperflexDatastoreStatistic#selector}
   */
   readonly selector?: string;
 }
@@ -6067,7 +6107,7 @@ export class DataIntersightHyperflexDatastoreStatisticVersionContextRefMoOutputR
 }
 export interface DataIntersightHyperflexDatastoreStatisticVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#additional_properties DataIntersightHyperflexDatastoreStatistic#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6075,32 +6115,32 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#class_id DataIntersightHyperflexDatastoreStatistic#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#marked_for_deletion DataIntersightHyperflexDatastoreStatistic#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#marked_for_deletion DataIntersightHyperflexDatastoreStatistic#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#nr_version DataIntersightHyperflexDatastoreStatistic#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#nr_version DataIntersightHyperflexDatastoreStatistic#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#object_type DataIntersightHyperflexDatastoreStatistic#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#timestamp DataIntersightHyperflexDatastoreStatistic#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#timestamp DataIntersightHyperflexDatastoreStatistic#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6111,19 +6151,19 @@ export interface DataIntersightHyperflexDatastoreStatisticVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#version_type DataIntersightHyperflexDatastoreStatistic#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#version_type DataIntersightHyperflexDatastoreStatistic#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#interested_mos DataIntersightHyperflexDatastoreStatistic#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#interested_mos DataIntersightHyperflexDatastoreStatistic#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexDatastoreStatisticVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#ref_mo DataIntersightHyperflexDatastoreStatistic#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#ref_mo DataIntersightHyperflexDatastoreStatistic#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexDatastoreStatisticVersionContextRefMo;
 }
@@ -6439,7 +6479,7 @@ export class DataIntersightHyperflexDatastoreStatisticVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic intersight_hyperflex_datastore_statistic}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic intersight_hyperflex_datastore_statistic}
 */
 export class DataIntersightHyperflexDatastoreStatistic extends cdktf.TerraformDataSource {
 
@@ -6455,7 +6495,7 @@ export class DataIntersightHyperflexDatastoreStatistic extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightHyperflexDatastoreStatistic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexDatastoreStatistic to import
-  * @param importFromId The id of the existing DataIntersightHyperflexDatastoreStatistic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexDatastoreStatistic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexDatastoreStatistic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6467,7 +6507,7 @@ export class DataIntersightHyperflexDatastoreStatistic extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_datastore_statistic intersight_hyperflex_datastore_statistic} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_datastore_statistic intersight_hyperflex_datastore_statistic} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6478,8 +6518,8 @@ export class DataIntersightHyperflexDatastoreStatistic extends cdktf.TerraformDa
       terraformResourceType: 'intersight_hyperflex_datastore_statistic',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

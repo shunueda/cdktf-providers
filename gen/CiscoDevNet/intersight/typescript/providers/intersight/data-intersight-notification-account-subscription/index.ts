@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#account_moid DataIntersightNotificationAccountSubscription#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#account_moid DataIntersightNotificationAccountSubscription#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
@@ -30,25 +30,25 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   * * `All` - All is an AND condition applied against the individual conditions.
   * * `Any` - Any is an OR condition applied against the individual conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#condition_operator DataIntersightNotificationAccountSubscription#condition_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#condition_operator DataIntersightNotificationAccountSubscription#condition_operator}
   */
   readonly conditionOperator?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#create_time DataIntersightNotificationAccountSubscription#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#create_time DataIntersightNotificationAccountSubscription#create_time}
   */
   readonly createTime?: string;
   /**
   * The description for the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#description DataIntersightNotificationAccountSubscription#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#description DataIntersightNotificationAccountSubscription#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#domain_group_moid DataIntersightNotificationAccountSubscription#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#domain_group_moid DataIntersightNotificationAccountSubscription#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -56,11 +56,11 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   * settings: notification methods, conditions, etc.
   * Ex.: Subscription MO can be configured, but switched off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#enabled DataIntersightNotificationAccountSubscription#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#enabled DataIntersightNotificationAccountSubscription#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#id DataIntersightNotificationAccountSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#id DataIntersightNotificationAccountSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,37 +69,37 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#mod_time DataIntersightNotificationAccountSubscription#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#mod_time DataIntersightNotificationAccountSubscription#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The name of the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#name DataIntersightNotificationAccountSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#name DataIntersightNotificationAccountSubscription#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#owners DataIntersightNotificationAccountSubscription#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#owners DataIntersightNotificationAccountSubscription#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#shared_scope DataIntersightNotificationAccountSubscription#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#shared_scope DataIntersightNotificationAccountSubscription#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -113,7 +113,7 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   * * `email` - Email type requires usage of notification.SendEmail complex types for actionsand notification.AlarmMoCondition complex types for conditions.
   * * `webhook` - Webhook type requires usage of notification.TriggerWebhook complex types for actionsand notification.MoCondition complex types for conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#type DataIntersightNotificationAccountSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#type DataIntersightNotificationAccountSubscription#type}
   */
   readonly type?: string;
   /**
@@ -122,55 +122,55 @@ export interface DataIntersightNotificationAccountSubscriptionConfig extends cdk
   * * `none` - No actions will be verified. Default value.
   * * `all` - All actions will be re-verified. The previous state of the verification will be preserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#verify DataIntersightNotificationAccountSubscription#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#verify DataIntersightNotificationAccountSubscription#verify}
   */
   readonly verify?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#account DataIntersightNotificationAccountSubscription#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#account DataIntersightNotificationAccountSubscription#account}
   */
   readonly account?: DataIntersightNotificationAccountSubscriptionAccount;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#actions DataIntersightNotificationAccountSubscription#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#actions DataIntersightNotificationAccountSubscription#actions}
   */
   readonly actions?: DataIntersightNotificationAccountSubscriptionActions[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#ancestors DataIntersightNotificationAccountSubscription#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#ancestors DataIntersightNotificationAccountSubscription#ancestors}
   */
   readonly ancestors?: DataIntersightNotificationAccountSubscriptionAncestors[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#conditions DataIntersightNotificationAccountSubscription#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#conditions DataIntersightNotificationAccountSubscription#conditions}
   */
   readonly conditions?: DataIntersightNotificationAccountSubscriptionConditions[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#parent DataIntersightNotificationAccountSubscription#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#parent DataIntersightNotificationAccountSubscription#parent}
   */
   readonly parent?: DataIntersightNotificationAccountSubscriptionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#permission_resources DataIntersightNotificationAccountSubscription#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#permission_resources DataIntersightNotificationAccountSubscription#permission_resources}
   */
   readonly permissionResources?: DataIntersightNotificationAccountSubscriptionPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#tags DataIntersightNotificationAccountSubscription#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#tags DataIntersightNotificationAccountSubscription#tags}
   */
   readonly tags?: DataIntersightNotificationAccountSubscriptionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#version_context DataIntersightNotificationAccountSubscription#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#version_context DataIntersightNotificationAccountSubscription#version_context}
   */
   readonly versionContext?: DataIntersightNotificationAccountSubscriptionVersionContext;
 }
@@ -992,6 +992,11 @@ export class DataIntersightNotificationAccountSubscriptionResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1528,7 +1533,7 @@ export class DataIntersightNotificationAccountSubscriptionResultsList extends cd
 }
 export interface DataIntersightNotificationAccountSubscriptionAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1536,19 +1541,19 @@ export interface DataIntersightNotificationAccountSubscriptionAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1561,7 +1566,7 @@ export interface DataIntersightNotificationAccountSubscriptionAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -1761,7 +1766,7 @@ export class DataIntersightNotificationAccountSubscriptionAccountOutputReference
 }
 export interface DataIntersightNotificationAccountSubscriptionActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1770,7 +1775,7 @@ export interface DataIntersightNotificationAccountSubscriptionActions {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
@@ -1778,7 +1783,7 @@ export interface DataIntersightNotificationAccountSubscriptionActions {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
 }
@@ -1952,7 +1957,7 @@ export class DataIntersightNotificationAccountSubscriptionActionsList extends cd
 }
 export interface DataIntersightNotificationAccountSubscriptionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1960,19 +1965,19 @@ export interface DataIntersightNotificationAccountSubscriptionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1985,7 +1990,7 @@ export interface DataIntersightNotificationAccountSubscriptionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -2217,7 +2222,7 @@ export class DataIntersightNotificationAccountSubscriptionAncestorsList extends 
 }
 export interface DataIntersightNotificationAccountSubscriptionConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2226,7 +2231,7 @@ export interface DataIntersightNotificationAccountSubscriptionConditions {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
@@ -2234,7 +2239,7 @@ export interface DataIntersightNotificationAccountSubscriptionConditions {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
 }
@@ -2408,7 +2413,7 @@ export class DataIntersightNotificationAccountSubscriptionConditionsList extends
 }
 export interface DataIntersightNotificationAccountSubscriptionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2416,19 +2421,19 @@ export interface DataIntersightNotificationAccountSubscriptionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2441,7 +2446,7 @@ export interface DataIntersightNotificationAccountSubscriptionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -2641,7 +2646,7 @@ export class DataIntersightNotificationAccountSubscriptionParentOutputReference 
 }
 export interface DataIntersightNotificationAccountSubscriptionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2649,19 +2654,19 @@ export interface DataIntersightNotificationAccountSubscriptionPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2674,7 +2679,7 @@ export interface DataIntersightNotificationAccountSubscriptionPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -2906,7 +2911,7 @@ export class DataIntersightNotificationAccountSubscriptionPermissionResourcesLis
 }
 export interface DataIntersightNotificationAccountSubscriptionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2914,19 +2919,19 @@ export interface DataIntersightNotificationAccountSubscriptionTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2939,7 +2944,7 @@ export interface DataIntersightNotificationAccountSubscriptionTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -3171,7 +3176,7 @@ export class DataIntersightNotificationAccountSubscriptionTagsAncestorDefinition
 }
 export interface DataIntersightNotificationAccountSubscriptionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3179,19 +3184,19 @@ export interface DataIntersightNotificationAccountSubscriptionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3204,7 +3209,7 @@ export interface DataIntersightNotificationAccountSubscriptionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -3404,45 +3409,51 @@ export class DataIntersightNotificationAccountSubscriptionTagsDefinitionOutputRe
 }
 export interface DataIntersightNotificationAccountSubscriptionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#key DataIntersightNotificationAccountSubscription#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#key DataIntersightNotificationAccountSubscription#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#propagated DataIntersightNotificationAccountSubscription#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#propagated DataIntersightNotificationAccountSubscription#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#sys_tag DataIntersightNotificationAccountSubscription#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#type DataIntersightNotificationAccountSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#type DataIntersightNotificationAccountSubscription#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#value DataIntersightNotificationAccountSubscription#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#value DataIntersightNotificationAccountSubscription#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#ancestor_definitions DataIntersightNotificationAccountSubscription#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#ancestor_definitions DataIntersightNotificationAccountSubscription#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNotificationAccountSubscriptionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#definition DataIntersightNotificationAccountSubscription#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#definition DataIntersightNotificationAccountSubscription#definition}
   */
   readonly definition?: DataIntersightNotificationAccountSubscriptionTagsDefinition;
 }
@@ -3456,6 +3467,7 @@ export function dataIntersightNotificationAccountSubscriptionTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNotificationAccountSubscriptionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3484,6 +3496,12 @@ export function dataIntersightNotificationAccountSubscriptionTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3550,6 +3568,10 @@ export class DataIntersightNotificationAccountSubscriptionTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3576,6 +3598,7 @@ export class DataIntersightNotificationAccountSubscriptionTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3591,6 +3614,7 @@ export class DataIntersightNotificationAccountSubscriptionTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3644,6 +3668,22 @@ export class DataIntersightNotificationAccountSubscriptionTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3732,7 +3772,7 @@ export class DataIntersightNotificationAccountSubscriptionTagsList extends cdktf
 }
 export interface DataIntersightNotificationAccountSubscriptionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3740,19 +3780,19 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3765,7 +3805,7 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -3997,7 +4037,7 @@ export class DataIntersightNotificationAccountSubscriptionVersionContextInterest
 }
 export interface DataIntersightNotificationAccountSubscriptionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4005,19 +4045,19 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#moid DataIntersightNotificationAccountSubscription#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4030,7 +4070,7 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#selector DataIntersightNotificationAccountSubscription#selector}
   */
   readonly selector?: string;
 }
@@ -4230,7 +4270,7 @@ export class DataIntersightNotificationAccountSubscriptionVersionContextRefMoOut
 }
 export interface DataIntersightNotificationAccountSubscriptionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#additional_properties DataIntersightNotificationAccountSubscription#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4238,32 +4278,32 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#class_id DataIntersightNotificationAccountSubscription#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#marked_for_deletion DataIntersightNotificationAccountSubscription#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#marked_for_deletion DataIntersightNotificationAccountSubscription#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#nr_version DataIntersightNotificationAccountSubscription#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#nr_version DataIntersightNotificationAccountSubscription#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#object_type DataIntersightNotificationAccountSubscription#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#timestamp DataIntersightNotificationAccountSubscription#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#timestamp DataIntersightNotificationAccountSubscription#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4274,19 +4314,19 @@ export interface DataIntersightNotificationAccountSubscriptionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#version_type DataIntersightNotificationAccountSubscription#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#version_type DataIntersightNotificationAccountSubscription#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#interested_mos DataIntersightNotificationAccountSubscription#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#interested_mos DataIntersightNotificationAccountSubscription#interested_mos}
   */
   readonly interestedMos?: DataIntersightNotificationAccountSubscriptionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#ref_mo DataIntersightNotificationAccountSubscription#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#ref_mo DataIntersightNotificationAccountSubscription#ref_mo}
   */
   readonly refMo?: DataIntersightNotificationAccountSubscriptionVersionContextRefMo;
 }
@@ -4602,7 +4642,7 @@ export class DataIntersightNotificationAccountSubscriptionVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription intersight_notification_account_subscription}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription intersight_notification_account_subscription}
 */
 export class DataIntersightNotificationAccountSubscription extends cdktf.TerraformDataSource {
 
@@ -4618,7 +4658,7 @@ export class DataIntersightNotificationAccountSubscription extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightNotificationAccountSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNotificationAccountSubscription to import
-  * @param importFromId The id of the existing DataIntersightNotificationAccountSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNotificationAccountSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNotificationAccountSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4630,7 +4670,7 @@ export class DataIntersightNotificationAccountSubscription extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/notification_account_subscription intersight_notification_account_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/notification_account_subscription intersight_notification_account_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4641,8 +4681,8 @@ export class DataIntersightNotificationAccountSubscription extends cdktf.Terrafo
       terraformResourceType: 'intersight_notification_account_subscription',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

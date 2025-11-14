@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,164 +8,164 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkSecurityRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_action NetworkSecurityRule#ad_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_action NetworkSecurityRule#ad_rule_action}
   */
   readonly adRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_target_group_default_internal_policy NetworkSecurityRule#ad_rule_target_group_default_internal_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_target_group_default_internal_policy NetworkSecurityRule#ad_rule_target_group_default_internal_policy}
   */
   readonly adRuleTargetGroupDefaultInternalPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_target_group_filter_kind_list NetworkSecurityRule#ad_rule_target_group_filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_target_group_filter_kind_list NetworkSecurityRule#ad_rule_target_group_filter_kind_list}
   */
   readonly adRuleTargetGroupFilterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_target_group_filter_type NetworkSecurityRule#ad_rule_target_group_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_target_group_filter_type NetworkSecurityRule#ad_rule_target_group_filter_type}
   */
   readonly adRuleTargetGroupFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_target_group_peer_specification_type NetworkSecurityRule#ad_rule_target_group_peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_target_group_peer_specification_type NetworkSecurityRule#ad_rule_target_group_peer_specification_type}
   */
   readonly adRuleTargetGroupPeerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#allow_ipv6_traffic NetworkSecurityRule#allow_ipv6_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#allow_ipv6_traffic NetworkSecurityRule#allow_ipv6_traffic}
   */
   readonly allowIpv6Traffic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_action NetworkSecurityRule#app_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_action NetworkSecurityRule#app_rule_action}
   */
   readonly appRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_target_group_default_internal_policy NetworkSecurityRule#app_rule_target_group_default_internal_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_target_group_default_internal_policy NetworkSecurityRule#app_rule_target_group_default_internal_policy}
   */
   readonly appRuleTargetGroupDefaultInternalPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_target_group_filter_kind_list NetworkSecurityRule#app_rule_target_group_filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_target_group_filter_kind_list NetworkSecurityRule#app_rule_target_group_filter_kind_list}
   */
   readonly appRuleTargetGroupFilterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_target_group_filter_type NetworkSecurityRule#app_rule_target_group_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_target_group_filter_type NetworkSecurityRule#app_rule_target_group_filter_type}
   */
   readonly appRuleTargetGroupFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_target_group_peer_specification_type NetworkSecurityRule#app_rule_target_group_peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_target_group_peer_specification_type NetworkSecurityRule#app_rule_target_group_peer_specification_type}
   */
   readonly appRuleTargetGroupPeerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#description NetworkSecurityRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#description NetworkSecurityRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#id NetworkSecurityRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#id NetworkSecurityRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#is_policy_hitlog_enabled NetworkSecurityRule#is_policy_hitlog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#is_policy_hitlog_enabled NetworkSecurityRule#is_policy_hitlog_enabled}
   */
   readonly isPolicyHitlogEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_action NetworkSecurityRule#isolation_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_action NetworkSecurityRule#isolation_rule_action}
   */
   readonly isolationRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_first_entity_filter_kind_list NetworkSecurityRule#isolation_rule_first_entity_filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_first_entity_filter_kind_list NetworkSecurityRule#isolation_rule_first_entity_filter_kind_list}
   */
   readonly isolationRuleFirstEntityFilterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_first_entity_filter_type NetworkSecurityRule#isolation_rule_first_entity_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_first_entity_filter_type NetworkSecurityRule#isolation_rule_first_entity_filter_type}
   */
   readonly isolationRuleFirstEntityFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_second_entity_filter_kind_list NetworkSecurityRule#isolation_rule_second_entity_filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_second_entity_filter_kind_list NetworkSecurityRule#isolation_rule_second_entity_filter_kind_list}
   */
   readonly isolationRuleSecondEntityFilterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_second_entity_filter_type NetworkSecurityRule#isolation_rule_second_entity_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_second_entity_filter_type NetworkSecurityRule#isolation_rule_second_entity_filter_type}
   */
   readonly isolationRuleSecondEntityFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#owner_reference NetworkSecurityRule#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#owner_reference NetworkSecurityRule#owner_reference}
   */
   readonly ownerReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#project_reference NetworkSecurityRule#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#project_reference NetworkSecurityRule#project_reference}
   */
   readonly projectReference?: { [key: string]: string };
   /**
   * ad_rule_inbound_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_inbound_allow_list NetworkSecurityRule#ad_rule_inbound_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_inbound_allow_list NetworkSecurityRule#ad_rule_inbound_allow_list}
   */
   readonly adRuleInboundAllowList?: NetworkSecurityRuleAdRuleInboundAllowListStruct[] | cdktf.IResolvable;
   /**
   * ad_rule_outbound_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_outbound_allow_list NetworkSecurityRule#ad_rule_outbound_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_outbound_allow_list NetworkSecurityRule#ad_rule_outbound_allow_list}
   */
   readonly adRuleOutboundAllowList?: NetworkSecurityRuleAdRuleOutboundAllowListStruct[] | cdktf.IResolvable;
   /**
   * ad_rule_target_group_filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ad_rule_target_group_filter_params NetworkSecurityRule#ad_rule_target_group_filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ad_rule_target_group_filter_params NetworkSecurityRule#ad_rule_target_group_filter_params}
   */
   readonly adRuleTargetGroupFilterParams?: NetworkSecurityRuleAdRuleTargetGroupFilterParams[] | cdktf.IResolvable;
   /**
   * app_rule_inbound_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_inbound_allow_list NetworkSecurityRule#app_rule_inbound_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_inbound_allow_list NetworkSecurityRule#app_rule_inbound_allow_list}
   */
   readonly appRuleInboundAllowList?: NetworkSecurityRuleAppRuleInboundAllowListStruct[] | cdktf.IResolvable;
   /**
   * app_rule_outbound_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_outbound_allow_list NetworkSecurityRule#app_rule_outbound_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_outbound_allow_list NetworkSecurityRule#app_rule_outbound_allow_list}
   */
   readonly appRuleOutboundAllowList?: NetworkSecurityRuleAppRuleOutboundAllowListStruct[] | cdktf.IResolvable;
   /**
   * app_rule_target_group_filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#app_rule_target_group_filter_params NetworkSecurityRule#app_rule_target_group_filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#app_rule_target_group_filter_params NetworkSecurityRule#app_rule_target_group_filter_params}
   */
   readonly appRuleTargetGroupFilterParams?: NetworkSecurityRuleAppRuleTargetGroupFilterParams[] | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#categories NetworkSecurityRule#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#categories NetworkSecurityRule#categories}
   */
   readonly categories?: NetworkSecurityRuleCategories[] | cdktf.IResolvable;
   /**
   * isolation_rule_first_entity_filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_first_entity_filter_params NetworkSecurityRule#isolation_rule_first_entity_filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_first_entity_filter_params NetworkSecurityRule#isolation_rule_first_entity_filter_params}
   */
   readonly isolationRuleFirstEntityFilterParams?: NetworkSecurityRuleIsolationRuleFirstEntityFilterParams[] | cdktf.IResolvable;
   /**
   * isolation_rule_second_entity_filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#isolation_rule_second_entity_filter_params NetworkSecurityRule#isolation_rule_second_entity_filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#isolation_rule_second_entity_filter_params NetworkSecurityRule#isolation_rule_second_entity_filter_params}
   */
   readonly isolationRuleSecondEntityFilterParams?: NetworkSecurityRuleIsolationRuleSecondEntityFilterParams[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#timeouts NetworkSecurityRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#timeouts NetworkSecurityRule#timeouts}
   */
   readonly timeouts?: NetworkSecurityRuleTimeouts;
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListAddressGroupInclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -315,11 +315,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListAddressGroupInclusionListS
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -458,11 +458,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListFilterParamsList extends c
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListIcmpTypeCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#code NetworkSecurityRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#code NetworkSecurityRule#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#type NetworkSecurityRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#type NetworkSecurityRule#type}
   */
   readonly type?: string;
 }
@@ -607,11 +607,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListIcmpTypeCodeListStructList
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListServiceGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -761,11 +761,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListServiceGroupListStructList
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListTcpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -910,11 +910,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListTcpPortRangeListStructList
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListUdpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -1059,71 +1059,71 @@ export class NetworkSecurityRuleAdRuleInboundAllowListUdpPortRangeListStructList
 }
 export interface NetworkSecurityRuleAdRuleInboundAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
   */
   readonly filterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
   */
   readonly ipSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
   */
   readonly ipSubnetPrefixLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
   */
   readonly peerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
   */
   readonly protocol?: string;
   /**
   * address_group_inclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
   */
   readonly addressGroupInclusionList?: NetworkSecurityRuleAdRuleInboundAllowListAddressGroupInclusionListStruct[] | cdktf.IResolvable;
   /**
   * filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
   */
   readonly filterParams?: NetworkSecurityRuleAdRuleInboundAllowListFilterParams[] | cdktf.IResolvable;
   /**
   * icmp_type_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
   */
   readonly icmpTypeCodeList?: NetworkSecurityRuleAdRuleInboundAllowListIcmpTypeCodeListStruct[] | cdktf.IResolvable;
   /**
   * service_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
   */
   readonly serviceGroupList?: NetworkSecurityRuleAdRuleInboundAllowListServiceGroupListStruct[] | cdktf.IResolvable;
   /**
   * tcp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
   */
   readonly tcpPortRangeList?: NetworkSecurityRuleAdRuleInboundAllowListTcpPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * udp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
   */
   readonly udpPortRangeList?: NetworkSecurityRuleAdRuleInboundAllowListUdpPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -1616,11 +1616,11 @@ export class NetworkSecurityRuleAdRuleInboundAllowListStructList extends cdktf.C
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListAddressGroupInclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -1770,11 +1770,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListAddressGroupInclusionList
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -1913,11 +1913,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListFilterParamsList extends 
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListIcmpTypeCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#code NetworkSecurityRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#code NetworkSecurityRule#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#type NetworkSecurityRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#type NetworkSecurityRule#type}
   */
   readonly type?: string;
 }
@@ -2062,11 +2062,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListIcmpTypeCodeListStructLis
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListServiceGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -2216,11 +2216,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListServiceGroupListStructLis
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListTcpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -2365,11 +2365,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListTcpPortRangeListStructLis
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListUdpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -2514,71 +2514,71 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListUdpPortRangeListStructLis
 }
 export interface NetworkSecurityRuleAdRuleOutboundAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
   */
   readonly filterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
   */
   readonly ipSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
   */
   readonly ipSubnetPrefixLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
   */
   readonly peerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
   */
   readonly protocol?: string;
   /**
   * address_group_inclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
   */
   readonly addressGroupInclusionList?: NetworkSecurityRuleAdRuleOutboundAllowListAddressGroupInclusionListStruct[] | cdktf.IResolvable;
   /**
   * filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
   */
   readonly filterParams?: NetworkSecurityRuleAdRuleOutboundAllowListFilterParams[] | cdktf.IResolvable;
   /**
   * icmp_type_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
   */
   readonly icmpTypeCodeList?: NetworkSecurityRuleAdRuleOutboundAllowListIcmpTypeCodeListStruct[] | cdktf.IResolvable;
   /**
   * service_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
   */
   readonly serviceGroupList?: NetworkSecurityRuleAdRuleOutboundAllowListServiceGroupListStruct[] | cdktf.IResolvable;
   /**
   * tcp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
   */
   readonly tcpPortRangeList?: NetworkSecurityRuleAdRuleOutboundAllowListTcpPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * udp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
   */
   readonly udpPortRangeList?: NetworkSecurityRuleAdRuleOutboundAllowListUdpPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -3071,11 +3071,11 @@ export class NetworkSecurityRuleAdRuleOutboundAllowListStructList extends cdktf.
 }
 export interface NetworkSecurityRuleAdRuleTargetGroupFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -3214,11 +3214,11 @@ export class NetworkSecurityRuleAdRuleTargetGroupFilterParamsList extends cdktf.
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListAddressGroupInclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -3368,11 +3368,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListAddressGroupInclusionList
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -3511,11 +3511,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListFilterParamsList extends 
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListIcmpTypeCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#code NetworkSecurityRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#code NetworkSecurityRule#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#type NetworkSecurityRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#type NetworkSecurityRule#type}
   */
   readonly type?: string;
 }
@@ -3660,11 +3660,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListIcmpTypeCodeListStructLis
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListServiceGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -3814,11 +3814,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListServiceGroupListStructLis
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListTcpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -3963,11 +3963,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListTcpPortRangeListStructLis
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListUdpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -4112,71 +4112,71 @@ export class NetworkSecurityRuleAppRuleInboundAllowListUdpPortRangeListStructLis
 }
 export interface NetworkSecurityRuleAppRuleInboundAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
   */
   readonly filterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
   */
   readonly ipSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
   */
   readonly ipSubnetPrefixLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
   */
   readonly peerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
   */
   readonly protocol?: string;
   /**
   * address_group_inclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
   */
   readonly addressGroupInclusionList?: NetworkSecurityRuleAppRuleInboundAllowListAddressGroupInclusionListStruct[] | cdktf.IResolvable;
   /**
   * filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
   */
   readonly filterParams?: NetworkSecurityRuleAppRuleInboundAllowListFilterParams[] | cdktf.IResolvable;
   /**
   * icmp_type_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
   */
   readonly icmpTypeCodeList?: NetworkSecurityRuleAppRuleInboundAllowListIcmpTypeCodeListStruct[] | cdktf.IResolvable;
   /**
   * service_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
   */
   readonly serviceGroupList?: NetworkSecurityRuleAppRuleInboundAllowListServiceGroupListStruct[] | cdktf.IResolvable;
   /**
   * tcp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
   */
   readonly tcpPortRangeList?: NetworkSecurityRuleAppRuleInboundAllowListTcpPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * udp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
   */
   readonly udpPortRangeList?: NetworkSecurityRuleAppRuleInboundAllowListUdpPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -4669,11 +4669,11 @@ export class NetworkSecurityRuleAppRuleInboundAllowListStructList extends cdktf.
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListAddressGroupInclusionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -4823,11 +4823,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListAddressGroupInclusionLis
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -4966,11 +4966,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListFilterParamsList extends
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListIcmpTypeCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#code NetworkSecurityRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#code NetworkSecurityRule#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#type NetworkSecurityRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#type NetworkSecurityRule#type}
   */
   readonly type?: string;
 }
@@ -5115,11 +5115,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListIcmpTypeCodeListStructLi
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListServiceGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#kind NetworkSecurityRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#uuid NetworkSecurityRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -5269,11 +5269,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListServiceGroupListStructLi
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListTcpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -5418,11 +5418,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListTcpPortRangeListStructLi
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListUdpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#end_port NetworkSecurityRule#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#start_port NetworkSecurityRule#start_port}
   */
   readonly startPort?: number;
 }
@@ -5567,71 +5567,71 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListUdpPortRangeListStructLi
 }
 export interface NetworkSecurityRuleAppRuleOutboundAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#expiration_time NetworkSecurityRule#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_kind_list NetworkSecurityRule#filter_kind_list}
   */
   readonly filterKindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_type NetworkSecurityRule#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet NetworkSecurityRule#ip_subnet}
   */
   readonly ipSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#ip_subnet_prefix_length NetworkSecurityRule#ip_subnet_prefix_length}
   */
   readonly ipSubnetPrefixLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#network_function_chain_reference NetworkSecurityRule#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#peer_specification_type NetworkSecurityRule#peer_specification_type}
   */
   readonly peerSpecificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#protocol NetworkSecurityRule#protocol}
   */
   readonly protocol?: string;
   /**
   * address_group_inclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#address_group_inclusion_list NetworkSecurityRule#address_group_inclusion_list}
   */
   readonly addressGroupInclusionList?: NetworkSecurityRuleAppRuleOutboundAllowListAddressGroupInclusionListStruct[] | cdktf.IResolvable;
   /**
   * filter_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#filter_params NetworkSecurityRule#filter_params}
   */
   readonly filterParams?: NetworkSecurityRuleAppRuleOutboundAllowListFilterParams[] | cdktf.IResolvable;
   /**
   * icmp_type_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#icmp_type_code_list NetworkSecurityRule#icmp_type_code_list}
   */
   readonly icmpTypeCodeList?: NetworkSecurityRuleAppRuleOutboundAllowListIcmpTypeCodeListStruct[] | cdktf.IResolvable;
   /**
   * service_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#service_group_list NetworkSecurityRule#service_group_list}
   */
   readonly serviceGroupList?: NetworkSecurityRuleAppRuleOutboundAllowListServiceGroupListStruct[] | cdktf.IResolvable;
   /**
   * tcp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#tcp_port_range_list NetworkSecurityRule#tcp_port_range_list}
   */
   readonly tcpPortRangeList?: NetworkSecurityRuleAppRuleOutboundAllowListTcpPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * udp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#udp_port_range_list NetworkSecurityRule#udp_port_range_list}
   */
   readonly udpPortRangeList?: NetworkSecurityRuleAppRuleOutboundAllowListUdpPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -6124,11 +6124,11 @@ export class NetworkSecurityRuleAppRuleOutboundAllowListStructList extends cdktf
 }
 export interface NetworkSecurityRuleAppRuleTargetGroupFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -6267,11 +6267,11 @@ export class NetworkSecurityRuleAppRuleTargetGroupFilterParamsList extends cdktf
 }
 export interface NetworkSecurityRuleCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#value NetworkSecurityRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#value NetworkSecurityRule#value}
   */
   readonly value?: string;
 }
@@ -6416,11 +6416,11 @@ export class NetworkSecurityRuleCategoriesList extends cdktf.ComplexList {
 }
 export interface NetworkSecurityRuleIsolationRuleFirstEntityFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -6559,11 +6559,11 @@ export class NetworkSecurityRuleIsolationRuleFirstEntityFilterParamsList extends
 }
 export interface NetworkSecurityRuleIsolationRuleSecondEntityFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#name NetworkSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#name NetworkSecurityRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#values NetworkSecurityRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#values NetworkSecurityRule#values}
   */
   readonly values: string[];
 }
@@ -6702,15 +6702,15 @@ export class NetworkSecurityRuleIsolationRuleSecondEntityFilterParamsList extend
 }
 export interface NetworkSecurityRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#create NetworkSecurityRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#create NetworkSecurityRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#delete NetworkSecurityRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#delete NetworkSecurityRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#update NetworkSecurityRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#update NetworkSecurityRule#update}
   */
   readonly update?: string;
 }
@@ -6862,7 +6862,7 @@ export class NetworkSecurityRuleTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule nutanix_network_security_rule}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule nutanix_network_security_rule}
 */
 export class NetworkSecurityRule extends cdktf.TerraformResource {
 
@@ -6878,7 +6878,7 @@ export class NetworkSecurityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSecurityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSecurityRule to import
-  * @param importFromId The id of the existing NetworkSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSecurityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6890,7 +6890,7 @@ export class NetworkSecurityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_rule nutanix_network_security_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_rule nutanix_network_security_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6901,8 +6901,8 @@ export class NetworkSecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_network_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

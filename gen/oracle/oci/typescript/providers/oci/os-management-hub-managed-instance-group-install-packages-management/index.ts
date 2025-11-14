@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubManagedInstanceGroupInstallPackagesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#id OsManagementHubManagedInstanceGroupInstallPackagesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#id OsManagementHubManagedInstanceGroupInstallPackagesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#is_latest OsManagementHubManagedInstanceGroupInstallPackagesManagement#is_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#is_latest OsManagementHubManagedInstanceGroupInstallPackagesManagement#is_latest}
   */
   readonly isLatest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#managed_instance_group_id OsManagementHubManagedInstanceGroupInstallPackagesManagement#managed_instance_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#managed_instance_group_id OsManagementHubManagedInstanceGroupInstallPackagesManagement#managed_instance_group_id}
   */
   readonly managedInstanceGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#package_names OsManagementHubManagedInstanceGroupInstallPackagesManagement#package_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#package_names OsManagementHubManagedInstanceGroupInstallPackagesManagement#package_names}
   */
   readonly packageNames: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#timeouts OsManagementHubManagedInstanceGroupInstallPackagesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#timeouts OsManagementHubManagedInstanceGroupInstallPackagesManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubManagedInstanceGroupInstallPackagesManagementTimeouts;
   /**
   * work_request_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#work_request_details OsManagementHubManagedInstanceGroupInstallPackagesManagement#work_request_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#work_request_details OsManagementHubManagedInstanceGroupInstallPackagesManagement#work_request_details}
   */
   readonly workRequestDetails?: OsManagementHubManagedInstanceGroupInstallPackagesManagementWorkRequestDetails;
 }
 export interface OsManagementHubManagedInstanceGroupInstallPackagesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#create OsManagementHubManagedInstanceGroupInstallPackagesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#create OsManagementHubManagedInstanceGroupInstallPackagesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#delete OsManagementHubManagedInstanceGroupInstallPackagesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#delete OsManagementHubManagedInstanceGroupInstallPackagesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#update OsManagementHubManagedInstanceGroupInstallPackagesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#update OsManagementHubManagedInstanceGroupInstallPackagesManagement#update}
   */
   readonly update?: string;
 }
@@ -201,11 +201,11 @@ export class OsManagementHubManagedInstanceGroupInstallPackagesManagementTimeout
 }
 export interface OsManagementHubManagedInstanceGroupInstallPackagesManagementWorkRequestDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#description OsManagementHubManagedInstanceGroupInstallPackagesManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#description OsManagementHubManagedInstanceGroupInstallPackagesManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#display_name OsManagementHubManagedInstanceGroupInstallPackagesManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#display_name OsManagementHubManagedInstanceGroupInstallPackagesManagement#display_name}
   */
   readonly displayName?: string;
 }
@@ -318,7 +318,7 @@ export class OsManagementHubManagedInstanceGroupInstallPackagesManagementWorkReq
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management oci_os_management_hub_managed_instance_group_install_packages_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management oci_os_management_hub_managed_instance_group_install_packages_management}
 */
 export class OsManagementHubManagedInstanceGroupInstallPackagesManagement extends cdktf.TerraformResource {
 
@@ -334,7 +334,7 @@ export class OsManagementHubManagedInstanceGroupInstallPackagesManagement extend
   * Generates CDKTF code for importing a OsManagementHubManagedInstanceGroupInstallPackagesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubManagedInstanceGroupInstallPackagesManagement to import
-  * @param importFromId The id of the existing OsManagementHubManagedInstanceGroupInstallPackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubManagedInstanceGroupInstallPackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubManagedInstanceGroupInstallPackagesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class OsManagementHubManagedInstanceGroupInstallPackagesManagement extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_group_install_packages_management oci_os_management_hub_managed_instance_group_install_packages_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_group_install_packages_management oci_os_management_hub_managed_instance_group_install_packages_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class OsManagementHubManagedInstanceGroupInstallPackagesManagement extend
       terraformResourceType: 'oci_os_management_hub_managed_instance_group_install_packages_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

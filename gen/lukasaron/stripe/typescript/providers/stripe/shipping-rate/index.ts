@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ShippingRateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the shipping rate can be used for new purchases. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#active ShippingRate#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#active ShippingRate#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The name of the shipping rate, meant to be displayable to the customer. This will appear on CheckoutSessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#display_name ShippingRate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#display_name ShippingRate#display_name}
   */
   readonly displayName: string;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#metadata ShippingRate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#metadata ShippingRate#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Specifies whether the rate is considered inclusive of taxes or exclusive of taxes. One of inclusive, exclusive, or unspecified. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
   */
   readonly taxBehavior?: string;
   /**
   * A tax code ID. The Shipping tax code is txcd_92010001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#tax_code ShippingRate#tax_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#tax_code ShippingRate#tax_code}
   */
   readonly taxCode?: string;
   /**
   * The type of calculation to use on the shipping rate. Can only be fixed_amount for now
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#type ShippingRate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#type ShippingRate#type}
   */
   readonly type?: string;
   /**
   * delivery_estimate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#delivery_estimate ShippingRate#delivery_estimate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#delivery_estimate ShippingRate#delivery_estimate}
   */
   readonly deliveryEstimate?: ShippingRateDeliveryEstimate[] | cdktf.IResolvable;
   /**
   * fixed_amount block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#fixed_amount ShippingRate#fixed_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#fixed_amount ShippingRate#fixed_amount}
   */
   readonly fixedAmount: ShippingRateFixedAmount;
 }
@@ -60,13 +60,13 @@ export interface ShippingRateDeliveryEstimateMaximum {
   /**
   * The upper bound of the estimated range. If empty, represents no lower bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#unit ShippingRate#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#unit ShippingRate#unit}
   */
   readonly unit: string;
   /**
   * Must be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#value ShippingRate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#value ShippingRate#value}
   */
   readonly value: number;
 }
@@ -175,13 +175,13 @@ export interface ShippingRateDeliveryEstimateMinimum {
   /**
   * The lower bound of the estimated range. If empty, represents no lower bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#unit ShippingRate#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#unit ShippingRate#unit}
   */
   readonly unit: string;
   /**
   * Must be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#value ShippingRate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#value ShippingRate#value}
   */
   readonly value: number;
 }
@@ -290,13 +290,13 @@ export interface ShippingRateDeliveryEstimate {
   /**
   * maximum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#maximum ShippingRate#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#maximum ShippingRate#maximum}
   */
   readonly maximum?: ShippingRateDeliveryEstimateMaximum;
   /**
   * minimum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#minimum ShippingRate#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#minimum ShippingRate#minimum}
   */
   readonly minimum?: ShippingRateDeliveryEstimateMinimum;
 }
@@ -443,19 +443,19 @@ export interface ShippingRateFixedAmountCurrencyOption {
   /**
   * A non-negative integer in cents representing how much to charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#amount ShippingRate#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#amount ShippingRate#amount}
   */
   readonly amount: number;
   /**
   * Three-letter ISO currency code, in lowercase. Must be a supported currency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#currency ShippingRate#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#currency ShippingRate#currency}
   */
   readonly currency: string;
   /**
   * Specifies whether the rate is considered inclusive of taxes or exclusive of taxes. One of inclusive, exclusive, or unspecified. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
   */
   readonly taxBehavior?: string;
 }
@@ -625,19 +625,19 @@ export interface ShippingRateFixedAmount {
   /**
   * A non-negative integer in cents representing how much to charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#amount ShippingRate#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#amount ShippingRate#amount}
   */
   readonly amount: number;
   /**
   * Three-letter ISO currency code, in lowercase. Must be a supported currency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#currency ShippingRate#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#currency ShippingRate#currency}
   */
   readonly currency: string;
   /**
   * currency_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#currency_option ShippingRate#currency_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#currency_option ShippingRate#currency_option}
   */
   readonly currencyOption?: ShippingRateFixedAmountCurrencyOption[] | cdktf.IResolvable;
 }
@@ -773,7 +773,7 @@ export class ShippingRateFixedAmountOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate stripe_shipping_rate}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate stripe_shipping_rate}
 */
 export class ShippingRate extends cdktf.TerraformResource {
 
@@ -789,7 +789,7 @@ export class ShippingRate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ShippingRate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ShippingRate to import
-  * @param importFromId The id of the existing ShippingRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ShippingRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ShippingRate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -801,7 +801,7 @@ export class ShippingRate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/shipping_rate stripe_shipping_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/shipping_rate stripe_shipping_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -812,8 +812,8 @@ export class ShippingRate extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_shipping_rate',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

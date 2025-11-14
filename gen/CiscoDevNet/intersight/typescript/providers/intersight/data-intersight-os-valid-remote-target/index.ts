@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightOsValidRemoteTargetConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#account_moid DataIntersightOsValidRemoteTarget#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#account_moid DataIntersightOsValidRemoteTarget#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightOsValidRemoteTargetConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#create_time DataIntersightOsValidRemoteTarget#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#create_time DataIntersightOsValidRemoteTarget#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#domain_group_moid DataIntersightOsValidRemoteTarget#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#domain_group_moid DataIntersightOsValidRemoteTarget#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#id DataIntersightOsValidRemoteTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#id DataIntersightOsValidRemoteTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,86 +47,86 @@ export interface DataIntersightOsValidRemoteTargetConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#mod_time DataIntersightOsValidRemoteTarget#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#mod_time DataIntersightOsValidRemoteTarget#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#owners DataIntersightOsValidRemoteTarget#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#owners DataIntersightOsValidRemoteTarget#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#shared_scope DataIntersightOsValidRemoteTarget#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#shared_scope DataIntersightOsValidRemoteTarget#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Flag to denote the source of the request.
   * If the call is from Orchestration UI, only the flat list of Install targets can be sent as response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#src DataIntersightOsValidRemoteTarget#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#src DataIntersightOsValidRemoteTarget#src}
   */
   readonly src?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#ancestors DataIntersightOsValidRemoteTarget#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#ancestors DataIntersightOsValidRemoteTarget#ancestors}
   */
   readonly ancestors?: DataIntersightOsValidRemoteTargetAncestors[] | cdktf.IResolvable;
   /**
   * fibre_channel_luns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#fibre_channel_luns DataIntersightOsValidRemoteTarget#fibre_channel_luns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#fibre_channel_luns DataIntersightOsValidRemoteTarget#fibre_channel_luns}
   */
   readonly fibreChannelLuns?: DataIntersightOsValidRemoteTargetFibreChannelLuns[] | cdktf.IResolvable;
   /**
   * iscsi_luns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#iscsi_luns DataIntersightOsValidRemoteTarget#iscsi_luns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#iscsi_luns DataIntersightOsValidRemoteTarget#iscsi_luns}
   */
   readonly iscsiLuns?: DataIntersightOsValidRemoteTargetIscsiLuns[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#parent DataIntersightOsValidRemoteTarget#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#parent DataIntersightOsValidRemoteTarget#parent}
   */
   readonly parent?: DataIntersightOsValidRemoteTargetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#permission_resources DataIntersightOsValidRemoteTarget#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#permission_resources DataIntersightOsValidRemoteTarget#permission_resources}
   */
   readonly permissionResources?: DataIntersightOsValidRemoteTargetPermissionResources[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#server DataIntersightOsValidRemoteTarget#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#server DataIntersightOsValidRemoteTarget#server}
   */
   readonly server?: DataIntersightOsValidRemoteTargetServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#tags DataIntersightOsValidRemoteTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#tags DataIntersightOsValidRemoteTarget#tags}
   */
   readonly tags?: DataIntersightOsValidRemoteTargetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#version_context DataIntersightOsValidRemoteTarget#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#version_context DataIntersightOsValidRemoteTarget#version_context}
   */
   readonly versionContext?: DataIntersightOsValidRemoteTargetVersionContext;
 }
@@ -988,6 +988,11 @@ export class DataIntersightOsValidRemoteTargetResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1499,7 +1504,7 @@ export class DataIntersightOsValidRemoteTargetResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightOsValidRemoteTargetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1507,19 +1512,19 @@ export interface DataIntersightOsValidRemoteTargetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1532,7 +1537,7 @@ export interface DataIntersightOsValidRemoteTargetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -1764,7 +1769,7 @@ export class DataIntersightOsValidRemoteTargetAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightOsValidRemoteTargetFibreChannelLuns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1772,38 +1777,38 @@ export interface DataIntersightOsValidRemoteTargetFibreChannelLuns {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * WWPN address of the underlying fibre channel interface by initator/server for SAN boot. Value must be in hexadecimal format xx:xx:xx:xx:xx:xx:xx:xx. For example, 20:00:D4:C9:3C:35:02:01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#initiator_wwpn DataIntersightOsValidRemoteTarget#initiator_wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#initiator_wwpn DataIntersightOsValidRemoteTarget#initiator_wwpn}
   */
   readonly initiatorWwpn?: string;
   /**
   * Interface name of the iSCSI/FC used as initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#interface_name DataIntersightOsValidRemoteTarget#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#interface_name DataIntersightOsValidRemoteTarget#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * The Logical Unit Number (LUN) of the install target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#lun_id DataIntersightOsValidRemoteTarget#lun_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#lun_id DataIntersightOsValidRemoteTarget#lun_id}
   */
   readonly lunId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * WWPN address of the underlying fibre channel interface by target/storage for SAN boot. Value must be in hexadecimal format xx:xx:xx:xx:xx:xx:xx:xx. For example, 51:4F:0C:50:14:1F:AF:01.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#target_wwpn DataIntersightOsValidRemoteTarget#target_wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#target_wwpn DataIntersightOsValidRemoteTarget#target_wwpn}
   */
   readonly targetWwpn?: string;
 }
@@ -2093,7 +2098,7 @@ export class DataIntersightOsValidRemoteTargetFibreChannelLunsList extends cdktf
 }
 export interface DataIntersightOsValidRemoteTargetIscsiLuns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,38 +2106,38 @@ export interface DataIntersightOsValidRemoteTargetIscsiLuns {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * Interface name of the iSCSI/FC used as initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#interface_name DataIntersightOsValidRemoteTarget#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#interface_name DataIntersightOsValidRemoteTarget#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * The Logical Unit Number (LUN) of the install target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#lun_id DataIntersightOsValidRemoteTarget#lun_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#lun_id DataIntersightOsValidRemoteTarget#lun_id}
   */
   readonly lunId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * IQN (iSCSI qualified name) of Storage iSCSI target. Can be up to 255 characters long and has the following format, iqn.yyyy-mm.naming-authority:unique_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#target_iqn DataIntersightOsValidRemoteTarget#target_iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#target_iqn DataIntersightOsValidRemoteTarget#target_iqn}
   */
   readonly targetIqn?: string;
   /**
   * MAC address of the VNIC to be used as initiator iSCSI interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#vnic_mac DataIntersightOsValidRemoteTarget#vnic_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#vnic_mac DataIntersightOsValidRemoteTarget#vnic_mac}
   */
   readonly vnicMac?: string;
 }
@@ -2422,7 +2427,7 @@ export class DataIntersightOsValidRemoteTargetIscsiLunsList extends cdktf.Comple
 }
 export interface DataIntersightOsValidRemoteTargetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2430,19 +2435,19 @@ export interface DataIntersightOsValidRemoteTargetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2455,7 +2460,7 @@ export interface DataIntersightOsValidRemoteTargetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2655,7 +2660,7 @@ export class DataIntersightOsValidRemoteTargetParentOutputReference extends cdkt
 }
 export interface DataIntersightOsValidRemoteTargetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2663,19 +2668,19 @@ export interface DataIntersightOsValidRemoteTargetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2688,7 +2693,7 @@ export interface DataIntersightOsValidRemoteTargetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2920,7 +2925,7 @@ export class DataIntersightOsValidRemoteTargetPermissionResourcesList extends cd
 }
 export interface DataIntersightOsValidRemoteTargetServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2928,19 +2933,19 @@ export interface DataIntersightOsValidRemoteTargetServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2953,7 +2958,7 @@ export interface DataIntersightOsValidRemoteTargetServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3153,7 +3158,7 @@ export class DataIntersightOsValidRemoteTargetServerOutputReference extends cdkt
 }
 export interface DataIntersightOsValidRemoteTargetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3161,19 +3166,19 @@ export interface DataIntersightOsValidRemoteTargetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3186,7 +3191,7 @@ export interface DataIntersightOsValidRemoteTargetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3418,7 +3423,7 @@ export class DataIntersightOsValidRemoteTargetTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightOsValidRemoteTargetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3426,19 +3431,19 @@ export interface DataIntersightOsValidRemoteTargetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3451,7 +3456,7 @@ export interface DataIntersightOsValidRemoteTargetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3651,45 +3656,51 @@ export class DataIntersightOsValidRemoteTargetTagsDefinitionOutputReference exte
 }
 export interface DataIntersightOsValidRemoteTargetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#key DataIntersightOsValidRemoteTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#key DataIntersightOsValidRemoteTarget#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#propagated DataIntersightOsValidRemoteTarget#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#propagated DataIntersightOsValidRemoteTarget#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#sys_tag DataIntersightOsValidRemoteTarget#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#type DataIntersightOsValidRemoteTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#type DataIntersightOsValidRemoteTarget#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#value DataIntersightOsValidRemoteTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#value DataIntersightOsValidRemoteTarget#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#ancestor_definitions DataIntersightOsValidRemoteTarget#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#ancestor_definitions DataIntersightOsValidRemoteTarget#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOsValidRemoteTargetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#definition DataIntersightOsValidRemoteTarget#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#definition DataIntersightOsValidRemoteTarget#definition}
   */
   readonly definition?: DataIntersightOsValidRemoteTargetTagsDefinition;
 }
@@ -3703,6 +3714,7 @@ export function dataIntersightOsValidRemoteTargetTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightOsValidRemoteTargetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3731,6 +3743,12 @@ export function dataIntersightOsValidRemoteTargetTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3797,6 +3815,10 @@ export class DataIntersightOsValidRemoteTargetTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3823,6 +3845,7 @@ export class DataIntersightOsValidRemoteTargetTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3838,6 +3861,7 @@ export class DataIntersightOsValidRemoteTargetTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3891,6 +3915,22 @@ export class DataIntersightOsValidRemoteTargetTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3979,7 +4019,7 @@ export class DataIntersightOsValidRemoteTargetTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightOsValidRemoteTargetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3987,19 +4027,19 @@ export interface DataIntersightOsValidRemoteTargetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4012,7 +4052,7 @@ export interface DataIntersightOsValidRemoteTargetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4244,7 +4284,7 @@ export class DataIntersightOsValidRemoteTargetVersionContextInterestedMosList ex
 }
 export interface DataIntersightOsValidRemoteTargetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4252,19 +4292,19 @@ export interface DataIntersightOsValidRemoteTargetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#moid DataIntersightOsValidRemoteTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4277,7 +4317,7 @@ export interface DataIntersightOsValidRemoteTargetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#selector DataIntersightOsValidRemoteTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4477,7 +4517,7 @@ export class DataIntersightOsValidRemoteTargetVersionContextRefMoOutputReference
 }
 export interface DataIntersightOsValidRemoteTargetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#additional_properties DataIntersightOsValidRemoteTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4485,32 +4525,32 @@ export interface DataIntersightOsValidRemoteTargetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#class_id DataIntersightOsValidRemoteTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#marked_for_deletion DataIntersightOsValidRemoteTarget#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#marked_for_deletion DataIntersightOsValidRemoteTarget#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#nr_version DataIntersightOsValidRemoteTarget#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#nr_version DataIntersightOsValidRemoteTarget#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#object_type DataIntersightOsValidRemoteTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#timestamp DataIntersightOsValidRemoteTarget#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#timestamp DataIntersightOsValidRemoteTarget#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4521,19 +4561,19 @@ export interface DataIntersightOsValidRemoteTargetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#version_type DataIntersightOsValidRemoteTarget#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#version_type DataIntersightOsValidRemoteTarget#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#interested_mos DataIntersightOsValidRemoteTarget#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#interested_mos DataIntersightOsValidRemoteTarget#interested_mos}
   */
   readonly interestedMos?: DataIntersightOsValidRemoteTargetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#ref_mo DataIntersightOsValidRemoteTarget#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#ref_mo DataIntersightOsValidRemoteTarget#ref_mo}
   */
   readonly refMo?: DataIntersightOsValidRemoteTargetVersionContextRefMo;
 }
@@ -4849,7 +4889,7 @@ export class DataIntersightOsValidRemoteTargetVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target intersight_os_valid_remote_target}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target intersight_os_valid_remote_target}
 */
 export class DataIntersightOsValidRemoteTarget extends cdktf.TerraformDataSource {
 
@@ -4865,7 +4905,7 @@ export class DataIntersightOsValidRemoteTarget extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightOsValidRemoteTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOsValidRemoteTarget to import
-  * @param importFromId The id of the existing DataIntersightOsValidRemoteTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOsValidRemoteTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOsValidRemoteTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4877,7 +4917,7 @@ export class DataIntersightOsValidRemoteTarget extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_valid_remote_target intersight_os_valid_remote_target} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_valid_remote_target intersight_os_valid_remote_target} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4888,8 +4928,8 @@ export class DataIntersightOsValidRemoteTarget extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_os_valid_remote_target',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

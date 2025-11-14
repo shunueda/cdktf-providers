@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceCertificateSettingConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#account_moid DataIntersightApplianceCertificateSetting#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#account_moid DataIntersightApplianceCertificateSetting#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightApplianceCertificateSettingConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#create_time DataIntersightApplianceCertificateSetting#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#create_time DataIntersightApplianceCertificateSetting#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#domain_group_moid DataIntersightApplianceCertificateSetting#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#domain_group_moid DataIntersightApplianceCertificateSetting#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#id DataIntersightApplianceCertificateSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#id DataIntersightApplianceCertificateSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightApplianceCertificateSettingConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#mod_time DataIntersightApplianceCertificateSetting#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#mod_time DataIntersightApplianceCertificateSetting#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#owners DataIntersightApplianceCertificateSetting#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#owners DataIntersightApplianceCertificateSetting#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#shared_scope DataIntersightApplianceCertificateSetting#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#shared_scope DataIntersightApplianceCertificateSetting#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#account DataIntersightApplianceCertificateSetting#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#account DataIntersightApplianceCertificateSetting#account}
   */
   readonly account?: DataIntersightApplianceCertificateSettingAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#ancestors DataIntersightApplianceCertificateSetting#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#ancestors DataIntersightApplianceCertificateSetting#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceCertificateSettingAncestors[] | cdktf.IResolvable;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#certificate DataIntersightApplianceCertificateSetting#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#certificate DataIntersightApplianceCertificateSetting#certificate}
   */
   readonly certificate?: DataIntersightApplianceCertificateSettingCertificate;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#parent DataIntersightApplianceCertificateSetting#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#parent DataIntersightApplianceCertificateSetting#parent}
   */
   readonly parent?: DataIntersightApplianceCertificateSettingParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#permission_resources DataIntersightApplianceCertificateSetting#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#permission_resources DataIntersightApplianceCertificateSetting#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceCertificateSettingPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#tags DataIntersightApplianceCertificateSetting#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#tags DataIntersightApplianceCertificateSetting#tags}
   */
   readonly tags?: DataIntersightApplianceCertificateSettingTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#version_context DataIntersightApplianceCertificateSetting#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#version_context DataIntersightApplianceCertificateSetting#version_context}
   */
   readonly versionContext?: DataIntersightApplianceCertificateSettingVersionContext;
 }
@@ -860,6 +860,11 @@ export class DataIntersightApplianceCertificateSettingResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1360,7 +1365,7 @@ export class DataIntersightApplianceCertificateSettingResultsList extends cdktf.
 }
 export interface DataIntersightApplianceCertificateSettingAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1368,19 +1373,19 @@ export interface DataIntersightApplianceCertificateSettingAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1393,7 +1398,7 @@ export interface DataIntersightApplianceCertificateSettingAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -1593,7 +1598,7 @@ export class DataIntersightApplianceCertificateSettingAccountOutputReference ext
 }
 export interface DataIntersightApplianceCertificateSettingAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1601,19 +1606,19 @@ export interface DataIntersightApplianceCertificateSettingAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1626,7 +1631,7 @@ export interface DataIntersightApplianceCertificateSettingAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -1858,7 +1863,7 @@ export class DataIntersightApplianceCertificateSettingAncestorsList extends cdkt
 }
 export interface DataIntersightApplianceCertificateSettingCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1866,19 +1871,19 @@ export interface DataIntersightApplianceCertificateSettingCertificate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1891,7 +1896,7 @@ export interface DataIntersightApplianceCertificateSettingCertificate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2091,7 +2096,7 @@ export class DataIntersightApplianceCertificateSettingCertificateOutputReference
 }
 export interface DataIntersightApplianceCertificateSettingParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2099,19 +2104,19 @@ export interface DataIntersightApplianceCertificateSettingParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2124,7 +2129,7 @@ export interface DataIntersightApplianceCertificateSettingParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2324,7 +2329,7 @@ export class DataIntersightApplianceCertificateSettingParentOutputReference exte
 }
 export interface DataIntersightApplianceCertificateSettingPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2332,19 +2337,19 @@ export interface DataIntersightApplianceCertificateSettingPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2357,7 +2362,7 @@ export interface DataIntersightApplianceCertificateSettingPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2589,7 +2594,7 @@ export class DataIntersightApplianceCertificateSettingPermissionResourcesList ex
 }
 export interface DataIntersightApplianceCertificateSettingTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2597,19 +2602,19 @@ export interface DataIntersightApplianceCertificateSettingTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2622,7 +2627,7 @@ export interface DataIntersightApplianceCertificateSettingTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2854,7 +2859,7 @@ export class DataIntersightApplianceCertificateSettingTagsAncestorDefinitionsLis
 }
 export interface DataIntersightApplianceCertificateSettingTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2862,19 +2867,19 @@ export interface DataIntersightApplianceCertificateSettingTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2887,7 +2892,7 @@ export interface DataIntersightApplianceCertificateSettingTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -3087,45 +3092,51 @@ export class DataIntersightApplianceCertificateSettingTagsDefinitionOutputRefere
 }
 export interface DataIntersightApplianceCertificateSettingTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#key DataIntersightApplianceCertificateSetting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#key DataIntersightApplianceCertificateSetting#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#propagated DataIntersightApplianceCertificateSetting#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#propagated DataIntersightApplianceCertificateSetting#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#sys_tag DataIntersightApplianceCertificateSetting#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#type DataIntersightApplianceCertificateSetting#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#type DataIntersightApplianceCertificateSetting#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#value DataIntersightApplianceCertificateSetting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#value DataIntersightApplianceCertificateSetting#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#ancestor_definitions DataIntersightApplianceCertificateSetting#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#ancestor_definitions DataIntersightApplianceCertificateSetting#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceCertificateSettingTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#definition DataIntersightApplianceCertificateSetting#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#definition DataIntersightApplianceCertificateSetting#definition}
   */
   readonly definition?: DataIntersightApplianceCertificateSettingTagsDefinition;
 }
@@ -3139,6 +3150,7 @@ export function dataIntersightApplianceCertificateSettingTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceCertificateSettingTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3167,6 +3179,12 @@ export function dataIntersightApplianceCertificateSettingTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3233,6 +3251,10 @@ export class DataIntersightApplianceCertificateSettingTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3259,6 +3281,7 @@ export class DataIntersightApplianceCertificateSettingTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3274,6 +3297,7 @@ export class DataIntersightApplianceCertificateSettingTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3327,6 +3351,22 @@ export class DataIntersightApplianceCertificateSettingTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3415,7 +3455,7 @@ export class DataIntersightApplianceCertificateSettingTagsList extends cdktf.Com
 }
 export interface DataIntersightApplianceCertificateSettingVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3423,19 +3463,19 @@ export interface DataIntersightApplianceCertificateSettingVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3448,7 +3488,7 @@ export interface DataIntersightApplianceCertificateSettingVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -3680,7 +3720,7 @@ export class DataIntersightApplianceCertificateSettingVersionContextInterestedMo
 }
 export interface DataIntersightApplianceCertificateSettingVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3688,19 +3728,19 @@ export interface DataIntersightApplianceCertificateSettingVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#moid DataIntersightApplianceCertificateSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3713,7 +3753,7 @@ export interface DataIntersightApplianceCertificateSettingVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#selector DataIntersightApplianceCertificateSetting#selector}
   */
   readonly selector?: string;
 }
@@ -3913,7 +3953,7 @@ export class DataIntersightApplianceCertificateSettingVersionContextRefMoOutputR
 }
 export interface DataIntersightApplianceCertificateSettingVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#additional_properties DataIntersightApplianceCertificateSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3921,32 +3961,32 @@ export interface DataIntersightApplianceCertificateSettingVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#class_id DataIntersightApplianceCertificateSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#marked_for_deletion DataIntersightApplianceCertificateSetting#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#marked_for_deletion DataIntersightApplianceCertificateSetting#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#nr_version DataIntersightApplianceCertificateSetting#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#nr_version DataIntersightApplianceCertificateSetting#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#object_type DataIntersightApplianceCertificateSetting#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#timestamp DataIntersightApplianceCertificateSetting#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#timestamp DataIntersightApplianceCertificateSetting#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3957,19 +3997,19 @@ export interface DataIntersightApplianceCertificateSettingVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#version_type DataIntersightApplianceCertificateSetting#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#version_type DataIntersightApplianceCertificateSetting#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#interested_mos DataIntersightApplianceCertificateSetting#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#interested_mos DataIntersightApplianceCertificateSetting#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceCertificateSettingVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#ref_mo DataIntersightApplianceCertificateSetting#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#ref_mo DataIntersightApplianceCertificateSetting#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceCertificateSettingVersionContextRefMo;
 }
@@ -4285,7 +4325,7 @@ export class DataIntersightApplianceCertificateSettingVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting intersight_appliance_certificate_setting}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting intersight_appliance_certificate_setting}
 */
 export class DataIntersightApplianceCertificateSetting extends cdktf.TerraformDataSource {
 
@@ -4301,7 +4341,7 @@ export class DataIntersightApplianceCertificateSetting extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightApplianceCertificateSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceCertificateSetting to import
-  * @param importFromId The id of the existing DataIntersightApplianceCertificateSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceCertificateSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceCertificateSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4313,7 +4353,7 @@ export class DataIntersightApplianceCertificateSetting extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_certificate_setting intersight_appliance_certificate_setting} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_certificate_setting intersight_appliance_certificate_setting} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4324,8 +4364,8 @@ export class DataIntersightApplianceCertificateSetting extends cdktf.TerraformDa
       terraformResourceType: 'intersight_appliance_certificate_setting',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

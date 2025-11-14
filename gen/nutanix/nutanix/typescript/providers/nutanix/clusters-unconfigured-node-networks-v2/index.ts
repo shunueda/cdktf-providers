@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface ClustersUnconfiguredNodeNetworksV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#expand ClustersUnconfiguredNodeNetworksV2#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#expand ClustersUnconfiguredNodeNetworksV2#expand}
   */
   readonly expand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ext_id ClustersUnconfiguredNodeNetworksV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ext_id ClustersUnconfiguredNodeNetworksV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#id ClustersUnconfiguredNodeNetworksV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#id ClustersUnconfiguredNodeNetworksV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#request_type ClustersUnconfiguredNodeNetworksV2#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#request_type ClustersUnconfiguredNodeNetworksV2#request_type}
   */
   readonly requestType?: string;
   /**
   * node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#node_list ClustersUnconfiguredNodeNetworksV2#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#node_list ClustersUnconfiguredNodeNetworksV2#node_list}
   */
   readonly nodeList: ClustersUnconfiguredNodeNetworksV2NodeListStruct[] | cdktf.IResolvable;
 }
@@ -778,11 +778,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodesNetworkingDetailsList extend
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListCvmIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -924,11 +924,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListCvmIpIpv4List extends cdk
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListCvmIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -1072,13 +1072,13 @@ export interface ClustersUnconfiguredNodeNetworksV2NodeListCvmIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
   */
   readonly ipv4?: ClustersUnconfiguredNodeNetworksV2NodeListCvmIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
   */
   readonly ipv6?: ClustersUnconfiguredNodeNetworksV2NodeListCvmIpIpv6[] | cdktf.IResolvable;
 }
@@ -1223,11 +1223,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListCvmIpList extends cdktf.C
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListDigitalCertificateMapListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#key ClustersUnconfiguredNodeNetworksV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#key ClustersUnconfiguredNodeNetworksV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value?: string;
 }
@@ -1372,11 +1372,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListDigitalCertificateMapList
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -1518,11 +1518,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpIpv4List exte
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -1666,13 +1666,13 @@ export interface ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
   */
   readonly ipv4?: ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
   */
   readonly ipv6?: ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpIpv6[] | cdktf.IResolvable;
 }
@@ -1817,11 +1817,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIpList extends 
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -1963,11 +1963,11 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpIpv4List extends cd
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#prefix_length ClustersUnconfiguredNodeNetworksV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#value ClustersUnconfiguredNodeNetworksV2#value}
   */
   readonly value: string;
 }
@@ -2111,13 +2111,13 @@ export interface ClustersUnconfiguredNodeNetworksV2NodeListIpmiIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv4 ClustersUnconfiguredNodeNetworksV2#ipv4}
   */
   readonly ipv4?: ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipv6 ClustersUnconfiguredNodeNetworksV2#ipv6}
   */
   readonly ipv6?: ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpIpv6[] | cdktf.IResolvable;
 }
@@ -2262,71 +2262,71 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListIpmiIpList extends cdktf.
 }
 export interface ClustersUnconfiguredNodeNetworksV2NodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#block_id ClustersUnconfiguredNodeNetworksV2#block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#block_id ClustersUnconfiguredNodeNetworksV2#block_id}
   */
   readonly blockId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#current_network_interface ClustersUnconfiguredNodeNetworksV2#current_network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#current_network_interface ClustersUnconfiguredNodeNetworksV2#current_network_interface}
   */
   readonly currentNetworkInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_type ClustersUnconfiguredNodeNetworksV2#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_type ClustersUnconfiguredNodeNetworksV2#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_version ClustersUnconfiguredNodeNetworksV2#hypervisor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_version ClustersUnconfiguredNodeNetworksV2#hypervisor_version}
   */
   readonly hypervisorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#is_compute_only ClustersUnconfiguredNodeNetworksV2#is_compute_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#is_compute_only ClustersUnconfiguredNodeNetworksV2#is_compute_only}
   */
   readonly isComputeOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#is_light_compute ClustersUnconfiguredNodeNetworksV2#is_light_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#is_light_compute ClustersUnconfiguredNodeNetworksV2#is_light_compute}
   */
   readonly isLightCompute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#is_robo_mixed_hypervisor ClustersUnconfiguredNodeNetworksV2#is_robo_mixed_hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#is_robo_mixed_hypervisor ClustersUnconfiguredNodeNetworksV2#is_robo_mixed_hypervisor}
   */
   readonly isRoboMixedHypervisor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#model ClustersUnconfiguredNodeNetworksV2#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#model ClustersUnconfiguredNodeNetworksV2#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#node_position ClustersUnconfiguredNodeNetworksV2#node_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#node_position ClustersUnconfiguredNodeNetworksV2#node_position}
   */
   readonly nodePosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#node_uuid ClustersUnconfiguredNodeNetworksV2#node_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#node_uuid ClustersUnconfiguredNodeNetworksV2#node_uuid}
   */
   readonly nodeUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#nos_version ClustersUnconfiguredNodeNetworksV2#nos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#nos_version ClustersUnconfiguredNodeNetworksV2#nos_version}
   */
   readonly nosVersion?: string;
   /**
   * cvm_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#cvm_ip ClustersUnconfiguredNodeNetworksV2#cvm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#cvm_ip ClustersUnconfiguredNodeNetworksV2#cvm_ip}
   */
   readonly cvmIp?: ClustersUnconfiguredNodeNetworksV2NodeListCvmIp[] | cdktf.IResolvable;
   /**
   * digital_certificate_map_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#digital_certificate_map_list ClustersUnconfiguredNodeNetworksV2#digital_certificate_map_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#digital_certificate_map_list ClustersUnconfiguredNodeNetworksV2#digital_certificate_map_list}
   */
   readonly digitalCertificateMapList?: ClustersUnconfiguredNodeNetworksV2NodeListDigitalCertificateMapListStruct[] | cdktf.IResolvable;
   /**
   * hypervisor_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_ip ClustersUnconfiguredNodeNetworksV2#hypervisor_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#hypervisor_ip ClustersUnconfiguredNodeNetworksV2#hypervisor_ip}
   */
   readonly hypervisorIp?: ClustersUnconfiguredNodeNetworksV2NodeListHypervisorIp[] | cdktf.IResolvable;
   /**
   * ipmi_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#ipmi_ip ClustersUnconfiguredNodeNetworksV2#ipmi_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#ipmi_ip ClustersUnconfiguredNodeNetworksV2#ipmi_ip}
   */
   readonly ipmiIp?: ClustersUnconfiguredNodeNetworksV2NodeListIpmiIp[] | cdktf.IResolvable;
 }
@@ -2848,7 +2848,7 @@ export class ClustersUnconfiguredNodeNetworksV2NodeListStructList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2 nutanix_clusters_unconfigured_node_networks_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2 nutanix_clusters_unconfigured_node_networks_v2}
 */
 export class ClustersUnconfiguredNodeNetworksV2 extends cdktf.TerraformResource {
 
@@ -2864,7 +2864,7 @@ export class ClustersUnconfiguredNodeNetworksV2 extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ClustersUnconfiguredNodeNetworksV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClustersUnconfiguredNodeNetworksV2 to import
-  * @param importFromId The id of the existing ClustersUnconfiguredNodeNetworksV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClustersUnconfiguredNodeNetworksV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClustersUnconfiguredNodeNetworksV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2876,7 +2876,7 @@ export class ClustersUnconfiguredNodeNetworksV2 extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/clusters_unconfigured_node_networks_v2 nutanix_clusters_unconfigured_node_networks_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/clusters_unconfigured_node_networks_v2 nutanix_clusters_unconfigured_node_networks_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2887,8 +2887,8 @@ export class ClustersUnconfiguredNodeNetworksV2 extends cdktf.TerraformResource 
       terraformResourceType: 'nutanix_clusters_unconfigured_node_networks_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

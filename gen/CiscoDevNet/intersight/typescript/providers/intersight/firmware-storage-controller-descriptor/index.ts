@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirmwareStorageControllerDescriptorConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#account_moid FirmwareStorageControllerDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#account_moid FirmwareStorageControllerDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#ancestors FirmwareStorageControllerDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#ancestors FirmwareStorageControllerDescriptor#ancestors}
   */
   readonly ancestors?: FirmwareStorageControllerDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#brand_string FirmwareStorageControllerDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#brand_string FirmwareStorageControllerDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
   * An array of relationships to capabilityCapability resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#capabilities FirmwareStorageControllerDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#capabilities FirmwareStorageControllerDescriptor#capabilities}
   */
   readonly capabilities?: FirmwareStorageControllerDescriptorCapabilities[] | cdktf.IResolvable;
   /**
@@ -41,29 +41,29 @@ export interface FirmwareStorageControllerDescriptorConfig extends cdktf.Terrafo
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#create_time FirmwareStorageControllerDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#create_time FirmwareStorageControllerDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#description FirmwareStorageControllerDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#description FirmwareStorageControllerDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#domain_group_moid FirmwareStorageControllerDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#domain_group_moid FirmwareStorageControllerDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#id FirmwareStorageControllerDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#id FirmwareStorageControllerDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,31 +72,31 @@ export interface FirmwareStorageControllerDescriptorConfig extends cdktf.Terrafo
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#label FirmwareStorageControllerDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#label FirmwareStorageControllerDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#mod_time FirmwareStorageControllerDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#mod_time FirmwareStorageControllerDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#model FirmwareStorageControllerDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#model FirmwareStorageControllerDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#nr_version FirmwareStorageControllerDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#nr_version FirmwareStorageControllerDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -104,75 +104,75 @@ export interface FirmwareStorageControllerDescriptorConfig extends cdktf.Terrafo
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#owners FirmwareStorageControllerDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#owners FirmwareStorageControllerDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#parent FirmwareStorageControllerDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#parent FirmwareStorageControllerDescriptor#parent}
   */
   readonly parent?: FirmwareStorageControllerDescriptorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#permission_resources FirmwareStorageControllerDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#permission_resources FirmwareStorageControllerDescriptor#permission_resources}
   */
   readonly permissionResources?: FirmwareStorageControllerDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#revision FirmwareStorageControllerDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#revision FirmwareStorageControllerDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#shared_scope FirmwareStorageControllerDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#shared_scope FirmwareStorageControllerDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#tags FirmwareStorageControllerDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#tags FirmwareStorageControllerDescriptor#tags}
   */
   readonly tags?: FirmwareStorageControllerDescriptorTags[] | cdktf.IResolvable;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#vendor FirmwareStorageControllerDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#vendor FirmwareStorageControllerDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#version_context FirmwareStorageControllerDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#version_context FirmwareStorageControllerDescriptor#version_context}
   */
   readonly versionContext?: FirmwareStorageControllerDescriptorVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwareStorageControllerDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -404,23 +404,23 @@ export class FirmwareStorageControllerDescriptorAncestorsList extends cdktf.Comp
 }
 export interface FirmwareStorageControllerDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -652,23 +652,23 @@ export class FirmwareStorageControllerDescriptorCapabilitiesList extends cdktf.C
 }
 export interface FirmwareStorageControllerDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -900,23 +900,23 @@ export class FirmwareStorageControllerDescriptorParentList extends cdktf.Complex
 }
 export interface FirmwareStorageControllerDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1148,23 +1148,23 @@ export class FirmwareStorageControllerDescriptorPermissionResourcesList extends 
 }
 export interface FirmwareStorageControllerDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1396,23 +1396,23 @@ export class FirmwareStorageControllerDescriptorTagsAncestorDefinitionsList exte
 }
 export interface FirmwareStorageControllerDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1644,31 +1644,35 @@ export class FirmwareStorageControllerDescriptorTagsDefinitionList extends cdktf
 }
 export interface FirmwareStorageControllerDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#ancestor_definitions FirmwareStorageControllerDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#ancestor_definitions FirmwareStorageControllerDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareStorageControllerDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#definition FirmwareStorageControllerDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#definition FirmwareStorageControllerDescriptor#definition}
   */
   readonly definition?: FirmwareStorageControllerDescriptorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#key FirmwareStorageControllerDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#key FirmwareStorageControllerDescriptor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#propagated FirmwareStorageControllerDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#propagated FirmwareStorageControllerDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#type FirmwareStorageControllerDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#sys_tag FirmwareStorageControllerDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#type FirmwareStorageControllerDescriptor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#value FirmwareStorageControllerDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#value FirmwareStorageControllerDescriptor#value}
   */
   readonly value?: string;
 }
@@ -1684,6 +1688,7 @@ export function firmwareStorageControllerDescriptorTagsToTerraform(struct?: Firm
     definition: cdktf.listMapper(firmwareStorageControllerDescriptorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1722,6 +1727,12 @@ export function firmwareStorageControllerDescriptorTagsToHclTerraform(struct?: F
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1784,6 +1795,10 @@ export class FirmwareStorageControllerDescriptorTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1804,6 +1819,7 @@ export class FirmwareStorageControllerDescriptorTagsOutputReference extends cdkt
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1819,6 +1835,7 @@ export class FirmwareStorageControllerDescriptorTagsOutputReference extends cdkt
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1904,6 +1921,22 @@ export class FirmwareStorageControllerDescriptorTagsOutputReference extends cdkt
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1958,23 +1991,23 @@ export class FirmwareStorageControllerDescriptorTagsList extends cdktf.ComplexLi
 }
 export interface FirmwareStorageControllerDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2206,23 +2239,23 @@ export class FirmwareStorageControllerDescriptorVersionContextInterestedMosList 
 }
 export interface FirmwareStorageControllerDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#moid FirmwareStorageControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#selector FirmwareStorageControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2454,39 +2487,39 @@ export class FirmwareStorageControllerDescriptorVersionContextRefMoList extends 
 }
 export interface FirmwareStorageControllerDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#additional_properties FirmwareStorageControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#class_id FirmwareStorageControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#interested_mos FirmwareStorageControllerDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#interested_mos FirmwareStorageControllerDescriptor#interested_mos}
   */
   readonly interestedMos?: FirmwareStorageControllerDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#marked_for_deletion FirmwareStorageControllerDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#marked_for_deletion FirmwareStorageControllerDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#nr_version FirmwareStorageControllerDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#nr_version FirmwareStorageControllerDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#object_type FirmwareStorageControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#ref_mo FirmwareStorageControllerDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#ref_mo FirmwareStorageControllerDescriptor#ref_mo}
   */
   readonly refMo?: FirmwareStorageControllerDescriptorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#timestamp FirmwareStorageControllerDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#timestamp FirmwareStorageControllerDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#version_type FirmwareStorageControllerDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#version_type FirmwareStorageControllerDescriptor#version_type}
   */
   readonly versionType?: string;
 }
@@ -2834,7 +2867,7 @@ export class FirmwareStorageControllerDescriptorVersionContextList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor intersight_firmware_storage_controller_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor intersight_firmware_storage_controller_descriptor}
 */
 export class FirmwareStorageControllerDescriptor extends cdktf.TerraformResource {
 
@@ -2850,7 +2883,7 @@ export class FirmwareStorageControllerDescriptor extends cdktf.TerraformResource
   * Generates CDKTF code for importing a FirmwareStorageControllerDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareStorageControllerDescriptor to import
-  * @param importFromId The id of the existing FirmwareStorageControllerDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareStorageControllerDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareStorageControllerDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2862,7 +2895,7 @@ export class FirmwareStorageControllerDescriptor extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_storage_controller_descriptor intersight_firmware_storage_controller_descriptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_storage_controller_descriptor intersight_firmware_storage_controller_descriptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2873,8 +2906,8 @@ export class FirmwareStorageControllerDescriptor extends cdktf.TerraformResource
       terraformResourceType: 'intersight_firmware_storage_controller_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

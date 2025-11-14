@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CoreDefaultSecurityListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#compartment_id CoreDefaultSecurityList#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#compartment_id CoreDefaultSecurityList#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#defined_tags CoreDefaultSecurityList#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#defined_tags CoreDefaultSecurityList#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#display_name CoreDefaultSecurityList#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#display_name CoreDefaultSecurityList#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#freeform_tags CoreDefaultSecurityList#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#freeform_tags CoreDefaultSecurityList#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#id CoreDefaultSecurityList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#id CoreDefaultSecurityList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#manage_default_resource_id CoreDefaultSecurityList#manage_default_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#manage_default_resource_id CoreDefaultSecurityList#manage_default_resource_id}
   */
   readonly manageDefaultResourceId: string;
   /**
   * egress_security_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#egress_security_rules CoreDefaultSecurityList#egress_security_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#egress_security_rules CoreDefaultSecurityList#egress_security_rules}
   */
   readonly egressSecurityRules?: CoreDefaultSecurityListEgressSecurityRules[] | cdktf.IResolvable;
   /**
   * ingress_security_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#ingress_security_rules CoreDefaultSecurityList#ingress_security_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#ingress_security_rules CoreDefaultSecurityList#ingress_security_rules}
   */
   readonly ingressSecurityRules?: CoreDefaultSecurityListIngressSecurityRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#timeouts CoreDefaultSecurityList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#timeouts CoreDefaultSecurityList#timeouts}
   */
   readonly timeouts?: CoreDefaultSecurityListTimeouts;
 }
 export interface CoreDefaultSecurityListEgressSecurityRulesIcmpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}
   */
   readonly type: number;
 }
@@ -169,11 +169,11 @@ export class CoreDefaultSecurityListEgressSecurityRulesIcmpOptionsOutputReferenc
 }
 export interface CoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min: number;
 }
@@ -280,17 +280,17 @@ export class CoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange
 }
 export interface CoreDefaultSecurityListEgressSecurityRulesTcpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min?: number;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
   */
   readonly sourcePortRange?: CoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange;
 }
@@ -432,11 +432,11 @@ export class CoreDefaultSecurityListEgressSecurityRulesTcpOptionsOutputReference
 }
 export interface CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min: number;
 }
@@ -543,17 +543,17 @@ export class CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange
 }
 export interface CoreDefaultSecurityListEgressSecurityRulesUdpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min?: number;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
   */
   readonly sourcePortRange?: CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange;
 }
@@ -695,41 +695,41 @@ export class CoreDefaultSecurityListEgressSecurityRulesUdpOptionsOutputReference
 }
 export interface CoreDefaultSecurityListEgressSecurityRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#destination CoreDefaultSecurityList#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#destination CoreDefaultSecurityList#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#destination_type CoreDefaultSecurityList#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#destination_type CoreDefaultSecurityList#destination_type}
   */
   readonly destinationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}
   */
   readonly stateless?: boolean | cdktf.IResolvable;
   /**
   * icmp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
   */
   readonly icmpOptions?: CoreDefaultSecurityListEgressSecurityRulesIcmpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
   */
   readonly tcpOptions?: CoreDefaultSecurityListEgressSecurityRulesTcpOptions;
   /**
   * udp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
   */
   readonly udpOptions?: CoreDefaultSecurityListEgressSecurityRulesUdpOptions;
 }
@@ -1042,11 +1042,11 @@ export class CoreDefaultSecurityListEgressSecurityRulesList extends cdktf.Comple
 }
 export interface CoreDefaultSecurityListIngressSecurityRulesIcmpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}
   */
   readonly type: number;
 }
@@ -1156,11 +1156,11 @@ export class CoreDefaultSecurityListIngressSecurityRulesIcmpOptionsOutputReferen
 }
 export interface CoreDefaultSecurityListIngressSecurityRulesTcpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min: number;
 }
@@ -1267,17 +1267,17 @@ export class CoreDefaultSecurityListIngressSecurityRulesTcpOptionsSourcePortRang
 }
 export interface CoreDefaultSecurityListIngressSecurityRulesTcpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min?: number;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
   */
   readonly sourcePortRange?: CoreDefaultSecurityListIngressSecurityRulesTcpOptionsSourcePortRange;
 }
@@ -1419,11 +1419,11 @@ export class CoreDefaultSecurityListIngressSecurityRulesTcpOptionsOutputReferenc
 }
 export interface CoreDefaultSecurityListIngressSecurityRulesUdpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min: number;
 }
@@ -1530,17 +1530,17 @@ export class CoreDefaultSecurityListIngressSecurityRulesUdpOptionsSourcePortRang
 }
 export interface CoreDefaultSecurityListIngressSecurityRulesUdpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}
   */
   readonly min?: number;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
   */
   readonly sourcePortRange?: CoreDefaultSecurityListIngressSecurityRulesUdpOptionsSourcePortRange;
 }
@@ -1682,41 +1682,41 @@ export class CoreDefaultSecurityListIngressSecurityRulesUdpOptionsOutputReferenc
 }
 export interface CoreDefaultSecurityListIngressSecurityRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#description CoreDefaultSecurityList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#protocol CoreDefaultSecurityList#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source CoreDefaultSecurityList#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source CoreDefaultSecurityList#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#source_type CoreDefaultSecurityList#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#source_type CoreDefaultSecurityList#source_type}
   */
   readonly sourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#stateless CoreDefaultSecurityList#stateless}
   */
   readonly stateless?: boolean | cdktf.IResolvable;
   /**
   * icmp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#icmp_options CoreDefaultSecurityList#icmp_options}
   */
   readonly icmpOptions?: CoreDefaultSecurityListIngressSecurityRulesIcmpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#tcp_options CoreDefaultSecurityList#tcp_options}
   */
   readonly tcpOptions?: CoreDefaultSecurityListIngressSecurityRulesTcpOptions;
   /**
   * udp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#udp_options CoreDefaultSecurityList#udp_options}
   */
   readonly udpOptions?: CoreDefaultSecurityListIngressSecurityRulesUdpOptions;
 }
@@ -2029,15 +2029,15 @@ export class CoreDefaultSecurityListIngressSecurityRulesList extends cdktf.Compl
 }
 export interface CoreDefaultSecurityListTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#create CoreDefaultSecurityList#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#create CoreDefaultSecurityList#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#delete CoreDefaultSecurityList#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#delete CoreDefaultSecurityList#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#update CoreDefaultSecurityList#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#update CoreDefaultSecurityList#update}
   */
   readonly update?: string;
 }
@@ -2189,7 +2189,7 @@ export class CoreDefaultSecurityListTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list oci_core_default_security_list}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list oci_core_default_security_list}
 */
 export class CoreDefaultSecurityList extends cdktf.TerraformResource {
 
@@ -2205,7 +2205,7 @@ export class CoreDefaultSecurityList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreDefaultSecurityList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreDefaultSecurityList to import
-  * @param importFromId The id of the existing CoreDefaultSecurityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreDefaultSecurityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreDefaultSecurityList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2217,7 +2217,7 @@ export class CoreDefaultSecurityList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_default_security_list oci_core_default_security_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_default_security_list oci_core_default_security_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2228,8 +2228,8 @@ export class CoreDefaultSecurityList extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_default_security_list',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

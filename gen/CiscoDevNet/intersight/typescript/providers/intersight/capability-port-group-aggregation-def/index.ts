@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CapabilityPortGroupAggregationDefConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#account_moid CapabilityPortGroupAggregationDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#account_moid CapabilityPortGroupAggregationDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Aggregation capability for port group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#aggregation_cap CapabilityPortGroupAggregationDef#aggregation_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#aggregation_cap CapabilityPortGroupAggregationDef#aggregation_cap}
   */
   readonly aggregationCap?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#ancestors CapabilityPortGroupAggregationDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#ancestors CapabilityPortGroupAggregationDef#ancestors}
   */
   readonly ancestors?: CapabilityPortGroupAggregationDefAncestors[] | cdktf.IResolvable;
   /**
@@ -34,29 +34,29 @@ export interface CapabilityPortGroupAggregationDefConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#create_time CapabilityPortGroupAggregationDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#create_time CapabilityPortGroupAggregationDef#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#domain_group_moid CapabilityPortGroupAggregationDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#domain_group_moid CapabilityPortGroupAggregationDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Indicates support for 40G port group capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#hw40_g_port_group_cap CapabilityPortGroupAggregationDef#hw40_g_port_group_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#hw40_g_port_group_cap CapabilityPortGroupAggregationDef#hw40_g_port_group_cap}
   */
   readonly hw40GPortGroupCap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#id CapabilityPortGroupAggregationDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#id CapabilityPortGroupAggregationDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,88 +65,88 @@ export interface CapabilityPortGroupAggregationDefConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#mod_time CapabilityPortGroupAggregationDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#mod_time CapabilityPortGroupAggregationDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#name CapabilityPortGroupAggregationDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#name CapabilityPortGroupAggregationDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#owners CapabilityPortGroupAggregationDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#owners CapabilityPortGroupAggregationDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#parent CapabilityPortGroupAggregationDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#parent CapabilityPortGroupAggregationDef#parent}
   */
   readonly parent?: CapabilityPortGroupAggregationDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#permission_resources CapabilityPortGroupAggregationDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#permission_resources CapabilityPortGroupAggregationDef#permission_resources}
   */
   readonly permissionResources?: CapabilityPortGroupAggregationDefPermissionResources[] | cdktf.IResolvable;
   /**
   * The type of port group for which this capability is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#pgtype CapabilityPortGroupAggregationDef#pgtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#pgtype CapabilityPortGroupAggregationDef#pgtype}
   */
   readonly pgtype?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#shared_scope CapabilityPortGroupAggregationDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#shared_scope CapabilityPortGroupAggregationDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#tags CapabilityPortGroupAggregationDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#tags CapabilityPortGroupAggregationDef#tags}
   */
   readonly tags?: CapabilityPortGroupAggregationDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#version_context CapabilityPortGroupAggregationDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#version_context CapabilityPortGroupAggregationDef#version_context}
   */
   readonly versionContext?: CapabilityPortGroupAggregationDefVersionContext[] | cdktf.IResolvable;
 }
 export interface CapabilityPortGroupAggregationDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -378,23 +378,23 @@ export class CapabilityPortGroupAggregationDefAncestorsList extends cdktf.Comple
 }
 export interface CapabilityPortGroupAggregationDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -626,23 +626,23 @@ export class CapabilityPortGroupAggregationDefParentList extends cdktf.ComplexLi
 }
 export interface CapabilityPortGroupAggregationDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -874,23 +874,23 @@ export class CapabilityPortGroupAggregationDefPermissionResourcesList extends cd
 }
 export interface CapabilityPortGroupAggregationDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -1122,23 +1122,23 @@ export class CapabilityPortGroupAggregationDefTagsAncestorDefinitionsList extend
 }
 export interface CapabilityPortGroupAggregationDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -1370,31 +1370,35 @@ export class CapabilityPortGroupAggregationDefTagsDefinitionList extends cdktf.C
 }
 export interface CapabilityPortGroupAggregationDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#ancestor_definitions CapabilityPortGroupAggregationDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#ancestor_definitions CapabilityPortGroupAggregationDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityPortGroupAggregationDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#definition CapabilityPortGroupAggregationDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#definition CapabilityPortGroupAggregationDef#definition}
   */
   readonly definition?: CapabilityPortGroupAggregationDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#key CapabilityPortGroupAggregationDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#key CapabilityPortGroupAggregationDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#propagated CapabilityPortGroupAggregationDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#propagated CapabilityPortGroupAggregationDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#type CapabilityPortGroupAggregationDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#sys_tag CapabilityPortGroupAggregationDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#type CapabilityPortGroupAggregationDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#value CapabilityPortGroupAggregationDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#value CapabilityPortGroupAggregationDef#value}
   */
   readonly value?: string;
 }
@@ -1410,6 +1414,7 @@ export function capabilityPortGroupAggregationDefTagsToTerraform(struct?: Capabi
     definition: cdktf.listMapper(capabilityPortGroupAggregationDefTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1448,6 +1453,12 @@ export function capabilityPortGroupAggregationDefTagsToHclTerraform(struct?: Cap
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1510,6 +1521,10 @@ export class CapabilityPortGroupAggregationDefTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1530,6 +1545,7 @@ export class CapabilityPortGroupAggregationDefTagsOutputReference extends cdktf.
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1545,6 +1561,7 @@ export class CapabilityPortGroupAggregationDefTagsOutputReference extends cdktf.
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1630,6 +1647,22 @@ export class CapabilityPortGroupAggregationDefTagsOutputReference extends cdktf.
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1684,23 +1717,23 @@ export class CapabilityPortGroupAggregationDefTagsList extends cdktf.ComplexList
 }
 export interface CapabilityPortGroupAggregationDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -1932,23 +1965,23 @@ export class CapabilityPortGroupAggregationDefVersionContextInterestedMosList ex
 }
 export interface CapabilityPortGroupAggregationDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#moid CapabilityPortGroupAggregationDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#selector CapabilityPortGroupAggregationDef#selector}
   */
   readonly selector?: string;
 }
@@ -2180,39 +2213,39 @@ export class CapabilityPortGroupAggregationDefVersionContextRefMoList extends cd
 }
 export interface CapabilityPortGroupAggregationDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#additional_properties CapabilityPortGroupAggregationDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#class_id CapabilityPortGroupAggregationDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#interested_mos CapabilityPortGroupAggregationDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#interested_mos CapabilityPortGroupAggregationDef#interested_mos}
   */
   readonly interestedMos?: CapabilityPortGroupAggregationDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#marked_for_deletion CapabilityPortGroupAggregationDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#marked_for_deletion CapabilityPortGroupAggregationDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#nr_version CapabilityPortGroupAggregationDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#nr_version CapabilityPortGroupAggregationDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#object_type CapabilityPortGroupAggregationDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#ref_mo CapabilityPortGroupAggregationDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#ref_mo CapabilityPortGroupAggregationDef#ref_mo}
   */
   readonly refMo?: CapabilityPortGroupAggregationDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#timestamp CapabilityPortGroupAggregationDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#timestamp CapabilityPortGroupAggregationDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#version_type CapabilityPortGroupAggregationDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#version_type CapabilityPortGroupAggregationDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2560,7 +2593,7 @@ export class CapabilityPortGroupAggregationDefVersionContextList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def intersight_capability_port_group_aggregation_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def intersight_capability_port_group_aggregation_def}
 */
 export class CapabilityPortGroupAggregationDef extends cdktf.TerraformResource {
 
@@ -2576,7 +2609,7 @@ export class CapabilityPortGroupAggregationDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityPortGroupAggregationDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityPortGroupAggregationDef to import
-  * @param importFromId The id of the existing CapabilityPortGroupAggregationDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityPortGroupAggregationDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityPortGroupAggregationDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2588,7 +2621,7 @@ export class CapabilityPortGroupAggregationDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_port_group_aggregation_def intersight_capability_port_group_aggregation_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_port_group_aggregation_def intersight_capability_port_group_aggregation_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2599,8 +2632,8 @@ export class CapabilityPortGroupAggregationDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_port_group_aggregation_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface PriceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the price can be used for new purchases. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#active Price#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#active Price#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Describes how to compute the price per period. Either per_unit or tiered. per_unit indicates that the fixed amount (specified in unit_amount or unit_amount_decimal) will be charged per unit in quantity (for prices with usage_type=licensed), or per unit of total usage (for prices with usage_type=metered). tiered indicates that the unit pricing will be computed using a tiering strategy as defined using the tiers and tiers_mode attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#billing_scheme Price#billing_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#billing_scheme Price#billing_scheme}
   */
   readonly billingScheme?: string;
   /**
   * Three-letter ISO currency code, in lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#currency Price#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#currency Price#currency}
   */
   readonly currency: string;
   /**
   * A lookup key used to retrieve prices dynamically from a static string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#lookup_key Price#lookup_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#lookup_key Price#lookup_key}
   */
   readonly lookupKey?: string;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#metadata Price#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#metadata Price#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * A brief description of the price, hidden from customers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#nickname Price#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#nickname Price#nickname}
   */
   readonly nickname?: string;
   /**
   * The ID of the product that this price will belong to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#product Price#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#product Price#product}
   */
   readonly product: string;
   /**
   * Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of inclusive, exclusive, or unspecified. Once specified as either inclusive or exclusive, it cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#tax_behavior Price#tax_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#tax_behavior Price#tax_behavior}
   */
   readonly taxBehavior?: string;
   /**
   * Defines if the tiering price should be graduated or volume based. In volume-based tiering, the maximum quantity within a period determines the per unit price, in graduated tiering pricing can successively change as the quantity grows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#tiers_mode Price#tiers_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#tiers_mode Price#tiers_mode}
   */
   readonly tiersMode?: string;
   /**
   * If set to true, will atomically remove the lookup key from the existing price, and assign it to this price.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#transfer_lookup_key Price#transfer_lookup_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#transfer_lookup_key Price#transfer_lookup_key}
   */
   readonly transferLookupKey?: boolean | cdktf.IResolvable;
   /**
   * A positive integer in cents (or -1 for a free price) representing how much to charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount Price#unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount Price#unit_amount}
   */
   readonly unitAmount?: number;
   /**
   * Same as unit_amount, but accepts a decimal value in cents with at most 12 decimal places. Only one of unit_amount and unit_amount_decimal can be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
   */
   readonly unitAmountDecimal?: number;
   /**
   * currency_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#currency_options Price#currency_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#currency_options Price#currency_options}
   */
   readonly currencyOptions?: PriceCurrencyOptions[] | cdktf.IResolvable;
   /**
   * custom_unit_amount block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#custom_unit_amount Price#custom_unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#custom_unit_amount Price#custom_unit_amount}
   */
   readonly customUnitAmount?: PriceCustomUnitAmount;
   /**
   * recurring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#recurring Price#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#recurring Price#recurring}
   */
   readonly recurring?: PriceRecurring;
   /**
   * tiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#tiers Price#tiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#tiers Price#tiers}
   */
   readonly tiers?: PriceTiers[] | cdktf.IResolvable;
   /**
   * transform_quantity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#transform_quantity Price#transform_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#transform_quantity Price#transform_quantity}
   */
   readonly transformQuantity?: PriceTransformQuantity;
 }
@@ -114,25 +114,25 @@ export interface PriceCurrencyOptionsCustomUnitAmount {
   /**
   * Pass in true to enable custom_unit_amount, otherwise omit custom_unit_amount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#enabled Price#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#enabled Price#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum unit amount the customer can specify for this item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#maximum Price#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#maximum Price#maximum}
   */
   readonly maximum?: number;
   /**
   * The minimum unit amount the customer can specify for this item. Must be at least the minimum charge amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#minimum Price#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#minimum Price#minimum}
   */
   readonly minimum?: number;
   /**
   * The starting unit amount which can be updated by the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#preset Price#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#preset Price#preset}
   */
   readonly preset?: number;
 }
@@ -302,31 +302,31 @@ export interface PriceCurrencyOptionsTiers {
   /**
   * The flat billing amount for an entire tier, regardless of the number of units in the tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#flat_amount Price#flat_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#flat_amount Price#flat_amount}
   */
   readonly flatAmount?: number;
   /**
   * Same as flat_amount, but accepts a decimal value representing an integer in the minor units of the currency. Only one of flat_amount and flat_amount_decimal can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
   */
   readonly flatAmountDecimal?: number;
   /**
   * The per unit billing amount for each individual unit for which this tier applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount Price#unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount Price#unit_amount}
   */
   readonly unitAmount?: number;
   /**
   * Same as unit_amount, but accepts a decimal value in cents with at most 12 decimal places. Only one of unit_amount and unit_amount_decimal can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
   */
   readonly unitAmountDecimal?: number;
   /**
   * Specifies the upper bound of this tier. The lower bound of a tier is the upper bound of the previous tier adding one. Use -1 to define a fallback tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#up_to Price#up_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#up_to Price#up_to}
   */
   readonly upTo?: number;
 }
@@ -560,37 +560,37 @@ export interface PriceCurrencyOptions {
   /**
   * Each currency must be a three-letter ISO currency code and a supported currency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#currency Price#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#currency Price#currency}
   */
   readonly currency: string;
   /**
   * Only required if a default tax behavior was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of inclusive, exclusive, or unspecified. Once specified as either inclusive or exclusive, it cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#tax_behavior Price#tax_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#tax_behavior Price#tax_behavior}
   */
   readonly taxBehavior?: string;
   /**
   * A positive integer in cents (or -1 for a free price) representing how much to charge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount Price#unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount Price#unit_amount}
   */
   readonly unitAmount?: number;
   /**
   * Same as unit_amount, but accepts a decimal value in cents with at most 12 decimal places. Only one of unit_amount and unit_amount_decimal can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
   */
   readonly unitAmountDecimal?: number;
   /**
   * custom_unit_amount block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#custom_unit_amount Price#custom_unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#custom_unit_amount Price#custom_unit_amount}
   */
   readonly customUnitAmount?: PriceCurrencyOptionsCustomUnitAmount;
   /**
   * tiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#tiers Price#tiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#tiers Price#tiers}
   */
   readonly tiers?: PriceCurrencyOptionsTiers[] | cdktf.IResolvable;
 }
@@ -850,25 +850,25 @@ export interface PriceCustomUnitAmount {
   /**
   * Pass in true to enable custom_unit_amount, otherwise omit custom_unit_amount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#enabled Price#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#enabled Price#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The maximum unit amount the customer can specify for this item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#maximum Price#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#maximum Price#maximum}
   */
   readonly maximum?: number;
   /**
   * The minimum unit amount the customer can specify for this item. Must be at least the minimum charge amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#minimum Price#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#minimum Price#minimum}
   */
   readonly minimum?: number;
   /**
   * The starting unit amount which can be updated by the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#preset Price#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#preset Price#preset}
   */
   readonly preset?: number;
 }
@@ -1038,31 +1038,31 @@ export interface PriceRecurring {
   /**
   * Specifies a usage aggregation strategy for prices of usage_type=metered. Allowed values are sum for summing up all usage during a period, last_during_period for using the last usage record reported within a period, last_ever for using the last usage record ever (across period bounds) or max which uses the usage record with the maximum reported usage during a period. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#aggregate_usage Price#aggregate_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#aggregate_usage Price#aggregate_usage}
   */
   readonly aggregateUsage?: string;
   /**
   * Specifies billing frequency. Either day, week, month or year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#interval Price#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#interval Price#interval}
   */
   readonly interval: string;
   /**
   * The number of intervals between subscription billings. For example, interval=month and interval_count=3 bills every 3 months. Maximum of one year interval allowed (1 year, 12 months, or 52 weeks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#interval_count Price#interval_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#interval_count Price#interval_count}
   */
   readonly intervalCount?: number;
   /**
   * The meter tracking the usage of a metered price
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#meter Price#meter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#meter Price#meter}
   */
   readonly meter?: string;
   /**
   * Configures how the quantity per period should be determined. Can be either metered or licensed. licensed automatically bills the quantity set when adding it to a subscription. metered aggregates the total usage based on usage records. Defaults to licensed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#usage_type Price#usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#usage_type Price#usage_type}
   */
   readonly usageType?: string;
 }
@@ -1261,31 +1261,31 @@ export interface PriceTiers {
   /**
   * The flat billing amount for an entire tier, regardless of the number of units in the tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#flat_amount Price#flat_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#flat_amount Price#flat_amount}
   */
   readonly flatAmount?: number;
   /**
   * Same as flat_amount, but accepts a decimal value representing an integer in the minor units of the currency. Only one of flat_amount and flat_amount_decimal can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
   */
   readonly flatAmountDecimal?: number;
   /**
   * The per unit billing amount for each individual unit for which this tier applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount Price#unit_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount Price#unit_amount}
   */
   readonly unitAmount?: number;
   /**
   * Same as unit_amount, but accepts a decimal value in cents with at most 12 decimal places. Only one of unit_amount and unit_amount_decimal can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
   */
   readonly unitAmountDecimal?: number;
   /**
   * Specifies the upper bound of this tier. The lower bound of a tier is the upper bound of the previous tier adding one. Use -1 to define a fallback tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#up_to Price#up_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#up_to Price#up_to}
   */
   readonly upTo?: number;
 }
@@ -1519,13 +1519,13 @@ export interface PriceTransformQuantity {
   /**
   * Divide usage by this number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#divide_by Price#divide_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#divide_by Price#divide_by}
   */
   readonly divideBy: number;
   /**
   * After division, either round the result up or down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#round Price#round}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#round Price#round}
   */
   readonly round: string;
 }
@@ -1632,7 +1632,7 @@ export class PriceTransformQuantityOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price stripe_price}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price stripe_price}
 */
 export class Price extends cdktf.TerraformResource {
 
@@ -1648,7 +1648,7 @@ export class Price extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Price resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Price to import
-  * @param importFromId The id of the existing Price that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Price that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Price to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1660,7 +1660,7 @@ export class Price extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/price stripe_price} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/price stripe_price} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1671,8 +1671,8 @@ export class Price extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_price',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

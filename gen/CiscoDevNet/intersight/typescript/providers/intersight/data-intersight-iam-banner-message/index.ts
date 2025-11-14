@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightIamBannerMessageConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#account_moid DataIntersightIamBannerMessage#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#account_moid DataIntersightIamBannerMessage#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Contents of the banner message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#banner_contents DataIntersightIamBannerMessage#banner_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#banner_contents DataIntersightIamBannerMessage#banner_contents}
   */
   readonly bannerContents?: string;
   /**
   * Whether or not to display the banner message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#banner_display DataIntersightIamBannerMessage#banner_display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#banner_display DataIntersightIamBannerMessage#banner_display}
   */
   readonly bannerDisplay?: boolean | cdktf.IResolvable;
   /**
   * Title of the banner message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#banner_title DataIntersightIamBannerMessage#banner_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#banner_title DataIntersightIamBannerMessage#banner_title}
   */
   readonly bannerTitle?: string;
   /**
@@ -40,23 +40,23 @@ export interface DataIntersightIamBannerMessageConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#create_time DataIntersightIamBannerMessage#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#create_time DataIntersightIamBannerMessage#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#domain_group_moid DataIntersightIamBannerMessage#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#domain_group_moid DataIntersightIamBannerMessage#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#id DataIntersightIamBannerMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#id DataIntersightIamBannerMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,67 +65,67 @@ export interface DataIntersightIamBannerMessageConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#mod_time DataIntersightIamBannerMessage#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#mod_time DataIntersightIamBannerMessage#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#owners DataIntersightIamBannerMessage#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#owners DataIntersightIamBannerMessage#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#shared_scope DataIntersightIamBannerMessage#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#shared_scope DataIntersightIamBannerMessage#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#account DataIntersightIamBannerMessage#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#account DataIntersightIamBannerMessage#account}
   */
   readonly account?: DataIntersightIamBannerMessageAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#ancestors DataIntersightIamBannerMessage#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#ancestors DataIntersightIamBannerMessage#ancestors}
   */
   readonly ancestors?: DataIntersightIamBannerMessageAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#parent DataIntersightIamBannerMessage#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#parent DataIntersightIamBannerMessage#parent}
   */
   readonly parent?: DataIntersightIamBannerMessageParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#permission_resources DataIntersightIamBannerMessage#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#permission_resources DataIntersightIamBannerMessage#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamBannerMessagePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#tags DataIntersightIamBannerMessage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#tags DataIntersightIamBannerMessage#tags}
   */
   readonly tags?: DataIntersightIamBannerMessageTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#version_context DataIntersightIamBannerMessage#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#version_context DataIntersightIamBannerMessage#version_context}
   */
   readonly versionContext?: DataIntersightIamBannerMessageVersionContext;
 }
@@ -777,6 +777,11 @@ export class DataIntersightIamBannerMessageResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1286,7 +1291,7 @@ export class DataIntersightIamBannerMessageResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightIamBannerMessageAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1294,19 +1299,19 @@ export interface DataIntersightIamBannerMessageAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1319,7 +1324,7 @@ export interface DataIntersightIamBannerMessageAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -1519,7 +1524,7 @@ export class DataIntersightIamBannerMessageAccountOutputReference extends cdktf.
 }
 export interface DataIntersightIamBannerMessageAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1527,19 +1532,19 @@ export interface DataIntersightIamBannerMessageAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1552,7 +1557,7 @@ export interface DataIntersightIamBannerMessageAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -1784,7 +1789,7 @@ export class DataIntersightIamBannerMessageAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightIamBannerMessageParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1792,19 +1797,19 @@ export interface DataIntersightIamBannerMessageParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1817,7 +1822,7 @@ export interface DataIntersightIamBannerMessageParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2017,7 +2022,7 @@ export class DataIntersightIamBannerMessageParentOutputReference extends cdktf.C
 }
 export interface DataIntersightIamBannerMessagePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2025,19 +2030,19 @@ export interface DataIntersightIamBannerMessagePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2050,7 +2055,7 @@ export interface DataIntersightIamBannerMessagePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2282,7 +2287,7 @@ export class DataIntersightIamBannerMessagePermissionResourcesList extends cdktf
 }
 export interface DataIntersightIamBannerMessageTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2290,19 +2295,19 @@ export interface DataIntersightIamBannerMessageTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2315,7 +2320,7 @@ export interface DataIntersightIamBannerMessageTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2547,7 +2552,7 @@ export class DataIntersightIamBannerMessageTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightIamBannerMessageTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2555,19 +2560,19 @@ export interface DataIntersightIamBannerMessageTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2580,7 +2585,7 @@ export interface DataIntersightIamBannerMessageTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2780,45 +2785,51 @@ export class DataIntersightIamBannerMessageTagsDefinitionOutputReference extends
 }
 export interface DataIntersightIamBannerMessageTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#key DataIntersightIamBannerMessage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#key DataIntersightIamBannerMessage#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#propagated DataIntersightIamBannerMessage#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#propagated DataIntersightIamBannerMessage#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#sys_tag DataIntersightIamBannerMessage#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#type DataIntersightIamBannerMessage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#type DataIntersightIamBannerMessage#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#value DataIntersightIamBannerMessage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#value DataIntersightIamBannerMessage#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#ancestor_definitions DataIntersightIamBannerMessage#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#ancestor_definitions DataIntersightIamBannerMessage#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamBannerMessageTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#definition DataIntersightIamBannerMessage#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#definition DataIntersightIamBannerMessage#definition}
   */
   readonly definition?: DataIntersightIamBannerMessageTagsDefinition;
 }
@@ -2832,6 +2843,7 @@ export function dataIntersightIamBannerMessageTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamBannerMessageTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2860,6 +2872,12 @@ export function dataIntersightIamBannerMessageTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2926,6 +2944,10 @@ export class DataIntersightIamBannerMessageTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2952,6 +2974,7 @@ export class DataIntersightIamBannerMessageTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2967,6 +2990,7 @@ export class DataIntersightIamBannerMessageTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3020,6 +3044,22 @@ export class DataIntersightIamBannerMessageTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3108,7 +3148,7 @@ export class DataIntersightIamBannerMessageTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamBannerMessageVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3116,19 +3156,19 @@ export interface DataIntersightIamBannerMessageVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3141,7 +3181,7 @@ export interface DataIntersightIamBannerMessageVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -3373,7 +3413,7 @@ export class DataIntersightIamBannerMessageVersionContextInterestedMosList exten
 }
 export interface DataIntersightIamBannerMessageVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3381,19 +3421,19 @@ export interface DataIntersightIamBannerMessageVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#moid DataIntersightIamBannerMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3406,7 +3446,7 @@ export interface DataIntersightIamBannerMessageVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#selector DataIntersightIamBannerMessage#selector}
   */
   readonly selector?: string;
 }
@@ -3606,7 +3646,7 @@ export class DataIntersightIamBannerMessageVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightIamBannerMessageVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#additional_properties DataIntersightIamBannerMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3614,32 +3654,32 @@ export interface DataIntersightIamBannerMessageVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#class_id DataIntersightIamBannerMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#marked_for_deletion DataIntersightIamBannerMessage#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#marked_for_deletion DataIntersightIamBannerMessage#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#nr_version DataIntersightIamBannerMessage#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#nr_version DataIntersightIamBannerMessage#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#object_type DataIntersightIamBannerMessage#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#timestamp DataIntersightIamBannerMessage#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#timestamp DataIntersightIamBannerMessage#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3650,19 +3690,19 @@ export interface DataIntersightIamBannerMessageVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#version_type DataIntersightIamBannerMessage#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#version_type DataIntersightIamBannerMessage#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#interested_mos DataIntersightIamBannerMessage#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#interested_mos DataIntersightIamBannerMessage#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamBannerMessageVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#ref_mo DataIntersightIamBannerMessage#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#ref_mo DataIntersightIamBannerMessage#ref_mo}
   */
   readonly refMo?: DataIntersightIamBannerMessageVersionContextRefMo;
 }
@@ -3978,7 +4018,7 @@ export class DataIntersightIamBannerMessageVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message intersight_iam_banner_message}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message intersight_iam_banner_message}
 */
 export class DataIntersightIamBannerMessage extends cdktf.TerraformDataSource {
 
@@ -3994,7 +4034,7 @@ export class DataIntersightIamBannerMessage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamBannerMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamBannerMessage to import
-  * @param importFromId The id of the existing DataIntersightIamBannerMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamBannerMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamBannerMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4006,7 +4046,7 @@ export class DataIntersightIamBannerMessage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_banner_message intersight_iam_banner_message} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_banner_message intersight_iam_banner_message} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4017,8 +4057,8 @@ export class DataIntersightIamBannerMessage extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_banner_message',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

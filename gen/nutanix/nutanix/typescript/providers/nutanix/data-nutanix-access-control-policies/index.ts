@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixAccessControlPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#id DataNutanixAccessControlPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#id DataNutanixAccessControlPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataNutanixAccessControlPoliciesConfig extends cdktf.TerraformM
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#metadata DataNutanixAccessControlPolicies#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#metadata DataNutanixAccessControlPolicies#metadata}
   */
   readonly metadata?: DataNutanixAccessControlPoliciesMetadata[] | cdktf.IResolvable;
 }
@@ -1087,27 +1087,27 @@ export class DataNutanixAccessControlPoliciesEntitiesList extends cdktf.ComplexL
 }
 export interface DataNutanixAccessControlPoliciesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#filter DataNutanixAccessControlPolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#filter DataNutanixAccessControlPolicies#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#kind DataNutanixAccessControlPolicies#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#kind DataNutanixAccessControlPolicies#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#length DataNutanixAccessControlPolicies#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#length DataNutanixAccessControlPolicies#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#offset DataNutanixAccessControlPolicies#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#offset DataNutanixAccessControlPolicies#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#sort_attribute DataNutanixAccessControlPolicies#sort_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#sort_attribute DataNutanixAccessControlPolicies#sort_attribute}
   */
   readonly sortAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#sort_order DataNutanixAccessControlPolicies#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#sort_order DataNutanixAccessControlPolicies#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -1368,7 +1368,7 @@ export class DataNutanixAccessControlPoliciesMetadataList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies nutanix_access_control_policies}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies nutanix_access_control_policies}
 */
 export class DataNutanixAccessControlPolicies extends cdktf.TerraformDataSource {
 
@@ -1384,7 +1384,7 @@ export class DataNutanixAccessControlPolicies extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNutanixAccessControlPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixAccessControlPolicies to import
-  * @param importFromId The id of the existing DataNutanixAccessControlPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixAccessControlPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixAccessControlPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1396,7 +1396,7 @@ export class DataNutanixAccessControlPolicies extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/access_control_policies nutanix_access_control_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/access_control_policies nutanix_access_control_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1407,8 +1407,8 @@ export class DataNutanixAccessControlPolicies extends cdktf.TerraformDataSource 
       terraformResourceType: 'nutanix_access_control_policies',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

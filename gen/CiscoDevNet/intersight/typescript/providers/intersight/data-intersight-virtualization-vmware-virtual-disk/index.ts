@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#account_moid DataIntersightVirtualizationVmwareVirtualDisk#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#account_moid DataIntersightVirtualizationVmwareVirtualDisk#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
@@ -31,25 +31,25 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * * `physicalMode` - A disk device backed by a physical compatibility mode raw disk mapping cannot use disk modes, and commands are passed straight through to the LUN indicated by the raw disk mapping.
   * * `virtualMode` - A disk device backed by a virtual compatibility mode raw disk mapping can use disk modes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#compatibility_mode DataIntersightVirtualizationVmwareVirtualDisk#compatibility_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#compatibility_mode DataIntersightVirtualizationVmwareVirtualDisk#compatibility_mode}
   */
   readonly compatibilityMode?: string;
   /**
   * Key of the controller on which the disk is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#controller_key DataIntersightVirtualizationVmwareVirtualDisk#controller_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#controller_key DataIntersightVirtualizationVmwareVirtualDisk#controller_key}
   */
   readonly controllerKey?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#create_time DataIntersightVirtualizationVmwareVirtualDisk#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#create_time DataIntersightVirtualizationVmwareVirtualDisk#create_time}
   */
   readonly createTime?: string;
   /**
   * Host-specific device the LUN is being accessed through. If the target LUN is not available on the host then it is empty. For example, this could happen if it has accidentally been masked out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#device_name DataIntersightVirtualizationVmwareVirtualDisk#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#device_name DataIntersightVirtualizationVmwareVirtualDisk#device_name}
   */
   readonly deviceName?: string;
   /**
@@ -61,7 +61,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * * `undoable` - Changes to virtual disk are made to a redo log and has the option to commit or undo.
   * * `append` - Changes are appended to the redo log and can be revoked by removing the undo log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#disk_mode DataIntersightVirtualizationVmwareVirtualDisk#disk_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#disk_mode DataIntersightVirtualizationVmwareVirtualDisk#disk_mode}
   */
   readonly diskMode?: string;
   /**
@@ -69,17 +69,17 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * * `flatDisk` - Specifies that it is a flat disk.
   * * `rdmDisk` - Specifies that it is a raw device mapping disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#disk_type DataIntersightVirtualizationVmwareVirtualDisk#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#disk_type DataIntersightVirtualizationVmwareVirtualDisk#disk_type}
   */
   readonly diskType?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#domain_group_moid DataIntersightVirtualizationVmwareVirtualDisk#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#domain_group_moid DataIntersightVirtualizationVmwareVirtualDisk#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#id DataIntersightVirtualizationVmwareVirtualDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#id DataIntersightVirtualizationVmwareVirtualDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,61 +88,61 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   /**
   * The internally assigned key of this disk. This entity is not manipulated by users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#key DataIntersightVirtualizationVmwareVirtualDisk#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#key DataIntersightVirtualizationVmwareVirtualDisk#key}
   */
   readonly key?: number;
   /**
   * The utilization of a virtual machine will not exceed this limit, even if there are available resources. Used to ensure a consistent performance of virtual machines independent of available resources. If set to -1, then there is no fixed limit on resource usage (only bounded by available resources and shares). The unit is number of I/O per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#limit DataIntersightVirtualizationVmwareVirtualDisk#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#limit DataIntersightVirtualizationVmwareVirtualDisk#limit}
   */
   readonly limit?: number;
   /**
   * Unique identifier of the LUN accessed by the raw disk mapping (RDM).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#lun_uuid DataIntersightVirtualizationVmwareVirtualDisk#lun_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#lun_uuid DataIntersightVirtualizationVmwareVirtualDisk#lun_uuid}
   */
   readonly lunUuid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#mod_time DataIntersightVirtualizationVmwareVirtualDisk#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#mod_time DataIntersightVirtualizationVmwareVirtualDisk#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * Name of the storage disk. Name must be unique within a Datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#name DataIntersightVirtualizationVmwareVirtualDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#name DataIntersightVirtualizationVmwareVirtualDisk#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#owners DataIntersightVirtualizationVmwareVirtualDisk#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#owners DataIntersightVirtualizationVmwareVirtualDisk#owners}
   */
   readonly owners?: string[];
   /**
   * Serial ID of the storage device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#serial DataIntersightVirtualizationVmwareVirtualDisk#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#serial DataIntersightVirtualizationVmwareVirtualDisk#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#shared_scope DataIntersightVirtualizationVmwareVirtualDisk#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#shared_scope DataIntersightVirtualizationVmwareVirtualDisk#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -150,13 +150,13 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * * `sharingNone` - The virtual disk is not shared.
   * * `sharingMultiWriter` - The virtual disk is shared between multiple virtual machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#sharing DataIntersightVirtualizationVmwareVirtualDisk#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#sharing DataIntersightVirtualizationVmwareVirtualDisk#sharing}
   */
   readonly sharing?: string;
   /**
   * Disk size represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#size DataIntersightVirtualizationVmwareVirtualDisk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#size DataIntersightVirtualizationVmwareVirtualDisk#size}
   */
   readonly size?: number;
   /**
@@ -166,97 +166,97 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskConfig extends cdk
   * * `lazyZeroedThick` - A lazy zeroed thick disk has all space allocated at the time of its creation. Data remaining on the physical device is not erased during creation, but is zeroed out on demand later on first write from the virtual machine.
   * * `eagerZeroedThick` - An eager zeroed thick disk has all space allocated and wiped clean of any previous contents on the physical media at creation time. Such disks may take longer time during creation compared to other disk formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#storage_allocation_type DataIntersightVirtualizationVmwareVirtualDisk#storage_allocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#storage_allocation_type DataIntersightVirtualizationVmwareVirtualDisk#storage_allocation_type}
   */
   readonly storageAllocationType?: string;
   /**
   * Unit number of the disk on its controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#unit_number DataIntersightVirtualizationVmwareVirtualDisk#unit_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#unit_number DataIntersightVirtualizationVmwareVirtualDisk#unit_number}
   */
   readonly unitNumber?: number;
   /**
   * UUID assigned by vCenter to every disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#uuid DataIntersightVirtualizationVmwareVirtualDisk#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#uuid DataIntersightVirtualizationVmwareVirtualDisk#uuid}
   */
   readonly uuid?: string;
   /**
   * Identity of the virtual disk object as the first class entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#vdisk_id DataIntersightVirtualizationVmwareVirtualDisk#vdisk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#vdisk_id DataIntersightVirtualizationVmwareVirtualDisk#vdisk_id}
   */
   readonly vdiskId?: string;
   /**
   * Vendor of the storage device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#vendor DataIntersightVirtualizationVmwareVirtualDisk#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#vendor DataIntersightVirtualizationVmwareVirtualDisk#vendor}
   */
   readonly vendor?: string;
   /**
   * Path of the virtual disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#virtual_disk_path DataIntersightVirtualizationVmwareVirtualDisk#virtual_disk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#virtual_disk_path DataIntersightVirtualizationVmwareVirtualDisk#virtual_disk_path}
   */
   readonly virtualDiskPath?: string;
   /**
   * Identity of the virtual machine where the virtual disk is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#vm_identity DataIntersightVirtualizationVmwareVirtualDisk#vm_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#vm_identity DataIntersightVirtualizationVmwareVirtualDisk#vm_identity}
   */
   readonly vmIdentity?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#ancestors DataIntersightVirtualizationVmwareVirtualDisk#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#ancestors DataIntersightVirtualizationVmwareVirtualDisk#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareVirtualDiskAncestors[] | cdktf.IResolvable;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#datastore DataIntersightVirtualizationVmwareVirtualDisk#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#datastore DataIntersightVirtualizationVmwareVirtualDisk#datastore}
   */
   readonly datastore?: DataIntersightVirtualizationVmwareVirtualDiskDatastore;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#parent DataIntersightVirtualizationVmwareVirtualDisk#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#parent DataIntersightVirtualizationVmwareVirtualDisk#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareVirtualDiskParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#permission_resources DataIntersightVirtualizationVmwareVirtualDisk#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#permission_resources DataIntersightVirtualizationVmwareVirtualDisk#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareVirtualDiskPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#registered_device DataIntersightVirtualizationVmwareVirtualDisk#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#registered_device DataIntersightVirtualizationVmwareVirtualDisk#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareVirtualDiskRegisteredDevice;
   /**
   * shares block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#shares DataIntersightVirtualizationVmwareVirtualDisk#shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#shares DataIntersightVirtualizationVmwareVirtualDisk#shares}
   */
   readonly shares?: DataIntersightVirtualizationVmwareVirtualDiskShares;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#tags DataIntersightVirtualizationVmwareVirtualDisk#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#tags DataIntersightVirtualizationVmwareVirtualDisk#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareVirtualDiskTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#version_context DataIntersightVirtualizationVmwareVirtualDisk#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#version_context DataIntersightVirtualizationVmwareVirtualDisk#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareVirtualDiskVersionContext;
   /**
   * virtual_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#virtual_machine DataIntersightVirtualizationVmwareVirtualDisk#virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#virtual_machine DataIntersightVirtualizationVmwareVirtualDisk#virtual_machine}
   */
   readonly virtualMachine?: DataIntersightVirtualizationVmwareVirtualDiskVirtualMachine;
 }
@@ -1098,6 +1098,11 @@ export class DataIntersightVirtualizationVmwareVirtualDiskResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1800,7 +1805,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskResultsList extends cd
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1813,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1838,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2065,7 +2070,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskAncestorsList extends 
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskDatastore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2073,19 +2078,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskDatastore {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2098,7 +2103,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskDatastore {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2303,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskDatastoreOutputReferen
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2311,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2336,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2531,7 +2536,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskParentOutputReference 
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2539,19 +2544,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2564,7 +2569,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2796,7 +2801,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskPermissionResourcesLis
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2804,19 +2809,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2829,7 +2834,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3029,7 +3034,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskRegisteredDeviceOutput
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskShares {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3037,26 +3042,26 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskShares {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The allocation level. The level is a simplified view of shares. Levels map to a pre-determined set of numeric values for shares. If the shares value does not map to a predefined size, then the level is set as custom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#level DataIntersightVirtualizationVmwareVirtualDisk#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#level DataIntersightVirtualizationVmwareVirtualDisk#level}
   */
   readonly level?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * The number of shares allocated. It is used to determine resource allocation in case of resource contention. Set if level is custom. If level is not set to custom, this value is ignored. Therefore, only shares with custom values can be compared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#shares DataIntersightVirtualizationVmwareVirtualDisk#shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#shares DataIntersightVirtualizationVmwareVirtualDisk#shares}
   */
   readonly shares?: number;
 }
@@ -3256,7 +3261,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskSharesOutputReference 
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3264,19 +3269,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3289,7 +3294,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3521,7 +3526,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefinition
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3529,19 +3534,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3554,7 +3559,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3754,45 +3759,51 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsDefinitionOutputRe
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#key DataIntersightVirtualizationVmwareVirtualDisk#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#key DataIntersightVirtualizationVmwareVirtualDisk#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#propagated DataIntersightVirtualizationVmwareVirtualDisk#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#propagated DataIntersightVirtualizationVmwareVirtualDisk#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#sys_tag DataIntersightVirtualizationVmwareVirtualDisk#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#type DataIntersightVirtualizationVmwareVirtualDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#type DataIntersightVirtualizationVmwareVirtualDisk#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#value DataIntersightVirtualizationVmwareVirtualDisk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#value DataIntersightVirtualizationVmwareVirtualDisk#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#ancestor_definitions DataIntersightVirtualizationVmwareVirtualDisk#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#ancestor_definitions DataIntersightVirtualizationVmwareVirtualDisk#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#definition DataIntersightVirtualizationVmwareVirtualDisk#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#definition DataIntersightVirtualizationVmwareVirtualDisk#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareVirtualDiskTagsDefinition;
 }
@@ -3806,6 +3817,7 @@ export function dataIntersightVirtualizationVmwareVirtualDiskTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVirtualizationVmwareVirtualDiskTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3834,6 +3846,12 @@ export function dataIntersightVirtualizationVmwareVirtualDiskTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3900,6 +3918,10 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3926,6 +3948,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3941,6 +3964,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3994,6 +4018,22 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4082,7 +4122,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskTagsList extends cdktf
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4090,19 +4130,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4115,7 +4155,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4347,7 +4387,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskVersionContextInterest
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4355,19 +4395,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4380,7 +4420,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4580,7 +4620,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskVersionContextRefMoOut
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4588,32 +4628,32 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#marked_for_deletion DataIntersightVirtualizationVmwareVirtualDisk#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#marked_for_deletion DataIntersightVirtualizationVmwareVirtualDisk#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#nr_version DataIntersightVirtualizationVmwareVirtualDisk#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#nr_version DataIntersightVirtualizationVmwareVirtualDisk#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#timestamp DataIntersightVirtualizationVmwareVirtualDisk#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#timestamp DataIntersightVirtualizationVmwareVirtualDisk#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4624,19 +4664,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#version_type DataIntersightVirtualizationVmwareVirtualDisk#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#version_type DataIntersightVirtualizationVmwareVirtualDisk#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#interested_mos DataIntersightVirtualizationVmwareVirtualDisk#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#interested_mos DataIntersightVirtualizationVmwareVirtualDisk#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareVirtualDiskVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#ref_mo DataIntersightVirtualizationVmwareVirtualDisk#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#ref_mo DataIntersightVirtualizationVmwareVirtualDisk#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareVirtualDiskVersionContextRefMo;
 }
@@ -4952,7 +4992,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskVersionContextOutputRe
 }
 export interface DataIntersightVirtualizationVmwareVirtualDiskVirtualMachine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#additional_properties DataIntersightVirtualizationVmwareVirtualDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4960,19 +5000,19 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVirtualMachine {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#class_id DataIntersightVirtualizationVmwareVirtualDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#moid DataIntersightVirtualizationVmwareVirtualDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#object_type DataIntersightVirtualizationVmwareVirtualDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4985,7 +5025,7 @@ export interface DataIntersightVirtualizationVmwareVirtualDiskVirtualMachine {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#selector DataIntersightVirtualizationVmwareVirtualDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5185,7 +5225,7 @@ export class DataIntersightVirtualizationVmwareVirtualDiskVirtualMachineOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk intersight_virtualization_vmware_virtual_disk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk intersight_virtualization_vmware_virtual_disk}
 */
 export class DataIntersightVirtualizationVmwareVirtualDisk extends cdktf.TerraformDataSource {
 
@@ -5201,7 +5241,7 @@ export class DataIntersightVirtualizationVmwareVirtualDisk extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareVirtualDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareVirtualDisk to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareVirtualDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5213,7 +5253,7 @@ export class DataIntersightVirtualizationVmwareVirtualDisk extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_disk intersight_virtualization_vmware_virtual_disk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_disk intersight_virtualization_vmware_virtual_disk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5224,8 +5264,8 @@ export class DataIntersightVirtualizationVmwareVirtualDisk extends cdktf.Terrafo
       terraformResourceType: 'intersight_virtualization_vmware_virtual_disk',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

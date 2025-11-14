@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiParityGroupConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#account_moid DataIntersightStorageHitachiParityGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#account_moid DataIntersightStorageHitachiParityGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageHitachiParityGroupConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#create_time DataIntersightStorageHitachiParityGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#create_time DataIntersightStorageHitachiParityGroup#create_time}
   */
   readonly createTime?: string;
   /**
   * Speed (rpm) of the disk belonging to the parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#disk_speed DataIntersightStorageHitachiParityGroup#disk_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#disk_speed DataIntersightStorageHitachiParityGroup#disk_speed}
   */
   readonly diskSpeed?: string;
   /**
   * Type of the disk belonging to the parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#disk_type DataIntersightStorageHitachiParityGroup#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#disk_type DataIntersightStorageHitachiParityGroup#disk_type}
   */
   readonly diskType?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#domain_group_moid DataIntersightStorageHitachiParityGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#domain_group_moid DataIntersightStorageHitachiParityGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#id DataIntersightStorageHitachiParityGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#id DataIntersightStorageHitachiParityGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,19 +59,19 @@ export interface DataIntersightStorageHitachiParityGroupConfig extends cdktf.Ter
   /**
   * Value of the accelerated compression of the parity group. true, Accelerated compression for the parity group is enabled. false, Accelerated compression for the parity group is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#is_accelerated_compression_enabled DataIntersightStorageHitachiParityGroup#is_accelerated_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#is_accelerated_compression_enabled DataIntersightStorageHitachiParityGroup#is_accelerated_compression_enabled}
   */
   readonly isAcceleratedCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Value of the copy back mode setting of the parity group. true, Copy back mode is enabled. false, Copy back mode is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#is_copy_back_mode_enabled DataIntersightStorageHitachiParityGroup#is_copy_back_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#is_copy_back_mode_enabled DataIntersightStorageHitachiParityGroup#is_copy_back_mode_enabled}
   */
   readonly isCopyBackModeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Value of the encryption setting of the parity group. true, Encryption is enabled. false, Encryption is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#is_encryption_enabled DataIntersightStorageHitachiParityGroup#is_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#is_encryption_enabled DataIntersightStorageHitachiParityGroup#is_encryption_enabled}
   */
   readonly isEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -86,91 +86,91 @@ export interface DataIntersightStorageHitachiParityGroupConfig extends cdktf.Ter
   * * `RAIDDP` - RAIDDP uses up to two spare disks to replace and reconstruct the data from up to two simultaneously failed disks within the RAID group.
   * * `RAIDTEC` - With RAIDTEC protection, use up to three spare disks to replace and reconstruct the data from up to three simultaneously failed disks within the RAID group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#level DataIntersightStorageHitachiParityGroup#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#level DataIntersightStorageHitachiParityGroup#level}
   */
   readonly level?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#mod_time DataIntersightStorageHitachiParityGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#mod_time DataIntersightStorageHitachiParityGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * Human readable name of the RAID group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#name DataIntersightStorageHitachiParityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#name DataIntersightStorageHitachiParityGroup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#owners DataIntersightStorageHitachiParityGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#owners DataIntersightStorageHitachiParityGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#shared_scope DataIntersightStorageHitachiParityGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#shared_scope DataIntersightStorageHitachiParityGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#ancestors DataIntersightStorageHitachiParityGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#ancestors DataIntersightStorageHitachiParityGroup#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiParityGroupAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#array DataIntersightStorageHitachiParityGroup#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#array DataIntersightStorageHitachiParityGroup#array}
   */
   readonly array?: DataIntersightStorageHitachiParityGroupArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#parent DataIntersightStorageHitachiParityGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#parent DataIntersightStorageHitachiParityGroup#parent}
   */
   readonly parent?: DataIntersightStorageHitachiParityGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#permission_resources DataIntersightStorageHitachiParityGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#permission_resources DataIntersightStorageHitachiParityGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiParityGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#registered_device DataIntersightStorageHitachiParityGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#registered_device DataIntersightStorageHitachiParityGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiParityGroupRegisteredDevice;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#storage_utilization DataIntersightStorageHitachiParityGroup#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#storage_utilization DataIntersightStorageHitachiParityGroup#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStorageHitachiParityGroupStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#tags DataIntersightStorageHitachiParityGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#tags DataIntersightStorageHitachiParityGroup#tags}
   */
   readonly tags?: DataIntersightStorageHitachiParityGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#version_context DataIntersightStorageHitachiParityGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#version_context DataIntersightStorageHitachiParityGroup#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiParityGroupVersionContext;
 }
@@ -1027,6 +1027,11 @@ export class DataIntersightStorageHitachiParityGroupResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1568,7 +1573,7 @@ export class DataIntersightStorageHitachiParityGroupResultsList extends cdktf.Co
 }
 export interface DataIntersightStorageHitachiParityGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1576,19 +1581,19 @@ export interface DataIntersightStorageHitachiParityGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1601,7 +1606,7 @@ export interface DataIntersightStorageHitachiParityGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1833,7 +1838,7 @@ export class DataIntersightStorageHitachiParityGroupAncestorsList extends cdktf.
 }
 export interface DataIntersightStorageHitachiParityGroupArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1841,19 +1846,19 @@ export interface DataIntersightStorageHitachiParityGroupArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1866,7 +1871,7 @@ export interface DataIntersightStorageHitachiParityGroupArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2066,7 +2071,7 @@ export class DataIntersightStorageHitachiParityGroupArrayOutputReference extends
 }
 export interface DataIntersightStorageHitachiParityGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2074,19 +2079,19 @@ export interface DataIntersightStorageHitachiParityGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2099,7 +2104,7 @@ export interface DataIntersightStorageHitachiParityGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2299,7 +2304,7 @@ export class DataIntersightStorageHitachiParityGroupParentOutputReference extend
 }
 export interface DataIntersightStorageHitachiParityGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2307,19 +2312,19 @@ export interface DataIntersightStorageHitachiParityGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2332,7 +2337,7 @@ export interface DataIntersightStorageHitachiParityGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2564,7 +2569,7 @@ export class DataIntersightStorageHitachiParityGroupPermissionResourcesList exte
 }
 export interface DataIntersightStorageHitachiParityGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2572,19 +2577,19 @@ export interface DataIntersightStorageHitachiParityGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2597,7 +2602,7 @@ export interface DataIntersightStorageHitachiParityGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2797,19 +2802,19 @@ export class DataIntersightStorageHitachiParityGroupRegisteredDeviceOutputRefere
 }
 export interface DataIntersightStorageHitachiParityGroupStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#available DataIntersightStorageHitachiParityGroup#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#available DataIntersightStorageHitachiParityGroup#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#capacity_utilization DataIntersightStorageHitachiParityGroup#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#capacity_utilization DataIntersightStorageHitachiParityGroup#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -2818,13 +2823,13 @@ export interface DataIntersightStorageHitachiParityGroupStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#free DataIntersightStorageHitachiParityGroup#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#free DataIntersightStorageHitachiParityGroup#free}
   */
   readonly free?: number;
   /**
@@ -2832,19 +2837,19 @@ export interface DataIntersightStorageHitachiParityGroupStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#total DataIntersightStorageHitachiParityGroup#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#total DataIntersightStorageHitachiParityGroup#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#used DataIntersightStorageHitachiParityGroup#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#used DataIntersightStorageHitachiParityGroup#used}
   */
   readonly used?: number;
 }
@@ -3131,7 +3136,7 @@ export class DataIntersightStorageHitachiParityGroupStorageUtilizationOutputRefe
 }
 export interface DataIntersightStorageHitachiParityGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3139,19 +3144,19 @@ export interface DataIntersightStorageHitachiParityGroupTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3164,7 +3169,7 @@ export interface DataIntersightStorageHitachiParityGroupTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3396,7 +3401,7 @@ export class DataIntersightStorageHitachiParityGroupTagsAncestorDefinitionsList 
 }
 export interface DataIntersightStorageHitachiParityGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3404,19 +3409,19 @@ export interface DataIntersightStorageHitachiParityGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3429,7 +3434,7 @@ export interface DataIntersightStorageHitachiParityGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3629,45 +3634,51 @@ export class DataIntersightStorageHitachiParityGroupTagsDefinitionOutputReferenc
 }
 export interface DataIntersightStorageHitachiParityGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#key DataIntersightStorageHitachiParityGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#key DataIntersightStorageHitachiParityGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#propagated DataIntersightStorageHitachiParityGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#propagated DataIntersightStorageHitachiParityGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#sys_tag DataIntersightStorageHitachiParityGroup#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#type DataIntersightStorageHitachiParityGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#type DataIntersightStorageHitachiParityGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#value DataIntersightStorageHitachiParityGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#value DataIntersightStorageHitachiParityGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#ancestor_definitions DataIntersightStorageHitachiParityGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#ancestor_definitions DataIntersightStorageHitachiParityGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiParityGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#definition DataIntersightStorageHitachiParityGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#definition DataIntersightStorageHitachiParityGroup#definition}
   */
   readonly definition?: DataIntersightStorageHitachiParityGroupTagsDefinition;
 }
@@ -3681,6 +3692,7 @@ export function dataIntersightStorageHitachiParityGroupTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageHitachiParityGroupTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3709,6 +3721,12 @@ export function dataIntersightStorageHitachiParityGroupTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3775,6 +3793,10 @@ export class DataIntersightStorageHitachiParityGroupTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3801,6 +3823,7 @@ export class DataIntersightStorageHitachiParityGroupTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3816,6 +3839,7 @@ export class DataIntersightStorageHitachiParityGroupTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3869,6 +3893,22 @@ export class DataIntersightStorageHitachiParityGroupTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3957,7 +3997,7 @@ export class DataIntersightStorageHitachiParityGroupTagsList extends cdktf.Compl
 }
 export interface DataIntersightStorageHitachiParityGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3965,19 +4005,19 @@ export interface DataIntersightStorageHitachiParityGroupVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3990,7 +4030,7 @@ export interface DataIntersightStorageHitachiParityGroupVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4222,7 +4262,7 @@ export class DataIntersightStorageHitachiParityGroupVersionContextInterestedMosL
 }
 export interface DataIntersightStorageHitachiParityGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4230,19 +4270,19 @@ export interface DataIntersightStorageHitachiParityGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#moid DataIntersightStorageHitachiParityGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4255,7 +4295,7 @@ export interface DataIntersightStorageHitachiParityGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#selector DataIntersightStorageHitachiParityGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4455,7 +4495,7 @@ export class DataIntersightStorageHitachiParityGroupVersionContextRefMoOutputRef
 }
 export interface DataIntersightStorageHitachiParityGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#additional_properties DataIntersightStorageHitachiParityGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4463,32 +4503,32 @@ export interface DataIntersightStorageHitachiParityGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#class_id DataIntersightStorageHitachiParityGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#marked_for_deletion DataIntersightStorageHitachiParityGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#marked_for_deletion DataIntersightStorageHitachiParityGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#nr_version DataIntersightStorageHitachiParityGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#nr_version DataIntersightStorageHitachiParityGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#object_type DataIntersightStorageHitachiParityGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#timestamp DataIntersightStorageHitachiParityGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#timestamp DataIntersightStorageHitachiParityGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4499,19 +4539,19 @@ export interface DataIntersightStorageHitachiParityGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#version_type DataIntersightStorageHitachiParityGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#version_type DataIntersightStorageHitachiParityGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#interested_mos DataIntersightStorageHitachiParityGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#interested_mos DataIntersightStorageHitachiParityGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiParityGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#ref_mo DataIntersightStorageHitachiParityGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#ref_mo DataIntersightStorageHitachiParityGroup#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiParityGroupVersionContextRefMo;
 }
@@ -4827,7 +4867,7 @@ export class DataIntersightStorageHitachiParityGroupVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group intersight_storage_hitachi_parity_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group intersight_storage_hitachi_parity_group}
 */
 export class DataIntersightStorageHitachiParityGroup extends cdktf.TerraformDataSource {
 
@@ -4843,7 +4883,7 @@ export class DataIntersightStorageHitachiParityGroup extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightStorageHitachiParityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiParityGroup to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiParityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiParityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiParityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4855,7 +4895,7 @@ export class DataIntersightStorageHitachiParityGroup extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_parity_group intersight_storage_hitachi_parity_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_parity_group intersight_storage_hitachi_parity_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4866,8 +4906,8 @@ export class DataIntersightStorageHitachiParityGroup extends cdktf.TerraformData
       terraformResourceType: 'intersight_storage_hitachi_parity_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface ApplianceRemoteFileImportConfig extends cdktf.TerraformMetaArgu
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#account ApplianceRemoteFileImport#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#account ApplianceRemoteFileImport#account}
   */
   readonly account?: ApplianceRemoteFileImportAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#account_moid ApplianceRemoteFileImport#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#account_moid ApplianceRemoteFileImport#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#ancestors ApplianceRemoteFileImport#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#ancestors ApplianceRemoteFileImport#ancestors}
   */
   readonly ancestors?: ApplianceRemoteFileImportAncestors[] | cdktf.IResolvable;
   /**
@@ -35,35 +35,35 @@ export interface ApplianceRemoteFileImportConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#create_time ApplianceRemoteFileImport#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#create_time ApplianceRemoteFileImport#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#domain_group_moid ApplianceRemoteFileImport#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#domain_group_moid ApplianceRemoteFileImport#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The name of the file to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#filename ApplianceRemoteFileImport#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#filename ApplianceRemoteFileImport#filename}
   */
   readonly filename?: string;
   /**
   * The hostname of the machine where the file is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#hostname ApplianceRemoteFileImport#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#hostname ApplianceRemoteFileImport#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#id ApplianceRemoteFileImport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#id ApplianceRemoteFileImport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,61 +72,61 @@ export interface ApplianceRemoteFileImportConfig extends cdktf.TerraformMetaArgu
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#is_password_set ApplianceRemoteFileImport#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#is_password_set ApplianceRemoteFileImport#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#mod_time ApplianceRemoteFileImport#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#mod_time ApplianceRemoteFileImport#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#owners ApplianceRemoteFileImport#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#owners ApplianceRemoteFileImport#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#parent ApplianceRemoteFileImport#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#parent ApplianceRemoteFileImport#parent}
   */
   readonly parent?: ApplianceRemoteFileImportParent[] | cdktf.IResolvable;
   /**
   * Password for remote requiest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#password ApplianceRemoteFileImport#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#password ApplianceRemoteFileImport#password}
   */
   readonly password?: string;
   /**
   * The port that should be used for the remote request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#path ApplianceRemoteFileImport#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#path ApplianceRemoteFileImport#path}
   */
   readonly path?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#permission_resources ApplianceRemoteFileImport#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#permission_resources ApplianceRemoteFileImport#permission_resources}
   */
   readonly permissionResources?: ApplianceRemoteFileImportPermissionResources[] | cdktf.IResolvable;
   /**
   * The port that should be used for the remote request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#port ApplianceRemoteFileImport#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#port ApplianceRemoteFileImport#port}
   */
   readonly port?: number;
   /**
@@ -135,52 +135,52 @@ export interface ApplianceRemoteFileImportConfig extends cdktf.TerraformMetaArgu
   * * `sftp` - SSH File Transfer Protocol (SFTP) to access file server.
   * * `cifs` - Common Internet File System (CIFS) Protocol to access file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#protocol ApplianceRemoteFileImport#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#protocol ApplianceRemoteFileImport#protocol}
   */
   readonly protocol?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#shared_scope ApplianceRemoteFileImport#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#shared_scope ApplianceRemoteFileImport#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#tags ApplianceRemoteFileImport#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#tags ApplianceRemoteFileImport#tags}
   */
   readonly tags?: ApplianceRemoteFileImportTags[] | cdktf.IResolvable;
   /**
   * The username for the remote request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#username ApplianceRemoteFileImport#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#username ApplianceRemoteFileImport#username}
   */
   readonly username?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#version_context ApplianceRemoteFileImport#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#version_context ApplianceRemoteFileImport#version_context}
   */
   readonly versionContext?: ApplianceRemoteFileImportVersionContext[] | cdktf.IResolvable;
 }
 export interface ApplianceRemoteFileImportAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -412,23 +412,23 @@ export class ApplianceRemoteFileImportAccountList extends cdktf.ComplexList {
 }
 export interface ApplianceRemoteFileImportAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -660,23 +660,23 @@ export class ApplianceRemoteFileImportAncestorsList extends cdktf.ComplexList {
 }
 export interface ApplianceRemoteFileImportParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -908,23 +908,23 @@ export class ApplianceRemoteFileImportParentList extends cdktf.ComplexList {
 }
 export interface ApplianceRemoteFileImportPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -1156,23 +1156,23 @@ export class ApplianceRemoteFileImportPermissionResourcesList extends cdktf.Comp
 }
 export interface ApplianceRemoteFileImportTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -1404,23 +1404,23 @@ export class ApplianceRemoteFileImportTagsAncestorDefinitionsList extends cdktf.
 }
 export interface ApplianceRemoteFileImportTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -1652,31 +1652,35 @@ export class ApplianceRemoteFileImportTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface ApplianceRemoteFileImportTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#ancestor_definitions ApplianceRemoteFileImport#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#ancestor_definitions ApplianceRemoteFileImport#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ApplianceRemoteFileImportTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#definition ApplianceRemoteFileImport#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#definition ApplianceRemoteFileImport#definition}
   */
   readonly definition?: ApplianceRemoteFileImportTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#key ApplianceRemoteFileImport#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#key ApplianceRemoteFileImport#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#propagated ApplianceRemoteFileImport#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#propagated ApplianceRemoteFileImport#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#type ApplianceRemoteFileImport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#sys_tag ApplianceRemoteFileImport#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#type ApplianceRemoteFileImport#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#value ApplianceRemoteFileImport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#value ApplianceRemoteFileImport#value}
   */
   readonly value?: string;
 }
@@ -1692,6 +1696,7 @@ export function applianceRemoteFileImportTagsToTerraform(struct?: ApplianceRemot
     definition: cdktf.listMapper(applianceRemoteFileImportTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1730,6 +1735,12 @@ export function applianceRemoteFileImportTagsToHclTerraform(struct?: ApplianceRe
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1792,6 +1803,10 @@ export class ApplianceRemoteFileImportTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1812,6 +1827,7 @@ export class ApplianceRemoteFileImportTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1827,6 +1843,7 @@ export class ApplianceRemoteFileImportTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1912,6 +1929,22 @@ export class ApplianceRemoteFileImportTagsOutputReference extends cdktf.ComplexO
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1966,23 +1999,23 @@ export class ApplianceRemoteFileImportTagsList extends cdktf.ComplexList {
 }
 export interface ApplianceRemoteFileImportVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -2214,23 +2247,23 @@ export class ApplianceRemoteFileImportVersionContextInterestedMosList extends cd
 }
 export interface ApplianceRemoteFileImportVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#moid ApplianceRemoteFileImport#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#selector ApplianceRemoteFileImport#selector}
   */
   readonly selector?: string;
 }
@@ -2462,39 +2495,39 @@ export class ApplianceRemoteFileImportVersionContextRefMoList extends cdktf.Comp
 }
 export interface ApplianceRemoteFileImportVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#additional_properties ApplianceRemoteFileImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#class_id ApplianceRemoteFileImport#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#interested_mos ApplianceRemoteFileImport#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#interested_mos ApplianceRemoteFileImport#interested_mos}
   */
   readonly interestedMos?: ApplianceRemoteFileImportVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#marked_for_deletion ApplianceRemoteFileImport#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#marked_for_deletion ApplianceRemoteFileImport#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#nr_version ApplianceRemoteFileImport#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#nr_version ApplianceRemoteFileImport#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#object_type ApplianceRemoteFileImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#ref_mo ApplianceRemoteFileImport#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#ref_mo ApplianceRemoteFileImport#ref_mo}
   */
   readonly refMo?: ApplianceRemoteFileImportVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#timestamp ApplianceRemoteFileImport#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#timestamp ApplianceRemoteFileImport#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#version_type ApplianceRemoteFileImport#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#version_type ApplianceRemoteFileImport#version_type}
   */
   readonly versionType?: string;
 }
@@ -2842,7 +2875,7 @@ export class ApplianceRemoteFileImportVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import intersight_appliance_remote_file_import}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import intersight_appliance_remote_file_import}
 */
 export class ApplianceRemoteFileImport extends cdktf.TerraformResource {
 
@@ -2858,7 +2891,7 @@ export class ApplianceRemoteFileImport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceRemoteFileImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceRemoteFileImport to import
-  * @param importFromId The id of the existing ApplianceRemoteFileImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceRemoteFileImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceRemoteFileImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2870,7 +2903,7 @@ export class ApplianceRemoteFileImport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_remote_file_import intersight_appliance_remote_file_import} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_remote_file_import intersight_appliance_remote_file_import} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2881,8 +2914,8 @@ export class ApplianceRemoteFileImport extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_remote_file_import',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

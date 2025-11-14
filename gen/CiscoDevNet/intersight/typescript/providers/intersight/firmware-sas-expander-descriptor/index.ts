@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirmwareSasExpanderDescriptorConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#account_moid FirmwareSasExpanderDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#account_moid FirmwareSasExpanderDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#ancestors FirmwareSasExpanderDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#ancestors FirmwareSasExpanderDescriptor#ancestors}
   */
   readonly ancestors?: FirmwareSasExpanderDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#brand_string FirmwareSasExpanderDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#brand_string FirmwareSasExpanderDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
   * An array of relationships to capabilityCapability resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#capabilities FirmwareSasExpanderDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#capabilities FirmwareSasExpanderDescriptor#capabilities}
   */
   readonly capabilities?: FirmwareSasExpanderDescriptorCapabilities[] | cdktf.IResolvable;
   /**
@@ -41,29 +41,29 @@ export interface FirmwareSasExpanderDescriptorConfig extends cdktf.TerraformMeta
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#create_time FirmwareSasExpanderDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#create_time FirmwareSasExpanderDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#description FirmwareSasExpanderDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#description FirmwareSasExpanderDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#domain_group_moid FirmwareSasExpanderDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#domain_group_moid FirmwareSasExpanderDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#id FirmwareSasExpanderDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#id FirmwareSasExpanderDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,31 +72,31 @@ export interface FirmwareSasExpanderDescriptorConfig extends cdktf.TerraformMeta
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#label FirmwareSasExpanderDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#label FirmwareSasExpanderDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#mod_time FirmwareSasExpanderDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#mod_time FirmwareSasExpanderDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#model FirmwareSasExpanderDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#model FirmwareSasExpanderDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#nr_version FirmwareSasExpanderDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#nr_version FirmwareSasExpanderDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -104,75 +104,75 @@ export interface FirmwareSasExpanderDescriptorConfig extends cdktf.TerraformMeta
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#owners FirmwareSasExpanderDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#owners FirmwareSasExpanderDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#parent FirmwareSasExpanderDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#parent FirmwareSasExpanderDescriptor#parent}
   */
   readonly parent?: FirmwareSasExpanderDescriptorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#permission_resources FirmwareSasExpanderDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#permission_resources FirmwareSasExpanderDescriptor#permission_resources}
   */
   readonly permissionResources?: FirmwareSasExpanderDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#revision FirmwareSasExpanderDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#revision FirmwareSasExpanderDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#shared_scope FirmwareSasExpanderDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#shared_scope FirmwareSasExpanderDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#tags FirmwareSasExpanderDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#tags FirmwareSasExpanderDescriptor#tags}
   */
   readonly tags?: FirmwareSasExpanderDescriptorTags[] | cdktf.IResolvable;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#vendor FirmwareSasExpanderDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#vendor FirmwareSasExpanderDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#version_context FirmwareSasExpanderDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#version_context FirmwareSasExpanderDescriptor#version_context}
   */
   readonly versionContext?: FirmwareSasExpanderDescriptorVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwareSasExpanderDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -404,23 +404,23 @@ export class FirmwareSasExpanderDescriptorAncestorsList extends cdktf.ComplexLis
 }
 export interface FirmwareSasExpanderDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -652,23 +652,23 @@ export class FirmwareSasExpanderDescriptorCapabilitiesList extends cdktf.Complex
 }
 export interface FirmwareSasExpanderDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -900,23 +900,23 @@ export class FirmwareSasExpanderDescriptorParentList extends cdktf.ComplexList {
 }
 export interface FirmwareSasExpanderDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1148,23 +1148,23 @@ export class FirmwareSasExpanderDescriptorPermissionResourcesList extends cdktf.
 }
 export interface FirmwareSasExpanderDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1396,23 +1396,23 @@ export class FirmwareSasExpanderDescriptorTagsAncestorDefinitionsList extends cd
 }
 export interface FirmwareSasExpanderDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1644,31 +1644,35 @@ export class FirmwareSasExpanderDescriptorTagsDefinitionList extends cdktf.Compl
 }
 export interface FirmwareSasExpanderDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#ancestor_definitions FirmwareSasExpanderDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#ancestor_definitions FirmwareSasExpanderDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareSasExpanderDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#definition FirmwareSasExpanderDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#definition FirmwareSasExpanderDescriptor#definition}
   */
   readonly definition?: FirmwareSasExpanderDescriptorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#key FirmwareSasExpanderDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#key FirmwareSasExpanderDescriptor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#propagated FirmwareSasExpanderDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#propagated FirmwareSasExpanderDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#type FirmwareSasExpanderDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#sys_tag FirmwareSasExpanderDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#type FirmwareSasExpanderDescriptor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#value FirmwareSasExpanderDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#value FirmwareSasExpanderDescriptor#value}
   */
   readonly value?: string;
 }
@@ -1684,6 +1688,7 @@ export function firmwareSasExpanderDescriptorTagsToTerraform(struct?: FirmwareSa
     definition: cdktf.listMapper(firmwareSasExpanderDescriptorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1722,6 +1727,12 @@ export function firmwareSasExpanderDescriptorTagsToHclTerraform(struct?: Firmwar
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1784,6 +1795,10 @@ export class FirmwareSasExpanderDescriptorTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1804,6 +1819,7 @@ export class FirmwareSasExpanderDescriptorTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1819,6 +1835,7 @@ export class FirmwareSasExpanderDescriptorTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1904,6 +1921,22 @@ export class FirmwareSasExpanderDescriptorTagsOutputReference extends cdktf.Comp
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1958,23 +1991,23 @@ export class FirmwareSasExpanderDescriptorTagsList extends cdktf.ComplexList {
 }
 export interface FirmwareSasExpanderDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2206,23 +2239,23 @@ export class FirmwareSasExpanderDescriptorVersionContextInterestedMosList extend
 }
 export interface FirmwareSasExpanderDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#moid FirmwareSasExpanderDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#selector FirmwareSasExpanderDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2454,39 +2487,39 @@ export class FirmwareSasExpanderDescriptorVersionContextRefMoList extends cdktf.
 }
 export interface FirmwareSasExpanderDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#additional_properties FirmwareSasExpanderDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#class_id FirmwareSasExpanderDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#interested_mos FirmwareSasExpanderDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#interested_mos FirmwareSasExpanderDescriptor#interested_mos}
   */
   readonly interestedMos?: FirmwareSasExpanderDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#marked_for_deletion FirmwareSasExpanderDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#marked_for_deletion FirmwareSasExpanderDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#nr_version FirmwareSasExpanderDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#nr_version FirmwareSasExpanderDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#object_type FirmwareSasExpanderDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#ref_mo FirmwareSasExpanderDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#ref_mo FirmwareSasExpanderDescriptor#ref_mo}
   */
   readonly refMo?: FirmwareSasExpanderDescriptorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#timestamp FirmwareSasExpanderDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#timestamp FirmwareSasExpanderDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#version_type FirmwareSasExpanderDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#version_type FirmwareSasExpanderDescriptor#version_type}
   */
   readonly versionType?: string;
 }
@@ -2834,7 +2867,7 @@ export class FirmwareSasExpanderDescriptorVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor intersight_firmware_sas_expander_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor intersight_firmware_sas_expander_descriptor}
 */
 export class FirmwareSasExpanderDescriptor extends cdktf.TerraformResource {
 
@@ -2850,7 +2883,7 @@ export class FirmwareSasExpanderDescriptor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwareSasExpanderDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareSasExpanderDescriptor to import
-  * @param importFromId The id of the existing FirmwareSasExpanderDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareSasExpanderDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareSasExpanderDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2862,7 +2895,7 @@ export class FirmwareSasExpanderDescriptor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_sas_expander_descriptor intersight_firmware_sas_expander_descriptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_sas_expander_descriptor intersight_firmware_sas_expander_descriptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2873,8 +2906,8 @@ export class FirmwareSasExpanderDescriptor extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_sas_expander_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

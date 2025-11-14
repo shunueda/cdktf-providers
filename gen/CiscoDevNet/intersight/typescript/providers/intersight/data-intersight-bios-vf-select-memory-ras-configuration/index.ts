@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#account_moid DataIntersightBiosVfSelectMemoryRasConfiguration#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#account_moid DataIntersightBiosVfSelectMemoryRasConfiguration#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#create_time DataIntersightBiosVfSelectMemoryRasConfiguration#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#create_time DataIntersightBiosVfSelectMemoryRasConfiguration#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#device_mo_id DataIntersightBiosVfSelectMemoryRasConfiguration#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#device_mo_id DataIntersightBiosVfSelectMemoryRasConfiguration#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#dn DataIntersightBiosVfSelectMemoryRasConfiguration#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#dn DataIntersightBiosVfSelectMemoryRasConfiguration#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#domain_group_moid DataIntersightBiosVfSelectMemoryRasConfiguration#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#domain_group_moid DataIntersightBiosVfSelectMemoryRasConfiguration#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#id DataIntersightBiosVfSelectMemoryRasConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#id DataIntersightBiosVfSelectMemoryRasConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationConfig extends 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#mod_time DataIntersightBiosVfSelectMemoryRasConfiguration#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#mod_time DataIntersightBiosVfSelectMemoryRasConfiguration#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#owners DataIntersightBiosVfSelectMemoryRasConfiguration#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#owners DataIntersightBiosVfSelectMemoryRasConfiguration#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#rn DataIntersightBiosVfSelectMemoryRasConfiguration#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#rn DataIntersightBiosVfSelectMemoryRasConfiguration#rn}
   */
   readonly rn?: string;
   /**
   * Parent server serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#serial DataIntersightBiosVfSelectMemoryRasConfiguration#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#serial DataIntersightBiosVfSelectMemoryRasConfiguration#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#shared_scope DataIntersightBiosVfSelectMemoryRasConfiguration#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#shared_scope DataIntersightBiosVfSelectMemoryRasConfiguration#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The actual BIOS memory RAS configuration as reported by the platform BIOS. Possible values are "maximum-performance", "mirror-mode-1lm", "adddc-sparing", "platform-default", "lockstep", "sparing", "mirroring".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#vp_select_memory_ras_configuration DataIntersightBiosVfSelectMemoryRasConfiguration#vp_select_memory_ras_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#vp_select_memory_ras_configuration DataIntersightBiosVfSelectMemoryRasConfiguration#vp_select_memory_ras_configuration}
   */
   readonly vpSelectMemoryRasConfiguration?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#ancestors DataIntersightBiosVfSelectMemoryRasConfiguration#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#ancestors DataIntersightBiosVfSelectMemoryRasConfiguration#ancestors}
   */
   readonly ancestors?: DataIntersightBiosVfSelectMemoryRasConfigurationAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#compute_blade DataIntersightBiosVfSelectMemoryRasConfiguration#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#compute_blade DataIntersightBiosVfSelectMemoryRasConfiguration#compute_blade}
   */
   readonly computeBlade?: DataIntersightBiosVfSelectMemoryRasConfigurationComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#compute_rack_unit DataIntersightBiosVfSelectMemoryRasConfiguration#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#compute_rack_unit DataIntersightBiosVfSelectMemoryRasConfiguration#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightBiosVfSelectMemoryRasConfigurationComputeRackUnit;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#inventory_device_info DataIntersightBiosVfSelectMemoryRasConfiguration#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#inventory_device_info DataIntersightBiosVfSelectMemoryRasConfiguration#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBiosVfSelectMemoryRasConfigurationInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#parent DataIntersightBiosVfSelectMemoryRasConfiguration#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#parent DataIntersightBiosVfSelectMemoryRasConfiguration#parent}
   */
   readonly parent?: DataIntersightBiosVfSelectMemoryRasConfigurationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#permission_resources DataIntersightBiosVfSelectMemoryRasConfiguration#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#permission_resources DataIntersightBiosVfSelectMemoryRasConfiguration#permission_resources}
   */
   readonly permissionResources?: DataIntersightBiosVfSelectMemoryRasConfigurationPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#registered_device DataIntersightBiosVfSelectMemoryRasConfiguration#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#registered_device DataIntersightBiosVfSelectMemoryRasConfiguration#registered_device}
   */
   readonly registeredDevice?: DataIntersightBiosVfSelectMemoryRasConfigurationRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#tags DataIntersightBiosVfSelectMemoryRasConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#tags DataIntersightBiosVfSelectMemoryRasConfiguration#tags}
   */
   readonly tags?: DataIntersightBiosVfSelectMemoryRasConfigurationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#version_context DataIntersightBiosVfSelectMemoryRasConfiguration#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#version_context DataIntersightBiosVfSelectMemoryRasConfiguration#version_context}
   */
   readonly versionContext?: DataIntersightBiosVfSelectMemoryRasConfigurationVersionContext;
 }
@@ -1092,6 +1092,11 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationResultsTagsOutputRe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1629,7 +1634,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationResultsList extends
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1637,19 +1642,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1662,7 +1667,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -1894,7 +1899,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationAncestorsList exten
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1902,19 +1907,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1927,7 +1932,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2127,7 +2132,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationComputeBladeOutputR
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2135,19 +2140,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeRackUnit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2160,7 +2165,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationComputeRackUnit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2360,7 +2365,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationComputeRackUnitOutp
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2368,19 +2373,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationInventoryDevice
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2393,7 +2398,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationInventoryDevice
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2593,7 +2598,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationInventoryDeviceInfo
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2601,19 +2606,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2626,7 +2631,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2826,7 +2831,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationParentOutputReferen
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2834,19 +2839,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2859,7 +2864,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3091,7 +3096,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationPermissionResources
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3099,19 +3104,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationRegisteredDevic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3124,7 +3129,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationRegisteredDevic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3324,7 +3329,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationRegisteredDeviceOut
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3332,19 +3337,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3357,7 +3362,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3589,7 +3594,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDefinit
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3597,19 +3602,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3622,7 +3627,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3822,45 +3827,51 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsDefinitionOutpu
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#key DataIntersightBiosVfSelectMemoryRasConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#key DataIntersightBiosVfSelectMemoryRasConfiguration#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#propagated DataIntersightBiosVfSelectMemoryRasConfiguration#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#propagated DataIntersightBiosVfSelectMemoryRasConfiguration#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#sys_tag DataIntersightBiosVfSelectMemoryRasConfiguration#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#type DataIntersightBiosVfSelectMemoryRasConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#type DataIntersightBiosVfSelectMemoryRasConfiguration#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#value DataIntersightBiosVfSelectMemoryRasConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#value DataIntersightBiosVfSelectMemoryRasConfiguration#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#ancestor_definitions DataIntersightBiosVfSelectMemoryRasConfiguration#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#ancestor_definitions DataIntersightBiosVfSelectMemoryRasConfiguration#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#definition DataIntersightBiosVfSelectMemoryRasConfiguration#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#definition DataIntersightBiosVfSelectMemoryRasConfiguration#definition}
   */
   readonly definition?: DataIntersightBiosVfSelectMemoryRasConfigurationTagsDefinition;
 }
@@ -3874,6 +3885,7 @@ export function dataIntersightBiosVfSelectMemoryRasConfigurationTagsToTerraform(
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightBiosVfSelectMemoryRasConfigurationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3902,6 +3914,12 @@ export function dataIntersightBiosVfSelectMemoryRasConfigurationTagsToHclTerrafo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3968,6 +3986,10 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsOutputReference
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3994,6 +4016,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsOutputReference
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4009,6 +4032,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsOutputReference
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4062,6 +4086,22 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsOutputReference
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4150,7 +4190,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationTagsList extends cd
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4158,19 +4198,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4183,7 +4223,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4415,7 +4455,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextInter
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4423,19 +4463,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#moid DataIntersightBiosVfSelectMemoryRasConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4448,7 +4488,7 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#selector DataIntersightBiosVfSelectMemoryRasConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4648,7 +4688,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextRefMo
 }
 export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#additional_properties DataIntersightBiosVfSelectMemoryRasConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4656,32 +4696,32 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#class_id DataIntersightBiosVfSelectMemoryRasConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#marked_for_deletion DataIntersightBiosVfSelectMemoryRasConfiguration#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#marked_for_deletion DataIntersightBiosVfSelectMemoryRasConfiguration#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#nr_version DataIntersightBiosVfSelectMemoryRasConfiguration#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#nr_version DataIntersightBiosVfSelectMemoryRasConfiguration#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#object_type DataIntersightBiosVfSelectMemoryRasConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#timestamp DataIntersightBiosVfSelectMemoryRasConfiguration#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#timestamp DataIntersightBiosVfSelectMemoryRasConfiguration#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4692,19 +4732,19 @@ export interface DataIntersightBiosVfSelectMemoryRasConfigurationVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#version_type DataIntersightBiosVfSelectMemoryRasConfiguration#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#version_type DataIntersightBiosVfSelectMemoryRasConfiguration#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#interested_mos DataIntersightBiosVfSelectMemoryRasConfiguration#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#interested_mos DataIntersightBiosVfSelectMemoryRasConfiguration#interested_mos}
   */
   readonly interestedMos?: DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#ref_mo DataIntersightBiosVfSelectMemoryRasConfiguration#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#ref_mo DataIntersightBiosVfSelectMemoryRasConfiguration#ref_mo}
   */
   readonly refMo?: DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextRefMo;
 }
@@ -5020,7 +5060,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfigurationVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration intersight_bios_vf_select_memory_ras_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration intersight_bios_vf_select_memory_ras_configuration}
 */
 export class DataIntersightBiosVfSelectMemoryRasConfiguration extends cdktf.TerraformDataSource {
 
@@ -5036,7 +5076,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfiguration extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightBiosVfSelectMemoryRasConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBiosVfSelectMemoryRasConfiguration to import
-  * @param importFromId The id of the existing DataIntersightBiosVfSelectMemoryRasConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBiosVfSelectMemoryRasConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBiosVfSelectMemoryRasConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5048,7 +5088,7 @@ export class DataIntersightBiosVfSelectMemoryRasConfiguration extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_vf_select_memory_ras_configuration intersight_bios_vf_select_memory_ras_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_vf_select_memory_ras_configuration intersight_bios_vf_select_memory_ras_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5059,8 +5099,8 @@ export class DataIntersightBiosVfSelectMemoryRasConfiguration extends cdktf.Terr
       terraformResourceType: 'intersight_bios_vf_select_memory_ras_configuration',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

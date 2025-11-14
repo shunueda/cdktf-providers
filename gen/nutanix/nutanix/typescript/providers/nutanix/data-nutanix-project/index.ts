@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#id DataNutanixProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#id DataNutanixProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#project_id DataNutanixProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#project_id DataNutanixProject#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#project_name DataNutanixProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#project_name DataNutanixProject#project_name}
   */
   readonly projectName?: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#categories DataNutanixProject#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#categories DataNutanixProject#categories}
   */
   readonly categories?: DataNutanixProjectCategories[] | cdktf.IResolvable;
   /**
   * external_user_group_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#external_user_group_reference_list DataNutanixProject#external_user_group_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#external_user_group_reference_list DataNutanixProject#external_user_group_reference_list}
   */
   readonly externalUserGroupReferenceList?: DataNutanixProjectExternalUserGroupReferenceListStruct[] | cdktf.IResolvable;
   /**
   * subnet_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#subnet_reference_list DataNutanixProject#subnet_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#subnet_reference_list DataNutanixProject#subnet_reference_list}
   */
   readonly subnetReferenceList?: DataNutanixProjectSubnetReferenceListStruct[] | cdktf.IResolvable;
   /**
   * user_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#user_reference_list DataNutanixProject#user_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#user_reference_list DataNutanixProject#user_reference_list}
   */
   readonly userReferenceList?: DataNutanixProjectUserReferenceListStruct[] | cdktf.IResolvable;
 }
@@ -1756,11 +1756,11 @@ export class DataNutanixProjectVpcReferenceListStructList extends cdktf.ComplexL
 }
 export interface DataNutanixProjectCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#name DataNutanixProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#name DataNutanixProject#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#value DataNutanixProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#value DataNutanixProject#value}
   */
   readonly value?: string;
 }
@@ -2193,7 +2193,7 @@ export class DataNutanixProjectUserReferenceListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project nutanix_project}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project nutanix_project}
 */
 export class DataNutanixProject extends cdktf.TerraformDataSource {
 
@@ -2209,7 +2209,7 @@ export class DataNutanixProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixProject to import
-  * @param importFromId The id of the existing DataNutanixProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2221,7 +2221,7 @@ export class DataNutanixProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/project nutanix_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/project nutanix_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2232,8 +2232,8 @@ export class DataNutanixProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_project',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

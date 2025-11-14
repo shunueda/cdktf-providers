@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIwotenantTenantStatusConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#account_moid DataIntersightIwotenantTenantStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#account_moid DataIntersightIwotenantTenantStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,13 +22,13 @@ export interface DataIntersightIwotenantTenantStatusConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#create_time DataIntersightIwotenantTenantStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#create_time DataIntersightIwotenantTenantStatus#create_time}
   */
   readonly createTime?: string;
   /**
@@ -38,17 +38,17 @@ export interface DataIntersightIwotenantTenantStatusConfig extends cdktf.Terrafo
   * * `Completed` - The workflow to deploy the tenant cluster has completed and health checks have passed.
   * * `Failed` - The workflow to deploy the tenant cluster has failed. Detailed reason for the failure isprovided from Tenant.deployStatus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#deploy_status DataIntersightIwotenantTenantStatus#deploy_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#deploy_status DataIntersightIwotenantTenantStatus#deploy_status}
   */
   readonly deployStatus?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#domain_group_moid DataIntersightIwotenantTenantStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#domain_group_moid DataIntersightIwotenantTenantStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#id DataIntersightIwotenantTenantStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#id DataIntersightIwotenantTenantStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,79 +57,79 @@ export interface DataIntersightIwotenantTenantStatusConfig extends cdktf.Terrafo
   /**
   * The iwoId uniquely identifies a IWO tenant. The iwoId is used as part of namespace, (logical) database names, policies in vault and many others. As of now, accountMoid has to be provided as the iwoId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#iwo_id DataIntersightIwotenantTenantStatus#iwo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#iwo_id DataIntersightIwotenantTenantStatus#iwo_id}
   */
   readonly iwoId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#mod_time DataIntersightIwotenantTenantStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#mod_time DataIntersightIwotenantTenantStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#owners DataIntersightIwotenantTenantStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#owners DataIntersightIwotenantTenantStatus#owners}
   */
   readonly owners?: string[];
   /**
   * During IWO tenant upgrade (or reconfiguration), deployStatus is set to InProgress and referenceTime set to current time. When tenant upgrade (or reconfiguration) does not complete within a pre-defined time using this as reference, deployStatus is set as Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#reference_time DataIntersightIwotenantTenantStatus#reference_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#reference_time DataIntersightIwotenantTenantStatus#reference_time}
   */
   readonly referenceTime?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#shared_scope DataIntersightIwotenantTenantStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#shared_scope DataIntersightIwotenantTenantStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#account DataIntersightIwotenantTenantStatus#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#account DataIntersightIwotenantTenantStatus#account}
   */
   readonly account?: DataIntersightIwotenantTenantStatusAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#ancestors DataIntersightIwotenantTenantStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#ancestors DataIntersightIwotenantTenantStatus#ancestors}
   */
   readonly ancestors?: DataIntersightIwotenantTenantStatusAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#parent DataIntersightIwotenantTenantStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#parent DataIntersightIwotenantTenantStatus#parent}
   */
   readonly parent?: DataIntersightIwotenantTenantStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#permission_resources DataIntersightIwotenantTenantStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#permission_resources DataIntersightIwotenantTenantStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightIwotenantTenantStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#tags DataIntersightIwotenantTenantStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#tags DataIntersightIwotenantTenantStatus#tags}
   */
   readonly tags?: DataIntersightIwotenantTenantStatusTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#version_context DataIntersightIwotenantTenantStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#version_context DataIntersightIwotenantTenantStatus#version_context}
   */
   readonly versionContext?: DataIntersightIwotenantTenantStatusVersionContext;
 }
@@ -781,6 +781,11 @@ export class DataIntersightIwotenantTenantStatusResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1290,7 +1295,7 @@ export class DataIntersightIwotenantTenantStatusResultsList extends cdktf.Comple
 }
 export interface DataIntersightIwotenantTenantStatusAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1298,19 +1303,19 @@ export interface DataIntersightIwotenantTenantStatusAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1323,7 +1328,7 @@ export interface DataIntersightIwotenantTenantStatusAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1523,7 +1528,7 @@ export class DataIntersightIwotenantTenantStatusAccountOutputReference extends c
 }
 export interface DataIntersightIwotenantTenantStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1531,19 +1536,19 @@ export interface DataIntersightIwotenantTenantStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1556,7 +1561,7 @@ export interface DataIntersightIwotenantTenantStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1788,7 +1793,7 @@ export class DataIntersightIwotenantTenantStatusAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightIwotenantTenantStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1796,19 +1801,19 @@ export interface DataIntersightIwotenantTenantStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1821,7 +1826,7 @@ export interface DataIntersightIwotenantTenantStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2021,7 +2026,7 @@ export class DataIntersightIwotenantTenantStatusParentOutputReference extends cd
 }
 export interface DataIntersightIwotenantTenantStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2029,19 +2034,19 @@ export interface DataIntersightIwotenantTenantStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2054,7 +2059,7 @@ export interface DataIntersightIwotenantTenantStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2286,7 +2291,7 @@ export class DataIntersightIwotenantTenantStatusPermissionResourcesList extends 
 }
 export interface DataIntersightIwotenantTenantStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2294,19 +2299,19 @@ export interface DataIntersightIwotenantTenantStatusTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2319,7 +2324,7 @@ export interface DataIntersightIwotenantTenantStatusTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2551,7 +2556,7 @@ export class DataIntersightIwotenantTenantStatusTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightIwotenantTenantStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2559,19 +2564,19 @@ export interface DataIntersightIwotenantTenantStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2584,7 +2589,7 @@ export interface DataIntersightIwotenantTenantStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2784,45 +2789,51 @@ export class DataIntersightIwotenantTenantStatusTagsDefinitionOutputReference ex
 }
 export interface DataIntersightIwotenantTenantStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#key DataIntersightIwotenantTenantStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#key DataIntersightIwotenantTenantStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#propagated DataIntersightIwotenantTenantStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#propagated DataIntersightIwotenantTenantStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#sys_tag DataIntersightIwotenantTenantStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#type DataIntersightIwotenantTenantStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#type DataIntersightIwotenantTenantStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#value DataIntersightIwotenantTenantStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#value DataIntersightIwotenantTenantStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#ancestor_definitions DataIntersightIwotenantTenantStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#ancestor_definitions DataIntersightIwotenantTenantStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIwotenantTenantStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#definition DataIntersightIwotenantTenantStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#definition DataIntersightIwotenantTenantStatus#definition}
   */
   readonly definition?: DataIntersightIwotenantTenantStatusTagsDefinition;
 }
@@ -2836,6 +2847,7 @@ export function dataIntersightIwotenantTenantStatusTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIwotenantTenantStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2864,6 +2876,12 @@ export function dataIntersightIwotenantTenantStatusTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2930,6 +2948,10 @@ export class DataIntersightIwotenantTenantStatusTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2956,6 +2978,7 @@ export class DataIntersightIwotenantTenantStatusTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2971,6 +2994,7 @@ export class DataIntersightIwotenantTenantStatusTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3024,6 +3048,22 @@ export class DataIntersightIwotenantTenantStatusTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3112,7 +3152,7 @@ export class DataIntersightIwotenantTenantStatusTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightIwotenantTenantStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3120,19 +3160,19 @@ export interface DataIntersightIwotenantTenantStatusVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3145,7 +3185,7 @@ export interface DataIntersightIwotenantTenantStatusVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3377,7 +3417,7 @@ export class DataIntersightIwotenantTenantStatusVersionContextInterestedMosList 
 }
 export interface DataIntersightIwotenantTenantStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3385,19 +3425,19 @@ export interface DataIntersightIwotenantTenantStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#moid DataIntersightIwotenantTenantStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3410,7 +3450,7 @@ export interface DataIntersightIwotenantTenantStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#selector DataIntersightIwotenantTenantStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3610,7 +3650,7 @@ export class DataIntersightIwotenantTenantStatusVersionContextRefMoOutputReferen
 }
 export interface DataIntersightIwotenantTenantStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#additional_properties DataIntersightIwotenantTenantStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3618,32 +3658,32 @@ export interface DataIntersightIwotenantTenantStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#class_id DataIntersightIwotenantTenantStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#marked_for_deletion DataIntersightIwotenantTenantStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#marked_for_deletion DataIntersightIwotenantTenantStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#nr_version DataIntersightIwotenantTenantStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#nr_version DataIntersightIwotenantTenantStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#object_type DataIntersightIwotenantTenantStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#timestamp DataIntersightIwotenantTenantStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#timestamp DataIntersightIwotenantTenantStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3654,19 +3694,19 @@ export interface DataIntersightIwotenantTenantStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#version_type DataIntersightIwotenantTenantStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#version_type DataIntersightIwotenantTenantStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#interested_mos DataIntersightIwotenantTenantStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#interested_mos DataIntersightIwotenantTenantStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightIwotenantTenantStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#ref_mo DataIntersightIwotenantTenantStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#ref_mo DataIntersightIwotenantTenantStatus#ref_mo}
   */
   readonly refMo?: DataIntersightIwotenantTenantStatusVersionContextRefMo;
 }
@@ -3982,7 +4022,7 @@ export class DataIntersightIwotenantTenantStatusVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status intersight_iwotenant_tenant_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status intersight_iwotenant_tenant_status}
 */
 export class DataIntersightIwotenantTenantStatus extends cdktf.TerraformDataSource {
 
@@ -3998,7 +4038,7 @@ export class DataIntersightIwotenantTenantStatus extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightIwotenantTenantStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIwotenantTenantStatus to import
-  * @param importFromId The id of the existing DataIntersightIwotenantTenantStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIwotenantTenantStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIwotenantTenantStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4010,7 +4050,7 @@ export class DataIntersightIwotenantTenantStatus extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iwotenant_tenant_status intersight_iwotenant_tenant_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iwotenant_tenant_status intersight_iwotenant_tenant_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4021,8 +4061,8 @@ export class DataIntersightIwotenantTenantStatus extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_iwotenant_tenant_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIaasLicenseInfoConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#account_moid DataIntersightIaasLicenseInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#account_moid DataIntersightIaasLicenseInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIaasLicenseInfoConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#create_time DataIntersightIaasLicenseInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#create_time DataIntersightIaasLicenseInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#domain_group_moid DataIntersightIaasLicenseInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#domain_group_moid DataIntersightIaasLicenseInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#id DataIntersightIaasLicenseInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#id DataIntersightIaasLicenseInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightIaasLicenseInfoConfig extends cdktf.TerraformMeta
   /**
   * UCS Director license expiration date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#license_expiration_date DataIntersightIaasLicenseInfo#license_expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#license_expiration_date DataIntersightIaasLicenseInfo#license_expiration_date}
   */
   readonly licenseExpirationDate?: string;
   /**
   * License type of UCSD whether it is EVAL/Permanent/Subscription..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#license_type DataIntersightIaasLicenseInfo#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#license_type DataIntersightIaasLicenseInfo#license_type}
   */
   readonly licenseType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#mod_time DataIntersightIaasLicenseInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#mod_time DataIntersightIaasLicenseInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#owners DataIntersightIaasLicenseInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#owners DataIntersightIaasLicenseInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#shared_scope DataIntersightIaasLicenseInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#shared_scope DataIntersightIaasLicenseInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#ancestors DataIntersightIaasLicenseInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#ancestors DataIntersightIaasLicenseInfo#ancestors}
   */
   readonly ancestors?: DataIntersightIaasLicenseInfoAncestors[] | cdktf.IResolvable;
   /**
   * guid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#guid DataIntersightIaasLicenseInfo#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#guid DataIntersightIaasLicenseInfo#guid}
   */
   readonly guid?: DataIntersightIaasLicenseInfoGuid;
   /**
   * license_keys_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#license_keys_info DataIntersightIaasLicenseInfo#license_keys_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#license_keys_info DataIntersightIaasLicenseInfo#license_keys_info}
   */
   readonly licenseKeysInfo?: DataIntersightIaasLicenseInfoLicenseKeysInfo[] | cdktf.IResolvable;
   /**
   * license_utilization_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#license_utilization_info DataIntersightIaasLicenseInfo#license_utilization_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#license_utilization_info DataIntersightIaasLicenseInfo#license_utilization_info}
   */
   readonly licenseUtilizationInfo?: DataIntersightIaasLicenseInfoLicenseUtilizationInfo[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#parent DataIntersightIaasLicenseInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#parent DataIntersightIaasLicenseInfo#parent}
   */
   readonly parent?: DataIntersightIaasLicenseInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#permission_resources DataIntersightIaasLicenseInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#permission_resources DataIntersightIaasLicenseInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightIaasLicenseInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#tags DataIntersightIaasLicenseInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#tags DataIntersightIaasLicenseInfo#tags}
   */
   readonly tags?: DataIntersightIaasLicenseInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#version_context DataIntersightIaasLicenseInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#version_context DataIntersightIaasLicenseInfo#version_context}
   */
   readonly versionContext?: DataIntersightIaasLicenseInfoVersionContext;
 }
@@ -993,6 +993,11 @@ export class DataIntersightIaasLicenseInfoResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1509,7 +1514,7 @@ export class DataIntersightIaasLicenseInfoResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightIaasLicenseInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1517,19 +1522,19 @@ export interface DataIntersightIaasLicenseInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1542,7 +1547,7 @@ export interface DataIntersightIaasLicenseInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1774,7 +1779,7 @@ export class DataIntersightIaasLicenseInfoAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIaasLicenseInfoGuid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1782,19 +1787,19 @@ export interface DataIntersightIaasLicenseInfoGuid {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1807,7 +1812,7 @@ export interface DataIntersightIaasLicenseInfoGuid {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2007,7 +2012,7 @@ export class DataIntersightIaasLicenseInfoGuidOutputReference extends cdktf.Comp
 }
 export interface DataIntersightIaasLicenseInfoLicenseKeysInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2015,38 +2020,38 @@ export interface DataIntersightIaasLicenseInfoLicenseKeysInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Expiration date for the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#expiration_date DataIntersightIaasLicenseInfo#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#expiration_date DataIntersightIaasLicenseInfo#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * UCS Director Unique license ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#license_id DataIntersightIaasLicenseInfo#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#license_id DataIntersightIaasLicenseInfo#license_id}
   */
   readonly licenseId?: string;
   /**
   * Number of licenses available for the UCSD PID (Product ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#nr_count DataIntersightIaasLicenseInfo#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#nr_count DataIntersightIaasLicenseInfo#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * PID (Product ID) for UCSD License.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#pid DataIntersightIaasLicenseInfo#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#pid DataIntersightIaasLicenseInfo#pid}
   */
   readonly pid?: string;
 }
@@ -2338,11 +2343,11 @@ export interface DataIntersightIaasLicenseInfoLicenseUtilizationInfo {
   /**
   * Number of licenses actually used for this feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#actual_used DataIntersightIaasLicenseInfo#actual_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#actual_used DataIntersightIaasLicenseInfo#actual_used}
   */
   readonly actualUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2350,32 +2355,32 @@ export interface DataIntersightIaasLicenseInfoLicenseUtilizationInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * License label of UCSD license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#label DataIntersightIaasLicenseInfo#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#label DataIntersightIaasLicenseInfo#label}
   */
   readonly label?: string;
   /**
   * License limit for this license feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#licensed_limit DataIntersightIaasLicenseInfo#licensed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#licensed_limit DataIntersightIaasLicenseInfo#licensed_limit}
   */
   readonly licensedLimit?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * SKU for the UCSD license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#sku DataIntersightIaasLicenseInfo#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#sku DataIntersightIaasLicenseInfo#sku}
   */
   readonly sku?: string;
 }
@@ -2665,7 +2670,7 @@ export class DataIntersightIaasLicenseInfoLicenseUtilizationInfoList extends cdk
 }
 export interface DataIntersightIaasLicenseInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2673,19 +2678,19 @@ export interface DataIntersightIaasLicenseInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2698,7 +2703,7 @@ export interface DataIntersightIaasLicenseInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2898,7 +2903,7 @@ export class DataIntersightIaasLicenseInfoParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightIaasLicenseInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2906,19 +2911,19 @@ export interface DataIntersightIaasLicenseInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2931,7 +2936,7 @@ export interface DataIntersightIaasLicenseInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3163,7 +3168,7 @@ export class DataIntersightIaasLicenseInfoPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightIaasLicenseInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3171,19 +3176,19 @@ export interface DataIntersightIaasLicenseInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3196,7 +3201,7 @@ export interface DataIntersightIaasLicenseInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3428,7 +3433,7 @@ export class DataIntersightIaasLicenseInfoTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightIaasLicenseInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3436,19 +3441,19 @@ export interface DataIntersightIaasLicenseInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3461,7 +3466,7 @@ export interface DataIntersightIaasLicenseInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3661,45 +3666,51 @@ export class DataIntersightIaasLicenseInfoTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightIaasLicenseInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#key DataIntersightIaasLicenseInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#key DataIntersightIaasLicenseInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#propagated DataIntersightIaasLicenseInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#propagated DataIntersightIaasLicenseInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#sys_tag DataIntersightIaasLicenseInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#type DataIntersightIaasLicenseInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#type DataIntersightIaasLicenseInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#value DataIntersightIaasLicenseInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#value DataIntersightIaasLicenseInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#ancestor_definitions DataIntersightIaasLicenseInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#ancestor_definitions DataIntersightIaasLicenseInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIaasLicenseInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#definition DataIntersightIaasLicenseInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#definition DataIntersightIaasLicenseInfo#definition}
   */
   readonly definition?: DataIntersightIaasLicenseInfoTagsDefinition;
 }
@@ -3713,6 +3724,7 @@ export function dataIntersightIaasLicenseInfoTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIaasLicenseInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3741,6 +3753,12 @@ export function dataIntersightIaasLicenseInfoTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3807,6 +3825,10 @@ export class DataIntersightIaasLicenseInfoTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3833,6 +3855,7 @@ export class DataIntersightIaasLicenseInfoTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3848,6 +3871,7 @@ export class DataIntersightIaasLicenseInfoTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3901,6 +3925,22 @@ export class DataIntersightIaasLicenseInfoTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3989,7 +4029,7 @@ export class DataIntersightIaasLicenseInfoTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIaasLicenseInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3997,19 +4037,19 @@ export interface DataIntersightIaasLicenseInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4022,7 +4062,7 @@ export interface DataIntersightIaasLicenseInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4254,7 +4294,7 @@ export class DataIntersightIaasLicenseInfoVersionContextInterestedMosList extend
 }
 export interface DataIntersightIaasLicenseInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4262,19 +4302,19 @@ export interface DataIntersightIaasLicenseInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#moid DataIntersightIaasLicenseInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4287,7 +4327,7 @@ export interface DataIntersightIaasLicenseInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#selector DataIntersightIaasLicenseInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4487,7 +4527,7 @@ export class DataIntersightIaasLicenseInfoVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightIaasLicenseInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#additional_properties DataIntersightIaasLicenseInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4495,32 +4535,32 @@ export interface DataIntersightIaasLicenseInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#class_id DataIntersightIaasLicenseInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#marked_for_deletion DataIntersightIaasLicenseInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#marked_for_deletion DataIntersightIaasLicenseInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#nr_version DataIntersightIaasLicenseInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#nr_version DataIntersightIaasLicenseInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#object_type DataIntersightIaasLicenseInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#timestamp DataIntersightIaasLicenseInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#timestamp DataIntersightIaasLicenseInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4531,19 +4571,19 @@ export interface DataIntersightIaasLicenseInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#version_type DataIntersightIaasLicenseInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#version_type DataIntersightIaasLicenseInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#interested_mos DataIntersightIaasLicenseInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#interested_mos DataIntersightIaasLicenseInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightIaasLicenseInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#ref_mo DataIntersightIaasLicenseInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#ref_mo DataIntersightIaasLicenseInfo#ref_mo}
   */
   readonly refMo?: DataIntersightIaasLicenseInfoVersionContextRefMo;
 }
@@ -4859,7 +4899,7 @@ export class DataIntersightIaasLicenseInfoVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info intersight_iaas_license_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info intersight_iaas_license_info}
 */
 export class DataIntersightIaasLicenseInfo extends cdktf.TerraformDataSource {
 
@@ -4875,7 +4915,7 @@ export class DataIntersightIaasLicenseInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIaasLicenseInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIaasLicenseInfo to import
-  * @param importFromId The id of the existing DataIntersightIaasLicenseInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIaasLicenseInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIaasLicenseInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4887,7 +4927,7 @@ export class DataIntersightIaasLicenseInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_license_info intersight_iaas_license_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_license_info intersight_iaas_license_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4898,8 +4938,8 @@ export class DataIntersightIaasLicenseInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iaas_license_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

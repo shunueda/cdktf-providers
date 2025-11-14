@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightIaasDiagnosticMessagesConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#account_moid DataIntersightIaasDiagnosticMessages#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#account_moid DataIntersightIaasDiagnosticMessages#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Message category of the alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#category DataIntersightIaasDiagnosticMessages#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#category DataIntersightIaasDiagnosticMessages#category}
   */
   readonly category?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightIaasDiagnosticMessagesConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#create_time DataIntersightIaasDiagnosticMessages#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#create_time DataIntersightIaasDiagnosticMessages#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#domain_group_moid DataIntersightIaasDiagnosticMessages#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#domain_group_moid DataIntersightIaasDiagnosticMessages#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Unique ID of UCS Director getting registerd with Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#guid DataIntersightIaasDiagnosticMessages#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#guid DataIntersightIaasDiagnosticMessages#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#id DataIntersightIaasDiagnosticMessages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#id DataIntersightIaasDiagnosticMessages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface DataIntersightIaasDiagnosticMessagesConfig extends cdktf.Terraf
   /**
   * Message target type of the alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#item DataIntersightIaasDiagnosticMessages#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#item DataIntersightIaasDiagnosticMessages#item}
   */
   readonly item?: string;
   /**
   * Last checked time of the alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#last_checked DataIntersightIaasDiagnosticMessages#last_checked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#last_checked DataIntersightIaasDiagnosticMessages#last_checked}
   */
   readonly lastChecked?: string;
   /**
   * Detailed info about the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#message DataIntersightIaasDiagnosticMessages#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#message DataIntersightIaasDiagnosticMessages#message}
   */
   readonly message?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#mod_time DataIntersightIaasDiagnosticMessages#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#mod_time DataIntersightIaasDiagnosticMessages#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#owners DataIntersightIaasDiagnosticMessages#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#owners DataIntersightIaasDiagnosticMessages#owners}
   */
   readonly owners?: string[];
   /**
   * Recommended fix for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#recommendation DataIntersightIaasDiagnosticMessages#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#recommendation DataIntersightIaasDiagnosticMessages#recommendation}
   */
   readonly recommendation?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#shared_scope DataIntersightIaasDiagnosticMessages#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#shared_scope DataIntersightIaasDiagnosticMessages#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Status of the given alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#status DataIntersightIaasDiagnosticMessages#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#status DataIntersightIaasDiagnosticMessages#status}
   */
   readonly status?: string;
   /**
   * Status Id of the given alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#status_id DataIntersightIaasDiagnosticMessages#status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#status_id DataIntersightIaasDiagnosticMessages#status_id}
   */
   readonly statusId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#ancestors DataIntersightIaasDiagnosticMessages#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#ancestors DataIntersightIaasDiagnosticMessages#ancestors}
   */
   readonly ancestors?: DataIntersightIaasDiagnosticMessagesAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#parent DataIntersightIaasDiagnosticMessages#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#parent DataIntersightIaasDiagnosticMessages#parent}
   */
   readonly parent?: DataIntersightIaasDiagnosticMessagesParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#permission_resources DataIntersightIaasDiagnosticMessages#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#permission_resources DataIntersightIaasDiagnosticMessages#permission_resources}
   */
   readonly permissionResources?: DataIntersightIaasDiagnosticMessagesPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#registered_device DataIntersightIaasDiagnosticMessages#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#registered_device DataIntersightIaasDiagnosticMessages#registered_device}
   */
   readonly registeredDevice?: DataIntersightIaasDiagnosticMessagesRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#tags DataIntersightIaasDiagnosticMessages#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#tags DataIntersightIaasDiagnosticMessages#tags}
   */
   readonly tags?: DataIntersightIaasDiagnosticMessagesTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#version_context DataIntersightIaasDiagnosticMessages#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#version_context DataIntersightIaasDiagnosticMessages#version_context}
   */
   readonly versionContext?: DataIntersightIaasDiagnosticMessagesVersionContext;
 }
@@ -807,6 +807,11 @@ export class DataIntersightIaasDiagnosticMessagesResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1341,7 +1346,7 @@ export class DataIntersightIaasDiagnosticMessagesResultsList extends cdktf.Compl
 }
 export interface DataIntersightIaasDiagnosticMessagesAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1349,19 +1354,19 @@ export interface DataIntersightIaasDiagnosticMessagesAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1374,7 +1379,7 @@ export interface DataIntersightIaasDiagnosticMessagesAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -1606,7 +1611,7 @@ export class DataIntersightIaasDiagnosticMessagesAncestorsList extends cdktf.Com
 }
 export interface DataIntersightIaasDiagnosticMessagesParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1614,19 +1619,19 @@ export interface DataIntersightIaasDiagnosticMessagesParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1639,7 +1644,7 @@ export interface DataIntersightIaasDiagnosticMessagesParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -1839,7 +1844,7 @@ export class DataIntersightIaasDiagnosticMessagesParentOutputReference extends c
 }
 export interface DataIntersightIaasDiagnosticMessagesPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1847,19 +1852,19 @@ export interface DataIntersightIaasDiagnosticMessagesPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1872,7 +1877,7 @@ export interface DataIntersightIaasDiagnosticMessagesPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -2104,7 +2109,7 @@ export class DataIntersightIaasDiagnosticMessagesPermissionResourcesList extends
 }
 export interface DataIntersightIaasDiagnosticMessagesRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2112,19 +2117,19 @@ export interface DataIntersightIaasDiagnosticMessagesRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2137,7 +2142,7 @@ export interface DataIntersightIaasDiagnosticMessagesRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -2337,7 +2342,7 @@ export class DataIntersightIaasDiagnosticMessagesRegisteredDeviceOutputReference
 }
 export interface DataIntersightIaasDiagnosticMessagesTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2345,19 +2350,19 @@ export interface DataIntersightIaasDiagnosticMessagesTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2370,7 +2375,7 @@ export interface DataIntersightIaasDiagnosticMessagesTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -2602,7 +2607,7 @@ export class DataIntersightIaasDiagnosticMessagesTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightIaasDiagnosticMessagesTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2610,19 +2615,19 @@ export interface DataIntersightIaasDiagnosticMessagesTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2635,7 +2640,7 @@ export interface DataIntersightIaasDiagnosticMessagesTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -2835,45 +2840,51 @@ export class DataIntersightIaasDiagnosticMessagesTagsDefinitionOutputReference e
 }
 export interface DataIntersightIaasDiagnosticMessagesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#key DataIntersightIaasDiagnosticMessages#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#key DataIntersightIaasDiagnosticMessages#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#propagated DataIntersightIaasDiagnosticMessages#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#propagated DataIntersightIaasDiagnosticMessages#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#sys_tag DataIntersightIaasDiagnosticMessages#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#type DataIntersightIaasDiagnosticMessages#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#type DataIntersightIaasDiagnosticMessages#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#value DataIntersightIaasDiagnosticMessages#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#value DataIntersightIaasDiagnosticMessages#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#ancestor_definitions DataIntersightIaasDiagnosticMessages#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#ancestor_definitions DataIntersightIaasDiagnosticMessages#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIaasDiagnosticMessagesTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#definition DataIntersightIaasDiagnosticMessages#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#definition DataIntersightIaasDiagnosticMessages#definition}
   */
   readonly definition?: DataIntersightIaasDiagnosticMessagesTagsDefinition;
 }
@@ -2887,6 +2898,7 @@ export function dataIntersightIaasDiagnosticMessagesTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIaasDiagnosticMessagesTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2915,6 +2927,12 @@ export function dataIntersightIaasDiagnosticMessagesTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2981,6 +2999,10 @@ export class DataIntersightIaasDiagnosticMessagesTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3007,6 +3029,7 @@ export class DataIntersightIaasDiagnosticMessagesTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3022,6 +3045,7 @@ export class DataIntersightIaasDiagnosticMessagesTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3075,6 +3099,22 @@ export class DataIntersightIaasDiagnosticMessagesTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3163,7 +3203,7 @@ export class DataIntersightIaasDiagnosticMessagesTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightIaasDiagnosticMessagesVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3171,19 +3211,19 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3196,7 +3236,7 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -3428,7 +3468,7 @@ export class DataIntersightIaasDiagnosticMessagesVersionContextInterestedMosList
 }
 export interface DataIntersightIaasDiagnosticMessagesVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3436,19 +3476,19 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#moid DataIntersightIaasDiagnosticMessages#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3461,7 +3501,7 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#selector DataIntersightIaasDiagnosticMessages#selector}
   */
   readonly selector?: string;
 }
@@ -3661,7 +3701,7 @@ export class DataIntersightIaasDiagnosticMessagesVersionContextRefMoOutputRefere
 }
 export interface DataIntersightIaasDiagnosticMessagesVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#additional_properties DataIntersightIaasDiagnosticMessages#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3669,32 +3709,32 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#class_id DataIntersightIaasDiagnosticMessages#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#marked_for_deletion DataIntersightIaasDiagnosticMessages#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#marked_for_deletion DataIntersightIaasDiagnosticMessages#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#nr_version DataIntersightIaasDiagnosticMessages#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#nr_version DataIntersightIaasDiagnosticMessages#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#object_type DataIntersightIaasDiagnosticMessages#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#timestamp DataIntersightIaasDiagnosticMessages#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#timestamp DataIntersightIaasDiagnosticMessages#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3705,19 +3745,19 @@ export interface DataIntersightIaasDiagnosticMessagesVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#version_type DataIntersightIaasDiagnosticMessages#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#version_type DataIntersightIaasDiagnosticMessages#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#interested_mos DataIntersightIaasDiagnosticMessages#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#interested_mos DataIntersightIaasDiagnosticMessages#interested_mos}
   */
   readonly interestedMos?: DataIntersightIaasDiagnosticMessagesVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#ref_mo DataIntersightIaasDiagnosticMessages#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#ref_mo DataIntersightIaasDiagnosticMessages#ref_mo}
   */
   readonly refMo?: DataIntersightIaasDiagnosticMessagesVersionContextRefMo;
 }
@@ -4033,7 +4073,7 @@ export class DataIntersightIaasDiagnosticMessagesVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages intersight_iaas_diagnostic_messages}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages intersight_iaas_diagnostic_messages}
 */
 export class DataIntersightIaasDiagnosticMessages extends cdktf.TerraformDataSource {
 
@@ -4049,7 +4089,7 @@ export class DataIntersightIaasDiagnosticMessages extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightIaasDiagnosticMessages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIaasDiagnosticMessages to import
-  * @param importFromId The id of the existing DataIntersightIaasDiagnosticMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIaasDiagnosticMessages that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIaasDiagnosticMessages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4061,7 +4101,7 @@ export class DataIntersightIaasDiagnosticMessages extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_diagnostic_messages intersight_iaas_diagnostic_messages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_diagnostic_messages intersight_iaas_diagnostic_messages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4072,8 +4112,8 @@ export class DataIntersightIaasDiagnosticMessages extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_iaas_diagnostic_messages',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FirmwarePsuDescriptorConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#account_moid FirmwarePsuDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#account_moid FirmwarePsuDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#ancestors FirmwarePsuDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#ancestors FirmwarePsuDescriptor#ancestors}
   */
   readonly ancestors?: FirmwarePsuDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#brand_string FirmwarePsuDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#brand_string FirmwarePsuDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
   * An array of relationships to capabilityCapability resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#capabilities FirmwarePsuDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#capabilities FirmwarePsuDescriptor#capabilities}
   */
   readonly capabilities?: FirmwarePsuDescriptorCapabilities[] | cdktf.IResolvable;
   /**
@@ -41,29 +41,29 @@ export interface FirmwarePsuDescriptorConfig extends cdktf.TerraformMetaArgument
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#create_time FirmwarePsuDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#create_time FirmwarePsuDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#description FirmwarePsuDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#description FirmwarePsuDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#domain_group_moid FirmwarePsuDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#domain_group_moid FirmwarePsuDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#id FirmwarePsuDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#id FirmwarePsuDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,31 +72,31 @@ export interface FirmwarePsuDescriptorConfig extends cdktf.TerraformMetaArgument
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#label FirmwarePsuDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#label FirmwarePsuDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#mod_time FirmwarePsuDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#mod_time FirmwarePsuDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#model FirmwarePsuDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#model FirmwarePsuDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#nr_version FirmwarePsuDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#nr_version FirmwarePsuDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -104,75 +104,75 @@ export interface FirmwarePsuDescriptorConfig extends cdktf.TerraformMetaArgument
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#owners FirmwarePsuDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#owners FirmwarePsuDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#parent FirmwarePsuDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#parent FirmwarePsuDescriptor#parent}
   */
   readonly parent?: FirmwarePsuDescriptorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#permission_resources FirmwarePsuDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#permission_resources FirmwarePsuDescriptor#permission_resources}
   */
   readonly permissionResources?: FirmwarePsuDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#revision FirmwarePsuDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#revision FirmwarePsuDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#shared_scope FirmwarePsuDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#shared_scope FirmwarePsuDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#tags FirmwarePsuDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#tags FirmwarePsuDescriptor#tags}
   */
   readonly tags?: FirmwarePsuDescriptorTags[] | cdktf.IResolvable;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#vendor FirmwarePsuDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#vendor FirmwarePsuDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#version_context FirmwarePsuDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#version_context FirmwarePsuDescriptor#version_context}
   */
   readonly versionContext?: FirmwarePsuDescriptorVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwarePsuDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -404,23 +404,23 @@ export class FirmwarePsuDescriptorAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwarePsuDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -652,23 +652,23 @@ export class FirmwarePsuDescriptorCapabilitiesList extends cdktf.ComplexList {
 }
 export interface FirmwarePsuDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -900,23 +900,23 @@ export class FirmwarePsuDescriptorParentList extends cdktf.ComplexList {
 }
 export interface FirmwarePsuDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1148,23 +1148,23 @@ export class FirmwarePsuDescriptorPermissionResourcesList extends cdktf.ComplexL
 }
 export interface FirmwarePsuDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1396,23 +1396,23 @@ export class FirmwarePsuDescriptorTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface FirmwarePsuDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1644,31 +1644,35 @@ export class FirmwarePsuDescriptorTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FirmwarePsuDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#ancestor_definitions FirmwarePsuDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#ancestor_definitions FirmwarePsuDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwarePsuDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#definition FirmwarePsuDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#definition FirmwarePsuDescriptor#definition}
   */
   readonly definition?: FirmwarePsuDescriptorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#key FirmwarePsuDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#key FirmwarePsuDescriptor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#propagated FirmwarePsuDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#propagated FirmwarePsuDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#type FirmwarePsuDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#sys_tag FirmwarePsuDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#type FirmwarePsuDescriptor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#value FirmwarePsuDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#value FirmwarePsuDescriptor#value}
   */
   readonly value?: string;
 }
@@ -1684,6 +1688,7 @@ export function firmwarePsuDescriptorTagsToTerraform(struct?: FirmwarePsuDescrip
     definition: cdktf.listMapper(firmwarePsuDescriptorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1722,6 +1727,12 @@ export function firmwarePsuDescriptorTagsToHclTerraform(struct?: FirmwarePsuDesc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1784,6 +1795,10 @@ export class FirmwarePsuDescriptorTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1804,6 +1819,7 @@ export class FirmwarePsuDescriptorTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1819,6 +1835,7 @@ export class FirmwarePsuDescriptorTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1904,6 +1921,22 @@ export class FirmwarePsuDescriptorTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1958,23 +1991,23 @@ export class FirmwarePsuDescriptorTagsList extends cdktf.ComplexList {
 }
 export interface FirmwarePsuDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2206,23 +2239,23 @@ export class FirmwarePsuDescriptorVersionContextInterestedMosList extends cdktf.
 }
 export interface FirmwarePsuDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#moid FirmwarePsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#selector FirmwarePsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2454,39 +2487,39 @@ export class FirmwarePsuDescriptorVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface FirmwarePsuDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#additional_properties FirmwarePsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#class_id FirmwarePsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#interested_mos FirmwarePsuDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#interested_mos FirmwarePsuDescriptor#interested_mos}
   */
   readonly interestedMos?: FirmwarePsuDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#marked_for_deletion FirmwarePsuDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#marked_for_deletion FirmwarePsuDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#nr_version FirmwarePsuDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#nr_version FirmwarePsuDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#object_type FirmwarePsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#ref_mo FirmwarePsuDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#ref_mo FirmwarePsuDescriptor#ref_mo}
   */
   readonly refMo?: FirmwarePsuDescriptorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#timestamp FirmwarePsuDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#timestamp FirmwarePsuDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#version_type FirmwarePsuDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#version_type FirmwarePsuDescriptor#version_type}
   */
   readonly versionType?: string;
 }
@@ -2834,7 +2867,7 @@ export class FirmwarePsuDescriptorVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor intersight_firmware_psu_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor intersight_firmware_psu_descriptor}
 */
 export class FirmwarePsuDescriptor extends cdktf.TerraformResource {
 
@@ -2850,7 +2883,7 @@ export class FirmwarePsuDescriptor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwarePsuDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwarePsuDescriptor to import
-  * @param importFromId The id of the existing FirmwarePsuDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwarePsuDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwarePsuDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2862,7 +2895,7 @@ export class FirmwarePsuDescriptor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_psu_descriptor intersight_firmware_psu_descriptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_psu_descriptor intersight_firmware_psu_descriptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2873,8 +2906,8 @@ export class FirmwarePsuDescriptor extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_psu_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

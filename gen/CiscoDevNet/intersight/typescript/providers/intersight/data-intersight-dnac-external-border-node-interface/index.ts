@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#account_moid DataIntersightDnacExternalBorderNodeInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#account_moid DataIntersightDnacExternalBorderNodeInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Administrator status for external border node interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#admin_status DataIntersightDnacExternalBorderNodeInterface#admin_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#admin_status DataIntersightDnacExternalBorderNodeInterface#admin_status}
   */
   readonly adminStatus?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#create_time DataIntersightDnacExternalBorderNodeInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#create_time DataIntersightDnacExternalBorderNodeInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#domain_group_moid DataIntersightDnacExternalBorderNodeInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#domain_group_moid DataIntersightDnacExternalBorderNodeInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * External border node's id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#external_border_node_id DataIntersightDnacExternalBorderNodeInterface#external_border_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#external_border_node_id DataIntersightDnacExternalBorderNodeInterface#external_border_node_id}
   */
   readonly externalBorderNodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#id DataIntersightDnacExternalBorderNodeInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#id DataIntersightDnacExternalBorderNodeInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceConfig extends cdk
   /**
   * The Moid for the interface in the external border node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#interface_id DataIntersightDnacExternalBorderNodeInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#interface_id DataIntersightDnacExternalBorderNodeInterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
   * The name for the external border node's interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#interface_name DataIntersightDnacExternalBorderNodeInterface#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#interface_name DataIntersightDnacExternalBorderNodeInterface#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * Interface type for external border node interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#interface_type DataIntersightDnacExternalBorderNodeInterface#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#interface_type DataIntersightDnacExternalBorderNodeInterface#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#mod_time DataIntersightDnacExternalBorderNodeInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#mod_time DataIntersightDnacExternalBorderNodeInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#owners DataIntersightDnacExternalBorderNodeInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#owners DataIntersightDnacExternalBorderNodeInterface#owners}
   */
   readonly owners?: string[];
   /**
   * Port type for external border node interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#port_type DataIntersightDnacExternalBorderNodeInterface#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#port_type DataIntersightDnacExternalBorderNodeInterface#port_type}
   */
   readonly portType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#shared_scope DataIntersightDnacExternalBorderNodeInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#shared_scope DataIntersightDnacExternalBorderNodeInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#ancestors DataIntersightDnacExternalBorderNodeInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#ancestors DataIntersightDnacExternalBorderNodeInterface#ancestors}
   */
   readonly ancestors?: DataIntersightDnacExternalBorderNodeInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#parent DataIntersightDnacExternalBorderNodeInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#parent DataIntersightDnacExternalBorderNodeInterface#parent}
   */
   readonly parent?: DataIntersightDnacExternalBorderNodeInterfaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#permission_resources DataIntersightDnacExternalBorderNodeInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#permission_resources DataIntersightDnacExternalBorderNodeInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightDnacExternalBorderNodeInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#registered_device DataIntersightDnacExternalBorderNodeInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#registered_device DataIntersightDnacExternalBorderNodeInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightDnacExternalBorderNodeInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#tags DataIntersightDnacExternalBorderNodeInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#tags DataIntersightDnacExternalBorderNodeInterface#tags}
   */
   readonly tags?: DataIntersightDnacExternalBorderNodeInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#version_context DataIntersightDnacExternalBorderNodeInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#version_context DataIntersightDnacExternalBorderNodeInterface#version_context}
   */
   readonly versionContext?: DataIntersightDnacExternalBorderNodeInterfaceVersionContext;
 }
@@ -795,6 +795,11 @@ export class DataIntersightDnacExternalBorderNodeInterfaceResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1319,7 +1324,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceResultsList extends cd
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1327,19 +1332,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1352,7 +1357,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1584,7 +1589,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceAncestorsList extends 
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1592,19 +1597,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1617,7 +1622,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1817,7 +1822,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceParentOutputReference 
 }
 export interface DataIntersightDnacExternalBorderNodeInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1825,19 +1830,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfacePermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1850,7 +1855,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfacePermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2082,7 +2087,7 @@ export class DataIntersightDnacExternalBorderNodeInterfacePermissionResourcesLis
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2090,19 +2095,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2115,7 +2120,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2315,7 +2320,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceRegisteredDeviceOutput
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2323,19 +2328,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2348,7 +2353,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2580,7 +2585,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefinition
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2588,19 +2593,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2613,7 +2618,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2813,45 +2818,51 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsDefinitionOutputRe
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#key DataIntersightDnacExternalBorderNodeInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#key DataIntersightDnacExternalBorderNodeInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#propagated DataIntersightDnacExternalBorderNodeInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#propagated DataIntersightDnacExternalBorderNodeInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#sys_tag DataIntersightDnacExternalBorderNodeInterface#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#type DataIntersightDnacExternalBorderNodeInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#type DataIntersightDnacExternalBorderNodeInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#value DataIntersightDnacExternalBorderNodeInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#value DataIntersightDnacExternalBorderNodeInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#ancestor_definitions DataIntersightDnacExternalBorderNodeInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#ancestor_definitions DataIntersightDnacExternalBorderNodeInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#definition DataIntersightDnacExternalBorderNodeInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#definition DataIntersightDnacExternalBorderNodeInterface#definition}
   */
   readonly definition?: DataIntersightDnacExternalBorderNodeInterfaceTagsDefinition;
 }
@@ -2865,6 +2876,7 @@ export function dataIntersightDnacExternalBorderNodeInterfaceTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightDnacExternalBorderNodeInterfaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2893,6 +2905,12 @@ export function dataIntersightDnacExternalBorderNodeInterfaceTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2959,6 +2977,10 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2985,6 +3007,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3000,6 +3023,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3053,6 +3077,22 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3141,7 +3181,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceTagsList extends cdktf
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3149,19 +3189,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3174,7 +3214,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3406,7 +3446,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceVersionContextInterest
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3414,19 +3454,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#moid DataIntersightDnacExternalBorderNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3439,7 +3479,7 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#selector DataIntersightDnacExternalBorderNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3639,7 +3679,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceVersionContextRefMoOut
 }
 export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#additional_properties DataIntersightDnacExternalBorderNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3647,32 +3687,32 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#class_id DataIntersightDnacExternalBorderNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#marked_for_deletion DataIntersightDnacExternalBorderNodeInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#marked_for_deletion DataIntersightDnacExternalBorderNodeInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#nr_version DataIntersightDnacExternalBorderNodeInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#nr_version DataIntersightDnacExternalBorderNodeInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#object_type DataIntersightDnacExternalBorderNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#timestamp DataIntersightDnacExternalBorderNodeInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#timestamp DataIntersightDnacExternalBorderNodeInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3683,19 +3723,19 @@ export interface DataIntersightDnacExternalBorderNodeInterfaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#version_type DataIntersightDnacExternalBorderNodeInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#version_type DataIntersightDnacExternalBorderNodeInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#interested_mos DataIntersightDnacExternalBorderNodeInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#interested_mos DataIntersightDnacExternalBorderNodeInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightDnacExternalBorderNodeInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#ref_mo DataIntersightDnacExternalBorderNodeInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#ref_mo DataIntersightDnacExternalBorderNodeInterface#ref_mo}
   */
   readonly refMo?: DataIntersightDnacExternalBorderNodeInterfaceVersionContextRefMo;
 }
@@ -4011,7 +4051,7 @@ export class DataIntersightDnacExternalBorderNodeInterfaceVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface intersight_dnac_external_border_node_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface intersight_dnac_external_border_node_interface}
 */
 export class DataIntersightDnacExternalBorderNodeInterface extends cdktf.TerraformDataSource {
 
@@ -4027,7 +4067,7 @@ export class DataIntersightDnacExternalBorderNodeInterface extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightDnacExternalBorderNodeInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightDnacExternalBorderNodeInterface to import
-  * @param importFromId The id of the existing DataIntersightDnacExternalBorderNodeInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightDnacExternalBorderNodeInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightDnacExternalBorderNodeInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4039,7 +4079,7 @@ export class DataIntersightDnacExternalBorderNodeInterface extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_external_border_node_interface intersight_dnac_external_border_node_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_external_border_node_interface intersight_dnac_external_border_node_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4050,8 +4090,8 @@ export class DataIntersightDnacExternalBorderNodeInterface extends cdktf.Terrafo
       terraformResourceType: 'intersight_dnac_external_border_node_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseDbServersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#compartment_id DataOciDatabaseDbServers#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#compartment_id DataOciDatabaseDbServers#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#display_name DataOciDatabaseDbServers#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#display_name DataOciDatabaseDbServers#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#exadata_infrastructure_id DataOciDatabaseDbServers#exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#exadata_infrastructure_id DataOciDatabaseDbServers#exadata_infrastructure_id}
   */
   readonly exadataInfrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#id DataOciDatabaseDbServers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#id DataOciDatabaseDbServers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#state DataOciDatabaseDbServers#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#state DataOciDatabaseDbServers#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#filter DataOciDatabaseDbServers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#filter DataOciDatabaseDbServers#filter}
   */
   readonly filter?: DataOciDatabaseDbServersFilter[] | cdktf.IResolvable;
 }
@@ -318,15 +318,15 @@ export class DataOciDatabaseDbServersDbServersList extends cdktf.ComplexList {
 }
 export interface DataOciDatabaseDbServersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#name DataOciDatabaseDbServers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#name DataOciDatabaseDbServers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#regex DataOciDatabaseDbServers#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#regex DataOciDatabaseDbServers#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#values DataOciDatabaseDbServers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#values DataOciDatabaseDbServers#values}
   */
   readonly values: string[];
 }
@@ -494,7 +494,7 @@ export class DataOciDatabaseDbServersFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers oci_database_db_servers}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers oci_database_db_servers}
 */
 export class DataOciDatabaseDbServers extends cdktf.TerraformDataSource {
 
@@ -510,7 +510,7 @@ export class DataOciDatabaseDbServers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatabaseDbServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseDbServers to import
-  * @param importFromId The id of the existing DataOciDatabaseDbServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseDbServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseDbServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class DataOciDatabaseDbServers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_db_servers oci_database_db_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_db_servers oci_database_db_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class DataOciDatabaseDbServers extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_database_db_servers',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

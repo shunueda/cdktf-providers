@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightThermalPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#account_moid DataIntersightThermalPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#account_moid DataIntersightThermalPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,25 +22,25 @@ export interface DataIntersightThermalPolicyConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#create_time DataIntersightThermalPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#create_time DataIntersightThermalPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#description DataIntersightThermalPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#description DataIntersightThermalPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#domain_group_moid DataIntersightThermalPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#domain_group_moid DataIntersightThermalPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -52,11 +52,11 @@ export interface DataIntersightThermalPolicyConfig extends cdktf.TerraformMetaAr
   * * `Acoustic` - The fan speed is reduced to reduce noise levels in acoustic-sensitive environments. This Mode is only supported for UCS X series Chassis.
   * * `MaximumCooling` - The fan speed is kept for maximum cooling. This mode is only supported for Cisco UCS C-Series server models M7 and above for server firmware 4.3 (5.250001) and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#fan_control_mode DataIntersightThermalPolicy#fan_control_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#fan_control_mode DataIntersightThermalPolicy#fan_control_mode}
   */
   readonly fanControlMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#id DataIntersightThermalPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#id DataIntersightThermalPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,79 +65,79 @@ export interface DataIntersightThermalPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#mod_time DataIntersightThermalPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#mod_time DataIntersightThermalPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#name DataIntersightThermalPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#name DataIntersightThermalPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#owners DataIntersightThermalPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#owners DataIntersightThermalPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#shared_scope DataIntersightThermalPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#shared_scope DataIntersightThermalPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#ancestors DataIntersightThermalPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#ancestors DataIntersightThermalPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightThermalPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#organization DataIntersightThermalPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#organization DataIntersightThermalPolicy#organization}
   */
   readonly organization?: DataIntersightThermalPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#parent DataIntersightThermalPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#parent DataIntersightThermalPolicy#parent}
   */
   readonly parent?: DataIntersightThermalPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#permission_resources DataIntersightThermalPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#permission_resources DataIntersightThermalPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightThermalPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#profiles DataIntersightThermalPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#profiles DataIntersightThermalPolicy#profiles}
   */
   readonly profiles?: DataIntersightThermalPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#tags DataIntersightThermalPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#tags DataIntersightThermalPolicy#tags}
   */
   readonly tags?: DataIntersightThermalPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#version_context DataIntersightThermalPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#version_context DataIntersightThermalPolicy#version_context}
   */
   readonly versionContext?: DataIntersightThermalPolicyVersionContext;
 }
@@ -884,6 +884,11 @@ export class DataIntersightThermalPolicyResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1399,7 +1404,7 @@ export class DataIntersightThermalPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightThermalPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1407,19 +1412,19 @@ export interface DataIntersightThermalPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1432,7 +1437,7 @@ export interface DataIntersightThermalPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1664,7 +1669,7 @@ export class DataIntersightThermalPolicyAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightThermalPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1672,19 +1677,19 @@ export interface DataIntersightThermalPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1697,7 +1702,7 @@ export interface DataIntersightThermalPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1897,7 +1902,7 @@ export class DataIntersightThermalPolicyOrganizationOutputReference extends cdkt
 }
 export interface DataIntersightThermalPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1905,19 +1910,19 @@ export interface DataIntersightThermalPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1930,7 +1935,7 @@ export interface DataIntersightThermalPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2130,7 +2135,7 @@ export class DataIntersightThermalPolicyParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightThermalPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2138,19 +2143,19 @@ export interface DataIntersightThermalPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2163,7 +2168,7 @@ export interface DataIntersightThermalPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2395,7 +2400,7 @@ export class DataIntersightThermalPolicyPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightThermalPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2403,19 +2408,19 @@ export interface DataIntersightThermalPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2428,7 +2433,7 @@ export interface DataIntersightThermalPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2660,7 +2665,7 @@ export class DataIntersightThermalPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightThermalPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2668,19 +2673,19 @@ export interface DataIntersightThermalPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2693,7 +2698,7 @@ export interface DataIntersightThermalPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2925,7 +2930,7 @@ export class DataIntersightThermalPolicyTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightThermalPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2933,19 +2938,19 @@ export interface DataIntersightThermalPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2958,7 +2963,7 @@ export interface DataIntersightThermalPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3158,45 +3163,51 @@ export class DataIntersightThermalPolicyTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightThermalPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#key DataIntersightThermalPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#key DataIntersightThermalPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#propagated DataIntersightThermalPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#propagated DataIntersightThermalPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#sys_tag DataIntersightThermalPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#type DataIntersightThermalPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#type DataIntersightThermalPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#value DataIntersightThermalPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#value DataIntersightThermalPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#ancestor_definitions DataIntersightThermalPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#ancestor_definitions DataIntersightThermalPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightThermalPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#definition DataIntersightThermalPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#definition DataIntersightThermalPolicy#definition}
   */
   readonly definition?: DataIntersightThermalPolicyTagsDefinition;
 }
@@ -3210,6 +3221,7 @@ export function dataIntersightThermalPolicyTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightThermalPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3238,6 +3250,12 @@ export function dataIntersightThermalPolicyTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3304,6 +3322,10 @@ export class DataIntersightThermalPolicyTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3330,6 +3352,7 @@ export class DataIntersightThermalPolicyTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3345,6 +3368,7 @@ export class DataIntersightThermalPolicyTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3398,6 +3422,22 @@ export class DataIntersightThermalPolicyTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3486,7 +3526,7 @@ export class DataIntersightThermalPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightThermalPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3494,19 +3534,19 @@ export interface DataIntersightThermalPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3519,7 +3559,7 @@ export interface DataIntersightThermalPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3751,7 +3791,7 @@ export class DataIntersightThermalPolicyVersionContextInterestedMosList extends 
 }
 export interface DataIntersightThermalPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3759,19 +3799,19 @@ export interface DataIntersightThermalPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#moid DataIntersightThermalPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3784,7 +3824,7 @@ export interface DataIntersightThermalPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#selector DataIntersightThermalPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3984,7 +4024,7 @@ export class DataIntersightThermalPolicyVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightThermalPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#additional_properties DataIntersightThermalPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3992,32 +4032,32 @@ export interface DataIntersightThermalPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#class_id DataIntersightThermalPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#marked_for_deletion DataIntersightThermalPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#marked_for_deletion DataIntersightThermalPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#nr_version DataIntersightThermalPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#nr_version DataIntersightThermalPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#object_type DataIntersightThermalPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#timestamp DataIntersightThermalPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#timestamp DataIntersightThermalPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4028,19 +4068,19 @@ export interface DataIntersightThermalPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#version_type DataIntersightThermalPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#version_type DataIntersightThermalPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#interested_mos DataIntersightThermalPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#interested_mos DataIntersightThermalPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightThermalPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#ref_mo DataIntersightThermalPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#ref_mo DataIntersightThermalPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightThermalPolicyVersionContextRefMo;
 }
@@ -4356,7 +4396,7 @@ export class DataIntersightThermalPolicyVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy intersight_thermal_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy intersight_thermal_policy}
 */
 export class DataIntersightThermalPolicy extends cdktf.TerraformDataSource {
 
@@ -4372,7 +4412,7 @@ export class DataIntersightThermalPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightThermalPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightThermalPolicy to import
-  * @param importFromId The id of the existing DataIntersightThermalPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightThermalPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightThermalPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4384,7 +4424,7 @@ export class DataIntersightThermalPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/thermal_policy intersight_thermal_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/thermal_policy intersight_thermal_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4395,8 +4435,8 @@ export class DataIntersightThermalPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_thermal_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

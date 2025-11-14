@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeAttributeSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#attribute_set_type DataSafeAttributeSet#attribute_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#attribute_set_type DataSafeAttributeSet#attribute_set_type}
   */
   readonly attributeSetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#attribute_set_values DataSafeAttributeSet#attribute_set_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#attribute_set_values DataSafeAttributeSet#attribute_set_values}
   */
   readonly attributeSetValues: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#compartment_id DataSafeAttributeSet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#compartment_id DataSafeAttributeSet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#defined_tags DataSafeAttributeSet#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#defined_tags DataSafeAttributeSet#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#description DataSafeAttributeSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#description DataSafeAttributeSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#display_name DataSafeAttributeSet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#display_name DataSafeAttributeSet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#freeform_tags DataSafeAttributeSet#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#freeform_tags DataSafeAttributeSet#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#id DataSafeAttributeSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#id DataSafeAttributeSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,21 +45,21 @@ export interface DataSafeAttributeSetConfig extends cdktf.TerraformMetaArguments
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#timeouts DataSafeAttributeSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#timeouts DataSafeAttributeSet#timeouts}
   */
   readonly timeouts?: DataSafeAttributeSetTimeouts;
 }
 export interface DataSafeAttributeSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#create DataSafeAttributeSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#create DataSafeAttributeSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#delete DataSafeAttributeSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#delete DataSafeAttributeSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#update DataSafeAttributeSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#update DataSafeAttributeSet#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class DataSafeAttributeSetTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set oci_data_safe_attribute_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set oci_data_safe_attribute_set}
 */
 export class DataSafeAttributeSet extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DataSafeAttributeSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeAttributeSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeAttributeSet to import
-  * @param importFromId The id of the existing DataSafeAttributeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeAttributeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeAttributeSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataSafeAttributeSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_attribute_set oci_data_safe_attribute_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_attribute_set oci_data_safe_attribute_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataSafeAttributeSet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_attribute_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

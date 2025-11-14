@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntersightProviderConfig {
   /**
   * API Key Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs#apikey IntersightProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs#apikey IntersightProvider#apikey}
   */
   readonly apikey: string;
   /**
   * Endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs#endpoint IntersightProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs#endpoint IntersightProvider#endpoint}
   */
   readonly endpoint: string;
   /**
   * Secret Key String or File Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs#secretkey IntersightProvider#secretkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs#secretkey IntersightProvider#secretkey}
   */
   readonly secretkey: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs#alias IntersightProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs#alias IntersightProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs intersight}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs intersight}
 */
 export class IntersightProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class IntersightProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IntersightProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntersightProvider to import
-  * @param importFromId The id of the existing IntersightProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntersightProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntersightProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class IntersightProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs intersight} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs intersight} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class IntersightProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'intersight',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       terraformProviderSource: 'CiscoDevNet/intersight'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkFirewallNetworkFirewallPolicyApplicationGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#apps NetworkFirewallNetworkFirewallPolicyApplicationGroup#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#apps NetworkFirewallNetworkFirewallPolicyApplicationGroup#apps}
   */
   readonly apps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#id NetworkFirewallNetworkFirewallPolicyApplicationGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#id NetworkFirewallNetworkFirewallPolicyApplicationGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#name NetworkFirewallNetworkFirewallPolicyApplicationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#name NetworkFirewallNetworkFirewallPolicyApplicationGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#timeouts NetworkFirewallNetworkFirewallPolicyApplicationGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#timeouts NetworkFirewallNetworkFirewallPolicyApplicationGroup#timeouts}
   */
   readonly timeouts?: NetworkFirewallNetworkFirewallPolicyApplicationGroupTimeouts;
 }
 export interface NetworkFirewallNetworkFirewallPolicyApplicationGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#create NetworkFirewallNetworkFirewallPolicyApplicationGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#create NetworkFirewallNetworkFirewallPolicyApplicationGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#delete NetworkFirewallNetworkFirewallPolicyApplicationGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#delete NetworkFirewallNetworkFirewallPolicyApplicationGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#update NetworkFirewallNetworkFirewallPolicyApplicationGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#update NetworkFirewallNetworkFirewallPolicyApplicationGroup#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class NetworkFirewallNetworkFirewallPolicyApplicationGroupTimeoutsOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group oci_network_firewall_network_firewall_policy_application_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group oci_network_firewall_network_firewall_policy_application_group}
 */
 export class NetworkFirewallNetworkFirewallPolicyApplicationGroup extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class NetworkFirewallNetworkFirewallPolicyApplicationGroup extends cdktf.
   * Generates CDKTF code for importing a NetworkFirewallNetworkFirewallPolicyApplicationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirewallNetworkFirewallPolicyApplicationGroup to import
-  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyApplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyApplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirewallNetworkFirewallPolicyApplicationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class NetworkFirewallNetworkFirewallPolicyApplicationGroup extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_application_group oci_network_firewall_network_firewall_policy_application_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_application_group oci_network_firewall_network_firewall_policy_application_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class NetworkFirewallNetworkFirewallPolicyApplicationGroup extends cdktf.
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_application_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

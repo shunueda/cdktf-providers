@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityFexCapabilityDefConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#account_moid DataIntersightCapabilityFexCapabilityDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#account_moid DataIntersightCapabilityFexCapabilityDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilityFexCapabilityDefConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#create_time DataIntersightCapabilityFexCapabilityDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#create_time DataIntersightCapabilityFexCapabilityDef#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#domain_group_moid DataIntersightCapabilityFexCapabilityDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#domain_group_moid DataIntersightCapabilityFexCapabilityDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * FEC config on HIF port for Fabric Extender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#fec_config_on_hif_port_supported DataIntersightCapabilityFexCapabilityDef#fec_config_on_hif_port_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#fec_config_on_hif_port_supported DataIntersightCapabilityFexCapabilityDef#fec_config_on_hif_port_supported}
   */
   readonly fecConfigOnHifPortSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#id DataIntersightCapabilityFexCapabilityDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#id DataIntersightCapabilityFexCapabilityDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightCapabilityFexCapabilityDefConfig extends cdktf.Te
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#mod_time DataIntersightCapabilityFexCapabilityDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#mod_time DataIntersightCapabilityFexCapabilityDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#name DataIntersightCapabilityFexCapabilityDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#name DataIntersightCapabilityFexCapabilityDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#owners DataIntersightCapabilityFexCapabilityDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#owners DataIntersightCapabilityFexCapabilityDef#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#shared_scope DataIntersightCapabilityFexCapabilityDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#shared_scope DataIntersightCapabilityFexCapabilityDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#ancestors DataIntersightCapabilityFexCapabilityDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#ancestors DataIntersightCapabilityFexCapabilityDef#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityFexCapabilityDefAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#parent DataIntersightCapabilityFexCapabilityDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#parent DataIntersightCapabilityFexCapabilityDef#parent}
   */
   readonly parent?: DataIntersightCapabilityFexCapabilityDefParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#permission_resources DataIntersightCapabilityFexCapabilityDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#permission_resources DataIntersightCapabilityFexCapabilityDef#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityFexCapabilityDefPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#tags DataIntersightCapabilityFexCapabilityDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#tags DataIntersightCapabilityFexCapabilityDef#tags}
   */
   readonly tags?: DataIntersightCapabilityFexCapabilityDefTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#version_context DataIntersightCapabilityFexCapabilityDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#version_context DataIntersightCapabilityFexCapabilityDef#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityFexCapabilityDefVersionContext;
 }
@@ -670,6 +670,11 @@ export class DataIntersightCapabilityFexCapabilityDefResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1168,7 +1173,7 @@ export class DataIntersightCapabilityFexCapabilityDefResultsList extends cdktf.C
 }
 export interface DataIntersightCapabilityFexCapabilityDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1176,19 +1181,19 @@ export interface DataIntersightCapabilityFexCapabilityDefAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1201,7 +1206,7 @@ export interface DataIntersightCapabilityFexCapabilityDefAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1433,7 +1438,7 @@ export class DataIntersightCapabilityFexCapabilityDefAncestorsList extends cdktf
 }
 export interface DataIntersightCapabilityFexCapabilityDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1441,19 +1446,19 @@ export interface DataIntersightCapabilityFexCapabilityDefParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1466,7 +1471,7 @@ export interface DataIntersightCapabilityFexCapabilityDefParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1666,7 +1671,7 @@ export class DataIntersightCapabilityFexCapabilityDefParentOutputReference exten
 }
 export interface DataIntersightCapabilityFexCapabilityDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1674,19 +1679,19 @@ export interface DataIntersightCapabilityFexCapabilityDefPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1699,7 +1704,7 @@ export interface DataIntersightCapabilityFexCapabilityDefPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1931,7 +1936,7 @@ export class DataIntersightCapabilityFexCapabilityDefPermissionResourcesList ext
 }
 export interface DataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1939,19 +1944,19 @@ export interface DataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1964,7 +1969,7 @@ export interface DataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -2196,7 +2201,7 @@ export class DataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitionsList
 }
 export interface DataIntersightCapabilityFexCapabilityDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2204,19 +2209,19 @@ export interface DataIntersightCapabilityFexCapabilityDefTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2229,7 +2234,7 @@ export interface DataIntersightCapabilityFexCapabilityDefTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -2429,45 +2434,51 @@ export class DataIntersightCapabilityFexCapabilityDefTagsDefinitionOutputReferen
 }
 export interface DataIntersightCapabilityFexCapabilityDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#key DataIntersightCapabilityFexCapabilityDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#key DataIntersightCapabilityFexCapabilityDef#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#propagated DataIntersightCapabilityFexCapabilityDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#propagated DataIntersightCapabilityFexCapabilityDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#sys_tag DataIntersightCapabilityFexCapabilityDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#type DataIntersightCapabilityFexCapabilityDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#type DataIntersightCapabilityFexCapabilityDef#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#value DataIntersightCapabilityFexCapabilityDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#value DataIntersightCapabilityFexCapabilityDef#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#ancestor_definitions DataIntersightCapabilityFexCapabilityDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#ancestor_definitions DataIntersightCapabilityFexCapabilityDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#definition DataIntersightCapabilityFexCapabilityDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#definition DataIntersightCapabilityFexCapabilityDef#definition}
   */
   readonly definition?: DataIntersightCapabilityFexCapabilityDefTagsDefinition;
 }
@@ -2481,6 +2492,7 @@ export function dataIntersightCapabilityFexCapabilityDefTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityFexCapabilityDefTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2509,6 +2521,12 @@ export function dataIntersightCapabilityFexCapabilityDefTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2575,6 +2593,10 @@ export class DataIntersightCapabilityFexCapabilityDefTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2601,6 +2623,7 @@ export class DataIntersightCapabilityFexCapabilityDefTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2616,6 +2639,7 @@ export class DataIntersightCapabilityFexCapabilityDefTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2669,6 +2693,22 @@ export class DataIntersightCapabilityFexCapabilityDefTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2757,7 +2797,7 @@ export class DataIntersightCapabilityFexCapabilityDefTagsList extends cdktf.Comp
 }
 export interface DataIntersightCapabilityFexCapabilityDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2765,19 +2805,19 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2790,7 +2830,7 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -3022,7 +3062,7 @@ export class DataIntersightCapabilityFexCapabilityDefVersionContextInterestedMos
 }
 export interface DataIntersightCapabilityFexCapabilityDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3030,19 +3070,19 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#moid DataIntersightCapabilityFexCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3055,7 +3095,7 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#selector DataIntersightCapabilityFexCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -3255,7 +3295,7 @@ export class DataIntersightCapabilityFexCapabilityDefVersionContextRefMoOutputRe
 }
 export interface DataIntersightCapabilityFexCapabilityDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#additional_properties DataIntersightCapabilityFexCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3263,32 +3303,32 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#class_id DataIntersightCapabilityFexCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#marked_for_deletion DataIntersightCapabilityFexCapabilityDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#marked_for_deletion DataIntersightCapabilityFexCapabilityDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#nr_version DataIntersightCapabilityFexCapabilityDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#nr_version DataIntersightCapabilityFexCapabilityDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#object_type DataIntersightCapabilityFexCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#timestamp DataIntersightCapabilityFexCapabilityDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#timestamp DataIntersightCapabilityFexCapabilityDef#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3299,19 +3339,19 @@ export interface DataIntersightCapabilityFexCapabilityDefVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#version_type DataIntersightCapabilityFexCapabilityDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#version_type DataIntersightCapabilityFexCapabilityDef#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#interested_mos DataIntersightCapabilityFexCapabilityDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#interested_mos DataIntersightCapabilityFexCapabilityDef#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityFexCapabilityDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#ref_mo DataIntersightCapabilityFexCapabilityDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#ref_mo DataIntersightCapabilityFexCapabilityDef#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityFexCapabilityDefVersionContextRefMo;
 }
@@ -3627,7 +3667,7 @@ export class DataIntersightCapabilityFexCapabilityDefVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def intersight_capability_fex_capability_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def intersight_capability_fex_capability_def}
 */
 export class DataIntersightCapabilityFexCapabilityDef extends cdktf.TerraformDataSource {
 
@@ -3643,7 +3683,7 @@ export class DataIntersightCapabilityFexCapabilityDef extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightCapabilityFexCapabilityDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityFexCapabilityDef to import
-  * @param importFromId The id of the existing DataIntersightCapabilityFexCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityFexCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityFexCapabilityDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3655,7 +3695,7 @@ export class DataIntersightCapabilityFexCapabilityDef extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_fex_capability_def intersight_capability_fex_capability_def} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_fex_capability_def intersight_capability_fex_capability_def} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3666,8 +3706,8 @@ export class DataIntersightCapabilityFexCapabilityDef extends cdktf.TerraformDat
       terraformResourceType: 'intersight_capability_fex_capability_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

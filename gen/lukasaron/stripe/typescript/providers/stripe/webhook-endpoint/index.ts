@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * Events sent to this endpoint will be generated with this Stripe Version instead of your account’s default Stripe Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Whether this endpoint should receive events from connected accounts (true), or from your account (false). Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
   */
   readonly connect?: boolean | cdktf.IResolvable;
   /**
   * An optional description of what the webhook is used for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#description WebhookEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#description WebhookEndpoint#description}
   */
   readonly description?: string;
   /**
   * Disable the webhook endpoint if set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#disabled WebhookEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#disabled WebhookEndpoint#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The list of events to enable for this endpoint. [’*’] indicates that all events are enabled, except those that require explicit selection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
   */
   readonly enabledEvents: string[];
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The URL of the webhook endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint stripe_webhook_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint stripe_webhook_endpoint}
 */
 export class WebhookEndpoint extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookEndpoint to import
-  * @param importFromId The id of the existing WebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/webhook_endpoint stripe_webhook_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/webhook_endpoint stripe_webhook_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_webhook_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface LoggingUnifiedAgentConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#defined_tags LoggingUnifiedAgentConfiguration#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#defined_tags LoggingUnifiedAgentConfiguration#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#description LoggingUnifiedAgentConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#description LoggingUnifiedAgentConfiguration#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#display_name LoggingUnifiedAgentConfiguration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#display_name LoggingUnifiedAgentConfiguration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#freeform_tags LoggingUnifiedAgentConfiguration#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#freeform_tags LoggingUnifiedAgentConfiguration#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#id LoggingUnifiedAgentConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#id LoggingUnifiedAgentConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_enabled LoggingUnifiedAgentConfiguration#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_enabled LoggingUnifiedAgentConfiguration#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * group_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#group_association LoggingUnifiedAgentConfiguration#group_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#group_association LoggingUnifiedAgentConfiguration#group_association}
   */
   readonly groupAssociation?: LoggingUnifiedAgentConfigurationGroupAssociation;
   /**
   * service_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#service_configuration LoggingUnifiedAgentConfiguration#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#service_configuration LoggingUnifiedAgentConfiguration#service_configuration}
   */
   readonly serviceConfiguration: LoggingUnifiedAgentConfigurationServiceConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#timeouts LoggingUnifiedAgentConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#timeouts LoggingUnifiedAgentConfiguration#timeouts}
   */
   readonly timeouts?: LoggingUnifiedAgentConfigurationTimeouts;
 }
 export interface LoggingUnifiedAgentConfigurationGroupAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#group_list LoggingUnifiedAgentConfiguration#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#group_list LoggingUnifiedAgentConfiguration#group_list}
   */
   readonly groupList?: string[];
 }
@@ -143,11 +143,11 @@ export class LoggingUnifiedAgentConfigurationGroupAssociationOutputReference ext
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#metrics_namespace LoggingUnifiedAgentConfiguration#metrics_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#metrics_namespace LoggingUnifiedAgentConfiguration#metrics_namespace}
   */
   readonly metricsNamespace?: string;
 }
@@ -260,27 +260,27 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourceScrapeTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#k8s_namespace LoggingUnifiedAgentConfiguration#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#k8s_namespace LoggingUnifiedAgentConfiguration#k8s_namespace}
   */
   readonly k8SNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_type LoggingUnifiedAgentConfiguration#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_type LoggingUnifiedAgentConfiguration#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#service_name LoggingUnifiedAgentConfiguration#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#service_name LoggingUnifiedAgentConfiguration#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#url LoggingUnifiedAgentConfiguration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#url LoggingUnifiedAgentConfiguration#url}
   */
   readonly url?: string;
 }
@@ -541,13 +541,13 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
   * scrape_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#scrape_targets LoggingUnifiedAgentConfiguration#scrape_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#scrape_targets LoggingUnifiedAgentConfiguration#scrape_targets}
   */
   readonly scrapeTargets?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourceScrapeTargets[] | cdktf.IResolvable;
 }
@@ -660,7 +660,7 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_read_from_head LoggingUnifiedAgentConfiguration#is_read_from_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_read_from_head LoggingUnifiedAgentConfiguration#is_read_from_head}
   */
   readonly isReadFromHead?: boolean | cdktf.IResolvable;
 }
@@ -744,27 +744,27 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserNestedParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
 }
@@ -993,23 +993,23 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserPatterns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
   */
   readonly fieldTimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
   */
   readonly fieldTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
   */
   readonly pattern?: string;
 }
@@ -1241,15 +1241,15 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserRecordInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -1391,129 +1391,129 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
   */
   readonly format?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
   */
   readonly formatFirstline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
   */
   readonly grokNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
   */
   readonly isEstimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
   */
   readonly isMergeCriFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
   */
   readonly isNullEmptyString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
   */
   readonly isSupportColonlessIdent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
   */
   readonly isWithPriority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
   */
   readonly keys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
   */
   readonly messageFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
   */
   readonly nullValuePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
   */
   readonly parserType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
   */
   readonly rfc5424TimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
   */
   readonly syslogParserType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
   */
   readonly timeoutInMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
   */
   readonly types?: { [key: string]: string };
   /**
   * nested_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
   */
   readonly nestedParser?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserNestedParser;
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
   */
   readonly patterns?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserPatterns[] | cdktf.IResolvable;
   /**
   * record_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
   */
   readonly recordInput?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParserRecordInput;
 }
@@ -2435,27 +2435,27 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#paths LoggingUnifiedAgentConfiguration#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#paths LoggingUnifiedAgentConfiguration#paths}
   */
   readonly paths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
   */
   readonly sourceType?: string;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#advanced_options LoggingUnifiedAgentConfiguration#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#advanced_options LoggingUnifiedAgentConfiguration#advanced_options}
   */
   readonly advancedOptions?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesAdvancedOptions;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
   */
   readonly parser?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSourcesParser;
 }
@@ -2687,19 +2687,19 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsUnifiedAgentConfigurationFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#allow_list LoggingUnifiedAgentConfiguration#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#allow_list LoggingUnifiedAgentConfiguration#allow_list}
   */
   readonly allowList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#deny_list LoggingUnifiedAgentConfiguration#deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#deny_list LoggingUnifiedAgentConfiguration#deny_list}
   */
   readonly denyList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#filter_type LoggingUnifiedAgentConfiguration#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#filter_type LoggingUnifiedAgentConfiguration#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
 }
@@ -2870,31 +2870,31 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
   */
   readonly sourceType: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
   */
   readonly destination: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsDestination;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#source LoggingUnifiedAgentConfiguration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#source LoggingUnifiedAgentConfiguration#source}
   */
   readonly source?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSource;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#sources LoggingUnifiedAgentConfiguration#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#sources LoggingUnifiedAgentConfiguration#sources}
   */
   readonly sources?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsSources[] | cdktf.IResolvable;
   /**
   * unified_agent_configuration_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#unified_agent_configuration_filter LoggingUnifiedAgentConfiguration#unified_agent_configuration_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#unified_agent_configuration_filter LoggingUnifiedAgentConfiguration#unified_agent_configuration_filter}
   */
   readonly unifiedAgentConfigurationFilter?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurationsUnifiedAgentConfigurationFilter;
 }
@@ -3120,7 +3120,7 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConf
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}
   */
   readonly compartmentId: string;
 }
@@ -3201,11 +3201,11 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOper
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationSourceRecordInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -3315,17 +3315,17 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOper
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#metrics LoggingUnifiedAgentConfiguration#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#metrics LoggingUnifiedAgentConfiguration#metrics}
   */
   readonly metrics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#type LoggingUnifiedAgentConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#type LoggingUnifiedAgentConfiguration#type}
   */
   readonly type: string;
   /**
   * record_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
   */
   readonly recordInput: LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationSourceRecordInput;
 }
@@ -3463,13 +3463,13 @@ export interface LoggingUnifiedAgentConfigurationServiceConfigurationDestination
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
   */
   readonly destination: LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationDestination;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#source LoggingUnifiedAgentConfiguration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#source LoggingUnifiedAgentConfiguration#source}
   */
   readonly source: LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfigurationSource;
 }
@@ -3576,13 +3576,13 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOper
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#log_object_id LoggingUnifiedAgentConfiguration#log_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#log_object_id LoggingUnifiedAgentConfiguration#log_object_id}
   */
   readonly logObjectId: string;
   /**
   * operational_metrics_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#operational_metrics_configuration LoggingUnifiedAgentConfiguration#operational_metrics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#operational_metrics_configuration LoggingUnifiedAgentConfiguration#operational_metrics_configuration}
   */
   readonly operationalMetricsConfiguration?: LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOperationalMetricsConfiguration;
 }
@@ -3692,7 +3692,7 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationDestinationOutp
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSourcesAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_read_from_head LoggingUnifiedAgentConfiguration#is_read_from_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_read_from_head LoggingUnifiedAgentConfiguration#is_read_from_head}
   */
   readonly isReadFromHead?: boolean | cdktf.IResolvable;
 }
@@ -3776,27 +3776,27 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesAdvanced
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserNestedParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
 }
@@ -4025,23 +4025,23 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserNe
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserPatterns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
   */
   readonly fieldTimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
   */
   readonly fieldTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
   */
   readonly pattern?: string;
 }
@@ -4273,15 +4273,15 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserPa
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserRecordInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -4423,129 +4423,129 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserRe
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
   */
   readonly format?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
   */
   readonly formatFirstline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
   */
   readonly grokNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
   */
   readonly isEstimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
   */
   readonly isMergeCriFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
   */
   readonly isNullEmptyString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
   */
   readonly isSupportColonlessIdent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
   */
   readonly isWithPriority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
   */
   readonly keys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
   */
   readonly messageFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
   */
   readonly nullValuePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
   */
   readonly parserType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
   */
   readonly rfc5424TimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
   */
   readonly syslogParserType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
   */
   readonly timeoutInMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
   */
   readonly types?: { [key: string]: string };
   /**
   * nested_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
   */
   readonly nestedParser?: LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserNestedParser;
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
   */
   readonly patterns?: LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserPatterns[] | cdktf.IResolvable;
   /**
   * record_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
   */
   readonly recordInput?: LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserRecordInput;
 }
@@ -5467,35 +5467,35 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParserOu
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#channels LoggingUnifiedAgentConfiguration#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#channels LoggingUnifiedAgentConfiguration#channels}
   */
   readonly channels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#custom_plugin LoggingUnifiedAgentConfiguration#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#custom_plugin LoggingUnifiedAgentConfiguration#custom_plugin}
   */
   readonly customPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#paths LoggingUnifiedAgentConfiguration#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#paths LoggingUnifiedAgentConfiguration#paths}
   */
   readonly paths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#source_type LoggingUnifiedAgentConfiguration#source_type}
   */
   readonly sourceType: string;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#advanced_options LoggingUnifiedAgentConfiguration#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#advanced_options LoggingUnifiedAgentConfiguration#advanced_options}
   */
   readonly advancedOptions?: LoggingUnifiedAgentConfigurationServiceConfigurationSourcesAdvancedOptions;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
   */
   readonly parser?: LoggingUnifiedAgentConfigurationServiceConfigurationSourcesParser;
 }
@@ -5782,11 +5782,11 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationSourcesList ext
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterAllowListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
   */
   readonly pattern?: string;
 }
@@ -5931,11 +5931,11 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterCustomSections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#params LoggingUnifiedAgentConfiguration#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#params LoggingUnifiedAgentConfiguration#params}
   */
   readonly params?: { [key: string]: string };
 }
@@ -6080,11 +6080,11 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterDenyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
   */
   readonly pattern?: string;
 }
@@ -6229,27 +6229,27 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserNestedParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
 }
@@ -6478,23 +6478,23 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserPatterns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_format LoggingUnifiedAgentConfiguration#field_time_format}
   */
   readonly fieldTimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_zone LoggingUnifiedAgentConfiguration#field_time_zone}
   */
   readonly fieldTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#pattern LoggingUnifiedAgentConfiguration#pattern}
   */
   readonly pattern?: string;
 }
@@ -6726,15 +6726,15 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserRecordInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#dimensions LoggingUnifiedAgentConfiguration#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#namespace LoggingUnifiedAgentConfiguration#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#resource_group LoggingUnifiedAgentConfiguration#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -6876,129 +6876,129 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#delimiter LoggingUnifiedAgentConfiguration#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#expression LoggingUnifiedAgentConfiguration#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#field_time_key LoggingUnifiedAgentConfiguration#field_time_key}
   */
   readonly fieldTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format LoggingUnifiedAgentConfiguration#format}
   */
   readonly format?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#format_firstline LoggingUnifiedAgentConfiguration#format_firstline}
   */
   readonly formatFirstline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_failure_key LoggingUnifiedAgentConfiguration#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#grok_name_key LoggingUnifiedAgentConfiguration#grok_name_key}
   */
   readonly grokNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_estimate_current_event LoggingUnifiedAgentConfiguration#is_estimate_current_event}
   */
   readonly isEstimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_keep_time_key LoggingUnifiedAgentConfiguration#is_keep_time_key}
   */
   readonly isKeepTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_merge_cri_fields LoggingUnifiedAgentConfiguration#is_merge_cri_fields}
   */
   readonly isMergeCriFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_null_empty_string LoggingUnifiedAgentConfiguration#is_null_empty_string}
   */
   readonly isNullEmptyString?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_support_colonless_ident LoggingUnifiedAgentConfiguration#is_support_colonless_ident}
   */
   readonly isSupportColonlessIdent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_with_priority LoggingUnifiedAgentConfiguration#is_with_priority}
   */
   readonly isWithPriority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#keys LoggingUnifiedAgentConfiguration#keys}
   */
   readonly keys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_format LoggingUnifiedAgentConfiguration#message_format}
   */
   readonly messageFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#message_key LoggingUnifiedAgentConfiguration#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#multi_line_start_regexp LoggingUnifiedAgentConfiguration#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#null_value_pattern LoggingUnifiedAgentConfiguration#null_value_pattern}
   */
   readonly nullValuePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parse_nested LoggingUnifiedAgentConfiguration#parse_nested}
   */
   readonly parseNested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser_type LoggingUnifiedAgentConfiguration#parser_type}
   */
   readonly parserType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#rfc5424time_format LoggingUnifiedAgentConfiguration#rfc5424time_format}
   */
   readonly rfc5424TimeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#separator LoggingUnifiedAgentConfiguration#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#syslog_parser_type LoggingUnifiedAgentConfiguration#syslog_parser_type}
   */
   readonly syslogParserType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_format LoggingUnifiedAgentConfiguration#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#time_type LoggingUnifiedAgentConfiguration#time_type}
   */
   readonly timeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#timeout_in_milliseconds LoggingUnifiedAgentConfiguration#timeout_in_milliseconds}
   */
   readonly timeoutInMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#types LoggingUnifiedAgentConfiguration#types}
   */
   readonly types?: { [key: string]: string };
   /**
   * nested_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#nested_parser LoggingUnifiedAgentConfiguration#nested_parser}
   */
   readonly nestedParser?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserNestedParser;
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#patterns LoggingUnifiedAgentConfiguration#patterns}
   */
   readonly patterns?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserPatterns[] | cdktf.IResolvable;
   /**
   * record_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#record_input LoggingUnifiedAgentConfiguration#record_input}
   */
   readonly recordInput?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParserRecordInput;
 }
@@ -7920,11 +7920,11 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterRecordListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#key LoggingUnifiedAgentConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#value LoggingUnifiedAgentConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#value LoggingUnifiedAgentConfiguration#value}
   */
   readonly value?: string;
 }
@@ -8069,105 +8069,105 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#custom_filter_type LoggingUnifiedAgentConfiguration#custom_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#custom_filter_type LoggingUnifiedAgentConfiguration#custom_filter_type}
   */
   readonly customFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#emit_invalid_record_to_error LoggingUnifiedAgentConfiguration#emit_invalid_record_to_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#emit_invalid_record_to_error LoggingUnifiedAgentConfiguration#emit_invalid_record_to_error}
   */
   readonly emitInvalidRecordToError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#filter_type LoggingUnifiedAgentConfiguration#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#filter_type LoggingUnifiedAgentConfiguration#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#hash_value_field LoggingUnifiedAgentConfiguration#hash_value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#hash_value_field LoggingUnifiedAgentConfiguration#hash_value_field}
   */
   readonly hashValueField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#inject_key_prefix LoggingUnifiedAgentConfiguration#inject_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#inject_key_prefix LoggingUnifiedAgentConfiguration#inject_key_prefix}
   */
   readonly injectKeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_auto_typecast_enabled LoggingUnifiedAgentConfiguration#is_auto_typecast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_auto_typecast_enabled LoggingUnifiedAgentConfiguration#is_auto_typecast_enabled}
   */
   readonly isAutoTypecastEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_renew_record_enabled LoggingUnifiedAgentConfiguration#is_renew_record_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_renew_record_enabled LoggingUnifiedAgentConfiguration#is_renew_record_enabled}
   */
   readonly isRenewRecordEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#is_ruby_enabled LoggingUnifiedAgentConfiguration#is_ruby_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#is_ruby_enabled LoggingUnifiedAgentConfiguration#is_ruby_enabled}
   */
   readonly isRubyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#keep_keys LoggingUnifiedAgentConfiguration#keep_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#keep_keys LoggingUnifiedAgentConfiguration#keep_keys}
   */
   readonly keepKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#key_name LoggingUnifiedAgentConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#key_name LoggingUnifiedAgentConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#name LoggingUnifiedAgentConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#params LoggingUnifiedAgentConfiguration#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#params LoggingUnifiedAgentConfiguration#params}
   */
   readonly params?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#remove_key_name_field LoggingUnifiedAgentConfiguration#remove_key_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#remove_key_name_field LoggingUnifiedAgentConfiguration#remove_key_name_field}
   */
   readonly removeKeyNameField?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#remove_keys LoggingUnifiedAgentConfiguration#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#remove_keys LoggingUnifiedAgentConfiguration#remove_keys}
   */
   readonly removeKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#renew_time_key LoggingUnifiedAgentConfiguration#renew_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#renew_time_key LoggingUnifiedAgentConfiguration#renew_time_key}
   */
   readonly renewTimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#replace_invalid_sequence LoggingUnifiedAgentConfiguration#replace_invalid_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#replace_invalid_sequence LoggingUnifiedAgentConfiguration#replace_invalid_sequence}
   */
   readonly replaceInvalidSequence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#reserve_data LoggingUnifiedAgentConfiguration#reserve_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#reserve_data LoggingUnifiedAgentConfiguration#reserve_data}
   */
   readonly reserveData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#reserve_time LoggingUnifiedAgentConfiguration#reserve_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#reserve_time LoggingUnifiedAgentConfiguration#reserve_time}
   */
   readonly reserveTime?: boolean | cdktf.IResolvable;
   /**
   * allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#allow_list LoggingUnifiedAgentConfiguration#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#allow_list LoggingUnifiedAgentConfiguration#allow_list}
   */
   readonly allowList?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterAllowListStruct[] | cdktf.IResolvable;
   /**
   * custom_sections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#custom_sections LoggingUnifiedAgentConfiguration#custom_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#custom_sections LoggingUnifiedAgentConfiguration#custom_sections}
   */
   readonly customSections?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterCustomSections[] | cdktf.IResolvable;
   /**
   * deny_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#deny_list LoggingUnifiedAgentConfiguration#deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#deny_list LoggingUnifiedAgentConfiguration#deny_list}
   */
   readonly denyList?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterDenyListStruct[] | cdktf.IResolvable;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#parser LoggingUnifiedAgentConfiguration#parser}
   */
   readonly parser?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterParser;
   /**
   * record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#record_list LoggingUnifiedAgentConfiguration#record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#record_list LoggingUnifiedAgentConfiguration#record_list}
   */
   readonly recordList?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilterRecordListStruct[] | cdktf.IResolvable;
 }
@@ -8915,31 +8915,31 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentCon
 }
 export interface LoggingUnifiedAgentConfigurationServiceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#configuration_type LoggingUnifiedAgentConfiguration#configuration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#configuration_type LoggingUnifiedAgentConfiguration#configuration_type}
   */
   readonly configurationType: string;
   /**
   * application_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#application_configurations LoggingUnifiedAgentConfiguration#application_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#application_configurations LoggingUnifiedAgentConfiguration#application_configurations}
   */
   readonly applicationConfigurations?: LoggingUnifiedAgentConfigurationServiceConfigurationApplicationConfigurations[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#destination LoggingUnifiedAgentConfiguration#destination}
   */
   readonly destination?: LoggingUnifiedAgentConfigurationServiceConfigurationDestination;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#sources LoggingUnifiedAgentConfiguration#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#sources LoggingUnifiedAgentConfiguration#sources}
   */
   readonly sources?: LoggingUnifiedAgentConfigurationServiceConfigurationSources[] | cdktf.IResolvable;
   /**
   * unified_agent_configuration_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#unified_agent_configuration_filter LoggingUnifiedAgentConfiguration#unified_agent_configuration_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#unified_agent_configuration_filter LoggingUnifiedAgentConfiguration#unified_agent_configuration_filter}
   */
   readonly unifiedAgentConfigurationFilter?: LoggingUnifiedAgentConfigurationServiceConfigurationUnifiedAgentConfigurationFilter[] | cdktf.IResolvable;
 }
@@ -9136,15 +9136,15 @@ export class LoggingUnifiedAgentConfigurationServiceConfigurationOutputReference
 }
 export interface LoggingUnifiedAgentConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#create LoggingUnifiedAgentConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#create LoggingUnifiedAgentConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#delete LoggingUnifiedAgentConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#delete LoggingUnifiedAgentConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#update LoggingUnifiedAgentConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#update LoggingUnifiedAgentConfiguration#update}
   */
   readonly update?: string;
 }
@@ -9296,7 +9296,7 @@ export class LoggingUnifiedAgentConfigurationTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration oci_logging_unified_agent_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration oci_logging_unified_agent_configuration}
 */
 export class LoggingUnifiedAgentConfiguration extends cdktf.TerraformResource {
 
@@ -9312,7 +9312,7 @@ export class LoggingUnifiedAgentConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingUnifiedAgentConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingUnifiedAgentConfiguration to import
-  * @param importFromId The id of the existing LoggingUnifiedAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingUnifiedAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingUnifiedAgentConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9324,7 +9324,7 @@ export class LoggingUnifiedAgentConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_unified_agent_configuration oci_logging_unified_agent_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_unified_agent_configuration oci_logging_unified_agent_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9335,8 +9335,8 @@ export class LoggingUnifiedAgentConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_logging_unified_agent_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

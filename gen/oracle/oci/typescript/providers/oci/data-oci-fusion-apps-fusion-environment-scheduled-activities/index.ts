@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentScheduledActivitiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#display_name DataOciFusionAppsFusionEnvironmentScheduledActivities#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#display_name DataOciFusionAppsFusionEnvironmentScheduledActivities#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentScheduledActivities#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentScheduledActivities#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#id DataOciFusionAppsFusionEnvironmentScheduledActivities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#id DataOciFusionAppsFusionEnvironmentScheduledActivities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#run_cycle DataOciFusionAppsFusionEnvironmentScheduledActivities#run_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#run_cycle DataOciFusionAppsFusionEnvironmentScheduledActivities#run_cycle}
   */
   readonly runCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#state DataOciFusionAppsFusionEnvironmentScheduledActivities#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#state DataOciFusionAppsFusionEnvironmentScheduledActivities#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentScheduledActivities#time_expected_finish_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentScheduledActivities#time_expected_finish_less_than_or_equal_to}
   */
   readonly timeExpectedFinishLessThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentScheduledActivities#time_scheduled_start_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentScheduledActivities#time_scheduled_start_greater_than_or_equal_to}
   */
   readonly timeScheduledStartGreaterThanOrEqualTo?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#filter DataOciFusionAppsFusionEnvironmentScheduledActivities#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#filter DataOciFusionAppsFusionEnvironmentScheduledActivities#filter}
   */
   readonly filter?: DataOciFusionAppsFusionEnvironmentScheduledActivitiesFilter[] | cdktf.IResolvable;
 }
@@ -385,15 +385,15 @@ export class DataOciFusionAppsFusionEnvironmentScheduledActivitiesScheduledActiv
 }
 export interface DataOciFusionAppsFusionEnvironmentScheduledActivitiesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#name DataOciFusionAppsFusionEnvironmentScheduledActivities#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#regex DataOciFusionAppsFusionEnvironmentScheduledActivities#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#values DataOciFusionAppsFusionEnvironmentScheduledActivities#values}
   */
   readonly values: string[];
 }
@@ -561,7 +561,7 @@ export class DataOciFusionAppsFusionEnvironmentScheduledActivitiesFilterList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities oci_fusion_apps_fusion_environment_scheduled_activities}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities oci_fusion_apps_fusion_environment_scheduled_activities}
 */
 export class DataOciFusionAppsFusionEnvironmentScheduledActivities extends cdktf.TerraformDataSource {
 
@@ -577,7 +577,7 @@ export class DataOciFusionAppsFusionEnvironmentScheduledActivities extends cdktf
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironmentScheduledActivities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironmentScheduledActivities to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentScheduledActivities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentScheduledActivities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironmentScheduledActivities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -589,7 +589,7 @@ export class DataOciFusionAppsFusionEnvironmentScheduledActivities extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities oci_fusion_apps_fusion_environment_scheduled_activities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fusion_apps_fusion_environment_scheduled_activities oci_fusion_apps_fusion_environment_scheduled_activities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,8 +600,8 @@ export class DataOciFusionAppsFusionEnvironmentScheduledActivities extends cdktf
       terraformResourceType: 'oci_fusion_apps_fusion_environment_scheduled_activities',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

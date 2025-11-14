@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface VpcV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#description VpcV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#description VpcV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#external_routing_domain_reference VpcV2#external_routing_domain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#external_routing_domain_reference VpcV2#external_routing_domain_reference}
   */
   readonly externalRoutingDomainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#id VpcV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#id VpcV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#name VpcV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#name VpcV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#vpc_type VpcV2#vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#vpc_type VpcV2#vpc_type}
   */
   readonly vpcType?: string;
   /**
   * common_dhcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#common_dhcp_options VpcV2#common_dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#common_dhcp_options VpcV2#common_dhcp_options}
   */
   readonly commonDhcpOptions?: VpcV2CommonDhcpOptions[] | cdktf.IResolvable;
   /**
   * external_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#external_subnets VpcV2#external_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#external_subnets VpcV2#external_subnets}
   */
   readonly externalSubnets?: VpcV2ExternalSubnets[] | cdktf.IResolvable;
   /**
   * externally_routable_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#externally_routable_prefixes VpcV2#externally_routable_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#externally_routable_prefixes VpcV2#externally_routable_prefixes}
   */
   readonly externallyRoutablePrefixes?: VpcV2ExternallyRoutablePrefixes[] | cdktf.IResolvable;
 }
@@ -469,11 +469,11 @@ export class VpcV2SnatIpsList extends cdktf.ComplexList {
 }
 export interface VpcV2CommonDhcpOptionsDomainNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -618,11 +618,11 @@ export class VpcV2CommonDhcpOptionsDomainNameServersIpv4List extends cdktf.Compl
 }
 export interface VpcV2CommonDhcpOptionsDomainNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -769,13 +769,13 @@ export interface VpcV2CommonDhcpOptionsDomainNameServers {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
   */
   readonly ipv4?: VpcV2CommonDhcpOptionsDomainNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
   */
   readonly ipv6?: VpcV2CommonDhcpOptionsDomainNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -922,7 +922,7 @@ export interface VpcV2CommonDhcpOptions {
   /**
   * domain_name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#domain_name_servers VpcV2#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#domain_name_servers VpcV2#domain_name_servers}
   */
   readonly domainNameServers?: VpcV2CommonDhcpOptionsDomainNameServers[] | cdktf.IResolvable;
 }
@@ -1038,11 +1038,11 @@ export class VpcV2CommonDhcpOptionsList extends cdktf.ComplexList {
 }
 export interface VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -1187,11 +1187,11 @@ export class VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4List extends 
 }
 export interface VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -1338,13 +1338,13 @@ export interface VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
   */
   readonly ipv4?: VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
   */
   readonly ipv6?: VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -1489,13 +1489,13 @@ export class VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddressList extends cdkt
 }
 export interface VpcV2ExternalSubnetsActiveGatewayNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#node_id VpcV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#node_id VpcV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * node_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#node_ip_address VpcV2#node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#node_ip_address VpcV2#node_ip_address}
   */
   readonly nodeIpAddress?: VpcV2ExternalSubnetsActiveGatewayNodeNodeIpAddress[] | cdktf.IResolvable;
 }
@@ -1640,11 +1640,11 @@ export class VpcV2ExternalSubnetsActiveGatewayNodeList extends cdktf.ComplexList
 }
 export interface VpcV2ExternalSubnetsExternalIpsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -1789,11 +1789,11 @@ export class VpcV2ExternalSubnetsExternalIpsIpv4List extends cdktf.ComplexList {
 }
 export interface VpcV2ExternalSubnetsExternalIpsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -1940,13 +1940,13 @@ export interface VpcV2ExternalSubnetsExternalIps {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
   */
   readonly ipv4?: VpcV2ExternalSubnetsExternalIpsIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
   */
   readonly ipv6?: VpcV2ExternalSubnetsExternalIpsIpv6[] | cdktf.IResolvable;
 }
@@ -2091,27 +2091,27 @@ export class VpcV2ExternalSubnetsExternalIpsList extends cdktf.ComplexList {
 }
 export interface VpcV2ExternalSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#active_gateway_count VpcV2#active_gateway_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#active_gateway_count VpcV2#active_gateway_count}
   */
   readonly activeGatewayCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#gateway_nodes VpcV2#gateway_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#gateway_nodes VpcV2#gateway_nodes}
   */
   readonly gatewayNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#subnet_reference VpcV2#subnet_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#subnet_reference VpcV2#subnet_reference}
   */
   readonly subnetReference: string;
   /**
   * active_gateway_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#active_gateway_node VpcV2#active_gateway_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#active_gateway_node VpcV2#active_gateway_node}
   */
   readonly activeGatewayNode?: VpcV2ExternalSubnetsActiveGatewayNode[] | cdktf.IResolvable;
   /**
   * external_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#external_ips VpcV2#external_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#external_ips VpcV2#external_ips}
   */
   readonly externalIps?: VpcV2ExternalSubnetsExternalIps[] | cdktf.IResolvable;
 }
@@ -2340,11 +2340,11 @@ export class VpcV2ExternalSubnetsList extends cdktf.ComplexList {
 }
 export interface VpcV2ExternallyRoutablePrefixesIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -2489,13 +2489,13 @@ export class VpcV2ExternallyRoutablePrefixesIpv4IpList extends cdktf.ComplexList
 }
 export interface VpcV2ExternallyRoutablePrefixesIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ip VpcV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ip VpcV2#ip}
   */
   readonly ip?: VpcV2ExternallyRoutablePrefixesIpv4Ip[] | cdktf.IResolvable;
 }
@@ -2637,11 +2637,11 @@ export class VpcV2ExternallyRoutablePrefixesIpv4List extends cdktf.ComplexList {
 }
 export interface VpcV2ExternallyRoutablePrefixesIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#value VpcV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#value VpcV2#value}
   */
   readonly value?: string;
 }
@@ -2786,13 +2786,13 @@ export class VpcV2ExternallyRoutablePrefixesIpv6IpList extends cdktf.ComplexList
 }
 export interface VpcV2ExternallyRoutablePrefixesIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#prefix_length VpcV2#prefix_length}
   */
   readonly prefixLength: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ip VpcV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ip VpcV2#ip}
   */
   readonly ip?: VpcV2ExternallyRoutablePrefixesIpv6Ip[] | cdktf.IResolvable;
 }
@@ -2936,13 +2936,13 @@ export interface VpcV2ExternallyRoutablePrefixes {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv4 VpcV2#ipv4}
   */
   readonly ipv4?: VpcV2ExternallyRoutablePrefixesIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#ipv6 VpcV2#ipv6}
   */
   readonly ipv6?: VpcV2ExternallyRoutablePrefixesIpv6[] | cdktf.IResolvable;
 }
@@ -3087,7 +3087,7 @@ export class VpcV2ExternallyRoutablePrefixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2 nutanix_vpc_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2 nutanix_vpc_v2}
 */
 export class VpcV2 extends cdktf.TerraformResource {
 
@@ -3103,7 +3103,7 @@ export class VpcV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcV2 to import
-  * @param importFromId The id of the existing VpcV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3115,7 +3115,7 @@ export class VpcV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vpc_v2 nutanix_vpc_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vpc_v2 nutanix_vpc_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3126,8 +3126,8 @@ export class VpcV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_vpc_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

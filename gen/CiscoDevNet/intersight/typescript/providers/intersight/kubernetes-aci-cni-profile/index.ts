@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KubernetesAciCniProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of ACI AAEP (Attachable Access Entity Profile) to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#aaep_name KubernetesAciCniProfile#aaep_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#aaep_name KubernetesAciCniProfile#aaep_name}
   */
   readonly aaepName?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#account_moid KubernetesAciCniProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#account_moid KubernetesAciCniProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#ancestors KubernetesAciCniProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#ancestors KubernetesAciCniProfile#ancestors}
   */
   readonly ancestors?: KubernetesAciCniProfileAncestors[] | cdktf.IResolvable;
   /**
@@ -34,53 +34,53 @@ export interface KubernetesAciCniProfileConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to kubernetesAciCniTenantClusterAllocation resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#cluster_aci_allocations KubernetesAciCniProfile#cluster_aci_allocations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#cluster_aci_allocations KubernetesAciCniProfile#cluster_aci_allocations}
   */
   readonly clusterAciAllocations?: KubernetesAciCniProfileClusterAciAllocations[] | cdktf.IResolvable;
   /**
   * An array of relationships to kubernetesClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#cluster_profiles KubernetesAciCniProfile#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#cluster_profiles KubernetesAciCniProfile#cluster_profiles}
   */
   readonly clusterProfiles?: KubernetesAciCniProfileClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#create_time KubernetesAciCniProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#create_time KubernetesAciCniProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#description KubernetesAciCniProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#description KubernetesAciCniProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#domain_group_moid KubernetesAciCniProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#domain_group_moid KubernetesAciCniProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Start of range of IP subnets for external services with dynamic IP allocation for use by Kubernetes clusters using this ACI CNI policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#ext_svc_dyn_subnet_start KubernetesAciCniProfile#ext_svc_dyn_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#ext_svc_dyn_subnet_start KubernetesAciCniProfile#ext_svc_dyn_subnet_start}
   */
   readonly extSvcDynSubnetStart?: string;
   /**
   * Start of range of IP subnets for external services with static IP allocation for use by Kubernetes clusters using this ACI CNI policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#ext_svc_static_subnet_start KubernetesAciCniProfile#ext_svc_static_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#ext_svc_static_subnet_start KubernetesAciCniProfile#ext_svc_static_subnet_start}
   */
   readonly extSvcStaticSubnetStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#id KubernetesAciCniProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#id KubernetesAciCniProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,188 +89,188 @@ export interface KubernetesAciCniProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Value of ACI infrastructuere VLAN ID for the ACI fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#infra_vlan_id KubernetesAciCniProfile#infra_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#infra_vlan_id KubernetesAciCniProfile#infra_vlan_id}
   */
   readonly infraVlanId?: number;
   /**
   * Name of ACI L3Out network to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#l3_out_network_name KubernetesAciCniProfile#l3_out_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#l3_out_network_name KubernetesAciCniProfile#l3_out_network_name}
   */
   readonly l3OutNetworkName?: string;
   /**
   * Name of ACI L3Out policy to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#l3_out_policy_name KubernetesAciCniProfile#l3_out_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#l3_out_policy_name KubernetesAciCniProfile#l3_out_policy_name}
   */
   readonly l3OutPolicyName?: string;
   /**
   * Tenant in ACI used by this L3Out and Common VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#l3_out_tenant KubernetesAciCniProfile#l3_out_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#l3_out_tenant KubernetesAciCniProfile#l3_out_tenant}
   */
   readonly l3OutTenant?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#mod_time KubernetesAciCniProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#mod_time KubernetesAciCniProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#name KubernetesAciCniProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#name KubernetesAciCniProfile#name}
   */
   readonly name?: string;
   /**
   * VMM domain within which Kubernetes clusters using this policy are nested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#nested_vmm_domain KubernetesAciCniProfile#nested_vmm_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#nested_vmm_domain KubernetesAciCniProfile#nested_vmm_domain}
   */
   readonly nestedVmmDomain?: string;
   /**
   * Start of range of ACI Node Service IP subnets to use by Kubernetes clusters using this ACI CNI policy This is used for the service graph which is used for ACI PBR based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#node_svc_subnet_start KubernetesAciCniProfile#node_svc_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#node_svc_subnet_start KubernetesAciCniProfile#node_svc_subnet_start}
   */
   readonly nodeSvcSubnetStart?: string;
   /**
   * Ending value of VLAN range used to assign Node VLAN Ids for each Kubernetes cluster using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#node_vlan_range_end KubernetesAciCniProfile#node_vlan_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#node_vlan_range_end KubernetesAciCniProfile#node_vlan_range_end}
   */
   readonly nodeVlanRangeEnd?: number;
   /**
   * Starting value of VLAN range used to assign Node VLAN Ids for each Kubernetes cluster using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#node_vlan_range_start KubernetesAciCniProfile#node_vlan_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#node_vlan_range_start KubernetesAciCniProfile#node_vlan_range_start}
   */
   readonly nodeVlanRangeStart?: number;
   /**
   * Number of k8s clusters currently using this ACI CNI profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#number_of_kubernetes_clusters KubernetesAciCniProfile#number_of_kubernetes_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#number_of_kubernetes_clusters KubernetesAciCniProfile#number_of_kubernetes_clusters}
   */
   readonly numberOfKubernetesClusters?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Range of IP Multicast addresses to be used by the Opflex protocol for Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#opflex_multicast_address_range KubernetesAciCniProfile#opflex_multicast_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#opflex_multicast_address_range KubernetesAciCniProfile#opflex_multicast_address_range}
   */
   readonly opflexMulticastAddressRange?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#organization KubernetesAciCniProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#organization KubernetesAciCniProfile#organization}
   */
   readonly organization?: KubernetesAciCniProfileOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#owners KubernetesAciCniProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#owners KubernetesAciCniProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#parent KubernetesAciCniProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#parent KubernetesAciCniProfile#parent}
   */
   readonly parent?: KubernetesAciCniProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#permission_resources KubernetesAciCniProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#permission_resources KubernetesAciCniProfile#permission_resources}
   */
   readonly permissionResources?: KubernetesAciCniProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * Start of range of Kubernetes pod IP subnets to use by Kubernetes clusters using this ACI CNI policy This should be a /8 IP subnet so that multiple /16 subnets can be assigned for pod subnets of Kubernetes clusters using this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#pod_subnet_start KubernetesAciCniProfile#pod_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#pod_subnet_start KubernetesAciCniProfile#pod_subnet_start}
   */
   readonly podSubnetStart?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#registered_device KubernetesAciCniProfile#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#registered_device KubernetesAciCniProfile#registered_device}
   */
   readonly registeredDevice?: KubernetesAciCniProfileRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#shared_scope KubernetesAciCniProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#shared_scope KubernetesAciCniProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#src_template KubernetesAciCniProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#src_template KubernetesAciCniProfile#src_template}
   */
   readonly srcTemplate?: KubernetesAciCniProfileSrcTemplate[] | cdktf.IResolvable;
   /**
   * Start of range of Kubernetes Service IP subnets to use by Kubernetes clusters using this ACI CNI policy Currently this is fixed internally and read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#svc_subnet_start KubernetesAciCniProfile#svc_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#svc_subnet_start KubernetesAciCniProfile#svc_subnet_start}
   */
   readonly svcSubnetStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#tags KubernetesAciCniProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#tags KubernetesAciCniProfile#tags}
   */
   readonly tags?: KubernetesAciCniProfileTags[] | cdktf.IResolvable;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#type KubernetesAciCniProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#type KubernetesAciCniProfile#type}
   */
   readonly type?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#version_context KubernetesAciCniProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#version_context KubernetesAciCniProfile#version_context}
   */
   readonly versionContext?: KubernetesAciCniProfileVersionContext[] | cdktf.IResolvable;
   /**
   * VRF (Virtual Routing and Forwarding) domain to be used within ACI fabric by all k8s clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#vrf KubernetesAciCniProfile#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#vrf KubernetesAciCniProfile#vrf}
   */
   readonly vrf?: string;
 }
 export interface KubernetesAciCniProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -502,23 +502,23 @@ export class KubernetesAciCniProfileAncestorsList extends cdktf.ComplexList {
 }
 export interface KubernetesAciCniProfileClusterAciAllocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -750,23 +750,23 @@ export class KubernetesAciCniProfileClusterAciAllocationsList extends cdktf.Comp
 }
 export interface KubernetesAciCniProfileClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -998,23 +998,23 @@ export class KubernetesAciCniProfileClusterProfilesList extends cdktf.ComplexLis
 }
 export interface KubernetesAciCniProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1246,23 +1246,23 @@ export class KubernetesAciCniProfileOrganizationList extends cdktf.ComplexList {
 }
 export interface KubernetesAciCniProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1494,23 +1494,23 @@ export class KubernetesAciCniProfileParentList extends cdktf.ComplexList {
 }
 export interface KubernetesAciCniProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1742,23 +1742,23 @@ export class KubernetesAciCniProfilePermissionResourcesList extends cdktf.Comple
 }
 export interface KubernetesAciCniProfileRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1990,23 +1990,23 @@ export class KubernetesAciCniProfileRegisteredDeviceList extends cdktf.ComplexLi
 }
 export interface KubernetesAciCniProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2238,23 +2238,23 @@ export class KubernetesAciCniProfileSrcTemplateList extends cdktf.ComplexList {
 }
 export interface KubernetesAciCniProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2486,23 +2486,23 @@ export class KubernetesAciCniProfileTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface KubernetesAciCniProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2734,31 +2734,35 @@ export class KubernetesAciCniProfileTagsDefinitionList extends cdktf.ComplexList
 }
 export interface KubernetesAciCniProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#ancestor_definitions KubernetesAciCniProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#ancestor_definitions KubernetesAciCniProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesAciCniProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#definition KubernetesAciCniProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#definition KubernetesAciCniProfile#definition}
   */
   readonly definition?: KubernetesAciCniProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#key KubernetesAciCniProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#key KubernetesAciCniProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#propagated KubernetesAciCniProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#propagated KubernetesAciCniProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#type KubernetesAciCniProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#sys_tag KubernetesAciCniProfile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#type KubernetesAciCniProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#value KubernetesAciCniProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#value KubernetesAciCniProfile#value}
   */
   readonly value?: string;
 }
@@ -2774,6 +2778,7 @@ export function kubernetesAciCniProfileTagsToTerraform(struct?: KubernetesAciCni
     definition: cdktf.listMapper(kubernetesAciCniProfileTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2812,6 +2817,12 @@ export function kubernetesAciCniProfileTagsToHclTerraform(struct?: KubernetesAci
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2874,6 +2885,10 @@ export class KubernetesAciCniProfileTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2894,6 +2909,7 @@ export class KubernetesAciCniProfileTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2909,6 +2925,7 @@ export class KubernetesAciCniProfileTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2994,6 +3011,22 @@ export class KubernetesAciCniProfileTagsOutputReference extends cdktf.ComplexObj
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3048,23 +3081,23 @@ export class KubernetesAciCniProfileTagsList extends cdktf.ComplexList {
 }
 export interface KubernetesAciCniProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3296,23 +3329,23 @@ export class KubernetesAciCniProfileVersionContextInterestedMosList extends cdkt
 }
 export interface KubernetesAciCniProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#moid KubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#selector KubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3544,39 +3577,39 @@ export class KubernetesAciCniProfileVersionContextRefMoList extends cdktf.Comple
 }
 export interface KubernetesAciCniProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#additional_properties KubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#class_id KubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#interested_mos KubernetesAciCniProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#interested_mos KubernetesAciCniProfile#interested_mos}
   */
   readonly interestedMos?: KubernetesAciCniProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#marked_for_deletion KubernetesAciCniProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#marked_for_deletion KubernetesAciCniProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#nr_version KubernetesAciCniProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#nr_version KubernetesAciCniProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#object_type KubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#ref_mo KubernetesAciCniProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#ref_mo KubernetesAciCniProfile#ref_mo}
   */
   readonly refMo?: KubernetesAciCniProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#timestamp KubernetesAciCniProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#timestamp KubernetesAciCniProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#version_type KubernetesAciCniProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#version_type KubernetesAciCniProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -3924,7 +3957,7 @@ export class KubernetesAciCniProfileVersionContextList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile}
 */
 export class KubernetesAciCniProfile extends cdktf.TerraformResource {
 
@@ -3940,7 +3973,7 @@ export class KubernetesAciCniProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAciCniProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAciCniProfile to import
-  * @param importFromId The id of the existing KubernetesAciCniProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAciCniProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAciCniProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3952,7 +3985,7 @@ export class KubernetesAciCniProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3963,8 +3996,8 @@ export class KubernetesAciCniProfile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_aci_cni_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

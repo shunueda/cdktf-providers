@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#id DataNutanixSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#id DataNutanixSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataNutanixSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#metadata DataNutanixSubnets#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#metadata DataNutanixSubnets#metadata}
   */
   readonly metadata?: DataNutanixSubnetsMetadata[] | cdktf.IResolvable;
 }
@@ -425,27 +425,27 @@ export class DataNutanixSubnetsEntitiesList extends cdktf.ComplexList {
 }
 export interface DataNutanixSubnetsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#filter DataNutanixSubnets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#filter DataNutanixSubnets#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#kind DataNutanixSubnets#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#kind DataNutanixSubnets#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#length DataNutanixSubnets#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#length DataNutanixSubnets#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#offset DataNutanixSubnets#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#offset DataNutanixSubnets#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#sort_attribute DataNutanixSubnets#sort_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#sort_attribute DataNutanixSubnets#sort_attribute}
   */
   readonly sortAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#sort_order DataNutanixSubnets#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#sort_order DataNutanixSubnets#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -706,7 +706,7 @@ export class DataNutanixSubnetsMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets nutanix_subnets}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets nutanix_subnets}
 */
 export class DataNutanixSubnets extends cdktf.TerraformDataSource {
 
@@ -722,7 +722,7 @@ export class DataNutanixSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixSubnets to import
-  * @param importFromId The id of the existing DataNutanixSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class DataNutanixSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/subnets nutanix_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/subnets nutanix_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,8 +745,8 @@ export class DataNutanixSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_subnets',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface NdbDbserverVmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#compute_profile_id NdbDbserverVm#compute_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#compute_profile_id NdbDbserverVm#compute_profile_id}
   */
   readonly computeProfileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#database_type NdbDbserverVm#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#database_type NdbDbserverVm#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#delete NdbDbserverVm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#delete NdbDbserverVm#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#delete_vgs NdbDbserverVm#delete_vgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#delete_vgs NdbDbserverVm#delete_vgs}
   */
   readonly deleteVgs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#delete_vm_snapshots NdbDbserverVm#delete_vm_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#delete_vm_snapshots NdbDbserverVm#delete_vm_snapshots}
   */
   readonly deleteVmSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#description NdbDbserverVm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#description NdbDbserverVm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#id NdbDbserverVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#id NdbDbserverVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#latest_snapshot NdbDbserverVm#latest_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#latest_snapshot NdbDbserverVm#latest_snapshot}
   */
   readonly latestSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#network_profile_id NdbDbserverVm#network_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#network_profile_id NdbDbserverVm#network_profile_id}
   */
   readonly networkProfileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#nx_cluster_id NdbDbserverVm#nx_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#nx_cluster_id NdbDbserverVm#nx_cluster_id}
   */
   readonly nxClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#remove NdbDbserverVm#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#remove NdbDbserverVm#remove}
   */
   readonly remove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#snapshot_id NdbDbserverVm#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#snapshot_id NdbDbserverVm#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#soft_remove NdbDbserverVm#soft_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#soft_remove NdbDbserverVm#soft_remove}
   */
   readonly softRemove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#software_profile_id NdbDbserverVm#software_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#software_profile_id NdbDbserverVm#software_profile_id}
   */
   readonly softwareProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#software_profile_version_id NdbDbserverVm#software_profile_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#software_profile_version_id NdbDbserverVm#software_profile_version_id}
   */
   readonly softwareProfileVersionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#time_machine_id NdbDbserverVm#time_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#time_machine_id NdbDbserverVm#time_machine_id}
   */
   readonly timeMachineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#timezone NdbDbserverVm#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#timezone NdbDbserverVm#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#vm_password NdbDbserverVm#vm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#vm_password NdbDbserverVm#vm_password}
   */
   readonly vmPassword?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#credentials NdbDbserverVm#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#credentials NdbDbserverVm#credentials}
   */
   readonly credentials?: NdbDbserverVmCredentials[] | cdktf.IResolvable;
   /**
   * maintenance_tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#maintenance_tasks NdbDbserverVm#maintenance_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#maintenance_tasks NdbDbserverVm#maintenance_tasks}
   */
   readonly maintenanceTasks?: NdbDbserverVmMaintenanceTasks;
   /**
   * postgres_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#postgres_database NdbDbserverVm#postgres_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#postgres_database NdbDbserverVm#postgres_database}
   */
   readonly postgresDatabase?: NdbDbserverVmPostgresDatabase[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#tags NdbDbserverVm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#tags NdbDbserverVm#tags}
   */
   readonly tags?: NdbDbserverVmTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#timeouts NdbDbserverVm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#timeouts NdbDbserverVm#timeouts}
   */
   readonly timeouts?: NdbDbserverVmTimeouts;
 }
@@ -195,15 +195,15 @@ export class NdbDbserverVmPropertiesList extends cdktf.ComplexList {
 }
 export interface NdbDbserverVmCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#label NdbDbserverVm#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#label NdbDbserverVm#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#password NdbDbserverVm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#password NdbDbserverVm#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#username NdbDbserverVm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#username NdbDbserverVm#username}
   */
   readonly username: string;
 }
@@ -371,15 +371,15 @@ export class NdbDbserverVmCredentialsList extends cdktf.ComplexList {
 }
 export interface NdbDbserverVmMaintenanceTasksTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#post_command NdbDbserverVm#post_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#post_command NdbDbserverVm#post_command}
   */
   readonly postCommand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#pre_command NdbDbserverVm#pre_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#pre_command NdbDbserverVm#pre_command}
   */
   readonly preCommand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#task_type NdbDbserverVm#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#task_type NdbDbserverVm#task_type}
   */
   readonly taskType?: string;
 }
@@ -553,13 +553,13 @@ export class NdbDbserverVmMaintenanceTasksTasksList extends cdktf.ComplexList {
 }
 export interface NdbDbserverVmMaintenanceTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#maintenance_window_id NdbDbserverVm#maintenance_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#maintenance_window_id NdbDbserverVm#maintenance_window_id}
   */
   readonly maintenanceWindowId?: string;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#tasks NdbDbserverVm#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#tasks NdbDbserverVm#tasks}
   */
   readonly tasks?: NdbDbserverVmMaintenanceTasksTasks[] | cdktf.IResolvable;
 }
@@ -672,11 +672,11 @@ export class NdbDbserverVmMaintenanceTasksOutputReference extends cdktf.ComplexO
 }
 export interface NdbDbserverVmPostgresDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#client_public_key NdbDbserverVm#client_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#client_public_key NdbDbserverVm#client_public_key}
   */
   readonly clientPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#vm_name NdbDbserverVm#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#vm_name NdbDbserverVm#vm_name}
   */
   readonly vmName: string;
 }
@@ -818,15 +818,15 @@ export class NdbDbserverVmPostgresDatabaseList extends cdktf.ComplexList {
 }
 export interface NdbDbserverVmTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#tag_id NdbDbserverVm#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#tag_id NdbDbserverVm#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#tag_name NdbDbserverVm#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#tag_name NdbDbserverVm#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#value NdbDbserverVm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#value NdbDbserverVm#value}
   */
   readonly value?: string;
 }
@@ -1010,11 +1010,11 @@ export class NdbDbserverVmTagsList extends cdktf.ComplexList {
 }
 export interface NdbDbserverVmTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#create NdbDbserverVm#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#create NdbDbserverVm#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#delete NdbDbserverVm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#delete NdbDbserverVm#delete}
   */
   readonly delete?: string;
 }
@@ -1137,7 +1137,7 @@ export class NdbDbserverVmTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm nutanix_ndb_dbserver_vm}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm nutanix_ndb_dbserver_vm}
 */
 export class NdbDbserverVm extends cdktf.TerraformResource {
 
@@ -1153,7 +1153,7 @@ export class NdbDbserverVm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbDbserverVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbDbserverVm to import
-  * @param importFromId The id of the existing NdbDbserverVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbDbserverVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbDbserverVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1165,7 +1165,7 @@ export class NdbDbserverVm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_dbserver_vm nutanix_ndb_dbserver_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_dbserver_vm nutanix_ndb_dbserver_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1176,8 +1176,8 @@ export class NdbDbserverVm extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_dbserver_vm',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApmSyntheticsOnPremiseVantagePointWorkersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#capability DataOciApmSyntheticsOnPremiseVantagePointWorkers#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#capability DataOciApmSyntheticsOnPremiseVantagePointWorkers#capability}
   */
   readonly capability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#display_name DataOciApmSyntheticsOnPremiseVantagePointWorkers#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#display_name DataOciApmSyntheticsOnPremiseVantagePointWorkers#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#id DataOciApmSyntheticsOnPremiseVantagePointWorkers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#id DataOciApmSyntheticsOnPremiseVantagePointWorkers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#on_premise_vantage_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePointWorkers#on_premise_vantage_point_id}
   */
   readonly onPremiseVantagePointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#status DataOciApmSyntheticsOnPremiseVantagePointWorkers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#status DataOciApmSyntheticsOnPremiseVantagePointWorkers#status}
   */
   readonly status?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#filter DataOciApmSyntheticsOnPremiseVantagePointWorkers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#filter DataOciApmSyntheticsOnPremiseVantagePointWorkers#filter}
   */
   readonly filter?: DataOciApmSyntheticsOnPremiseVantagePointWorkersFilter[] | cdktf.IResolvable;
 }
@@ -578,15 +578,15 @@ export class DataOciApmSyntheticsOnPremiseVantagePointWorkersWorkerCollectionLis
 }
 export interface DataOciApmSyntheticsOnPremiseVantagePointWorkersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#name DataOciApmSyntheticsOnPremiseVantagePointWorkers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#regex DataOciApmSyntheticsOnPremiseVantagePointWorkers#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#regex DataOciApmSyntheticsOnPremiseVantagePointWorkers#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#values DataOciApmSyntheticsOnPremiseVantagePointWorkers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#values DataOciApmSyntheticsOnPremiseVantagePointWorkers#values}
   */
   readonly values: string[];
 }
@@ -754,7 +754,7 @@ export class DataOciApmSyntheticsOnPremiseVantagePointWorkersFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers oci_apm_synthetics_on_premise_vantage_point_workers}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers oci_apm_synthetics_on_premise_vantage_point_workers}
 */
 export class DataOciApmSyntheticsOnPremiseVantagePointWorkers extends cdktf.TerraformDataSource {
 
@@ -770,7 +770,7 @@ export class DataOciApmSyntheticsOnPremiseVantagePointWorkers extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciApmSyntheticsOnPremiseVantagePointWorkers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApmSyntheticsOnPremiseVantagePointWorkers to import
-  * @param importFromId The id of the existing DataOciApmSyntheticsOnPremiseVantagePointWorkers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApmSyntheticsOnPremiseVantagePointWorkers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApmSyntheticsOnPremiseVantagePointWorkers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -782,7 +782,7 @@ export class DataOciApmSyntheticsOnPremiseVantagePointWorkers extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers oci_apm_synthetics_on_premise_vantage_point_workers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_synthetics_on_premise_vantage_point_workers oci_apm_synthetics_on_premise_vantage_point_workers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -793,8 +793,8 @@ export class DataOciApmSyntheticsOnPremiseVantagePointWorkers extends cdktf.Terr
       terraformResourceType: 'oci_apm_synthetics_on_premise_vantage_point_workers',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

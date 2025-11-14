@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLimitsServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#compartment_id DataOciLimitsServices#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#compartment_id DataOciLimitsServices#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#id DataOciLimitsServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#id DataOciLimitsServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#subscription_id DataOciLimitsServices#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#subscription_id DataOciLimitsServices#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#filter DataOciLimitsServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#filter DataOciLimitsServices#filter}
   */
   readonly filter?: DataOciLimitsServicesFilter[] | cdktf.IResolvable;
 }
@@ -116,15 +116,15 @@ export class DataOciLimitsServicesServicesList extends cdktf.ComplexList {
 }
 export interface DataOciLimitsServicesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#name DataOciLimitsServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#name DataOciLimitsServices#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#regex DataOciLimitsServices#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#regex DataOciLimitsServices#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#values DataOciLimitsServices#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#values DataOciLimitsServices#values}
   */
   readonly values: string[];
 }
@@ -292,7 +292,7 @@ export class DataOciLimitsServicesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services oci_limits_services}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services oci_limits_services}
 */
 export class DataOciLimitsServices extends cdktf.TerraformDataSource {
 
@@ -308,7 +308,7 @@ export class DataOciLimitsServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciLimitsServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLimitsServices to import
-  * @param importFromId The id of the existing DataOciLimitsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLimitsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLimitsServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class DataOciLimitsServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_services oci_limits_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_services oci_limits_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class DataOciLimitsServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_limits_services',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

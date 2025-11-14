@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#account_moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#account_moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Comment associated with the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#comment DataIntersightStorageNetAppClusterSnapMirrorPolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#comment DataIntersightStorageNetAppClusterSnapMirrorPolicy#comment}
   */
   readonly comment?: string;
   /**
   * Specifies whether all source Snapshot copies should be copied to the destination on a transfer rather than specifying specific retentions. It is applicable only to async policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#copy_all_source_snapshots DataIntersightStorageNetAppClusterSnapMirrorPolicy#copy_all_source_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#copy_all_source_snapshots DataIntersightStorageNetAppClusterSnapMirrorPolicy#copy_all_source_snapshots}
   */
   readonly copyAllSourceSnapshots?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#create_time DataIntersightStorageNetAppClusterSnapMirrorPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#create_time DataIntersightStorageNetAppClusterSnapMirrorPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#domain_group_moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#domain_group_moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#id DataIntersightStorageNetAppClusterSnapMirrorPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#id DataIntersightStorageNetAppClusterSnapMirrorPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,109 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#mod_time DataIntersightStorageNetAppClusterSnapMirrorPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#mod_time DataIntersightStorageNetAppClusterSnapMirrorPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the NetApp SnapMirror policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#name DataIntersightStorageNetAppClusterSnapMirrorPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#name DataIntersightStorageNetAppClusterSnapMirrorPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#owners DataIntersightStorageNetAppClusterSnapMirrorPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#owners DataIntersightStorageNetAppClusterSnapMirrorPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Identifies whether the SnapMirror policy is owned by the storage virtual machine or the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#scope DataIntersightStorageNetAppClusterSnapMirrorPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#scope DataIntersightStorageNetAppClusterSnapMirrorPolicy#scope}
   */
   readonly scope?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#shared_scope DataIntersightStorageNetAppClusterSnapMirrorPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#shared_scope DataIntersightStorageNetAppClusterSnapMirrorPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SnapMirror policy sync_type is either sync, strict_sync, or automated_failover. Property is applicable only to the policies of type "sync".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#sync_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#sync_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#sync_type}
   */
   readonly syncType?: string;
   /**
   * Name of the schedule used to update asynchronous relationships.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#transfer_schedule_name DataIntersightStorageNetAppClusterSnapMirrorPolicy#transfer_schedule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#transfer_schedule_name DataIntersightStorageNetAppClusterSnapMirrorPolicy#transfer_schedule_name}
   */
   readonly transferScheduleName?: string;
   /**
   * Uuid of the schedule used to update asynchronous relationships.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#transfer_schedule_uuid DataIntersightStorageNetAppClusterSnapMirrorPolicy#transfer_schedule_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#transfer_schedule_uuid DataIntersightStorageNetAppClusterSnapMirrorPolicy#transfer_schedule_uuid}
   */
   readonly transferScheduleUuid?: string;
   /**
   * SnapMirror policy type can be async, sync, or continuous.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#type DataIntersightStorageNetAppClusterSnapMirrorPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#type DataIntersightStorageNetAppClusterSnapMirrorPolicy#type}
   */
   readonly type?: string;
   /**
   * Uuid of the NetApp SnapMirror policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#uuid DataIntersightStorageNetAppClusterSnapMirrorPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#uuid DataIntersightStorageNetAppClusterSnapMirrorPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ancestors DataIntersightStorageNetAppClusterSnapMirrorPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ancestors DataIntersightStorageNetAppClusterSnapMirrorPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppClusterSnapMirrorPolicyAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#array DataIntersightStorageNetAppClusterSnapMirrorPolicy#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#array DataIntersightStorageNetAppClusterSnapMirrorPolicy#array}
   */
   readonly array?: DataIntersightStorageNetAppClusterSnapMirrorPolicyArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#parent DataIntersightStorageNetAppClusterSnapMirrorPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#parent DataIntersightStorageNetAppClusterSnapMirrorPolicy#parent}
   */
   readonly parent?: DataIntersightStorageNetAppClusterSnapMirrorPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#permission_resources DataIntersightStorageNetAppClusterSnapMirrorPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#permission_resources DataIntersightStorageNetAppClusterSnapMirrorPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppClusterSnapMirrorPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#tags DataIntersightStorageNetAppClusterSnapMirrorPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#tags DataIntersightStorageNetAppClusterSnapMirrorPolicy#tags}
   */
   readonly tags?: DataIntersightStorageNetAppClusterSnapMirrorPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#version_context DataIntersightStorageNetAppClusterSnapMirrorPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#version_context DataIntersightStorageNetAppClusterSnapMirrorPolicy#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContext;
 }
@@ -813,6 +813,11 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyResultsTagsOutput
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1352,7 +1357,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyResultsList exten
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1360,19 +1365,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1385,7 +1390,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1617,7 +1622,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyAncestorsList ext
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1625,19 +1630,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1650,7 +1655,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1850,7 +1855,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyArrayOutputRefere
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1858,19 +1863,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1883,7 +1888,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2083,7 +2088,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyParentOutputRefer
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2091,19 +2096,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2116,7 +2121,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2348,7 +2353,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyPermissionResourc
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2356,19 +2361,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2381,7 +2386,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2613,7 +2618,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorDefin
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2621,19 +2626,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2646,7 +2651,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2846,45 +2851,51 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsDefinitionOut
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#key DataIntersightStorageNetAppClusterSnapMirrorPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#key DataIntersightStorageNetAppClusterSnapMirrorPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#propagated DataIntersightStorageNetAppClusterSnapMirrorPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#propagated DataIntersightStorageNetAppClusterSnapMirrorPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#sys_tag DataIntersightStorageNetAppClusterSnapMirrorPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#type DataIntersightStorageNetAppClusterSnapMirrorPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#type DataIntersightStorageNetAppClusterSnapMirrorPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#value DataIntersightStorageNetAppClusterSnapMirrorPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#value DataIntersightStorageNetAppClusterSnapMirrorPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ancestor_definitions DataIntersightStorageNetAppClusterSnapMirrorPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ancestor_definitions DataIntersightStorageNetAppClusterSnapMirrorPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#definition DataIntersightStorageNetAppClusterSnapMirrorPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#definition DataIntersightStorageNetAppClusterSnapMirrorPolicy#definition}
   */
   readonly definition?: DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsDefinition;
 }
@@ -2898,6 +2909,7 @@ export function dataIntersightStorageNetAppClusterSnapMirrorPolicyTagsToTerrafor
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppClusterSnapMirrorPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2926,6 +2938,12 @@ export function dataIntersightStorageNetAppClusterSnapMirrorPolicyTagsToHclTerra
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2992,6 +3010,10 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsOutputReferen
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3018,6 +3040,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsOutputReferen
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3033,6 +3056,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsOutputReferen
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3086,6 +3110,22 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsOutputReferen
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3174,7 +3214,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyTagsList extends 
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3182,19 +3222,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3207,7 +3247,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3439,7 +3479,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextInt
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3447,19 +3487,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#moid DataIntersightStorageNetAppClusterSnapMirrorPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3472,7 +3512,7 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#selector DataIntersightStorageNetAppClusterSnapMirrorPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3672,7 +3712,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextRef
 }
 export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#additional_properties DataIntersightStorageNetAppClusterSnapMirrorPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3680,32 +3720,32 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#class_id DataIntersightStorageNetAppClusterSnapMirrorPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#marked_for_deletion DataIntersightStorageNetAppClusterSnapMirrorPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#marked_for_deletion DataIntersightStorageNetAppClusterSnapMirrorPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#nr_version DataIntersightStorageNetAppClusterSnapMirrorPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#nr_version DataIntersightStorageNetAppClusterSnapMirrorPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#object_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#timestamp DataIntersightStorageNetAppClusterSnapMirrorPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#timestamp DataIntersightStorageNetAppClusterSnapMirrorPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3716,19 +3756,19 @@ export interface DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#version_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#version_type DataIntersightStorageNetAppClusterSnapMirrorPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#interested_mos DataIntersightStorageNetAppClusterSnapMirrorPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#interested_mos DataIntersightStorageNetAppClusterSnapMirrorPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ref_mo DataIntersightStorageNetAppClusterSnapMirrorPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#ref_mo DataIntersightStorageNetAppClusterSnapMirrorPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextRefMo;
 }
@@ -4044,7 +4084,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicyVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy intersight_storage_net_app_cluster_snap_mirror_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy intersight_storage_net_app_cluster_snap_mirror_policy}
 */
 export class DataIntersightStorageNetAppClusterSnapMirrorPolicy extends cdktf.TerraformDataSource {
 
@@ -4060,7 +4100,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicy extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightStorageNetAppClusterSnapMirrorPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppClusterSnapMirrorPolicy to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppClusterSnapMirrorPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppClusterSnapMirrorPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppClusterSnapMirrorPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4072,7 +4112,7 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicy extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cluster_snap_mirror_policy intersight_storage_net_app_cluster_snap_mirror_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cluster_snap_mirror_policy intersight_storage_net_app_cluster_snap_mirror_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4083,8 +4123,8 @@ export class DataIntersightStorageNetAppClusterSnapMirrorPolicy extends cdktf.Te
       terraformResourceType: 'intersight_storage_net_app_cluster_snap_mirror_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

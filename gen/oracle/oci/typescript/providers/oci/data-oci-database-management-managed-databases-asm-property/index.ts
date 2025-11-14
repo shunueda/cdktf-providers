@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabasesAsmPropertyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property#id DataOciDatabaseManagementManagedDatabasesAsmProperty#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property#id DataOciDatabaseManagementManagedDatabasesAsmProperty#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property#managed_database_id DataOciDatabaseManagementManagedDatabasesAsmProperty#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property#managed_database_id DataOciDatabaseManagementManagedDatabasesAsmProperty#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property#name DataOciDatabaseManagementManagedDatabasesAsmProperty#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property#name DataOciDatabaseManagementManagedDatabasesAsmProperty#name}
   */
   readonly name?: string;
 }
@@ -100,7 +100,7 @@ export class DataOciDatabaseManagementManagedDatabasesAsmPropertyItemsList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property oci_database_management_managed_databases_asm_property}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property oci_database_management_managed_databases_asm_property}
 */
 export class DataOciDatabaseManagementManagedDatabasesAsmProperty extends cdktf.TerraformDataSource {
 
@@ -116,7 +116,7 @@ export class DataOciDatabaseManagementManagedDatabasesAsmProperty extends cdktf.
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabasesAsmProperty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabasesAsmProperty to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabasesAsmProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabasesAsmProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabasesAsmProperty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class DataOciDatabaseManagementManagedDatabasesAsmProperty extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_databases_asm_property oci_database_management_managed_databases_asm_property} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_databases_asm_property oci_database_management_managed_databases_asm_property} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class DataOciDatabaseManagementManagedDatabasesAsmProperty extends cdktf.
       terraformResourceType: 'oci_database_management_managed_databases_asm_property',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

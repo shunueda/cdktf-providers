@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourceReservationConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#account_moid DataIntersightResourceReservation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#account_moid DataIntersightResourceReservation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightResourceReservationConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#create_time DataIntersightResourceReservation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#create_time DataIntersightResourceReservation#create_time}
   */
   readonly createTime?: string;
   /**
   * Details of the use case for which the reservation was created, such as decommissioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#description DataIntersightResourceReservation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#description DataIntersightResourceReservation#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#domain_group_moid DataIntersightResourceReservation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#domain_group_moid DataIntersightResourceReservation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The resource reservation includes an expiration date and a timestamp indicating when this management object will be cleared. The expiration date is set during the decommissioning process and is maintained for a period of 3 months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#expiration DataIntersightResourceReservation#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#expiration DataIntersightResourceReservation#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#id DataIntersightResourceReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#id DataIntersightResourceReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,53 +59,53 @@ export interface DataIntersightResourceReservationConfig extends cdktf.Terraform
   /**
   * MarkFail is used to set the reservation status to Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#mark_fail DataIntersightResourceReservation#mark_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#mark_fail DataIntersightResourceReservation#mark_fail}
   */
   readonly markFail?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#mod_time DataIntersightResourceReservation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#mod_time DataIntersightResourceReservation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#owners DataIntersightResourceReservation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#owners DataIntersightResourceReservation#owners}
   */
   readonly owners?: string[];
   /**
   * The unique identification of the resource is based on the resource OData string, which is mentioned as part of the ReservationSelector. For example, 'Serial eq 'EM6259AE6B'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#reservation_selector DataIntersightResourceReservation#reservation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#reservation_selector DataIntersightResourceReservation#reservation_selector}
   */
   readonly reservationSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#resource_moids DataIntersightResourceReservation#resource_moids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#resource_moids DataIntersightResourceReservation#resource_moids}
   */
   readonly resourceMoids?: string[];
   /**
   * The type of resource that is placed into resource groups or pools. Resource Type can be either 'compute.Blade' or 'compute.RackUnit' for pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#resource_type DataIntersightResourceReservation#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#resource_type DataIntersightResourceReservation#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#shared_scope DataIntersightResourceReservation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#shared_scope DataIntersightResourceReservation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -115,67 +115,67 @@ export interface DataIntersightResourceReservationConfig extends cdktf.Terraform
   * * `Failed` - A reservation is changed to Failed status if the validations on resources, resource groups fails.
   * * `Finished` - A reservation is changed to Finished status if the validations on resources, resource groups are successful. The resource moids in reservation will be added to resource groups using OData filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#status DataIntersightResourceReservation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#status DataIntersightResourceReservation#status}
   */
   readonly status?: string;
   /**
   * Moid of the user who created the reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#user_moid DataIntersightResourceReservation#user_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#user_moid DataIntersightResourceReservation#user_moid}
   */
   readonly userMoid?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#account DataIntersightResourceReservation#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#account DataIntersightResourceReservation#account}
   */
   readonly account?: DataIntersightResourceReservationAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#ancestors DataIntersightResourceReservation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#ancestors DataIntersightResourceReservation#ancestors}
   */
   readonly ancestors?: DataIntersightResourceReservationAncestors[] | cdktf.IResolvable;
   /**
   * custom_permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#custom_permission_resources DataIntersightResourceReservation#custom_permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#custom_permission_resources DataIntersightResourceReservation#custom_permission_resources}
   */
   readonly customPermissionResources?: DataIntersightResourceReservationCustomPermissionResources[] | cdktf.IResolvable;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#groups DataIntersightResourceReservation#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#groups DataIntersightResourceReservation#groups}
   */
   readonly groups?: DataIntersightResourceReservationGroups[] | cdktf.IResolvable;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#identity DataIntersightResourceReservation#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#identity DataIntersightResourceReservation#identity}
   */
   readonly identity?: DataIntersightResourceReservationIdentity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#parent DataIntersightResourceReservation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#parent DataIntersightResourceReservation#parent}
   */
   readonly parent?: DataIntersightResourceReservationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#permission_resources DataIntersightResourceReservation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#permission_resources DataIntersightResourceReservation#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourceReservationPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#tags DataIntersightResourceReservation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#tags DataIntersightResourceReservation#tags}
   */
   readonly tags?: DataIntersightResourceReservationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#version_context DataIntersightResourceReservation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#version_context DataIntersightResourceReservation#version_context}
   */
   readonly versionContext?: DataIntersightResourceReservationVersionContext;
 }
@@ -1112,6 +1112,11 @@ export class DataIntersightResourceReservationResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1664,7 +1669,7 @@ export class DataIntersightResourceReservationResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightResourceReservationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1672,19 +1677,19 @@ export interface DataIntersightResourceReservationAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1697,7 +1702,7 @@ export interface DataIntersightResourceReservationAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -1897,7 +1902,7 @@ export class DataIntersightResourceReservationAccountOutputReference extends cdk
 }
 export interface DataIntersightResourceReservationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1905,19 +1910,19 @@ export interface DataIntersightResourceReservationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1930,7 +1935,7 @@ export interface DataIntersightResourceReservationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2162,7 +2167,7 @@ export class DataIntersightResourceReservationAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightResourceReservationCustomPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2170,19 +2175,19 @@ export interface DataIntersightResourceReservationCustomPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2195,7 +2200,7 @@ export interface DataIntersightResourceReservationCustomPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2427,7 +2432,7 @@ export class DataIntersightResourceReservationCustomPermissionResourcesList exte
 }
 export interface DataIntersightResourceReservationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2435,19 +2440,19 @@ export interface DataIntersightResourceReservationGroups {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2460,7 +2465,7 @@ export interface DataIntersightResourceReservationGroups {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2692,7 +2697,7 @@ export class DataIntersightResourceReservationGroupsList extends cdktf.ComplexLi
 }
 export interface DataIntersightResourceReservationIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2700,19 +2705,19 @@ export interface DataIntersightResourceReservationIdentity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2725,7 +2730,7 @@ export interface DataIntersightResourceReservationIdentity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2925,7 +2930,7 @@ export class DataIntersightResourceReservationIdentityOutputReference extends cd
 }
 export interface DataIntersightResourceReservationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2933,19 +2938,19 @@ export interface DataIntersightResourceReservationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2958,7 +2963,7 @@ export interface DataIntersightResourceReservationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3158,7 +3163,7 @@ export class DataIntersightResourceReservationParentOutputReference extends cdkt
 }
 export interface DataIntersightResourceReservationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3166,19 +3171,19 @@ export interface DataIntersightResourceReservationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3191,7 +3196,7 @@ export interface DataIntersightResourceReservationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3423,7 +3428,7 @@ export class DataIntersightResourceReservationPermissionResourcesList extends cd
 }
 export interface DataIntersightResourceReservationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3431,19 +3436,19 @@ export interface DataIntersightResourceReservationTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3456,7 +3461,7 @@ export interface DataIntersightResourceReservationTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3688,7 +3693,7 @@ export class DataIntersightResourceReservationTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightResourceReservationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3696,19 +3701,19 @@ export interface DataIntersightResourceReservationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3721,7 +3726,7 @@ export interface DataIntersightResourceReservationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3921,45 +3926,51 @@ export class DataIntersightResourceReservationTagsDefinitionOutputReference exte
 }
 export interface DataIntersightResourceReservationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#key DataIntersightResourceReservation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#key DataIntersightResourceReservation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#propagated DataIntersightResourceReservation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#propagated DataIntersightResourceReservation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#sys_tag DataIntersightResourceReservation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#type DataIntersightResourceReservation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#type DataIntersightResourceReservation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#value DataIntersightResourceReservation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#value DataIntersightResourceReservation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#ancestor_definitions DataIntersightResourceReservation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#ancestor_definitions DataIntersightResourceReservation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourceReservationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#definition DataIntersightResourceReservation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#definition DataIntersightResourceReservation#definition}
   */
   readonly definition?: DataIntersightResourceReservationTagsDefinition;
 }
@@ -3973,6 +3984,7 @@ export function dataIntersightResourceReservationTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightResourceReservationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4001,6 +4013,12 @@ export function dataIntersightResourceReservationTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4067,6 +4085,10 @@ export class DataIntersightResourceReservationTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4093,6 +4115,7 @@ export class DataIntersightResourceReservationTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4108,6 +4131,7 @@ export class DataIntersightResourceReservationTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4161,6 +4185,22 @@ export class DataIntersightResourceReservationTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4249,7 +4289,7 @@ export class DataIntersightResourceReservationTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightResourceReservationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4257,19 +4297,19 @@ export interface DataIntersightResourceReservationVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4282,7 +4322,7 @@ export interface DataIntersightResourceReservationVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4514,7 +4554,7 @@ export class DataIntersightResourceReservationVersionContextInterestedMosList ex
 }
 export interface DataIntersightResourceReservationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4522,19 +4562,19 @@ export interface DataIntersightResourceReservationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#moid DataIntersightResourceReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4547,7 +4587,7 @@ export interface DataIntersightResourceReservationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#selector DataIntersightResourceReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4747,7 +4787,7 @@ export class DataIntersightResourceReservationVersionContextRefMoOutputReference
 }
 export interface DataIntersightResourceReservationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#additional_properties DataIntersightResourceReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4755,32 +4795,32 @@ export interface DataIntersightResourceReservationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#class_id DataIntersightResourceReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#marked_for_deletion DataIntersightResourceReservation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#marked_for_deletion DataIntersightResourceReservation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#nr_version DataIntersightResourceReservation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#nr_version DataIntersightResourceReservation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#object_type DataIntersightResourceReservation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#timestamp DataIntersightResourceReservation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#timestamp DataIntersightResourceReservation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4791,19 +4831,19 @@ export interface DataIntersightResourceReservationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#version_type DataIntersightResourceReservation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#version_type DataIntersightResourceReservation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#interested_mos DataIntersightResourceReservation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#interested_mos DataIntersightResourceReservation#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourceReservationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#ref_mo DataIntersightResourceReservation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#ref_mo DataIntersightResourceReservation#ref_mo}
   */
   readonly refMo?: DataIntersightResourceReservationVersionContextRefMo;
 }
@@ -5119,7 +5159,7 @@ export class DataIntersightResourceReservationVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation intersight_resource_reservation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation intersight_resource_reservation}
 */
 export class DataIntersightResourceReservation extends cdktf.TerraformDataSource {
 
@@ -5135,7 +5175,7 @@ export class DataIntersightResourceReservation extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightResourceReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourceReservation to import
-  * @param importFromId The id of the existing DataIntersightResourceReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourceReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourceReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5147,7 +5187,7 @@ export class DataIntersightResourceReservation extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_reservation intersight_resource_reservation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_reservation intersight_resource_reservation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5158,8 +5198,8 @@ export class DataIntersightResourceReservation extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_resource_reservation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

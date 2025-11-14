@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DirectoryServicesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#directory_type DirectoryServicesV2#directory_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#directory_type DirectoryServicesV2#directory_type}
   */
   readonly directoryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#domain_name DirectoryServicesV2#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#domain_name DirectoryServicesV2#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#ext_id DirectoryServicesV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#ext_id DirectoryServicesV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#group_search_type DirectoryServicesV2#group_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#group_search_type DirectoryServicesV2#group_search_type}
   */
   readonly groupSearchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#id DirectoryServicesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#id DirectoryServicesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#name DirectoryServicesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#name DirectoryServicesV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#secondary_urls DirectoryServicesV2#secondary_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#secondary_urls DirectoryServicesV2#secondary_urls}
   */
   readonly secondaryUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#url DirectoryServicesV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#url DirectoryServicesV2#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#white_listed_groups DirectoryServicesV2#white_listed_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#white_listed_groups DirectoryServicesV2#white_listed_groups}
   */
   readonly whiteListedGroups?: string[];
   /**
   * open_ldap_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#open_ldap_configuration DirectoryServicesV2#open_ldap_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#open_ldap_configuration DirectoryServicesV2#open_ldap_configuration}
   */
   readonly openLdapConfiguration?: DirectoryServicesV2OpenLdapConfiguration[] | cdktf.IResolvable;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#service_account DirectoryServicesV2#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#service_account DirectoryServicesV2#service_account}
   */
   readonly serviceAccount: DirectoryServicesV2ServiceAccount[] | cdktf.IResolvable;
 }
 export interface DirectoryServicesV2OpenLdapConfigurationUserConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#user_object_class DirectoryServicesV2#user_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#user_object_class DirectoryServicesV2#user_object_class}
   */
   readonly userObjectClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#user_search_base DirectoryServicesV2#user_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#user_search_base DirectoryServicesV2#user_search_base}
   */
   readonly userSearchBase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#username_attribute DirectoryServicesV2#username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#username_attribute DirectoryServicesV2#username_attribute}
   */
   readonly usernameAttribute: string;
 }
@@ -234,19 +234,19 @@ export class DirectoryServicesV2OpenLdapConfigurationUserConfigurationList exten
 }
 export interface DirectoryServicesV2OpenLdapConfigurationUserGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#group_member_attribute DirectoryServicesV2#group_member_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#group_member_attribute DirectoryServicesV2#group_member_attribute}
   */
   readonly groupMemberAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#group_member_attribute_value DirectoryServicesV2#group_member_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#group_member_attribute_value DirectoryServicesV2#group_member_attribute_value}
   */
   readonly groupMemberAttributeValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#group_object_class DirectoryServicesV2#group_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#group_object_class DirectoryServicesV2#group_object_class}
   */
   readonly groupObjectClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#group_search_base DirectoryServicesV2#group_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#group_search_base DirectoryServicesV2#group_search_base}
   */
   readonly groupSearchBase: string;
 }
@@ -439,13 +439,13 @@ export interface DirectoryServicesV2OpenLdapConfiguration {
   /**
   * user_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#user_configuration DirectoryServicesV2#user_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#user_configuration DirectoryServicesV2#user_configuration}
   */
   readonly userConfiguration: DirectoryServicesV2OpenLdapConfigurationUserConfiguration[] | cdktf.IResolvable;
   /**
   * user_group_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#user_group_configuration DirectoryServicesV2#user_group_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#user_group_configuration DirectoryServicesV2#user_group_configuration}
   */
   readonly userGroupConfiguration: DirectoryServicesV2OpenLdapConfigurationUserGroupConfiguration[] | cdktf.IResolvable;
 }
@@ -584,11 +584,11 @@ export class DirectoryServicesV2OpenLdapConfigurationList extends cdktf.ComplexL
 }
 export interface DirectoryServicesV2ServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#password DirectoryServicesV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#password DirectoryServicesV2#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#username DirectoryServicesV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#username DirectoryServicesV2#username}
   */
   readonly username: string;
 }
@@ -727,7 +727,7 @@ export class DirectoryServicesV2ServiceAccountList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2 nutanix_directory_services_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2 nutanix_directory_services_v2}
 */
 export class DirectoryServicesV2 extends cdktf.TerraformResource {
 
@@ -743,7 +743,7 @@ export class DirectoryServicesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectoryServicesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectoryServicesV2 to import
-  * @param importFromId The id of the existing DirectoryServicesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectoryServicesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectoryServicesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -755,7 +755,7 @@ export class DirectoryServicesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/directory_services_v2 nutanix_directory_services_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/directory_services_v2 nutanix_directory_services_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -766,8 +766,8 @@ export class DirectoryServicesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_directory_services_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface NdbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#agent_vm_prefix NdbCluster#agent_vm_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#agent_vm_prefix NdbCluster#agent_vm_prefix}
   */
   readonly agentVmPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#cluster_ip NdbCluster#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#cluster_ip NdbCluster#cluster_ip}
   */
   readonly clusterIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#cluster_type NdbCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#cluster_type NdbCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#description NdbCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#description NdbCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#name NdbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#name NdbCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#password NdbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#password NdbCluster#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#port NdbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#port NdbCluster#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#protocol NdbCluster#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#protocol NdbCluster#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#storage_container NdbCluster#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#storage_container NdbCluster#storage_container}
   */
   readonly storageContainer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#username NdbCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#username NdbCluster#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#version NdbCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#version NdbCluster#version}
   */
   readonly version?: string;
   /**
   * agent_network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#agent_network_info NdbCluster#agent_network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#agent_network_info NdbCluster#agent_network_info}
   */
   readonly agentNetworkInfo: NdbClusterAgentNetworkInfo[] | cdktf.IResolvable;
   /**
   * networks_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#networks_info NdbCluster#networks_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#networks_info NdbCluster#networks_info}
   */
   readonly networksInfo: NdbClusterNetworksInfo[] | cdktf.IResolvable;
 }
@@ -1701,11 +1701,11 @@ export class NdbClusterResourceConfigList extends cdktf.ComplexList {
 }
 export interface NdbClusterAgentNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#dns NdbCluster#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#dns NdbCluster#dns}
   */
   readonly dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#ntp NdbCluster#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#ntp NdbCluster#ntp}
   */
   readonly ntp?: string;
 }
@@ -1850,19 +1850,19 @@ export class NdbClusterAgentNetworkInfoList extends cdktf.ComplexList {
 }
 export interface NdbClusterNetworksInfoNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#gateway NdbCluster#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#gateway NdbCluster#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#static_ip NdbCluster#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#static_ip NdbCluster#static_ip}
   */
   readonly staticIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#subnet_mask NdbCluster#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#subnet_mask NdbCluster#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#vlan_name NdbCluster#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#vlan_name NdbCluster#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -2065,17 +2065,17 @@ export class NdbClusterNetworksInfoNetworkInfoList extends cdktf.ComplexList {
 }
 export interface NdbClusterNetworksInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#access_type NdbCluster#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#access_type NdbCluster#access_type}
   */
   readonly accessType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#type NdbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#type NdbCluster#type}
   */
   readonly type?: string;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#network_info NdbCluster#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#network_info NdbCluster#network_info}
   */
   readonly networkInfo?: NdbClusterNetworksInfoNetworkInfo[] | cdktf.IResolvable;
 }
@@ -2249,7 +2249,7 @@ export class NdbClusterNetworksInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster nutanix_ndb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster nutanix_ndb_cluster}
 */
 export class NdbCluster extends cdktf.TerraformResource {
 
@@ -2265,7 +2265,7 @@ export class NdbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbCluster to import
-  * @param importFromId The id of the existing NdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2277,7 +2277,7 @@ export class NdbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_cluster nutanix_ndb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_cluster nutanix_ndb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2288,8 +2288,8 @@ export class NdbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightStorageNetAppCifsServiceConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#account_moid DataIntersightStorageNetAppCifsService#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#account_moid DataIntersightStorageNetAppCifsService#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * The fully qualified domain name of the Windows Active Directory to which this CIFS server belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#active_directory_fqdn DataIntersightStorageNetAppCifsService#active_directory_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#active_directory_fqdn DataIntersightStorageNetAppCifsService#active_directory_fqdn}
   */
   readonly activeDirectoryFqdn?: string;
   /**
   * Identifies the organizational unit within the Active Directory domain to associate with the CIFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#ad_organizational_unit DataIntersightStorageNetAppCifsService#ad_organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#ad_organizational_unit DataIntersightStorageNetAppCifsService#ad_organizational_unit}
   */
   readonly adOrganizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -34,35 +34,35 @@ export interface DataIntersightStorageNetAppCifsServiceConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * A descriptive text comment for the CIFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#comment DataIntersightStorageNetAppCifsService#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#comment DataIntersightStorageNetAppCifsService#comment}
   */
   readonly comment?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#create_time DataIntersightStorageNetAppCifsService#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#create_time DataIntersightStorageNetAppCifsService#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#domain_group_moid DataIntersightStorageNetAppCifsService#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#domain_group_moid DataIntersightStorageNetAppCifsService#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Indicates that the CIFS service is administratively enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#enabled DataIntersightStorageNetAppCifsService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#enabled DataIntersightStorageNetAppCifsService#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#id DataIntersightStorageNetAppCifsService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#id DataIntersightStorageNetAppCifsService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,85 +71,85 @@ export interface DataIntersightStorageNetAppCifsServiceConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#mod_time DataIntersightStorageNetAppCifsService#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#mod_time DataIntersightStorageNetAppCifsService#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#owners DataIntersightStorageNetAppCifsService#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#owners DataIntersightStorageNetAppCifsService#owners}
   */
   readonly owners?: string[];
   /**
   * Name of the NetApp CIFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#server_name DataIntersightStorageNetAppCifsService#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#server_name DataIntersightStorageNetAppCifsService#server_name}
   */
   readonly serverName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#shared_scope DataIntersightStorageNetAppCifsService#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#shared_scope DataIntersightStorageNetAppCifsService#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The storage virtual machine name for the CIFS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#svm_name DataIntersightStorageNetAppCifsService#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#svm_name DataIntersightStorageNetAppCifsService#svm_name}
   */
   readonly svmName?: string;
   /**
   * Unique identifier for the NetApp Storage Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#svm_uuid DataIntersightStorageNetAppCifsService#svm_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#svm_uuid DataIntersightStorageNetAppCifsService#svm_uuid}
   */
   readonly svmUuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#ancestors DataIntersightStorageNetAppCifsService#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#ancestors DataIntersightStorageNetAppCifsService#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppCifsServiceAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#parent DataIntersightStorageNetAppCifsService#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#parent DataIntersightStorageNetAppCifsService#parent}
   */
   readonly parent?: DataIntersightStorageNetAppCifsServiceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#permission_resources DataIntersightStorageNetAppCifsService#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#permission_resources DataIntersightStorageNetAppCifsService#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppCifsServicePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#tags DataIntersightStorageNetAppCifsService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#tags DataIntersightStorageNetAppCifsService#tags}
   */
   readonly tags?: DataIntersightStorageNetAppCifsServiceTags[] | cdktf.IResolvable;
   /**
   * tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#tenant DataIntersightStorageNetAppCifsService#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#tenant DataIntersightStorageNetAppCifsService#tenant}
   */
   readonly tenant?: DataIntersightStorageNetAppCifsServiceTenant;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#version_context DataIntersightStorageNetAppCifsService#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#version_context DataIntersightStorageNetAppCifsService#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppCifsServiceVersionContext;
 }
@@ -704,6 +704,11 @@ export class DataIntersightStorageNetAppCifsServiceResultsTagsOutputReference ex
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1330,7 +1335,7 @@ export class DataIntersightStorageNetAppCifsServiceResultsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppCifsServiceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1338,19 +1343,19 @@ export interface DataIntersightStorageNetAppCifsServiceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1363,7 +1368,7 @@ export interface DataIntersightStorageNetAppCifsServiceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -1595,7 +1600,7 @@ export class DataIntersightStorageNetAppCifsServiceAncestorsList extends cdktf.C
 }
 export interface DataIntersightStorageNetAppCifsServiceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1603,19 +1608,19 @@ export interface DataIntersightStorageNetAppCifsServiceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1628,7 +1633,7 @@ export interface DataIntersightStorageNetAppCifsServiceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -1828,7 +1833,7 @@ export class DataIntersightStorageNetAppCifsServiceParentOutputReference extends
 }
 export interface DataIntersightStorageNetAppCifsServicePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1836,19 +1841,19 @@ export interface DataIntersightStorageNetAppCifsServicePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1861,7 +1866,7 @@ export interface DataIntersightStorageNetAppCifsServicePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -2093,7 +2098,7 @@ export class DataIntersightStorageNetAppCifsServicePermissionResourcesList exten
 }
 export interface DataIntersightStorageNetAppCifsServiceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,19 +2106,19 @@ export interface DataIntersightStorageNetAppCifsServiceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2126,7 +2131,7 @@ export interface DataIntersightStorageNetAppCifsServiceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -2358,7 +2363,7 @@ export class DataIntersightStorageNetAppCifsServiceTagsAncestorDefinitionsList e
 }
 export interface DataIntersightStorageNetAppCifsServiceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2366,19 +2371,19 @@ export interface DataIntersightStorageNetAppCifsServiceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2391,7 +2396,7 @@ export interface DataIntersightStorageNetAppCifsServiceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -2591,45 +2596,51 @@ export class DataIntersightStorageNetAppCifsServiceTagsDefinitionOutputReference
 }
 export interface DataIntersightStorageNetAppCifsServiceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#key DataIntersightStorageNetAppCifsService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#key DataIntersightStorageNetAppCifsService#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#propagated DataIntersightStorageNetAppCifsService#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#propagated DataIntersightStorageNetAppCifsService#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#sys_tag DataIntersightStorageNetAppCifsService#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#type DataIntersightStorageNetAppCifsService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#type DataIntersightStorageNetAppCifsService#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#value DataIntersightStorageNetAppCifsService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#value DataIntersightStorageNetAppCifsService#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#ancestor_definitions DataIntersightStorageNetAppCifsService#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#ancestor_definitions DataIntersightStorageNetAppCifsService#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppCifsServiceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#definition DataIntersightStorageNetAppCifsService#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#definition DataIntersightStorageNetAppCifsService#definition}
   */
   readonly definition?: DataIntersightStorageNetAppCifsServiceTagsDefinition;
 }
@@ -2643,6 +2654,7 @@ export function dataIntersightStorageNetAppCifsServiceTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppCifsServiceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2671,6 +2683,12 @@ export function dataIntersightStorageNetAppCifsServiceTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2737,6 +2755,10 @@ export class DataIntersightStorageNetAppCifsServiceTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2763,6 +2785,7 @@ export class DataIntersightStorageNetAppCifsServiceTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2778,6 +2801,7 @@ export class DataIntersightStorageNetAppCifsServiceTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2831,6 +2855,22 @@ export class DataIntersightStorageNetAppCifsServiceTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2919,7 +2959,7 @@ export class DataIntersightStorageNetAppCifsServiceTagsList extends cdktf.Comple
 }
 export interface DataIntersightStorageNetAppCifsServiceTenant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2927,19 +2967,19 @@ export interface DataIntersightStorageNetAppCifsServiceTenant {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2952,7 +2992,7 @@ export interface DataIntersightStorageNetAppCifsServiceTenant {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -3152,7 +3192,7 @@ export class DataIntersightStorageNetAppCifsServiceTenantOutputReference extends
 }
 export interface DataIntersightStorageNetAppCifsServiceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3160,19 +3200,19 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3185,7 +3225,7 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -3417,7 +3457,7 @@ export class DataIntersightStorageNetAppCifsServiceVersionContextInterestedMosLi
 }
 export interface DataIntersightStorageNetAppCifsServiceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3425,19 +3465,19 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#moid DataIntersightStorageNetAppCifsService#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3450,7 +3490,7 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#selector DataIntersightStorageNetAppCifsService#selector}
   */
   readonly selector?: string;
 }
@@ -3650,7 +3690,7 @@ export class DataIntersightStorageNetAppCifsServiceVersionContextRefMoOutputRefe
 }
 export interface DataIntersightStorageNetAppCifsServiceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#additional_properties DataIntersightStorageNetAppCifsService#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3658,32 +3698,32 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#class_id DataIntersightStorageNetAppCifsService#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#marked_for_deletion DataIntersightStorageNetAppCifsService#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#marked_for_deletion DataIntersightStorageNetAppCifsService#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#nr_version DataIntersightStorageNetAppCifsService#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#nr_version DataIntersightStorageNetAppCifsService#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#object_type DataIntersightStorageNetAppCifsService#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#timestamp DataIntersightStorageNetAppCifsService#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#timestamp DataIntersightStorageNetAppCifsService#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3694,19 +3734,19 @@ export interface DataIntersightStorageNetAppCifsServiceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#version_type DataIntersightStorageNetAppCifsService#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#version_type DataIntersightStorageNetAppCifsService#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#interested_mos DataIntersightStorageNetAppCifsService#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#interested_mos DataIntersightStorageNetAppCifsService#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppCifsServiceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#ref_mo DataIntersightStorageNetAppCifsService#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#ref_mo DataIntersightStorageNetAppCifsService#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppCifsServiceVersionContextRefMo;
 }
@@ -4022,7 +4062,7 @@ export class DataIntersightStorageNetAppCifsServiceVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service intersight_storage_net_app_cifs_service}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service intersight_storage_net_app_cifs_service}
 */
 export class DataIntersightStorageNetAppCifsService extends cdktf.TerraformDataSource {
 
@@ -4038,7 +4078,7 @@ export class DataIntersightStorageNetAppCifsService extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightStorageNetAppCifsService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppCifsService to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppCifsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppCifsService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppCifsService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4050,7 +4090,7 @@ export class DataIntersightStorageNetAppCifsService extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cifs_service intersight_storage_net_app_cifs_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cifs_service intersight_storage_net_app_cifs_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4061,8 +4101,8 @@ export class DataIntersightStorageNetAppCifsService extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_net_app_cifs_service',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

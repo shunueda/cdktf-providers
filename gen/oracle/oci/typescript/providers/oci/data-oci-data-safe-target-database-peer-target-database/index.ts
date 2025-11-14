@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeTargetDatabasePeerTargetDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database#peer_target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#peer_target_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database#peer_target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#peer_target_database_id}
   */
   readonly peerTargetDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#target_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#target_database_id}
   */
   readonly targetDatabaseId: string;
 }
@@ -233,7 +233,7 @@ export class DataOciDataSafeTargetDatabasePeerTargetDatabaseTlsConfigList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database oci_data_safe_target_database_peer_target_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database oci_data_safe_target_database_peer_target_database}
 */
 export class DataOciDataSafeTargetDatabasePeerTargetDatabase extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataOciDataSafeTargetDatabasePeerTargetDatabase extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciDataSafeTargetDatabasePeerTargetDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeTargetDatabasePeerTargetDatabase to import
-  * @param importFromId The id of the existing DataOciDataSafeTargetDatabasePeerTargetDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeTargetDatabasePeerTargetDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeTargetDatabasePeerTargetDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataOciDataSafeTargetDatabasePeerTargetDatabase extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_peer_target_database oci_data_safe_target_database_peer_target_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_peer_target_database oci_data_safe_target_database_peer_target_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataOciDataSafeTargetDatabasePeerTargetDatabase extends cdktf.Terra
       terraformResourceType: 'oci_data_safe_target_database_peer_target_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

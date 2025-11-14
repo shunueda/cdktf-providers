@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface SchedulerTaskScheduleConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#account_moid SchedulerTaskSchedule#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#account_moid SchedulerTaskSchedule#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -20,24 +20,24 @@ export interface SchedulerTaskScheduleConfig extends cdktf.TerraformMetaArgument
   * * `Resume` - Resume a suspended scheduled task.
   * * `SuspendTill` - Suspend the scheduled task until a specified end-date. Not supported in this release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#action SchedulerTaskSchedule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#action SchedulerTaskSchedule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#ancestors SchedulerTaskSchedule#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#ancestors SchedulerTaskSchedule#ancestors}
   */
   readonly ancestors?: SchedulerTaskScheduleAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#associated_object SchedulerTaskSchedule#associated_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#associated_object SchedulerTaskSchedule#associated_object}
   */
   readonly associatedObject?: SchedulerTaskScheduleAssociatedObject[] | cdktf.IResolvable;
   /**
@@ -45,33 +45,33 @@ export interface SchedulerTaskScheduleConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#create_time SchedulerTaskSchedule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#create_time SchedulerTaskSchedule#create_time}
   */
   readonly createTime?: string;
   /**
   * A description to describe the schedule for easier identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#description SchedulerTaskSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#description SchedulerTaskSchedule#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#domain_group_moid SchedulerTaskSchedule#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#domain_group_moid SchedulerTaskSchedule#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#execution_statuses SchedulerTaskSchedule#execution_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#execution_statuses SchedulerTaskSchedule#execution_statuses}
   */
   readonly executionStatuses?: SchedulerTaskScheduleExecutionStatuses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#id SchedulerTaskSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#id SchedulerTaskSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,91 +84,91 @@ export interface SchedulerTaskScheduleConfig extends cdktf.TerraformMetaArgument
   * * `Resume` - Resume a suspended scheduled task.
   * * `SuspendTill` - Suspend the scheduled task until a specified end-date. Not supported in this release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#last_action SchedulerTaskSchedule#last_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#last_action SchedulerTaskSchedule#last_action}
   */
   readonly lastAction?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#mod_time SchedulerTaskSchedule#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#mod_time SchedulerTaskSchedule#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
   * A schedule name for easier identification (not required to be unique).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#owners SchedulerTaskSchedule#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#owners SchedulerTaskSchedule#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#parent SchedulerTaskSchedule#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#parent SchedulerTaskSchedule#parent}
   */
   readonly parent?: SchedulerTaskScheduleParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#permission_resources SchedulerTaskSchedule#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#permission_resources SchedulerTaskSchedule#permission_resources}
   */
   readonly permissionResources?: SchedulerTaskSchedulePermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a schedulerSchedulePolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#policy SchedulerTaskSchedule#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#policy SchedulerTaskSchedule#policy}
   */
   readonly policy?: SchedulerTaskSchedulePolicy[] | cdktf.IResolvable;
   /**
   * According to the schedule type this property is evaluated. If the property Type is set to OneTime, then the ObjectType must be scheduler.OneTimeScheduleParams. If the Type is Recurring, then the ObjectType must be scheduler.RecurringScheduleParams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#schedule_params SchedulerTaskSchedule#schedule_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#schedule_params SchedulerTaskSchedule#schedule_params}
   */
   readonly scheduleParams?: SchedulerTaskScheduleScheduleParams[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#shared_scope SchedulerTaskSchedule#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#shared_scope SchedulerTaskSchedule#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Status of the current scheduled task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#status SchedulerTaskSchedule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#status SchedulerTaskSchedule#status}
   */
   readonly status?: SchedulerTaskScheduleStatus[] | cdktf.IResolvable;
   /**
   * Suspend a task until an end date. this applies only to the action suspendTill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#suspend_end_time SchedulerTaskSchedule#suspend_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#suspend_end_time SchedulerTaskSchedule#suspend_end_time}
   */
   readonly suspendEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#tags SchedulerTaskSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#tags SchedulerTaskSchedule#tags}
   */
   readonly tags?: SchedulerTaskScheduleTags[] | cdktf.IResolvable;
   /**
   * According to the schedule type the recurring params are populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#task_request SchedulerTaskSchedule#task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#task_request SchedulerTaskSchedule#task_request}
   */
   readonly taskRequest?: SchedulerTaskScheduleTaskRequest[] | cdktf.IResolvable;
   /**
@@ -177,48 +177,48 @@ export interface SchedulerTaskScheduleConfig extends cdktf.TerraformMetaArgument
   * * `OneTime` - Define a one-time task execution time that will not automatically repeat.
   * * `Recurring` - Specify a recurring task cadence based on a predefined pattern, such as daily, weekly, monthly, or every <interval> pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#type SchedulerTaskSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#type SchedulerTaskSchedule#type}
   */
   readonly type?: string;
   /**
   * Indicates if the schedule is policy based or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#use_policy SchedulerTaskSchedule#use_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#use_policy SchedulerTaskSchedule#use_policy}
   */
   readonly usePolicy?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#version_context SchedulerTaskSchedule#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#version_context SchedulerTaskSchedule#version_context}
   */
   readonly versionContext?: SchedulerTaskScheduleVersionContext[] | cdktf.IResolvable;
   /**
   * A reference to a workflowWorkflowDefinition resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#workflow_definition SchedulerTaskSchedule#workflow_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#workflow_definition SchedulerTaskSchedule#workflow_definition}
   */
   readonly workflowDefinition?: SchedulerTaskScheduleWorkflowDefinition[] | cdktf.IResolvable;
 }
 export interface SchedulerTaskScheduleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -450,23 +450,23 @@ export class SchedulerTaskScheduleAncestorsList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleAssociatedObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -698,63 +698,63 @@ export class SchedulerTaskScheduleAssociatedObjectList extends cdktf.ComplexList
 }
 export interface SchedulerTaskScheduleExecutionStatusesStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#completed_count SchedulerTaskSchedule#completed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#completed_count SchedulerTaskSchedule#completed_count}
   */
   readonly completedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#consecutive_failures SchedulerTaskSchedule#consecutive_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#consecutive_failures SchedulerTaskSchedule#consecutive_failures}
   */
   readonly consecutiveFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#current_status SchedulerTaskSchedule#current_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#current_status SchedulerTaskSchedule#current_status}
   */
   readonly currentStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#failed_count SchedulerTaskSchedule#failed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#failed_count SchedulerTaskSchedule#failed_count}
   */
   readonly failedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#is_system_suspended SchedulerTaskSchedule#is_system_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#is_system_suspended SchedulerTaskSchedule#is_system_suspended}
   */
   readonly isSystemSuspended?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#last_run_status SchedulerTaskSchedule#last_run_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#last_run_status SchedulerTaskSchedule#last_run_status}
   */
   readonly lastRunStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#next_run_start_time SchedulerTaskSchedule#next_run_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#next_run_start_time SchedulerTaskSchedule#next_run_start_time}
   */
   readonly nextRunStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#nr_count SchedulerTaskSchedule#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#nr_count SchedulerTaskSchedule#nr_count}
   */
   readonly nrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#prev_run_end_time SchedulerTaskSchedule#prev_run_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#prev_run_end_time SchedulerTaskSchedule#prev_run_end_time}
   */
   readonly prevRunEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#prev_run_start_time SchedulerTaskSchedule#prev_run_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#prev_run_start_time SchedulerTaskSchedule#prev_run_start_time}
   */
   readonly prevRunStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#reason SchedulerTaskSchedule#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#reason SchedulerTaskSchedule#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#skipped_count SchedulerTaskSchedule#skipped_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#skipped_count SchedulerTaskSchedule#skipped_count}
   */
   readonly skippedCount?: number;
 }
@@ -1276,23 +1276,23 @@ export class SchedulerTaskScheduleExecutionStatusesStatusList extends cdktf.Comp
 }
 export interface SchedulerTaskScheduleExecutionStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#status SchedulerTaskSchedule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#status SchedulerTaskSchedule#status}
   */
   readonly status?: SchedulerTaskScheduleExecutionStatusesStatus[] | cdktf.IResolvable;
 }
@@ -1524,23 +1524,23 @@ export class SchedulerTaskScheduleExecutionStatusesList extends cdktf.ComplexLis
 }
 export interface SchedulerTaskScheduleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -1772,23 +1772,23 @@ export class SchedulerTaskScheduleParentList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskSchedulePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2020,23 +2020,23 @@ export class SchedulerTaskSchedulePermissionResourcesList extends cdktf.ComplexL
 }
 export interface SchedulerTaskSchedulePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2268,31 +2268,31 @@ export class SchedulerTaskSchedulePolicyList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleScheduleParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#duration SchedulerTaskSchedule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#duration SchedulerTaskSchedule#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#name SchedulerTaskSchedule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#start_time SchedulerTaskSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#start_time SchedulerTaskSchedule#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#time_zone SchedulerTaskSchedule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#time_zone SchedulerTaskSchedule#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -2582,63 +2582,63 @@ export class SchedulerTaskScheduleScheduleParamsList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#completed_count SchedulerTaskSchedule#completed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#completed_count SchedulerTaskSchedule#completed_count}
   */
   readonly completedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#consecutive_failures SchedulerTaskSchedule#consecutive_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#consecutive_failures SchedulerTaskSchedule#consecutive_failures}
   */
   readonly consecutiveFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#current_status SchedulerTaskSchedule#current_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#current_status SchedulerTaskSchedule#current_status}
   */
   readonly currentStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#failed_count SchedulerTaskSchedule#failed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#failed_count SchedulerTaskSchedule#failed_count}
   */
   readonly failedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#is_system_suspended SchedulerTaskSchedule#is_system_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#is_system_suspended SchedulerTaskSchedule#is_system_suspended}
   */
   readonly isSystemSuspended?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#last_run_status SchedulerTaskSchedule#last_run_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#last_run_status SchedulerTaskSchedule#last_run_status}
   */
   readonly lastRunStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#next_run_start_time SchedulerTaskSchedule#next_run_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#next_run_start_time SchedulerTaskSchedule#next_run_start_time}
   */
   readonly nextRunStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#nr_count SchedulerTaskSchedule#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#nr_count SchedulerTaskSchedule#nr_count}
   */
   readonly nrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#prev_run_end_time SchedulerTaskSchedule#prev_run_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#prev_run_end_time SchedulerTaskSchedule#prev_run_end_time}
   */
   readonly prevRunEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#prev_run_start_time SchedulerTaskSchedule#prev_run_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#prev_run_start_time SchedulerTaskSchedule#prev_run_start_time}
   */
   readonly prevRunStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#reason SchedulerTaskSchedule#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#reason SchedulerTaskSchedule#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#skipped_count SchedulerTaskSchedule#skipped_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#skipped_count SchedulerTaskSchedule#skipped_count}
   */
   readonly skippedCount?: number;
 }
@@ -3160,23 +3160,23 @@ export class SchedulerTaskScheduleStatusList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -3408,23 +3408,23 @@ export class SchedulerTaskScheduleTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface SchedulerTaskScheduleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -3656,31 +3656,35 @@ export class SchedulerTaskScheduleTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#ancestor_definitions SchedulerTaskSchedule#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#ancestor_definitions SchedulerTaskSchedule#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SchedulerTaskScheduleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#definition SchedulerTaskSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#definition SchedulerTaskSchedule#definition}
   */
   readonly definition?: SchedulerTaskScheduleTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#key SchedulerTaskSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#key SchedulerTaskSchedule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#propagated SchedulerTaskSchedule#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#propagated SchedulerTaskSchedule#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#type SchedulerTaskSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#sys_tag SchedulerTaskSchedule#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#type SchedulerTaskSchedule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#value SchedulerTaskSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#value SchedulerTaskSchedule#value}
   */
   readonly value?: string;
 }
@@ -3696,6 +3700,7 @@ export function schedulerTaskScheduleTagsToTerraform(struct?: SchedulerTaskSched
     definition: cdktf.listMapper(schedulerTaskScheduleTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3734,6 +3739,12 @@ export function schedulerTaskScheduleTagsToHclTerraform(struct?: SchedulerTaskSc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3796,6 +3807,10 @@ export class SchedulerTaskScheduleTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3816,6 +3831,7 @@ export class SchedulerTaskScheduleTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3831,6 +3847,7 @@ export class SchedulerTaskScheduleTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3916,6 +3933,22 @@ export class SchedulerTaskScheduleTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3970,43 +4003,43 @@ export class SchedulerTaskScheduleTagsList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#body SchedulerTaskSchedule#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#body SchedulerTaskSchedule#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#headers SchedulerTaskSchedule#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#headers SchedulerTaskSchedule#headers}
   */
   readonly headers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#method SchedulerTaskSchedule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#method SchedulerTaskSchedule#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#protocol SchedulerTaskSchedule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#protocol SchedulerTaskSchedule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#response SchedulerTaskSchedule#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#response SchedulerTaskSchedule#response}
   */
   readonly response?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#timeout SchedulerTaskSchedule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#timeout SchedulerTaskSchedule#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#url SchedulerTaskSchedule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#url SchedulerTaskSchedule#url}
   */
   readonly url?: string;
 }
@@ -4383,23 +4416,23 @@ export class SchedulerTaskScheduleTaskRequestList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -4631,23 +4664,23 @@ export class SchedulerTaskScheduleVersionContextInterestedMosList extends cdktf.
 }
 export interface SchedulerTaskScheduleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -4879,39 +4912,39 @@ export class SchedulerTaskScheduleVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface SchedulerTaskScheduleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#interested_mos SchedulerTaskSchedule#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#interested_mos SchedulerTaskSchedule#interested_mos}
   */
   readonly interestedMos?: SchedulerTaskScheduleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#marked_for_deletion SchedulerTaskSchedule#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#marked_for_deletion SchedulerTaskSchedule#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#nr_version SchedulerTaskSchedule#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#nr_version SchedulerTaskSchedule#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#ref_mo SchedulerTaskSchedule#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#ref_mo SchedulerTaskSchedule#ref_mo}
   */
   readonly refMo?: SchedulerTaskScheduleVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#timestamp SchedulerTaskSchedule#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#timestamp SchedulerTaskSchedule#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#version_type SchedulerTaskSchedule#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#version_type SchedulerTaskSchedule#version_type}
   */
   readonly versionType?: string;
 }
@@ -5259,23 +5292,23 @@ export class SchedulerTaskScheduleVersionContextList extends cdktf.ComplexList {
 }
 export interface SchedulerTaskScheduleWorkflowDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#additional_properties SchedulerTaskSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#class_id SchedulerTaskSchedule#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#moid SchedulerTaskSchedule#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#object_type SchedulerTaskSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#selector SchedulerTaskSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -5507,7 +5540,7 @@ export class SchedulerTaskScheduleWorkflowDefinitionList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule intersight_scheduler_task_schedule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule intersight_scheduler_task_schedule}
 */
 export class SchedulerTaskSchedule extends cdktf.TerraformResource {
 
@@ -5523,7 +5556,7 @@ export class SchedulerTaskSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchedulerTaskSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchedulerTaskSchedule to import
-  * @param importFromId The id of the existing SchedulerTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchedulerTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchedulerTaskSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5535,7 +5568,7 @@ export class SchedulerTaskSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/scheduler_task_schedule intersight_scheduler_task_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/scheduler_task_schedule intersight_scheduler_task_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5546,8 +5579,8 @@ export class SchedulerTaskSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_scheduler_task_schedule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

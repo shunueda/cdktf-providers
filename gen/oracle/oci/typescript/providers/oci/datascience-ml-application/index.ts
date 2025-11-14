@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceMlApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#compartment_id DatascienceMlApplication#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#compartment_id DatascienceMlApplication#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#defined_tags DatascienceMlApplication#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#defined_tags DatascienceMlApplication#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#description DatascienceMlApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#description DatascienceMlApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#freeform_tags DatascienceMlApplication#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#freeform_tags DatascienceMlApplication#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#id DatascienceMlApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#id DatascienceMlApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#name DatascienceMlApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#name DatascienceMlApplication#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#timeouts DatascienceMlApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#timeouts DatascienceMlApplication#timeouts}
   */
   readonly timeouts?: DatascienceMlApplicationTimeouts;
 }
 export interface DatascienceMlApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#create DatascienceMlApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#create DatascienceMlApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#delete DatascienceMlApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#delete DatascienceMlApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#update DatascienceMlApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#update DatascienceMlApplication#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class DatascienceMlApplicationTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application oci_datascience_ml_application}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application oci_datascience_ml_application}
 */
 export class DatascienceMlApplication extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class DatascienceMlApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceMlApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceMlApplication to import
-  * @param importFromId The id of the existing DatascienceMlApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceMlApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceMlApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DatascienceMlApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_ml_application oci_datascience_ml_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_ml_application oci_datascience_ml_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DatascienceMlApplication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_ml_application',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

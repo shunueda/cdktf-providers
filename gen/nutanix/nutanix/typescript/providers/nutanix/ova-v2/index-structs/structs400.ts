@@ -11,13 +11,13 @@ export interface OvaV2Checksum {
   /**
   * ova_sha1_checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#ova_sha1_checksum OvaV2#ova_sha1_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#ova_sha1_checksum OvaV2#ova_sha1_checksum}
   */
   readonly ovaSha1Checksum?: OvaV2ChecksumOvaSha1Checksum[] | cdktf.IResolvable;
   /**
   * ova_sha256_checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#ova_sha256_checksum OvaV2#ova_sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#ova_sha256_checksum OvaV2#ova_sha256_checksum}
   */
   readonly ovaSha256Checksum?: OvaV2ChecksumOvaSha256Checksum[] | cdktf.IResolvable;
 }
@@ -130,7 +130,7 @@ export class OvaV2ChecksumOutputReference extends cdktf.ComplexObject {
 }
 export interface OvaV2SourceObjectLiteSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#key OvaV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#key OvaV2#key}
   */
   readonly key: string;
 }
@@ -243,11 +243,11 @@ export class OvaV2SourceObjectLiteSourceList extends cdktf.ComplexList {
 }
 export interface OvaV2SourceOvaUrlSourceBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#password OvaV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#password OvaV2#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#username OvaV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#username OvaV2#username}
   */
   readonly username: string;
 }
@@ -386,17 +386,17 @@ export class OvaV2SourceOvaUrlSourceBasicAuthList extends cdktf.ComplexList {
 }
 export interface OvaV2SourceOvaUrlSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#should_allow_insecure_url OvaV2#should_allow_insecure_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#should_allow_insecure_url OvaV2#should_allow_insecure_url}
   */
   readonly shouldAllowInsecureUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#url OvaV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#url OvaV2#url}
   */
   readonly url: string;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#basic_auth OvaV2#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#basic_auth OvaV2#basic_auth}
   */
   readonly basicAuth?: OvaV2SourceOvaUrlSourceBasicAuth[] | cdktf.IResolvable;
 }
@@ -567,11 +567,11 @@ export class OvaV2SourceOvaUrlSourceList extends cdktf.ComplexList {
 }
 export interface OvaV2SourceOvaVmSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#disk_file_format OvaV2#disk_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#disk_file_format OvaV2#disk_file_format}
   */
   readonly diskFileFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#vm_ext_id OvaV2#vm_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#vm_ext_id OvaV2#vm_ext_id}
   */
   readonly vmExtId: string;
 }
@@ -712,19 +712,19 @@ export interface OvaV2Source {
   /**
   * object_lite_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#object_lite_source OvaV2#object_lite_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#object_lite_source OvaV2#object_lite_source}
   */
   readonly objectLiteSource?: OvaV2SourceObjectLiteSource[] | cdktf.IResolvable;
   /**
   * ova_url_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#ova_url_source OvaV2#ova_url_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#ova_url_source OvaV2#ova_url_source}
   */
   readonly ovaUrlSource?: OvaV2SourceOvaUrlSource[] | cdktf.IResolvable;
   /**
   * ova_vm_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#ova_vm_source OvaV2#ova_vm_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#ova_vm_source OvaV2#ova_vm_source}
   */
   readonly ovaVmSource?: OvaV2SourceOvaVmSource[] | cdktf.IResolvable;
 }

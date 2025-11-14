@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface StorageContainersV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#affinity_host_ext_id StorageContainersV2#affinity_host_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#affinity_host_ext_id StorageContainersV2#affinity_host_ext_id}
   */
   readonly affinityHostExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#cache_deduplication StorageContainersV2#cache_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#cache_deduplication StorageContainersV2#cache_deduplication}
   */
   readonly cacheDeduplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#cluster_ext_id StorageContainersV2#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#cluster_ext_id StorageContainersV2#cluster_ext_id}
   */
   readonly clusterExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#compression_delay_secs StorageContainersV2#compression_delay_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#compression_delay_secs StorageContainersV2#compression_delay_secs}
   */
   readonly compressionDelaySecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#container_ext_id StorageContainersV2#container_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#container_ext_id StorageContainersV2#container_ext_id}
   */
   readonly containerExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#erasure_code StorageContainersV2#erasure_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#erasure_code StorageContainersV2#erasure_code}
   */
   readonly erasureCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#erasure_code_delay_secs StorageContainersV2#erasure_code_delay_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#erasure_code_delay_secs StorageContainersV2#erasure_code_delay_secs}
   */
   readonly erasureCodeDelaySecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#ext_id StorageContainersV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#ext_id StorageContainersV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#has_higher_ec_fault_domain_preference StorageContainersV2#has_higher_ec_fault_domain_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#has_higher_ec_fault_domain_preference StorageContainersV2#has_higher_ec_fault_domain_preference}
   */
   readonly hasHigherEcFaultDomainPreference?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#id StorageContainersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#id StorageContainersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#ignore_small_files StorageContainersV2#ignore_small_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#ignore_small_files StorageContainersV2#ignore_small_files}
   */
   readonly ignoreSmallFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#is_compression_enabled StorageContainersV2#is_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#is_compression_enabled StorageContainersV2#is_compression_enabled}
   */
   readonly isCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#is_inline_ec_enabled StorageContainersV2#is_inline_ec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#is_inline_ec_enabled StorageContainersV2#is_inline_ec_enabled}
   */
   readonly isInlineEcEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#is_internal StorageContainersV2#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#is_internal StorageContainersV2#is_internal}
   */
   readonly isInternal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#is_software_encryption_enabled StorageContainersV2#is_software_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#is_software_encryption_enabled StorageContainersV2#is_software_encryption_enabled}
   */
   readonly isSoftwareEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#logical_advertised_capacity_bytes StorageContainersV2#logical_advertised_capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#logical_advertised_capacity_bytes StorageContainersV2#logical_advertised_capacity_bytes}
   */
   readonly logicalAdvertisedCapacityBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#logical_explicit_reserved_capacity_bytes StorageContainersV2#logical_explicit_reserved_capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#logical_explicit_reserved_capacity_bytes StorageContainersV2#logical_explicit_reserved_capacity_bytes}
   */
   readonly logicalExplicitReservedCapacityBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#name StorageContainersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#name StorageContainersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#on_disk_dedup StorageContainersV2#on_disk_dedup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#on_disk_dedup StorageContainersV2#on_disk_dedup}
   */
   readonly onDiskDedup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#owner_ext_id StorageContainersV2#owner_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#owner_ext_id StorageContainersV2#owner_ext_id}
   */
   readonly ownerExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#replication_factor StorageContainersV2#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#replication_factor StorageContainersV2#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * nfs_whitelist_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#nfs_whitelist_addresses StorageContainersV2#nfs_whitelist_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#nfs_whitelist_addresses StorageContainersV2#nfs_whitelist_addresses}
   */
   readonly nfsWhitelistAddresses?: StorageContainersV2NfsWhitelistAddresses[] | cdktf.IResolvable;
 }
@@ -183,7 +183,7 @@ export class StorageContainersV2LinksList extends cdktf.ComplexList {
 }
 export interface StorageContainersV2NfsWhitelistAddressesFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#value StorageContainersV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#value StorageContainersV2#value}
   */
   readonly value?: string;
 }
@@ -299,11 +299,11 @@ export class StorageContainersV2NfsWhitelistAddressesFqdnList extends cdktf.Comp
 }
 export interface StorageContainersV2NfsWhitelistAddressesIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#prefix_length StorageContainersV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#prefix_length StorageContainersV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#value StorageContainersV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#value StorageContainersV2#value}
   */
   readonly value?: string;
 }
@@ -448,11 +448,11 @@ export class StorageContainersV2NfsWhitelistAddressesIpv4List extends cdktf.Comp
 }
 export interface StorageContainersV2NfsWhitelistAddressesIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#prefix_length StorageContainersV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#prefix_length StorageContainersV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#value StorageContainersV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#value StorageContainersV2#value}
   */
   readonly value?: string;
 }
@@ -599,19 +599,19 @@ export interface StorageContainersV2NfsWhitelistAddresses {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#fqdn StorageContainersV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#fqdn StorageContainersV2#fqdn}
   */
   readonly fqdn?: StorageContainersV2NfsWhitelistAddressesFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#ipv4 StorageContainersV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#ipv4 StorageContainersV2#ipv4}
   */
   readonly ipv4?: StorageContainersV2NfsWhitelistAddressesIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#ipv6 StorageContainersV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#ipv6 StorageContainersV2#ipv6}
   */
   readonly ipv6?: StorageContainersV2NfsWhitelistAddressesIpv6[] | cdktf.IResolvable;
 }
@@ -785,7 +785,7 @@ export class StorageContainersV2NfsWhitelistAddressesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2 nutanix_storage_containers_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2 nutanix_storage_containers_v2}
 */
 export class StorageContainersV2 extends cdktf.TerraformResource {
 
@@ -801,7 +801,7 @@ export class StorageContainersV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageContainersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageContainersV2 to import
-  * @param importFromId The id of the existing StorageContainersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageContainersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageContainersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -813,7 +813,7 @@ export class StorageContainersV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/storage_containers_v2 nutanix_storage_containers_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/storage_containers_v2 nutanix_storage_containers_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -824,8 +824,8 @@ export class StorageContainersV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_storage_containers_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

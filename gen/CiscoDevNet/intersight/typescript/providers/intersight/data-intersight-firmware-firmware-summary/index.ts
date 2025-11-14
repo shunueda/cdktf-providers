@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareFirmwareSummaryConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#account_moid DataIntersightFirmwareFirmwareSummary#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#account_moid DataIntersightFirmwareFirmwareSummary#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Version details at the bundle level for the each of server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#bundle_version DataIntersightFirmwareFirmwareSummary#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#bundle_version DataIntersightFirmwareFirmwareSummary#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightFirmwareFirmwareSummaryConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#create_time DataIntersightFirmwareFirmwareSummary#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#create_time DataIntersightFirmwareFirmwareSummary#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#description DataIntersightFirmwareFirmwareSummary#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#description DataIntersightFirmwareFirmwareSummary#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#device_mo_id DataIntersightFirmwareFirmwareSummary#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#device_mo_id DataIntersightFirmwareFirmwareSummary#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#domain_group_moid DataIntersightFirmwareFirmwareSummary#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#domain_group_moid DataIntersightFirmwareFirmwareSummary#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#id DataIntersightFirmwareFirmwareSummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#id DataIntersightFirmwareFirmwareSummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface DataIntersightFirmwareFirmwareSummaryConfig extends cdktf.Terra
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#mod_time DataIntersightFirmwareFirmwareSummary#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#mod_time DataIntersightFirmwareFirmwareSummary#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#name DataIntersightFirmwareFirmwareSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#name DataIntersightFirmwareFirmwareSummary#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#owners DataIntersightFirmwareFirmwareSummary#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#owners DataIntersightFirmwareFirmwareSummary#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#shared_scope DataIntersightFirmwareFirmwareSummary#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#shared_scope DataIntersightFirmwareFirmwareSummary#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#ancestors DataIntersightFirmwareFirmwareSummary#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#ancestors DataIntersightFirmwareFirmwareSummary#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareFirmwareSummaryAncestors[] | cdktf.IResolvable;
   /**
   * components_fw_inventory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#components_fw_inventory DataIntersightFirmwareFirmwareSummary#components_fw_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#components_fw_inventory DataIntersightFirmwareFirmwareSummary#components_fw_inventory}
   */
   readonly componentsFwInventory?: DataIntersightFirmwareFirmwareSummaryComponentsFwInventory[] | cdktf.IResolvable;
   /**
   * expander_module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#expander_module DataIntersightFirmwareFirmwareSummary#expander_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#expander_module DataIntersightFirmwareFirmwareSummary#expander_module}
   */
   readonly expanderModule?: DataIntersightFirmwareFirmwareSummaryExpanderModule;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#parent DataIntersightFirmwareFirmwareSummary#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#parent DataIntersightFirmwareFirmwareSummary#parent}
   */
   readonly parent?: DataIntersightFirmwareFirmwareSummaryParent;
   /**
   * pci_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#pci_node DataIntersightFirmwareFirmwareSummary#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#pci_node DataIntersightFirmwareFirmwareSummary#pci_node}
   */
   readonly pciNode?: DataIntersightFirmwareFirmwareSummaryPciNode;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#permission_resources DataIntersightFirmwareFirmwareSummary#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#permission_resources DataIntersightFirmwareFirmwareSummary#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareFirmwareSummaryPermissionResources[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#server DataIntersightFirmwareFirmwareSummary#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#server DataIntersightFirmwareFirmwareSummary#server}
   */
   readonly server?: DataIntersightFirmwareFirmwareSummaryServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#tags DataIntersightFirmwareFirmwareSummary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#tags DataIntersightFirmwareFirmwareSummary#tags}
   */
   readonly tags?: DataIntersightFirmwareFirmwareSummaryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#target_mo DataIntersightFirmwareFirmwareSummary#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#target_mo DataIntersightFirmwareFirmwareSummary#target_mo}
   */
   readonly targetMo?: DataIntersightFirmwareFirmwareSummaryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#version_context DataIntersightFirmwareFirmwareSummary#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#version_context DataIntersightFirmwareFirmwareSummary#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareFirmwareSummaryVersionContext;
 }
@@ -1112,6 +1112,11 @@ export class DataIntersightFirmwareFirmwareSummaryResultsTagsOutputReference ext
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1745,7 +1750,7 @@ export class DataIntersightFirmwareFirmwareSummaryResultsList extends cdktf.Comp
 }
 export interface DataIntersightFirmwareFirmwareSummaryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1753,19 +1758,19 @@ export interface DataIntersightFirmwareFirmwareSummaryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1778,7 +1783,7 @@ export interface DataIntersightFirmwareFirmwareSummaryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -2010,13 +2015,13 @@ export class DataIntersightFirmwareFirmwareSummaryAncestorsList extends cdktf.Co
 }
 export interface DataIntersightFirmwareFirmwareSummaryComponentsFwInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Component category. For example, MRAID is under storage controller, CIMC is under management controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#category DataIntersightFirmwareFirmwareSummary#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#category DataIntersightFirmwareFirmwareSummary#category}
   */
   readonly category?: string;
   /**
@@ -2024,44 +2029,44 @@ export interface DataIntersightFirmwareFirmwareSummaryComponentsFwInventory {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the component to reflect on UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#label DataIntersightFirmwareFirmwareSummary#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#label DataIntersightFirmwareFirmwareSummary#label}
   */
   readonly label?: string;
   /**
   * Model details of component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#model DataIntersightFirmwareFirmwareSummary#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#model DataIntersightFirmwareFirmwareSummary#model}
   */
   readonly model?: string;
   /**
   * The firmware running version on the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#nr_version DataIntersightFirmwareFirmwareSummary#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#nr_version DataIntersightFirmwareFirmwareSummary#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The redfish URI to get the firmware inventory of server components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#update_uri DataIntersightFirmwareFirmwareSummary#update_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#update_uri DataIntersightFirmwareFirmwareSummary#update_uri}
   */
   readonly updateUri?: string;
   /**
   * The vendor of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#vendor DataIntersightFirmwareFirmwareSummary#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#vendor DataIntersightFirmwareFirmwareSummary#vendor}
   */
   readonly vendor?: string;
 }
@@ -2409,7 +2414,7 @@ export class DataIntersightFirmwareFirmwareSummaryComponentsFwInventoryList exte
 }
 export interface DataIntersightFirmwareFirmwareSummaryExpanderModule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2417,19 +2422,19 @@ export interface DataIntersightFirmwareFirmwareSummaryExpanderModule {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2442,7 +2447,7 @@ export interface DataIntersightFirmwareFirmwareSummaryExpanderModule {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -2642,7 +2647,7 @@ export class DataIntersightFirmwareFirmwareSummaryExpanderModuleOutputReference 
 }
 export interface DataIntersightFirmwareFirmwareSummaryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2650,19 +2655,19 @@ export interface DataIntersightFirmwareFirmwareSummaryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2675,7 +2680,7 @@ export interface DataIntersightFirmwareFirmwareSummaryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -2875,7 +2880,7 @@ export class DataIntersightFirmwareFirmwareSummaryParentOutputReference extends 
 }
 export interface DataIntersightFirmwareFirmwareSummaryPciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2883,19 +2888,19 @@ export interface DataIntersightFirmwareFirmwareSummaryPciNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2908,7 +2913,7 @@ export interface DataIntersightFirmwareFirmwareSummaryPciNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3108,7 +3113,7 @@ export class DataIntersightFirmwareFirmwareSummaryPciNodeOutputReference extends
 }
 export interface DataIntersightFirmwareFirmwareSummaryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3116,19 +3121,19 @@ export interface DataIntersightFirmwareFirmwareSummaryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3141,7 +3146,7 @@ export interface DataIntersightFirmwareFirmwareSummaryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3373,7 +3378,7 @@ export class DataIntersightFirmwareFirmwareSummaryPermissionResourcesList extend
 }
 export interface DataIntersightFirmwareFirmwareSummaryServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3381,19 +3386,19 @@ export interface DataIntersightFirmwareFirmwareSummaryServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3406,7 +3411,7 @@ export interface DataIntersightFirmwareFirmwareSummaryServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3606,7 +3611,7 @@ export class DataIntersightFirmwareFirmwareSummaryServerOutputReference extends 
 }
 export interface DataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3614,19 +3619,19 @@ export interface DataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3639,7 +3644,7 @@ export interface DataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3871,7 +3876,7 @@ export class DataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightFirmwareFirmwareSummaryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3879,19 +3884,19 @@ export interface DataIntersightFirmwareFirmwareSummaryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3904,7 +3909,7 @@ export interface DataIntersightFirmwareFirmwareSummaryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4104,45 +4109,51 @@ export class DataIntersightFirmwareFirmwareSummaryTagsDefinitionOutputReference 
 }
 export interface DataIntersightFirmwareFirmwareSummaryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#key DataIntersightFirmwareFirmwareSummary#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#key DataIntersightFirmwareFirmwareSummary#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#propagated DataIntersightFirmwareFirmwareSummary#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#propagated DataIntersightFirmwareFirmwareSummary#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#sys_tag DataIntersightFirmwareFirmwareSummary#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#type DataIntersightFirmwareFirmwareSummary#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#type DataIntersightFirmwareFirmwareSummary#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#value DataIntersightFirmwareFirmwareSummary#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#value DataIntersightFirmwareFirmwareSummary#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#ancestor_definitions DataIntersightFirmwareFirmwareSummary#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#ancestor_definitions DataIntersightFirmwareFirmwareSummary#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#definition DataIntersightFirmwareFirmwareSummary#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#definition DataIntersightFirmwareFirmwareSummary#definition}
   */
   readonly definition?: DataIntersightFirmwareFirmwareSummaryTagsDefinition;
 }
@@ -4156,6 +4167,7 @@ export function dataIntersightFirmwareFirmwareSummaryTagsToTerraform(struct?: Da
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwareFirmwareSummaryTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4184,6 +4196,12 @@ export function dataIntersightFirmwareFirmwareSummaryTagsToHclTerraform(struct?:
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4250,6 +4268,10 @@ export class DataIntersightFirmwareFirmwareSummaryTagsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4276,6 +4298,7 @@ export class DataIntersightFirmwareFirmwareSummaryTagsOutputReference extends cd
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4291,6 +4314,7 @@ export class DataIntersightFirmwareFirmwareSummaryTagsOutputReference extends cd
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4344,6 +4368,22 @@ export class DataIntersightFirmwareFirmwareSummaryTagsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4432,7 +4472,7 @@ export class DataIntersightFirmwareFirmwareSummaryTagsList extends cdktf.Complex
 }
 export interface DataIntersightFirmwareFirmwareSummaryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4440,19 +4480,19 @@ export interface DataIntersightFirmwareFirmwareSummaryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4465,7 +4505,7 @@ export interface DataIntersightFirmwareFirmwareSummaryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4665,7 +4705,7 @@ export class DataIntersightFirmwareFirmwareSummaryTargetMoOutputReference extend
 }
 export interface DataIntersightFirmwareFirmwareSummaryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4673,19 +4713,19 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4698,7 +4738,7 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4930,7 +4970,7 @@ export class DataIntersightFirmwareFirmwareSummaryVersionContextInterestedMosLis
 }
 export interface DataIntersightFirmwareFirmwareSummaryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4938,19 +4978,19 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#moid DataIntersightFirmwareFirmwareSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4963,7 +5003,7 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#selector DataIntersightFirmwareFirmwareSummary#selector}
   */
   readonly selector?: string;
 }
@@ -5163,7 +5203,7 @@ export class DataIntersightFirmwareFirmwareSummaryVersionContextRefMoOutputRefer
 }
 export interface DataIntersightFirmwareFirmwareSummaryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#additional_properties DataIntersightFirmwareFirmwareSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5171,32 +5211,32 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#class_id DataIntersightFirmwareFirmwareSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#marked_for_deletion DataIntersightFirmwareFirmwareSummary#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#marked_for_deletion DataIntersightFirmwareFirmwareSummary#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#nr_version DataIntersightFirmwareFirmwareSummary#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#nr_version DataIntersightFirmwareFirmwareSummary#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#object_type DataIntersightFirmwareFirmwareSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#timestamp DataIntersightFirmwareFirmwareSummary#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#timestamp DataIntersightFirmwareFirmwareSummary#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5207,19 +5247,19 @@ export interface DataIntersightFirmwareFirmwareSummaryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#version_type DataIntersightFirmwareFirmwareSummary#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#version_type DataIntersightFirmwareFirmwareSummary#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#interested_mos DataIntersightFirmwareFirmwareSummary#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#interested_mos DataIntersightFirmwareFirmwareSummary#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareFirmwareSummaryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#ref_mo DataIntersightFirmwareFirmwareSummary#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#ref_mo DataIntersightFirmwareFirmwareSummary#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareFirmwareSummaryVersionContextRefMo;
 }
@@ -5535,7 +5575,7 @@ export class DataIntersightFirmwareFirmwareSummaryVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary intersight_firmware_firmware_summary}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary intersight_firmware_firmware_summary}
 */
 export class DataIntersightFirmwareFirmwareSummary extends cdktf.TerraformDataSource {
 
@@ -5551,7 +5591,7 @@ export class DataIntersightFirmwareFirmwareSummary extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightFirmwareFirmwareSummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareFirmwareSummary to import
-  * @param importFromId The id of the existing DataIntersightFirmwareFirmwareSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareFirmwareSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareFirmwareSummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5563,7 +5603,7 @@ export class DataIntersightFirmwareFirmwareSummary extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_firmware_summary intersight_firmware_firmware_summary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_firmware_summary intersight_firmware_firmware_summary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5574,8 +5614,8 @@ export class DataIntersightFirmwareFirmwareSummary extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_firmware_firmware_summary',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

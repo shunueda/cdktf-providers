@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightUuidpoolReservationConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#account_moid DataIntersightUuidpoolReservation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#account_moid DataIntersightUuidpoolReservation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightUuidpoolReservationConfig extends cdktf.Terraform
   * * `dynamic` - Identifiers to be allocated by system.
   * * `static` - Identifiers are assigned by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#allocation_type DataIntersightUuidpoolReservation#allocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#allocation_type DataIntersightUuidpoolReservation#allocation_type}
   */
   readonly allocationType?: string;
   /**
@@ -30,23 +30,23 @@ export interface DataIntersightUuidpoolReservationConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#create_time DataIntersightUuidpoolReservation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#create_time DataIntersightUuidpoolReservation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#domain_group_moid DataIntersightUuidpoolReservation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#domain_group_moid DataIntersightUuidpoolReservation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#id DataIntersightUuidpoolReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#id DataIntersightUuidpoolReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,97 +55,97 @@ export interface DataIntersightUuidpoolReservationConfig extends cdktf.Terraform
   /**
   * UUID identity to be reserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#identity DataIntersightUuidpoolReservation#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#identity DataIntersightUuidpoolReservation#identity}
   */
   readonly identity?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#mod_time DataIntersightUuidpoolReservation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#mod_time DataIntersightUuidpoolReservation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#owners DataIntersightUuidpoolReservation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#owners DataIntersightUuidpoolReservation#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#shared_scope DataIntersightUuidpoolReservation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#shared_scope DataIntersightUuidpoolReservation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#ancestors DataIntersightUuidpoolReservation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#ancestors DataIntersightUuidpoolReservation#ancestors}
   */
   readonly ancestors?: DataIntersightUuidpoolReservationAncestors[] | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#block DataIntersightUuidpoolReservation#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#block DataIntersightUuidpoolReservation#block}
   */
   readonly block?: DataIntersightUuidpoolReservationBlock;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#organization DataIntersightUuidpoolReservation#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#organization DataIntersightUuidpoolReservation#organization}
   */
   readonly organization?: DataIntersightUuidpoolReservationOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#parent DataIntersightUuidpoolReservation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#parent DataIntersightUuidpoolReservation#parent}
   */
   readonly parent?: DataIntersightUuidpoolReservationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#permission_resources DataIntersightUuidpoolReservation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#permission_resources DataIntersightUuidpoolReservation#permission_resources}
   */
   readonly permissionResources?: DataIntersightUuidpoolReservationPermissionResources[] | cdktf.IResolvable;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#pool DataIntersightUuidpoolReservation#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#pool DataIntersightUuidpoolReservation#pool}
   */
   readonly pool?: DataIntersightUuidpoolReservationPool;
   /**
   * pool_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#pool_member DataIntersightUuidpoolReservation#pool_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#pool_member DataIntersightUuidpoolReservation#pool_member}
   */
   readonly poolMember?: DataIntersightUuidpoolReservationPoolMember;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#tags DataIntersightUuidpoolReservation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#tags DataIntersightUuidpoolReservation#tags}
   */
   readonly tags?: DataIntersightUuidpoolReservationTags[] | cdktf.IResolvable;
   /**
   * universe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#universe DataIntersightUuidpoolReservation#universe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#universe DataIntersightUuidpoolReservation#universe}
   */
   readonly universe?: DataIntersightUuidpoolReservationUniverse;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#version_context DataIntersightUuidpoolReservation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#version_context DataIntersightUuidpoolReservation#version_context}
   */
   readonly versionContext?: DataIntersightUuidpoolReservationVersionContext;
 }
@@ -1082,6 +1082,11 @@ export class DataIntersightUuidpoolReservationResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1705,7 +1710,7 @@ export class DataIntersightUuidpoolReservationResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightUuidpoolReservationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1713,19 +1718,19 @@ export interface DataIntersightUuidpoolReservationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1738,7 +1743,7 @@ export interface DataIntersightUuidpoolReservationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -1970,7 +1975,7 @@ export class DataIntersightUuidpoolReservationAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightUuidpoolReservationBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1978,19 +1983,19 @@ export interface DataIntersightUuidpoolReservationBlock {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2003,7 +2008,7 @@ export interface DataIntersightUuidpoolReservationBlock {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2203,7 +2208,7 @@ export class DataIntersightUuidpoolReservationBlockOutputReference extends cdktf
 }
 export interface DataIntersightUuidpoolReservationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2211,19 +2216,19 @@ export interface DataIntersightUuidpoolReservationOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2236,7 +2241,7 @@ export interface DataIntersightUuidpoolReservationOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2436,7 +2441,7 @@ export class DataIntersightUuidpoolReservationOrganizationOutputReference extend
 }
 export interface DataIntersightUuidpoolReservationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2444,19 +2449,19 @@ export interface DataIntersightUuidpoolReservationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2469,7 +2474,7 @@ export interface DataIntersightUuidpoolReservationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2669,7 +2674,7 @@ export class DataIntersightUuidpoolReservationParentOutputReference extends cdkt
 }
 export interface DataIntersightUuidpoolReservationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2677,19 +2682,19 @@ export interface DataIntersightUuidpoolReservationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2702,7 +2707,7 @@ export interface DataIntersightUuidpoolReservationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2934,7 +2939,7 @@ export class DataIntersightUuidpoolReservationPermissionResourcesList extends cd
 }
 export interface DataIntersightUuidpoolReservationPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2942,19 +2947,19 @@ export interface DataIntersightUuidpoolReservationPool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2967,7 +2972,7 @@ export interface DataIntersightUuidpoolReservationPool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3167,7 +3172,7 @@ export class DataIntersightUuidpoolReservationPoolOutputReference extends cdktf.
 }
 export interface DataIntersightUuidpoolReservationPoolMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3175,19 +3180,19 @@ export interface DataIntersightUuidpoolReservationPoolMember {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3200,7 +3205,7 @@ export interface DataIntersightUuidpoolReservationPoolMember {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3400,7 +3405,7 @@ export class DataIntersightUuidpoolReservationPoolMemberOutputReference extends 
 }
 export interface DataIntersightUuidpoolReservationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3408,19 +3413,19 @@ export interface DataIntersightUuidpoolReservationTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3433,7 +3438,7 @@ export interface DataIntersightUuidpoolReservationTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3665,7 +3670,7 @@ export class DataIntersightUuidpoolReservationTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightUuidpoolReservationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3673,19 +3678,19 @@ export interface DataIntersightUuidpoolReservationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3698,7 +3703,7 @@ export interface DataIntersightUuidpoolReservationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3898,45 +3903,51 @@ export class DataIntersightUuidpoolReservationTagsDefinitionOutputReference exte
 }
 export interface DataIntersightUuidpoolReservationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#key DataIntersightUuidpoolReservation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#key DataIntersightUuidpoolReservation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#propagated DataIntersightUuidpoolReservation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#propagated DataIntersightUuidpoolReservation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#sys_tag DataIntersightUuidpoolReservation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#type DataIntersightUuidpoolReservation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#type DataIntersightUuidpoolReservation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#value DataIntersightUuidpoolReservation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#value DataIntersightUuidpoolReservation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#ancestor_definitions DataIntersightUuidpoolReservation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#ancestor_definitions DataIntersightUuidpoolReservation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightUuidpoolReservationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#definition DataIntersightUuidpoolReservation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#definition DataIntersightUuidpoolReservation#definition}
   */
   readonly definition?: DataIntersightUuidpoolReservationTagsDefinition;
 }
@@ -3950,6 +3961,7 @@ export function dataIntersightUuidpoolReservationTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightUuidpoolReservationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3978,6 +3990,12 @@ export function dataIntersightUuidpoolReservationTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4044,6 +4062,10 @@ export class DataIntersightUuidpoolReservationTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4070,6 +4092,7 @@ export class DataIntersightUuidpoolReservationTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4085,6 +4108,7 @@ export class DataIntersightUuidpoolReservationTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4138,6 +4162,22 @@ export class DataIntersightUuidpoolReservationTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4226,7 +4266,7 @@ export class DataIntersightUuidpoolReservationTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightUuidpoolReservationUniverse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4234,19 +4274,19 @@ export interface DataIntersightUuidpoolReservationUniverse {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4259,7 +4299,7 @@ export interface DataIntersightUuidpoolReservationUniverse {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4459,7 +4499,7 @@ export class DataIntersightUuidpoolReservationUniverseOutputReference extends cd
 }
 export interface DataIntersightUuidpoolReservationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4467,19 +4507,19 @@ export interface DataIntersightUuidpoolReservationVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4492,7 +4532,7 @@ export interface DataIntersightUuidpoolReservationVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4724,7 +4764,7 @@ export class DataIntersightUuidpoolReservationVersionContextInterestedMosList ex
 }
 export interface DataIntersightUuidpoolReservationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4732,19 +4772,19 @@ export interface DataIntersightUuidpoolReservationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#moid DataIntersightUuidpoolReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4757,7 +4797,7 @@ export interface DataIntersightUuidpoolReservationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#selector DataIntersightUuidpoolReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4957,7 +4997,7 @@ export class DataIntersightUuidpoolReservationVersionContextRefMoOutputReference
 }
 export interface DataIntersightUuidpoolReservationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#additional_properties DataIntersightUuidpoolReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4965,32 +5005,32 @@ export interface DataIntersightUuidpoolReservationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#class_id DataIntersightUuidpoolReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#marked_for_deletion DataIntersightUuidpoolReservation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#marked_for_deletion DataIntersightUuidpoolReservation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#nr_version DataIntersightUuidpoolReservation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#nr_version DataIntersightUuidpoolReservation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#object_type DataIntersightUuidpoolReservation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#timestamp DataIntersightUuidpoolReservation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#timestamp DataIntersightUuidpoolReservation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5001,19 +5041,19 @@ export interface DataIntersightUuidpoolReservationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#version_type DataIntersightUuidpoolReservation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#version_type DataIntersightUuidpoolReservation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#interested_mos DataIntersightUuidpoolReservation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#interested_mos DataIntersightUuidpoolReservation#interested_mos}
   */
   readonly interestedMos?: DataIntersightUuidpoolReservationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#ref_mo DataIntersightUuidpoolReservation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#ref_mo DataIntersightUuidpoolReservation#ref_mo}
   */
   readonly refMo?: DataIntersightUuidpoolReservationVersionContextRefMo;
 }
@@ -5329,7 +5369,7 @@ export class DataIntersightUuidpoolReservationVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation intersight_uuidpool_reservation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation intersight_uuidpool_reservation}
 */
 export class DataIntersightUuidpoolReservation extends cdktf.TerraformDataSource {
 
@@ -5345,7 +5385,7 @@ export class DataIntersightUuidpoolReservation extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightUuidpoolReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightUuidpoolReservation to import
-  * @param importFromId The id of the existing DataIntersightUuidpoolReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightUuidpoolReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightUuidpoolReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5357,7 +5397,7 @@ export class DataIntersightUuidpoolReservation extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/uuidpool_reservation intersight_uuidpool_reservation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/uuidpool_reservation intersight_uuidpool_reservation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5368,8 +5408,8 @@ export class DataIntersightUuidpoolReservation extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_uuidpool_reservation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

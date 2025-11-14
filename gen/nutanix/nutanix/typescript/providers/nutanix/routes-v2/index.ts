@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface RoutesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#description RoutesV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#description RoutesV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#external_routing_domain_reference RoutesV2#external_routing_domain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#external_routing_domain_reference RoutesV2#external_routing_domain_reference}
   */
   readonly externalRoutingDomainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#id RoutesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#id RoutesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#name RoutesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#name RoutesV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#route_table_ext_id RoutesV2#route_table_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#route_table_ext_id RoutesV2#route_table_ext_id}
   */
   readonly routeTableExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#route_table_reference RoutesV2#route_table_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#route_table_reference RoutesV2#route_table_reference}
   */
   readonly routeTableReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#route_type RoutesV2#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#route_type RoutesV2#route_type}
   */
   readonly routeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#vpc_reference RoutesV2#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#vpc_reference RoutesV2#vpc_reference}
   */
   readonly vpcReference?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#destination RoutesV2#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#destination RoutesV2#destination}
   */
   readonly destination?: RoutesV2Destination;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#metadata RoutesV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#metadata RoutesV2#metadata}
   */
   readonly metadata?: RoutesV2Metadata;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#next_hop RoutesV2#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#next_hop RoutesV2#next_hop}
   */
   readonly nextHop?: RoutesV2NextHop;
 }
@@ -143,11 +143,11 @@ export class RoutesV2LinksList extends cdktf.ComplexList {
 }
 export interface RoutesV2DestinationIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#value RoutesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#value RoutesV2#value}
   */
   readonly value: string;
 }
@@ -257,13 +257,13 @@ export class RoutesV2DestinationIpv4IpOutputReference extends cdktf.ComplexObjec
 }
 export interface RoutesV2DestinationIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ip RoutesV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ip RoutesV2#ip}
   */
   readonly ip: RoutesV2DestinationIpv4Ip;
 }
@@ -373,11 +373,11 @@ export class RoutesV2DestinationIpv4OutputReference extends cdktf.ComplexObject 
 }
 export interface RoutesV2DestinationIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#value RoutesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#value RoutesV2#value}
   */
   readonly value: string;
 }
@@ -487,13 +487,13 @@ export class RoutesV2DestinationIpv6IpOutputReference extends cdktf.ComplexObjec
 }
 export interface RoutesV2DestinationIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ip RoutesV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ip RoutesV2#ip}
   */
   readonly ip: RoutesV2DestinationIpv6Ip;
 }
@@ -605,13 +605,13 @@ export interface RoutesV2Destination {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ipv4 RoutesV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ipv4 RoutesV2#ipv4}
   */
   readonly ipv4?: RoutesV2DestinationIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ipv6 RoutesV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ipv6 RoutesV2#ipv6}
   */
   readonly ipv6?: RoutesV2DestinationIpv6;
 }
@@ -724,23 +724,23 @@ export class RoutesV2DestinationOutputReference extends cdktf.ComplexObject {
 }
 export interface RoutesV2Metadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#category_ids RoutesV2#category_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#category_ids RoutesV2#category_ids}
   */
   readonly categoryIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#owner_reference_id RoutesV2#owner_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#owner_reference_id RoutesV2#owner_reference_id}
   */
   readonly ownerReferenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#owner_user_name RoutesV2#owner_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#owner_user_name RoutesV2#owner_user_name}
   */
   readonly ownerUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#project_name RoutesV2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#project_name RoutesV2#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#project_reference_id RoutesV2#project_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#project_reference_id RoutesV2#project_reference_id}
   */
   readonly projectReferenceId?: string;
 }
@@ -940,11 +940,11 @@ export class RoutesV2MetadataOutputReference extends cdktf.ComplexObject {
 }
 export interface RoutesV2NextHopNextHopIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#value RoutesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#value RoutesV2#value}
   */
   readonly value: string;
 }
@@ -1054,11 +1054,11 @@ export class RoutesV2NextHopNextHopIpAddressIpv4OutputReference extends cdktf.Co
 }
 export interface RoutesV2NextHopNextHopIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#prefix_length RoutesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#value RoutesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#value RoutesV2#value}
   */
   readonly value: string;
 }
@@ -1170,13 +1170,13 @@ export interface RoutesV2NextHopNextHopIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ipv4 RoutesV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ipv4 RoutesV2#ipv4}
   */
   readonly ipv4: RoutesV2NextHopNextHopIpAddressIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#ipv6 RoutesV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#ipv6 RoutesV2#ipv6}
   */
   readonly ipv6: RoutesV2NextHopNextHopIpAddressIpv6;
 }
@@ -1315,17 +1315,17 @@ export class RoutesV2NextHopNextHopIpAddressList extends cdktf.ComplexList {
 }
 export interface RoutesV2NextHop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#next_hop_reference RoutesV2#next_hop_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#next_hop_reference RoutesV2#next_hop_reference}
   */
   readonly nextHopReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#next_hop_type RoutesV2#next_hop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#next_hop_type RoutesV2#next_hop_type}
   */
   readonly nextHopType: string;
   /**
   * next_hop_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#next_hop_ip_address RoutesV2#next_hop_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#next_hop_ip_address RoutesV2#next_hop_ip_address}
   */
   readonly nextHopIpAddress?: RoutesV2NextHopNextHopIpAddress[] | cdktf.IResolvable;
 }
@@ -1469,7 +1469,7 @@ export class RoutesV2NextHopOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2 nutanix_routes_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2 nutanix_routes_v2}
 */
 export class RoutesV2 extends cdktf.TerraformResource {
 
@@ -1485,7 +1485,7 @@ export class RoutesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutesV2 to import
-  * @param importFromId The id of the existing RoutesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1497,7 +1497,7 @@ export class RoutesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/routes_v2 nutanix_routes_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/routes_v2 nutanix_routes_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1508,8 +1508,8 @@ export class RoutesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_routes_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

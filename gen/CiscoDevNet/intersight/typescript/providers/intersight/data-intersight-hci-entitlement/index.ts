@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHciEntitlementConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#account_moid DataIntersightHciEntitlement#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#account_moid DataIntersightHciEntitlement#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightHciEntitlementConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The identifier of a license, usually in LIC-xxxx format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#cluster_ext_id DataIntersightHciEntitlement#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#cluster_ext_id DataIntersightHciEntitlement#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#create_time DataIntersightHciEntitlement#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#create_time DataIntersightHciEntitlement#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#domain_group_moid DataIntersightHciEntitlement#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#domain_group_moid DataIntersightHciEntitlement#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#id DataIntersightHciEntitlement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#id DataIntersightHciEntitlement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DataIntersightHciEntitlementConfig extends cdktf.TerraformMetaA
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#mod_time DataIntersightHciEntitlement#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#mod_time DataIntersightHciEntitlement#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#owners DataIntersightHciEntitlement#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#owners DataIntersightHciEntitlement#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#shared_scope DataIntersightHciEntitlement#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#shared_scope DataIntersightHciEntitlement#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The type of the cluster which could be NUTANIX, VMWARE, or NON_NUTANIX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
   */
   readonly type?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#ancestors DataIntersightHciEntitlement#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#ancestors DataIntersightHciEntitlement#ancestors}
   */
   readonly ancestors?: DataIntersightHciEntitlementAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#cluster DataIntersightHciEntitlement#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#cluster DataIntersightHciEntitlement#cluster}
   */
   readonly cluster?: DataIntersightHciEntitlementCluster;
   /**
   * details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#details DataIntersightHciEntitlement#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#details DataIntersightHciEntitlement#details}
   */
   readonly details?: DataIntersightHciEntitlementDetails[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#parent DataIntersightHciEntitlement#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#parent DataIntersightHciEntitlement#parent}
   */
   readonly parent?: DataIntersightHciEntitlementParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#permission_resources DataIntersightHciEntitlement#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#permission_resources DataIntersightHciEntitlement#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciEntitlementPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#registered_device DataIntersightHciEntitlement#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#registered_device DataIntersightHciEntitlement#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciEntitlementRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#tags DataIntersightHciEntitlement#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#tags DataIntersightHciEntitlement#tags}
   */
   readonly tags?: DataIntersightHciEntitlementTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#version_context DataIntersightHciEntitlement#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#version_context DataIntersightHciEntitlement#version_context}
   */
   readonly versionContext?: DataIntersightHciEntitlementVersionContext;
 }
@@ -1003,6 +1003,11 @@ export class DataIntersightHciEntitlementResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1519,7 +1524,7 @@ export class DataIntersightHciEntitlementResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciEntitlementAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1527,19 +1532,19 @@ export interface DataIntersightHciEntitlementAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1552,7 +1557,7 @@ export interface DataIntersightHciEntitlementAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -1784,7 +1789,7 @@ export class DataIntersightHciEntitlementAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightHciEntitlementCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1792,19 +1797,19 @@ export interface DataIntersightHciEntitlementCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1817,7 +1822,7 @@ export interface DataIntersightHciEntitlementCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -2017,13 +2022,13 @@ export class DataIntersightHciEntitlementClusterOutputReference extends cdktf.Co
 }
 export interface DataIntersightHciEntitlementDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The category of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#category DataIntersightHciEntitlement#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#category DataIntersightHciEntitlement#category}
   */
   readonly category?: string;
   /**
@@ -2031,56 +2036,56 @@ export interface DataIntersightHciEntitlementDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The earliest expiry date of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#earliest_expiry_date DataIntersightHciEntitlement#earliest_expiry_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#earliest_expiry_date DataIntersightHciEntitlement#earliest_expiry_date}
   */
   readonly earliestExpiryDate?: string;
   /**
   * The meter of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#meter DataIntersightHciEntitlement#meter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#meter DataIntersightHciEntitlement#meter}
   */
   readonly meter?: string;
   /**
   * The name of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#name DataIntersightHciEntitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#name DataIntersightHciEntitlement#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
   * The quantity of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#quantity DataIntersightHciEntitlement#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#quantity DataIntersightHciEntitlement#quantity}
   */
   readonly quantity?: number;
   /**
   * The scope of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#scope DataIntersightHciEntitlement#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#scope DataIntersightHciEntitlement#scope}
   */
   readonly scope?: string;
   /**
   * The subCategory of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#sub_category DataIntersightHciEntitlement#sub_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#sub_category DataIntersightHciEntitlement#sub_category}
   */
   readonly subCategory?: string;
   /**
   * The type of the license entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
   */
   readonly type?: string;
 }
@@ -2486,7 +2491,7 @@ export class DataIntersightHciEntitlementDetailsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciEntitlementParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2494,19 +2499,19 @@ export interface DataIntersightHciEntitlementParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2519,7 +2524,7 @@ export interface DataIntersightHciEntitlementParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -2719,7 +2724,7 @@ export class DataIntersightHciEntitlementParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciEntitlementPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2727,19 +2732,19 @@ export interface DataIntersightHciEntitlementPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2752,7 +2757,7 @@ export interface DataIntersightHciEntitlementPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -2984,7 +2989,7 @@ export class DataIntersightHciEntitlementPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightHciEntitlementRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2992,19 +2997,19 @@ export interface DataIntersightHciEntitlementRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3017,7 +3022,7 @@ export interface DataIntersightHciEntitlementRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -3217,7 +3222,7 @@ export class DataIntersightHciEntitlementRegisteredDeviceOutputReference extends
 }
 export interface DataIntersightHciEntitlementTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3225,19 +3230,19 @@ export interface DataIntersightHciEntitlementTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3250,7 +3255,7 @@ export interface DataIntersightHciEntitlementTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -3482,7 +3487,7 @@ export class DataIntersightHciEntitlementTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightHciEntitlementTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3490,19 +3495,19 @@ export interface DataIntersightHciEntitlementTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3515,7 +3520,7 @@ export interface DataIntersightHciEntitlementTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -3715,45 +3720,51 @@ export class DataIntersightHciEntitlementTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightHciEntitlementTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#key DataIntersightHciEntitlement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#key DataIntersightHciEntitlement#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#propagated DataIntersightHciEntitlement#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#propagated DataIntersightHciEntitlement#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#sys_tag DataIntersightHciEntitlement#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#type DataIntersightHciEntitlement#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#value DataIntersightHciEntitlement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#value DataIntersightHciEntitlement#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#ancestor_definitions DataIntersightHciEntitlement#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#ancestor_definitions DataIntersightHciEntitlement#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciEntitlementTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#definition DataIntersightHciEntitlement#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#definition DataIntersightHciEntitlement#definition}
   */
   readonly definition?: DataIntersightHciEntitlementTagsDefinition;
 }
@@ -3767,6 +3778,7 @@ export function dataIntersightHciEntitlementTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHciEntitlementTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3795,6 +3807,12 @@ export function dataIntersightHciEntitlementTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3861,6 +3879,10 @@ export class DataIntersightHciEntitlementTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3887,6 +3909,7 @@ export class DataIntersightHciEntitlementTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3902,6 +3925,7 @@ export class DataIntersightHciEntitlementTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3955,6 +3979,22 @@ export class DataIntersightHciEntitlementTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4043,7 +4083,7 @@ export class DataIntersightHciEntitlementTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciEntitlementVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4051,19 +4091,19 @@ export interface DataIntersightHciEntitlementVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4076,7 +4116,7 @@ export interface DataIntersightHciEntitlementVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -4308,7 +4348,7 @@ export class DataIntersightHciEntitlementVersionContextInterestedMosList extends
 }
 export interface DataIntersightHciEntitlementVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4316,19 +4356,19 @@ export interface DataIntersightHciEntitlementVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#moid DataIntersightHciEntitlement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4341,7 +4381,7 @@ export interface DataIntersightHciEntitlementVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#selector DataIntersightHciEntitlement#selector}
   */
   readonly selector?: string;
 }
@@ -4541,7 +4581,7 @@ export class DataIntersightHciEntitlementVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightHciEntitlementVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#additional_properties DataIntersightHciEntitlement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4549,32 +4589,32 @@ export interface DataIntersightHciEntitlementVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#class_id DataIntersightHciEntitlement#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#marked_for_deletion DataIntersightHciEntitlement#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#marked_for_deletion DataIntersightHciEntitlement#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#nr_version DataIntersightHciEntitlement#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#nr_version DataIntersightHciEntitlement#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#object_type DataIntersightHciEntitlement#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#timestamp DataIntersightHciEntitlement#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#timestamp DataIntersightHciEntitlement#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4585,19 +4625,19 @@ export interface DataIntersightHciEntitlementVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#version_type DataIntersightHciEntitlement#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#version_type DataIntersightHciEntitlement#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#interested_mos DataIntersightHciEntitlement#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#interested_mos DataIntersightHciEntitlement#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciEntitlementVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#ref_mo DataIntersightHciEntitlement#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#ref_mo DataIntersightHciEntitlement#ref_mo}
   */
   readonly refMo?: DataIntersightHciEntitlementVersionContextRefMo;
 }
@@ -4913,7 +4953,7 @@ export class DataIntersightHciEntitlementVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement intersight_hci_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement intersight_hci_entitlement}
 */
 export class DataIntersightHciEntitlement extends cdktf.TerraformDataSource {
 
@@ -4929,7 +4969,7 @@ export class DataIntersightHciEntitlement extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciEntitlement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciEntitlement to import
-  * @param importFromId The id of the existing DataIntersightHciEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciEntitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4941,7 +4981,7 @@ export class DataIntersightHciEntitlement extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_entitlement intersight_hci_entitlement} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_entitlement intersight_hci_entitlement} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4952,8 +4992,8 @@ export class DataIntersightHciEntitlement extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

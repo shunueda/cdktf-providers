@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MeterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The meter’s name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#display_name Meter#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#display_name Meter#display_name}
   */
   readonly displayName: string;
   /**
   * The name of the meter event to record usage for. Corresponds with the event_name field on meter events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#event_name Meter#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#event_name Meter#event_name}
   */
   readonly eventName: string;
   /**
   * The time window to pre-aggregate meter events for, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#event_time_window Meter#event_time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#event_time_window Meter#event_time_window}
   */
   readonly eventTimeWindow?: string;
   /**
   * customer_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#customer_mapping Meter#customer_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#customer_mapping Meter#customer_mapping}
   */
   readonly customerMapping?: MeterCustomerMapping;
   /**
   * default_aggregation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#default_aggregation Meter#default_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#default_aggregation Meter#default_aggregation}
   */
   readonly defaultAggregation: MeterDefaultAggregation;
   /**
   * value_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#value_settings Meter#value_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#value_settings Meter#value_settings}
   */
   readonly valueSettings?: MeterValueSettings;
 }
@@ -48,13 +48,13 @@ export interface MeterCustomerMapping {
   /**
   * The key in the usage event payload to use for mapping the event to a customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#event_payload_key Meter#event_payload_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#event_payload_key Meter#event_payload_key}
   */
   readonly eventPayloadKey: string;
   /**
   * The method for mapping a meter event to a customer. Must be by_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#type Meter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#type Meter#type}
   */
   readonly type: string;
 }
@@ -163,7 +163,7 @@ export interface MeterDefaultAggregation {
   /**
   * Specifies how events are aggregated. Allowed values are count to count the number of events and sum to sum each event’s value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#formula Meter#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#formula Meter#formula}
   */
   readonly formula: string;
 }
@@ -246,7 +246,7 @@ export interface MeterValueSettings {
   /**
   * The key in the usage event payload to use as the value for this meter. For example, if the event payload  contains usage on a bytes_used field, then set the event_payload_key to “bytes_used”
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#event_payload_key Meter#event_payload_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#event_payload_key Meter#event_payload_key}
   */
   readonly eventPayloadKey: string;
 }
@@ -327,7 +327,7 @@ export class MeterValueSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter stripe_meter}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter stripe_meter}
 */
 export class Meter extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class Meter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Meter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Meter to import
-  * @param importFromId The id of the existing Meter that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Meter that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Meter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class Meter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/meter stripe_meter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/meter stripe_meter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class Meter extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_meter',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

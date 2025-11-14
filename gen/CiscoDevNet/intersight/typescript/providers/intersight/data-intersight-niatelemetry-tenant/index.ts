@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightNiatelemetryTenantConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#account_moid DataIntersightNiatelemetryTenant#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#account_moid DataIntersightNiatelemetryTenant#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Number of Bidirectional Forwarding Detection bfdIfPol Model Objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#bfd_if_pol_count DataIntersightNiatelemetryTenant#bfd_if_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#bfd_if_pol_count DataIntersightNiatelemetryTenant#bfd_if_pol_count}
   */
   readonly bfdIfPolCount?: number;
   /**
   * Number of objects with Bidirectional Forwarding Detection Interface Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#bfd_ifp_count DataIntersightNiatelemetryTenant#bfd_ifp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#bfd_ifp_count DataIntersightNiatelemetryTenant#bfd_ifp_count}
   */
   readonly bfdIfpCount?: number;
   /**
@@ -34,95 +34,95 @@ export interface DataIntersightNiatelemetryTenantConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#create_time DataIntersightNiatelemetryTenant#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#create_time DataIntersightNiatelemetryTenant#create_time}
   */
   readonly createTime?: string;
   /**
   * Number of tenants with Dynamic Host Configuration Protocol enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#dhcp_rs_prov_count DataIntersightNiatelemetryTenant#dhcp_rs_prov_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#dhcp_rs_prov_count DataIntersightNiatelemetryTenant#dhcp_rs_prov_count}
   */
   readonly dhcpRsProvCount?: number;
   /**
   * Dn for the tenants present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#dn DataIntersightNiatelemetryTenant#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#dn DataIntersightNiatelemetryTenant#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#domain_group_moid DataIntersightNiatelemetryTenant#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#domain_group_moid DataIntersightNiatelemetryTenant#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Number of objects with First hop security. Checks for presence of IP source gaurd, dynamic arp inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fhs_bd_pol_count DataIntersightNiatelemetryTenant#fhs_bd_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fhs_bd_pol_count DataIntersightNiatelemetryTenant#fhs_bd_pol_count}
   */
   readonly fhsBdPolCount?: number;
   /**
   * Number of application profiles per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_ap_count DataIntersightNiatelemetryTenant#fv_ap_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_ap_count DataIntersightNiatelemetryTenant#fv_ap_count}
   */
   readonly fvApCount?: number;
   /**
   * Number of bridge domains with hardware proxy enabled per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_bd_count DataIntersightNiatelemetryTenant#fv_bd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_bd_count DataIntersightNiatelemetryTenant#fv_bd_count}
   */
   readonly fvBdCount?: number;
   /**
   * Number of bridge domain subnets per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_bd_subnet_count DataIntersightNiatelemetryTenant#fv_bd_subnet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_bd_subnet_count DataIntersightNiatelemetryTenant#fv_bd_subnet_count}
   */
   readonly fvBdSubnetCount?: number;
   /**
   * Number of bridge domains with ARP flodding disabled per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_bdno_arp_count DataIntersightNiatelemetryTenant#fv_bdno_arp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_bdno_arp_count DataIntersightNiatelemetryTenant#fv_bdno_arp_count}
   */
   readonly fvBdnoArpCount?: number;
   /**
   * Count of number of endpoints per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_cep_count DataIntersightNiatelemetryTenant#fv_cep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_cep_count DataIntersightNiatelemetryTenant#fv_cep_count}
   */
   readonly fvCepCount?: number;
   /**
   * Number of objects with First hop security. Checks for presence of IP source gaurd, dynamic arp inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_rs_bd_to_fhs_count DataIntersightNiatelemetryTenant#fv_rs_bd_to_fhs_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_rs_bd_to_fhs_count DataIntersightNiatelemetryTenant#fv_rs_bd_to_fhs_count}
   */
   readonly fvRsBdToFhsCount?: number;
   /**
   * Number of bridge domains connected to layer 3 out per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_rs_bd_to_out_count DataIntersightNiatelemetryTenant#fv_rs_bd_to_out_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_rs_bd_to_out_count DataIntersightNiatelemetryTenant#fv_rs_bd_to_out_count}
   */
   readonly fvRsBdToOutCount?: number;
   /**
   * Number of Multi-Site objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_site_connp_count DataIntersightNiatelemetryTenant#fv_site_connp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_site_connp_count DataIntersightNiatelemetryTenant#fv_site_connp_count}
   */
   readonly fvSiteConnpCount?: number;
   /**
   * Number of subnets per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#fv_subnet_count DataIntersightNiatelemetryTenant#fv_subnet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#fv_subnet_count DataIntersightNiatelemetryTenant#fv_subnet_count}
   */
   readonly fvSubnetCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#id DataIntersightNiatelemetryTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#id DataIntersightNiatelemetryTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,217 +131,217 @@ export interface DataIntersightNiatelemetryTenantConfig extends cdktf.TerraformM
   /**
   * Number of IP static routes per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ip_static_route_count DataIntersightNiatelemetryTenant#ip_static_route_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ip_static_route_count DataIntersightNiatelemetryTenant#ip_static_route_count}
   */
   readonly ipStaticRouteCount?: number;
   /**
   * Number of layer 3 multicasts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#l3_multicast_count DataIntersightNiatelemetryTenant#l3_multicast_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#l3_multicast_count DataIntersightNiatelemetryTenant#l3_multicast_count}
   */
   readonly l3MulticastCount?: number;
   /**
   * Number of layer 3 multicast CtxP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#l3_multicast_ctx_count DataIntersightNiatelemetryTenant#l3_multicast_ctx_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#l3_multicast_ctx_count DataIntersightNiatelemetryTenant#l3_multicast_ctx_count}
   */
   readonly l3MulticastCtxCount?: number;
   /**
   * Number of layer 3 multicast IfP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#l3_multicast_if_count DataIntersightNiatelemetryTenant#l3_multicast_if_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#l3_multicast_if_count DataIntersightNiatelemetryTenant#l3_multicast_if_count}
   */
   readonly l3MulticastIfCount?: number;
   /**
   * Number of L3 out objects for the tenants present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#l3out_count DataIntersightNiatelemetryTenant#l3out_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#l3out_count DataIntersightNiatelemetryTenant#l3out_count}
   */
   readonly l3OutCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#mod_time DataIntersightNiatelemetryTenant#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#mod_time DataIntersightNiatelemetryTenant#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#owners DataIntersightNiatelemetryTenant#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#owners DataIntersightNiatelemetryTenant#owners}
   */
   readonly owners?: string[];
   /**
   * Number of Quality Of Service Custom Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#qos_custom_pol_count DataIntersightNiatelemetryTenant#qos_custom_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#qos_custom_pol_count DataIntersightNiatelemetryTenant#qos_custom_pol_count}
   */
   readonly qosCustomPolCount?: number;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#record_type DataIntersightNiatelemetryTenant#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#record_type DataIntersightNiatelemetryTenant#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#record_version DataIntersightNiatelemetryTenant#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#record_version DataIntersightNiatelemetryTenant#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#shared_scope DataIntersightNiatelemetryTenant#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#shared_scope DataIntersightNiatelemetryTenant#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Site name represents an APIC cluster. Service Engine can onboard multiple APIC clusters / sites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#site_name DataIntersightNiatelemetryTenant#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#site_name DataIntersightNiatelemetryTenant#site_name}
   */
   readonly siteName?: string;
   /**
   * SSM property feature usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ssm DataIntersightNiatelemetryTenant#ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ssm DataIntersightNiatelemetryTenant#ssm}
   */
   readonly ssm?: string;
   /**
   * Number of context-level ssm translate policies per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ssm_count DataIntersightNiatelemetryTenant#ssm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ssm_count DataIntersightNiatelemetryTenant#ssm_count}
   */
   readonly ssmCount?: number;
   /**
   * Number of TCAM optimization enabled per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#tcam_opt_count DataIntersightNiatelemetryTenant#tcam_opt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#tcam_opt_count DataIntersightNiatelemetryTenant#tcam_opt_count}
   */
   readonly tcamOptCount?: number;
   /**
   * Health of each tenant in the APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#tenant_health DataIntersightNiatelemetryTenant#tenant_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#tenant_health DataIntersightNiatelemetryTenant#tenant_health}
   */
   readonly tenantHealth?: number;
   /**
   * Number of ITrace route endpoint per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#trace_route_ep_count DataIntersightNiatelemetryTenant#trace_route_ep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#trace_route_ep_count DataIntersightNiatelemetryTenant#trace_route_ep_count}
   */
   readonly traceRouteEpCount?: number;
   /**
   * Number of ITrace endpoint external routes per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#trace_route_ep_ext_count DataIntersightNiatelemetryTenant#trace_route_ep_ext_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#trace_route_ep_ext_count DataIntersightNiatelemetryTenant#trace_route_ep_ext_count}
   */
   readonly traceRouteEpExtCount?: number;
   /**
   * Number of ITrace external endpoint routes per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#trace_route_ext_ep_count DataIntersightNiatelemetryTenant#trace_route_ext_ep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#trace_route_ext_ep_count DataIntersightNiatelemetryTenant#trace_route_ext_ep_count}
   */
   readonly traceRouteExtEpCount?: number;
   /**
   * Number of ITrace external routes per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#trace_route_ext_ext_count DataIntersightNiatelemetryTenant#trace_route_ext_ext_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#trace_route_ext_ext_count DataIntersightNiatelemetryTenant#trace_route_ext_ext_count}
   */
   readonly traceRouteExtExtCount?: number;
   /**
   * Number of objects with L4 to L7 Services graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vns_abs_graph_count DataIntersightNiatelemetryTenant#vns_abs_graph_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vns_abs_graph_count DataIntersightNiatelemetryTenant#vns_abs_graph_count}
   */
   readonly vnsAbsGraphCount?: number;
   /**
   * Number of objects with Policy Based Routing standby Node. Checks the Policy Based Routing backup policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vns_backup_pol_count DataIntersightNiatelemetryTenant#vns_backup_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vns_backup_pol_count DataIntersightNiatelemetryTenant#vns_backup_pol_count}
   */
   readonly vnsBackupPolCount?: number;
   /**
   * Number of objects with Policy Based Routing standby Node. Policy based redirect requires a destination to redirect traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vns_redirect_dest_count DataIntersightNiatelemetryTenant#vns_redirect_dest_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vns_redirect_dest_count DataIntersightNiatelemetryTenant#vns_redirect_dest_count}
   */
   readonly vnsRedirectDestCount?: number;
   /**
   * Number of Policy Based Routing and Policy Based Service Insertion objects. Includes without L4-L7 package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vns_svc_redirect_pol_count DataIntersightNiatelemetryTenant#vns_svc_redirect_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vns_svc_redirect_pol_count DataIntersightNiatelemetryTenant#vns_svc_redirect_pol_count}
   */
   readonly vnsSvcRedirectPolCount?: number;
   /**
   * Number of Vrfs per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vrf_count DataIntersightNiatelemetryTenant#vrf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vrf_count DataIntersightNiatelemetryTenant#vrf_count}
   */
   readonly vrfCount?: number;
   /**
   * Number of Zoning Policy per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vz_br_cp_count DataIntersightNiatelemetryTenant#vz_br_cp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vz_br_cp_count DataIntersightNiatelemetryTenant#vz_br_cp_count}
   */
   readonly vzBrCpCount?: number;
   /**
   * Number of Client Contract between End Point Groups per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vz_rt_cons_count DataIntersightNiatelemetryTenant#vz_rt_cons_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vz_rt_cons_count DataIntersightNiatelemetryTenant#vz_rt_cons_count}
   */
   readonly vzRtConsCount?: number;
   /**
   * Number of Client Contract between End Point Groups per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#vz_rt_prov_count DataIntersightNiatelemetryTenant#vz_rt_prov_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#vz_rt_prov_count DataIntersightNiatelemetryTenant#vz_rt_prov_count}
   */
   readonly vzRtProvCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ancestors DataIntersightNiatelemetryTenant#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ancestors DataIntersightNiatelemetryTenant#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryTenantAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#parent DataIntersightNiatelemetryTenant#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#parent DataIntersightNiatelemetryTenant#parent}
   */
   readonly parent?: DataIntersightNiatelemetryTenantParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#permission_resources DataIntersightNiatelemetryTenant#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#permission_resources DataIntersightNiatelemetryTenant#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryTenantPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#registered_device DataIntersightNiatelemetryTenant#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#registered_device DataIntersightNiatelemetryTenant#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryTenantRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#tags DataIntersightNiatelemetryTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#tags DataIntersightNiatelemetryTenant#tags}
   */
   readonly tags?: DataIntersightNiatelemetryTenantTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#version_context DataIntersightNiatelemetryTenant#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#version_context DataIntersightNiatelemetryTenant#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryTenantVersionContext;
 }
@@ -991,6 +991,11 @@ export class DataIntersightNiatelemetryTenantResultsTagsOutputReference extends 
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1682,7 +1687,7 @@ export class DataIntersightNiatelemetryTenantResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNiatelemetryTenantAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1690,19 +1695,19 @@ export interface DataIntersightNiatelemetryTenantAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1715,7 +1720,7 @@ export interface DataIntersightNiatelemetryTenantAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -1947,7 +1952,7 @@ export class DataIntersightNiatelemetryTenantAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightNiatelemetryTenantParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1955,19 +1960,19 @@ export interface DataIntersightNiatelemetryTenantParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1980,7 +1985,7 @@ export interface DataIntersightNiatelemetryTenantParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2180,7 +2185,7 @@ export class DataIntersightNiatelemetryTenantParentOutputReference extends cdktf
 }
 export interface DataIntersightNiatelemetryTenantPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2188,19 +2193,19 @@ export interface DataIntersightNiatelemetryTenantPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2213,7 +2218,7 @@ export interface DataIntersightNiatelemetryTenantPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2445,7 +2450,7 @@ export class DataIntersightNiatelemetryTenantPermissionResourcesList extends cdk
 }
 export interface DataIntersightNiatelemetryTenantRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2453,19 +2458,19 @@ export interface DataIntersightNiatelemetryTenantRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2478,7 +2483,7 @@ export interface DataIntersightNiatelemetryTenantRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2678,7 +2683,7 @@ export class DataIntersightNiatelemetryTenantRegisteredDeviceOutputReference ext
 }
 export interface DataIntersightNiatelemetryTenantTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2686,19 +2691,19 @@ export interface DataIntersightNiatelemetryTenantTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2711,7 +2716,7 @@ export interface DataIntersightNiatelemetryTenantTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2943,7 +2948,7 @@ export class DataIntersightNiatelemetryTenantTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightNiatelemetryTenantTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2951,19 +2956,19 @@ export interface DataIntersightNiatelemetryTenantTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2976,7 +2981,7 @@ export interface DataIntersightNiatelemetryTenantTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -3176,45 +3181,51 @@ export class DataIntersightNiatelemetryTenantTagsDefinitionOutputReference exten
 }
 export interface DataIntersightNiatelemetryTenantTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#key DataIntersightNiatelemetryTenant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#key DataIntersightNiatelemetryTenant#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#propagated DataIntersightNiatelemetryTenant#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#propagated DataIntersightNiatelemetryTenant#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#sys_tag DataIntersightNiatelemetryTenant#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#type DataIntersightNiatelemetryTenant#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#type DataIntersightNiatelemetryTenant#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#value DataIntersightNiatelemetryTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#value DataIntersightNiatelemetryTenant#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ancestor_definitions DataIntersightNiatelemetryTenant#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ancestor_definitions DataIntersightNiatelemetryTenant#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryTenantTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#definition DataIntersightNiatelemetryTenant#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#definition DataIntersightNiatelemetryTenant#definition}
   */
   readonly definition?: DataIntersightNiatelemetryTenantTagsDefinition;
 }
@@ -3228,6 +3239,7 @@ export function dataIntersightNiatelemetryTenantTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNiatelemetryTenantTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3256,6 +3268,12 @@ export function dataIntersightNiatelemetryTenantTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3322,6 +3340,10 @@ export class DataIntersightNiatelemetryTenantTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3348,6 +3370,7 @@ export class DataIntersightNiatelemetryTenantTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3363,6 +3386,7 @@ export class DataIntersightNiatelemetryTenantTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3416,6 +3440,22 @@ export class DataIntersightNiatelemetryTenantTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3504,7 +3544,7 @@ export class DataIntersightNiatelemetryTenantTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightNiatelemetryTenantVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3512,19 +3552,19 @@ export interface DataIntersightNiatelemetryTenantVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3537,7 +3577,7 @@ export interface DataIntersightNiatelemetryTenantVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -3769,7 +3809,7 @@ export class DataIntersightNiatelemetryTenantVersionContextInterestedMosList ext
 }
 export interface DataIntersightNiatelemetryTenantVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3777,19 +3817,19 @@ export interface DataIntersightNiatelemetryTenantVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#moid DataIntersightNiatelemetryTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3802,7 +3842,7 @@ export interface DataIntersightNiatelemetryTenantVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#selector DataIntersightNiatelemetryTenant#selector}
   */
   readonly selector?: string;
 }
@@ -4002,7 +4042,7 @@ export class DataIntersightNiatelemetryTenantVersionContextRefMoOutputReference 
 }
 export interface DataIntersightNiatelemetryTenantVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#additional_properties DataIntersightNiatelemetryTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4010,32 +4050,32 @@ export interface DataIntersightNiatelemetryTenantVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#class_id DataIntersightNiatelemetryTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#marked_for_deletion DataIntersightNiatelemetryTenant#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#marked_for_deletion DataIntersightNiatelemetryTenant#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#nr_version DataIntersightNiatelemetryTenant#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#nr_version DataIntersightNiatelemetryTenant#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#object_type DataIntersightNiatelemetryTenant#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#timestamp DataIntersightNiatelemetryTenant#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#timestamp DataIntersightNiatelemetryTenant#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4046,19 +4086,19 @@ export interface DataIntersightNiatelemetryTenantVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#version_type DataIntersightNiatelemetryTenant#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#version_type DataIntersightNiatelemetryTenant#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#interested_mos DataIntersightNiatelemetryTenant#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#interested_mos DataIntersightNiatelemetryTenant#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryTenantVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#ref_mo DataIntersightNiatelemetryTenant#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#ref_mo DataIntersightNiatelemetryTenant#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryTenantVersionContextRefMo;
 }
@@ -4374,7 +4414,7 @@ export class DataIntersightNiatelemetryTenantVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant intersight_niatelemetry_tenant}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant intersight_niatelemetry_tenant}
 */
 export class DataIntersightNiatelemetryTenant extends cdktf.TerraformDataSource {
 
@@ -4390,7 +4430,7 @@ export class DataIntersightNiatelemetryTenant extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightNiatelemetryTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryTenant to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4402,7 +4442,7 @@ export class DataIntersightNiatelemetryTenant extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_tenant intersight_niatelemetry_tenant} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_tenant intersight_niatelemetry_tenant} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4413,8 +4453,8 @@ export class DataIntersightNiatelemetryTenant extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_niatelemetry_tenant',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

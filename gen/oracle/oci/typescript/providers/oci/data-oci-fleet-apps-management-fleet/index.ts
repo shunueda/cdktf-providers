@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFleetAppsManagementFleetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}
   */
   readonly fleetId: string;
 }
@@ -697,9 +697,29 @@ export class DataOciFleetAppsManagementFleetNotificationPreferencesPreferencesOu
     }
   }
 
+  // on_job_canceled - computed: true, optional: false, required: false
+  public get onJobCanceled() {
+    return this.getBooleanAttribute('on_job_canceled');
+  }
+
   // on_job_failure - computed: true, optional: false, required: false
   public get onJobFailure() {
     return this.getBooleanAttribute('on_job_failure');
+  }
+
+  // on_job_schedule_change - computed: true, optional: false, required: false
+  public get onJobScheduleChange() {
+    return this.getBooleanAttribute('on_job_schedule_change');
+  }
+
+  // on_job_start - computed: true, optional: false, required: false
+  public get onJobStart() {
+    return this.getBooleanAttribute('on_job_start');
+  }
+
+  // on_job_success - computed: true, optional: false, required: false
+  public get onJobSuccess() {
+    return this.getBooleanAttribute('on_job_success');
   }
 
   // on_resource_non_compliance - computed: true, optional: false, required: false
@@ -1084,10 +1104,20 @@ export class DataOciFleetAppsManagementFleetResourceSelectionRuleSelectionCriter
     return this.getStringAttribute('compartment_id');
   }
 
+  // compartment_id_in_subtree - computed: true, optional: false, required: false
+  public get compartmentIdInSubtree() {
+    return this.getBooleanAttribute('compartment_id_in_subtree');
+  }
+
   // conditions - computed: true, optional: false, required: false
   private _conditions = new DataOciFleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRulesConditionsList(this, "conditions", false);
   public get conditions() {
     return this._conditions;
+  }
+
+  // match_condition - computed: true, optional: false, required: false
+  public get matchCondition() {
+    return this.getStringAttribute('match_condition');
   }
 
   // resource_compartment_id - computed: true, optional: false, required: false
@@ -1368,7 +1398,7 @@ export class DataOciFleetAppsManagementFleetResourcesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet oci_fleet_apps_management_fleet}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet oci_fleet_apps_management_fleet}
 */
 export class DataOciFleetAppsManagementFleet extends cdktf.TerraformDataSource {
 
@@ -1384,7 +1414,7 @@ export class DataOciFleetAppsManagementFleet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciFleetAppsManagementFleet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFleetAppsManagementFleet to import
-  * @param importFromId The id of the existing DataOciFleetAppsManagementFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFleetAppsManagementFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFleetAppsManagementFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1396,7 +1426,7 @@ export class DataOciFleetAppsManagementFleet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet oci_fleet_apps_management_fleet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet oci_fleet_apps_management_fleet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1407,8 +1437,8 @@ export class DataOciFleetAppsManagementFleet extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_fleet_apps_management_fleet',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

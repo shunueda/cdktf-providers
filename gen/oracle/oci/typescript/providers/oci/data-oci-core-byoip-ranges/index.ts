@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreByoipRangesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#compartment_id DataOciCoreByoipRanges#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#compartment_id DataOciCoreByoipRanges#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#display_name DataOciCoreByoipRanges#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#display_name DataOciCoreByoipRanges#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#id DataOciCoreByoipRanges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#id DataOciCoreByoipRanges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#state DataOciCoreByoipRanges#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#state DataOciCoreByoipRanges#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#filter DataOciCoreByoipRanges#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#filter DataOciCoreByoipRanges#filter}
   */
   readonly filter?: DataOciCoreByoipRangesFilter[] | cdktf.IResolvable;
 }
@@ -450,15 +450,15 @@ export class DataOciCoreByoipRangesByoipRangeCollectionList extends cdktf.Comple
 }
 export interface DataOciCoreByoipRangesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#name DataOciCoreByoipRanges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#name DataOciCoreByoipRanges#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#regex DataOciCoreByoipRanges#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#regex DataOciCoreByoipRanges#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#values DataOciCoreByoipRanges#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#values DataOciCoreByoipRanges#values}
   */
   readonly values: string[];
 }
@@ -626,7 +626,7 @@ export class DataOciCoreByoipRangesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges oci_core_byoip_ranges}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges oci_core_byoip_ranges}
 */
 export class DataOciCoreByoipRanges extends cdktf.TerraformDataSource {
 
@@ -642,7 +642,7 @@ export class DataOciCoreByoipRanges extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreByoipRanges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreByoipRanges to import
-  * @param importFromId The id of the existing DataOciCoreByoipRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreByoipRanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreByoipRanges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -654,7 +654,7 @@ export class DataOciCoreByoipRanges extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_byoip_ranges oci_core_byoip_ranges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_byoip_ranges oci_core_byoip_ranges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -665,8 +665,8 @@ export class DataOciCoreByoipRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_byoip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

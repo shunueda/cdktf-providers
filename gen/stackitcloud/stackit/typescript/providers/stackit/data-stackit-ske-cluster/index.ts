@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitSkeClusterConfig extends cdktf.TerraformMetaArgument
   /**
   * The cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster#name DataStackitSkeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster#name DataStackitSkeCluster#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the cluster is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster#project_id DataStackitSkeCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster#project_id DataStackitSkeCluster#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster#region DataStackitSkeCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster#region DataStackitSkeCluster#region}
   */
   readonly region?: string;
 }
@@ -787,7 +787,7 @@ export class DataStackitSkeClusterNodePoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster stackit_ske_cluster}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster stackit_ske_cluster}
 */
 export class DataStackitSkeCluster extends cdktf.TerraformDataSource {
 
@@ -803,7 +803,7 @@ export class DataStackitSkeCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitSkeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitSkeCluster to import
-  * @param importFromId The id of the existing DataStackitSkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitSkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitSkeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -815,7 +815,7 @@ export class DataStackitSkeCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/ske_cluster stackit_ske_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/ske_cluster stackit_ske_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -826,8 +826,8 @@ export class DataStackitSkeCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_ske_cluster',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiHostLunConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#account_moid DataIntersightStorageHitachiHostLun#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#account_moid DataIntersightStorageHitachiHostLun#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageHitachiHostLunConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#create_time DataIntersightStorageHitachiHostLun#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#create_time DataIntersightStorageHitachiHostLun#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#domain_group_moid DataIntersightStorageHitachiHostLun#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#domain_group_moid DataIntersightStorageHitachiHostLun#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Logical unit number (LUN) by which hosts address specified volume. Hlu is a decimal representation of the LUN from the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#hlu DataIntersightStorageHitachiHostLun#hlu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#hlu DataIntersightStorageHitachiHostLun#hlu}
   */
   readonly hlu?: number;
   /**
   * Name of the host associated with LUN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#host_name DataIntersightStorageHitachiHostLun#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#host_name DataIntersightStorageHitachiHostLun#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#id DataIntersightStorageHitachiHostLun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#id DataIntersightStorageHitachiHostLun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,97 +59,97 @@ export interface DataIntersightStorageHitachiHostLunConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#mod_time DataIntersightStorageHitachiHostLun#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#mod_time DataIntersightStorageHitachiHostLun#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#owners DataIntersightStorageHitachiHostLun#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#owners DataIntersightStorageHitachiHostLun#owners}
   */
   readonly owners?: string[];
   /**
   * Port ID of the Hitachi host lun.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#port_id DataIntersightStorageHitachiHostLun#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#port_id DataIntersightStorageHitachiHostLun#port_id}
   */
   readonly portId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#shared_scope DataIntersightStorageHitachiHostLun#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#shared_scope DataIntersightStorageHitachiHostLun#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the storage volume associated with LUN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#volume_name DataIntersightStorageHitachiHostLun#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#volume_name DataIntersightStorageHitachiHostLun#volume_name}
   */
   readonly volumeName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#ancestors DataIntersightStorageHitachiHostLun#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#ancestors DataIntersightStorageHitachiHostLun#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiHostLunAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#array DataIntersightStorageHitachiHostLun#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#array DataIntersightStorageHitachiHostLun#array}
   */
   readonly array?: DataIntersightStorageHitachiHostLunArray;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#host DataIntersightStorageHitachiHostLun#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#host DataIntersightStorageHitachiHostLun#host}
   */
   readonly host?: DataIntersightStorageHitachiHostLunHost;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#parent DataIntersightStorageHitachiHostLun#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#parent DataIntersightStorageHitachiHostLun#parent}
   */
   readonly parent?: DataIntersightStorageHitachiHostLunParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#permission_resources DataIntersightStorageHitachiHostLun#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#permission_resources DataIntersightStorageHitachiHostLun#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiHostLunPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#registered_device DataIntersightStorageHitachiHostLun#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#registered_device DataIntersightStorageHitachiHostLun#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiHostLunRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#tags DataIntersightStorageHitachiHostLun#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#tags DataIntersightStorageHitachiHostLun#tags}
   */
   readonly tags?: DataIntersightStorageHitachiHostLunTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#version_context DataIntersightStorageHitachiHostLun#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#version_context DataIntersightStorageHitachiHostLun#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiHostLunVersionContext;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#volume DataIntersightStorageHitachiHostLun#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#volume DataIntersightStorageHitachiHostLun#volume}
   */
   readonly volume?: DataIntersightStorageHitachiHostLunVolume;
 }
@@ -991,6 +991,11 @@ export class DataIntersightStorageHitachiHostLunResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1618,7 +1623,7 @@ export class DataIntersightStorageHitachiHostLunResultsList extends cdktf.Comple
 }
 export interface DataIntersightStorageHitachiHostLunAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1626,19 +1631,19 @@ export interface DataIntersightStorageHitachiHostLunAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1651,7 +1656,7 @@ export interface DataIntersightStorageHitachiHostLunAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -1883,7 +1888,7 @@ export class DataIntersightStorageHitachiHostLunAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightStorageHitachiHostLunArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1891,19 +1896,19 @@ export interface DataIntersightStorageHitachiHostLunArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1916,7 +1921,7 @@ export interface DataIntersightStorageHitachiHostLunArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -2116,7 +2121,7 @@ export class DataIntersightStorageHitachiHostLunArrayOutputReference extends cdk
 }
 export interface DataIntersightStorageHitachiHostLunHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2124,19 +2129,19 @@ export interface DataIntersightStorageHitachiHostLunHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2149,7 +2154,7 @@ export interface DataIntersightStorageHitachiHostLunHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -2349,7 +2354,7 @@ export class DataIntersightStorageHitachiHostLunHostOutputReference extends cdkt
 }
 export interface DataIntersightStorageHitachiHostLunParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2357,19 +2362,19 @@ export interface DataIntersightStorageHitachiHostLunParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2382,7 +2387,7 @@ export interface DataIntersightStorageHitachiHostLunParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -2582,7 +2587,7 @@ export class DataIntersightStorageHitachiHostLunParentOutputReference extends cd
 }
 export interface DataIntersightStorageHitachiHostLunPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2590,19 +2595,19 @@ export interface DataIntersightStorageHitachiHostLunPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2615,7 +2620,7 @@ export interface DataIntersightStorageHitachiHostLunPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -2847,7 +2852,7 @@ export class DataIntersightStorageHitachiHostLunPermissionResourcesList extends 
 }
 export interface DataIntersightStorageHitachiHostLunRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2855,19 +2860,19 @@ export interface DataIntersightStorageHitachiHostLunRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2880,7 +2885,7 @@ export interface DataIntersightStorageHitachiHostLunRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -3080,7 +3085,7 @@ export class DataIntersightStorageHitachiHostLunRegisteredDeviceOutputReference 
 }
 export interface DataIntersightStorageHitachiHostLunTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3088,19 +3093,19 @@ export interface DataIntersightStorageHitachiHostLunTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3113,7 +3118,7 @@ export interface DataIntersightStorageHitachiHostLunTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -3345,7 +3350,7 @@ export class DataIntersightStorageHitachiHostLunTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightStorageHitachiHostLunTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3353,19 +3358,19 @@ export interface DataIntersightStorageHitachiHostLunTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3378,7 +3383,7 @@ export interface DataIntersightStorageHitachiHostLunTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -3578,45 +3583,51 @@ export class DataIntersightStorageHitachiHostLunTagsDefinitionOutputReference ex
 }
 export interface DataIntersightStorageHitachiHostLunTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#key DataIntersightStorageHitachiHostLun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#key DataIntersightStorageHitachiHostLun#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#propagated DataIntersightStorageHitachiHostLun#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#propagated DataIntersightStorageHitachiHostLun#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#sys_tag DataIntersightStorageHitachiHostLun#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#type DataIntersightStorageHitachiHostLun#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#type DataIntersightStorageHitachiHostLun#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#value DataIntersightStorageHitachiHostLun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#value DataIntersightStorageHitachiHostLun#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#ancestor_definitions DataIntersightStorageHitachiHostLun#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#ancestor_definitions DataIntersightStorageHitachiHostLun#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiHostLunTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#definition DataIntersightStorageHitachiHostLun#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#definition DataIntersightStorageHitachiHostLun#definition}
   */
   readonly definition?: DataIntersightStorageHitachiHostLunTagsDefinition;
 }
@@ -3630,6 +3641,7 @@ export function dataIntersightStorageHitachiHostLunTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageHitachiHostLunTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3658,6 +3670,12 @@ export function dataIntersightStorageHitachiHostLunTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3724,6 +3742,10 @@ export class DataIntersightStorageHitachiHostLunTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3750,6 +3772,7 @@ export class DataIntersightStorageHitachiHostLunTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3765,6 +3788,7 @@ export class DataIntersightStorageHitachiHostLunTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3818,6 +3842,22 @@ export class DataIntersightStorageHitachiHostLunTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3906,7 +3946,7 @@ export class DataIntersightStorageHitachiHostLunTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightStorageHitachiHostLunVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3914,19 +3954,19 @@ export interface DataIntersightStorageHitachiHostLunVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3939,7 +3979,7 @@ export interface DataIntersightStorageHitachiHostLunVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -4171,7 +4211,7 @@ export class DataIntersightStorageHitachiHostLunVersionContextInterestedMosList 
 }
 export interface DataIntersightStorageHitachiHostLunVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4179,19 +4219,19 @@ export interface DataIntersightStorageHitachiHostLunVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4204,7 +4244,7 @@ export interface DataIntersightStorageHitachiHostLunVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -4404,7 +4444,7 @@ export class DataIntersightStorageHitachiHostLunVersionContextRefMoOutputReferen
 }
 export interface DataIntersightStorageHitachiHostLunVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4412,32 +4452,32 @@ export interface DataIntersightStorageHitachiHostLunVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#marked_for_deletion DataIntersightStorageHitachiHostLun#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#marked_for_deletion DataIntersightStorageHitachiHostLun#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#nr_version DataIntersightStorageHitachiHostLun#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#nr_version DataIntersightStorageHitachiHostLun#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#timestamp DataIntersightStorageHitachiHostLun#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#timestamp DataIntersightStorageHitachiHostLun#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4448,19 +4488,19 @@ export interface DataIntersightStorageHitachiHostLunVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#version_type DataIntersightStorageHitachiHostLun#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#version_type DataIntersightStorageHitachiHostLun#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#interested_mos DataIntersightStorageHitachiHostLun#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#interested_mos DataIntersightStorageHitachiHostLun#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiHostLunVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#ref_mo DataIntersightStorageHitachiHostLun#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#ref_mo DataIntersightStorageHitachiHostLun#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiHostLunVersionContextRefMo;
 }
@@ -4776,7 +4816,7 @@ export class DataIntersightStorageHitachiHostLunVersionContextOutputReference ex
 }
 export interface DataIntersightStorageHitachiHostLunVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#additional_properties DataIntersightStorageHitachiHostLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4784,19 +4824,19 @@ export interface DataIntersightStorageHitachiHostLunVolume {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#class_id DataIntersightStorageHitachiHostLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#moid DataIntersightStorageHitachiHostLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#object_type DataIntersightStorageHitachiHostLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4809,7 +4849,7 @@ export interface DataIntersightStorageHitachiHostLunVolume {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#selector DataIntersightStorageHitachiHostLun#selector}
   */
   readonly selector?: string;
 }
@@ -5009,7 +5049,7 @@ export class DataIntersightStorageHitachiHostLunVolumeOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun intersight_storage_hitachi_host_lun}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun intersight_storage_hitachi_host_lun}
 */
 export class DataIntersightStorageHitachiHostLun extends cdktf.TerraformDataSource {
 
@@ -5025,7 +5065,7 @@ export class DataIntersightStorageHitachiHostLun extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightStorageHitachiHostLun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiHostLun to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiHostLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiHostLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiHostLun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5037,7 +5077,7 @@ export class DataIntersightStorageHitachiHostLun extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_host_lun intersight_storage_hitachi_host_lun} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_host_lun intersight_storage_hitachi_host_lun} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5048,8 +5088,8 @@ export class DataIntersightStorageHitachiHostLun extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_storage_hitachi_host_lun',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

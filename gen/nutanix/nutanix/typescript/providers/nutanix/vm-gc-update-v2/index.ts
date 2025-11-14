@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface VmGcUpdateV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#ext_id VmGcUpdateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#ext_id VmGcUpdateV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#id VmGcUpdateV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#id VmGcUpdateV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,17 +21,17 @@ export interface VmGcUpdateV2Config extends cdktf.TerraformMetaArguments {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#config VmGcUpdateV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#config VmGcUpdateV2#config}
   */
   readonly config?: VmGcUpdateV2ConfigA[] | cdktf.IResolvable;
 }
 export interface VmGcUpdateV2ConfigCloudInitCloudInitScriptCustomKeysKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#name VmGcUpdateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#name VmGcUpdateV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
   */
   readonly value?: string;
 }
@@ -178,7 +178,7 @@ export interface VmGcUpdateV2ConfigCloudInitCloudInitScriptCustomKeys {
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#key_value_pairs VmGcUpdateV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#key_value_pairs VmGcUpdateV2#key_value_pairs}
   */
   readonly keyValuePairs?: VmGcUpdateV2ConfigCloudInitCloudInitScriptCustomKeysKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -294,7 +294,7 @@ export class VmGcUpdateV2ConfigCloudInitCloudInitScriptCustomKeysList extends cd
 }
 export interface VmGcUpdateV2ConfigCloudInitCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
   */
   readonly value?: string;
 }
@@ -412,13 +412,13 @@ export interface VmGcUpdateV2ConfigCloudInitCloudInitScript {
   /**
   * custom_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#custom_keys VmGcUpdateV2#custom_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#custom_keys VmGcUpdateV2#custom_keys}
   */
   readonly customKeys?: VmGcUpdateV2ConfigCloudInitCloudInitScriptCustomKeys[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#user_data VmGcUpdateV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#user_data VmGcUpdateV2#user_data}
   */
   readonly userData?: VmGcUpdateV2ConfigCloudInitCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -563,17 +563,17 @@ export class VmGcUpdateV2ConfigCloudInitCloudInitScriptList extends cdktf.Comple
 }
 export interface VmGcUpdateV2ConfigCloudInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#datasource_type VmGcUpdateV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#datasource_type VmGcUpdateV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#metadata VmGcUpdateV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#metadata VmGcUpdateV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#cloud_init_script VmGcUpdateV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#cloud_init_script VmGcUpdateV2#cloud_init_script}
   */
   readonly cloudInitScript?: VmGcUpdateV2ConfigCloudInitCloudInitScript[] | cdktf.IResolvable;
 }
@@ -747,11 +747,11 @@ export class VmGcUpdateV2ConfigCloudInitList extends cdktf.ComplexList {
 }
 export interface VmGcUpdateV2ConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#name VmGcUpdateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#name VmGcUpdateV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
   */
   readonly value?: string;
 }
@@ -898,7 +898,7 @@ export interface VmGcUpdateV2ConfigSysprepSysprepScriptCustomKeyValues {
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#key_value_pairs VmGcUpdateV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#key_value_pairs VmGcUpdateV2#key_value_pairs}
   */
   readonly keyValuePairs?: VmGcUpdateV2ConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -1014,7 +1014,7 @@ export class VmGcUpdateV2ConfigSysprepSysprepScriptCustomKeyValuesList extends c
 }
 export interface VmGcUpdateV2ConfigSysprepSysprepScriptUnattendXml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#value VmGcUpdateV2#value}
   */
   readonly value?: string;
 }
@@ -1132,13 +1132,13 @@ export interface VmGcUpdateV2ConfigSysprepSysprepScript {
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#custom_key_values VmGcUpdateV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#custom_key_values VmGcUpdateV2#custom_key_values}
   */
   readonly customKeyValues?: VmGcUpdateV2ConfigSysprepSysprepScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * unattend_xml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#unattend_xml VmGcUpdateV2#unattend_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#unattend_xml VmGcUpdateV2#unattend_xml}
   */
   readonly unattendXml?: VmGcUpdateV2ConfigSysprepSysprepScriptUnattendXml[] | cdktf.IResolvable;
 }
@@ -1283,13 +1283,13 @@ export class VmGcUpdateV2ConfigSysprepSysprepScriptList extends cdktf.ComplexLis
 }
 export interface VmGcUpdateV2ConfigSysprep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#install_type VmGcUpdateV2#install_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#install_type VmGcUpdateV2#install_type}
   */
   readonly installType?: string;
   /**
   * sysprep_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#sysprep_script VmGcUpdateV2#sysprep_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#sysprep_script VmGcUpdateV2#sysprep_script}
   */
   readonly sysprepScript?: VmGcUpdateV2ConfigSysprepSysprepScript[] | cdktf.IResolvable;
 }
@@ -1436,13 +1436,13 @@ export interface VmGcUpdateV2ConfigA {
   /**
   * cloud_init block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#cloud_init VmGcUpdateV2#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#cloud_init VmGcUpdateV2#cloud_init}
   */
   readonly cloudInit?: VmGcUpdateV2ConfigCloudInit[] | cdktf.IResolvable;
   /**
   * sysprep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#sysprep VmGcUpdateV2#sysprep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#sysprep VmGcUpdateV2#sysprep}
   */
   readonly sysprep?: VmGcUpdateV2ConfigSysprep[] | cdktf.IResolvable;
 }
@@ -1587,7 +1587,7 @@ export class VmGcUpdateV2ConfigAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2 nutanix_vm_gc_update_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2 nutanix_vm_gc_update_v2}
 */
 export class VmGcUpdateV2 extends cdktf.TerraformResource {
 
@@ -1603,7 +1603,7 @@ export class VmGcUpdateV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmGcUpdateV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmGcUpdateV2 to import
-  * @param importFromId The id of the existing VmGcUpdateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmGcUpdateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmGcUpdateV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1615,7 +1615,7 @@ export class VmGcUpdateV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_gc_update_v2 nutanix_vm_gc_update_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_gc_update_v2 nutanix_vm_gc_update_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1626,8 +1626,8 @@ export class VmGcUpdateV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_vm_gc_update_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

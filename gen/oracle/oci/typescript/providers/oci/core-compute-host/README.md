@@ -1,3 +1,3 @@
 # `oci_core_compute_host`
 
-Refer to the Terraform Registry for docs: [`oci_core_compute_host`](https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_host).
+Refer to the Terraform Registry for docs: [`oci_core_compute_host`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_host).

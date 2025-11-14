@@ -14,6 +14,7 @@ export * as applianceDataExportPolicy from './appliance-data-export-policy';
 export * as applianceDeviceClaim from './appliance-device-claim';
 export * as applianceDiagSetting from './appliance-diag-setting';
 export * as applianceExternalSyslogSetting from './appliance-external-syslog-setting';
+export * as applianceFqdnUpdate from './appliance-fqdn-update';
 export * as applianceRemoteFileImport from './appliance-remote-file-import';
 export * as applianceRestore from './appliance-restore';
 export * as assetDeviceClaim from './asset-device-claim';
@@ -468,6 +469,7 @@ export * as dataIntersightApplianceExternalSyslogSetting from './data-intersight
 export * as dataIntersightApplianceFileGateway from './data-intersight-appliance-file-gateway';
 export * as dataIntersightApplianceFileSystemOpStatus from './data-intersight-appliance-file-system-op-status';
 export * as dataIntersightApplianceFileSystemStatus from './data-intersight-appliance-file-system-status';
+export * as dataIntersightApplianceFqdnUpdate from './data-intersight-appliance-fqdn-update';
 export * as dataIntersightApplianceGroupOpStatus from './data-intersight-appliance-group-op-status';
 export * as dataIntersightApplianceGroupStatus from './data-intersight-appliance-group-status';
 export * as dataIntersightApplianceImageBundle from './data-intersight-appliance-image-bundle';

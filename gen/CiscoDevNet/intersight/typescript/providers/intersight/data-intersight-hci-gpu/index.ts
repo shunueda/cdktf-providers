@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHciGpuConfig extends cdktf.TerraformMetaArguments
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#account_moid DataIntersightHciGpu#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#account_moid DataIntersightHciGpu#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightHciGpuConfig extends cdktf.TerraformMetaArguments
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The unique identifier of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#cluster_ext_id DataIntersightHciGpu#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#cluster_ext_id DataIntersightHciGpu#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
   * The name of the cluster this GPU belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#cluster_name DataIntersightHciGpu#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#cluster_name DataIntersightHciGpu#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The unique identifier of the controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#controller_vm_id DataIntersightHciGpu#controller_vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#controller_vm_id DataIntersightHciGpu#controller_vm_id}
   */
   readonly controllerVmId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#create_time DataIntersightHciGpu#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#create_time DataIntersightHciGpu#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#domain_group_moid DataIntersightHciGpu#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#domain_group_moid DataIntersightHciGpu#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The unique identifier of the gpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#gpu_ext_id DataIntersightHciGpu#gpu_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#gpu_ext_id DataIntersightHciGpu#gpu_ext_id}
   */
   readonly gpuExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#id DataIntersightHciGpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#id DataIntersightHciGpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,91 +71,91 @@ export interface DataIntersightHciGpuConfig extends cdktf.TerraformMetaArguments
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#mod_time DataIntersightHciGpu#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#mod_time DataIntersightHciGpu#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The unique identifier of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#node_ext_id DataIntersightHciGpu#node_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#node_ext_id DataIntersightHciGpu#node_ext_id}
   */
   readonly nodeExtId?: string;
   /**
   * The number of vGPUs allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#number_of_vgpus_allocated DataIntersightHciGpu#number_of_vgpus_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#number_of_vgpus_allocated DataIntersightHciGpu#number_of_vgpus_allocated}
   */
   readonly numberOfVgpusAllocated?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#owners DataIntersightHciGpu#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#owners DataIntersightHciGpu#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#shared_scope DataIntersightHciGpu#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#shared_scope DataIntersightHciGpu#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#ancestors DataIntersightHciGpu#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#ancestors DataIntersightHciGpu#ancestors}
   */
   readonly ancestors?: DataIntersightHciGpuAncestors[] | cdktf.IResolvable;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#node DataIntersightHciGpu#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#node DataIntersightHciGpu#node}
   */
   readonly nodeAttribute?: DataIntersightHciGpuNode;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#parent DataIntersightHciGpu#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#parent DataIntersightHciGpu#parent}
   */
   readonly parent?: DataIntersightHciGpuParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#permission_resources DataIntersightHciGpu#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#permission_resources DataIntersightHciGpu#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciGpuPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#registered_device DataIntersightHciGpu#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#registered_device DataIntersightHciGpu#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciGpuRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#tags DataIntersightHciGpu#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#tags DataIntersightHciGpu#tags}
   */
   readonly tags?: DataIntersightHciGpuTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#version_context DataIntersightHciGpu#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#version_context DataIntersightHciGpu#version_context}
   */
   readonly versionContext?: DataIntersightHciGpuVersionContext;
   /**
   * virtual_gpu_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#virtual_gpu_config DataIntersightHciGpu#virtual_gpu_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#virtual_gpu_config DataIntersightHciGpu#virtual_gpu_config}
   */
   readonly virtualGpuConfig?: DataIntersightHciGpuVirtualGpuConfig;
 }
@@ -902,6 +902,11 @@ export class DataIntersightHciGpuResultsTagsOutputReference extends cdktf.Comple
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1598,7 +1603,7 @@ export class DataIntersightHciGpuResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciGpuAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1606,19 +1611,19 @@ export interface DataIntersightHciGpuAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1631,7 +1636,7 @@ export interface DataIntersightHciGpuAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -1863,7 +1868,7 @@ export class DataIntersightHciGpuAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciGpuNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1871,19 +1876,19 @@ export interface DataIntersightHciGpuNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1896,7 +1901,7 @@ export interface DataIntersightHciGpuNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2096,7 +2101,7 @@ export class DataIntersightHciGpuNodeOutputReference extends cdktf.ComplexObject
 }
 export interface DataIntersightHciGpuParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2104,19 +2109,19 @@ export interface DataIntersightHciGpuParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2129,7 +2134,7 @@ export interface DataIntersightHciGpuParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2329,7 +2334,7 @@ export class DataIntersightHciGpuParentOutputReference extends cdktf.ComplexObje
 }
 export interface DataIntersightHciGpuPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2337,19 +2342,19 @@ export interface DataIntersightHciGpuPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2362,7 +2367,7 @@ export interface DataIntersightHciGpuPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2594,7 +2599,7 @@ export class DataIntersightHciGpuPermissionResourcesList extends cdktf.ComplexLi
 }
 export interface DataIntersightHciGpuRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2602,19 +2607,19 @@ export interface DataIntersightHciGpuRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2627,7 +2632,7 @@ export interface DataIntersightHciGpuRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2827,7 +2832,7 @@ export class DataIntersightHciGpuRegisteredDeviceOutputReference extends cdktf.C
 }
 export interface DataIntersightHciGpuTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2835,19 +2840,19 @@ export interface DataIntersightHciGpuTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2860,7 +2865,7 @@ export interface DataIntersightHciGpuTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3092,7 +3097,7 @@ export class DataIntersightHciGpuTagsAncestorDefinitionsList extends cdktf.Compl
 }
 export interface DataIntersightHciGpuTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3100,19 +3105,19 @@ export interface DataIntersightHciGpuTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3125,7 +3130,7 @@ export interface DataIntersightHciGpuTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3325,45 +3330,51 @@ export class DataIntersightHciGpuTagsDefinitionOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciGpuTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#key DataIntersightHciGpu#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#key DataIntersightHciGpu#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#propagated DataIntersightHciGpu#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#propagated DataIntersightHciGpu#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#sys_tag DataIntersightHciGpu#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#type DataIntersightHciGpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#type DataIntersightHciGpu#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#value DataIntersightHciGpu#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#value DataIntersightHciGpu#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#ancestor_definitions DataIntersightHciGpu#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#ancestor_definitions DataIntersightHciGpu#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciGpuTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#definition DataIntersightHciGpu#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#definition DataIntersightHciGpu#definition}
   */
   readonly definition?: DataIntersightHciGpuTagsDefinition;
 }
@@ -3377,6 +3388,7 @@ export function dataIntersightHciGpuTagsToTerraform(struct?: DataIntersightHciGp
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHciGpuTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3405,6 +3417,12 @@ export function dataIntersightHciGpuTagsToHclTerraform(struct?: DataIntersightHc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3471,6 +3489,10 @@ export class DataIntersightHciGpuTagsOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3497,6 +3519,7 @@ export class DataIntersightHciGpuTagsOutputReference extends cdktf.ComplexObject
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3512,6 +3535,7 @@ export class DataIntersightHciGpuTagsOutputReference extends cdktf.ComplexObject
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3565,6 +3589,22 @@ export class DataIntersightHciGpuTagsOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3653,7 +3693,7 @@ export class DataIntersightHciGpuTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciGpuVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3661,19 +3701,19 @@ export interface DataIntersightHciGpuVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3686,7 +3726,7 @@ export interface DataIntersightHciGpuVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3918,7 +3958,7 @@ export class DataIntersightHciGpuVersionContextInterestedMosList extends cdktf.C
 }
 export interface DataIntersightHciGpuVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3926,19 +3966,19 @@ export interface DataIntersightHciGpuVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#moid DataIntersightHciGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3951,7 +3991,7 @@ export interface DataIntersightHciGpuVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#selector DataIntersightHciGpu#selector}
   */
   readonly selector?: string;
 }
@@ -4151,7 +4191,7 @@ export class DataIntersightHciGpuVersionContextRefMoOutputReference extends cdkt
 }
 export interface DataIntersightHciGpuVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4159,32 +4199,32 @@ export interface DataIntersightHciGpuVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#marked_for_deletion DataIntersightHciGpu#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#marked_for_deletion DataIntersightHciGpu#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#nr_version DataIntersightHciGpu#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#nr_version DataIntersightHciGpu#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#timestamp DataIntersightHciGpu#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#timestamp DataIntersightHciGpu#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4195,19 +4235,19 @@ export interface DataIntersightHciGpuVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#version_type DataIntersightHciGpu#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#version_type DataIntersightHciGpu#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#interested_mos DataIntersightHciGpu#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#interested_mos DataIntersightHciGpu#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciGpuVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#ref_mo DataIntersightHciGpu#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#ref_mo DataIntersightHciGpu#ref_mo}
   */
   readonly refMo?: DataIntersightHciGpuVersionContextRefMo;
 }
@@ -4523,13 +4563,13 @@ export class DataIntersightHciGpuVersionContextOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciGpuVirtualGpuConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#additional_properties DataIntersightHciGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Indicates if the virtual GPU is assignable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#assignable DataIntersightHciGpu#assignable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#assignable DataIntersightHciGpu#assignable}
   */
   readonly assignable?: number;
   /**
@@ -4537,97 +4577,97 @@ export interface DataIntersightHciGpuVirtualGpuConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#class_id DataIntersightHciGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The device id of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#device_id DataIntersightHciGpu#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#device_id DataIntersightHciGpu#device_id}
   */
   readonly deviceId?: number;
   /**
   * The name of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#device_name DataIntersightHciGpu#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#device_name DataIntersightHciGpu#device_name}
   */
   readonly deviceName?: string;
   /**
   * The fraction of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#fraction DataIntersightHciGpu#fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#fraction DataIntersightHciGpu#fraction}
   */
   readonly fraction?: number;
   /**
   * The frame buffer size of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#frame_buffer_size_bytes DataIntersightHciGpu#frame_buffer_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#frame_buffer_size_bytes DataIntersightHciGpu#frame_buffer_size_bytes}
   */
   readonly frameBufferSizeBytes?: number;
   /**
   * The guest driver version of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#guest_driver_version DataIntersightHciGpu#guest_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#guest_driver_version DataIntersightHciGpu#guest_driver_version}
   */
   readonly guestDriverVersion?: string;
   /**
   * Indicates if the virtual GPU is in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#in_use DataIntersightHciGpu#in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#in_use DataIntersightHciGpu#in_use}
   */
   readonly inUse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#licenses DataIntersightHciGpu#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#licenses DataIntersightHciGpu#licenses}
   */
   readonly licenses?: string[];
   /**
   * The maximum resolution per display heads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#max_resolution DataIntersightHciGpu#max_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#max_resolution DataIntersightHciGpu#max_resolution}
   */
   readonly maxResolution?: string;
   /**
   * The mode of the virtual GPU such as UNUSED, USED_FOR_PASSTHROUGH, USED_FOR_VIRTUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#mode DataIntersightHciGpu#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#mode DataIntersightHciGpu#mode}
   */
   readonly mode?: string;
   /**
   * The NUMA node of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#numa_node DataIntersightHciGpu#numa_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#numa_node DataIntersightHciGpu#numa_node}
   */
   readonly numaNode?: string;
   /**
   * The number of virtual display heads of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#number_of_virtual_display_heads DataIntersightHciGpu#number_of_virtual_display_heads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#number_of_virtual_display_heads DataIntersightHciGpu#number_of_virtual_display_heads}
   */
   readonly numberOfVirtualDisplayHeads?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#object_type DataIntersightHciGpu#object_type}
   */
   readonly objectType?: string;
   /**
   * The SBDF address of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#sbdf DataIntersightHciGpu#sbdf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#sbdf DataIntersightHciGpu#sbdf}
   */
   readonly sbdf?: string;
   /**
   * The type of the virtual GPU such as PASS_THROUGH_GRAPHICS,
   * PASS_THROUGH_COMPUTE, VIRTUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#type DataIntersightHciGpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#type DataIntersightHciGpu#type}
   */
   readonly type?: string;
   /**
   * The vendor name of the virtual GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#vendor DataIntersightHciGpu#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#vendor DataIntersightHciGpu#vendor}
   */
   readonly vendor?: string;
 }
@@ -5204,7 +5244,7 @@ export class DataIntersightHciGpuVirtualGpuConfigOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu intersight_hci_gpu}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu intersight_hci_gpu}
 */
 export class DataIntersightHciGpu extends cdktf.TerraformDataSource {
 
@@ -5220,7 +5260,7 @@ export class DataIntersightHciGpu extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciGpu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciGpu to import
-  * @param importFromId The id of the existing DataIntersightHciGpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciGpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciGpu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5232,7 +5272,7 @@ export class DataIntersightHciGpu extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_gpu intersight_hci_gpu} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_gpu intersight_hci_gpu} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5243,8 +5283,8 @@ export class DataIntersightHciGpu extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_gpu',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

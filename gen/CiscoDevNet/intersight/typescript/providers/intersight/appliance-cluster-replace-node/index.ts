@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface ApplianceClusterReplaceNodeConfig extends cdktf.TerraformMetaAr
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#account ApplianceClusterReplaceNode#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#account ApplianceClusterReplaceNode#account}
   */
   readonly account?: ApplianceClusterReplaceNodeAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#account_moid ApplianceClusterReplaceNode#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#account_moid ApplianceClusterReplaceNode#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#ancestors ApplianceClusterReplaceNode#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#ancestors ApplianceClusterReplaceNode#ancestors}
   */
   readonly ancestors?: ApplianceClusterReplaceNodeAncestors[] | cdktf.IResolvable;
   /**
@@ -35,135 +35,135 @@ export interface ApplianceClusterReplaceNodeConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#completed_phases ApplianceClusterReplaceNode#completed_phases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#completed_phases ApplianceClusterReplaceNode#completed_phases}
   */
   readonly completedPhases?: ApplianceClusterReplaceNodeCompletedPhases[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#create_time ApplianceClusterReplaceNode#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#create_time ApplianceClusterReplaceNode#create_time}
   */
   readonly createTime?: string;
   /**
   * Current phase of the Intersight Appliance's software install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#current_phase ApplianceClusterReplaceNode#current_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#current_phase ApplianceClusterReplaceNode#current_phase}
   */
   readonly currentPhase?: ApplianceClusterReplaceNodeCurrentPhase[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#domain_group_moid ApplianceClusterReplaceNode#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#domain_group_moid ApplianceClusterReplaceNode#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Elapsed time in seconds during the software install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date of the software install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
   */
   readonly endTime?: string;
   /**
   * Error code for Intersight Appliance's software install. In case of failure - this code will help decide if software install can be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#error_code ApplianceClusterReplaceNode#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#error_code ApplianceClusterReplaceNode#error_code}
   */
   readonly errorCode?: number;
   /**
   * Hostname of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#id ApplianceClusterReplaceNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#id ApplianceClusterReplaceNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#messages ApplianceClusterReplaceNode#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#messages ApplianceClusterReplaceNode#messages}
   */
   readonly messages?: string[];
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#mod_time ApplianceClusterReplaceNode#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#mod_time ApplianceClusterReplaceNode#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
   * Node id of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
   */
   readonly nodeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_info ApplianceClusterReplaceNode#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_info ApplianceClusterReplaceNode#node_info}
   */
   readonly nodeInfo?: ApplianceClusterReplaceNodeNodeInfo[] | cdktf.IResolvable;
   /**
   * If the node being replaced has a different IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_ip_changed ApplianceClusterReplaceNode#node_ip_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_ip_changed ApplianceClusterReplaceNode#node_ip_changed}
   */
   readonly nodeIpChanged?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#owners ApplianceClusterReplaceNode#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#owners ApplianceClusterReplaceNode#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#parent ApplianceClusterReplaceNode#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#parent ApplianceClusterReplaceNode#parent}
   */
   readonly parent?: ApplianceClusterReplaceNodeParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#permission_resources ApplianceClusterReplaceNode#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#permission_resources ApplianceClusterReplaceNode#permission_resources}
   */
   readonly permissionResources?: ApplianceClusterReplaceNodePermissionResources[] | cdktf.IResolvable;
   /**
   * Round robin DNS address, which should be able to resolve the hostnames of all the nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#remote_dns ApplianceClusterReplaceNode#remote_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#remote_dns ApplianceClusterReplaceNode#remote_dns}
   */
   readonly remoteDns?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#shared_scope ApplianceClusterReplaceNode#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#shared_scope ApplianceClusterReplaceNode#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start date of the software install. UI can modify startTime to re-schedule an install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
   */
   readonly startTime?: string;
   /**
@@ -174,57 +174,57 @@ export interface ApplianceClusterReplaceNodeConfig extends cdktf.TerraformMetaAr
   * * `Success` - Install was run and succeeded.
   * * `Fail` - Install was run and failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#tags ApplianceClusterReplaceNode#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#tags ApplianceClusterReplaceNode#tags}
   */
   readonly tags?: ApplianceClusterReplaceNodeTags[] | cdktf.IResolvable;
   /**
   * Total number of nodes in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#total_nodes ApplianceClusterReplaceNode#total_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#total_nodes ApplianceClusterReplaceNode#total_nodes}
   */
   readonly totalNodes?: number;
   /**
   * TotalPhase represents the total number of the install phases for one install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#total_phases ApplianceClusterReplaceNode#total_phases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#total_phases ApplianceClusterReplaceNode#total_phases}
   */
   readonly totalPhases?: number;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#version_context ApplianceClusterReplaceNode#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#version_context ApplianceClusterReplaceNode#version_context}
   */
   readonly versionContext?: ApplianceClusterReplaceNodeVersionContext[] | cdktf.IResolvable;
   /**
   * VIP hostname and ip address of the onprem cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#vip ApplianceClusterReplaceNode#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#vip ApplianceClusterReplaceNode#vip}
   */
   readonly vip?: ApplianceClusterReplaceNodeVip[] | cdktf.IResolvable;
 }
 export interface ApplianceClusterReplaceNodeAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -456,23 +456,23 @@ export class ApplianceClusterReplaceNodeAccountList extends cdktf.ComplexList {
 }
 export interface ApplianceClusterReplaceNodeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -704,55 +704,55 @@ export class ApplianceClusterReplaceNodeAncestorsList extends cdktf.ComplexList 
 }
 export interface ApplianceClusterReplaceNodeCompletedPhases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#current_node ApplianceClusterReplaceNode#current_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#current_node ApplianceClusterReplaceNode#current_node}
   */
   readonly currentNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#current_subphase ApplianceClusterReplaceNode#current_subphase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#current_subphase ApplianceClusterReplaceNode#current_subphase}
   */
   readonly currentSubphase?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#failed ApplianceClusterReplaceNode#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#failed ApplianceClusterReplaceNode#failed}
   */
   readonly failed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#message ApplianceClusterReplaceNode#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#message ApplianceClusterReplaceNode#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#name ApplianceClusterReplaceNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#name ApplianceClusterReplaceNode#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#pending_nodes ApplianceClusterReplaceNode#pending_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#pending_nodes ApplianceClusterReplaceNode#pending_nodes}
   */
   readonly pendingNodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
   */
   readonly status?: string;
 }
@@ -1216,55 +1216,55 @@ export class ApplianceClusterReplaceNodeCompletedPhasesList extends cdktf.Comple
 }
 export interface ApplianceClusterReplaceNodeCurrentPhase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#current_node ApplianceClusterReplaceNode#current_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#current_node ApplianceClusterReplaceNode#current_node}
   */
   readonly currentNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#current_subphase ApplianceClusterReplaceNode#current_subphase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#current_subphase ApplianceClusterReplaceNode#current_subphase}
   */
   readonly currentSubphase?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#elapsed_time ApplianceClusterReplaceNode#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#end_time ApplianceClusterReplaceNode#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#failed ApplianceClusterReplaceNode#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#failed ApplianceClusterReplaceNode#failed}
   */
   readonly failed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#message ApplianceClusterReplaceNode#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#message ApplianceClusterReplaceNode#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#name ApplianceClusterReplaceNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#name ApplianceClusterReplaceNode#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#pending_nodes ApplianceClusterReplaceNode#pending_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#pending_nodes ApplianceClusterReplaceNode#pending_nodes}
   */
   readonly pendingNodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#start_time ApplianceClusterReplaceNode#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
   */
   readonly status?: string;
 }
@@ -1728,47 +1728,47 @@ export class ApplianceClusterReplaceNodeCurrentPhaseList extends cdktf.ComplexLi
 }
 export interface ApplianceClusterReplaceNodeNodeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#gateway ApplianceClusterReplaceNode#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#gateway ApplianceClusterReplaceNode#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#ip_address ApplianceClusterReplaceNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#ip_address ApplianceClusterReplaceNode#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#netmask ApplianceClusterReplaceNode#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#netmask ApplianceClusterReplaceNode#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
   */
   readonly nodeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_moid ApplianceClusterReplaceNode#node_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_moid ApplianceClusterReplaceNode#node_moid}
   */
   readonly nodeMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_type ApplianceClusterReplaceNode#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_type ApplianceClusterReplaceNode#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
   */
   readonly status?: string;
 }
@@ -2174,23 +2174,23 @@ export class ApplianceClusterReplaceNodeNodeInfoList extends cdktf.ComplexList {
 }
 export interface ApplianceClusterReplaceNodeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -2422,23 +2422,23 @@ export class ApplianceClusterReplaceNodeParentList extends cdktf.ComplexList {
 }
 export interface ApplianceClusterReplaceNodePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -2670,23 +2670,23 @@ export class ApplianceClusterReplaceNodePermissionResourcesList extends cdktf.Co
 }
 export interface ApplianceClusterReplaceNodeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -2918,23 +2918,23 @@ export class ApplianceClusterReplaceNodeTagsAncestorDefinitionsList extends cdkt
 }
 export interface ApplianceClusterReplaceNodeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -3166,31 +3166,35 @@ export class ApplianceClusterReplaceNodeTagsDefinitionList extends cdktf.Complex
 }
 export interface ApplianceClusterReplaceNodeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#ancestor_definitions ApplianceClusterReplaceNode#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#ancestor_definitions ApplianceClusterReplaceNode#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ApplianceClusterReplaceNodeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#definition ApplianceClusterReplaceNode#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#definition ApplianceClusterReplaceNode#definition}
   */
   readonly definition?: ApplianceClusterReplaceNodeTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#key ApplianceClusterReplaceNode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#key ApplianceClusterReplaceNode#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#propagated ApplianceClusterReplaceNode#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#propagated ApplianceClusterReplaceNode#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#type ApplianceClusterReplaceNode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#sys_tag ApplianceClusterReplaceNode#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#type ApplianceClusterReplaceNode#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#value ApplianceClusterReplaceNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#value ApplianceClusterReplaceNode#value}
   */
   readonly value?: string;
 }
@@ -3206,6 +3210,7 @@ export function applianceClusterReplaceNodeTagsToTerraform(struct?: ApplianceClu
     definition: cdktf.listMapper(applianceClusterReplaceNodeTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3244,6 +3249,12 @@ export function applianceClusterReplaceNodeTagsToHclTerraform(struct?: Appliance
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3306,6 +3317,10 @@ export class ApplianceClusterReplaceNodeTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3326,6 +3341,7 @@ export class ApplianceClusterReplaceNodeTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3341,6 +3357,7 @@ export class ApplianceClusterReplaceNodeTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3426,6 +3443,22 @@ export class ApplianceClusterReplaceNodeTagsOutputReference extends cdktf.Comple
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3480,23 +3513,23 @@ export class ApplianceClusterReplaceNodeTagsList extends cdktf.ComplexList {
 }
 export interface ApplianceClusterReplaceNodeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -3728,23 +3761,23 @@ export class ApplianceClusterReplaceNodeVersionContextInterestedMosList extends 
 }
 export interface ApplianceClusterReplaceNodeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#moid ApplianceClusterReplaceNode#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#selector ApplianceClusterReplaceNode#selector}
   */
   readonly selector?: string;
 }
@@ -3976,39 +4009,39 @@ export class ApplianceClusterReplaceNodeVersionContextRefMoList extends cdktf.Co
 }
 export interface ApplianceClusterReplaceNodeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#interested_mos ApplianceClusterReplaceNode#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#interested_mos ApplianceClusterReplaceNode#interested_mos}
   */
   readonly interestedMos?: ApplianceClusterReplaceNodeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#marked_for_deletion ApplianceClusterReplaceNode#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#marked_for_deletion ApplianceClusterReplaceNode#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#nr_version ApplianceClusterReplaceNode#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#nr_version ApplianceClusterReplaceNode#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#ref_mo ApplianceClusterReplaceNode#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#ref_mo ApplianceClusterReplaceNode#ref_mo}
   */
   readonly refMo?: ApplianceClusterReplaceNodeVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#timestamp ApplianceClusterReplaceNode#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#timestamp ApplianceClusterReplaceNode#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#version_type ApplianceClusterReplaceNode#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#version_type ApplianceClusterReplaceNode#version_type}
   */
   readonly versionType?: string;
 }
@@ -4356,47 +4389,47 @@ export class ApplianceClusterReplaceNodeVersionContextList extends cdktf.Complex
 }
 export interface ApplianceClusterReplaceNodeVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#additional_properties ApplianceClusterReplaceNode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#class_id ApplianceClusterReplaceNode#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#gateway ApplianceClusterReplaceNode#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#gateway ApplianceClusterReplaceNode#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#hostname ApplianceClusterReplaceNode#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#ip_address ApplianceClusterReplaceNode#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#ip_address ApplianceClusterReplaceNode#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#netmask ApplianceClusterReplaceNode#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#netmask ApplianceClusterReplaceNode#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_id ApplianceClusterReplaceNode#node_id}
   */
   readonly nodeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_moid ApplianceClusterReplaceNode#node_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_moid ApplianceClusterReplaceNode#node_moid}
   */
   readonly nodeMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#node_type ApplianceClusterReplaceNode#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#node_type ApplianceClusterReplaceNode#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#object_type ApplianceClusterReplaceNode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#status ApplianceClusterReplaceNode#status}
   */
   readonly status?: string;
 }
@@ -4802,7 +4835,7 @@ export class ApplianceClusterReplaceNodeVipList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node intersight_appliance_cluster_replace_node}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node intersight_appliance_cluster_replace_node}
 */
 export class ApplianceClusterReplaceNode extends cdktf.TerraformResource {
 
@@ -4818,7 +4851,7 @@ export class ApplianceClusterReplaceNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceClusterReplaceNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceClusterReplaceNode to import
-  * @param importFromId The id of the existing ApplianceClusterReplaceNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceClusterReplaceNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceClusterReplaceNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4830,7 +4863,7 @@ export class ApplianceClusterReplaceNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_cluster_replace_node intersight_appliance_cluster_replace_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_cluster_replace_node intersight_appliance_cluster_replace_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4841,8 +4874,8 @@ export class ApplianceClusterReplaceNode extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_cluster_replace_node',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CapabilityIoCardManufacturingDefConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#account_moid CapabilityIoCardManufacturingDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#account_moid CapabilityIoCardManufacturingDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#ancestors CapabilityIoCardManufacturingDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#ancestors CapabilityIoCardManufacturingDef#ancestors}
   */
   readonly ancestors?: CapabilityIoCardManufacturingDefAncestors[] | cdktf.IResolvable;
   /**
   * Caption for a chassis Iocard module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#caption CapabilityIoCardManufacturingDef#caption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#caption CapabilityIoCardManufacturingDef#caption}
   */
   readonly caption?: string;
   /**
@@ -34,29 +34,29 @@ export interface CapabilityIoCardManufacturingDefConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#create_time CapabilityIoCardManufacturingDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#create_time CapabilityIoCardManufacturingDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for a chassis Iocard module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#description CapabilityIoCardManufacturingDef#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#description CapabilityIoCardManufacturingDef#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#domain_group_moid CapabilityIoCardManufacturingDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#domain_group_moid CapabilityIoCardManufacturingDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#id CapabilityIoCardManufacturingDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#id CapabilityIoCardManufacturingDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,106 +65,106 @@ export interface CapabilityIoCardManufacturingDefConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#mod_time CapabilityIoCardManufacturingDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#mod_time CapabilityIoCardManufacturingDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#name CapabilityIoCardManufacturingDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#name CapabilityIoCardManufacturingDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#owners CapabilityIoCardManufacturingDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#owners CapabilityIoCardManufacturingDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#parent CapabilityIoCardManufacturingDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#parent CapabilityIoCardManufacturingDef#parent}
   */
   readonly parent?: CapabilityIoCardManufacturingDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#permission_resources CapabilityIoCardManufacturingDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#permission_resources CapabilityIoCardManufacturingDef#permission_resources}
   */
   readonly permissionResources?: CapabilityIoCardManufacturingDefPermissionResources[] | cdktf.IResolvable;
   /**
   * Product Identifier for a chassis Iocard module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#pid CapabilityIoCardManufacturingDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#pid CapabilityIoCardManufacturingDef#pid}
   */
   readonly pid?: string;
   /**
   * Product Name for IO Card Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#product_name CapabilityIoCardManufacturingDef#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#product_name CapabilityIoCardManufacturingDef#product_name}
   */
   readonly productName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#shared_scope CapabilityIoCardManufacturingDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#shared_scope CapabilityIoCardManufacturingDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for a chassis Iocard module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#sku CapabilityIoCardManufacturingDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#sku CapabilityIoCardManufacturingDef#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#tags CapabilityIoCardManufacturingDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#tags CapabilityIoCardManufacturingDef#tags}
   */
   readonly tags?: CapabilityIoCardManufacturingDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#version_context CapabilityIoCardManufacturingDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#version_context CapabilityIoCardManufacturingDef#version_context}
   */
   readonly versionContext?: CapabilityIoCardManufacturingDefVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for a chassis Iocard module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#vid CapabilityIoCardManufacturingDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#vid CapabilityIoCardManufacturingDef#vid}
   */
   readonly vid?: string;
 }
 export interface CapabilityIoCardManufacturingDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -396,23 +396,23 @@ export class CapabilityIoCardManufacturingDefAncestorsList extends cdktf.Complex
 }
 export interface CapabilityIoCardManufacturingDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -644,23 +644,23 @@ export class CapabilityIoCardManufacturingDefParentList extends cdktf.ComplexLis
 }
 export interface CapabilityIoCardManufacturingDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -892,23 +892,23 @@ export class CapabilityIoCardManufacturingDefPermissionResourcesList extends cdk
 }
 export interface CapabilityIoCardManufacturingDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1140,23 +1140,23 @@ export class CapabilityIoCardManufacturingDefTagsAncestorDefinitionsList extends
 }
 export interface CapabilityIoCardManufacturingDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1388,31 +1388,35 @@ export class CapabilityIoCardManufacturingDefTagsDefinitionList extends cdktf.Co
 }
 export interface CapabilityIoCardManufacturingDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#ancestor_definitions CapabilityIoCardManufacturingDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#ancestor_definitions CapabilityIoCardManufacturingDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityIoCardManufacturingDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#definition CapabilityIoCardManufacturingDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#definition CapabilityIoCardManufacturingDef#definition}
   */
   readonly definition?: CapabilityIoCardManufacturingDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#key CapabilityIoCardManufacturingDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#key CapabilityIoCardManufacturingDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#propagated CapabilityIoCardManufacturingDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#propagated CapabilityIoCardManufacturingDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#type CapabilityIoCardManufacturingDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#sys_tag CapabilityIoCardManufacturingDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#type CapabilityIoCardManufacturingDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#value CapabilityIoCardManufacturingDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#value CapabilityIoCardManufacturingDef#value}
   */
   readonly value?: string;
 }
@@ -1428,6 +1432,7 @@ export function capabilityIoCardManufacturingDefTagsToTerraform(struct?: Capabil
     definition: cdktf.listMapper(capabilityIoCardManufacturingDefTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1466,6 +1471,12 @@ export function capabilityIoCardManufacturingDefTagsToHclTerraform(struct?: Capa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1528,6 +1539,10 @@ export class CapabilityIoCardManufacturingDefTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1548,6 +1563,7 @@ export class CapabilityIoCardManufacturingDefTagsOutputReference extends cdktf.C
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1563,6 +1579,7 @@ export class CapabilityIoCardManufacturingDefTagsOutputReference extends cdktf.C
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1648,6 +1665,22 @@ export class CapabilityIoCardManufacturingDefTagsOutputReference extends cdktf.C
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1702,23 +1735,23 @@ export class CapabilityIoCardManufacturingDefTagsList extends cdktf.ComplexList 
 }
 export interface CapabilityIoCardManufacturingDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1950,23 +1983,23 @@ export class CapabilityIoCardManufacturingDefVersionContextInterestedMosList ext
 }
 export interface CapabilityIoCardManufacturingDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#moid CapabilityIoCardManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#selector CapabilityIoCardManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2198,39 +2231,39 @@ export class CapabilityIoCardManufacturingDefVersionContextRefMoList extends cdk
 }
 export interface CapabilityIoCardManufacturingDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#additional_properties CapabilityIoCardManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#class_id CapabilityIoCardManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#interested_mos CapabilityIoCardManufacturingDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#interested_mos CapabilityIoCardManufacturingDef#interested_mos}
   */
   readonly interestedMos?: CapabilityIoCardManufacturingDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#marked_for_deletion CapabilityIoCardManufacturingDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#marked_for_deletion CapabilityIoCardManufacturingDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#nr_version CapabilityIoCardManufacturingDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#nr_version CapabilityIoCardManufacturingDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#object_type CapabilityIoCardManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#ref_mo CapabilityIoCardManufacturingDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#ref_mo CapabilityIoCardManufacturingDef#ref_mo}
   */
   readonly refMo?: CapabilityIoCardManufacturingDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#timestamp CapabilityIoCardManufacturingDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#timestamp CapabilityIoCardManufacturingDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#version_type CapabilityIoCardManufacturingDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#version_type CapabilityIoCardManufacturingDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2578,7 +2611,7 @@ export class CapabilityIoCardManufacturingDefVersionContextList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def intersight_capability_io_card_manufacturing_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def intersight_capability_io_card_manufacturing_def}
 */
 export class CapabilityIoCardManufacturingDef extends cdktf.TerraformResource {
 
@@ -2594,7 +2627,7 @@ export class CapabilityIoCardManufacturingDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityIoCardManufacturingDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityIoCardManufacturingDef to import
-  * @param importFromId The id of the existing CapabilityIoCardManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityIoCardManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityIoCardManufacturingDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2606,7 +2639,7 @@ export class CapabilityIoCardManufacturingDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_manufacturing_def intersight_capability_io_card_manufacturing_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_manufacturing_def intersight_capability_io_card_manufacturing_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2617,8 +2650,8 @@ export class CapabilityIoCardManufacturingDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_io_card_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

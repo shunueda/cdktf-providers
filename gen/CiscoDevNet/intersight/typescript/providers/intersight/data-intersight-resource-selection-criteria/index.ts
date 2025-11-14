@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourceSelectionCriteriaConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#account_moid DataIntersightResourceSelectionCriteria#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#account_moid DataIntersightResourceSelectionCriteria#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightResourceSelectionCriteriaConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#create_time DataIntersightResourceSelectionCriteria#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#create_time DataIntersightResourceSelectionCriteria#create_time}
   */
   readonly createTime?: string;
   /**
   * The description of the Resource Selection Criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#description DataIntersightResourceSelectionCriteria#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#description DataIntersightResourceSelectionCriteria#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#domain_group_moid DataIntersightResourceSelectionCriteria#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#domain_group_moid DataIntersightResourceSelectionCriteria#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#id DataIntersightResourceSelectionCriteria#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#id DataIntersightResourceSelectionCriteria#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,83 +53,83 @@ export interface DataIntersightResourceSelectionCriteriaConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#mod_time DataIntersightResourceSelectionCriteria#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#mod_time DataIntersightResourceSelectionCriteria#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Resource Selection Criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#name DataIntersightResourceSelectionCriteria#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#name DataIntersightResourceSelectionCriteria#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#owners DataIntersightResourceSelectionCriteria#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#owners DataIntersightResourceSelectionCriteria#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#place_holders DataIntersightResourceSelectionCriteria#place_holders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#place_holders DataIntersightResourceSelectionCriteria#place_holders}
   */
   readonly placeHolders?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#shared_scope DataIntersightResourceSelectionCriteria#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#shared_scope DataIntersightResourceSelectionCriteria#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#ancestors DataIntersightResourceSelectionCriteria#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#ancestors DataIntersightResourceSelectionCriteria#ancestors}
   */
   readonly ancestors?: DataIntersightResourceSelectionCriteriaAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#organization DataIntersightResourceSelectionCriteria#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#organization DataIntersightResourceSelectionCriteria#organization}
   */
   readonly organization?: DataIntersightResourceSelectionCriteriaOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#parent DataIntersightResourceSelectionCriteria#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#parent DataIntersightResourceSelectionCriteria#parent}
   */
   readonly parent?: DataIntersightResourceSelectionCriteriaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#permission_resources DataIntersightResourceSelectionCriteria#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#permission_resources DataIntersightResourceSelectionCriteria#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourceSelectionCriteriaPermissionResources[] | cdktf.IResolvable;
   /**
   * selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selectors DataIntersightResourceSelectionCriteria#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selectors DataIntersightResourceSelectionCriteria#selectors}
   */
   readonly selectors?: DataIntersightResourceSelectionCriteriaSelectors[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#tags DataIntersightResourceSelectionCriteria#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#tags DataIntersightResourceSelectionCriteria#tags}
   */
   readonly tags?: DataIntersightResourceSelectionCriteriaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#version_context DataIntersightResourceSelectionCriteria#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#version_context DataIntersightResourceSelectionCriteria#version_context}
   */
   readonly versionContext?: DataIntersightResourceSelectionCriteriaVersionContext;
 }
@@ -871,6 +871,11 @@ export class DataIntersightResourceSelectionCriteriaResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1386,7 +1391,7 @@ export class DataIntersightResourceSelectionCriteriaResultsList extends cdktf.Co
 }
 export interface DataIntersightResourceSelectionCriteriaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1394,19 +1399,19 @@ export interface DataIntersightResourceSelectionCriteriaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1419,7 +1424,7 @@ export interface DataIntersightResourceSelectionCriteriaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -1651,7 +1656,7 @@ export class DataIntersightResourceSelectionCriteriaAncestorsList extends cdktf.
 }
 export interface DataIntersightResourceSelectionCriteriaOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1659,19 +1664,19 @@ export interface DataIntersightResourceSelectionCriteriaOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1684,7 +1689,7 @@ export interface DataIntersightResourceSelectionCriteriaOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -1884,7 +1889,7 @@ export class DataIntersightResourceSelectionCriteriaOrganizationOutputReference 
 }
 export interface DataIntersightResourceSelectionCriteriaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1892,19 +1897,19 @@ export interface DataIntersightResourceSelectionCriteriaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1917,7 +1922,7 @@ export interface DataIntersightResourceSelectionCriteriaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -2117,7 +2122,7 @@ export class DataIntersightResourceSelectionCriteriaParentOutputReference extend
 }
 export interface DataIntersightResourceSelectionCriteriaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2125,19 +2130,19 @@ export interface DataIntersightResourceSelectionCriteriaPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2150,7 +2155,7 @@ export interface DataIntersightResourceSelectionCriteriaPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -2382,7 +2387,7 @@ export class DataIntersightResourceSelectionCriteriaPermissionResourcesList exte
 }
 export interface DataIntersightResourceSelectionCriteriaSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2390,20 +2395,20 @@ export interface DataIntersightResourceSelectionCriteriaSelectors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
   * ODATA filter to select resources. The group selector may include URLs of individual resource, or OData query with filters that match multiple queries. The URLs must be relative (i.e. do not include the host).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -2606,7 +2611,7 @@ export class DataIntersightResourceSelectionCriteriaSelectorsList extends cdktf.
 }
 export interface DataIntersightResourceSelectionCriteriaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2614,19 +2619,19 @@ export interface DataIntersightResourceSelectionCriteriaTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2639,7 +2644,7 @@ export interface DataIntersightResourceSelectionCriteriaTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -2871,7 +2876,7 @@ export class DataIntersightResourceSelectionCriteriaTagsAncestorDefinitionsList 
 }
 export interface DataIntersightResourceSelectionCriteriaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2879,19 +2884,19 @@ export interface DataIntersightResourceSelectionCriteriaTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2904,7 +2909,7 @@ export interface DataIntersightResourceSelectionCriteriaTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -3104,45 +3109,51 @@ export class DataIntersightResourceSelectionCriteriaTagsDefinitionOutputReferenc
 }
 export interface DataIntersightResourceSelectionCriteriaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#key DataIntersightResourceSelectionCriteria#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#key DataIntersightResourceSelectionCriteria#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#propagated DataIntersightResourceSelectionCriteria#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#propagated DataIntersightResourceSelectionCriteria#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#sys_tag DataIntersightResourceSelectionCriteria#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#type DataIntersightResourceSelectionCriteria#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#type DataIntersightResourceSelectionCriteria#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#value DataIntersightResourceSelectionCriteria#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#value DataIntersightResourceSelectionCriteria#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#ancestor_definitions DataIntersightResourceSelectionCriteria#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#ancestor_definitions DataIntersightResourceSelectionCriteria#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourceSelectionCriteriaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#definition DataIntersightResourceSelectionCriteria#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#definition DataIntersightResourceSelectionCriteria#definition}
   */
   readonly definition?: DataIntersightResourceSelectionCriteriaTagsDefinition;
 }
@@ -3156,6 +3167,7 @@ export function dataIntersightResourceSelectionCriteriaTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightResourceSelectionCriteriaTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3184,6 +3196,12 @@ export function dataIntersightResourceSelectionCriteriaTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3250,6 +3268,10 @@ export class DataIntersightResourceSelectionCriteriaTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3276,6 +3298,7 @@ export class DataIntersightResourceSelectionCriteriaTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3291,6 +3314,7 @@ export class DataIntersightResourceSelectionCriteriaTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3344,6 +3368,22 @@ export class DataIntersightResourceSelectionCriteriaTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3432,7 +3472,7 @@ export class DataIntersightResourceSelectionCriteriaTagsList extends cdktf.Compl
 }
 export interface DataIntersightResourceSelectionCriteriaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3440,19 +3480,19 @@ export interface DataIntersightResourceSelectionCriteriaVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3465,7 +3505,7 @@ export interface DataIntersightResourceSelectionCriteriaVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -3697,7 +3737,7 @@ export class DataIntersightResourceSelectionCriteriaVersionContextInterestedMosL
 }
 export interface DataIntersightResourceSelectionCriteriaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3705,19 +3745,19 @@ export interface DataIntersightResourceSelectionCriteriaVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#moid DataIntersightResourceSelectionCriteria#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3730,7 +3770,7 @@ export interface DataIntersightResourceSelectionCriteriaVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#selector DataIntersightResourceSelectionCriteria#selector}
   */
   readonly selector?: string;
 }
@@ -3930,7 +3970,7 @@ export class DataIntersightResourceSelectionCriteriaVersionContextRefMoOutputRef
 }
 export interface DataIntersightResourceSelectionCriteriaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#additional_properties DataIntersightResourceSelectionCriteria#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3938,32 +3978,32 @@ export interface DataIntersightResourceSelectionCriteriaVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#class_id DataIntersightResourceSelectionCriteria#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#marked_for_deletion DataIntersightResourceSelectionCriteria#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#marked_for_deletion DataIntersightResourceSelectionCriteria#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#nr_version DataIntersightResourceSelectionCriteria#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#nr_version DataIntersightResourceSelectionCriteria#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#object_type DataIntersightResourceSelectionCriteria#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#timestamp DataIntersightResourceSelectionCriteria#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#timestamp DataIntersightResourceSelectionCriteria#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3974,19 +4014,19 @@ export interface DataIntersightResourceSelectionCriteriaVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#version_type DataIntersightResourceSelectionCriteria#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#version_type DataIntersightResourceSelectionCriteria#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#interested_mos DataIntersightResourceSelectionCriteria#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#interested_mos DataIntersightResourceSelectionCriteria#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourceSelectionCriteriaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#ref_mo DataIntersightResourceSelectionCriteria#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#ref_mo DataIntersightResourceSelectionCriteria#ref_mo}
   */
   readonly refMo?: DataIntersightResourceSelectionCriteriaVersionContextRefMo;
 }
@@ -4302,7 +4342,7 @@ export class DataIntersightResourceSelectionCriteriaVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria intersight_resource_selection_criteria}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria intersight_resource_selection_criteria}
 */
 export class DataIntersightResourceSelectionCriteria extends cdktf.TerraformDataSource {
 
@@ -4318,7 +4358,7 @@ export class DataIntersightResourceSelectionCriteria extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightResourceSelectionCriteria resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourceSelectionCriteria to import
-  * @param importFromId The id of the existing DataIntersightResourceSelectionCriteria that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourceSelectionCriteria that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourceSelectionCriteria to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4330,7 +4370,7 @@ export class DataIntersightResourceSelectionCriteria extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_selection_criteria intersight_resource_selection_criteria} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_selection_criteria intersight_resource_selection_criteria} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4341,8 +4381,8 @@ export class DataIntersightResourceSelectionCriteria extends cdktf.TerraformData
       terraformResourceType: 'intersight_resource_selection_criteria',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

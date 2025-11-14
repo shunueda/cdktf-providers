@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/golden_gate_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGoldenGatePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}
   */
   readonly pipelineId: string;
 }
@@ -681,7 +681,7 @@ export class DataOciGoldenGatePipelineTargetConnectionDetailsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline}
 */
 export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
 
@@ -697,7 +697,7 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciGoldenGatePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGoldenGatePipeline to import
-  * @param importFromId The id of the existing DataOciGoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGoldenGatePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -709,7 +709,7 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/golden_gate_pipeline oci_golden_gate_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,8 +720,8 @@ export class DataOciGoldenGatePipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_golden_gate_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

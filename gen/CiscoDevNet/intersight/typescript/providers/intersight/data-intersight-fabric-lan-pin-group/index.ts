@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricLanPinGroupConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#account_moid DataIntersightFabricLanPinGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#account_moid DataIntersightFabricLanPinGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightFabricLanPinGroupConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#create_time DataIntersightFabricLanPinGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#create_time DataIntersightFabricLanPinGroup#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#domain_group_moid DataIntersightFabricLanPinGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#domain_group_moid DataIntersightFabricLanPinGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#id DataIntersightFabricLanPinGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#id DataIntersightFabricLanPinGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightFabricLanPinGroupConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#mod_time DataIntersightFabricLanPinGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#mod_time DataIntersightFabricLanPinGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Pingroup for static pinning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#name DataIntersightFabricLanPinGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#name DataIntersightFabricLanPinGroup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#owners DataIntersightFabricLanPinGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#owners DataIntersightFabricLanPinGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#shared_scope DataIntersightFabricLanPinGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#shared_scope DataIntersightFabricLanPinGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#ancestors DataIntersightFabricLanPinGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#ancestors DataIntersightFabricLanPinGroup#ancestors}
   */
   readonly ancestors?: DataIntersightFabricLanPinGroupAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#parent DataIntersightFabricLanPinGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#parent DataIntersightFabricLanPinGroup#parent}
   */
   readonly parent?: DataIntersightFabricLanPinGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#permission_resources DataIntersightFabricLanPinGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#permission_resources DataIntersightFabricLanPinGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricLanPinGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * pin_target_interface_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#pin_target_interface_role DataIntersightFabricLanPinGroup#pin_target_interface_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#pin_target_interface_role DataIntersightFabricLanPinGroup#pin_target_interface_role}
   */
   readonly pinTargetInterfaceRole?: DataIntersightFabricLanPinGroupPinTargetInterfaceRole;
   /**
   * port_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#port_policy DataIntersightFabricLanPinGroup#port_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#port_policy DataIntersightFabricLanPinGroup#port_policy}
   */
   readonly portPolicy?: DataIntersightFabricLanPinGroupPortPolicy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#tags DataIntersightFabricLanPinGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#tags DataIntersightFabricLanPinGroup#tags}
   */
   readonly tags?: DataIntersightFabricLanPinGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#version_context DataIntersightFabricLanPinGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#version_context DataIntersightFabricLanPinGroup#version_context}
   */
   readonly versionContext?: DataIntersightFabricLanPinGroupVersionContext;
 }
@@ -866,6 +866,11 @@ export class DataIntersightFabricLanPinGroupResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1371,7 +1376,7 @@ export class DataIntersightFabricLanPinGroupResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightFabricLanPinGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1379,19 +1384,19 @@ export interface DataIntersightFabricLanPinGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1404,7 +1409,7 @@ export interface DataIntersightFabricLanPinGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1636,7 +1641,7 @@ export class DataIntersightFabricLanPinGroupAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightFabricLanPinGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1644,19 +1649,19 @@ export interface DataIntersightFabricLanPinGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1669,7 +1674,7 @@ export interface DataIntersightFabricLanPinGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1869,7 +1874,7 @@ export class DataIntersightFabricLanPinGroupParentOutputReference extends cdktf.
 }
 export interface DataIntersightFabricLanPinGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1877,19 +1882,19 @@ export interface DataIntersightFabricLanPinGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1902,7 +1907,7 @@ export interface DataIntersightFabricLanPinGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2134,7 +2139,7 @@ export class DataIntersightFabricLanPinGroupPermissionResourcesList extends cdkt
 }
 export interface DataIntersightFabricLanPinGroupPinTargetInterfaceRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2142,19 +2147,19 @@ export interface DataIntersightFabricLanPinGroupPinTargetInterfaceRole {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2167,7 +2172,7 @@ export interface DataIntersightFabricLanPinGroupPinTargetInterfaceRole {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2367,7 +2372,7 @@ export class DataIntersightFabricLanPinGroupPinTargetInterfaceRoleOutputReferenc
 }
 export interface DataIntersightFabricLanPinGroupPortPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2375,19 +2380,19 @@ export interface DataIntersightFabricLanPinGroupPortPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2400,7 +2405,7 @@ export interface DataIntersightFabricLanPinGroupPortPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2600,7 +2605,7 @@ export class DataIntersightFabricLanPinGroupPortPolicyOutputReference extends cd
 }
 export interface DataIntersightFabricLanPinGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2608,19 +2613,19 @@ export interface DataIntersightFabricLanPinGroupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2633,7 +2638,7 @@ export interface DataIntersightFabricLanPinGroupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2865,7 +2870,7 @@ export class DataIntersightFabricLanPinGroupTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightFabricLanPinGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2873,19 +2878,19 @@ export interface DataIntersightFabricLanPinGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2898,7 +2903,7 @@ export interface DataIntersightFabricLanPinGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3098,45 +3103,51 @@ export class DataIntersightFabricLanPinGroupTagsDefinitionOutputReference extend
 }
 export interface DataIntersightFabricLanPinGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#key DataIntersightFabricLanPinGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#key DataIntersightFabricLanPinGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#propagated DataIntersightFabricLanPinGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#propagated DataIntersightFabricLanPinGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#sys_tag DataIntersightFabricLanPinGroup#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#type DataIntersightFabricLanPinGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#type DataIntersightFabricLanPinGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#value DataIntersightFabricLanPinGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#value DataIntersightFabricLanPinGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#ancestor_definitions DataIntersightFabricLanPinGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#ancestor_definitions DataIntersightFabricLanPinGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricLanPinGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#definition DataIntersightFabricLanPinGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#definition DataIntersightFabricLanPinGroup#definition}
   */
   readonly definition?: DataIntersightFabricLanPinGroupTagsDefinition;
 }
@@ -3150,6 +3161,7 @@ export function dataIntersightFabricLanPinGroupTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricLanPinGroupTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3178,6 +3190,12 @@ export function dataIntersightFabricLanPinGroupTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3244,6 +3262,10 @@ export class DataIntersightFabricLanPinGroupTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3270,6 +3292,7 @@ export class DataIntersightFabricLanPinGroupTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3285,6 +3308,7 @@ export class DataIntersightFabricLanPinGroupTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3338,6 +3362,22 @@ export class DataIntersightFabricLanPinGroupTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3426,7 +3466,7 @@ export class DataIntersightFabricLanPinGroupTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFabricLanPinGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3434,19 +3474,19 @@ export interface DataIntersightFabricLanPinGroupVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3459,7 +3499,7 @@ export interface DataIntersightFabricLanPinGroupVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3691,7 +3731,7 @@ export class DataIntersightFabricLanPinGroupVersionContextInterestedMosList exte
 }
 export interface DataIntersightFabricLanPinGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3699,19 +3739,19 @@ export interface DataIntersightFabricLanPinGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#moid DataIntersightFabricLanPinGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3724,7 +3764,7 @@ export interface DataIntersightFabricLanPinGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#selector DataIntersightFabricLanPinGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3924,7 +3964,7 @@ export class DataIntersightFabricLanPinGroupVersionContextRefMoOutputReference e
 }
 export interface DataIntersightFabricLanPinGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#additional_properties DataIntersightFabricLanPinGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3932,32 +3972,32 @@ export interface DataIntersightFabricLanPinGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#class_id DataIntersightFabricLanPinGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#marked_for_deletion DataIntersightFabricLanPinGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#marked_for_deletion DataIntersightFabricLanPinGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#nr_version DataIntersightFabricLanPinGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#nr_version DataIntersightFabricLanPinGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#object_type DataIntersightFabricLanPinGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#timestamp DataIntersightFabricLanPinGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#timestamp DataIntersightFabricLanPinGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3968,19 +4008,19 @@ export interface DataIntersightFabricLanPinGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#version_type DataIntersightFabricLanPinGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#version_type DataIntersightFabricLanPinGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#interested_mos DataIntersightFabricLanPinGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#interested_mos DataIntersightFabricLanPinGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricLanPinGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#ref_mo DataIntersightFabricLanPinGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#ref_mo DataIntersightFabricLanPinGroup#ref_mo}
   */
   readonly refMo?: DataIntersightFabricLanPinGroupVersionContextRefMo;
 }
@@ -4296,7 +4336,7 @@ export class DataIntersightFabricLanPinGroupVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group intersight_fabric_lan_pin_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group intersight_fabric_lan_pin_group}
 */
 export class DataIntersightFabricLanPinGroup extends cdktf.TerraformDataSource {
 
@@ -4312,7 +4352,7 @@ export class DataIntersightFabricLanPinGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFabricLanPinGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricLanPinGroup to import
-  * @param importFromId The id of the existing DataIntersightFabricLanPinGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricLanPinGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricLanPinGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4324,7 +4364,7 @@ export class DataIntersightFabricLanPinGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_lan_pin_group intersight_fabric_lan_pin_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_lan_pin_group intersight_fabric_lan_pin_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4335,8 +4375,8 @@ export class DataIntersightFabricLanPinGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fabric_lan_pin_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

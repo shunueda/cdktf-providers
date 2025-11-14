@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightFabricVlanSetConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#account_moid DataIntersightFabricVlanSet#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#account_moid DataIntersightFabricVlanSet#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This setting determines whether the VLAN is automatically allowed on inter-cluster links within this domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#auto_allow_on_cluster_links DataIntersightFabricVlanSet#auto_allow_on_cluster_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#auto_allow_on_cluster_links DataIntersightFabricVlanSet#auto_allow_on_cluster_links}
   */
   readonly autoAllowOnClusterLinks?: boolean | cdktf.IResolvable;
   /**
   * Used to determine whether this VLAN will be allowed on all uplink ports and PCs in this FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#auto_allow_on_uplinks DataIntersightFabricVlanSet#auto_allow_on_uplinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#auto_allow_on_uplinks DataIntersightFabricVlanSet#auto_allow_on_uplinks}
   */
   readonly autoAllowOnUplinks?: boolean | cdktf.IResolvable;
   /**
@@ -34,23 +34,23 @@ export interface DataIntersightFabricVlanSetConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#create_time DataIntersightFabricVlanSet#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#create_time DataIntersightFabricVlanSet#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#domain_group_moid DataIntersightFabricVlanSet#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#domain_group_moid DataIntersightFabricVlanSet#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#id DataIntersightFabricVlanSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#id DataIntersightFabricVlanSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface DataIntersightFabricVlanSetConfig extends cdktf.TerraformMetaAr
   /**
   * Used to define whether this VLAN is to be classified as 'native' for traffic in this FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#is_native DataIntersightFabricVlanSet#is_native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#is_native DataIntersightFabricVlanSet#is_native}
   */
   readonly isNative?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#mod_time DataIntersightFabricVlanSet#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#mod_time DataIntersightFabricVlanSet#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The 'name' used to identify this VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#name DataIntersightFabricVlanSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#name DataIntersightFabricVlanSet#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#owners DataIntersightFabricVlanSet#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#owners DataIntersightFabricVlanSet#owners}
   */
   readonly owners?: string[];
   /**
   * The Primary VLAN ID of the VLAN, if the sharing type of the VLAN is Isolated or Community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#primary_vlan_id DataIntersightFabricVlanSet#primary_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#primary_vlan_id DataIntersightFabricVlanSet#primary_vlan_id}
   */
   readonly primaryVlanId?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#shared_scope DataIntersightFabricVlanSet#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#shared_scope DataIntersightFabricVlanSet#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -111,55 +111,55 @@ export interface DataIntersightFabricVlanSetConfig extends cdktf.TerraformMetaAr
   * * `Isolated` - This represents an isolated VLAN.
   * * `Community` - This represents a community VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#sharing_type DataIntersightFabricVlanSet#sharing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#sharing_type DataIntersightFabricVlanSet#sharing_type}
   */
   readonly sharingType?: string;
   /**
   * Set of VLANs defined by VLAN object with identical configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#vlans DataIntersightFabricVlanSet#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#vlans DataIntersightFabricVlanSet#vlans}
   */
   readonly vlans?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#ancestors DataIntersightFabricVlanSet#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#ancestors DataIntersightFabricVlanSet#ancestors}
   */
   readonly ancestors?: DataIntersightFabricVlanSetAncestors[] | cdktf.IResolvable;
   /**
   * eth_network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#eth_network_policy DataIntersightFabricVlanSet#eth_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#eth_network_policy DataIntersightFabricVlanSet#eth_network_policy}
   */
   readonly ethNetworkPolicy?: DataIntersightFabricVlanSetEthNetworkPolicy;
   /**
   * multicast_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#multicast_policy DataIntersightFabricVlanSet#multicast_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#multicast_policy DataIntersightFabricVlanSet#multicast_policy}
   */
   readonly multicastPolicy?: DataIntersightFabricVlanSetMulticastPolicy;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#parent DataIntersightFabricVlanSet#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#parent DataIntersightFabricVlanSet#parent}
   */
   readonly parent?: DataIntersightFabricVlanSetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#permission_resources DataIntersightFabricVlanSet#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#permission_resources DataIntersightFabricVlanSet#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricVlanSetPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#tags DataIntersightFabricVlanSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#tags DataIntersightFabricVlanSet#tags}
   */
   readonly tags?: DataIntersightFabricVlanSetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#version_context DataIntersightFabricVlanSet#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#version_context DataIntersightFabricVlanSet#version_context}
   */
   readonly versionContext?: DataIntersightFabricVlanSetVersionContext;
 }
@@ -906,6 +906,11 @@ export class DataIntersightFabricVlanSetResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1441,7 +1446,7 @@ export class DataIntersightFabricVlanSetResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFabricVlanSetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1449,19 +1454,19 @@ export interface DataIntersightFabricVlanSetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1474,7 +1479,7 @@ export interface DataIntersightFabricVlanSetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -1706,7 +1711,7 @@ export class DataIntersightFabricVlanSetAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightFabricVlanSetEthNetworkPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1714,19 +1719,19 @@ export interface DataIntersightFabricVlanSetEthNetworkPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1739,7 +1744,7 @@ export interface DataIntersightFabricVlanSetEthNetworkPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -1939,7 +1944,7 @@ export class DataIntersightFabricVlanSetEthNetworkPolicyOutputReference extends 
 }
 export interface DataIntersightFabricVlanSetMulticastPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1947,19 +1952,19 @@ export interface DataIntersightFabricVlanSetMulticastPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1972,7 +1977,7 @@ export interface DataIntersightFabricVlanSetMulticastPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -2172,7 +2177,7 @@ export class DataIntersightFabricVlanSetMulticastPolicyOutputReference extends c
 }
 export interface DataIntersightFabricVlanSetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2180,19 +2185,19 @@ export interface DataIntersightFabricVlanSetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2205,7 +2210,7 @@ export interface DataIntersightFabricVlanSetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -2405,7 +2410,7 @@ export class DataIntersightFabricVlanSetParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightFabricVlanSetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2413,19 +2418,19 @@ export interface DataIntersightFabricVlanSetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2438,7 +2443,7 @@ export interface DataIntersightFabricVlanSetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -2670,7 +2675,7 @@ export class DataIntersightFabricVlanSetPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightFabricVlanSetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2678,19 +2683,19 @@ export interface DataIntersightFabricVlanSetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2703,7 +2708,7 @@ export interface DataIntersightFabricVlanSetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -2935,7 +2940,7 @@ export class DataIntersightFabricVlanSetTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightFabricVlanSetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2943,19 +2948,19 @@ export interface DataIntersightFabricVlanSetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2968,7 +2973,7 @@ export interface DataIntersightFabricVlanSetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -3168,45 +3173,51 @@ export class DataIntersightFabricVlanSetTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightFabricVlanSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#key DataIntersightFabricVlanSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#key DataIntersightFabricVlanSet#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#propagated DataIntersightFabricVlanSet#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#propagated DataIntersightFabricVlanSet#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#sys_tag DataIntersightFabricVlanSet#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#type DataIntersightFabricVlanSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#type DataIntersightFabricVlanSet#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#value DataIntersightFabricVlanSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#value DataIntersightFabricVlanSet#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#ancestor_definitions DataIntersightFabricVlanSet#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#ancestor_definitions DataIntersightFabricVlanSet#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricVlanSetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#definition DataIntersightFabricVlanSet#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#definition DataIntersightFabricVlanSet#definition}
   */
   readonly definition?: DataIntersightFabricVlanSetTagsDefinition;
 }
@@ -3220,6 +3231,7 @@ export function dataIntersightFabricVlanSetTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricVlanSetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3248,6 +3260,12 @@ export function dataIntersightFabricVlanSetTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3314,6 +3332,10 @@ export class DataIntersightFabricVlanSetTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3340,6 +3362,7 @@ export class DataIntersightFabricVlanSetTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3355,6 +3378,7 @@ export class DataIntersightFabricVlanSetTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3408,6 +3432,22 @@ export class DataIntersightFabricVlanSetTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3496,7 +3536,7 @@ export class DataIntersightFabricVlanSetTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFabricVlanSetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3504,19 +3544,19 @@ export interface DataIntersightFabricVlanSetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3529,7 +3569,7 @@ export interface DataIntersightFabricVlanSetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -3761,7 +3801,7 @@ export class DataIntersightFabricVlanSetVersionContextInterestedMosList extends 
 }
 export interface DataIntersightFabricVlanSetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3769,19 +3809,19 @@ export interface DataIntersightFabricVlanSetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#moid DataIntersightFabricVlanSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3794,7 +3834,7 @@ export interface DataIntersightFabricVlanSetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#selector DataIntersightFabricVlanSet#selector}
   */
   readonly selector?: string;
 }
@@ -3994,7 +4034,7 @@ export class DataIntersightFabricVlanSetVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightFabricVlanSetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#additional_properties DataIntersightFabricVlanSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4002,32 +4042,32 @@ export interface DataIntersightFabricVlanSetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#class_id DataIntersightFabricVlanSet#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#marked_for_deletion DataIntersightFabricVlanSet#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#marked_for_deletion DataIntersightFabricVlanSet#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#nr_version DataIntersightFabricVlanSet#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#nr_version DataIntersightFabricVlanSet#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#object_type DataIntersightFabricVlanSet#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#timestamp DataIntersightFabricVlanSet#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#timestamp DataIntersightFabricVlanSet#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4038,19 +4078,19 @@ export interface DataIntersightFabricVlanSetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#version_type DataIntersightFabricVlanSet#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#version_type DataIntersightFabricVlanSet#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#interested_mos DataIntersightFabricVlanSet#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#interested_mos DataIntersightFabricVlanSet#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricVlanSetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#ref_mo DataIntersightFabricVlanSet#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#ref_mo DataIntersightFabricVlanSet#ref_mo}
   */
   readonly refMo?: DataIntersightFabricVlanSetVersionContextRefMo;
 }
@@ -4366,7 +4406,7 @@ export class DataIntersightFabricVlanSetVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set intersight_fabric_vlan_set}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set intersight_fabric_vlan_set}
 */
 export class DataIntersightFabricVlanSet extends cdktf.TerraformDataSource {
 
@@ -4382,7 +4422,7 @@ export class DataIntersightFabricVlanSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFabricVlanSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricVlanSet to import
-  * @param importFromId The id of the existing DataIntersightFabricVlanSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricVlanSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricVlanSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4394,7 +4434,7 @@ export class DataIntersightFabricVlanSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_vlan_set intersight_fabric_vlan_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_vlan_set intersight_fabric_vlan_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4405,8 +4445,8 @@ export class DataIntersightFabricVlanSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fabric_vlan_set',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

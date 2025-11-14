@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsNamespaceStorageArchivalConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#id LogAnalyticsNamespaceStorageArchivalConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#id LogAnalyticsNamespaceStorageArchivalConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#namespace LogAnalyticsNamespaceStorageArchivalConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#namespace LogAnalyticsNamespaceStorageArchivalConfig#namespace}
   */
   readonly namespace: string;
   /**
   * archiving_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#archiving_configuration LogAnalyticsNamespaceStorageArchivalConfig#archiving_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#archiving_configuration LogAnalyticsNamespaceStorageArchivalConfig#archiving_configuration}
   */
   readonly archivingConfiguration: LogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#timeouts LogAnalyticsNamespaceStorageArchivalConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#timeouts LogAnalyticsNamespaceStorageArchivalConfig#timeouts}
   */
   readonly timeouts?: LogAnalyticsNamespaceStorageArchivalConfigTimeouts;
 }
 export interface LogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#active_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#active_storage_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#active_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#active_storage_duration}
   */
   readonly activeStorageDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#archival_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#archival_storage_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#archival_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#archival_storage_duration}
   */
   readonly archivalStorageDuration?: string;
 }
@@ -150,15 +150,15 @@ export class LogAnalyticsNamespaceStorageArchivalConfigArchivingConfigurationOut
 }
 export interface LogAnalyticsNamespaceStorageArchivalConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}
   */
   readonly update?: string;
 }
@@ -310,7 +310,7 @@ export class LogAnalyticsNamespaceStorageArchivalConfigTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config oci_log_analytics_namespace_storage_archival_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config oci_log_analytics_namespace_storage_archival_config}
 */
 export class LogAnalyticsNamespaceStorageArchivalConfig extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class LogAnalyticsNamespaceStorageArchivalConfig extends cdktf.TerraformR
   * Generates CDKTF code for importing a LogAnalyticsNamespaceStorageArchivalConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsNamespaceStorageArchivalConfig to import
-  * @param importFromId The id of the existing LogAnalyticsNamespaceStorageArchivalConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsNamespaceStorageArchivalConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsNamespaceStorageArchivalConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class LogAnalyticsNamespaceStorageArchivalConfig extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace_storage_archival_config oci_log_analytics_namespace_storage_archival_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace_storage_archival_config oci_log_analytics_namespace_storage_archival_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class LogAnalyticsNamespaceStorageArchivalConfig extends cdktf.TerraformR
       terraformResourceType: 'oci_log_analytics_namespace_storage_archival_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

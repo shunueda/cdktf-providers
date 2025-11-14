@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPrefectGlobalConcurrencyLimitConfig extends cdktf.Terraform
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#account_id DataPrefectGlobalConcurrencyLimit#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#account_id DataPrefectGlobalConcurrencyLimit#account_id}
   */
   readonly accountId?: string;
   /**
   * Timestamp of when the resource was created (RFC3339)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#created DataPrefectGlobalConcurrencyLimit#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#created DataPrefectGlobalConcurrencyLimit#created}
   */
   readonly created?: string;
   /**
   * Global Concurrency Limit ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#id DataPrefectGlobalConcurrencyLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#id DataPrefectGlobalConcurrencyLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,25 +31,25 @@ export interface DataPrefectGlobalConcurrencyLimitConfig extends cdktf.Terraform
   /**
   * Name of the global concurrency limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#name DataPrefectGlobalConcurrencyLimit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#name DataPrefectGlobalConcurrencyLimit#name}
   */
   readonly name?: string;
   /**
   * Timestamp of when the resource was updated (RFC3339)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#updated DataPrefectGlobalConcurrencyLimit#updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#updated DataPrefectGlobalConcurrencyLimit#updated}
   */
   readonly updated?: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#workspace_id DataPrefectGlobalConcurrencyLimit#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#workspace_id DataPrefectGlobalConcurrencyLimit#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit prefect_global_concurrency_limit}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit prefect_global_concurrency_limit}
 */
 export class DataPrefectGlobalConcurrencyLimit extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataPrefectGlobalConcurrencyLimit extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataPrefectGlobalConcurrencyLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectGlobalConcurrencyLimit to import
-  * @param importFromId The id of the existing DataPrefectGlobalConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectGlobalConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectGlobalConcurrencyLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataPrefectGlobalConcurrencyLimit extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/global_concurrency_limit prefect_global_concurrency_limit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/global_concurrency_limit prefect_global_concurrency_limit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataPrefectGlobalConcurrencyLimit extends cdktf.TerraformDataSource
       terraformResourceType: 'prefect_global_concurrency_limit',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0',
-        providerVersionConstraint: '2.90.0'
+        providerVersion: '2.90.1',
+        providerVersionConstraint: '2.90.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

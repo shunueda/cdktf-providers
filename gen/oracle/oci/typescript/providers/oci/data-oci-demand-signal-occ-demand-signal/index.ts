@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/demand_signal_occ_demand_signal
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/demand_signal_occ_demand_signal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDemandSignalOccDemandSignalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}
   */
   readonly occDemandSignalId: string;
 }
@@ -286,7 +286,7 @@ export class DataOciDemandSignalOccDemandSignalPatchOperationsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/demand_signal_occ_demand_signal oci_demand_signal_occ_demand_signal}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/demand_signal_occ_demand_signal oci_demand_signal_occ_demand_signal}
 */
 export class DataOciDemandSignalOccDemandSignal extends cdktf.TerraformDataSource {
 
@@ -302,7 +302,7 @@ export class DataOciDemandSignalOccDemandSignal extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDemandSignalOccDemandSignal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDemandSignalOccDemandSignal to import
-  * @param importFromId The id of the existing DataOciDemandSignalOccDemandSignal that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/demand_signal_occ_demand_signal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDemandSignalOccDemandSignal that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/demand_signal_occ_demand_signal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDemandSignalOccDemandSignal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class DataOciDemandSignalOccDemandSignal extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/demand_signal_occ_demand_signal oci_demand_signal_occ_demand_signal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/demand_signal_occ_demand_signal oci_demand_signal_occ_demand_signal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class DataOciDemandSignalOccDemandSignal extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_demand_signal_occ_demand_signal',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

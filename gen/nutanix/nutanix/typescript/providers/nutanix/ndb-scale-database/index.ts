@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface NdbScaleDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#application_type NdbScaleDatabase#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#application_type NdbScaleDatabase#application_type}
   */
   readonly applicationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#data_storage_size NdbScaleDatabase#data_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#data_storage_size NdbScaleDatabase#data_storage_size}
   */
   readonly dataStorageSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#database_uuid NdbScaleDatabase#database_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#database_uuid NdbScaleDatabase#database_uuid}
   */
   readonly databaseUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#id NdbScaleDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#id NdbScaleDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#post_script_cmd NdbScaleDatabase#post_script_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#post_script_cmd NdbScaleDatabase#post_script_cmd}
   */
   readonly postScriptCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#pre_script_cmd NdbScaleDatabase#pre_script_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#pre_script_cmd NdbScaleDatabase#pre_script_cmd}
   */
   readonly preScriptCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#scale_count NdbScaleDatabase#scale_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#scale_count NdbScaleDatabase#scale_count}
   */
   readonly scaleCount?: number;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#tags NdbScaleDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#tags NdbScaleDatabase#tags}
   */
   readonly tags?: NdbScaleDatabaseTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#timeouts NdbScaleDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#timeouts NdbScaleDatabase#timeouts}
   */
   readonly timeouts?: NdbScaleDatabaseTimeouts;
 }
@@ -3494,15 +3494,15 @@ export class NdbScaleDatabaseTimeMachineList extends cdktf.ComplexList {
 }
 export interface NdbScaleDatabaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#tag_id NdbScaleDatabase#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#tag_id NdbScaleDatabase#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#tag_name NdbScaleDatabase#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#tag_name NdbScaleDatabase#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#value NdbScaleDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#value NdbScaleDatabase#value}
   */
   readonly value?: string;
 }
@@ -3686,7 +3686,7 @@ export class NdbScaleDatabaseTagsList extends cdktf.ComplexList {
 }
 export interface NdbScaleDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#create NdbScaleDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#create NdbScaleDatabase#create}
   */
   readonly create?: string;
 }
@@ -3780,7 +3780,7 @@ export class NdbScaleDatabaseTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database nutanix_ndb_scale_database}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database nutanix_ndb_scale_database}
 */
 export class NdbScaleDatabase extends cdktf.TerraformResource {
 
@@ -3796,7 +3796,7 @@ export class NdbScaleDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbScaleDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbScaleDatabase to import
-  * @param importFromId The id of the existing NdbScaleDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbScaleDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbScaleDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3808,7 +3808,7 @@ export class NdbScaleDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_scale_database nutanix_ndb_scale_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_scale_database nutanix_ndb_scale_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3819,8 +3819,8 @@ export class NdbScaleDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_scale_database',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

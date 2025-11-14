@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,17 +11,17 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#account IamAppRegistration#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#account IamAppRegistration#account}
   */
   readonly account?: IamAppRegistrationAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#account_moid IamAppRegistration#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#account_moid IamAppRegistration#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -29,13 +29,13 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * * `enable` - Used to enable a disabled API key/App Registration. If the API key/App Registration is already expired, this action has no effect.
   * * `disable` - Used to disable an active API key/App Registration. If the API key/App Registration is already expired, this action has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#admin_status IamAppRegistration#admin_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#admin_status IamAppRegistration#admin_status}
   */
   readonly adminStatus?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#ancestors IamAppRegistration#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#ancestors IamAppRegistration#ancestors}
   */
   readonly ancestors?: IamAppRegistrationAncestors[] | cdktf.IResolvable;
   /**
@@ -43,27 +43,27 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a iamAbstractClientApplication resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#client_application IamAppRegistration#client_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#client_application IamAppRegistration#client_application}
   */
   readonly clientApplication?: IamAppRegistrationClientApplication[] | cdktf.IResolvable;
   /**
   * A unique identifier for the OAuth2 client application.
   * The client ID is auto-generated when the AppRegistration object is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#client_id IamAppRegistration#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#client_id IamAppRegistration#client_id}
   */
   readonly clientId?: string;
   /**
   * App Registration name specified by user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#client_name IamAppRegistration#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#client_name IamAppRegistration#client_name}
   */
   readonly clientName?: string;
   /**
@@ -71,7 +71,7 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * The value of this property is generated when grantType includes 'client-credentials'.
   * Otherwise, no client-secret is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#client_secret IamAppRegistration#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#client_secret IamAppRegistration#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -79,45 +79,45 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * * `public` - Clients incapable of maintaining the confidentiality of their credentials.This includes clients executing on the device used by the resource owner,such as mobile applications, installed native application or a webbrowser-based application.
   * * `confidential` - Clients capable of maintaining the confidentiality of their credentials.For example, this could be a client implemented on a secure server withrestricted access to the client credentials.To maintain the confidentiality of the OAuth2 credentials, two use cases areconsidered.1) The application is running as a service within Intersight. The application automatically   obtains the OAuth2 credentials when the application starts and the credentials are not   exposed to the end-user.   Because end-users (even account administrators) do not have access the OAuth2 credentials,   they cannot take the credentials with them when they leave their organization.2) The application is under the control of a "trusted" end-user. For example,   the end-user may create a native application running outside Intersight. The application   uses OAuth2 credentials to interact with the Intersight API. In that case, the Intersight   account administrator may generate OAuth2 credentials with a registered application   using "client_credentials" grant type.   In that case, the end-user is responsible for maintaining the confidentiality of the   OAuth2 credentials. If the end-user leaves the organization, you should revoke the   credentials and issue new Oauth2 credentials.Here is a possible workflow for handling OAuth2 tokens.1) User Alice (Intersight Account Administrator) logins to Intersight and deploys an Intersight   application that requires an OAuth2 token.2) Intersight automatically deploys the application. The application is assigned a OAuth2 token,   possibly linked to Alice. The application must NOT expose the OAuth2 secret to Alice, otherwise   Alice would be able to use the token after she leaves the company.3) The application can make API calls to Intersight using its assigned OAuth2 token. For example,   the application could make weekly scheduled API calls to Intersight.4) Separately, Alice may also get OAuth2 tokens that she can use to make API calls from the   Intersight SDK through the northbound API. In that case, Alice will get the associated OAuth2   secrets, but not the one assigned in step #2.5) Alice leaves the organization. The OAuth2 tokens assigned in step #2 must retain their validity   even after Alice has left the organization. Because the OAuth2 secrets were never shared with   Alice, there is no risk Alice can reuse the OAuth2 secrets.   On the other hand, the OAuth2 tokens assigned in step #4 must be invalidated because Alice had   the OAuth2 tokens in her possession.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#client_type IamAppRegistration#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#client_type IamAppRegistration#client_type}
   */
   readonly clientType?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#create_time IamAppRegistration#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#create_time IamAppRegistration#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#description IamAppRegistration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#description IamAppRegistration#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#domain_group_moid IamAppRegistration#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#domain_group_moid IamAppRegistration#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * EntityId holds the Id of the client application that is using this AppRegistration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#entity_id IamAppRegistration#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#entity_id IamAppRegistration#entity_id}
   */
   readonly entityId?: string;
   /**
   * The expiration date of the App Registration which is set at the time of its creation. Its value can only be assigned a date that falls within the range determined by the maximum expiration time configured at the account level. The expiry date can be edited to be earlier or later, provided it stays within the designated expiry period. This period is determined by adding the 'startTime' property of the App Registration to the maximum expiry time configured at the account level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#expiry_date_time IamAppRegistration#expiry_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#expiry_date_time IamAppRegistration#expiry_date_time}
   */
   readonly expiryDateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#grant_types IamAppRegistration#grant_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#grant_types IamAppRegistration#grant_types}
   */
   readonly grantTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#id IamAppRegistration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#id IamAppRegistration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,44 +126,44 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Used to mark the App Registration as a never-expiring App Registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#is_never_expiring IamAppRegistration#is_never_expiring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#is_never_expiring IamAppRegistration#is_never_expiring}
   */
   readonly isNeverExpiring?: boolean | cdktf.IResolvable;
   /**
   * The ip address from which the App Registration was last used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#last_used_ip IamAppRegistration#last_used_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#last_used_ip IamAppRegistration#last_used_ip}
   */
   readonly lastUsedIp?: string;
   /**
   * The time at which the App Registration was last used. It is updated every 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#last_used_time IamAppRegistration#last_used_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#last_used_time IamAppRegistration#last_used_time}
   */
   readonly lastUsedTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#mod_time IamAppRegistration#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#mod_time IamAppRegistration#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
   * An array of relationships to iamOAuthToken resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#oauth_tokens IamAppRegistration#oauth_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#oauth_tokens IamAppRegistration#oauth_tokens}
   */
   readonly oauthTokens?: IamAppRegistrationOauthTokens[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -172,45 +172,45 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - An API key/App Registration having disabled status cannot be used for API invocation.
   * * `expired` - An API key/App Registration having expired status cannot be used for API invocation as the expiration date has passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#oper_status IamAppRegistration#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#oper_status IamAppRegistration#oper_status}
   */
   readonly operStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#owners IamAppRegistration#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#owners IamAppRegistration#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#parent IamAppRegistration#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#parent IamAppRegistration#parent}
   */
   readonly parent?: IamAppRegistrationParent[] | cdktf.IResolvable;
   /**
   * A reference to a iamPermission resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#permission IamAppRegistration#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#permission IamAppRegistration#permission}
   */
   readonly permission?: IamAppRegistrationPermission[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#permission_resources IamAppRegistration#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#permission_resources IamAppRegistration#permission_resources}
   */
   readonly permissionResources?: IamAppRegistrationPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#redirect_uris IamAppRegistration#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#redirect_uris IamAppRegistration#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
   * Set value to true to renew the client-secret. Applicable to client_credentials grant type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#renew_client_secret IamAppRegistration#renew_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#renew_client_secret IamAppRegistration#renew_client_secret}
   */
   readonly renewClientSecret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#response_types IamAppRegistration#response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#response_types IamAppRegistration#response_types}
   */
   readonly responseTypes?: string[];
   /**
@@ -219,40 +219,40 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * On each request with OAuth2 access token the CreationTime of the OAuth2 token will be compared to RevokationTimestamp of the
   * corresponding App Registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#revocation_timestamp IamAppRegistration#revocation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#revocation_timestamp IamAppRegistration#revocation_timestamp}
   */
   readonly revocationTimestamp?: string;
   /**
   * Used to trigger update the revocationTimestamp value.
   * If UI sent updating request with the Revoke value is true, then update RevocationTimestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#revoke IamAppRegistration#revoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#revoke IamAppRegistration#revoke}
   */
   readonly revoke?: boolean | cdktf.IResolvable;
   /**
   * An array of relationships to iamRole resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#roles IamAppRegistration#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#roles IamAppRegistration#roles}
   */
   readonly roles?: IamAppRegistrationRoles[] | cdktf.IResolvable;
   /**
   * Scope holds a collection of account Id, permission Id to which the current session is scoped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#scope IamAppRegistration#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#scope IamAppRegistration#scope}
   */
   readonly scope?: IamAppRegistrationScope[] | cdktf.IResolvable;
   /**
   * A reference to a iamSecurityHolder resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#security_holder IamAppRegistration#security_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#security_holder IamAppRegistration#security_holder}
   */
   readonly securityHolder?: IamAppRegistrationSecurityHolder[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#shared_scope IamAppRegistration#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#shared_scope IamAppRegistration#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -260,7 +260,7 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * Applicable only for public AppRegistrations, means only 'authorization_code' grantType.
   * Note that consent screen will be shown on each login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#show_consent_screen IamAppRegistration#show_consent_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#show_consent_screen IamAppRegistration#show_consent_screen}
   */
   readonly showConsentScreen?: boolean | cdktf.IResolvable;
   /**
@@ -268,11 +268,11 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * For expiring App Registrations, this field is same as the create time of the App Registration.
   * For never-expiring App Registrations, this field is set initially to zero time value. If a never-expiry App Registration is later changed to have an expiration, the timestamp marking the start of this transition is recorded in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#start_time IamAppRegistration#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#start_time IamAppRegistration#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#tags IamAppRegistration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#tags IamAppRegistration#tags}
   */
   readonly tags?: IamAppRegistrationTags[] | cdktf.IResolvable;
   /**
@@ -281,42 +281,42 @@ export interface IamAppRegistrationConfig extends cdktf.TerraformMetaArguments {
   * * `longLived` - This sets the expiryTime to an year from the token issuing time.
   * * `infinite` - This allows for a never-expiring token. Use with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#token_expiry IamAppRegistration#token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#token_expiry IamAppRegistration#token_expiry}
   */
   readonly tokenExpiry?: string;
   /**
   * A reference to a iamUser resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#user IamAppRegistration#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#user IamAppRegistration#user}
   */
   readonly user?: IamAppRegistrationUser[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#version_context IamAppRegistration#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#version_context IamAppRegistration#version_context}
   */
   readonly versionContext?: IamAppRegistrationVersionContext[] | cdktf.IResolvable;
 }
 export interface IamAppRegistrationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -548,23 +548,23 @@ export class IamAppRegistrationAccountList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -796,23 +796,23 @@ export class IamAppRegistrationAncestorsList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationClientApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -1044,23 +1044,23 @@ export class IamAppRegistrationClientApplicationList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationOauthTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -1292,23 +1292,23 @@ export class IamAppRegistrationOauthTokensList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -1540,23 +1540,23 @@ export class IamAppRegistrationParentList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -1788,23 +1788,23 @@ export class IamAppRegistrationPermissionList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -2036,23 +2036,23 @@ export class IamAppRegistrationPermissionResourcesList extends cdktf.ComplexList
 }
 export interface IamAppRegistrationRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -2284,23 +2284,23 @@ export class IamAppRegistrationRolesList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationScopeSwitchedFromAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#account_id IamAppRegistration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#account_id IamAppRegistration#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#permission_id IamAppRegistration#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#permission_id IamAppRegistration#permission_id}
   */
   readonly permissionId?: string;
 }
@@ -2532,23 +2532,23 @@ export class IamAppRegistrationScopeSwitchedFromAccountList extends cdktf.Comple
 }
 export interface IamAppRegistrationScopeSwitchedToAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#account_id IamAppRegistration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#account_id IamAppRegistration#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#permission_id IamAppRegistration#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#permission_id IamAppRegistration#permission_id}
   */
   readonly permissionId?: string;
 }
@@ -2780,31 +2780,31 @@ export class IamAppRegistrationScopeSwitchedToAccountsList extends cdktf.Complex
 }
 export interface IamAppRegistrationScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#account_access_control_id IamAppRegistration#account_access_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#account_access_control_id IamAppRegistration#account_access_control_id}
   */
   readonly accountAccessControlId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#request_identifier IamAppRegistration#request_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#request_identifier IamAppRegistration#request_identifier}
   */
   readonly requestIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#switched_from_account IamAppRegistration#switched_from_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#switched_from_account IamAppRegistration#switched_from_account}
   */
   readonly switchedFromAccount?: IamAppRegistrationScopeSwitchedFromAccount[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#switched_to_accounts IamAppRegistration#switched_to_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#switched_to_accounts IamAppRegistration#switched_to_accounts}
   */
   readonly switchedToAccounts?: IamAppRegistrationScopeSwitchedToAccounts[] | cdktf.IResolvable;
 }
@@ -3094,23 +3094,23 @@ export class IamAppRegistrationScopeList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationSecurityHolder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -3342,23 +3342,23 @@ export class IamAppRegistrationSecurityHolderList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -3590,23 +3590,23 @@ export class IamAppRegistrationTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface IamAppRegistrationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -3838,31 +3838,35 @@ export class IamAppRegistrationTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#ancestor_definitions IamAppRegistration#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#ancestor_definitions IamAppRegistration#ancestor_definitions}
   */
   readonly ancestorDefinitions?: IamAppRegistrationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#definition IamAppRegistration#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#definition IamAppRegistration#definition}
   */
   readonly definition?: IamAppRegistrationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#key IamAppRegistration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#key IamAppRegistration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#propagated IamAppRegistration#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#propagated IamAppRegistration#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#type IamAppRegistration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#sys_tag IamAppRegistration#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#type IamAppRegistration#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#value IamAppRegistration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#value IamAppRegistration#value}
   */
   readonly value?: string;
 }
@@ -3878,6 +3882,7 @@ export function iamAppRegistrationTagsToTerraform(struct?: IamAppRegistrationTag
     definition: cdktf.listMapper(iamAppRegistrationTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3916,6 +3921,12 @@ export function iamAppRegistrationTagsToHclTerraform(struct?: IamAppRegistration
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3978,6 +3989,10 @@ export class IamAppRegistrationTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3998,6 +4013,7 @@ export class IamAppRegistrationTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -4013,6 +4029,7 @@ export class IamAppRegistrationTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -4098,6 +4115,22 @@ export class IamAppRegistrationTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -4152,23 +4185,23 @@ export class IamAppRegistrationTagsList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -4400,23 +4433,23 @@ export class IamAppRegistrationUserList extends cdktf.ComplexList {
 }
 export interface IamAppRegistrationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -4648,23 +4681,23 @@ export class IamAppRegistrationVersionContextInterestedMosList extends cdktf.Com
 }
 export interface IamAppRegistrationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#moid IamAppRegistration#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#selector IamAppRegistration#selector}
   */
   readonly selector?: string;
 }
@@ -4896,39 +4929,39 @@ export class IamAppRegistrationVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface IamAppRegistrationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#additional_properties IamAppRegistration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#class_id IamAppRegistration#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#interested_mos IamAppRegistration#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#interested_mos IamAppRegistration#interested_mos}
   */
   readonly interestedMos?: IamAppRegistrationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#marked_for_deletion IamAppRegistration#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#marked_for_deletion IamAppRegistration#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#nr_version IamAppRegistration#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#nr_version IamAppRegistration#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#object_type IamAppRegistration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#ref_mo IamAppRegistration#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#ref_mo IamAppRegistration#ref_mo}
   */
   readonly refMo?: IamAppRegistrationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#timestamp IamAppRegistration#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#timestamp IamAppRegistration#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#version_type IamAppRegistration#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#version_type IamAppRegistration#version_type}
   */
   readonly versionType?: string;
 }
@@ -5276,7 +5309,7 @@ export class IamAppRegistrationVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration intersight_iam_app_registration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration intersight_iam_app_registration}
 */
 export class IamAppRegistration extends cdktf.TerraformResource {
 
@@ -5292,7 +5325,7 @@ export class IamAppRegistration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamAppRegistration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamAppRegistration to import
-  * @param importFromId The id of the existing IamAppRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamAppRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamAppRegistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5304,7 +5337,7 @@ export class IamAppRegistration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/iam_app_registration intersight_iam_app_registration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/iam_app_registration intersight_iam_app_registration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5315,8 +5348,8 @@ export class IamAppRegistration extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_iam_app_registration',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

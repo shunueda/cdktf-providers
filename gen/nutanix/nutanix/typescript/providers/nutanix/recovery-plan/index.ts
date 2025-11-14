@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface RecoveryPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#description RecoveryPlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#description RecoveryPlan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#id RecoveryPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#id RecoveryPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#categories RecoveryPlan#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#categories RecoveryPlan#categories}
   */
   readonly categories?: RecoveryPlanCategories[] | cdktf.IResolvable;
   /**
   * owner_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#owner_reference RecoveryPlan#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#owner_reference RecoveryPlan#owner_reference}
   */
   readonly ownerReference?: RecoveryPlanOwnerReference;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#parameters RecoveryPlan#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#parameters RecoveryPlan#parameters}
   */
   readonly parameters: RecoveryPlanParameters;
   /**
   * project_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#project_reference RecoveryPlan#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#project_reference RecoveryPlan#project_reference}
   */
   readonly projectReference?: RecoveryPlanProjectReference;
   /**
   * stage_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#stage_list RecoveryPlan#stage_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#stage_list RecoveryPlan#stage_list}
   */
   readonly stageList: RecoveryPlanStageListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#timeouts RecoveryPlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#timeouts RecoveryPlan#timeouts}
   */
   readonly timeouts?: RecoveryPlanTimeouts;
 }
 export interface RecoveryPlanCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#value RecoveryPlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#value RecoveryPlan#value}
   */
   readonly value?: string;
 }
@@ -210,15 +210,15 @@ export class RecoveryPlanCategoriesList extends cdktf.ComplexList {
 }
 export interface RecoveryPlanOwnerReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -360,11 +360,11 @@ export class RecoveryPlanOwnerReferenceOutputReference extends cdktf.ComplexObje
 }
 export interface RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListRecoveryFloatingIpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip RecoveryPlan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip RecoveryPlan#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#should_allocate_dynamically RecoveryPlan#should_allocate_dynamically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#should_allocate_dynamically RecoveryPlan#should_allocate_dynamically}
   */
   readonly shouldAllocateDynamically?: boolean | cdktf.IResolvable;
 }
@@ -477,11 +477,11 @@ export class RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListRec
 }
 export interface RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListTestFloatingIpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip RecoveryPlan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip RecoveryPlan#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#should_allocate_dynamically RecoveryPlan#should_allocate_dynamically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#should_allocate_dynamically RecoveryPlan#should_allocate_dynamically}
   */
   readonly shouldAllocateDynamically?: boolean | cdktf.IResolvable;
 }
@@ -594,11 +594,11 @@ export class RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListTes
 }
 export interface RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListVmNicInformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip RecoveryPlan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip RecoveryPlan#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid: string;
 }
@@ -708,15 +708,15 @@ export class RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListVmN
 }
 export interface RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid: string;
 }
@@ -854,25 +854,25 @@ export interface RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentLis
   /**
   * recovery_floating_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#recovery_floating_ip_config RecoveryPlan#recovery_floating_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#recovery_floating_ip_config RecoveryPlan#recovery_floating_ip_config}
   */
   readonly recoveryFloatingIpConfig?: RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListRecoveryFloatingIpConfig;
   /**
   * test_floating_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#test_floating_ip_config RecoveryPlan#test_floating_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#test_floating_ip_config RecoveryPlan#test_floating_ip_config}
   */
   readonly testFloatingIpConfig?: RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListTestFloatingIpConfig;
   /**
   * vm_nic_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vm_nic_information RecoveryPlan#vm_nic_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vm_nic_information RecoveryPlan#vm_nic_information}
   */
   readonly vmNicInformation: RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListVmNicInformation;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
   */
   readonly vmReference: RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListVmReference;
 }
@@ -1069,13 +1069,13 @@ export class RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListStr
 }
 export interface RecoveryPlanParametersFloatingIpAssignmentListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#availability_zone_url RecoveryPlan#availability_zone_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#availability_zone_url RecoveryPlan#availability_zone_url}
   */
   readonly availabilityZoneUrl: string;
   /**
   * vm_ip_assignment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vm_ip_assignment_list RecoveryPlan#vm_ip_assignment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vm_ip_assignment_list RecoveryPlan#vm_ip_assignment_list}
   */
   readonly vmIpAssignmentList: RecoveryPlanParametersFloatingIpAssignmentListVmIpAssignmentListStruct[] | cdktf.IResolvable;
 }
@@ -1214,15 +1214,15 @@ export class RecoveryPlanParametersFloatingIpAssignmentListStructList extends cd
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListClusterReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid: string;
 }
@@ -1390,7 +1390,7 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryIpAssignmentListIpConfigListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip_address RecoveryPlan#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip_address RecoveryPlan#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -1503,15 +1503,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryIpAssignmentListVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -1652,13 +1652,13 @@ export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetwork
   /**
   * ip_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip_config_list RecoveryPlan#ip_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip_config_list RecoveryPlan#ip_config_list}
   */
   readonly ipConfigList: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryIpAssignmentListIpConfigListStruct[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
   */
   readonly vmReference: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryIpAssignmentListVmReference;
 }
@@ -1797,15 +1797,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkSubnetListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#external_connectivity_state RecoveryPlan#external_connectivity_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#external_connectivity_state RecoveryPlan#external_connectivity_state}
   */
   readonly externalConnectivityState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#gateway_ip RecoveryPlan#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#gateway_ip RecoveryPlan#gateway_ip}
   */
   readonly gatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#prefix_length RecoveryPlan#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#prefix_length RecoveryPlan#prefix_length}
   */
   readonly prefixLength: number;
 }
@@ -1973,15 +1973,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkVirtualNetworkReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -2123,15 +2123,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkVpcReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -2273,29 +2273,29 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#use_vpc_reference RecoveryPlan#use_vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#use_vpc_reference RecoveryPlan#use_vpc_reference}
   */
   readonly useVpcReference?: boolean | cdktf.IResolvable;
   /**
   * subnet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#subnet_list RecoveryPlan#subnet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#subnet_list RecoveryPlan#subnet_list}
   */
   readonly subnetList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkSubnetListStruct[] | cdktf.IResolvable;
   /**
   * virtual_network_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#virtual_network_reference RecoveryPlan#virtual_network_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#virtual_network_reference RecoveryPlan#virtual_network_reference}
   */
   readonly virtualNetworkReference?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkVirtualNetworkReference;
   /**
   * vpc_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vpc_reference RecoveryPlan#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vpc_reference RecoveryPlan#vpc_reference}
   */
   readonly vpcReference?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetworkVpcReference;
 }
@@ -2495,7 +2495,7 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestIpAssignmentListIpConfigListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip_address RecoveryPlan#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip_address RecoveryPlan#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -2608,15 +2608,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestIpAssignmentListVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -2757,13 +2757,13 @@ export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetwork
   /**
   * ip_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#ip_config_list RecoveryPlan#ip_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#ip_config_list RecoveryPlan#ip_config_list}
   */
   readonly ipConfigList: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestIpAssignmentListIpConfigListStruct[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vm_reference RecoveryPlan#vm_reference}
   */
   readonly vmReference: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestIpAssignmentListVmReference;
 }
@@ -2902,15 +2902,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkSubnetListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#external_connectivity_state RecoveryPlan#external_connectivity_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#external_connectivity_state RecoveryPlan#external_connectivity_state}
   */
   readonly externalConnectivityState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#gateway_ip RecoveryPlan#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#gateway_ip RecoveryPlan#gateway_ip}
   */
   readonly gatewayIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#prefix_length RecoveryPlan#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#prefix_length RecoveryPlan#prefix_length}
   */
   readonly prefixLength: number;
 }
@@ -3078,15 +3078,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkVirtualNetworkReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -3228,15 +3228,15 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkVpcReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -3378,29 +3378,29 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#use_vpc_reference RecoveryPlan#use_vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#use_vpc_reference RecoveryPlan#use_vpc_reference}
   */
   readonly useVpcReference?: boolean | cdktf.IResolvable;
   /**
   * subnet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#subnet_list RecoveryPlan#subnet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#subnet_list RecoveryPlan#subnet_list}
   */
   readonly subnetList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkSubnetListStruct[] | cdktf.IResolvable;
   /**
   * virtual_network_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#virtual_network_reference RecoveryPlan#virtual_network_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#virtual_network_reference RecoveryPlan#virtual_network_reference}
   */
   readonly virtualNetworkReference?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkVirtualNetworkReference;
   /**
   * vpc_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#vpc_reference RecoveryPlan#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#vpc_reference RecoveryPlan#vpc_reference}
   */
   readonly vpcReference?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetworkVpcReference;
 }
@@ -3600,37 +3600,37 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#availability_zone_url RecoveryPlan#availability_zone_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#availability_zone_url RecoveryPlan#availability_zone_url}
   */
   readonly availabilityZoneUrl?: string;
   /**
   * cluster_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#cluster_reference_list RecoveryPlan#cluster_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#cluster_reference_list RecoveryPlan#cluster_reference_list}
   */
   readonly clusterReferenceList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListClusterReferenceListStruct[] | cdktf.IResolvable;
   /**
   * recovery_ip_assignment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#recovery_ip_assignment_list RecoveryPlan#recovery_ip_assignment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#recovery_ip_assignment_list RecoveryPlan#recovery_ip_assignment_list}
   */
   readonly recoveryIpAssignmentList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryIpAssignmentListStruct[] | cdktf.IResolvable;
   /**
   * recovery_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#recovery_network RecoveryPlan#recovery_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#recovery_network RecoveryPlan#recovery_network}
   */
   readonly recoveryNetwork?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListRecoveryNetwork;
   /**
   * test_ip_assignment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#test_ip_assignment_list RecoveryPlan#test_ip_assignment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#test_ip_assignment_list RecoveryPlan#test_ip_assignment_list}
   */
   readonly testIpAssignmentList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestIpAssignmentListStruct[] | cdktf.IResolvable;
   /**
   * test_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#test_network RecoveryPlan#test_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#test_network RecoveryPlan#test_network}
   */
   readonly testNetwork?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListTestNetwork;
 }
@@ -3891,13 +3891,13 @@ export class RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMapp
 }
 export interface RecoveryPlanParametersNetworkMappingListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#are_networks_stretched RecoveryPlan#are_networks_stretched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#are_networks_stretched RecoveryPlan#are_networks_stretched}
   */
   readonly areNetworksStretched?: boolean | cdktf.IResolvable;
   /**
   * availability_zone_network_mapping_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#availability_zone_network_mapping_list RecoveryPlan#availability_zone_network_mapping_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#availability_zone_network_mapping_list RecoveryPlan#availability_zone_network_mapping_list}
   */
   readonly availabilityZoneNetworkMappingList?: RecoveryPlanParametersNetworkMappingListAvailabilityZoneNetworkMappingListStruct[] | cdktf.IResolvable;
 }
@@ -4044,13 +4044,13 @@ export interface RecoveryPlanParameters {
   /**
   * floating_ip_assignment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#floating_ip_assignment_list RecoveryPlan#floating_ip_assignment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#floating_ip_assignment_list RecoveryPlan#floating_ip_assignment_list}
   */
   readonly floatingIpAssignmentList?: RecoveryPlanParametersFloatingIpAssignmentListStruct[] | cdktf.IResolvable;
   /**
   * network_mapping_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#network_mapping_list RecoveryPlan#network_mapping_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#network_mapping_list RecoveryPlan#network_mapping_list}
   */
   readonly networkMappingList?: RecoveryPlanParametersNetworkMappingListStruct[] | cdktf.IResolvable;
 }
@@ -4163,15 +4163,15 @@ export class RecoveryPlanParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface RecoveryPlanProjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#kind RecoveryPlan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#kind RecoveryPlan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#uuid RecoveryPlan#uuid}
   */
   readonly uuid?: string;
 }
@@ -4313,11 +4313,11 @@ export class RecoveryPlanProjectReferenceOutputReference extends cdktf.ComplexOb
 }
 export interface RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#name RecoveryPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#name RecoveryPlan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#value RecoveryPlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#value RecoveryPlan#value}
   */
   readonly value?: string;
 }
@@ -4462,11 +4462,11 @@ export class RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListCategori
 }
 export interface RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListScriptListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#enable_script_exec RecoveryPlan#enable_script_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#enable_script_exec RecoveryPlan#enable_script_exec}
   */
   readonly enableScriptExec: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#timeout RecoveryPlan#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#timeout RecoveryPlan#timeout}
   */
   readonly timeout?: string;
 }
@@ -4608,27 +4608,27 @@ export class RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListScriptLi
 }
 export interface RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#any_entity_reference_kind RecoveryPlan#any_entity_reference_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#any_entity_reference_kind RecoveryPlan#any_entity_reference_kind}
   */
   readonly anyEntityReferenceKind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#any_entity_reference_name RecoveryPlan#any_entity_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#any_entity_reference_name RecoveryPlan#any_entity_reference_name}
   */
   readonly anyEntityReferenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#any_entity_reference_uuid RecoveryPlan#any_entity_reference_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#any_entity_reference_uuid RecoveryPlan#any_entity_reference_uuid}
   */
   readonly anyEntityReferenceUuid?: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#categories RecoveryPlan#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#categories RecoveryPlan#categories}
   */
   readonly categories?: RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListCategories[] | cdktf.IResolvable;
   /**
   * script_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#script_list RecoveryPlan#script_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#script_list RecoveryPlan#script_list}
   */
   readonly scriptList?: RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListScriptListStruct[] | cdktf.IResolvable;
 }
@@ -4862,7 +4862,7 @@ export interface RecoveryPlanStageListStageWorkRecoverEntities {
   /**
   * entity_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#entity_info_list RecoveryPlan#entity_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#entity_info_list RecoveryPlan#entity_info_list}
   */
   readonly entityInfoList?: RecoveryPlanStageListStageWorkRecoverEntitiesEntityInfoListStruct[] | cdktf.IResolvable;
 }
@@ -4948,7 +4948,7 @@ export interface RecoveryPlanStageListStageWork {
   /**
   * recover_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#recover_entities RecoveryPlan#recover_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#recover_entities RecoveryPlan#recover_entities}
   */
   readonly recoverEntities?: RecoveryPlanStageListStageWorkRecoverEntities;
 }
@@ -5032,17 +5032,17 @@ export class RecoveryPlanStageListStageWorkOutputReference extends cdktf.Complex
 }
 export interface RecoveryPlanStageListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#delay_time_secs RecoveryPlan#delay_time_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#delay_time_secs RecoveryPlan#delay_time_secs}
   */
   readonly delayTimeSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#stage_uuid RecoveryPlan#stage_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#stage_uuid RecoveryPlan#stage_uuid}
   */
   readonly stageUuid?: string;
   /**
   * stage_work block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#stage_work RecoveryPlan#stage_work}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#stage_work RecoveryPlan#stage_work}
   */
   readonly stageWork: RecoveryPlanStageListStageWork;
 }
@@ -5213,15 +5213,15 @@ export class RecoveryPlanStageListStructList extends cdktf.ComplexList {
 }
 export interface RecoveryPlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#create RecoveryPlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#create RecoveryPlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#delete RecoveryPlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#delete RecoveryPlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#update RecoveryPlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#update RecoveryPlan#update}
   */
   readonly update?: string;
 }
@@ -5373,7 +5373,7 @@ export class RecoveryPlanTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan nutanix_recovery_plan}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan nutanix_recovery_plan}
 */
 export class RecoveryPlan extends cdktf.TerraformResource {
 
@@ -5389,7 +5389,7 @@ export class RecoveryPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecoveryPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecoveryPlan to import
-  * @param importFromId The id of the existing RecoveryPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecoveryPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecoveryPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5401,7 +5401,7 @@ export class RecoveryPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_plan nutanix_recovery_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_plan nutanix_recovery_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5412,8 +5412,8 @@ export class RecoveryPlan extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_recovery_plan',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

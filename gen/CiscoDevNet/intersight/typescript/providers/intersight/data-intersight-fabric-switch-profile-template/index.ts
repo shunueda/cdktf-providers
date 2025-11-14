@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFabricSwitchProfileTemplateConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#account_moid DataIntersightFabricSwitchProfileTemplate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#account_moid DataIntersightFabricSwitchProfileTemplate#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#action DataIntersightFabricSwitchProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#action DataIntersightFabricSwitchProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,33 +28,33 @@ export interface DataIntersightFabricSwitchProfileTemplateConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#create_time DataIntersightFabricSwitchProfileTemplate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#create_time DataIntersightFabricSwitchProfileTemplate#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#deployed_policies DataIntersightFabricSwitchProfileTemplate#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#deployed_policies DataIntersightFabricSwitchProfileTemplate#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#description DataIntersightFabricSwitchProfileTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#description DataIntersightFabricSwitchProfileTemplate#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#domain_group_moid DataIntersightFabricSwitchProfileTemplate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#domain_group_moid DataIntersightFabricSwitchProfileTemplate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#id DataIntersightFabricSwitchProfileTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#id DataIntersightFabricSwitchProfileTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,41 +63,41 @@ export interface DataIntersightFabricSwitchProfileTemplateConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#mod_time DataIntersightFabricSwitchProfileTemplate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#mod_time DataIntersightFabricSwitchProfileTemplate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#name DataIntersightFabricSwitchProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#name DataIntersightFabricSwitchProfileTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#owners DataIntersightFabricSwitchProfileTemplate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#owners DataIntersightFabricSwitchProfileTemplate#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#removed_policies DataIntersightFabricSwitchProfileTemplate#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#removed_policies DataIntersightFabricSwitchProfileTemplate#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#shared_scope DataIntersightFabricSwitchProfileTemplate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#shared_scope DataIntersightFabricSwitchProfileTemplate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -106,7 +106,7 @@ export interface DataIntersightFabricSwitchProfileTemplateConfig extends cdktf.T
   * * `A` - Policy configurations in the switch profile or template to be deployed on fabric interconnect A.
   * * `B` - Policy configurations in the switch profile or template to be deployed on fabric interconnect B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#switch_id DataIntersightFabricSwitchProfileTemplate#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#switch_id DataIntersightFabricSwitchProfileTemplate#switch_id}
   */
   readonly switchId?: string;
   /**
@@ -114,86 +114,86 @@ export interface DataIntersightFabricSwitchProfileTemplateConfig extends cdktf.T
   * * `UCS Domain` - Profile/policy type for network and management configuration on UCS Fabric Interconnect.
   * * `Unified Edge` - Profile/policy type for network, management and chassis configuration on Unified Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#target_platform DataIntersightFabricSwitchProfileTemplate#target_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#target_platform DataIntersightFabricSwitchProfileTemplate#target_platform}
   */
   readonly targetPlatform?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#type DataIntersightFabricSwitchProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#type DataIntersightFabricSwitchProfileTemplate#type}
   */
   readonly type?: string;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#action_params DataIntersightFabricSwitchProfileTemplate#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#action_params DataIntersightFabricSwitchProfileTemplate#action_params}
   */
   readonly actionParams?: DataIntersightFabricSwitchProfileTemplateActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#ancestors DataIntersightFabricSwitchProfileTemplate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#ancestors DataIntersightFabricSwitchProfileTemplate#ancestors}
   */
   readonly ancestors?: DataIntersightFabricSwitchProfileTemplateAncestors[] | cdktf.IResolvable;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#config_context DataIntersightFabricSwitchProfileTemplate#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#config_context DataIntersightFabricSwitchProfileTemplate#config_context}
   */
   readonly configContext?: DataIntersightFabricSwitchProfileTemplateConfigContext;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#config_result DataIntersightFabricSwitchProfileTemplate#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#config_result DataIntersightFabricSwitchProfileTemplate#config_result}
   */
   readonly configResult?: DataIntersightFabricSwitchProfileTemplateConfigResult;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#parent DataIntersightFabricSwitchProfileTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#parent DataIntersightFabricSwitchProfileTemplate#parent}
   */
   readonly parent?: DataIntersightFabricSwitchProfileTemplateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#permission_resources DataIntersightFabricSwitchProfileTemplate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#permission_resources DataIntersightFabricSwitchProfileTemplate#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricSwitchProfileTemplatePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#policy_bucket DataIntersightFabricSwitchProfileTemplate#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#policy_bucket DataIntersightFabricSwitchProfileTemplate#policy_bucket}
   */
   readonly policyBucket?: DataIntersightFabricSwitchProfileTemplatePolicyBucket[] | cdktf.IResolvable;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#scheduled_actions DataIntersightFabricSwitchProfileTemplate#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#scheduled_actions DataIntersightFabricSwitchProfileTemplate#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightFabricSwitchProfileTemplateScheduledActions[] | cdktf.IResolvable;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#src_template DataIntersightFabricSwitchProfileTemplate#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#src_template DataIntersightFabricSwitchProfileTemplate#src_template}
   */
   readonly srcTemplate?: DataIntersightFabricSwitchProfileTemplateSrcTemplate;
   /**
   * switch_cluster_profile_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#switch_cluster_profile_template DataIntersightFabricSwitchProfileTemplate#switch_cluster_profile_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#switch_cluster_profile_template DataIntersightFabricSwitchProfileTemplate#switch_cluster_profile_template}
   */
   readonly switchClusterProfileTemplate?: DataIntersightFabricSwitchProfileTemplateSwitchClusterProfileTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#tags DataIntersightFabricSwitchProfileTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#tags DataIntersightFabricSwitchProfileTemplate#tags}
   */
   readonly tags?: DataIntersightFabricSwitchProfileTemplateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#version_context DataIntersightFabricSwitchProfileTemplate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#version_context DataIntersightFabricSwitchProfileTemplate#version_context}
   */
   readonly versionContext?: DataIntersightFabricSwitchProfileTemplateVersionContext;
 }
@@ -1531,6 +1531,11 @@ export class DataIntersightFabricSwitchProfileTemplateResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2101,7 +2106,7 @@ export class DataIntersightFabricSwitchProfileTemplateResultsList extends cdktf.
 }
 export interface DataIntersightFabricSwitchProfileTemplateActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2109,26 +2114,26 @@ export interface DataIntersightFabricSwitchProfileTemplateActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#name DataIntersightFabricSwitchProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#name DataIntersightFabricSwitchProfileTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#value DataIntersightFabricSwitchProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#value DataIntersightFabricSwitchProfileTemplate#value}
   */
   readonly value?: string;
 }
@@ -2360,7 +2365,7 @@ export class DataIntersightFabricSwitchProfileTemplateActionParamsList extends c
 }
 export interface DataIntersightFabricSwitchProfileTemplateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2368,19 +2373,19 @@ export interface DataIntersightFabricSwitchProfileTemplateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2393,7 +2398,7 @@ export interface DataIntersightFabricSwitchProfileTemplateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2625,7 +2630,7 @@ export class DataIntersightFabricSwitchProfileTemplateAncestorsList extends cdkt
 }
 export interface DataIntersightFabricSwitchProfileTemplateConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2633,13 +2638,13 @@ export interface DataIntersightFabricSwitchProfileTemplateConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#config_state DataIntersightFabricSwitchProfileTemplate#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#config_state DataIntersightFabricSwitchProfileTemplate#config_state}
   */
   readonly configState?: string;
   /**
@@ -2660,42 +2665,42 @@ export interface DataIntersightFabricSwitchProfileTemplateConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#config_state_summary DataIntersightFabricSwitchProfileTemplate#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#config_state_summary DataIntersightFabricSwitchProfileTemplate#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#config_type DataIntersightFabricSwitchProfileTemplate#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#config_type DataIntersightFabricSwitchProfileTemplate#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#control_action DataIntersightFabricSwitchProfileTemplate#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#control_action DataIntersightFabricSwitchProfileTemplate#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#error_state DataIntersightFabricSwitchProfileTemplate#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#error_state DataIntersightFabricSwitchProfileTemplate#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#inconsistency_reason DataIntersightFabricSwitchProfileTemplate#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#inconsistency_reason DataIntersightFabricSwitchProfileTemplate#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#oper_state DataIntersightFabricSwitchProfileTemplate#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#oper_state DataIntersightFabricSwitchProfileTemplate#oper_state}
   */
   readonly operState?: string;
 }
@@ -3040,7 +3045,7 @@ export class DataIntersightFabricSwitchProfileTemplateConfigContextOutputReferen
 }
 export interface DataIntersightFabricSwitchProfileTemplateConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3048,19 +3053,19 @@ export interface DataIntersightFabricSwitchProfileTemplateConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3073,7 +3078,7 @@ export interface DataIntersightFabricSwitchProfileTemplateConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3273,7 +3278,7 @@ export class DataIntersightFabricSwitchProfileTemplateConfigResultOutputReferenc
 }
 export interface DataIntersightFabricSwitchProfileTemplateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3281,19 +3286,19 @@ export interface DataIntersightFabricSwitchProfileTemplateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3306,7 +3311,7 @@ export interface DataIntersightFabricSwitchProfileTemplateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3506,7 +3511,7 @@ export class DataIntersightFabricSwitchProfileTemplateParentOutputReference exte
 }
 export interface DataIntersightFabricSwitchProfileTemplatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3514,19 +3519,19 @@ export interface DataIntersightFabricSwitchProfileTemplatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3539,7 +3544,7 @@ export interface DataIntersightFabricSwitchProfileTemplatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3771,7 +3776,7 @@ export class DataIntersightFabricSwitchProfileTemplatePermissionResourcesList ex
 }
 export interface DataIntersightFabricSwitchProfileTemplatePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3779,19 +3784,19 @@ export interface DataIntersightFabricSwitchProfileTemplatePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3804,7 +3809,7 @@ export interface DataIntersightFabricSwitchProfileTemplatePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4036,7 +4041,7 @@ export class DataIntersightFabricSwitchProfileTemplatePolicyBucketList extends c
 }
 export interface DataIntersightFabricSwitchProfileTemplateScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4045,7 +4050,7 @@ export interface DataIntersightFabricSwitchProfileTemplateScheduledActionsAction
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
@@ -4053,7 +4058,7 @@ export interface DataIntersightFabricSwitchProfileTemplateScheduledActionsAction
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
 }
@@ -4197,11 +4202,11 @@ export interface DataIntersightFabricSwitchProfileTemplateScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#action DataIntersightFabricSwitchProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#action DataIntersightFabricSwitchProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4209,26 +4214,26 @@ export interface DataIntersightFabricSwitchProfileTemplateScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#proceed_on_reboot DataIntersightFabricSwitchProfileTemplate#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#proceed_on_reboot DataIntersightFabricSwitchProfileTemplate#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#action_qualifier DataIntersightFabricSwitchProfileTemplate#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#action_qualifier DataIntersightFabricSwitchProfileTemplate#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightFabricSwitchProfileTemplateScheduledActionsActionQualifier;
 }
@@ -4489,7 +4494,7 @@ export class DataIntersightFabricSwitchProfileTemplateScheduledActionsList exten
 }
 export interface DataIntersightFabricSwitchProfileTemplateSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4497,19 +4502,19 @@ export interface DataIntersightFabricSwitchProfileTemplateSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4522,7 +4527,7 @@ export interface DataIntersightFabricSwitchProfileTemplateSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4722,7 +4727,7 @@ export class DataIntersightFabricSwitchProfileTemplateSrcTemplateOutputReference
 }
 export interface DataIntersightFabricSwitchProfileTemplateSwitchClusterProfileTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4730,19 +4735,19 @@ export interface DataIntersightFabricSwitchProfileTemplateSwitchClusterProfileTe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4755,7 +4760,7 @@ export interface DataIntersightFabricSwitchProfileTemplateSwitchClusterProfileTe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4955,7 +4960,7 @@ export class DataIntersightFabricSwitchProfileTemplateSwitchClusterProfileTempla
 }
 export interface DataIntersightFabricSwitchProfileTemplateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4963,19 +4968,19 @@ export interface DataIntersightFabricSwitchProfileTemplateTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4988,7 +4993,7 @@ export interface DataIntersightFabricSwitchProfileTemplateTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5220,7 +5225,7 @@ export class DataIntersightFabricSwitchProfileTemplateTagsAncestorDefinitionsLis
 }
 export interface DataIntersightFabricSwitchProfileTemplateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5228,19 +5233,19 @@ export interface DataIntersightFabricSwitchProfileTemplateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5253,7 +5258,7 @@ export interface DataIntersightFabricSwitchProfileTemplateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5453,45 +5458,51 @@ export class DataIntersightFabricSwitchProfileTemplateTagsDefinitionOutputRefere
 }
 export interface DataIntersightFabricSwitchProfileTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#key DataIntersightFabricSwitchProfileTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#key DataIntersightFabricSwitchProfileTemplate#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#propagated DataIntersightFabricSwitchProfileTemplate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#propagated DataIntersightFabricSwitchProfileTemplate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#sys_tag DataIntersightFabricSwitchProfileTemplate#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#type DataIntersightFabricSwitchProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#type DataIntersightFabricSwitchProfileTemplate#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#value DataIntersightFabricSwitchProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#value DataIntersightFabricSwitchProfileTemplate#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#ancestor_definitions DataIntersightFabricSwitchProfileTemplate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#ancestor_definitions DataIntersightFabricSwitchProfileTemplate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricSwitchProfileTemplateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#definition DataIntersightFabricSwitchProfileTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#definition DataIntersightFabricSwitchProfileTemplate#definition}
   */
   readonly definition?: DataIntersightFabricSwitchProfileTemplateTagsDefinition;
 }
@@ -5505,6 +5516,7 @@ export function dataIntersightFabricSwitchProfileTemplateTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricSwitchProfileTemplateTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5533,6 +5545,12 @@ export function dataIntersightFabricSwitchProfileTemplateTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5599,6 +5617,10 @@ export class DataIntersightFabricSwitchProfileTemplateTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5625,6 +5647,7 @@ export class DataIntersightFabricSwitchProfileTemplateTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5640,6 +5663,7 @@ export class DataIntersightFabricSwitchProfileTemplateTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5693,6 +5717,22 @@ export class DataIntersightFabricSwitchProfileTemplateTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5781,7 +5821,7 @@ export class DataIntersightFabricSwitchProfileTemplateTagsList extends cdktf.Com
 }
 export interface DataIntersightFabricSwitchProfileTemplateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5789,19 +5829,19 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5814,7 +5854,7 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -6046,7 +6086,7 @@ export class DataIntersightFabricSwitchProfileTemplateVersionContextInterestedMo
 }
 export interface DataIntersightFabricSwitchProfileTemplateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6054,19 +6094,19 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#moid DataIntersightFabricSwitchProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6079,7 +6119,7 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#selector DataIntersightFabricSwitchProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -6279,7 +6319,7 @@ export class DataIntersightFabricSwitchProfileTemplateVersionContextRefMoOutputR
 }
 export interface DataIntersightFabricSwitchProfileTemplateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#additional_properties DataIntersightFabricSwitchProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6287,32 +6327,32 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#class_id DataIntersightFabricSwitchProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#marked_for_deletion DataIntersightFabricSwitchProfileTemplate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#marked_for_deletion DataIntersightFabricSwitchProfileTemplate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#nr_version DataIntersightFabricSwitchProfileTemplate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#nr_version DataIntersightFabricSwitchProfileTemplate#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#object_type DataIntersightFabricSwitchProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#timestamp DataIntersightFabricSwitchProfileTemplate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#timestamp DataIntersightFabricSwitchProfileTemplate#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6323,19 +6363,19 @@ export interface DataIntersightFabricSwitchProfileTemplateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#version_type DataIntersightFabricSwitchProfileTemplate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#version_type DataIntersightFabricSwitchProfileTemplate#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#interested_mos DataIntersightFabricSwitchProfileTemplate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#interested_mos DataIntersightFabricSwitchProfileTemplate#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricSwitchProfileTemplateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#ref_mo DataIntersightFabricSwitchProfileTemplate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#ref_mo DataIntersightFabricSwitchProfileTemplate#ref_mo}
   */
   readonly refMo?: DataIntersightFabricSwitchProfileTemplateVersionContextRefMo;
 }
@@ -6651,7 +6691,7 @@ export class DataIntersightFabricSwitchProfileTemplateVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template intersight_fabric_switch_profile_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template intersight_fabric_switch_profile_template}
 */
 export class DataIntersightFabricSwitchProfileTemplate extends cdktf.TerraformDataSource {
 
@@ -6667,7 +6707,7 @@ export class DataIntersightFabricSwitchProfileTemplate extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightFabricSwitchProfileTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricSwitchProfileTemplate to import
-  * @param importFromId The id of the existing DataIntersightFabricSwitchProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricSwitchProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricSwitchProfileTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6679,7 +6719,7 @@ export class DataIntersightFabricSwitchProfileTemplate extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_switch_profile_template intersight_fabric_switch_profile_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_switch_profile_template intersight_fabric_switch_profile_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6690,8 +6730,8 @@ export class DataIntersightFabricSwitchProfileTemplate extends cdktf.TerraformDa
       terraformResourceType: 'intersight_fabric_switch_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

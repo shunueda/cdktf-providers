@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_gpu_memory_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeGpuMemoryClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_gpu_memory_cluster#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryCluster#compute_gpu_memory_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_cluster#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryCluster#compute_gpu_memory_cluster_id}
   */
   readonly computeGpuMemoryClusterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_gpu_memory_cluster oci_core_compute_gpu_memory_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_cluster oci_core_compute_gpu_memory_cluster}
 */
 export class DataOciCoreComputeGpuMemoryCluster extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciCoreComputeGpuMemoryCluster extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciCoreComputeGpuMemoryCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeGpuMemoryCluster to import
-  * @param importFromId The id of the existing DataOciCoreComputeGpuMemoryCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_gpu_memory_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeGpuMemoryCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeGpuMemoryCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciCoreComputeGpuMemoryCluster extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_gpu_memory_cluster oci_core_compute_gpu_memory_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_gpu_memory_cluster oci_core_compute_gpu_memory_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciCoreComputeGpuMemoryCluster extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_core_compute_gpu_memory_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

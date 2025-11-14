@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixNdbSlaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla#sla_id DataNutanixNdbSla#sla_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla#sla_id DataNutanixNdbSla#sla_id}
   */
   readonly slaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla#sla_name DataNutanixNdbSla#sla_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla#sla_name DataNutanixNdbSla#sla_name}
   */
   readonly slaName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla nutanix_ndb_sla}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla nutanix_ndb_sla}
 */
 export class DataNutanixNdbSla extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataNutanixNdbSla extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixNdbSla resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixNdbSla to import
-  * @param importFromId The id of the existing DataNutanixNdbSla that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixNdbSla that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixNdbSla to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataNutanixNdbSla extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_sla nutanix_ndb_sla} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_sla nutanix_ndb_sla} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataNutanixNdbSla extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_ndb_sla',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

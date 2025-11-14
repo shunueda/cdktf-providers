@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ContainerengineClusterStartCredentialRotationManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#auto_completion_delay_duration ContainerengineClusterStartCredentialRotationManagement#auto_completion_delay_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#auto_completion_delay_duration ContainerengineClusterStartCredentialRotationManagement#auto_completion_delay_duration}
   */
   readonly autoCompletionDelayDuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#cluster_id ContainerengineClusterStartCredentialRotationManagement#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#cluster_id ContainerengineClusterStartCredentialRotationManagement#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#id ContainerengineClusterStartCredentialRotationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#id ContainerengineClusterStartCredentialRotationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,21 @@ export interface ContainerengineClusterStartCredentialRotationManagementConfig e
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#timeouts ContainerengineClusterStartCredentialRotationManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#timeouts ContainerengineClusterStartCredentialRotationManagement#timeouts}
   */
   readonly timeouts?: ContainerengineClusterStartCredentialRotationManagementTimeouts;
 }
 export interface ContainerengineClusterStartCredentialRotationManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class ContainerengineClusterStartCredentialRotationManagementTimeoutsOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management oci_containerengine_cluster_start_credential_rotation_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management oci_containerengine_cluster_start_credential_rotation_management}
 */
 export class ContainerengineClusterStartCredentialRotationManagement extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class ContainerengineClusterStartCredentialRotationManagement extends cdk
   * Generates CDKTF code for importing a ContainerengineClusterStartCredentialRotationManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerengineClusterStartCredentialRotationManagement to import
-  * @param importFromId The id of the existing ContainerengineClusterStartCredentialRotationManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerengineClusterStartCredentialRotationManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerengineClusterStartCredentialRotationManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class ContainerengineClusterStartCredentialRotationManagement extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_cluster_start_credential_rotation_management oci_containerengine_cluster_start_credential_rotation_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_cluster_start_credential_rotation_management oci_containerengine_cluster_start_credential_rotation_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class ContainerengineClusterStartCredentialRotationManagement extends cdk
       terraformResourceType: 'oci_containerengine_cluster_start_credential_rotation_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

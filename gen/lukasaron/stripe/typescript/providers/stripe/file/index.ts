@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FileConfig extends cdktf.TerraformMetaArguments {
   /**
   * A content file to upload encoded by base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#base64content File#base64content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#base64content File#base64content}
   */
   readonly base64Content: string;
   /**
   * The suitable name for saving the file to a filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#filename File#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#filename File#filename}
   */
   readonly filename: string;
   /**
   * The purpose of the uploaded file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#purpose File#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#purpose File#purpose}
   */
   readonly purpose: string;
   /**
   * link_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#link_data File#link_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#link_data File#link_data}
   */
   readonly linkData?: FileLinkData;
 }
@@ -147,19 +147,19 @@ export interface FileLinkData {
   /**
   * Set this to true to create a file link for the newly created file. Creating a link is only possible when the file’s purpose is one of the following: business_icon, business_logo, customer_signature, dispute_evidence, pci_document, tax_document_user_upload, or terminal_reader_splashscreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#create File#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#create File#create}
   */
   readonly create: boolean | cdktf.IResolvable;
   /**
   * The link isn’t available after this future timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#expires_at File#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#expires_at File#expires_at}
   */
   readonly expiresAt?: number;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#metadata File#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#metadata File#metadata}
   */
   readonly metadata?: { [key: string]: string };
 }
@@ -298,7 +298,7 @@ export class FileLinkDataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file stripe_file}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file stripe_file}
 */
 export class File extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class File extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a File resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the File to import
-  * @param importFromId The id of the existing File that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing File that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the File to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class File extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/file stripe_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/file stripe_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_file',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

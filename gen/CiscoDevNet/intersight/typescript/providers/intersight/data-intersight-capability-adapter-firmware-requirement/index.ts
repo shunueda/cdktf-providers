@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#account_moid DataIntersightCapabilityAdapterFirmwareRequirement#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#account_moid DataIntersightCapabilityAdapterFirmwareRequirement#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Series of adapter. Example - Cruz, Bodega.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#adapter_series DataIntersightCapabilityAdapterFirmwareRequirement#adapter_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#adapter_series DataIntersightCapabilityAdapterFirmwareRequirement#adapter_series}
   */
   readonly adapterSeries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,23 +28,23 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#create_time DataIntersightCapabilityAdapterFirmwareRequirement#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#create_time DataIntersightCapabilityAdapterFirmwareRequirement#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#domain_group_moid DataIntersightCapabilityAdapterFirmwareRequirement#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#domain_group_moid DataIntersightCapabilityAdapterFirmwareRequirement#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#id DataIntersightCapabilityAdapterFirmwareRequirement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#id DataIntersightCapabilityAdapterFirmwareRequirement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,95 +53,95 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementConfig extend
   /**
   * Do not update if the current version is reported as empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#ignore_empty_current_version DataIntersightCapabilityAdapterFirmwareRequirement#ignore_empty_current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#ignore_empty_current_version DataIntersightCapabilityAdapterFirmwareRequirement#ignore_empty_current_version}
   */
   readonly ignoreEmptyCurrentVersion?: boolean | cdktf.IResolvable;
   /**
   * The minimum adapter version that supports this adapter upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#minimum_adapter_version DataIntersightCapabilityAdapterFirmwareRequirement#minimum_adapter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#minimum_adapter_version DataIntersightCapabilityAdapterFirmwareRequirement#minimum_adapter_version}
   */
   readonly minimumAdapterVersion?: string;
   /**
   * The minimum BMC version that supports this adapter upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#minimum_bmc_version DataIntersightCapabilityAdapterFirmwareRequirement#minimum_bmc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#minimum_bmc_version DataIntersightCapabilityAdapterFirmwareRequirement#minimum_bmc_version}
   */
   readonly minimumBmcVersion?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#mod_time DataIntersightCapabilityAdapterFirmwareRequirement#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#mod_time DataIntersightCapabilityAdapterFirmwareRequirement#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#name DataIntersightCapabilityAdapterFirmwareRequirement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#name DataIntersightCapabilityAdapterFirmwareRequirement#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#owners DataIntersightCapabilityAdapterFirmwareRequirement#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#owners DataIntersightCapabilityAdapterFirmwareRequirement#owners}
   */
   readonly owners?: string[];
   /**
   * The recommended BMC version that supports this adapter upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#recommended_bmc_version DataIntersightCapabilityAdapterFirmwareRequirement#recommended_bmc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#recommended_bmc_version DataIntersightCapabilityAdapterFirmwareRequirement#recommended_bmc_version}
   */
   readonly recommendedBmcVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#shared_scope DataIntersightCapabilityAdapterFirmwareRequirement#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#shared_scope DataIntersightCapabilityAdapterFirmwareRequirement#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#supported_models DataIntersightCapabilityAdapterFirmwareRequirement#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#supported_models DataIntersightCapabilityAdapterFirmwareRequirement#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#ancestors DataIntersightCapabilityAdapterFirmwareRequirement#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#ancestors DataIntersightCapabilityAdapterFirmwareRequirement#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityAdapterFirmwareRequirementAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#parent DataIntersightCapabilityAdapterFirmwareRequirement#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#parent DataIntersightCapabilityAdapterFirmwareRequirement#parent}
   */
   readonly parent?: DataIntersightCapabilityAdapterFirmwareRequirementParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#permission_resources DataIntersightCapabilityAdapterFirmwareRequirement#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#permission_resources DataIntersightCapabilityAdapterFirmwareRequirement#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityAdapterFirmwareRequirementPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#tags DataIntersightCapabilityAdapterFirmwareRequirement#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#tags DataIntersightCapabilityAdapterFirmwareRequirement#tags}
   */
   readonly tags?: DataIntersightCapabilityAdapterFirmwareRequirementTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#version_context DataIntersightCapabilityAdapterFirmwareRequirement#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#version_context DataIntersightCapabilityAdapterFirmwareRequirement#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityAdapterFirmwareRequirementVersionContext;
 }
@@ -698,6 +698,11 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementResultsTagsOutput
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1221,7 +1226,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementResultsList exten
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1229,19 +1234,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1254,7 +1259,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -1486,7 +1491,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementAncestorsList ext
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1494,19 +1499,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1519,7 +1524,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -1719,7 +1724,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementParentOutputRefer
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1727,19 +1732,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1752,7 +1757,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -1984,7 +1989,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementPermissionResourc
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1992,19 +1997,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2017,7 +2022,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -2249,7 +2254,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorDefin
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2257,19 +2262,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2282,7 +2287,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -2482,45 +2487,51 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsDefinitionOut
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#key DataIntersightCapabilityAdapterFirmwareRequirement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#key DataIntersightCapabilityAdapterFirmwareRequirement#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#propagated DataIntersightCapabilityAdapterFirmwareRequirement#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#propagated DataIntersightCapabilityAdapterFirmwareRequirement#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#sys_tag DataIntersightCapabilityAdapterFirmwareRequirement#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#type DataIntersightCapabilityAdapterFirmwareRequirement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#type DataIntersightCapabilityAdapterFirmwareRequirement#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#value DataIntersightCapabilityAdapterFirmwareRequirement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#value DataIntersightCapabilityAdapterFirmwareRequirement#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#ancestor_definitions DataIntersightCapabilityAdapterFirmwareRequirement#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#ancestor_definitions DataIntersightCapabilityAdapterFirmwareRequirement#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#definition DataIntersightCapabilityAdapterFirmwareRequirement#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#definition DataIntersightCapabilityAdapterFirmwareRequirement#definition}
   */
   readonly definition?: DataIntersightCapabilityAdapterFirmwareRequirementTagsDefinition;
 }
@@ -2534,6 +2545,7 @@ export function dataIntersightCapabilityAdapterFirmwareRequirementTagsToTerrafor
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityAdapterFirmwareRequirementTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2562,6 +2574,12 @@ export function dataIntersightCapabilityAdapterFirmwareRequirementTagsToHclTerra
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2628,6 +2646,10 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsOutputReferen
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2654,6 +2676,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsOutputReferen
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2669,6 +2692,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsOutputReferen
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2722,6 +2746,22 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsOutputReferen
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2810,7 +2850,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementTagsList extends 
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2818,19 +2858,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2843,7 +2883,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -3075,7 +3115,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementVersionContextInt
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3083,19 +3123,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#moid DataIntersightCapabilityAdapterFirmwareRequirement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3108,7 +3148,7 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#selector DataIntersightCapabilityAdapterFirmwareRequirement#selector}
   */
   readonly selector?: string;
 }
@@ -3308,7 +3348,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementVersionContextRef
 }
 export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#additional_properties DataIntersightCapabilityAdapterFirmwareRequirement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3316,32 +3356,32 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#class_id DataIntersightCapabilityAdapterFirmwareRequirement#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#marked_for_deletion DataIntersightCapabilityAdapterFirmwareRequirement#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#marked_for_deletion DataIntersightCapabilityAdapterFirmwareRequirement#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#nr_version DataIntersightCapabilityAdapterFirmwareRequirement#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#nr_version DataIntersightCapabilityAdapterFirmwareRequirement#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#object_type DataIntersightCapabilityAdapterFirmwareRequirement#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#timestamp DataIntersightCapabilityAdapterFirmwareRequirement#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#timestamp DataIntersightCapabilityAdapterFirmwareRequirement#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3352,19 +3392,19 @@ export interface DataIntersightCapabilityAdapterFirmwareRequirementVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#version_type DataIntersightCapabilityAdapterFirmwareRequirement#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#version_type DataIntersightCapabilityAdapterFirmwareRequirement#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#interested_mos DataIntersightCapabilityAdapterFirmwareRequirement#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#interested_mos DataIntersightCapabilityAdapterFirmwareRequirement#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityAdapterFirmwareRequirementVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#ref_mo DataIntersightCapabilityAdapterFirmwareRequirement#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#ref_mo DataIntersightCapabilityAdapterFirmwareRequirement#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityAdapterFirmwareRequirementVersionContextRefMo;
 }
@@ -3680,7 +3720,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirementVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement intersight_capability_adapter_firmware_requirement}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement intersight_capability_adapter_firmware_requirement}
 */
 export class DataIntersightCapabilityAdapterFirmwareRequirement extends cdktf.TerraformDataSource {
 
@@ -3696,7 +3736,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirement extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightCapabilityAdapterFirmwareRequirement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityAdapterFirmwareRequirement to import
-  * @param importFromId The id of the existing DataIntersightCapabilityAdapterFirmwareRequirement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityAdapterFirmwareRequirement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityAdapterFirmwareRequirement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3708,7 +3748,7 @@ export class DataIntersightCapabilityAdapterFirmwareRequirement extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_firmware_requirement intersight_capability_adapter_firmware_requirement} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_firmware_requirement intersight_capability_adapter_firmware_requirement} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3719,8 +3759,8 @@ export class DataIntersightCapabilityAdapterFirmwareRequirement extends cdktf.Te
       terraformResourceType: 'intersight_capability_adapter_firmware_requirement',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

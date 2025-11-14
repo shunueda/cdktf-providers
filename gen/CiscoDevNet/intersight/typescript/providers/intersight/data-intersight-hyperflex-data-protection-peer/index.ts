@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexDataProtectionPeerConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#account_moid DataIntersightHyperflexDataProtectionPeer#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#account_moid DataIntersightHyperflexDataProtectionPeer#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexDataProtectionPeerConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#create_time DataIntersightHyperflexDataProtectionPeer#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#create_time DataIntersightHyperflexDataProtectionPeer#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#domain_group_moid DataIntersightHyperflexDataProtectionPeer#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#domain_group_moid DataIntersightHyperflexDataProtectionPeer#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightHyperflexDataProtectionPeerConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#mod_time DataIntersightHyperflexDataProtectionPeer#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#mod_time DataIntersightHyperflexDataProtectionPeer#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#owners DataIntersightHyperflexDataProtectionPeer#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#owners DataIntersightHyperflexDataProtectionPeer#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#shared_scope DataIntersightHyperflexDataProtectionPeer#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#shared_scope DataIntersightHyperflexDataProtectionPeer#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#ancestors DataIntersightHyperflexDataProtectionPeer#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#ancestors DataIntersightHyperflexDataProtectionPeer#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexDataProtectionPeerAncestors[] | cdktf.IResolvable;
   /**
   * er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#er DataIntersightHyperflexDataProtectionPeer#er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#er DataIntersightHyperflexDataProtectionPeer#er}
   */
   readonly er?: DataIntersightHyperflexDataProtectionPeerEr;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#parent DataIntersightHyperflexDataProtectionPeer#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#parent DataIntersightHyperflexDataProtectionPeer#parent}
   */
   readonly parent?: DataIntersightHyperflexDataProtectionPeerParent;
   /**
   * peer_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#peer_info DataIntersightHyperflexDataProtectionPeer#peer_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#peer_info DataIntersightHyperflexDataProtectionPeer#peer_info}
   */
   readonly peerInfo?: DataIntersightHyperflexDataProtectionPeerPeerInfo;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#permission_resources DataIntersightHyperflexDataProtectionPeer#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#permission_resources DataIntersightHyperflexDataProtectionPeer#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexDataProtectionPeerPermissionResources[] | cdktf.IResolvable;
   /**
   * src_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#src_cluster DataIntersightHyperflexDataProtectionPeer#src_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#src_cluster DataIntersightHyperflexDataProtectionPeer#src_cluster}
   */
   readonly srcCluster?: DataIntersightHyperflexDataProtectionPeerSrcCluster;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#tags DataIntersightHyperflexDataProtectionPeer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#tags DataIntersightHyperflexDataProtectionPeer#tags}
   */
   readonly tags?: DataIntersightHyperflexDataProtectionPeerTags[] | cdktf.IResolvable;
   /**
   * tgt_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#tgt_cluster DataIntersightHyperflexDataProtectionPeer#tgt_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#tgt_cluster DataIntersightHyperflexDataProtectionPeer#tgt_cluster}
   */
   readonly tgtCluster?: DataIntersightHyperflexDataProtectionPeerTgtCluster;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#version_context DataIntersightHyperflexDataProtectionPeer#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#version_context DataIntersightHyperflexDataProtectionPeer#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexDataProtectionPeerVersionContext;
 }
@@ -2294,6 +2294,11 @@ export class DataIntersightHyperflexDataProtectionPeerResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2901,7 +2906,7 @@ export class DataIntersightHyperflexDataProtectionPeerResultsList extends cdktf.
 }
 export interface DataIntersightHyperflexDataProtectionPeerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2909,19 +2914,19 @@ export interface DataIntersightHyperflexDataProtectionPeerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2934,7 +2939,7 @@ export interface DataIntersightHyperflexDataProtectionPeerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -3166,7 +3171,7 @@ export class DataIntersightHyperflexDataProtectionPeerAncestorsList extends cdkt
 }
 export interface DataIntersightHyperflexDataProtectionPeerEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3174,19 +3179,19 @@ export interface DataIntersightHyperflexDataProtectionPeerEr {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3200,20 +3205,20 @@ export interface DataIntersightHyperflexDataProtectionPeerEr {
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3248,7 +3253,7 @@ export interface DataIntersightHyperflexDataProtectionPeerEr {
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -3535,7 +3540,7 @@ export class DataIntersightHyperflexDataProtectionPeerErOutputReference extends 
 }
 export interface DataIntersightHyperflexDataProtectionPeerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3543,19 +3548,19 @@ export interface DataIntersightHyperflexDataProtectionPeerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3568,7 +3573,7 @@ export interface DataIntersightHyperflexDataProtectionPeerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -3768,7 +3773,7 @@ export class DataIntersightHyperflexDataProtectionPeerParentOutputReference exte
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsClusterEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3776,19 +3781,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsC
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3802,20 +3807,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsC
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3850,7 +3855,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsC
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -4137,7 +4142,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsClust
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsDatastoreEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4145,19 +4150,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4171,20 +4176,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsD
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4219,7 +4224,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsD
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -4506,7 +4511,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsDatas
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4514,26 +4519,26 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAds 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * cluster_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
   */
   readonly clusterEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsClusterEr;
   /**
   * datastore_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
   */
   readonly datastoreEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsDatastoreEr;
 }
@@ -4733,7 +4738,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAdsOutpu
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsClusterEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4741,19 +4746,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsC
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4767,20 +4772,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsC
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4815,7 +4820,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsC
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -5102,7 +5107,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsClust
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsDatastoreEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5110,19 +5115,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5136,20 +5141,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsD
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5184,7 +5189,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsD
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -5471,7 +5476,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsDatas
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5479,26 +5484,26 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBds 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * cluster_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
   */
   readonly clusterEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsClusterEr;
   /**
   * datastore_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
   */
   readonly datastoreEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsDatastoreEr;
 }
@@ -5698,7 +5703,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBdsOutpu
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourcedsClusterEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5706,19 +5711,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5732,20 +5737,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5780,7 +5785,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -6067,7 +6072,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourceds
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourcedsDatastoreEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6075,19 +6080,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6101,20 +6106,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6149,7 +6154,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -6436,7 +6441,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourceds
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourceds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6444,26 +6449,26 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * cluster_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#cluster_er DataIntersightHyperflexDataProtectionPeer#cluster_er}
   */
   readonly clusterEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourcedsClusterEr;
   /**
   * datastore_er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#datastore_er DataIntersightHyperflexDataProtectionPeer#datastore_er}
   */
   readonly datastoreEr?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourcedsDatastoreEr;
 }
@@ -6663,13 +6668,13 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourceds
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastores {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Boolean representing if this is a backup only pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#backup_only DataIntersightHyperflexDataProtectionPeer#backup_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#backup_only DataIntersightHyperflexDataProtectionPeer#backup_only}
   */
   readonly backupOnly?: boolean | cdktf.IResolvable;
   /**
@@ -6677,50 +6682,50 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoDatastores {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * Boolean representing if this datastore pairing has quiesce snapshots enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#quiesce DataIntersightHyperflexDataProtectionPeer#quiesce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#quiesce DataIntersightHyperflexDataProtectionPeer#quiesce}
   */
   readonly quiesce?: boolean | cdktf.IResolvable;
   /**
   * The replication interval for this pair in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#replication_interval_in_minutes DataIntersightHyperflexDataProtectionPeer#replication_interval_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#replication_interval_in_minutes DataIntersightHyperflexDataProtectionPeer#replication_interval_in_minutes}
   */
   readonly replicationIntervalInMinutes?: number;
   /**
   * HyperFlex datastore pair is used for storage only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#storage_only DataIntersightHyperflexDataProtectionPeer#storage_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#storage_only DataIntersightHyperflexDataProtectionPeer#storage_only}
   */
   readonly storageOnly?: boolean | cdktf.IResolvable;
   /**
   * ads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#ads DataIntersightHyperflexDataProtectionPeer#ads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#ads DataIntersightHyperflexDataProtectionPeer#ads}
   */
   readonly ads?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresAds;
   /**
   * bds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#bds DataIntersightHyperflexDataProtectionPeer#bds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#bds DataIntersightHyperflexDataProtectionPeer#bds}
   */
   readonly bds?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresBds;
   /**
   * sourceds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#sourceds DataIntersightHyperflexDataProtectionPeer#sourceds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#sourceds DataIntersightHyperflexDataProtectionPeer#sourceds}
   */
   readonly sourceds?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresSourceds;
 }
@@ -7097,7 +7102,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoDatastoresList ext
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoEr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7105,19 +7110,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoEr {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#confignum DataIntersightHyperflexDataProtectionPeer#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#id DataIntersightHyperflexDataProtectionPeer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7131,20 +7136,20 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoEr {
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#idtype DataIntersightHyperflexDataProtectionPeer#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#name DataIntersightHyperflexDataProtectionPeer#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7179,7 +7184,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoEr {
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
 }
@@ -7466,7 +7471,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoErOutputReference 
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfoPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7474,26 +7479,26 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfoPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Integer describing port type to port number map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#i16 DataIntersightHyperflexDataProtectionPeer#i16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#i16 DataIntersightHyperflexDataProtectionPeer#i16}
   */
   readonly i16?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * String describing port type to port number map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#string DataIntersightHyperflexDataProtectionPeer#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#string DataIntersightHyperflexDataProtectionPeer#string}
   */
   readonly string?: string;
 }
@@ -7725,7 +7730,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoPortsList extends 
 }
 export interface DataIntersightHyperflexDataProtectionPeerPeerInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7733,62 +7738,62 @@ export interface DataIntersightHyperflexDataProtectionPeerPeerInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * Data Cluster IP for the replication peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#dcip DataIntersightHyperflexDataProtectionPeer#dcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#dcip DataIntersightHyperflexDataProtectionPeer#dcip}
   */
   readonly dcip?: string;
   /**
   * Management Cluster IP for the replication peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#mcip DataIntersightHyperflexDataProtectionPeer#mcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#mcip DataIntersightHyperflexDataProtectionPeer#mcip}
   */
   readonly mcip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * Replication Cluster IP for the replication peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#repl_cip DataIntersightHyperflexDataProtectionPeer#repl_cip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#repl_cip DataIntersightHyperflexDataProtectionPeer#repl_cip}
   */
   readonly replCip?: string;
   /**
   * Peer Cluster Status for the replication peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#status DataIntersightHyperflexDataProtectionPeer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#status DataIntersightHyperflexDataProtectionPeer#status}
   */
   readonly status?: string;
   /**
   * Peer Cluster Status Details for the replication peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#status_details DataIntersightHyperflexDataProtectionPeer#status_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#status_details DataIntersightHyperflexDataProtectionPeer#status_details}
   */
   readonly statusDetails?: string;
   /**
   * datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#datastores DataIntersightHyperflexDataProtectionPeer#datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#datastores DataIntersightHyperflexDataProtectionPeer#datastores}
   */
   readonly datastores?: DataIntersightHyperflexDataProtectionPeerPeerInfoDatastores[] | cdktf.IResolvable;
   /**
   * er block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#er DataIntersightHyperflexDataProtectionPeer#er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#er DataIntersightHyperflexDataProtectionPeer#er}
   */
   readonly er?: DataIntersightHyperflexDataProtectionPeerPeerInfoEr;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#ports DataIntersightHyperflexDataProtectionPeer#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#ports DataIntersightHyperflexDataProtectionPeer#ports}
   */
   readonly ports?: DataIntersightHyperflexDataProtectionPeerPeerInfoPorts[] | cdktf.IResolvable;
 }
@@ -8162,7 +8167,7 @@ export class DataIntersightHyperflexDataProtectionPeerPeerInfoOutputReference ex
 }
 export interface DataIntersightHyperflexDataProtectionPeerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8170,19 +8175,19 @@ export interface DataIntersightHyperflexDataProtectionPeerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8195,7 +8200,7 @@ export interface DataIntersightHyperflexDataProtectionPeerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -8427,7 +8432,7 @@ export class DataIntersightHyperflexDataProtectionPeerPermissionResourcesList ex
 }
 export interface DataIntersightHyperflexDataProtectionPeerSrcCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8435,19 +8440,19 @@ export interface DataIntersightHyperflexDataProtectionPeerSrcCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8460,7 +8465,7 @@ export interface DataIntersightHyperflexDataProtectionPeerSrcCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -8660,7 +8665,7 @@ export class DataIntersightHyperflexDataProtectionPeerSrcClusterOutputReference 
 }
 export interface DataIntersightHyperflexDataProtectionPeerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8668,19 +8673,19 @@ export interface DataIntersightHyperflexDataProtectionPeerTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8693,7 +8698,7 @@ export interface DataIntersightHyperflexDataProtectionPeerTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -8925,7 +8930,7 @@ export class DataIntersightHyperflexDataProtectionPeerTagsAncestorDefinitionsLis
 }
 export interface DataIntersightHyperflexDataProtectionPeerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8933,19 +8938,19 @@ export interface DataIntersightHyperflexDataProtectionPeerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8958,7 +8963,7 @@ export interface DataIntersightHyperflexDataProtectionPeerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -9158,45 +9163,51 @@ export class DataIntersightHyperflexDataProtectionPeerTagsDefinitionOutputRefere
 }
 export interface DataIntersightHyperflexDataProtectionPeerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#key DataIntersightHyperflexDataProtectionPeer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#key DataIntersightHyperflexDataProtectionPeer#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#propagated DataIntersightHyperflexDataProtectionPeer#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#propagated DataIntersightHyperflexDataProtectionPeer#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#sys_tag DataIntersightHyperflexDataProtectionPeer#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#type DataIntersightHyperflexDataProtectionPeer#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#value DataIntersightHyperflexDataProtectionPeer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#value DataIntersightHyperflexDataProtectionPeer#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#ancestor_definitions DataIntersightHyperflexDataProtectionPeer#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#ancestor_definitions DataIntersightHyperflexDataProtectionPeer#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexDataProtectionPeerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#definition DataIntersightHyperflexDataProtectionPeer#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#definition DataIntersightHyperflexDataProtectionPeer#definition}
   */
   readonly definition?: DataIntersightHyperflexDataProtectionPeerTagsDefinition;
 }
@@ -9210,6 +9221,7 @@ export function dataIntersightHyperflexDataProtectionPeerTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexDataProtectionPeerTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -9238,6 +9250,12 @@ export function dataIntersightHyperflexDataProtectionPeerTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -9304,6 +9322,10 @@ export class DataIntersightHyperflexDataProtectionPeerTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -9330,6 +9352,7 @@ export class DataIntersightHyperflexDataProtectionPeerTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -9345,6 +9368,7 @@ export class DataIntersightHyperflexDataProtectionPeerTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -9398,6 +9422,22 @@ export class DataIntersightHyperflexDataProtectionPeerTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -9486,7 +9526,7 @@ export class DataIntersightHyperflexDataProtectionPeerTagsList extends cdktf.Com
 }
 export interface DataIntersightHyperflexDataProtectionPeerTgtCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9494,19 +9534,19 @@ export interface DataIntersightHyperflexDataProtectionPeerTgtCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9519,7 +9559,7 @@ export interface DataIntersightHyperflexDataProtectionPeerTgtCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -9719,7 +9759,7 @@ export class DataIntersightHyperflexDataProtectionPeerTgtClusterOutputReference 
 }
 export interface DataIntersightHyperflexDataProtectionPeerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9727,19 +9767,19 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9752,7 +9792,7 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -9984,7 +10024,7 @@ export class DataIntersightHyperflexDataProtectionPeerVersionContextInterestedMo
 }
 export interface DataIntersightHyperflexDataProtectionPeerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9992,19 +10032,19 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#moid DataIntersightHyperflexDataProtectionPeer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10017,7 +10057,7 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#selector DataIntersightHyperflexDataProtectionPeer#selector}
   */
   readonly selector?: string;
 }
@@ -10217,7 +10257,7 @@ export class DataIntersightHyperflexDataProtectionPeerVersionContextRefMoOutputR
 }
 export interface DataIntersightHyperflexDataProtectionPeerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#additional_properties DataIntersightHyperflexDataProtectionPeer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10225,32 +10265,32 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#class_id DataIntersightHyperflexDataProtectionPeer#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#marked_for_deletion DataIntersightHyperflexDataProtectionPeer#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#marked_for_deletion DataIntersightHyperflexDataProtectionPeer#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#nr_version DataIntersightHyperflexDataProtectionPeer#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#nr_version DataIntersightHyperflexDataProtectionPeer#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#object_type DataIntersightHyperflexDataProtectionPeer#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#timestamp DataIntersightHyperflexDataProtectionPeer#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#timestamp DataIntersightHyperflexDataProtectionPeer#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -10261,19 +10301,19 @@ export interface DataIntersightHyperflexDataProtectionPeerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#version_type DataIntersightHyperflexDataProtectionPeer#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#version_type DataIntersightHyperflexDataProtectionPeer#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#interested_mos DataIntersightHyperflexDataProtectionPeer#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#interested_mos DataIntersightHyperflexDataProtectionPeer#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexDataProtectionPeerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#ref_mo DataIntersightHyperflexDataProtectionPeer#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#ref_mo DataIntersightHyperflexDataProtectionPeer#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexDataProtectionPeerVersionContextRefMo;
 }
@@ -10589,7 +10629,7 @@ export class DataIntersightHyperflexDataProtectionPeerVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer intersight_hyperflex_data_protection_peer}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer intersight_hyperflex_data_protection_peer}
 */
 export class DataIntersightHyperflexDataProtectionPeer extends cdktf.TerraformDataSource {
 
@@ -10605,7 +10645,7 @@ export class DataIntersightHyperflexDataProtectionPeer extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightHyperflexDataProtectionPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexDataProtectionPeer to import
-  * @param importFromId The id of the existing DataIntersightHyperflexDataProtectionPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexDataProtectionPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexDataProtectionPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10617,7 +10657,7 @@ export class DataIntersightHyperflexDataProtectionPeer extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_data_protection_peer intersight_hyperflex_data_protection_peer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_data_protection_peer intersight_hyperflex_data_protection_peer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10628,8 +10668,8 @@ export class DataIntersightHyperflexDataProtectionPeer extends cdktf.TerraformDa
       terraformResourceType: 'intersight_hyperflex_data_protection_peer',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

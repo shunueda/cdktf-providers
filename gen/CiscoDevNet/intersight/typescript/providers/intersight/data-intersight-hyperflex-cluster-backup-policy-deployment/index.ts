@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentConfig exte
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#account_moid DataIntersightHyperflexClusterBackupPolicyDeployment#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#account_moid DataIntersightHyperflexClusterBackupPolicyDeployment#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Backup data store name used during the auto creation of the datastore. All VMs created in this data store will be automatically backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_name DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_name DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_name}
   */
   readonly backupDataStoreName?: string;
   /**
   * Replication data store size in backupDataStoreSizeUnit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_size DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_size DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_size}
   */
   readonly backupDataStoreSize?: number;
   /**
   * Replication data store size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_size_unit DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_data_store_size_unit DataIntersightHyperflexClusterBackupPolicyDeployment#backup_data_store_size_unit}
   */
   readonly backupDataStoreSizeUnit?: string;
   /**
@@ -40,41 +40,41 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentConfig exte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#create_time DataIntersightHyperflexClusterBackupPolicyDeployment#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#create_time DataIntersightHyperflexClusterBackupPolicyDeployment#create_time}
   */
   readonly createTime?: string;
   /**
   * Whether the datastore is encrypted or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#data_store_encryption_enabled DataIntersightHyperflexClusterBackupPolicyDeployment#data_store_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#data_store_encryption_enabled DataIntersightHyperflexClusterBackupPolicyDeployment#data_store_encryption_enabled}
   */
   readonly dataStoreEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Description from corresponding ClusterBackupPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#description DataIntersightHyperflexClusterBackupPolicyDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#description DataIntersightHyperflexClusterBackupPolicyDeployment#description}
   */
   readonly description?: string;
   /**
   * True if record created by discovery on HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#discovered DataIntersightHyperflexClusterBackupPolicyDeployment#discovered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#discovered DataIntersightHyperflexClusterBackupPolicyDeployment#discovered}
   */
   readonly discovered?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#domain_group_moid DataIntersightHyperflexClusterBackupPolicyDeployment#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#domain_group_moid DataIntersightHyperflexClusterBackupPolicyDeployment#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#id DataIntersightHyperflexClusterBackupPolicyDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#id DataIntersightHyperflexClusterBackupPolicyDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,157 +83,157 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentConfig exte
   /**
   * Number of snapshots that will be retained as part of the Multi Point in Time support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#local_snapshot_retention_count DataIntersightHyperflexClusterBackupPolicyDeployment#local_snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#local_snapshot_retention_count DataIntersightHyperflexClusterBackupPolicyDeployment#local_snapshot_retention_count}
   */
   readonly localSnapshotRetentionCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#mod_time DataIntersightHyperflexClusterBackupPolicyDeployment#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#mod_time DataIntersightHyperflexClusterBackupPolicyDeployment#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * Name from corresponding ClusterBackupPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#name DataIntersightHyperflexClusterBackupPolicyDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#name DataIntersightHyperflexClusterBackupPolicyDeployment#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#owners DataIntersightHyperflexClusterBackupPolicyDeployment#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#owners DataIntersightHyperflexClusterBackupPolicyDeployment#owners}
   */
   readonly owners?: string[];
   /**
   * Deployed cluster policy moid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#policy_moid DataIntersightHyperflexClusterBackupPolicyDeployment#policy_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#policy_moid DataIntersightHyperflexClusterBackupPolicyDeployment#policy_moid}
   */
   readonly policyMoid?: string;
   /**
   * Deployed cluster profile moid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#profile_moid DataIntersightHyperflexClusterBackupPolicyDeployment#profile_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#profile_moid DataIntersightHyperflexClusterBackupPolicyDeployment#profile_moid}
   */
   readonly profileMoid?: string;
   /**
   * Replication cluster pairing name prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#replication_pair_name_prefix DataIntersightHyperflexClusterBackupPolicyDeployment#replication_pair_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#replication_pair_name_prefix DataIntersightHyperflexClusterBackupPolicyDeployment#replication_pair_name_prefix}
   */
   readonly replicationPairNamePrefix?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#shared_scope DataIntersightHyperflexClusterBackupPolicyDeployment#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#shared_scope DataIntersightHyperflexClusterBackupPolicyDeployment#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Number of snapshots that will be retained as part of the Multi Point in Time support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#snapshot_retention_count DataIntersightHyperflexClusterBackupPolicyDeployment#snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#snapshot_retention_count DataIntersightHyperflexClusterBackupPolicyDeployment#snapshot_retention_count}
   */
   readonly snapshotRetentionCount?: number;
   /**
   * True if policy was detached from source Hyperflex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_detached DataIntersightHyperflexClusterBackupPolicyDeployment#source_detached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_detached DataIntersightHyperflexClusterBackupPolicyDeployment#source_detached}
   */
   readonly sourceDetached?: boolean | cdktf.IResolvable;
   /**
   * Unique source cluster request ID allowing retry of the same logical request following a transient communication failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_request_id DataIntersightHyperflexClusterBackupPolicyDeployment#source_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_request_id DataIntersightHyperflexClusterBackupPolicyDeployment#source_request_id}
   */
   readonly sourceRequestId?: string;
   /**
   * Uuid of the source Hyperflex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_uuid DataIntersightHyperflexClusterBackupPolicyDeployment#source_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_uuid DataIntersightHyperflexClusterBackupPolicyDeployment#source_uuid}
   */
   readonly sourceUuid?: string;
   /**
   * True if policy was detached from target Hyperflex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_detached DataIntersightHyperflexClusterBackupPolicyDeployment#target_detached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_detached DataIntersightHyperflexClusterBackupPolicyDeployment#target_detached}
   */
   readonly targetDetached?: boolean | cdktf.IResolvable;
   /**
   * Unique target cluster request ID allowing retry of the same logical request following a transient communication failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_request_id DataIntersightHyperflexClusterBackupPolicyDeployment#target_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_request_id DataIntersightHyperflexClusterBackupPolicyDeployment#target_request_id}
   */
   readonly targetRequestId?: string;
   /**
   * Uuid of the target Hyperflex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_uuid DataIntersightHyperflexClusterBackupPolicyDeployment#target_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#target_uuid DataIntersightHyperflexClusterBackupPolicyDeployment#target_uuid}
   */
   readonly targetUuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ancestors DataIntersightHyperflexClusterBackupPolicyDeployment#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ancestors DataIntersightHyperflexClusterBackupPolicyDeployment#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexClusterBackupPolicyDeploymentAncestors[] | cdktf.IResolvable;
   /**
   * backup_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_target DataIntersightHyperflexClusterBackupPolicyDeployment#backup_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_target DataIntersightHyperflexClusterBackupPolicyDeployment#backup_target}
   */
   readonly backupTarget?: DataIntersightHyperflexClusterBackupPolicyDeploymentBackupTarget;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#organization DataIntersightHyperflexClusterBackupPolicyDeployment#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#organization DataIntersightHyperflexClusterBackupPolicyDeployment#organization}
   */
   readonly organization?: DataIntersightHyperflexClusterBackupPolicyDeploymentOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#parent DataIntersightHyperflexClusterBackupPolicyDeployment#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#parent DataIntersightHyperflexClusterBackupPolicyDeployment#parent}
   */
   readonly parent?: DataIntersightHyperflexClusterBackupPolicyDeploymentParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#permission_resources DataIntersightHyperflexClusterBackupPolicyDeployment#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#permission_resources DataIntersightHyperflexClusterBackupPolicyDeployment#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexClusterBackupPolicyDeploymentPermissionResources[] | cdktf.IResolvable;
   /**
   * replication_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#replication_schedule DataIntersightHyperflexClusterBackupPolicyDeployment#replication_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#replication_schedule DataIntersightHyperflexClusterBackupPolicyDeployment#replication_schedule}
   */
   readonly replicationSchedule?: DataIntersightHyperflexClusterBackupPolicyDeploymentReplicationSchedule;
   /**
   * source_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_cluster DataIntersightHyperflexClusterBackupPolicyDeployment#source_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#source_cluster DataIntersightHyperflexClusterBackupPolicyDeployment#source_cluster}
   */
   readonly sourceCluster?: DataIntersightHyperflexClusterBackupPolicyDeploymentSourceCluster;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#tags DataIntersightHyperflexClusterBackupPolicyDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#tags DataIntersightHyperflexClusterBackupPolicyDeployment#tags}
   */
   readonly tags?: DataIntersightHyperflexClusterBackupPolicyDeploymentTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#version_context DataIntersightHyperflexClusterBackupPolicyDeployment#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#version_context DataIntersightHyperflexClusterBackupPolicyDeployment#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContext;
 }
@@ -1165,6 +1165,11 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentResultsTagsOutp
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1767,7 +1772,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentResultsList ext
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1775,19 +1780,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1800,7 +1805,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2032,7 +2037,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentAncestorsList e
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentBackupTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2040,19 +2045,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentBackupTarge
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2065,7 +2070,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentBackupTarge
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2265,7 +2270,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentBackupTargetOut
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2273,19 +2278,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentOrganizatio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2298,7 +2303,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentOrganizatio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2498,7 +2503,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentOrganizationOut
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2506,19 +2511,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2531,7 +2536,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2731,7 +2736,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentParentOutputRef
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2739,19 +2744,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentPermissionR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2764,7 +2769,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentPermissionR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2996,13 +3001,13 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentPermissionResou
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentReplicationSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Time interval between two copies in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_interval DataIntersightHyperflexClusterBackupPolicyDeployment#backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#backup_interval DataIntersightHyperflexClusterBackupPolicyDeployment#backup_interval}
   */
   readonly backupInterval?: number;
   /**
@@ -3010,14 +3015,14 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentReplication
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
 }
@@ -3188,7 +3193,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentReplicationSche
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentSourceCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3196,19 +3201,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentSourceClust
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3221,7 +3226,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentSourceClust
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3421,7 +3426,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentSourceClusterOu
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3429,19 +3434,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncesto
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3454,7 +3459,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncesto
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3686,7 +3691,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncestorDef
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3694,19 +3699,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3719,7 +3724,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTagsDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3919,45 +3924,51 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsDefinitionO
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#key DataIntersightHyperflexClusterBackupPolicyDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#key DataIntersightHyperflexClusterBackupPolicyDeployment#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#propagated DataIntersightHyperflexClusterBackupPolicyDeployment#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#propagated DataIntersightHyperflexClusterBackupPolicyDeployment#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#sys_tag DataIntersightHyperflexClusterBackupPolicyDeployment#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#type DataIntersightHyperflexClusterBackupPolicyDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#type DataIntersightHyperflexClusterBackupPolicyDeployment#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#value DataIntersightHyperflexClusterBackupPolicyDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#value DataIntersightHyperflexClusterBackupPolicyDeployment#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ancestor_definitions DataIntersightHyperflexClusterBackupPolicyDeployment#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ancestor_definitions DataIntersightHyperflexClusterBackupPolicyDeployment#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#definition DataIntersightHyperflexClusterBackupPolicyDeployment#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#definition DataIntersightHyperflexClusterBackupPolicyDeployment#definition}
   */
   readonly definition?: DataIntersightHyperflexClusterBackupPolicyDeploymentTagsDefinition;
 }
@@ -3971,6 +3982,7 @@ export function dataIntersightHyperflexClusterBackupPolicyDeploymentTagsToTerraf
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexClusterBackupPolicyDeploymentTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3999,6 +4011,12 @@ export function dataIntersightHyperflexClusterBackupPolicyDeploymentTagsToHclTer
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4065,6 +4083,10 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsOutputRefer
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4091,6 +4113,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsOutputRefer
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4106,6 +4129,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsOutputRefer
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4159,6 +4183,22 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsOutputRefer
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4247,7 +4287,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentTagsList extend
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4255,19 +4295,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4280,7 +4320,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -4512,7 +4552,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextI
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4520,19 +4560,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#moid DataIntersightHyperflexClusterBackupPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4545,7 +4585,7 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#selector DataIntersightHyperflexClusterBackupPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -4745,7 +4785,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextR
 }
 export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#additional_properties DataIntersightHyperflexClusterBackupPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4753,32 +4793,32 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#class_id DataIntersightHyperflexClusterBackupPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#marked_for_deletion DataIntersightHyperflexClusterBackupPolicyDeployment#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#marked_for_deletion DataIntersightHyperflexClusterBackupPolicyDeployment#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#nr_version DataIntersightHyperflexClusterBackupPolicyDeployment#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#nr_version DataIntersightHyperflexClusterBackupPolicyDeployment#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#object_type DataIntersightHyperflexClusterBackupPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#timestamp DataIntersightHyperflexClusterBackupPolicyDeployment#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#timestamp DataIntersightHyperflexClusterBackupPolicyDeployment#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4789,19 +4829,19 @@ export interface DataIntersightHyperflexClusterBackupPolicyDeploymentVersionCont
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#version_type DataIntersightHyperflexClusterBackupPolicyDeployment#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#version_type DataIntersightHyperflexClusterBackupPolicyDeployment#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#interested_mos DataIntersightHyperflexClusterBackupPolicyDeployment#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#interested_mos DataIntersightHyperflexClusterBackupPolicyDeployment#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ref_mo DataIntersightHyperflexClusterBackupPolicyDeployment#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#ref_mo DataIntersightHyperflexClusterBackupPolicyDeployment#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextRefMo;
 }
@@ -5117,7 +5157,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeploymentVersionContextO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment intersight_hyperflex_cluster_backup_policy_deployment}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment intersight_hyperflex_cluster_backup_policy_deployment}
 */
 export class DataIntersightHyperflexClusterBackupPolicyDeployment extends cdktf.TerraformDataSource {
 
@@ -5133,7 +5173,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeployment extends cdktf.
   * Generates CDKTF code for importing a DataIntersightHyperflexClusterBackupPolicyDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexClusterBackupPolicyDeployment to import
-  * @param importFromId The id of the existing DataIntersightHyperflexClusterBackupPolicyDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexClusterBackupPolicyDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexClusterBackupPolicyDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5145,7 +5185,7 @@ export class DataIntersightHyperflexClusterBackupPolicyDeployment extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_cluster_backup_policy_deployment intersight_hyperflex_cluster_backup_policy_deployment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_backup_policy_deployment intersight_hyperflex_cluster_backup_policy_deployment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5156,8 +5196,8 @@ export class DataIntersightHyperflexClusterBackupPolicyDeployment extends cdktf.
       terraformResourceType: 'intersight_hyperflex_cluster_backup_policy_deployment',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreDedicatedVmHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#availability_domain DataOciCoreDedicatedVmHosts#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#availability_domain DataOciCoreDedicatedVmHosts#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#compartment_id DataOciCoreDedicatedVmHosts#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#compartment_id DataOciCoreDedicatedVmHosts#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#display_name DataOciCoreDedicatedVmHosts#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#display_name DataOciCoreDedicatedVmHosts#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#id DataOciCoreDedicatedVmHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#id DataOciCoreDedicatedVmHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#instance_shape_name DataOciCoreDedicatedVmHosts#instance_shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#instance_shape_name DataOciCoreDedicatedVmHosts#instance_shape_name}
   */
   readonly instanceShapeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#remaining_memory_in_gbs_greater_than_or_equal_to DataOciCoreDedicatedVmHosts#remaining_memory_in_gbs_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#is_memory_encryption_enabled DataOciCoreDedicatedVmHosts#is_memory_encryption_enabled}
+  */
+  readonly isMemoryEncryptionEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#remaining_memory_in_gbs_greater_than_or_equal_to DataOciCoreDedicatedVmHosts#remaining_memory_in_gbs_greater_than_or_equal_to}
   */
   readonly remainingMemoryInGbsGreaterThanOrEqualTo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#remaining_ocpus_greater_than_or_equal_to DataOciCoreDedicatedVmHosts#remaining_ocpus_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#remaining_ocpus_greater_than_or_equal_to DataOciCoreDedicatedVmHosts#remaining_ocpus_greater_than_or_equal_to}
   */
   readonly remainingOcpusGreaterThanOrEqualTo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#state DataOciCoreDedicatedVmHosts#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#state DataOciCoreDedicatedVmHosts#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#filter DataOciCoreDedicatedVmHosts#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#filter DataOciCoreDedicatedVmHosts#filter}
   */
   readonly filter?: DataOciCoreDedicatedVmHostsFilter[] | cdktf.IResolvable;
 }
@@ -291,6 +295,11 @@ export class DataOciCoreDedicatedVmHostsDedicatedVmHostsOutputReference extends 
     return this._capacityBins;
   }
 
+  // capacity_config - computed: true, optional: false, required: false
+  public get capacityConfig() {
+    return this.getStringAttribute('capacity_config');
+  }
+
   // compartment_id - computed: true, optional: false, required: false
   public get compartmentId() {
     return this.getStringAttribute('compartment_id');
@@ -331,6 +340,11 @@ export class DataOciCoreDedicatedVmHostsDedicatedVmHostsOutputReference extends 
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // is_memory_encryption_enabled - computed: true, optional: false, required: false
+  public get isMemoryEncryptionEnabled() {
+    return this.getBooleanAttribute('is_memory_encryption_enabled');
   }
 
   // placement_constraint_details - computed: true, optional: false, required: false
@@ -390,15 +404,15 @@ export class DataOciCoreDedicatedVmHostsDedicatedVmHostsList extends cdktf.Compl
 }
 export interface DataOciCoreDedicatedVmHostsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#name DataOciCoreDedicatedVmHosts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#name DataOciCoreDedicatedVmHosts#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#regex DataOciCoreDedicatedVmHosts#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#regex DataOciCoreDedicatedVmHosts#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#values DataOciCoreDedicatedVmHosts#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#values DataOciCoreDedicatedVmHosts#values}
   */
   readonly values: string[];
 }
@@ -566,7 +580,7 @@ export class DataOciCoreDedicatedVmHostsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts oci_core_dedicated_vm_hosts}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts oci_core_dedicated_vm_hosts}
 */
 export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
 
@@ -582,7 +596,7 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreDedicatedVmHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreDedicatedVmHosts to import
-  * @param importFromId The id of the existing DataOciCoreDedicatedVmHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreDedicatedVmHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreDedicatedVmHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -594,7 +608,7 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_hosts oci_core_dedicated_vm_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_hosts oci_core_dedicated_vm_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,8 +619,8 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_dedicated_vm_hosts',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -621,6 +635,7 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
     this._displayName = config.displayName;
     this._id = config.id;
     this._instanceShapeName = config.instanceShapeName;
+    this._isMemoryEncryptionEnabled = config.isMemoryEncryptionEnabled;
     this._remainingMemoryInGbsGreaterThanOrEqualTo = config.remainingMemoryInGbsGreaterThanOrEqualTo;
     this._remainingOcpusGreaterThanOrEqualTo = config.remainingOcpusGreaterThanOrEqualTo;
     this._state = config.state;
@@ -714,6 +729,22 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
     return this._instanceShapeName;
   }
 
+  // is_memory_encryption_enabled - computed: false, optional: true, required: false
+  private _isMemoryEncryptionEnabled?: boolean | cdktf.IResolvable; 
+  public get isMemoryEncryptionEnabled() {
+    return this.getBooleanAttribute('is_memory_encryption_enabled');
+  }
+  public set isMemoryEncryptionEnabled(value: boolean | cdktf.IResolvable) {
+    this._isMemoryEncryptionEnabled = value;
+  }
+  public resetIsMemoryEncryptionEnabled() {
+    this._isMemoryEncryptionEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isMemoryEncryptionEnabledInput() {
+    return this._isMemoryEncryptionEnabled;
+  }
+
   // remaining_memory_in_gbs_greater_than_or_equal_to - computed: false, optional: true, required: false
   private _remainingMemoryInGbsGreaterThanOrEqualTo?: number; 
   public get remainingMemoryInGbsGreaterThanOrEqualTo() {
@@ -789,6 +820,7 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
       display_name: cdktf.stringToTerraform(this._displayName),
       id: cdktf.stringToTerraform(this._id),
       instance_shape_name: cdktf.stringToTerraform(this._instanceShapeName),
+      is_memory_encryption_enabled: cdktf.booleanToTerraform(this._isMemoryEncryptionEnabled),
       remaining_memory_in_gbs_greater_than_or_equal_to: cdktf.numberToTerraform(this._remainingMemoryInGbsGreaterThanOrEqualTo),
       remaining_ocpus_greater_than_or_equal_to: cdktf.numberToTerraform(this._remainingOcpusGreaterThanOrEqualTo),
       state: cdktf.stringToTerraform(this._state),
@@ -827,6 +859,12 @@ export class DataOciCoreDedicatedVmHosts extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      is_memory_encryption_enabled: {
+        value: cdktf.booleanToHclTerraform(this._isMemoryEncryptionEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       remaining_memory_in_gbs_greater_than_or_equal_to: {
         value: cdktf.numberToHclTerraform(this._remainingMemoryInGbsGreaterThanOrEqualTo),

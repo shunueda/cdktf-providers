@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualMachineInterfaceAttachConfig extends cdktf.TerraformMeta
   /**
   * ID of the VM instance to attach the interface to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach#instance_id VirtualMachineInterfaceAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach#instance_id VirtualMachineInterfaceAttach#instance_id}
   */
   readonly instanceId: string;
   /**
   * ID of the network interface to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach#interface_id VirtualMachineInterfaceAttach#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach#interface_id VirtualMachineInterfaceAttach#interface_id}
   */
   readonly interfaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach mgc_virtual_machine_interface_attach}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach mgc_virtual_machine_interface_attach}
 */
 export class VirtualMachineInterfaceAttach extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VirtualMachineInterfaceAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualMachineInterfaceAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualMachineInterfaceAttach to import
-  * @param importFromId The id of the existing VirtualMachineInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualMachineInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualMachineInterfaceAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VirtualMachineInterfaceAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_interface_attach mgc_virtual_machine_interface_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_interface_attach mgc_virtual_machine_interface_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VirtualMachineInterfaceAttach extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_virtual_machine_interface_attach',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

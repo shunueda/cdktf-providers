@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DatasciencePipelineRunConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#compartment_id DatasciencePipelineRun#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#compartment_id DatasciencePipelineRun#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#defined_tags DatasciencePipelineRun#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#defined_tags DatasciencePipelineRun#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#delete_related_job_runs DatasciencePipelineRun#delete_related_job_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#delete_related_job_runs DatasciencePipelineRun#delete_related_job_runs}
   */
   readonly deleteRelatedJobRuns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#display_name DatasciencePipelineRun#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#display_name DatasciencePipelineRun#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#freeform_tags DatasciencePipelineRun#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#freeform_tags DatasciencePipelineRun#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#id DatasciencePipelineRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#id DatasciencePipelineRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#opc_parent_rpt_url DatasciencePipelineRun#opc_parent_rpt_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#opc_parent_rpt_url DatasciencePipelineRun#opc_parent_rpt_url}
   */
   readonly opcParentRptUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#parameters_override DatasciencePipelineRun#parameters_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#parameters_override DatasciencePipelineRun#parameters_override}
   */
   readonly parametersOverride?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#pipeline_id DatasciencePipelineRun#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#pipeline_id DatasciencePipelineRun#pipeline_id}
   */
   readonly pipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#project_id DatasciencePipelineRun#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#project_id DatasciencePipelineRun#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#system_tags DatasciencePipelineRun#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#system_tags DatasciencePipelineRun#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#configuration_override_details DatasciencePipelineRun#configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#configuration_override_details DatasciencePipelineRun#configuration_override_details}
   */
   readonly configurationOverrideDetails?: DatasciencePipelineRunConfigurationOverrideDetails;
   /**
   * infrastructure_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#infrastructure_configuration_override_details DatasciencePipelineRun#infrastructure_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#infrastructure_configuration_override_details DatasciencePipelineRun#infrastructure_configuration_override_details}
   */
   readonly infrastructureConfigurationOverrideDetails?: DatasciencePipelineRunInfrastructureConfigurationOverrideDetails;
   /**
   * log_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#log_configuration_override_details DatasciencePipelineRun#log_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#log_configuration_override_details DatasciencePipelineRun#log_configuration_override_details}
   */
   readonly logConfigurationOverrideDetails?: DatasciencePipelineRunLogConfigurationOverrideDetails;
   /**
   * step_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_override_details DatasciencePipelineRun#step_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_override_details DatasciencePipelineRun#step_override_details}
   */
   readonly stepOverrideDetails?: DatasciencePipelineRunStepOverrideDetails[] | cdktf.IResolvable;
   /**
   * storage_mount_configuration_override_details_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#storage_mount_configuration_override_details_list DatasciencePipelineRun#storage_mount_configuration_override_details_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#storage_mount_configuration_override_details_list DatasciencePipelineRun#storage_mount_configuration_override_details_list}
   */
   readonly storageMountConfigurationOverrideDetailsList?: DatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#timeouts DatasciencePipelineRun#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#timeouts DatasciencePipelineRun#timeouts}
   */
   readonly timeouts?: DatasciencePipelineRunTimeouts;
 }
@@ -379,19 +379,19 @@ export class DatasciencePipelineRunStepRunsList extends cdktf.ComplexList {
 }
 export interface DatasciencePipelineRunConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#command_line_arguments DatasciencePipelineRun#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#command_line_arguments DatasciencePipelineRun#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#environment_variables DatasciencePipelineRun#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#environment_variables DatasciencePipelineRun#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#maximum_runtime_in_minutes DatasciencePipelineRun#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#maximum_runtime_in_minutes DatasciencePipelineRun#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#type DatasciencePipelineRun#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#type DatasciencePipelineRun#type}
   */
   readonly type: string;
 }
@@ -559,23 +559,23 @@ export class DatasciencePipelineRunConfigurationOverrideDetailsOutputReference e
 }
 export interface DatasciencePipelineRunInfrastructureConfigurationOverrideDetailsShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#cpu_baseline DatasciencePipelineRun#cpu_baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#cpu_baseline DatasciencePipelineRun#cpu_baseline}
   */
   readonly cpuBaseline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
   */
   readonly memoryInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
   */
   readonly ocpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
   */
   readonly ocpusParameterized?: string;
 }
@@ -775,25 +775,25 @@ export class DatasciencePipelineRunInfrastructureConfigurationOverrideDetailsSha
 }
 export interface DatasciencePipelineRunInfrastructureConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs DatasciencePipelineRun#block_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs DatasciencePipelineRun#block_storage_size_in_gbs}
   */
   readonly blockStorageSizeInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs_parameterized DatasciencePipelineRun#block_storage_size_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs_parameterized DatasciencePipelineRun#block_storage_size_in_gbs_parameterized}
   */
   readonly blockStorageSizeInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#shape_name DatasciencePipelineRun#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#shape_name DatasciencePipelineRun#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#subnet_id DatasciencePipelineRun#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#subnet_id DatasciencePipelineRun#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#shape_config_details DatasciencePipelineRun#shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#shape_config_details DatasciencePipelineRun#shape_config_details}
   */
   readonly shapeConfigDetails?: DatasciencePipelineRunInfrastructureConfigurationOverrideDetailsShapeConfigDetails;
 }
@@ -987,19 +987,19 @@ export class DatasciencePipelineRunInfrastructureConfigurationOverrideDetailsOut
 }
 export interface DatasciencePipelineRunLogConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#enable_auto_log_creation DatasciencePipelineRun#enable_auto_log_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#enable_auto_log_creation DatasciencePipelineRun#enable_auto_log_creation}
   */
   readonly enableAutoLogCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#enable_logging DatasciencePipelineRun#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#enable_logging DatasciencePipelineRun#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#log_group_id DatasciencePipelineRun#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#log_group_id DatasciencePipelineRun#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#log_id DatasciencePipelineRun#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#log_id DatasciencePipelineRun#log_id}
   */
   readonly logId?: string;
 }
@@ -1170,15 +1170,15 @@ export class DatasciencePipelineRunLogConfigurationOverrideDetailsOutputReferenc
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#command_line_arguments DatasciencePipelineRun#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#command_line_arguments DatasciencePipelineRun#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#environment_variables DatasciencePipelineRun#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#environment_variables DatasciencePipelineRun#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#maximum_runtime_in_minutes DatasciencePipelineRun#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#maximum_runtime_in_minutes DatasciencePipelineRun#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
 }
@@ -1320,27 +1320,27 @@ export class DatasciencePipelineRunStepOverrideDetailsStepConfigurationDetailsOu
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#cmd DatasciencePipelineRun#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#cmd DatasciencePipelineRun#cmd}
   */
   readonly cmd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#container_type DatasciencePipelineRun#container_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#container_type DatasciencePipelineRun#container_type}
   */
   readonly containerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#entrypoint DatasciencePipelineRun#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#entrypoint DatasciencePipelineRun#entrypoint}
   */
   readonly entrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#image DatasciencePipelineRun#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#image DatasciencePipelineRun#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#image_digest DatasciencePipelineRun#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#image_digest DatasciencePipelineRun#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#image_signature_id DatasciencePipelineRun#image_signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#image_signature_id DatasciencePipelineRun#image_signature_id}
   */
   readonly imageSignatureId?: string;
 }
@@ -1563,19 +1563,19 @@ export class DatasciencePipelineRunStepOverrideDetailsStepContainerConfiguration
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetailsDriverShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
   */
   readonly memoryInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
   */
   readonly ocpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
   */
   readonly ocpusParameterized?: string;
 }
@@ -1746,19 +1746,19 @@ export class DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationD
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetailsExecutorShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
   */
   readonly memoryInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
   */
   readonly ocpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
   */
   readonly ocpusParameterized?: string;
 }
@@ -1929,39 +1929,39 @@ export class DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationD
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#configuration DatasciencePipelineRun#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#configuration DatasciencePipelineRun#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#driver_shape DatasciencePipelineRun#driver_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#driver_shape DatasciencePipelineRun#driver_shape}
   */
   readonly driverShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#executor_shape DatasciencePipelineRun#executor_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#executor_shape DatasciencePipelineRun#executor_shape}
   */
   readonly executorShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#logs_bucket_uri DatasciencePipelineRun#logs_bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#logs_bucket_uri DatasciencePipelineRun#logs_bucket_uri}
   */
   readonly logsBucketUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#num_executors DatasciencePipelineRun#num_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#num_executors DatasciencePipelineRun#num_executors}
   */
   readonly numExecutors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#warehouse_bucket_uri DatasciencePipelineRun#warehouse_bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#warehouse_bucket_uri DatasciencePipelineRun#warehouse_bucket_uri}
   */
   readonly warehouseBucketUri?: string;
   /**
   * driver_shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#driver_shape_config_details DatasciencePipelineRun#driver_shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#driver_shape_config_details DatasciencePipelineRun#driver_shape_config_details}
   */
   readonly driverShapeConfigDetails?: DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetailsDriverShapeConfigDetails;
   /**
   * executor_shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#executor_shape_config_details DatasciencePipelineRun#executor_shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#executor_shape_config_details DatasciencePipelineRun#executor_shape_config_details}
   */
   readonly executorShapeConfigDetails?: DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetailsExecutorShapeConfigDetails;
 }
@@ -2248,23 +2248,23 @@ export class DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationD
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetailsShapeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#cpu_baseline DatasciencePipelineRun#cpu_baseline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#cpu_baseline DatasciencePipelineRun#cpu_baseline}
   */
   readonly cpuBaseline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs DatasciencePipelineRun#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#memory_in_gbs_parameterized DatasciencePipelineRun#memory_in_gbs_parameterized}
   */
   readonly memoryInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus DatasciencePipelineRun#ocpus}
   */
   readonly ocpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#ocpus_parameterized DatasciencePipelineRun#ocpus_parameterized}
   */
   readonly ocpusParameterized?: string;
 }
@@ -2464,25 +2464,25 @@ export class DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigur
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs DatasciencePipelineRun#block_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs DatasciencePipelineRun#block_storage_size_in_gbs}
   */
   readonly blockStorageSizeInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs_parameterized DatasciencePipelineRun#block_storage_size_in_gbs_parameterized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#block_storage_size_in_gbs_parameterized DatasciencePipelineRun#block_storage_size_in_gbs_parameterized}
   */
   readonly blockStorageSizeInGbsParameterized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#shape_name DatasciencePipelineRun#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#shape_name DatasciencePipelineRun#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#subnet_id DatasciencePipelineRun#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#subnet_id DatasciencePipelineRun#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * shape_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#shape_config_details DatasciencePipelineRun#shape_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#shape_config_details DatasciencePipelineRun#shape_config_details}
   */
   readonly shapeConfigDetails?: DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetailsShapeConfigDetails;
 }
@@ -2676,35 +2676,35 @@ export class DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigur
 }
 export interface DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}
   */
   readonly destinationDirectoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}
   */
   readonly destinationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}
   */
   readonly exportId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}
   */
   readonly mountTargetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}
   */
   readonly storageType: string;
 }
@@ -3017,37 +3017,37 @@ export class DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurat
 }
 export interface DatasciencePipelineRunStepOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_name DatasciencePipelineRun#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_name DatasciencePipelineRun#step_name}
   */
   readonly stepName: string;
   /**
   * step_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_configuration_details DatasciencePipelineRun#step_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_configuration_details DatasciencePipelineRun#step_configuration_details}
   */
   readonly stepConfigurationDetails: DatasciencePipelineRunStepOverrideDetailsStepConfigurationDetails;
   /**
   * step_container_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_container_configuration_details DatasciencePipelineRun#step_container_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_container_configuration_details DatasciencePipelineRun#step_container_configuration_details}
   */
   readonly stepContainerConfigurationDetails?: DatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails;
   /**
   * step_dataflow_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_dataflow_configuration_details DatasciencePipelineRun#step_dataflow_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_dataflow_configuration_details DatasciencePipelineRun#step_dataflow_configuration_details}
   */
   readonly stepDataflowConfigurationDetails?: DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetails;
   /**
   * step_infrastructure_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_infrastructure_configuration_details DatasciencePipelineRun#step_infrastructure_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_infrastructure_configuration_details DatasciencePipelineRun#step_infrastructure_configuration_details}
   */
   readonly stepInfrastructureConfigurationDetails?: DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetails;
   /**
   * step_storage_mount_configuration_details_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#step_storage_mount_configuration_details_list DatasciencePipelineRun#step_storage_mount_configuration_details_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#step_storage_mount_configuration_details_list DatasciencePipelineRun#step_storage_mount_configuration_details_list}
   */
   readonly stepStorageMountConfigurationDetailsList?: DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct[] | cdktf.IResolvable;
 }
@@ -3302,35 +3302,35 @@ export class DatasciencePipelineRunStepOverrideDetailsList extends cdktf.Complex
 }
 export interface DatasciencePipelineRunStorageMountConfigurationOverrideDetailsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}
   */
   readonly destinationDirectoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}
   */
   readonly destinationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}
   */
   readonly exportId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}
   */
   readonly mountTargetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}
   */
   readonly storageType: string;
 }
@@ -3643,15 +3643,15 @@ export class DatasciencePipelineRunStorageMountConfigurationOverrideDetailsListS
 }
 export interface DatasciencePipelineRunTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#create DatasciencePipelineRun#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#create DatasciencePipelineRun#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#delete DatasciencePipelineRun#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#delete DatasciencePipelineRun#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#update DatasciencePipelineRun#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#update DatasciencePipelineRun#update}
   */
   readonly update?: string;
 }
@@ -3803,7 +3803,7 @@ export class DatasciencePipelineRunTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run}
 */
 export class DatasciencePipelineRun extends cdktf.TerraformResource {
 
@@ -3819,7 +3819,7 @@ export class DatasciencePipelineRun extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatasciencePipelineRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasciencePipelineRun to import
-  * @param importFromId The id of the existing DatasciencePipelineRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasciencePipelineRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasciencePipelineRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3831,7 +3831,7 @@ export class DatasciencePipelineRun extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_pipeline_run oci_datascience_pipeline_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3842,8 +3842,8 @@ export class DatasciencePipelineRun extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_pipeline_run',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

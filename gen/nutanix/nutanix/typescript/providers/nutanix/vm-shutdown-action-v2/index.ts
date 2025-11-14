@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface VmShutdownActionV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#action VmShutdownActionV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#action VmShutdownActionV2#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#ext_id VmShutdownActionV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#ext_id VmShutdownActionV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#id VmShutdownActionV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#id VmShutdownActionV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface VmShutdownActionV2Config extends cdktf.TerraformMetaArguments {
   /**
   * guest_power_state_transition_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#guest_power_state_transition_config VmShutdownActionV2#guest_power_state_transition_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#guest_power_state_transition_config VmShutdownActionV2#guest_power_state_transition_config}
   */
   readonly guestPowerStateTransitionConfig?: VmShutdownActionV2GuestPowerStateTransitionConfig[] | cdktf.IResolvable;
 }
 export interface VmShutdownActionV2GuestPowerStateTransitionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#should_enable_script_exec VmShutdownActionV2#should_enable_script_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#should_enable_script_exec VmShutdownActionV2#should_enable_script_exec}
   */
   readonly shouldEnableScriptExec?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#should_fail_on_script_failure VmShutdownActionV2#should_fail_on_script_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#should_fail_on_script_failure VmShutdownActionV2#should_fail_on_script_failure}
   */
   readonly shouldFailOnScriptFailure?: boolean | cdktf.IResolvable;
 }
@@ -180,7 +180,7 @@ export class VmShutdownActionV2GuestPowerStateTransitionConfigList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2 nutanix_vm_shutdown_action_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2 nutanix_vm_shutdown_action_v2}
 */
 export class VmShutdownActionV2 extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class VmShutdownActionV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmShutdownActionV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmShutdownActionV2 to import
-  * @param importFromId The id of the existing VmShutdownActionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmShutdownActionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmShutdownActionV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class VmShutdownActionV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_shutdown_action_v2 nutanix_vm_shutdown_action_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_shutdown_action_v2 nutanix_vm_shutdown_action_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class VmShutdownActionV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_vm_shutdown_action_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

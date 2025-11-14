@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudOracleDbAzureBlobContainerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#azure_storage_account_name DbmulticloudOracleDbAzureBlobContainer#azure_storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#azure_storage_account_name DbmulticloudOracleDbAzureBlobContainer#azure_storage_account_name}
   */
   readonly azureStorageAccountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#azure_storage_container_name DbmulticloudOracleDbAzureBlobContainer#azure_storage_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#azure_storage_container_name DbmulticloudOracleDbAzureBlobContainer#azure_storage_container_name}
   */
   readonly azureStorageContainerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#compartment_id DbmulticloudOracleDbAzureBlobContainer#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#compartment_id DbmulticloudOracleDbAzureBlobContainer#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#defined_tags DbmulticloudOracleDbAzureBlobContainer#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#defined_tags DbmulticloudOracleDbAzureBlobContainer#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#display_name DbmulticloudOracleDbAzureBlobContainer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#display_name DbmulticloudOracleDbAzureBlobContainer#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#freeform_tags DbmulticloudOracleDbAzureBlobContainer#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#freeform_tags DbmulticloudOracleDbAzureBlobContainer#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#id DbmulticloudOracleDbAzureBlobContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#id DbmulticloudOracleDbAzureBlobContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#private_endpoint_dns_alias DbmulticloudOracleDbAzureBlobContainer#private_endpoint_dns_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#private_endpoint_dns_alias DbmulticloudOracleDbAzureBlobContainer#private_endpoint_dns_alias}
   */
   readonly privateEndpointDnsAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#private_endpoint_ip_address DbmulticloudOracleDbAzureBlobContainer#private_endpoint_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#private_endpoint_ip_address DbmulticloudOracleDbAzureBlobContainer#private_endpoint_ip_address}
   */
   readonly privateEndpointIpAddress?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#timeouts DbmulticloudOracleDbAzureBlobContainer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#timeouts DbmulticloudOracleDbAzureBlobContainer#timeouts}
   */
   readonly timeouts?: DbmulticloudOracleDbAzureBlobContainerTimeouts;
 }
 export interface DbmulticloudOracleDbAzureBlobContainerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#create DbmulticloudOracleDbAzureBlobContainer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#create DbmulticloudOracleDbAzureBlobContainer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#delete DbmulticloudOracleDbAzureBlobContainer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#delete DbmulticloudOracleDbAzureBlobContainer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#update DbmulticloudOracleDbAzureBlobContainer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#update DbmulticloudOracleDbAzureBlobContainer#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class DbmulticloudOracleDbAzureBlobContainerTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container oci_dbmulticloud_oracle_db_azure_blob_container}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container oci_dbmulticloud_oracle_db_azure_blob_container}
 */
 export class DbmulticloudOracleDbAzureBlobContainer extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class DbmulticloudOracleDbAzureBlobContainer extends cdktf.TerraformResou
   * Generates CDKTF code for importing a DbmulticloudOracleDbAzureBlobContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudOracleDbAzureBlobContainer to import
-  * @param importFromId The id of the existing DbmulticloudOracleDbAzureBlobContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudOracleDbAzureBlobContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudOracleDbAzureBlobContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DbmulticloudOracleDbAzureBlobContainer extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dbmulticloud_oracle_db_azure_blob_container oci_dbmulticloud_oracle_db_azure_blob_container} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dbmulticloud_oracle_db_azure_blob_container oci_dbmulticloud_oracle_db_azure_blob_container} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DbmulticloudOracleDbAzureBlobContainer extends cdktf.TerraformResou
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_blob_container',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

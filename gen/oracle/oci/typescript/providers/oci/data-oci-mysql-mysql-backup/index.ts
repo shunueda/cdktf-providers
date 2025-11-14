@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_backup
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMysqlMysqlBackupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}
   */
   readonly backupId: string;
 }
@@ -1761,7 +1761,7 @@ export class DataOciMysqlMysqlBackupValidateBackupDetailsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_backup oci_mysql_mysql_backup}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_backup oci_mysql_mysql_backup}
 */
 export class DataOciMysqlMysqlBackup extends cdktf.TerraformDataSource {
 
@@ -1777,7 +1777,7 @@ export class DataOciMysqlMysqlBackup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMysqlMysqlBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMysqlMysqlBackup to import
-  * @param importFromId The id of the existing DataOciMysqlMysqlBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMysqlMysqlBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMysqlMysqlBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1789,7 +1789,7 @@ export class DataOciMysqlMysqlBackup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_backup oci_mysql_mysql_backup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_backup oci_mysql_mysql_backup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1800,8 +1800,8 @@ export class DataOciMysqlMysqlBackup extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_mysql_backup',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

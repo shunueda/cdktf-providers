@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppVolumeSnapshotConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#account_moid DataIntersightStorageNetAppVolumeSnapshot#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#account_moid DataIntersightStorageNetAppVolumeSnapshot#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightStorageNetAppVolumeSnapshotConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#create_time DataIntersightStorageNetAppVolumeSnapshot#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#create_time DataIntersightStorageNetAppVolumeSnapshot#create_time}
   */
   readonly createTime?: string;
   /**
   * Exact date and time at which snapshot was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#created_time DataIntersightStorageNetAppVolumeSnapshot#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#created_time DataIntersightStorageNetAppVolumeSnapshot#created_time}
   */
   readonly createdTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#domain_group_moid DataIntersightStorageNetAppVolumeSnapshot#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#domain_group_moid DataIntersightStorageNetAppVolumeSnapshot#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#id DataIntersightStorageNetAppVolumeSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#id DataIntersightStorageNetAppVolumeSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DataIntersightStorageNetAppVolumeSnapshotConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#mod_time DataIntersightStorageNetAppVolumeSnapshot#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#mod_time DataIntersightStorageNetAppVolumeSnapshot#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * Name of the snapshot which represents point-in-time copy of volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#name DataIntersightStorageNetAppVolumeSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#name DataIntersightStorageNetAppVolumeSnapshot#name}
   */
   readonly name?: string;
   /**
   * Source object on which the snapshot is created. It is the name of the originating volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#nr_source DataIntersightStorageNetAppVolumeSnapshot#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#nr_source DataIntersightStorageNetAppVolumeSnapshot#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#owners DataIntersightStorageNetAppVolumeSnapshot#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#owners DataIntersightStorageNetAppVolumeSnapshot#owners}
   */
   readonly owners?: string[];
   /**
   * Name of the protection group to which the snapshot belongs. Value is empty, if the snapshot is created directly on volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#protection_group_name DataIntersightStorageNetAppVolumeSnapshot#protection_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#protection_group_name DataIntersightStorageNetAppVolumeSnapshot#protection_group_name}
   */
   readonly protectionGroupName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#shared_scope DataIntersightStorageNetAppVolumeSnapshot#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#shared_scope DataIntersightStorageNetAppVolumeSnapshot#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Snapshot size represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#size DataIntersightStorageNetAppVolumeSnapshot#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#size DataIntersightStorageNetAppVolumeSnapshot#size}
   */
   readonly size?: number;
   /**
   * Universally unique identifier of the volume snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#uuid DataIntersightStorageNetAppVolumeSnapshot#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#uuid DataIntersightStorageNetAppVolumeSnapshot#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#ancestors DataIntersightStorageNetAppVolumeSnapshot#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#ancestors DataIntersightStorageNetAppVolumeSnapshot#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppVolumeSnapshotAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#array DataIntersightStorageNetAppVolumeSnapshot#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#array DataIntersightStorageNetAppVolumeSnapshot#array}
   */
   readonly array?: DataIntersightStorageNetAppVolumeSnapshotArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#parent DataIntersightStorageNetAppVolumeSnapshot#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#parent DataIntersightStorageNetAppVolumeSnapshot#parent}
   */
   readonly parent?: DataIntersightStorageNetAppVolumeSnapshotParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#permission_resources DataIntersightStorageNetAppVolumeSnapshot#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#permission_resources DataIntersightStorageNetAppVolumeSnapshot#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppVolumeSnapshotPermissionResources[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#storage_container DataIntersightStorageNetAppVolumeSnapshot#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#storage_container DataIntersightStorageNetAppVolumeSnapshot#storage_container}
   */
   readonly storageContainer?: DataIntersightStorageNetAppVolumeSnapshotStorageContainer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#tags DataIntersightStorageNetAppVolumeSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#tags DataIntersightStorageNetAppVolumeSnapshot#tags}
   */
   readonly tags?: DataIntersightStorageNetAppVolumeSnapshotTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#version_context DataIntersightStorageNetAppVolumeSnapshot#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#version_context DataIntersightStorageNetAppVolumeSnapshot#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppVolumeSnapshotVersionContext;
 }
@@ -896,6 +896,11 @@ export class DataIntersightStorageNetAppVolumeSnapshotResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1426,7 +1431,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotResultsList extends cdktf.
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1434,19 +1439,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1459,7 +1464,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -1691,7 +1696,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotAncestorsList extends cdkt
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1699,19 +1704,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1724,7 +1729,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -1924,7 +1929,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotArrayOutputReference exten
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1932,19 +1937,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1957,7 +1962,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2157,7 +2162,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotParentOutputReference exte
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2165,19 +2170,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2190,7 +2195,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2422,7 +2427,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotPermissionResourcesList ex
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2430,19 +2435,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotStorageContainer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2455,7 +2460,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotStorageContainer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2655,7 +2660,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotStorageContainerOutputRefe
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2663,19 +2668,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2688,7 +2693,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2920,7 +2925,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinitionsLis
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2928,19 +2933,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2953,7 +2958,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3153,45 +3158,51 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsDefinitionOutputRefere
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#key DataIntersightStorageNetAppVolumeSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#key DataIntersightStorageNetAppVolumeSnapshot#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#propagated DataIntersightStorageNetAppVolumeSnapshot#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#propagated DataIntersightStorageNetAppVolumeSnapshot#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#sys_tag DataIntersightStorageNetAppVolumeSnapshot#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#type DataIntersightStorageNetAppVolumeSnapshot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#type DataIntersightStorageNetAppVolumeSnapshot#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#value DataIntersightStorageNetAppVolumeSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#value DataIntersightStorageNetAppVolumeSnapshot#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#ancestor_definitions DataIntersightStorageNetAppVolumeSnapshot#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#ancestor_definitions DataIntersightStorageNetAppVolumeSnapshot#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#definition DataIntersightStorageNetAppVolumeSnapshot#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#definition DataIntersightStorageNetAppVolumeSnapshot#definition}
   */
   readonly definition?: DataIntersightStorageNetAppVolumeSnapshotTagsDefinition;
 }
@@ -3205,6 +3216,7 @@ export function dataIntersightStorageNetAppVolumeSnapshotTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppVolumeSnapshotTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3233,6 +3245,12 @@ export function dataIntersightStorageNetAppVolumeSnapshotTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3299,6 +3317,10 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3325,6 +3347,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3340,6 +3363,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3393,6 +3417,22 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3481,7 +3521,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotTagsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3489,19 +3529,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3514,7 +3554,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3746,7 +3786,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotVersionContextInterestedMo
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3754,19 +3794,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#moid DataIntersightStorageNetAppVolumeSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3779,7 +3819,7 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#selector DataIntersightStorageNetAppVolumeSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3979,7 +4019,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotVersionContextRefMoOutputR
 }
 export interface DataIntersightStorageNetAppVolumeSnapshotVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#additional_properties DataIntersightStorageNetAppVolumeSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3987,32 +4027,32 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#class_id DataIntersightStorageNetAppVolumeSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#marked_for_deletion DataIntersightStorageNetAppVolumeSnapshot#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#marked_for_deletion DataIntersightStorageNetAppVolumeSnapshot#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#nr_version DataIntersightStorageNetAppVolumeSnapshot#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#nr_version DataIntersightStorageNetAppVolumeSnapshot#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#object_type DataIntersightStorageNetAppVolumeSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#timestamp DataIntersightStorageNetAppVolumeSnapshot#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#timestamp DataIntersightStorageNetAppVolumeSnapshot#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4023,19 +4063,19 @@ export interface DataIntersightStorageNetAppVolumeSnapshotVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#version_type DataIntersightStorageNetAppVolumeSnapshot#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#version_type DataIntersightStorageNetAppVolumeSnapshot#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#interested_mos DataIntersightStorageNetAppVolumeSnapshot#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#interested_mos DataIntersightStorageNetAppVolumeSnapshot#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppVolumeSnapshotVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#ref_mo DataIntersightStorageNetAppVolumeSnapshot#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#ref_mo DataIntersightStorageNetAppVolumeSnapshot#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppVolumeSnapshotVersionContextRefMo;
 }
@@ -4351,7 +4391,7 @@ export class DataIntersightStorageNetAppVolumeSnapshotVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot intersight_storage_net_app_volume_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot intersight_storage_net_app_volume_snapshot}
 */
 export class DataIntersightStorageNetAppVolumeSnapshot extends cdktf.TerraformDataSource {
 
@@ -4367,7 +4407,7 @@ export class DataIntersightStorageNetAppVolumeSnapshot extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightStorageNetAppVolumeSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppVolumeSnapshot to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppVolumeSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4379,7 +4419,7 @@ export class DataIntersightStorageNetAppVolumeSnapshot extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_volume_snapshot intersight_storage_net_app_volume_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_volume_snapshot intersight_storage_net_app_volume_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4390,8 +4430,8 @@ export class DataIntersightStorageNetAppVolumeSnapshot extends cdktf.TerraformDa
       terraformResourceType: 'intersight_storage_net_app_volume_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

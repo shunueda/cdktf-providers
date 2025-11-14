@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WorkflowSshBatchExecutorConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#account_moid WorkflowSshBatchExecutor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#account_moid WorkflowSshBatchExecutor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#ancestors WorkflowSshBatchExecutor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#ancestors WorkflowSshBatchExecutor#ancestors}
   */
   readonly ancestors?: WorkflowSshBatchExecutorAncestors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#batch WorkflowSshBatchExecutor#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#batch WorkflowSshBatchExecutor#batch}
   */
   readonly batch?: WorkflowSshBatchExecutorBatch[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#cancel_action WorkflowSshBatchExecutor#cancel_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#cancel_action WorkflowSshBatchExecutor#cancel_action}
   */
   readonly cancelAction?: WorkflowSshBatchExecutorCancelAction[] | cdktf.IResolvable;
   /**
@@ -36,35 +36,35 @@ export interface WorkflowSshBatchExecutorConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
   * Constraints for matching this task against the task definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#constraints WorkflowSshBatchExecutor#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#constraints WorkflowSshBatchExecutor#constraints}
   */
   readonly constraints?: WorkflowSshBatchExecutorConstraints[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#create_time WorkflowSshBatchExecutor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#create_time WorkflowSshBatchExecutor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed description of the batch APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#domain_group_moid WorkflowSshBatchExecutor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#domain_group_moid WorkflowSshBatchExecutor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#id WorkflowSshBatchExecutor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#id WorkflowSshBatchExecutor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,121 +73,121 @@ export interface WorkflowSshBatchExecutorConfig extends cdktf.TerraformMetaArgum
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#mod_time WorkflowSshBatchExecutor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#mod_time WorkflowSshBatchExecutor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
   * Name of the batch API task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
   * Collection of possible task outcomes, represented as workflow.Outcome objects. Outcomes can be mapped to messages and are evaluated in the given order. 
   * A catch-all success or failure outcome with condition 'true' can be included at the end. Optional property; if not specified, the task defaults to success.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
   * JSON mapping of extracted API response values to task output parameters, using API response grammar defined in Intersight Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#output WorkflowSshBatchExecutor#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#output WorkflowSshBatchExecutor#output}
   */
   readonly output?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#owners WorkflowSshBatchExecutor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#owners WorkflowSshBatchExecutor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#parent WorkflowSshBatchExecutor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#parent WorkflowSshBatchExecutor#parent}
   */
   readonly parent?: WorkflowSshBatchExecutorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#permission_resources WorkflowSshBatchExecutor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#permission_resources WorkflowSshBatchExecutor#permission_resources}
   */
   readonly permissionResources?: WorkflowSshBatchExecutorPermissionResources[] | cdktf.IResolvable;
   /**
   * Flag indicating if the retry task should from the failed API or the first API in the batch execution; default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#retry_from_failed_api WorkflowSshBatchExecutor#retry_from_failed_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#retry_from_failed_api WorkflowSshBatchExecutor#retry_from_failed_api}
   */
   readonly retryFromFailedApi?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#shared_scope WorkflowSshBatchExecutor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#shared_scope WorkflowSshBatchExecutor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Optional skip expression allowing the batch API executor to skip task execution when the provided Go template expression evaluates to true. 
   * If not specified, the API will always be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#tags WorkflowSshBatchExecutor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#tags WorkflowSshBatchExecutor#tags}
   */
   readonly tags?: WorkflowSshBatchExecutorTags[] | cdktf.IResolvable;
   /**
   * A reference to a workflowTaskDefinition resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#task_definition WorkflowSshBatchExecutor#task_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#task_definition WorkflowSshBatchExecutor#task_definition}
   */
   readonly taskDefinition?: WorkflowSshBatchExecutorTaskDefinition[] | cdktf.IResolvable;
   /**
   * Data required for rendering the task in the user interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#ui_rendering_data WorkflowSshBatchExecutor#ui_rendering_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#ui_rendering_data WorkflowSshBatchExecutor#ui_rendering_data}
   */
   readonly uiRenderingData?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#version_context WorkflowSshBatchExecutor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#version_context WorkflowSshBatchExecutor#version_context}
   */
   readonly versionContext?: WorkflowSshBatchExecutorVersionContext[] | cdktf.IResolvable;
 }
 export interface WorkflowSshBatchExecutorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -419,63 +419,63 @@ export class WorkflowSshBatchExecutorAncestorsList extends cdktf.ComplexList {
 }
 export interface WorkflowSshBatchExecutorBatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#asset_target_moid WorkflowSshBatchExecutor#asset_target_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#asset_target_moid WorkflowSshBatchExecutor#asset_target_moid}
   */
   readonly assetTargetMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#body WorkflowSshBatchExecutor#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#body WorkflowSshBatchExecutor#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#content_type WorkflowSshBatchExecutor#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#content_type WorkflowSshBatchExecutor#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#error_content_type WorkflowSshBatchExecutor#error_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#error_content_type WorkflowSshBatchExecutor#error_content_type}
   */
   readonly errorContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#label WorkflowSshBatchExecutor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#label WorkflowSshBatchExecutor#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#response_spec WorkflowSshBatchExecutor#response_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#response_spec WorkflowSshBatchExecutor#response_spec}
   */
   readonly responseSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#start_delay WorkflowSshBatchExecutor#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#start_delay WorkflowSshBatchExecutor#start_delay}
   */
   readonly startDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#timeout WorkflowSshBatchExecutor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#timeout WorkflowSshBatchExecutor#timeout}
   */
   readonly timeout?: number;
 }
@@ -997,63 +997,63 @@ export class WorkflowSshBatchExecutorBatchList extends cdktf.ComplexList {
 }
 export interface WorkflowSshBatchExecutorCancelAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#asset_target_moid WorkflowSshBatchExecutor#asset_target_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#asset_target_moid WorkflowSshBatchExecutor#asset_target_moid}
   */
   readonly assetTargetMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#body WorkflowSshBatchExecutor#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#body WorkflowSshBatchExecutor#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#content_type WorkflowSshBatchExecutor#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#content_type WorkflowSshBatchExecutor#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#description WorkflowSshBatchExecutor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#error_content_type WorkflowSshBatchExecutor#error_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#error_content_type WorkflowSshBatchExecutor#error_content_type}
   */
   readonly errorContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#label WorkflowSshBatchExecutor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#label WorkflowSshBatchExecutor#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#name WorkflowSshBatchExecutor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#outcomes WorkflowSshBatchExecutor#outcomes}
   */
   readonly outcomes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#response_spec WorkflowSshBatchExecutor#response_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#response_spec WorkflowSshBatchExecutor#response_spec}
   */
   readonly responseSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#skip_on_condition WorkflowSshBatchExecutor#skip_on_condition}
   */
   readonly skipOnCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#start_delay WorkflowSshBatchExecutor#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#start_delay WorkflowSshBatchExecutor#start_delay}
   */
   readonly startDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#timeout WorkflowSshBatchExecutor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#timeout WorkflowSshBatchExecutor#timeout}
   */
   readonly timeout?: number;
 }
@@ -1575,19 +1575,19 @@ export class WorkflowSshBatchExecutorCancelActionList extends cdktf.ComplexList 
 }
 export interface WorkflowSshBatchExecutorConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#target_data_type WorkflowSshBatchExecutor#target_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#target_data_type WorkflowSshBatchExecutor#target_data_type}
   */
   readonly targetDataType?: string;
 }
@@ -1790,23 +1790,23 @@ export class WorkflowSshBatchExecutorConstraintsList extends cdktf.ComplexList {
 }
 export interface WorkflowSshBatchExecutorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -2038,23 +2038,23 @@ export class WorkflowSshBatchExecutorParentList extends cdktf.ComplexList {
 }
 export interface WorkflowSshBatchExecutorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -2286,23 +2286,23 @@ export class WorkflowSshBatchExecutorPermissionResourcesList extends cdktf.Compl
 }
 export interface WorkflowSshBatchExecutorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -2534,23 +2534,23 @@ export class WorkflowSshBatchExecutorTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface WorkflowSshBatchExecutorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -2782,31 +2782,35 @@ export class WorkflowSshBatchExecutorTagsDefinitionList extends cdktf.ComplexLis
 }
 export interface WorkflowSshBatchExecutorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#ancestor_definitions WorkflowSshBatchExecutor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#ancestor_definitions WorkflowSshBatchExecutor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: WorkflowSshBatchExecutorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#definition WorkflowSshBatchExecutor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#definition WorkflowSshBatchExecutor#definition}
   */
   readonly definition?: WorkflowSshBatchExecutorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#key WorkflowSshBatchExecutor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#key WorkflowSshBatchExecutor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#propagated WorkflowSshBatchExecutor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#propagated WorkflowSshBatchExecutor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#type WorkflowSshBatchExecutor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#sys_tag WorkflowSshBatchExecutor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#type WorkflowSshBatchExecutor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#value WorkflowSshBatchExecutor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#value WorkflowSshBatchExecutor#value}
   */
   readonly value?: string;
 }
@@ -2822,6 +2826,7 @@ export function workflowSshBatchExecutorTagsToTerraform(struct?: WorkflowSshBatc
     definition: cdktf.listMapper(workflowSshBatchExecutorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2860,6 +2865,12 @@ export function workflowSshBatchExecutorTagsToHclTerraform(struct?: WorkflowSshB
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2922,6 +2933,10 @@ export class WorkflowSshBatchExecutorTagsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2942,6 +2957,7 @@ export class WorkflowSshBatchExecutorTagsOutputReference extends cdktf.ComplexOb
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2957,6 +2973,7 @@ export class WorkflowSshBatchExecutorTagsOutputReference extends cdktf.ComplexOb
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3042,6 +3059,22 @@ export class WorkflowSshBatchExecutorTagsOutputReference extends cdktf.ComplexOb
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3096,23 +3129,23 @@ export class WorkflowSshBatchExecutorTagsList extends cdktf.ComplexList {
 }
 export interface WorkflowSshBatchExecutorTaskDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -3344,23 +3377,23 @@ export class WorkflowSshBatchExecutorTaskDefinitionList extends cdktf.ComplexLis
 }
 export interface WorkflowSshBatchExecutorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -3592,23 +3625,23 @@ export class WorkflowSshBatchExecutorVersionContextInterestedMosList extends cdk
 }
 export interface WorkflowSshBatchExecutorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#moid WorkflowSshBatchExecutor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#selector WorkflowSshBatchExecutor#selector}
   */
   readonly selector?: string;
 }
@@ -3840,39 +3873,39 @@ export class WorkflowSshBatchExecutorVersionContextRefMoList extends cdktf.Compl
 }
 export interface WorkflowSshBatchExecutorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#additional_properties WorkflowSshBatchExecutor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#class_id WorkflowSshBatchExecutor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#interested_mos WorkflowSshBatchExecutor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#interested_mos WorkflowSshBatchExecutor#interested_mos}
   */
   readonly interestedMos?: WorkflowSshBatchExecutorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#marked_for_deletion WorkflowSshBatchExecutor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#marked_for_deletion WorkflowSshBatchExecutor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#nr_version WorkflowSshBatchExecutor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#nr_version WorkflowSshBatchExecutor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#object_type WorkflowSshBatchExecutor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#ref_mo WorkflowSshBatchExecutor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#ref_mo WorkflowSshBatchExecutor#ref_mo}
   */
   readonly refMo?: WorkflowSshBatchExecutorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#timestamp WorkflowSshBatchExecutor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#timestamp WorkflowSshBatchExecutor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#version_type WorkflowSshBatchExecutor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#version_type WorkflowSshBatchExecutor#version_type}
   */
   readonly versionType?: string;
 }
@@ -4220,7 +4253,7 @@ export class WorkflowSshBatchExecutorVersionContextList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor intersight_workflow_ssh_batch_executor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor intersight_workflow_ssh_batch_executor}
 */
 export class WorkflowSshBatchExecutor extends cdktf.TerraformResource {
 
@@ -4236,7 +4269,7 @@ export class WorkflowSshBatchExecutor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowSshBatchExecutor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowSshBatchExecutor to import
-  * @param importFromId The id of the existing WorkflowSshBatchExecutor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowSshBatchExecutor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowSshBatchExecutor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4248,7 +4281,7 @@ export class WorkflowSshBatchExecutor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/workflow_ssh_batch_executor intersight_workflow_ssh_batch_executor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_ssh_batch_executor intersight_workflow_ssh_batch_executor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4259,8 +4292,8 @@ export class WorkflowSshBatchExecutor extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_workflow_ssh_batch_executor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixAssertHelperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper#id DataNutanixAssertHelper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper#id DataNutanixAssertHelper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataNutanixAssertHelperConfig extends cdktf.TerraformMetaArgume
   /**
   * checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper#checks DataNutanixAssertHelper#checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper#checks DataNutanixAssertHelper#checks}
   */
   readonly checks?: DataNutanixAssertHelperChecks[] | cdktf.IResolvable;
 }
 export interface DataNutanixAssertHelperChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper#condition DataNutanixAssertHelper#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper#condition DataNutanixAssertHelper#condition}
   */
   readonly condition: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper#error_message DataNutanixAssertHelper#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper#error_message DataNutanixAssertHelper#error_message}
   */
   readonly errorMessage: string;
 }
@@ -166,7 +166,7 @@ export class DataNutanixAssertHelperChecksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper nutanix_assert_helper}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper nutanix_assert_helper}
 */
 export class DataNutanixAssertHelper extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataNutanixAssertHelper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixAssertHelper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixAssertHelper to import
-  * @param importFromId The id of the existing DataNutanixAssertHelper that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixAssertHelper that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixAssertHelper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataNutanixAssertHelper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/assert_helper nutanix_assert_helper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/assert_helper nutanix_assert_helper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataNutanixAssertHelper extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_assert_helper',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

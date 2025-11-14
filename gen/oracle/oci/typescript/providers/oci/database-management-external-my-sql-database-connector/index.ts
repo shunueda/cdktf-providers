@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementExternalMySqlDatabaseConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#check_connection_status_trigger DatabaseManagementExternalMySqlDatabaseConnector#check_connection_status_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#check_connection_status_trigger DatabaseManagementExternalMySqlDatabaseConnector#check_connection_status_trigger}
   */
   readonly checkConnectionStatusTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#compartment_id DatabaseManagementExternalMySqlDatabaseConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#compartment_id DatabaseManagementExternalMySqlDatabaseConnector#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#id DatabaseManagementExternalMySqlDatabaseConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#id DatabaseManagementExternalMySqlDatabaseConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#is_test_connection_param DatabaseManagementExternalMySqlDatabaseConnector#is_test_connection_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#is_test_connection_param DatabaseManagementExternalMySqlDatabaseConnector#is_test_connection_param}
   */
   readonly isTestConnectionParam: boolean | cdktf.IResolvable;
   /**
   * connector_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#connector_details DatabaseManagementExternalMySqlDatabaseConnector#connector_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#connector_details DatabaseManagementExternalMySqlDatabaseConnector#connector_details}
   */
   readonly connectorDetails: DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#timeouts DatabaseManagementExternalMySqlDatabaseConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#timeouts DatabaseManagementExternalMySqlDatabaseConnector#timeouts}
   */
   readonly timeouts?: DatabaseManagementExternalMySqlDatabaseConnectorTimeouts;
 }
 export interface DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#credential_type DatabaseManagementExternalMySqlDatabaseConnector#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#credential_type DatabaseManagementExternalMySqlDatabaseConnector#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#display_name DatabaseManagementExternalMySqlDatabaseConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#display_name DatabaseManagementExternalMySqlDatabaseConnector#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#external_database_id DatabaseManagementExternalMySqlDatabaseConnector#external_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#external_database_id DatabaseManagementExternalMySqlDatabaseConnector#external_database_id}
   */
   readonly externalDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#host_name DatabaseManagementExternalMySqlDatabaseConnector#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#host_name DatabaseManagementExternalMySqlDatabaseConnector#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#macs_agent_id DatabaseManagementExternalMySqlDatabaseConnector#macs_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#macs_agent_id DatabaseManagementExternalMySqlDatabaseConnector#macs_agent_id}
   */
   readonly macsAgentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#network_protocol DatabaseManagementExternalMySqlDatabaseConnector#network_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#network_protocol DatabaseManagementExternalMySqlDatabaseConnector#network_protocol}
   */
   readonly networkProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#port DatabaseManagementExternalMySqlDatabaseConnector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#port DatabaseManagementExternalMySqlDatabaseConnector#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#ssl_secret_id DatabaseManagementExternalMySqlDatabaseConnector#ssl_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#ssl_secret_id DatabaseManagementExternalMySqlDatabaseConnector#ssl_secret_id}
   */
   readonly sslSecretId: string;
 }
@@ -332,15 +332,15 @@ export class DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetailsOut
 }
 export interface DatabaseManagementExternalMySqlDatabaseConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#create DatabaseManagementExternalMySqlDatabaseConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#create DatabaseManagementExternalMySqlDatabaseConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#delete DatabaseManagementExternalMySqlDatabaseConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#delete DatabaseManagementExternalMySqlDatabaseConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#update DatabaseManagementExternalMySqlDatabaseConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#update DatabaseManagementExternalMySqlDatabaseConnector#update}
   */
   readonly update?: string;
 }
@@ -492,7 +492,7 @@ export class DatabaseManagementExternalMySqlDatabaseConnectorTimeoutsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector oci_database_management_external_my_sql_database_connector}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector oci_database_management_external_my_sql_database_connector}
 */
 export class DatabaseManagementExternalMySqlDatabaseConnector extends cdktf.TerraformResource {
 
@@ -508,7 +508,7 @@ export class DatabaseManagementExternalMySqlDatabaseConnector extends cdktf.Terr
   * Generates CDKTF code for importing a DatabaseManagementExternalMySqlDatabaseConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementExternalMySqlDatabaseConnector to import
-  * @param importFromId The id of the existing DatabaseManagementExternalMySqlDatabaseConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementExternalMySqlDatabaseConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementExternalMySqlDatabaseConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -520,7 +520,7 @@ export class DatabaseManagementExternalMySqlDatabaseConnector extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_external_my_sql_database_connector oci_database_management_external_my_sql_database_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_external_my_sql_database_connector oci_database_management_external_my_sql_database_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -531,8 +531,8 @@ export class DatabaseManagementExternalMySqlDatabaseConnector extends cdktf.Terr
       terraformResourceType: 'oci_database_management_external_my_sql_database_connector',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

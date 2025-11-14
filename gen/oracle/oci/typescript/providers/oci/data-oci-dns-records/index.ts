@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDnsRecordsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#compartment_id DataOciDnsRecords#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#compartment_id DataOciDnsRecords#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#domain DataOciDnsRecords#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#domain DataOciDnsRecords#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#domain_contains DataOciDnsRecords#domain_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#domain_contains DataOciDnsRecords#domain_contains}
   */
   readonly domainContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#id DataOciDnsRecords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#id DataOciDnsRecords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#rtype DataOciDnsRecords#rtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#rtype DataOciDnsRecords#rtype}
   */
   readonly rtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#sort_by DataOciDnsRecords#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#sort_by DataOciDnsRecords#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#sort_order DataOciDnsRecords#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#sort_order DataOciDnsRecords#sort_order}
   */
   readonly sortOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#zone_name_or_id DataOciDnsRecords#zone_name_or_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#zone_name_or_id DataOciDnsRecords#zone_name_or_id}
   */
   readonly zoneNameOrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#zone_version DataOciDnsRecords#zone_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#zone_version DataOciDnsRecords#zone_version}
   */
   readonly zoneVersion?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#filter DataOciDnsRecords#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#filter DataOciDnsRecords#filter}
   */
   readonly filter?: DataOciDnsRecordsFilter[] | cdktf.IResolvable;
 }
@@ -170,15 +170,15 @@ export class DataOciDnsRecordsRecordsList extends cdktf.ComplexList {
 }
 export interface DataOciDnsRecordsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#name DataOciDnsRecords#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#name DataOciDnsRecords#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#regex DataOciDnsRecords#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#regex DataOciDnsRecords#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#values DataOciDnsRecords#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#values DataOciDnsRecords#values}
   */
   readonly values: string[];
 }
@@ -346,7 +346,7 @@ export class DataOciDnsRecordsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records oci_dns_records}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records oci_dns_records}
 */
 export class DataOciDnsRecords extends cdktf.TerraformDataSource {
 
@@ -362,7 +362,7 @@ export class DataOciDnsRecords extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDnsRecords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDnsRecords to import
-  * @param importFromId The id of the existing DataOciDnsRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDnsRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDnsRecords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -374,7 +374,7 @@ export class DataOciDnsRecords extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_records oci_dns_records} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_records oci_dns_records} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,8 +385,8 @@ export class DataOciDnsRecords extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_dns_records',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

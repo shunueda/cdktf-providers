@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceDeviceClaimConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#account_moid DataIntersightApplianceDeviceClaim#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#account_moid DataIntersightApplianceDeviceClaim#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightApplianceDeviceClaimConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#create_time DataIntersightApplianceDeviceClaim#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#create_time DataIntersightApplianceDeviceClaim#create_time}
   */
   readonly createTime?: string;
   /**
   * Device identifier of the endpoint device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#device_id DataIntersightApplianceDeviceClaim#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#device_id DataIntersightApplianceDeviceClaim#device_id}
   */
   readonly deviceId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#domain_group_moid DataIntersightApplianceDeviceClaim#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#domain_group_moid DataIntersightApplianceDeviceClaim#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Hostname or IP address of the endpoint device the user wants to claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#hostname DataIntersightApplianceDeviceClaim#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#hostname DataIntersightApplianceDeviceClaim#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#id DataIntersightApplianceDeviceClaim#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#id DataIntersightApplianceDeviceClaim#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,48 +59,48 @@ export interface DataIntersightApplianceDeviceClaimConfig extends cdktf.Terrafor
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#is_password_set DataIntersightApplianceDeviceClaim#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#is_password_set DataIntersightApplianceDeviceClaim#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * Tracks if this device is to be claimed or certificate renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#is_renew DataIntersightApplianceDeviceClaim#is_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#is_renew DataIntersightApplianceDeviceClaim#is_renew}
   */
   readonly isRenew?: boolean | cdktf.IResolvable;
   /**
   * Message set by the device claim process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#message DataIntersightApplianceDeviceClaim#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#message DataIntersightApplianceDeviceClaim#message}
   */
   readonly message?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#mod_time DataIntersightApplianceDeviceClaim#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#mod_time DataIntersightApplianceDeviceClaim#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#owners DataIntersightApplianceDeviceClaim#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#owners DataIntersightApplianceDeviceClaim#owners}
   */
   readonly owners?: string[];
   /**
   * Password to be used to login to the endpoint device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#password DataIntersightApplianceDeviceClaim#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#password DataIntersightApplianceDeviceClaim#password}
   */
   readonly password?: string;
   /**
@@ -189,26 +189,26 @@ export interface DataIntersightApplianceDeviceClaimConfig extends cdktf.Terrafor
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#platform_type DataIntersightApplianceDeviceClaim#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#platform_type DataIntersightApplianceDeviceClaim#platform_type}
   */
   readonly platformType?: string;
   /**
   * User defined claim request identifier set by the UI. The RequestId field is not a mandatory. The Intersight Appliance will assign a unique value automatically if the field is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#request_id DataIntersightApplianceDeviceClaim#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#request_id DataIntersightApplianceDeviceClaim#request_id}
   */
   readonly requestId?: string;
   /**
   * Device security token of the endpoint device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#security_token DataIntersightApplianceDeviceClaim#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#security_token DataIntersightApplianceDeviceClaim#security_token}
   */
   readonly securityToken?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#shared_scope DataIntersightApplianceDeviceClaim#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#shared_scope DataIntersightApplianceDeviceClaim#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -217,55 +217,55 @@ export interface DataIntersightApplianceDeviceClaimConfig extends cdktf.Terrafor
   * * `failed` - Device claim operation has failed.
   * * `completed` - Device claim operation has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#status DataIntersightApplianceDeviceClaim#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#status DataIntersightApplianceDeviceClaim#status}
   */
   readonly status?: string;
   /**
   * Username to log in to the endpoint device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#username DataIntersightApplianceDeviceClaim#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#username DataIntersightApplianceDeviceClaim#username}
   */
   readonly username?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#account DataIntersightApplianceDeviceClaim#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#account DataIntersightApplianceDeviceClaim#account}
   */
   readonly account?: DataIntersightApplianceDeviceClaimAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#ancestors DataIntersightApplianceDeviceClaim#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#ancestors DataIntersightApplianceDeviceClaim#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceDeviceClaimAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#parent DataIntersightApplianceDeviceClaim#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#parent DataIntersightApplianceDeviceClaim#parent}
   */
   readonly parent?: DataIntersightApplianceDeviceClaimParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#permission_resources DataIntersightApplianceDeviceClaim#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#permission_resources DataIntersightApplianceDeviceClaim#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceDeviceClaimPermissionResources[] | cdktf.IResolvable;
   /**
   * reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#reservation DataIntersightApplianceDeviceClaim#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#reservation DataIntersightApplianceDeviceClaim#reservation}
   */
   readonly reservation?: DataIntersightApplianceDeviceClaimReservation;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#tags DataIntersightApplianceDeviceClaim#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#tags DataIntersightApplianceDeviceClaim#tags}
   */
   readonly tags?: DataIntersightApplianceDeviceClaimTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#version_context DataIntersightApplianceDeviceClaim#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#version_context DataIntersightApplianceDeviceClaim#version_context}
   */
   readonly versionContext?: DataIntersightApplianceDeviceClaimVersionContext;
 }
@@ -1012,6 +1012,11 @@ export class DataIntersightApplianceDeviceClaimResultsTagsOutputReference extend
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1567,7 +1572,7 @@ export class DataIntersightApplianceDeviceClaimResultsList extends cdktf.Complex
 }
 export interface DataIntersightApplianceDeviceClaimAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1575,19 +1580,19 @@ export interface DataIntersightApplianceDeviceClaimAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1600,7 +1605,7 @@ export interface DataIntersightApplianceDeviceClaimAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -1800,7 +1805,7 @@ export class DataIntersightApplianceDeviceClaimAccountOutputReference extends cd
 }
 export interface DataIntersightApplianceDeviceClaimAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1813,19 @@ export interface DataIntersightApplianceDeviceClaimAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1838,7 @@ export interface DataIntersightApplianceDeviceClaimAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -2065,7 +2070,7 @@ export class DataIntersightApplianceDeviceClaimAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightApplianceDeviceClaimParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2073,19 +2078,19 @@ export interface DataIntersightApplianceDeviceClaimParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2098,7 +2103,7 @@ export interface DataIntersightApplianceDeviceClaimParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2303,7 @@ export class DataIntersightApplianceDeviceClaimParentOutputReference extends cdk
 }
 export interface DataIntersightApplianceDeviceClaimPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2311,19 @@ export interface DataIntersightApplianceDeviceClaimPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2336,7 @@ export interface DataIntersightApplianceDeviceClaimPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -2563,7 +2568,7 @@ export class DataIntersightApplianceDeviceClaimPermissionResourcesList extends c
 }
 export interface DataIntersightApplianceDeviceClaimReservation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2571,19 +2576,19 @@ export interface DataIntersightApplianceDeviceClaimReservation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2596,7 +2601,7 @@ export interface DataIntersightApplianceDeviceClaimReservation {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -2796,7 +2801,7 @@ export class DataIntersightApplianceDeviceClaimReservationOutputReference extend
 }
 export interface DataIntersightApplianceDeviceClaimTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2804,19 +2809,19 @@ export interface DataIntersightApplianceDeviceClaimTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2829,7 +2834,7 @@ export interface DataIntersightApplianceDeviceClaimTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -3061,7 +3066,7 @@ export class DataIntersightApplianceDeviceClaimTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightApplianceDeviceClaimTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3069,19 +3074,19 @@ export interface DataIntersightApplianceDeviceClaimTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3094,7 +3099,7 @@ export interface DataIntersightApplianceDeviceClaimTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -3294,45 +3299,51 @@ export class DataIntersightApplianceDeviceClaimTagsDefinitionOutputReference ext
 }
 export interface DataIntersightApplianceDeviceClaimTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#key DataIntersightApplianceDeviceClaim#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#key DataIntersightApplianceDeviceClaim#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#propagated DataIntersightApplianceDeviceClaim#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#propagated DataIntersightApplianceDeviceClaim#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#sys_tag DataIntersightApplianceDeviceClaim#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#type DataIntersightApplianceDeviceClaim#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#type DataIntersightApplianceDeviceClaim#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#value DataIntersightApplianceDeviceClaim#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#value DataIntersightApplianceDeviceClaim#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#ancestor_definitions DataIntersightApplianceDeviceClaim#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#ancestor_definitions DataIntersightApplianceDeviceClaim#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceDeviceClaimTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#definition DataIntersightApplianceDeviceClaim#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#definition DataIntersightApplianceDeviceClaim#definition}
   */
   readonly definition?: DataIntersightApplianceDeviceClaimTagsDefinition;
 }
@@ -3346,6 +3357,7 @@ export function dataIntersightApplianceDeviceClaimTagsToTerraform(struct?: DataI
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceDeviceClaimTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3374,6 +3386,12 @@ export function dataIntersightApplianceDeviceClaimTagsToHclTerraform(struct?: Da
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3440,6 +3458,10 @@ export class DataIntersightApplianceDeviceClaimTagsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3466,6 +3488,7 @@ export class DataIntersightApplianceDeviceClaimTagsOutputReference extends cdktf
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3481,6 +3504,7 @@ export class DataIntersightApplianceDeviceClaimTagsOutputReference extends cdktf
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3534,6 +3558,22 @@ export class DataIntersightApplianceDeviceClaimTagsOutputReference extends cdktf
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3622,7 +3662,7 @@ export class DataIntersightApplianceDeviceClaimTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightApplianceDeviceClaimVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3630,19 +3670,19 @@ export interface DataIntersightApplianceDeviceClaimVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3655,7 +3695,7 @@ export interface DataIntersightApplianceDeviceClaimVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -3887,7 +3927,7 @@ export class DataIntersightApplianceDeviceClaimVersionContextInterestedMosList e
 }
 export interface DataIntersightApplianceDeviceClaimVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3895,19 +3935,19 @@ export interface DataIntersightApplianceDeviceClaimVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#moid DataIntersightApplianceDeviceClaim#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3920,7 +3960,7 @@ export interface DataIntersightApplianceDeviceClaimVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#selector DataIntersightApplianceDeviceClaim#selector}
   */
   readonly selector?: string;
 }
@@ -4120,7 +4160,7 @@ export class DataIntersightApplianceDeviceClaimVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightApplianceDeviceClaimVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#additional_properties DataIntersightApplianceDeviceClaim#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4128,32 +4168,32 @@ export interface DataIntersightApplianceDeviceClaimVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#class_id DataIntersightApplianceDeviceClaim#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#marked_for_deletion DataIntersightApplianceDeviceClaim#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#marked_for_deletion DataIntersightApplianceDeviceClaim#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#nr_version DataIntersightApplianceDeviceClaim#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#nr_version DataIntersightApplianceDeviceClaim#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#object_type DataIntersightApplianceDeviceClaim#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#timestamp DataIntersightApplianceDeviceClaim#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#timestamp DataIntersightApplianceDeviceClaim#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4164,19 +4204,19 @@ export interface DataIntersightApplianceDeviceClaimVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#version_type DataIntersightApplianceDeviceClaim#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#version_type DataIntersightApplianceDeviceClaim#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#interested_mos DataIntersightApplianceDeviceClaim#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#interested_mos DataIntersightApplianceDeviceClaim#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceDeviceClaimVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#ref_mo DataIntersightApplianceDeviceClaim#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#ref_mo DataIntersightApplianceDeviceClaim#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceDeviceClaimVersionContextRefMo;
 }
@@ -4492,7 +4532,7 @@ export class DataIntersightApplianceDeviceClaimVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim intersight_appliance_device_claim}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim intersight_appliance_device_claim}
 */
 export class DataIntersightApplianceDeviceClaim extends cdktf.TerraformDataSource {
 
@@ -4508,7 +4548,7 @@ export class DataIntersightApplianceDeviceClaim extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightApplianceDeviceClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceDeviceClaim to import
-  * @param importFromId The id of the existing DataIntersightApplianceDeviceClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceDeviceClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceDeviceClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4520,7 +4560,7 @@ export class DataIntersightApplianceDeviceClaim extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_device_claim intersight_appliance_device_claim} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_claim intersight_appliance_device_claim} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4531,8 +4571,8 @@ export class DataIntersightApplianceDeviceClaim extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_appliance_device_claim',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDynamicGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#compartment_id IdentityDynamicGroup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#compartment_id IdentityDynamicGroup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#defined_tags IdentityDynamicGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#defined_tags IdentityDynamicGroup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#description IdentityDynamicGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#description IdentityDynamicGroup#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#freeform_tags IdentityDynamicGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#freeform_tags IdentityDynamicGroup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#id IdentityDynamicGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#id IdentityDynamicGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#matching_rule IdentityDynamicGroup#matching_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#matching_rule IdentityDynamicGroup#matching_rule}
   */
   readonly matchingRule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#name IdentityDynamicGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#name IdentityDynamicGroup#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#timeouts IdentityDynamicGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#timeouts IdentityDynamicGroup#timeouts}
   */
   readonly timeouts?: IdentityDynamicGroupTimeouts;
 }
 export interface IdentityDynamicGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#create IdentityDynamicGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#create IdentityDynamicGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#delete IdentityDynamicGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#delete IdentityDynamicGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#update IdentityDynamicGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#update IdentityDynamicGroup#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class IdentityDynamicGroupTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group oci_identity_dynamic_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group oci_identity_dynamic_group}
 */
 export class IdentityDynamicGroup extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class IdentityDynamicGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDynamicGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDynamicGroup to import
-  * @param importFromId The id of the existing IdentityDynamicGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDynamicGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDynamicGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class IdentityDynamicGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/identity_dynamic_group oci_identity_dynamic_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/identity_dynamic_group oci_identity_dynamic_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class IdentityDynamicGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_dynamic_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

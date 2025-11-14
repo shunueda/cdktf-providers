@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOnesubscriptionRatecardsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#compartment_id DataOciOnesubscriptionRatecards#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#compartment_id DataOciOnesubscriptionRatecards#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#id DataOciOnesubscriptionRatecards#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#id DataOciOnesubscriptionRatecards#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#part_number DataOciOnesubscriptionRatecards#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#part_number DataOciOnesubscriptionRatecards#part_number}
   */
   readonly partNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#subscription_id DataOciOnesubscriptionRatecards#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#subscription_id DataOciOnesubscriptionRatecards#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#time_from DataOciOnesubscriptionRatecards#time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#time_from DataOciOnesubscriptionRatecards#time_from}
   */
   readonly timeFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#time_to DataOciOnesubscriptionRatecards#time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#time_to DataOciOnesubscriptionRatecards#time_to}
   */
   readonly timeTo?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#filter DataOciOnesubscriptionRatecards#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#filter DataOciOnesubscriptionRatecards#filter}
   */
   readonly filter?: DataOciOnesubscriptionRatecardsFilter[] | cdktf.IResolvable;
 }
@@ -436,15 +436,15 @@ export class DataOciOnesubscriptionRatecardsRateCardsList extends cdktf.ComplexL
 }
 export interface DataOciOnesubscriptionRatecardsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#name DataOciOnesubscriptionRatecards#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#name DataOciOnesubscriptionRatecards#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#regex DataOciOnesubscriptionRatecards#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#regex DataOciOnesubscriptionRatecards#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#values DataOciOnesubscriptionRatecards#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#values DataOciOnesubscriptionRatecards#values}
   */
   readonly values: string[];
 }
@@ -612,7 +612,7 @@ export class DataOciOnesubscriptionRatecardsFilterList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards oci_onesubscription_ratecards}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards oci_onesubscription_ratecards}
 */
 export class DataOciOnesubscriptionRatecards extends cdktf.TerraformDataSource {
 
@@ -628,7 +628,7 @@ export class DataOciOnesubscriptionRatecards extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciOnesubscriptionRatecards resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOnesubscriptionRatecards to import
-  * @param importFromId The id of the existing DataOciOnesubscriptionRatecards that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOnesubscriptionRatecards that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOnesubscriptionRatecards to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -640,7 +640,7 @@ export class DataOciOnesubscriptionRatecards extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/onesubscription_ratecards oci_onesubscription_ratecards} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/onesubscription_ratecards oci_onesubscription_ratecards} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -651,8 +651,8 @@ export class DataOciOnesubscriptionRatecards extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_onesubscription_ratecards',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

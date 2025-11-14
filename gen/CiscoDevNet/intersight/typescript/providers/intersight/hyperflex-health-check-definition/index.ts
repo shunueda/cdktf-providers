@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#account_moid HyperflexHealthCheckDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#account_moid HyperflexHealthCheckDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#ancestors HyperflexHealthCheckDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#ancestors HyperflexHealthCheckDefinition#ancestors}
   */
   readonly ancestors?: HyperflexHealthCheckDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * Category that the health check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#category HyperflexHealthCheckDefinition#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#category HyperflexHealthCheckDefinition#category}
   */
   readonly category?: string;
   /**
@@ -34,57 +34,57 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Static information detailing the common causes for the health check failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#common_causes HyperflexHealthCheckDefinition#common_causes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#common_causes HyperflexHealthCheckDefinition#common_causes}
   */
   readonly commonCauses?: string;
   /**
   * Execution configuration fo the health check script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#configuration HyperflexHealthCheckDefinition#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#configuration HyperflexHealthCheckDefinition#configuration}
   */
   readonly configuration?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#create_time HyperflexHealthCheckDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#create_time HyperflexHealthCheckDefinition#create_time}
   */
   readonly createTime?: string;
   /**
   * Default version Script info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#default_health_check_script_info HyperflexHealthCheckDefinition#default_health_check_script_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#default_health_check_script_info HyperflexHealthCheckDefinition#default_health_check_script_info}
   */
   readonly defaultHealthCheckScriptInfo?: HyperflexHealthCheckDefinitionDefaultHealthCheckScriptInfo[] | cdktf.IResolvable;
   /**
   * Description of the health check definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#description HyperflexHealthCheckDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#description HyperflexHealthCheckDefinition#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#domain_group_moid HyperflexHealthCheckDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#domain_group_moid HyperflexHealthCheckDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#health_check_script_infos HyperflexHealthCheckDefinition#health_check_script_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#health_check_script_infos HyperflexHealthCheckDefinition#health_check_script_infos}
   */
   readonly healthCheckScriptInfos?: HyperflexHealthCheckDefinitionHealthCheckScriptInfos[] | cdktf.IResolvable;
   /**
   * Static information detailing the health impact of the health check failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#health_impact HyperflexHealthCheckDefinition#health_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#health_impact HyperflexHealthCheckDefinition#health_impact}
   */
   readonly healthImpact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#id HyperflexHealthCheckDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#id HyperflexHealthCheckDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,67 +93,67 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   /**
   * Internal name of the health check definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#internal_name HyperflexHealthCheckDefinition#internal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#internal_name HyperflexHealthCheckDefinition#internal_name}
   */
   readonly internalName?: string;
   /**
   * Minimum HyperFlex version that the check is supported on. Defaults to version 3.0.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#minimum_hyper_flex_version HyperflexHealthCheckDefinition#minimum_hyper_flex_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#minimum_hyper_flex_version HyperflexHealthCheckDefinition#minimum_hyper_flex_version}
   */
   readonly minimumHyperFlexVersion?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#mod_time HyperflexHealthCheckDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#mod_time HyperflexHealthCheckDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
   * Name of the health check definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#name HyperflexHealthCheckDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#name HyperflexHealthCheckDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#owners HyperflexHealthCheckDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#owners HyperflexHealthCheckDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#parent HyperflexHealthCheckDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#parent HyperflexHealthCheckDefinition#parent}
   */
   readonly parent?: HyperflexHealthCheckDefinitionParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#permission_resources HyperflexHealthCheckDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#permission_resources HyperflexHealthCheckDefinition#permission_resources}
   */
   readonly permissionResources?: HyperflexHealthCheckDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * Static information containing additional reference for the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#reference HyperflexHealthCheckDefinition#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#reference HyperflexHealthCheckDefinition#reference}
   */
   readonly reference?: string;
   /**
   * Static information detailing the possible remediation actions that can be taken to remedy the health check failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#resolution HyperflexHealthCheckDefinition#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#resolution HyperflexHealthCheckDefinition#resolution}
   */
   readonly resolution?: string;
   /**
@@ -161,21 +161,21 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   * * `ON_DEMAND` - Execute the health check on-demand.
   * * `SCHEDULED` - Execute the health check on a scheduled interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_execution_mode HyperflexHealthCheckDefinition#script_execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_execution_mode HyperflexHealthCheckDefinition#script_execution_mode}
   */
   readonly scriptExecutionMode?: string;
   /**
   * Indicates if the script needs to be executed on HyperFlex compute nodes. |
   * Typically, scripts are only executed on the storage Nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_execution_on_compute_nodes HyperflexHealthCheckDefinition#script_execution_on_compute_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_execution_on_compute_nodes HyperflexHealthCheckDefinition#script_execution_on_compute_nodes}
   */
   readonly scriptExecutionOnComputeNodes?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#shared_scope HyperflexHealthCheckDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#shared_scope HyperflexHealthCheckDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -184,11 +184,11 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   * * `ESXi` - The Health Check is supported only on Vmware ESXi hypervisor of any version.
   * * `HyperV` - The Health Check is supported only on Microsoft HyperV hypervisor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#supported_hypervisor_type HyperflexHealthCheckDefinition#supported_hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#supported_hypervisor_type HyperflexHealthCheckDefinition#supported_hypervisor_type}
   */
   readonly supportedHypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#tags HyperflexHealthCheckDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#tags HyperflexHealthCheckDefinition#tags}
   */
   readonly tags?: HyperflexHealthCheckDefinitionTags[] | cdktf.IResolvable;
   /**
@@ -198,45 +198,45 @@ export interface HyperflexHealthCheckDefinitionConfig extends cdktf.TerraformMet
   * * `EXECUTE_ON_ALL_NODES_AND_AGGREGATE` - Execute the health check on all Nodes and perform custom aggregation.
   * * `EXECUTE_ON_CURRENT_NODE` - The HyperFlex health check is executed on the node which receives the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#target_execution_type HyperflexHealthCheckDefinition#target_execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#target_execution_type HyperflexHealthCheckDefinition#target_execution_type}
   */
   readonly targetExecutionType?: string;
   /**
   * Health check script execution timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#timeout HyperflexHealthCheckDefinition#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#timeout HyperflexHealthCheckDefinition#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#unsupported_hyper_flex_versions HyperflexHealthCheckDefinition#unsupported_hyper_flex_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#unsupported_hyper_flex_versions HyperflexHealthCheckDefinition#unsupported_hyper_flex_versions}
   */
   readonly unsupportedHyperFlexVersions?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#version_context HyperflexHealthCheckDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#version_context HyperflexHealthCheckDefinition#version_context}
   */
   readonly versionContext?: HyperflexHealthCheckDefinitionVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexHealthCheckDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -468,39 +468,39 @@ export class HyperflexHealthCheckDefinitionAncestorsList extends cdktf.ComplexLi
 }
 export interface HyperflexHealthCheckDefinitionDefaultHealthCheckScriptInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#aggregate_script_name HyperflexHealthCheckDefinition#aggregate_script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#aggregate_script_name HyperflexHealthCheckDefinition#aggregate_script_name}
   */
   readonly aggregateScriptName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#hyperflex_version HyperflexHealthCheckDefinition#hyperflex_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#hyperflex_version HyperflexHealthCheckDefinition#hyperflex_version}
   */
   readonly hyperflexVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_execute_location HyperflexHealthCheckDefinition#script_execute_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_execute_location HyperflexHealthCheckDefinition#script_execute_location}
   */
   readonly scriptExecuteLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_input HyperflexHealthCheckDefinition#script_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_input HyperflexHealthCheckDefinition#script_input}
   */
   readonly scriptInput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_name HyperflexHealthCheckDefinition#script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_name HyperflexHealthCheckDefinition#script_name}
   */
   readonly scriptName?: string;
 }
@@ -848,39 +848,39 @@ export class HyperflexHealthCheckDefinitionDefaultHealthCheckScriptInfoList exte
 }
 export interface HyperflexHealthCheckDefinitionHealthCheckScriptInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#aggregate_script_name HyperflexHealthCheckDefinition#aggregate_script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#aggregate_script_name HyperflexHealthCheckDefinition#aggregate_script_name}
   */
   readonly aggregateScriptName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#hyperflex_version HyperflexHealthCheckDefinition#hyperflex_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#hyperflex_version HyperflexHealthCheckDefinition#hyperflex_version}
   */
   readonly hyperflexVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_execute_location HyperflexHealthCheckDefinition#script_execute_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_execute_location HyperflexHealthCheckDefinition#script_execute_location}
   */
   readonly scriptExecuteLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_input HyperflexHealthCheckDefinition#script_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_input HyperflexHealthCheckDefinition#script_input}
   */
   readonly scriptInput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#script_name HyperflexHealthCheckDefinition#script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#script_name HyperflexHealthCheckDefinition#script_name}
   */
   readonly scriptName?: string;
 }
@@ -1228,23 +1228,23 @@ export class HyperflexHealthCheckDefinitionHealthCheckScriptInfosList extends cd
 }
 export interface HyperflexHealthCheckDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1476,23 +1476,23 @@ export class HyperflexHealthCheckDefinitionParentList extends cdktf.ComplexList 
 }
 export interface HyperflexHealthCheckDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1724,23 +1724,23 @@ export class HyperflexHealthCheckDefinitionPermissionResourcesList extends cdktf
 }
 export interface HyperflexHealthCheckDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1972,23 +1972,23 @@ export class HyperflexHealthCheckDefinitionTagsAncestorDefinitionsList extends c
 }
 export interface HyperflexHealthCheckDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2220,31 +2220,35 @@ export class HyperflexHealthCheckDefinitionTagsDefinitionList extends cdktf.Comp
 }
 export interface HyperflexHealthCheckDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#ancestor_definitions HyperflexHealthCheckDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#ancestor_definitions HyperflexHealthCheckDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexHealthCheckDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#definition HyperflexHealthCheckDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#definition HyperflexHealthCheckDefinition#definition}
   */
   readonly definition?: HyperflexHealthCheckDefinitionTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#key HyperflexHealthCheckDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#key HyperflexHealthCheckDefinition#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#propagated HyperflexHealthCheckDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#propagated HyperflexHealthCheckDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#type HyperflexHealthCheckDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#sys_tag HyperflexHealthCheckDefinition#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#type HyperflexHealthCheckDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#value HyperflexHealthCheckDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#value HyperflexHealthCheckDefinition#value}
   */
   readonly value?: string;
 }
@@ -2260,6 +2264,7 @@ export function hyperflexHealthCheckDefinitionTagsToTerraform(struct?: Hyperflex
     definition: cdktf.listMapper(hyperflexHealthCheckDefinitionTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2298,6 +2303,12 @@ export function hyperflexHealthCheckDefinitionTagsToHclTerraform(struct?: Hyperf
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2360,6 +2371,10 @@ export class HyperflexHealthCheckDefinitionTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2380,6 +2395,7 @@ export class HyperflexHealthCheckDefinitionTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2395,6 +2411,7 @@ export class HyperflexHealthCheckDefinitionTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2480,6 +2497,22 @@ export class HyperflexHealthCheckDefinitionTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2534,23 +2567,23 @@ export class HyperflexHealthCheckDefinitionTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexHealthCheckDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2782,23 +2815,23 @@ export class HyperflexHealthCheckDefinitionVersionContextInterestedMosList exten
 }
 export interface HyperflexHealthCheckDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#moid HyperflexHealthCheckDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#selector HyperflexHealthCheckDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3030,39 +3063,39 @@ export class HyperflexHealthCheckDefinitionVersionContextRefMoList extends cdktf
 }
 export interface HyperflexHealthCheckDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#additional_properties HyperflexHealthCheckDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#class_id HyperflexHealthCheckDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#interested_mos HyperflexHealthCheckDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#interested_mos HyperflexHealthCheckDefinition#interested_mos}
   */
   readonly interestedMos?: HyperflexHealthCheckDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#marked_for_deletion HyperflexHealthCheckDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#marked_for_deletion HyperflexHealthCheckDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#nr_version HyperflexHealthCheckDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#object_type HyperflexHealthCheckDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#ref_mo HyperflexHealthCheckDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#ref_mo HyperflexHealthCheckDefinition#ref_mo}
   */
   readonly refMo?: HyperflexHealthCheckDefinitionVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#timestamp HyperflexHealthCheckDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#timestamp HyperflexHealthCheckDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#version_type HyperflexHealthCheckDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#version_type HyperflexHealthCheckDefinition#version_type}
   */
   readonly versionType?: string;
 }
@@ -3410,7 +3443,7 @@ export class HyperflexHealthCheckDefinitionVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition intersight_hyperflex_health_check_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition intersight_hyperflex_health_check_definition}
 */
 export class HyperflexHealthCheckDefinition extends cdktf.TerraformResource {
 
@@ -3426,7 +3459,7 @@ export class HyperflexHealthCheckDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexHealthCheckDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexHealthCheckDefinition to import
-  * @param importFromId The id of the existing HyperflexHealthCheckDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexHealthCheckDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexHealthCheckDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3438,7 +3471,7 @@ export class HyperflexHealthCheckDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_health_check_definition intersight_hyperflex_health_check_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_health_check_definition intersight_hyperflex_health_check_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3449,8 +3482,8 @@ export class HyperflexHealthCheckDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_health_check_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataIntersightHyperflexAlarmConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#account_moid DataIntersightHyperflexAlarm#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#account_moid DataIntersightHyperflexAlarm#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * The acknowledgement state of the alarm. It is 'true' when the alarm is acknowledged and false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#acknowledged DataIntersightHyperflexAlarm#acknowledged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#acknowledged DataIntersightHyperflexAlarm#acknowledged}
   */
   readonly acknowledged?: boolean | cdktf.IResolvable;
   /**
   * The username of the user who acknowledged the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#acknowledged_by DataIntersightHyperflexAlarm#acknowledged_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#acknowledged_by DataIntersightHyperflexAlarm#acknowledged_by}
   */
   readonly acknowledgedBy?: string;
   /**
   * The time when the alarm was acknowledged, represented as a Unix timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#acknowledged_time DataIntersightHyperflexAlarm#acknowledged_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#acknowledged_time DataIntersightHyperflexAlarm#acknowledged_time}
   */
   readonly acknowledgedTime?: number;
   /**
   * The time when the alarm was acknowledged in ISO 6801 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#acknowledged_time_as_utc DataIntersightHyperflexAlarm#acknowledged_time_as_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#acknowledged_time_as_utc DataIntersightHyperflexAlarm#acknowledged_time_as_utc}
   */
   readonly acknowledgedTimeAsUtc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -46,37 +46,37 @@ export interface DataIntersightHyperflexAlarmConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#create_time DataIntersightHyperflexAlarm#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#create_time DataIntersightHyperflexAlarm#create_time}
   */
   readonly createTime?: string;
   /**
   * The description of the alarm which includes information about the fault that triggered the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#description DataIntersightHyperflexAlarm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#description DataIntersightHyperflexAlarm#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#domain_group_moid DataIntersightHyperflexAlarm#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#domain_group_moid DataIntersightHyperflexAlarm#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The data pertaining to this entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#entity_data DataIntersightHyperflexAlarm#entity_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#entity_data DataIntersightHyperflexAlarm#entity_data}
   */
   readonly entityData?: string;
   /**
   * The name of entity which triggered the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#entity_name DataIntersightHyperflexAlarm#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#entity_name DataIntersightHyperflexAlarm#entity_name}
   */
   readonly entityName?: string;
   /**
@@ -89,17 +89,17 @@ export interface DataIntersightHyperflexAlarmConfig extends cdktf.TerraformMetaA
   * * `ZONE` - The entity is a logical or physical zone configured on the HyperFlex cluster.
   * * `VIRTUALMACHINE` - The entity is a virtual machine running on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#entity_type DataIntersightHyperflexAlarm#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#entity_type DataIntersightHyperflexAlarm#entity_type}
   */
   readonly entityType?: string;
   /**
   * The unique identifier of the entity which triggered the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#entity_uu_id DataIntersightHyperflexAlarm#entity_uu_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#entity_uu_id DataIntersightHyperflexAlarm#entity_uu_id}
   */
   readonly entityUuId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#id DataIntersightHyperflexAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#id DataIntersightHyperflexAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,43 +108,43 @@ export interface DataIntersightHyperflexAlarmConfig extends cdktf.TerraformMetaA
   /**
   * The localized message displayed to the user which describes the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#message DataIntersightHyperflexAlarm#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#message DataIntersightHyperflexAlarm#message}
   */
   readonly message?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#mod_time DataIntersightHyperflexAlarm#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#mod_time DataIntersightHyperflexAlarm#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The name of the alarm. This name identifies the type of alarm that was triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#name DataIntersightHyperflexAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#name DataIntersightHyperflexAlarm#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#owners DataIntersightHyperflexAlarm#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#owners DataIntersightHyperflexAlarm#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#shared_scope DataIntersightHyperflexAlarm#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#shared_scope DataIntersightHyperflexAlarm#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -155,67 +155,67 @@ export interface DataIntersightHyperflexAlarmConfig extends cdktf.TerraformMetaA
   * * `WARNING` - The alarm represents a moderate fault.
   * * `CRITICAL` - The alarm represents a critical fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#status DataIntersightHyperflexAlarm#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#status DataIntersightHyperflexAlarm#status}
   */
   readonly status?: string;
   /**
   * The time when alarm was triggered as a Unix timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#triggered_time DataIntersightHyperflexAlarm#triggered_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#triggered_time DataIntersightHyperflexAlarm#triggered_time}
   */
   readonly triggeredTime?: number;
   /**
   * The time when alarm was triggered in ISO 6801 UTC format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#triggered_time_as_utc DataIntersightHyperflexAlarm#triggered_time_as_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#triggered_time_as_utc DataIntersightHyperflexAlarm#triggered_time_as_utc}
   */
   readonly triggeredTimeAsUtc?: string;
   /**
   * The unique identifier for this alarm instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#uuid DataIntersightHyperflexAlarm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#uuid DataIntersightHyperflexAlarm#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestor_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#ancestor_mos DataIntersightHyperflexAlarm#ancestor_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#ancestor_mos DataIntersightHyperflexAlarm#ancestor_mos}
   */
   readonly ancestorMos?: DataIntersightHyperflexAlarmAncestorMos[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#ancestors DataIntersightHyperflexAlarm#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#ancestors DataIntersightHyperflexAlarm#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexAlarmAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#cluster DataIntersightHyperflexAlarm#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#cluster DataIntersightHyperflexAlarm#cluster}
   */
   readonly cluster?: DataIntersightHyperflexAlarmCluster;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#parent DataIntersightHyperflexAlarm#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#parent DataIntersightHyperflexAlarm#parent}
   */
   readonly parent?: DataIntersightHyperflexAlarmParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#permission_resources DataIntersightHyperflexAlarm#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#permission_resources DataIntersightHyperflexAlarm#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexAlarmPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#tags DataIntersightHyperflexAlarm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#tags DataIntersightHyperflexAlarm#tags}
   */
   readonly tags?: DataIntersightHyperflexAlarmTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#version_context DataIntersightHyperflexAlarm#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#version_context DataIntersightHyperflexAlarm#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexAlarmVersionContext;
 }
@@ -962,6 +962,11 @@ export class DataIntersightHyperflexAlarmResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1537,7 +1542,7 @@ export class DataIntersightHyperflexAlarmResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexAlarmAncestorMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1545,19 +1550,19 @@ export interface DataIntersightHyperflexAlarmAncestorMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1570,7 +1575,7 @@ export interface DataIntersightHyperflexAlarmAncestorMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -1802,7 +1807,7 @@ export class DataIntersightHyperflexAlarmAncestorMosList extends cdktf.ComplexLi
 }
 export interface DataIntersightHyperflexAlarmAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1810,19 +1815,19 @@ export interface DataIntersightHyperflexAlarmAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1835,7 +1840,7 @@ export interface DataIntersightHyperflexAlarmAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2067,7 +2072,7 @@ export class DataIntersightHyperflexAlarmAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightHyperflexAlarmCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2075,19 +2080,19 @@ export interface DataIntersightHyperflexAlarmCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2100,7 +2105,7 @@ export interface DataIntersightHyperflexAlarmCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2300,7 +2305,7 @@ export class DataIntersightHyperflexAlarmClusterOutputReference extends cdktf.Co
 }
 export interface DataIntersightHyperflexAlarmParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2308,19 +2313,19 @@ export interface DataIntersightHyperflexAlarmParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2333,7 +2338,7 @@ export interface DataIntersightHyperflexAlarmParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2533,7 +2538,7 @@ export class DataIntersightHyperflexAlarmParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightHyperflexAlarmPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2541,19 +2546,19 @@ export interface DataIntersightHyperflexAlarmPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2566,7 +2571,7 @@ export interface DataIntersightHyperflexAlarmPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2798,7 +2803,7 @@ export class DataIntersightHyperflexAlarmPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightHyperflexAlarmTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2806,19 +2811,19 @@ export interface DataIntersightHyperflexAlarmTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2831,7 +2836,7 @@ export interface DataIntersightHyperflexAlarmTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3063,7 +3068,7 @@ export class DataIntersightHyperflexAlarmTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightHyperflexAlarmTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3071,19 +3076,19 @@ export interface DataIntersightHyperflexAlarmTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3096,7 +3101,7 @@ export interface DataIntersightHyperflexAlarmTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3296,45 +3301,51 @@ export class DataIntersightHyperflexAlarmTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightHyperflexAlarmTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#key DataIntersightHyperflexAlarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#key DataIntersightHyperflexAlarm#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#propagated DataIntersightHyperflexAlarm#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#propagated DataIntersightHyperflexAlarm#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#sys_tag DataIntersightHyperflexAlarm#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#type DataIntersightHyperflexAlarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#type DataIntersightHyperflexAlarm#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#value DataIntersightHyperflexAlarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#value DataIntersightHyperflexAlarm#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#ancestor_definitions DataIntersightHyperflexAlarm#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#ancestor_definitions DataIntersightHyperflexAlarm#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexAlarmTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#definition DataIntersightHyperflexAlarm#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#definition DataIntersightHyperflexAlarm#definition}
   */
   readonly definition?: DataIntersightHyperflexAlarmTagsDefinition;
 }
@@ -3348,6 +3359,7 @@ export function dataIntersightHyperflexAlarmTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexAlarmTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3376,6 +3388,12 @@ export function dataIntersightHyperflexAlarmTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3442,6 +3460,10 @@ export class DataIntersightHyperflexAlarmTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3468,6 +3490,7 @@ export class DataIntersightHyperflexAlarmTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3483,6 +3506,7 @@ export class DataIntersightHyperflexAlarmTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3536,6 +3560,22 @@ export class DataIntersightHyperflexAlarmTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3624,7 +3664,7 @@ export class DataIntersightHyperflexAlarmTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexAlarmVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3632,19 +3672,19 @@ export interface DataIntersightHyperflexAlarmVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3657,7 +3697,7 @@ export interface DataIntersightHyperflexAlarmVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3889,7 +3929,7 @@ export class DataIntersightHyperflexAlarmVersionContextInterestedMosList extends
 }
 export interface DataIntersightHyperflexAlarmVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3897,19 +3937,19 @@ export interface DataIntersightHyperflexAlarmVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#moid DataIntersightHyperflexAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3922,7 +3962,7 @@ export interface DataIntersightHyperflexAlarmVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#selector DataIntersightHyperflexAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -4122,7 +4162,7 @@ export class DataIntersightHyperflexAlarmVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightHyperflexAlarmVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#additional_properties DataIntersightHyperflexAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4130,32 +4170,32 @@ export interface DataIntersightHyperflexAlarmVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#class_id DataIntersightHyperflexAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#marked_for_deletion DataIntersightHyperflexAlarm#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#marked_for_deletion DataIntersightHyperflexAlarm#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#nr_version DataIntersightHyperflexAlarm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#nr_version DataIntersightHyperflexAlarm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#object_type DataIntersightHyperflexAlarm#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#timestamp DataIntersightHyperflexAlarm#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#timestamp DataIntersightHyperflexAlarm#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4166,19 +4206,19 @@ export interface DataIntersightHyperflexAlarmVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#version_type DataIntersightHyperflexAlarm#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#version_type DataIntersightHyperflexAlarm#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#interested_mos DataIntersightHyperflexAlarm#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#interested_mos DataIntersightHyperflexAlarm#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexAlarmVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#ref_mo DataIntersightHyperflexAlarm#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#ref_mo DataIntersightHyperflexAlarm#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexAlarmVersionContextRefMo;
 }
@@ -4494,7 +4534,7 @@ export class DataIntersightHyperflexAlarmVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm intersight_hyperflex_alarm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm intersight_hyperflex_alarm}
 */
 export class DataIntersightHyperflexAlarm extends cdktf.TerraformDataSource {
 
@@ -4510,7 +4550,7 @@ export class DataIntersightHyperflexAlarm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHyperflexAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexAlarm to import
-  * @param importFromId The id of the existing DataIntersightHyperflexAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4522,7 +4562,7 @@ export class DataIntersightHyperflexAlarm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_alarm intersight_hyperflex_alarm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_alarm intersight_hyperflex_alarm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4533,8 +4573,8 @@ export class DataIntersightHyperflexAlarm extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hyperflex_alarm',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

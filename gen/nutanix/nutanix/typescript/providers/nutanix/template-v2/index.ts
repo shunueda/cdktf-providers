@@ -22,52 +22,52 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface TemplateV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#category_ext_ids TemplateV2#category_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#category_ext_ids TemplateV2#category_ext_ids}
   */
   readonly categoryExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#id TemplateV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#id TemplateV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#template_description TemplateV2#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#template_description TemplateV2#template_description}
   */
   readonly templateDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#template_name TemplateV2#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#template_name TemplateV2#template_name}
   */
   readonly templateName: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#created_by TemplateV2#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#created_by TemplateV2#created_by}
   */
   readonly createdBy?: TemplateV2CreatedBy[] | cdktf.IResolvable;
   /**
   * guest_update_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#guest_update_status TemplateV2#guest_update_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#guest_update_status TemplateV2#guest_update_status}
   */
   readonly guestUpdateStatus?: TemplateV2GuestUpdateStatus[] | cdktf.IResolvable;
   /**
   * template_version_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#template_version_spec TemplateV2#template_version_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#template_version_spec TemplateV2#template_version_spec}
   */
   readonly templateVersionSpec: TemplateV2TemplateVersionSpec;
   /**
   * updated_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#updated_by TemplateV2#updated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#updated_by TemplateV2#updated_by}
   */
   readonly updatedBy?: TemplateV2UpdatedBy[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2 nutanix_template_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2 nutanix_template_v2}
 */
 export class TemplateV2 extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class TemplateV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateV2 to import
-  * @param importFromId The id of the existing TemplateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class TemplateV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2 nutanix_template_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2 nutanix_template_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class TemplateV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_template_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

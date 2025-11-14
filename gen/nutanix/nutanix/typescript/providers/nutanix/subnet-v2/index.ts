@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface SubnetV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#bridge_name SubnetV2#bridge_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#bridge_name SubnetV2#bridge_name}
   */
   readonly bridgeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#cluster_name SubnetV2#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#cluster_name SubnetV2#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#cluster_reference SubnetV2#cluster_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#cluster_reference SubnetV2#cluster_reference}
   */
   readonly clusterReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#description SubnetV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#description SubnetV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#hypervisor_type SubnetV2#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#hypervisor_type SubnetV2#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#id SubnetV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#id SubnetV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_prefix SubnetV2#ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_prefix SubnetV2#ip_prefix}
   */
   readonly ipPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#is_advanced_networking SubnetV2#is_advanced_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#is_advanced_networking SubnetV2#is_advanced_networking}
   */
   readonly isAdvancedNetworking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#is_external SubnetV2#is_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#is_external SubnetV2#is_external}
   */
   readonly isExternal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#is_nat_enabled SubnetV2#is_nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#is_nat_enabled SubnetV2#is_nat_enabled}
   */
   readonly isNatEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#name SubnetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#name SubnetV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#network_function_chain_reference SubnetV2#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#network_function_chain_reference SubnetV2#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#network_id SubnetV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#network_id SubnetV2#network_id}
   */
   readonly networkId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#subnet_type SubnetV2#subnet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#subnet_type SubnetV2#subnet_type}
   */
   readonly subnetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#virtual_switch_reference SubnetV2#virtual_switch_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#virtual_switch_reference SubnetV2#virtual_switch_reference}
   */
   readonly virtualSwitchReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#vpc_reference SubnetV2#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#vpc_reference SubnetV2#vpc_reference}
   */
   readonly vpcReference?: string;
   /**
   * dhcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#dhcp_options SubnetV2#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#dhcp_options SubnetV2#dhcp_options}
   */
   readonly dhcpOptions?: SubnetV2DhcpOptions[] | cdktf.IResolvable;
   /**
   * dynamic_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#dynamic_ip_addresses SubnetV2#dynamic_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#dynamic_ip_addresses SubnetV2#dynamic_ip_addresses}
   */
   readonly dynamicIpAddresses?: SubnetV2DynamicIpAddresses[] | cdktf.IResolvable;
   /**
   * ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_config SubnetV2#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_config SubnetV2#ip_config}
   */
   readonly ipConfig?: SubnetV2IpConfig[] | cdktf.IResolvable;
   /**
   * ip_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_usage SubnetV2#ip_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_usage SubnetV2#ip_usage}
   */
   readonly ipUsage?: SubnetV2IpUsage[] | cdktf.IResolvable;
   /**
   * reserved_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#reserved_ip_addresses SubnetV2#reserved_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#reserved_ip_addresses SubnetV2#reserved_ip_addresses}
   */
   readonly reservedIpAddresses?: SubnetV2ReservedIpAddresses[] | cdktf.IResolvable;
   /**
   * virtual_switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#virtual_switch SubnetV2#virtual_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#virtual_switch SubnetV2#virtual_switch}
   */
   readonly virtualSwitch?: SubnetV2VirtualSwitch[] | cdktf.IResolvable;
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#vpc SubnetV2#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#vpc SubnetV2#vpc}
   */
   readonly vpc?: SubnetV2Vpc[] | cdktf.IResolvable;
 }
@@ -203,11 +203,11 @@ export class SubnetV2LinksList extends cdktf.ComplexList {
 }
 export interface SubnetV2DhcpOptionsDomainNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -352,11 +352,11 @@ export class SubnetV2DhcpOptionsDomainNameServersIpv4List extends cdktf.ComplexL
 }
 export interface SubnetV2DhcpOptionsDomainNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -503,13 +503,13 @@ export interface SubnetV2DhcpOptionsDomainNameServers {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2DhcpOptionsDomainNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2DhcpOptionsDomainNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -654,11 +654,11 @@ export class SubnetV2DhcpOptionsDomainNameServersList extends cdktf.ComplexList 
 }
 export interface SubnetV2DhcpOptionsNtpServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -803,11 +803,11 @@ export class SubnetV2DhcpOptionsNtpServersIpv4List extends cdktf.ComplexList {
 }
 export interface SubnetV2DhcpOptionsNtpServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -954,13 +954,13 @@ export interface SubnetV2DhcpOptionsNtpServers {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2DhcpOptionsNtpServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2DhcpOptionsNtpServersIpv6[] | cdktf.IResolvable;
 }
@@ -1105,31 +1105,31 @@ export class SubnetV2DhcpOptionsNtpServersList extends cdktf.ComplexList {
 }
 export interface SubnetV2DhcpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#boot_file_name SubnetV2#boot_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#boot_file_name SubnetV2#boot_file_name}
   */
   readonly bootFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#domain_name SubnetV2#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#domain_name SubnetV2#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#search_domains SubnetV2#search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#search_domains SubnetV2#search_domains}
   */
   readonly searchDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#tftp_server_name SubnetV2#tftp_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#tftp_server_name SubnetV2#tftp_server_name}
   */
   readonly tftpServerName?: string;
   /**
   * domain_name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#domain_name_servers SubnetV2#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#domain_name_servers SubnetV2#domain_name_servers}
   */
   readonly domainNameServers?: SubnetV2DhcpOptionsDomainNameServers[] | cdktf.IResolvable;
   /**
   * ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ntp_servers SubnetV2#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ntp_servers SubnetV2#ntp_servers}
   */
   readonly ntpServers?: SubnetV2DhcpOptionsNtpServers[] | cdktf.IResolvable;
 }
@@ -1390,11 +1390,11 @@ export class SubnetV2DhcpOptionsList extends cdktf.ComplexList {
 }
 export interface SubnetV2DynamicIpAddressesIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -1539,11 +1539,11 @@ export class SubnetV2DynamicIpAddressesIpv4List extends cdktf.ComplexList {
 }
 export interface SubnetV2DynamicIpAddressesIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -1690,13 +1690,13 @@ export interface SubnetV2DynamicIpAddresses {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2DynamicIpAddressesIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2DynamicIpAddressesIpv6[] | cdktf.IResolvable;
 }
@@ -1841,11 +1841,11 @@ export class SubnetV2DynamicIpAddressesList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv4DefaultGatewayIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -1990,11 +1990,11 @@ export class SubnetV2IpConfigIpv4DefaultGatewayIpList extends cdktf.ComplexList 
 }
 export interface SubnetV2IpConfigIpv4DhcpServerAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -2139,11 +2139,11 @@ export class SubnetV2IpConfigIpv4DhcpServerAddressList extends cdktf.ComplexList
 }
 export interface SubnetV2IpConfigIpv4IpSubnetIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -2288,13 +2288,13 @@ export class SubnetV2IpConfigIpv4IpSubnetIpList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv4IpSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip SubnetV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip SubnetV2#ip}
   */
   readonly ip?: SubnetV2IpConfigIpv4IpSubnetIp[] | cdktf.IResolvable;
 }
@@ -2439,11 +2439,11 @@ export class SubnetV2IpConfigIpv4IpSubnetList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv4PoolListEndIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -2588,11 +2588,11 @@ export class SubnetV2IpConfigIpv4PoolListEndIpList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv4PoolListStartIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -2739,13 +2739,13 @@ export interface SubnetV2IpConfigIpv4PoolListStruct {
   /**
   * end_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
   */
   readonly endIp?: SubnetV2IpConfigIpv4PoolListEndIp[] | cdktf.IResolvable;
   /**
   * start_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
   */
   readonly startIp?: SubnetV2IpConfigIpv4PoolListStartIp[] | cdktf.IResolvable;
 }
@@ -2892,25 +2892,25 @@ export interface SubnetV2IpConfigIpv4 {
   /**
   * default_gateway_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#default_gateway_ip SubnetV2#default_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#default_gateway_ip SubnetV2#default_gateway_ip}
   */
   readonly defaultGatewayIp?: SubnetV2IpConfigIpv4DefaultGatewayIp[] | cdktf.IResolvable;
   /**
   * dhcp_server_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#dhcp_server_address SubnetV2#dhcp_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#dhcp_server_address SubnetV2#dhcp_server_address}
   */
   readonly dhcpServerAddress?: SubnetV2IpConfigIpv4DhcpServerAddress[] | cdktf.IResolvable;
   /**
   * ip_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_subnet SubnetV2#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_subnet SubnetV2#ip_subnet}
   */
   readonly ipSubnet?: SubnetV2IpConfigIpv4IpSubnet[] | cdktf.IResolvable;
   /**
   * pool_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#pool_list SubnetV2#pool_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#pool_list SubnetV2#pool_list}
   */
   readonly poolList?: SubnetV2IpConfigIpv4PoolListStruct[] | cdktf.IResolvable;
 }
@@ -3113,11 +3113,11 @@ export class SubnetV2IpConfigIpv4List extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv6DefaultGatewayIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -3262,11 +3262,11 @@ export class SubnetV2IpConfigIpv6DefaultGatewayIpList extends cdktf.ComplexList 
 }
 export interface SubnetV2IpConfigIpv6DhcpServerAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -3411,11 +3411,11 @@ export class SubnetV2IpConfigIpv6DhcpServerAddressList extends cdktf.ComplexList
 }
 export interface SubnetV2IpConfigIpv6IpSubnetIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -3560,13 +3560,13 @@ export class SubnetV2IpConfigIpv6IpSubnetIpList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv6IpSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip SubnetV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip SubnetV2#ip}
   */
   readonly ip?: SubnetV2IpConfigIpv6IpSubnetIp[] | cdktf.IResolvable;
 }
@@ -3711,11 +3711,11 @@ export class SubnetV2IpConfigIpv6IpSubnetList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv6PoolListEndIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -3860,11 +3860,11 @@ export class SubnetV2IpConfigIpv6PoolListEndIpList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpConfigIpv6PoolListStartIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -4011,13 +4011,13 @@ export interface SubnetV2IpConfigIpv6PoolListStruct {
   /**
   * end_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
   */
   readonly endIp?: SubnetV2IpConfigIpv6PoolListEndIp[] | cdktf.IResolvable;
   /**
   * start_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
   */
   readonly startIp?: SubnetV2IpConfigIpv6PoolListStartIp[] | cdktf.IResolvable;
 }
@@ -4164,25 +4164,25 @@ export interface SubnetV2IpConfigIpv6 {
   /**
   * default_gateway_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#default_gateway_ip SubnetV2#default_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#default_gateway_ip SubnetV2#default_gateway_ip}
   */
   readonly defaultGatewayIp?: SubnetV2IpConfigIpv6DefaultGatewayIp[] | cdktf.IResolvable;
   /**
   * dhcp_server_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#dhcp_server_address SubnetV2#dhcp_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#dhcp_server_address SubnetV2#dhcp_server_address}
   */
   readonly dhcpServerAddress?: SubnetV2IpConfigIpv6DhcpServerAddress[] | cdktf.IResolvable;
   /**
   * ip_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_subnet SubnetV2#ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_subnet SubnetV2#ip_subnet}
   */
   readonly ipSubnet?: SubnetV2IpConfigIpv6IpSubnet[] | cdktf.IResolvable;
   /**
   * pool_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#pool_list SubnetV2#pool_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#pool_list SubnetV2#pool_list}
   */
   readonly poolList?: SubnetV2IpConfigIpv6PoolListStruct[] | cdktf.IResolvable;
 }
@@ -4387,13 +4387,13 @@ export interface SubnetV2IpConfig {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2IpConfigIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2IpConfigIpv6[] | cdktf.IResolvable;
 }
@@ -4538,11 +4538,11 @@ export class SubnetV2IpConfigList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpUsageIpPoolUsagesRangeEndIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -4687,11 +4687,11 @@ export class SubnetV2IpUsageIpPoolUsagesRangeEndIpList extends cdktf.ComplexList
 }
 export interface SubnetV2IpUsageIpPoolUsagesRangeStartIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -4838,13 +4838,13 @@ export interface SubnetV2IpUsageIpPoolUsagesRange {
   /**
   * end_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#end_ip SubnetV2#end_ip}
   */
   readonly endIp?: SubnetV2IpUsageIpPoolUsagesRangeEndIp[] | cdktf.IResolvable;
   /**
   * start_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#start_ip SubnetV2#start_ip}
   */
   readonly startIp?: SubnetV2IpUsageIpPoolUsagesRangeStartIp[] | cdktf.IResolvable;
 }
@@ -4989,17 +4989,17 @@ export class SubnetV2IpUsageIpPoolUsagesRangeList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpUsageIpPoolUsages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#num_free_ips SubnetV2#num_free_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#num_free_ips SubnetV2#num_free_ips}
   */
   readonly numFreeIps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#num_total_ips SubnetV2#num_total_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#num_total_ips SubnetV2#num_total_ips}
   */
   readonly numTotalIps?: number;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#range SubnetV2#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#range SubnetV2#range}
   */
   readonly range?: SubnetV2IpUsageIpPoolUsagesRange[] | cdktf.IResolvable;
 }
@@ -5173,21 +5173,21 @@ export class SubnetV2IpUsageIpPoolUsagesList extends cdktf.ComplexList {
 }
 export interface SubnetV2IpUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#num_assigned_ips SubnetV2#num_assigned_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#num_assigned_ips SubnetV2#num_assigned_ips}
   */
   readonly numAssignedIps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#num_free_ips SubnetV2#num_free_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#num_free_ips SubnetV2#num_free_ips}
   */
   readonly numFreeIps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#num_macs SubnetV2#num_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#num_macs SubnetV2#num_macs}
   */
   readonly numMacs?: number;
   /**
   * ip_pool_usages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_pool_usages SubnetV2#ip_pool_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_pool_usages SubnetV2#ip_pool_usages}
   */
   readonly ipPoolUsages?: SubnetV2IpUsageIpPoolUsages[] | cdktf.IResolvable;
 }
@@ -5390,11 +5390,11 @@ export class SubnetV2IpUsageList extends cdktf.ComplexList {
 }
 export interface SubnetV2ReservedIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -5619,11 +5619,11 @@ export class SubnetV2VirtualSwitchLinksList extends cdktf.ComplexList {
 }
 export interface SubnetV2VirtualSwitchClustersGatewayIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -5768,11 +5768,11 @@ export class SubnetV2VirtualSwitchClustersGatewayIpAddressList extends cdktf.Com
 }
 export interface SubnetV2VirtualSwitchClustersHostsIpAddressIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -5917,13 +5917,13 @@ export class SubnetV2VirtualSwitchClustersHostsIpAddressIpList extends cdktf.Com
 }
 export interface SubnetV2VirtualSwitchClustersHostsIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip SubnetV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip SubnetV2#ip}
   */
   readonly ip?: SubnetV2VirtualSwitchClustersHostsIpAddressIp[] | cdktf.IResolvable;
 }
@@ -6068,17 +6068,17 @@ export class SubnetV2VirtualSwitchClustersHostsIpAddressList extends cdktf.Compl
 }
 export interface SubnetV2VirtualSwitchClustersHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#host_nics SubnetV2#host_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#host_nics SubnetV2#host_nics}
   */
   readonly hostNics?: string[];
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip_address SubnetV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip_address SubnetV2#ip_address}
   */
   readonly ipAddress?: SubnetV2VirtualSwitchClustersHostsIpAddress[] | cdktf.IResolvable;
 }
@@ -6262,19 +6262,19 @@ export class SubnetV2VirtualSwitchClustersHostsList extends cdktf.ComplexList {
 }
 export interface SubnetV2VirtualSwitchClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
   */
   readonly extId?: string;
   /**
   * gateway_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#gateway_ip_address SubnetV2#gateway_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#gateway_ip_address SubnetV2#gateway_ip_address}
   */
   readonly gatewayIpAddress?: SubnetV2VirtualSwitchClustersGatewayIpAddress[] | cdktf.IResolvable;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#hosts SubnetV2#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#hosts SubnetV2#hosts}
   */
   readonly hosts?: SubnetV2VirtualSwitchClustersHosts[] | cdktf.IResolvable;
 }
@@ -6555,43 +6555,43 @@ export class SubnetV2VirtualSwitchMetadataList extends cdktf.ComplexList {
 }
 export interface SubnetV2VirtualSwitch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#bond_mode SubnetV2#bond_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#bond_mode SubnetV2#bond_mode}
   */
   readonly bondMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#description SubnetV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#description SubnetV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#has_deployment_error SubnetV2#has_deployment_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#has_deployment_error SubnetV2#has_deployment_error}
   */
   readonly hasDeploymentError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#is_default SubnetV2#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#is_default SubnetV2#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#mtu SubnetV2#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#mtu SubnetV2#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#name SubnetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#name SubnetV2#name}
   */
   readonly name?: string;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#clusters SubnetV2#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#clusters SubnetV2#clusters}
   */
   readonly clusters?: SubnetV2VirtualSwitchClusters[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#metadata SubnetV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#metadata SubnetV2#metadata}
   */
   readonly metadata?: SubnetV2VirtualSwitchMetadata[] | cdktf.IResolvable;
 }
@@ -7272,11 +7272,11 @@ export class SubnetV2VpcSnatIpsList extends cdktf.ComplexList {
 }
 export interface SubnetV2VpcCommonDhcpOptionsDomainNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -7421,11 +7421,11 @@ export class SubnetV2VpcCommonDhcpOptionsDomainNameServersIpv4List extends cdktf
 }
 export interface SubnetV2VpcCommonDhcpOptionsDomainNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -7572,13 +7572,13 @@ export interface SubnetV2VpcCommonDhcpOptionsDomainNameServers {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2VpcCommonDhcpOptionsDomainNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2VpcCommonDhcpOptionsDomainNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -7725,7 +7725,7 @@ export interface SubnetV2VpcCommonDhcpOptions {
   /**
   * domain_name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#domain_name_servers SubnetV2#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#domain_name_servers SubnetV2#domain_name_servers}
   */
   readonly domainNameServers?: SubnetV2VpcCommonDhcpOptionsDomainNameServers[] | cdktf.IResolvable;
 }
@@ -7841,11 +7841,11 @@ export class SubnetV2VpcCommonDhcpOptionsList extends cdktf.ComplexList {
 }
 export interface SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -7990,11 +7990,11 @@ export class SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4List ex
 }
 export interface SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -8141,13 +8141,13 @@ export interface SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -8292,13 +8292,13 @@ export class SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressList extend
 }
 export interface SubnetV2VpcExternalSubnetsActiveGatewayNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#node_id SubnetV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#node_id SubnetV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * node_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#node_ip_address SubnetV2#node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#node_ip_address SubnetV2#node_ip_address}
   */
   readonly nodeIpAddress?: SubnetV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddress[] | cdktf.IResolvable;
 }
@@ -8443,11 +8443,11 @@ export class SubnetV2VpcExternalSubnetsActiveGatewayNodeList extends cdktf.Compl
 }
 export interface SubnetV2VpcExternalSubnetsExternalIpsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -8592,11 +8592,11 @@ export class SubnetV2VpcExternalSubnetsExternalIpsIpv4List extends cdktf.Complex
 }
 export interface SubnetV2VpcExternalSubnetsExternalIpsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -8743,13 +8743,13 @@ export interface SubnetV2VpcExternalSubnetsExternalIps {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2VpcExternalSubnetsExternalIpsIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2VpcExternalSubnetsExternalIpsIpv6[] | cdktf.IResolvable;
 }
@@ -8894,23 +8894,23 @@ export class SubnetV2VpcExternalSubnetsExternalIpsList extends cdktf.ComplexList
 }
 export interface SubnetV2VpcExternalSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#gateway_nodes SubnetV2#gateway_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#gateway_nodes SubnetV2#gateway_nodes}
   */
   readonly gatewayNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#subnet_reference SubnetV2#subnet_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#subnet_reference SubnetV2#subnet_reference}
   */
   readonly subnetReference?: string;
   /**
   * active_gateway_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#active_gateway_node SubnetV2#active_gateway_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#active_gateway_node SubnetV2#active_gateway_node}
   */
   readonly activeGatewayNode?: SubnetV2VpcExternalSubnetsActiveGatewayNode[] | cdktf.IResolvable;
   /**
   * external_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#external_ips SubnetV2#external_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#external_ips SubnetV2#external_ips}
   */
   readonly externalIps?: SubnetV2VpcExternalSubnetsExternalIps[] | cdktf.IResolvable;
 }
@@ -9118,11 +9118,11 @@ export class SubnetV2VpcExternalSubnetsList extends cdktf.ComplexList {
 }
 export interface SubnetV2VpcExternallyRoutablePrefixesIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -9267,13 +9267,13 @@ export class SubnetV2VpcExternallyRoutablePrefixesIpv4IpList extends cdktf.Compl
 }
 export interface SubnetV2VpcExternallyRoutablePrefixesIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip SubnetV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip SubnetV2#ip}
   */
   readonly ip?: SubnetV2VpcExternallyRoutablePrefixesIpv4Ip[] | cdktf.IResolvable;
 }
@@ -9418,11 +9418,11 @@ export class SubnetV2VpcExternallyRoutablePrefixesIpv4List extends cdktf.Complex
 }
 export interface SubnetV2VpcExternallyRoutablePrefixesIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#value SubnetV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#value SubnetV2#value}
   */
   readonly value?: string;
 }
@@ -9567,13 +9567,13 @@ export class SubnetV2VpcExternallyRoutablePrefixesIpv6IpList extends cdktf.Compl
 }
 export interface SubnetV2VpcExternallyRoutablePrefixesIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#prefix_length SubnetV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ip SubnetV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ip SubnetV2#ip}
   */
   readonly ip?: SubnetV2VpcExternallyRoutablePrefixesIpv6Ip[] | cdktf.IResolvable;
 }
@@ -9720,13 +9720,13 @@ export interface SubnetV2VpcExternallyRoutablePrefixes {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv4 SubnetV2#ipv4}
   */
   readonly ipv4?: SubnetV2VpcExternallyRoutablePrefixesIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ipv6 SubnetV2#ipv6}
   */
   readonly ipv6?: SubnetV2VpcExternallyRoutablePrefixesIpv6[] | cdktf.IResolvable;
 }
@@ -9978,47 +9978,47 @@ export class SubnetV2VpcMetadataList extends cdktf.ComplexList {
 }
 export interface SubnetV2Vpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#description SubnetV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#description SubnetV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#ext_id SubnetV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#external_routing_domain_reference SubnetV2#external_routing_domain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#external_routing_domain_reference SubnetV2#external_routing_domain_reference}
   */
   readonly externalRoutingDomainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#name SubnetV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#name SubnetV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#vpc_type SubnetV2#vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#vpc_type SubnetV2#vpc_type}
   */
   readonly vpcType?: string;
   /**
   * common_dhcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#common_dhcp_options SubnetV2#common_dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#common_dhcp_options SubnetV2#common_dhcp_options}
   */
   readonly commonDhcpOptions?: SubnetV2VpcCommonDhcpOptions[] | cdktf.IResolvable;
   /**
   * external_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#external_subnets SubnetV2#external_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#external_subnets SubnetV2#external_subnets}
   */
   readonly externalSubnets?: SubnetV2VpcExternalSubnets[] | cdktf.IResolvable;
   /**
   * externally_routable_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#externally_routable_prefixes SubnetV2#externally_routable_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#externally_routable_prefixes SubnetV2#externally_routable_prefixes}
   */
   readonly externallyRoutablePrefixes?: SubnetV2VpcExternallyRoutablePrefixes[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#metadata SubnetV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#metadata SubnetV2#metadata}
   */
   readonly metadata?: SubnetV2VpcMetadata[] | cdktf.IResolvable;
 }
@@ -10383,7 +10383,7 @@ export class SubnetV2VpcList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2 nutanix_subnet_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2 nutanix_subnet_v2}
 */
 export class SubnetV2 extends cdktf.TerraformResource {
 
@@ -10399,7 +10399,7 @@ export class SubnetV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SubnetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SubnetV2 to import
-  * @param importFromId The id of the existing SubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SubnetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SubnetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10411,7 +10411,7 @@ export class SubnetV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/subnet_v2 nutanix_subnet_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/subnet_v2 nutanix_subnet_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10422,8 +10422,8 @@ export class SubnetV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_subnet_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

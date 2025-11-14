@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#compartment_id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#compartment_id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#db_management_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#db_management_private_endpoint_id}
   */
   readonly dbManagementPrivateEndpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#id DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedD
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#filter DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#filter DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#filter}
   */
   readonly filter?: DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabasesFilter[] | cdktf.IResolvable;
 }
@@ -197,15 +197,15 @@ export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatab
 }
 export interface DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabasesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#name DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#name DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#regex DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#regex DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#values DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#values DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases#values}
   */
   readonly values: string[];
 }
@@ -373,7 +373,7 @@ export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatab
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases oci_database_management_db_management_private_endpoint_associated_databases}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases oci_database_management_db_management_private_endpoint_associated_databases}
 */
 export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatab
   * Generates CDKTF code for importing a DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatab
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_db_management_private_endpoint_associated_databases oci_database_management_db_management_private_endpoint_associated_databases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_db_management_private_endpoint_associated_databases oci_database_management_db_management_private_endpoint_associated_databases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataOciDatabaseManagementDbManagementPrivateEndpointAssociatedDatab
       terraformResourceType: 'oci_database_management_db_management_private_endpoint_associated_databases',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

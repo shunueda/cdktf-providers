@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceAutoRmaPolicyConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#account_moid DataIntersightApplianceAutoRmaPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#account_moid DataIntersightApplianceAutoRmaPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightApplianceAutoRmaPolicyConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#create_time DataIntersightApplianceAutoRmaPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#create_time DataIntersightApplianceAutoRmaPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#domain_group_moid DataIntersightApplianceAutoRmaPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#domain_group_moid DataIntersightApplianceAutoRmaPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Status of the data collection mode. If the value is 'true', then data collection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#enable DataIntersightApplianceAutoRmaPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#enable DataIntersightApplianceAutoRmaPolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#id DataIntersightApplianceAutoRmaPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#id DataIntersightApplianceAutoRmaPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightApplianceAutoRmaPolicyConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#mod_time DataIntersightApplianceAutoRmaPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#mod_time DataIntersightApplianceAutoRmaPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#owners DataIntersightApplianceAutoRmaPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#owners DataIntersightApplianceAutoRmaPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#shared_scope DataIntersightApplianceAutoRmaPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#shared_scope DataIntersightApplianceAutoRmaPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#ancestors DataIntersightApplianceAutoRmaPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#ancestors DataIntersightApplianceAutoRmaPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceAutoRmaPolicyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#parent DataIntersightApplianceAutoRmaPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#parent DataIntersightApplianceAutoRmaPolicy#parent}
   */
   readonly parent?: DataIntersightApplianceAutoRmaPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#permission_resources DataIntersightApplianceAutoRmaPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#permission_resources DataIntersightApplianceAutoRmaPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceAutoRmaPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#registered_device DataIntersightApplianceAutoRmaPolicy#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#registered_device DataIntersightApplianceAutoRmaPolicy#registered_device}
   */
   readonly registeredDevice?: DataIntersightApplianceAutoRmaPolicyRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#tags DataIntersightApplianceAutoRmaPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#tags DataIntersightApplianceAutoRmaPolicy#tags}
   */
   readonly tags?: DataIntersightApplianceAutoRmaPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#version_context DataIntersightApplianceAutoRmaPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#version_context DataIntersightApplianceAutoRmaPolicy#version_context}
   */
   readonly versionContext?: DataIntersightApplianceAutoRmaPolicyVersionContext;
 }
@@ -765,6 +765,11 @@ export class DataIntersightApplianceAutoRmaPolicyResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1264,7 +1269,7 @@ export class DataIntersightApplianceAutoRmaPolicyResultsList extends cdktf.Compl
 }
 export interface DataIntersightApplianceAutoRmaPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1272,19 +1277,19 @@ export interface DataIntersightApplianceAutoRmaPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1297,7 +1302,7 @@ export interface DataIntersightApplianceAutoRmaPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1529,7 +1534,7 @@ export class DataIntersightApplianceAutoRmaPolicyAncestorsList extends cdktf.Com
 }
 export interface DataIntersightApplianceAutoRmaPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1537,19 +1542,19 @@ export interface DataIntersightApplianceAutoRmaPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1562,7 +1567,7 @@ export interface DataIntersightApplianceAutoRmaPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1762,7 +1767,7 @@ export class DataIntersightApplianceAutoRmaPolicyParentOutputReference extends c
 }
 export interface DataIntersightApplianceAutoRmaPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1770,19 +1775,19 @@ export interface DataIntersightApplianceAutoRmaPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1795,7 +1800,7 @@ export interface DataIntersightApplianceAutoRmaPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2027,7 +2032,7 @@ export class DataIntersightApplianceAutoRmaPolicyPermissionResourcesList extends
 }
 export interface DataIntersightApplianceAutoRmaPolicyRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2035,19 +2040,19 @@ export interface DataIntersightApplianceAutoRmaPolicyRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2060,7 +2065,7 @@ export interface DataIntersightApplianceAutoRmaPolicyRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2260,7 +2265,7 @@ export class DataIntersightApplianceAutoRmaPolicyRegisteredDeviceOutputReference
 }
 export interface DataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2268,19 +2273,19 @@ export interface DataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2293,7 +2298,7 @@ export interface DataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2525,7 +2530,7 @@ export class DataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightApplianceAutoRmaPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2533,19 +2538,19 @@ export interface DataIntersightApplianceAutoRmaPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2558,7 +2563,7 @@ export interface DataIntersightApplianceAutoRmaPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2758,45 +2763,51 @@ export class DataIntersightApplianceAutoRmaPolicyTagsDefinitionOutputReference e
 }
 export interface DataIntersightApplianceAutoRmaPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#key DataIntersightApplianceAutoRmaPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#key DataIntersightApplianceAutoRmaPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#propagated DataIntersightApplianceAutoRmaPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#propagated DataIntersightApplianceAutoRmaPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#sys_tag DataIntersightApplianceAutoRmaPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#type DataIntersightApplianceAutoRmaPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#type DataIntersightApplianceAutoRmaPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#value DataIntersightApplianceAutoRmaPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#value DataIntersightApplianceAutoRmaPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#ancestor_definitions DataIntersightApplianceAutoRmaPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#ancestor_definitions DataIntersightApplianceAutoRmaPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#definition DataIntersightApplianceAutoRmaPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#definition DataIntersightApplianceAutoRmaPolicy#definition}
   */
   readonly definition?: DataIntersightApplianceAutoRmaPolicyTagsDefinition;
 }
@@ -2810,6 +2821,7 @@ export function dataIntersightApplianceAutoRmaPolicyTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceAutoRmaPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2838,6 +2850,12 @@ export function dataIntersightApplianceAutoRmaPolicyTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2904,6 +2922,10 @@ export class DataIntersightApplianceAutoRmaPolicyTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2930,6 +2952,7 @@ export class DataIntersightApplianceAutoRmaPolicyTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2945,6 +2968,7 @@ export class DataIntersightApplianceAutoRmaPolicyTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2998,6 +3022,22 @@ export class DataIntersightApplianceAutoRmaPolicyTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3086,7 +3126,7 @@ export class DataIntersightApplianceAutoRmaPolicyTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightApplianceAutoRmaPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3094,19 +3134,19 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3119,7 +3159,7 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3351,7 +3391,7 @@ export class DataIntersightApplianceAutoRmaPolicyVersionContextInterestedMosList
 }
 export interface DataIntersightApplianceAutoRmaPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3359,19 +3399,19 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#moid DataIntersightApplianceAutoRmaPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3384,7 +3424,7 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#selector DataIntersightApplianceAutoRmaPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3584,7 +3624,7 @@ export class DataIntersightApplianceAutoRmaPolicyVersionContextRefMoOutputRefere
 }
 export interface DataIntersightApplianceAutoRmaPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#additional_properties DataIntersightApplianceAutoRmaPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3592,32 +3632,32 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#class_id DataIntersightApplianceAutoRmaPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#marked_for_deletion DataIntersightApplianceAutoRmaPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#marked_for_deletion DataIntersightApplianceAutoRmaPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#nr_version DataIntersightApplianceAutoRmaPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#nr_version DataIntersightApplianceAutoRmaPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#object_type DataIntersightApplianceAutoRmaPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#timestamp DataIntersightApplianceAutoRmaPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#timestamp DataIntersightApplianceAutoRmaPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3628,19 +3668,19 @@ export interface DataIntersightApplianceAutoRmaPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#version_type DataIntersightApplianceAutoRmaPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#version_type DataIntersightApplianceAutoRmaPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#interested_mos DataIntersightApplianceAutoRmaPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#interested_mos DataIntersightApplianceAutoRmaPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceAutoRmaPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#ref_mo DataIntersightApplianceAutoRmaPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#ref_mo DataIntersightApplianceAutoRmaPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceAutoRmaPolicyVersionContextRefMo;
 }
@@ -3956,7 +3996,7 @@ export class DataIntersightApplianceAutoRmaPolicyVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy intersight_appliance_auto_rma_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy intersight_appliance_auto_rma_policy}
 */
 export class DataIntersightApplianceAutoRmaPolicy extends cdktf.TerraformDataSource {
 
@@ -3972,7 +4012,7 @@ export class DataIntersightApplianceAutoRmaPolicy extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightApplianceAutoRmaPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceAutoRmaPolicy to import
-  * @param importFromId The id of the existing DataIntersightApplianceAutoRmaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceAutoRmaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceAutoRmaPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3984,7 +4024,7 @@ export class DataIntersightApplianceAutoRmaPolicy extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_auto_rma_policy intersight_appliance_auto_rma_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_auto_rma_policy intersight_appliance_auto_rma_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3995,8 +4035,8 @@ export class DataIntersightApplianceAutoRmaPolicy extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_appliance_auto_rma_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

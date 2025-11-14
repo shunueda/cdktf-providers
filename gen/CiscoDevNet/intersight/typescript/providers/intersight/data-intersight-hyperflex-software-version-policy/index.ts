@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#account_moid DataIntersightHyperflexSoftwareVersionPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#account_moid DataIntersightHyperflexSoftwareVersionPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#create_time DataIntersightHyperflexSoftwareVersionPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#create_time DataIntersightHyperflexSoftwareVersionPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#description DataIntersightHyperflexSoftwareVersionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#description DataIntersightHyperflexSoftwareVersionPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#domain_group_moid DataIntersightHyperflexSoftwareVersionPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#domain_group_moid DataIntersightHyperflexSoftwareVersionPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Desired HyperFlex Data Platform software version to apply on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#hxdp_version DataIntersightHyperflexSoftwareVersionPolicy#hxdp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#hxdp_version DataIntersightHyperflexSoftwareVersionPolicy#hxdp_version}
   */
   readonly hxdpVersion?: string;
   /**
   * Desired  hypervisor version to apply for all the nodes on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#hypervisor_version DataIntersightHyperflexSoftwareVersionPolicy#hypervisor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#hypervisor_version DataIntersightHyperflexSoftwareVersionPolicy#hypervisor_version}
   */
   readonly hypervisorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#id DataIntersightHyperflexSoftwareVersionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#id DataIntersightHyperflexSoftwareVersionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,113 +65,113 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#mod_time DataIntersightHyperflexSoftwareVersionPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#mod_time DataIntersightHyperflexSoftwareVersionPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#name DataIntersightHyperflexSoftwareVersionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#name DataIntersightHyperflexSoftwareVersionPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#owners DataIntersightHyperflexSoftwareVersionPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#owners DataIntersightHyperflexSoftwareVersionPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Desired server firmware version to apply on the HyperFlex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#server_firmware_version DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#server_firmware_version DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_version}
   */
   readonly serverFirmwareVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#shared_scope DataIntersightHyperflexSoftwareVersionPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#shared_scope DataIntersightHyperflexSoftwareVersionPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#upgrade_types DataIntersightHyperflexSoftwareVersionPolicy#upgrade_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#upgrade_types DataIntersightHyperflexSoftwareVersionPolicy#upgrade_types}
   */
   readonly upgradeTypes?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#ancestors DataIntersightHyperflexSoftwareVersionPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#ancestors DataIntersightHyperflexSoftwareVersionPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexSoftwareVersionPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#cluster_profiles DataIntersightHyperflexSoftwareVersionPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#cluster_profiles DataIntersightHyperflexSoftwareVersionPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightHyperflexSoftwareVersionPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * hxdp_version_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#hxdp_version_info DataIntersightHyperflexSoftwareVersionPolicy#hxdp_version_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#hxdp_version_info DataIntersightHyperflexSoftwareVersionPolicy#hxdp_version_info}
   */
   readonly hxdpVersionInfo?: DataIntersightHyperflexSoftwareVersionPolicyHxdpVersionInfo;
   /**
   * hypervisor_version_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#hypervisor_version_info DataIntersightHyperflexSoftwareVersionPolicy#hypervisor_version_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#hypervisor_version_info DataIntersightHyperflexSoftwareVersionPolicy#hypervisor_version_info}
   */
   readonly hypervisorVersionInfo?: DataIntersightHyperflexSoftwareVersionPolicyHypervisorVersionInfo;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#organization DataIntersightHyperflexSoftwareVersionPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#organization DataIntersightHyperflexSoftwareVersionPolicy#organization}
   */
   readonly organization?: DataIntersightHyperflexSoftwareVersionPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#parent DataIntersightHyperflexSoftwareVersionPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#parent DataIntersightHyperflexSoftwareVersionPolicy#parent}
   */
   readonly parent?: DataIntersightHyperflexSoftwareVersionPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#permission_resources DataIntersightHyperflexSoftwareVersionPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#permission_resources DataIntersightHyperflexSoftwareVersionPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexSoftwareVersionPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * server_firmware_version_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#server_firmware_version_info DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_version_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#server_firmware_version_info DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_version_info}
   */
   readonly serverFirmwareVersionInfo?: DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersionInfo;
   /**
   * server_firmware_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#server_firmware_versions DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#server_firmware_versions DataIntersightHyperflexSoftwareVersionPolicy#server_firmware_versions}
   */
   readonly serverFirmwareVersions?: DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersions[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#tags DataIntersightHyperflexSoftwareVersionPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#tags DataIntersightHyperflexSoftwareVersionPolicy#tags}
   */
   readonly tags?: DataIntersightHyperflexSoftwareVersionPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#version_context DataIntersightHyperflexSoftwareVersionPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#version_context DataIntersightHyperflexSoftwareVersionPolicy#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexSoftwareVersionPolicyVersionContext;
 }
@@ -1298,6 +1298,11 @@ export class DataIntersightHyperflexSoftwareVersionPolicyResultsTagsOutputRefere
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1852,7 +1857,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyResultsList extends cdk
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1860,19 +1865,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1885,7 +1890,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2117,7 +2122,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyAncestorsList extends c
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2125,19 +2130,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2150,7 +2155,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2382,7 +2387,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyClusterProfilesList ext
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyHxdpVersionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2390,19 +2395,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyHxdpVersionInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2415,7 +2420,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyHxdpVersionInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2615,7 +2620,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyHxdpVersionInfoOutputRe
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyHypervisorVersionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2623,19 +2628,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyHypervisorVersionIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2648,7 +2653,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyHypervisorVersionIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2848,7 +2853,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyHypervisorVersionInfoOu
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2856,19 +2861,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2881,7 +2886,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3081,7 +3086,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyOrganizationOutputRefer
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3089,19 +3094,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3114,7 +3119,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3314,7 +3319,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyParentOutputReference e
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3322,19 +3327,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3347,7 +3352,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3579,7 +3584,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyPermissionResourcesList
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3587,19 +3592,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3612,7 +3617,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3812,7 +3817,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersionIn
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3820,20 +3825,20 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The server firmware bundle version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#nr_version DataIntersightHyperflexSoftwareVersionPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#nr_version DataIntersightHyperflexSoftwareVersionPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3843,7 +3848,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersi
   * * `M4` - M4 generation of UCS server.
   * * `M6` - M6 generation of UCS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#server_platform DataIntersightHyperflexSoftwareVersionPolicy#server_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#server_platform DataIntersightHyperflexSoftwareVersionPolicy#server_platform}
   */
   readonly serverPlatform?: string;
 }
@@ -4075,7 +4080,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyServerFirmwareVersionsL
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4083,19 +4088,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4108,7 +4113,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4340,7 +4345,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinitions
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4348,19 +4353,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4373,7 +4378,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4573,45 +4578,51 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsDefinitionOutputRef
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#key DataIntersightHyperflexSoftwareVersionPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#key DataIntersightHyperflexSoftwareVersionPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#propagated DataIntersightHyperflexSoftwareVersionPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#propagated DataIntersightHyperflexSoftwareVersionPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#sys_tag DataIntersightHyperflexSoftwareVersionPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#type DataIntersightHyperflexSoftwareVersionPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#type DataIntersightHyperflexSoftwareVersionPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#value DataIntersightHyperflexSoftwareVersionPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#value DataIntersightHyperflexSoftwareVersionPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#ancestor_definitions DataIntersightHyperflexSoftwareVersionPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#ancestor_definitions DataIntersightHyperflexSoftwareVersionPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#definition DataIntersightHyperflexSoftwareVersionPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#definition DataIntersightHyperflexSoftwareVersionPolicy#definition}
   */
   readonly definition?: DataIntersightHyperflexSoftwareVersionPolicyTagsDefinition;
 }
@@ -4625,6 +4636,7 @@ export function dataIntersightHyperflexSoftwareVersionPolicyTagsToTerraform(stru
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexSoftwareVersionPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4653,6 +4665,12 @@ export function dataIntersightHyperflexSoftwareVersionPolicyTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4719,6 +4737,10 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4745,6 +4767,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsOutputReference ext
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4760,6 +4783,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsOutputReference ext
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4813,6 +4837,22 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4901,7 +4941,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyTagsList extends cdktf.
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4909,19 +4949,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4934,7 +4974,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5166,7 +5206,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyVersionContextIntereste
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5174,19 +5214,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#moid DataIntersightHyperflexSoftwareVersionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5199,7 +5239,7 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#selector DataIntersightHyperflexSoftwareVersionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5399,7 +5439,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyVersionContextRefMoOutp
 }
 export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#additional_properties DataIntersightHyperflexSoftwareVersionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5407,32 +5447,32 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#class_id DataIntersightHyperflexSoftwareVersionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#marked_for_deletion DataIntersightHyperflexSoftwareVersionPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#marked_for_deletion DataIntersightHyperflexSoftwareVersionPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#nr_version DataIntersightHyperflexSoftwareVersionPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#nr_version DataIntersightHyperflexSoftwareVersionPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#object_type DataIntersightHyperflexSoftwareVersionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#timestamp DataIntersightHyperflexSoftwareVersionPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#timestamp DataIntersightHyperflexSoftwareVersionPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5443,19 +5483,19 @@ export interface DataIntersightHyperflexSoftwareVersionPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#version_type DataIntersightHyperflexSoftwareVersionPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#version_type DataIntersightHyperflexSoftwareVersionPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#interested_mos DataIntersightHyperflexSoftwareVersionPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#interested_mos DataIntersightHyperflexSoftwareVersionPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexSoftwareVersionPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#ref_mo DataIntersightHyperflexSoftwareVersionPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#ref_mo DataIntersightHyperflexSoftwareVersionPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexSoftwareVersionPolicyVersionContextRefMo;
 }
@@ -5771,7 +5811,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicyVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy intersight_hyperflex_software_version_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy intersight_hyperflex_software_version_policy}
 */
 export class DataIntersightHyperflexSoftwareVersionPolicy extends cdktf.TerraformDataSource {
 
@@ -5787,7 +5827,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicy extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightHyperflexSoftwareVersionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexSoftwareVersionPolicy to import
-  * @param importFromId The id of the existing DataIntersightHyperflexSoftwareVersionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexSoftwareVersionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexSoftwareVersionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5799,7 +5839,7 @@ export class DataIntersightHyperflexSoftwareVersionPolicy extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_software_version_policy intersight_hyperflex_software_version_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_software_version_policy intersight_hyperflex_software_version_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5810,8 +5850,8 @@ export class DataIntersightHyperflexSoftwareVersionPolicy extends cdktf.Terrafor
       terraformResourceType: 'intersight_hyperflex_software_version_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

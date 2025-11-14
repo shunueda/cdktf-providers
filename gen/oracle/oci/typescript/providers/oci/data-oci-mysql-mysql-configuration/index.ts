@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMysqlMysqlConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}
   */
   readonly configurationId: string;
 }
@@ -749,7 +749,7 @@ export class DataOciMysqlMysqlConfigurationVariablesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_configuration oci_mysql_mysql_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_configuration oci_mysql_mysql_configuration}
 */
 export class DataOciMysqlMysqlConfiguration extends cdktf.TerraformDataSource {
 
@@ -765,7 +765,7 @@ export class DataOciMysqlMysqlConfiguration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMysqlMysqlConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMysqlMysqlConfiguration to import
-  * @param importFromId The id of the existing DataOciMysqlMysqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMysqlMysqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMysqlMysqlConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -777,7 +777,7 @@ export class DataOciMysqlMysqlConfiguration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/mysql_mysql_configuration oci_mysql_mysql_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/mysql_mysql_configuration oci_mysql_mysql_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -788,8 +788,8 @@ export class DataOciMysqlMysqlConfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_mysql_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

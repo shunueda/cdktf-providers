@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputeServerIdPoolConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#account_moid DataIntersightComputeServerIdPool#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#account_moid DataIntersightComputeServerIdPool#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,27 +22,27 @@ export interface DataIntersightComputeServerIdPoolConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#create_time DataIntersightComputeServerIdPool#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#create_time DataIntersightComputeServerIdPool#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#domain_group_moid DataIntersightComputeServerIdPool#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#domain_group_moid DataIntersightComputeServerIdPool#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#gap_available_ids DataIntersightComputeServerIdPool#gap_available_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#gap_available_ids DataIntersightComputeServerIdPool#gap_available_ids}
   */
   readonly gapAvailableIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#id DataIntersightComputeServerIdPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#id DataIntersightComputeServerIdPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,77 +51,77 @@ export interface DataIntersightComputeServerIdPoolConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#mod_time DataIntersightComputeServerIdPool#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#mod_time DataIntersightComputeServerIdPool#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * Shows the next available Chassis ID to be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#next_available_id DataIntersightComputeServerIdPool#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#next_available_id DataIntersightComputeServerIdPool#next_available_id}
   */
   readonly nextAvailableId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#owners DataIntersightComputeServerIdPool#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#owners DataIntersightComputeServerIdPool#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#preferred_ids DataIntersightComputeServerIdPool#preferred_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#preferred_ids DataIntersightComputeServerIdPool#preferred_ids}
   */
   readonly preferredIds?: number[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#shared_scope DataIntersightComputeServerIdPool#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#shared_scope DataIntersightComputeServerIdPool#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#ancestors DataIntersightComputeServerIdPool#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#ancestors DataIntersightComputeServerIdPool#ancestors}
   */
   readonly ancestors?: DataIntersightComputeServerIdPoolAncestors[] | cdktf.IResolvable;
   /**
   * device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#device_registration DataIntersightComputeServerIdPool#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#device_registration DataIntersightComputeServerIdPool#device_registration}
   */
   readonly deviceRegistration?: DataIntersightComputeServerIdPoolDeviceRegistration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#parent DataIntersightComputeServerIdPool#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#parent DataIntersightComputeServerIdPool#parent}
   */
   readonly parent?: DataIntersightComputeServerIdPoolParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#permission_resources DataIntersightComputeServerIdPool#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#permission_resources DataIntersightComputeServerIdPool#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeServerIdPoolPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#tags DataIntersightComputeServerIdPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#tags DataIntersightComputeServerIdPool#tags}
   */
   readonly tags?: DataIntersightComputeServerIdPoolTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#version_context DataIntersightComputeServerIdPool#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#version_context DataIntersightComputeServerIdPool#version_context}
   */
   readonly versionContext?: DataIntersightComputeServerIdPoolVersionContext;
 }
@@ -773,6 +773,11 @@ export class DataIntersightComputeServerIdPoolResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1282,7 +1287,7 @@ export class DataIntersightComputeServerIdPoolResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeServerIdPoolAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1290,19 +1295,19 @@ export interface DataIntersightComputeServerIdPoolAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1315,7 +1320,7 @@ export interface DataIntersightComputeServerIdPoolAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -1547,7 +1552,7 @@ export class DataIntersightComputeServerIdPoolAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightComputeServerIdPoolDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1555,19 +1560,19 @@ export interface DataIntersightComputeServerIdPoolDeviceRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1580,7 +1585,7 @@ export interface DataIntersightComputeServerIdPoolDeviceRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -1780,7 +1785,7 @@ export class DataIntersightComputeServerIdPoolDeviceRegistrationOutputReference 
 }
 export interface DataIntersightComputeServerIdPoolParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1788,19 +1793,19 @@ export interface DataIntersightComputeServerIdPoolParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1813,7 +1818,7 @@ export interface DataIntersightComputeServerIdPoolParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2013,7 +2018,7 @@ export class DataIntersightComputeServerIdPoolParentOutputReference extends cdkt
 }
 export interface DataIntersightComputeServerIdPoolPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2021,19 +2026,19 @@ export interface DataIntersightComputeServerIdPoolPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2046,7 +2051,7 @@ export interface DataIntersightComputeServerIdPoolPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2278,7 +2283,7 @@ export class DataIntersightComputeServerIdPoolPermissionResourcesList extends cd
 }
 export interface DataIntersightComputeServerIdPoolTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2286,19 +2291,19 @@ export interface DataIntersightComputeServerIdPoolTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2311,7 +2316,7 @@ export interface DataIntersightComputeServerIdPoolTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2543,7 +2548,7 @@ export class DataIntersightComputeServerIdPoolTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightComputeServerIdPoolTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2551,19 +2556,19 @@ export interface DataIntersightComputeServerIdPoolTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2576,7 +2581,7 @@ export interface DataIntersightComputeServerIdPoolTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2776,45 +2781,51 @@ export class DataIntersightComputeServerIdPoolTagsDefinitionOutputReference exte
 }
 export interface DataIntersightComputeServerIdPoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#key DataIntersightComputeServerIdPool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#key DataIntersightComputeServerIdPool#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#propagated DataIntersightComputeServerIdPool#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#propagated DataIntersightComputeServerIdPool#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#sys_tag DataIntersightComputeServerIdPool#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#type DataIntersightComputeServerIdPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#type DataIntersightComputeServerIdPool#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#value DataIntersightComputeServerIdPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#value DataIntersightComputeServerIdPool#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#ancestor_definitions DataIntersightComputeServerIdPool#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#ancestor_definitions DataIntersightComputeServerIdPool#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeServerIdPoolTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#definition DataIntersightComputeServerIdPool#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#definition DataIntersightComputeServerIdPool#definition}
   */
   readonly definition?: DataIntersightComputeServerIdPoolTagsDefinition;
 }
@@ -2828,6 +2839,7 @@ export function dataIntersightComputeServerIdPoolTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightComputeServerIdPoolTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2856,6 +2868,12 @@ export function dataIntersightComputeServerIdPoolTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2922,6 +2940,10 @@ export class DataIntersightComputeServerIdPoolTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2948,6 +2970,7 @@ export class DataIntersightComputeServerIdPoolTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2963,6 +2986,7 @@ export class DataIntersightComputeServerIdPoolTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3016,6 +3040,22 @@ export class DataIntersightComputeServerIdPoolTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3104,7 +3144,7 @@ export class DataIntersightComputeServerIdPoolTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightComputeServerIdPoolVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3112,19 +3152,19 @@ export interface DataIntersightComputeServerIdPoolVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3137,7 +3177,7 @@ export interface DataIntersightComputeServerIdPoolVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -3369,7 +3409,7 @@ export class DataIntersightComputeServerIdPoolVersionContextInterestedMosList ex
 }
 export interface DataIntersightComputeServerIdPoolVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3377,19 +3417,19 @@ export interface DataIntersightComputeServerIdPoolVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#moid DataIntersightComputeServerIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3402,7 +3442,7 @@ export interface DataIntersightComputeServerIdPoolVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#selector DataIntersightComputeServerIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -3602,7 +3642,7 @@ export class DataIntersightComputeServerIdPoolVersionContextRefMoOutputReference
 }
 export interface DataIntersightComputeServerIdPoolVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#additional_properties DataIntersightComputeServerIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3610,32 +3650,32 @@ export interface DataIntersightComputeServerIdPoolVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#class_id DataIntersightComputeServerIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#marked_for_deletion DataIntersightComputeServerIdPool#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#marked_for_deletion DataIntersightComputeServerIdPool#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#nr_version DataIntersightComputeServerIdPool#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#nr_version DataIntersightComputeServerIdPool#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#object_type DataIntersightComputeServerIdPool#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#timestamp DataIntersightComputeServerIdPool#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#timestamp DataIntersightComputeServerIdPool#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3646,19 +3686,19 @@ export interface DataIntersightComputeServerIdPoolVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#version_type DataIntersightComputeServerIdPool#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#version_type DataIntersightComputeServerIdPool#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#interested_mos DataIntersightComputeServerIdPool#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#interested_mos DataIntersightComputeServerIdPool#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeServerIdPoolVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#ref_mo DataIntersightComputeServerIdPool#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#ref_mo DataIntersightComputeServerIdPool#ref_mo}
   */
   readonly refMo?: DataIntersightComputeServerIdPoolVersionContextRefMo;
 }
@@ -3974,7 +4014,7 @@ export class DataIntersightComputeServerIdPoolVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool intersight_compute_server_id_pool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool intersight_compute_server_id_pool}
 */
 export class DataIntersightComputeServerIdPool extends cdktf.TerraformDataSource {
 
@@ -3990,7 +4030,7 @@ export class DataIntersightComputeServerIdPool extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightComputeServerIdPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeServerIdPool to import
-  * @param importFromId The id of the existing DataIntersightComputeServerIdPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeServerIdPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeServerIdPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4002,7 +4042,7 @@ export class DataIntersightComputeServerIdPool extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_id_pool intersight_compute_server_id_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_id_pool intersight_compute_server_id_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4013,8 +4053,8 @@ export class DataIntersightComputeServerIdPool extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_compute_server_id_pool',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

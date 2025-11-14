@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilityAdapterDeprecatedDefConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#account_moid CapabilityAdapterDeprecatedDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#account_moid CapabilityAdapterDeprecatedDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#ancestors CapabilityAdapterDeprecatedDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#ancestors CapabilityAdapterDeprecatedDef#ancestors}
   */
   readonly ancestors?: CapabilityAdapterDeprecatedDefAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface CapabilityAdapterDeprecatedDefConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#create_time CapabilityAdapterDeprecatedDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#create_time CapabilityAdapterDeprecatedDef#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#domain_group_moid CapabilityAdapterDeprecatedDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#domain_group_moid CapabilityAdapterDeprecatedDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#id CapabilityAdapterDeprecatedDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#id CapabilityAdapterDeprecatedDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,94 +53,94 @@ export interface CapabilityAdapterDeprecatedDefConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#mod_time CapabilityAdapterDeprecatedDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#mod_time CapabilityAdapterDeprecatedDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * Model of the unsupported adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#model CapabilityAdapterDeprecatedDef#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#model CapabilityAdapterDeprecatedDef#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#name CapabilityAdapterDeprecatedDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#name CapabilityAdapterDeprecatedDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#owners CapabilityAdapterDeprecatedDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#owners CapabilityAdapterDeprecatedDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#parent CapabilityAdapterDeprecatedDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#parent CapabilityAdapterDeprecatedDef#parent}
   */
   readonly parent?: CapabilityAdapterDeprecatedDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#permission_resources CapabilityAdapterDeprecatedDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#permission_resources CapabilityAdapterDeprecatedDef#permission_resources}
   */
   readonly permissionResources?: CapabilityAdapterDeprecatedDefPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#shared_scope CapabilityAdapterDeprecatedDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#shared_scope CapabilityAdapterDeprecatedDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#tags CapabilityAdapterDeprecatedDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#tags CapabilityAdapterDeprecatedDef#tags}
   */
   readonly tags?: CapabilityAdapterDeprecatedDefTags[] | cdktf.IResolvable;
   /**
   * Vendor of the unsupported adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#vendor CapabilityAdapterDeprecatedDef#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#vendor CapabilityAdapterDeprecatedDef#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#version_context CapabilityAdapterDeprecatedDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#version_context CapabilityAdapterDeprecatedDef#version_context}
   */
   readonly versionContext?: CapabilityAdapterDeprecatedDefVersionContext[] | cdktf.IResolvable;
 }
 export interface CapabilityAdapterDeprecatedDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -372,23 +372,23 @@ export class CapabilityAdapterDeprecatedDefAncestorsList extends cdktf.ComplexLi
 }
 export interface CapabilityAdapterDeprecatedDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -620,23 +620,23 @@ export class CapabilityAdapterDeprecatedDefParentList extends cdktf.ComplexList 
 }
 export interface CapabilityAdapterDeprecatedDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -868,23 +868,23 @@ export class CapabilityAdapterDeprecatedDefPermissionResourcesList extends cdktf
 }
 export interface CapabilityAdapterDeprecatedDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1116,23 +1116,23 @@ export class CapabilityAdapterDeprecatedDefTagsAncestorDefinitionsList extends c
 }
 export interface CapabilityAdapterDeprecatedDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1364,31 +1364,35 @@ export class CapabilityAdapterDeprecatedDefTagsDefinitionList extends cdktf.Comp
 }
 export interface CapabilityAdapterDeprecatedDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#ancestor_definitions CapabilityAdapterDeprecatedDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#ancestor_definitions CapabilityAdapterDeprecatedDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityAdapterDeprecatedDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#definition CapabilityAdapterDeprecatedDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#definition CapabilityAdapterDeprecatedDef#definition}
   */
   readonly definition?: CapabilityAdapterDeprecatedDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#key CapabilityAdapterDeprecatedDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#key CapabilityAdapterDeprecatedDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#propagated CapabilityAdapterDeprecatedDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#propagated CapabilityAdapterDeprecatedDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#type CapabilityAdapterDeprecatedDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#sys_tag CapabilityAdapterDeprecatedDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#type CapabilityAdapterDeprecatedDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#value CapabilityAdapterDeprecatedDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#value CapabilityAdapterDeprecatedDef#value}
   */
   readonly value?: string;
 }
@@ -1404,6 +1408,7 @@ export function capabilityAdapterDeprecatedDefTagsToTerraform(struct?: Capabilit
     definition: cdktf.listMapper(capabilityAdapterDeprecatedDefTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1442,6 +1447,12 @@ export function capabilityAdapterDeprecatedDefTagsToHclTerraform(struct?: Capabi
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1504,6 +1515,10 @@ export class CapabilityAdapterDeprecatedDefTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1524,6 +1539,7 @@ export class CapabilityAdapterDeprecatedDefTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1539,6 +1555,7 @@ export class CapabilityAdapterDeprecatedDefTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1624,6 +1641,22 @@ export class CapabilityAdapterDeprecatedDefTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1678,23 +1711,23 @@ export class CapabilityAdapterDeprecatedDefTagsList extends cdktf.ComplexList {
 }
 export interface CapabilityAdapterDeprecatedDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1926,23 +1959,23 @@ export class CapabilityAdapterDeprecatedDefVersionContextInterestedMosList exten
 }
 export interface CapabilityAdapterDeprecatedDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#moid CapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#selector CapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -2174,39 +2207,39 @@ export class CapabilityAdapterDeprecatedDefVersionContextRefMoList extends cdktf
 }
 export interface CapabilityAdapterDeprecatedDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#additional_properties CapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#class_id CapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#interested_mos CapabilityAdapterDeprecatedDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#interested_mos CapabilityAdapterDeprecatedDef#interested_mos}
   */
   readonly interestedMos?: CapabilityAdapterDeprecatedDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#marked_for_deletion CapabilityAdapterDeprecatedDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#marked_for_deletion CapabilityAdapterDeprecatedDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#nr_version CapabilityAdapterDeprecatedDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#nr_version CapabilityAdapterDeprecatedDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#object_type CapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#ref_mo CapabilityAdapterDeprecatedDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#ref_mo CapabilityAdapterDeprecatedDef#ref_mo}
   */
   readonly refMo?: CapabilityAdapterDeprecatedDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#timestamp CapabilityAdapterDeprecatedDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#timestamp CapabilityAdapterDeprecatedDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#version_type CapabilityAdapterDeprecatedDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#version_type CapabilityAdapterDeprecatedDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2554,7 +2587,7 @@ export class CapabilityAdapterDeprecatedDefVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def}
 */
 export class CapabilityAdapterDeprecatedDef extends cdktf.TerraformResource {
 
@@ -2570,7 +2603,7 @@ export class CapabilityAdapterDeprecatedDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityAdapterDeprecatedDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityAdapterDeprecatedDef to import
-  * @param importFromId The id of the existing CapabilityAdapterDeprecatedDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityAdapterDeprecatedDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityAdapterDeprecatedDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2582,7 +2615,7 @@ export class CapabilityAdapterDeprecatedDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2593,8 +2626,8 @@ export class CapabilityAdapterDeprecatedDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_adapter_deprecated_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

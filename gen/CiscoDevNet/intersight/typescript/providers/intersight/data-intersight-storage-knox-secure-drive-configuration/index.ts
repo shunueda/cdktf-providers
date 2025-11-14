@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationConfig extends
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#account_moid DataIntersightStorageKnoxSecureDriveConfiguration#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#account_moid DataIntersightStorageKnoxSecureDriveConfiguration#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationConfig extends
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The storage controller Dn Name for which RAID is created at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#controller_dn DataIntersightStorageKnoxSecureDriveConfiguration#controller_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#controller_dn DataIntersightStorageKnoxSecureDriveConfiguration#controller_dn}
   */
   readonly controllerDn?: string;
   /**
   * The storage controller Moid for which RAID creation is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#controller_moid DataIntersightStorageKnoxSecureDriveConfiguration#controller_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#controller_moid DataIntersightStorageKnoxSecureDriveConfiguration#controller_moid}
   */
   readonly controllerMoid?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#create_time DataIntersightStorageKnoxSecureDriveConfiguration#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#create_time DataIntersightStorageKnoxSecureDriveConfiguration#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#domain_group_moid DataIntersightStorageKnoxSecureDriveConfiguration#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#domain_group_moid DataIntersightStorageKnoxSecureDriveConfiguration#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#id DataIntersightStorageKnoxSecureDriveConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#id DataIntersightStorageKnoxSecureDriveConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationConfig extends
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#mod_time DataIntersightStorageKnoxSecureDriveConfiguration#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#mod_time DataIntersightStorageKnoxSecureDriveConfiguration#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#owners DataIntersightStorageKnoxSecureDriveConfiguration#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#owners DataIntersightStorageKnoxSecureDriveConfiguration#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#shared_scope DataIntersightStorageKnoxSecureDriveConfiguration#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#shared_scope DataIntersightStorageKnoxSecureDriveConfiguration#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#ancestors DataIntersightStorageKnoxSecureDriveConfiguration#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#ancestors DataIntersightStorageKnoxSecureDriveConfiguration#ancestors}
   */
   readonly ancestors?: DataIntersightStorageKnoxSecureDriveConfigurationAncestors[] | cdktf.IResolvable;
   /**
   * disk_states block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#disk_states DataIntersightStorageKnoxSecureDriveConfiguration#disk_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#disk_states DataIntersightStorageKnoxSecureDriveConfiguration#disk_states}
   */
   readonly diskStates?: DataIntersightStorageKnoxSecureDriveConfigurationDiskStates[] | cdktf.IResolvable;
   /**
   * drive_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#drive_groups DataIntersightStorageKnoxSecureDriveConfiguration#drive_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#drive_groups DataIntersightStorageKnoxSecureDriveConfiguration#drive_groups}
   */
   readonly driveGroups?: DataIntersightStorageKnoxSecureDriveConfigurationDriveGroups[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#parent DataIntersightStorageKnoxSecureDriveConfiguration#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#parent DataIntersightStorageKnoxSecureDriveConfiguration#parent}
   */
   readonly parent?: DataIntersightStorageKnoxSecureDriveConfigurationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#permission_resources DataIntersightStorageKnoxSecureDriveConfiguration#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#permission_resources DataIntersightStorageKnoxSecureDriveConfiguration#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageKnoxSecureDriveConfigurationPermissionResources[] | cdktf.IResolvable;
   /**
   * server_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#server_profile DataIntersightStorageKnoxSecureDriveConfiguration#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#server_profile DataIntersightStorageKnoxSecureDriveConfiguration#server_profile}
   */
   readonly serverProfile?: DataIntersightStorageKnoxSecureDriveConfigurationServerProfile;
   /**
   * storage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#storage_policy DataIntersightStorageKnoxSecureDriveConfiguration#storage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#storage_policy DataIntersightStorageKnoxSecureDriveConfiguration#storage_policy}
   */
   readonly storagePolicy?: DataIntersightStorageKnoxSecureDriveConfigurationStoragePolicy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#tags DataIntersightStorageKnoxSecureDriveConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#tags DataIntersightStorageKnoxSecureDriveConfiguration#tags}
   */
   readonly tags?: DataIntersightStorageKnoxSecureDriveConfigurationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#version_context DataIntersightStorageKnoxSecureDriveConfiguration#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#version_context DataIntersightStorageKnoxSecureDriveConfiguration#version_context}
   */
   readonly versionContext?: DataIntersightStorageKnoxSecureDriveConfigurationVersionContext;
 }
@@ -1341,6 +1341,11 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationResultsTagsOutputR
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1863,7 +1868,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationResultsList extend
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1871,19 +1876,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1896,7 +1901,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2128,7 +2133,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationAncestorsList exte
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationDiskStates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2136,32 +2141,32 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationDiskStates {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * Physical Disk Encryption operation that is to be set at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#encryption_op DataIntersightStorageKnoxSecureDriveConfiguration#encryption_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#encryption_op DataIntersightStorageKnoxSecureDriveConfiguration#encryption_op}
   */
   readonly encryptionOp?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * Physical Disk Slot that is to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#slot DataIntersightStorageKnoxSecureDriveConfiguration#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#slot DataIntersightStorageKnoxSecureDriveConfiguration#slot}
   */
   readonly slot?: string;
   /**
   * Physical Disk State that is to be set at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#state DataIntersightStorageKnoxSecureDriveConfiguration#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#state DataIntersightStorageKnoxSecureDriveConfiguration#state}
   */
   readonly state?: string;
 }
@@ -2424,17 +2429,17 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsCon
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#access_policy DataIntersightStorageKnoxSecureDriveConfiguration#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#access_policy DataIntersightStorageKnoxSecureDriveConfiguration#access_policy}
   */
   readonly accessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#bootable DataIntersightStorageKnoxSecureDriveConfiguration#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#bootable DataIntersightStorageKnoxSecureDriveConfiguration#bootable}
   */
   readonly bootable?: boolean | cdktf.IResolvable;
   /**
@@ -2442,78 +2447,78 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * This defines the characteristics of a specific storage controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#controller_dn DataIntersightStorageKnoxSecureDriveConfiguration#controller_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#controller_dn DataIntersightStorageKnoxSecureDriveConfiguration#controller_dn}
   */
   readonly controllerDn?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#dedicated_hot_spare DataIntersightStorageKnoxSecureDriveConfiguration#dedicated_hot_spare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#dedicated_hot_spare DataIntersightStorageKnoxSecureDriveConfiguration#dedicated_hot_spare}
   */
   readonly dedicatedHotSpare?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#disk_cache_policy DataIntersightStorageKnoxSecureDriveConfiguration#disk_cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#disk_cache_policy DataIntersightStorageKnoxSecureDriveConfiguration#disk_cache_policy}
   */
   readonly diskCachePolicy?: string;
   /**
   * The name of the virtual drive. The name can be between 1 and 15 alphanumeric characters. Spaces or any special characters other than - (hyphen) and _ (underscore) are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#raid_level DataIntersightStorageKnoxSecureDriveConfiguration#raid_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#raid_level DataIntersightStorageKnoxSecureDriveConfiguration#raid_level}
   */
   readonly raidLevel?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#read_policy DataIntersightStorageKnoxSecureDriveConfiguration#read_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#read_policy DataIntersightStorageKnoxSecureDriveConfiguration#read_policy}
   */
   readonly readPolicy?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#self_encrypt DataIntersightStorageKnoxSecureDriveConfiguration#self_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#self_encrypt DataIntersightStorageKnoxSecureDriveConfiguration#self_encrypt}
   */
   readonly selfEncrypt?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#size DataIntersightStorageKnoxSecureDriveConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#size DataIntersightStorageKnoxSecureDriveConfiguration#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#span_disks DataIntersightStorageKnoxSecureDriveConfiguration#span_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#span_disks DataIntersightStorageKnoxSecureDriveConfiguration#span_disks}
   */
   readonly spanDisks?: string[];
   /**
   * Virtual drive strip size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#strip_size DataIntersightStorageKnoxSecureDriveConfiguration#strip_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#strip_size DataIntersightStorageKnoxSecureDriveConfiguration#strip_size}
   */
   readonly stripSize?: string;
   /**
   * This defines the characteristics of a specific virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#write_policy DataIntersightStorageKnoxSecureDriveConfiguration#write_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#write_policy DataIntersightStorageKnoxSecureDriveConfiguration#write_policy}
   */
   readonly writePolicy?: string;
 }
@@ -3064,7 +3069,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsConfigu
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsDedicatedHotSparesForDriveGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3072,38 +3077,38 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsDed
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * This defines if the vd does not exists at endpoint for specific storage controller per drive group. Only if it's false we will create dedicated hot spares for the existing vds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#is_new_vd DataIntersightStorageKnoxSecureDriveConfiguration#is_new_vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#is_new_vd DataIntersightStorageKnoxSecureDriveConfiguration#is_new_vd}
   */
   readonly isNewVd?: boolean | cdktf.IResolvable;
   /**
   * The name of the virtual drive. The name can be between 1 and 15 alphanumeric characters. Spaces or any special characters other than - (hyphen) and _ (underscore) are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * Physical Disk Slot that is used as dedicated hot spare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#slot DataIntersightStorageKnoxSecureDriveConfiguration#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#slot DataIntersightStorageKnoxSecureDriveConfiguration#slot}
   */
   readonly slot?: string;
   /**
   * The volume dn of the dedicated hot spare, this will be unique for each dedicated hot spare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#volume_dn DataIntersightStorageKnoxSecureDriveConfiguration#volume_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#volume_dn DataIntersightStorageKnoxSecureDriveConfiguration#volume_dn}
   */
   readonly volumeDn?: string;
 }
@@ -3393,7 +3398,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsDedicat
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3401,32 +3406,32 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationDriveGroups {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The DriveGroup Name which is used to create virtual Drives at endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#name DataIntersightStorageKnoxSecureDriveConfiguration#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#configurations DataIntersightStorageKnoxSecureDriveConfiguration#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#configurations DataIntersightStorageKnoxSecureDriveConfiguration#configurations}
   */
   readonly configurations?: DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsConfigurations[] | cdktf.IResolvable;
   /**
   * dedicated_hot_spares_for_drive_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#dedicated_hot_spares_for_drive_group DataIntersightStorageKnoxSecureDriveConfiguration#dedicated_hot_spares_for_drive_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#dedicated_hot_spares_for_drive_group DataIntersightStorageKnoxSecureDriveConfiguration#dedicated_hot_spares_for_drive_group}
   */
   readonly dedicatedHotSparesForDriveGroup?: DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsDedicatedHotSparesForDriveGroup[] | cdktf.IResolvable;
 }
@@ -3687,7 +3692,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationDriveGroupsList ex
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3695,19 +3700,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3720,7 +3725,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3920,7 +3925,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationParentOutputRefere
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3928,19 +3933,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationPermissionReso
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3953,7 +3958,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationPermissionReso
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4185,7 +4190,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationPermissionResource
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationServerProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4193,19 +4198,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationServerProfile 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4218,7 +4223,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationServerProfile 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4418,7 +4423,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationServerProfileOutpu
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationStoragePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4426,19 +4431,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationStoragePolicy 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4451,7 +4456,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationStoragePolicy 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4651,7 +4656,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationStoragePolicyOutpu
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4659,19 +4664,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4684,7 +4689,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -4916,7 +4921,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDefini
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4924,19 +4929,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4949,7 +4954,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationTagsDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5149,45 +5154,51 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsDefinitionOutp
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#key DataIntersightStorageKnoxSecureDriveConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#key DataIntersightStorageKnoxSecureDriveConfiguration#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#propagated DataIntersightStorageKnoxSecureDriveConfiguration#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#propagated DataIntersightStorageKnoxSecureDriveConfiguration#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#sys_tag DataIntersightStorageKnoxSecureDriveConfiguration#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#type DataIntersightStorageKnoxSecureDriveConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#type DataIntersightStorageKnoxSecureDriveConfiguration#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#value DataIntersightStorageKnoxSecureDriveConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#value DataIntersightStorageKnoxSecureDriveConfiguration#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#ancestor_definitions DataIntersightStorageKnoxSecureDriveConfiguration#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#ancestor_definitions DataIntersightStorageKnoxSecureDriveConfiguration#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#definition DataIntersightStorageKnoxSecureDriveConfiguration#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#definition DataIntersightStorageKnoxSecureDriveConfiguration#definition}
   */
   readonly definition?: DataIntersightStorageKnoxSecureDriveConfigurationTagsDefinition;
 }
@@ -5201,6 +5212,7 @@ export function dataIntersightStorageKnoxSecureDriveConfigurationTagsToTerraform
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageKnoxSecureDriveConfigurationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5229,6 +5241,12 @@ export function dataIntersightStorageKnoxSecureDriveConfigurationTagsToHclTerraf
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5295,6 +5313,10 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsOutputReferenc
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5321,6 +5343,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsOutputReferenc
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5336,6 +5359,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsOutputReferenc
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5389,6 +5413,22 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsOutputReferenc
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5477,7 +5517,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationTagsList extends c
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5485,19 +5525,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5510,7 +5550,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5742,7 +5782,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationVersionContextInte
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5750,19 +5790,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#moid DataIntersightStorageKnoxSecureDriveConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5775,7 +5815,7 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#selector DataIntersightStorageKnoxSecureDriveConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -5975,7 +6015,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationVersionContextRefM
 }
 export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#additional_properties DataIntersightStorageKnoxSecureDriveConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5983,32 +6023,32 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#class_id DataIntersightStorageKnoxSecureDriveConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#marked_for_deletion DataIntersightStorageKnoxSecureDriveConfiguration#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#marked_for_deletion DataIntersightStorageKnoxSecureDriveConfiguration#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#nr_version DataIntersightStorageKnoxSecureDriveConfiguration#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#nr_version DataIntersightStorageKnoxSecureDriveConfiguration#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#object_type DataIntersightStorageKnoxSecureDriveConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#timestamp DataIntersightStorageKnoxSecureDriveConfiguration#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#timestamp DataIntersightStorageKnoxSecureDriveConfiguration#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6019,19 +6059,19 @@ export interface DataIntersightStorageKnoxSecureDriveConfigurationVersionContext
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#version_type DataIntersightStorageKnoxSecureDriveConfiguration#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#version_type DataIntersightStorageKnoxSecureDriveConfiguration#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#interested_mos DataIntersightStorageKnoxSecureDriveConfiguration#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#interested_mos DataIntersightStorageKnoxSecureDriveConfiguration#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageKnoxSecureDriveConfigurationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#ref_mo DataIntersightStorageKnoxSecureDriveConfiguration#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#ref_mo DataIntersightStorageKnoxSecureDriveConfiguration#ref_mo}
   */
   readonly refMo?: DataIntersightStorageKnoxSecureDriveConfigurationVersionContextRefMo;
 }
@@ -6347,7 +6387,7 @@ export class DataIntersightStorageKnoxSecureDriveConfigurationVersionContextOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration intersight_storage_knox_secure_drive_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration intersight_storage_knox_secure_drive_configuration}
 */
 export class DataIntersightStorageKnoxSecureDriveConfiguration extends cdktf.TerraformDataSource {
 
@@ -6363,7 +6403,7 @@ export class DataIntersightStorageKnoxSecureDriveConfiguration extends cdktf.Ter
   * Generates CDKTF code for importing a DataIntersightStorageKnoxSecureDriveConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageKnoxSecureDriveConfiguration to import
-  * @param importFromId The id of the existing DataIntersightStorageKnoxSecureDriveConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageKnoxSecureDriveConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageKnoxSecureDriveConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6375,7 +6415,7 @@ export class DataIntersightStorageKnoxSecureDriveConfiguration extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_knox_secure_drive_configuration intersight_storage_knox_secure_drive_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_knox_secure_drive_configuration intersight_storage_knox_secure_drive_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6386,8 +6426,8 @@ export class DataIntersightStorageKnoxSecureDriveConfiguration extends cdktf.Ter
       terraformResourceType: 'intersight_storage_knox_secure_drive_configuration',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

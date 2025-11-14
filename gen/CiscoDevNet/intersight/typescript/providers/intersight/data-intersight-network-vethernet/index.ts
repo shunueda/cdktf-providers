@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightNetworkVethernetConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#account_moid DataIntersightNetworkVethernet#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#account_moid DataIntersightNetworkVethernet#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Port or portchannel interface configured for vitual ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#bound_interface_dn DataIntersightNetworkVethernet#bound_interface_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#bound_interface_dn DataIntersightNetworkVethernet#bound_interface_dn}
   */
   readonly boundInterfaceDn?: string;
   /**
   * Burst defined on QoS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#burst DataIntersightNetworkVethernet#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#burst DataIntersightNetworkVethernet#burst}
   */
   readonly burst?: number;
   /**
@@ -34,41 +34,41 @@ export interface DataIntersightNetworkVethernetConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#create_time DataIntersightNetworkVethernet#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#create_time DataIntersightNetworkVethernet#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#description DataIntersightNetworkVethernet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#description DataIntersightNetworkVethernet#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#device_mo_id DataIntersightNetworkVethernet#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#device_mo_id DataIntersightNetworkVethernet#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#dn DataIntersightNetworkVethernet#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#dn DataIntersightNetworkVethernet#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#domain_group_moid DataIntersightNetworkVethernet#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#domain_group_moid DataIntersightNetworkVethernet#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#id DataIntersightNetworkVethernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#id DataIntersightNetworkVethernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,26 +77,26 @@ export interface DataIntersightNetworkVethernetConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#mod_time DataIntersightNetworkVethernet#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#mod_time DataIntersightNetworkVethernet#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational Reason of the virtual etherent interface on the Fabric Interconnect. When the operational state is down, Operreason indicates the reason why the vNIC is not operational. Some common reasons are admindown, error disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#oper_reason DataIntersightNetworkVethernet#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#oper_reason DataIntersightNetworkVethernet#oper_reason}
   */
   readonly operReason?: string;
   /**
@@ -114,102 +114,102 @@ export interface DataIntersightNetworkVethernetConfig extends cdktf.TerraformMet
   * * `sfpNotPresent` - The operational state of the Vethernet is SFP not present.
   * * `udldAggrDown` - The operational state of the Vethernet is UDLD aggregate down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#oper_state DataIntersightNetworkVethernet#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#oper_state DataIntersightNetworkVethernet#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#owners DataIntersightNetworkVethernet#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#owners DataIntersightNetworkVethernet#owners}
   */
   readonly owners?: string[];
   /**
   * Uplink port or portchannel interface pinned to a vitual ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#pinned_interface_dn DataIntersightNetworkVethernet#pinned_interface_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#pinned_interface_dn DataIntersightNetworkVethernet#pinned_interface_dn}
   */
   readonly pinnedInterfaceDn?: string;
   /**
   * Rate limit defined on QoS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#ratelimit DataIntersightNetworkVethernet#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#ratelimit DataIntersightNetworkVethernet#ratelimit}
   */
   readonly ratelimit?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#rn DataIntersightNetworkVethernet#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#rn DataIntersightNetworkVethernet#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#shared_scope DataIntersightNetworkVethernet#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#shared_scope DataIntersightNetworkVethernet#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Vethernet Identifier on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#veth_id DataIntersightNetworkVethernet#veth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#veth_id DataIntersightNetworkVethernet#veth_id}
   */
   readonly vethId?: number;
   /**
   * adapter_host_eth_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#adapter_host_eth_interface DataIntersightNetworkVethernet#adapter_host_eth_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#adapter_host_eth_interface DataIntersightNetworkVethernet#adapter_host_eth_interface}
   */
   readonly adapterHostEthInterface?: DataIntersightNetworkVethernetAdapterHostEthInterface;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#ancestors DataIntersightNetworkVethernet#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#ancestors DataIntersightNetworkVethernet#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkVethernetAncestors[] | cdktf.IResolvable;
   /**
   * bound_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#bound_interface DataIntersightNetworkVethernet#bound_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#bound_interface DataIntersightNetworkVethernet#bound_interface}
   */
   readonly boundInterface?: DataIntersightNetworkVethernetBoundInterface;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#network_element DataIntersightNetworkVethernet#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#network_element DataIntersightNetworkVethernet#network_element}
   */
   readonly networkElement?: DataIntersightNetworkVethernetNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#parent DataIntersightNetworkVethernet#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#parent DataIntersightNetworkVethernet#parent}
   */
   readonly parent?: DataIntersightNetworkVethernetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#permission_resources DataIntersightNetworkVethernet#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#permission_resources DataIntersightNetworkVethernet#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkVethernetPermissionResources[] | cdktf.IResolvable;
   /**
   * pinned_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#pinned_interface DataIntersightNetworkVethernet#pinned_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#pinned_interface DataIntersightNetworkVethernet#pinned_interface}
   */
   readonly pinnedInterface?: DataIntersightNetworkVethernetPinnedInterface;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#registered_device DataIntersightNetworkVethernet#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#registered_device DataIntersightNetworkVethernet#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkVethernetRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#tags DataIntersightNetworkVethernet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#tags DataIntersightNetworkVethernet#tags}
   */
   readonly tags?: DataIntersightNetworkVethernetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#version_context DataIntersightNetworkVethernet#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#version_context DataIntersightNetworkVethernet#version_context}
   */
   readonly versionContext?: DataIntersightNetworkVethernetVersionContext;
 }
@@ -1241,6 +1241,11 @@ export class DataIntersightNetworkVethernetResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1814,7 +1819,7 @@ export class DataIntersightNetworkVethernetResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightNetworkVethernetAdapterHostEthInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1822,19 +1827,19 @@ export interface DataIntersightNetworkVethernetAdapterHostEthInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1847,7 +1852,7 @@ export interface DataIntersightNetworkVethernetAdapterHostEthInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -2047,7 +2052,7 @@ export class DataIntersightNetworkVethernetAdapterHostEthInterfaceOutputReferenc
 }
 export interface DataIntersightNetworkVethernetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2055,19 +2060,19 @@ export interface DataIntersightNetworkVethernetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2080,7 +2085,7 @@ export interface DataIntersightNetworkVethernetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -2312,7 +2317,7 @@ export class DataIntersightNetworkVethernetAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNetworkVethernetBoundInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2320,19 +2325,19 @@ export interface DataIntersightNetworkVethernetBoundInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2345,7 +2350,7 @@ export interface DataIntersightNetworkVethernetBoundInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -2545,7 +2550,7 @@ export class DataIntersightNetworkVethernetBoundInterfaceOutputReference extends
 }
 export interface DataIntersightNetworkVethernetNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2553,19 +2558,19 @@ export interface DataIntersightNetworkVethernetNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2578,7 +2583,7 @@ export interface DataIntersightNetworkVethernetNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -2778,7 +2783,7 @@ export class DataIntersightNetworkVethernetNetworkElementOutputReference extends
 }
 export interface DataIntersightNetworkVethernetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2786,19 +2791,19 @@ export interface DataIntersightNetworkVethernetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2811,7 +2816,7 @@ export interface DataIntersightNetworkVethernetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -3011,7 +3016,7 @@ export class DataIntersightNetworkVethernetParentOutputReference extends cdktf.C
 }
 export interface DataIntersightNetworkVethernetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3019,19 +3024,19 @@ export interface DataIntersightNetworkVethernetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3044,7 +3049,7 @@ export interface DataIntersightNetworkVethernetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -3276,7 +3281,7 @@ export class DataIntersightNetworkVethernetPermissionResourcesList extends cdktf
 }
 export interface DataIntersightNetworkVethernetPinnedInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3284,19 +3289,19 @@ export interface DataIntersightNetworkVethernetPinnedInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3309,7 +3314,7 @@ export interface DataIntersightNetworkVethernetPinnedInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -3509,7 +3514,7 @@ export class DataIntersightNetworkVethernetPinnedInterfaceOutputReference extend
 }
 export interface DataIntersightNetworkVethernetRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3517,19 +3522,19 @@ export interface DataIntersightNetworkVethernetRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3542,7 +3547,7 @@ export interface DataIntersightNetworkVethernetRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -3742,7 +3747,7 @@ export class DataIntersightNetworkVethernetRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightNetworkVethernetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3750,19 +3755,19 @@ export interface DataIntersightNetworkVethernetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3775,7 +3780,7 @@ export interface DataIntersightNetworkVethernetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -4007,7 +4012,7 @@ export class DataIntersightNetworkVethernetTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightNetworkVethernetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4015,19 +4020,19 @@ export interface DataIntersightNetworkVethernetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4040,7 +4045,7 @@ export interface DataIntersightNetworkVethernetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -4240,45 +4245,51 @@ export class DataIntersightNetworkVethernetTagsDefinitionOutputReference extends
 }
 export interface DataIntersightNetworkVethernetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#key DataIntersightNetworkVethernet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#key DataIntersightNetworkVethernet#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#propagated DataIntersightNetworkVethernet#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#propagated DataIntersightNetworkVethernet#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#sys_tag DataIntersightNetworkVethernet#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#type DataIntersightNetworkVethernet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#type DataIntersightNetworkVethernet#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#value DataIntersightNetworkVethernet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#value DataIntersightNetworkVethernet#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#ancestor_definitions DataIntersightNetworkVethernet#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#ancestor_definitions DataIntersightNetworkVethernet#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkVethernetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#definition DataIntersightNetworkVethernet#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#definition DataIntersightNetworkVethernet#definition}
   */
   readonly definition?: DataIntersightNetworkVethernetTagsDefinition;
 }
@@ -4292,6 +4303,7 @@ export function dataIntersightNetworkVethernetTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkVethernetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4320,6 +4332,12 @@ export function dataIntersightNetworkVethernetTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4386,6 +4404,10 @@ export class DataIntersightNetworkVethernetTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4412,6 +4434,7 @@ export class DataIntersightNetworkVethernetTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4427,6 +4450,7 @@ export class DataIntersightNetworkVethernetTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4480,6 +4504,22 @@ export class DataIntersightNetworkVethernetTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4568,7 +4608,7 @@ export class DataIntersightNetworkVethernetTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNetworkVethernetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4576,19 +4616,19 @@ export interface DataIntersightNetworkVethernetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4601,7 +4641,7 @@ export interface DataIntersightNetworkVethernetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -4833,7 +4873,7 @@ export class DataIntersightNetworkVethernetVersionContextInterestedMosList exten
 }
 export interface DataIntersightNetworkVethernetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4841,19 +4881,19 @@ export interface DataIntersightNetworkVethernetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#moid DataIntersightNetworkVethernet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4866,7 +4906,7 @@ export interface DataIntersightNetworkVethernetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#selector DataIntersightNetworkVethernet#selector}
   */
   readonly selector?: string;
 }
@@ -5066,7 +5106,7 @@ export class DataIntersightNetworkVethernetVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightNetworkVethernetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#additional_properties DataIntersightNetworkVethernet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5074,32 +5114,32 @@ export interface DataIntersightNetworkVethernetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#class_id DataIntersightNetworkVethernet#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#marked_for_deletion DataIntersightNetworkVethernet#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#marked_for_deletion DataIntersightNetworkVethernet#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#nr_version DataIntersightNetworkVethernet#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#nr_version DataIntersightNetworkVethernet#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#object_type DataIntersightNetworkVethernet#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#timestamp DataIntersightNetworkVethernet#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#timestamp DataIntersightNetworkVethernet#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5110,19 +5150,19 @@ export interface DataIntersightNetworkVethernetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#version_type DataIntersightNetworkVethernet#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#version_type DataIntersightNetworkVethernet#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#interested_mos DataIntersightNetworkVethernet#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#interested_mos DataIntersightNetworkVethernet#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkVethernetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#ref_mo DataIntersightNetworkVethernet#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#ref_mo DataIntersightNetworkVethernet#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkVethernetVersionContextRefMo;
 }
@@ -5438,7 +5478,7 @@ export class DataIntersightNetworkVethernetVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet intersight_network_vethernet}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet intersight_network_vethernet}
 */
 export class DataIntersightNetworkVethernet extends cdktf.TerraformDataSource {
 
@@ -5454,7 +5494,7 @@ export class DataIntersightNetworkVethernet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNetworkVethernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkVethernet to import
-  * @param importFromId The id of the existing DataIntersightNetworkVethernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkVethernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkVethernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5466,7 +5506,7 @@ export class DataIntersightNetworkVethernet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vethernet intersight_network_vethernet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vethernet intersight_network_vethernet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5477,8 +5517,8 @@ export class DataIntersightNetworkVethernet extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_network_vethernet',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

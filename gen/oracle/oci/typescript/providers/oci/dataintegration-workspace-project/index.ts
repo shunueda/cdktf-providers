@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataintegrationWorkspaceProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#description DataintegrationWorkspaceProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#description DataintegrationWorkspaceProject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#id DataintegrationWorkspaceProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#id DataintegrationWorkspaceProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#identifier DataintegrationWorkspaceProject#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#identifier DataintegrationWorkspaceProject#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#model_version DataintegrationWorkspaceProject#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#model_version DataintegrationWorkspaceProject#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#name DataintegrationWorkspaceProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#name DataintegrationWorkspaceProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#object_status DataintegrationWorkspaceProject#object_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#object_status DataintegrationWorkspaceProject#object_status}
   */
   readonly objectStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#project_key DataintegrationWorkspaceProject#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#project_key DataintegrationWorkspaceProject#project_key}
   */
   readonly projectKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#workspace_id DataintegrationWorkspaceProject#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#workspace_id DataintegrationWorkspaceProject#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * registry_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#registry_metadata DataintegrationWorkspaceProject#registry_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#registry_metadata DataintegrationWorkspaceProject#registry_metadata}
   */
   readonly registryMetadata?: DataintegrationWorkspaceProjectRegistryMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#timeouts DataintegrationWorkspaceProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#timeouts DataintegrationWorkspaceProject#timeouts}
   */
   readonly timeouts?: DataintegrationWorkspaceProjectTimeouts;
 }
@@ -535,23 +535,23 @@ export class DataintegrationWorkspaceProjectParentRefList extends cdktf.ComplexL
 }
 export interface DataintegrationWorkspaceProjectRegistryMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}
   */
   readonly aggregatorKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}
   */
   readonly isFavorite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}
   */
   readonly registryVersion?: number;
 }
@@ -751,15 +751,15 @@ export class DataintegrationWorkspaceProjectRegistryMetadataOutputReference exte
 }
 export interface DataintegrationWorkspaceProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#create DataintegrationWorkspaceProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#create DataintegrationWorkspaceProject#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#delete DataintegrationWorkspaceProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#delete DataintegrationWorkspaceProject#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#update DataintegrationWorkspaceProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#update DataintegrationWorkspaceProject#update}
   */
   readonly update?: string;
 }
@@ -911,7 +911,7 @@ export class DataintegrationWorkspaceProjectTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project oci_dataintegration_workspace_project}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project oci_dataintegration_workspace_project}
 */
 export class DataintegrationWorkspaceProject extends cdktf.TerraformResource {
 
@@ -927,7 +927,7 @@ export class DataintegrationWorkspaceProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataintegrationWorkspaceProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataintegrationWorkspaceProject to import
-  * @param importFromId The id of the existing DataintegrationWorkspaceProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataintegrationWorkspaceProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataintegrationWorkspaceProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -939,7 +939,7 @@ export class DataintegrationWorkspaceProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataintegration_workspace_project oci_dataintegration_workspace_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataintegration_workspace_project oci_dataintegration_workspace_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -950,8 +950,8 @@ export class DataintegrationWorkspaceProject extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dataintegration_workspace_project',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGenerativeAiAgentDataSourcesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#compartment_id DataOciGenerativeAiAgentDataSources#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#compartment_id DataOciGenerativeAiAgentDataSources#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#display_name DataOciGenerativeAiAgentDataSources#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#display_name DataOciGenerativeAiAgentDataSources#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#id DataOciGenerativeAiAgentDataSources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#id DataOciGenerativeAiAgentDataSources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#knowledge_base_id DataOciGenerativeAiAgentDataSources#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#knowledge_base_id DataOciGenerativeAiAgentDataSources#knowledge_base_id}
   */
   readonly knowledgeBaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#state DataOciGenerativeAiAgentDataSources#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#state DataOciGenerativeAiAgentDataSources#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#filter DataOciGenerativeAiAgentDataSources#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#filter DataOciGenerativeAiAgentDataSources#filter}
   */
   readonly filter?: DataOciGenerativeAiAgentDataSourcesFilter[] | cdktf.IResolvable;
 }
@@ -426,15 +426,15 @@ export class DataOciGenerativeAiAgentDataSourcesDataSourceCollectionList extends
 }
 export interface DataOciGenerativeAiAgentDataSourcesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#name DataOciGenerativeAiAgentDataSources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#name DataOciGenerativeAiAgentDataSources#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#regex DataOciGenerativeAiAgentDataSources#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#regex DataOciGenerativeAiAgentDataSources#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#values DataOciGenerativeAiAgentDataSources#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#values DataOciGenerativeAiAgentDataSources#values}
   */
   readonly values: string[];
 }
@@ -602,7 +602,7 @@ export class DataOciGenerativeAiAgentDataSourcesFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources oci_generative_ai_agent_data_sources}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources oci_generative_ai_agent_data_sources}
 */
 export class DataOciGenerativeAiAgentDataSources extends cdktf.TerraformDataSource {
 
@@ -618,7 +618,7 @@ export class DataOciGenerativeAiAgentDataSources extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciGenerativeAiAgentDataSources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGenerativeAiAgentDataSources to import
-  * @param importFromId The id of the existing DataOciGenerativeAiAgentDataSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGenerativeAiAgentDataSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGenerativeAiAgentDataSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -630,7 +630,7 @@ export class DataOciGenerativeAiAgentDataSources extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/generative_ai_agent_data_sources oci_generative_ai_agent_data_sources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/generative_ai_agent_data_sources oci_generative_ai_agent_data_sources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -641,8 +641,8 @@ export class DataOciGenerativeAiAgentDataSources extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_generative_ai_agent_data_sources',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface KvmTunneledKvmPolicyConfig extends cdktf.TerraformMetaArguments
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#account KvmTunneledKvmPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#account KvmTunneledKvmPolicy#account}
   */
   readonly account?: KvmTunneledKvmPolicyAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#account_moid KvmTunneledKvmPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#account_moid KvmTunneledKvmPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#ancestors KvmTunneledKvmPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#ancestors KvmTunneledKvmPolicy#ancestors}
   */
   readonly ancestors?: KvmTunneledKvmPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -35,23 +35,23 @@ export interface KvmTunneledKvmPolicyConfig extends cdktf.TerraformMetaArguments
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#create_time KvmTunneledKvmPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#create_time KvmTunneledKvmPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#domain_group_moid KvmTunneledKvmPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#domain_group_moid KvmTunneledKvmPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#id KvmTunneledKvmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#id KvmTunneledKvmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,88 +60,88 @@ export interface KvmTunneledKvmPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#mod_time KvmTunneledKvmPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#mod_time KvmTunneledKvmPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#owners KvmTunneledKvmPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#owners KvmTunneledKvmPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#parent KvmTunneledKvmPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#parent KvmTunneledKvmPolicy#parent}
   */
   readonly parent?: KvmTunneledKvmPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#permission_resources KvmTunneledKvmPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#permission_resources KvmTunneledKvmPolicy#permission_resources}
   */
   readonly permissionResources?: KvmTunneledKvmPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#shared_scope KvmTunneledKvmPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#shared_scope KvmTunneledKvmPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#tags KvmTunneledKvmPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#tags KvmTunneledKvmPolicy#tags}
   */
   readonly tags?: KvmTunneledKvmPolicyTags[] | cdktf.IResolvable;
   /**
   * Enable or Disable configuration of tunneled KVM for a specific account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#tunneled_kvm_configuration KvmTunneledKvmPolicy#tunneled_kvm_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#tunneled_kvm_configuration KvmTunneledKvmPolicy#tunneled_kvm_configuration}
   */
   readonly tunneledKvmConfiguration?: boolean | cdktf.IResolvable;
   /**
   * Enable or Disable launching tunneled KVM for a specific account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#tunneled_kvm_launch KvmTunneledKvmPolicy#tunneled_kvm_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#tunneled_kvm_launch KvmTunneledKvmPolicy#tunneled_kvm_launch}
   */
   readonly tunneledKvmLaunch?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#version_context KvmTunneledKvmPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#version_context KvmTunneledKvmPolicy#version_context}
   */
   readonly versionContext?: KvmTunneledKvmPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface KvmTunneledKvmPolicyAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -373,23 +373,23 @@ export class KvmTunneledKvmPolicyAccountList extends cdktf.ComplexList {
 }
 export interface KvmTunneledKvmPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -621,23 +621,23 @@ export class KvmTunneledKvmPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface KvmTunneledKvmPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -869,23 +869,23 @@ export class KvmTunneledKvmPolicyParentList extends cdktf.ComplexList {
 }
 export interface KvmTunneledKvmPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1117,23 +1117,23 @@ export class KvmTunneledKvmPolicyPermissionResourcesList extends cdktf.ComplexLi
 }
 export interface KvmTunneledKvmPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1365,23 +1365,23 @@ export class KvmTunneledKvmPolicyTagsAncestorDefinitionsList extends cdktf.Compl
 }
 export interface KvmTunneledKvmPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1613,31 +1613,35 @@ export class KvmTunneledKvmPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface KvmTunneledKvmPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#ancestor_definitions KvmTunneledKvmPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#ancestor_definitions KvmTunneledKvmPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KvmTunneledKvmPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#definition KvmTunneledKvmPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#definition KvmTunneledKvmPolicy#definition}
   */
   readonly definition?: KvmTunneledKvmPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#key KvmTunneledKvmPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#key KvmTunneledKvmPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#propagated KvmTunneledKvmPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#propagated KvmTunneledKvmPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#type KvmTunneledKvmPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#sys_tag KvmTunneledKvmPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#type KvmTunneledKvmPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#value KvmTunneledKvmPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#value KvmTunneledKvmPolicy#value}
   */
   readonly value?: string;
 }
@@ -1653,6 +1657,7 @@ export function kvmTunneledKvmPolicyTagsToTerraform(struct?: KvmTunneledKvmPolic
     definition: cdktf.listMapper(kvmTunneledKvmPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1691,6 +1696,12 @@ export function kvmTunneledKvmPolicyTagsToHclTerraform(struct?: KvmTunneledKvmPo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1753,6 +1764,10 @@ export class KvmTunneledKvmPolicyTagsOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1773,6 +1788,7 @@ export class KvmTunneledKvmPolicyTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1788,6 +1804,7 @@ export class KvmTunneledKvmPolicyTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1873,6 +1890,22 @@ export class KvmTunneledKvmPolicyTagsOutputReference extends cdktf.ComplexObject
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1927,23 +1960,23 @@ export class KvmTunneledKvmPolicyTagsList extends cdktf.ComplexList {
 }
 export interface KvmTunneledKvmPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2175,23 +2208,23 @@ export class KvmTunneledKvmPolicyVersionContextInterestedMosList extends cdktf.C
 }
 export interface KvmTunneledKvmPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#moid KvmTunneledKvmPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#selector KvmTunneledKvmPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2423,39 +2456,39 @@ export class KvmTunneledKvmPolicyVersionContextRefMoList extends cdktf.ComplexLi
 }
 export interface KvmTunneledKvmPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#additional_properties KvmTunneledKvmPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#class_id KvmTunneledKvmPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#interested_mos KvmTunneledKvmPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#interested_mos KvmTunneledKvmPolicy#interested_mos}
   */
   readonly interestedMos?: KvmTunneledKvmPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#marked_for_deletion KvmTunneledKvmPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#marked_for_deletion KvmTunneledKvmPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#nr_version KvmTunneledKvmPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#nr_version KvmTunneledKvmPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#object_type KvmTunneledKvmPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#ref_mo KvmTunneledKvmPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#ref_mo KvmTunneledKvmPolicy#ref_mo}
   */
   readonly refMo?: KvmTunneledKvmPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#timestamp KvmTunneledKvmPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#timestamp KvmTunneledKvmPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#version_type KvmTunneledKvmPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#version_type KvmTunneledKvmPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -2803,7 +2836,7 @@ export class KvmTunneledKvmPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy intersight_kvm_tunneled_kvm_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy intersight_kvm_tunneled_kvm_policy}
 */
 export class KvmTunneledKvmPolicy extends cdktf.TerraformResource {
 
@@ -2819,7 +2852,7 @@ export class KvmTunneledKvmPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KvmTunneledKvmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KvmTunneledKvmPolicy to import
-  * @param importFromId The id of the existing KvmTunneledKvmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KvmTunneledKvmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KvmTunneledKvmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2831,7 +2864,7 @@ export class KvmTunneledKvmPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kvm_tunneled_kvm_policy intersight_kvm_tunneled_kvm_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kvm_tunneled_kvm_policy intersight_kvm_tunneled_kvm_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2842,8 +2875,8 @@ export class KvmTunneledKvmPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kvm_tunneled_kvm_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

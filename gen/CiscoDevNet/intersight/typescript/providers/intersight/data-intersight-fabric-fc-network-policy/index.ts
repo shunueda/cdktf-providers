@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricFcNetworkPolicyConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#account_moid DataIntersightFabricFcNetworkPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#account_moid DataIntersightFabricFcNetworkPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightFabricFcNetworkPolicyConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#create_time DataIntersightFabricFcNetworkPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#create_time DataIntersightFabricFcNetworkPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#description DataIntersightFabricFcNetworkPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#description DataIntersightFabricFcNetworkPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#domain_group_moid DataIntersightFabricFcNetworkPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#domain_group_moid DataIntersightFabricFcNetworkPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enable or Disable Trunking on all of configured FC uplink ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#enable_trunking DataIntersightFabricFcNetworkPolicy#enable_trunking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#enable_trunking DataIntersightFabricFcNetworkPolicy#enable_trunking}
   */
   readonly enableTrunking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#id DataIntersightFabricFcNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#id DataIntersightFabricFcNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,79 +59,79 @@ export interface DataIntersightFabricFcNetworkPolicyConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#mod_time DataIntersightFabricFcNetworkPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#mod_time DataIntersightFabricFcNetworkPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#name DataIntersightFabricFcNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#name DataIntersightFabricFcNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#owners DataIntersightFabricFcNetworkPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#owners DataIntersightFabricFcNetworkPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#shared_scope DataIntersightFabricFcNetworkPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#shared_scope DataIntersightFabricFcNetworkPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#ancestors DataIntersightFabricFcNetworkPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#ancestors DataIntersightFabricFcNetworkPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightFabricFcNetworkPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#organization DataIntersightFabricFcNetworkPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#organization DataIntersightFabricFcNetworkPolicy#organization}
   */
   readonly organization?: DataIntersightFabricFcNetworkPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#parent DataIntersightFabricFcNetworkPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#parent DataIntersightFabricFcNetworkPolicy#parent}
   */
   readonly parent?: DataIntersightFabricFcNetworkPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#permission_resources DataIntersightFabricFcNetworkPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#permission_resources DataIntersightFabricFcNetworkPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricFcNetworkPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#profiles DataIntersightFabricFcNetworkPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#profiles DataIntersightFabricFcNetworkPolicy#profiles}
   */
   readonly profiles?: DataIntersightFabricFcNetworkPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#tags DataIntersightFabricFcNetworkPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#tags DataIntersightFabricFcNetworkPolicy#tags}
   */
   readonly tags?: DataIntersightFabricFcNetworkPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#version_context DataIntersightFabricFcNetworkPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#version_context DataIntersightFabricFcNetworkPolicy#version_context}
   */
   readonly versionContext?: DataIntersightFabricFcNetworkPolicyVersionContext;
 }
@@ -878,6 +878,11 @@ export class DataIntersightFabricFcNetworkPolicyResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1393,7 +1398,7 @@ export class DataIntersightFabricFcNetworkPolicyResultsList extends cdktf.Comple
 }
 export interface DataIntersightFabricFcNetworkPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1401,19 +1406,19 @@ export interface DataIntersightFabricFcNetworkPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1426,7 +1431,7 @@ export interface DataIntersightFabricFcNetworkPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1658,7 +1663,7 @@ export class DataIntersightFabricFcNetworkPolicyAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightFabricFcNetworkPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1666,19 +1671,19 @@ export interface DataIntersightFabricFcNetworkPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1691,7 +1696,7 @@ export interface DataIntersightFabricFcNetworkPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1891,7 +1896,7 @@ export class DataIntersightFabricFcNetworkPolicyOrganizationOutputReference exte
 }
 export interface DataIntersightFabricFcNetworkPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1899,19 +1904,19 @@ export interface DataIntersightFabricFcNetworkPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1924,7 +1929,7 @@ export interface DataIntersightFabricFcNetworkPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2124,7 +2129,7 @@ export class DataIntersightFabricFcNetworkPolicyParentOutputReference extends cd
 }
 export interface DataIntersightFabricFcNetworkPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2132,19 +2137,19 @@ export interface DataIntersightFabricFcNetworkPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2157,7 +2162,7 @@ export interface DataIntersightFabricFcNetworkPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2389,7 +2394,7 @@ export class DataIntersightFabricFcNetworkPolicyPermissionResourcesList extends 
 }
 export interface DataIntersightFabricFcNetworkPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2397,19 +2402,19 @@ export interface DataIntersightFabricFcNetworkPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2422,7 +2427,7 @@ export interface DataIntersightFabricFcNetworkPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2654,7 +2659,7 @@ export class DataIntersightFabricFcNetworkPolicyProfilesList extends cdktf.Compl
 }
 export interface DataIntersightFabricFcNetworkPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2662,19 +2667,19 @@ export interface DataIntersightFabricFcNetworkPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2687,7 +2692,7 @@ export interface DataIntersightFabricFcNetworkPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2919,7 +2924,7 @@ export class DataIntersightFabricFcNetworkPolicyTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightFabricFcNetworkPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2927,19 +2932,19 @@ export interface DataIntersightFabricFcNetworkPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2952,7 +2957,7 @@ export interface DataIntersightFabricFcNetworkPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3152,45 +3157,51 @@ export class DataIntersightFabricFcNetworkPolicyTagsDefinitionOutputReference ex
 }
 export interface DataIntersightFabricFcNetworkPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#key DataIntersightFabricFcNetworkPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#key DataIntersightFabricFcNetworkPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#propagated DataIntersightFabricFcNetworkPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#propagated DataIntersightFabricFcNetworkPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#sys_tag DataIntersightFabricFcNetworkPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#type DataIntersightFabricFcNetworkPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#type DataIntersightFabricFcNetworkPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#value DataIntersightFabricFcNetworkPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#value DataIntersightFabricFcNetworkPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#ancestor_definitions DataIntersightFabricFcNetworkPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#ancestor_definitions DataIntersightFabricFcNetworkPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricFcNetworkPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#definition DataIntersightFabricFcNetworkPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#definition DataIntersightFabricFcNetworkPolicy#definition}
   */
   readonly definition?: DataIntersightFabricFcNetworkPolicyTagsDefinition;
 }
@@ -3204,6 +3215,7 @@ export function dataIntersightFabricFcNetworkPolicyTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricFcNetworkPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3232,6 +3244,12 @@ export function dataIntersightFabricFcNetworkPolicyTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3298,6 +3316,10 @@ export class DataIntersightFabricFcNetworkPolicyTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3324,6 +3346,7 @@ export class DataIntersightFabricFcNetworkPolicyTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3339,6 +3362,7 @@ export class DataIntersightFabricFcNetworkPolicyTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3392,6 +3416,22 @@ export class DataIntersightFabricFcNetworkPolicyTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3480,7 +3520,7 @@ export class DataIntersightFabricFcNetworkPolicyTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightFabricFcNetworkPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3488,19 +3528,19 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3513,7 +3553,7 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3745,7 +3785,7 @@ export class DataIntersightFabricFcNetworkPolicyVersionContextInterestedMosList 
 }
 export interface DataIntersightFabricFcNetworkPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3753,19 +3793,19 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#moid DataIntersightFabricFcNetworkPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3778,7 +3818,7 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#selector DataIntersightFabricFcNetworkPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3978,7 +4018,7 @@ export class DataIntersightFabricFcNetworkPolicyVersionContextRefMoOutputReferen
 }
 export interface DataIntersightFabricFcNetworkPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#additional_properties DataIntersightFabricFcNetworkPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3986,32 +4026,32 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#class_id DataIntersightFabricFcNetworkPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#marked_for_deletion DataIntersightFabricFcNetworkPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#marked_for_deletion DataIntersightFabricFcNetworkPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#nr_version DataIntersightFabricFcNetworkPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#nr_version DataIntersightFabricFcNetworkPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#object_type DataIntersightFabricFcNetworkPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#timestamp DataIntersightFabricFcNetworkPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#timestamp DataIntersightFabricFcNetworkPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4022,19 +4062,19 @@ export interface DataIntersightFabricFcNetworkPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#version_type DataIntersightFabricFcNetworkPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#version_type DataIntersightFabricFcNetworkPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#interested_mos DataIntersightFabricFcNetworkPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#interested_mos DataIntersightFabricFcNetworkPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricFcNetworkPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#ref_mo DataIntersightFabricFcNetworkPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#ref_mo DataIntersightFabricFcNetworkPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightFabricFcNetworkPolicyVersionContextRefMo;
 }
@@ -4350,7 +4390,7 @@ export class DataIntersightFabricFcNetworkPolicyVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy intersight_fabric_fc_network_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy intersight_fabric_fc_network_policy}
 */
 export class DataIntersightFabricFcNetworkPolicy extends cdktf.TerraformDataSource {
 
@@ -4366,7 +4406,7 @@ export class DataIntersightFabricFcNetworkPolicy extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightFabricFcNetworkPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricFcNetworkPolicy to import
-  * @param importFromId The id of the existing DataIntersightFabricFcNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricFcNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricFcNetworkPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4378,7 +4418,7 @@ export class DataIntersightFabricFcNetworkPolicy extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_fc_network_policy intersight_fabric_fc_network_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_fc_network_policy intersight_fabric_fc_network_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4389,8 +4429,8 @@ export class DataIntersightFabricFcNetworkPolicy extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_fabric_fc_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

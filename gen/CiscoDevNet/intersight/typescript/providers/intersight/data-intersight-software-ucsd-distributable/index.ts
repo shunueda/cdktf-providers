@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#account_moid DataIntersightSoftwareUcsdDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#account_moid DataIntersightSoftwareUcsdDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#bundle_type DataIntersightSoftwareUcsdDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#bundle_type DataIntersightSoftwareUcsdDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
@@ -28,31 +28,31 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#create_time DataIntersightSoftwareUcsdDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#create_time DataIntersightSoftwareUcsdDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#description DataIntersightSoftwareUcsdDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#description DataIntersightSoftwareUcsdDistributable#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#domain_group_moid DataIntersightSoftwareUcsdDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#domain_group_moid DataIntersightSoftwareUcsdDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#download_count DataIntersightSoftwareUcsdDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#download_count DataIntersightSoftwareUcsdDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -61,17 +61,17 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#feature_source DataIntersightSoftwareUcsdDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#feature_source DataIntersightSoftwareUcsdDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#guid DataIntersightSoftwareUcsdDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#guid DataIntersightSoftwareUcsdDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#id DataIntersightSoftwareUcsdDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#id DataIntersightSoftwareUcsdDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#image_type DataIntersightSoftwareUcsdDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#image_type DataIntersightSoftwareUcsdDistributable#image_type}
   */
   readonly imageType?: string;
   /**
@@ -95,7 +95,7 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#import_action DataIntersightSoftwareUcsdDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#import_action DataIntersightSoftwareUcsdDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -116,203 +116,203 @@ export interface DataIntersightSoftwareUcsdDistributableConfig extends cdktf.Ter
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#import_state DataIntersightSoftwareUcsdDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#import_state DataIntersightSoftwareUcsdDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#imported_time DataIntersightSoftwareUcsdDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#imported_time DataIntersightSoftwareUcsdDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#last_access_time DataIntersightSoftwareUcsdDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#last_access_time DataIntersightSoftwareUcsdDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#md5e_tag DataIntersightSoftwareUcsdDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#md5e_tag DataIntersightSoftwareUcsdDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#md5sum DataIntersightSoftwareUcsdDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#md5sum DataIntersightSoftwareUcsdDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#mdfid DataIntersightSoftwareUcsdDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#mdfid DataIntersightSoftwareUcsdDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#mod_time DataIntersightSoftwareUcsdDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#mod_time DataIntersightSoftwareUcsdDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#model DataIntersightSoftwareUcsdDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#model DataIntersightSoftwareUcsdDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#name DataIntersightSoftwareUcsdDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#name DataIntersightSoftwareUcsdDistributable#name}
   */
   readonly name?: string;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#nr_version DataIntersightSoftwareUcsdDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#nr_version DataIntersightSoftwareUcsdDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#owners DataIntersightSoftwareUcsdDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#owners DataIntersightSoftwareUcsdDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#platform_type DataIntersightSoftwareUcsdDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#platform_type DataIntersightSoftwareUcsdDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#recommended_build DataIntersightSoftwareUcsdDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#recommended_build DataIntersightSoftwareUcsdDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#release_date DataIntersightSoftwareUcsdDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#release_date DataIntersightSoftwareUcsdDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#release_notes_url DataIntersightSoftwareUcsdDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#release_notes_url DataIntersightSoftwareUcsdDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#sha512sum DataIntersightSoftwareUcsdDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#sha512sum DataIntersightSoftwareUcsdDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#shared_scope DataIntersightSoftwareUcsdDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#shared_scope DataIntersightSoftwareUcsdDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#size DataIntersightSoftwareUcsdDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#size DataIntersightSoftwareUcsdDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#software_advisory_url DataIntersightSoftwareUcsdDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#software_advisory_url DataIntersightSoftwareUcsdDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#software_type_id DataIntersightSoftwareUcsdDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#software_type_id DataIntersightSoftwareUcsdDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#supported_models DataIntersightSoftwareUcsdDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#supported_models DataIntersightSoftwareUcsdDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#vendor DataIntersightSoftwareUcsdDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#vendor DataIntersightSoftwareUcsdDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#ancestors DataIntersightSoftwareUcsdDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#ancestors DataIntersightSoftwareUcsdDistributable#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwareUcsdDistributableAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#catalog DataIntersightSoftwareUcsdDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#catalog DataIntersightSoftwareUcsdDistributable#catalog}
   */
   readonly catalog?: DataIntersightSoftwareUcsdDistributableCatalog;
   /**
   * component_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#component_meta DataIntersightSoftwareUcsdDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#component_meta DataIntersightSoftwareUcsdDistributable#component_meta}
   */
   readonly componentMeta?: DataIntersightSoftwareUcsdDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * distributable_metas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#distributable_metas DataIntersightSoftwareUcsdDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#distributable_metas DataIntersightSoftwareUcsdDistributable#distributable_metas}
   */
   readonly distributableMetas?: DataIntersightSoftwareUcsdDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * nr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#nr_source DataIntersightSoftwareUcsdDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#nr_source DataIntersightSoftwareUcsdDistributable#nr_source}
   */
   readonly nrSource?: DataIntersightSoftwareUcsdDistributableNrSource;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#parent DataIntersightSoftwareUcsdDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#parent DataIntersightSoftwareUcsdDistributable#parent}
   */
   readonly parent?: DataIntersightSoftwareUcsdDistributableParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#permission_resources DataIntersightSoftwareUcsdDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#permission_resources DataIntersightSoftwareUcsdDistributable#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwareUcsdDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#release DataIntersightSoftwareUcsdDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#release DataIntersightSoftwareUcsdDistributable#release}
   */
   readonly release?: DataIntersightSoftwareUcsdDistributableRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#tags DataIntersightSoftwareUcsdDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#tags DataIntersightSoftwareUcsdDistributable#tags}
   */
   readonly tags?: DataIntersightSoftwareUcsdDistributableTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#version_context DataIntersightSoftwareUcsdDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#version_context DataIntersightSoftwareUcsdDistributable#version_context}
   */
   readonly versionContext?: DataIntersightSoftwareUcsdDistributableVersionContext;
 }
@@ -1384,6 +1384,11 @@ export class DataIntersightSoftwareUcsdDistributableResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2032,7 +2037,7 @@ export class DataIntersightSoftwareUcsdDistributableResultsList extends cdktf.Co
 }
 export interface DataIntersightSoftwareUcsdDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2040,19 +2045,19 @@ export interface DataIntersightSoftwareUcsdDistributableAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2065,7 +2070,7 @@ export interface DataIntersightSoftwareUcsdDistributableAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2297,7 +2302,7 @@ export class DataIntersightSoftwareUcsdDistributableAncestorsList extends cdktf.
 }
 export interface DataIntersightSoftwareUcsdDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2305,19 +2310,19 @@ export interface DataIntersightSoftwareUcsdDistributableCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2330,7 +2335,7 @@ export interface DataIntersightSoftwareUcsdDistributableCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2530,13 +2535,13 @@ export class DataIntersightSoftwareUcsdDistributableCatalogOutputReference exten
 }
 export interface DataIntersightSoftwareUcsdDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Certain components have multiple versions packaged in the distributable. For example, the GPU component has multiple versions of the image packaged in the distributable due to a different onboard chip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#alternate_packed_version DataIntersightSoftwareUcsdDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#alternate_packed_version DataIntersightSoftwareUcsdDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
@@ -2544,13 +2549,13 @@ export interface DataIntersightSoftwareUcsdDistributableComponentMeta {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the component in the compressed HSU bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#component_label DataIntersightSoftwareUcsdDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#component_label DataIntersightSoftwareUcsdDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
@@ -2580,13 +2585,13 @@ export interface DataIntersightSoftwareUcsdDistributableComponentMeta {
   * * `CMC` - This represents CMC components.
   * * `PSX` - This represents PSX components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#component_type DataIntersightSoftwareUcsdDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#component_type DataIntersightSoftwareUcsdDistributable#component_type}
   */
   readonly componentType?: string;
   /**
   * This shows the description of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#description DataIntersightSoftwareUcsdDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#description DataIntersightSoftwareUcsdDistributable#description}
   */
   readonly description?: string;
   /**
@@ -2597,54 +2602,54 @@ export interface DataIntersightSoftwareUcsdDistributableComponentMeta {
   * * `ManualPowerCycle` - Indicates that the component received a manual power cycle request.
   * * `AutomaticPowerCycle` - Indicates that the component received an automatic power cycle request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#disruption DataIntersightSoftwareUcsdDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#disruption DataIntersightSoftwareUcsdDistributable#disruption}
   */
   readonly disruption?: string;
   /**
   * This shows the path of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#image_path DataIntersightSoftwareUcsdDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#image_path DataIntersightSoftwareUcsdDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
   * If set, the component can be updated through out-of-band management, else, is updated through host service utility boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#is_oob_supported DataIntersightSoftwareUcsdDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#is_oob_supported DataIntersightSoftwareUcsdDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
   * The model of the component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#model DataIntersightSoftwareUcsdDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#model DataIntersightSoftwareUcsdDistributable#model}
   */
   readonly model?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#oob_manageability DataIntersightSoftwareUcsdDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#oob_manageability DataIntersightSoftwareUcsdDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
   * The image version of components packaged in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#packed_version DataIntersightSoftwareUcsdDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#packed_version DataIntersightSoftwareUcsdDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
   * The redfish target for each component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#redfish_url DataIntersightSoftwareUcsdDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#redfish_url DataIntersightSoftwareUcsdDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
   * The version of component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#vendor DataIntersightSoftwareUcsdDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#vendor DataIntersightSoftwareUcsdDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -3166,7 +3171,7 @@ export class DataIntersightSoftwareUcsdDistributableComponentMetaList extends cd
 }
 export interface DataIntersightSoftwareUcsdDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3174,19 +3179,19 @@ export interface DataIntersightSoftwareUcsdDistributableDistributableMetas {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3199,7 +3204,7 @@ export interface DataIntersightSoftwareUcsdDistributableDistributableMetas {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3431,7 +3436,7 @@ export class DataIntersightSoftwareUcsdDistributableDistributableMetasList exten
 }
 export interface DataIntersightSoftwareUcsdDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3440,7 +3445,7 @@ export interface DataIntersightSoftwareUcsdDistributableNrSource {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
@@ -3448,7 +3453,7 @@ export interface DataIntersightSoftwareUcsdDistributableNrSource {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -3590,7 +3595,7 @@ export class DataIntersightSoftwareUcsdDistributableNrSourceOutputReference exte
 }
 export interface DataIntersightSoftwareUcsdDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3598,19 +3603,19 @@ export interface DataIntersightSoftwareUcsdDistributableParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3623,7 +3628,7 @@ export interface DataIntersightSoftwareUcsdDistributableParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3823,7 +3828,7 @@ export class DataIntersightSoftwareUcsdDistributableParentOutputReference extend
 }
 export interface DataIntersightSoftwareUcsdDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3831,19 +3836,19 @@ export interface DataIntersightSoftwareUcsdDistributablePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3856,7 +3861,7 @@ export interface DataIntersightSoftwareUcsdDistributablePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4088,7 +4093,7 @@ export class DataIntersightSoftwareUcsdDistributablePermissionResourcesList exte
 }
 export interface DataIntersightSoftwareUcsdDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4096,19 +4101,19 @@ export interface DataIntersightSoftwareUcsdDistributableRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4121,7 +4126,7 @@ export interface DataIntersightSoftwareUcsdDistributableRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4321,7 +4326,7 @@ export class DataIntersightSoftwareUcsdDistributableReleaseOutputReference exten
 }
 export interface DataIntersightSoftwareUcsdDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4329,19 +4334,19 @@ export interface DataIntersightSoftwareUcsdDistributableTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4354,7 +4359,7 @@ export interface DataIntersightSoftwareUcsdDistributableTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4586,7 +4591,7 @@ export class DataIntersightSoftwareUcsdDistributableTagsAncestorDefinitionsList 
 }
 export interface DataIntersightSoftwareUcsdDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4594,19 +4599,19 @@ export interface DataIntersightSoftwareUcsdDistributableTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4619,7 +4624,7 @@ export interface DataIntersightSoftwareUcsdDistributableTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4819,45 +4824,51 @@ export class DataIntersightSoftwareUcsdDistributableTagsDefinitionOutputReferenc
 }
 export interface DataIntersightSoftwareUcsdDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#key DataIntersightSoftwareUcsdDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#key DataIntersightSoftwareUcsdDistributable#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#propagated DataIntersightSoftwareUcsdDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#propagated DataIntersightSoftwareUcsdDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#sys_tag DataIntersightSoftwareUcsdDistributable#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#type DataIntersightSoftwareUcsdDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#type DataIntersightSoftwareUcsdDistributable#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#value DataIntersightSoftwareUcsdDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#value DataIntersightSoftwareUcsdDistributable#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#ancestor_definitions DataIntersightSoftwareUcsdDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#ancestor_definitions DataIntersightSoftwareUcsdDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwareUcsdDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#definition DataIntersightSoftwareUcsdDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#definition DataIntersightSoftwareUcsdDistributable#definition}
   */
   readonly definition?: DataIntersightSoftwareUcsdDistributableTagsDefinition;
 }
@@ -4871,6 +4882,7 @@ export function dataIntersightSoftwareUcsdDistributableTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwareUcsdDistributableTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4899,6 +4911,12 @@ export function dataIntersightSoftwareUcsdDistributableTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4965,6 +4983,10 @@ export class DataIntersightSoftwareUcsdDistributableTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4991,6 +5013,7 @@ export class DataIntersightSoftwareUcsdDistributableTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5006,6 +5029,7 @@ export class DataIntersightSoftwareUcsdDistributableTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5059,6 +5083,22 @@ export class DataIntersightSoftwareUcsdDistributableTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5147,7 +5187,7 @@ export class DataIntersightSoftwareUcsdDistributableTagsList extends cdktf.Compl
 }
 export interface DataIntersightSoftwareUcsdDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5155,19 +5195,19 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5180,7 +5220,7 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5412,7 +5452,7 @@ export class DataIntersightSoftwareUcsdDistributableVersionContextInterestedMosL
 }
 export interface DataIntersightSoftwareUcsdDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5420,19 +5460,19 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#moid DataIntersightSoftwareUcsdDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5445,7 +5485,7 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#selector DataIntersightSoftwareUcsdDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5645,7 +5685,7 @@ export class DataIntersightSoftwareUcsdDistributableVersionContextRefMoOutputRef
 }
 export interface DataIntersightSoftwareUcsdDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#additional_properties DataIntersightSoftwareUcsdDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5653,32 +5693,32 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#class_id DataIntersightSoftwareUcsdDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#marked_for_deletion DataIntersightSoftwareUcsdDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#marked_for_deletion DataIntersightSoftwareUcsdDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#nr_version DataIntersightSoftwareUcsdDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#nr_version DataIntersightSoftwareUcsdDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#object_type DataIntersightSoftwareUcsdDistributable#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#timestamp DataIntersightSoftwareUcsdDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#timestamp DataIntersightSoftwareUcsdDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5689,19 +5729,19 @@ export interface DataIntersightSoftwareUcsdDistributableVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#version_type DataIntersightSoftwareUcsdDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#version_type DataIntersightSoftwareUcsdDistributable#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#interested_mos DataIntersightSoftwareUcsdDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#interested_mos DataIntersightSoftwareUcsdDistributable#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwareUcsdDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#ref_mo DataIntersightSoftwareUcsdDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#ref_mo DataIntersightSoftwareUcsdDistributable#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwareUcsdDistributableVersionContextRefMo;
 }
@@ -6017,7 +6057,7 @@ export class DataIntersightSoftwareUcsdDistributableVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable intersight_software_ucsd_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable intersight_software_ucsd_distributable}
 */
 export class DataIntersightSoftwareUcsdDistributable extends cdktf.TerraformDataSource {
 
@@ -6033,7 +6073,7 @@ export class DataIntersightSoftwareUcsdDistributable extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightSoftwareUcsdDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwareUcsdDistributable to import
-  * @param importFromId The id of the existing DataIntersightSoftwareUcsdDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwareUcsdDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwareUcsdDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6045,7 +6085,7 @@ export class DataIntersightSoftwareUcsdDistributable extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_ucsd_distributable intersight_software_ucsd_distributable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_ucsd_distributable intersight_software_ucsd_distributable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6056,8 +6096,8 @@ export class DataIntersightSoftwareUcsdDistributable extends cdktf.TerraformData
       terraformResourceType: 'intersight_software_ucsd_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

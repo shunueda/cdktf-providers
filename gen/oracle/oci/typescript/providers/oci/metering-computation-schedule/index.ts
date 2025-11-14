@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface MeteringComputationScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#compartment_id MeteringComputationSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#compartment_id MeteringComputationSchedule#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#defined_tags MeteringComputationSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#defined_tags MeteringComputationSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#description MeteringComputationSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#description MeteringComputationSchedule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#freeform_tags MeteringComputationSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#freeform_tags MeteringComputationSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#id MeteringComputationSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#id MeteringComputationSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#name MeteringComputationSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#name MeteringComputationSchedule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#output_file_format MeteringComputationSchedule#output_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#output_file_format MeteringComputationSchedule#output_file_format}
   */
   readonly outputFileFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#saved_report_id MeteringComputationSchedule#saved_report_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#saved_report_id MeteringComputationSchedule#saved_report_id}
   */
   readonly savedReportId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#schedule_recurrences MeteringComputationSchedule#schedule_recurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#schedule_recurrences MeteringComputationSchedule#schedule_recurrences}
   */
   readonly scheduleRecurrences: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#time_scheduled MeteringComputationSchedule#time_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#time_scheduled MeteringComputationSchedule#time_scheduled}
   */
   readonly timeScheduled: string;
   /**
   * query_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#query_properties MeteringComputationSchedule#query_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#query_properties MeteringComputationSchedule#query_properties}
   */
   readonly queryProperties?: MeteringComputationScheduleQueryProperties;
   /**
   * result_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#result_location MeteringComputationSchedule#result_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#result_location MeteringComputationSchedule#result_location}
   */
   readonly resultLocation: MeteringComputationScheduleResultLocation;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#timeouts MeteringComputationSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#timeouts MeteringComputationSchedule#timeouts}
   */
   readonly timeouts?: MeteringComputationScheduleTimeouts;
 }
 export interface MeteringComputationScheduleQueryPropertiesDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#date_range_type MeteringComputationSchedule#date_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#date_range_type MeteringComputationSchedule#date_range_type}
   */
   readonly dateRangeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#dynamic_date_range_type MeteringComputationSchedule#dynamic_date_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#dynamic_date_range_type MeteringComputationSchedule#dynamic_date_range_type}
   */
   readonly dynamicDateRangeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#time_usage_ended MeteringComputationSchedule#time_usage_ended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#time_usage_ended MeteringComputationSchedule#time_usage_ended}
   */
   readonly timeUsageEnded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#time_usage_started MeteringComputationSchedule#time_usage_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#time_usage_started MeteringComputationSchedule#time_usage_started}
   */
   readonly timeUsageStarted?: string;
 }
@@ -251,15 +251,15 @@ export class MeteringComputationScheduleQueryPropertiesDateRangeOutputReference 
 }
 export interface MeteringComputationScheduleQueryPropertiesGroupByTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#key MeteringComputationSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#key MeteringComputationSchedule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#value MeteringComputationSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#value MeteringComputationSchedule#value}
   */
   readonly value?: string;
 }
@@ -433,39 +433,39 @@ export class MeteringComputationScheduleQueryPropertiesGroupByTagList extends cd
 }
 export interface MeteringComputationScheduleQueryProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#compartment_depth MeteringComputationSchedule#compartment_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#compartment_depth MeteringComputationSchedule#compartment_depth}
   */
   readonly compartmentDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#filter MeteringComputationSchedule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#filter MeteringComputationSchedule#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#granularity MeteringComputationSchedule#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#granularity MeteringComputationSchedule#granularity}
   */
   readonly granularity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#group_by MeteringComputationSchedule#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#group_by MeteringComputationSchedule#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#is_aggregate_by_time MeteringComputationSchedule#is_aggregate_by_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#is_aggregate_by_time MeteringComputationSchedule#is_aggregate_by_time}
   */
   readonly isAggregateByTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#query_type MeteringComputationSchedule#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#query_type MeteringComputationSchedule#query_type}
   */
   readonly queryType?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#date_range MeteringComputationSchedule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#date_range MeteringComputationSchedule#date_range}
   */
   readonly dateRange: MeteringComputationScheduleQueryPropertiesDateRange;
   /**
   * group_by_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#group_by_tag MeteringComputationSchedule#group_by_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#group_by_tag MeteringComputationSchedule#group_by_tag}
   */
   readonly groupByTag?: MeteringComputationScheduleQueryPropertiesGroupByTag[] | cdktf.IResolvable;
 }
@@ -746,19 +746,19 @@ export class MeteringComputationScheduleQueryPropertiesOutputReference extends c
 }
 export interface MeteringComputationScheduleResultLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#bucket MeteringComputationSchedule#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#bucket MeteringComputationSchedule#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#location_type MeteringComputationSchedule#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#location_type MeteringComputationSchedule#location_type}
   */
   readonly locationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#namespace MeteringComputationSchedule#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#region MeteringComputationSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#region MeteringComputationSchedule#region}
   */
   readonly region: string;
 }
@@ -917,15 +917,15 @@ export class MeteringComputationScheduleResultLocationOutputReference extends cd
 }
 export interface MeteringComputationScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#create MeteringComputationSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#create MeteringComputationSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#delete MeteringComputationSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#delete MeteringComputationSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#update MeteringComputationSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#update MeteringComputationSchedule#update}
   */
   readonly update?: string;
 }
@@ -1077,7 +1077,7 @@ export class MeteringComputationScheduleTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule oci_metering_computation_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule oci_metering_computation_schedule}
 */
 export class MeteringComputationSchedule extends cdktf.TerraformResource {
 
@@ -1093,7 +1093,7 @@ export class MeteringComputationSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeteringComputationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeteringComputationSchedule to import
-  * @param importFromId The id of the existing MeteringComputationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeteringComputationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeteringComputationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1105,7 +1105,7 @@ export class MeteringComputationSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/metering_computation_schedule oci_metering_computation_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/metering_computation_schedule oci_metering_computation_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1116,8 +1116,8 @@ export class MeteringComputationSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'oci_metering_computation_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

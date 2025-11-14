@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataIntersightFaultInstanceConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#account_moid DataIntersightFaultInstance#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#account_moid DataIntersightFaultInstance#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * The user acknowledgement state of the fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#acknowledged DataIntersightFaultInstance#acknowledged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#acknowledged DataIntersightFaultInstance#acknowledged}
   */
   readonly acknowledged?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The Distinguished Name of the Managed object which was affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#affected_dn DataIntersightFaultInstance#affected_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#affected_dn DataIntersightFaultInstance#affected_dn}
   */
   readonly affectedDn?: string;
   /**
   * Managed object Id which was affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#affected_mo_id DataIntersightFaultInstance#affected_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#affected_mo_id DataIntersightFaultInstance#affected_mo_id}
   */
   readonly affectedMoId?: string;
   /**
   * Managed object type which was affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#affected_mo_type DataIntersightFaultInstance#affected_mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#affected_mo_type DataIntersightFaultInstance#affected_mo_type}
   */
   readonly affectedMoType?: string;
   /**
   * Object Id of the parent of the Managed object which was affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ancestor_mo_id DataIntersightFaultInstance#ancestor_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ancestor_mo_id DataIntersightFaultInstance#ancestor_mo_id}
   */
   readonly ancestorMoId?: string;
   /**
   * Object type of the parent of the Managed object which was affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ancestor_mo_type DataIntersightFaultInstance#ancestor_mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ancestor_mo_type DataIntersightFaultInstance#ancestor_mo_type}
   */
   readonly ancestorMoType?: string;
   /**
@@ -58,53 +58,53 @@ export interface DataIntersightFaultInstanceConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * Numerical fault code of the fault found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#code DataIntersightFaultInstance#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#code DataIntersightFaultInstance#code}
   */
   readonly code?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#create_time DataIntersightFaultInstance#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#create_time DataIntersightFaultInstance#create_time}
   */
   readonly createTime?: string;
   /**
   * The time of creation of the fault instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#creation_time DataIntersightFaultInstance#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#creation_time DataIntersightFaultInstance#creation_time}
   */
   readonly creationTime?: string;
   /**
   * Detailed message of the fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#description DataIntersightFaultInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#description DataIntersightFaultInstance#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#device_mo_id DataIntersightFaultInstance#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#device_mo_id DataIntersightFaultInstance#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#dn DataIntersightFaultInstance#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#dn DataIntersightFaultInstance#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#domain_group_moid DataIntersightFaultInstance#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#domain_group_moid DataIntersightFaultInstance#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#id DataIntersightFaultInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#id DataIntersightFaultInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,127 +113,127 @@ export interface DataIntersightFaultInstanceConfig extends cdktf.TerraformMetaAr
   /**
   * Last transition time of the fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#last_transition_time DataIntersightFaultInstance#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#last_transition_time DataIntersightFaultInstance#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#mod_time DataIntersightFaultInstance#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#mod_time DataIntersightFaultInstance#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The number of times this fault has occured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#num_occurrences DataIntersightFaultInstance#num_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#num_occurrences DataIntersightFaultInstance#num_occurrences}
   */
   readonly numOccurrences?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
   * Current Severity of the fault found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#original_severity DataIntersightFaultInstance#original_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#original_severity DataIntersightFaultInstance#original_severity}
   */
   readonly originalSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#owners DataIntersightFaultInstance#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#owners DataIntersightFaultInstance#owners}
   */
   readonly owners?: string[];
   /**
   * The Severity of the fault prior to user update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#previous_severity DataIntersightFaultInstance#previous_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#previous_severity DataIntersightFaultInstance#previous_severity}
   */
   readonly previousSeverity?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#rn DataIntersightFaultInstance#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#rn DataIntersightFaultInstance#rn}
   */
   readonly rn?: string;
   /**
   * The rule that is responsible for generation of the fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#rule DataIntersightFaultInstance#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#rule DataIntersightFaultInstance#rule}
   */
   readonly rule?: string;
   /**
   * Severity of the fault found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#severity DataIntersightFaultInstance#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#severity DataIntersightFaultInstance#severity}
   */
   readonly severity?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#shared_scope DataIntersightFaultInstance#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#shared_scope DataIntersightFaultInstance#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * affected_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#affected_mo DataIntersightFaultInstance#affected_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#affected_mo DataIntersightFaultInstance#affected_mo}
   */
   readonly affectedMo?: DataIntersightFaultInstanceAffectedMo;
   /**
   * ancestor_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ancestor_mo DataIntersightFaultInstance#ancestor_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ancestor_mo DataIntersightFaultInstance#ancestor_mo}
   */
   readonly ancestorMo?: DataIntersightFaultInstanceAncestorMo;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ancestors DataIntersightFaultInstance#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ancestors DataIntersightFaultInstance#ancestors}
   */
   readonly ancestors?: DataIntersightFaultInstanceAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#inventory_device_info DataIntersightFaultInstance#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#inventory_device_info DataIntersightFaultInstance#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightFaultInstanceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#parent DataIntersightFaultInstance#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#parent DataIntersightFaultInstance#parent}
   */
   readonly parent?: DataIntersightFaultInstanceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#permission_resources DataIntersightFaultInstance#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#permission_resources DataIntersightFaultInstance#permission_resources}
   */
   readonly permissionResources?: DataIntersightFaultInstancePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#registered_device DataIntersightFaultInstance#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#registered_device DataIntersightFaultInstance#registered_device}
   */
   readonly registeredDevice?: DataIntersightFaultInstanceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#tags DataIntersightFaultInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#tags DataIntersightFaultInstance#tags}
   */
   readonly tags?: DataIntersightFaultInstanceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#version_context DataIntersightFaultInstance#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#version_context DataIntersightFaultInstance#version_context}
   */
   readonly versionContext?: DataIntersightFaultInstanceVersionContext;
 }
@@ -1170,6 +1170,11 @@ export class DataIntersightFaultInstanceResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1772,7 +1777,7 @@ export class DataIntersightFaultInstanceResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFaultInstanceAffectedMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1780,19 +1785,19 @@ export interface DataIntersightFaultInstanceAffectedMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1805,7 +1810,7 @@ export interface DataIntersightFaultInstanceAffectedMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2005,7 +2010,7 @@ export class DataIntersightFaultInstanceAffectedMoOutputReference extends cdktf.
 }
 export interface DataIntersightFaultInstanceAncestorMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2013,19 +2018,19 @@ export interface DataIntersightFaultInstanceAncestorMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2038,7 +2043,7 @@ export interface DataIntersightFaultInstanceAncestorMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2238,7 +2243,7 @@ export class DataIntersightFaultInstanceAncestorMoOutputReference extends cdktf.
 }
 export interface DataIntersightFaultInstanceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2246,19 +2251,19 @@ export interface DataIntersightFaultInstanceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2271,7 +2276,7 @@ export interface DataIntersightFaultInstanceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2503,7 +2508,7 @@ export class DataIntersightFaultInstanceAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightFaultInstanceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2511,19 +2516,19 @@ export interface DataIntersightFaultInstanceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2536,7 +2541,7 @@ export interface DataIntersightFaultInstanceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2736,7 +2741,7 @@ export class DataIntersightFaultInstanceInventoryDeviceInfoOutputReference exten
 }
 export interface DataIntersightFaultInstanceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2744,19 +2749,19 @@ export interface DataIntersightFaultInstanceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2769,7 +2774,7 @@ export interface DataIntersightFaultInstanceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2969,7 +2974,7 @@ export class DataIntersightFaultInstanceParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightFaultInstancePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2977,19 +2982,19 @@ export interface DataIntersightFaultInstancePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3002,7 +3007,7 @@ export interface DataIntersightFaultInstancePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3234,7 +3239,7 @@ export class DataIntersightFaultInstancePermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightFaultInstanceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3242,19 +3247,19 @@ export interface DataIntersightFaultInstanceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3267,7 +3272,7 @@ export interface DataIntersightFaultInstanceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3467,7 +3472,7 @@ export class DataIntersightFaultInstanceRegisteredDeviceOutputReference extends 
 }
 export interface DataIntersightFaultInstanceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3475,19 +3480,19 @@ export interface DataIntersightFaultInstanceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3500,7 +3505,7 @@ export interface DataIntersightFaultInstanceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3732,7 +3737,7 @@ export class DataIntersightFaultInstanceTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightFaultInstanceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3740,19 +3745,19 @@ export interface DataIntersightFaultInstanceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3765,7 +3770,7 @@ export interface DataIntersightFaultInstanceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3965,45 +3970,51 @@ export class DataIntersightFaultInstanceTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightFaultInstanceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#key DataIntersightFaultInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#key DataIntersightFaultInstance#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#propagated DataIntersightFaultInstance#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#propagated DataIntersightFaultInstance#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#sys_tag DataIntersightFaultInstance#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#type DataIntersightFaultInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#type DataIntersightFaultInstance#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#value DataIntersightFaultInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#value DataIntersightFaultInstance#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ancestor_definitions DataIntersightFaultInstance#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ancestor_definitions DataIntersightFaultInstance#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFaultInstanceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#definition DataIntersightFaultInstance#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#definition DataIntersightFaultInstance#definition}
   */
   readonly definition?: DataIntersightFaultInstanceTagsDefinition;
 }
@@ -4017,6 +4028,7 @@ export function dataIntersightFaultInstanceTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFaultInstanceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4045,6 +4057,12 @@ export function dataIntersightFaultInstanceTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4111,6 +4129,10 @@ export class DataIntersightFaultInstanceTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4137,6 +4159,7 @@ export class DataIntersightFaultInstanceTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4152,6 +4175,7 @@ export class DataIntersightFaultInstanceTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4205,6 +4229,22 @@ export class DataIntersightFaultInstanceTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4293,7 +4333,7 @@ export class DataIntersightFaultInstanceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFaultInstanceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4301,19 +4341,19 @@ export interface DataIntersightFaultInstanceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4326,7 +4366,7 @@ export interface DataIntersightFaultInstanceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4558,7 +4598,7 @@ export class DataIntersightFaultInstanceVersionContextInterestedMosList extends 
 }
 export interface DataIntersightFaultInstanceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4566,19 +4606,19 @@ export interface DataIntersightFaultInstanceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#moid DataIntersightFaultInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4591,7 +4631,7 @@ export interface DataIntersightFaultInstanceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#selector DataIntersightFaultInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4791,7 +4831,7 @@ export class DataIntersightFaultInstanceVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightFaultInstanceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#additional_properties DataIntersightFaultInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4799,32 +4839,32 @@ export interface DataIntersightFaultInstanceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#class_id DataIntersightFaultInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#marked_for_deletion DataIntersightFaultInstance#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#marked_for_deletion DataIntersightFaultInstance#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#nr_version DataIntersightFaultInstance#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#nr_version DataIntersightFaultInstance#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#object_type DataIntersightFaultInstance#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#timestamp DataIntersightFaultInstance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#timestamp DataIntersightFaultInstance#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4835,19 +4875,19 @@ export interface DataIntersightFaultInstanceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#version_type DataIntersightFaultInstance#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#version_type DataIntersightFaultInstance#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#interested_mos DataIntersightFaultInstance#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#interested_mos DataIntersightFaultInstance#interested_mos}
   */
   readonly interestedMos?: DataIntersightFaultInstanceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#ref_mo DataIntersightFaultInstance#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#ref_mo DataIntersightFaultInstance#ref_mo}
   */
   readonly refMo?: DataIntersightFaultInstanceVersionContextRefMo;
 }
@@ -5163,7 +5203,7 @@ export class DataIntersightFaultInstanceVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance intersight_fault_instance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance intersight_fault_instance}
 */
 export class DataIntersightFaultInstance extends cdktf.TerraformDataSource {
 
@@ -5179,7 +5219,7 @@ export class DataIntersightFaultInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFaultInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFaultInstance to import
-  * @param importFromId The id of the existing DataIntersightFaultInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFaultInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFaultInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5191,7 +5231,7 @@ export class DataIntersightFaultInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fault_instance intersight_fault_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fault_instance intersight_fault_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5202,8 +5242,8 @@ export class DataIntersightFaultInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fault_instance',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

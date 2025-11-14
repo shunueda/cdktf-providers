@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface JmsTaskScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#execution_recurrences JmsTaskSchedule#execution_recurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#execution_recurrences JmsTaskSchedule#execution_recurrences}
   */
   readonly executionRecurrences: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#fleet_id JmsTaskSchedule#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#fleet_id JmsTaskSchedule#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#id JmsTaskSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#id JmsTaskSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,39 +25,39 @@ export interface JmsTaskScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * task_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#task_details JmsTaskSchedule#task_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#task_details JmsTaskSchedule#task_details}
   */
   readonly taskDetails: JmsTaskScheduleTaskDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#timeouts JmsTaskSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#timeouts JmsTaskSchedule#timeouts}
   */
   readonly timeouts?: JmsTaskScheduleTimeouts;
 }
 export interface JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallationSites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#artifact_content_type JmsTaskSchedule#artifact_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#artifact_content_type JmsTaskSchedule#artifact_content_type}
   */
   readonly artifactContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#force_install JmsTaskSchedule#force_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#force_install JmsTaskSchedule#force_install}
   */
   readonly forceInstall?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#headless_mode JmsTaskSchedule#headless_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#headless_mode JmsTaskSchedule#headless_mode}
   */
   readonly headlessMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#installation_path JmsTaskSchedule#installation_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#installation_path JmsTaskSchedule#installation_path}
   */
   readonly installationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#release_version JmsTaskSchedule#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#release_version JmsTaskSchedule#release_version}
   */
   readonly releaseVersion?: string;
 }
@@ -318,13 +318,13 @@ export class JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallatio
 }
 export interface JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#post_installation_actions JmsTaskSchedule#post_installation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#post_installation_actions JmsTaskSchedule#post_installation_actions}
   */
   readonly postInstallationActions?: string[];
   /**
   * installation_sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
   */
   readonly installationSites?: JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallationSites[] | cdktf.IResolvable;
 }
@@ -437,23 +437,23 @@ export class JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestOutputRefer
 }
 export interface JmsTaskScheduleTaskDetailsCryptoTaskRequestTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
   */
   readonly applicationInstallationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
   */
   readonly applicationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
   */
   readonly containerKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
   */
   readonly jreKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
 }
@@ -685,17 +685,17 @@ export class JmsTaskScheduleTaskDetailsCryptoTaskRequestTargetsList extends cdkt
 }
 export interface JmsTaskScheduleTaskDetailsCryptoTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
   */
   readonly recordingDurationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
   */
   readonly waitingPeriodInMinutes?: number;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
   */
   readonly targets?: JmsTaskScheduleTaskDetailsCryptoTaskRequestTargets[] | cdktf.IResolvable;
 }
@@ -837,27 +837,27 @@ export class JmsTaskScheduleTaskDetailsCryptoTaskRequestOutputReference extends 
 }
 export interface JmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskRequestTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#deployed_application_installation_key JmsTaskSchedule#deployed_application_installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#deployed_application_installation_key JmsTaskSchedule#deployed_application_installation_key}
   */
   readonly deployedApplicationInstallationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#exclude_package_prefixes JmsTaskSchedule#exclude_package_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#exclude_package_prefixes JmsTaskSchedule#exclude_package_prefixes}
   */
   readonly excludePackagePrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#include_package_prefixes JmsTaskSchedule#include_package_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#include_package_prefixes JmsTaskSchedule#include_package_prefixes}
   */
   readonly includePackagePrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#source_jdk_version JmsTaskSchedule#source_jdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#source_jdk_version JmsTaskSchedule#source_jdk_version}
   */
   readonly sourceJdkVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#target_jdk_version JmsTaskSchedule#target_jdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#target_jdk_version JmsTaskSchedule#target_jdk_version}
   */
   readonly targetJdkVersion?: string;
 }
@@ -1120,7 +1120,7 @@ export interface JmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskReque
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
   */
   readonly targets?: JmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskRequestTargets[] | cdktf.IResolvable;
 }
@@ -1204,27 +1204,27 @@ export class JmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskRequestOu
 }
 export interface JmsTaskScheduleTaskDetailsJavaMigrationTaskRequestTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
   */
   readonly applicationInstallationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#exclude_package_prefixes JmsTaskSchedule#exclude_package_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#exclude_package_prefixes JmsTaskSchedule#exclude_package_prefixes}
   */
   readonly excludePackagePrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#include_package_prefixes JmsTaskSchedule#include_package_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#include_package_prefixes JmsTaskSchedule#include_package_prefixes}
   */
   readonly includePackagePrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#source_jdk_version JmsTaskSchedule#source_jdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#source_jdk_version JmsTaskSchedule#source_jdk_version}
   */
   readonly sourceJdkVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#target_jdk_version JmsTaskSchedule#target_jdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#target_jdk_version JmsTaskSchedule#target_jdk_version}
   */
   readonly targetJdkVersion?: string;
 }
@@ -1487,7 +1487,7 @@ export interface JmsTaskScheduleTaskDetailsJavaMigrationTaskRequest {
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
   */
   readonly targets?: JmsTaskScheduleTaskDetailsJavaMigrationTaskRequestTargets[] | cdktf.IResolvable;
 }
@@ -1571,23 +1571,23 @@ export class JmsTaskScheduleTaskDetailsJavaMigrationTaskRequestOutputReference e
 }
 export interface JmsTaskScheduleTaskDetailsJfrTaskRequestTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
   */
   readonly applicationInstallationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
   */
   readonly applicationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
   */
   readonly containerKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
   */
   readonly jreKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
 }
@@ -1819,33 +1819,33 @@ export class JmsTaskScheduleTaskDetailsJfrTaskRequestTargetsList extends cdktf.C
 }
 export interface JmsTaskScheduleTaskDetailsJfrTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jfc_profile_name JmsTaskSchedule#jfc_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jfc_profile_name JmsTaskSchedule#jfc_profile_name}
   */
   readonly jfcProfileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jfc_v1 JmsTaskSchedule#jfc_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jfc_v1 JmsTaskSchedule#jfc_v1}
   */
   readonly jfcV1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jfc_v2 JmsTaskSchedule#jfc_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jfc_v2 JmsTaskSchedule#jfc_v2}
   */
   readonly jfcV2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
   */
   readonly recordingDurationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#recording_size_in_mb JmsTaskSchedule#recording_size_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#recording_size_in_mb JmsTaskSchedule#recording_size_in_mb}
   */
   readonly recordingSizeInMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
   */
   readonly waitingPeriodInMinutes?: number;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
   */
   readonly targets?: JmsTaskScheduleTaskDetailsJfrTaskRequestTargets[] | cdktf.IResolvable;
 }
@@ -2103,23 +2103,23 @@ export class JmsTaskScheduleTaskDetailsJfrTaskRequestOutputReference extends cdk
 }
 export interface JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}
   */
   readonly applicationInstallationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}
   */
   readonly applicationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}
   */
   readonly containerKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}
   */
   readonly jreKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
 }
@@ -2351,17 +2351,17 @@ export class JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargetsList e
 }
 export interface JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}
   */
   readonly recordingDurationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}
   */
   readonly waitingPeriodInMinutes?: number;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
   */
   readonly targets?: JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargets[] | cdktf.IResolvable;
 }
@@ -2503,11 +2503,11 @@ export class JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestOutputReferen
 }
 export interface JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#installation_key JmsTaskSchedule#installation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#installation_key JmsTaskSchedule#installation_key}
   */
   readonly installationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}
   */
   readonly managedInstanceId?: string;
 }
@@ -2654,7 +2654,7 @@ export interface JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequest {
   /**
   * installation_sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
   */
   readonly installationSites?: JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites[] | cdktf.IResolvable;
 }
@@ -2738,7 +2738,7 @@ export class JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestOutputRe
 }
 export interface JmsTaskScheduleTaskDetailsScanJavaServerTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}
   */
   readonly managedInstanceIds?: string[];
 }
@@ -2822,15 +2822,15 @@ export class JmsTaskScheduleTaskDetailsScanJavaServerTaskRequestOutputReference 
 }
 export interface JmsTaskScheduleTaskDetailsScanLibraryTaskRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}
   */
   readonly dynamicScanDurationInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}
   */
   readonly isDynamicScan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}
   */
   readonly managedInstanceIds?: string[];
 }
@@ -2972,61 +2972,61 @@ export class JmsTaskScheduleTaskDetailsScanLibraryTaskRequestOutputReference ext
 }
 export interface JmsTaskScheduleTaskDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#task_type JmsTaskSchedule#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#task_type JmsTaskSchedule#task_type}
   */
   readonly taskType: string;
   /**
   * add_installation_site_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#add_installation_site_task_request JmsTaskSchedule#add_installation_site_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#add_installation_site_task_request JmsTaskSchedule#add_installation_site_task_request}
   */
   readonly addInstallationSiteTaskRequest?: JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequest;
   /**
   * crypto_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#crypto_task_request JmsTaskSchedule#crypto_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#crypto_task_request JmsTaskSchedule#crypto_task_request}
   */
   readonly cryptoTaskRequest?: JmsTaskScheduleTaskDetailsCryptoTaskRequest;
   /**
   * deployed_application_migration_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#deployed_application_migration_task_request JmsTaskSchedule#deployed_application_migration_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#deployed_application_migration_task_request JmsTaskSchedule#deployed_application_migration_task_request}
   */
   readonly deployedApplicationMigrationTaskRequest?: JmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskRequest;
   /**
   * java_migration_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#java_migration_task_request JmsTaskSchedule#java_migration_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#java_migration_task_request JmsTaskSchedule#java_migration_task_request}
   */
   readonly javaMigrationTaskRequest?: JmsTaskScheduleTaskDetailsJavaMigrationTaskRequest;
   /**
   * jfr_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#jfr_task_request JmsTaskSchedule#jfr_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#jfr_task_request JmsTaskSchedule#jfr_task_request}
   */
   readonly jfrTaskRequest?: JmsTaskScheduleTaskDetailsJfrTaskRequest;
   /**
   * performance_tuning_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#performance_tuning_task_request JmsTaskSchedule#performance_tuning_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#performance_tuning_task_request JmsTaskSchedule#performance_tuning_task_request}
   */
   readonly performanceTuningTaskRequest?: JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequest;
   /**
   * remove_installation_site_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#remove_installation_site_task_request JmsTaskSchedule#remove_installation_site_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#remove_installation_site_task_request JmsTaskSchedule#remove_installation_site_task_request}
   */
   readonly removeInstallationSiteTaskRequest?: JmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequest;
   /**
   * scan_java_server_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#scan_java_server_task_request JmsTaskSchedule#scan_java_server_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#scan_java_server_task_request JmsTaskSchedule#scan_java_server_task_request}
   */
   readonly scanJavaServerTaskRequest?: JmsTaskScheduleTaskDetailsScanJavaServerTaskRequest;
   /**
   * scan_library_task_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#scan_library_task_request JmsTaskSchedule#scan_library_task_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#scan_library_task_request JmsTaskSchedule#scan_library_task_request}
   */
   readonly scanLibraryTaskRequest?: JmsTaskScheduleTaskDetailsScanLibraryTaskRequest;
 }
@@ -3368,15 +3368,15 @@ export class JmsTaskScheduleTaskDetailsOutputReference extends cdktf.ComplexObje
 }
 export interface JmsTaskScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#create JmsTaskSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#create JmsTaskSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#delete JmsTaskSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#delete JmsTaskSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#update JmsTaskSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#update JmsTaskSchedule#update}
   */
   readonly update?: string;
 }
@@ -3528,7 +3528,7 @@ export class JmsTaskScheduleTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule oci_jms_task_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule oci_jms_task_schedule}
 */
 export class JmsTaskSchedule extends cdktf.TerraformResource {
 
@@ -3544,7 +3544,7 @@ export class JmsTaskSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JmsTaskSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsTaskSchedule to import
-  * @param importFromId The id of the existing JmsTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsTaskSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3556,7 +3556,7 @@ export class JmsTaskSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_task_schedule oci_jms_task_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_task_schedule oci_jms_task_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3567,8 +3567,8 @@ export class JmsTaskSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'oci_jms_task_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

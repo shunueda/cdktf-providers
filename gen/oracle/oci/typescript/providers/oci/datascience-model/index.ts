@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceModelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#artifact_content_disposition DatascienceModel#artifact_content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#artifact_content_disposition DatascienceModel#artifact_content_disposition}
   */
   readonly artifactContentDisposition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#artifact_content_length DatascienceModel#artifact_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#artifact_content_length DatascienceModel#artifact_content_length}
   */
   readonly artifactContentLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#compartment_id DatascienceModel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#compartment_id DatascienceModel#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#defined_tags DatascienceModel#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#defined_tags DatascienceModel#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#description DatascienceModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#description DatascienceModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#display_name DatascienceModel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#display_name DatascienceModel#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#freeform_tags DatascienceModel#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#freeform_tags DatascienceModel#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#id DatascienceModel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#id DatascienceModel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#input_schema DatascienceModel#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#input_schema DatascienceModel#input_schema}
   */
   readonly inputSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#model_artifact DatascienceModel#model_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#model_artifact DatascienceModel#model_artifact}
   */
   readonly modelArtifact: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#model_version_set_id DatascienceModel#model_version_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#model_version_set_id DatascienceModel#model_version_set_id}
   */
   readonly modelVersionSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#model_version_set_name DatascienceModel#model_version_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#model_version_set_name DatascienceModel#model_version_set_name}
   */
   readonly modelVersionSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#output_schema DatascienceModel#output_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#output_schema DatascienceModel#output_schema}
   */
   readonly outputSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#project_id DatascienceModel#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#project_id DatascienceModel#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#state DatascienceModel#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#state DatascienceModel#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#version_label DatascienceModel#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#version_label DatascienceModel#version_label}
   */
   readonly versionLabel?: string;
   /**
   * backup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#backup_setting DatascienceModel#backup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#backup_setting DatascienceModel#backup_setting}
   */
   readonly backupSetting?: DatascienceModelBackupSetting;
   /**
   * custom_metadata_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#custom_metadata_list DatascienceModel#custom_metadata_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#custom_metadata_list DatascienceModel#custom_metadata_list}
   */
   readonly customMetadataList?: DatascienceModelCustomMetadataListStruct[] | cdktf.IResolvable;
   /**
   * defined_metadata_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#defined_metadata_list DatascienceModel#defined_metadata_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#defined_metadata_list DatascienceModel#defined_metadata_list}
   */
   readonly definedMetadataList?: DatascienceModelDefinedMetadataListStruct[] | cdktf.IResolvable;
   /**
   * retention_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#retention_setting DatascienceModel#retention_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#retention_setting DatascienceModel#retention_setting}
   */
   readonly retentionSetting?: DatascienceModelRetentionSetting;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#timeouts DatascienceModel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#timeouts DatascienceModel#timeouts}
   */
   readonly timeouts?: DatascienceModelTimeouts;
 }
@@ -292,15 +292,15 @@ export class DatascienceModelRetentionOperationDetailsList extends cdktf.Complex
 }
 export interface DatascienceModelBackupSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#backup_region DatascienceModel#backup_region}
   */
   readonly backupRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}
   */
   readonly customerNotificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#is_backup_enabled DatascienceModel#is_backup_enabled}
   */
   readonly isBackupEnabled: boolean | cdktf.IResolvable;
 }
@@ -436,27 +436,27 @@ export class DatascienceModelBackupSettingOutputReference extends cdktf.ComplexO
 }
 export interface DatascienceModelCustomMetadataListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#category DatascienceModel#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#category DatascienceModel#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#description DatascienceModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#description DatascienceModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}
   */
   readonly hasArtifact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#key DatascienceModel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#key DatascienceModel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#keywords DatascienceModel#keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#keywords DatascienceModel#keywords}
   */
   readonly keywords?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#value DatascienceModel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#value DatascienceModel#value}
   */
   readonly value?: string;
 }
@@ -717,27 +717,27 @@ export class DatascienceModelCustomMetadataListStructList extends cdktf.ComplexL
 }
 export interface DatascienceModelDefinedMetadataListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#category DatascienceModel#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#category DatascienceModel#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#description DatascienceModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#description DatascienceModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}
   */
   readonly hasArtifact?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#key DatascienceModel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#key DatascienceModel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#keywords DatascienceModel#keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#keywords DatascienceModel#keywords}
   */
   readonly keywords?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#value DatascienceModel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#value DatascienceModel#value}
   */
   readonly value?: string;
 }
@@ -998,15 +998,15 @@ export class DatascienceModelDefinedMetadataListStructList extends cdktf.Complex
 }
 export interface DatascienceModelRetentionSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#archive_after_days DatascienceModel#archive_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#archive_after_days DatascienceModel#archive_after_days}
   */
   readonly archiveAfterDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#customer_notification_type DatascienceModel#customer_notification_type}
   */
   readonly customerNotificationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#delete_after_days DatascienceModel#delete_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#delete_after_days DatascienceModel#delete_after_days}
   */
   readonly deleteAfterDays?: number;
 }
@@ -1145,15 +1145,15 @@ export class DatascienceModelRetentionSettingOutputReference extends cdktf.Compl
 }
 export interface DatascienceModelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#create DatascienceModel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#create DatascienceModel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#delete DatascienceModel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#delete DatascienceModel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#update DatascienceModel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#update DatascienceModel#update}
   */
   readonly update?: string;
 }
@@ -1305,7 +1305,7 @@ export class DatascienceModelTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model oci_datascience_model}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model oci_datascience_model}
 */
 export class DatascienceModel extends cdktf.TerraformResource {
 
@@ -1321,7 +1321,7 @@ export class DatascienceModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceModel to import
-  * @param importFromId The id of the existing DatascienceModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1333,7 +1333,7 @@ export class DatascienceModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/datascience_model oci_datascience_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/datascience_model oci_datascience_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1344,8 +1344,8 @@ export class DatascienceModel extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_model',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

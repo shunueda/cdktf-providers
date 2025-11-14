@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServerVolumeAttachConfig extends cdktf.TerraformMetaArguments {
   /**
   * STACKIT project ID to which the volume attachment is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach#project_id ServerVolumeAttach#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach#project_id ServerVolumeAttach#project_id}
   */
   readonly projectId: string;
   /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach#server_id ServerVolumeAttach#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach#server_id ServerVolumeAttach#server_id}
   */
   readonly serverId: string;
   /**
   * The volume ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach#volume_id ServerVolumeAttach#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach#volume_id ServerVolumeAttach#volume_id}
   */
   readonly volumeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach stackit_server_volume_attach}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach stackit_server_volume_attach}
 */
 export class ServerVolumeAttach extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServerVolumeAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerVolumeAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerVolumeAttach to import
-  * @param importFromId The id of the existing ServerVolumeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerVolumeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerVolumeAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServerVolumeAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_volume_attach stackit_server_volume_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_volume_attach stackit_server_volume_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServerVolumeAttach extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_server_volume_attach',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

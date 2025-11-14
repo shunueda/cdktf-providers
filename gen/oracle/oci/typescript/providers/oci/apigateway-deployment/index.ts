@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ApigatewayDeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#compartment_id ApigatewayDeployment#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#compartment_id ApigatewayDeployment#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#defined_tags ApigatewayDeployment#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#defined_tags ApigatewayDeployment#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#display_name ApigatewayDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#display_name ApigatewayDeployment#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#freeform_tags ApigatewayDeployment#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#freeform_tags ApigatewayDeployment#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#gateway_id ApigatewayDeployment#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#gateway_id ApigatewayDeployment#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#id ApigatewayDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#id ApigatewayDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_lock_override ApigatewayDeployment#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_lock_override ApigatewayDeployment#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#path_prefix ApigatewayDeployment#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#path_prefix ApigatewayDeployment#path_prefix}
   */
   readonly pathPrefix: string;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#locks ApigatewayDeployment#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#locks ApigatewayDeployment#locks}
   */
   readonly locks?: ApigatewayDeploymentLocks[] | cdktf.IResolvable;
   /**
   * specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#specification ApigatewayDeployment#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#specification ApigatewayDeployment#specification}
   */
   readonly specification: ApigatewayDeploymentSpecification;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#timeouts ApigatewayDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#timeouts ApigatewayDeployment#timeouts}
   */
   readonly timeouts?: ApigatewayDeploymentTimeouts;
 }
 export interface ApigatewayDeploymentLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#message ApigatewayDeployment#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -219,7 +219,7 @@ export class ApigatewayDeploymentLocksList extends cdktf.ComplexList {
 }
 export interface ApigatewayDeploymentSpecificationLoggingPoliciesAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -303,11 +303,11 @@ export class ApigatewayDeploymentSpecificationLoggingPoliciesAccessLogOutputRefe
 }
 export interface ApigatewayDeploymentSpecificationLoggingPoliciesExecutionLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#log_level ApigatewayDeployment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#log_level ApigatewayDeployment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -422,13 +422,13 @@ export interface ApigatewayDeploymentSpecificationLoggingPolicies {
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
   */
   readonly accessLog?: ApigatewayDeploymentSpecificationLoggingPoliciesAccessLog;
   /**
   * execution_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
   */
   readonly executionLog?: ApigatewayDeploymentSpecificationLoggingPoliciesExecutionLog;
 }
@@ -541,39 +541,39 @@ export class ApigatewayDeploymentSpecificationLoggingPoliciesOutputReference ext
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPublicKeysKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
   */
   readonly e?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
   */
   readonly keyOps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
   */
   readonly kid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
   */
   readonly kty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
   */
   readonly n?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
   */
   readonly use?: string;
 }
@@ -918,25 +918,25 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPubli
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPublicKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
   */
   readonly maxCacheDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
   /**
   * keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
   */
   readonly keys?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPublicKeysKeys[] | cdktf.IResolvable;
 }
@@ -1133,19 +1133,19 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPubli
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyClientDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
   */
   readonly clientSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
   */
   readonly clientSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -1313,7 +1313,7 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsFilterHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name?: string;
 }
@@ -1429,13 +1429,13 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsFilterHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type?: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsFilterHeadersItems[] | cdktf.IResolvable;
 }
@@ -1548,11 +1548,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
   */
   readonly to?: string;
 }
@@ -1699,7 +1699,7 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationV
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems[] | cdktf.IResolvable;
 }
@@ -1783,15 +1783,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsSetHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
   */
   readonly ifExists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -1967,7 +1967,7 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationV
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsSetHeadersItems[] | cdktf.IResolvable;
 }
@@ -2053,19 +2053,19 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationV
   /**
   * filter_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
   */
   readonly filterHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsFilterHeaders;
   /**
   * rename_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
   */
   readonly renameHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsRenameHeaders;
   /**
   * set_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
   */
   readonly setHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformationsSetHeaders;
 }
@@ -2207,11 +2207,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicySourceUriDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
 }
@@ -2321,65 +2321,65 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#fallback_redirect_path ApigatewayDeployment#fallback_redirect_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#fallback_redirect_path ApigatewayDeployment#fallback_redirect_path}
   */
   readonly fallbackRedirectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#logout_path ApigatewayDeployment#logout_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#logout_path ApigatewayDeployment#logout_path}
   */
   readonly logoutPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_expiry_duration_in_hours ApigatewayDeployment#max_expiry_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_expiry_duration_in_hours ApigatewayDeployment#max_expiry_duration_in_hours}
   */
   readonly maxExpiryDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_code ApigatewayDeployment#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_code ApigatewayDeployment#response_code}
   */
   readonly responseCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_message ApigatewayDeployment#response_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_message ApigatewayDeployment#response_message}
   */
   readonly responseMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_type ApigatewayDeployment#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_type ApigatewayDeployment#response_type}
   */
   readonly responseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#scopes ApigatewayDeployment#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#scopes ApigatewayDeployment#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_cookies_for_intermediate_steps ApigatewayDeployment#use_cookies_for_intermediate_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_cookies_for_intermediate_steps ApigatewayDeployment#use_cookies_for_intermediate_steps}
   */
   readonly useCookiesForIntermediateSteps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_cookies_for_session ApigatewayDeployment#use_cookies_for_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_cookies_for_session ApigatewayDeployment#use_cookies_for_session}
   */
   readonly useCookiesForSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_pkce ApigatewayDeployment#use_pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_pkce ApigatewayDeployment#use_pkce}
   */
   readonly usePkce?: boolean | cdktf.IResolvable;
   /**
   * client_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
   */
   readonly clientDetails?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyClientDetails;
   /**
   * response_header_transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_header_transformations ApigatewayDeployment#response_header_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_header_transformations ApigatewayDeployment#response_header_transformations}
   */
   readonly responseHeaderTransformations?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicyResponseHeaderTransformations;
   /**
   * source_uri_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
   */
   readonly sourceUriDetails?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicySourceUriDetails;
 }
@@ -2837,15 +2837,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyAdditionalValidationPolicyVerifyClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -3019,17 +3019,17 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyAdditionalValidationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
   */
   readonly audiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
   */
   readonly issuers?: string[];
   /**
   * verify_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
   */
   readonly verifyClaims?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyAdditionalValidationPolicyVerifyClaims[] | cdktf.IResolvable;
 }
@@ -3171,19 +3171,19 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyClientDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
   */
   readonly clientSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
   */
   readonly clientSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -3351,39 +3351,39 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
   */
   readonly e?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
   */
   readonly keyOps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
   */
   readonly kid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
   */
   readonly kty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
   */
   readonly n?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
   */
   readonly use?: string;
 }
@@ -3728,11 +3728,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicySourceUriDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
 }
@@ -3842,43 +3842,43 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
   */
   readonly maxCacheDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
   /**
   * additional_validation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#additional_validation_policy ApigatewayDeployment#additional_validation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#additional_validation_policy ApigatewayDeployment#additional_validation_policy}
   */
   readonly additionalValidationPolicy?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyAdditionalValidationPolicy;
   /**
   * client_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
   */
   readonly clientDetails?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyClientDetails;
   /**
   * keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
   */
   readonly keys?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicyKeys[] | cdktf.IResolvable;
   /**
   * source_uri_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
   */
   readonly sourceUriDetails?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicySourceUriDetails;
 }
@@ -4162,15 +4162,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValid
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationVerifyClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -4344,71 +4344,71 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationVerif
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
   */
   readonly audiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#cache_key ApigatewayDeployment#cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#cache_key ApigatewayDeployment#cache_key}
   */
   readonly cacheKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_anonymous_access_allowed ApigatewayDeployment#is_anonymous_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_anonymous_access_allowed ApigatewayDeployment#is_anonymous_access_allowed}
   */
   readonly isAnonymousAccessAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
   */
   readonly issuers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_clock_skew_in_seconds ApigatewayDeployment#max_clock_skew_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_clock_skew_in_seconds ApigatewayDeployment#max_clock_skew_in_seconds}
   */
   readonly maxClockSkewInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_auth_scheme ApigatewayDeployment#token_auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_auth_scheme ApigatewayDeployment#token_auth_scheme}
   */
   readonly tokenAuthScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_header ApigatewayDeployment#token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_header ApigatewayDeployment#token_header}
   */
   readonly tokenHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_query_param ApigatewayDeployment#token_query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_query_param ApigatewayDeployment#token_query_param}
   */
   readonly tokenQueryParam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
   * public_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#public_keys ApigatewayDeployment#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#public_keys ApigatewayDeployment#public_keys}
   */
   readonly publicKeys?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationPublicKeys;
   /**
   * validation_failure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_failure_policy ApigatewayDeployment#validation_failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_failure_policy ApigatewayDeployment#validation_failure_policy}
   */
   readonly validationFailurePolicy?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationFailurePolicy;
   /**
   * validation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_policy ApigatewayDeployment#validation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_policy ApigatewayDeployment#validation_policy}
   */
   readonly validationPolicy?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationValidationPolicy;
   /**
   * verify_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
   */
   readonly verifyClaims?: ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationVerifyClaims[] | cdktf.IResolvable;
 }
@@ -4895,27 +4895,27 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesAuthenticationOutpu
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesCors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_headers ApigatewayDeployment#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_headers ApigatewayDeployment#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_methods ApigatewayDeployment#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_methods ApigatewayDeployment#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_origins ApigatewayDeployment#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_origins ApigatewayDeployment#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#exposed_headers ApigatewayDeployment#exposed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#exposed_headers ApigatewayDeployment#exposed_headers}
   */
   readonly exposedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_allow_credentials_enabled ApigatewayDeployment#is_allow_credentials_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_allow_credentials_enabled ApigatewayDeployment#is_allow_credentials_enabled}
   */
   readonly isAllowCredentialsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_age_in_seconds ApigatewayDeployment#max_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_age_in_seconds ApigatewayDeployment#max_age_in_seconds}
   */
   readonly maxAgeInSeconds?: number;
 }
@@ -5141,39 +5141,39 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesCorsOutputReference
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailPublicKeysKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
   */
   readonly e?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
   */
   readonly keyOps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
   */
   readonly kid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
   */
   readonly kty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
   */
   readonly n?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
   */
   readonly use?: string;
 }
@@ -5518,25 +5518,25 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailPublicKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
   */
   readonly maxCacheDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
   /**
   * keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
   */
   readonly keys?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailPublicKeysKeys[] | cdktf.IResolvable;
 }
@@ -5733,19 +5733,19 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyClientDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
   */
   readonly clientSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
   */
   readonly clientSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -5913,7 +5913,7 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsFilterHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name?: string;
 }
@@ -6029,13 +6029,13 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsFilterHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type?: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsFilterHeadersItems[] | cdktf.IResolvable;
 }
@@ -6148,11 +6148,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
   */
   readonly to?: string;
 }
@@ -6299,7 +6299,7 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenti
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeadersItems[] | cdktf.IResolvable;
 }
@@ -6383,15 +6383,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsSetHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
   */
   readonly ifExists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -6567,7 +6567,7 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenti
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsSetHeadersItems[] | cdktf.IResolvable;
 }
@@ -6653,19 +6653,19 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenti
   /**
   * filter_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
   */
   readonly filterHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsFilterHeaders;
   /**
   * rename_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
   */
   readonly renameHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsRenameHeaders;
   /**
   * set_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
   */
   readonly setHeaders?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformationsSetHeaders;
 }
@@ -6807,11 +6807,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicySourceUriDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
 }
@@ -6921,65 +6921,65 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#fallback_redirect_path ApigatewayDeployment#fallback_redirect_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#fallback_redirect_path ApigatewayDeployment#fallback_redirect_path}
   */
   readonly fallbackRedirectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#logout_path ApigatewayDeployment#logout_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#logout_path ApigatewayDeployment#logout_path}
   */
   readonly logoutPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_expiry_duration_in_hours ApigatewayDeployment#max_expiry_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_expiry_duration_in_hours ApigatewayDeployment#max_expiry_duration_in_hours}
   */
   readonly maxExpiryDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_code ApigatewayDeployment#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_code ApigatewayDeployment#response_code}
   */
   readonly responseCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_message ApigatewayDeployment#response_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_message ApigatewayDeployment#response_message}
   */
   readonly responseMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_type ApigatewayDeployment#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_type ApigatewayDeployment#response_type}
   */
   readonly responseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#scopes ApigatewayDeployment#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#scopes ApigatewayDeployment#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_cookies_for_intermediate_steps ApigatewayDeployment#use_cookies_for_intermediate_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_cookies_for_intermediate_steps ApigatewayDeployment#use_cookies_for_intermediate_steps}
   */
   readonly useCookiesForIntermediateSteps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_cookies_for_session ApigatewayDeployment#use_cookies_for_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_cookies_for_session ApigatewayDeployment#use_cookies_for_session}
   */
   readonly useCookiesForSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use_pkce ApigatewayDeployment#use_pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use_pkce ApigatewayDeployment#use_pkce}
   */
   readonly usePkce?: boolean | cdktf.IResolvable;
   /**
   * client_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
   */
   readonly clientDetails?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyClientDetails;
   /**
   * response_header_transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_header_transformations ApigatewayDeployment#response_header_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_header_transformations ApigatewayDeployment#response_header_transformations}
   */
   readonly responseHeaderTransformations?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicyResponseHeaderTransformations;
   /**
   * source_uri_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
   */
   readonly sourceUriDetails?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicySourceUriDetails;
 }
@@ -7437,15 +7437,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyAdditionalValidationPolicyVerifyClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -7619,17 +7619,17 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyAdditionalValidationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
   */
   readonly audiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
   */
   readonly issuers?: string[];
   /**
   * verify_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
   */
   readonly verifyClaims?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyAdditionalValidationPolicyVerifyClaims[] | cdktf.IResolvable;
 }
@@ -7771,19 +7771,19 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyClientDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_id ApigatewayDeployment#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_id ApigatewayDeployment#client_secret_id}
   */
   readonly clientSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_secret_version_number ApigatewayDeployment#client_secret_version_number}
   */
   readonly clientSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -7951,39 +7951,39 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}
   */
   readonly e?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}
   */
   readonly keyOps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}
   */
   readonly kid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}
   */
   readonly kty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}
   */
   readonly n?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}
   */
   readonly use?: string;
 }
@@ -8328,11 +8328,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicySourceUriDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
 }
@@ -8442,43 +8442,43 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_cache_duration_in_hours ApigatewayDeployment#max_cache_duration_in_hours}
   */
   readonly maxCacheDurationInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#uri ApigatewayDeployment#uri}
   */
   readonly uri?: string;
   /**
   * additional_validation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#additional_validation_policy ApigatewayDeployment#additional_validation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#additional_validation_policy ApigatewayDeployment#additional_validation_policy}
   */
   readonly additionalValidationPolicy?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyAdditionalValidationPolicy;
   /**
   * client_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#client_details ApigatewayDeployment#client_details}
   */
   readonly clientDetails?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyClientDetails;
   /**
   * keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#keys ApigatewayDeployment#keys}
   */
   readonly keys?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyKeys[] | cdktf.IResolvable;
   /**
   * source_uri_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#source_uri_details ApigatewayDeployment#source_uri_details}
   */
   readonly sourceUriDetails?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicySourceUriDetails;
 }
@@ -8762,15 +8762,15 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailVerifyClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_required ApigatewayDeployment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -8944,71 +8944,71 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#audiences ApigatewayDeployment#audiences}
   */
   readonly audiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#cache_key ApigatewayDeployment#cache_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#cache_key ApigatewayDeployment#cache_key}
   */
   readonly cacheKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_anonymous_access_allowed ApigatewayDeployment#is_anonymous_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_anonymous_access_allowed ApigatewayDeployment#is_anonymous_access_allowed}
   */
   readonly isAnonymousAccessAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#issuers ApigatewayDeployment#issuers}
   */
   readonly issuers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_clock_skew_in_seconds ApigatewayDeployment#max_clock_skew_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_clock_skew_in_seconds ApigatewayDeployment#max_clock_skew_in_seconds}
   */
   readonly maxClockSkewInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_auth_scheme ApigatewayDeployment#token_auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_auth_scheme ApigatewayDeployment#token_auth_scheme}
   */
   readonly tokenAuthScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_header ApigatewayDeployment#token_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_header ApigatewayDeployment#token_header}
   */
   readonly tokenHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_query_param ApigatewayDeployment#token_query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_query_param ApigatewayDeployment#token_query_param}
   */
   readonly tokenQueryParam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
   * public_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#public_keys ApigatewayDeployment#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#public_keys ApigatewayDeployment#public_keys}
   */
   readonly publicKeys?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailPublicKeys;
   /**
   * validation_failure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_failure_policy ApigatewayDeployment#validation_failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_failure_policy ApigatewayDeployment#validation_failure_policy}
   */
   readonly validationFailurePolicy?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationFailurePolicy;
   /**
   * validation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_policy ApigatewayDeployment#validation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_policy ApigatewayDeployment#validation_policy}
   */
   readonly validationPolicy?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicy;
   /**
   * verify_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#verify_claims ApigatewayDeployment#verify_claims}
   */
   readonly verifyClaims?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailVerifyClaims[] | cdktf.IResolvable;
 }
@@ -9495,23 +9495,23 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#expression ApigatewayDeployment#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#expression ApigatewayDeployment#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_default ApigatewayDeployment#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_default ApigatewayDeployment#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -9710,13 +9710,13 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenti
   /**
   * authentication_server_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#authentication_server_detail ApigatewayDeployment#authentication_server_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#authentication_server_detail ApigatewayDeployment#authentication_server_detail}
   */
   readonly authenticationServerDetail: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetail;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersKey;
 }
@@ -9855,11 +9855,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationSelectionSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#selector ApigatewayDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#selector ApigatewayDeployment#selector}
   */
   readonly selector: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -9968,13 +9968,13 @@ export interface ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenti
   /**
   * authentication_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#authentication_servers ApigatewayDeployment#authentication_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#authentication_servers ApigatewayDeployment#authentication_servers}
   */
   readonly authenticationServers: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServers[] | cdktf.IResolvable;
   /**
   * selection_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#selection_source ApigatewayDeployment#selection_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#selection_source ApigatewayDeployment#selection_source}
   */
   readonly selectionSource: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationSelectionSource;
 }
@@ -10081,11 +10081,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticati
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesMutualTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_sans ApigatewayDeployment#allowed_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_sans ApigatewayDeployment#allowed_sans}
   */
   readonly allowedSans?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_verified_certificate_required ApigatewayDeployment#is_verified_certificate_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_verified_certificate_required ApigatewayDeployment#is_verified_certificate_required}
   */
   readonly isVerifiedCertificateRequired?: boolean | cdktf.IResolvable;
 }
@@ -10198,11 +10198,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesMutualTlsOutputRefe
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesRateLimiting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rate_in_requests_per_second ApigatewayDeployment#rate_in_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rate_in_requests_per_second ApigatewayDeployment#rate_in_requests_per_second}
   */
   readonly rateInRequestsPerSecond: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rate_key ApigatewayDeployment#rate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rate_key ApigatewayDeployment#rate_key}
   */
   readonly rateKey: string;
 }
@@ -10309,7 +10309,7 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesRateLimitingOutputR
 }
 export interface ApigatewayDeploymentSpecificationRequestPoliciesUsagePlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#token_locations ApigatewayDeployment#token_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#token_locations ApigatewayDeployment#token_locations}
   */
   readonly tokenLocations: string[];
 }
@@ -10392,37 +10392,37 @@ export interface ApigatewayDeploymentSpecificationRequestPolicies {
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#authentication ApigatewayDeployment#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#authentication ApigatewayDeployment#authentication}
   */
   readonly authentication?: ApigatewayDeploymentSpecificationRequestPoliciesAuthentication;
   /**
   * cors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#cors ApigatewayDeployment#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#cors ApigatewayDeployment#cors}
   */
   readonly cors?: ApigatewayDeploymentSpecificationRequestPoliciesCors;
   /**
   * dynamic_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#dynamic_authentication ApigatewayDeployment#dynamic_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#dynamic_authentication ApigatewayDeployment#dynamic_authentication}
   */
   readonly dynamicAuthentication?: ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthentication;
   /**
   * mutual_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#mutual_tls ApigatewayDeployment#mutual_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#mutual_tls ApigatewayDeployment#mutual_tls}
   */
   readonly mutualTls?: ApigatewayDeploymentSpecificationRequestPoliciesMutualTls;
   /**
   * rate_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rate_limiting ApigatewayDeployment#rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rate_limiting ApigatewayDeployment#rate_limiting}
   */
   readonly rateLimiting?: ApigatewayDeploymentSpecificationRequestPoliciesRateLimiting;
   /**
   * usage_plans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#usage_plans ApigatewayDeployment#usage_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#usage_plans ApigatewayDeployment#usage_plans}
   */
   readonly usagePlans?: ApigatewayDeploymentSpecificationRequestPoliciesUsagePlans;
 }
@@ -10651,11 +10651,11 @@ export class ApigatewayDeploymentSpecificationRequestPoliciesOutputReference ext
 }
 export interface ApigatewayDeploymentSpecificationRoutesBackendHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#value ApigatewayDeployment#value}
   */
   readonly value?: string;
 }
@@ -10880,35 +10880,35 @@ export class ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsBacken
 }
 export interface ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#body ApigatewayDeployment#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#body ApigatewayDeployment#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#connect_timeout_in_seconds ApigatewayDeployment#connect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#connect_timeout_in_seconds ApigatewayDeployment#connect_timeout_in_seconds}
   */
   readonly connectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#read_timeout_in_seconds ApigatewayDeployment#read_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#read_timeout_in_seconds ApigatewayDeployment#read_timeout_in_seconds}
   */
   readonly readTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#status ApigatewayDeployment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#status ApigatewayDeployment#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#url ApigatewayDeployment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#url ApigatewayDeployment#url}
   */
   readonly url?: string;
 }
@@ -11203,23 +11203,23 @@ export class ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsBacken
 }
 export interface ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#expression ApigatewayDeployment#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#expression ApigatewayDeployment#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_default ApigatewayDeployment#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_default ApigatewayDeployment#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values?: string[];
 }
@@ -11415,13 +11415,13 @@ export interface ApigatewayDeploymentSpecificationRoutesBackendRoutingBackends {
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
   */
   readonly backend?: ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsBackend;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}
   */
   readonly key?: ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsKey;
 }
@@ -11566,11 +11566,11 @@ export class ApigatewayDeploymentSpecificationRoutesBackendRoutingBackendsList e
 }
 export interface ApigatewayDeploymentSpecificationRoutesBackendSelectionSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#selector ApigatewayDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#selector ApigatewayDeployment#selector}
   */
   readonly selector: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -11677,65 +11677,65 @@ export class ApigatewayDeploymentSpecificationRoutesBackendSelectionSourceOutput
 }
 export interface ApigatewayDeploymentSpecificationRoutesBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_post_logout_uris ApigatewayDeployment#allowed_post_logout_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_post_logout_uris ApigatewayDeployment#allowed_post_logout_uris}
   */
   readonly allowedPostLogoutUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#body ApigatewayDeployment#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#body ApigatewayDeployment#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#connect_timeout_in_seconds ApigatewayDeployment#connect_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#connect_timeout_in_seconds ApigatewayDeployment#connect_timeout_in_seconds}
   */
   readonly connectTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#function_id ApigatewayDeployment#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_ssl_verify_disabled ApigatewayDeployment#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#post_logout_state ApigatewayDeployment#post_logout_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#post_logout_state ApigatewayDeployment#post_logout_state}
   */
   readonly postLogoutState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#read_timeout_in_seconds ApigatewayDeployment#read_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#read_timeout_in_seconds ApigatewayDeployment#read_timeout_in_seconds}
   */
   readonly readTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#send_timeout_in_seconds ApigatewayDeployment#send_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#send_timeout_in_seconds ApigatewayDeployment#send_timeout_in_seconds}
   */
   readonly sendTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#status ApigatewayDeployment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#status ApigatewayDeployment#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#url ApigatewayDeployment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#url ApigatewayDeployment#url}
   */
   readonly url?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#headers ApigatewayDeployment#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#headers ApigatewayDeployment#headers}
   */
   readonly headers?: ApigatewayDeploymentSpecificationRoutesBackendHeaders[] | cdktf.IResolvable;
   /**
   * routing_backends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#routing_backends ApigatewayDeployment#routing_backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#routing_backends ApigatewayDeployment#routing_backends}
   */
   readonly routingBackends?: ApigatewayDeploymentSpecificationRoutesBackendRoutingBackends[] | cdktf.IResolvable;
   /**
   * selection_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#selection_source ApigatewayDeployment#selection_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#selection_source ApigatewayDeployment#selection_source}
   */
   readonly selectionSource?: ApigatewayDeploymentSpecificationRoutesBackendSelectionSource;
 }
@@ -12193,7 +12193,7 @@ export class ApigatewayDeploymentSpecificationRoutesBackendOutputReference exten
 }
 export interface ApigatewayDeploymentSpecificationRoutesLoggingPoliciesAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -12277,11 +12277,11 @@ export class ApigatewayDeploymentSpecificationRoutesLoggingPoliciesAccessLogOutp
 }
 export interface ApigatewayDeploymentSpecificationRoutesLoggingPoliciesExecutionLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#log_level ApigatewayDeployment#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#log_level ApigatewayDeployment#log_level}
   */
   readonly logLevel?: string;
 }
@@ -12396,13 +12396,13 @@ export interface ApigatewayDeploymentSpecificationRoutesLoggingPolicies {
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
   */
   readonly accessLog?: ApigatewayDeploymentSpecificationRoutesLoggingPoliciesAccessLog;
   /**
   * execution_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
   */
   readonly executionLog?: ApigatewayDeploymentSpecificationRoutesLoggingPoliciesExecutionLog;
 }
@@ -12515,11 +12515,11 @@ export class ApigatewayDeploymentSpecificationRoutesLoggingPoliciesOutputReferen
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_scope ApigatewayDeployment#allowed_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_scope ApigatewayDeployment#allowed_scope}
   */
   readonly allowedScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type?: string;
 }
@@ -12632,11 +12632,11 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesAuthorization
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidationContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#media_type ApigatewayDeployment#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#media_type ApigatewayDeployment#media_type}
   */
   readonly mediaType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_type ApigatewayDeployment#validation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_type ApigatewayDeployment#validation_type}
   */
   readonly validationType: string;
 }
@@ -12775,17 +12775,17 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidatio
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
   */
   readonly validationMode?: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#content ApigatewayDeployment#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#content ApigatewayDeployment#content}
   */
   readonly content?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidationContent[] | cdktf.IResolvable;
 }
@@ -12927,27 +12927,27 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidatio
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesCors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_headers ApigatewayDeployment#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_headers ApigatewayDeployment#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_methods ApigatewayDeployment#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_methods ApigatewayDeployment#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#allowed_origins ApigatewayDeployment#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#allowed_origins ApigatewayDeployment#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#exposed_headers ApigatewayDeployment#exposed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#exposed_headers ApigatewayDeployment#exposed_headers}
   */
   readonly exposedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_allow_credentials_enabled ApigatewayDeployment#is_allow_credentials_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_allow_credentials_enabled ApigatewayDeployment#is_allow_credentials_enabled}
   */
   readonly isAllowCredentialsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#max_age_in_seconds ApigatewayDeployment#max_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#max_age_in_seconds ApigatewayDeployment#max_age_in_seconds}
   */
   readonly maxAgeInSeconds?: number;
 }
@@ -13173,7 +13173,7 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesCorsOutputRef
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsFilterHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
 }
@@ -13286,13 +13286,13 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransfo
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsFilterHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsFilterHeadersItems[] | cdktf.IResolvable;
 }
@@ -13399,11 +13399,11 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransfo
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsRenameHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
   */
   readonly to: string;
 }
@@ -13544,7 +13544,7 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTra
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsRenameHeadersItems[] | cdktf.IResolvable;
 }
@@ -13625,15 +13625,15 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransfo
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsSetHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
   */
   readonly ifExists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values: string[];
 }
@@ -13803,7 +13803,7 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTra
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsSetHeadersItems[] | cdktf.IResolvable;
 }
@@ -13886,19 +13886,19 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTra
   /**
   * filter_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
   */
   readonly filterHeaders?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsFilterHeaders;
   /**
   * rename_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
   */
   readonly renameHeaders?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsRenameHeaders;
   /**
   * set_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
   */
   readonly setHeaders?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformationsSetHeaders;
 }
@@ -14040,11 +14040,11 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransfo
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidationsHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -14186,13 +14186,13 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidat
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
   */
   readonly validationMode?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#headers ApigatewayDeployment#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#headers ApigatewayDeployment#headers}
   */
   readonly headers?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidationsHeaders[] | cdktf.IResolvable;
 }
@@ -14305,7 +14305,7 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidat
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParametersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
 }
@@ -14418,13 +14418,13 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParametersItems[] | cdktf.IResolvable;
 }
@@ -14531,11 +14531,11 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsRenameQueryParametersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
   */
   readonly to: string;
 }
@@ -14676,7 +14676,7 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryPara
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsRenameQueryParametersItems[] | cdktf.IResolvable;
 }
@@ -14757,15 +14757,15 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsSetQueryParametersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
   */
   readonly ifExists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values: string[];
 }
@@ -14935,7 +14935,7 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryPara
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsSetQueryParametersItems[] | cdktf.IResolvable;
 }
@@ -15018,19 +15018,19 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryPara
   /**
   * filter_query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
   */
   readonly filterQueryParameters?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParameters;
   /**
   * rename_query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
   */
   readonly renameQueryParameters?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsRenameQueryParameters;
   /**
   * set_query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
   */
   readonly setQueryParameters?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsSetQueryParameters;
 }
@@ -15172,11 +15172,11 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterValidationsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#required ApigatewayDeployment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -15318,13 +15318,13 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterValidations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#validation_mode ApigatewayDeployment#validation_mode}
   */
   readonly validationMode?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#parameters ApigatewayDeployment#parameters}
   */
   readonly parameters?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterValidationsParameters[] | cdktf.IResolvable;
 }
@@ -15437,19 +15437,19 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParamete
 }
 export interface ApigatewayDeploymentSpecificationRoutesRequestPoliciesResponseCacheLookup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#cache_key_additions ApigatewayDeployment#cache_key_additions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#cache_key_additions ApigatewayDeployment#cache_key_additions}
   */
   readonly cacheKeyAdditions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_enabled ApigatewayDeployment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#is_private_caching_enabled ApigatewayDeployment#is_private_caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#is_private_caching_enabled ApigatewayDeployment#is_private_caching_enabled}
   */
   readonly isPrivateCachingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -15619,49 +15619,49 @@ export interface ApigatewayDeploymentSpecificationRoutesRequestPolicies {
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#authorization ApigatewayDeployment#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#authorization ApigatewayDeployment#authorization}
   */
   readonly authorization?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesAuthorization;
   /**
   * body_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#body_validation ApigatewayDeployment#body_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#body_validation ApigatewayDeployment#body_validation}
   */
   readonly bodyValidation?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesBodyValidation;
   /**
   * cors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#cors ApigatewayDeployment#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#cors ApigatewayDeployment#cors}
   */
   readonly cors?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesCors;
   /**
   * header_transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#header_transformations ApigatewayDeployment#header_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#header_transformations ApigatewayDeployment#header_transformations}
   */
   readonly headerTransformations?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderTransformations;
   /**
   * header_validations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#header_validations ApigatewayDeployment#header_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#header_validations ApigatewayDeployment#header_validations}
   */
   readonly headerValidations?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesHeaderValidations;
   /**
   * query_parameter_transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#query_parameter_transformations ApigatewayDeployment#query_parameter_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#query_parameter_transformations ApigatewayDeployment#query_parameter_transformations}
   */
   readonly queryParameterTransformations?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformations;
   /**
   * query_parameter_validations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#query_parameter_validations ApigatewayDeployment#query_parameter_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#query_parameter_validations ApigatewayDeployment#query_parameter_validations}
   */
   readonly queryParameterValidations?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterValidations;
   /**
   * response_cache_lookup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_cache_lookup ApigatewayDeployment#response_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_cache_lookup ApigatewayDeployment#response_cache_lookup}
   */
   readonly responseCacheLookup?: ApigatewayDeploymentSpecificationRoutesRequestPoliciesResponseCacheLookup;
 }
@@ -15948,7 +15948,7 @@ export class ApigatewayDeploymentSpecificationRoutesRequestPoliciesOutputReferen
 }
 export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsFilterHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
 }
@@ -16061,13 +16061,13 @@ export class ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransf
 }
 export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsFilterHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsFilterHeadersItems[] | cdktf.IResolvable;
 }
@@ -16174,11 +16174,11 @@ export class ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransf
 }
 export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#from ApigatewayDeployment#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#to ApigatewayDeployment#to}
   */
   readonly to: string;
 }
@@ -16319,7 +16319,7 @@ export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTr
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeadersItems[] | cdktf.IResolvable;
 }
@@ -16400,15 +16400,15 @@ export class ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransf
 }
 export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsSetHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#if_exists ApigatewayDeployment#if_exists}
   */
   readonly ifExists?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#name ApigatewayDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#values ApigatewayDeployment#values}
   */
   readonly values: string[];
 }
@@ -16578,7 +16578,7 @@ export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTr
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#items ApigatewayDeployment#items}
   */
   readonly items: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsSetHeadersItems[] | cdktf.IResolvable;
 }
@@ -16661,19 +16661,19 @@ export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTr
   /**
   * filter_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
   */
   readonly filterHeaders?: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsFilterHeaders;
   /**
   * rename_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
   */
   readonly renameHeaders?: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeaders;
   /**
   * set_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
   */
   readonly setHeaders?: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsSetHeaders;
 }
@@ -16815,11 +16815,11 @@ export class ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransf
 }
 export interface ApigatewayDeploymentSpecificationRoutesResponsePoliciesResponseCacheStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#time_to_live_in_seconds ApigatewayDeployment#time_to_live_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#time_to_live_in_seconds ApigatewayDeployment#time_to_live_in_seconds}
   */
   readonly timeToLiveInSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#type ApigatewayDeployment#type}
   */
   readonly type: string;
 }
@@ -16928,13 +16928,13 @@ export interface ApigatewayDeploymentSpecificationRoutesResponsePolicies {
   /**
   * header_transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#header_transformations ApigatewayDeployment#header_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#header_transformations ApigatewayDeployment#header_transformations}
   */
   readonly headerTransformations?: ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformations;
   /**
   * response_cache_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_cache_store ApigatewayDeployment#response_cache_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_cache_store ApigatewayDeployment#response_cache_store}
   */
   readonly responseCacheStore?: ApigatewayDeploymentSpecificationRoutesResponsePoliciesResponseCacheStore;
 }
@@ -17047,35 +17047,35 @@ export class ApigatewayDeploymentSpecificationRoutesResponsePoliciesOutputRefere
 }
 export interface ApigatewayDeploymentSpecificationRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#methods ApigatewayDeployment#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#methods ApigatewayDeployment#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#path ApigatewayDeployment#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#path ApigatewayDeployment#path}
   */
   readonly path: string;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#backend ApigatewayDeployment#backend}
   */
   readonly backend: ApigatewayDeploymentSpecificationRoutesBackend;
   /**
   * logging_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
   */
   readonly loggingPolicies?: ApigatewayDeploymentSpecificationRoutesLoggingPolicies;
   /**
   * request_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
   */
   readonly requestPolicies?: ApigatewayDeploymentSpecificationRoutesRequestPolicies;
   /**
   * response_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#response_policies ApigatewayDeployment#response_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#response_policies ApigatewayDeployment#response_policies}
   */
   readonly responsePolicies?: ApigatewayDeploymentSpecificationRoutesResponsePolicies;
 }
@@ -17332,19 +17332,19 @@ export interface ApigatewayDeploymentSpecification {
   /**
   * logging_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#logging_policies ApigatewayDeployment#logging_policies}
   */
   readonly loggingPolicies?: ApigatewayDeploymentSpecificationLoggingPolicies;
   /**
   * request_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#request_policies ApigatewayDeployment#request_policies}
   */
   readonly requestPolicies?: ApigatewayDeploymentSpecificationRequestPolicies;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#routes ApigatewayDeployment#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#routes ApigatewayDeployment#routes}
   */
   readonly routes: ApigatewayDeploymentSpecificationRoutes[] | cdktf.IResolvable;
 }
@@ -17483,15 +17483,15 @@ export class ApigatewayDeploymentSpecificationOutputReference extends cdktf.Comp
 }
 export interface ApigatewayDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#create ApigatewayDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#create ApigatewayDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#delete ApigatewayDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#delete ApigatewayDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#update ApigatewayDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#update ApigatewayDeployment#update}
   */
   readonly update?: string;
 }
@@ -17643,7 +17643,7 @@ export class ApigatewayDeploymentTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment oci_apigateway_deployment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment oci_apigateway_deployment}
 */
 export class ApigatewayDeployment extends cdktf.TerraformResource {
 
@@ -17659,7 +17659,7 @@ export class ApigatewayDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewayDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayDeployment to import
-  * @param importFromId The id of the existing ApigatewayDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17671,7 +17671,7 @@ export class ApigatewayDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_deployment oci_apigateway_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_deployment oci_apigateway_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17682,8 +17682,8 @@ export class ApigatewayDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_deployment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

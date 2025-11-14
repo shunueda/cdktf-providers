@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreVirtualCircuitsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#compartment_id DataOciCoreVirtualCircuits#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#compartment_id DataOciCoreVirtualCircuits#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#display_name DataOciCoreVirtualCircuits#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#display_name DataOciCoreVirtualCircuits#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#id DataOciCoreVirtualCircuits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#id DataOciCoreVirtualCircuits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#state DataOciCoreVirtualCircuits#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#state DataOciCoreVirtualCircuits#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#filter DataOciCoreVirtualCircuits#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#filter DataOciCoreVirtualCircuits#filter}
   */
   readonly filter?: DataOciCoreVirtualCircuitsFilter[] | cdktf.IResolvable;
 }
@@ -530,15 +530,15 @@ export class DataOciCoreVirtualCircuitsVirtualCircuitsList extends cdktf.Complex
 }
 export interface DataOciCoreVirtualCircuitsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#name DataOciCoreVirtualCircuits#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#name DataOciCoreVirtualCircuits#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#regex DataOciCoreVirtualCircuits#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#regex DataOciCoreVirtualCircuits#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#values DataOciCoreVirtualCircuits#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#values DataOciCoreVirtualCircuits#values}
   */
   readonly values: string[];
 }
@@ -706,7 +706,7 @@ export class DataOciCoreVirtualCircuitsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits oci_core_virtual_circuits}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits oci_core_virtual_circuits}
 */
 export class DataOciCoreVirtualCircuits extends cdktf.TerraformDataSource {
 
@@ -722,7 +722,7 @@ export class DataOciCoreVirtualCircuits extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreVirtualCircuits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreVirtualCircuits to import
-  * @param importFromId The id of the existing DataOciCoreVirtualCircuits that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreVirtualCircuits that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreVirtualCircuits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class DataOciCoreVirtualCircuits extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_circuits oci_core_virtual_circuits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_circuits oci_core_virtual_circuits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,8 +745,8 @@ export class DataOciCoreVirtualCircuits extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_virtual_circuits',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

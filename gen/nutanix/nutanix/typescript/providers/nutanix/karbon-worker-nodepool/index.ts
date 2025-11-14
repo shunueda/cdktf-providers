@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface KarbonWorkerNodepoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#cluster_name KarbonWorkerNodepool#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#cluster_name KarbonWorkerNodepool#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#id KarbonWorkerNodepool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#id KarbonWorkerNodepool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#labels KarbonWorkerNodepool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#labels KarbonWorkerNodepool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#name KarbonWorkerNodepool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#name KarbonWorkerNodepool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#node_os_version KarbonWorkerNodepool#node_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#node_os_version KarbonWorkerNodepool#node_os_version}
   */
   readonly nodeOsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#num_instances KarbonWorkerNodepool#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#num_instances KarbonWorkerNodepool#num_instances}
   */
   readonly numInstances: number;
   /**
   * ahv_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#ahv_config KarbonWorkerNodepool#ahv_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#ahv_config KarbonWorkerNodepool#ahv_config}
   */
   readonly ahvConfig?: KarbonWorkerNodepoolAhvConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#timeouts KarbonWorkerNodepool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#timeouts KarbonWorkerNodepool#timeouts}
   */
   readonly timeouts?: KarbonWorkerNodepoolTimeouts;
 }
@@ -129,27 +129,27 @@ export class KarbonWorkerNodepoolNodesList extends cdktf.ComplexList {
 }
 export interface KarbonWorkerNodepoolAhvConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#cpu KarbonWorkerNodepool#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#cpu KarbonWorkerNodepool#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#disk_mib KarbonWorkerNodepool#disk_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#disk_mib KarbonWorkerNodepool#disk_mib}
   */
   readonly diskMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#iscsi_network_uuid KarbonWorkerNodepool#iscsi_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#iscsi_network_uuid KarbonWorkerNodepool#iscsi_network_uuid}
   */
   readonly iscsiNetworkUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#memory_mib KarbonWorkerNodepool#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#memory_mib KarbonWorkerNodepool#memory_mib}
   */
   readonly memoryMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#network_uuid KarbonWorkerNodepool#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#network_uuid KarbonWorkerNodepool#network_uuid}
   */
   readonly networkUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#prism_element_cluster_uuid KarbonWorkerNodepool#prism_element_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#prism_element_cluster_uuid KarbonWorkerNodepool#prism_element_cluster_uuid}
   */
   readonly prismElementClusterUuid?: string;
 }
@@ -375,15 +375,15 @@ export class KarbonWorkerNodepoolAhvConfigOutputReference extends cdktf.ComplexO
 }
 export interface KarbonWorkerNodepoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#create KarbonWorkerNodepool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#create KarbonWorkerNodepool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#delete KarbonWorkerNodepool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#delete KarbonWorkerNodepool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#update KarbonWorkerNodepool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#update KarbonWorkerNodepool#update}
   */
   readonly update?: string;
 }
@@ -535,7 +535,7 @@ export class KarbonWorkerNodepoolTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool nutanix_karbon_worker_nodepool}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool nutanix_karbon_worker_nodepool}
 */
 export class KarbonWorkerNodepool extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class KarbonWorkerNodepool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KarbonWorkerNodepool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KarbonWorkerNodepool to import
-  * @param importFromId The id of the existing KarbonWorkerNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KarbonWorkerNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KarbonWorkerNodepool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class KarbonWorkerNodepool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_worker_nodepool nutanix_karbon_worker_nodepool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_worker_nodepool nutanix_karbon_worker_nodepool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class KarbonWorkerNodepool extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_karbon_worker_nodepool',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

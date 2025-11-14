@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#categories ClusterV2#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#categories ClusterV2#categories}
   */
   readonly categories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#container_name ClusterV2#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#container_name ClusterV2#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#dryrun ClusterV2#dryrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#dryrun ClusterV2#dryrun}
   */
   readonly dryrun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#expand ClusterV2#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#expand ClusterV2#expand}
   */
   readonly expand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ext_id ClusterV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ext_id ClusterV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#id ClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#id ClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#config ClusterV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#config ClusterV2#config}
   */
   readonly config?: ClusterV2ConfigA[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#network ClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#network ClusterV2#network}
   */
   readonly network?: ClusterV2Network[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#nodes ClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#nodes ClusterV2#nodes}
   */
   readonly nodes?: ClusterV2Nodes[] | cdktf.IResolvable;
 }
@@ -314,11 +314,11 @@ export class ClusterV2ConfigClusterSoftwareMapList extends cdktf.ComplexList {
 }
 export interface ClusterV2ConfigAuthorizedPublicKeyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name?: string;
 }
@@ -543,11 +543,11 @@ export class ClusterV2ConfigFaultToleranceStateRedundancyStatusList extends cdkt
 }
 export interface ClusterV2ConfigFaultToleranceState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#desired_cluster_fault_tolerance ClusterV2#desired_cluster_fault_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#desired_cluster_fault_tolerance ClusterV2#desired_cluster_fault_tolerance}
   */
   readonly desiredClusterFaultTolerance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#domain_awareness_level ClusterV2#domain_awareness_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#domain_awareness_level ClusterV2#domain_awareness_level}
   */
   readonly domainAwarenessLevel?: string;
 }
@@ -713,11 +713,11 @@ export class ClusterV2ConfigFaultToleranceStateList extends cdktf.ComplexList {
 }
 export interface ClusterV2ConfigPulseStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#is_enabled ClusterV2#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#is_enabled ClusterV2#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#pii_scrubbing_level ClusterV2#pii_scrubbing_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#pii_scrubbing_level ClusterV2#pii_scrubbing_level}
   */
   readonly piiScrubbingLevel?: string;
 }
@@ -862,41 +862,41 @@ export class ClusterV2ConfigPulseStatusList extends cdktf.ComplexList {
 }
 export interface ClusterV2ConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#cluster_arch ClusterV2#cluster_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#cluster_arch ClusterV2#cluster_arch}
   */
   readonly clusterArch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#cluster_function ClusterV2#cluster_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#cluster_function ClusterV2#cluster_function}
   */
   readonly clusterFunction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#encryption_in_transit_status ClusterV2#encryption_in_transit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#encryption_in_transit_status ClusterV2#encryption_in_transit_status}
   */
   readonly encryptionInTransitStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#operation_mode ClusterV2#operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#operation_mode ClusterV2#operation_mode}
   */
   readonly operationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#redundancy_factor ClusterV2#redundancy_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#redundancy_factor ClusterV2#redundancy_factor}
   */
   readonly redundancyFactor?: number;
   /**
   * authorized_public_key_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#authorized_public_key_list ClusterV2#authorized_public_key_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#authorized_public_key_list ClusterV2#authorized_public_key_list}
   */
   readonly authorizedPublicKeyList?: ClusterV2ConfigAuthorizedPublicKeyListStruct[] | cdktf.IResolvable;
   /**
   * fault_tolerance_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#fault_tolerance_state ClusterV2#fault_tolerance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#fault_tolerance_state ClusterV2#fault_tolerance_state}
   */
   readonly faultToleranceState?: ClusterV2ConfigFaultToleranceState[] | cdktf.IResolvable;
   /**
   * pulse_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#pulse_status ClusterV2#pulse_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#pulse_status ClusterV2#pulse_status}
   */
   readonly pulseStatus?: ClusterV2ConfigPulseStatus[] | cdktf.IResolvable;
 }
@@ -1272,11 +1272,11 @@ export class ClusterV2ConfigAList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkBackplaneNetmask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -1418,11 +1418,11 @@ export class ClusterV2NetworkBackplaneNetmaskList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkBackplaneSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -1564,23 +1564,23 @@ export class ClusterV2NetworkBackplaneSubnetList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkBackplane {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#is_segmentation_enabled ClusterV2#is_segmentation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#is_segmentation_enabled ClusterV2#is_segmentation_enabled}
   */
   readonly isSegmentationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#vlan_tag ClusterV2#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#vlan_tag ClusterV2#vlan_tag}
   */
   readonly vlanTag?: number;
   /**
   * netmask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#netmask ClusterV2#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#netmask ClusterV2#netmask}
   */
   readonly netmask?: ClusterV2NetworkBackplaneNetmask[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#subnet ClusterV2#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#subnet ClusterV2#subnet}
   */
   readonly subnet?: ClusterV2NetworkBackplaneSubnet[] | cdktf.IResolvable;
 }
@@ -1783,11 +1783,11 @@ export class ClusterV2NetworkBackplaneList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkExternalAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -1929,11 +1929,11 @@ export class ClusterV2NetworkExternalAddressIpv4List extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkExternalAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -2077,13 +2077,13 @@ export interface ClusterV2NetworkExternalAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkExternalAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkExternalAddressIpv6[] | cdktf.IResolvable;
 }
@@ -2228,11 +2228,11 @@ export class ClusterV2NetworkExternalAddressList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkExternalDataServicesIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -2374,11 +2374,11 @@ export class ClusterV2NetworkExternalDataServicesIpIpv4List extends cdktf.Comple
 }
 export interface ClusterV2NetworkExternalDataServicesIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -2522,13 +2522,13 @@ export interface ClusterV2NetworkExternalDataServicesIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkExternalDataServicesIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkExternalDataServicesIpIpv6[] | cdktf.IResolvable;
 }
@@ -2673,11 +2673,11 @@ export class ClusterV2NetworkExternalDataServicesIpList extends cdktf.ComplexLis
 }
 export interface ClusterV2NetworkHttpProxyListIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -2819,11 +2819,11 @@ export class ClusterV2NetworkHttpProxyListIpAddressIpv4List extends cdktf.Comple
 }
 export interface ClusterV2NetworkHttpProxyListIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -2967,13 +2967,13 @@ export interface ClusterV2NetworkHttpProxyListIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkHttpProxyListIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkHttpProxyListIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -3118,29 +3118,29 @@ export class ClusterV2NetworkHttpProxyListIpAddressList extends cdktf.ComplexLis
 }
 export interface ClusterV2NetworkHttpProxyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#password ClusterV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#password ClusterV2#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#port ClusterV2#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#port ClusterV2#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#proxy_types ClusterV2#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#proxy_types ClusterV2#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#username ClusterV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#username ClusterV2#username}
   */
   readonly username?: string;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ip_address ClusterV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ip_address ClusterV2#ip_address}
   */
   readonly ipAddress?: ClusterV2NetworkHttpProxyListIpAddress[] | cdktf.IResolvable;
 }
@@ -3398,11 +3398,11 @@ export class ClusterV2NetworkHttpProxyListStructList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkHttpProxyWhiteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#target ClusterV2#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#target ClusterV2#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#target_type ClusterV2#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#target_type ClusterV2#target_type}
   */
   readonly targetType: string;
 }
@@ -3541,11 +3541,11 @@ export class ClusterV2NetworkHttpProxyWhiteListStructList extends cdktf.ComplexL
 }
 export interface ClusterV2NetworkManagementServerIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -3687,11 +3687,11 @@ export class ClusterV2NetworkManagementServerIpIpv4List extends cdktf.ComplexLis
 }
 export interface ClusterV2NetworkManagementServerIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -3835,13 +3835,13 @@ export interface ClusterV2NetworkManagementServerIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkManagementServerIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkManagementServerIpIpv6[] | cdktf.IResolvable;
 }
@@ -3986,25 +3986,25 @@ export class ClusterV2NetworkManagementServerIpList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkManagementServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#is_drs_enabled ClusterV2#is_drs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#is_drs_enabled ClusterV2#is_drs_enabled}
   */
   readonly isDrsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#is_in_use ClusterV2#is_in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#is_in_use ClusterV2#is_in_use}
   */
   readonly isInUse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#is_registered ClusterV2#is_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#is_registered ClusterV2#is_registered}
   */
   readonly isRegistered?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#type ClusterV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#type ClusterV2#type}
   */
   readonly type?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ip ClusterV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ip ClusterV2#ip}
   */
   readonly ip?: ClusterV2NetworkManagementServerIp[] | cdktf.IResolvable;
 }
@@ -4236,11 +4236,11 @@ export class ClusterV2NetworkManagementServerList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkMasqueradingIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -4382,11 +4382,11 @@ export class ClusterV2NetworkMasqueradingIpIpv4List extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkMasqueradingIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -4530,13 +4530,13 @@ export interface ClusterV2NetworkMasqueradingIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkMasqueradingIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkMasqueradingIpIpv6[] | cdktf.IResolvable;
 }
@@ -4681,7 +4681,7 @@ export class ClusterV2NetworkMasqueradingIpList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkNameServerIpListFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value?: string;
 }
@@ -4797,11 +4797,11 @@ export class ClusterV2NetworkNameServerIpListFqdnList extends cdktf.ComplexList 
 }
 export interface ClusterV2NetworkNameServerIpListIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -4943,11 +4943,11 @@ export class ClusterV2NetworkNameServerIpListIpv4List extends cdktf.ComplexList 
 }
 export interface ClusterV2NetworkNameServerIpListIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -5091,19 +5091,19 @@ export interface ClusterV2NetworkNameServerIpListStruct {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: ClusterV2NetworkNameServerIpListFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkNameServerIpListIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkNameServerIpListIpv6[] | cdktf.IResolvable;
 }
@@ -5277,7 +5277,7 @@ export class ClusterV2NetworkNameServerIpListStructList extends cdktf.ComplexLis
 }
 export interface ClusterV2NetworkNtpServerIpListFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value?: string;
 }
@@ -5393,11 +5393,11 @@ export class ClusterV2NetworkNtpServerIpListFqdnList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkNtpServerIpListIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -5539,11 +5539,11 @@ export class ClusterV2NetworkNtpServerIpListIpv4List extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkNtpServerIpListIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -5687,19 +5687,19 @@ export interface ClusterV2NetworkNtpServerIpListStruct {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: ClusterV2NetworkNtpServerIpListFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkNtpServerIpListIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkNtpServerIpListIpv6[] | cdktf.IResolvable;
 }
@@ -5959,11 +5959,11 @@ export class ClusterV2NetworkSmtpServerServerIpAddressFqdnList extends cdktf.Com
 }
 export interface ClusterV2NetworkSmtpServerServerIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -6105,11 +6105,11 @@ export class ClusterV2NetworkSmtpServerServerIpAddressIpv4List extends cdktf.Com
 }
 export interface ClusterV2NetworkSmtpServerServerIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -6253,19 +6253,19 @@ export interface ClusterV2NetworkSmtpServerServerIpAddress {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: ClusterV2NetworkSmtpServerServerIpAddressFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NetworkSmtpServerServerIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NetworkSmtpServerServerIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -6439,21 +6439,21 @@ export class ClusterV2NetworkSmtpServerServerIpAddressList extends cdktf.Complex
 }
 export interface ClusterV2NetworkSmtpServerServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#password ClusterV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#password ClusterV2#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#port ClusterV2#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#port ClusterV2#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#username ClusterV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#username ClusterV2#username}
   */
   readonly username?: string;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ip_address ClusterV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ip_address ClusterV2#ip_address}
   */
   readonly ipAddress?: ClusterV2NetworkSmtpServerServerIpAddress[] | cdktf.IResolvable;
 }
@@ -6656,17 +6656,17 @@ export class ClusterV2NetworkSmtpServerServerList extends cdktf.ComplexList {
 }
 export interface ClusterV2NetworkSmtpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#email_address ClusterV2#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#email_address ClusterV2#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#type ClusterV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#type ClusterV2#type}
   */
   readonly type?: string;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#server ClusterV2#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#server ClusterV2#server}
   */
   readonly server?: ClusterV2NetworkSmtpServerServer[] | cdktf.IResolvable;
 }
@@ -6840,75 +6840,75 @@ export class ClusterV2NetworkSmtpServerList extends cdktf.ComplexList {
 }
 export interface ClusterV2Network {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#key_management_server_type ClusterV2#key_management_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#key_management_server_type ClusterV2#key_management_server_type}
   */
   readonly keyManagementServerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#nfs_subnet_white_list ClusterV2#nfs_subnet_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#nfs_subnet_white_list ClusterV2#nfs_subnet_white_list}
   */
   readonly nfsSubnetWhiteList?: string[];
   /**
   * backplane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#backplane ClusterV2#backplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#backplane ClusterV2#backplane}
   */
   readonly backplane?: ClusterV2NetworkBackplane[] | cdktf.IResolvable;
   /**
   * external_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#external_address ClusterV2#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#external_address ClusterV2#external_address}
   */
   readonly externalAddress?: ClusterV2NetworkExternalAddress[] | cdktf.IResolvable;
   /**
   * external_data_services_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#external_data_services_ip ClusterV2#external_data_services_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#external_data_services_ip ClusterV2#external_data_services_ip}
   */
   readonly externalDataServicesIp?: ClusterV2NetworkExternalDataServicesIp[] | cdktf.IResolvable;
   /**
   * http_proxy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#http_proxy_list ClusterV2#http_proxy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#http_proxy_list ClusterV2#http_proxy_list}
   */
   readonly httpProxyList?: ClusterV2NetworkHttpProxyListStruct[] | cdktf.IResolvable;
   /**
   * http_proxy_white_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#http_proxy_white_list ClusterV2#http_proxy_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#http_proxy_white_list ClusterV2#http_proxy_white_list}
   */
   readonly httpProxyWhiteList?: ClusterV2NetworkHttpProxyWhiteListStruct[] | cdktf.IResolvable;
   /**
   * management_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#management_server ClusterV2#management_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#management_server ClusterV2#management_server}
   */
   readonly managementServer?: ClusterV2NetworkManagementServer[] | cdktf.IResolvable;
   /**
   * masquerading_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#masquerading_ip ClusterV2#masquerading_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#masquerading_ip ClusterV2#masquerading_ip}
   */
   readonly masqueradingIp?: ClusterV2NetworkMasqueradingIp[] | cdktf.IResolvable;
   /**
   * name_server_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#name_server_ip_list ClusterV2#name_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#name_server_ip_list ClusterV2#name_server_ip_list}
   */
   readonly nameServerIpList?: ClusterV2NetworkNameServerIpListStruct[] | cdktf.IResolvable;
   /**
   * ntp_server_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ntp_server_ip_list ClusterV2#ntp_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ntp_server_ip_list ClusterV2#ntp_server_ip_list}
   */
   readonly ntpServerIpList?: ClusterV2NetworkNtpServerIpListStruct[] | cdktf.IResolvable;
   /**
   * smtp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#smtp_server ClusterV2#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#smtp_server ClusterV2#smtp_server}
   */
   readonly smtpServer?: ClusterV2NetworkSmtpServer[] | cdktf.IResolvable;
 }
@@ -7387,11 +7387,11 @@ export class ClusterV2NetworkList extends cdktf.ComplexList {
 }
 export interface ClusterV2NodesNodeListControllerVmIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -7533,11 +7533,11 @@ export class ClusterV2NodesNodeListControllerVmIpIpv4List extends cdktf.ComplexL
 }
 export interface ClusterV2NodesNodeListControllerVmIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -7681,13 +7681,13 @@ export interface ClusterV2NodesNodeListControllerVmIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NodesNodeListControllerVmIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NodesNodeListControllerVmIpIpv6[] | cdktf.IResolvable;
 }
@@ -7832,11 +7832,11 @@ export class ClusterV2NodesNodeListControllerVmIpList extends cdktf.ComplexList 
 }
 export interface ClusterV2NodesNodeListHostIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -7978,11 +7978,11 @@ export class ClusterV2NodesNodeListHostIpIpv4List extends cdktf.ComplexList {
 }
 export interface ClusterV2NodesNodeListHostIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#prefix_length ClusterV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -8126,13 +8126,13 @@ export interface ClusterV2NodesNodeListHostIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv4 ClusterV2#ipv4}
   */
   readonly ipv4?: ClusterV2NodesNodeListHostIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#ipv6 ClusterV2#ipv6}
   */
   readonly ipv6?: ClusterV2NodesNodeListHostIpIpv6[] | cdktf.IResolvable;
 }
@@ -8277,27 +8277,27 @@ export class ClusterV2NodesNodeListHostIpList extends cdktf.ComplexList {
 }
 export interface ClusterV2NodesNodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_add_node ClusterV2#should_skip_add_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_add_node ClusterV2#should_skip_add_node}
   */
   readonly shouldSkipAddNode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_host_networking ClusterV2#should_skip_host_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_host_networking ClusterV2#should_skip_host_networking}
   */
   readonly shouldSkipHostNetworking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_pre_expand_checks ClusterV2#should_skip_pre_expand_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_pre_expand_checks ClusterV2#should_skip_pre_expand_checks}
   */
   readonly shouldSkipPreExpandChecks?: boolean | cdktf.IResolvable;
   /**
   * controller_vm_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#controller_vm_ip ClusterV2#controller_vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#controller_vm_ip ClusterV2#controller_vm_ip}
   */
   readonly controllerVmIp: ClusterV2NodesNodeListControllerVmIp[] | cdktf.IResolvable;
   /**
   * host_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#host_ip ClusterV2#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#host_ip ClusterV2#host_ip}
   */
   readonly hostIp?: ClusterV2NodesNodeListHostIp[] | cdktf.IResolvable;
 }
@@ -8531,15 +8531,15 @@ export class ClusterV2NodesNodeListStructList extends cdktf.ComplexList {
 }
 export interface ClusterV2NodesRemoveNodeParamsExtraParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_add_check ClusterV2#should_skip_add_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_add_check ClusterV2#should_skip_add_check}
   */
   readonly shouldSkipAddCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_upgrade_check ClusterV2#should_skip_upgrade_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_upgrade_check ClusterV2#should_skip_upgrade_check}
   */
   readonly shouldSkipUpgradeCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#skip_space_check ClusterV2#skip_space_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#skip_space_check ClusterV2#skip_space_check}
   */
   readonly skipSpaceCheck?: boolean | cdktf.IResolvable;
 }
@@ -8713,17 +8713,17 @@ export class ClusterV2NodesRemoveNodeParamsExtraParamsList extends cdktf.Complex
 }
 export interface ClusterV2NodesRemoveNodeParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_prechecks ClusterV2#should_skip_prechecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_prechecks ClusterV2#should_skip_prechecks}
   */
   readonly shouldSkipPrechecks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#should_skip_remove ClusterV2#should_skip_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#should_skip_remove ClusterV2#should_skip_remove}
   */
   readonly shouldSkipRemove?: boolean | cdktf.IResolvable;
   /**
   * extra_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#extra_params ClusterV2#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#extra_params ClusterV2#extra_params}
   */
   readonly extraParams?: ClusterV2NodesRemoveNodeParamsExtraParams[] | cdktf.IResolvable;
 }
@@ -8899,13 +8899,13 @@ export interface ClusterV2Nodes {
   /**
   * node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#node_list ClusterV2#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#node_list ClusterV2#node_list}
   */
   readonly nodeList?: ClusterV2NodesNodeListStruct[] | cdktf.IResolvable;
   /**
   * remove_node_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#remove_node_params ClusterV2#remove_node_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#remove_node_params ClusterV2#remove_node_params}
   */
   readonly removeNodeParams?: ClusterV2NodesRemoveNodeParams[] | cdktf.IResolvable;
 }
@@ -9055,7 +9055,7 @@ export class ClusterV2NodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2 nutanix_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2 nutanix_cluster_v2}
 */
 export class ClusterV2 extends cdktf.TerraformResource {
 
@@ -9071,7 +9071,7 @@ export class ClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterV2 to import
-  * @param importFromId The id of the existing ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9083,7 +9083,7 @@ export class ClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/cluster_v2 nutanix_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/cluster_v2 nutanix_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9094,8 +9094,8 @@ export class ClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

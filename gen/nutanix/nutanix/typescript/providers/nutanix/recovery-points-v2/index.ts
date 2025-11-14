@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface RecoveryPointsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#expiration_time RecoveryPointsV2#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#expiration_time RecoveryPointsV2#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#id RecoveryPointsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#id RecoveryPointsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#name RecoveryPointsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#name RecoveryPointsV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#recovery_point_type RecoveryPointsV2#recovery_point_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#recovery_point_type RecoveryPointsV2#recovery_point_type}
   */
   readonly recoveryPointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#status RecoveryPointsV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#status RecoveryPointsV2#status}
   */
   readonly status?: string;
   /**
   * vm_recovery_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#vm_recovery_points RecoveryPointsV2#vm_recovery_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#vm_recovery_points RecoveryPointsV2#vm_recovery_points}
   */
   readonly vmRecoveryPoints?: RecoveryPointsV2VmRecoveryPoints[] | cdktf.IResolvable;
   /**
   * volume_group_recovery_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#volume_group_recovery_points RecoveryPointsV2#volume_group_recovery_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#volume_group_recovery_points RecoveryPointsV2#volume_group_recovery_points}
   */
   readonly volumeGroupRecoveryPoints?: RecoveryPointsV2VolumeGroupRecoveryPoints[] | cdktf.IResolvable;
 }
@@ -280,23 +280,23 @@ export class RecoveryPointsV2VmRecoveryPointsLinksList extends cdktf.ComplexList
 }
 export interface RecoveryPointsV2VmRecoveryPointsApplicationConsistentProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#backup_type RecoveryPointsV2#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#backup_type RecoveryPointsV2#backup_type}
   */
   readonly backupType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#object_type RecoveryPointsV2#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#object_type RecoveryPointsV2#object_type}
   */
   readonly objectType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#should_include_writers RecoveryPointsV2#should_include_writers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#should_include_writers RecoveryPointsV2#should_include_writers}
   */
   readonly shouldIncludeWriters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#should_store_vss_metadata RecoveryPointsV2#should_store_vss_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#should_store_vss_metadata RecoveryPointsV2#should_store_vss_metadata}
   */
   readonly shouldStoreVssMetadata?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#writers RecoveryPointsV2#writers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#writers RecoveryPointsV2#writers}
   */
   readonly writers?: string[];
 }
@@ -613,35 +613,35 @@ export class RecoveryPointsV2VmRecoveryPointsDiskRecoveryPointsList extends cdkt
 }
 export interface RecoveryPointsV2VmRecoveryPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#expiration_time RecoveryPointsV2#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#expiration_time RecoveryPointsV2#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#name RecoveryPointsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#name RecoveryPointsV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#recovery_point_type RecoveryPointsV2#recovery_point_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#recovery_point_type RecoveryPointsV2#recovery_point_type}
   */
   readonly recoveryPointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#status RecoveryPointsV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#status RecoveryPointsV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#vm_ext_id RecoveryPointsV2#vm_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#vm_ext_id RecoveryPointsV2#vm_ext_id}
   */
   readonly vmExtId: string;
   /**
   * application_consistent_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#application_consistent_properties RecoveryPointsV2#application_consistent_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#application_consistent_properties RecoveryPointsV2#application_consistent_properties}
   */
   readonly applicationConsistentProperties?: RecoveryPointsV2VmRecoveryPointsApplicationConsistentProperties[] | cdktf.IResolvable;
   /**
   * disk_recovery_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#disk_recovery_points RecoveryPointsV2#disk_recovery_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#disk_recovery_points RecoveryPointsV2#disk_recovery_points}
   */
   readonly diskRecoveryPoints?: RecoveryPointsV2VmRecoveryPointsDiskRecoveryPoints[] | cdktf.IResolvable;
 }
@@ -1135,13 +1135,13 @@ export class RecoveryPointsV2VolumeGroupRecoveryPointsDiskRecoveryPointsList ext
 }
 export interface RecoveryPointsV2VolumeGroupRecoveryPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#volume_group_ext_id RecoveryPointsV2#volume_group_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#volume_group_ext_id RecoveryPointsV2#volume_group_ext_id}
   */
   readonly volumeGroupExtId: string;
   /**
   * disk_recovery_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#disk_recovery_points RecoveryPointsV2#disk_recovery_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#disk_recovery_points RecoveryPointsV2#disk_recovery_points}
   */
   readonly diskRecoveryPoints?: RecoveryPointsV2VolumeGroupRecoveryPointsDiskRecoveryPoints[] | cdktf.IResolvable;
 }
@@ -1314,7 +1314,7 @@ export class RecoveryPointsV2VolumeGroupRecoveryPointsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2 nutanix_recovery_points_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2 nutanix_recovery_points_v2}
 */
 export class RecoveryPointsV2 extends cdktf.TerraformResource {
 
@@ -1330,7 +1330,7 @@ export class RecoveryPointsV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecoveryPointsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecoveryPointsV2 to import
-  * @param importFromId The id of the existing RecoveryPointsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecoveryPointsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecoveryPointsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1342,7 +1342,7 @@ export class RecoveryPointsV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/recovery_points_v2 nutanix_recovery_points_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/recovery_points_v2 nutanix_recovery_points_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1353,8 +1353,8 @@ export class RecoveryPointsV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_recovery_points_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

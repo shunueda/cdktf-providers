@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#account_moid PartnerintegrationInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#account_moid PartnerintegrationInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -19,29 +19,29 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   * * `Build` - Build the inventory service image.
   * * `Deploy` - Deploy the inventory service on the appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#action PartnerintegrationInventory#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#action PartnerintegrationInventory#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#ancestors PartnerintegrationInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#ancestors PartnerintegrationInventory#ancestors}
   */
   readonly ancestors?: PartnerintegrationInventoryAncestors[] | cdktf.IResolvable;
   /**
   * Addtional flags to control build action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#build_flags PartnerintegrationInventory#build_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#build_flags PartnerintegrationInventory#build_flags}
   */
   readonly buildFlags?: string;
   /**
   * Time when build was triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#build_start_time PartnerintegrationInventory#build_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#build_start_time PartnerintegrationInventory#build_start_time}
   */
   readonly buildStartTime?: string;
   /**
@@ -65,7 +65,7 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   * * `ApidocsFailed` - The apidocs build has failed.
   * * `Completed` - The operation completed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#build_status PartnerintegrationInventory#build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#build_status PartnerintegrationInventory#build_status}
   */
   readonly buildStatus?: string;
   /**
@@ -73,19 +73,19 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#create_time PartnerintegrationInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#create_time PartnerintegrationInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Time when deploy was triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#deploy_start_time PartnerintegrationInventory#deploy_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#deploy_start_time PartnerintegrationInventory#deploy_start_time}
   */
   readonly deployStartTime?: string;
   /**
@@ -94,29 +94,29 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   * * `Completed` - The operation completed successfully.
   * * `Failed` - The deploy operation failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#deploy_status PartnerintegrationInventory#deploy_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#deploy_status PartnerintegrationInventory#deploy_status}
   */
   readonly deployStatus?: string;
   /**
   * An array of relationships to partnerintegrationDocIssues resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#doc_issues PartnerintegrationInventory#doc_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#doc_issues PartnerintegrationInventory#doc_issues}
   */
   readonly docIssues?: PartnerintegrationInventoryDocIssues[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#domain_group_moid PartnerintegrationInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#domain_group_moid PartnerintegrationInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * An array of relationships to partnerintegrationEtl resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#etls PartnerintegrationInventory#etls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#etls PartnerintegrationInventory#etls}
   */
   readonly etls?: PartnerintegrationInventoryEtls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#id PartnerintegrationInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#id PartnerintegrationInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,120 +125,120 @@ export interface PartnerintegrationInventoryConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the docker image that is built.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#image_name PartnerintegrationInventory#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#image_name PartnerintegrationInventory#image_name}
   */
   readonly imageName?: string;
   /**
   * An array of relationships to partnerintegrationLogs resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#logs PartnerintegrationInventory#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#logs PartnerintegrationInventory#logs}
   */
   readonly logs?: PartnerintegrationInventoryLogs[] | cdktf.IResolvable;
   /**
   * A reference to a partnerintegrationMetrics resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#metrics PartnerintegrationInventory#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#metrics PartnerintegrationInventory#metrics}
   */
   readonly metrics?: PartnerintegrationInventoryMetrics[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#mod_time PartnerintegrationInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#mod_time PartnerintegrationInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * An array of relationships to partnerintegrationModel resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#models PartnerintegrationInventory#models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#models PartnerintegrationInventory#models}
   */
   readonly models?: PartnerintegrationInventoryModels[] | cdktf.IResolvable;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventory collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#name PartnerintegrationInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#name PartnerintegrationInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#organization PartnerintegrationInventory#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#organization PartnerintegrationInventory#organization}
   */
   readonly organization?: PartnerintegrationInventoryOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#owners PartnerintegrationInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#owners PartnerintegrationInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#parent PartnerintegrationInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#parent PartnerintegrationInventory#parent}
   */
   readonly parent?: PartnerintegrationInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#permission_resources PartnerintegrationInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#permission_resources PartnerintegrationInventory#permission_resources}
   */
   readonly permissionResources?: PartnerintegrationInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Link to the generated v3 python SDK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#python_sdk_url PartnerintegrationInventory#python_sdk_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#python_sdk_url PartnerintegrationInventory#python_sdk_url}
   */
   readonly pythonSdkUrl?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#shared_scope PartnerintegrationInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#shared_scope PartnerintegrationInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#tags PartnerintegrationInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#tags PartnerintegrationInventory#tags}
   */
   readonly tags?: PartnerintegrationInventoryTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#version_context PartnerintegrationInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#version_context PartnerintegrationInventory#version_context}
   */
   readonly versionContext?: PartnerintegrationInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface PartnerintegrationInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -470,23 +470,23 @@ export class PartnerintegrationInventoryAncestorsList extends cdktf.ComplexList 
 }
 export interface PartnerintegrationInventoryDocIssues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -718,23 +718,23 @@ export class PartnerintegrationInventoryDocIssuesList extends cdktf.ComplexList 
 }
 export interface PartnerintegrationInventoryEtls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -966,23 +966,23 @@ export class PartnerintegrationInventoryEtlsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1214,23 +1214,23 @@ export class PartnerintegrationInventoryLogsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1462,23 +1462,23 @@ export class PartnerintegrationInventoryMetricsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryModels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1710,23 +1710,23 @@ export class PartnerintegrationInventoryModelsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1958,23 +1958,23 @@ export class PartnerintegrationInventoryOrganizationList extends cdktf.ComplexLi
 }
 export interface PartnerintegrationInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2206,23 +2206,23 @@ export class PartnerintegrationInventoryParentList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2454,23 +2454,23 @@ export class PartnerintegrationInventoryPermissionResourcesList extends cdktf.Co
 }
 export interface PartnerintegrationInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2702,23 +2702,23 @@ export class PartnerintegrationInventoryTagsAncestorDefinitionsList extends cdkt
 }
 export interface PartnerintegrationInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2950,31 +2950,35 @@ export class PartnerintegrationInventoryTagsDefinitionList extends cdktf.Complex
 }
 export interface PartnerintegrationInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#ancestor_definitions PartnerintegrationInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#ancestor_definitions PartnerintegrationInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: PartnerintegrationInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#definition PartnerintegrationInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#definition PartnerintegrationInventory#definition}
   */
   readonly definition?: PartnerintegrationInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#key PartnerintegrationInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#key PartnerintegrationInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#propagated PartnerintegrationInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#propagated PartnerintegrationInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#type PartnerintegrationInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#sys_tag PartnerintegrationInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#type PartnerintegrationInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#value PartnerintegrationInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#value PartnerintegrationInventory#value}
   */
   readonly value?: string;
 }
@@ -2990,6 +2994,7 @@ export function partnerintegrationInventoryTagsToTerraform(struct?: Partnerinteg
     definition: cdktf.listMapper(partnerintegrationInventoryTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3028,6 +3033,12 @@ export function partnerintegrationInventoryTagsToHclTerraform(struct?: Partnerin
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3090,6 +3101,10 @@ export class PartnerintegrationInventoryTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3110,6 +3125,7 @@ export class PartnerintegrationInventoryTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3125,6 +3141,7 @@ export class PartnerintegrationInventoryTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3210,6 +3227,22 @@ export class PartnerintegrationInventoryTagsOutputReference extends cdktf.Comple
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3264,23 +3297,23 @@ export class PartnerintegrationInventoryTagsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3512,23 +3545,23 @@ export class PartnerintegrationInventoryVersionContextInterestedMosList extends 
 }
 export interface PartnerintegrationInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#moid PartnerintegrationInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#selector PartnerintegrationInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3760,39 +3793,39 @@ export class PartnerintegrationInventoryVersionContextRefMoList extends cdktf.Co
 }
 export interface PartnerintegrationInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#additional_properties PartnerintegrationInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#class_id PartnerintegrationInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#interested_mos PartnerintegrationInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#interested_mos PartnerintegrationInventory#interested_mos}
   */
   readonly interestedMos?: PartnerintegrationInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#marked_for_deletion PartnerintegrationInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#marked_for_deletion PartnerintegrationInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#nr_version PartnerintegrationInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#nr_version PartnerintegrationInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#object_type PartnerintegrationInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#ref_mo PartnerintegrationInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#ref_mo PartnerintegrationInventory#ref_mo}
   */
   readonly refMo?: PartnerintegrationInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#timestamp PartnerintegrationInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#timestamp PartnerintegrationInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#version_type PartnerintegrationInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#version_type PartnerintegrationInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -4140,7 +4173,7 @@ export class PartnerintegrationInventoryVersionContextList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory intersight_partnerintegration_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory intersight_partnerintegration_inventory}
 */
 export class PartnerintegrationInventory extends cdktf.TerraformResource {
 
@@ -4156,7 +4189,7 @@ export class PartnerintegrationInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PartnerintegrationInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PartnerintegrationInventory to import
-  * @param importFromId The id of the existing PartnerintegrationInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PartnerintegrationInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PartnerintegrationInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4168,7 +4201,7 @@ export class PartnerintegrationInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_inventory intersight_partnerintegration_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_inventory intersight_partnerintegration_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4179,8 +4212,8 @@ export class PartnerintegrationInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_partnerintegration_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

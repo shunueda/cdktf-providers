@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#account_moid DataIntersightStorageNetAppAggregate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#account_moid DataIntersightStorageNetAppAggregate#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -29,7 +29,7 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   * * `LUN (FlexArray)` - LUN (FlexArray) disk type.
   * * `Not Mapped` - Storage disk is not mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#aggregate_type DataIntersightStorageNetAppAggregate#aggregate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#aggregate_type DataIntersightStorageNetAppAggregate#aggregate_type}
   */
   readonly aggregateType?: string;
   /**
@@ -37,33 +37,33 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#cloud_storage DataIntersightStorageNetAppAggregate#cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#cloud_storage DataIntersightStorageNetAppAggregate#cloud_storage}
   */
   readonly cloudStorage?: string[];
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#create_time DataIntersightStorageNetAppAggregate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#create_time DataIntersightStorageNetAppAggregate#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#domain_group_moid DataIntersightStorageNetAppAggregate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#domain_group_moid DataIntersightStorageNetAppAggregate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Data reduction ratio (logical_used / used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#efficiency_ratio DataIntersightStorageNetAppAggregate#efficiency_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#efficiency_ratio DataIntersightStorageNetAppAggregate#efficiency_ratio}
   */
   readonly efficiencyRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#id DataIntersightStorageNetAppAggregate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#id DataIntersightStorageNetAppAggregate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,54 +72,54 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   /**
   * Unique identifier of NetApp Aggregate across data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#key DataIntersightStorageNetAppAggregate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#key DataIntersightStorageNetAppAggregate#key}
   */
   readonly key?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#mod_time DataIntersightStorageNetAppAggregate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#mod_time DataIntersightStorageNetAppAggregate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * Human readable name of the pool, limited to 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#name DataIntersightStorageNetAppAggregate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#name DataIntersightStorageNetAppAggregate#name}
   */
   readonly name?: string;
   /**
   * The node name for the aggregate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#node_name DataIntersightStorageNetAppAggregate#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#node_name DataIntersightStorageNetAppAggregate#node_name}
   */
   readonly nodeName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#owners DataIntersightStorageNetAppAggregate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#owners DataIntersightStorageNetAppAggregate#owners}
   */
   readonly owners?: string[];
   /**
   * Object ID for the pool. Platforms that use a number should convert it to string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#pool_id DataIntersightStorageNetAppAggregate#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#pool_id DataIntersightStorageNetAppAggregate#pool_id}
   */
   readonly poolId?: string;
   /**
   * Size of the RAID group represented by number of disks in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#raid_size DataIntersightStorageNetAppAggregate#raid_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#raid_size DataIntersightStorageNetAppAggregate#raid_size}
   */
   readonly raidSize?: number;
   /**
@@ -134,14 +134,14 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   * * `RAIDDP` - RAIDDP uses up to two spare disks to replace and reconstruct the data from up to two simultaneously failed disks within the RAID group.
   * * `RAIDTEC` - With RAIDTEC protection, use up to three spare disks to replace and reconstruct the data from up to three simultaneously failed disks within the RAID group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#raid_type DataIntersightStorageNetAppAggregate#raid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#raid_type DataIntersightStorageNetAppAggregate#raid_type}
   */
   readonly raidType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#shared_scope DataIntersightStorageNetAppAggregate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#shared_scope DataIntersightStorageNetAppAggregate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -157,7 +157,7 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   * * `Inconsistent` - The aggregate has been marked corrupted; contact technical support.
   * * `Unmounted` - The aggregate is not mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#state DataIntersightStorageNetAppAggregate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#state DataIntersightStorageNetAppAggregate#state}
   */
   readonly state?: string;
   /**
@@ -167,73 +167,73 @@ export interface DataIntersightStorageNetAppAggregateConfig extends cdktf.Terraf
   * * `Critical` - Entity is in a critical state, impacting operations.
   * * `Ok` - Entity status is in a stable state, operating normally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#status DataIntersightStorageNetAppAggregate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#status DataIntersightStorageNetAppAggregate#status}
   */
   readonly status?: string;
   /**
   * Human readable type of the pool, such as thin, tiered, active-flash, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#type DataIntersightStorageNetAppAggregate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#type DataIntersightStorageNetAppAggregate#type}
   */
   readonly type?: string;
   /**
   * Uuid of NetApp Aggregate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#uuid DataIntersightStorageNetAppAggregate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#uuid DataIntersightStorageNetAppAggregate#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#ancestors DataIntersightStorageNetAppAggregate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#ancestors DataIntersightStorageNetAppAggregate#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppAggregateAncestors[] | cdktf.IResolvable;
   /**
   * array_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#array_controller DataIntersightStorageNetAppAggregate#array_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#array_controller DataIntersightStorageNetAppAggregate#array_controller}
   */
   readonly arrayController?: DataIntersightStorageNetAppAggregateArrayController;
   /**
   * avg_performance_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#avg_performance_metrics DataIntersightStorageNetAppAggregate#avg_performance_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#avg_performance_metrics DataIntersightStorageNetAppAggregate#avg_performance_metrics}
   */
   readonly avgPerformanceMetrics?: DataIntersightStorageNetAppAggregateAvgPerformanceMetrics;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#events DataIntersightStorageNetAppAggregate#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#events DataIntersightStorageNetAppAggregate#events}
   */
   readonly events?: DataIntersightStorageNetAppAggregateEvents[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#parent DataIntersightStorageNetAppAggregate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#parent DataIntersightStorageNetAppAggregate#parent}
   */
   readonly parent?: DataIntersightStorageNetAppAggregateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#permission_resources DataIntersightStorageNetAppAggregate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#permission_resources DataIntersightStorageNetAppAggregate#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppAggregatePermissionResources[] | cdktf.IResolvable;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#storage_utilization DataIntersightStorageNetAppAggregate#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#storage_utilization DataIntersightStorageNetAppAggregate#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStorageNetAppAggregateStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#tags DataIntersightStorageNetAppAggregate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#tags DataIntersightStorageNetAppAggregate#tags}
   */
   readonly tags?: DataIntersightStorageNetAppAggregateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#version_context DataIntersightStorageNetAppAggregate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#version_context DataIntersightStorageNetAppAggregate#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppAggregateVersionContext;
 }
@@ -1195,6 +1195,11 @@ export class DataIntersightStorageNetAppAggregateResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1772,7 +1777,7 @@ export class DataIntersightStorageNetAppAggregateResultsList extends cdktf.Compl
 }
 export interface DataIntersightStorageNetAppAggregateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1780,19 +1785,19 @@ export interface DataIntersightStorageNetAppAggregateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1805,7 +1810,7 @@ export interface DataIntersightStorageNetAppAggregateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -2037,7 +2042,7 @@ export class DataIntersightStorageNetAppAggregateAncestorsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppAggregateArrayController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2045,19 +2050,19 @@ export interface DataIntersightStorageNetAppAggregateArrayController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2070,7 +2075,7 @@ export interface DataIntersightStorageNetAppAggregateArrayController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -2270,7 +2275,7 @@ export class DataIntersightStorageNetAppAggregateArrayControllerOutputReference 
 }
 export interface DataIntersightStorageNetAppAggregateAvgPerformanceMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2279,19 +2284,19 @@ export interface DataIntersightStorageNetAppAggregateAvgPerformanceMetrics {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * Rate of I/O operations observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#iops DataIntersightStorageNetAppAggregate#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#iops DataIntersightStorageNetAppAggregate#iops}
   */
   readonly iops?: number;
   /**
   * Latency observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#latency DataIntersightStorageNetAppAggregate#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#latency DataIntersightStorageNetAppAggregate#latency}
   */
   readonly latency?: number;
   /**
@@ -2299,19 +2304,19 @@ export interface DataIntersightStorageNetAppAggregateAvgPerformanceMetrics {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
   * Duration of periodic aggregation, in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#period DataIntersightStorageNetAppAggregate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#period DataIntersightStorageNetAppAggregate#period}
   */
   readonly period?: number;
   /**
   * Throughput observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#throughput DataIntersightStorageNetAppAggregate#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#throughput DataIntersightStorageNetAppAggregate#throughput}
   */
   readonly throughput?: number;
 }
@@ -2569,7 +2574,7 @@ export class DataIntersightStorageNetAppAggregateAvgPerformanceMetricsOutputRefe
 }
 export interface DataIntersightStorageNetAppAggregateEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2577,19 +2582,19 @@ export interface DataIntersightStorageNetAppAggregateEvents {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2602,7 +2607,7 @@ export interface DataIntersightStorageNetAppAggregateEvents {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -2834,7 +2839,7 @@ export class DataIntersightStorageNetAppAggregateEventsList extends cdktf.Comple
 }
 export interface DataIntersightStorageNetAppAggregateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2842,19 +2847,19 @@ export interface DataIntersightStorageNetAppAggregateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2867,7 +2872,7 @@ export interface DataIntersightStorageNetAppAggregateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -3067,7 +3072,7 @@ export class DataIntersightStorageNetAppAggregateParentOutputReference extends c
 }
 export interface DataIntersightStorageNetAppAggregatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3075,19 +3080,19 @@ export interface DataIntersightStorageNetAppAggregatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3100,7 +3105,7 @@ export interface DataIntersightStorageNetAppAggregatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -3332,19 +3337,19 @@ export class DataIntersightStorageNetAppAggregatePermissionResourcesList extends
 }
 export interface DataIntersightStorageNetAppAggregateStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#available DataIntersightStorageNetAppAggregate#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#available DataIntersightStorageNetAppAggregate#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#capacity_utilization DataIntersightStorageNetAppAggregate#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#capacity_utilization DataIntersightStorageNetAppAggregate#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -3353,13 +3358,13 @@ export interface DataIntersightStorageNetAppAggregateStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#free DataIntersightStorageNetAppAggregate#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#free DataIntersightStorageNetAppAggregate#free}
   */
   readonly free?: number;
   /**
@@ -3367,19 +3372,19 @@ export interface DataIntersightStorageNetAppAggregateStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#total DataIntersightStorageNetAppAggregate#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#total DataIntersightStorageNetAppAggregate#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#used DataIntersightStorageNetAppAggregate#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#used DataIntersightStorageNetAppAggregate#used}
   */
   readonly used?: number;
 }
@@ -3666,7 +3671,7 @@ export class DataIntersightStorageNetAppAggregateStorageUtilizationOutputReferen
 }
 export interface DataIntersightStorageNetAppAggregateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3674,19 +3679,19 @@ export interface DataIntersightStorageNetAppAggregateTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3699,7 +3704,7 @@ export interface DataIntersightStorageNetAppAggregateTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -3931,7 +3936,7 @@ export class DataIntersightStorageNetAppAggregateTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightStorageNetAppAggregateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3939,19 +3944,19 @@ export interface DataIntersightStorageNetAppAggregateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3964,7 +3969,7 @@ export interface DataIntersightStorageNetAppAggregateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -4164,45 +4169,51 @@ export class DataIntersightStorageNetAppAggregateTagsDefinitionOutputReference e
 }
 export interface DataIntersightStorageNetAppAggregateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#key DataIntersightStorageNetAppAggregate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#key DataIntersightStorageNetAppAggregate#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#propagated DataIntersightStorageNetAppAggregate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#propagated DataIntersightStorageNetAppAggregate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#sys_tag DataIntersightStorageNetAppAggregate#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#type DataIntersightStorageNetAppAggregate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#type DataIntersightStorageNetAppAggregate#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#value DataIntersightStorageNetAppAggregate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#value DataIntersightStorageNetAppAggregate#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#ancestor_definitions DataIntersightStorageNetAppAggregate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#ancestor_definitions DataIntersightStorageNetAppAggregate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppAggregateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#definition DataIntersightStorageNetAppAggregate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#definition DataIntersightStorageNetAppAggregate#definition}
   */
   readonly definition?: DataIntersightStorageNetAppAggregateTagsDefinition;
 }
@@ -4216,6 +4227,7 @@ export function dataIntersightStorageNetAppAggregateTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppAggregateTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4244,6 +4256,12 @@ export function dataIntersightStorageNetAppAggregateTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4310,6 +4328,10 @@ export class DataIntersightStorageNetAppAggregateTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4336,6 +4358,7 @@ export class DataIntersightStorageNetAppAggregateTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4351,6 +4374,7 @@ export class DataIntersightStorageNetAppAggregateTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4404,6 +4428,22 @@ export class DataIntersightStorageNetAppAggregateTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4492,7 +4532,7 @@ export class DataIntersightStorageNetAppAggregateTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightStorageNetAppAggregateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4500,19 +4540,19 @@ export interface DataIntersightStorageNetAppAggregateVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4525,7 +4565,7 @@ export interface DataIntersightStorageNetAppAggregateVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -4757,7 +4797,7 @@ export class DataIntersightStorageNetAppAggregateVersionContextInterestedMosList
 }
 export interface DataIntersightStorageNetAppAggregateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4765,19 +4805,19 @@ export interface DataIntersightStorageNetAppAggregateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#moid DataIntersightStorageNetAppAggregate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4790,7 +4830,7 @@ export interface DataIntersightStorageNetAppAggregateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#selector DataIntersightStorageNetAppAggregate#selector}
   */
   readonly selector?: string;
 }
@@ -4990,7 +5030,7 @@ export class DataIntersightStorageNetAppAggregateVersionContextRefMoOutputRefere
 }
 export interface DataIntersightStorageNetAppAggregateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#additional_properties DataIntersightStorageNetAppAggregate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4998,32 +5038,32 @@ export interface DataIntersightStorageNetAppAggregateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#class_id DataIntersightStorageNetAppAggregate#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#marked_for_deletion DataIntersightStorageNetAppAggregate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#marked_for_deletion DataIntersightStorageNetAppAggregate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#nr_version DataIntersightStorageNetAppAggregate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#nr_version DataIntersightStorageNetAppAggregate#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#object_type DataIntersightStorageNetAppAggregate#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#timestamp DataIntersightStorageNetAppAggregate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#timestamp DataIntersightStorageNetAppAggregate#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5034,19 +5074,19 @@ export interface DataIntersightStorageNetAppAggregateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#version_type DataIntersightStorageNetAppAggregate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#version_type DataIntersightStorageNetAppAggregate#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#interested_mos DataIntersightStorageNetAppAggregate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#interested_mos DataIntersightStorageNetAppAggregate#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppAggregateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#ref_mo DataIntersightStorageNetAppAggregate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#ref_mo DataIntersightStorageNetAppAggregate#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppAggregateVersionContextRefMo;
 }
@@ -5362,7 +5402,7 @@ export class DataIntersightStorageNetAppAggregateVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate intersight_storage_net_app_aggregate}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate intersight_storage_net_app_aggregate}
 */
 export class DataIntersightStorageNetAppAggregate extends cdktf.TerraformDataSource {
 
@@ -5378,7 +5418,7 @@ export class DataIntersightStorageNetAppAggregate extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightStorageNetAppAggregate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppAggregate to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppAggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppAggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppAggregate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5390,7 +5430,7 @@ export class DataIntersightStorageNetAppAggregate extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_aggregate intersight_storage_net_app_aggregate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_aggregate intersight_storage_net_app_aggregate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5401,8 +5441,8 @@ export class DataIntersightStorageNetAppAggregate extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_storage_net_app_aggregate',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

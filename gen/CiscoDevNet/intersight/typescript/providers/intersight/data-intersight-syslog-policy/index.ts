@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSyslogPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#account_moid DataIntersightSyslogPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#account_moid DataIntersightSyslogPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightSyslogPolicyConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#create_time DataIntersightSyslogPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#create_time DataIntersightSyslogPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#description DataIntersightSyslogPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#description DataIntersightSyslogPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#domain_group_moid DataIntersightSyslogPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#domain_group_moid DataIntersightSyslogPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#id DataIntersightSyslogPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#id DataIntersightSyslogPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface DataIntersightSyslogPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#mod_time DataIntersightSyslogPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#mod_time DataIntersightSyslogPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#name DataIntersightSyslogPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#name DataIntersightSyslogPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#owners DataIntersightSyslogPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#owners DataIntersightSyslogPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#shared_scope DataIntersightSyslogPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#shared_scope DataIntersightSyslogPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#ancestors DataIntersightSyslogPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#ancestors DataIntersightSyslogPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightSyslogPolicyAncestors[] | cdktf.IResolvable;
   /**
   * local_clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#local_clients DataIntersightSyslogPolicy#local_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#local_clients DataIntersightSyslogPolicy#local_clients}
   */
   readonly localClients?: DataIntersightSyslogPolicyLocalClients[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#organization DataIntersightSyslogPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#organization DataIntersightSyslogPolicy#organization}
   */
   readonly organization?: DataIntersightSyslogPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#parent DataIntersightSyslogPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#parent DataIntersightSyslogPolicy#parent}
   */
   readonly parent?: DataIntersightSyslogPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#permission_resources DataIntersightSyslogPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#permission_resources DataIntersightSyslogPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightSyslogPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#profiles DataIntersightSyslogPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#profiles DataIntersightSyslogPolicy#profiles}
   */
   readonly profiles?: DataIntersightSyslogPolicyProfiles[] | cdktf.IResolvable;
   /**
   * remote_clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#remote_clients DataIntersightSyslogPolicy#remote_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#remote_clients DataIntersightSyslogPolicy#remote_clients}
   */
   readonly remoteClients?: DataIntersightSyslogPolicyRemoteClients[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#tags DataIntersightSyslogPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#tags DataIntersightSyslogPolicy#tags}
   */
   readonly tags?: DataIntersightSyslogPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#version_context DataIntersightSyslogPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#version_context DataIntersightSyslogPolicy#version_context}
   */
   readonly versionContext?: DataIntersightSyslogPolicyVersionContext;
 }
@@ -1094,6 +1094,11 @@ export class DataIntersightSyslogPolicyResultsTagsOutputReference extends cdktf.
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1616,7 +1621,7 @@ export class DataIntersightSyslogPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSyslogPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1624,19 +1629,19 @@ export interface DataIntersightSyslogPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1649,7 +1654,7 @@ export interface DataIntersightSyslogPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1881,7 +1886,7 @@ export class DataIntersightSyslogPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSyslogPolicyLocalClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1890,7 +1895,7 @@ export interface DataIntersightSyslogPolicyLocalClients {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -1904,7 +1909,7 @@ export interface DataIntersightSyslogPolicyLocalClients {
   * * `informational` - Use logging level informational for logs classified as informational.
   * * `debug` - Use logging level debug for logs classified as debug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#min_severity DataIntersightSyslogPolicy#min_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#min_severity DataIntersightSyslogPolicy#min_severity}
   */
   readonly minSeverity?: string;
   /**
@@ -1912,7 +1917,7 @@ export interface DataIntersightSyslogPolicyLocalClients {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -2115,7 +2120,7 @@ export class DataIntersightSyslogPolicyLocalClientsList extends cdktf.ComplexLis
 }
 export interface DataIntersightSyslogPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2123,19 +2128,19 @@ export interface DataIntersightSyslogPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2148,7 +2153,7 @@ export interface DataIntersightSyslogPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2348,7 +2353,7 @@ export class DataIntersightSyslogPolicyOrganizationOutputReference extends cdktf
 }
 export interface DataIntersightSyslogPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2356,19 +2361,19 @@ export interface DataIntersightSyslogPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2381,7 +2386,7 @@ export interface DataIntersightSyslogPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2581,7 +2586,7 @@ export class DataIntersightSyslogPolicyParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightSyslogPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2589,19 +2594,19 @@ export interface DataIntersightSyslogPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2614,7 +2619,7 @@ export interface DataIntersightSyslogPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2846,7 +2851,7 @@ export class DataIntersightSyslogPolicyPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightSyslogPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2854,19 +2859,19 @@ export interface DataIntersightSyslogPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2879,7 +2884,7 @@ export interface DataIntersightSyslogPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3111,7 +3116,7 @@ export class DataIntersightSyslogPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightSyslogPolicyRemoteClients {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3120,25 +3125,25 @@ export interface DataIntersightSyslogPolicyRemoteClients {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Enables/disables remote logging for the endpoint If enabled, log messages will be sent to the syslog server mentioned in the Hostname/IP Address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#enabled DataIntersightSyslogPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#enabled DataIntersightSyslogPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * This component represents the process of the system which created the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#facility DataIntersightSyslogPolicy#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#facility DataIntersightSyslogPolicy#facility}
   */
   readonly facility?: string;
   /**
   * Hostname or IP Address of the syslog server where log should be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#hostname DataIntersightSyslogPolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#hostname DataIntersightSyslogPolicy#hostname}
   */
   readonly hostname?: string;
   /**
@@ -3152,7 +3157,7 @@ export interface DataIntersightSyslogPolicyRemoteClients {
   * * `informational` - Use logging level informational for logs classified as informational.
   * * `debug` - Use logging level debug for logs classified as debug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#min_severity DataIntersightSyslogPolicy#min_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#min_severity DataIntersightSyslogPolicy#min_severity}
   */
   readonly minSeverity?: string;
   /**
@@ -3160,13 +3165,13 @@ export interface DataIntersightSyslogPolicyRemoteClients {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Port number used for logging on syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#port DataIntersightSyslogPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#port DataIntersightSyslogPolicy#port}
   */
   readonly port?: number;
   /**
@@ -3174,13 +3179,13 @@ export interface DataIntersightSyslogPolicyRemoteClients {
   * * `udp` - Use User Datagram Protocol (UDP) for syslog remote server connection.
   * * `tcp` - Use Transmission Control Protocol (TCP) for syslog remote server connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#protocol DataIntersightSyslogPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#protocol DataIntersightSyslogPolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * VRF name used by the syslog server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#vrf_name DataIntersightSyslogPolicy#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#vrf_name DataIntersightSyslogPolicy#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -3557,7 +3562,7 @@ export class DataIntersightSyslogPolicyRemoteClientsList extends cdktf.ComplexLi
 }
 export interface DataIntersightSyslogPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3565,19 +3570,19 @@ export interface DataIntersightSyslogPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3590,7 +3595,7 @@ export interface DataIntersightSyslogPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3822,7 +3827,7 @@ export class DataIntersightSyslogPolicyTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightSyslogPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3830,19 +3835,19 @@ export interface DataIntersightSyslogPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3855,7 +3860,7 @@ export interface DataIntersightSyslogPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4055,45 +4060,51 @@ export class DataIntersightSyslogPolicyTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightSyslogPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#key DataIntersightSyslogPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#key DataIntersightSyslogPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#propagated DataIntersightSyslogPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#propagated DataIntersightSyslogPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#sys_tag DataIntersightSyslogPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#type DataIntersightSyslogPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#type DataIntersightSyslogPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#value DataIntersightSyslogPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#value DataIntersightSyslogPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#ancestor_definitions DataIntersightSyslogPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#ancestor_definitions DataIntersightSyslogPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSyslogPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#definition DataIntersightSyslogPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#definition DataIntersightSyslogPolicy#definition}
   */
   readonly definition?: DataIntersightSyslogPolicyTagsDefinition;
 }
@@ -4107,6 +4118,7 @@ export function dataIntersightSyslogPolicyTagsToTerraform(struct?: DataIntersigh
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSyslogPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4135,6 +4147,12 @@ export function dataIntersightSyslogPolicyTagsToHclTerraform(struct?: DataInters
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4201,6 +4219,10 @@ export class DataIntersightSyslogPolicyTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4227,6 +4249,7 @@ export class DataIntersightSyslogPolicyTagsOutputReference extends cdktf.Complex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4242,6 +4265,7 @@ export class DataIntersightSyslogPolicyTagsOutputReference extends cdktf.Complex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4295,6 +4319,22 @@ export class DataIntersightSyslogPolicyTagsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4383,7 +4423,7 @@ export class DataIntersightSyslogPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSyslogPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4391,19 +4431,19 @@ export interface DataIntersightSyslogPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4416,7 +4456,7 @@ export interface DataIntersightSyslogPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4648,7 +4688,7 @@ export class DataIntersightSyslogPolicyVersionContextInterestedMosList extends c
 }
 export interface DataIntersightSyslogPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4656,19 +4696,19 @@ export interface DataIntersightSyslogPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#moid DataIntersightSyslogPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4681,7 +4721,7 @@ export interface DataIntersightSyslogPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#selector DataIntersightSyslogPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4881,7 +4921,7 @@ export class DataIntersightSyslogPolicyVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightSyslogPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#additional_properties DataIntersightSyslogPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4889,32 +4929,32 @@ export interface DataIntersightSyslogPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#class_id DataIntersightSyslogPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#marked_for_deletion DataIntersightSyslogPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#marked_for_deletion DataIntersightSyslogPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#nr_version DataIntersightSyslogPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#nr_version DataIntersightSyslogPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#object_type DataIntersightSyslogPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#timestamp DataIntersightSyslogPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#timestamp DataIntersightSyslogPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4925,19 +4965,19 @@ export interface DataIntersightSyslogPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#version_type DataIntersightSyslogPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#version_type DataIntersightSyslogPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#interested_mos DataIntersightSyslogPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#interested_mos DataIntersightSyslogPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightSyslogPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#ref_mo DataIntersightSyslogPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#ref_mo DataIntersightSyslogPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightSyslogPolicyVersionContextRefMo;
 }
@@ -5253,7 +5293,7 @@ export class DataIntersightSyslogPolicyVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy intersight_syslog_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy intersight_syslog_policy}
 */
 export class DataIntersightSyslogPolicy extends cdktf.TerraformDataSource {
 
@@ -5269,7 +5309,7 @@ export class DataIntersightSyslogPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSyslogPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSyslogPolicy to import
-  * @param importFromId The id of the existing DataIntersightSyslogPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSyslogPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSyslogPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5281,7 +5321,7 @@ export class DataIntersightSyslogPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/syslog_policy intersight_syslog_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/syslog_policy intersight_syslog_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5292,8 +5332,8 @@ export class DataIntersightSyslogPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_syslog_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

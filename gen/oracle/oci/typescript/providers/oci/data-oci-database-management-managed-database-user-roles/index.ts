@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseUserRolesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#id DataOciDatabaseManagementManagedDatabaseUserRoles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#id DataOciDatabaseManagementManagedDatabaseUserRoles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#managed_database_id DataOciDatabaseManagementManagedDatabaseUserRoles#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#managed_database_id DataOciDatabaseManagementManagedDatabaseUserRoles#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#name DataOciDatabaseManagementManagedDatabaseUserRoles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#name DataOciDatabaseManagementManagedDatabaseUserRoles#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserRoles#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserRoles#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#user_name DataOciDatabaseManagementManagedDatabaseUserRoles#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#user_name DataOciDatabaseManagementManagedDatabaseUserRoles#user_name}
   */
   readonly userName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#filter DataOciDatabaseManagementManagedDatabaseUserRoles#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#filter DataOciDatabaseManagementManagedDatabaseUserRoles#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseUserRolesFilter[] | cdktf.IResolvable;
 }
@@ -215,15 +215,15 @@ export class DataOciDatabaseManagementManagedDatabaseUserRolesRoleCollectionList
 }
 export interface DataOciDatabaseManagementManagedDatabaseUserRolesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#name DataOciDatabaseManagementManagedDatabaseUserRoles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#name DataOciDatabaseManagementManagedDatabaseUserRoles#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#regex DataOciDatabaseManagementManagedDatabaseUserRoles#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#regex DataOciDatabaseManagementManagedDatabaseUserRoles#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#values DataOciDatabaseManagementManagedDatabaseUserRoles#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#values DataOciDatabaseManagementManagedDatabaseUserRoles#values}
   */
   readonly values: string[];
 }
@@ -391,7 +391,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserRolesFilterList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles oci_database_management_managed_database_user_roles}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles oci_database_management_managed_database_user_roles}
 */
 export class DataOciDatabaseManagementManagedDatabaseUserRoles extends cdktf.TerraformDataSource {
 
@@ -407,7 +407,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserRoles extends cdktf.Ter
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseUserRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseUserRoles to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseUserRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -419,7 +419,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserRoles extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_roles oci_database_management_managed_database_user_roles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_roles oci_database_management_managed_database_user_roles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -430,8 +430,8 @@ export class DataOciDatabaseManagementManagedDatabaseUserRoles extends cdktf.Ter
       terraformResourceType: 'oci_database_management_managed_database_user_roles',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

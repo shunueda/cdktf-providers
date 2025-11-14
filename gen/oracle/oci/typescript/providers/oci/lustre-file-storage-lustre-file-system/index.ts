@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface LustreFileStorageLustreFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#availability_domain LustreFileStorageLustreFileSystem#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#capacity_in_gbs LustreFileStorageLustreFileSystem#capacity_in_gbs}
   */
   readonly capacityInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#cluster_placement_group_id LustreFileStorageLustreFileSystem#cluster_placement_group_id}
   */
   readonly clusterPlacementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#compartment_id LustreFileStorageLustreFileSystem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#defined_tags LustreFileStorageLustreFileSystem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#display_name LustreFileStorageLustreFileSystem#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#file_system_description LustreFileStorageLustreFileSystem#file_system_description}
   */
   readonly fileSystemDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#file_system_name LustreFileStorageLustreFileSystem#file_system_name}
   */
   readonly fileSystemName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#freeform_tags LustreFileStorageLustreFileSystem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#id LustreFileStorageLustreFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#kms_key_id LustreFileStorageLustreFileSystem#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#nsg_ids LustreFileStorageLustreFileSystem#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#performance_tier LustreFileStorageLustreFileSystem#performance_tier}
   */
   readonly performanceTier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#subnet_id LustreFileStorageLustreFileSystem#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#system_tags LustreFileStorageLustreFileSystem#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * root_squash_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#root_squash_configuration LustreFileStorageLustreFileSystem#root_squash_configuration}
   */
   readonly rootSquashConfiguration: LustreFileStorageLustreFileSystemRootSquashConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#timeouts LustreFileStorageLustreFileSystem#timeouts}
   */
   readonly timeouts?: LustreFileStorageLustreFileSystemTimeouts;
 }
@@ -165,19 +165,19 @@ export class LustreFileStorageLustreFileSystemMaintenanceWindowList extends cdkt
 }
 export interface LustreFileStorageLustreFileSystemRootSquashConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}
   */
   readonly clientExceptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}
   */
   readonly identitySquash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}
   */
   readonly squashGid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}
   */
   readonly squashUid?: string;
 }
@@ -348,15 +348,15 @@ export class LustreFileStorageLustreFileSystemRootSquashConfigurationOutputRefer
 }
 export interface LustreFileStorageLustreFileSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#create LustreFileStorageLustreFileSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#create LustreFileStorageLustreFileSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#delete LustreFileStorageLustreFileSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#delete LustreFileStorageLustreFileSystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#update LustreFileStorageLustreFileSystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#update LustreFileStorageLustreFileSystem#update}
   */
   readonly update?: string;
 }
@@ -508,7 +508,7 @@ export class LustreFileStorageLustreFileSystemTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}
 */
 export class LustreFileStorageLustreFileSystem extends cdktf.TerraformResource {
 
@@ -524,7 +524,7 @@ export class LustreFileStorageLustreFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LustreFileStorageLustreFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import
-  * @param importFromId The id of the existing LustreFileStorageLustreFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LustreFileStorageLustreFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class LustreFileStorageLustreFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class LustreFileStorageLustreFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_lustre_file_storage_lustre_file_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

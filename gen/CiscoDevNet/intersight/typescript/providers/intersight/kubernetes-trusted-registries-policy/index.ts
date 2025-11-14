@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesTrustedRegistriesPolicyConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#account_moid KubernetesTrustedRegistriesPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#account_moid KubernetesTrustedRegistriesPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#ancestors KubernetesTrustedRegistriesPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#ancestors KubernetesTrustedRegistriesPolicy#ancestors}
   */
   readonly ancestors?: KubernetesTrustedRegistriesPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,35 +28,35 @@ export interface KubernetesTrustedRegistriesPolicyConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to kubernetesClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#cluster_profiles KubernetesTrustedRegistriesPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#cluster_profiles KubernetesTrustedRegistriesPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: KubernetesTrustedRegistriesPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#create_time KubernetesTrustedRegistriesPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#create_time KubernetesTrustedRegistriesPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#description KubernetesTrustedRegistriesPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#description KubernetesTrustedRegistriesPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#domain_group_moid KubernetesTrustedRegistriesPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#domain_group_moid KubernetesTrustedRegistriesPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#id KubernetesTrustedRegistriesPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#id KubernetesTrustedRegistriesPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface KubernetesTrustedRegistriesPolicyConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#mod_time KubernetesTrustedRegistriesPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#mod_time KubernetesTrustedRegistriesPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#name KubernetesTrustedRegistriesPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#name KubernetesTrustedRegistriesPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#organization KubernetesTrustedRegistriesPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#organization KubernetesTrustedRegistriesPolicy#organization}
   */
   readonly organization?: KubernetesTrustedRegistriesPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#owners KubernetesTrustedRegistriesPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#owners KubernetesTrustedRegistriesPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#parent KubernetesTrustedRegistriesPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#parent KubernetesTrustedRegistriesPolicy#parent}
   */
   readonly parent?: KubernetesTrustedRegistriesPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#permission_resources KubernetesTrustedRegistriesPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#permission_resources KubernetesTrustedRegistriesPolicy#permission_resources}
   */
   readonly permissionResources?: KubernetesTrustedRegistriesPolicyPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#root_ca_registries KubernetesTrustedRegistriesPolicy#root_ca_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#root_ca_registries KubernetesTrustedRegistriesPolicy#root_ca_registries}
   */
   readonly rootCaRegistries?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#shared_scope KubernetesTrustedRegistriesPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#shared_scope KubernetesTrustedRegistriesPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#tags KubernetesTrustedRegistriesPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#tags KubernetesTrustedRegistriesPolicy#tags}
   */
   readonly tags?: KubernetesTrustedRegistriesPolicyTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#unsigned_registries KubernetesTrustedRegistriesPolicy#unsigned_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#unsigned_registries KubernetesTrustedRegistriesPolicy#unsigned_registries}
   */
   readonly unsignedRegistries?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#version_context KubernetesTrustedRegistriesPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#version_context KubernetesTrustedRegistriesPolicy#version_context}
   */
   readonly versionContext?: KubernetesTrustedRegistriesPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesTrustedRegistriesPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -387,23 +387,23 @@ export class KubernetesTrustedRegistriesPolicyAncestorsList extends cdktf.Comple
 }
 export interface KubernetesTrustedRegistriesPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -635,23 +635,23 @@ export class KubernetesTrustedRegistriesPolicyClusterProfilesList extends cdktf.
 }
 export interface KubernetesTrustedRegistriesPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -883,23 +883,23 @@ export class KubernetesTrustedRegistriesPolicyOrganizationList extends cdktf.Com
 }
 export interface KubernetesTrustedRegistriesPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1131,23 +1131,23 @@ export class KubernetesTrustedRegistriesPolicyParentList extends cdktf.ComplexLi
 }
 export interface KubernetesTrustedRegistriesPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1379,23 +1379,23 @@ export class KubernetesTrustedRegistriesPolicyPermissionResourcesList extends cd
 }
 export interface KubernetesTrustedRegistriesPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1627,23 +1627,23 @@ export class KubernetesTrustedRegistriesPolicyTagsAncestorDefinitionsList extend
 }
 export interface KubernetesTrustedRegistriesPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1875,31 +1875,35 @@ export class KubernetesTrustedRegistriesPolicyTagsDefinitionList extends cdktf.C
 }
 export interface KubernetesTrustedRegistriesPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#ancestor_definitions KubernetesTrustedRegistriesPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#ancestor_definitions KubernetesTrustedRegistriesPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesTrustedRegistriesPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#definition KubernetesTrustedRegistriesPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#definition KubernetesTrustedRegistriesPolicy#definition}
   */
   readonly definition?: KubernetesTrustedRegistriesPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#key KubernetesTrustedRegistriesPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#key KubernetesTrustedRegistriesPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#propagated KubernetesTrustedRegistriesPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#propagated KubernetesTrustedRegistriesPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#type KubernetesTrustedRegistriesPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#sys_tag KubernetesTrustedRegistriesPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#type KubernetesTrustedRegistriesPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#value KubernetesTrustedRegistriesPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#value KubernetesTrustedRegistriesPolicy#value}
   */
   readonly value?: string;
 }
@@ -1915,6 +1919,7 @@ export function kubernetesTrustedRegistriesPolicyTagsToTerraform(struct?: Kubern
     definition: cdktf.listMapper(kubernetesTrustedRegistriesPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1953,6 +1958,12 @@ export function kubernetesTrustedRegistriesPolicyTagsToHclTerraform(struct?: Kub
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2015,6 +2026,10 @@ export class KubernetesTrustedRegistriesPolicyTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2035,6 +2050,7 @@ export class KubernetesTrustedRegistriesPolicyTagsOutputReference extends cdktf.
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2050,6 +2066,7 @@ export class KubernetesTrustedRegistriesPolicyTagsOutputReference extends cdktf.
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2135,6 +2152,22 @@ export class KubernetesTrustedRegistriesPolicyTagsOutputReference extends cdktf.
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2189,23 +2222,23 @@ export class KubernetesTrustedRegistriesPolicyTagsList extends cdktf.ComplexList
 }
 export interface KubernetesTrustedRegistriesPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2437,23 +2470,23 @@ export class KubernetesTrustedRegistriesPolicyVersionContextInterestedMosList ex
 }
 export interface KubernetesTrustedRegistriesPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#moid KubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#selector KubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2685,39 +2718,39 @@ export class KubernetesTrustedRegistriesPolicyVersionContextRefMoList extends cd
 }
 export interface KubernetesTrustedRegistriesPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#additional_properties KubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#class_id KubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#interested_mos KubernetesTrustedRegistriesPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#interested_mos KubernetesTrustedRegistriesPolicy#interested_mos}
   */
   readonly interestedMos?: KubernetesTrustedRegistriesPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#marked_for_deletion KubernetesTrustedRegistriesPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#marked_for_deletion KubernetesTrustedRegistriesPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#nr_version KubernetesTrustedRegistriesPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#nr_version KubernetesTrustedRegistriesPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#object_type KubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#ref_mo KubernetesTrustedRegistriesPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#ref_mo KubernetesTrustedRegistriesPolicy#ref_mo}
   */
   readonly refMo?: KubernetesTrustedRegistriesPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#timestamp KubernetesTrustedRegistriesPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#timestamp KubernetesTrustedRegistriesPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#version_type KubernetesTrustedRegistriesPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#version_type KubernetesTrustedRegistriesPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3065,7 +3098,7 @@ export class KubernetesTrustedRegistriesPolicyVersionContextList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy}
 */
 export class KubernetesTrustedRegistriesPolicy extends cdktf.TerraformResource {
 
@@ -3081,7 +3114,7 @@ export class KubernetesTrustedRegistriesPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesTrustedRegistriesPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesTrustedRegistriesPolicy to import
-  * @param importFromId The id of the existing KubernetesTrustedRegistriesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesTrustedRegistriesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesTrustedRegistriesPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3093,7 +3126,7 @@ export class KubernetesTrustedRegistriesPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3104,8 +3137,8 @@ export class KubernetesTrustedRegistriesPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_trusted_registries_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

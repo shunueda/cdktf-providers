@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreVirtualNetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#compartment_id DataOciCoreVirtualNetworks#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#compartment_id DataOciCoreVirtualNetworks#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#display_name DataOciCoreVirtualNetworks#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#display_name DataOciCoreVirtualNetworks#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#id DataOciCoreVirtualNetworks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#id DataOciCoreVirtualNetworks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#state DataOciCoreVirtualNetworks#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#state DataOciCoreVirtualNetworks#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#filter DataOciCoreVirtualNetworks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#filter DataOciCoreVirtualNetworks#filter}
   */
   readonly filter?: DataOciCoreVirtualNetworksFilter[] | cdktf.IResolvable;
 }
@@ -294,15 +294,15 @@ export class DataOciCoreVirtualNetworksVirtualNetworksList extends cdktf.Complex
 }
 export interface DataOciCoreVirtualNetworksFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#name DataOciCoreVirtualNetworks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#name DataOciCoreVirtualNetworks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#regex DataOciCoreVirtualNetworks#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#regex DataOciCoreVirtualNetworks#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#values DataOciCoreVirtualNetworks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#values DataOciCoreVirtualNetworks#values}
   */
   readonly values: string[];
 }
@@ -470,7 +470,7 @@ export class DataOciCoreVirtualNetworksFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks oci_core_virtual_networks}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks oci_core_virtual_networks}
 */
 export class DataOciCoreVirtualNetworks extends cdktf.TerraformDataSource {
 
@@ -486,7 +486,7 @@ export class DataOciCoreVirtualNetworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreVirtualNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreVirtualNetworks to import
-  * @param importFromId The id of the existing DataOciCoreVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreVirtualNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +498,7 @@ export class DataOciCoreVirtualNetworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_virtual_networks oci_core_virtual_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_virtual_networks oci_core_virtual_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +509,8 @@ export class DataOciCoreVirtualNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_virtual_networks',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#account_moid DataIntersightKubernetesBaremetalNodeProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#account_moid DataIntersightKubernetesBaremetalNodeProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#action DataIntersightKubernetesBaremetalNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#action DataIntersightKubernetesBaremetalNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,7 +28,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -36,33 +36,33 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfig extends cdkt
   * * `noProvider` - Enables the use of no cloud provider.
   * * `external` - Out of tree cloud provider, e.g. CPI for vsphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#cloud_provider DataIntersightKubernetesBaremetalNodeProfile#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#cloud_provider DataIntersightKubernetesBaremetalNodeProfile#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#create_time DataIntersightKubernetesBaremetalNodeProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#create_time DataIntersightKubernetesBaremetalNodeProfile#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#deployed_policies DataIntersightKubernetesBaremetalNodeProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#deployed_policies DataIntersightKubernetesBaremetalNodeProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#description DataIntersightKubernetesBaremetalNodeProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#description DataIntersightKubernetesBaremetalNodeProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#domain_group_moid DataIntersightKubernetesBaremetalNodeProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#domain_group_moid DataIntersightKubernetesBaremetalNodeProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#id DataIntersightKubernetesBaremetalNodeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#id DataIntersightKubernetesBaremetalNodeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,150 +71,150 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfig extends cdkt
   /**
   * Network interface from NetworkInfo (by name) to use for kubernetes VIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#kubernetes_nic DataIntersightKubernetesBaremetalNodeProfile#kubernetes_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#kubernetes_nic DataIntersightKubernetesBaremetalNodeProfile#kubernetes_nic}
   */
   readonly kubernetesNic?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#mod_time DataIntersightKubernetesBaremetalNodeProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#mod_time DataIntersightKubernetesBaremetalNodeProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#owners DataIntersightKubernetesBaremetalNodeProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#owners DataIntersightKubernetesBaremetalNodeProfile#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#removed_policies DataIntersightKubernetesBaremetalNodeProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#removed_policies DataIntersightKubernetesBaremetalNodeProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#shared_scope DataIntersightKubernetesBaremetalNodeProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#shared_scope DataIntersightKubernetesBaremetalNodeProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
   */
   readonly type?: string;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#action_params DataIntersightKubernetesBaremetalNodeProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#action_params DataIntersightKubernetesBaremetalNodeProfile#action_params}
   */
   readonly actionParams?: DataIntersightKubernetesBaremetalNodeProfileActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ancestors DataIntersightKubernetesBaremetalNodeProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ancestors DataIntersightKubernetesBaremetalNodeProfile#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesBaremetalNodeProfileAncestors[] | cdktf.IResolvable;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#config_context DataIntersightKubernetesBaremetalNodeProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#config_context DataIntersightKubernetesBaremetalNodeProfile#config_context}
   */
   readonly configContext?: DataIntersightKubernetesBaremetalNodeProfileConfigContext;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#config_result DataIntersightKubernetesBaremetalNodeProfile#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#config_result DataIntersightKubernetesBaremetalNodeProfile#config_result}
   */
   readonly configResult?: DataIntersightKubernetesBaremetalNodeProfileConfigResult;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#network_info DataIntersightKubernetesBaremetalNodeProfile#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#network_info DataIntersightKubernetesBaremetalNodeProfile#network_info}
   */
   readonly networkInfo?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfo;
   /**
   * node_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#node_group DataIntersightKubernetesBaremetalNodeProfile#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#node_group DataIntersightKubernetesBaremetalNodeProfile#node_group}
   */
   readonly nodeGroup?: DataIntersightKubernetesBaremetalNodeProfileNodeGroup;
   /**
   * nr_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#nr_version DataIntersightKubernetesBaremetalNodeProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#nr_version DataIntersightKubernetesBaremetalNodeProfile#nr_version}
   */
   readonly nrVersion?: DataIntersightKubernetesBaremetalNodeProfileNrVersion;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#parent DataIntersightKubernetesBaremetalNodeProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#parent DataIntersightKubernetesBaremetalNodeProfile#parent}
   */
   readonly parent?: DataIntersightKubernetesBaremetalNodeProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#permission_resources DataIntersightKubernetesBaremetalNodeProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#permission_resources DataIntersightKubernetesBaremetalNodeProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesBaremetalNodeProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#policy_bucket DataIntersightKubernetesBaremetalNodeProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#policy_bucket DataIntersightKubernetesBaremetalNodeProfile#policy_bucket}
   */
   readonly policyBucket?: DataIntersightKubernetesBaremetalNodeProfilePolicyBucket[] | cdktf.IResolvable;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#scheduled_actions DataIntersightKubernetesBaremetalNodeProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#scheduled_actions DataIntersightKubernetesBaremetalNodeProfile#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightKubernetesBaremetalNodeProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#server DataIntersightKubernetesBaremetalNodeProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#server DataIntersightKubernetesBaremetalNodeProfile#server}
   */
   readonly server?: DataIntersightKubernetesBaremetalNodeProfileServer;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#src_template DataIntersightKubernetesBaremetalNodeProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#src_template DataIntersightKubernetesBaremetalNodeProfile#src_template}
   */
   readonly srcTemplate?: DataIntersightKubernetesBaremetalNodeProfileSrcTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#tags DataIntersightKubernetesBaremetalNodeProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#tags DataIntersightKubernetesBaremetalNodeProfile#tags}
   */
   readonly tags?: DataIntersightKubernetesBaremetalNodeProfileTags[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#target DataIntersightKubernetesBaremetalNodeProfile#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#target DataIntersightKubernetesBaremetalNodeProfile#target}
   */
   readonly target?: DataIntersightKubernetesBaremetalNodeProfileTarget;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#version_context DataIntersightKubernetesBaremetalNodeProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#version_context DataIntersightKubernetesBaremetalNodeProfile#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesBaremetalNodeProfileVersionContext;
 }
@@ -2761,6 +2761,11 @@ export class DataIntersightKubernetesBaremetalNodeProfileResultsTagsOutputRefere
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -3450,7 +3455,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileResultsList extends cdk
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3458,26 +3463,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -3709,7 +3714,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileActionParamsList extend
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3717,19 +3722,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3742,7 +3747,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3974,7 +3979,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileAncestorsList extends c
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3982,13 +3987,13 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#config_state DataIntersightKubernetesBaremetalNodeProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#config_state DataIntersightKubernetesBaremetalNodeProfile#config_state}
   */
   readonly configState?: string;
   /**
@@ -4009,42 +4014,42 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#config_state_summary DataIntersightKubernetesBaremetalNodeProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#config_state_summary DataIntersightKubernetesBaremetalNodeProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#config_type DataIntersightKubernetesBaremetalNodeProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#config_type DataIntersightKubernetesBaremetalNodeProfile#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#control_action DataIntersightKubernetesBaremetalNodeProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#control_action DataIntersightKubernetesBaremetalNodeProfile#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#error_state DataIntersightKubernetesBaremetalNodeProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#error_state DataIntersightKubernetesBaremetalNodeProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#inconsistency_reason DataIntersightKubernetesBaremetalNodeProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#inconsistency_reason DataIntersightKubernetesBaremetalNodeProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#oper_state DataIntersightKubernetesBaremetalNodeProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#oper_state DataIntersightKubernetesBaremetalNodeProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -4389,7 +4394,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileConfigContextOutputRefe
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4397,19 +4402,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4422,7 +4427,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4622,7 +4627,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileConfigResultOutputRefer
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV4ConfigsLease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4630,19 +4635,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4655,7 +4660,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4855,7 +4860,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV4Configs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4863,26 +4868,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * IPv4 Address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ip DataIntersightKubernetesBaremetalNodeProfile#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ip DataIntersightKubernetesBaremetalNodeProfile#ip}
   */
   readonly ip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * lease block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#lease DataIntersightKubernetesBaremetalNodeProfile#lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#lease DataIntersightKubernetesBaremetalNodeProfile#lease}
   */
   readonly lease?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV4ConfigsLease;
 }
@@ -5114,7 +5119,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5122,14 +5127,14 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5137,13 +5142,13 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * * `Name` - A network interface name, e.g. eth0, eno9.
   * * `MacAddress` - A network interface Mac Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
   */
   readonly type?: string;
   /**
   * The value to match for the property specified by type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -5343,7 +5348,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsMat
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5351,26 +5356,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The destination subnet, if set to 0.0.0.0/0 then the Route is considered a default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#to DataIntersightKubernetesBaremetalNodeProfile#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#to DataIntersightKubernetesBaremetalNodeProfile#to}
   */
   readonly to?: string;
   /**
   * Via is the gateway for traffic destined for the subnet in the To property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#via DataIntersightKubernetesBaremetalNodeProfile#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#via DataIntersightKubernetesBaremetalNodeProfile#via}
   */
   readonly via?: string;
 }
@@ -5602,11 +5607,11 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsRou
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#addresses DataIntersightKubernetesBaremetalNodeProfile#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#addresses DataIntersightKubernetesBaremetalNodeProfile#addresses}
   */
   readonly addresses?: string[];
   /**
@@ -5614,56 +5619,56 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Deprecated. This will add a default route as long as the first default route in Routes is not different. If is different, Gateway will be replaced with that default route. If there is no default Route and this is set, then Routes will be updated with the first entry as a default with this default gateway. If there is only one default Route and this gateway becomes empty, then the default routes will all be removed. Do not set if using Ip Pools, as the gateway is configured in the pool. This will be removed in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#gateway DataIntersightKubernetesBaremetalNodeProfile#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#gateway DataIntersightKubernetesBaremetalNodeProfile#gateway}
   */
   readonly gateway?: string;
   /**
   * The MTU to assign to this Network Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#mtu DataIntersightKubernetesBaremetalNodeProfile#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#mtu DataIntersightKubernetesBaremetalNodeProfile#mtu}
   */
   readonly mtu?: number;
   /**
   * Name for this network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * If the infrastructure network is selectable, this indicates which network to attach to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#provider_name DataIntersightKubernetesBaremetalNodeProfile#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#provider_name DataIntersightKubernetesBaremetalNodeProfile#provider_name}
   */
   readonly providerName?: string;
   /**
   * ip_v4_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ip_v4_configs DataIntersightKubernetesBaremetalNodeProfile#ip_v4_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ip_v4_configs DataIntersightKubernetesBaremetalNodeProfile#ip_v4_configs}
   */
   readonly ipV4Configs?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsIpV4Configs[] | cdktf.IResolvable;
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#matcher DataIntersightKubernetesBaremetalNodeProfile#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#matcher DataIntersightKubernetesBaremetalNodeProfile#matcher}
   */
   readonly matcher?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsMatcher;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#routes DataIntersightKubernetesBaremetalNodeProfile#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#routes DataIntersightKubernetesBaremetalNodeProfile#routes}
   */
   readonly routes?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsRoutes[] | cdktf.IResolvable;
 }
@@ -6069,7 +6074,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernetsLis
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4ConfigsLease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6077,19 +6082,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6102,7 +6107,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6302,7 +6307,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4Configs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6310,26 +6315,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * IPv4 Address in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ip DataIntersightKubernetesBaremetalNodeProfile#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ip DataIntersightKubernetesBaremetalNodeProfile#ip}
   */
   readonly ip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * lease block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#lease DataIntersightKubernetesBaremetalNodeProfile#lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#lease DataIntersightKubernetesBaremetalNodeProfile#lease}
   */
   readonly lease?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4ConfigsLease;
 }
@@ -6561,7 +6566,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6569,26 +6574,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The destination subnet, if set to 0.0.0.0/0 then the Route is considered a default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#to DataIntersightKubernetesBaremetalNodeProfile#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#to DataIntersightKubernetesBaremetalNodeProfile#to}
   */
   readonly to?: string;
   /**
   * Via is the gateway for traffic destined for the subnet in the To property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#via DataIntersightKubernetesBaremetalNodeProfile#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#via DataIntersightKubernetesBaremetalNodeProfile#via}
   */
   readonly via?: string;
 }
@@ -6820,11 +6825,11 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsRout
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#addresses DataIntersightKubernetesBaremetalNodeProfile#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#addresses DataIntersightKubernetesBaremetalNodeProfile#addresses}
   */
   readonly addresses?: string[];
   /**
@@ -6832,54 +6837,54 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Deprecated. This will add a default route as long as the first default route in Routes is not different. If is different, Gateway will be replaced with that default route. If there is no default Route and this is set, then Routes will be updated with the first entry as a default with this default gateway. If there is only one default Route and this gateway becomes empty, then the default routes will all be removed. Do not set if using Ip Pools, as the gateway is configured in the pool. This will be removed in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#gateway DataIntersightKubernetesBaremetalNodeProfile#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#gateway DataIntersightKubernetesBaremetalNodeProfile#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#interfaces DataIntersightKubernetesBaremetalNodeProfile#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#interfaces DataIntersightKubernetesBaremetalNodeProfile#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * The MTU to assign to this Network Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#mtu DataIntersightKubernetesBaremetalNodeProfile#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#mtu DataIntersightKubernetesBaremetalNodeProfile#mtu}
   */
   readonly mtu?: number;
   /**
   * Name for this network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#name DataIntersightKubernetesBaremetalNodeProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Native VLAN for to use for the bond.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#vlan DataIntersightKubernetesBaremetalNodeProfile#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#vlan DataIntersightKubernetesBaremetalNodeProfile#vlan}
   */
   readonly vlan?: number;
   /**
   * ip_v4_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ip_v4_configs DataIntersightKubernetesBaremetalNodeProfile#ip_v4_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ip_v4_configs DataIntersightKubernetesBaremetalNodeProfile#ip_v4_configs}
   */
   readonly ipV4Configs?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsIpV4Configs[] | cdktf.IResolvable;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#routes DataIntersightKubernetesBaremetalNodeProfile#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#routes DataIntersightKubernetesBaremetalNodeProfile#routes}
   */
   readonly routes?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsRoutes[] | cdktf.IResolvable;
 }
@@ -7285,7 +7290,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbondsList
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7293,26 +7298,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNetworkInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * ethernets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ethernets DataIntersightKubernetesBaremetalNodeProfile#ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ethernets DataIntersightKubernetesBaremetalNodeProfile#ethernets}
   */
   readonly ethernets?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoEthernets[] | cdktf.IResolvable;
   /**
   * ovsbonds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ovsbonds DataIntersightKubernetesBaremetalNodeProfile#ovsbonds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ovsbonds DataIntersightKubernetesBaremetalNodeProfile#ovsbonds}
   */
   readonly ovsbonds?: DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOvsbonds[] | cdktf.IResolvable;
 }
@@ -7512,7 +7517,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNetworkInfoOutputRefere
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNodeGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7520,19 +7525,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNodeGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7545,7 +7550,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNodeGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7745,7 +7750,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNodeGroupOutputReferenc
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileNrVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7753,19 +7758,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNrVersion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7778,7 +7783,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileNrVersion {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7978,7 +7983,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileNrVersionOutputReferenc
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7986,19 +7991,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8011,7 +8016,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8211,7 +8216,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileParentOutputReference e
 }
 export interface DataIntersightKubernetesBaremetalNodeProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8219,19 +8224,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfilePermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8244,7 +8249,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfilePermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8476,7 +8481,7 @@ export class DataIntersightKubernetesBaremetalNodeProfilePermissionResourcesList
 }
 export interface DataIntersightKubernetesBaremetalNodeProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8484,19 +8489,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfilePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8509,7 +8514,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfilePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8741,7 +8746,7 @@ export class DataIntersightKubernetesBaremetalNodeProfilePolicyBucketList extend
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8750,7 +8755,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileScheduledActionsAct
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -8758,7 +8763,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileScheduledActionsAct
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -8902,11 +8907,11 @@ export interface DataIntersightKubernetesBaremetalNodeProfileScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#action DataIntersightKubernetesBaremetalNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#action DataIntersightKubernetesBaremetalNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8914,26 +8919,26 @@ export interface DataIntersightKubernetesBaremetalNodeProfileScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#proceed_on_reboot DataIntersightKubernetesBaremetalNodeProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#proceed_on_reboot DataIntersightKubernetesBaremetalNodeProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#action_qualifier DataIntersightKubernetesBaremetalNodeProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#action_qualifier DataIntersightKubernetesBaremetalNodeProfile#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightKubernetesBaremetalNodeProfileScheduledActionsActionQualifier;
 }
@@ -9194,7 +9199,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileScheduledActionsList ex
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9202,19 +9207,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9227,7 +9232,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9427,7 +9432,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileServerOutputReference e
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9435,19 +9440,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9460,7 +9465,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9660,7 +9665,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileSrcTemplateOutputRefere
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9668,19 +9673,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9693,7 +9698,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9925,7 +9930,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinitions
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9933,19 +9938,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9958,7 +9963,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10158,45 +10163,51 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsDefinitionOutputRef
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#key DataIntersightKubernetesBaremetalNodeProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#key DataIntersightKubernetesBaremetalNodeProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#propagated DataIntersightKubernetesBaremetalNodeProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#propagated DataIntersightKubernetesBaremetalNodeProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#sys_tag DataIntersightKubernetesBaremetalNodeProfile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#type DataIntersightKubernetesBaremetalNodeProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#value DataIntersightKubernetesBaremetalNodeProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ancestor_definitions DataIntersightKubernetesBaremetalNodeProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ancestor_definitions DataIntersightKubernetesBaremetalNodeProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#definition DataIntersightKubernetesBaremetalNodeProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#definition DataIntersightKubernetesBaremetalNodeProfile#definition}
   */
   readonly definition?: DataIntersightKubernetesBaremetalNodeProfileTagsDefinition;
 }
@@ -10210,6 +10221,7 @@ export function dataIntersightKubernetesBaremetalNodeProfileTagsToTerraform(stru
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightKubernetesBaremetalNodeProfileTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -10238,6 +10250,12 @@ export function dataIntersightKubernetesBaremetalNodeProfileTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -10304,6 +10322,10 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -10330,6 +10352,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsOutputReference ext
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -10345,6 +10368,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsOutputReference ext
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -10398,6 +10422,22 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -10486,7 +10526,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileTagsList extends cdktf.
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10494,19 +10534,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTarget {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10519,7 +10559,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileTarget {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10719,7 +10759,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileTargetOutputReference e
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10727,19 +10767,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10752,7 +10792,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10984,7 +11024,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileVersionContextIntereste
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10992,19 +11032,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#moid DataIntersightKubernetesBaremetalNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11017,7 +11057,7 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#selector DataIntersightKubernetesBaremetalNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11217,7 +11257,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileVersionContextRefMoOutp
 }
 export interface DataIntersightKubernetesBaremetalNodeProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#additional_properties DataIntersightKubernetesBaremetalNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11225,32 +11265,32 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#class_id DataIntersightKubernetesBaremetalNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#marked_for_deletion DataIntersightKubernetesBaremetalNodeProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#marked_for_deletion DataIntersightKubernetesBaremetalNodeProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#nr_version DataIntersightKubernetesBaremetalNodeProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#nr_version DataIntersightKubernetesBaremetalNodeProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#object_type DataIntersightKubernetesBaremetalNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#timestamp DataIntersightKubernetesBaremetalNodeProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#timestamp DataIntersightKubernetesBaremetalNodeProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -11261,19 +11301,19 @@ export interface DataIntersightKubernetesBaremetalNodeProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#version_type DataIntersightKubernetesBaremetalNodeProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#version_type DataIntersightKubernetesBaremetalNodeProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#interested_mos DataIntersightKubernetesBaremetalNodeProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#interested_mos DataIntersightKubernetesBaremetalNodeProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesBaremetalNodeProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#ref_mo DataIntersightKubernetesBaremetalNodeProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#ref_mo DataIntersightKubernetesBaremetalNodeProfile#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesBaremetalNodeProfileVersionContextRefMo;
 }
@@ -11589,7 +11629,7 @@ export class DataIntersightKubernetesBaremetalNodeProfileVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile intersight_kubernetes_baremetal_node_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile intersight_kubernetes_baremetal_node_profile}
 */
 export class DataIntersightKubernetesBaremetalNodeProfile extends cdktf.TerraformDataSource {
 
@@ -11605,7 +11645,7 @@ export class DataIntersightKubernetesBaremetalNodeProfile extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightKubernetesBaremetalNodeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesBaremetalNodeProfile to import
-  * @param importFromId The id of the existing DataIntersightKubernetesBaremetalNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesBaremetalNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesBaremetalNodeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11617,7 +11657,7 @@ export class DataIntersightKubernetesBaremetalNodeProfile extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_baremetal_node_profile intersight_kubernetes_baremetal_node_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_baremetal_node_profile intersight_kubernetes_baremetal_node_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11628,8 +11668,8 @@ export class DataIntersightKubernetesBaremetalNodeProfile extends cdktf.Terrafor
       terraformResourceType: 'intersight_kubernetes_baremetal_node_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

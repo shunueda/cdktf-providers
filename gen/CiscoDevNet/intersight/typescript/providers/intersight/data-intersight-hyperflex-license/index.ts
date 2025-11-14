@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexLicenseConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#account_moid DataIntersightHyperflexLicense#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#account_moid DataIntersightHyperflexLicense#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightHyperflexLicenseConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * Is the cluster complaint with the license entitlements?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#compliance_state DataIntersightHyperflexLicense#compliance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#compliance_state DataIntersightHyperflexLicense#compliance_state}
   */
   readonly complianceState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#create_time DataIntersightHyperflexLicense#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#create_time DataIntersightHyperflexLicense#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#domain_group_moid DataIntersightHyperflexLicense#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#domain_group_moid DataIntersightHyperflexLicense#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Out of compliance date of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#get_out_of_compliance_start_at DataIntersightHyperflexLicense#get_out_of_compliance_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#get_out_of_compliance_start_at DataIntersightHyperflexLicense#get_out_of_compliance_start_at}
   */
   readonly fetchOutOfComplianceStartAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#id DataIntersightHyperflexLicense#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#id DataIntersightHyperflexLicense#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,109 @@ export interface DataIntersightHyperflexLicenseConfig extends cdktf.TerraformMet
   /**
   * Is the cluster in evalution period?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#in_evaluation DataIntersightHyperflexLicense#in_evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#in_evaluation DataIntersightHyperflexLicense#in_evaluation}
   */
   readonly inEvaluation?: boolean | cdktf.IResolvable;
   /**
   * The type of license applied on the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#license_type DataIntersightHyperflexLicense#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#license_type DataIntersightHyperflexLicense#license_type}
   */
   readonly licenseType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#mod_time DataIntersightHyperflexLicense#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#mod_time DataIntersightHyperflexLicense#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#owners DataIntersightHyperflexLicense#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#owners DataIntersightHyperflexLicense#owners}
   */
   readonly owners?: string[];
   /**
   * Is reservation enabled for the cluster?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#plr_enabled DataIntersightHyperflexLicense#plr_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#plr_enabled DataIntersightHyperflexLicense#plr_enabled}
   */
   readonly plrEnabled?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#shared_scope DataIntersightHyperflexLicense#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#shared_scope DataIntersightHyperflexLicense#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Is Smart Licensing Enabled for this cluster?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#smart_licensing_enabled DataIntersightHyperflexLicense#smart_licensing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#smart_licensing_enabled DataIntersightHyperflexLicense#smart_licensing_enabled}
   */
   readonly smartLicensingEnabled?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#ancestors DataIntersightHyperflexLicense#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#ancestors DataIntersightHyperflexLicense#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexLicenseAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#cluster DataIntersightHyperflexLicense#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#cluster DataIntersightHyperflexLicense#cluster}
   */
   readonly cluster?: DataIntersightHyperflexLicenseCluster;
   /**
   * license_authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#license_authorization DataIntersightHyperflexLicense#license_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#license_authorization DataIntersightHyperflexLicense#license_authorization}
   */
   readonly licenseAuthorization?: DataIntersightHyperflexLicenseLicenseAuthorization;
   /**
   * license_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#license_registration DataIntersightHyperflexLicense#license_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#license_registration DataIntersightHyperflexLicense#license_registration}
   */
   readonly licenseRegistration?: DataIntersightHyperflexLicenseLicenseRegistration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#parent DataIntersightHyperflexLicense#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#parent DataIntersightHyperflexLicense#parent}
   */
   readonly parent?: DataIntersightHyperflexLicenseParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#permission_resources DataIntersightHyperflexLicense#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#permission_resources DataIntersightHyperflexLicense#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexLicensePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#registered_device DataIntersightHyperflexLicense#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#registered_device DataIntersightHyperflexLicense#registered_device}
   */
   readonly registeredDevice?: DataIntersightHyperflexLicenseRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#tags DataIntersightHyperflexLicense#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#tags DataIntersightHyperflexLicense#tags}
   */
   readonly tags?: DataIntersightHyperflexLicenseTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#version_context DataIntersightHyperflexLicense#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#version_context DataIntersightHyperflexLicense#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexLicenseVersionContext;
 }
@@ -1153,6 +1153,11 @@ export class DataIntersightHyperflexLicenseResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1695,7 +1700,7 @@ export class DataIntersightHyperflexLicenseResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightHyperflexLicenseAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1703,19 +1708,19 @@ export interface DataIntersightHyperflexLicenseAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1728,7 +1733,7 @@ export interface DataIntersightHyperflexLicenseAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -1960,7 +1965,7 @@ export class DataIntersightHyperflexLicenseAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHyperflexLicenseCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1968,19 +1973,19 @@ export interface DataIntersightHyperflexLicenseCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1993,7 +1998,7 @@ export interface DataIntersightHyperflexLicenseCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -2193,7 +2198,7 @@ export class DataIntersightHyperflexLicenseClusterOutputReference extends cdktf.
 }
 export interface DataIntersightHyperflexLicenseLicenseAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2201,50 +2206,50 @@ export interface DataIntersightHyperflexLicenseLicenseAuthorization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * Deadline date for next communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#communication_deadline_date DataIntersightHyperflexLicense#communication_deadline_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#communication_deadline_date DataIntersightHyperflexLicense#communication_deadline_date}
   */
   readonly communicationDeadlineDate?: string;
   /**
   * Evaluation period expired date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#evaluation_period_expired_at DataIntersightHyperflexLicense#evaluation_period_expired_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#evaluation_period_expired_at DataIntersightHyperflexLicense#evaluation_period_expired_at}
   */
   readonly evaluationPeriodExpiredAt?: string;
   /**
   * Remaining evaluation period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#evaluation_period_remaining DataIntersightHyperflexLicense#evaluation_period_remaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#evaluation_period_remaining DataIntersightHyperflexLicense#evaluation_period_remaining}
   */
   readonly evaluationPeriodRemaining?: string;
   /**
   * Last Communication Attempt Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#last_communication_attempt_date DataIntersightHyperflexLicense#last_communication_attempt_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#last_communication_attempt_date DataIntersightHyperflexLicense#last_communication_attempt_date}
   */
   readonly lastCommunicationAttemptDate?: string;
   /**
   * Timestamp of Next Communication Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#next_communication_attempt_date DataIntersightHyperflexLicense#next_communication_attempt_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#next_communication_attempt_date DataIntersightHyperflexLicense#next_communication_attempt_date}
   */
   readonly nextCommunicationAttemptDate?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
   * License Authorization Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#status DataIntersightHyperflexLicense#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#status DataIntersightHyperflexLicense#status}
   */
   readonly status?: string;
 }
@@ -2560,7 +2565,7 @@ export class DataIntersightHyperflexLicenseLicenseAuthorizationOutputReference e
 }
 export interface DataIntersightHyperflexLicenseLicenseRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2568,68 +2573,68 @@ export interface DataIntersightHyperflexLicenseLicenseRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * Initial Registration Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#initial_registration_date DataIntersightHyperflexLicense#initial_registration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#initial_registration_date DataIntersightHyperflexLicense#initial_registration_date}
   */
   readonly initialRegistrationDate?: string;
   /**
   * Last License Renewal attempted Date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#last_renewal_attempt_date DataIntersightHyperflexLicense#last_renewal_attempt_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#last_renewal_attempt_date DataIntersightHyperflexLicense#last_renewal_attempt_date}
   */
   readonly lastRenewalAttemptDate?: string;
   /**
   * Next Attempt Date for License Renewal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#next_renewal_attempt_date DataIntersightHyperflexLicense#next_renewal_attempt_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#next_renewal_attempt_date DataIntersightHyperflexLicense#next_renewal_attempt_date}
   */
   readonly nextRenewalAttemptDate?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
   * Out of compliance start date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#out_of_compliance_start_date DataIntersightHyperflexLicense#out_of_compliance_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#out_of_compliance_start_date DataIntersightHyperflexLicense#out_of_compliance_start_date}
   */
   readonly outOfComplianceStartDate?: string;
   /**
   * Date when the registration will expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#registration_expire_date DataIntersightHyperflexLicense#registration_expire_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#registration_expire_date DataIntersightHyperflexLicense#registration_expire_date}
   */
   readonly registrationExpireDate?: string;
   /**
   * License registration success or failure reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#registration_failed_reason DataIntersightHyperflexLicense#registration_failed_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#registration_failed_reason DataIntersightHyperflexLicense#registration_failed_reason}
   */
   readonly registrationFailedReason?: string;
   /**
   * Smart Account mapped to cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#smart_account DataIntersightHyperflexLicense#smart_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#smart_account DataIntersightHyperflexLicense#smart_account}
   */
   readonly smartAccount?: string;
   /**
   * Registration Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#status DataIntersightHyperflexLicense#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#status DataIntersightHyperflexLicense#status}
   */
   readonly status?: string;
   /**
   * Virtual Account mapped to cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#virtual_account DataIntersightHyperflexLicense#virtual_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#virtual_account DataIntersightHyperflexLicense#virtual_account}
   */
   readonly virtualAccount?: string;
 }
@@ -3032,7 +3037,7 @@ export class DataIntersightHyperflexLicenseLicenseRegistrationOutputReference ex
 }
 export interface DataIntersightHyperflexLicenseParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3040,19 +3045,19 @@ export interface DataIntersightHyperflexLicenseParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3065,7 +3070,7 @@ export interface DataIntersightHyperflexLicenseParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -3265,7 +3270,7 @@ export class DataIntersightHyperflexLicenseParentOutputReference extends cdktf.C
 }
 export interface DataIntersightHyperflexLicensePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3273,19 +3278,19 @@ export interface DataIntersightHyperflexLicensePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3298,7 +3303,7 @@ export interface DataIntersightHyperflexLicensePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -3530,7 +3535,7 @@ export class DataIntersightHyperflexLicensePermissionResourcesList extends cdktf
 }
 export interface DataIntersightHyperflexLicenseRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3538,19 +3543,19 @@ export interface DataIntersightHyperflexLicenseRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3563,7 +3568,7 @@ export interface DataIntersightHyperflexLicenseRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -3763,7 +3768,7 @@ export class DataIntersightHyperflexLicenseRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightHyperflexLicenseTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3771,19 +3776,19 @@ export interface DataIntersightHyperflexLicenseTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3796,7 +3801,7 @@ export interface DataIntersightHyperflexLicenseTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -4028,7 +4033,7 @@ export class DataIntersightHyperflexLicenseTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightHyperflexLicenseTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4036,19 +4041,19 @@ export interface DataIntersightHyperflexLicenseTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4061,7 +4066,7 @@ export interface DataIntersightHyperflexLicenseTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -4261,45 +4266,51 @@ export class DataIntersightHyperflexLicenseTagsDefinitionOutputReference extends
 }
 export interface DataIntersightHyperflexLicenseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#key DataIntersightHyperflexLicense#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#key DataIntersightHyperflexLicense#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#propagated DataIntersightHyperflexLicense#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#propagated DataIntersightHyperflexLicense#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#sys_tag DataIntersightHyperflexLicense#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#type DataIntersightHyperflexLicense#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#type DataIntersightHyperflexLicense#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#value DataIntersightHyperflexLicense#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#value DataIntersightHyperflexLicense#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#ancestor_definitions DataIntersightHyperflexLicense#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#ancestor_definitions DataIntersightHyperflexLicense#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexLicenseTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#definition DataIntersightHyperflexLicense#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#definition DataIntersightHyperflexLicense#definition}
   */
   readonly definition?: DataIntersightHyperflexLicenseTagsDefinition;
 }
@@ -4313,6 +4324,7 @@ export function dataIntersightHyperflexLicenseTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexLicenseTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4341,6 +4353,12 @@ export function dataIntersightHyperflexLicenseTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4407,6 +4425,10 @@ export class DataIntersightHyperflexLicenseTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4433,6 +4455,7 @@ export class DataIntersightHyperflexLicenseTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4448,6 +4471,7 @@ export class DataIntersightHyperflexLicenseTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4501,6 +4525,22 @@ export class DataIntersightHyperflexLicenseTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4589,7 +4629,7 @@ export class DataIntersightHyperflexLicenseTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexLicenseVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4597,19 +4637,19 @@ export interface DataIntersightHyperflexLicenseVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4622,7 +4662,7 @@ export interface DataIntersightHyperflexLicenseVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -4854,7 +4894,7 @@ export class DataIntersightHyperflexLicenseVersionContextInterestedMosList exten
 }
 export interface DataIntersightHyperflexLicenseVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4862,19 +4902,19 @@ export interface DataIntersightHyperflexLicenseVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#moid DataIntersightHyperflexLicense#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4887,7 +4927,7 @@ export interface DataIntersightHyperflexLicenseVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#selector DataIntersightHyperflexLicense#selector}
   */
   readonly selector?: string;
 }
@@ -5087,7 +5127,7 @@ export class DataIntersightHyperflexLicenseVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightHyperflexLicenseVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#additional_properties DataIntersightHyperflexLicense#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5095,32 +5135,32 @@ export interface DataIntersightHyperflexLicenseVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#class_id DataIntersightHyperflexLicense#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#marked_for_deletion DataIntersightHyperflexLicense#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#marked_for_deletion DataIntersightHyperflexLicense#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#nr_version DataIntersightHyperflexLicense#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#nr_version DataIntersightHyperflexLicense#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#object_type DataIntersightHyperflexLicense#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#timestamp DataIntersightHyperflexLicense#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#timestamp DataIntersightHyperflexLicense#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5131,19 +5171,19 @@ export interface DataIntersightHyperflexLicenseVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#version_type DataIntersightHyperflexLicense#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#version_type DataIntersightHyperflexLicense#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#interested_mos DataIntersightHyperflexLicense#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#interested_mos DataIntersightHyperflexLicense#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexLicenseVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#ref_mo DataIntersightHyperflexLicense#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#ref_mo DataIntersightHyperflexLicense#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexLicenseVersionContextRefMo;
 }
@@ -5459,7 +5499,7 @@ export class DataIntersightHyperflexLicenseVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license intersight_hyperflex_license}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license intersight_hyperflex_license}
 */
 export class DataIntersightHyperflexLicense extends cdktf.TerraformDataSource {
 
@@ -5475,7 +5515,7 @@ export class DataIntersightHyperflexLicense extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHyperflexLicense resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexLicense to import
-  * @param importFromId The id of the existing DataIntersightHyperflexLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexLicense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5487,7 +5527,7 @@ export class DataIntersightHyperflexLicense extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_license intersight_hyperflex_license} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_license intersight_hyperflex_license} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5498,8 +5538,8 @@ export class DataIntersightHyperflexLicense extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hyperflex_license',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

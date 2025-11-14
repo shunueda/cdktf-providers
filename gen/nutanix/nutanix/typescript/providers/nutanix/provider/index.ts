@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,86 +13,86 @@ export interface NutanixProviderConfig {
   * individual CVM address, as this would cause calls to fail during
   * cluster lifecycle management operations, such as AOS upgrades.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#endpoint NutanixProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#endpoint NutanixProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * endpoint for foundation VM (eg. Foundation VM IP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#foundation_endpoint NutanixProvider#foundation_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#foundation_endpoint NutanixProvider#foundation_endpoint}
   */
   readonly foundationEndpoint?: string;
   /**
   * Port for foundation VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#foundation_port NutanixProvider#foundation_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#foundation_port NutanixProvider#foundation_port}
   */
   readonly foundationPort?: string;
   /**
   * Explicitly allow the provider to perform "insecure" SSL requests. If omitted,default value is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#insecure NutanixProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#insecure NutanixProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * endpoint for Era VM (era ip)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#ndb_endpoint NutanixProvider#ndb_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#ndb_endpoint NutanixProvider#ndb_endpoint}
   */
   readonly ndbEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#ndb_password NutanixProvider#ndb_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#ndb_password NutanixProvider#ndb_password}
   */
   readonly ndbPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#ndb_username NutanixProvider#ndb_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#ndb_username NutanixProvider#ndb_username}
   */
   readonly ndbUsername?: string;
   /**
   * Password for provided user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#password NutanixProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#password NutanixProvider#password}
   */
   readonly password?: string;
   /**
   * Port for Nutanix Prism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#port NutanixProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#port NutanixProvider#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#proxy_url NutanixProvider#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#proxy_url NutanixProvider#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Use session authentification instead of basic auth for each request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#session_auth NutanixProvider#session_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#session_auth NutanixProvider#session_auth}
   */
   readonly sessionAuth?: boolean | cdktf.IResolvable;
   /**
   * User name for Nutanix Prism. Could be
   * local cluster auth (e.g. 'admin') or directory auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#username NutanixProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#username NutanixProvider#username}
   */
   readonly username?: string;
   /**
   * Set if you know that the creation o update of a resource may take long time (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#wait_timeout NutanixProvider#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#wait_timeout NutanixProvider#wait_timeout}
   */
   readonly waitTimeout?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#alias NutanixProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#alias NutanixProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs nutanix}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs nutanix}
 */
 export class NutanixProvider extends cdktf.TerraformProvider {
 
@@ -108,7 +108,7 @@ export class NutanixProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NutanixProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NutanixProvider to import
-  * @param importFromId The id of the existing NutanixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NutanixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NutanixProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class NutanixProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs nutanix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs nutanix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,8 +131,8 @@ export class NutanixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nutanix',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       terraformProviderSource: 'nutanix/nutanix'
     });

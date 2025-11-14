@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeTargetDatabaseGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#access_level DataOciDataSafeTargetDatabaseGroups#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#access_level DataOciDataSafeTargetDatabaseGroups#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#compartment_id DataOciDataSafeTargetDatabaseGroups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#compartment_id DataOciDataSafeTargetDatabaseGroups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#compartment_id_in_subtree DataOciDataSafeTargetDatabaseGroups#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#compartment_id_in_subtree DataOciDataSafeTargetDatabaseGroups#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#display_name DataOciDataSafeTargetDatabaseGroups#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#display_name DataOciDataSafeTargetDatabaseGroups#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#id DataOciDataSafeTargetDatabaseGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#id DataOciDataSafeTargetDatabaseGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#state DataOciDataSafeTargetDatabaseGroups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#state DataOciDataSafeTargetDatabaseGroups#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#target_database_group_filter DataOciDataSafeTargetDatabaseGroups#target_database_group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#target_database_group_filter DataOciDataSafeTargetDatabaseGroups#target_database_group_filter}
   */
   readonly targetDatabaseGroupFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#target_database_group_id DataOciDataSafeTargetDatabaseGroups#target_database_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#target_database_group_id DataOciDataSafeTargetDatabaseGroups#target_database_group_id}
   */
   readonly targetDatabaseGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#time_created_greater_than_or_equal_to DataOciDataSafeTargetDatabaseGroups#time_created_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#time_created_greater_than_or_equal_to DataOciDataSafeTargetDatabaseGroups#time_created_greater_than_or_equal_to}
   */
   readonly timeCreatedGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#time_created_less_than DataOciDataSafeTargetDatabaseGroups#time_created_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#time_created_less_than DataOciDataSafeTargetDatabaseGroups#time_created_less_than}
   */
   readonly timeCreatedLessThan?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#filter DataOciDataSafeTargetDatabaseGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#filter DataOciDataSafeTargetDatabaseGroups#filter}
   */
   readonly filter?: DataOciDataSafeTargetDatabaseGroupsFilter[] | cdktf.IResolvable;
 }
@@ -609,15 +609,15 @@ export class DataOciDataSafeTargetDatabaseGroupsTargetDatabaseGroupCollectionLis
 }
 export interface DataOciDataSafeTargetDatabaseGroupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#name DataOciDataSafeTargetDatabaseGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#name DataOciDataSafeTargetDatabaseGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#regex DataOciDataSafeTargetDatabaseGroups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#regex DataOciDataSafeTargetDatabaseGroups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#values DataOciDataSafeTargetDatabaseGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#values DataOciDataSafeTargetDatabaseGroups#values}
   */
   readonly values: string[];
 }
@@ -785,7 +785,7 @@ export class DataOciDataSafeTargetDatabaseGroupsFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups oci_data_safe_target_database_groups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups oci_data_safe_target_database_groups}
 */
 export class DataOciDataSafeTargetDatabaseGroups extends cdktf.TerraformDataSource {
 
@@ -801,7 +801,7 @@ export class DataOciDataSafeTargetDatabaseGroups extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciDataSafeTargetDatabaseGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeTargetDatabaseGroups to import
-  * @param importFromId The id of the existing DataOciDataSafeTargetDatabaseGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeTargetDatabaseGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeTargetDatabaseGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -813,7 +813,7 @@ export class DataOciDataSafeTargetDatabaseGroups extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_target_database_groups oci_data_safe_target_database_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_target_database_groups oci_data_safe_target_database_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -824,8 +824,8 @@ export class DataOciDataSafeTargetDatabaseGroups extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_data_safe_target_database_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

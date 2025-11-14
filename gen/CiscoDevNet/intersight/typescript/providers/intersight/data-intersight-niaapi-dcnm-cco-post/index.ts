@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiaapiDcnmCcoPostConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#account_moid DataIntersightNiaapiDcnmCcoPost#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#account_moid DataIntersightNiaapiDcnmCcoPost#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -23,23 +23,23 @@ export interface DataIntersightNiaapiDcnmCcoPostConfig extends cdktf.TerraformMe
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#create_time DataIntersightNiaapiDcnmCcoPost#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#create_time DataIntersightNiaapiDcnmCcoPost#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#domain_group_moid DataIntersightNiaapiDcnmCcoPost#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#domain_group_moid DataIntersightNiaapiDcnmCcoPost#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#id DataIntersightNiaapiDcnmCcoPost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#id DataIntersightNiaapiDcnmCcoPost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,13 +48,13 @@ export interface DataIntersightNiaapiDcnmCcoPostConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#mod_time DataIntersightNiaapiDcnmCcoPost#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#mod_time DataIntersightNiaapiDcnmCcoPost#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
@@ -62,78 +62,78 @@ export interface DataIntersightNiaapiDcnmCcoPostConfig extends cdktf.TerraformMe
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#owners DataIntersightNiaapiDcnmCcoPost#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#owners DataIntersightNiaapiDcnmCcoPost#owners}
   */
   readonly owners?: string[];
   /**
   * The date when this new release notice is posted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#post_date DataIntersightNiaapiDcnmCcoPost#post_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#post_date DataIntersightNiaapiDcnmCcoPost#post_date}
   */
   readonly postDate?: string;
   /**
   * The document type of this post.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#post_type DataIntersightNiaapiDcnmCcoPost#post_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#post_type DataIntersightNiaapiDcnmCcoPost#post_type}
   */
   readonly postType?: string;
   /**
   * Identificator of this inbox post.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#postid DataIntersightNiaapiDcnmCcoPost#postid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#postid DataIntersightNiaapiDcnmCcoPost#postid}
   */
   readonly postid?: string;
   /**
   * Revision number of this notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#revision DataIntersightNiaapiDcnmCcoPost#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#revision DataIntersightNiaapiDcnmCcoPost#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#shared_scope DataIntersightNiaapiDcnmCcoPost#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#shared_scope DataIntersightNiaapiDcnmCcoPost#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#ancestors DataIntersightNiaapiDcnmCcoPost#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#ancestors DataIntersightNiaapiDcnmCcoPost#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiDcnmCcoPostAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#parent DataIntersightNiaapiDcnmCcoPost#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#parent DataIntersightNiaapiDcnmCcoPost#parent}
   */
   readonly parent?: DataIntersightNiaapiDcnmCcoPostParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#permission_resources DataIntersightNiaapiDcnmCcoPost#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#permission_resources DataIntersightNiaapiDcnmCcoPost#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiDcnmCcoPostPermissionResources[] | cdktf.IResolvable;
   /**
   * post_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#post_detail DataIntersightNiaapiDcnmCcoPost#post_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#post_detail DataIntersightNiaapiDcnmCcoPost#post_detail}
   */
   readonly postDetail?: DataIntersightNiaapiDcnmCcoPostPostDetail;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#tags DataIntersightNiaapiDcnmCcoPost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#tags DataIntersightNiaapiDcnmCcoPost#tags}
   */
   readonly tags?: DataIntersightNiaapiDcnmCcoPostTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#version_context DataIntersightNiaapiDcnmCcoPost#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#version_context DataIntersightNiaapiDcnmCcoPost#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiDcnmCcoPostVersionContext;
 }
@@ -815,6 +815,11 @@ export class DataIntersightNiaapiDcnmCcoPostResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1329,7 +1334,7 @@ export class DataIntersightNiaapiDcnmCcoPostResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightNiaapiDcnmCcoPostAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1337,19 +1342,19 @@ export interface DataIntersightNiaapiDcnmCcoPostAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1362,7 +1367,7 @@ export interface DataIntersightNiaapiDcnmCcoPostAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -1594,7 +1599,7 @@ export class DataIntersightNiaapiDcnmCcoPostAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightNiaapiDcnmCcoPostParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1602,19 +1607,19 @@ export interface DataIntersightNiaapiDcnmCcoPostParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1627,7 +1632,7 @@ export interface DataIntersightNiaapiDcnmCcoPostParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -1827,7 +1832,7 @@ export class DataIntersightNiaapiDcnmCcoPostParentOutputReference extends cdktf.
 }
 export interface DataIntersightNiaapiDcnmCcoPostPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1835,19 +1840,19 @@ export interface DataIntersightNiaapiDcnmCcoPostPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1860,7 +1865,7 @@ export interface DataIntersightNiaapiDcnmCcoPostPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -2092,7 +2097,7 @@ export class DataIntersightNiaapiDcnmCcoPostPermissionResourcesList extends cdkt
 }
 export interface DataIntersightNiaapiDcnmCcoPostPostDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2100,62 +2105,62 @@ export interface DataIntersightNiaapiDcnmCcoPostPostDetail {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * Description of this new verison release post.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#description DataIntersightNiaapiDcnmCcoPost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#description DataIntersightNiaapiDcnmCcoPost#description}
   */
   readonly description?: string;
   /**
   * Link of downloading the release file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#link DataIntersightNiaapiDcnmCcoPost#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#link DataIntersightNiaapiDcnmCcoPost#link}
   */
   readonly link?: string;
   /**
   * Version number Associate with this Post.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#nr_version DataIntersightNiaapiDcnmCcoPost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#nr_version DataIntersightNiaapiDcnmCcoPost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
   * The link used to provide a gateway for customer to review the release note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#release_note_link DataIntersightNiaapiDcnmCcoPost#release_note_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#release_note_link DataIntersightNiaapiDcnmCcoPost#release_note_link}
   */
   readonly releaseNoteLink?: string;
   /**
   * The link title used to provide a gateway for customer to review the release note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#release_note_link_title DataIntersightNiaapiDcnmCcoPost#release_note_link_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#release_note_link_title DataIntersightNiaapiDcnmCcoPost#release_note_link_title}
   */
   readonly releaseNoteLinkTitle?: string;
   /**
   * The link used to provide a gateway for customer to download the release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#software_download_link DataIntersightNiaapiDcnmCcoPost#software_download_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#software_download_link DataIntersightNiaapiDcnmCcoPost#software_download_link}
   */
   readonly softwareDownloadLink?: string;
   /**
   * The link title used to provide a gateway for customer to download the release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#software_download_link_title DataIntersightNiaapiDcnmCcoPost#software_download_link_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#software_download_link_title DataIntersightNiaapiDcnmCcoPost#software_download_link_title}
   */
   readonly softwareDownloadLinkTitle?: string;
   /**
   * Title of the new verison release post.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#title DataIntersightNiaapiDcnmCcoPost#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#title DataIntersightNiaapiDcnmCcoPost#title}
   */
   readonly title?: string;
 }
@@ -2529,7 +2534,7 @@ export class DataIntersightNiaapiDcnmCcoPostPostDetailOutputReference extends cd
 }
 export interface DataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2537,19 +2542,19 @@ export interface DataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2562,7 +2567,7 @@ export interface DataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -2794,7 +2799,7 @@ export class DataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightNiaapiDcnmCcoPostTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2802,19 +2807,19 @@ export interface DataIntersightNiaapiDcnmCcoPostTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2827,7 +2832,7 @@ export interface DataIntersightNiaapiDcnmCcoPostTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -3027,45 +3032,51 @@ export class DataIntersightNiaapiDcnmCcoPostTagsDefinitionOutputReference extend
 }
 export interface DataIntersightNiaapiDcnmCcoPostTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#key DataIntersightNiaapiDcnmCcoPost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#key DataIntersightNiaapiDcnmCcoPost#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#propagated DataIntersightNiaapiDcnmCcoPost#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#propagated DataIntersightNiaapiDcnmCcoPost#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#sys_tag DataIntersightNiaapiDcnmCcoPost#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#type DataIntersightNiaapiDcnmCcoPost#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#type DataIntersightNiaapiDcnmCcoPost#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#value DataIntersightNiaapiDcnmCcoPost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#value DataIntersightNiaapiDcnmCcoPost#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#ancestor_definitions DataIntersightNiaapiDcnmCcoPost#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#ancestor_definitions DataIntersightNiaapiDcnmCcoPost#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#definition DataIntersightNiaapiDcnmCcoPost#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#definition DataIntersightNiaapiDcnmCcoPost#definition}
   */
   readonly definition?: DataIntersightNiaapiDcnmCcoPostTagsDefinition;
 }
@@ -3079,6 +3090,7 @@ export function dataIntersightNiaapiDcnmCcoPostTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNiaapiDcnmCcoPostTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3107,6 +3119,12 @@ export function dataIntersightNiaapiDcnmCcoPostTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3173,6 +3191,10 @@ export class DataIntersightNiaapiDcnmCcoPostTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3199,6 +3221,7 @@ export class DataIntersightNiaapiDcnmCcoPostTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3214,6 +3237,7 @@ export class DataIntersightNiaapiDcnmCcoPostTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3267,6 +3291,22 @@ export class DataIntersightNiaapiDcnmCcoPostTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3355,7 +3395,7 @@ export class DataIntersightNiaapiDcnmCcoPostTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNiaapiDcnmCcoPostVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3363,19 +3403,19 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3388,7 +3428,7 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -3620,7 +3660,7 @@ export class DataIntersightNiaapiDcnmCcoPostVersionContextInterestedMosList exte
 }
 export interface DataIntersightNiaapiDcnmCcoPostVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3628,19 +3668,19 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#moid DataIntersightNiaapiDcnmCcoPost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3653,7 +3693,7 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#selector DataIntersightNiaapiDcnmCcoPost#selector}
   */
   readonly selector?: string;
 }
@@ -3853,7 +3893,7 @@ export class DataIntersightNiaapiDcnmCcoPostVersionContextRefMoOutputReference e
 }
 export interface DataIntersightNiaapiDcnmCcoPostVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#additional_properties DataIntersightNiaapiDcnmCcoPost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3861,32 +3901,32 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#class_id DataIntersightNiaapiDcnmCcoPost#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#marked_for_deletion DataIntersightNiaapiDcnmCcoPost#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#marked_for_deletion DataIntersightNiaapiDcnmCcoPost#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#nr_version DataIntersightNiaapiDcnmCcoPost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#nr_version DataIntersightNiaapiDcnmCcoPost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#object_type DataIntersightNiaapiDcnmCcoPost#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#timestamp DataIntersightNiaapiDcnmCcoPost#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#timestamp DataIntersightNiaapiDcnmCcoPost#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3897,19 +3937,19 @@ export interface DataIntersightNiaapiDcnmCcoPostVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#version_type DataIntersightNiaapiDcnmCcoPost#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#version_type DataIntersightNiaapiDcnmCcoPost#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#interested_mos DataIntersightNiaapiDcnmCcoPost#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#interested_mos DataIntersightNiaapiDcnmCcoPost#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiDcnmCcoPostVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#ref_mo DataIntersightNiaapiDcnmCcoPost#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#ref_mo DataIntersightNiaapiDcnmCcoPost#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiDcnmCcoPostVersionContextRefMo;
 }
@@ -4225,7 +4265,7 @@ export class DataIntersightNiaapiDcnmCcoPostVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post intersight_niaapi_dcnm_cco_post}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post intersight_niaapi_dcnm_cco_post}
 */
 export class DataIntersightNiaapiDcnmCcoPost extends cdktf.TerraformDataSource {
 
@@ -4241,7 +4281,7 @@ export class DataIntersightNiaapiDcnmCcoPost extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNiaapiDcnmCcoPost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiDcnmCcoPost to import
-  * @param importFromId The id of the existing DataIntersightNiaapiDcnmCcoPost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiDcnmCcoPost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiDcnmCcoPost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4253,7 +4293,7 @@ export class DataIntersightNiaapiDcnmCcoPost extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niaapi_dcnm_cco_post intersight_niaapi_dcnm_cco_post} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_cco_post intersight_niaapi_dcnm_cco_post} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4264,8 +4304,8 @@ export class DataIntersightNiaapiDcnmCcoPost extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niaapi_dcnm_cco_post',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

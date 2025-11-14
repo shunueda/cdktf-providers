@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationEsxiConsoleConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#account_moid DataIntersightVirtualizationEsxiConsole#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#account_moid DataIntersightVirtualizationEsxiConsole#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightVirtualizationEsxiConsoleConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The user agent IP address from which the session is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#client_ip_address DataIntersightVirtualizationEsxiConsole#client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#client_ip_address DataIntersightVirtualizationEsxiConsole#client_ip_address}
   */
   readonly clientIpAddress?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#create_time DataIntersightVirtualizationEsxiConsole#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#create_time DataIntersightVirtualizationEsxiConsole#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#domain_group_moid DataIntersightVirtualizationEsxiConsole#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#domain_group_moid DataIntersightVirtualizationEsxiConsole#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time at which the session ended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#end_time DataIntersightVirtualizationEsxiConsole#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#end_time DataIntersightVirtualizationEsxiConsole#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#id DataIntersightVirtualizationEsxiConsole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#id DataIntersightVirtualizationEsxiConsole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,37 +59,37 @@ export interface DataIntersightVirtualizationEsxiConsoleConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#mod_time DataIntersightVirtualizationEsxiConsole#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#mod_time DataIntersightVirtualizationEsxiConsole#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#owners DataIntersightVirtualizationEsxiConsole#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#owners DataIntersightVirtualizationEsxiConsole#owners}
   */
   readonly owners?: string[];
   /**
   * Role of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#role DataIntersightVirtualizationEsxiConsole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#role DataIntersightVirtualizationEsxiConsole#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#shared_scope DataIntersightVirtualizationEsxiConsole#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#shared_scope DataIntersightVirtualizationEsxiConsole#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -98,85 +98,85 @@ export interface DataIntersightVirtualizationEsxiConsoleConfig extends cdktf.Ter
   * * `Ended` - The session has ended normally.
   * * `Terminated` - The session was terminated by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#status DataIntersightVirtualizationEsxiConsole#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#status DataIntersightVirtualizationEsxiConsole#status}
   */
   readonly status?: string;
   /**
   * The stream ID of the host console session opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#stream_id DataIntersightVirtualizationEsxiConsole#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#stream_id DataIntersightVirtualizationEsxiConsole#stream_id}
   */
   readonly streamId?: string;
   /**
   * Name of target on which session is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#target_name DataIntersightVirtualizationEsxiConsole#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#target_name DataIntersightVirtualizationEsxiConsole#target_name}
   */
   readonly targetName?: string;
   /**
   * User ID or E-mail Address of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#user_id_or_email DataIntersightVirtualizationEsxiConsole#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#user_id_or_email DataIntersightVirtualizationEsxiConsole#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#ancestors DataIntersightVirtualizationEsxiConsole#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#ancestors DataIntersightVirtualizationEsxiConsole#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationEsxiConsoleAncestors[] | cdktf.IResolvable;
   /**
   * device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#device_registration DataIntersightVirtualizationEsxiConsole#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#device_registration DataIntersightVirtualizationEsxiConsole#device_registration}
   */
   readonly deviceRegistration?: DataIntersightVirtualizationEsxiConsoleDeviceRegistration;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#host DataIntersightVirtualizationEsxiConsole#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#host DataIntersightVirtualizationEsxiConsole#host}
   */
   readonly host?: DataIntersightVirtualizationEsxiConsoleHost;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#parent DataIntersightVirtualizationEsxiConsole#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#parent DataIntersightVirtualizationEsxiConsole#parent}
   */
   readonly parent?: DataIntersightVirtualizationEsxiConsoleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#permission_resources DataIntersightVirtualizationEsxiConsole#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#permission_resources DataIntersightVirtualizationEsxiConsole#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationEsxiConsolePermissionResources[] | cdktf.IResolvable;
   /**
   * session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#session DataIntersightVirtualizationEsxiConsole#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#session DataIntersightVirtualizationEsxiConsole#session}
   */
   readonly session?: DataIntersightVirtualizationEsxiConsoleSession;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#tags DataIntersightVirtualizationEsxiConsole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#tags DataIntersightVirtualizationEsxiConsole#tags}
   */
   readonly tags?: DataIntersightVirtualizationEsxiConsoleTags[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#target DataIntersightVirtualizationEsxiConsole#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#target DataIntersightVirtualizationEsxiConsole#target}
   */
   readonly target?: DataIntersightVirtualizationEsxiConsoleTarget;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#user DataIntersightVirtualizationEsxiConsole#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#user DataIntersightVirtualizationEsxiConsole#user}
   */
   readonly user?: DataIntersightVirtualizationEsxiConsoleUser;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#version_context DataIntersightVirtualizationEsxiConsole#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#version_context DataIntersightVirtualizationEsxiConsole#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationEsxiConsoleVersionContext;
 }
@@ -1018,6 +1018,11 @@ export class DataIntersightVirtualizationEsxiConsoleResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1761,7 +1766,7 @@ export class DataIntersightVirtualizationEsxiConsoleResultsList extends cdktf.Co
 }
 export interface DataIntersightVirtualizationEsxiConsoleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1769,19 +1774,19 @@ export interface DataIntersightVirtualizationEsxiConsoleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1794,7 +1799,7 @@ export interface DataIntersightVirtualizationEsxiConsoleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2026,7 +2031,7 @@ export class DataIntersightVirtualizationEsxiConsoleAncestorsList extends cdktf.
 }
 export interface DataIntersightVirtualizationEsxiConsoleDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2034,19 +2039,19 @@ export interface DataIntersightVirtualizationEsxiConsoleDeviceRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2059,7 +2064,7 @@ export interface DataIntersightVirtualizationEsxiConsoleDeviceRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2259,7 +2264,7 @@ export class DataIntersightVirtualizationEsxiConsoleDeviceRegistrationOutputRefe
 }
 export interface DataIntersightVirtualizationEsxiConsoleHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2267,19 +2272,19 @@ export interface DataIntersightVirtualizationEsxiConsoleHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2292,7 +2297,7 @@ export interface DataIntersightVirtualizationEsxiConsoleHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2492,7 +2497,7 @@ export class DataIntersightVirtualizationEsxiConsoleHostOutputReference extends 
 }
 export interface DataIntersightVirtualizationEsxiConsoleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2500,19 +2505,19 @@ export interface DataIntersightVirtualizationEsxiConsoleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2525,7 +2530,7 @@ export interface DataIntersightVirtualizationEsxiConsoleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2725,7 +2730,7 @@ export class DataIntersightVirtualizationEsxiConsoleParentOutputReference extend
 }
 export interface DataIntersightVirtualizationEsxiConsolePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2733,19 +2738,19 @@ export interface DataIntersightVirtualizationEsxiConsolePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2758,7 +2763,7 @@ export interface DataIntersightVirtualizationEsxiConsolePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2990,7 +2995,7 @@ export class DataIntersightVirtualizationEsxiConsolePermissionResourcesList exte
 }
 export interface DataIntersightVirtualizationEsxiConsoleSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2998,19 +3003,19 @@ export interface DataIntersightVirtualizationEsxiConsoleSession {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3023,7 +3028,7 @@ export interface DataIntersightVirtualizationEsxiConsoleSession {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3223,7 +3228,7 @@ export class DataIntersightVirtualizationEsxiConsoleSessionOutputReference exten
 }
 export interface DataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3231,19 +3236,19 @@ export interface DataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3256,7 +3261,7 @@ export interface DataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3488,7 +3493,7 @@ export class DataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitionsList 
 }
 export interface DataIntersightVirtualizationEsxiConsoleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3496,19 +3501,19 @@ export interface DataIntersightVirtualizationEsxiConsoleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3521,7 +3526,7 @@ export interface DataIntersightVirtualizationEsxiConsoleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3721,45 +3726,51 @@ export class DataIntersightVirtualizationEsxiConsoleTagsDefinitionOutputReferenc
 }
 export interface DataIntersightVirtualizationEsxiConsoleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#key DataIntersightVirtualizationEsxiConsole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#key DataIntersightVirtualizationEsxiConsole#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#propagated DataIntersightVirtualizationEsxiConsole#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#propagated DataIntersightVirtualizationEsxiConsole#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#sys_tag DataIntersightVirtualizationEsxiConsole#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#type DataIntersightVirtualizationEsxiConsole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#type DataIntersightVirtualizationEsxiConsole#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#value DataIntersightVirtualizationEsxiConsole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#value DataIntersightVirtualizationEsxiConsole#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#ancestor_definitions DataIntersightVirtualizationEsxiConsole#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#ancestor_definitions DataIntersightVirtualizationEsxiConsole#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#definition DataIntersightVirtualizationEsxiConsole#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#definition DataIntersightVirtualizationEsxiConsole#definition}
   */
   readonly definition?: DataIntersightVirtualizationEsxiConsoleTagsDefinition;
 }
@@ -3773,6 +3784,7 @@ export function dataIntersightVirtualizationEsxiConsoleTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVirtualizationEsxiConsoleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3801,6 +3813,12 @@ export function dataIntersightVirtualizationEsxiConsoleTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3867,6 +3885,10 @@ export class DataIntersightVirtualizationEsxiConsoleTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3893,6 +3915,7 @@ export class DataIntersightVirtualizationEsxiConsoleTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3908,6 +3931,7 @@ export class DataIntersightVirtualizationEsxiConsoleTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3961,6 +3985,22 @@ export class DataIntersightVirtualizationEsxiConsoleTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4049,7 +4089,7 @@ export class DataIntersightVirtualizationEsxiConsoleTagsList extends cdktf.Compl
 }
 export interface DataIntersightVirtualizationEsxiConsoleTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4057,19 +4097,19 @@ export interface DataIntersightVirtualizationEsxiConsoleTarget {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4082,7 +4122,7 @@ export interface DataIntersightVirtualizationEsxiConsoleTarget {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -4282,7 +4322,7 @@ export class DataIntersightVirtualizationEsxiConsoleTargetOutputReference extend
 }
 export interface DataIntersightVirtualizationEsxiConsoleUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4290,19 +4330,19 @@ export interface DataIntersightVirtualizationEsxiConsoleUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4315,7 +4355,7 @@ export interface DataIntersightVirtualizationEsxiConsoleUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -4515,7 +4555,7 @@ export class DataIntersightVirtualizationEsxiConsoleUserOutputReference extends 
 }
 export interface DataIntersightVirtualizationEsxiConsoleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4523,19 +4563,19 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4548,7 +4588,7 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -4780,7 +4820,7 @@ export class DataIntersightVirtualizationEsxiConsoleVersionContextInterestedMosL
 }
 export interface DataIntersightVirtualizationEsxiConsoleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4788,19 +4828,19 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#moid DataIntersightVirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4813,7 +4853,7 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#selector DataIntersightVirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -5013,7 +5053,7 @@ export class DataIntersightVirtualizationEsxiConsoleVersionContextRefMoOutputRef
 }
 export interface DataIntersightVirtualizationEsxiConsoleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#additional_properties DataIntersightVirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5021,32 +5061,32 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#class_id DataIntersightVirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#marked_for_deletion DataIntersightVirtualizationEsxiConsole#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#marked_for_deletion DataIntersightVirtualizationEsxiConsole#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#nr_version DataIntersightVirtualizationEsxiConsole#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#nr_version DataIntersightVirtualizationEsxiConsole#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#object_type DataIntersightVirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#timestamp DataIntersightVirtualizationEsxiConsole#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#timestamp DataIntersightVirtualizationEsxiConsole#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5057,19 +5097,19 @@ export interface DataIntersightVirtualizationEsxiConsoleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#version_type DataIntersightVirtualizationEsxiConsole#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#version_type DataIntersightVirtualizationEsxiConsole#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#interested_mos DataIntersightVirtualizationEsxiConsole#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#interested_mos DataIntersightVirtualizationEsxiConsole#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationEsxiConsoleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#ref_mo DataIntersightVirtualizationEsxiConsole#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#ref_mo DataIntersightVirtualizationEsxiConsole#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationEsxiConsoleVersionContextRefMo;
 }
@@ -5385,7 +5425,7 @@ export class DataIntersightVirtualizationEsxiConsoleVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console intersight_virtualization_esxi_console}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console intersight_virtualization_esxi_console}
 */
 export class DataIntersightVirtualizationEsxiConsole extends cdktf.TerraformDataSource {
 
@@ -5401,7 +5441,7 @@ export class DataIntersightVirtualizationEsxiConsole extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightVirtualizationEsxiConsole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationEsxiConsole to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationEsxiConsole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationEsxiConsole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationEsxiConsole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5413,7 +5453,7 @@ export class DataIntersightVirtualizationEsxiConsole extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_esxi_console intersight_virtualization_esxi_console} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_esxi_console intersight_virtualization_esxi_console} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5424,8 +5464,8 @@ export class DataIntersightVirtualizationEsxiConsole extends cdktf.TerraformData
       terraformResourceType: 'intersight_virtualization_esxi_console',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

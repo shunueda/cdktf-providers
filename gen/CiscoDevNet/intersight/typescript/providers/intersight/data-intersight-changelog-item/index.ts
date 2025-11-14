@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightChangelogItemConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#account_moid DataIntersightChangelogItem#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#account_moid DataIntersightChangelogItem#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightChangelogItemConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#create_time DataIntersightChangelogItem#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#create_time DataIntersightChangelogItem#create_time}
   */
   readonly createTime?: string;
   /**
   * Date version for the API contract changelog item in rfc3339 format, without fractional seconds. Note, multiple items can exist for a single DateVersion. Example: 2023-12-19T00:00:00Z .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#date_version DataIntersightChangelogItem#date_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#date_version DataIntersightChangelogItem#date_version}
   */
   readonly dateVersion?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#domain_group_moid DataIntersightChangelogItem#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#domain_group_moid DataIntersightChangelogItem#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Operation Id of the endpoint for which the changelog item is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#entity DataIntersightChangelogItem#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#entity DataIntersightChangelogItem#entity}
   */
   readonly entity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#id DataIntersightChangelogItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#id DataIntersightChangelogItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,79 +59,79 @@ export interface DataIntersightChangelogItemConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#mod_time DataIntersightChangelogItem#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#mod_time DataIntersightChangelogItem#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#owners DataIntersightChangelogItem#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#owners DataIntersightChangelogItem#owners}
   */
   readonly owners?: string[];
   /**
   * Semantic version for the API contract changelog item. Note, multiple items can exist for a single SemanticVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#semantic_version DataIntersightChangelogItem#semantic_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#semantic_version DataIntersightChangelogItem#semantic_version}
   */
   readonly semanticVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#shared_scope DataIntersightChangelogItem#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#shared_scope DataIntersightChangelogItem#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The value associated with the API contract changelog item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#value DataIntersightChangelogItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#value DataIntersightChangelogItem#value}
   */
   readonly value?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#ancestors DataIntersightChangelogItem#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#ancestors DataIntersightChangelogItem#ancestors}
   */
   readonly ancestors?: DataIntersightChangelogItemAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#catalog DataIntersightChangelogItem#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#catalog DataIntersightChangelogItem#catalog}
   */
   readonly catalog?: DataIntersightChangelogItemCatalog;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#parent DataIntersightChangelogItem#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#parent DataIntersightChangelogItem#parent}
   */
   readonly parent?: DataIntersightChangelogItemParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#permission_resources DataIntersightChangelogItem#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#permission_resources DataIntersightChangelogItem#permission_resources}
   */
   readonly permissionResources?: DataIntersightChangelogItemPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#tags DataIntersightChangelogItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#tags DataIntersightChangelogItem#tags}
   */
   readonly tags?: DataIntersightChangelogItemTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#version_context DataIntersightChangelogItem#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#version_context DataIntersightChangelogItem#version_context}
   */
   readonly versionContext?: DataIntersightChangelogItemVersionContext;
 }
@@ -783,6 +783,11 @@ export class DataIntersightChangelogItemResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1297,7 +1302,7 @@ export class DataIntersightChangelogItemResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightChangelogItemAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1305,19 +1310,19 @@ export interface DataIntersightChangelogItemAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1330,7 +1335,7 @@ export interface DataIntersightChangelogItemAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -1562,7 +1567,7 @@ export class DataIntersightChangelogItemAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightChangelogItemCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1570,19 +1575,19 @@ export interface DataIntersightChangelogItemCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1595,7 +1600,7 @@ export interface DataIntersightChangelogItemCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -1795,7 +1800,7 @@ export class DataIntersightChangelogItemCatalogOutputReference extends cdktf.Com
 }
 export interface DataIntersightChangelogItemParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1803,19 +1808,19 @@ export interface DataIntersightChangelogItemParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1828,7 +1833,7 @@ export interface DataIntersightChangelogItemParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -2028,7 +2033,7 @@ export class DataIntersightChangelogItemParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightChangelogItemPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2036,19 +2041,19 @@ export interface DataIntersightChangelogItemPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2061,7 +2066,7 @@ export interface DataIntersightChangelogItemPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -2293,7 +2298,7 @@ export class DataIntersightChangelogItemPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightChangelogItemTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2301,19 +2306,19 @@ export interface DataIntersightChangelogItemTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2326,7 +2331,7 @@ export interface DataIntersightChangelogItemTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -2558,7 +2563,7 @@ export class DataIntersightChangelogItemTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightChangelogItemTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2566,19 +2571,19 @@ export interface DataIntersightChangelogItemTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2591,7 +2596,7 @@ export interface DataIntersightChangelogItemTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -2791,45 +2796,51 @@ export class DataIntersightChangelogItemTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightChangelogItemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#key DataIntersightChangelogItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#key DataIntersightChangelogItem#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#propagated DataIntersightChangelogItem#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#propagated DataIntersightChangelogItem#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#sys_tag DataIntersightChangelogItem#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#type DataIntersightChangelogItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#type DataIntersightChangelogItem#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#value DataIntersightChangelogItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#value DataIntersightChangelogItem#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#ancestor_definitions DataIntersightChangelogItem#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#ancestor_definitions DataIntersightChangelogItem#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightChangelogItemTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#definition DataIntersightChangelogItem#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#definition DataIntersightChangelogItem#definition}
   */
   readonly definition?: DataIntersightChangelogItemTagsDefinition;
 }
@@ -2843,6 +2854,7 @@ export function dataIntersightChangelogItemTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightChangelogItemTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2871,6 +2883,12 @@ export function dataIntersightChangelogItemTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2937,6 +2955,10 @@ export class DataIntersightChangelogItemTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2963,6 +2985,7 @@ export class DataIntersightChangelogItemTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2978,6 +3001,7 @@ export class DataIntersightChangelogItemTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3031,6 +3055,22 @@ export class DataIntersightChangelogItemTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3119,7 +3159,7 @@ export class DataIntersightChangelogItemTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightChangelogItemVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3127,19 +3167,19 @@ export interface DataIntersightChangelogItemVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3152,7 +3192,7 @@ export interface DataIntersightChangelogItemVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -3384,7 +3424,7 @@ export class DataIntersightChangelogItemVersionContextInterestedMosList extends 
 }
 export interface DataIntersightChangelogItemVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3392,19 +3432,19 @@ export interface DataIntersightChangelogItemVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#moid DataIntersightChangelogItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3417,7 +3457,7 @@ export interface DataIntersightChangelogItemVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#selector DataIntersightChangelogItem#selector}
   */
   readonly selector?: string;
 }
@@ -3617,7 +3657,7 @@ export class DataIntersightChangelogItemVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightChangelogItemVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#additional_properties DataIntersightChangelogItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3625,32 +3665,32 @@ export interface DataIntersightChangelogItemVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#class_id DataIntersightChangelogItem#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#marked_for_deletion DataIntersightChangelogItem#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#marked_for_deletion DataIntersightChangelogItem#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#nr_version DataIntersightChangelogItem#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#nr_version DataIntersightChangelogItem#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#object_type DataIntersightChangelogItem#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#timestamp DataIntersightChangelogItem#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#timestamp DataIntersightChangelogItem#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3661,19 +3701,19 @@ export interface DataIntersightChangelogItemVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#version_type DataIntersightChangelogItem#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#version_type DataIntersightChangelogItem#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#interested_mos DataIntersightChangelogItem#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#interested_mos DataIntersightChangelogItem#interested_mos}
   */
   readonly interestedMos?: DataIntersightChangelogItemVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#ref_mo DataIntersightChangelogItem#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#ref_mo DataIntersightChangelogItem#ref_mo}
   */
   readonly refMo?: DataIntersightChangelogItemVersionContextRefMo;
 }
@@ -3989,7 +4029,7 @@ export class DataIntersightChangelogItemVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item intersight_changelog_item}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item intersight_changelog_item}
 */
 export class DataIntersightChangelogItem extends cdktf.TerraformDataSource {
 
@@ -4005,7 +4045,7 @@ export class DataIntersightChangelogItem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightChangelogItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightChangelogItem to import
-  * @param importFromId The id of the existing DataIntersightChangelogItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightChangelogItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightChangelogItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4017,7 +4057,7 @@ export class DataIntersightChangelogItem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/changelog_item intersight_changelog_item} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/changelog_item intersight_changelog_item} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4028,8 +4068,8 @@ export class DataIntersightChangelogItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_changelog_item',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

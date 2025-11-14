@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLogAnalyticsNamespaceTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}
   */
   readonly templateId: string;
 }
@@ -105,7 +105,7 @@ export class DataOciLogAnalyticsNamespaceTemplateFacetsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template oci_log_analytics_namespace_template}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template oci_log_analytics_namespace_template}
 */
 export class DataOciLogAnalyticsNamespaceTemplate extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataOciLogAnalyticsNamespaceTemplate extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciLogAnalyticsNamespaceTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLogAnalyticsNamespaceTemplate to import
-  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLogAnalyticsNamespaceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataOciLogAnalyticsNamespaceTemplate extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/log_analytics_namespace_template oci_log_analytics_namespace_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/log_analytics_namespace_template oci_log_analytics_namespace_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataOciLogAnalyticsNamespaceTemplate extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_log_analytics_namespace_template',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

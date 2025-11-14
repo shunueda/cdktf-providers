@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/certificates_management_ca_bundle
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_ca_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCertificatesManagementCaBundleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}
   */
   readonly caBundleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/certificates_management_ca_bundle oci_certificates_management_ca_bundle}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_ca_bundle oci_certificates_management_ca_bundle}
 */
 export class DataOciCertificatesManagementCaBundle extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciCertificatesManagementCaBundle extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciCertificatesManagementCaBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCertificatesManagementCaBundle to import
-  * @param importFromId The id of the existing DataOciCertificatesManagementCaBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/certificates_management_ca_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCertificatesManagementCaBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_ca_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCertificatesManagementCaBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciCertificatesManagementCaBundle extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/certificates_management_ca_bundle oci_certificates_management_ca_bundle} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/certificates_management_ca_bundle oci_certificates_management_ca_bundle} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciCertificatesManagementCaBundle extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_certificates_management_ca_bundle',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

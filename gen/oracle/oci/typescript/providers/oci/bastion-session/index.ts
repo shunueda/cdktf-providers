@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface BastionSessionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#bastion_id BastionSession#bastion_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#bastion_id BastionSession#bastion_id}
   */
   readonly bastionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#display_name BastionSession#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#display_name BastionSession#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#id BastionSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#id BastionSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#key_type BastionSession#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#key_type BastionSession#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#session_ttl_in_seconds BastionSession#session_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#session_ttl_in_seconds BastionSession#session_ttl_in_seconds}
   */
   readonly sessionTtlInSeconds?: number;
   /**
   * key_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#key_details BastionSession#key_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#key_details BastionSession#key_details}
   */
   readonly keyDetails: BastionSessionKeyDetails;
   /**
   * target_resource_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_details BastionSession#target_resource_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_details BastionSession#target_resource_details}
   */
   readonly targetResourceDetails: BastionSessionTargetResourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#timeouts BastionSession#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#timeouts BastionSession#timeouts}
   */
   readonly timeouts?: BastionSessionTimeouts;
 }
 export interface BastionSessionKeyDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}
   */
   readonly publicKeyContent: string;
 }
@@ -132,27 +132,27 @@ export class BastionSessionKeyDetailsOutputReference extends cdktf.ComplexObject
 }
 export interface BastionSessionTargetResourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#session_type BastionSession#session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#session_type BastionSession#session_type}
   */
   readonly sessionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}
   */
   readonly targetResourceFqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}
   */
   readonly targetResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}
   */
   readonly targetResourceOperatingSystemUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}
   */
   readonly targetResourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}
   */
   readonly targetResourcePrivateIpAddress?: string;
 }
@@ -383,15 +383,15 @@ export class BastionSessionTargetResourceDetailsOutputReference extends cdktf.Co
 }
 export interface BastionSessionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#create BastionSession#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#create BastionSession#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#delete BastionSession#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#delete BastionSession#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#update BastionSession#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#update BastionSession#update}
   */
   readonly update?: string;
 }
@@ -543,7 +543,7 @@ export class BastionSessionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session oci_bastion_session}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session oci_bastion_session}
 */
 export class BastionSession extends cdktf.TerraformResource {
 
@@ -559,7 +559,7 @@ export class BastionSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BastionSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BastionSession to import
-  * @param importFromId The id of the existing BastionSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BastionSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BastionSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class BastionSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bastion_session oci_bastion_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bastion_session oci_bastion_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +582,8 @@ export class BastionSession extends cdktf.TerraformResource {
       terraformResourceType: 'oci_bastion_session',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesContainerRuntimePolicyConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#account_moid DataIntersightKubernetesContainerRuntimePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#account_moid DataIntersightKubernetesContainerRuntimePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,39 +22,39 @@ export interface DataIntersightKubernetesContainerRuntimePolicyConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#create_time DataIntersightKubernetesContainerRuntimePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#create_time DataIntersightKubernetesContainerRuntimePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#description DataIntersightKubernetesContainerRuntimePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#description DataIntersightKubernetesContainerRuntimePolicy#description}
   */
   readonly description?: string;
   /**
   * Bridge IP (--bip) including Prefix (e.g., 172.17.0.5/24) that Docker will use for the default bridge network (docker0). Containers will connect to this if no other network is configured, not used by kubernetes pods because their network is managed by CNI. However this address space must not collide with other CIDRs on your networks, including the cluster's Service CIDR, Pod Network CIDR and IP Pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#docker_bridge_network_cidr DataIntersightKubernetesContainerRuntimePolicy#docker_bridge_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#docker_bridge_network_cidr DataIntersightKubernetesContainerRuntimePolicy#docker_bridge_network_cidr}
   */
   readonly dockerBridgeNetworkCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#docker_no_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#docker_no_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_no_proxy}
   */
   readonly dockerNoProxy?: string[];
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#domain_group_moid DataIntersightKubernetesContainerRuntimePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#domain_group_moid DataIntersightKubernetesContainerRuntimePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#id DataIntersightKubernetesContainerRuntimePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#id DataIntersightKubernetesContainerRuntimePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,91 +63,91 @@ export interface DataIntersightKubernetesContainerRuntimePolicyConfig extends cd
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#mod_time DataIntersightKubernetesContainerRuntimePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#mod_time DataIntersightKubernetesContainerRuntimePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#name DataIntersightKubernetesContainerRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#name DataIntersightKubernetesContainerRuntimePolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#owners DataIntersightKubernetesContainerRuntimePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#owners DataIntersightKubernetesContainerRuntimePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#shared_scope DataIntersightKubernetesContainerRuntimePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#shared_scope DataIntersightKubernetesContainerRuntimePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#ancestors DataIntersightKubernetesContainerRuntimePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#ancestors DataIntersightKubernetesContainerRuntimePolicy#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesContainerRuntimePolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#cluster_profiles DataIntersightKubernetesContainerRuntimePolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#cluster_profiles DataIntersightKubernetesContainerRuntimePolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightKubernetesContainerRuntimePolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * docker_http_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#docker_http_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#docker_http_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_http_proxy}
   */
   readonly dockerHttpProxy?: DataIntersightKubernetesContainerRuntimePolicyDockerHttpProxy;
   /**
   * docker_https_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#docker_https_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#docker_https_proxy DataIntersightKubernetesContainerRuntimePolicy#docker_https_proxy}
   */
   readonly dockerHttpsProxy?: DataIntersightKubernetesContainerRuntimePolicyDockerHttpsProxy;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#organization DataIntersightKubernetesContainerRuntimePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#organization DataIntersightKubernetesContainerRuntimePolicy#organization}
   */
   readonly organization?: DataIntersightKubernetesContainerRuntimePolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#parent DataIntersightKubernetesContainerRuntimePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#parent DataIntersightKubernetesContainerRuntimePolicy#parent}
   */
   readonly parent?: DataIntersightKubernetesContainerRuntimePolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#permission_resources DataIntersightKubernetesContainerRuntimePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#permission_resources DataIntersightKubernetesContainerRuntimePolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesContainerRuntimePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#tags DataIntersightKubernetesContainerRuntimePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#tags DataIntersightKubernetesContainerRuntimePolicy#tags}
   */
   readonly tags?: DataIntersightKubernetesContainerRuntimePolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#version_context DataIntersightKubernetesContainerRuntimePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#version_context DataIntersightKubernetesContainerRuntimePolicy#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesContainerRuntimePolicyVersionContext;
 }
@@ -1124,6 +1124,11 @@ export class DataIntersightKubernetesContainerRuntimePolicyResultsTagsOutputRefe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1656,7 +1661,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyResultsList extends c
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1664,19 +1669,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1689,7 +1694,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1921,7 +1926,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyAncestorsList extends
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1929,19 +1934,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1954,7 +1959,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2186,7 +2191,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyClusterProfilesList e
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyDockerHttpProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2194,51 +2199,51 @@ export interface DataIntersightKubernetesContainerRuntimePolicyDockerHttpProxy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS Proxy server FQDN or IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#hostname DataIntersightKubernetesContainerRuntimePolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#hostname DataIntersightKubernetesContainerRuntimePolicy#hostname}
   */
   readonly hostname?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#is_password_set DataIntersightKubernetesContainerRuntimePolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#is_password_set DataIntersightKubernetesContainerRuntimePolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The password for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#password DataIntersightKubernetesContainerRuntimePolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#password DataIntersightKubernetesContainerRuntimePolicy#password}
   */
   readonly password?: string;
   /**
   * The HTTP Proxy port number.
   * The port number of the HTTP/HTTPS proxy must be between 1 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#port DataIntersightKubernetesContainerRuntimePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#port DataIntersightKubernetesContainerRuntimePolicy#port}
   */
   readonly port?: number;
   /**
   * Protocol to use for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#protocol DataIntersightKubernetesContainerRuntimePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#protocol DataIntersightKubernetesContainerRuntimePolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * The username for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#username DataIntersightKubernetesContainerRuntimePolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#username DataIntersightKubernetesContainerRuntimePolicy#username}
   */
   readonly username?: string;
 }
@@ -2554,7 +2559,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyDockerHttpProxyOutput
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyDockerHttpsProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2562,51 +2567,51 @@ export interface DataIntersightKubernetesContainerRuntimePolicyDockerHttpsProxy 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS Proxy server FQDN or IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#hostname DataIntersightKubernetesContainerRuntimePolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#hostname DataIntersightKubernetesContainerRuntimePolicy#hostname}
   */
   readonly hostname?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#is_password_set DataIntersightKubernetesContainerRuntimePolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#is_password_set DataIntersightKubernetesContainerRuntimePolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The password for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#password DataIntersightKubernetesContainerRuntimePolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#password DataIntersightKubernetesContainerRuntimePolicy#password}
   */
   readonly password?: string;
   /**
   * The HTTP Proxy port number.
   * The port number of the HTTP/HTTPS proxy must be between 1 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#port DataIntersightKubernetesContainerRuntimePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#port DataIntersightKubernetesContainerRuntimePolicy#port}
   */
   readonly port?: number;
   /**
   * Protocol to use for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#protocol DataIntersightKubernetesContainerRuntimePolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#protocol DataIntersightKubernetesContainerRuntimePolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * The username for the HTTP/HTTPS Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#username DataIntersightKubernetesContainerRuntimePolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#username DataIntersightKubernetesContainerRuntimePolicy#username}
   */
   readonly username?: string;
 }
@@ -2922,7 +2927,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyDockerHttpsProxyOutpu
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2930,19 +2935,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2955,7 +2960,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3155,7 +3160,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyOrganizationOutputRef
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3163,19 +3168,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3188,7 +3193,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3388,7 +3393,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyParentOutputReference
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3396,19 +3401,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyPermissionResourc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3421,7 +3426,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyPermissionResourc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3653,7 +3658,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyPermissionResourcesLi
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3661,19 +3666,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3686,7 +3691,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3918,7 +3923,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefinitio
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3926,19 +3931,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3951,7 +3956,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4151,45 +4156,51 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsDefinitionOutputR
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#key DataIntersightKubernetesContainerRuntimePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#key DataIntersightKubernetesContainerRuntimePolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#propagated DataIntersightKubernetesContainerRuntimePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#propagated DataIntersightKubernetesContainerRuntimePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#sys_tag DataIntersightKubernetesContainerRuntimePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#type DataIntersightKubernetesContainerRuntimePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#type DataIntersightKubernetesContainerRuntimePolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#value DataIntersightKubernetesContainerRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#value DataIntersightKubernetesContainerRuntimePolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#ancestor_definitions DataIntersightKubernetesContainerRuntimePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#ancestor_definitions DataIntersightKubernetesContainerRuntimePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#definition DataIntersightKubernetesContainerRuntimePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#definition DataIntersightKubernetesContainerRuntimePolicy#definition}
   */
   readonly definition?: DataIntersightKubernetesContainerRuntimePolicyTagsDefinition;
 }
@@ -4203,6 +4214,7 @@ export function dataIntersightKubernetesContainerRuntimePolicyTagsToTerraform(st
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightKubernetesContainerRuntimePolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4231,6 +4243,12 @@ export function dataIntersightKubernetesContainerRuntimePolicyTagsToHclTerraform
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4297,6 +4315,10 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsOutputReference e
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4323,6 +4345,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsOutputReference e
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4338,6 +4361,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsOutputReference e
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4391,6 +4415,22 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsOutputReference e
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4479,7 +4519,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyTagsList extends cdkt
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4487,19 +4527,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextInt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4512,7 +4552,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextInt
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4744,7 +4784,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyVersionContextInteres
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4752,19 +4792,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextRef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#moid DataIntersightKubernetesContainerRuntimePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4777,7 +4817,7 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContextRef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#selector DataIntersightKubernetesContainerRuntimePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4977,7 +5017,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyVersionContextRefMoOu
 }
 export interface DataIntersightKubernetesContainerRuntimePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#additional_properties DataIntersightKubernetesContainerRuntimePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4985,32 +5025,32 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#class_id DataIntersightKubernetesContainerRuntimePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#marked_for_deletion DataIntersightKubernetesContainerRuntimePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#marked_for_deletion DataIntersightKubernetesContainerRuntimePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#nr_version DataIntersightKubernetesContainerRuntimePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#nr_version DataIntersightKubernetesContainerRuntimePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#object_type DataIntersightKubernetesContainerRuntimePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#timestamp DataIntersightKubernetesContainerRuntimePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#timestamp DataIntersightKubernetesContainerRuntimePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5021,19 +5061,19 @@ export interface DataIntersightKubernetesContainerRuntimePolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#version_type DataIntersightKubernetesContainerRuntimePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#version_type DataIntersightKubernetesContainerRuntimePolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#interested_mos DataIntersightKubernetesContainerRuntimePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#interested_mos DataIntersightKubernetesContainerRuntimePolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesContainerRuntimePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#ref_mo DataIntersightKubernetesContainerRuntimePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#ref_mo DataIntersightKubernetesContainerRuntimePolicy#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesContainerRuntimePolicyVersionContextRefMo;
 }
@@ -5349,7 +5389,7 @@ export class DataIntersightKubernetesContainerRuntimePolicyVersionContextOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy intersight_kubernetes_container_runtime_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy intersight_kubernetes_container_runtime_policy}
 */
 export class DataIntersightKubernetesContainerRuntimePolicy extends cdktf.TerraformDataSource {
 
@@ -5365,7 +5405,7 @@ export class DataIntersightKubernetesContainerRuntimePolicy extends cdktf.Terraf
   * Generates CDKTF code for importing a DataIntersightKubernetesContainerRuntimePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesContainerRuntimePolicy to import
-  * @param importFromId The id of the existing DataIntersightKubernetesContainerRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesContainerRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesContainerRuntimePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5377,7 +5417,7 @@ export class DataIntersightKubernetesContainerRuntimePolicy extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_container_runtime_policy intersight_kubernetes_container_runtime_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_container_runtime_policy intersight_kubernetes_container_runtime_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5388,8 +5428,8 @@ export class DataIntersightKubernetesContainerRuntimePolicy extends cdktf.Terraf
       terraformResourceType: 'intersight_kubernetes_container_runtime_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

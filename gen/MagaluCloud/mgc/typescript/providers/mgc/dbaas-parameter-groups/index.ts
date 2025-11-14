@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DbaasParameterGroupsConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of the parameters group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups#description DbaasParameterGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups#description DbaasParameterGroups#description}
   */
   readonly description?: string;
   /**
   * Type of database engine to use (e.g., 'mysql', 'postgresql'). Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups#engine_name DbaasParameterGroups#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups#engine_name DbaasParameterGroups#engine_name}
   */
   readonly engineName: string;
   /**
   * Version of the database engine (e.g., '8.0', '13.3'). Must be compatible with the selected engine_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups#engine_version DbaasParameterGroups#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups#engine_version DbaasParameterGroups#engine_version}
   */
   readonly engineVersion: string;
   /**
   * Name of the parameters group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups#name DbaasParameterGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups#name DbaasParameterGroups#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups mgc_dbaas_parameter_groups}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups mgc_dbaas_parameter_groups}
 */
 export class DbaasParameterGroups extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DbaasParameterGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasParameterGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasParameterGroups to import
-  * @param importFromId The id of the existing DbaasParameterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasParameterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasParameterGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DbaasParameterGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameter_groups mgc_dbaas_parameter_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameter_groups mgc_dbaas_parameter_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DbaasParameterGroups extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_dbaas_parameter_groups',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

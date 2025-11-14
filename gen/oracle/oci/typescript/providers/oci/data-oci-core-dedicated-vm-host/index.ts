@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreDedicatedVmHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host#dedicated_vm_host_id DataOciCoreDedicatedVmHost#dedicated_vm_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host#dedicated_vm_host_id DataOciCoreDedicatedVmHost#dedicated_vm_host_id}
   */
   readonly dedicatedVmHostId: string;
 }
@@ -194,7 +194,7 @@ export class DataOciCoreDedicatedVmHostPlacementConstraintDetailsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host oci_core_dedicated_vm_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host oci_core_dedicated_vm_host}
 */
 export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreDedicatedVmHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreDedicatedVmHost to import
-  * @param importFromId The id of the existing DataOciCoreDedicatedVmHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreDedicatedVmHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreDedicatedVmHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_dedicated_vm_host oci_core_dedicated_vm_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_dedicated_vm_host oci_core_dedicated_vm_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_dedicated_vm_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -260,6 +260,11 @@ export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
   private _capacityBins = new DataOciCoreDedicatedVmHostCapacityBinsList(this, "capacity_bins", false);
   public get capacityBins() {
     return this._capacityBins;
+  }
+
+  // capacity_config - computed: true, optional: false, required: false
+  public get capacityConfig() {
+    return this.getStringAttribute('capacity_config');
   }
 
   // compartment_id - computed: true, optional: false, required: false
@@ -315,6 +320,11 @@ export class DataOciCoreDedicatedVmHost extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // is_memory_encryption_enabled - computed: true, optional: false, required: false
+  public get isMemoryEncryptionEnabled() {
+    return this.getBooleanAttribute('is_memory_encryption_enabled');
   }
 
   // placement_constraint_details - computed: true, optional: false, required: false

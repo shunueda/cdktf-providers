@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightApplianceBackupRotateDataConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#account_moid DataIntersightApplianceBackupRotateData#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#account_moid DataIntersightApplianceBackupRotateData#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The time at which the backup was taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#backup_time DataIntersightApplianceBackupRotateData#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#backup_time DataIntersightApplianceBackupRotateData#backup_time}
   */
   readonly backupTime?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightApplianceBackupRotateDataConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#create_time DataIntersightApplianceBackupRotateData#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#create_time DataIntersightApplianceBackupRotateData#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#domain_group_moid DataIntersightApplianceBackupRotateData#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#domain_group_moid DataIntersightApplianceBackupRotateData#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Backup filename to backup or restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#filename DataIntersightApplianceBackupRotateData#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#filename DataIntersightApplianceBackupRotateData#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#id DataIntersightApplianceBackupRotateData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#id DataIntersightApplianceBackupRotateData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,24 +59,24 @@ export interface DataIntersightApplianceBackupRotateDataConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#mod_time DataIntersightApplianceBackupRotateData#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#mod_time DataIntersightApplianceBackupRotateData#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#owners DataIntersightApplianceBackupRotateData#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#owners DataIntersightApplianceBackupRotateData#owners}
   */
   readonly owners?: string[];
   /**
@@ -85,74 +85,74 @@ export interface DataIntersightApplianceBackupRotateDataConfig extends cdktf.Ter
   * * `sftp` - SSH File Transfer Protocol (SFTP) to access file server.
   * * `cifs` - Common Internet File System (CIFS) Protocol to access file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#protocol DataIntersightApplianceBackupRotateData#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#protocol DataIntersightApplianceBackupRotateData#protocol}
   */
   readonly protocol?: string;
   /**
   * Hostname of the remote file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#remote_host DataIntersightApplianceBackupRotateData#remote_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#remote_host DataIntersightApplianceBackupRotateData#remote_host}
   */
   readonly remoteHost?: string;
   /**
   * File server directory or share name to copy the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#remote_path DataIntersightApplianceBackupRotateData#remote_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#remote_path DataIntersightApplianceBackupRotateData#remote_path}
   */
   readonly remotePath?: string;
   /**
   * Remote TCP port on the file server (e.g. 22 for scp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#remote_port DataIntersightApplianceBackupRotateData#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#remote_port DataIntersightApplianceBackupRotateData#remote_port}
   */
   readonly remotePort?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#shared_scope DataIntersightApplianceBackupRotateData#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#shared_scope DataIntersightApplianceBackupRotateData#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Username to authenticate the fileserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#username DataIntersightApplianceBackupRotateData#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#username DataIntersightApplianceBackupRotateData#username}
   */
   readonly username?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#account DataIntersightApplianceBackupRotateData#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#account DataIntersightApplianceBackupRotateData#account}
   */
   readonly account?: DataIntersightApplianceBackupRotateDataAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#ancestors DataIntersightApplianceBackupRotateData#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#ancestors DataIntersightApplianceBackupRotateData#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceBackupRotateDataAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#parent DataIntersightApplianceBackupRotateData#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#parent DataIntersightApplianceBackupRotateData#parent}
   */
   readonly parent?: DataIntersightApplianceBackupRotateDataParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#permission_resources DataIntersightApplianceBackupRotateData#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#permission_resources DataIntersightApplianceBackupRotateData#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceBackupRotateDataPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#tags DataIntersightApplianceBackupRotateData#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#tags DataIntersightApplianceBackupRotateData#tags}
   */
   readonly tags?: DataIntersightApplianceBackupRotateDataTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#version_context DataIntersightApplianceBackupRotateData#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#version_context DataIntersightApplianceBackupRotateData#version_context}
   */
   readonly versionContext?: DataIntersightApplianceBackupRotateDataVersionContext;
 }
@@ -804,6 +804,11 @@ export class DataIntersightApplianceBackupRotateDataResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1333,7 +1338,7 @@ export class DataIntersightApplianceBackupRotateDataResultsList extends cdktf.Co
 }
 export interface DataIntersightApplianceBackupRotateDataAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1341,19 +1346,19 @@ export interface DataIntersightApplianceBackupRotateDataAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1366,7 +1371,7 @@ export interface DataIntersightApplianceBackupRotateDataAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -1566,7 +1571,7 @@ export class DataIntersightApplianceBackupRotateDataAccountOutputReference exten
 }
 export interface DataIntersightApplianceBackupRotateDataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1574,19 +1579,19 @@ export interface DataIntersightApplianceBackupRotateDataAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1599,7 +1604,7 @@ export interface DataIntersightApplianceBackupRotateDataAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -1831,7 +1836,7 @@ export class DataIntersightApplianceBackupRotateDataAncestorsList extends cdktf.
 }
 export interface DataIntersightApplianceBackupRotateDataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1839,19 +1844,19 @@ export interface DataIntersightApplianceBackupRotateDataParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1864,7 +1869,7 @@ export interface DataIntersightApplianceBackupRotateDataParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -2064,7 +2069,7 @@ export class DataIntersightApplianceBackupRotateDataParentOutputReference extend
 }
 export interface DataIntersightApplianceBackupRotateDataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2072,19 +2077,19 @@ export interface DataIntersightApplianceBackupRotateDataPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2097,7 +2102,7 @@ export interface DataIntersightApplianceBackupRotateDataPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -2329,7 +2334,7 @@ export class DataIntersightApplianceBackupRotateDataPermissionResourcesList exte
 }
 export interface DataIntersightApplianceBackupRotateDataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2337,19 +2342,19 @@ export interface DataIntersightApplianceBackupRotateDataTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2362,7 +2367,7 @@ export interface DataIntersightApplianceBackupRotateDataTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -2594,7 +2599,7 @@ export class DataIntersightApplianceBackupRotateDataTagsAncestorDefinitionsList 
 }
 export interface DataIntersightApplianceBackupRotateDataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2602,19 +2607,19 @@ export interface DataIntersightApplianceBackupRotateDataTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2627,7 +2632,7 @@ export interface DataIntersightApplianceBackupRotateDataTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -2827,45 +2832,51 @@ export class DataIntersightApplianceBackupRotateDataTagsDefinitionOutputReferenc
 }
 export interface DataIntersightApplianceBackupRotateDataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#key DataIntersightApplianceBackupRotateData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#key DataIntersightApplianceBackupRotateData#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#propagated DataIntersightApplianceBackupRotateData#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#propagated DataIntersightApplianceBackupRotateData#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#sys_tag DataIntersightApplianceBackupRotateData#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#type DataIntersightApplianceBackupRotateData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#type DataIntersightApplianceBackupRotateData#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#value DataIntersightApplianceBackupRotateData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#value DataIntersightApplianceBackupRotateData#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#ancestor_definitions DataIntersightApplianceBackupRotateData#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#ancestor_definitions DataIntersightApplianceBackupRotateData#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceBackupRotateDataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#definition DataIntersightApplianceBackupRotateData#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#definition DataIntersightApplianceBackupRotateData#definition}
   */
   readonly definition?: DataIntersightApplianceBackupRotateDataTagsDefinition;
 }
@@ -2879,6 +2890,7 @@ export function dataIntersightApplianceBackupRotateDataTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceBackupRotateDataTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2907,6 +2919,12 @@ export function dataIntersightApplianceBackupRotateDataTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2973,6 +2991,10 @@ export class DataIntersightApplianceBackupRotateDataTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2999,6 +3021,7 @@ export class DataIntersightApplianceBackupRotateDataTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3014,6 +3037,7 @@ export class DataIntersightApplianceBackupRotateDataTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3067,6 +3091,22 @@ export class DataIntersightApplianceBackupRotateDataTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3155,7 +3195,7 @@ export class DataIntersightApplianceBackupRotateDataTagsList extends cdktf.Compl
 }
 export interface DataIntersightApplianceBackupRotateDataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3163,19 +3203,19 @@ export interface DataIntersightApplianceBackupRotateDataVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3188,7 +3228,7 @@ export interface DataIntersightApplianceBackupRotateDataVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -3420,7 +3460,7 @@ export class DataIntersightApplianceBackupRotateDataVersionContextInterestedMosL
 }
 export interface DataIntersightApplianceBackupRotateDataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3428,19 +3468,19 @@ export interface DataIntersightApplianceBackupRotateDataVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#moid DataIntersightApplianceBackupRotateData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3453,7 +3493,7 @@ export interface DataIntersightApplianceBackupRotateDataVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#selector DataIntersightApplianceBackupRotateData#selector}
   */
   readonly selector?: string;
 }
@@ -3653,7 +3693,7 @@ export class DataIntersightApplianceBackupRotateDataVersionContextRefMoOutputRef
 }
 export interface DataIntersightApplianceBackupRotateDataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#additional_properties DataIntersightApplianceBackupRotateData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3661,32 +3701,32 @@ export interface DataIntersightApplianceBackupRotateDataVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#class_id DataIntersightApplianceBackupRotateData#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#marked_for_deletion DataIntersightApplianceBackupRotateData#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#marked_for_deletion DataIntersightApplianceBackupRotateData#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#nr_version DataIntersightApplianceBackupRotateData#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#nr_version DataIntersightApplianceBackupRotateData#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#object_type DataIntersightApplianceBackupRotateData#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#timestamp DataIntersightApplianceBackupRotateData#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#timestamp DataIntersightApplianceBackupRotateData#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3697,19 +3737,19 @@ export interface DataIntersightApplianceBackupRotateDataVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#version_type DataIntersightApplianceBackupRotateData#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#version_type DataIntersightApplianceBackupRotateData#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#interested_mos DataIntersightApplianceBackupRotateData#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#interested_mos DataIntersightApplianceBackupRotateData#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceBackupRotateDataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#ref_mo DataIntersightApplianceBackupRotateData#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#ref_mo DataIntersightApplianceBackupRotateData#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceBackupRotateDataVersionContextRefMo;
 }
@@ -4025,7 +4065,7 @@ export class DataIntersightApplianceBackupRotateDataVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data intersight_appliance_backup_rotate_data}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data intersight_appliance_backup_rotate_data}
 */
 export class DataIntersightApplianceBackupRotateData extends cdktf.TerraformDataSource {
 
@@ -4041,7 +4081,7 @@ export class DataIntersightApplianceBackupRotateData extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightApplianceBackupRotateData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceBackupRotateData to import
-  * @param importFromId The id of the existing DataIntersightApplianceBackupRotateData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceBackupRotateData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceBackupRotateData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4053,7 +4093,7 @@ export class DataIntersightApplianceBackupRotateData extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_backup_rotate_data intersight_appliance_backup_rotate_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_backup_rotate_data intersight_appliance_backup_rotate_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4064,8 +4104,8 @@ export class DataIntersightApplianceBackupRotateData extends cdktf.TerraformData
       terraformResourceType: 'intersight_appliance_backup_rotate_data',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TaskPureScopedInventoryConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#account_moid TaskPureScopedInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#account_moid TaskPureScopedInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#ancestors TaskPureScopedInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#ancestors TaskPureScopedInventory#ancestors}
   */
   readonly ancestors?: TaskPureScopedInventoryAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface TaskPureScopedInventoryConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#create_time TaskPureScopedInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#create_time TaskPureScopedInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#domain_group_moid TaskPureScopedInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#domain_group_moid TaskPureScopedInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#id TaskPureScopedInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#id TaskPureScopedInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,111 +53,111 @@ export interface TaskPureScopedInventoryConfig extends cdktf.TerraformMetaArgume
   /**
   * Device will immediately collect the objects from the platform. If false, the device will wait for any in flight scheduled collections to complete first. Used to ensure that any long running collections do not delay the scoped collection result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#immediate TaskPureScopedInventory#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#immediate TaskPureScopedInventory#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#mod_time TaskPureScopedInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#mod_time TaskPureScopedInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
   * A property that uniquely identifies the object to be inventoried as a part of the scoped inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#naming_property TaskPureScopedInventory#naming_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#naming_property TaskPureScopedInventory#naming_property}
   */
   readonly namingProperty?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#owners TaskPureScopedInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#owners TaskPureScopedInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#parent TaskPureScopedInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#parent TaskPureScopedInventory#parent}
   */
   readonly parent?: TaskPureScopedInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#permission_resources TaskPureScopedInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#permission_resources TaskPureScopedInventory#permission_resources}
   */
   readonly permissionResources?: TaskPureScopedInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Set of queries to identify objects to be inventoried as part of this scoped inventory action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#queries TaskPureScopedInventory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#queries TaskPureScopedInventory#queries}
   */
   readonly queries?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#registered_device TaskPureScopedInventory#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#registered_device TaskPureScopedInventory#registered_device}
   */
   readonly registeredDevice?: TaskPureScopedInventoryRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#shared_scope TaskPureScopedInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#shared_scope TaskPureScopedInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#tags TaskPureScopedInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#tags TaskPureScopedInventory#tags}
   */
   readonly tags?: TaskPureScopedInventoryTags[] | cdktf.IResolvable;
   /**
   * Type of the object for which scoped inventory needs to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#type TaskPureScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#type TaskPureScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#values TaskPureScopedInventory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#values TaskPureScopedInventory#values}
   */
   readonly values?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#version_context TaskPureScopedInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#version_context TaskPureScopedInventory#version_context}
   */
   readonly versionContext?: TaskPureScopedInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface TaskPureScopedInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class TaskPureScopedInventoryAncestorsList extends cdktf.ComplexList {
 }
 export interface TaskPureScopedInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class TaskPureScopedInventoryParentList extends cdktf.ComplexList {
 }
 export interface TaskPureScopedInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class TaskPureScopedInventoryPermissionResourcesList extends cdktf.Comple
 }
 export interface TaskPureScopedInventoryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class TaskPureScopedInventoryRegisteredDeviceList extends cdktf.ComplexLi
 }
 export interface TaskPureScopedInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class TaskPureScopedInventoryTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface TaskPureScopedInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1629,31 +1629,35 @@ export class TaskPureScopedInventoryTagsDefinitionList extends cdktf.ComplexList
 }
 export interface TaskPureScopedInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#ancestor_definitions TaskPureScopedInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#ancestor_definitions TaskPureScopedInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TaskPureScopedInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#definition TaskPureScopedInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#definition TaskPureScopedInventory#definition}
   */
   readonly definition?: TaskPureScopedInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#key TaskPureScopedInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#key TaskPureScopedInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#propagated TaskPureScopedInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#propagated TaskPureScopedInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#type TaskPureScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#sys_tag TaskPureScopedInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#type TaskPureScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#value TaskPureScopedInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#value TaskPureScopedInventory#value}
   */
   readonly value?: string;
 }
@@ -1669,6 +1673,7 @@ export function taskPureScopedInventoryTagsToTerraform(struct?: TaskPureScopedIn
     definition: cdktf.listMapper(taskPureScopedInventoryTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1707,6 +1712,12 @@ export function taskPureScopedInventoryTagsToHclTerraform(struct?: TaskPureScope
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1769,6 +1780,10 @@ export class TaskPureScopedInventoryTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1789,6 +1804,7 @@ export class TaskPureScopedInventoryTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1804,6 +1820,7 @@ export class TaskPureScopedInventoryTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1889,6 +1906,22 @@ export class TaskPureScopedInventoryTagsOutputReference extends cdktf.ComplexObj
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1943,23 +1976,23 @@ export class TaskPureScopedInventoryTagsList extends cdktf.ComplexList {
 }
 export interface TaskPureScopedInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2191,23 +2224,23 @@ export class TaskPureScopedInventoryVersionContextInterestedMosList extends cdkt
 }
 export interface TaskPureScopedInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#moid TaskPureScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#selector TaskPureScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2439,39 +2472,39 @@ export class TaskPureScopedInventoryVersionContextRefMoList extends cdktf.Comple
 }
 export interface TaskPureScopedInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#additional_properties TaskPureScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#class_id TaskPureScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#interested_mos TaskPureScopedInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#interested_mos TaskPureScopedInventory#interested_mos}
   */
   readonly interestedMos?: TaskPureScopedInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#marked_for_deletion TaskPureScopedInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#marked_for_deletion TaskPureScopedInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#nr_version TaskPureScopedInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#nr_version TaskPureScopedInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#object_type TaskPureScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#ref_mo TaskPureScopedInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#ref_mo TaskPureScopedInventory#ref_mo}
   */
   readonly refMo?: TaskPureScopedInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#timestamp TaskPureScopedInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#timestamp TaskPureScopedInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#version_type TaskPureScopedInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#version_type TaskPureScopedInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -2819,7 +2852,7 @@ export class TaskPureScopedInventoryVersionContextList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory intersight_task_pure_scoped_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory intersight_task_pure_scoped_inventory}
 */
 export class TaskPureScopedInventory extends cdktf.TerraformResource {
 
@@ -2835,7 +2868,7 @@ export class TaskPureScopedInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskPureScopedInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskPureScopedInventory to import
-  * @param importFromId The id of the existing TaskPureScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskPureScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskPureScopedInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2847,7 +2880,7 @@ export class TaskPureScopedInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/task_pure_scoped_inventory intersight_task_pure_scoped_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_pure_scoped_inventory intersight_task_pure_scoped_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2858,8 +2891,8 @@ export class TaskPureScopedInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_task_pure_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

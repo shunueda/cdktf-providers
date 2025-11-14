@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightProcessorUnitConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#account_moid DataIntersightProcessorUnit#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#account_moid DataIntersightProcessorUnit#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The architecture of the installed processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#architecture DataIntersightProcessorUnit#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#architecture DataIntersightProcessorUnit#architecture}
   */
   readonly architecture?: string;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightProcessorUnitConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#create_time DataIntersightProcessorUnit#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#create_time DataIntersightProcessorUnit#create_time}
   */
   readonly createTime?: string;
   /**
   * This field displays the description of the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#description DataIntersightProcessorUnit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#description DataIntersightProcessorUnit#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#device_mo_id DataIntersightProcessorUnit#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#device_mo_id DataIntersightProcessorUnit#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#dn DataIntersightProcessorUnit#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#dn DataIntersightProcessorUnit#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#domain_group_moid DataIntersightProcessorUnit#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#domain_group_moid DataIntersightProcessorUnit#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#id DataIntersightProcessorUnit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#id DataIntersightProcessorUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,245 +71,245 @@ export interface DataIntersightProcessorUnitConfig extends cdktf.TerraformMetaAr
   /**
   * This field indicates whether the processor is supported on the server or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#is_platform_supported DataIntersightProcessorUnit#is_platform_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#is_platform_supported DataIntersightProcessorUnit#is_platform_supported}
   */
   readonly isPlatformSupported?: boolean | cdktf.IResolvable;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#is_upgraded DataIntersightProcessorUnit#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#is_upgraded DataIntersightProcessorUnit#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#mod_time DataIntersightProcessorUnit#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#mod_time DataIntersightProcessorUnit#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#model DataIntersightProcessorUnit#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#model DataIntersightProcessorUnit#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The number of cores present in a given processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#num_cores DataIntersightProcessorUnit#num_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#num_cores DataIntersightProcessorUnit#num_cores}
   */
   readonly numCores?: number;
   /**
   * The number of enabled cores in the installed processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#num_cores_enabled DataIntersightProcessorUnit#num_cores_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#num_cores_enabled DataIntersightProcessorUnit#num_cores_enabled}
   */
   readonly numCoresEnabled?: string;
   /**
   * The maximum number of threads available in the installed processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#num_threads DataIntersightProcessorUnit#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#num_threads DataIntersightProcessorUnit#num_threads}
   */
   readonly numThreads?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * The power state of the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#oper_power_state DataIntersightProcessorUnit#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#oper_power_state DataIntersightProcessorUnit#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#oper_reason DataIntersightProcessorUnit#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#oper_reason DataIntersightProcessorUnit#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * The health indicator of the processor, 'OK' indicates the processor is operatinal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#oper_state DataIntersightProcessorUnit#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#oper_state DataIntersightProcessorUnit#oper_state}
   */
   readonly operState?: string;
   /**
   * Operability state of the central processing unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#operability DataIntersightProcessorUnit#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#operability DataIntersightProcessorUnit#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#owners DataIntersightProcessorUnit#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#owners DataIntersightProcessorUnit#owners}
   */
   readonly owners?: string[];
   /**
   * This field displays the part number of the of the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#part_number DataIntersightProcessorUnit#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#part_number DataIntersightProcessorUnit#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field displays the product ID of the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#pid DataIntersightProcessorUnit#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#pid DataIntersightProcessorUnit#pid}
   */
   readonly pid?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#presence DataIntersightProcessorUnit#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#presence DataIntersightProcessorUnit#presence}
   */
   readonly presence?: string;
   /**
   * The ID number of a given processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#processor_id DataIntersightProcessorUnit#processor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#processor_id DataIntersightProcessorUnit#processor_id}
   */
   readonly processorId?: number;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#revision DataIntersightProcessorUnit#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#revision DataIntersightProcessorUnit#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#rn DataIntersightProcessorUnit#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#rn DataIntersightProcessorUnit#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#serial DataIntersightProcessorUnit#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#serial DataIntersightProcessorUnit#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#shared_scope DataIntersightProcessorUnit#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#shared_scope DataIntersightProcessorUnit#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The socket ID of the installed processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#socket_designation DataIntersightProcessorUnit#socket_designation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#socket_designation DataIntersightProcessorUnit#socket_designation}
   */
   readonly socketDesignation?: string;
   /**
   * The maximum speed of the installed processor in GHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#speed DataIntersightProcessorUnit#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#speed DataIntersightProcessorUnit#speed}
   */
   readonly speed?: number;
   /**
   * The CPU stepping of the installed processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#stepping DataIntersightProcessorUnit#stepping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#stepping DataIntersightProcessorUnit#stepping}
   */
   readonly stepping?: string;
   /**
   * The temperature of the processor in centigrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#thermal DataIntersightProcessorUnit#thermal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#thermal DataIntersightProcessorUnit#thermal}
   */
   readonly thermal?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#vendor DataIntersightProcessorUnit#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#vendor DataIntersightProcessorUnit#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#ancestors DataIntersightProcessorUnit#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#ancestors DataIntersightProcessorUnit#ancestors}
   */
   readonly ancestors?: DataIntersightProcessorUnitAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#compute_blade DataIntersightProcessorUnit#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#compute_blade DataIntersightProcessorUnit#compute_blade}
   */
   readonly computeBlade?: DataIntersightProcessorUnitComputeBlade;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#compute_board DataIntersightProcessorUnit#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#compute_board DataIntersightProcessorUnit#compute_board}
   */
   readonly computeBoard?: DataIntersightProcessorUnitComputeBoard;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#compute_rack_unit DataIntersightProcessorUnit#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#compute_rack_unit DataIntersightProcessorUnit#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightProcessorUnitComputeRackUnit;
   /**
   * connected_pcie_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#connected_pcie_devices DataIntersightProcessorUnit#connected_pcie_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#connected_pcie_devices DataIntersightProcessorUnit#connected_pcie_devices}
   */
   readonly connectedPcieDevices?: DataIntersightProcessorUnitConnectedPcieDevices[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#inventory_device_info DataIntersightProcessorUnit#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#inventory_device_info DataIntersightProcessorUnit#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightProcessorUnitInventoryDeviceInfo;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#network_element DataIntersightProcessorUnit#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#network_element DataIntersightProcessorUnit#network_element}
   */
   readonly networkElement?: DataIntersightProcessorUnitNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#parent DataIntersightProcessorUnit#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#parent DataIntersightProcessorUnit#parent}
   */
   readonly parent?: DataIntersightProcessorUnitParent;
   /**
   * pci_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#pci_endpoint DataIntersightProcessorUnit#pci_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#pci_endpoint DataIntersightProcessorUnit#pci_endpoint}
   */
   readonly pciEndpoint?: DataIntersightProcessorUnitPciEndpoint;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#permission_resources DataIntersightProcessorUnit#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#permission_resources DataIntersightProcessorUnit#permission_resources}
   */
   readonly permissionResources?: DataIntersightProcessorUnitPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#previous_fru DataIntersightProcessorUnit#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#previous_fru DataIntersightProcessorUnit#previous_fru}
   */
   readonly previousFru?: DataIntersightProcessorUnitPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#registered_device DataIntersightProcessorUnit#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#registered_device DataIntersightProcessorUnit#registered_device}
   */
   readonly registeredDevice?: DataIntersightProcessorUnitRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#tags DataIntersightProcessorUnit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#tags DataIntersightProcessorUnit#tags}
   */
   readonly tags?: DataIntersightProcessorUnitTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#version_context DataIntersightProcessorUnit#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#version_context DataIntersightProcessorUnit#version_context}
   */
   readonly versionContext?: DataIntersightProcessorUnitVersionContext;
 }
@@ -1721,6 +1721,11 @@ export class DataIntersightProcessorUnitResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2393,7 +2398,7 @@ export class DataIntersightProcessorUnitResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightProcessorUnitAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2401,19 +2406,19 @@ export interface DataIntersightProcessorUnitAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2426,7 +2431,7 @@ export interface DataIntersightProcessorUnitAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2658,7 +2663,7 @@ export class DataIntersightProcessorUnitAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightProcessorUnitComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2666,19 +2671,19 @@ export interface DataIntersightProcessorUnitComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2691,7 +2696,7 @@ export interface DataIntersightProcessorUnitComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2891,7 +2896,7 @@ export class DataIntersightProcessorUnitComputeBladeOutputReference extends cdkt
 }
 export interface DataIntersightProcessorUnitComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2899,19 +2904,19 @@ export interface DataIntersightProcessorUnitComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2924,7 +2929,7 @@ export interface DataIntersightProcessorUnitComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3124,7 +3129,7 @@ export class DataIntersightProcessorUnitComputeBoardOutputReference extends cdkt
 }
 export interface DataIntersightProcessorUnitComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3132,19 +3137,19 @@ export interface DataIntersightProcessorUnitComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3157,7 +3162,7 @@ export interface DataIntersightProcessorUnitComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3357,7 +3362,7 @@ export class DataIntersightProcessorUnitComputeRackUnitOutputReference extends c
 }
 export interface DataIntersightProcessorUnitConnectedPcieDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3365,19 +3370,19 @@ export interface DataIntersightProcessorUnitConnectedPcieDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3390,7 +3395,7 @@ export interface DataIntersightProcessorUnitConnectedPcieDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3622,7 +3627,7 @@ export class DataIntersightProcessorUnitConnectedPcieDevicesList extends cdktf.C
 }
 export interface DataIntersightProcessorUnitInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3630,19 +3635,19 @@ export interface DataIntersightProcessorUnitInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3655,7 +3660,7 @@ export interface DataIntersightProcessorUnitInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3855,7 +3860,7 @@ export class DataIntersightProcessorUnitInventoryDeviceInfoOutputReference exten
 }
 export interface DataIntersightProcessorUnitNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3863,19 +3868,19 @@ export interface DataIntersightProcessorUnitNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3888,7 +3893,7 @@ export interface DataIntersightProcessorUnitNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4088,7 +4093,7 @@ export class DataIntersightProcessorUnitNetworkElementOutputReference extends cd
 }
 export interface DataIntersightProcessorUnitParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4096,19 +4101,19 @@ export interface DataIntersightProcessorUnitParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4121,7 +4126,7 @@ export interface DataIntersightProcessorUnitParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4321,7 +4326,7 @@ export class DataIntersightProcessorUnitParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightProcessorUnitPciEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4329,19 +4334,19 @@ export interface DataIntersightProcessorUnitPciEndpoint {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4354,7 +4359,7 @@ export interface DataIntersightProcessorUnitPciEndpoint {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4554,7 +4559,7 @@ export class DataIntersightProcessorUnitPciEndpointOutputReference extends cdktf
 }
 export interface DataIntersightProcessorUnitPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4562,19 +4567,19 @@ export interface DataIntersightProcessorUnitPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4587,7 +4592,7 @@ export interface DataIntersightProcessorUnitPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4819,7 +4824,7 @@ export class DataIntersightProcessorUnitPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightProcessorUnitPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4827,19 +4832,19 @@ export interface DataIntersightProcessorUnitPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4852,7 +4857,7 @@ export interface DataIntersightProcessorUnitPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5052,7 +5057,7 @@ export class DataIntersightProcessorUnitPreviousFruOutputReference extends cdktf
 }
 export interface DataIntersightProcessorUnitRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5060,19 +5065,19 @@ export interface DataIntersightProcessorUnitRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5085,7 +5090,7 @@ export interface DataIntersightProcessorUnitRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5285,7 +5290,7 @@ export class DataIntersightProcessorUnitRegisteredDeviceOutputReference extends 
 }
 export interface DataIntersightProcessorUnitTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5293,19 +5298,19 @@ export interface DataIntersightProcessorUnitTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5318,7 +5323,7 @@ export interface DataIntersightProcessorUnitTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5550,7 +5555,7 @@ export class DataIntersightProcessorUnitTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightProcessorUnitTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5558,19 +5563,19 @@ export interface DataIntersightProcessorUnitTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5583,7 +5588,7 @@ export interface DataIntersightProcessorUnitTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5783,45 +5788,51 @@ export class DataIntersightProcessorUnitTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightProcessorUnitTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#key DataIntersightProcessorUnit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#key DataIntersightProcessorUnit#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#propagated DataIntersightProcessorUnit#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#propagated DataIntersightProcessorUnit#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#sys_tag DataIntersightProcessorUnit#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#type DataIntersightProcessorUnit#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#type DataIntersightProcessorUnit#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#value DataIntersightProcessorUnit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#value DataIntersightProcessorUnit#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#ancestor_definitions DataIntersightProcessorUnit#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#ancestor_definitions DataIntersightProcessorUnit#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightProcessorUnitTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#definition DataIntersightProcessorUnit#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#definition DataIntersightProcessorUnit#definition}
   */
   readonly definition?: DataIntersightProcessorUnitTagsDefinition;
 }
@@ -5835,6 +5846,7 @@ export function dataIntersightProcessorUnitTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightProcessorUnitTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5863,6 +5875,12 @@ export function dataIntersightProcessorUnitTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5929,6 +5947,10 @@ export class DataIntersightProcessorUnitTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5955,6 +5977,7 @@ export class DataIntersightProcessorUnitTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5970,6 +5993,7 @@ export class DataIntersightProcessorUnitTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6023,6 +6047,22 @@ export class DataIntersightProcessorUnitTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6111,7 +6151,7 @@ export class DataIntersightProcessorUnitTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightProcessorUnitVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6119,19 +6159,19 @@ export interface DataIntersightProcessorUnitVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6144,7 +6184,7 @@ export interface DataIntersightProcessorUnitVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -6376,7 +6416,7 @@ export class DataIntersightProcessorUnitVersionContextInterestedMosList extends 
 }
 export interface DataIntersightProcessorUnitVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6384,19 +6424,19 @@ export interface DataIntersightProcessorUnitVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#moid DataIntersightProcessorUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6409,7 +6449,7 @@ export interface DataIntersightProcessorUnitVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#selector DataIntersightProcessorUnit#selector}
   */
   readonly selector?: string;
 }
@@ -6609,7 +6649,7 @@ export class DataIntersightProcessorUnitVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightProcessorUnitVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#additional_properties DataIntersightProcessorUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6617,32 +6657,32 @@ export interface DataIntersightProcessorUnitVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#class_id DataIntersightProcessorUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#marked_for_deletion DataIntersightProcessorUnit#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#marked_for_deletion DataIntersightProcessorUnit#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#nr_version DataIntersightProcessorUnit#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#nr_version DataIntersightProcessorUnit#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#object_type DataIntersightProcessorUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#timestamp DataIntersightProcessorUnit#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#timestamp DataIntersightProcessorUnit#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6653,19 +6693,19 @@ export interface DataIntersightProcessorUnitVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#version_type DataIntersightProcessorUnit#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#version_type DataIntersightProcessorUnit#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#interested_mos DataIntersightProcessorUnit#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#interested_mos DataIntersightProcessorUnit#interested_mos}
   */
   readonly interestedMos?: DataIntersightProcessorUnitVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#ref_mo DataIntersightProcessorUnit#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#ref_mo DataIntersightProcessorUnit#ref_mo}
   */
   readonly refMo?: DataIntersightProcessorUnitVersionContextRefMo;
 }
@@ -6981,7 +7021,7 @@ export class DataIntersightProcessorUnitVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit intersight_processor_unit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit intersight_processor_unit}
 */
 export class DataIntersightProcessorUnit extends cdktf.TerraformDataSource {
 
@@ -6997,7 +7037,7 @@ export class DataIntersightProcessorUnit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightProcessorUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightProcessorUnit to import
-  * @param importFromId The id of the existing DataIntersightProcessorUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightProcessorUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightProcessorUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7009,7 +7049,7 @@ export class DataIntersightProcessorUnit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/processor_unit intersight_processor_unit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/processor_unit intersight_processor_unit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7020,8 +7060,8 @@ export class DataIntersightProcessorUnit extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_processor_unit',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

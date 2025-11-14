@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSecurityUnitConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#account_moid DataIntersightSecurityUnit#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#account_moid DataIntersightSecurityUnit#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightSecurityUnitConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#create_time DataIntersightSecurityUnit#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#create_time DataIntersightSecurityUnit#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#device_mo_id DataIntersightSecurityUnit#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#device_mo_id DataIntersightSecurityUnit#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#dn DataIntersightSecurityUnit#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#dn DataIntersightSecurityUnit#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#domain_group_moid DataIntersightSecurityUnit#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#domain_group_moid DataIntersightSecurityUnit#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#id DataIntersightSecurityUnit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#id DataIntersightSecurityUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,181 +59,181 @@ export interface DataIntersightSecurityUnitConfig extends cdktf.TerraformMetaArg
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#is_upgraded DataIntersightSecurityUnit#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#is_upgraded DataIntersightSecurityUnit#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#mod_time DataIntersightSecurityUnit#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#mod_time DataIntersightSecurityUnit#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#model DataIntersightSecurityUnit#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#model DataIntersightSecurityUnit#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational state of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#oper_state DataIntersightSecurityUnit#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#oper_state DataIntersightSecurityUnit#oper_state}
   */
   readonly operState?: string;
   /**
   * Operability state of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#operability DataIntersightSecurityUnit#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#operability DataIntersightSecurityUnit#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#owners DataIntersightSecurityUnit#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#owners DataIntersightSecurityUnit#owners}
   */
   readonly owners?: string[];
   /**
   * The part number of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#part_number DataIntersightSecurityUnit#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#part_number DataIntersightSecurityUnit#part_number}
   */
   readonly partNumber?: string;
   /**
   * PCIe slot of the security unit in the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#pci_slot DataIntersightSecurityUnit#pci_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#pci_slot DataIntersightSecurityUnit#pci_slot}
   */
   readonly pciSlot?: string;
   /**
   * Power state of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#power DataIntersightSecurityUnit#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#power DataIntersightSecurityUnit#power}
   */
   readonly power?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#presence DataIntersightSecurityUnit#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#presence DataIntersightSecurityUnit#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#revision DataIntersightSecurityUnit#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#revision DataIntersightSecurityUnit#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#rn DataIntersightSecurityUnit#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#rn DataIntersightSecurityUnit#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#serial DataIntersightSecurityUnit#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#serial DataIntersightSecurityUnit#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#shared_scope DataIntersightSecurityUnit#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#shared_scope DataIntersightSecurityUnit#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Thermal state of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#thermal DataIntersightSecurityUnit#thermal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#thermal DataIntersightSecurityUnit#thermal}
   */
   readonly thermal?: string;
   /**
   * The unique identifier assigned to the security unit within the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#unit_id DataIntersightSecurityUnit#unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#unit_id DataIntersightSecurityUnit#unit_id}
   */
   readonly unitId?: number;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#vendor DataIntersightSecurityUnit#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#vendor DataIntersightSecurityUnit#vendor}
   */
   readonly vendor?: string;
   /**
   * The vendor identifier of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#vid DataIntersightSecurityUnit#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#vid DataIntersightSecurityUnit#vid}
   */
   readonly vid?: string;
   /**
   * The voltage state of the security unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#voltage DataIntersightSecurityUnit#voltage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#voltage DataIntersightSecurityUnit#voltage}
   */
   readonly voltage?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#ancestors DataIntersightSecurityUnit#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#ancestors DataIntersightSecurityUnit#ancestors}
   */
   readonly ancestors?: DataIntersightSecurityUnitAncestors[] | cdktf.IResolvable;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#compute_board DataIntersightSecurityUnit#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#compute_board DataIntersightSecurityUnit#compute_board}
   */
   readonly computeBoard?: DataIntersightSecurityUnitComputeBoard;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#inventory_device_info DataIntersightSecurityUnit#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#inventory_device_info DataIntersightSecurityUnit#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightSecurityUnitInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#parent DataIntersightSecurityUnit#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#parent DataIntersightSecurityUnit#parent}
   */
   readonly parent?: DataIntersightSecurityUnitParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#permission_resources DataIntersightSecurityUnit#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#permission_resources DataIntersightSecurityUnit#permission_resources}
   */
   readonly permissionResources?: DataIntersightSecurityUnitPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#previous_fru DataIntersightSecurityUnit#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#previous_fru DataIntersightSecurityUnit#previous_fru}
   */
   readonly previousFru?: DataIntersightSecurityUnitPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#registered_device DataIntersightSecurityUnit#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#registered_device DataIntersightSecurityUnit#registered_device}
   */
   readonly registeredDevice?: DataIntersightSecurityUnitRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#tags DataIntersightSecurityUnit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#tags DataIntersightSecurityUnit#tags}
   */
   readonly tags?: DataIntersightSecurityUnitTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#version_context DataIntersightSecurityUnit#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#version_context DataIntersightSecurityUnit#version_context}
   */
   readonly versionContext?: DataIntersightSecurityUnitVersionContext;
 }
@@ -1170,6 +1170,11 @@ export class DataIntersightSecurityUnitResultsTagsOutputReference extends cdktf.
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1772,7 +1777,7 @@ export class DataIntersightSecurityUnitResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSecurityUnitAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1780,19 +1785,19 @@ export interface DataIntersightSecurityUnitAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1805,7 +1810,7 @@ export interface DataIntersightSecurityUnitAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2037,7 +2042,7 @@ export class DataIntersightSecurityUnitAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSecurityUnitComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2045,19 +2050,19 @@ export interface DataIntersightSecurityUnitComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2070,7 +2075,7 @@ export interface DataIntersightSecurityUnitComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2270,7 +2275,7 @@ export class DataIntersightSecurityUnitComputeBoardOutputReference extends cdktf
 }
 export interface DataIntersightSecurityUnitInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2278,19 +2283,19 @@ export interface DataIntersightSecurityUnitInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2303,7 +2308,7 @@ export interface DataIntersightSecurityUnitInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2503,7 +2508,7 @@ export class DataIntersightSecurityUnitInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightSecurityUnitParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2511,19 +2516,19 @@ export interface DataIntersightSecurityUnitParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2536,7 +2541,7 @@ export interface DataIntersightSecurityUnitParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2736,7 +2741,7 @@ export class DataIntersightSecurityUnitParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightSecurityUnitPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2744,19 +2749,19 @@ export interface DataIntersightSecurityUnitPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2769,7 +2774,7 @@ export interface DataIntersightSecurityUnitPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3001,7 +3006,7 @@ export class DataIntersightSecurityUnitPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightSecurityUnitPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3009,19 +3014,19 @@ export interface DataIntersightSecurityUnitPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3034,7 +3039,7 @@ export interface DataIntersightSecurityUnitPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3234,7 +3239,7 @@ export class DataIntersightSecurityUnitPreviousFruOutputReference extends cdktf.
 }
 export interface DataIntersightSecurityUnitRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3242,19 +3247,19 @@ export interface DataIntersightSecurityUnitRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3267,7 +3272,7 @@ export interface DataIntersightSecurityUnitRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3467,7 +3472,7 @@ export class DataIntersightSecurityUnitRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightSecurityUnitTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3475,19 +3480,19 @@ export interface DataIntersightSecurityUnitTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3500,7 +3505,7 @@ export interface DataIntersightSecurityUnitTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3732,7 +3737,7 @@ export class DataIntersightSecurityUnitTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightSecurityUnitTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3740,19 +3745,19 @@ export interface DataIntersightSecurityUnitTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3765,7 +3770,7 @@ export interface DataIntersightSecurityUnitTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3965,45 +3970,51 @@ export class DataIntersightSecurityUnitTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightSecurityUnitTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#key DataIntersightSecurityUnit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#key DataIntersightSecurityUnit#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#propagated DataIntersightSecurityUnit#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#propagated DataIntersightSecurityUnit#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#sys_tag DataIntersightSecurityUnit#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#type DataIntersightSecurityUnit#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#type DataIntersightSecurityUnit#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#value DataIntersightSecurityUnit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#value DataIntersightSecurityUnit#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#ancestor_definitions DataIntersightSecurityUnit#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#ancestor_definitions DataIntersightSecurityUnit#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSecurityUnitTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#definition DataIntersightSecurityUnit#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#definition DataIntersightSecurityUnit#definition}
   */
   readonly definition?: DataIntersightSecurityUnitTagsDefinition;
 }
@@ -4017,6 +4028,7 @@ export function dataIntersightSecurityUnitTagsToTerraform(struct?: DataIntersigh
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSecurityUnitTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4045,6 +4057,12 @@ export function dataIntersightSecurityUnitTagsToHclTerraform(struct?: DataInters
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4111,6 +4129,10 @@ export class DataIntersightSecurityUnitTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4137,6 +4159,7 @@ export class DataIntersightSecurityUnitTagsOutputReference extends cdktf.Complex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4152,6 +4175,7 @@ export class DataIntersightSecurityUnitTagsOutputReference extends cdktf.Complex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4205,6 +4229,22 @@ export class DataIntersightSecurityUnitTagsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4293,7 +4333,7 @@ export class DataIntersightSecurityUnitTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSecurityUnitVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4301,19 +4341,19 @@ export interface DataIntersightSecurityUnitVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4326,7 +4366,7 @@ export interface DataIntersightSecurityUnitVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4558,7 +4598,7 @@ export class DataIntersightSecurityUnitVersionContextInterestedMosList extends c
 }
 export interface DataIntersightSecurityUnitVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4566,19 +4606,19 @@ export interface DataIntersightSecurityUnitVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#moid DataIntersightSecurityUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4591,7 +4631,7 @@ export interface DataIntersightSecurityUnitVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#selector DataIntersightSecurityUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4791,7 +4831,7 @@ export class DataIntersightSecurityUnitVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightSecurityUnitVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#additional_properties DataIntersightSecurityUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4799,32 +4839,32 @@ export interface DataIntersightSecurityUnitVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#class_id DataIntersightSecurityUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#marked_for_deletion DataIntersightSecurityUnit#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#marked_for_deletion DataIntersightSecurityUnit#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#nr_version DataIntersightSecurityUnit#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#nr_version DataIntersightSecurityUnit#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#object_type DataIntersightSecurityUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#timestamp DataIntersightSecurityUnit#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#timestamp DataIntersightSecurityUnit#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4835,19 +4875,19 @@ export interface DataIntersightSecurityUnitVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#version_type DataIntersightSecurityUnit#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#version_type DataIntersightSecurityUnit#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#interested_mos DataIntersightSecurityUnit#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#interested_mos DataIntersightSecurityUnit#interested_mos}
   */
   readonly interestedMos?: DataIntersightSecurityUnitVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#ref_mo DataIntersightSecurityUnit#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#ref_mo DataIntersightSecurityUnit#ref_mo}
   */
   readonly refMo?: DataIntersightSecurityUnitVersionContextRefMo;
 }
@@ -5163,7 +5203,7 @@ export class DataIntersightSecurityUnitVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit intersight_security_unit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit intersight_security_unit}
 */
 export class DataIntersightSecurityUnit extends cdktf.TerraformDataSource {
 
@@ -5179,7 +5219,7 @@ export class DataIntersightSecurityUnit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSecurityUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSecurityUnit to import
-  * @param importFromId The id of the existing DataIntersightSecurityUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSecurityUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSecurityUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5191,7 +5231,7 @@ export class DataIntersightSecurityUnit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/security_unit intersight_security_unit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/security_unit intersight_security_unit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5202,8 +5242,8 @@ export class DataIntersightSecurityUnit extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_security_unit',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

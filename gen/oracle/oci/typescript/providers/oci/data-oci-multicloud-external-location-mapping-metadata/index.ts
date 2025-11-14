@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudExternalLocationMappingMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#compartment_id DataOciMulticloudExternalLocationMappingMetadata#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#compartment_id DataOciMulticloudExternalLocationMappingMetadata#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#id DataOciMulticloudExternalLocationMappingMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#id DataOciMulticloudExternalLocationMappingMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#limit DataOciMulticloudExternalLocationMappingMetadata#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#limit DataOciMulticloudExternalLocationMappingMetadata#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_id DataOciMulticloudExternalLocationMappingMetadata#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_id DataOciMulticloudExternalLocationMappingMetadata#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_service_name DataOciMulticloudExternalLocationMappingMetadata#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_service_name DataOciMulticloudExternalLocationMappingMetadata#subscription_service_name}
   */
   readonly subscriptionServiceName: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#filter DataOciMulticloudExternalLocationMappingMetadata#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#filter DataOciMulticloudExternalLocationMappingMetadata#filter}
   */
   readonly filter?: DataOciMulticloudExternalLocationMappingMetadataFilter[] | cdktf.IResolvable;
 }
@@ -319,15 +319,15 @@ export class DataOciMulticloudExternalLocationMappingMetadataExternalLocationMap
 }
 export interface DataOciMulticloudExternalLocationMappingMetadataFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#name DataOciMulticloudExternalLocationMappingMetadata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#name DataOciMulticloudExternalLocationMappingMetadata#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#regex DataOciMulticloudExternalLocationMappingMetadata#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#regex DataOciMulticloudExternalLocationMappingMetadata#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#values DataOciMulticloudExternalLocationMappingMetadata#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#values DataOciMulticloudExternalLocationMappingMetadata#values}
   */
   readonly values: string[];
 }
@@ -495,7 +495,7 @@ export class DataOciMulticloudExternalLocationMappingMetadataFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata oci_multicloud_external_location_mapping_metadata}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata oci_multicloud_external_location_mapping_metadata}
 */
 export class DataOciMulticloudExternalLocationMappingMetadata extends cdktf.TerraformDataSource {
 
@@ -511,7 +511,7 @@ export class DataOciMulticloudExternalLocationMappingMetadata extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciMulticloudExternalLocationMappingMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudExternalLocationMappingMetadata to import
-  * @param importFromId The id of the existing DataOciMulticloudExternalLocationMappingMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudExternalLocationMappingMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudExternalLocationMappingMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class DataOciMulticloudExternalLocationMappingMetadata extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/multicloud_external_location_mapping_metadata oci_multicloud_external_location_mapping_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/multicloud_external_location_mapping_metadata oci_multicloud_external_location_mapping_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class DataOciMulticloudExternalLocationMappingMetadata extends cdktf.Terr
       terraformResourceType: 'oci_multicloud_external_location_mapping_metadata',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

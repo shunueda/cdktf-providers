@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DbaasParametersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters#name DbaasParameters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters#name DbaasParameters#name}
   */
   readonly name: string;
   /**
   * ID of the parameter group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters#parameter_group_id DbaasParameters#parameter_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters#parameter_group_id DbaasParameters#parameter_group_id}
   */
   readonly parameterGroupId: string;
   /**
   * Value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters#value DbaasParameters#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters#value DbaasParameters#value}
   */
   readonly value: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters mgc_dbaas_parameters}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters mgc_dbaas_parameters}
 */
 export class DbaasParameters extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DbaasParameters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasParameters to import
-  * @param importFromId The id of the existing DbaasParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DbaasParameters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/dbaas_parameters mgc_dbaas_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/dbaas_parameters mgc_dbaas_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DbaasParameters extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_dbaas_parameters',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

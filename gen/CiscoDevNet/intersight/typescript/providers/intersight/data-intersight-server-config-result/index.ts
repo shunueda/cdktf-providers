@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightServerConfigResultConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#account_moid DataIntersightServerConfigResult#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#account_moid DataIntersightServerConfigResult#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightServerConfigResultConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The current running stage of the configuration or workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#config_stage DataIntersightServerConfigResult#config_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#config_stage DataIntersightServerConfigResult#config_stage}
   */
   readonly configStage?: string;
   /**
   * Indicates overall configuration state for applying the configuration to the end point. Values  -- Ok, Ok-with-warning, Errored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#config_state DataIntersightServerConfigResult#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#config_state DataIntersightServerConfigResult#config_state}
   */
   readonly configState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#create_time DataIntersightServerConfigResult#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#create_time DataIntersightServerConfigResult#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#domain_group_moid DataIntersightServerConfigResult#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#domain_group_moid DataIntersightServerConfigResult#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#id DataIntersightServerConfigResult#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#id DataIntersightServerConfigResult#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightServerConfigResultConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#mod_time DataIntersightServerConfigResult#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#mod_time DataIntersightServerConfigResult#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#owners DataIntersightServerConfigResult#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#owners DataIntersightServerConfigResult#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#shared_scope DataIntersightServerConfigResult#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#shared_scope DataIntersightServerConfigResult#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Indicates overall state for logical model validation. Values  -- Ok, Ok-with-warning, Errored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#validation_state DataIntersightServerConfigResult#validation_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#validation_state DataIntersightServerConfigResult#validation_state}
   */
   readonly validationState?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#ancestors DataIntersightServerConfigResult#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#ancestors DataIntersightServerConfigResult#ancestors}
   */
   readonly ancestors?: DataIntersightServerConfigResultAncestors[] | cdktf.IResolvable;
   /**
   * applied_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#applied_policies DataIntersightServerConfigResult#applied_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#applied_policies DataIntersightServerConfigResult#applied_policies}
   */
   readonly appliedPolicies?: DataIntersightServerConfigResultAppliedPolicies[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#parent DataIntersightServerConfigResult#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#parent DataIntersightServerConfigResult#parent}
   */
   readonly parent?: DataIntersightServerConfigResultParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#permission_resources DataIntersightServerConfigResult#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#permission_resources DataIntersightServerConfigResult#permission_resources}
   */
   readonly permissionResources?: DataIntersightServerConfigResultPermissionResources[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#profile DataIntersightServerConfigResult#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#profile DataIntersightServerConfigResult#profile}
   */
   readonly profile?: DataIntersightServerConfigResultProfile;
   /**
   * result_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#result_entries DataIntersightServerConfigResult#result_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#result_entries DataIntersightServerConfigResult#result_entries}
   */
   readonly resultEntries?: DataIntersightServerConfigResultResultEntries[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#tags DataIntersightServerConfigResult#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#tags DataIntersightServerConfigResult#tags}
   */
   readonly tags?: DataIntersightServerConfigResultTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#version_context DataIntersightServerConfigResult#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#version_context DataIntersightServerConfigResult#version_context}
   */
   readonly versionContext?: DataIntersightServerConfigResultVersionContext;
 }
@@ -1095,6 +1095,11 @@ export class DataIntersightServerConfigResultResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1616,7 +1621,7 @@ export class DataIntersightServerConfigResultResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightServerConfigResultAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1624,19 +1629,19 @@ export interface DataIntersightServerConfigResultAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1649,7 +1654,7 @@ export interface DataIntersightServerConfigResultAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -1881,7 +1886,7 @@ export class DataIntersightServerConfigResultAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightServerConfigResultAppliedPoliciesErrorMessages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1889,26 +1894,26 @@ export interface DataIntersightServerConfigResultAppliedPoliciesErrorMessages {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * Localized message based on the locale setting of the user's context giving the policy error description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#message DataIntersightServerConfigResult#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#message DataIntersightServerConfigResult#message}
   */
   readonly message?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
   * Sync operation for the sync source object has an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#sync_source DataIntersightServerConfigResult#sync_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#sync_source DataIntersightServerConfigResult#sync_source}
   */
   readonly syncSource?: string;
   /**
@@ -1921,7 +1926,7 @@ export interface DataIntersightServerConfigResultAppliedPoliciesErrorMessages {
   * * `licenseErr` - Policy specific license enforcement failed. For example, Cos property in EthernetQoS policy which is a subpolicyof LanConnectivityPolicy requires Advantage License. But if the server attached to the Server Profile does not have anAdvantage License then the license enforcement check would fail during LanConnectivityPolicy validation.
   * * `configSyncErr` - Policy sync with the template failed. For example, it's possible that the vNIC macpool configuration assigned to the template does not have enough free addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
   */
   readonly type?: string;
 }
@@ -2182,7 +2187,7 @@ export class DataIntersightServerConfigResultAppliedPoliciesErrorMessagesList ex
 }
 export interface DataIntersightServerConfigResultAppliedPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2190,26 +2195,26 @@ export interface DataIntersightServerConfigResultAppliedPolicies {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The object identifier of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
   * The reason for the status - it will be empty if status is ok or validating. If error, it will have the appropriate message indicating the reason for failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#reason DataIntersightServerConfigResult#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#reason DataIntersightServerConfigResult#reason}
   */
   readonly reason?: string;
   /**
@@ -2218,19 +2223,19 @@ export interface DataIntersightServerConfigResultAppliedPolicies {
   * * `error` - The policy association or validation has failed.
   * * `validating` - The policy association or validation is in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#status DataIntersightServerConfigResult#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#status DataIntersightServerConfigResult#status}
   */
   readonly status?: string;
   /**
   * The object type of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
   */
   readonly type?: string;
   /**
   * error_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#error_messages DataIntersightServerConfigResult#error_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#error_messages DataIntersightServerConfigResult#error_messages}
   */
   readonly errorMessages?: DataIntersightServerConfigResultAppliedPoliciesErrorMessages[] | cdktf.IResolvable;
 }
@@ -2549,7 +2554,7 @@ export class DataIntersightServerConfigResultAppliedPoliciesList extends cdktf.C
 }
 export interface DataIntersightServerConfigResultParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2557,19 +2562,19 @@ export interface DataIntersightServerConfigResultParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2582,7 +2587,7 @@ export interface DataIntersightServerConfigResultParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -2782,7 +2787,7 @@ export class DataIntersightServerConfigResultParentOutputReference extends cdktf
 }
 export interface DataIntersightServerConfigResultPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2790,19 +2795,19 @@ export interface DataIntersightServerConfigResultPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2815,7 +2820,7 @@ export interface DataIntersightServerConfigResultPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -3047,7 +3052,7 @@ export class DataIntersightServerConfigResultPermissionResourcesList extends cdk
 }
 export interface DataIntersightServerConfigResultProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3055,19 +3060,19 @@ export interface DataIntersightServerConfigResultProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3080,7 +3085,7 @@ export interface DataIntersightServerConfigResultProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -3280,7 +3285,7 @@ export class DataIntersightServerConfigResultProfileOutputReference extends cdkt
 }
 export interface DataIntersightServerConfigResultResultEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3288,19 +3293,19 @@ export interface DataIntersightServerConfigResultResultEntries {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3313,7 +3318,7 @@ export interface DataIntersightServerConfigResultResultEntries {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -3545,7 +3550,7 @@ export class DataIntersightServerConfigResultResultEntriesList extends cdktf.Com
 }
 export interface DataIntersightServerConfigResultTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3553,19 +3558,19 @@ export interface DataIntersightServerConfigResultTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3578,7 +3583,7 @@ export interface DataIntersightServerConfigResultTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -3810,7 +3815,7 @@ export class DataIntersightServerConfigResultTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightServerConfigResultTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3818,19 +3823,19 @@ export interface DataIntersightServerConfigResultTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3843,7 +3848,7 @@ export interface DataIntersightServerConfigResultTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -4043,45 +4048,51 @@ export class DataIntersightServerConfigResultTagsDefinitionOutputReference exten
 }
 export interface DataIntersightServerConfigResultTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#key DataIntersightServerConfigResult#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#key DataIntersightServerConfigResult#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#propagated DataIntersightServerConfigResult#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#propagated DataIntersightServerConfigResult#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#sys_tag DataIntersightServerConfigResult#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#type DataIntersightServerConfigResult#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#value DataIntersightServerConfigResult#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#value DataIntersightServerConfigResult#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#ancestor_definitions DataIntersightServerConfigResult#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#ancestor_definitions DataIntersightServerConfigResult#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightServerConfigResultTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#definition DataIntersightServerConfigResult#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#definition DataIntersightServerConfigResult#definition}
   */
   readonly definition?: DataIntersightServerConfigResultTagsDefinition;
 }
@@ -4095,6 +4106,7 @@ export function dataIntersightServerConfigResultTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightServerConfigResultTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4123,6 +4135,12 @@ export function dataIntersightServerConfigResultTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4189,6 +4207,10 @@ export class DataIntersightServerConfigResultTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4215,6 +4237,7 @@ export class DataIntersightServerConfigResultTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4230,6 +4253,7 @@ export class DataIntersightServerConfigResultTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4283,6 +4307,22 @@ export class DataIntersightServerConfigResultTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4371,7 +4411,7 @@ export class DataIntersightServerConfigResultTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightServerConfigResultVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4379,19 +4419,19 @@ export interface DataIntersightServerConfigResultVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4404,7 +4444,7 @@ export interface DataIntersightServerConfigResultVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -4636,7 +4676,7 @@ export class DataIntersightServerConfigResultVersionContextInterestedMosList ext
 }
 export interface DataIntersightServerConfigResultVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4644,19 +4684,19 @@ export interface DataIntersightServerConfigResultVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#moid DataIntersightServerConfigResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4669,7 +4709,7 @@ export interface DataIntersightServerConfigResultVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#selector DataIntersightServerConfigResult#selector}
   */
   readonly selector?: string;
 }
@@ -4869,7 +4909,7 @@ export class DataIntersightServerConfigResultVersionContextRefMoOutputReference 
 }
 export interface DataIntersightServerConfigResultVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#additional_properties DataIntersightServerConfigResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4877,32 +4917,32 @@ export interface DataIntersightServerConfigResultVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#class_id DataIntersightServerConfigResult#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#marked_for_deletion DataIntersightServerConfigResult#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#marked_for_deletion DataIntersightServerConfigResult#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#nr_version DataIntersightServerConfigResult#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#nr_version DataIntersightServerConfigResult#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#object_type DataIntersightServerConfigResult#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#timestamp DataIntersightServerConfigResult#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#timestamp DataIntersightServerConfigResult#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4913,19 +4953,19 @@ export interface DataIntersightServerConfigResultVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#version_type DataIntersightServerConfigResult#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#version_type DataIntersightServerConfigResult#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#interested_mos DataIntersightServerConfigResult#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#interested_mos DataIntersightServerConfigResult#interested_mos}
   */
   readonly interestedMos?: DataIntersightServerConfigResultVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#ref_mo DataIntersightServerConfigResult#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#ref_mo DataIntersightServerConfigResult#ref_mo}
   */
   readonly refMo?: DataIntersightServerConfigResultVersionContextRefMo;
 }
@@ -5241,7 +5281,7 @@ export class DataIntersightServerConfigResultVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result intersight_server_config_result}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result intersight_server_config_result}
 */
 export class DataIntersightServerConfigResult extends cdktf.TerraformDataSource {
 
@@ -5257,7 +5297,7 @@ export class DataIntersightServerConfigResult extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightServerConfigResult resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightServerConfigResult to import
-  * @param importFromId The id of the existing DataIntersightServerConfigResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightServerConfigResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightServerConfigResult to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5269,7 +5309,7 @@ export class DataIntersightServerConfigResult extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/server_config_result intersight_server_config_result} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_result intersight_server_config_result} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5280,8 +5320,8 @@ export class DataIntersightServerConfigResult extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_server_config_result',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DeployTemplatesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#cluster_reference DeployTemplatesV2#cluster_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#cluster_reference DeployTemplatesV2#cluster_reference}
   */
   readonly clusterReference: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#id DeployTemplatesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#id DeployTemplatesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#number_of_vms DeployTemplatesV2#number_of_vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#number_of_vms DeployTemplatesV2#number_of_vms}
   */
   readonly numberOfVms: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#version_id DeployTemplatesV2#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#version_id DeployTemplatesV2#version_id}
   */
   readonly versionId?: string;
   /**
   * override_vm_config_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#override_vm_config_map DeployTemplatesV2#override_vm_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#override_vm_config_map DeployTemplatesV2#override_vm_config_map}
   */
   readonly overrideVmConfigMap?: DeployTemplatesV2OverrideVmConfigMap[] | cdktf.IResolvable;
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#map DeployTemplatesV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#map DeployTemplatesV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -155,33 +155,33 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudIn
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#boolean DeployTemplatesV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#boolean DeployTemplatesV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#integer DeployTemplatesV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#integer DeployTemplatesV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#integer_list DeployTemplatesV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#integer_list DeployTemplatesV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#object DeployTemplatesV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#object DeployTemplatesV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#string DeployTemplatesV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#string DeployTemplatesV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#string_list DeployTemplatesV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#string_list DeployTemplatesV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#map_of_strings DeployTemplatesV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#map_of_strings DeployTemplatesV2#map_of_strings}
   */
   readonly mapOfStrings?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -471,13 +471,13 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudIn
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -624,7 +624,7 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigClo
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#key_value_pairs DeployTemplatesV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#key_value_pairs DeployTemplatesV2#key_value_pairs}
   */
   readonly keyValuePairs?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -740,7 +740,7 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudIn
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value?: string;
 }
@@ -858,13 +858,13 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigClo
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#custom_key_values DeployTemplatesV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#custom_key_values DeployTemplatesV2#custom_key_values}
   */
   readonly customKeyValues?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#user_data DeployTemplatesV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#user_data DeployTemplatesV2#user_data}
   */
   readonly userData?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -1009,17 +1009,17 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudIn
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#datasource_type DeployTemplatesV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#datasource_type DeployTemplatesV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#metadata DeployTemplatesV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#metadata DeployTemplatesV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#cloud_init_script DeployTemplatesV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#cloud_init_script DeployTemplatesV2#cloud_init_script}
   */
   readonly cloudInitScript?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInitCloudInitScript[] | cdktf.IResolvable;
 }
@@ -1193,7 +1193,7 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudIn
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#map DeployTemplatesV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#map DeployTemplatesV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -1309,33 +1309,33 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#boolean DeployTemplatesV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#boolean DeployTemplatesV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#integer DeployTemplatesV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#integer DeployTemplatesV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#integer_list DeployTemplatesV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#integer_list DeployTemplatesV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#object DeployTemplatesV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#object DeployTemplatesV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#string DeployTemplatesV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#string DeployTemplatesV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#string_list DeployTemplatesV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#string_list DeployTemplatesV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#map_of_strings DeployTemplatesV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#map_of_strings DeployTemplatesV2#map_of_strings}
   */
   readonly mapOfStrings?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -1625,13 +1625,13 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -1778,7 +1778,7 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSys
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#key_value_pairs DeployTemplatesV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#key_value_pairs DeployTemplatesV2#key_value_pairs}
   */
   readonly keyValuePairs?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -1894,7 +1894,7 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptUnattendXml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value: string;
 }
@@ -2009,13 +2009,13 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSys
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#custom_key_values DeployTemplatesV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#custom_key_values DeployTemplatesV2#custom_key_values}
   */
   readonly customKeyValues?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * unattend_xml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#unattend_xml DeployTemplatesV2#unattend_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#unattend_xml DeployTemplatesV2#unattend_xml}
   */
   readonly unattendXml?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScriptUnattendXml[] | cdktf.IResolvable;
 }
@@ -2160,13 +2160,13 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep
 }
 export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#install_type DeployTemplatesV2#install_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#install_type DeployTemplatesV2#install_type}
   */
   readonly installType?: string;
   /**
   * sysprep_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#sysprep_script DeployTemplatesV2#sysprep_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#sysprep_script DeployTemplatesV2#sysprep_script}
   */
   readonly sysprepScript?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprepSysprepScript[] | cdktf.IResolvable;
 }
@@ -2313,13 +2313,13 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfig {
   /**
   * cloud_init block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#cloud_init DeployTemplatesV2#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#cloud_init DeployTemplatesV2#cloud_init}
   */
   readonly cloudInit?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigCloudInit[] | cdktf.IResolvable;
   /**
   * sysprep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#sysprep DeployTemplatesV2#sysprep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#sysprep DeployTemplatesV2#sysprep}
   */
   readonly sysprep?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfigSysprep[] | cdktf.IResolvable;
 }
@@ -2466,7 +2466,7 @@ export interface DeployTemplatesV2OverrideVmConfigMapGuestCustomization {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#config DeployTemplatesV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#config DeployTemplatesV2#config}
   */
   readonly config?: DeployTemplatesV2OverrideVmConfigMapGuestCustomizationConfig[] | cdktf.IResolvable;
 }
@@ -2582,19 +2582,19 @@ export class DeployTemplatesV2OverrideVmConfigMapGuestCustomizationList extends 
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsBackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#is_connected DeployTemplatesV2#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#is_connected DeployTemplatesV2#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#mac_address DeployTemplatesV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#mac_address DeployTemplatesV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#model DeployTemplatesV2#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#model DeployTemplatesV2#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#num_queues DeployTemplatesV2#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#num_queues DeployTemplatesV2#num_queues}
   */
   readonly numQueues?: number;
 }
@@ -2797,11 +2797,11 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsBackingInfoList extends cdk
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value?: string;
 }
@@ -2946,11 +2946,11 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigIpAddr
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value?: string;
 }
@@ -3095,19 +3095,19 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigSecond
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#should_assign_ip DeployTemplatesV2#should_assign_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#should_assign_ip DeployTemplatesV2#should_assign_ip}
   */
   readonly shouldAssignIp?: boolean | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ip_address DeployTemplatesV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ip_address DeployTemplatesV2#ip_address}
   */
   readonly ipAddress?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigIpAddress[] | cdktf.IResolvable;
   /**
   * secondary_ip_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#secondary_ip_address_list DeployTemplatesV2#secondary_ip_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#secondary_ip_address_list DeployTemplatesV2#secondary_ip_address_list}
   */
   readonly secondaryIpAddressList?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct[] | cdktf.IResolvable;
 }
@@ -3281,11 +3281,11 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4ConfigList e
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4InfoLearnedIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#prefix_length DeployTemplatesV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#value DeployTemplatesV2#value}
   */
   readonly value: string;
 }
@@ -3429,7 +3429,7 @@ export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4Info {
   /**
   * learned_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#learned_ip_addresses DeployTemplatesV2#learned_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#learned_ip_addresses DeployTemplatesV2#learned_ip_addresses}
   */
   readonly learnedIpAddresses?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4InfoLearnedIpAddresses[] | cdktf.IResolvable;
 }
@@ -3545,7 +3545,7 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4InfoList ext
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoNetworkFunctionChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -3661,7 +3661,7 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoNetworkFunctionC
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ext_id DeployTemplatesV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -3777,47 +3777,47 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoSubnetList exten
 }
 export interface DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#network_function_nic_type DeployTemplatesV2#network_function_nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#network_function_nic_type DeployTemplatesV2#network_function_nic_type}
   */
   readonly networkFunctionNicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#nic_type DeployTemplatesV2#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#nic_type DeployTemplatesV2#nic_type}
   */
   readonly nicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#should_allow_unknown_macs DeployTemplatesV2#should_allow_unknown_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#should_allow_unknown_macs DeployTemplatesV2#should_allow_unknown_macs}
   */
   readonly shouldAllowUnknownMacs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#trunked_vlans DeployTemplatesV2#trunked_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#trunked_vlans DeployTemplatesV2#trunked_vlans}
   */
   readonly trunkedVlans?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#vlan_mode DeployTemplatesV2#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#vlan_mode DeployTemplatesV2#vlan_mode}
   */
   readonly vlanMode?: string;
   /**
   * ipv4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ipv4_config DeployTemplatesV2#ipv4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ipv4_config DeployTemplatesV2#ipv4_config}
   */
   readonly ipv4Config?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4Config[] | cdktf.IResolvable;
   /**
   * ipv4_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#ipv4_info DeployTemplatesV2#ipv4_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#ipv4_info DeployTemplatesV2#ipv4_info}
   */
   readonly ipv4Info?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoIpv4Info[] | cdktf.IResolvable;
   /**
   * network_function_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#network_function_chain DeployTemplatesV2#network_function_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#network_function_chain DeployTemplatesV2#network_function_chain}
   */
   readonly networkFunctionChain?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoNetworkFunctionChain[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#subnet DeployTemplatesV2#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#subnet DeployTemplatesV2#subnet}
   */
   readonly subnet?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfoSubnet[] | cdktf.IResolvable;
 }
@@ -4167,13 +4167,13 @@ export interface DeployTemplatesV2OverrideVmConfigMapNics {
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#backing_info DeployTemplatesV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#backing_info DeployTemplatesV2#backing_info}
   */
   readonly backingInfo?: DeployTemplatesV2OverrideVmConfigMapNicsBackingInfo[] | cdktf.IResolvable;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#network_info DeployTemplatesV2#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#network_info DeployTemplatesV2#network_info}
   */
   readonly networkInfo?: DeployTemplatesV2OverrideVmConfigMapNicsNetworkInfo[] | cdktf.IResolvable;
 }
@@ -4323,35 +4323,35 @@ export class DeployTemplatesV2OverrideVmConfigMapNicsList extends cdktf.ComplexL
 }
 export interface DeployTemplatesV2OverrideVmConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#memory_size_bytes DeployTemplatesV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#memory_size_bytes DeployTemplatesV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#name DeployTemplatesV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#num_cores_per_socket DeployTemplatesV2#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#num_cores_per_socket DeployTemplatesV2#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#num_sockets DeployTemplatesV2#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#num_sockets DeployTemplatesV2#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#num_threads_per_core DeployTemplatesV2#num_threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#num_threads_per_core DeployTemplatesV2#num_threads_per_core}
   */
   readonly numThreadsPerCore?: number;
   /**
   * guest_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#guest_customization DeployTemplatesV2#guest_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#guest_customization DeployTemplatesV2#guest_customization}
   */
   readonly guestCustomization?: DeployTemplatesV2OverrideVmConfigMapGuestCustomization[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#nics DeployTemplatesV2#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#nics DeployTemplatesV2#nics}
   */
   readonly nics?: DeployTemplatesV2OverrideVmConfigMapNics[] | cdktf.IResolvable;
 }
@@ -4641,7 +4641,7 @@ export class DeployTemplatesV2OverrideVmConfigMapList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2 nutanix_deploy_templates_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2 nutanix_deploy_templates_v2}
 */
 export class DeployTemplatesV2 extends cdktf.TerraformResource {
 
@@ -4657,7 +4657,7 @@ export class DeployTemplatesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeployTemplatesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeployTemplatesV2 to import
-  * @param importFromId The id of the existing DeployTemplatesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeployTemplatesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeployTemplatesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4669,7 +4669,7 @@ export class DeployTemplatesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/deploy_templates_v2 nutanix_deploy_templates_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/deploy_templates_v2 nutanix_deploy_templates_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4680,8 +4680,8 @@ export class DeployTemplatesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_deploy_templates_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

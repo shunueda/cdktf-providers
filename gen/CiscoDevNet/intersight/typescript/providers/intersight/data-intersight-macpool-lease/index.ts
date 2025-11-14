@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightMacpoolLeaseConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#account_moid DataIntersightMacpoolLease#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#account_moid DataIntersightMacpoolLease#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightMacpoolLeaseConfig extends cdktf.TerraformMetaArg
   * * `dynamic` - Identifiers to be allocated by system.
   * * `static` - Identifiers are assigned by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#allocation_type DataIntersightMacpoolLease#allocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#allocation_type DataIntersightMacpoolLease#allocation_type}
   */
   readonly allocationType?: string;
   /**
@@ -30,29 +30,29 @@ export interface DataIntersightMacpoolLeaseConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#create_time DataIntersightMacpoolLease#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#create_time DataIntersightMacpoolLease#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#domain_group_moid DataIntersightMacpoolLease#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#domain_group_moid DataIntersightMacpoolLease#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HasDuplicate represents if there are other pools in which this id exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#has_duplicate DataIntersightMacpoolLease#has_duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#has_duplicate DataIntersightMacpoolLease#has_duplicate}
   */
   readonly hasDuplicate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#id DataIntersightMacpoolLease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#id DataIntersightMacpoolLease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,109 +61,109 @@ export interface DataIntersightMacpoolLeaseConfig extends cdktf.TerraformMetaArg
   /**
   * MAC address allocated for pool-based allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#mac_address DataIntersightMacpoolLease#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#mac_address DataIntersightMacpoolLease#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The migration capability is applicable only for dynamic lease requests and it works in conjunction with  preferred ID. If there is an existing dynamic or static lease that matches the preferred ID, that existing  lease will be migrated to the current pool. That means the existing lease will be deleted and a new lease  will be created in the pool. If there is a reservation exists that matches with preferred ID, that  reservation will be kept as is and next available ID from the pool will be leased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#migrate DataIntersightMacpoolLease#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#migrate DataIntersightMacpoolLease#migrate}
   */
   readonly migrate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#mod_time DataIntersightMacpoolLease#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#mod_time DataIntersightMacpoolLease#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#owners DataIntersightMacpoolLease#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#owners DataIntersightMacpoolLease#owners}
   */
   readonly owners?: string[];
   /**
   * The preferred MAC address can be specified only for dynamic lease requests. Intersight will make its best  effort to allocate that MAC address if it is available in the pool. If the specified preferred MAC address  is not in the range of the pool or if it is already leased or reserved, then the next available MAC address  from the pool will be leased. Since this feature is specific to dynamic lease requests only, static lease  request will fail if it specifies the preferred MAC address property. When the preferred MAC address  property is specified in conjunction with 'migrate' property, existing static or dynamic lease will be  replaced by the new lease. Migration also supported only for dynamic lease requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#preferred_mac_address DataIntersightMacpoolLease#preferred_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#preferred_mac_address DataIntersightMacpoolLease#preferred_mac_address}
   */
   readonly preferredMacAddress?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#shared_scope DataIntersightMacpoolLease#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#shared_scope DataIntersightMacpoolLease#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#ancestors DataIntersightMacpoolLease#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#ancestors DataIntersightMacpoolLease#ancestors}
   */
   readonly ancestors?: DataIntersightMacpoolLeaseAncestors[] | cdktf.IResolvable;
   /**
   * assigned_to_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#assigned_to_entity DataIntersightMacpoolLease#assigned_to_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#assigned_to_entity DataIntersightMacpoolLease#assigned_to_entity}
   */
   readonly assignedToEntity?: DataIntersightMacpoolLeaseAssignedToEntity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#parent DataIntersightMacpoolLease#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#parent DataIntersightMacpoolLease#parent}
   */
   readonly parent?: DataIntersightMacpoolLeaseParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#permission_resources DataIntersightMacpoolLease#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#permission_resources DataIntersightMacpoolLease#permission_resources}
   */
   readonly permissionResources?: DataIntersightMacpoolLeasePermissionResources[] | cdktf.IResolvable;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#pool DataIntersightMacpoolLease#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#pool DataIntersightMacpoolLease#pool}
   */
   readonly pool?: DataIntersightMacpoolLeasePool;
   /**
   * pool_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#pool_member DataIntersightMacpoolLease#pool_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#pool_member DataIntersightMacpoolLease#pool_member}
   */
   readonly poolMember?: DataIntersightMacpoolLeasePoolMember;
   /**
   * reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#reservation DataIntersightMacpoolLease#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#reservation DataIntersightMacpoolLease#reservation}
   */
   readonly reservation?: DataIntersightMacpoolLeaseReservation;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#tags DataIntersightMacpoolLease#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#tags DataIntersightMacpoolLease#tags}
   */
   readonly tags?: DataIntersightMacpoolLeaseTags[] | cdktf.IResolvable;
   /**
   * universe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#universe DataIntersightMacpoolLease#universe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#universe DataIntersightMacpoolLease#universe}
   */
   readonly universe?: DataIntersightMacpoolLeaseUniverse;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#version_context DataIntersightMacpoolLease#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#version_context DataIntersightMacpoolLease#version_context}
   */
   readonly versionContext?: DataIntersightMacpoolLeaseVersionContext;
 }
@@ -1105,6 +1105,11 @@ export class DataIntersightMacpoolLeaseResultsTagsOutputReference extends cdktf.
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1743,7 +1748,7 @@ export class DataIntersightMacpoolLeaseResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMacpoolLeaseAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1751,19 +1756,19 @@ export interface DataIntersightMacpoolLeaseAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1776,7 +1781,7 @@ export interface DataIntersightMacpoolLeaseAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2008,7 +2013,7 @@ export class DataIntersightMacpoolLeaseAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMacpoolLeaseAssignedToEntity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2016,19 +2021,19 @@ export interface DataIntersightMacpoolLeaseAssignedToEntity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2041,7 +2046,7 @@ export interface DataIntersightMacpoolLeaseAssignedToEntity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2241,7 +2246,7 @@ export class DataIntersightMacpoolLeaseAssignedToEntityOutputReference extends c
 }
 export interface DataIntersightMacpoolLeaseParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2249,19 +2254,19 @@ export interface DataIntersightMacpoolLeaseParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2274,7 +2279,7 @@ export interface DataIntersightMacpoolLeaseParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2474,7 +2479,7 @@ export class DataIntersightMacpoolLeaseParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightMacpoolLeasePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2482,19 +2487,19 @@ export interface DataIntersightMacpoolLeasePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2507,7 +2512,7 @@ export interface DataIntersightMacpoolLeasePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2739,7 +2744,7 @@ export class DataIntersightMacpoolLeasePermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightMacpoolLeasePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2747,19 +2752,19 @@ export interface DataIntersightMacpoolLeasePool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2772,7 +2777,7 @@ export interface DataIntersightMacpoolLeasePool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2972,7 +2977,7 @@ export class DataIntersightMacpoolLeasePoolOutputReference extends cdktf.Complex
 }
 export interface DataIntersightMacpoolLeasePoolMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2980,19 +2985,19 @@ export interface DataIntersightMacpoolLeasePoolMember {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3005,7 +3010,7 @@ export interface DataIntersightMacpoolLeasePoolMember {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3205,7 +3210,7 @@ export class DataIntersightMacpoolLeasePoolMemberOutputReference extends cdktf.C
 }
 export interface DataIntersightMacpoolLeaseReservation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3213,33 +3218,33 @@ export interface DataIntersightMacpoolLeaseReservation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The consumer name for which the reserved MAC would be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#consumer_name DataIntersightMacpoolLease#consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#consumer_name DataIntersightMacpoolLease#consumer_name}
   */
   readonly consumerName?: string;
   /**
   * The consumer type for which the reserved MAC would be used.
   * * `Vnic` - MAC reservation would be used by VNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#consumer_type DataIntersightMacpoolLease#consumer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#consumer_type DataIntersightMacpoolLease#consumer_type}
   */
   readonly consumerType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
   * The moid of the reservation object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#reservation_moid DataIntersightMacpoolLease#reservation_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#reservation_moid DataIntersightMacpoolLease#reservation_moid}
   */
   readonly reservationMoid?: string;
 }
@@ -3468,7 +3473,7 @@ export class DataIntersightMacpoolLeaseReservationOutputReference extends cdktf.
 }
 export interface DataIntersightMacpoolLeaseTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3476,19 +3481,19 @@ export interface DataIntersightMacpoolLeaseTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3501,7 +3506,7 @@ export interface DataIntersightMacpoolLeaseTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3733,7 +3738,7 @@ export class DataIntersightMacpoolLeaseTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightMacpoolLeaseTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3741,19 +3746,19 @@ export interface DataIntersightMacpoolLeaseTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3766,7 +3771,7 @@ export interface DataIntersightMacpoolLeaseTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3966,45 +3971,51 @@ export class DataIntersightMacpoolLeaseTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightMacpoolLeaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#key DataIntersightMacpoolLease#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#key DataIntersightMacpoolLease#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#propagated DataIntersightMacpoolLease#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#propagated DataIntersightMacpoolLease#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#sys_tag DataIntersightMacpoolLease#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#type DataIntersightMacpoolLease#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#type DataIntersightMacpoolLease#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#value DataIntersightMacpoolLease#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#value DataIntersightMacpoolLease#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#ancestor_definitions DataIntersightMacpoolLease#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#ancestor_definitions DataIntersightMacpoolLease#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMacpoolLeaseTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#definition DataIntersightMacpoolLease#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#definition DataIntersightMacpoolLease#definition}
   */
   readonly definition?: DataIntersightMacpoolLeaseTagsDefinition;
 }
@@ -4018,6 +4029,7 @@ export function dataIntersightMacpoolLeaseTagsToTerraform(struct?: DataIntersigh
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightMacpoolLeaseTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4046,6 +4058,12 @@ export function dataIntersightMacpoolLeaseTagsToHclTerraform(struct?: DataInters
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4112,6 +4130,10 @@ export class DataIntersightMacpoolLeaseTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4138,6 +4160,7 @@ export class DataIntersightMacpoolLeaseTagsOutputReference extends cdktf.Complex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4153,6 +4176,7 @@ export class DataIntersightMacpoolLeaseTagsOutputReference extends cdktf.Complex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4206,6 +4230,22 @@ export class DataIntersightMacpoolLeaseTagsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4294,7 +4334,7 @@ export class DataIntersightMacpoolLeaseTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMacpoolLeaseUniverse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4302,19 +4342,19 @@ export interface DataIntersightMacpoolLeaseUniverse {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4327,7 +4367,7 @@ export interface DataIntersightMacpoolLeaseUniverse {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -4527,7 +4567,7 @@ export class DataIntersightMacpoolLeaseUniverseOutputReference extends cdktf.Com
 }
 export interface DataIntersightMacpoolLeaseVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4535,19 +4575,19 @@ export interface DataIntersightMacpoolLeaseVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4560,7 +4600,7 @@ export interface DataIntersightMacpoolLeaseVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -4792,7 +4832,7 @@ export class DataIntersightMacpoolLeaseVersionContextInterestedMosList extends c
 }
 export interface DataIntersightMacpoolLeaseVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4800,19 +4840,19 @@ export interface DataIntersightMacpoolLeaseVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#moid DataIntersightMacpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4825,7 +4865,7 @@ export interface DataIntersightMacpoolLeaseVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#selector DataIntersightMacpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -5025,7 +5065,7 @@ export class DataIntersightMacpoolLeaseVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightMacpoolLeaseVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#additional_properties DataIntersightMacpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5033,32 +5073,32 @@ export interface DataIntersightMacpoolLeaseVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#class_id DataIntersightMacpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#marked_for_deletion DataIntersightMacpoolLease#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#marked_for_deletion DataIntersightMacpoolLease#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#nr_version DataIntersightMacpoolLease#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#nr_version DataIntersightMacpoolLease#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#object_type DataIntersightMacpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#timestamp DataIntersightMacpoolLease#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#timestamp DataIntersightMacpoolLease#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5069,19 +5109,19 @@ export interface DataIntersightMacpoolLeaseVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#version_type DataIntersightMacpoolLease#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#version_type DataIntersightMacpoolLease#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#interested_mos DataIntersightMacpoolLease#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#interested_mos DataIntersightMacpoolLease#interested_mos}
   */
   readonly interestedMos?: DataIntersightMacpoolLeaseVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#ref_mo DataIntersightMacpoolLease#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#ref_mo DataIntersightMacpoolLease#ref_mo}
   */
   readonly refMo?: DataIntersightMacpoolLeaseVersionContextRefMo;
 }
@@ -5397,7 +5437,7 @@ export class DataIntersightMacpoolLeaseVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease intersight_macpool_lease}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease intersight_macpool_lease}
 */
 export class DataIntersightMacpoolLease extends cdktf.TerraformDataSource {
 
@@ -5413,7 +5453,7 @@ export class DataIntersightMacpoolLease extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightMacpoolLease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMacpoolLease to import
-  * @param importFromId The id of the existing DataIntersightMacpoolLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMacpoolLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMacpoolLease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5425,7 +5465,7 @@ export class DataIntersightMacpoolLease extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/macpool_lease intersight_macpool_lease} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_lease intersight_macpool_lease} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5436,8 +5476,8 @@ export class DataIntersightMacpoolLease extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_macpool_lease',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

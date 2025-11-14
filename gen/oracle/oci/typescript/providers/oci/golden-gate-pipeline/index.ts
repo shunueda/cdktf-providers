@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface GoldenGatePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#compartment_id GoldenGatePipeline#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#compartment_id GoldenGatePipeline#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#defined_tags GoldenGatePipeline#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#defined_tags GoldenGatePipeline#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#description GoldenGatePipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#description GoldenGatePipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#display_name GoldenGatePipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#display_name GoldenGatePipeline#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#freeform_tags GoldenGatePipeline#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#freeform_tags GoldenGatePipeline#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#id GoldenGatePipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#id GoldenGatePipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#license_model GoldenGatePipeline#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#license_model GoldenGatePipeline#license_model}
   */
   readonly licenseModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#recipe_type GoldenGatePipeline#recipe_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#recipe_type GoldenGatePipeline#recipe_type}
   */
   readonly recipeType: string;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#locks GoldenGatePipeline#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#locks GoldenGatePipeline#locks}
   */
   readonly locks?: GoldenGatePipelineLocks[] | cdktf.IResolvable;
   /**
   * process_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#process_options GoldenGatePipeline#process_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#process_options GoldenGatePipeline#process_options}
   */
   readonly processOptions?: GoldenGatePipelineProcessOptions;
   /**
   * source_connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#source_connection_details GoldenGatePipeline#source_connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#source_connection_details GoldenGatePipeline#source_connection_details}
   */
   readonly sourceConnectionDetails: GoldenGatePipelineSourceConnectionDetails;
   /**
   * target_connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#target_connection_details GoldenGatePipeline#target_connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#target_connection_details GoldenGatePipeline#target_connection_details}
   */
   readonly targetConnectionDetails: GoldenGatePipelineTargetConnectionDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#timeouts GoldenGatePipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#timeouts GoldenGatePipeline#timeouts}
   */
   readonly timeouts?: GoldenGatePipelineTimeouts;
 }
@@ -255,11 +255,11 @@ export class GoldenGatePipelinePipelineDiagnosticDataList extends cdktf.ComplexL
 }
 export interface GoldenGatePipelineLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#message GoldenGatePipeline#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#message GoldenGatePipeline#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#type GoldenGatePipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#type GoldenGatePipeline#type}
   */
   readonly type: string;
 }
@@ -401,11 +401,11 @@ export class GoldenGatePipelineLocksList extends cdktf.ComplexList {
 }
 export interface GoldenGatePipelineProcessOptionsInitialDataLoad {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#action_on_existing_table GoldenGatePipeline#action_on_existing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_existing_table GoldenGatePipeline#action_on_existing_table}
   */
   readonly actionOnExistingTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#is_initial_load GoldenGatePipeline#is_initial_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#is_initial_load GoldenGatePipeline#is_initial_load}
   */
   readonly isInitialLoad: string;
 }
@@ -515,15 +515,15 @@ export class GoldenGatePipelineProcessOptionsInitialDataLoadOutputReference exte
 }
 export interface GoldenGatePipelineProcessOptionsReplicateSchemaChange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_ddl_error GoldenGatePipeline#action_on_ddl_error}
   */
   readonly actionOnDdlError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#action_on_dml_error GoldenGatePipeline#action_on_dml_error}
   */
   readonly actionOnDmlError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#can_replicate_schema_change GoldenGatePipeline#can_replicate_schema_change}
   */
   readonly canReplicateSchemaChange: string;
 }
@@ -662,23 +662,23 @@ export class GoldenGatePipelineProcessOptionsReplicateSchemaChangeOutputReferenc
 }
 export interface GoldenGatePipelineProcessOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}
   */
   readonly shouldRestartOnFailure: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}
   */
   readonly startUsingDefaultMapping?: string;
   /**
   * initial_data_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
   */
   readonly initialDataLoad: GoldenGatePipelineProcessOptionsInitialDataLoad;
   /**
   * replicate_schema_change block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
   */
   readonly replicateSchemaChange: GoldenGatePipelineProcessOptionsReplicateSchemaChange;
 }
@@ -840,7 +840,7 @@ export class GoldenGatePipelineProcessOptionsOutputReference extends cdktf.Compl
 }
 export interface GoldenGatePipelineSourceConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
   */
   readonly connectionId: string;
 }
@@ -921,7 +921,7 @@ export class GoldenGatePipelineSourceConnectionDetailsOutputReference extends cd
 }
 export interface GoldenGatePipelineTargetConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}
   */
   readonly connectionId: string;
 }
@@ -1002,15 +1002,15 @@ export class GoldenGatePipelineTargetConnectionDetailsOutputReference extends cd
 }
 export interface GoldenGatePipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#create GoldenGatePipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#create GoldenGatePipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#delete GoldenGatePipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#delete GoldenGatePipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#update GoldenGatePipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#update GoldenGatePipeline#update}
   */
   readonly update?: string;
 }
@@ -1162,7 +1162,7 @@ export class GoldenGatePipelineTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline}
 */
 export class GoldenGatePipeline extends cdktf.TerraformResource {
 
@@ -1178,7 +1178,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GoldenGatePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoldenGatePipeline to import
-  * @param importFromId The id of the existing GoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoldenGatePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoldenGatePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1190,7 +1190,7 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/golden_gate_pipeline oci_golden_gate_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1201,8 +1201,8 @@ export class GoldenGatePipeline extends cdktf.TerraformResource {
       terraformResourceType: 'oci_golden_gate_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

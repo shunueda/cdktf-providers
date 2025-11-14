@@ -1,3 +1,3 @@
 # `data_oci_database_management_managed_database_optimizer_statistics_collection_operations`
 
-Refer to the Terraform Registry for docs: [`data_oci_database_management_managed_database_optimizer_statistics_collection_operations`](https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations).
+Refer to the Terraform Registry for docs: [`data_oci_database_management_managed_database_optimizer_statistics_collection_operations`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operations).

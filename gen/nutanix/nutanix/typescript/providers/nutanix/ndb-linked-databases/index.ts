@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface NdbLinkedDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#database_id NdbLinkedDatabases#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#database_id NdbLinkedDatabases#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#database_name NdbLinkedDatabases#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#database_name NdbLinkedDatabases#database_name}
   */
   readonly databaseName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#timeouts NdbLinkedDatabases#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#timeouts NdbLinkedDatabases#timeouts}
   */
   readonly timeouts?: NdbLinkedDatabasesTimeouts;
 }
@@ -181,11 +181,11 @@ export class NdbLinkedDatabasesInfoList extends cdktf.ComplexList {
 }
 export interface NdbLinkedDatabasesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#create NdbLinkedDatabases#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#create NdbLinkedDatabases#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#delete NdbLinkedDatabases#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#delete NdbLinkedDatabases#delete}
   */
   readonly delete?: string;
 }
@@ -308,7 +308,7 @@ export class NdbLinkedDatabasesTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases nutanix_ndb_linked_databases}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases nutanix_ndb_linked_databases}
 */
 export class NdbLinkedDatabases extends cdktf.TerraformResource {
 
@@ -324,7 +324,7 @@ export class NdbLinkedDatabases extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbLinkedDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbLinkedDatabases to import
-  * @param importFromId The id of the existing NdbLinkedDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbLinkedDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbLinkedDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +336,7 @@ export class NdbLinkedDatabases extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_linked_databases nutanix_ndb_linked_databases} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_linked_databases nutanix_ndb_linked_databases} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +347,8 @@ export class NdbLinkedDatabases extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_linked_databases',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

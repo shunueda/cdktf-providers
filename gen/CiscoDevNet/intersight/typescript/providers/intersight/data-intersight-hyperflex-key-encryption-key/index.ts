@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexKeyEncryptionKeyConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#account_moid DataIntersightHyperflexKeyEncryptionKey#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#account_moid DataIntersightHyperflexKeyEncryptionKey#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexKeyEncryptionKeyConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#create_time DataIntersightHyperflexKeyEncryptionKey#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#create_time DataIntersightHyperflexKeyEncryptionKey#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#domain_group_moid DataIntersightHyperflexKeyEncryptionKey#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#domain_group_moid DataIntersightHyperflexKeyEncryptionKey#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#id DataIntersightHyperflexKeyEncryptionKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#id DataIntersightHyperflexKeyEncryptionKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataIntersightHyperflexKeyEncryptionKeyConfig extends cdktf.Ter
   /**
   * Account recovery scenario flag determining parameter population from internal MO, with possibility of ignoring of input parameters when this value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#is_account_recovery DataIntersightHyperflexKeyEncryptionKey#is_account_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#is_account_recovery DataIntersightHyperflexKeyEncryptionKey#is_account_recovery}
   */
   readonly isAccountRecovery?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'kek' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#is_kek_set DataIntersightHyperflexKeyEncryptionKey#is_kek_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#is_kek_set DataIntersightHyperflexKeyEncryptionKey#is_kek_set}
   */
   readonly isKekSet?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'passphrase' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#is_passphrase_set DataIntersightHyperflexKeyEncryptionKey#is_passphrase_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#is_passphrase_set DataIntersightHyperflexKeyEncryptionKey#is_passphrase_set}
   */
   readonly isPassphraseSet?: boolean | cdktf.IResolvable;
   /**
   * Number of hash iterations to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#iteration DataIntersightHyperflexKeyEncryptionKey#iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#iteration DataIntersightHyperflexKeyEncryptionKey#iteration}
   */
   readonly iteration?: number;
   /**
   * Key Encryption Key used to encrypt the DEK's on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#kek DataIntersightHyperflexKeyEncryptionKey#kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#kek DataIntersightHyperflexKeyEncryptionKey#kek}
   */
   readonly kek?: string;
   /**
   * Resource ID and time for Kek retrieval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#key_id DataIntersightHyperflexKeyEncryptionKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#key_id DataIntersightHyperflexKeyEncryptionKey#key_id}
   */
   readonly keyId?: string;
   /**
@@ -87,36 +87,36 @@ export interface DataIntersightHyperflexKeyEncryptionKeyConfig extends cdktf.Ter
   * * `INACTIVE` - Inactive and unused Key Encryption Key.
   * * `INPROGRESS` - Unconfirmed Key Encryption Key usage on Intersight platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#key_state DataIntersightHyperflexKeyEncryptionKey#key_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#key_state DataIntersightHyperflexKeyEncryptionKey#key_state}
   */
   readonly keyState?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#mod_time DataIntersightHyperflexKeyEncryptionKey#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#mod_time DataIntersightHyperflexKeyEncryptionKey#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#owners DataIntersightHyperflexKeyEncryptionKey#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#owners DataIntersightHyperflexKeyEncryptionKey#owners}
   */
   readonly owners?: string[];
   /**
   * Initial passphrase for encryption policy, requiring a minimum of 12 characters, including 1 lowercase, 1 uppercase, and 1 numeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#passphrase DataIntersightHyperflexKeyEncryptionKey#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#passphrase DataIntersightHyperflexKeyEncryptionKey#passphrase}
   */
   readonly passphrase?: string;
   /**
@@ -125,62 +125,62 @@ export interface DataIntersightHyperflexKeyEncryptionKeyConfig extends cdktf.Ter
   * * `DATASTORE` - Data store encryption on the HyperFlex cluster.
   * * `DRIVE` - Drive specific encryption on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#resource_type DataIntersightHyperflexKeyEncryptionKey#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#resource_type DataIntersightHyperflexKeyEncryptionKey#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#shared_scope DataIntersightHyperflexKeyEncryptionKey#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#shared_scope DataIntersightHyperflexKeyEncryptionKey#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Temporary copy of KEK used for transfer to remote device endpoint, not persisted anywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#transit_kek DataIntersightHyperflexKeyEncryptionKey#transit_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#transit_kek DataIntersightHyperflexKeyEncryptionKey#transit_kek}
   */
   readonly transitKek?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#ancestors DataIntersightHyperflexKeyEncryptionKey#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#ancestors DataIntersightHyperflexKeyEncryptionKey#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexKeyEncryptionKeyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#cluster_profile DataIntersightHyperflexKeyEncryptionKey#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#cluster_profile DataIntersightHyperflexKeyEncryptionKey#cluster_profile}
   */
   readonly clusterProfile?: DataIntersightHyperflexKeyEncryptionKeyClusterProfile;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#parent DataIntersightHyperflexKeyEncryptionKey#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#parent DataIntersightHyperflexKeyEncryptionKey#parent}
   */
   readonly parent?: DataIntersightHyperflexKeyEncryptionKeyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#permission_resources DataIntersightHyperflexKeyEncryptionKey#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#permission_resources DataIntersightHyperflexKeyEncryptionKey#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexKeyEncryptionKeyPermissionResources[] | cdktf.IResolvable;
   /**
   * resource_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#resource_mo DataIntersightHyperflexKeyEncryptionKey#resource_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#resource_mo DataIntersightHyperflexKeyEncryptionKey#resource_mo}
   */
   readonly resourceMo?: DataIntersightHyperflexKeyEncryptionKeyResourceMo;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#tags DataIntersightHyperflexKeyEncryptionKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#tags DataIntersightHyperflexKeyEncryptionKey#tags}
   */
   readonly tags?: DataIntersightHyperflexKeyEncryptionKeyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#version_context DataIntersightHyperflexKeyEncryptionKey#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#version_context DataIntersightHyperflexKeyEncryptionKey#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexKeyEncryptionKeyVersionContext;
 }
@@ -927,6 +927,11 @@ export class DataIntersightHyperflexKeyEncryptionKeyResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1477,7 +1482,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyResultsList extends cdktf.Co
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1485,19 +1490,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1510,7 +1515,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -1742,7 +1747,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyAncestorsList extends cdktf.
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyClusterProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1750,19 +1755,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyClusterProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1775,7 +1780,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyClusterProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -1975,7 +1980,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyClusterProfileOutputReferenc
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1983,19 +1988,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2008,7 +2013,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -2208,7 +2213,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyParentOutputReference extend
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2216,19 +2221,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2241,7 +2246,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -2473,7 +2478,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyPermissionResourcesList exte
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyResourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2481,19 +2486,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyResourceMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2506,7 +2511,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyResourceMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -2706,7 +2711,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyResourceMoOutputReference ex
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2714,19 +2719,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2739,7 +2744,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -2971,7 +2976,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitionsList 
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2979,19 +2984,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3004,7 +3009,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -3204,45 +3209,51 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsDefinitionOutputReferenc
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#key DataIntersightHyperflexKeyEncryptionKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#key DataIntersightHyperflexKeyEncryptionKey#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#propagated DataIntersightHyperflexKeyEncryptionKey#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#propagated DataIntersightHyperflexKeyEncryptionKey#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#sys_tag DataIntersightHyperflexKeyEncryptionKey#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#type DataIntersightHyperflexKeyEncryptionKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#type DataIntersightHyperflexKeyEncryptionKey#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#value DataIntersightHyperflexKeyEncryptionKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#value DataIntersightHyperflexKeyEncryptionKey#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#ancestor_definitions DataIntersightHyperflexKeyEncryptionKey#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#ancestor_definitions DataIntersightHyperflexKeyEncryptionKey#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#definition DataIntersightHyperflexKeyEncryptionKey#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#definition DataIntersightHyperflexKeyEncryptionKey#definition}
   */
   readonly definition?: DataIntersightHyperflexKeyEncryptionKeyTagsDefinition;
 }
@@ -3256,6 +3267,7 @@ export function dataIntersightHyperflexKeyEncryptionKeyTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexKeyEncryptionKeyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3284,6 +3296,12 @@ export function dataIntersightHyperflexKeyEncryptionKeyTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3350,6 +3368,10 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3376,6 +3398,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3391,6 +3414,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3444,6 +3468,22 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3532,7 +3572,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyTagsList extends cdktf.Compl
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3540,19 +3580,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3565,7 +3605,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -3797,7 +3837,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyVersionContextInterestedMosL
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3805,19 +3845,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#moid DataIntersightHyperflexKeyEncryptionKey#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3830,7 +3870,7 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#selector DataIntersightHyperflexKeyEncryptionKey#selector}
   */
   readonly selector?: string;
 }
@@ -4030,7 +4070,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyVersionContextRefMoOutputRef
 }
 export interface DataIntersightHyperflexKeyEncryptionKeyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#additional_properties DataIntersightHyperflexKeyEncryptionKey#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4038,32 +4078,32 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#class_id DataIntersightHyperflexKeyEncryptionKey#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#marked_for_deletion DataIntersightHyperflexKeyEncryptionKey#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#marked_for_deletion DataIntersightHyperflexKeyEncryptionKey#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#nr_version DataIntersightHyperflexKeyEncryptionKey#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#nr_version DataIntersightHyperflexKeyEncryptionKey#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#object_type DataIntersightHyperflexKeyEncryptionKey#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#timestamp DataIntersightHyperflexKeyEncryptionKey#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#timestamp DataIntersightHyperflexKeyEncryptionKey#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4074,19 +4114,19 @@ export interface DataIntersightHyperflexKeyEncryptionKeyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#version_type DataIntersightHyperflexKeyEncryptionKey#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#version_type DataIntersightHyperflexKeyEncryptionKey#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#interested_mos DataIntersightHyperflexKeyEncryptionKey#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#interested_mos DataIntersightHyperflexKeyEncryptionKey#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexKeyEncryptionKeyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#ref_mo DataIntersightHyperflexKeyEncryptionKey#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#ref_mo DataIntersightHyperflexKeyEncryptionKey#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexKeyEncryptionKeyVersionContextRefMo;
 }
@@ -4402,7 +4442,7 @@ export class DataIntersightHyperflexKeyEncryptionKeyVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key intersight_hyperflex_key_encryption_key}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key intersight_hyperflex_key_encryption_key}
 */
 export class DataIntersightHyperflexKeyEncryptionKey extends cdktf.TerraformDataSource {
 
@@ -4418,7 +4458,7 @@ export class DataIntersightHyperflexKeyEncryptionKey extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightHyperflexKeyEncryptionKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexKeyEncryptionKey to import
-  * @param importFromId The id of the existing DataIntersightHyperflexKeyEncryptionKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexKeyEncryptionKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexKeyEncryptionKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4430,7 +4470,7 @@ export class DataIntersightHyperflexKeyEncryptionKey extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_key_encryption_key intersight_hyperflex_key_encryption_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_key_encryption_key intersight_hyperflex_key_encryption_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4441,8 +4481,8 @@ export class DataIntersightHyperflexKeyEncryptionKey extends cdktf.TerraformData
       terraformResourceType: 'intersight_hyperflex_key_encryption_key',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

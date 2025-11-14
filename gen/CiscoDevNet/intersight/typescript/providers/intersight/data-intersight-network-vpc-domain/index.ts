@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightNetworkVpcDomainConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#account_moid DataIntersightNetworkVpcDomain#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#account_moid DataIntersightNetworkVpcDomain#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Auto recovery status of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#auto_recovery_status DataIntersightNetworkVpcDomain#auto_recovery_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#auto_recovery_status DataIntersightNetworkVpcDomain#auto_recovery_status}
   */
   readonly autoRecoveryStatus?: string;
   /**
@@ -28,47 +28,47 @@ export interface DataIntersightNetworkVpcDomainConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * Consistency status of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#consistency_status DataIntersightNetworkVpcDomain#consistency_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#consistency_status DataIntersightNetworkVpcDomain#consistency_status}
   */
   readonly consistencyStatus?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#create_time DataIntersightNetworkVpcDomain#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#create_time DataIntersightNetworkVpcDomain#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#device_mo_id DataIntersightNetworkVpcDomain#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#device_mo_id DataIntersightNetworkVpcDomain#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#dn DataIntersightNetworkVpcDomain#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#dn DataIntersightNetworkVpcDomain#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#domain_group_moid DataIntersightNetworkVpcDomain#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#domain_group_moid DataIntersightNetworkVpcDomain#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Dual Active Excluded VLANs of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#dual_active_excluded_vlans DataIntersightNetworkVpcDomain#dual_active_excluded_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#dual_active_excluded_vlans DataIntersightNetworkVpcDomain#dual_active_excluded_vlans}
   */
   readonly dualActiveExcludedVlans?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#id DataIntersightNetworkVpcDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#id DataIntersightNetworkVpcDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,109 +77,109 @@ export interface DataIntersightNetworkVpcDomainConfig extends cdktf.TerraformMet
   /**
   * Keep alive status of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#keep_alive_status DataIntersightNetworkVpcDomain#keep_alive_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#keep_alive_status DataIntersightNetworkVpcDomain#keep_alive_status}
   */
   readonly keepAliveStatus?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#mod_time DataIntersightNetworkVpcDomain#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#mod_time DataIntersightNetworkVpcDomain#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#owners DataIntersightNetworkVpcDomain#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#owners DataIntersightNetworkVpcDomain#owners}
   */
   readonly owners?: string[];
   /**
   * Peer status of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#peer_status DataIntersightNetworkVpcDomain#peer_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#peer_status DataIntersightNetworkVpcDomain#peer_status}
   */
   readonly peerStatus?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#rn DataIntersightNetworkVpcDomain#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#rn DataIntersightNetworkVpcDomain#rn}
   */
   readonly rn?: string;
   /**
   * Role of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#role DataIntersightNetworkVpcDomain#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#role DataIntersightNetworkVpcDomain#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#shared_scope DataIntersightNetworkVpcDomain#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#shared_scope DataIntersightNetworkVpcDomain#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Identity of the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#vpc_domain_id DataIntersightNetworkVpcDomain#vpc_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#vpc_domain_id DataIntersightNetworkVpcDomain#vpc_domain_id}
   */
   readonly vpcDomainId?: number;
   /**
   * Number of VPCs configured on the virtual port channel domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#vpcs_configured_count DataIntersightNetworkVpcDomain#vpcs_configured_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#vpcs_configured_count DataIntersightNetworkVpcDomain#vpcs_configured_count}
   */
   readonly vpcsConfiguredCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#ancestors DataIntersightNetworkVpcDomain#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#ancestors DataIntersightNetworkVpcDomain#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkVpcDomainAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#network_element DataIntersightNetworkVpcDomain#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#network_element DataIntersightNetworkVpcDomain#network_element}
   */
   readonly networkElement?: DataIntersightNetworkVpcDomainNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#parent DataIntersightNetworkVpcDomain#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#parent DataIntersightNetworkVpcDomain#parent}
   */
   readonly parent?: DataIntersightNetworkVpcDomainParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#permission_resources DataIntersightNetworkVpcDomain#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#permission_resources DataIntersightNetworkVpcDomain#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkVpcDomainPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#registered_device DataIntersightNetworkVpcDomain#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#registered_device DataIntersightNetworkVpcDomain#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkVpcDomainRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#tags DataIntersightNetworkVpcDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#tags DataIntersightNetworkVpcDomain#tags}
   */
   readonly tags?: DataIntersightNetworkVpcDomainTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#version_context DataIntersightNetworkVpcDomain#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#version_context DataIntersightNetworkVpcDomain#version_context}
   */
   readonly versionContext?: DataIntersightNetworkVpcDomainVersionContext;
 }
@@ -926,6 +926,11 @@ export class DataIntersightNetworkVpcDomainResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1481,7 +1486,7 @@ export class DataIntersightNetworkVpcDomainResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightNetworkVpcDomainAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1489,19 +1494,19 @@ export interface DataIntersightNetworkVpcDomainAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1514,7 +1519,7 @@ export interface DataIntersightNetworkVpcDomainAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -1746,7 +1751,7 @@ export class DataIntersightNetworkVpcDomainAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNetworkVpcDomainNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1754,19 +1759,19 @@ export interface DataIntersightNetworkVpcDomainNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1779,7 +1784,7 @@ export interface DataIntersightNetworkVpcDomainNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -1979,7 +1984,7 @@ export class DataIntersightNetworkVpcDomainNetworkElementOutputReference extends
 }
 export interface DataIntersightNetworkVpcDomainParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1987,19 +1992,19 @@ export interface DataIntersightNetworkVpcDomainParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2012,7 +2017,7 @@ export interface DataIntersightNetworkVpcDomainParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2212,7 +2217,7 @@ export class DataIntersightNetworkVpcDomainParentOutputReference extends cdktf.C
 }
 export interface DataIntersightNetworkVpcDomainPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2220,19 +2225,19 @@ export interface DataIntersightNetworkVpcDomainPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2245,7 +2250,7 @@ export interface DataIntersightNetworkVpcDomainPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2477,7 +2482,7 @@ export class DataIntersightNetworkVpcDomainPermissionResourcesList extends cdktf
 }
 export interface DataIntersightNetworkVpcDomainRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2485,19 +2490,19 @@ export interface DataIntersightNetworkVpcDomainRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2510,7 +2515,7 @@ export interface DataIntersightNetworkVpcDomainRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2710,7 +2715,7 @@ export class DataIntersightNetworkVpcDomainRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightNetworkVpcDomainTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2718,19 +2723,19 @@ export interface DataIntersightNetworkVpcDomainTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2743,7 +2748,7 @@ export interface DataIntersightNetworkVpcDomainTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2975,7 +2980,7 @@ export class DataIntersightNetworkVpcDomainTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightNetworkVpcDomainTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2983,19 +2988,19 @@ export interface DataIntersightNetworkVpcDomainTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3008,7 +3013,7 @@ export interface DataIntersightNetworkVpcDomainTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -3208,45 +3213,51 @@ export class DataIntersightNetworkVpcDomainTagsDefinitionOutputReference extends
 }
 export interface DataIntersightNetworkVpcDomainTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#key DataIntersightNetworkVpcDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#key DataIntersightNetworkVpcDomain#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#propagated DataIntersightNetworkVpcDomain#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#propagated DataIntersightNetworkVpcDomain#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#sys_tag DataIntersightNetworkVpcDomain#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#type DataIntersightNetworkVpcDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#type DataIntersightNetworkVpcDomain#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#value DataIntersightNetworkVpcDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#value DataIntersightNetworkVpcDomain#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#ancestor_definitions DataIntersightNetworkVpcDomain#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#ancestor_definitions DataIntersightNetworkVpcDomain#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkVpcDomainTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#definition DataIntersightNetworkVpcDomain#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#definition DataIntersightNetworkVpcDomain#definition}
   */
   readonly definition?: DataIntersightNetworkVpcDomainTagsDefinition;
 }
@@ -3260,6 +3271,7 @@ export function dataIntersightNetworkVpcDomainTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkVpcDomainTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3288,6 +3300,12 @@ export function dataIntersightNetworkVpcDomainTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3354,6 +3372,10 @@ export class DataIntersightNetworkVpcDomainTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3380,6 +3402,7 @@ export class DataIntersightNetworkVpcDomainTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3395,6 +3418,7 @@ export class DataIntersightNetworkVpcDomainTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3448,6 +3472,22 @@ export class DataIntersightNetworkVpcDomainTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3536,7 +3576,7 @@ export class DataIntersightNetworkVpcDomainTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNetworkVpcDomainVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3544,19 +3584,19 @@ export interface DataIntersightNetworkVpcDomainVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3569,7 +3609,7 @@ export interface DataIntersightNetworkVpcDomainVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -3801,7 +3841,7 @@ export class DataIntersightNetworkVpcDomainVersionContextInterestedMosList exten
 }
 export interface DataIntersightNetworkVpcDomainVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3809,19 +3849,19 @@ export interface DataIntersightNetworkVpcDomainVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#moid DataIntersightNetworkVpcDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3834,7 +3874,7 @@ export interface DataIntersightNetworkVpcDomainVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#selector DataIntersightNetworkVpcDomain#selector}
   */
   readonly selector?: string;
 }
@@ -4034,7 +4074,7 @@ export class DataIntersightNetworkVpcDomainVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightNetworkVpcDomainVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#additional_properties DataIntersightNetworkVpcDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4042,32 +4082,32 @@ export interface DataIntersightNetworkVpcDomainVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#class_id DataIntersightNetworkVpcDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#marked_for_deletion DataIntersightNetworkVpcDomain#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#marked_for_deletion DataIntersightNetworkVpcDomain#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#nr_version DataIntersightNetworkVpcDomain#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#nr_version DataIntersightNetworkVpcDomain#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#object_type DataIntersightNetworkVpcDomain#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#timestamp DataIntersightNetworkVpcDomain#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#timestamp DataIntersightNetworkVpcDomain#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4078,19 +4118,19 @@ export interface DataIntersightNetworkVpcDomainVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#version_type DataIntersightNetworkVpcDomain#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#version_type DataIntersightNetworkVpcDomain#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#interested_mos DataIntersightNetworkVpcDomain#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#interested_mos DataIntersightNetworkVpcDomain#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkVpcDomainVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#ref_mo DataIntersightNetworkVpcDomain#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#ref_mo DataIntersightNetworkVpcDomain#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkVpcDomainVersionContextRefMo;
 }
@@ -4406,7 +4446,7 @@ export class DataIntersightNetworkVpcDomainVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain intersight_network_vpc_domain}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain intersight_network_vpc_domain}
 */
 export class DataIntersightNetworkVpcDomain extends cdktf.TerraformDataSource {
 
@@ -4422,7 +4462,7 @@ export class DataIntersightNetworkVpcDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNetworkVpcDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkVpcDomain to import
-  * @param importFromId The id of the existing DataIntersightNetworkVpcDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkVpcDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkVpcDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4434,7 +4474,7 @@ export class DataIntersightNetworkVpcDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_vpc_domain intersight_network_vpc_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vpc_domain intersight_network_vpc_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4445,8 +4485,8 @@ export class DataIntersightNetworkVpcDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_network_vpc_domain',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsProjectRepositorySettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#id DevopsProjectRepositorySetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#id DevopsProjectRepositorySetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#project_id DevopsProjectRepositorySetting#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#project_id DevopsProjectRepositorySetting#project_id}
   */
   readonly projectId: string;
   /**
   * approval_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#approval_rules DevopsProjectRepositorySetting#approval_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#approval_rules DevopsProjectRepositorySetting#approval_rules}
   */
   readonly approvalRules?: DevopsProjectRepositorySettingApprovalRules;
   /**
   * merge_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#merge_settings DevopsProjectRepositorySetting#merge_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#merge_settings DevopsProjectRepositorySetting#merge_settings}
   */
   readonly mergeSettings?: DevopsProjectRepositorySettingMergeSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#timeouts DevopsProjectRepositorySetting#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#timeouts DevopsProjectRepositorySetting#timeouts}
   */
   readonly timeouts?: DevopsProjectRepositorySettingTimeouts;
 }
 export interface DevopsProjectRepositorySettingApprovalRulesItemsReviewers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#principal_id DevopsProjectRepositorySetting#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#principal_id DevopsProjectRepositorySetting#principal_id}
   */
   readonly principalId: string;
 }
@@ -167,21 +167,21 @@ export class DevopsProjectRepositorySettingApprovalRulesItemsReviewersList exten
 }
 export interface DevopsProjectRepositorySettingApprovalRulesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#destination_branch DevopsProjectRepositorySetting#destination_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#destination_branch DevopsProjectRepositorySetting#destination_branch}
   */
   readonly destinationBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#min_approvals_count DevopsProjectRepositorySetting#min_approvals_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#min_approvals_count DevopsProjectRepositorySetting#min_approvals_count}
   */
   readonly minApprovalsCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#name DevopsProjectRepositorySetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#name DevopsProjectRepositorySetting#name}
   */
   readonly name: string;
   /**
   * reviewers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#reviewers DevopsProjectRepositorySetting#reviewers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#reviewers DevopsProjectRepositorySetting#reviewers}
   */
   readonly reviewers?: DevopsProjectRepositorySettingApprovalRulesItemsReviewers[] | cdktf.IResolvable;
 }
@@ -380,7 +380,7 @@ export interface DevopsProjectRepositorySettingApprovalRules {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
   */
   readonly items: DevopsProjectRepositorySettingApprovalRulesItems[] | cdktf.IResolvable;
 }
@@ -461,11 +461,11 @@ export class DevopsProjectRepositorySettingApprovalRulesOutputReference extends 
 }
 export interface DevopsProjectRepositorySettingMergeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#allowed_merge_strategies DevopsProjectRepositorySetting#allowed_merge_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#allowed_merge_strategies DevopsProjectRepositorySetting#allowed_merge_strategies}
   */
   readonly allowedMergeStrategies: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#default_merge_strategy DevopsProjectRepositorySetting#default_merge_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#default_merge_strategy DevopsProjectRepositorySetting#default_merge_strategy}
   */
   readonly defaultMergeStrategy: string;
 }
@@ -572,15 +572,15 @@ export class DevopsProjectRepositorySettingMergeSettingsOutputReference extends 
 }
 export interface DevopsProjectRepositorySettingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#create DevopsProjectRepositorySetting#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#create DevopsProjectRepositorySetting#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#delete DevopsProjectRepositorySetting#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#delete DevopsProjectRepositorySetting#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#update DevopsProjectRepositorySetting#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#update DevopsProjectRepositorySetting#update}
   */
   readonly update?: string;
 }
@@ -732,7 +732,7 @@ export class DevopsProjectRepositorySettingTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting oci_devops_project_repository_setting}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting oci_devops_project_repository_setting}
 */
 export class DevopsProjectRepositorySetting extends cdktf.TerraformResource {
 
@@ -748,7 +748,7 @@ export class DevopsProjectRepositorySetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsProjectRepositorySetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsProjectRepositorySetting to import
-  * @param importFromId The id of the existing DevopsProjectRepositorySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsProjectRepositorySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsProjectRepositorySetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -760,7 +760,7 @@ export class DevopsProjectRepositorySetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_project_repository_setting oci_devops_project_repository_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_project_repository_setting oci_devops_project_repository_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -771,8 +771,8 @@ export class DevopsProjectRepositorySetting extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_project_repository_setting',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataGitTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to request annotated tags. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags#annotated DataGitTags#annotated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags#annotated DataGitTags#annotated}
   */
   readonly annotated?: boolean | cdktf.IResolvable;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags#directory DataGitTags#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags#directory DataGitTags#directory}
   */
   readonly directory: string;
   /**
   * Whether to request lightweight tags. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags#lightweight DataGitTags#lightweight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags#lightweight DataGitTags#lightweight}
   */
   readonly lightweight?: boolean | cdktf.IResolvable;
 }
@@ -111,7 +111,7 @@ export class DataGitTagsTagsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags git_tags}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags git_tags}
 */
 export class DataGitTags extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataGitTags extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitTags to import
-  * @param importFromId The id of the existing DataGitTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataGitTags extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/tags git_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/tags git_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataGitTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_tags',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

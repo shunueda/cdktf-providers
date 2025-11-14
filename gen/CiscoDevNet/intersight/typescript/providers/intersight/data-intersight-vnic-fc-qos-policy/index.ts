@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightVnicFcQosPolicyConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#account_moid DataIntersightVnicFcQosPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#account_moid DataIntersightVnicFcQosPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The burst traffic, in bytes, allowed on the vHBA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#burst DataIntersightVnicFcQosPolicy#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#burst DataIntersightVnicFcQosPolicy#burst}
   */
   readonly burst?: number;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightVnicFcQosPolicyConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Class of Service to be associated to the traffic on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#cos DataIntersightVnicFcQosPolicy#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#cos DataIntersightVnicFcQosPolicy#cos}
   */
   readonly cos?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#create_time DataIntersightVnicFcQosPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#create_time DataIntersightVnicFcQosPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#description DataIntersightVnicFcQosPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#description DataIntersightVnicFcQosPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#domain_group_moid DataIntersightVnicFcQosPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#domain_group_moid DataIntersightVnicFcQosPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#id DataIntersightVnicFcQosPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#id DataIntersightVnicFcQosPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,36 +65,36 @@ export interface DataIntersightVnicFcQosPolicyConfig extends cdktf.TerraformMeta
   /**
   * The maximum size of the Fibre Channel frame payload bytes that the virtual interface supports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#max_data_field_size DataIntersightVnicFcQosPolicy#max_data_field_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#max_data_field_size DataIntersightVnicFcQosPolicy#max_data_field_size}
   */
   readonly maxDataFieldSize?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#mod_time DataIntersightVnicFcQosPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#mod_time DataIntersightVnicFcQosPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#name DataIntersightVnicFcQosPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#name DataIntersightVnicFcQosPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#owners DataIntersightVnicFcQosPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#owners DataIntersightVnicFcQosPolicy#owners}
   */
   readonly owners?: string[];
   /**
@@ -106,56 +106,56 @@ export interface DataIntersightVnicFcQosPolicyConfig extends cdktf.TerraformMeta
   * * `Silver` - QoS Priority for Silver traffic.
   * * `Bronze` - QoS Priority for Bronze traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#priority DataIntersightVnicFcQosPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#priority DataIntersightVnicFcQosPolicy#priority}
   */
   readonly priority?: string;
   /**
   * The value in Mbps to use for limiting the data rate on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#rate_limit DataIntersightVnicFcQosPolicy#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#rate_limit DataIntersightVnicFcQosPolicy#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#shared_scope DataIntersightVnicFcQosPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#shared_scope DataIntersightVnicFcQosPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#ancestors DataIntersightVnicFcQosPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#ancestors DataIntersightVnicFcQosPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightVnicFcQosPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#organization DataIntersightVnicFcQosPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#organization DataIntersightVnicFcQosPolicy#organization}
   */
   readonly organization?: DataIntersightVnicFcQosPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#parent DataIntersightVnicFcQosPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#parent DataIntersightVnicFcQosPolicy#parent}
   */
   readonly parent?: DataIntersightVnicFcQosPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#permission_resources DataIntersightVnicFcQosPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#permission_resources DataIntersightVnicFcQosPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicFcQosPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#tags DataIntersightVnicFcQosPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#tags DataIntersightVnicFcQosPolicy#tags}
   */
   readonly tags?: DataIntersightVnicFcQosPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#version_context DataIntersightVnicFcQosPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#version_context DataIntersightVnicFcQosPolicy#version_context}
   */
   readonly versionContext?: DataIntersightVnicFcQosPolicyVersionContext;
 }
@@ -807,6 +807,11 @@ export class DataIntersightVnicFcQosPolicyResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1336,7 +1341,7 @@ export class DataIntersightVnicFcQosPolicyResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightVnicFcQosPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1344,19 +1349,19 @@ export interface DataIntersightVnicFcQosPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1369,7 +1374,7 @@ export interface DataIntersightVnicFcQosPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1601,7 +1606,7 @@ export class DataIntersightVnicFcQosPolicyAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightVnicFcQosPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1609,19 +1614,19 @@ export interface DataIntersightVnicFcQosPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1634,7 +1639,7 @@ export interface DataIntersightVnicFcQosPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1834,7 +1839,7 @@ export class DataIntersightVnicFcQosPolicyOrganizationOutputReference extends cd
 }
 export interface DataIntersightVnicFcQosPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1842,19 +1847,19 @@ export interface DataIntersightVnicFcQosPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1867,7 +1872,7 @@ export interface DataIntersightVnicFcQosPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2067,7 +2072,7 @@ export class DataIntersightVnicFcQosPolicyParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightVnicFcQosPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2075,19 +2080,19 @@ export interface DataIntersightVnicFcQosPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2100,7 +2105,7 @@ export interface DataIntersightVnicFcQosPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2332,7 +2337,7 @@ export class DataIntersightVnicFcQosPolicyPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightVnicFcQosPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2340,19 +2345,19 @@ export interface DataIntersightVnicFcQosPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2365,7 +2370,7 @@ export interface DataIntersightVnicFcQosPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2597,7 +2602,7 @@ export class DataIntersightVnicFcQosPolicyTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightVnicFcQosPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2605,19 +2610,19 @@ export interface DataIntersightVnicFcQosPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2630,7 +2635,7 @@ export interface DataIntersightVnicFcQosPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2830,45 +2835,51 @@ export class DataIntersightVnicFcQosPolicyTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightVnicFcQosPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#key DataIntersightVnicFcQosPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#key DataIntersightVnicFcQosPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#propagated DataIntersightVnicFcQosPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#propagated DataIntersightVnicFcQosPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#sys_tag DataIntersightVnicFcQosPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#type DataIntersightVnicFcQosPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#type DataIntersightVnicFcQosPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#value DataIntersightVnicFcQosPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#value DataIntersightVnicFcQosPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#ancestor_definitions DataIntersightVnicFcQosPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#ancestor_definitions DataIntersightVnicFcQosPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicFcQosPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#definition DataIntersightVnicFcQosPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#definition DataIntersightVnicFcQosPolicy#definition}
   */
   readonly definition?: DataIntersightVnicFcQosPolicyTagsDefinition;
 }
@@ -2882,6 +2893,7 @@ export function dataIntersightVnicFcQosPolicyTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVnicFcQosPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2910,6 +2922,12 @@ export function dataIntersightVnicFcQosPolicyTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2976,6 +2994,10 @@ export class DataIntersightVnicFcQosPolicyTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3002,6 +3024,7 @@ export class DataIntersightVnicFcQosPolicyTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3017,6 +3040,7 @@ export class DataIntersightVnicFcQosPolicyTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3070,6 +3094,22 @@ export class DataIntersightVnicFcQosPolicyTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3158,7 +3198,7 @@ export class DataIntersightVnicFcQosPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicFcQosPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3166,19 +3206,19 @@ export interface DataIntersightVnicFcQosPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3191,7 +3231,7 @@ export interface DataIntersightVnicFcQosPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3423,7 +3463,7 @@ export class DataIntersightVnicFcQosPolicyVersionContextInterestedMosList extend
 }
 export interface DataIntersightVnicFcQosPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3431,19 +3471,19 @@ export interface DataIntersightVnicFcQosPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#moid DataIntersightVnicFcQosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3456,7 +3496,7 @@ export interface DataIntersightVnicFcQosPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#selector DataIntersightVnicFcQosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3656,7 +3696,7 @@ export class DataIntersightVnicFcQosPolicyVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightVnicFcQosPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#additional_properties DataIntersightVnicFcQosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3664,32 +3704,32 @@ export interface DataIntersightVnicFcQosPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#class_id DataIntersightVnicFcQosPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#marked_for_deletion DataIntersightVnicFcQosPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#marked_for_deletion DataIntersightVnicFcQosPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#nr_version DataIntersightVnicFcQosPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#nr_version DataIntersightVnicFcQosPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#object_type DataIntersightVnicFcQosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#timestamp DataIntersightVnicFcQosPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#timestamp DataIntersightVnicFcQosPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3700,19 +3740,19 @@ export interface DataIntersightVnicFcQosPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#version_type DataIntersightVnicFcQosPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#version_type DataIntersightVnicFcQosPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#interested_mos DataIntersightVnicFcQosPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#interested_mos DataIntersightVnicFcQosPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicFcQosPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#ref_mo DataIntersightVnicFcQosPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#ref_mo DataIntersightVnicFcQosPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightVnicFcQosPolicyVersionContextRefMo;
 }
@@ -4028,7 +4068,7 @@ export class DataIntersightVnicFcQosPolicyVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy intersight_vnic_fc_qos_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy intersight_vnic_fc_qos_policy}
 */
 export class DataIntersightVnicFcQosPolicy extends cdktf.TerraformDataSource {
 
@@ -4044,7 +4084,7 @@ export class DataIntersightVnicFcQosPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightVnicFcQosPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicFcQosPolicy to import
-  * @param importFromId The id of the existing DataIntersightVnicFcQosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicFcQosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicFcQosPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4056,7 +4096,7 @@ export class DataIntersightVnicFcQosPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_qos_policy intersight_vnic_fc_qos_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_qos_policy intersight_vnic_fc_qos_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4067,8 +4107,8 @@ export class DataIntersightVnicFcQosPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_fc_qos_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

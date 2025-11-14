@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CommitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#all Commit#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#all Commit#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * Enable empty commits to be created. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#allow_empty_commits Commit#allow_empty_commits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#allow_empty_commits Commit#allow_empty_commits}
   */
   readonly allowEmptyCommits?: boolean | cdktf.IResolvable;
   /**
   * The original author of the commit. If none is specified, the author will be read from the Git configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#author Commit#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#author Commit#author}
   */
   readonly author?: CommitAuthor;
   /**
   * The person performing the commit. If none is specified, the author is used as committer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#committer Commit#committer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#committer Commit#committer}
   */
   readonly committer?: CommitCommitter;
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#directory Commit#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#directory Commit#directory}
   */
   readonly directory: string;
   /**
   * The commit message to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#message Commit#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#message Commit#message}
   */
   readonly message: string;
 }
@@ -48,13 +48,13 @@ export interface CommitAuthor {
   /**
   * The email address of the author.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#email Commit#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#email Commit#email}
   */
   readonly email?: string;
   /**
   * The name of the author.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#name Commit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#name Commit#name}
   */
   readonly name?: string;
 }
@@ -179,13 +179,13 @@ export interface CommitCommitter {
   /**
   * The email address of the committer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#email Commit#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#email Commit#email}
   */
   readonly email?: string;
   /**
   * The name of the committer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#name Commit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#name Commit#name}
   */
   readonly name?: string;
 }
@@ -308,7 +308,7 @@ export class CommitCommitterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit git_commit}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit git_commit}
 */
 export class Commit extends cdktf.TerraformResource {
 
@@ -324,7 +324,7 @@ export class Commit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Commit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Commit to import
-  * @param importFromId The id of the existing Commit that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Commit that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Commit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +336,7 @@ export class Commit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/commit git_commit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/commit git_commit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +347,8 @@ export class Commit extends cdktf.TerraformResource {
       terraformResourceType: 'git_commit',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

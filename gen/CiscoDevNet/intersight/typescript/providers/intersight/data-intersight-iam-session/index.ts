@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamSessionConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_moid DataIntersightIamSession#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_moid DataIntersightIamSession#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightIamSessionConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The user agent IP address from which the session is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#client_ip_address DataIntersightIamSession#client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#client_ip_address DataIntersightIamSession#client_ip_address}
   */
   readonly clientIpAddress?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#create_time DataIntersightIamSession#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#create_time DataIntersightIamSession#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#domain_group_moid DataIntersightIamSession#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#domain_group_moid DataIntersightIamSession#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time at which the session ended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#end_time DataIntersightIamSession#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#end_time DataIntersightIamSession#end_time}
   */
   readonly endTime?: string;
   /**
   * Expiration time for the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#expiration DataIntersightIamSession#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#expiration DataIntersightIamSession#expiration}
   */
   readonly expiration?: string;
   /**
   * Failed logins since last login for admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#failed_logins DataIntersightIamSession#failed_logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#failed_logins DataIntersightIamSession#failed_logins}
   */
   readonly failedLogins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#id DataIntersightIamSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#id DataIntersightIamSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,61 +71,61 @@ export interface DataIntersightIamSessionConfig extends cdktf.TerraformMetaArgum
   /**
   * Idle time expiration for the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#idle_time_expiration DataIntersightIamSession#idle_time_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#idle_time_expiration DataIntersightIamSession#idle_time_expiration}
   */
   readonly idleTimeExpiration?: string;
   /**
   * The client address from which last login is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#last_login_client DataIntersightIamSession#last_login_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#last_login_client DataIntersightIamSession#last_login_client}
   */
   readonly lastLoginClient?: string;
   /**
   * The last login time for user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#last_login_time DataIntersightIamSession#last_login_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#last_login_time DataIntersightIamSession#last_login_time}
   */
   readonly lastLoginTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#mod_time DataIntersightIamSession#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#mod_time DataIntersightIamSession#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#owners DataIntersightIamSession#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#owners DataIntersightIamSession#owners}
   */
   readonly owners?: string[];
   /**
   * Role of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#role DataIntersightIamSession#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#role DataIntersightIamSession#role}
   */
   readonly role?: string;
   /**
   * Session token shared with the user agent which is used to identify the user session when API requests are received to perform authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#session_id DataIntersightIamSession#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#session_id DataIntersightIamSession#session_id}
   */
   readonly sessionId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#shared_scope DataIntersightIamSession#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#shared_scope DataIntersightIamSession#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -134,67 +134,67 @@ export interface DataIntersightIamSessionConfig extends cdktf.TerraformMetaArgum
   * * `Ended` - The session has ended normally.
   * * `Terminated` - The session was terminated by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#status DataIntersightIamSession#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#status DataIntersightIamSession#status}
   */
   readonly status?: string;
   /**
   * User ID or E-mail Address of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#user_id_or_email DataIntersightIamSession#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#user_id_or_email DataIntersightIamSession#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * account_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_permissions DataIntersightIamSession#account_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_permissions DataIntersightIamSession#account_permissions}
   */
   readonly accountPermissions?: DataIntersightIamSessionAccountPermissions[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#ancestors DataIntersightIamSession#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#ancestors DataIntersightIamSession#ancestors}
   */
   readonly ancestors?: DataIntersightIamSessionAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#parent DataIntersightIamSession#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#parent DataIntersightIamSession#parent}
   */
   readonly parent?: DataIntersightIamSessionParent;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission DataIntersightIamSession#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission DataIntersightIamSession#permission}
   */
   readonly permission?: DataIntersightIamSessionPermission;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission_resources DataIntersightIamSession#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission_resources DataIntersightIamSession#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamSessionPermissionResources[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#scope DataIntersightIamSession#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#scope DataIntersightIamSession#scope}
   */
   readonly scope?: DataIntersightIamSessionScope;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#tags DataIntersightIamSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#tags DataIntersightIamSession#tags}
   */
   readonly tags?: DataIntersightIamSessionTags[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#user DataIntersightIamSession#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#user DataIntersightIamSession#user}
   */
   readonly user?: DataIntersightIamSessionUser;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#version_context DataIntersightIamSession#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#version_context DataIntersightIamSession#version_context}
   */
   readonly versionContext?: DataIntersightIamSessionVersionContext;
 }
@@ -1551,6 +1551,11 @@ export class DataIntersightIamSessionResultsTagsOutputReference extends cdktf.Co
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2213,7 +2218,7 @@ export class DataIntersightIamSessionResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSessionAccountPermissionsAccountPermissionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2221,26 +2226,26 @@ export interface DataIntersightIamSessionAccountPermissionsAccountPermissionTags
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#key DataIntersightIamSession#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#key DataIntersightIamSession#key}
   */
   readonly key?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#value DataIntersightIamSession#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#value DataIntersightIamSession#value}
   */
   readonly value?: string;
 }
@@ -2472,7 +2477,7 @@ export class DataIntersightIamSessionAccountPermissionsAccountPermissionTagsList
 }
 export interface DataIntersightIamSessionAccountPermissionsPermissionsUserGroupMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2480,19 +2485,19 @@ export interface DataIntersightIamSessionAccountPermissionsPermissionsUserGroupM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2505,7 +2510,7 @@ export interface DataIntersightIamSessionAccountPermissionsPermissionsUserGroupM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -2737,7 +2742,7 @@ export class DataIntersightIamSessionAccountPermissionsPermissionsUserGroupMappi
 }
 export interface DataIntersightIamSessionAccountPermissionsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2745,32 +2750,32 @@ export interface DataIntersightIamSessionAccountPermissionsPermissions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * MOID of the permission which user has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission_identifier DataIntersightIamSession#permission_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission_identifier DataIntersightIamSession#permission_identifier}
   */
   readonly permissionIdentifier?: string;
   /**
   * Name of the permission which user has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission_name DataIntersightIamSession#permission_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission_name DataIntersightIamSession#permission_name}
   */
   readonly permissionName?: string;
   /**
   * user_group_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#user_group_mappings DataIntersightIamSession#user_group_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#user_group_mappings DataIntersightIamSession#user_group_mappings}
   */
   readonly userGroupMappings?: DataIntersightIamSessionAccountPermissionsPermissionsUserGroupMappings[] | cdktf.IResolvable;
 }
@@ -3033,23 +3038,23 @@ export interface DataIntersightIamSessionAccountPermissions {
   /**
   * MOID of the account which a user can select after authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_identifier DataIntersightIamSession#account_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_identifier DataIntersightIamSession#account_identifier}
   */
   readonly accountIdentifier?: string;
   /**
   * Name of the account which a user can select after authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_name DataIntersightIamSession#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_name DataIntersightIamSession#account_name}
   */
   readonly accountName?: string;
   /**
   * Status of the account. Account remains inactive until a device is claimed to the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_status DataIntersightIamSession#account_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_status DataIntersightIamSession#account_status}
   */
   readonly accountStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3057,32 +3062,32 @@ export interface DataIntersightIamSessionAccountPermissions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * Region where account belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#home_region DataIntersightIamSession#home_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#home_region DataIntersightIamSession#home_region}
   */
   readonly homeRegion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * account_permission_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_permission_tags DataIntersightIamSession#account_permission_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_permission_tags DataIntersightIamSession#account_permission_tags}
   */
   readonly accountPermissionTags?: DataIntersightIamSessionAccountPermissionsAccountPermissionTags[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permissions DataIntersightIamSession#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permissions DataIntersightIamSession#permissions}
   */
   readonly permissions?: DataIntersightIamSessionAccountPermissionsPermissions[] | cdktf.IResolvable;
 }
@@ -3430,7 +3435,7 @@ export class DataIntersightIamSessionAccountPermissionsList extends cdktf.Comple
 }
 export interface DataIntersightIamSessionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3438,19 +3443,19 @@ export interface DataIntersightIamSessionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3463,7 +3468,7 @@ export interface DataIntersightIamSessionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -3695,7 +3700,7 @@ export class DataIntersightIamSessionAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSessionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3703,19 +3708,19 @@ export interface DataIntersightIamSessionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3728,7 +3733,7 @@ export interface DataIntersightIamSessionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -3928,7 +3933,7 @@ export class DataIntersightIamSessionParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightIamSessionPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3936,19 +3941,19 @@ export interface DataIntersightIamSessionPermission {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3961,7 +3966,7 @@ export interface DataIntersightIamSessionPermission {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -4161,7 +4166,7 @@ export class DataIntersightIamSessionPermissionOutputReference extends cdktf.Com
 }
 export interface DataIntersightIamSessionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4169,19 +4174,19 @@ export interface DataIntersightIamSessionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4194,7 +4199,7 @@ export interface DataIntersightIamSessionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -4428,11 +4433,11 @@ export interface DataIntersightIamSessionScopeSwitchedFromAccount {
   /**
   * Moid of the Account to/from which user switched the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_id DataIntersightIamSession#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_id DataIntersightIamSession#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4440,20 +4445,20 @@ export interface DataIntersightIamSessionScopeSwitchedFromAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * Moid of the Permission for the Account to/from which user switched the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission_id DataIntersightIamSession#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission_id DataIntersightIamSession#permission_id}
   */
   readonly permissionId?: string;
 }
@@ -4655,11 +4660,11 @@ export interface DataIntersightIamSessionScopeSwitchedToAccounts {
   /**
   * Moid of the Account to/from which user switched the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_id DataIntersightIamSession#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_id DataIntersightIamSession#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4667,20 +4672,20 @@ export interface DataIntersightIamSessionScopeSwitchedToAccounts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * Moid of the Permission for the Account to/from which user switched the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#permission_id DataIntersightIamSession#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#permission_id DataIntersightIamSession#permission_id}
   */
   readonly permissionId?: string;
 }
@@ -4914,11 +4919,11 @@ export interface DataIntersightIamSessionScope {
   /**
   * Moid of the AccountAccessControl through which the access is given to switch scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#account_access_control_id DataIntersightIamSession#account_access_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#account_access_control_id DataIntersightIamSession#account_access_control_id}
   */
   readonly accountAccessControlId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4926,32 +4931,32 @@ export interface DataIntersightIamSessionScope {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * Stores the identifier of the issue for which user is trying to switch scope to another account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#request_identifier DataIntersightIamSession#request_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#request_identifier DataIntersightIamSession#request_identifier}
   */
   readonly requestIdentifier?: string;
   /**
   * switched_from_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#switched_from_account DataIntersightIamSession#switched_from_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#switched_from_account DataIntersightIamSession#switched_from_account}
   */
   readonly switchedFromAccount?: DataIntersightIamSessionScopeSwitchedFromAccount;
   /**
   * switched_to_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#switched_to_accounts DataIntersightIamSession#switched_to_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#switched_to_accounts DataIntersightIamSession#switched_to_accounts}
   */
   readonly switchedToAccounts?: DataIntersightIamSessionScopeSwitchedToAccounts[] | cdktf.IResolvable;
 }
@@ -5209,7 +5214,7 @@ export class DataIntersightIamSessionScopeOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightIamSessionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5217,19 +5222,19 @@ export interface DataIntersightIamSessionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5242,7 +5247,7 @@ export interface DataIntersightIamSessionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -5474,7 +5479,7 @@ export class DataIntersightIamSessionTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightIamSessionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5482,19 +5487,19 @@ export interface DataIntersightIamSessionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5507,7 +5512,7 @@ export interface DataIntersightIamSessionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -5707,45 +5712,51 @@ export class DataIntersightIamSessionTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightIamSessionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#key DataIntersightIamSession#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#key DataIntersightIamSession#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#propagated DataIntersightIamSession#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#propagated DataIntersightIamSession#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#sys_tag DataIntersightIamSession#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#type DataIntersightIamSession#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#type DataIntersightIamSession#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#value DataIntersightIamSession#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#value DataIntersightIamSession#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#ancestor_definitions DataIntersightIamSession#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#ancestor_definitions DataIntersightIamSession#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamSessionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#definition DataIntersightIamSession#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#definition DataIntersightIamSession#definition}
   */
   readonly definition?: DataIntersightIamSessionTagsDefinition;
 }
@@ -5759,6 +5770,7 @@ export function dataIntersightIamSessionTagsToTerraform(struct?: DataIntersightI
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamSessionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5787,6 +5799,12 @@ export function dataIntersightIamSessionTagsToHclTerraform(struct?: DataIntersig
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5853,6 +5871,10 @@ export class DataIntersightIamSessionTagsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5879,6 +5901,7 @@ export class DataIntersightIamSessionTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5894,6 +5917,7 @@ export class DataIntersightIamSessionTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5947,6 +5971,22 @@ export class DataIntersightIamSessionTagsOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6035,7 +6075,7 @@ export class DataIntersightIamSessionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSessionUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6043,19 +6083,19 @@ export interface DataIntersightIamSessionUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6068,7 +6108,7 @@ export interface DataIntersightIamSessionUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -6268,7 +6308,7 @@ export class DataIntersightIamSessionUserOutputReference extends cdktf.ComplexOb
 }
 export interface DataIntersightIamSessionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6276,19 +6316,19 @@ export interface DataIntersightIamSessionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6301,7 +6341,7 @@ export interface DataIntersightIamSessionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -6533,7 +6573,7 @@ export class DataIntersightIamSessionVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightIamSessionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6541,19 +6581,19 @@ export interface DataIntersightIamSessionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#moid DataIntersightIamSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6566,7 +6606,7 @@ export interface DataIntersightIamSessionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#selector DataIntersightIamSession#selector}
   */
   readonly selector?: string;
 }
@@ -6766,7 +6806,7 @@ export class DataIntersightIamSessionVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightIamSessionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#additional_properties DataIntersightIamSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6774,32 +6814,32 @@ export interface DataIntersightIamSessionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#class_id DataIntersightIamSession#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#marked_for_deletion DataIntersightIamSession#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#marked_for_deletion DataIntersightIamSession#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#nr_version DataIntersightIamSession#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#nr_version DataIntersightIamSession#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#object_type DataIntersightIamSession#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#timestamp DataIntersightIamSession#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#timestamp DataIntersightIamSession#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6810,19 +6850,19 @@ export interface DataIntersightIamSessionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#version_type DataIntersightIamSession#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#version_type DataIntersightIamSession#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#interested_mos DataIntersightIamSession#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#interested_mos DataIntersightIamSession#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamSessionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#ref_mo DataIntersightIamSession#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#ref_mo DataIntersightIamSession#ref_mo}
   */
   readonly refMo?: DataIntersightIamSessionVersionContextRefMo;
 }
@@ -7138,7 +7178,7 @@ export class DataIntersightIamSessionVersionContextOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session intersight_iam_session}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session intersight_iam_session}
 */
 export class DataIntersightIamSession extends cdktf.TerraformDataSource {
 
@@ -7154,7 +7194,7 @@ export class DataIntersightIamSession extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamSession to import
-  * @param importFromId The id of the existing DataIntersightIamSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7166,7 +7206,7 @@ export class DataIntersightIamSession extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_session intersight_iam_session} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session intersight_iam_session} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7177,8 +7217,8 @@ export class DataIntersightIamSession extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_session',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

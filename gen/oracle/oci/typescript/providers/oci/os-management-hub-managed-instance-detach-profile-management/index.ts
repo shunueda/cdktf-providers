@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubManagedInstanceDetachProfileManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#id OsManagementHubManagedInstanceDetachProfileManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#id OsManagementHubManagedInstanceDetachProfileManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#managed_instance_id OsManagementHubManagedInstanceDetachProfileManagement#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#managed_instance_id OsManagementHubManagedInstanceDetachProfileManagement#managed_instance_id}
   */
   readonly managedInstanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#timeouts OsManagementHubManagedInstanceDetachProfileManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#timeouts OsManagementHubManagedInstanceDetachProfileManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubManagedInstanceDetachProfileManagementTimeouts;
 }
 export interface OsManagementHubManagedInstanceDetachProfileManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#create OsManagementHubManagedInstanceDetachProfileManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#create OsManagementHubManagedInstanceDetachProfileManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#delete OsManagementHubManagedInstanceDetachProfileManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#delete OsManagementHubManagedInstanceDetachProfileManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#update OsManagementHubManagedInstanceDetachProfileManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#update OsManagementHubManagedInstanceDetachProfileManagement#update}
   */
   readonly update?: string;
 }
@@ -187,7 +187,7 @@ export class OsManagementHubManagedInstanceDetachProfileManagementTimeoutsOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management oci_os_management_hub_managed_instance_detach_profile_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management oci_os_management_hub_managed_instance_detach_profile_management}
 */
 export class OsManagementHubManagedInstanceDetachProfileManagement extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class OsManagementHubManagedInstanceDetachProfileManagement extends cdktf
   * Generates CDKTF code for importing a OsManagementHubManagedInstanceDetachProfileManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubManagedInstanceDetachProfileManagement to import
-  * @param importFromId The id of the existing OsManagementHubManagedInstanceDetachProfileManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubManagedInstanceDetachProfileManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubManagedInstanceDetachProfileManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class OsManagementHubManagedInstanceDetachProfileManagement extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_managed_instance_detach_profile_management oci_os_management_hub_managed_instance_detach_profile_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_managed_instance_detach_profile_management oci_os_management_hub_managed_instance_detach_profile_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class OsManagementHubManagedInstanceDetachProfileManagement extends cdktf
       terraformResourceType: 'oci_os_management_hub_managed_instance_detach_profile_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#account_moid DataIntersightStorageHitachiRemoteCopyPairGad#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#account_moid DataIntersightStorageHitachiRemoteCopyPairGad#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#create_time DataIntersightStorageHitachiRemoteCopyPairGad#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#create_time DataIntersightStorageHitachiRemoteCopyPairGad#create_time}
   */
   readonly createTime?: string;
   /**
   * Time at which the pair was created. The local time of the storage system is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#created_local_time DataIntersightStorageHitachiRemoteCopyPairGad#created_local_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#created_local_time DataIntersightStorageHitachiRemoteCopyPairGad#created_local_time}
   */
   readonly createdLocalTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#domain_group_moid DataIntersightStorageHitachiRemoteCopyPairGad#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#domain_group_moid DataIntersightStorageHitachiRemoteCopyPairGad#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#id DataIntersightStorageHitachiRemoteCopyPairGad#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#id DataIntersightStorageHitachiRemoteCopyPairGad#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,139 +53,139 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadConfig extends cdk
   /**
   * Indicates whether the state of the volume on the local storage system is SSWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#is_ssws DataIntersightStorageHitachiRemoteCopyPairGad#is_ssws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#is_ssws DataIntersightStorageHitachiRemoteCopyPairGad#is_ssws}
   */
   readonly isSsws?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#mod_time DataIntersightStorageHitachiRemoteCopyPairGad#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#mod_time DataIntersightStorageHitachiRemoteCopyPairGad#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * MU (mirror unit) number of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#mu_number DataIntersightStorageHitachiRemoteCopyPairGad#mu_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#mu_number DataIntersightStorageHitachiRemoteCopyPairGad#mu_number}
   */
   readonly muNumber?: string;
   /**
   * Object ID of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#name DataIntersightStorageHitachiRemoteCopyPairGad#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#name DataIntersightStorageHitachiRemoteCopyPairGad#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#owners DataIntersightStorageHitachiRemoteCopyPairGad#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#owners DataIntersightStorageHitachiRemoteCopyPairGad#owners}
   */
   readonly owners?: string[];
   /**
   * LDEV number of primary volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#pvol_ldev_id DataIntersightStorageHitachiRemoteCopyPairGad#pvol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#pvol_ldev_id DataIntersightStorageHitachiRemoteCopyPairGad#pvol_ldev_id}
   */
   readonly pvolLdevId?: number;
   /**
   * Serial number of the storage system on the P-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#pvol_storage_serial DataIntersightStorageHitachiRemoteCopyPairGad#pvol_storage_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#pvol_storage_serial DataIntersightStorageHitachiRemoteCopyPairGad#pvol_storage_serial}
   */
   readonly pvolStorageSerial?: string;
   /**
   * ID of the Quorum disk. A value is input only in the case of global-active device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#quorum_disk_id DataIntersightStorageHitachiRemoteCopyPairGad#quorum_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#quorum_disk_id DataIntersightStorageHitachiRemoteCopyPairGad#quorum_disk_id}
   */
   readonly quorumDiskId?: string;
   /**
   * Pair type of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#replication_type DataIntersightStorageHitachiRemoteCopyPairGad#replication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#replication_type DataIntersightStorageHitachiRemoteCopyPairGad#replication_type}
   */
   readonly replicationType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#shared_scope DataIntersightStorageHitachiRemoteCopyPairGad#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#shared_scope DataIntersightStorageHitachiRemoteCopyPairGad#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Status of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#status DataIntersightStorageHitachiRemoteCopyPairGad#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#status DataIntersightStorageHitachiRemoteCopyPairGad#status}
   */
   readonly status?: string;
   /**
   * Block or Remote instructions when a pair is suspended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#suspended_mode DataIntersightStorageHitachiRemoteCopyPairGad#suspended_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#suspended_mode DataIntersightStorageHitachiRemoteCopyPairGad#suspended_mode}
   */
   readonly suspendedMode?: string;
   /**
   * LDEV number of secondary volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#svol_ldev_id DataIntersightStorageHitachiRemoteCopyPairGad#svol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#svol_ldev_id DataIntersightStorageHitachiRemoteCopyPairGad#svol_ldev_id}
   */
   readonly svolLdevId?: number;
   /**
   * Serial number of the storage system on the S-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#svol_storage_serial DataIntersightStorageHitachiRemoteCopyPairGad#svol_storage_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#svol_storage_serial DataIntersightStorageHitachiRemoteCopyPairGad#svol_storage_serial}
   */
   readonly svolStorageSerial?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ancestors DataIntersightStorageHitachiRemoteCopyPairGad#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ancestors DataIntersightStorageHitachiRemoteCopyPairGad#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiRemoteCopyPairGadAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#array DataIntersightStorageHitachiRemoteCopyPairGad#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#array DataIntersightStorageHitachiRemoteCopyPairGad#array}
   */
   readonly array?: DataIntersightStorageHitachiRemoteCopyPairGadArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#parent DataIntersightStorageHitachiRemoteCopyPairGad#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#parent DataIntersightStorageHitachiRemoteCopyPairGad#parent}
   */
   readonly parent?: DataIntersightStorageHitachiRemoteCopyPairGadParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#permission_resources DataIntersightStorageHitachiRemoteCopyPairGad#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#permission_resources DataIntersightStorageHitachiRemoteCopyPairGad#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiRemoteCopyPairGadPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#registered_device DataIntersightStorageHitachiRemoteCopyPairGad#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#registered_device DataIntersightStorageHitachiRemoteCopyPairGad#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiRemoteCopyPairGadRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#tags DataIntersightStorageHitachiRemoteCopyPairGad#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#tags DataIntersightStorageHitachiRemoteCopyPairGad#tags}
   */
   readonly tags?: DataIntersightStorageHitachiRemoteCopyPairGadTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#version_context DataIntersightStorageHitachiRemoteCopyPairGad#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#version_context DataIntersightStorageHitachiRemoteCopyPairGad#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiRemoteCopyPairGadVersionContext;
 }
@@ -932,6 +932,11 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1492,7 +1497,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadResultsList extends cd
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1500,19 +1505,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1525,7 +1530,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -1757,7 +1762,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadAncestorsList extends 
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1765,19 +1770,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1790,7 +1795,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -1990,7 +1995,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadArrayOutputReference e
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1998,19 +2003,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2023,7 +2028,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -2223,7 +2228,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadParentOutputReference 
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2231,19 +2236,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2256,7 +2261,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -2488,7 +2493,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadPermissionResourcesLis
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2496,19 +2501,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2521,7 +2526,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -2721,7 +2726,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadRegisteredDeviceOutput
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2729,19 +2734,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2754,7 +2759,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -2986,7 +2991,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefinition
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2994,19 +2999,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3019,7 +3024,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -3219,45 +3224,51 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsDefinitionOutputRe
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#key DataIntersightStorageHitachiRemoteCopyPairGad#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#key DataIntersightStorageHitachiRemoteCopyPairGad#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#propagated DataIntersightStorageHitachiRemoteCopyPairGad#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#propagated DataIntersightStorageHitachiRemoteCopyPairGad#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#sys_tag DataIntersightStorageHitachiRemoteCopyPairGad#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#type DataIntersightStorageHitachiRemoteCopyPairGad#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#type DataIntersightStorageHitachiRemoteCopyPairGad#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#value DataIntersightStorageHitachiRemoteCopyPairGad#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#value DataIntersightStorageHitachiRemoteCopyPairGad#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ancestor_definitions DataIntersightStorageHitachiRemoteCopyPairGad#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ancestor_definitions DataIntersightStorageHitachiRemoteCopyPairGad#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#definition DataIntersightStorageHitachiRemoteCopyPairGad#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#definition DataIntersightStorageHitachiRemoteCopyPairGad#definition}
   */
   readonly definition?: DataIntersightStorageHitachiRemoteCopyPairGadTagsDefinition;
 }
@@ -3271,6 +3282,7 @@ export function dataIntersightStorageHitachiRemoteCopyPairGadTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageHitachiRemoteCopyPairGadTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3299,6 +3311,12 @@ export function dataIntersightStorageHitachiRemoteCopyPairGadTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3365,6 +3383,10 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3391,6 +3413,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3406,6 +3429,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3459,6 +3483,22 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3547,7 +3587,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadTagsList extends cdktf
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3555,19 +3595,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3580,7 +3620,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -3812,7 +3852,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadVersionContextInterest
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3820,19 +3860,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#moid DataIntersightStorageHitachiRemoteCopyPairGad#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3845,7 +3885,7 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#selector DataIntersightStorageHitachiRemoteCopyPairGad#selector}
   */
   readonly selector?: string;
 }
@@ -4045,7 +4085,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadVersionContextRefMoOut
 }
 export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#additional_properties DataIntersightStorageHitachiRemoteCopyPairGad#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4053,32 +4093,32 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#class_id DataIntersightStorageHitachiRemoteCopyPairGad#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#marked_for_deletion DataIntersightStorageHitachiRemoteCopyPairGad#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#marked_for_deletion DataIntersightStorageHitachiRemoteCopyPairGad#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#nr_version DataIntersightStorageHitachiRemoteCopyPairGad#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#nr_version DataIntersightStorageHitachiRemoteCopyPairGad#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#object_type DataIntersightStorageHitachiRemoteCopyPairGad#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#timestamp DataIntersightStorageHitachiRemoteCopyPairGad#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#timestamp DataIntersightStorageHitachiRemoteCopyPairGad#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4089,19 +4129,19 @@ export interface DataIntersightStorageHitachiRemoteCopyPairGadVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#version_type DataIntersightStorageHitachiRemoteCopyPairGad#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#version_type DataIntersightStorageHitachiRemoteCopyPairGad#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#interested_mos DataIntersightStorageHitachiRemoteCopyPairGad#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#interested_mos DataIntersightStorageHitachiRemoteCopyPairGad#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiRemoteCopyPairGadVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ref_mo DataIntersightStorageHitachiRemoteCopyPairGad#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#ref_mo DataIntersightStorageHitachiRemoteCopyPairGad#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiRemoteCopyPairGadVersionContextRefMo;
 }
@@ -4417,7 +4457,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGadVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad intersight_storage_hitachi_remote_copy_pair_gad}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad intersight_storage_hitachi_remote_copy_pair_gad}
 */
 export class DataIntersightStorageHitachiRemoteCopyPairGad extends cdktf.TerraformDataSource {
 
@@ -4433,7 +4473,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGad extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightStorageHitachiRemoteCopyPairGad resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiRemoteCopyPairGad to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiRemoteCopyPairGad that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiRemoteCopyPairGad that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiRemoteCopyPairGad to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4445,7 +4485,7 @@ export class DataIntersightStorageHitachiRemoteCopyPairGad extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_copy_pair_gad intersight_storage_hitachi_remote_copy_pair_gad} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_copy_pair_gad intersight_storage_hitachi_remote_copy_pair_gad} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4456,8 +4496,8 @@ export class DataIntersightStorageHitachiRemoteCopyPairGad extends cdktf.Terrafo
       terraformResourceType: 'intersight_storage_hitachi_remote_copy_pair_gad',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

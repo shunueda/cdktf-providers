@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBridgeEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#compartment_id CloudBridgeEnvironment#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#compartment_id CloudBridgeEnvironment#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#defined_tags CloudBridgeEnvironment#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#defined_tags CloudBridgeEnvironment#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#display_name CloudBridgeEnvironment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#display_name CloudBridgeEnvironment#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#freeform_tags CloudBridgeEnvironment#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#freeform_tags CloudBridgeEnvironment#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#id CloudBridgeEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#id CloudBridgeEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,21 +33,21 @@ export interface CloudBridgeEnvironmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#timeouts CloudBridgeEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#timeouts CloudBridgeEnvironment#timeouts}
   */
   readonly timeouts?: CloudBridgeEnvironmentTimeouts;
 }
 export interface CloudBridgeEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#create CloudBridgeEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#create CloudBridgeEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#delete CloudBridgeEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#delete CloudBridgeEnvironment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#update CloudBridgeEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#update CloudBridgeEnvironment#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class CloudBridgeEnvironmentTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment oci_cloud_bridge_environment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment oci_cloud_bridge_environment}
 */
 export class CloudBridgeEnvironment extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class CloudBridgeEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudBridgeEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBridgeEnvironment to import
-  * @param importFromId The id of the existing CloudBridgeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBridgeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBridgeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class CloudBridgeEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_environment oci_cloud_bridge_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_environment oci_cloud_bridge_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class CloudBridgeEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_bridge_environment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

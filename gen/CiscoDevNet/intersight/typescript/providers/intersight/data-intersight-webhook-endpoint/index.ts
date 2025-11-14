@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWebhookEndpointConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#account_moid DataIntersightWebhookEndpoint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#account_moid DataIntersightWebhookEndpoint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -25,7 +25,7 @@ export interface DataIntersightWebhookEndpointConfig extends cdktf.TerraformMeta
   * * `auth-code` - The client uses OAuth Authorization Grant Flow without PKCE for authentication.
   * * `client-credentials` - The client uses OAuth Client Credentials Flow for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#auth_type DataIntersightWebhookEndpoint#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#auth_type DataIntersightWebhookEndpoint#auth_type}
   */
   readonly authType?: string;
   /**
@@ -33,13 +33,13 @@ export interface DataIntersightWebhookEndpointConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#create_time DataIntersightWebhookEndpoint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#create_time DataIntersightWebhookEndpoint#create_time}
   */
   readonly createTime?: string;
   /**
@@ -47,17 +47,17 @@ export interface DataIntersightWebhookEndpointConfig extends cdktf.TerraformMeta
   * * `none` - No action to be performed.
   * * `regenerateCredentials` - Allows for revocation and regeneration of a token. The old token associated with the client application. will not be usable and a new token will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#credentials_action DataIntersightWebhookEndpoint#credentials_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#credentials_action DataIntersightWebhookEndpoint#credentials_action}
   */
   readonly credentialsAction?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#domain_group_moid DataIntersightWebhookEndpoint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#domain_group_moid DataIntersightWebhookEndpoint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#id DataIntersightWebhookEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#id DataIntersightWebhookEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,103 +66,103 @@ export interface DataIntersightWebhookEndpointConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#mod_time DataIntersightWebhookEndpoint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#mod_time DataIntersightWebhookEndpoint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The name of the Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#name DataIntersightWebhookEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#name DataIntersightWebhookEndpoint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#owners DataIntersightWebhookEndpoint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#owners DataIntersightWebhookEndpoint#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#shared_scope DataIntersightWebhookEndpoint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#shared_scope DataIntersightWebhookEndpoint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The endpoint URL. The CREATE and UPDATE APIs can cause the change to the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#url DataIntersightWebhookEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#url DataIntersightWebhookEndpoint#url}
   */
   readonly url?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#account DataIntersightWebhookEndpoint#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#account DataIntersightWebhookEndpoint#account}
   */
   readonly account?: DataIntersightWebhookEndpointAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#ancestors DataIntersightWebhookEndpoint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#ancestors DataIntersightWebhookEndpoint#ancestors}
   */
   readonly ancestors?: DataIntersightWebhookEndpointAncestors[] | cdktf.IResolvable;
   /**
   * app_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#app_credentials DataIntersightWebhookEndpoint#app_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#app_credentials DataIntersightWebhookEndpoint#app_credentials}
   */
   readonly appCredentials?: DataIntersightWebhookEndpointAppCredentials;
   /**
   * app_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#app_registration DataIntersightWebhookEndpoint#app_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#app_registration DataIntersightWebhookEndpoint#app_registration}
   */
   readonly appRegistration?: DataIntersightWebhookEndpointAppRegistration;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#organization DataIntersightWebhookEndpoint#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#organization DataIntersightWebhookEndpoint#organization}
   */
   readonly organization?: DataIntersightWebhookEndpointOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#parent DataIntersightWebhookEndpoint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#parent DataIntersightWebhookEndpoint#parent}
   */
   readonly parent?: DataIntersightWebhookEndpointParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#permission_resources DataIntersightWebhookEndpoint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#permission_resources DataIntersightWebhookEndpoint#permission_resources}
   */
   readonly permissionResources?: DataIntersightWebhookEndpointPermissionResources[] | cdktf.IResolvable;
   /**
   * schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#schemas DataIntersightWebhookEndpoint#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#schemas DataIntersightWebhookEndpoint#schemas}
   */
   readonly schemas?: DataIntersightWebhookEndpointSchemas[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#tags DataIntersightWebhookEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#tags DataIntersightWebhookEndpoint#tags}
   */
   readonly tags?: DataIntersightWebhookEndpointTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#version_context DataIntersightWebhookEndpoint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#version_context DataIntersightWebhookEndpoint#version_context}
   */
   readonly versionContext?: DataIntersightWebhookEndpointVersionContext;
 }
@@ -1184,6 +1184,11 @@ export class DataIntersightWebhookEndpointResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1722,7 +1727,7 @@ export class DataIntersightWebhookEndpointResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightWebhookEndpointAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1730,19 +1735,19 @@ export interface DataIntersightWebhookEndpointAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1755,7 +1760,7 @@ export interface DataIntersightWebhookEndpointAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -1955,7 +1960,7 @@ export class DataIntersightWebhookEndpointAccountOutputReference extends cdktf.C
 }
 export interface DataIntersightWebhookEndpointAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1963,19 +1968,19 @@ export interface DataIntersightWebhookEndpointAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1988,7 +1993,7 @@ export interface DataIntersightWebhookEndpointAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2220,7 +2225,7 @@ export class DataIntersightWebhookEndpointAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightWebhookEndpointAppCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2229,7 +2234,7 @@ export interface DataIntersightWebhookEndpointAppCredentials {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
@@ -2237,7 +2242,7 @@ export interface DataIntersightWebhookEndpointAppCredentials {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
 }
@@ -2379,7 +2384,7 @@ export class DataIntersightWebhookEndpointAppCredentialsOutputReference extends 
 }
 export interface DataIntersightWebhookEndpointAppRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2387,19 +2392,19 @@ export interface DataIntersightWebhookEndpointAppRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2412,7 +2417,7 @@ export interface DataIntersightWebhookEndpointAppRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2612,7 +2617,7 @@ export class DataIntersightWebhookEndpointAppRegistrationOutputReference extends
 }
 export interface DataIntersightWebhookEndpointOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2620,19 +2625,19 @@ export interface DataIntersightWebhookEndpointOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2645,7 +2650,7 @@ export interface DataIntersightWebhookEndpointOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2845,7 +2850,7 @@ export class DataIntersightWebhookEndpointOrganizationOutputReference extends cd
 }
 export interface DataIntersightWebhookEndpointParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2853,19 +2858,19 @@ export interface DataIntersightWebhookEndpointParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2878,7 +2883,7 @@ export interface DataIntersightWebhookEndpointParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3078,7 +3083,7 @@ export class DataIntersightWebhookEndpointParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightWebhookEndpointPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3086,19 +3091,19 @@ export interface DataIntersightWebhookEndpointPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3111,7 +3116,7 @@ export interface DataIntersightWebhookEndpointPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3343,7 +3348,7 @@ export class DataIntersightWebhookEndpointPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightWebhookEndpointSchemas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3351,19 +3356,19 @@ export interface DataIntersightWebhookEndpointSchemas {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3376,7 +3381,7 @@ export interface DataIntersightWebhookEndpointSchemas {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3608,7 +3613,7 @@ export class DataIntersightWebhookEndpointSchemasList extends cdktf.ComplexList 
 }
 export interface DataIntersightWebhookEndpointTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3616,19 +3621,19 @@ export interface DataIntersightWebhookEndpointTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3641,7 +3646,7 @@ export interface DataIntersightWebhookEndpointTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3873,7 +3878,7 @@ export class DataIntersightWebhookEndpointTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightWebhookEndpointTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3881,19 +3886,19 @@ export interface DataIntersightWebhookEndpointTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3906,7 +3911,7 @@ export interface DataIntersightWebhookEndpointTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4106,45 +4111,51 @@ export class DataIntersightWebhookEndpointTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightWebhookEndpointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#key DataIntersightWebhookEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#key DataIntersightWebhookEndpoint#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#propagated DataIntersightWebhookEndpoint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#propagated DataIntersightWebhookEndpoint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#sys_tag DataIntersightWebhookEndpoint#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#type DataIntersightWebhookEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#type DataIntersightWebhookEndpoint#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#value DataIntersightWebhookEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#value DataIntersightWebhookEndpoint#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#ancestor_definitions DataIntersightWebhookEndpoint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#ancestor_definitions DataIntersightWebhookEndpoint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWebhookEndpointTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#definition DataIntersightWebhookEndpoint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#definition DataIntersightWebhookEndpoint#definition}
   */
   readonly definition?: DataIntersightWebhookEndpointTagsDefinition;
 }
@@ -4158,6 +4169,7 @@ export function dataIntersightWebhookEndpointTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWebhookEndpointTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4186,6 +4198,12 @@ export function dataIntersightWebhookEndpointTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4252,6 +4270,10 @@ export class DataIntersightWebhookEndpointTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4278,6 +4300,7 @@ export class DataIntersightWebhookEndpointTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4293,6 +4316,7 @@ export class DataIntersightWebhookEndpointTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4346,6 +4370,22 @@ export class DataIntersightWebhookEndpointTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4434,7 +4474,7 @@ export class DataIntersightWebhookEndpointTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightWebhookEndpointVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4442,19 +4482,19 @@ export interface DataIntersightWebhookEndpointVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4467,7 +4507,7 @@ export interface DataIntersightWebhookEndpointVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4699,7 +4739,7 @@ export class DataIntersightWebhookEndpointVersionContextInterestedMosList extend
 }
 export interface DataIntersightWebhookEndpointVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4707,19 +4747,19 @@ export interface DataIntersightWebhookEndpointVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#moid DataIntersightWebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4732,7 +4772,7 @@ export interface DataIntersightWebhookEndpointVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#selector DataIntersightWebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4932,7 +4972,7 @@ export class DataIntersightWebhookEndpointVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightWebhookEndpointVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#additional_properties DataIntersightWebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4940,32 +4980,32 @@ export interface DataIntersightWebhookEndpointVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#class_id DataIntersightWebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#marked_for_deletion DataIntersightWebhookEndpoint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#marked_for_deletion DataIntersightWebhookEndpoint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#nr_version DataIntersightWebhookEndpoint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#nr_version DataIntersightWebhookEndpoint#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#object_type DataIntersightWebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#timestamp DataIntersightWebhookEndpoint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#timestamp DataIntersightWebhookEndpoint#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4976,19 +5016,19 @@ export interface DataIntersightWebhookEndpointVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#version_type DataIntersightWebhookEndpoint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#version_type DataIntersightWebhookEndpoint#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#interested_mos DataIntersightWebhookEndpoint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#interested_mos DataIntersightWebhookEndpoint#interested_mos}
   */
   readonly interestedMos?: DataIntersightWebhookEndpointVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#ref_mo DataIntersightWebhookEndpoint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#ref_mo DataIntersightWebhookEndpoint#ref_mo}
   */
   readonly refMo?: DataIntersightWebhookEndpointVersionContextRefMo;
 }
@@ -5304,7 +5344,7 @@ export class DataIntersightWebhookEndpointVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint intersight_webhook_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint intersight_webhook_endpoint}
 */
 export class DataIntersightWebhookEndpoint extends cdktf.TerraformDataSource {
 
@@ -5320,7 +5360,7 @@ export class DataIntersightWebhookEndpoint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightWebhookEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWebhookEndpoint to import
-  * @param importFromId The id of the existing DataIntersightWebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWebhookEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5332,7 +5372,7 @@ export class DataIntersightWebhookEndpoint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/webhook_endpoint intersight_webhook_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/webhook_endpoint intersight_webhook_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5343,8 +5383,8 @@ export class DataIntersightWebhookEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_webhook_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

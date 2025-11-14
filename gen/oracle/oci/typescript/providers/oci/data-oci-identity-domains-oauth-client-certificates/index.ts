@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsOauthClientCertificatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#authorization DataOciIdentityDomainsOauthClientCertificates#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#authorization DataOciIdentityDomainsOauthClientCertificates#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#compartment_id DataOciIdentityDomainsOauthClientCertificates#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#compartment_id DataOciIdentityDomainsOauthClientCertificates#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#id DataOciIdentityDomainsOauthClientCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#id DataOciIdentityDomainsOauthClientCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#idcs_endpoint DataOciIdentityDomainsOauthClientCertificates#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#idcs_endpoint DataOciIdentityDomainsOauthClientCertificates#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#oauth_client_certificate_count DataOciIdentityDomainsOauthClientCertificates#oauth_client_certificate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#oauth_client_certificate_count DataOciIdentityDomainsOauthClientCertificates#oauth_client_certificate_count}
   */
   readonly oauthClientCertificateCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#oauth_client_certificate_filter DataOciIdentityDomainsOauthClientCertificates#oauth_client_certificate_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#oauth_client_certificate_filter DataOciIdentityDomainsOauthClientCertificates#oauth_client_certificate_filter}
   */
   readonly oauthClientCertificateFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#resource_type_schema_version DataOciIdentityDomainsOauthClientCertificates#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#resource_type_schema_version DataOciIdentityDomainsOauthClientCertificates#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#sort_by DataOciIdentityDomainsOauthClientCertificates#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#sort_by DataOciIdentityDomainsOauthClientCertificates#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#sort_order DataOciIdentityDomainsOauthClientCertificates#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#sort_order DataOciIdentityDomainsOauthClientCertificates#sort_order}
   */
   readonly sortOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#start_index DataOciIdentityDomainsOauthClientCertificates#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#start_index DataOciIdentityDomainsOauthClientCertificates#start_index}
   */
   readonly startIndex?: number;
 }
@@ -627,7 +627,7 @@ export class DataOciIdentityDomainsOauthClientCertificatesOauthClientCertificate
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates oci_identity_domains_oauth_client_certificates}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates oci_identity_domains_oauth_client_certificates}
 */
 export class DataOciIdentityDomainsOauthClientCertificates extends cdktf.TerraformDataSource {
 
@@ -643,7 +643,7 @@ export class DataOciIdentityDomainsOauthClientCertificates extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataOciIdentityDomainsOauthClientCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsOauthClientCertificates to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsOauthClientCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsOauthClientCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsOauthClientCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class DataOciIdentityDomainsOauthClientCertificates extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_oauth_client_certificates oci_identity_domains_oauth_client_certificates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_oauth_client_certificates oci_identity_domains_oauth_client_certificates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +666,8 @@ export class DataOciIdentityDomainsOauthClientCertificates extends cdktf.Terrafo
       terraformResourceType: 'oci_identity_domains_oauth_client_certificates',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

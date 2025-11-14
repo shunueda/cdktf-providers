@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkFirewallNetworkFirewallPolicyNatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}
   */
   readonly type: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
   */
   readonly condition: NetworkFirewallNetworkFirewallPolicyNatRuleCondition;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
   */
   readonly position?: NetworkFirewallNetworkFirewallPolicyNatRulePosition;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
   */
   readonly timeouts?: NetworkFirewallNetworkFirewallPolicyNatRuleTimeouts;
 }
 export interface NetworkFirewallNetworkFirewallPolicyNatRuleCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#destination_address NetworkFirewallNetworkFirewallPolicyNatRule#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#destination_address NetworkFirewallNetworkFirewallPolicyNatRule#destination_address}
   */
   readonly destinationAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#service NetworkFirewallNetworkFirewallPolicyNatRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#service NetworkFirewallNetworkFirewallPolicyNatRule#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#source_address NetworkFirewallNetworkFirewallPolicyNatRule#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#source_address NetworkFirewallNetworkFirewallPolicyNatRule#source_address}
   */
   readonly sourceAddress?: string[];
 }
@@ -205,11 +205,11 @@ export class NetworkFirewallNetworkFirewallPolicyNatRuleConditionOutputReference
 }
 export interface NetworkFirewallNetworkFirewallPolicyNatRulePosition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#after_rule NetworkFirewallNetworkFirewallPolicyNatRule#after_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#after_rule NetworkFirewallNetworkFirewallPolicyNatRule#after_rule}
   */
   readonly afterRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#before_rule NetworkFirewallNetworkFirewallPolicyNatRule#before_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#before_rule NetworkFirewallNetworkFirewallPolicyNatRule#before_rule}
   */
   readonly beforeRule?: string;
 }
@@ -322,15 +322,15 @@ export class NetworkFirewallNetworkFirewallPolicyNatRulePositionOutputReference 
 }
 export interface NetworkFirewallNetworkFirewallPolicyNatRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#create NetworkFirewallNetworkFirewallPolicyNatRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#create NetworkFirewallNetworkFirewallPolicyNatRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#delete NetworkFirewallNetworkFirewallPolicyNatRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#delete NetworkFirewallNetworkFirewallPolicyNatRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#update NetworkFirewallNetworkFirewallPolicyNatRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#update NetworkFirewallNetworkFirewallPolicyNatRule#update}
   */
   readonly update?: string;
 }
@@ -482,7 +482,7 @@ export class NetworkFirewallNetworkFirewallPolicyNatRuleTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule}
 */
 export class NetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class NetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Terraform
   * Generates CDKTF code for importing a NetworkFirewallNetworkFirewallPolicyNatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirewallNetworkFirewallPolicyNatRule to import
-  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirewallNetworkFirewallPolicyNatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class NetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class NetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Terraform
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_nat_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

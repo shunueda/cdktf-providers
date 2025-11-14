@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#account_moid ServerProfileTemplate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#account_moid ServerProfileTemplate#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#action ServerProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#action ServerProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#action_params ServerProfileTemplate#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#action_params ServerProfileTemplate#action_params}
   */
   readonly actionParams?: ServerProfileTemplateActionParams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#ancestors ServerProfileTemplate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#ancestors ServerProfileTemplate#ancestors}
   */
   readonly ancestors?: ServerProfileTemplateAncestors[] | cdktf.IResolvable;
   /**
@@ -38,52 +38,52 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The configuration state and results of the last configuration operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#config_context ServerProfileTemplate#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#config_context ServerProfileTemplate#config_context}
   */
   readonly configContext?: ServerProfileTemplateConfigContext[] | cdktf.IResolvable;
   /**
   * A reference to a serverConfigResult resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#config_result ServerProfileTemplate#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#config_result ServerProfileTemplate#config_result}
   */
   readonly configResult?: ServerProfileTemplateConfigResult[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#create_time ServerProfileTemplate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#create_time ServerProfileTemplate#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#deployed_policies ServerProfileTemplate#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#deployed_policies ServerProfileTemplate#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#description ServerProfileTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#description ServerProfileTemplate#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#domain_group_moid ServerProfileTemplate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#domain_group_moid ServerProfileTemplate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * When enabled, the configuration of the derived instances may override the template configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#enable_override ServerProfileTemplate#enable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#enable_override ServerProfileTemplate#enable_override}
   */
   readonly enableOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#id ServerProfileTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#id ServerProfileTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,88 +94,88 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   * * `IntersightStandalone` - Intersight Standalone mode of operation.
   * * `Intersight` - Intersight managed mode of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#management_mode ServerProfileTemplate#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#management_mode ServerProfileTemplate#management_mode}
   */
   readonly managementMode?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#mod_time ServerProfileTemplate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#mod_time ServerProfileTemplate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#name ServerProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#name ServerProfileTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#organization ServerProfileTemplate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#organization ServerProfileTemplate#organization}
   */
   readonly organization?: ServerProfileTemplateOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#owners ServerProfileTemplate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#owners ServerProfileTemplate#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#parent ServerProfileTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#parent ServerProfileTemplate#parent}
   */
   readonly parent?: ServerProfileTemplateParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#permission_resources ServerProfileTemplate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#permission_resources ServerProfileTemplate#permission_resources}
   */
   readonly permissionResources?: ServerProfileTemplatePermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#policy_bucket ServerProfileTemplate#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#policy_bucket ServerProfileTemplate#policy_bucket}
   */
   readonly policyBucket?: ServerProfileTemplatePolicyBucket[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#removed_policies ServerProfileTemplate#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#removed_policies ServerProfileTemplate#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#scheduled_actions ServerProfileTemplate#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#scheduled_actions ServerProfileTemplate#scheduled_actions}
   */
   readonly scheduledActions?: ServerProfileTemplateScheduledActions[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#shared_scope ServerProfileTemplate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#shared_scope ServerProfileTemplate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#src_template ServerProfileTemplate#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#src_template ServerProfileTemplate#src_template}
   */
   readonly srcTemplate?: ServerProfileTemplateSrcTemplate[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#tags ServerProfileTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#tags ServerProfileTemplate#tags}
   */
   readonly tags?: ServerProfileTemplateTags[] | cdktf.IResolvable;
   /**
@@ -184,18 +184,18 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   * * `FIAttached` - Servers which are connected to a Fabric Interconnect that is managed by Intersight.
   * * `UnifiedEdgeServer` - Unified Edge sleds that is managed by Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#target_platform ServerProfileTemplate#target_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#target_platform ServerProfileTemplate#target_platform}
   */
   readonly targetPlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#template_actions ServerProfileTemplate#template_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#template_actions ServerProfileTemplate#template_actions}
   */
   readonly templateActions?: ServerProfileTemplateTemplateActions[] | cdktf.IResolvable;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#type ServerProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#type ServerProfileTemplate#type}
   */
   readonly type?: string;
   /**
@@ -206,19 +206,19 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   * * `InProgress` - The Enum value represents that the object sync with the attached template is in progress.
   * * `OutOfSync` - The Enum value represents that the object values are not in sync with attached template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#update_status ServerProfileTemplate#update_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#update_status ServerProfileTemplate#update_status}
   */
   readonly updateStatus?: string;
   /**
   * The count of the server profiles derived from the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#usage ServerProfileTemplate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#usage ServerProfileTemplate#usage}
   */
   readonly usage?: number;
   /**
   * The number of objects derived from a Template MO instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#usage_count ServerProfileTemplate#usage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#usage_count ServerProfileTemplate#usage_count}
   */
   readonly usageCount?: number;
   /**
@@ -227,42 +227,42 @@ export interface ServerProfileTemplateConfig extends cdktf.TerraformMetaArgument
   * * `STATIC` - The user assigns a static UUID address.
   * * `POOL` - The user selects a pool from which the address will be leased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#uuid_address_type ServerProfileTemplate#uuid_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#uuid_address_type ServerProfileTemplate#uuid_address_type}
   */
   readonly uuidAddressType?: string;
   /**
   * A reference to a uuidpoolPool resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#uuid_pool ServerProfileTemplate#uuid_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#uuid_pool ServerProfileTemplate#uuid_pool}
   */
   readonly uuidPool?: ServerProfileTemplateUuidPool[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#version_context ServerProfileTemplate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#version_context ServerProfileTemplate#version_context}
   */
   readonly versionContext?: ServerProfileTemplateVersionContext[] | cdktf.IResolvable;
 }
 export interface ServerProfileTemplateActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#name ServerProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#name ServerProfileTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#value ServerProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#value ServerProfileTemplate#value}
   */
   readonly value?: string;
 }
@@ -494,23 +494,23 @@ export class ServerProfileTemplateActionParamsList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -742,43 +742,43 @@ export class ServerProfileTemplateAncestorsList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#config_state ServerProfileTemplate#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#config_state ServerProfileTemplate#config_state}
   */
   readonly configState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#config_state_summary ServerProfileTemplate#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#config_state_summary ServerProfileTemplate#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#config_type ServerProfileTemplate#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#config_type ServerProfileTemplate#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#control_action ServerProfileTemplate#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#control_action ServerProfileTemplate#control_action}
   */
   readonly controlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#error_state ServerProfileTemplate#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#error_state ServerProfileTemplate#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#inconsistency_reason ServerProfileTemplate#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#inconsistency_reason ServerProfileTemplate#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#oper_state ServerProfileTemplate#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#oper_state ServerProfileTemplate#oper_state}
   */
   readonly operState?: string;
 }
@@ -1155,23 +1155,23 @@ export class ServerProfileTemplateConfigContextList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -1403,23 +1403,23 @@ export class ServerProfileTemplateConfigResultList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -1651,23 +1651,23 @@ export class ServerProfileTemplateOrganizationList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -1899,23 +1899,23 @@ export class ServerProfileTemplateParentList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2147,23 +2147,23 @@ export class ServerProfileTemplatePermissionResourcesList extends cdktf.ComplexL
 }
 export interface ServerProfileTemplatePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2395,15 +2395,15 @@ export class ServerProfileTemplatePolicyBucketList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
 }
@@ -2577,27 +2577,27 @@ export class ServerProfileTemplateScheduledActionsActionQualifierList extends cd
 }
 export interface ServerProfileTemplateScheduledActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#action ServerProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#action ServerProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#action_qualifier ServerProfileTemplate#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#action_qualifier ServerProfileTemplate#action_qualifier}
   */
   readonly actionQualifier?: ServerProfileTemplateScheduledActionsActionQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#proceed_on_reboot ServerProfileTemplate#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#proceed_on_reboot ServerProfileTemplate#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
 }
@@ -2858,23 +2858,23 @@ export class ServerProfileTemplateScheduledActionsList extends cdktf.ComplexList
 }
 export interface ServerProfileTemplateSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3106,23 +3106,23 @@ export class ServerProfileTemplateSrcTemplateList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3354,23 +3354,23 @@ export class ServerProfileTemplateTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface ServerProfileTemplateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3602,31 +3602,35 @@ export class ServerProfileTemplateTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#ancestor_definitions ServerProfileTemplate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#ancestor_definitions ServerProfileTemplate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ServerProfileTemplateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#definition ServerProfileTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#definition ServerProfileTemplate#definition}
   */
   readonly definition?: ServerProfileTemplateTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#key ServerProfileTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#key ServerProfileTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#propagated ServerProfileTemplate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#propagated ServerProfileTemplate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#type ServerProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#sys_tag ServerProfileTemplate#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#type ServerProfileTemplate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#value ServerProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#value ServerProfileTemplate#value}
   */
   readonly value?: string;
 }
@@ -3642,6 +3646,7 @@ export function serverProfileTemplateTagsToTerraform(struct?: ServerProfileTempl
     definition: cdktf.listMapper(serverProfileTemplateTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3680,6 +3685,12 @@ export function serverProfileTemplateTagsToHclTerraform(struct?: ServerProfileTe
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3742,6 +3753,10 @@ export class ServerProfileTemplateTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3762,6 +3777,7 @@ export class ServerProfileTemplateTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3777,6 +3793,7 @@ export class ServerProfileTemplateTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3862,6 +3879,22 @@ export class ServerProfileTemplateTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3916,23 +3949,23 @@ export class ServerProfileTemplateTagsList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateTemplateActionsParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#name ServerProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#name ServerProfileTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#value ServerProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#value ServerProfileTemplate#value}
   */
   readonly value?: string;
 }
@@ -4164,23 +4197,23 @@ export class ServerProfileTemplateTemplateActionsParamsList extends cdktf.Comple
 }
 export interface ServerProfileTemplateTemplateActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#params ServerProfileTemplate#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#params ServerProfileTemplate#params}
   */
   readonly params?: ServerProfileTemplateTemplateActionsParams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#type ServerProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#type ServerProfileTemplate#type}
   */
   readonly type?: string;
 }
@@ -4412,23 +4445,23 @@ export class ServerProfileTemplateTemplateActionsList extends cdktf.ComplexList 
 }
 export interface ServerProfileTemplateUuidPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4660,23 +4693,23 @@ export class ServerProfileTemplateUuidPoolList extends cdktf.ComplexList {
 }
 export interface ServerProfileTemplateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4908,23 +4941,23 @@ export class ServerProfileTemplateVersionContextInterestedMosList extends cdktf.
 }
 export interface ServerProfileTemplateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#moid ServerProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#selector ServerProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5156,39 +5189,39 @@ export class ServerProfileTemplateVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface ServerProfileTemplateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#additional_properties ServerProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#class_id ServerProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#interested_mos ServerProfileTemplate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#interested_mos ServerProfileTemplate#interested_mos}
   */
   readonly interestedMos?: ServerProfileTemplateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#marked_for_deletion ServerProfileTemplate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#marked_for_deletion ServerProfileTemplate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#nr_version ServerProfileTemplate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#nr_version ServerProfileTemplate#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#object_type ServerProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#ref_mo ServerProfileTemplate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#ref_mo ServerProfileTemplate#ref_mo}
   */
   readonly refMo?: ServerProfileTemplateVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#timestamp ServerProfileTemplate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#timestamp ServerProfileTemplate#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#version_type ServerProfileTemplate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#version_type ServerProfileTemplate#version_type}
   */
   readonly versionType?: string;
 }
@@ -5536,7 +5569,7 @@ export class ServerProfileTemplateVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template intersight_server_profile_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template intersight_server_profile_template}
 */
 export class ServerProfileTemplate extends cdktf.TerraformResource {
 
@@ -5552,7 +5585,7 @@ export class ServerProfileTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerProfileTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerProfileTemplate to import
-  * @param importFromId The id of the existing ServerProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerProfileTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5564,7 +5597,7 @@ export class ServerProfileTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/server_profile_template intersight_server_profile_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/server_profile_template intersight_server_profile_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5575,8 +5608,8 @@ export class ServerProfileTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_server_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

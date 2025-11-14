@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIntersightIamDomainNameInfoConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#account_moid DataIntersightIamDomainNameInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#account_moid DataIntersightIamDomainNameInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,11 +18,11 @@ export interface DataIntersightIamDomainNameInfoConfig extends cdktf.TerraformMe
   * * `generate` - Generate TXT record for domain name ownership validation.
   * * `verify` - Verify TXT record for domain name ownership validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#action DataIntersightIamDomainNameInfo#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#action DataIntersightIamDomainNameInfo#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -30,29 +30,29 @@ export interface DataIntersightIamDomainNameInfoConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#create_time DataIntersightIamDomainNameInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#create_time DataIntersightIamDomainNameInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#domain_group_moid DataIntersightIamDomainNameInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#domain_group_moid DataIntersightIamDomainNameInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Email domain name. When a user enters an email during login in the Intersight home page, the IdP is picked by matching this domain name with the email domain name for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#domain_name DataIntersightIamDomainNameInfo#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#domain_name DataIntersightIamDomainNameInfo#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#id DataIntersightIamDomainNameInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#id DataIntersightIamDomainNameInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,37 +61,37 @@ export interface DataIntersightIamDomainNameInfoConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#mod_time DataIntersightIamDomainNameInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#mod_time DataIntersightIamDomainNameInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#owners DataIntersightIamDomainNameInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#owners DataIntersightIamDomainNameInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Expiration time of TXT Record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#record_expiry_time DataIntersightIamDomainNameInfo#record_expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#record_expiry_time DataIntersightIamDomainNameInfo#record_expiry_time}
   */
   readonly recordExpiryTime?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#shared_scope DataIntersightIamDomainNameInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#shared_scope DataIntersightIamDomainNameInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -101,55 +101,55 @@ export interface DataIntersightIamDomainNameInfoConfig extends cdktf.TerraformMe
   * * `Verified` - Domain verification succeeded.
   * * `Expired` - TXT Record for Domain verification expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#status DataIntersightIamDomainNameInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#status DataIntersightIamDomainNameInfo#status}
   */
   readonly status?: string;
   /**
   * Resource record used to verify Domain Ownership. Users need to verify the domain by adding the TXT Record in their DNS Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#txt_record DataIntersightIamDomainNameInfo#txt_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#txt_record DataIntersightIamDomainNameInfo#txt_record}
   */
   readonly txtRecord?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#account DataIntersightIamDomainNameInfo#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#account DataIntersightIamDomainNameInfo#account}
   */
   readonly account?: DataIntersightIamDomainNameInfoAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#ancestors DataIntersightIamDomainNameInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#ancestors DataIntersightIamDomainNameInfo#ancestors}
   */
   readonly ancestors?: DataIntersightIamDomainNameInfoAncestors[] | cdktf.IResolvable;
   /**
   * failure_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#failure_details DataIntersightIamDomainNameInfo#failure_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#failure_details DataIntersightIamDomainNameInfo#failure_details}
   */
   readonly failureDetails?: DataIntersightIamDomainNameInfoFailureDetails;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#parent DataIntersightIamDomainNameInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#parent DataIntersightIamDomainNameInfo#parent}
   */
   readonly parent?: DataIntersightIamDomainNameInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#permission_resources DataIntersightIamDomainNameInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#permission_resources DataIntersightIamDomainNameInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamDomainNameInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#tags DataIntersightIamDomainNameInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#tags DataIntersightIamDomainNameInfo#tags}
   */
   readonly tags?: DataIntersightIamDomainNameInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#version_context DataIntersightIamDomainNameInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#version_context DataIntersightIamDomainNameInfo#version_context}
   */
   readonly versionContext?: DataIntersightIamDomainNameInfoVersionContext;
 }
@@ -896,6 +896,11 @@ export class DataIntersightIamDomainNameInfoResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1421,7 +1426,7 @@ export class DataIntersightIamDomainNameInfoResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIamDomainNameInfoAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1429,19 +1434,19 @@ export interface DataIntersightIamDomainNameInfoAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1454,7 +1459,7 @@ export interface DataIntersightIamDomainNameInfoAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1654,7 +1659,7 @@ export class DataIntersightIamDomainNameInfoAccountOutputReference extends cdktf
 }
 export interface DataIntersightIamDomainNameInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1662,19 +1667,19 @@ export interface DataIntersightIamDomainNameInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1687,7 +1692,7 @@ export interface DataIntersightIamDomainNameInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1919,7 +1924,7 @@ export class DataIntersightIamDomainNameInfoAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightIamDomainNameInfoFailureDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1927,26 +1932,26 @@ export interface DataIntersightIamDomainNameInfoFailureDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Reason for the failure during verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#failure_reason DataIntersightIamDomainNameInfo#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#failure_reason DataIntersightIamDomainNameInfo#failure_reason}
   */
   readonly failureReason?: string;
   /**
   * Timestamp of the failure during verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#failure_time DataIntersightIamDomainNameInfo#failure_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#failure_time DataIntersightIamDomainNameInfo#failure_time}
   */
   readonly failureTime?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -2146,7 +2151,7 @@ export class DataIntersightIamDomainNameInfoFailureDetailsOutputReference extend
 }
 export interface DataIntersightIamDomainNameInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2154,19 +2159,19 @@ export interface DataIntersightIamDomainNameInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2179,7 +2184,7 @@ export interface DataIntersightIamDomainNameInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2379,7 +2384,7 @@ export class DataIntersightIamDomainNameInfoParentOutputReference extends cdktf.
 }
 export interface DataIntersightIamDomainNameInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2387,19 +2392,19 @@ export interface DataIntersightIamDomainNameInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2412,7 +2417,7 @@ export interface DataIntersightIamDomainNameInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2644,7 +2649,7 @@ export class DataIntersightIamDomainNameInfoPermissionResourcesList extends cdkt
 }
 export interface DataIntersightIamDomainNameInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2652,19 +2657,19 @@ export interface DataIntersightIamDomainNameInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2677,7 +2682,7 @@ export interface DataIntersightIamDomainNameInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2909,7 +2914,7 @@ export class DataIntersightIamDomainNameInfoTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightIamDomainNameInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2917,19 +2922,19 @@ export interface DataIntersightIamDomainNameInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2942,7 +2947,7 @@ export interface DataIntersightIamDomainNameInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3142,45 +3147,51 @@ export class DataIntersightIamDomainNameInfoTagsDefinitionOutputReference extend
 }
 export interface DataIntersightIamDomainNameInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#key DataIntersightIamDomainNameInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#key DataIntersightIamDomainNameInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#propagated DataIntersightIamDomainNameInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#propagated DataIntersightIamDomainNameInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#sys_tag DataIntersightIamDomainNameInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#type DataIntersightIamDomainNameInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#type DataIntersightIamDomainNameInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#value DataIntersightIamDomainNameInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#value DataIntersightIamDomainNameInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#ancestor_definitions DataIntersightIamDomainNameInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#ancestor_definitions DataIntersightIamDomainNameInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamDomainNameInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#definition DataIntersightIamDomainNameInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#definition DataIntersightIamDomainNameInfo#definition}
   */
   readonly definition?: DataIntersightIamDomainNameInfoTagsDefinition;
 }
@@ -3194,6 +3205,7 @@ export function dataIntersightIamDomainNameInfoTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamDomainNameInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3222,6 +3234,12 @@ export function dataIntersightIamDomainNameInfoTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3288,6 +3306,10 @@ export class DataIntersightIamDomainNameInfoTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3314,6 +3336,7 @@ export class DataIntersightIamDomainNameInfoTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3329,6 +3352,7 @@ export class DataIntersightIamDomainNameInfoTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3382,6 +3406,22 @@ export class DataIntersightIamDomainNameInfoTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3470,7 +3510,7 @@ export class DataIntersightIamDomainNameInfoTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamDomainNameInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3478,19 +3518,19 @@ export interface DataIntersightIamDomainNameInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3503,7 +3543,7 @@ export interface DataIntersightIamDomainNameInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3735,7 +3775,7 @@ export class DataIntersightIamDomainNameInfoVersionContextInterestedMosList exte
 }
 export interface DataIntersightIamDomainNameInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3743,19 +3783,19 @@ export interface DataIntersightIamDomainNameInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#moid DataIntersightIamDomainNameInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3768,7 +3808,7 @@ export interface DataIntersightIamDomainNameInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#selector DataIntersightIamDomainNameInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3968,7 +4008,7 @@ export class DataIntersightIamDomainNameInfoVersionContextRefMoOutputReference e
 }
 export interface DataIntersightIamDomainNameInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#additional_properties DataIntersightIamDomainNameInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3976,32 +4016,32 @@ export interface DataIntersightIamDomainNameInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#class_id DataIntersightIamDomainNameInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#marked_for_deletion DataIntersightIamDomainNameInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#marked_for_deletion DataIntersightIamDomainNameInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#nr_version DataIntersightIamDomainNameInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#nr_version DataIntersightIamDomainNameInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#object_type DataIntersightIamDomainNameInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#timestamp DataIntersightIamDomainNameInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#timestamp DataIntersightIamDomainNameInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4012,19 +4052,19 @@ export interface DataIntersightIamDomainNameInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#version_type DataIntersightIamDomainNameInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#version_type DataIntersightIamDomainNameInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#interested_mos DataIntersightIamDomainNameInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#interested_mos DataIntersightIamDomainNameInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamDomainNameInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#ref_mo DataIntersightIamDomainNameInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#ref_mo DataIntersightIamDomainNameInfo#ref_mo}
   */
   readonly refMo?: DataIntersightIamDomainNameInfoVersionContextRefMo;
 }
@@ -4340,7 +4380,7 @@ export class DataIntersightIamDomainNameInfoVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info intersight_iam_domain_name_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info intersight_iam_domain_name_info}
 */
 export class DataIntersightIamDomainNameInfo extends cdktf.TerraformDataSource {
 
@@ -4356,7 +4396,7 @@ export class DataIntersightIamDomainNameInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamDomainNameInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamDomainNameInfo to import
-  * @param importFromId The id of the existing DataIntersightIamDomainNameInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamDomainNameInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamDomainNameInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4368,7 +4408,7 @@ export class DataIntersightIamDomainNameInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_domain_name_info intersight_iam_domain_name_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_domain_name_info intersight_iam_domain_name_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4379,8 +4419,8 @@ export class DataIntersightIamDomainNameInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_domain_name_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

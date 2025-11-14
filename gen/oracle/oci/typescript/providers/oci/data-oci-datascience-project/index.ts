@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_project
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_project oci_datascience_project}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_project oci_datascience_project}
 */
 export class DataOciDatascienceProject extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciDatascienceProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatascienceProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceProject to import
-  * @param importFromId The id of the existing DataOciDatascienceProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciDatascienceProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_project oci_datascience_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_project oci_datascience_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciDatascienceProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datascience_project',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

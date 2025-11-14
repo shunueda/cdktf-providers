@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHyperflexVolumeConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#account_moid DataIntersightHyperflexVolume#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#account_moid DataIntersightHyperflexVolume#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Provisioned Capacity of the volume in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#capacity DataIntersightHyperflexVolume#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#capacity DataIntersightHyperflexVolume#capacity}
   */
   readonly capacity?: number;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightHyperflexVolumeConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * Client (tenant) ID to which the volume belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#client_id DataIntersightHyperflexVolume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#client_id DataIntersightHyperflexVolume#client_id}
   */
   readonly clientId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#create_time DataIntersightHyperflexVolume#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#create_time DataIntersightHyperflexVolume#create_time}
   */
   readonly createTime?: string;
   /**
   * Short description about the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#description DataIntersightHyperflexVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#description DataIntersightHyperflexVolume#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#domain_group_moid DataIntersightHyperflexVolume#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#domain_group_moid DataIntersightHyperflexVolume#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#id DataIntersightHyperflexVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#id DataIntersightHyperflexVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,73 +65,73 @@ export interface DataIntersightHyperflexVolumeConfig extends cdktf.TerraformMeta
   /**
   * Last modified time as UTC of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#last_modified_time DataIntersightHyperflexVolume#last_modified_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#last_modified_time DataIntersightHyperflexVolume#last_modified_time}
   */
   readonly lastModifiedTime?: string;
   /**
   * UUID of LUN associated with the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#lun_uuid DataIntersightHyperflexVolume#lun_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#lun_uuid DataIntersightHyperflexVolume#lun_uuid}
   */
   readonly lunUuid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#mod_time DataIntersightHyperflexVolume#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#mod_time DataIntersightHyperflexVolume#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * NAA id of volume. It is a significant number to identify corresponding lun path in hypervisor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#naa_id DataIntersightHyperflexVolume#naa_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#naa_id DataIntersightHyperflexVolume#naa_id}
   */
   readonly naaId?: string;
   /**
   * Named entity of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#name DataIntersightHyperflexVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#name DataIntersightHyperflexVolume#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#owners DataIntersightHyperflexVolume#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#owners DataIntersightHyperflexVolume#owners}
   */
   readonly owners?: string[];
   /**
   * Serial number of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#serial_number DataIntersightHyperflexVolume#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#serial_number DataIntersightHyperflexVolume#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#shared_scope DataIntersightHyperflexVolume#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#shared_scope DataIntersightHyperflexVolume#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User provisioned volume size. It is the size exposed to host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#size DataIntersightHyperflexVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#size DataIntersightHyperflexVolume#size}
   */
   readonly size?: number;
   /**
   * The unique identifier for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#uuid DataIntersightHyperflexVolume#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#uuid DataIntersightHyperflexVolume#uuid}
   */
   readonly uuid?: string;
   /**
@@ -141,13 +141,13 @@ export interface DataIntersightHyperflexVolumeConfig extends cdktf.TerraformMeta
   * * `ReadOnlyMany` - Read only permisisons to a Virtual disk by multiple virtual machines.
   * * `` - Unknown disk access mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#volume_access_mode DataIntersightHyperflexVolume#volume_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#volume_access_mode DataIntersightHyperflexVolume#volume_access_mode}
   */
   readonly volumeAccessMode?: string;
   /**
   * Volume creation time in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#volume_create_time DataIntersightHyperflexVolume#volume_create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#volume_create_time DataIntersightHyperflexVolume#volume_create_time}
   */
   readonly volumeCreateTime?: string;
   /**
@@ -156,61 +156,61 @@ export interface DataIntersightHyperflexVolumeConfig extends cdktf.TerraformMeta
   * * `Filesystem` - It is a File system virtual disk.
   * * `` - Disk mode is either unknown or not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#volume_mode DataIntersightHyperflexVolume#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#volume_mode DataIntersightHyperflexVolume#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * The type of the HyperFlex volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#volume_type DataIntersightHyperflexVolume#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#volume_type DataIntersightHyperflexVolume#volume_type}
   */
   readonly volumeType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#ancestors DataIntersightHyperflexVolume#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#ancestors DataIntersightHyperflexVolume#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexVolumeAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#cluster DataIntersightHyperflexVolume#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#cluster DataIntersightHyperflexVolume#cluster}
   */
   readonly cluster?: DataIntersightHyperflexVolumeCluster;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#parent DataIntersightHyperflexVolume#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#parent DataIntersightHyperflexVolume#parent}
   */
   readonly parent?: DataIntersightHyperflexVolumeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#permission_resources DataIntersightHyperflexVolume#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#permission_resources DataIntersightHyperflexVolume#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexVolumePermissionResources[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#storage_container DataIntersightHyperflexVolume#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#storage_container DataIntersightHyperflexVolume#storage_container}
   */
   readonly storageContainer?: DataIntersightHyperflexVolumeStorageContainer;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#storage_utilization DataIntersightHyperflexVolume#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#storage_utilization DataIntersightHyperflexVolume#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightHyperflexVolumeStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#tags DataIntersightHyperflexVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#tags DataIntersightHyperflexVolume#tags}
   */
   readonly tags?: DataIntersightHyperflexVolumeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#version_context DataIntersightHyperflexVolume#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#version_context DataIntersightHyperflexVolume#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexVolumeVersionContext;
 }
@@ -1067,6 +1067,11 @@ export class DataIntersightHyperflexVolumeResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1643,7 +1648,7 @@ export class DataIntersightHyperflexVolumeResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightHyperflexVolumeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1651,19 +1656,19 @@ export interface DataIntersightHyperflexVolumeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1676,7 +1681,7 @@ export interface DataIntersightHyperflexVolumeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -1908,7 +1913,7 @@ export class DataIntersightHyperflexVolumeAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightHyperflexVolumeCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1916,19 +1921,19 @@ export interface DataIntersightHyperflexVolumeCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1941,7 +1946,7 @@ export interface DataIntersightHyperflexVolumeCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2141,7 +2146,7 @@ export class DataIntersightHyperflexVolumeClusterOutputReference extends cdktf.C
 }
 export interface DataIntersightHyperflexVolumeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2149,19 +2154,19 @@ export interface DataIntersightHyperflexVolumeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2174,7 +2179,7 @@ export interface DataIntersightHyperflexVolumeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2374,7 +2379,7 @@ export class DataIntersightHyperflexVolumeParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightHyperflexVolumePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2382,19 +2387,19 @@ export interface DataIntersightHyperflexVolumePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2407,7 +2412,7 @@ export interface DataIntersightHyperflexVolumePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2639,7 +2644,7 @@ export class DataIntersightHyperflexVolumePermissionResourcesList extends cdktf.
 }
 export interface DataIntersightHyperflexVolumeStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2647,19 +2652,19 @@ export interface DataIntersightHyperflexVolumeStorageContainer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2672,7 +2677,7 @@ export interface DataIntersightHyperflexVolumeStorageContainer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2872,19 +2877,19 @@ export class DataIntersightHyperflexVolumeStorageContainerOutputReference extend
 }
 export interface DataIntersightHyperflexVolumeStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#available DataIntersightHyperflexVolume#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#available DataIntersightHyperflexVolume#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#capacity_utilization DataIntersightHyperflexVolume#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#capacity_utilization DataIntersightHyperflexVolume#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -2893,13 +2898,13 @@ export interface DataIntersightHyperflexVolumeStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#free DataIntersightHyperflexVolume#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#free DataIntersightHyperflexVolume#free}
   */
   readonly free?: number;
   /**
@@ -2907,19 +2912,19 @@ export interface DataIntersightHyperflexVolumeStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#total DataIntersightHyperflexVolume#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#total DataIntersightHyperflexVolume#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#used DataIntersightHyperflexVolume#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#used DataIntersightHyperflexVolume#used}
   */
   readonly used?: number;
 }
@@ -3206,7 +3211,7 @@ export class DataIntersightHyperflexVolumeStorageUtilizationOutputReference exte
 }
 export interface DataIntersightHyperflexVolumeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3214,19 +3219,19 @@ export interface DataIntersightHyperflexVolumeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3239,7 +3244,7 @@ export interface DataIntersightHyperflexVolumeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -3471,7 +3476,7 @@ export class DataIntersightHyperflexVolumeTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightHyperflexVolumeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3479,19 +3484,19 @@ export interface DataIntersightHyperflexVolumeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3504,7 +3509,7 @@ export interface DataIntersightHyperflexVolumeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -3704,45 +3709,51 @@ export class DataIntersightHyperflexVolumeTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightHyperflexVolumeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#key DataIntersightHyperflexVolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#key DataIntersightHyperflexVolume#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#propagated DataIntersightHyperflexVolume#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#propagated DataIntersightHyperflexVolume#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#sys_tag DataIntersightHyperflexVolume#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#type DataIntersightHyperflexVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#type DataIntersightHyperflexVolume#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#value DataIntersightHyperflexVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#value DataIntersightHyperflexVolume#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#ancestor_definitions DataIntersightHyperflexVolume#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#ancestor_definitions DataIntersightHyperflexVolume#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexVolumeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#definition DataIntersightHyperflexVolume#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#definition DataIntersightHyperflexVolume#definition}
   */
   readonly definition?: DataIntersightHyperflexVolumeTagsDefinition;
 }
@@ -3756,6 +3767,7 @@ export function dataIntersightHyperflexVolumeTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexVolumeTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3784,6 +3796,12 @@ export function dataIntersightHyperflexVolumeTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3850,6 +3868,10 @@ export class DataIntersightHyperflexVolumeTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3876,6 +3898,7 @@ export class DataIntersightHyperflexVolumeTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3891,6 +3914,7 @@ export class DataIntersightHyperflexVolumeTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3944,6 +3968,22 @@ export class DataIntersightHyperflexVolumeTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4032,7 +4072,7 @@ export class DataIntersightHyperflexVolumeTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexVolumeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4040,19 +4080,19 @@ export interface DataIntersightHyperflexVolumeVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4065,7 +4105,7 @@ export interface DataIntersightHyperflexVolumeVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -4297,7 +4337,7 @@ export class DataIntersightHyperflexVolumeVersionContextInterestedMosList extend
 }
 export interface DataIntersightHyperflexVolumeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4305,19 +4345,19 @@ export interface DataIntersightHyperflexVolumeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#moid DataIntersightHyperflexVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4330,7 +4370,7 @@ export interface DataIntersightHyperflexVolumeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#selector DataIntersightHyperflexVolume#selector}
   */
   readonly selector?: string;
 }
@@ -4530,7 +4570,7 @@ export class DataIntersightHyperflexVolumeVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightHyperflexVolumeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#additional_properties DataIntersightHyperflexVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4538,32 +4578,32 @@ export interface DataIntersightHyperflexVolumeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#class_id DataIntersightHyperflexVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#marked_for_deletion DataIntersightHyperflexVolume#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#marked_for_deletion DataIntersightHyperflexVolume#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#nr_version DataIntersightHyperflexVolume#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#nr_version DataIntersightHyperflexVolume#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#object_type DataIntersightHyperflexVolume#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#timestamp DataIntersightHyperflexVolume#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#timestamp DataIntersightHyperflexVolume#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4574,19 +4614,19 @@ export interface DataIntersightHyperflexVolumeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#version_type DataIntersightHyperflexVolume#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#version_type DataIntersightHyperflexVolume#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#interested_mos DataIntersightHyperflexVolume#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#interested_mos DataIntersightHyperflexVolume#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexVolumeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#ref_mo DataIntersightHyperflexVolume#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#ref_mo DataIntersightHyperflexVolume#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexVolumeVersionContextRefMo;
 }
@@ -4902,7 +4942,7 @@ export class DataIntersightHyperflexVolumeVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume intersight_hyperflex_volume}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume intersight_hyperflex_volume}
 */
 export class DataIntersightHyperflexVolume extends cdktf.TerraformDataSource {
 
@@ -4918,7 +4958,7 @@ export class DataIntersightHyperflexVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHyperflexVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexVolume to import
-  * @param importFromId The id of the existing DataIntersightHyperflexVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4930,7 +4970,7 @@ export class DataIntersightHyperflexVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_volume intersight_hyperflex_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_volume intersight_hyperflex_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4941,8 +4981,8 @@ export class DataIntersightHyperflexVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hyperflex_volume',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

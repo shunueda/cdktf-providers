@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface FusionAppsFusionEnvironmentDataMaskingActivityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#fusion_environment_id FusionAppsFusionEnvironmentDataMaskingActivity#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#fusion_environment_id FusionAppsFusionEnvironmentDataMaskingActivity#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#id FusionAppsFusionEnvironmentDataMaskingActivity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#id FusionAppsFusionEnvironmentDataMaskingActivity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#is_resume_data_masking FusionAppsFusionEnvironmentDataMaskingActivity#is_resume_data_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#is_resume_data_masking FusionAppsFusionEnvironmentDataMaskingActivity#is_resume_data_masking}
   */
   readonly isResumeDataMasking?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#timeouts FusionAppsFusionEnvironmentDataMaskingActivity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#timeouts FusionAppsFusionEnvironmentDataMaskingActivity#timeouts}
   */
   readonly timeouts?: FusionAppsFusionEnvironmentDataMaskingActivityTimeouts;
 }
 export interface FusionAppsFusionEnvironmentDataMaskingActivityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class FusionAppsFusionEnvironmentDataMaskingActivityTimeoutsOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity oci_fusion_apps_fusion_environment_data_masking_activity}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity oci_fusion_apps_fusion_environment_data_masking_activity}
 */
 export class FusionAppsFusionEnvironmentDataMaskingActivity extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class FusionAppsFusionEnvironmentDataMaskingActivity extends cdktf.Terraf
   * Generates CDKTF code for importing a FusionAppsFusionEnvironmentDataMaskingActivity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FusionAppsFusionEnvironmentDataMaskingActivity to import
-  * @param importFromId The id of the existing FusionAppsFusionEnvironmentDataMaskingActivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FusionAppsFusionEnvironmentDataMaskingActivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FusionAppsFusionEnvironmentDataMaskingActivity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class FusionAppsFusionEnvironmentDataMaskingActivity extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity oci_fusion_apps_fusion_environment_data_masking_activity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fusion_apps_fusion_environment_data_masking_activity oci_fusion_apps_fusion_environment_data_masking_activity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class FusionAppsFusionEnvironmentDataMaskingActivity extends cdktf.Terraf
       terraformResourceType: 'oci_fusion_apps_fusion_environment_data_masking_activity',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

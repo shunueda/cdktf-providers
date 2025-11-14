@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apiaccesscontrol_privileged_api_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApiaccesscontrolPrivilegedApiRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}
   */
   readonly privilegedApiRequestId: string;
 }
@@ -189,7 +189,7 @@ export class DataOciApiaccesscontrolPrivilegedApiRequestPrivilegedOperationListS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request}
 */
 export class DataOciApiaccesscontrolPrivilegedApiRequest extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataOciApiaccesscontrolPrivilegedApiRequest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOciApiaccesscontrolPrivilegedApiRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApiaccesscontrolPrivilegedApiRequest to import
-  * @param importFromId The id of the existing DataOciApiaccesscontrolPrivilegedApiRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApiaccesscontrolPrivilegedApiRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apiaccesscontrol_privileged_api_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApiaccesscontrolPrivilegedApiRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataOciApiaccesscontrolPrivilegedApiRequest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apiaccesscontrol_privileged_api_request oci_apiaccesscontrol_privileged_api_request} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataOciApiaccesscontrolPrivilegedApiRequest extends cdktf.Terraform
       terraformResourceType: 'oci_apiaccesscontrol_privileged_api_request',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

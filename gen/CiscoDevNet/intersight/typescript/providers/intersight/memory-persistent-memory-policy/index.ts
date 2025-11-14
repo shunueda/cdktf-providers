@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MemoryPersistentMemoryPolicyConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#account_moid MemoryPersistentMemoryPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#account_moid MemoryPersistentMemoryPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#ancestors MemoryPersistentMemoryPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#ancestors MemoryPersistentMemoryPolicy#ancestors}
   */
   readonly ancestors?: MemoryPersistentMemoryPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,33 +28,33 @@ export interface MemoryPersistentMemoryPolicyConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#create_time MemoryPersistentMemoryPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#create_time MemoryPersistentMemoryPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#description MemoryPersistentMemoryPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#description MemoryPersistentMemoryPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#domain_group_moid MemoryPersistentMemoryPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#domain_group_moid MemoryPersistentMemoryPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#goals MemoryPersistentMemoryPolicy#goals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#goals MemoryPersistentMemoryPolicy#goals}
   */
   readonly goals?: MemoryPersistentMemoryPolicyGoals[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#id MemoryPersistentMemoryPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#id MemoryPersistentMemoryPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,11 +63,11 @@ export interface MemoryPersistentMemoryPolicyConfig extends cdktf.TerraformMetaA
   /**
   * Local security for the Persistent Memory Modules on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#local_security MemoryPersistentMemoryPolicy#local_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#local_security MemoryPersistentMemoryPolicy#local_security}
   */
   readonly localSecurity?: MemoryPersistentMemoryPolicyLocalSecurity[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#logical_namespaces MemoryPersistentMemoryPolicy#logical_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#logical_namespaces MemoryPersistentMemoryPolicy#logical_namespaces}
   */
   readonly logicalNamespaces?: MemoryPersistentMemoryPolicyLogicalNamespaces[] | cdktf.IResolvable;
   /**
@@ -75,107 +75,107 @@ export interface MemoryPersistentMemoryPolicyConfig extends cdktf.TerraformMetaA
   * * `configured-from-intersight` - The Persistent Memory Modules are configured from Intersight thorugh Persistent Memory policy.
   * * `configured-from-operating-system` - The Persistent Memory Modules are configured from operating system thorugh OS tools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#management_mode MemoryPersistentMemoryPolicy#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#management_mode MemoryPersistentMemoryPolicy#management_mode}
   */
   readonly managementMode?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#mod_time MemoryPersistentMemoryPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#mod_time MemoryPersistentMemoryPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#name MemoryPersistentMemoryPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#name MemoryPersistentMemoryPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#organization MemoryPersistentMemoryPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#organization MemoryPersistentMemoryPolicy#organization}
   */
   readonly organization?: MemoryPersistentMemoryPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#owners MemoryPersistentMemoryPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#owners MemoryPersistentMemoryPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#parent MemoryPersistentMemoryPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#parent MemoryPersistentMemoryPolicy#parent}
   */
   readonly parent?: MemoryPersistentMemoryPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#permission_resources MemoryPersistentMemoryPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#permission_resources MemoryPersistentMemoryPolicy#permission_resources}
   */
   readonly permissionResources?: MemoryPersistentMemoryPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractConfigProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#profiles MemoryPersistentMemoryPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#profiles MemoryPersistentMemoryPolicy#profiles}
   */
   readonly profiles?: MemoryPersistentMemoryPolicyProfiles[] | cdktf.IResolvable;
   /**
   * Persistent Memory Namespaces to be retained or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#retain_namespaces MemoryPersistentMemoryPolicy#retain_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#retain_namespaces MemoryPersistentMemoryPolicy#retain_namespaces}
   */
   readonly retainNamespaces?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#shared_scope MemoryPersistentMemoryPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#shared_scope MemoryPersistentMemoryPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#tags MemoryPersistentMemoryPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#tags MemoryPersistentMemoryPolicy#tags}
   */
   readonly tags?: MemoryPersistentMemoryPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#version_context MemoryPersistentMemoryPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#version_context MemoryPersistentMemoryPolicy#version_context}
   */
   readonly versionContext?: MemoryPersistentMemoryPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface MemoryPersistentMemoryPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -407,27 +407,27 @@ export class MemoryPersistentMemoryPolicyAncestorsList extends cdktf.ComplexList
 }
 export interface MemoryPersistentMemoryPolicyGoals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#memory_mode_percentage MemoryPersistentMemoryPolicy#memory_mode_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#memory_mode_percentage MemoryPersistentMemoryPolicy#memory_mode_percentage}
   */
   readonly memoryModePercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#persistent_memory_type MemoryPersistentMemoryPolicy#persistent_memory_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#persistent_memory_type MemoryPersistentMemoryPolicy#persistent_memory_type}
   */
   readonly persistentMemoryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#socket_id MemoryPersistentMemoryPolicy#socket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#socket_id MemoryPersistentMemoryPolicy#socket_id}
   */
   readonly socketId?: string;
 }
@@ -688,27 +688,27 @@ export class MemoryPersistentMemoryPolicyGoalsList extends cdktf.ComplexList {
 }
 export interface MemoryPersistentMemoryPolicyLocalSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#enabled MemoryPersistentMemoryPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#enabled MemoryPersistentMemoryPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#is_secure_passphrase_set MemoryPersistentMemoryPolicy#is_secure_passphrase_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#is_secure_passphrase_set MemoryPersistentMemoryPolicy#is_secure_passphrase_set}
   */
   readonly isSecurePassphraseSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#secure_passphrase MemoryPersistentMemoryPolicy#secure_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#secure_passphrase MemoryPersistentMemoryPolicy#secure_passphrase}
   */
   readonly securePassphrase?: string;
 }
@@ -969,35 +969,35 @@ export class MemoryPersistentMemoryPolicyLocalSecurityList extends cdktf.Complex
 }
 export interface MemoryPersistentMemoryPolicyLogicalNamespaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#capacity MemoryPersistentMemoryPolicy#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#capacity MemoryPersistentMemoryPolicy#capacity}
   */
   readonly capacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#mode MemoryPersistentMemoryPolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#mode MemoryPersistentMemoryPolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#name MemoryPersistentMemoryPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#name MemoryPersistentMemoryPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#socket_id MemoryPersistentMemoryPolicy#socket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#socket_id MemoryPersistentMemoryPolicy#socket_id}
   */
   readonly socketId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#socket_memory_id MemoryPersistentMemoryPolicy#socket_memory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#socket_memory_id MemoryPersistentMemoryPolicy#socket_memory_id}
   */
   readonly socketMemoryId?: string;
 }
@@ -1316,23 +1316,23 @@ export class MemoryPersistentMemoryPolicyLogicalNamespacesList extends cdktf.Com
 }
 export interface MemoryPersistentMemoryPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1564,23 +1564,23 @@ export class MemoryPersistentMemoryPolicyOrganizationList extends cdktf.ComplexL
 }
 export interface MemoryPersistentMemoryPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1812,23 +1812,23 @@ export class MemoryPersistentMemoryPolicyParentList extends cdktf.ComplexList {
 }
 export interface MemoryPersistentMemoryPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2060,23 +2060,23 @@ export class MemoryPersistentMemoryPolicyPermissionResourcesList extends cdktf.C
 }
 export interface MemoryPersistentMemoryPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2308,23 +2308,23 @@ export class MemoryPersistentMemoryPolicyProfilesList extends cdktf.ComplexList 
 }
 export interface MemoryPersistentMemoryPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2556,23 +2556,23 @@ export class MemoryPersistentMemoryPolicyTagsAncestorDefinitionsList extends cdk
 }
 export interface MemoryPersistentMemoryPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2804,31 +2804,35 @@ export class MemoryPersistentMemoryPolicyTagsDefinitionList extends cdktf.Comple
 }
 export interface MemoryPersistentMemoryPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#ancestor_definitions MemoryPersistentMemoryPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#ancestor_definitions MemoryPersistentMemoryPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: MemoryPersistentMemoryPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#definition MemoryPersistentMemoryPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#definition MemoryPersistentMemoryPolicy#definition}
   */
   readonly definition?: MemoryPersistentMemoryPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#key MemoryPersistentMemoryPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#key MemoryPersistentMemoryPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#propagated MemoryPersistentMemoryPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#propagated MemoryPersistentMemoryPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#type MemoryPersistentMemoryPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#sys_tag MemoryPersistentMemoryPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#type MemoryPersistentMemoryPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#value MemoryPersistentMemoryPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#value MemoryPersistentMemoryPolicy#value}
   */
   readonly value?: string;
 }
@@ -2844,6 +2848,7 @@ export function memoryPersistentMemoryPolicyTagsToTerraform(struct?: MemoryPersi
     definition: cdktf.listMapper(memoryPersistentMemoryPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2882,6 +2887,12 @@ export function memoryPersistentMemoryPolicyTagsToHclTerraform(struct?: MemoryPe
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2944,6 +2955,10 @@ export class MemoryPersistentMemoryPolicyTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2964,6 +2979,7 @@ export class MemoryPersistentMemoryPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2979,6 +2995,7 @@ export class MemoryPersistentMemoryPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3064,6 +3081,22 @@ export class MemoryPersistentMemoryPolicyTagsOutputReference extends cdktf.Compl
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3118,23 +3151,23 @@ export class MemoryPersistentMemoryPolicyTagsList extends cdktf.ComplexList {
 }
 export interface MemoryPersistentMemoryPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3366,23 +3399,23 @@ export class MemoryPersistentMemoryPolicyVersionContextInterestedMosList extends
 }
 export interface MemoryPersistentMemoryPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#moid MemoryPersistentMemoryPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#selector MemoryPersistentMemoryPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3614,39 +3647,39 @@ export class MemoryPersistentMemoryPolicyVersionContextRefMoList extends cdktf.C
 }
 export interface MemoryPersistentMemoryPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#additional_properties MemoryPersistentMemoryPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#class_id MemoryPersistentMemoryPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#interested_mos MemoryPersistentMemoryPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#interested_mos MemoryPersistentMemoryPolicy#interested_mos}
   */
   readonly interestedMos?: MemoryPersistentMemoryPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#marked_for_deletion MemoryPersistentMemoryPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#marked_for_deletion MemoryPersistentMemoryPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#nr_version MemoryPersistentMemoryPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#nr_version MemoryPersistentMemoryPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#object_type MemoryPersistentMemoryPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#ref_mo MemoryPersistentMemoryPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#ref_mo MemoryPersistentMemoryPolicy#ref_mo}
   */
   readonly refMo?: MemoryPersistentMemoryPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#timestamp MemoryPersistentMemoryPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#timestamp MemoryPersistentMemoryPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#version_type MemoryPersistentMemoryPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#version_type MemoryPersistentMemoryPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3994,7 +4027,7 @@ export class MemoryPersistentMemoryPolicyVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy intersight_memory_persistent_memory_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy intersight_memory_persistent_memory_policy}
 */
 export class MemoryPersistentMemoryPolicy extends cdktf.TerraformResource {
 
@@ -4010,7 +4043,7 @@ export class MemoryPersistentMemoryPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MemoryPersistentMemoryPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MemoryPersistentMemoryPolicy to import
-  * @param importFromId The id of the existing MemoryPersistentMemoryPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MemoryPersistentMemoryPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MemoryPersistentMemoryPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4022,7 +4055,7 @@ export class MemoryPersistentMemoryPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/memory_persistent_memory_policy intersight_memory_persistent_memory_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/memory_persistent_memory_policy intersight_memory_persistent_memory_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4033,8 +4066,8 @@ export class MemoryPersistentMemoryPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_memory_persistent_memory_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

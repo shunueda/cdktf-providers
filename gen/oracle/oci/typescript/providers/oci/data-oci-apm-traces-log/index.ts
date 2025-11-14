@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApmTracesLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#apm_domain_id DataOciApmTracesLog#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#id DataOciApmTracesLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#log_key DataOciApmTracesLog#log_key}
   */
   readonly logKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#time_log_ended_less_than DataOciApmTracesLog#time_log_ended_less_than}
   */
   readonly timeLogEndedLessThan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#time_log_started_greater_than_or_equal_to DataOciApmTracesLog#time_log_started_greater_than_or_equal_to}
   */
   readonly timeLogStartedGreaterThanOrEqualTo: string;
 }
@@ -113,7 +113,7 @@ export class DataOciApmTracesLogAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log oci_apm_traces_log}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log oci_apm_traces_log}
 */
 export class DataOciApmTracesLog extends cdktf.TerraformDataSource {
 
@@ -129,7 +129,7 @@ export class DataOciApmTracesLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApmTracesLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApmTracesLog to import
-  * @param importFromId The id of the existing DataOciApmTracesLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApmTracesLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApmTracesLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DataOciApmTracesLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/apm_traces_log oci_apm_traces_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/apm_traces_log oci_apm_traces_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DataOciApmTracesLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apm_traces_log',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

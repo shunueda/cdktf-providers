@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightPciZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#account_moid DataIntersightPciZone#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#account_moid DataIntersightPciZone#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightPciZoneConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#create_time DataIntersightPciZone#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#create_time DataIntersightPciZone#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#device_mo_id DataIntersightPciZone#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#device_mo_id DataIntersightPciZone#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#dn DataIntersightPciZone#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#dn DataIntersightPciZone#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#domain_group_moid DataIntersightPciZone#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#domain_group_moid DataIntersightPciZone#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#id DataIntersightPciZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#id DataIntersightPciZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,119 +59,119 @@ export interface DataIntersightPciZoneConfig extends cdktf.TerraformMetaArgument
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#mod_time DataIntersightPciZone#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#mod_time DataIntersightPciZone#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The name of the PCIe endpoint zone, as reported by the platform software (BMC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#name DataIntersightPciZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#name DataIntersightPciZone#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#oper_reason DataIntersightPciZone#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#oper_reason DataIntersightPciZone#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * Operational state of the pcie node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#oper_state DataIntersightPciZone#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#oper_state DataIntersightPciZone#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#owners DataIntersightPciZone#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#owners DataIntersightPciZone#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#rn DataIntersightPciZone#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#rn DataIntersightPciZone#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#shared_scope DataIntersightPciZone#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#shared_scope DataIntersightPciZone#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The identifier of the PCIe endpoint zone as reported by the chassis expander module management controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#uri DataIntersightPciZone#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#uri DataIntersightPciZone#uri}
   */
   readonly uri?: string;
   /**
   * The identifier of the PCIe endpoint zone where all PCIe devices are logically connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#zone_id DataIntersightPciZone#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#zone_id DataIntersightPciZone#zone_id}
   */
   readonly zoneId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#ancestors DataIntersightPciZone#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#ancestors DataIntersightPciZone#ancestors}
   */
   readonly ancestors?: DataIntersightPciZoneAncestors[] | cdktf.IResolvable;
   /**
   * equipment_expander_module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#equipment_expander_module DataIntersightPciZone#equipment_expander_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#equipment_expander_module DataIntersightPciZone#equipment_expander_module}
   */
   readonly equipmentExpanderModule?: DataIntersightPciZoneEquipmentExpanderModule;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#inventory_device_info DataIntersightPciZone#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#inventory_device_info DataIntersightPciZone#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightPciZoneInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#parent DataIntersightPciZone#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#parent DataIntersightPciZone#parent}
   */
   readonly parent?: DataIntersightPciZoneParent;
   /**
   * pci_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#pci_endpoints DataIntersightPciZone#pci_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#pci_endpoints DataIntersightPciZone#pci_endpoints}
   */
   readonly pciEndpoints?: DataIntersightPciZonePciEndpoints[] | cdktf.IResolvable;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#permission_resources DataIntersightPciZone#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#permission_resources DataIntersightPciZone#permission_resources}
   */
   readonly permissionResources?: DataIntersightPciZonePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#registered_device DataIntersightPciZone#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#registered_device DataIntersightPciZone#registered_device}
   */
   readonly registeredDevice?: DataIntersightPciZoneRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#tags DataIntersightPciZone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#tags DataIntersightPciZone#tags}
   */
   readonly tags?: DataIntersightPciZoneTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#version_context DataIntersightPciZone#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#version_context DataIntersightPciZone#version_context}
   */
   readonly versionContext?: DataIntersightPciZoneVersionContext;
 }
@@ -1108,6 +1108,11 @@ export class DataIntersightPciZoneResultsTagsOutputReference extends cdktf.Compl
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1660,7 +1665,7 @@ export class DataIntersightPciZoneResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciZoneAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1668,19 +1673,19 @@ export interface DataIntersightPciZoneAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1693,7 +1698,7 @@ export interface DataIntersightPciZoneAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -1925,7 +1930,7 @@ export class DataIntersightPciZoneAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciZoneEquipmentExpanderModule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1933,19 +1938,19 @@ export interface DataIntersightPciZoneEquipmentExpanderModule {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1958,7 +1963,7 @@ export interface DataIntersightPciZoneEquipmentExpanderModule {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -2158,7 +2163,7 @@ export class DataIntersightPciZoneEquipmentExpanderModuleOutputReference extends
 }
 export interface DataIntersightPciZoneInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2166,19 +2171,19 @@ export interface DataIntersightPciZoneInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2191,7 +2196,7 @@ export interface DataIntersightPciZoneInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -2391,7 +2396,7 @@ export class DataIntersightPciZoneInventoryDeviceInfoOutputReference extends cdk
 }
 export interface DataIntersightPciZoneParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2399,19 +2404,19 @@ export interface DataIntersightPciZoneParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2424,7 +2429,7 @@ export interface DataIntersightPciZoneParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -2624,7 +2629,7 @@ export class DataIntersightPciZoneParentOutputReference extends cdktf.ComplexObj
 }
 export interface DataIntersightPciZonePciEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2632,19 +2637,19 @@ export interface DataIntersightPciZonePciEndpoints {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2657,7 +2662,7 @@ export interface DataIntersightPciZonePciEndpoints {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -2889,7 +2894,7 @@ export class DataIntersightPciZonePciEndpointsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciZonePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2897,19 +2902,19 @@ export interface DataIntersightPciZonePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2922,7 +2927,7 @@ export interface DataIntersightPciZonePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -3154,7 +3159,7 @@ export class DataIntersightPciZonePermissionResourcesList extends cdktf.ComplexL
 }
 export interface DataIntersightPciZoneRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3162,19 +3167,19 @@ export interface DataIntersightPciZoneRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3187,7 +3192,7 @@ export interface DataIntersightPciZoneRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -3387,7 +3392,7 @@ export class DataIntersightPciZoneRegisteredDeviceOutputReference extends cdktf.
 }
 export interface DataIntersightPciZoneTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3395,19 +3400,19 @@ export interface DataIntersightPciZoneTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3420,7 +3425,7 @@ export interface DataIntersightPciZoneTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -3652,7 +3657,7 @@ export class DataIntersightPciZoneTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface DataIntersightPciZoneTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3660,19 +3665,19 @@ export interface DataIntersightPciZoneTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3685,7 +3690,7 @@ export interface DataIntersightPciZoneTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -3885,45 +3890,51 @@ export class DataIntersightPciZoneTagsDefinitionOutputReference extends cdktf.Co
 }
 export interface DataIntersightPciZoneTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#key DataIntersightPciZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#key DataIntersightPciZone#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#propagated DataIntersightPciZone#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#propagated DataIntersightPciZone#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#sys_tag DataIntersightPciZone#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#type DataIntersightPciZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#type DataIntersightPciZone#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#value DataIntersightPciZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#value DataIntersightPciZone#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#ancestor_definitions DataIntersightPciZone#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#ancestor_definitions DataIntersightPciZone#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPciZoneTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#definition DataIntersightPciZone#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#definition DataIntersightPciZone#definition}
   */
   readonly definition?: DataIntersightPciZoneTagsDefinition;
 }
@@ -3937,6 +3948,7 @@ export function dataIntersightPciZoneTagsToTerraform(struct?: DataIntersightPciZ
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightPciZoneTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3965,6 +3977,12 @@ export function dataIntersightPciZoneTagsToHclTerraform(struct?: DataIntersightP
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4031,6 +4049,10 @@ export class DataIntersightPciZoneTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4057,6 +4079,7 @@ export class DataIntersightPciZoneTagsOutputReference extends cdktf.ComplexObjec
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4072,6 +4095,7 @@ export class DataIntersightPciZoneTagsOutputReference extends cdktf.ComplexObjec
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4125,6 +4149,22 @@ export class DataIntersightPciZoneTagsOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4213,7 +4253,7 @@ export class DataIntersightPciZoneTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciZoneVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4221,19 +4261,19 @@ export interface DataIntersightPciZoneVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4246,7 +4286,7 @@ export interface DataIntersightPciZoneVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -4478,7 +4518,7 @@ export class DataIntersightPciZoneVersionContextInterestedMosList extends cdktf.
 }
 export interface DataIntersightPciZoneVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4486,19 +4526,19 @@ export interface DataIntersightPciZoneVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#moid DataIntersightPciZone#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4511,7 +4551,7 @@ export interface DataIntersightPciZoneVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#selector DataIntersightPciZone#selector}
   */
   readonly selector?: string;
 }
@@ -4711,7 +4751,7 @@ export class DataIntersightPciZoneVersionContextRefMoOutputReference extends cdk
 }
 export interface DataIntersightPciZoneVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#additional_properties DataIntersightPciZone#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4719,32 +4759,32 @@ export interface DataIntersightPciZoneVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#class_id DataIntersightPciZone#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#marked_for_deletion DataIntersightPciZone#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#marked_for_deletion DataIntersightPciZone#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#nr_version DataIntersightPciZone#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#nr_version DataIntersightPciZone#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#object_type DataIntersightPciZone#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#timestamp DataIntersightPciZone#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#timestamp DataIntersightPciZone#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4755,19 +4795,19 @@ export interface DataIntersightPciZoneVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#version_type DataIntersightPciZone#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#version_type DataIntersightPciZone#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#interested_mos DataIntersightPciZone#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#interested_mos DataIntersightPciZone#interested_mos}
   */
   readonly interestedMos?: DataIntersightPciZoneVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#ref_mo DataIntersightPciZone#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#ref_mo DataIntersightPciZone#ref_mo}
   */
   readonly refMo?: DataIntersightPciZoneVersionContextRefMo;
 }
@@ -5083,7 +5123,7 @@ export class DataIntersightPciZoneVersionContextOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone intersight_pci_zone}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone intersight_pci_zone}
 */
 export class DataIntersightPciZone extends cdktf.TerraformDataSource {
 
@@ -5099,7 +5139,7 @@ export class DataIntersightPciZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightPciZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPciZone to import
-  * @param importFromId The id of the existing DataIntersightPciZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPciZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPciZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5111,7 +5151,7 @@ export class DataIntersightPciZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/pci_zone intersight_pci_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_zone intersight_pci_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5122,8 +5162,8 @@ export class DataIntersightPciZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_pci_zone',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

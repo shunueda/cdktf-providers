@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightDnacDeviceInterfaceConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#account_moid DataIntersightDnacDeviceInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#account_moid DataIntersightDnacDeviceInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Administrator status for network device interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#admin_status DataIntersightDnacDeviceInterface#admin_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#admin_status DataIntersightDnacDeviceInterface#admin_status}
   */
   readonly adminStatus?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightDnacDeviceInterfaceConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#create_time DataIntersightDnacDeviceInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#create_time DataIntersightDnacDeviceInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * Identity of network device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#device_id DataIntersightDnacDeviceInterface#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#device_id DataIntersightDnacDeviceInterface#device_id}
   */
   readonly deviceId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#domain_group_moid DataIntersightDnacDeviceInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#domain_group_moid DataIntersightDnacDeviceInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#id DataIntersightDnacDeviceInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#id DataIntersightDnacDeviceInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightDnacDeviceInterfaceConfig extends cdktf.Terraform
   /**
   * Unique identity of network device interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#interface_id DataIntersightDnacDeviceInterface#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#interface_id DataIntersightDnacDeviceInterface#interface_id}
   */
   readonly interfaceId?: string;
   /**
   * The name for the network device interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#interface_name DataIntersightDnacDeviceInterface#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#interface_name DataIntersightDnacDeviceInterface#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * Interface type for network device interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#interface_type DataIntersightDnacDeviceInterface#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#interface_type DataIntersightDnacDeviceInterface#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#mod_time DataIntersightDnacDeviceInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#mod_time DataIntersightDnacDeviceInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#owners DataIntersightDnacDeviceInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#owners DataIntersightDnacDeviceInterface#owners}
   */
   readonly owners?: string[];
   /**
   * Port type for network device interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#port_type DataIntersightDnacDeviceInterface#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#port_type DataIntersightDnacDeviceInterface#port_type}
   */
   readonly portType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#shared_scope DataIntersightDnacDeviceInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#shared_scope DataIntersightDnacDeviceInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#ancestors DataIntersightDnacDeviceInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#ancestors DataIntersightDnacDeviceInterface#ancestors}
   */
   readonly ancestors?: DataIntersightDnacDeviceInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#parent DataIntersightDnacDeviceInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#parent DataIntersightDnacDeviceInterface#parent}
   */
   readonly parent?: DataIntersightDnacDeviceInterfaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#permission_resources DataIntersightDnacDeviceInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#permission_resources DataIntersightDnacDeviceInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightDnacDeviceInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#registered_device DataIntersightDnacDeviceInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#registered_device DataIntersightDnacDeviceInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightDnacDeviceInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#tags DataIntersightDnacDeviceInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#tags DataIntersightDnacDeviceInterface#tags}
   */
   readonly tags?: DataIntersightDnacDeviceInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#version_context DataIntersightDnacDeviceInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#version_context DataIntersightDnacDeviceInterface#version_context}
   */
   readonly versionContext?: DataIntersightDnacDeviceInterfaceVersionContext;
 }
@@ -795,6 +795,11 @@ export class DataIntersightDnacDeviceInterfaceResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1319,7 +1324,7 @@ export class DataIntersightDnacDeviceInterfaceResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightDnacDeviceInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1327,19 +1332,19 @@ export interface DataIntersightDnacDeviceInterfaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1352,7 +1357,7 @@ export interface DataIntersightDnacDeviceInterfaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1584,7 +1589,7 @@ export class DataIntersightDnacDeviceInterfaceAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightDnacDeviceInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1592,19 +1597,19 @@ export interface DataIntersightDnacDeviceInterfaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1617,7 +1622,7 @@ export interface DataIntersightDnacDeviceInterfaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1817,7 +1822,7 @@ export class DataIntersightDnacDeviceInterfaceParentOutputReference extends cdkt
 }
 export interface DataIntersightDnacDeviceInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1825,19 +1830,19 @@ export interface DataIntersightDnacDeviceInterfacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1850,7 +1855,7 @@ export interface DataIntersightDnacDeviceInterfacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2082,7 +2087,7 @@ export class DataIntersightDnacDeviceInterfacePermissionResourcesList extends cd
 }
 export interface DataIntersightDnacDeviceInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2090,19 +2095,19 @@ export interface DataIntersightDnacDeviceInterfaceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2115,7 +2120,7 @@ export interface DataIntersightDnacDeviceInterfaceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2315,7 +2320,7 @@ export class DataIntersightDnacDeviceInterfaceRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightDnacDeviceInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2323,19 +2328,19 @@ export interface DataIntersightDnacDeviceInterfaceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2348,7 +2353,7 @@ export interface DataIntersightDnacDeviceInterfaceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2580,7 +2585,7 @@ export class DataIntersightDnacDeviceInterfaceTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightDnacDeviceInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2588,19 +2593,19 @@ export interface DataIntersightDnacDeviceInterfaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2613,7 +2618,7 @@ export interface DataIntersightDnacDeviceInterfaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2813,45 +2818,51 @@ export class DataIntersightDnacDeviceInterfaceTagsDefinitionOutputReference exte
 }
 export interface DataIntersightDnacDeviceInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#key DataIntersightDnacDeviceInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#key DataIntersightDnacDeviceInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#propagated DataIntersightDnacDeviceInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#propagated DataIntersightDnacDeviceInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#sys_tag DataIntersightDnacDeviceInterface#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#type DataIntersightDnacDeviceInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#type DataIntersightDnacDeviceInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#value DataIntersightDnacDeviceInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#value DataIntersightDnacDeviceInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#ancestor_definitions DataIntersightDnacDeviceInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#ancestor_definitions DataIntersightDnacDeviceInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightDnacDeviceInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#definition DataIntersightDnacDeviceInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#definition DataIntersightDnacDeviceInterface#definition}
   */
   readonly definition?: DataIntersightDnacDeviceInterfaceTagsDefinition;
 }
@@ -2865,6 +2876,7 @@ export function dataIntersightDnacDeviceInterfaceTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightDnacDeviceInterfaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2893,6 +2905,12 @@ export function dataIntersightDnacDeviceInterfaceTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2959,6 +2977,10 @@ export class DataIntersightDnacDeviceInterfaceTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2985,6 +3007,7 @@ export class DataIntersightDnacDeviceInterfaceTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3000,6 +3023,7 @@ export class DataIntersightDnacDeviceInterfaceTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3053,6 +3077,22 @@ export class DataIntersightDnacDeviceInterfaceTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3141,7 +3181,7 @@ export class DataIntersightDnacDeviceInterfaceTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightDnacDeviceInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3149,19 +3189,19 @@ export interface DataIntersightDnacDeviceInterfaceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3174,7 +3214,7 @@ export interface DataIntersightDnacDeviceInterfaceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3406,7 +3446,7 @@ export class DataIntersightDnacDeviceInterfaceVersionContextInterestedMosList ex
 }
 export interface DataIntersightDnacDeviceInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3414,19 +3454,19 @@ export interface DataIntersightDnacDeviceInterfaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#moid DataIntersightDnacDeviceInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3439,7 +3479,7 @@ export interface DataIntersightDnacDeviceInterfaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#selector DataIntersightDnacDeviceInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3639,7 +3679,7 @@ export class DataIntersightDnacDeviceInterfaceVersionContextRefMoOutputReference
 }
 export interface DataIntersightDnacDeviceInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#additional_properties DataIntersightDnacDeviceInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3647,32 +3687,32 @@ export interface DataIntersightDnacDeviceInterfaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#class_id DataIntersightDnacDeviceInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#marked_for_deletion DataIntersightDnacDeviceInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#marked_for_deletion DataIntersightDnacDeviceInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#nr_version DataIntersightDnacDeviceInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#nr_version DataIntersightDnacDeviceInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#object_type DataIntersightDnacDeviceInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#timestamp DataIntersightDnacDeviceInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#timestamp DataIntersightDnacDeviceInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3683,19 +3723,19 @@ export interface DataIntersightDnacDeviceInterfaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#version_type DataIntersightDnacDeviceInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#version_type DataIntersightDnacDeviceInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#interested_mos DataIntersightDnacDeviceInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#interested_mos DataIntersightDnacDeviceInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightDnacDeviceInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#ref_mo DataIntersightDnacDeviceInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#ref_mo DataIntersightDnacDeviceInterface#ref_mo}
   */
   readonly refMo?: DataIntersightDnacDeviceInterfaceVersionContextRefMo;
 }
@@ -4011,7 +4051,7 @@ export class DataIntersightDnacDeviceInterfaceVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface intersight_dnac_device_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface intersight_dnac_device_interface}
 */
 export class DataIntersightDnacDeviceInterface extends cdktf.TerraformDataSource {
 
@@ -4027,7 +4067,7 @@ export class DataIntersightDnacDeviceInterface extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightDnacDeviceInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightDnacDeviceInterface to import
-  * @param importFromId The id of the existing DataIntersightDnacDeviceInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightDnacDeviceInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightDnacDeviceInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4039,7 +4079,7 @@ export class DataIntersightDnacDeviceInterface extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/dnac_device_interface intersight_dnac_device_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/dnac_device_interface intersight_dnac_device_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4050,8 +4090,8 @@ export class DataIntersightDnacDeviceInterface extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_dnac_device_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

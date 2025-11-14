@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPrefectServiceAccountConfig extends cdktf.TerraformMetaArgu
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account#account_id DataPrefectServiceAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account#account_id DataPrefectServiceAccount#account_id}
   */
   readonly accountId?: string;
   /**
   * Service Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account#id DataPrefectServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account#id DataPrefectServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataPrefectServiceAccountConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account#name DataPrefectServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account#name DataPrefectServiceAccount#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account prefect_service_account}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account prefect_service_account}
 */
 export class DataPrefectServiceAccount extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataPrefectServiceAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectServiceAccount to import
-  * @param importFromId The id of the existing DataPrefectServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataPrefectServiceAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/service_account prefect_service_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/service_account prefect_service_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataPrefectServiceAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_service_account',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0',
-        providerVersionConstraint: '2.90.0'
+        providerVersion: '2.90.1',
+        providerVersionConstraint: '2.90.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

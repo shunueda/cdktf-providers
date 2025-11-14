@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface NgtUpgradeV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#ext_id NgtUpgradeV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#ext_id NgtUpgradeV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#id NgtUpgradeV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#id NgtUpgradeV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface NgtUpgradeV2Config extends cdktf.TerraformMetaArguments {
   /**
   * reboot_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#reboot_preference NgtUpgradeV2#reboot_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#reboot_preference NgtUpgradeV2#reboot_preference}
   */
   readonly rebootPreference?: NgtUpgradeV2RebootPreference;
 }
 export interface NgtUpgradeV2RebootPreferenceSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#start_time NgtUpgradeV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#start_time NgtUpgradeV2#start_time}
   */
   readonly startTime: string;
 }
@@ -108,13 +108,13 @@ export class NgtUpgradeV2RebootPreferenceScheduleOutputReference extends cdktf.C
 }
 export interface NgtUpgradeV2RebootPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#schedule_type NgtUpgradeV2#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#schedule_type NgtUpgradeV2#schedule_type}
   */
   readonly scheduleType: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#schedule NgtUpgradeV2#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#schedule NgtUpgradeV2#schedule}
   */
   readonly schedule?: NgtUpgradeV2RebootPreferenceSchedule;
 }
@@ -224,7 +224,7 @@ export class NgtUpgradeV2RebootPreferenceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2 nutanix_ngt_upgrade_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2 nutanix_ngt_upgrade_v2}
 */
 export class NgtUpgradeV2 extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class NgtUpgradeV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgtUpgradeV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgtUpgradeV2 to import
-  * @param importFromId The id of the existing NgtUpgradeV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgtUpgradeV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgtUpgradeV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class NgtUpgradeV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ngt_upgrade_v2 nutanix_ngt_upgrade_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ngt_upgrade_v2 nutanix_ngt_upgrade_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class NgtUpgradeV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ngt_upgrade_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

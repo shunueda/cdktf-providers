@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#account_moid DataIntersightComputeServerPowerParameters#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#account_moid DataIntersightComputeServerPowerParameters#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#create_time DataIntersightComputeServerPowerParameters#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#create_time DataIntersightComputeServerPowerParameters#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#device_mo_id DataIntersightComputeServerPowerParameters#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#device_mo_id DataIntersightComputeServerPowerParameters#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#dn DataIntersightComputeServerPowerParameters#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#dn DataIntersightComputeServerPowerParameters#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#domain_group_moid DataIntersightComputeServerPowerParameters#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#domain_group_moid DataIntersightComputeServerPowerParameters#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#id DataIntersightComputeServerPowerParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#id DataIntersightComputeServerPowerParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,30 +59,30 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#mod_time DataIntersightComputeServerPowerParameters#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#mod_time DataIntersightComputeServerPowerParameters#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#owners DataIntersightComputeServerPowerParameters#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#owners DataIntersightComputeServerPowerParameters#owners}
   */
   readonly owners?: string[];
   /**
   * This field identifies the maximum power that has been allocated to the blade by CMC in Watts. Power budget for the chassis is configured by the power policy. That budget is then divided among the blades in the chassis by CMC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#power_allocation DataIntersightComputeServerPowerParameters#power_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#power_allocation DataIntersightComputeServerPowerParameters#power_allocation}
   */
   readonly powerAllocation?: number;
   /**
@@ -92,7 +92,7 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   * * `Medium` - Power allocation priority of server is medium.
   * * `High` - Power allocation priority of server is high.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#power_priority DataIntersightComputeServerPowerParameters#power_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#power_priority DataIntersightComputeServerPowerParameters#power_priority}
   */
   readonly powerPriority?: string;
   /**
@@ -101,7 +101,7 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   * * `Enabled` - Power Profiling is enabled for the server.
   * * `Disabled` - Power Profiling is either disabled for the server or not supported on BMC firmware version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#power_profiling DataIntersightComputeServerPowerParameters#power_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#power_profiling DataIntersightComputeServerPowerParameters#power_profiling}
   */
   readonly powerProfiling?: string;
   /**
@@ -111,7 +111,7 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   * * `Always Off` - Power restore state for server is set to Always Off.
   * * `Last State` - Power restore state for server is set to Last State.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#power_restore DataIntersightComputeServerPowerParameters#power_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#power_restore DataIntersightComputeServerPowerParameters#power_restore}
   */
   readonly powerRestore?: string;
   /**
@@ -121,68 +121,68 @@ export interface DataIntersightComputeServerPowerParametersConfig extends cdktf.
   * * `Maximum` - Processor package power limit is maximum for the server.
   * * `Minimum` - Processor package power limit is minimum for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#processor_package_power_limit DataIntersightComputeServerPowerParameters#processor_package_power_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#processor_package_power_limit DataIntersightComputeServerPowerParameters#processor_package_power_limit}
   */
   readonly processorPackagePowerLimit?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#rn DataIntersightComputeServerPowerParameters#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#rn DataIntersightComputeServerPowerParameters#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#shared_scope DataIntersightComputeServerPowerParameters#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#shared_scope DataIntersightComputeServerPowerParameters#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#ancestors DataIntersightComputeServerPowerParameters#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#ancestors DataIntersightComputeServerPowerParameters#ancestors}
   */
   readonly ancestors?: DataIntersightComputeServerPowerParametersAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#compute_blade DataIntersightComputeServerPowerParameters#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#compute_blade DataIntersightComputeServerPowerParameters#compute_blade}
   */
   readonly computeBlade?: DataIntersightComputeServerPowerParametersComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#compute_rack_unit DataIntersightComputeServerPowerParameters#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#compute_rack_unit DataIntersightComputeServerPowerParameters#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightComputeServerPowerParametersComputeRackUnit;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#parent DataIntersightComputeServerPowerParameters#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#parent DataIntersightComputeServerPowerParameters#parent}
   */
   readonly parent?: DataIntersightComputeServerPowerParametersParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#permission_resources DataIntersightComputeServerPowerParameters#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#permission_resources DataIntersightComputeServerPowerParameters#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeServerPowerParametersPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#registered_device DataIntersightComputeServerPowerParameters#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#registered_device DataIntersightComputeServerPowerParameters#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeServerPowerParametersRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#tags DataIntersightComputeServerPowerParameters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#tags DataIntersightComputeServerPowerParameters#tags}
   */
   readonly tags?: DataIntersightComputeServerPowerParametersTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#version_context DataIntersightComputeServerPowerParameters#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#version_context DataIntersightComputeServerPowerParameters#version_context}
   */
   readonly versionContext?: DataIntersightComputeServerPowerParametersVersionContext;
 }
@@ -1024,6 +1024,11 @@ export class DataIntersightComputeServerPowerParametersResultsTagsOutputReferenc
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1570,7 +1575,7 @@ export class DataIntersightComputeServerPowerParametersResultsList extends cdktf
 }
 export interface DataIntersightComputeServerPowerParametersAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1578,19 +1583,19 @@ export interface DataIntersightComputeServerPowerParametersAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1603,7 +1608,7 @@ export interface DataIntersightComputeServerPowerParametersAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -1835,7 +1840,7 @@ export class DataIntersightComputeServerPowerParametersAncestorsList extends cdk
 }
 export interface DataIntersightComputeServerPowerParametersComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1843,19 +1848,19 @@ export interface DataIntersightComputeServerPowerParametersComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1868,7 +1873,7 @@ export interface DataIntersightComputeServerPowerParametersComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -2068,7 +2073,7 @@ export class DataIntersightComputeServerPowerParametersComputeBladeOutputReferen
 }
 export interface DataIntersightComputeServerPowerParametersComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2076,19 +2081,19 @@ export interface DataIntersightComputeServerPowerParametersComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2101,7 +2106,7 @@ export interface DataIntersightComputeServerPowerParametersComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -2301,7 +2306,7 @@ export class DataIntersightComputeServerPowerParametersComputeRackUnitOutputRefe
 }
 export interface DataIntersightComputeServerPowerParametersParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2309,19 +2314,19 @@ export interface DataIntersightComputeServerPowerParametersParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2334,7 +2339,7 @@ export interface DataIntersightComputeServerPowerParametersParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -2534,7 +2539,7 @@ export class DataIntersightComputeServerPowerParametersParentOutputReference ext
 }
 export interface DataIntersightComputeServerPowerParametersPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2542,19 +2547,19 @@ export interface DataIntersightComputeServerPowerParametersPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2567,7 +2572,7 @@ export interface DataIntersightComputeServerPowerParametersPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -2799,7 +2804,7 @@ export class DataIntersightComputeServerPowerParametersPermissionResourcesList e
 }
 export interface DataIntersightComputeServerPowerParametersRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2807,19 +2812,19 @@ export interface DataIntersightComputeServerPowerParametersRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2832,7 +2837,7 @@ export interface DataIntersightComputeServerPowerParametersRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -3032,7 +3037,7 @@ export class DataIntersightComputeServerPowerParametersRegisteredDeviceOutputRef
 }
 export interface DataIntersightComputeServerPowerParametersTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3040,19 +3045,19 @@ export interface DataIntersightComputeServerPowerParametersTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3065,7 +3070,7 @@ export interface DataIntersightComputeServerPowerParametersTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -3297,7 +3302,7 @@ export class DataIntersightComputeServerPowerParametersTagsAncestorDefinitionsLi
 }
 export interface DataIntersightComputeServerPowerParametersTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3305,19 +3310,19 @@ export interface DataIntersightComputeServerPowerParametersTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3330,7 +3335,7 @@ export interface DataIntersightComputeServerPowerParametersTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -3530,45 +3535,51 @@ export class DataIntersightComputeServerPowerParametersTagsDefinitionOutputRefer
 }
 export interface DataIntersightComputeServerPowerParametersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#key DataIntersightComputeServerPowerParameters#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#key DataIntersightComputeServerPowerParameters#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#propagated DataIntersightComputeServerPowerParameters#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#propagated DataIntersightComputeServerPowerParameters#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#sys_tag DataIntersightComputeServerPowerParameters#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#type DataIntersightComputeServerPowerParameters#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#type DataIntersightComputeServerPowerParameters#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#value DataIntersightComputeServerPowerParameters#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#value DataIntersightComputeServerPowerParameters#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#ancestor_definitions DataIntersightComputeServerPowerParameters#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#ancestor_definitions DataIntersightComputeServerPowerParameters#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeServerPowerParametersTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#definition DataIntersightComputeServerPowerParameters#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#definition DataIntersightComputeServerPowerParameters#definition}
   */
   readonly definition?: DataIntersightComputeServerPowerParametersTagsDefinition;
 }
@@ -3582,6 +3593,7 @@ export function dataIntersightComputeServerPowerParametersTagsToTerraform(struct
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightComputeServerPowerParametersTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3610,6 +3622,12 @@ export function dataIntersightComputeServerPowerParametersTagsToHclTerraform(str
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3676,6 +3694,10 @@ export class DataIntersightComputeServerPowerParametersTagsOutputReference exten
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3702,6 +3724,7 @@ export class DataIntersightComputeServerPowerParametersTagsOutputReference exten
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3717,6 +3740,7 @@ export class DataIntersightComputeServerPowerParametersTagsOutputReference exten
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3770,6 +3794,22 @@ export class DataIntersightComputeServerPowerParametersTagsOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3858,7 +3898,7 @@ export class DataIntersightComputeServerPowerParametersTagsList extends cdktf.Co
 }
 export interface DataIntersightComputeServerPowerParametersVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3866,19 +3906,19 @@ export interface DataIntersightComputeServerPowerParametersVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3891,7 +3931,7 @@ export interface DataIntersightComputeServerPowerParametersVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -4123,7 +4163,7 @@ export class DataIntersightComputeServerPowerParametersVersionContextInterestedM
 }
 export interface DataIntersightComputeServerPowerParametersVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4131,19 +4171,19 @@ export interface DataIntersightComputeServerPowerParametersVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#moid DataIntersightComputeServerPowerParameters#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4156,7 +4196,7 @@ export interface DataIntersightComputeServerPowerParametersVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#selector DataIntersightComputeServerPowerParameters#selector}
   */
   readonly selector?: string;
 }
@@ -4356,7 +4396,7 @@ export class DataIntersightComputeServerPowerParametersVersionContextRefMoOutput
 }
 export interface DataIntersightComputeServerPowerParametersVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#additional_properties DataIntersightComputeServerPowerParameters#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4364,32 +4404,32 @@ export interface DataIntersightComputeServerPowerParametersVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#class_id DataIntersightComputeServerPowerParameters#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#marked_for_deletion DataIntersightComputeServerPowerParameters#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#marked_for_deletion DataIntersightComputeServerPowerParameters#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#nr_version DataIntersightComputeServerPowerParameters#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#nr_version DataIntersightComputeServerPowerParameters#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#object_type DataIntersightComputeServerPowerParameters#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#timestamp DataIntersightComputeServerPowerParameters#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#timestamp DataIntersightComputeServerPowerParameters#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4400,19 +4440,19 @@ export interface DataIntersightComputeServerPowerParametersVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#version_type DataIntersightComputeServerPowerParameters#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#version_type DataIntersightComputeServerPowerParameters#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#interested_mos DataIntersightComputeServerPowerParameters#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#interested_mos DataIntersightComputeServerPowerParameters#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeServerPowerParametersVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#ref_mo DataIntersightComputeServerPowerParameters#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#ref_mo DataIntersightComputeServerPowerParameters#ref_mo}
   */
   readonly refMo?: DataIntersightComputeServerPowerParametersVersionContextRefMo;
 }
@@ -4728,7 +4768,7 @@ export class DataIntersightComputeServerPowerParametersVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters intersight_compute_server_power_parameters}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters intersight_compute_server_power_parameters}
 */
 export class DataIntersightComputeServerPowerParameters extends cdktf.TerraformDataSource {
 
@@ -4744,7 +4784,7 @@ export class DataIntersightComputeServerPowerParameters extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightComputeServerPowerParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeServerPowerParameters to import
-  * @param importFromId The id of the existing DataIntersightComputeServerPowerParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeServerPowerParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeServerPowerParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4756,7 +4796,7 @@ export class DataIntersightComputeServerPowerParameters extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_server_power_parameters intersight_compute_server_power_parameters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_parameters intersight_compute_server_power_parameters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4767,8 +4807,8 @@ export class DataIntersightComputeServerPowerParameters extends cdktf.TerraformD
       terraformResourceType: 'intersight_compute_server_power_parameters',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

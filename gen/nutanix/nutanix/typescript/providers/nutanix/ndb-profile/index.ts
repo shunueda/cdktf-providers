@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface NdbProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#description NdbProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#description NdbProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#engine_type NdbProfile#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#engine_type NdbProfile#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#id NdbProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#id NdbProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#name NdbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#name NdbProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#published NdbProfile#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#published NdbProfile#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * compute_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#compute_profile NdbProfile#compute_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#compute_profile NdbProfile#compute_profile}
   */
   readonly computeProfile?: NdbProfileComputeProfile[] | cdktf.IResolvable;
   /**
   * database_parameter_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#database_parameter_profile NdbProfile#database_parameter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#database_parameter_profile NdbProfile#database_parameter_profile}
   */
   readonly databaseParameterProfile?: NdbProfileDatabaseParameterProfile[] | cdktf.IResolvable;
   /**
   * network_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#network_profile NdbProfile#network_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#network_profile NdbProfile#network_profile}
   */
   readonly networkProfile?: NdbProfileNetworkProfile[] | cdktf.IResolvable;
   /**
   * software_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#software_profile NdbProfile#software_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#software_profile NdbProfile#software_profile}
   */
   readonly softwareProfile?: NdbProfileSoftwareProfile;
 }
@@ -596,15 +596,15 @@ export class NdbProfileVersionsList extends cdktf.ComplexList {
 }
 export interface NdbProfileComputeProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#core_per_cpu NdbProfile#core_per_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#core_per_cpu NdbProfile#core_per_cpu}
   */
   readonly corePerCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#cpus NdbProfile#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#cpus NdbProfile#cpus}
   */
   readonly cpus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#memory_size NdbProfile#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#memory_size NdbProfile#memory_size}
   */
   readonly memorySize?: string;
 }
@@ -778,95 +778,95 @@ export class NdbProfileComputeProfileList extends cdktf.ComplexList {
 }
 export interface NdbProfileDatabaseParameterProfilePostgresDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum NdbProfile#autovacuum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum NdbProfile#autovacuum}
   */
   readonly autovacuum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_freeze_max_age NdbProfile#autovacuum_freeze_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_freeze_max_age NdbProfile#autovacuum_freeze_max_age}
   */
   readonly autovacuumFreezeMaxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_max_workers NdbProfile#autovacuum_max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_max_workers NdbProfile#autovacuum_max_workers}
   */
   readonly autovacuumMaxWorkers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_vacuum_cost_delay NdbProfile#autovacuum_vacuum_cost_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_vacuum_cost_delay NdbProfile#autovacuum_vacuum_cost_delay}
   */
   readonly autovacuumVacuumCostDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_vacuum_scale_factor NdbProfile#autovacuum_vacuum_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_vacuum_scale_factor NdbProfile#autovacuum_vacuum_scale_factor}
   */
   readonly autovacuumVacuumScaleFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_vacuum_threshold NdbProfile#autovacuum_vacuum_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_vacuum_threshold NdbProfile#autovacuum_vacuum_threshold}
   */
   readonly autovacuumVacuumThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#autovacuum_work_mem NdbProfile#autovacuum_work_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#autovacuum_work_mem NdbProfile#autovacuum_work_mem}
   */
   readonly autovacuumWorkMem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#checkpoint_completion_target NdbProfile#checkpoint_completion_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#checkpoint_completion_target NdbProfile#checkpoint_completion_target}
   */
   readonly checkpointCompletionTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#checkpoint_timeout NdbProfile#checkpoint_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#checkpoint_timeout NdbProfile#checkpoint_timeout}
   */
   readonly checkpointTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#effective_io_concurrency NdbProfile#effective_io_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#effective_io_concurrency NdbProfile#effective_io_concurrency}
   */
   readonly effectiveIoConcurrency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_connections NdbProfile#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_connections NdbProfile#max_connections}
   */
   readonly maxConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_locks_per_transaction NdbProfile#max_locks_per_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_locks_per_transaction NdbProfile#max_locks_per_transaction}
   */
   readonly maxLocksPerTransaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_prepared_transactions NdbProfile#max_prepared_transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_prepared_transactions NdbProfile#max_prepared_transactions}
   */
   readonly maxPreparedTransactions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_replication_slots NdbProfile#max_replication_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_replication_slots NdbProfile#max_replication_slots}
   */
   readonly maxReplicationSlots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_wal_senders NdbProfile#max_wal_senders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_wal_senders NdbProfile#max_wal_senders}
   */
   readonly maxWalSenders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_wal_size NdbProfile#max_wal_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_wal_size NdbProfile#max_wal_size}
   */
   readonly maxWalSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#max_worker_processes NdbProfile#max_worker_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#max_worker_processes NdbProfile#max_worker_processes}
   */
   readonly maxWorkerProcesses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#min_wal_size NdbProfile#min_wal_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#min_wal_size NdbProfile#min_wal_size}
   */
   readonly minWalSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#random_page_cost NdbProfile#random_page_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#random_page_cost NdbProfile#random_page_cost}
   */
   readonly randomPageCost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#synchronous_commit NdbProfile#synchronous_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#synchronous_commit NdbProfile#synchronous_commit}
   */
   readonly synchronousCommit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#timezone NdbProfile#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#timezone NdbProfile#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#wal_buffers NdbProfile#wal_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#wal_buffers NdbProfile#wal_buffers}
   */
   readonly walBuffers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#wal_keep_segments NdbProfile#wal_keep_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#wal_keep_segments NdbProfile#wal_keep_segments}
   */
   readonly walKeepSegments?: string;
 }
@@ -1622,7 +1622,7 @@ export interface NdbProfileDatabaseParameterProfile {
   /**
   * postgres_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
   */
   readonly postgresDatabase?: NdbProfileDatabaseParameterProfilePostgresDatabase[] | cdktf.IResolvable;
 }
@@ -1738,19 +1738,19 @@ export class NdbProfileDatabaseParameterProfileList extends cdktf.ComplexList {
 }
 export interface NdbProfileNetworkProfilePostgresDatabaseHaInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#cluster_id NdbProfile#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#cluster_id NdbProfile#cluster_id}
   */
   readonly clusterId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#cluster_name NdbProfile#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#cluster_name NdbProfile#cluster_name}
   */
   readonly clusterName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#num_of_clusters NdbProfile#num_of_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#num_of_clusters NdbProfile#num_of_clusters}
   */
   readonly numOfClusters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#vlan_name NdbProfile#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#vlan_name NdbProfile#vlan_name}
   */
   readonly vlanName?: string[];
 }
@@ -1953,11 +1953,11 @@ export class NdbProfileNetworkProfilePostgresDatabaseHaInstanceList extends cdkt
 }
 export interface NdbProfileNetworkProfilePostgresDatabaseSingleInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#enable_ip_address_selection NdbProfile#enable_ip_address_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#enable_ip_address_selection NdbProfile#enable_ip_address_selection}
   */
   readonly enableIpAddressSelection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#vlan_name NdbProfile#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#vlan_name NdbProfile#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -2104,13 +2104,13 @@ export interface NdbProfileNetworkProfilePostgresDatabase {
   /**
   * ha_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#ha_instance NdbProfile#ha_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#ha_instance NdbProfile#ha_instance}
   */
   readonly haInstance?: NdbProfileNetworkProfilePostgresDatabaseHaInstance[] | cdktf.IResolvable;
   /**
   * single_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#single_instance NdbProfile#single_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#single_instance NdbProfile#single_instance}
   */
   readonly singleInstance?: NdbProfileNetworkProfilePostgresDatabaseSingleInstance[] | cdktf.IResolvable;
 }
@@ -2255,7 +2255,7 @@ export class NdbProfileNetworkProfilePostgresDatabaseList extends cdktf.ComplexL
 }
 export interface NdbProfileNetworkProfileVersionClusterAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#nx_cluster_id NdbProfile#nx_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#nx_cluster_id NdbProfile#nx_cluster_id}
   */
   readonly nxClusterId: string;
 }
@@ -2368,19 +2368,19 @@ export class NdbProfileNetworkProfileVersionClusterAssociationList extends cdktf
 }
 export interface NdbProfileNetworkProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#topology NdbProfile#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#topology NdbProfile#topology}
   */
   readonly topology: string;
   /**
   * postgres_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
   */
   readonly postgresDatabase?: NdbProfileNetworkProfilePostgresDatabase[] | cdktf.IResolvable;
   /**
   * version_cluster_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#version_cluster_association NdbProfile#version_cluster_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#version_cluster_association NdbProfile#version_cluster_association}
   */
   readonly versionClusterAssociation?: NdbProfileNetworkProfileVersionClusterAssociation[] | cdktf.IResolvable;
 }
@@ -2551,23 +2551,23 @@ export class NdbProfileNetworkProfileList extends cdktf.ComplexList {
 }
 export interface NdbProfileSoftwareProfilePostgresDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#base_profile_version_description NdbProfile#base_profile_version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#base_profile_version_description NdbProfile#base_profile_version_description}
   */
   readonly baseProfileVersionDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#base_profile_version_name NdbProfile#base_profile_version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#base_profile_version_name NdbProfile#base_profile_version_name}
   */
   readonly baseProfileVersionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#db_software_notes NdbProfile#db_software_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#db_software_notes NdbProfile#db_software_notes}
   */
   readonly dbSoftwareNotes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#os_notes NdbProfile#os_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#os_notes NdbProfile#os_notes}
   */
   readonly osNotes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#source_dbserver_id NdbProfile#source_dbserver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#source_dbserver_id NdbProfile#source_dbserver_id}
   */
   readonly sourceDbserverId?: string;
 }
@@ -2799,17 +2799,17 @@ export class NdbProfileSoftwareProfilePostgresDatabaseList extends cdktf.Complex
 }
 export interface NdbProfileSoftwareProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#available_cluster_ids NdbProfile#available_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#available_cluster_ids NdbProfile#available_cluster_ids}
   */
   readonly availableClusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#topology NdbProfile#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#topology NdbProfile#topology}
   */
   readonly topology: string;
   /**
   * postgres_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#postgres_database NdbProfile#postgres_database}
   */
   readonly postgresDatabase?: NdbProfileSoftwareProfilePostgresDatabase[] | cdktf.IResolvable;
 }
@@ -2948,7 +2948,7 @@ export class NdbProfileSoftwareProfileOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile nutanix_ndb_profile}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile nutanix_ndb_profile}
 */
 export class NdbProfile extends cdktf.TerraformResource {
 
@@ -2964,7 +2964,7 @@ export class NdbProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbProfile to import
-  * @param importFromId The id of the existing NdbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2976,7 +2976,7 @@ export class NdbProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_profile nutanix_ndb_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_profile nutanix_ndb_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2987,8 +2987,8 @@ export class NdbProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_profile',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

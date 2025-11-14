@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexProxySettingPolicyConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#account_moid DataIntersightHyperflexProxySettingPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#account_moid DataIntersightHyperflexProxySettingPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightHyperflexProxySettingPolicyConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#create_time DataIntersightHyperflexProxySettingPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#create_time DataIntersightHyperflexProxySettingPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#description DataIntersightHyperflexProxySettingPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#description DataIntersightHyperflexProxySettingPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#domain_group_moid DataIntersightHyperflexProxySettingPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#domain_group_moid DataIntersightHyperflexProxySettingPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HTTP Proxy server FQDN or IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#hostname DataIntersightHyperflexProxySettingPolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#hostname DataIntersightHyperflexProxySettingPolicy#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#id DataIntersightHyperflexProxySettingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#id DataIntersightHyperflexProxySettingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,104 +59,104 @@ export interface DataIntersightHyperflexProxySettingPolicyConfig extends cdktf.T
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#is_password_set DataIntersightHyperflexProxySettingPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#is_password_set DataIntersightHyperflexProxySettingPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#mod_time DataIntersightHyperflexProxySettingPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#mod_time DataIntersightHyperflexProxySettingPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#name DataIntersightHyperflexProxySettingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#name DataIntersightHyperflexProxySettingPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#owners DataIntersightHyperflexProxySettingPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#owners DataIntersightHyperflexProxySettingPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * The password for the HTTP Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#password DataIntersightHyperflexProxySettingPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#password DataIntersightHyperflexProxySettingPolicy#password}
   */
   readonly password?: string;
   /**
   * The HTTP Proxy port number.
   * The port number of the HTTP proxy must be between 1 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#port DataIntersightHyperflexProxySettingPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#port DataIntersightHyperflexProxySettingPolicy#port}
   */
   readonly port?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#shared_scope DataIntersightHyperflexProxySettingPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#shared_scope DataIntersightHyperflexProxySettingPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The username for the HTTP Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#username DataIntersightHyperflexProxySettingPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#username DataIntersightHyperflexProxySettingPolicy#username}
   */
   readonly username?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#ancestors DataIntersightHyperflexProxySettingPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#ancestors DataIntersightHyperflexProxySettingPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexProxySettingPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#cluster_profiles DataIntersightHyperflexProxySettingPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#cluster_profiles DataIntersightHyperflexProxySettingPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightHyperflexProxySettingPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#organization DataIntersightHyperflexProxySettingPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#organization DataIntersightHyperflexProxySettingPolicy#organization}
   */
   readonly organization?: DataIntersightHyperflexProxySettingPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#parent DataIntersightHyperflexProxySettingPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#parent DataIntersightHyperflexProxySettingPolicy#parent}
   */
   readonly parent?: DataIntersightHyperflexProxySettingPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#permission_resources DataIntersightHyperflexProxySettingPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#permission_resources DataIntersightHyperflexProxySettingPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexProxySettingPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#tags DataIntersightHyperflexProxySettingPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#tags DataIntersightHyperflexProxySettingPolicy#tags}
   */
   readonly tags?: DataIntersightHyperflexProxySettingPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#version_context DataIntersightHyperflexProxySettingPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#version_context DataIntersightHyperflexProxySettingPolicy#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexProxySettingPolicyVersionContext;
 }
@@ -903,6 +903,11 @@ export class DataIntersightHyperflexProxySettingPolicyResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1438,7 +1443,7 @@ export class DataIntersightHyperflexProxySettingPolicyResultsList extends cdktf.
 }
 export interface DataIntersightHyperflexProxySettingPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1446,19 +1451,19 @@ export interface DataIntersightHyperflexProxySettingPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1471,7 +1476,7 @@ export interface DataIntersightHyperflexProxySettingPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1703,7 +1708,7 @@ export class DataIntersightHyperflexProxySettingPolicyAncestorsList extends cdkt
 }
 export interface DataIntersightHyperflexProxySettingPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1711,19 +1716,19 @@ export interface DataIntersightHyperflexProxySettingPolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1736,7 +1741,7 @@ export interface DataIntersightHyperflexProxySettingPolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1968,7 +1973,7 @@ export class DataIntersightHyperflexProxySettingPolicyClusterProfilesList extend
 }
 export interface DataIntersightHyperflexProxySettingPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1976,19 +1981,19 @@ export interface DataIntersightHyperflexProxySettingPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2001,7 +2006,7 @@ export interface DataIntersightHyperflexProxySettingPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2201,7 +2206,7 @@ export class DataIntersightHyperflexProxySettingPolicyOrganizationOutputReferenc
 }
 export interface DataIntersightHyperflexProxySettingPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2209,19 +2214,19 @@ export interface DataIntersightHyperflexProxySettingPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2234,7 +2239,7 @@ export interface DataIntersightHyperflexProxySettingPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2434,7 +2439,7 @@ export class DataIntersightHyperflexProxySettingPolicyParentOutputReference exte
 }
 export interface DataIntersightHyperflexProxySettingPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2442,19 +2447,19 @@ export interface DataIntersightHyperflexProxySettingPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2467,7 +2472,7 @@ export interface DataIntersightHyperflexProxySettingPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2699,7 +2704,7 @@ export class DataIntersightHyperflexProxySettingPolicyPermissionResourcesList ex
 }
 export interface DataIntersightHyperflexProxySettingPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2707,19 +2712,19 @@ export interface DataIntersightHyperflexProxySettingPolicyTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2732,7 +2737,7 @@ export interface DataIntersightHyperflexProxySettingPolicyTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2964,7 +2969,7 @@ export class DataIntersightHyperflexProxySettingPolicyTagsAncestorDefinitionsLis
 }
 export interface DataIntersightHyperflexProxySettingPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2972,19 +2977,19 @@ export interface DataIntersightHyperflexProxySettingPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2997,7 +3002,7 @@ export interface DataIntersightHyperflexProxySettingPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3197,45 +3202,51 @@ export class DataIntersightHyperflexProxySettingPolicyTagsDefinitionOutputRefere
 }
 export interface DataIntersightHyperflexProxySettingPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#key DataIntersightHyperflexProxySettingPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#key DataIntersightHyperflexProxySettingPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#propagated DataIntersightHyperflexProxySettingPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#propagated DataIntersightHyperflexProxySettingPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#sys_tag DataIntersightHyperflexProxySettingPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#type DataIntersightHyperflexProxySettingPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#type DataIntersightHyperflexProxySettingPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#value DataIntersightHyperflexProxySettingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#value DataIntersightHyperflexProxySettingPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#ancestor_definitions DataIntersightHyperflexProxySettingPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#ancestor_definitions DataIntersightHyperflexProxySettingPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexProxySettingPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#definition DataIntersightHyperflexProxySettingPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#definition DataIntersightHyperflexProxySettingPolicy#definition}
   */
   readonly definition?: DataIntersightHyperflexProxySettingPolicyTagsDefinition;
 }
@@ -3249,6 +3260,7 @@ export function dataIntersightHyperflexProxySettingPolicyTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexProxySettingPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3277,6 +3289,12 @@ export function dataIntersightHyperflexProxySettingPolicyTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3343,6 +3361,10 @@ export class DataIntersightHyperflexProxySettingPolicyTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3369,6 +3391,7 @@ export class DataIntersightHyperflexProxySettingPolicyTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3384,6 +3407,7 @@ export class DataIntersightHyperflexProxySettingPolicyTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3437,6 +3461,22 @@ export class DataIntersightHyperflexProxySettingPolicyTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3525,7 +3565,7 @@ export class DataIntersightHyperflexProxySettingPolicyTagsList extends cdktf.Com
 }
 export interface DataIntersightHyperflexProxySettingPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3533,19 +3573,19 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3558,7 +3598,7 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3790,7 +3830,7 @@ export class DataIntersightHyperflexProxySettingPolicyVersionContextInterestedMo
 }
 export interface DataIntersightHyperflexProxySettingPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3798,19 +3838,19 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#moid DataIntersightHyperflexProxySettingPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3823,7 +3863,7 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#selector DataIntersightHyperflexProxySettingPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4023,7 +4063,7 @@ export class DataIntersightHyperflexProxySettingPolicyVersionContextRefMoOutputR
 }
 export interface DataIntersightHyperflexProxySettingPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#additional_properties DataIntersightHyperflexProxySettingPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4031,32 +4071,32 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#class_id DataIntersightHyperflexProxySettingPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#marked_for_deletion DataIntersightHyperflexProxySettingPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#marked_for_deletion DataIntersightHyperflexProxySettingPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#nr_version DataIntersightHyperflexProxySettingPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#nr_version DataIntersightHyperflexProxySettingPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#object_type DataIntersightHyperflexProxySettingPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#timestamp DataIntersightHyperflexProxySettingPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#timestamp DataIntersightHyperflexProxySettingPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4067,19 +4107,19 @@ export interface DataIntersightHyperflexProxySettingPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#version_type DataIntersightHyperflexProxySettingPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#version_type DataIntersightHyperflexProxySettingPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#interested_mos DataIntersightHyperflexProxySettingPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#interested_mos DataIntersightHyperflexProxySettingPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexProxySettingPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#ref_mo DataIntersightHyperflexProxySettingPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#ref_mo DataIntersightHyperflexProxySettingPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexProxySettingPolicyVersionContextRefMo;
 }
@@ -4395,7 +4435,7 @@ export class DataIntersightHyperflexProxySettingPolicyVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy intersight_hyperflex_proxy_setting_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy intersight_hyperflex_proxy_setting_policy}
 */
 export class DataIntersightHyperflexProxySettingPolicy extends cdktf.TerraformDataSource {
 
@@ -4411,7 +4451,7 @@ export class DataIntersightHyperflexProxySettingPolicy extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightHyperflexProxySettingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexProxySettingPolicy to import
-  * @param importFromId The id of the existing DataIntersightHyperflexProxySettingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexProxySettingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexProxySettingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4423,7 +4463,7 @@ export class DataIntersightHyperflexProxySettingPolicy extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_proxy_setting_policy intersight_hyperflex_proxy_setting_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_proxy_setting_policy intersight_hyperflex_proxy_setting_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4434,8 +4474,8 @@ export class DataIntersightHyperflexProxySettingPolicy extends cdktf.TerraformDa
       terraformResourceType: 'intersight_hyperflex_proxy_setting_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

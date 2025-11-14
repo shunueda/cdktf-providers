@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciWlmsManagedInstanceServerInstalledPatchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#id DataOciWlmsManagedInstanceServerInstalledPatches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#id DataOciWlmsManagedInstanceServerInstalledPatches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#managed_instance_id DataOciWlmsManagedInstanceServerInstalledPatches#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#managed_instance_id DataOciWlmsManagedInstanceServerInstalledPatches#managed_instance_id}
   */
   readonly managedInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#server_id DataOciWlmsManagedInstanceServerInstalledPatches#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#server_id DataOciWlmsManagedInstanceServerInstalledPatches#server_id}
   */
   readonly serverId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#filter DataOciWlmsManagedInstanceServerInstalledPatches#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#filter DataOciWlmsManagedInstanceServerInstalledPatches#filter}
   */
   readonly filter?: DataOciWlmsManagedInstanceServerInstalledPatchesFilter[] | cdktf.IResolvable;
 }
@@ -192,15 +192,15 @@ export class DataOciWlmsManagedInstanceServerInstalledPatchesInstalledPatchColle
 }
 export interface DataOciWlmsManagedInstanceServerInstalledPatchesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#name DataOciWlmsManagedInstanceServerInstalledPatches#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#regex DataOciWlmsManagedInstanceServerInstalledPatches#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#values DataOciWlmsManagedInstanceServerInstalledPatches#values}
   */
   readonly values: string[];
 }
@@ -368,7 +368,7 @@ export class DataOciWlmsManagedInstanceServerInstalledPatchesFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches oci_wlms_managed_instance_server_installed_patches}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches oci_wlms_managed_instance_server_installed_patches}
 */
 export class DataOciWlmsManagedInstanceServerInstalledPatches extends cdktf.TerraformDataSource {
 
@@ -384,7 +384,7 @@ export class DataOciWlmsManagedInstanceServerInstalledPatches extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciWlmsManagedInstanceServerInstalledPatches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciWlmsManagedInstanceServerInstalledPatches to import
-  * @param importFromId The id of the existing DataOciWlmsManagedInstanceServerInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciWlmsManagedInstanceServerInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciWlmsManagedInstanceServerInstalledPatches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DataOciWlmsManagedInstanceServerInstalledPatches extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/wlms_managed_instance_server_installed_patches oci_wlms_managed_instance_server_installed_patches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/wlms_managed_instance_server_installed_patches oci_wlms_managed_instance_server_installed_patches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DataOciWlmsManagedInstanceServerInstalledPatches extends cdktf.Terr
       terraformResourceType: 'oci_wlms_managed_instance_server_installed_patches',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

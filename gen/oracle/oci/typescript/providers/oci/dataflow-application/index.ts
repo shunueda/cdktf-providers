@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,150 +8,150 @@ import * as cdktf from 'cdktf';
 
 export interface DataflowApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#archive_uri DataflowApplication#archive_uri}
   */
   readonly archiveUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#arguments DataflowApplication#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#arguments DataflowApplication#arguments}
   */
   readonly arguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#class_name DataflowApplication#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#class_name DataflowApplication#class_name}
   */
   readonly className?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#compartment_id DataflowApplication#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#configuration DataflowApplication#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#configuration DataflowApplication#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#defined_tags DataflowApplication#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#description DataflowApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#description DataflowApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#display_name DataflowApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#display_name DataflowApplication#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#driver_shape DataflowApplication#driver_shape}
   */
   readonly driverShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#execute DataflowApplication#execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#execute DataflowApplication#execute}
   */
   readonly execute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#executor_shape DataflowApplication#executor_shape}
   */
   readonly executorShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#file_uri DataflowApplication#file_uri}
   */
   readonly fileUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#freeform_tags DataflowApplication#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#id DataflowApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#id DataflowApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#idle_timeout_in_minutes DataflowApplication#idle_timeout_in_minutes}
   */
   readonly idleTimeoutInMinutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#language DataflowApplication#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#language DataflowApplication#language}
   */
   readonly language: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#logs_bucket_uri DataflowApplication#logs_bucket_uri}
   */
   readonly logsBucketUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#max_duration_in_minutes DataflowApplication#max_duration_in_minutes}
   */
   readonly maxDurationInMinutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#metastore_id DataflowApplication#metastore_id}
   */
   readonly metastoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#num_executors DataflowApplication#num_executors}
   */
   readonly numExecutors: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#pool_id DataflowApplication#pool_id}
   */
   readonly poolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#private_endpoint_id DataflowApplication#private_endpoint_id}
   */
   readonly privateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#spark_version DataflowApplication#spark_version}
   */
   readonly sparkVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#terminate_runs_on_deletion DataflowApplication#terminate_runs_on_deletion}
   */
   readonly terminateRunsOnDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#type DataflowApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#type DataflowApplication#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#warehouse_bucket_uri DataflowApplication#warehouse_bucket_uri}
   */
   readonly warehouseBucketUri?: string;
   /**
   * application_log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#application_log_config DataflowApplication#application_log_config}
   */
   readonly applicationLogConfig?: DataflowApplicationApplicationLogConfig;
   /**
   * driver_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#driver_shape_config DataflowApplication#driver_shape_config}
   */
   readonly driverShapeConfig?: DataflowApplicationDriverShapeConfig;
   /**
   * executor_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#executor_shape_config DataflowApplication#executor_shape_config}
   */
   readonly executorShapeConfig?: DataflowApplicationExecutorShapeConfig;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#parameters DataflowApplication#parameters}
   */
   readonly parameters?: DataflowApplicationParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#timeouts DataflowApplication#timeouts}
   */
   readonly timeouts?: DataflowApplicationTimeouts;
 }
 export interface DataflowApplicationApplicationLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#log_id DataflowApplication#log_id}
   */
   readonly logId: string;
 }
@@ -258,11 +258,11 @@ export class DataflowApplicationApplicationLogConfigOutputReference extends cdkt
 }
 export interface DataflowApplicationDriverShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#memory_in_gbs DataflowApplication#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#memory_in_gbs DataflowApplication#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#ocpus DataflowApplication#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#ocpus DataflowApplication#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -375,11 +375,11 @@ export class DataflowApplicationDriverShapeConfigOutputReference extends cdktf.C
 }
 export interface DataflowApplicationExecutorShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#memory_in_gbs DataflowApplication#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#memory_in_gbs DataflowApplication#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#ocpus DataflowApplication#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#ocpus DataflowApplication#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -492,11 +492,11 @@ export class DataflowApplicationExecutorShapeConfigOutputReference extends cdktf
 }
 export interface DataflowApplicationParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#name DataflowApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#name DataflowApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#value DataflowApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#value DataflowApplication#value}
   */
   readonly value: string;
 }
@@ -635,15 +635,15 @@ export class DataflowApplicationParametersList extends cdktf.ComplexList {
 }
 export interface DataflowApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#create DataflowApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#create DataflowApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#delete DataflowApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#delete DataflowApplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#update DataflowApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#update DataflowApplication#update}
   */
   readonly update?: string;
 }
@@ -795,7 +795,7 @@ export class DataflowApplicationTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application oci_dataflow_application}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application oci_dataflow_application}
 */
 export class DataflowApplication extends cdktf.TerraformResource {
 
@@ -811,7 +811,7 @@ export class DataflowApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataflowApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataflowApplication to import
-  * @param importFromId The id of the existing DataflowApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataflowApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataflowApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -823,7 +823,7 @@ export class DataflowApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/dataflow_application oci_dataflow_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/dataflow_application oci_dataflow_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -834,8 +834,8 @@ export class DataflowApplication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dataflow_application',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

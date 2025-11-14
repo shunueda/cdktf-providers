@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightOsDistributionConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#account_moid DataIntersightOsDistribution#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#account_moid DataIntersightOsDistribution#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightOsDistributionConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#create_time DataIntersightOsDistribution#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#create_time DataIntersightOsDistribution#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#domain_group_moid DataIntersightOsDistribution#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#domain_group_moid DataIntersightOsDistribution#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#id DataIntersightOsDistribution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#id DataIntersightOsDistribution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,108 +48,108 @@ export interface DataIntersightOsDistributionConfig extends cdktf.TerraformMetaA
   * An internal property that is used to denote if the OS Distribution is supported
   * by Intersight for Automated Installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#is_supported DataIntersightOsDistribution#is_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#is_supported DataIntersightOsDistribution#is_supported}
   */
   readonly isSupported?: boolean | cdktf.IResolvable;
   /**
   * The label of the OS distribution such as ESXi, CentOS to be displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#label DataIntersightOsDistribution#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#label DataIntersightOsDistribution#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#mod_time DataIntersightOsDistribution#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#mod_time DataIntersightOsDistribution#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The name of the OS distribution such as ESXi, CentOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#name DataIntersightOsDistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#name DataIntersightOsDistribution#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#owners DataIntersightOsDistribution#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#owners DataIntersightOsDistribution#owners}
   */
   readonly owners?: string[];
   /**
   * An internal property that is used to denote if the OS Distribution is supported
   * by the Server Configuration Utility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#scu_supported DataIntersightOsDistribution#scu_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#scu_supported DataIntersightOsDistribution#scu_supported}
   */
   readonly scuSupported?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#shared_scope DataIntersightOsDistribution#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#shared_scope DataIntersightOsDistribution#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#supported_editions DataIntersightOsDistribution#supported_editions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#supported_editions DataIntersightOsDistribution#supported_editions}
   */
   readonly supportedEditions?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#ancestors DataIntersightOsDistribution#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#ancestors DataIntersightOsDistribution#ancestors}
   */
   readonly ancestors?: DataIntersightOsDistributionAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#catalog DataIntersightOsDistribution#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#catalog DataIntersightOsDistribution#catalog}
   */
   readonly catalog?: DataIntersightOsDistributionCatalog;
   /**
   * nr_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#nr_version DataIntersightOsDistribution#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#nr_version DataIntersightOsDistribution#nr_version}
   */
   readonly nrVersion?: DataIntersightOsDistributionNrVersion;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#parent DataIntersightOsDistribution#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#parent DataIntersightOsDistribution#parent}
   */
   readonly parent?: DataIntersightOsDistributionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#permission_resources DataIntersightOsDistribution#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#permission_resources DataIntersightOsDistribution#permission_resources}
   */
   readonly permissionResources?: DataIntersightOsDistributionPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#tags DataIntersightOsDistribution#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#tags DataIntersightOsDistribution#tags}
   */
   readonly tags?: DataIntersightOsDistributionTags[] | cdktf.IResolvable;
   /**
   * vendor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#vendor DataIntersightOsDistribution#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#vendor DataIntersightOsDistribution#vendor}
   */
   readonly vendor?: DataIntersightOsDistributionVendor;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#version_context DataIntersightOsDistribution#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#version_context DataIntersightOsDistribution#version_context}
   */
   readonly versionContext?: DataIntersightOsDistributionVersionContext;
 }
@@ -896,6 +896,11 @@ export class DataIntersightOsDistributionResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1522,7 +1527,7 @@ export class DataIntersightOsDistributionResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOsDistributionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1530,19 +1535,19 @@ export interface DataIntersightOsDistributionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1555,7 +1560,7 @@ export interface DataIntersightOsDistributionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -1787,7 +1792,7 @@ export class DataIntersightOsDistributionAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightOsDistributionCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1795,19 +1800,19 @@ export interface DataIntersightOsDistributionCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1820,7 +1825,7 @@ export interface DataIntersightOsDistributionCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -2020,7 +2025,7 @@ export class DataIntersightOsDistributionCatalogOutputReference extends cdktf.Co
 }
 export interface DataIntersightOsDistributionNrVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2028,19 +2033,19 @@ export interface DataIntersightOsDistributionNrVersion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2053,7 +2058,7 @@ export interface DataIntersightOsDistributionNrVersion {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -2253,7 +2258,7 @@ export class DataIntersightOsDistributionNrVersionOutputReference extends cdktf.
 }
 export interface DataIntersightOsDistributionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2261,19 +2266,19 @@ export interface DataIntersightOsDistributionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2286,7 +2291,7 @@ export interface DataIntersightOsDistributionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -2486,7 +2491,7 @@ export class DataIntersightOsDistributionParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightOsDistributionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2494,19 +2499,19 @@ export interface DataIntersightOsDistributionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2519,7 +2524,7 @@ export interface DataIntersightOsDistributionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -2751,7 +2756,7 @@ export class DataIntersightOsDistributionPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightOsDistributionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2759,19 +2764,19 @@ export interface DataIntersightOsDistributionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2784,7 +2789,7 @@ export interface DataIntersightOsDistributionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -3016,7 +3021,7 @@ export class DataIntersightOsDistributionTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightOsDistributionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3024,19 +3029,19 @@ export interface DataIntersightOsDistributionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3049,7 +3054,7 @@ export interface DataIntersightOsDistributionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -3249,45 +3254,51 @@ export class DataIntersightOsDistributionTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightOsDistributionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#key DataIntersightOsDistribution#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#key DataIntersightOsDistribution#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#propagated DataIntersightOsDistribution#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#propagated DataIntersightOsDistribution#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#sys_tag DataIntersightOsDistribution#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#type DataIntersightOsDistribution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#type DataIntersightOsDistribution#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#value DataIntersightOsDistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#value DataIntersightOsDistribution#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#ancestor_definitions DataIntersightOsDistribution#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#ancestor_definitions DataIntersightOsDistribution#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOsDistributionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#definition DataIntersightOsDistribution#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#definition DataIntersightOsDistribution#definition}
   */
   readonly definition?: DataIntersightOsDistributionTagsDefinition;
 }
@@ -3301,6 +3312,7 @@ export function dataIntersightOsDistributionTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightOsDistributionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3329,6 +3341,12 @@ export function dataIntersightOsDistributionTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3395,6 +3413,10 @@ export class DataIntersightOsDistributionTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3421,6 +3443,7 @@ export class DataIntersightOsDistributionTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3436,6 +3459,7 @@ export class DataIntersightOsDistributionTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3489,6 +3513,22 @@ export class DataIntersightOsDistributionTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3577,7 +3617,7 @@ export class DataIntersightOsDistributionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOsDistributionVendor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3585,19 +3625,19 @@ export interface DataIntersightOsDistributionVendor {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3610,7 +3650,7 @@ export interface DataIntersightOsDistributionVendor {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -3810,7 +3850,7 @@ export class DataIntersightOsDistributionVendorOutputReference extends cdktf.Com
 }
 export interface DataIntersightOsDistributionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3818,19 +3858,19 @@ export interface DataIntersightOsDistributionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3843,7 +3883,7 @@ export interface DataIntersightOsDistributionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -4075,7 +4115,7 @@ export class DataIntersightOsDistributionVersionContextInterestedMosList extends
 }
 export interface DataIntersightOsDistributionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4083,19 +4123,19 @@ export interface DataIntersightOsDistributionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#moid DataIntersightOsDistribution#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4108,7 +4148,7 @@ export interface DataIntersightOsDistributionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#selector DataIntersightOsDistribution#selector}
   */
   readonly selector?: string;
 }
@@ -4308,7 +4348,7 @@ export class DataIntersightOsDistributionVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightOsDistributionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#additional_properties DataIntersightOsDistribution#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4316,32 +4356,32 @@ export interface DataIntersightOsDistributionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#class_id DataIntersightOsDistribution#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#marked_for_deletion DataIntersightOsDistribution#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#marked_for_deletion DataIntersightOsDistribution#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#nr_version DataIntersightOsDistribution#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#nr_version DataIntersightOsDistribution#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#object_type DataIntersightOsDistribution#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#timestamp DataIntersightOsDistribution#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#timestamp DataIntersightOsDistribution#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4352,19 +4392,19 @@ export interface DataIntersightOsDistributionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#version_type DataIntersightOsDistribution#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#version_type DataIntersightOsDistribution#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#interested_mos DataIntersightOsDistribution#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#interested_mos DataIntersightOsDistribution#interested_mos}
   */
   readonly interestedMos?: DataIntersightOsDistributionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#ref_mo DataIntersightOsDistribution#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#ref_mo DataIntersightOsDistribution#ref_mo}
   */
   readonly refMo?: DataIntersightOsDistributionVersionContextRefMo;
 }
@@ -4680,7 +4720,7 @@ export class DataIntersightOsDistributionVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution intersight_os_distribution}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution intersight_os_distribution}
 */
 export class DataIntersightOsDistribution extends cdktf.TerraformDataSource {
 
@@ -4696,7 +4736,7 @@ export class DataIntersightOsDistribution extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightOsDistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOsDistribution to import
-  * @param importFromId The id of the existing DataIntersightOsDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOsDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOsDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4708,7 +4748,7 @@ export class DataIntersightOsDistribution extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_distribution intersight_os_distribution} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_distribution intersight_os_distribution} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4719,8 +4759,8 @@ export class DataIntersightOsDistribution extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_os_distribution',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

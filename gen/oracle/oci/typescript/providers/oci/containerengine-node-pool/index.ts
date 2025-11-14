@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface ContainerengineNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#cluster_id ContainerengineNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#cluster_id ContainerengineNodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#compartment_id ContainerengineNodePool#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#compartment_id ContainerengineNodePool#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#defined_tags ContainerengineNodePool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#defined_tags ContainerengineNodePool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#freeform_tags ContainerengineNodePool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#freeform_tags ContainerengineNodePool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#id ContainerengineNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#id ContainerengineNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#kubernetes_version ContainerengineNodePool#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#kubernetes_version ContainerengineNodePool#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#name ContainerengineNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#name ContainerengineNodePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_image_id ContainerengineNodePool#node_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_image_id ContainerengineNodePool#node_image_id}
   */
   readonly nodeImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_image_name ContainerengineNodePool#node_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_image_name ContainerengineNodePool#node_image_name}
   */
   readonly nodeImageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_metadata ContainerengineNodePool#node_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_metadata ContainerengineNodePool#node_metadata}
   */
   readonly nodeMetadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_shape ContainerengineNodePool#node_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_shape ContainerengineNodePool#node_shape}
   */
   readonly nodeShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#quantity_per_subnet ContainerengineNodePool#quantity_per_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#quantity_per_subnet ContainerengineNodePool#quantity_per_subnet}
   */
   readonly quantityPerSubnet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#ssh_public_key ContainerengineNodePool#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#ssh_public_key ContainerengineNodePool#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#subnet_ids ContainerengineNodePool#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#subnet_ids ContainerengineNodePool#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * initial_node_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#initial_node_labels ContainerengineNodePool#initial_node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#initial_node_labels ContainerengineNodePool#initial_node_labels}
   */
   readonly initialNodeLabels?: ContainerengineNodePoolInitialNodeLabels[] | cdktf.IResolvable;
   /**
   * node_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_config_details ContainerengineNodePool#node_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_config_details ContainerengineNodePool#node_config_details}
   */
   readonly nodeConfigDetails?: ContainerengineNodePoolNodeConfigDetails;
   /**
   * node_eviction_node_pool_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_eviction_node_pool_settings ContainerengineNodePool#node_eviction_node_pool_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_eviction_node_pool_settings ContainerengineNodePool#node_eviction_node_pool_settings}
   */
   readonly nodeEvictionNodePoolSettings?: ContainerengineNodePoolNodeEvictionNodePoolSettings;
   /**
   * node_pool_cycling_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_pool_cycling_details ContainerengineNodePool#node_pool_cycling_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_pool_cycling_details ContainerengineNodePool#node_pool_cycling_details}
   */
   readonly nodePoolCyclingDetails?: ContainerengineNodePoolNodePoolCyclingDetails;
   /**
   * node_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_shape_config ContainerengineNodePool#node_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_shape_config ContainerengineNodePool#node_shape_config}
   */
   readonly nodeShapeConfig?: ContainerengineNodePoolNodeShapeConfig;
   /**
   * node_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_source_details ContainerengineNodePool#node_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_source_details ContainerengineNodePool#node_source_details}
   */
   readonly nodeSourceDetails?: ContainerengineNodePoolNodeSourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#timeouts ContainerengineNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#timeouts ContainerengineNodePool#timeouts}
   */
   readonly timeouts?: ContainerengineNodePoolTimeouts;
 }
@@ -424,11 +424,11 @@ export class ContainerengineNodePoolNodesList extends cdktf.ComplexList {
 }
 export interface ContainerengineNodePoolInitialNodeLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#key ContainerengineNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#key ContainerengineNodePool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#value ContainerengineNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#value ContainerengineNodePool#value}
   */
   readonly value?: string;
 }
@@ -573,19 +573,19 @@ export class ContainerengineNodePoolInitialNodeLabelsList extends cdktf.ComplexL
 }
 export interface ContainerengineNodePoolNodeConfigDetailsNodePoolPodNetworkOptionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#cni_type ContainerengineNodePool#cni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#cni_type ContainerengineNodePool#cni_type}
   */
   readonly cniType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#max_pods_per_node ContainerengineNodePool#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#max_pods_per_node ContainerengineNodePool#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#pod_nsg_ids ContainerengineNodePool#pod_nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#pod_nsg_ids ContainerengineNodePool#pod_nsg_ids}
   */
   readonly podNsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#pod_subnet_ids ContainerengineNodePool#pod_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#pod_subnet_ids ContainerengineNodePool#pod_subnet_ids}
   */
   readonly podSubnetIds?: string[];
 }
@@ -753,11 +753,11 @@ export class ContainerengineNodePoolNodeConfigDetailsNodePoolPodNetworkOptionDet
 }
 export interface ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#is_preserve_boot_volume ContainerengineNodePool#is_preserve_boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#is_preserve_boot_volume ContainerengineNodePool#is_preserve_boot_volume}
   */
   readonly isPreserveBootVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#type ContainerengineNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#type ContainerengineNodePool#type}
   */
   readonly type: string;
 }
@@ -869,7 +869,7 @@ export interface ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreempt
   /**
   * preemption_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
   */
   readonly preemptionAction: ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction;
 }
@@ -950,25 +950,25 @@ export class ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptible
 }
 export interface ContainerengineNodePoolNodeConfigDetailsPlacementConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#availability_domain ContainerengineNodePool#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#availability_domain ContainerengineNodePool#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#capacity_reservation_id ContainerengineNodePool#capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#capacity_reservation_id ContainerengineNodePool#capacity_reservation_id}
   */
   readonly capacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#fault_domains ContainerengineNodePool#fault_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#fault_domains ContainerengineNodePool#fault_domains}
   */
   readonly faultDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#subnet_id ContainerengineNodePool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#subnet_id ContainerengineNodePool#subnet_id}
   */
   readonly subnetId: string;
   /**
   * preemptible_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#preemptible_node_config ContainerengineNodePool#preemptible_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#preemptible_node_config ContainerengineNodePool#preemptible_node_config}
   */
   readonly preemptibleNodeConfig?: ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfig;
 }
@@ -1194,39 +1194,39 @@ export class ContainerengineNodePoolNodeConfigDetailsPlacementConfigsList extend
 }
 export interface ContainerengineNodePoolNodeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#defined_tags ContainerengineNodePool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#defined_tags ContainerengineNodePool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#freeform_tags ContainerengineNodePool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#freeform_tags ContainerengineNodePool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#is_pv_encryption_in_transit_enabled ContainerengineNodePool#is_pv_encryption_in_transit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#is_pv_encryption_in_transit_enabled ContainerengineNodePool#is_pv_encryption_in_transit_enabled}
   */
   readonly isPvEncryptionInTransitEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#kms_key_id ContainerengineNodePool#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#kms_key_id ContainerengineNodePool#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#nsg_ids ContainerengineNodePool#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#nsg_ids ContainerengineNodePool#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#size ContainerengineNodePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#size ContainerengineNodePool#size}
   */
   readonly size: number;
   /**
   * node_pool_pod_network_option_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#node_pool_pod_network_option_details ContainerengineNodePool#node_pool_pod_network_option_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#node_pool_pod_network_option_details ContainerengineNodePool#node_pool_pod_network_option_details}
   */
   readonly nodePoolPodNetworkOptionDetails?: ContainerengineNodePoolNodeConfigDetailsNodePoolPodNetworkOptionDetails;
   /**
   * placement_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#placement_configs ContainerengineNodePool#placement_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#placement_configs ContainerengineNodePool#placement_configs}
   */
   readonly placementConfigs: ContainerengineNodePoolNodeConfigDetailsPlacementConfigs[] | cdktf.IResolvable;
 }
@@ -1507,15 +1507,15 @@ export class ContainerengineNodePoolNodeConfigDetailsOutputReference extends cdk
 }
 export interface ContainerengineNodePoolNodeEvictionNodePoolSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#eviction_grace_duration ContainerengineNodePool#eviction_grace_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#eviction_grace_duration ContainerengineNodePool#eviction_grace_duration}
   */
   readonly evictionGraceDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#is_force_action_after_grace_duration ContainerengineNodePool#is_force_action_after_grace_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#is_force_action_after_grace_duration ContainerengineNodePool#is_force_action_after_grace_duration}
   */
   readonly isForceActionAfterGraceDuration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#is_force_delete_after_grace_duration ContainerengineNodePool#is_force_delete_after_grace_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#is_force_delete_after_grace_duration ContainerengineNodePool#is_force_delete_after_grace_duration}
   */
   readonly isForceDeleteAfterGraceDuration?: boolean | cdktf.IResolvable;
 }
@@ -1657,19 +1657,19 @@ export class ContainerengineNodePoolNodeEvictionNodePoolSettingsOutputReference 
 }
 export interface ContainerengineNodePoolNodePoolCyclingDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#cycle_modes ContainerengineNodePool#cycle_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#cycle_modes ContainerengineNodePool#cycle_modes}
   */
   readonly cycleModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#is_node_cycling_enabled ContainerengineNodePool#is_node_cycling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#is_node_cycling_enabled ContainerengineNodePool#is_node_cycling_enabled}
   */
   readonly isNodeCyclingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#maximum_surge ContainerengineNodePool#maximum_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#maximum_surge ContainerengineNodePool#maximum_surge}
   */
   readonly maximumSurge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#maximum_unavailable ContainerengineNodePool#maximum_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#maximum_unavailable ContainerengineNodePool#maximum_unavailable}
   */
   readonly maximumUnavailable?: string;
 }
@@ -1840,11 +1840,11 @@ export class ContainerengineNodePoolNodePoolCyclingDetailsOutputReference extend
 }
 export interface ContainerengineNodePoolNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#memory_in_gbs ContainerengineNodePool#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#memory_in_gbs ContainerengineNodePool#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#ocpus ContainerengineNodePool#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#ocpus ContainerengineNodePool#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -1957,15 +1957,15 @@ export class ContainerengineNodePoolNodeShapeConfigOutputReference extends cdktf
 }
 export interface ContainerengineNodePoolNodeSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#boot_volume_size_in_gbs ContainerengineNodePool#boot_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#boot_volume_size_in_gbs ContainerengineNodePool#boot_volume_size_in_gbs}
   */
   readonly bootVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#image_id ContainerengineNodePool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#image_id ContainerengineNodePool#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#source_type ContainerengineNodePool#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#source_type ContainerengineNodePool#source_type}
   */
   readonly sourceType: string;
 }
@@ -2101,15 +2101,15 @@ export class ContainerengineNodePoolNodeSourceDetailsOutputReference extends cdk
 }
 export interface ContainerengineNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#create ContainerengineNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#create ContainerengineNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#delete ContainerengineNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#delete ContainerengineNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#update ContainerengineNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#update ContainerengineNodePool#update}
   */
   readonly update?: string;
 }
@@ -2261,7 +2261,7 @@ export class ContainerengineNodePoolTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool oci_containerengine_node_pool}
 */
 export class ContainerengineNodePool extends cdktf.TerraformResource {
 
@@ -2277,7 +2277,7 @@ export class ContainerengineNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerengineNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerengineNodePool to import
-  * @param importFromId The id of the existing ContainerengineNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerengineNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerengineNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2289,7 +2289,7 @@ export class ContainerengineNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/containerengine_node_pool oci_containerengine_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/containerengine_node_pool oci_containerengine_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2300,8 +2300,8 @@ export class ContainerengineNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'oci_containerengine_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

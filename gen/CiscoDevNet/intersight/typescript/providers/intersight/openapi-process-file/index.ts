@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#account_moid OpenapiProcessFile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#account_moid OpenapiProcessFile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#ancestors OpenapiProcessFile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#ancestors OpenapiProcessFile#ancestors}
   */
   readonly ancestors?: OpenapiProcessFileAncestors[] | cdktf.IResolvable;
   /**
@@ -28,25 +28,25 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#create_time OpenapiProcessFile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#create_time OpenapiProcessFile#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#domain_group_moid OpenapiProcessFile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#domain_group_moid OpenapiProcessFile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * An error message for when download, validation or processing of OpenAPI Specification fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#failure_reason OpenapiProcessFile#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#failure_reason OpenapiProcessFile#failure_reason}
   */
   readonly failureReason?: string;
   /**
@@ -56,14 +56,14 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   * * `Completed` - Indicates that the operation is complete
   * * `Failed` - Indicates that the operation has failed. Check the failureReason attribute for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#file_download_status OpenapiProcessFile#file_download_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#file_download_status OpenapiProcessFile#file_download_status}
   */
   readonly fileDownloadStatus?: string;
   /**
   * A reference to a openapiOpenApiSpecification resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#file_info OpenapiProcessFile#file_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#file_info OpenapiProcessFile#file_info}
   */
   readonly fileInfo?: OpenapiProcessFileFileInfo[] | cdktf.IResolvable;
   /**
@@ -73,7 +73,7 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   * * `Completed` - Indicates that the operation is complete
   * * `Failed` - Indicates that the operation has failed. Check the failureReason attribute for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#file_processing_status OpenapiProcessFile#file_processing_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#file_processing_status OpenapiProcessFile#file_processing_status}
   */
   readonly fileProcessingStatus?: string;
   /**
@@ -83,11 +83,11 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   * * `Completed` - Indicates that the operation is complete
   * * `Failed` - Indicates that the operation has failed. Check the failureReason attribute for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#file_validation_status OpenapiProcessFile#file_validation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#file_validation_status OpenapiProcessFile#file_validation_status}
   */
   readonly fileValidationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#id OpenapiProcessFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#id OpenapiProcessFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,89 +96,89 @@ export interface OpenapiProcessFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#mod_time OpenapiProcessFile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#mod_time OpenapiProcessFile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#organization OpenapiProcessFile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#organization OpenapiProcessFile#organization}
   */
   readonly organization?: OpenapiProcessFileOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#owners OpenapiProcessFile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#owners OpenapiProcessFile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#parent OpenapiProcessFile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#parent OpenapiProcessFile#parent}
   */
   readonly parent?: OpenapiProcessFileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#permission_resources OpenapiProcessFile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#permission_resources OpenapiProcessFile#permission_resources}
   */
   readonly permissionResources?: OpenapiProcessFilePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#shared_scope OpenapiProcessFile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#shared_scope OpenapiProcessFile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The location of the previously uploaded OpenAPI specification file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#spec_file_path OpenapiProcessFile#spec_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#spec_file_path OpenapiProcessFile#spec_file_path}
   */
   readonly specFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#tags OpenapiProcessFile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#tags OpenapiProcessFile#tags}
   */
   readonly tags?: OpenapiProcessFileTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#version_context OpenapiProcessFile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#version_context OpenapiProcessFile#version_context}
   */
   readonly versionContext?: OpenapiProcessFileVersionContext[] | cdktf.IResolvable;
 }
 export interface OpenapiProcessFileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -410,23 +410,23 @@ export class OpenapiProcessFileAncestorsList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFileFileInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -658,23 +658,23 @@ export class OpenapiProcessFileFileInfoList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -906,23 +906,23 @@ export class OpenapiProcessFileOrganizationList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -1154,23 +1154,23 @@ export class OpenapiProcessFileParentList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -1402,23 +1402,23 @@ export class OpenapiProcessFilePermissionResourcesList extends cdktf.ComplexList
 }
 export interface OpenapiProcessFileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -1650,23 +1650,23 @@ export class OpenapiProcessFileTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface OpenapiProcessFileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -1898,31 +1898,35 @@ export class OpenapiProcessFileTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#ancestor_definitions OpenapiProcessFile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#ancestor_definitions OpenapiProcessFile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: OpenapiProcessFileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#definition OpenapiProcessFile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#definition OpenapiProcessFile#definition}
   */
   readonly definition?: OpenapiProcessFileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#key OpenapiProcessFile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#key OpenapiProcessFile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#propagated OpenapiProcessFile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#propagated OpenapiProcessFile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#type OpenapiProcessFile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#sys_tag OpenapiProcessFile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#type OpenapiProcessFile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#value OpenapiProcessFile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#value OpenapiProcessFile#value}
   */
   readonly value?: string;
 }
@@ -1938,6 +1942,7 @@ export function openapiProcessFileTagsToTerraform(struct?: OpenapiProcessFileTag
     definition: cdktf.listMapper(openapiProcessFileTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1976,6 +1981,12 @@ export function openapiProcessFileTagsToHclTerraform(struct?: OpenapiProcessFile
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2038,6 +2049,10 @@ export class OpenapiProcessFileTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2058,6 +2073,7 @@ export class OpenapiProcessFileTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2073,6 +2089,7 @@ export class OpenapiProcessFileTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2158,6 +2175,22 @@ export class OpenapiProcessFileTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2212,23 +2245,23 @@ export class OpenapiProcessFileTagsList extends cdktf.ComplexList {
 }
 export interface OpenapiProcessFileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -2460,23 +2493,23 @@ export class OpenapiProcessFileVersionContextInterestedMosList extends cdktf.Com
 }
 export interface OpenapiProcessFileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#moid OpenapiProcessFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#selector OpenapiProcessFile#selector}
   */
   readonly selector?: string;
 }
@@ -2708,39 +2741,39 @@ export class OpenapiProcessFileVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface OpenapiProcessFileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#additional_properties OpenapiProcessFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#class_id OpenapiProcessFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#interested_mos OpenapiProcessFile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#interested_mos OpenapiProcessFile#interested_mos}
   */
   readonly interestedMos?: OpenapiProcessFileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#marked_for_deletion OpenapiProcessFile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#marked_for_deletion OpenapiProcessFile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#nr_version OpenapiProcessFile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#nr_version OpenapiProcessFile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#object_type OpenapiProcessFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#ref_mo OpenapiProcessFile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#ref_mo OpenapiProcessFile#ref_mo}
   */
   readonly refMo?: OpenapiProcessFileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#timestamp OpenapiProcessFile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#timestamp OpenapiProcessFile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#version_type OpenapiProcessFile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#version_type OpenapiProcessFile#version_type}
   */
   readonly versionType?: string;
 }
@@ -3088,7 +3121,7 @@ export class OpenapiProcessFileVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file intersight_openapi_process_file}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file intersight_openapi_process_file}
 */
 export class OpenapiProcessFile extends cdktf.TerraformResource {
 
@@ -3104,7 +3137,7 @@ export class OpenapiProcessFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenapiProcessFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenapiProcessFile to import
-  * @param importFromId The id of the existing OpenapiProcessFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenapiProcessFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenapiProcessFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3116,7 +3149,7 @@ export class OpenapiProcessFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_process_file intersight_openapi_process_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_process_file intersight_openapi_process_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3127,8 +3160,8 @@ export class OpenapiProcessFile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_openapi_process_file',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

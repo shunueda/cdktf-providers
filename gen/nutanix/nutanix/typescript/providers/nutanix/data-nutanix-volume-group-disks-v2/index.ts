@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixVolumeGroupDisksV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#filter DataNutanixVolumeGroupDisksV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#filter DataNutanixVolumeGroupDisksV2#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#id DataNutanixVolumeGroupDisksV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#id DataNutanixVolumeGroupDisksV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,31 +21,31 @@ export interface DataNutanixVolumeGroupDisksV2Config extends cdktf.TerraformMeta
   /**
   * A URL query parameter that specifies the total number of records returned in the result set. Must be a positive integer between 1 and 100. Any number out of this range will lead to a validation error. If the limit is not provided, a default value of 50 records will be returned in the result set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#limit DataNutanixVolumeGroupDisksV2#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#limit DataNutanixVolumeGroupDisksV2#limit}
   */
   readonly limit?: number;
   /**
   * A URL query parameter that allows clients to specify the sort criteria for the returned list of objects. Resources can be sorted in ascending order using asc or descending order using desc. If asc or desc are not specified, the resources will be sorted in ascending order by default. For example, '$orderby=templateName desc' would get all templates sorted by templateName in descending order. The orderby can be applied to the following fields: diskSizeBytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#orderby DataNutanixVolumeGroupDisksV2#orderby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#orderby DataNutanixVolumeGroupDisksV2#orderby}
   */
   readonly orderby?: string;
   /**
   * A URL query parameter that specifies the page number of the result set. It must be a positive integer between 0 and the maximum number of pages that are available for that resource. Any number out of this range might lead to no results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#page DataNutanixVolumeGroupDisksV2#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#page DataNutanixVolumeGroupDisksV2#page}
   */
   readonly page?: number;
   /**
   * A URL query parameter that allows clients to request a specific set of properties for each entity or complex type. Expression specified with the $select must conform to the OData V4.01 URL conventions. If a $select expression consists of a single select item that is an asterisk (i.e., *), then all properties on the matching resource will be returned. The select can be applied to the following fields: extId, storageContainerId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#select DataNutanixVolumeGroupDisksV2#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#select DataNutanixVolumeGroupDisksV2#select}
   */
   readonly select?: string;
   /**
   * The external identifier of the Volume Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#volume_group_ext_id DataNutanixVolumeGroupDisksV2#volume_group_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#volume_group_ext_id DataNutanixVolumeGroupDisksV2#volume_group_ext_id}
   */
   readonly volumeGroupExtId: string;
 }
@@ -491,7 +491,7 @@ export class DataNutanixVolumeGroupDisksV2DisksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2 nutanix_volume_group_disks_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2 nutanix_volume_group_disks_v2}
 */
 export class DataNutanixVolumeGroupDisksV2 extends cdktf.TerraformDataSource {
 
@@ -507,7 +507,7 @@ export class DataNutanixVolumeGroupDisksV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixVolumeGroupDisksV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixVolumeGroupDisksV2 to import
-  * @param importFromId The id of the existing DataNutanixVolumeGroupDisksV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixVolumeGroupDisksV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixVolumeGroupDisksV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -519,7 +519,7 @@ export class DataNutanixVolumeGroupDisksV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/volume_group_disks_v2 nutanix_volume_group_disks_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/volume_group_disks_v2 nutanix_volume_group_disks_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -530,8 +530,8 @@ export class DataNutanixVolumeGroupDisksV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_volume_group_disks_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

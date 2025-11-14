@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface HealthChecksPingProbeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#compartment_id HealthChecksPingProbe#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#compartment_id HealthChecksPingProbe#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#id HealthChecksPingProbe#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#id HealthChecksPingProbe#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#port HealthChecksPingProbe#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#port HealthChecksPingProbe#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#protocol HealthChecksPingProbe#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#protocol HealthChecksPingProbe#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#targets HealthChecksPingProbe#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#targets HealthChecksPingProbe#targets}
   */
   readonly targets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#timeout_in_seconds HealthChecksPingProbe#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#timeout_in_seconds HealthChecksPingProbe#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#vantage_point_names HealthChecksPingProbe#vantage_point_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#vantage_point_names HealthChecksPingProbe#vantage_point_names}
   */
   readonly vantagePointNames?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#timeouts HealthChecksPingProbe#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#timeouts HealthChecksPingProbe#timeouts}
   */
   readonly timeouts?: HealthChecksPingProbeTimeouts;
 }
 export interface HealthChecksPingProbeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#create HealthChecksPingProbe#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#create HealthChecksPingProbe#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#delete HealthChecksPingProbe#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#delete HealthChecksPingProbe#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#update HealthChecksPingProbe#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#update HealthChecksPingProbe#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class HealthChecksPingProbeTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe oci_health_checks_ping_probe}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe oci_health_checks_ping_probe}
 */
 export class HealthChecksPingProbe extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class HealthChecksPingProbe extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthChecksPingProbe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthChecksPingProbe to import
-  * @param importFromId The id of the existing HealthChecksPingProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthChecksPingProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthChecksPingProbe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class HealthChecksPingProbe extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/health_checks_ping_probe oci_health_checks_ping_probe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/health_checks_ping_probe oci_health_checks_ping_probe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class HealthChecksPingProbe extends cdktf.TerraformResource {
       terraformResourceType: 'oci_health_checks_ping_probe',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

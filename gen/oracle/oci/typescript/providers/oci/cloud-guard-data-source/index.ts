@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface CloudGuardDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#compartment_id CloudGuardDataSource#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#compartment_id CloudGuardDataSource#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#data_source_feed_provider CloudGuardDataSource#data_source_feed_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#data_source_feed_provider CloudGuardDataSource#data_source_feed_provider}
   */
   readonly dataSourceFeedProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#defined_tags CloudGuardDataSource#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#defined_tags CloudGuardDataSource#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#display_name CloudGuardDataSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#display_name CloudGuardDataSource#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#freeform_tags CloudGuardDataSource#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#freeform_tags CloudGuardDataSource#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#id CloudGuardDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#id CloudGuardDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#status CloudGuardDataSource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#status CloudGuardDataSource#status}
   */
   readonly status?: string;
   /**
   * data_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#data_source_details CloudGuardDataSource#data_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#data_source_details CloudGuardDataSource#data_source_details}
   */
   readonly dataSourceDetails?: CloudGuardDataSourceDataSourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#timeouts CloudGuardDataSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#timeouts CloudGuardDataSource#timeouts}
   */
   readonly timeouts?: CloudGuardDataSourceTimeouts;
 }
@@ -213,11 +213,11 @@ export class CloudGuardDataSourceRegionStatusDetailList extends cdktf.ComplexLis
 }
 export interface CloudGuardDataSourceDataSourceDetailsLoggingQueryDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#key_entities_count CloudGuardDataSource#key_entities_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#key_entities_count CloudGuardDataSource#key_entities_count}
   */
   readonly keyEntitiesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}
   */
   readonly loggingQueryType: string;
 }
@@ -327,11 +327,11 @@ export class CloudGuardDataSourceDataSourceDetailsLoggingQueryDetailsOutputRefer
 }
 export interface CloudGuardDataSourceDataSourceDetailsQueryStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#query_start_time CloudGuardDataSource#query_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#query_start_time CloudGuardDataSource#query_start_time}
   */
   readonly queryStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#start_policy_type CloudGuardDataSource#start_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#start_policy_type CloudGuardDataSource#start_policy_type}
   */
   readonly startPolicyType: string;
 }
@@ -441,15 +441,15 @@ export class CloudGuardDataSourceDataSourceDetailsQueryStartTimeOutputReference 
 }
 export interface CloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#region CloudGuardDataSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#region CloudGuardDataSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#resource_ids CloudGuardDataSource#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#resource_ids CloudGuardDataSource#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#resource_type CloudGuardDataSource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#resource_type CloudGuardDataSource#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -623,61 +623,61 @@ export class CloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetailsList
 }
 export interface CloudGuardDataSourceDataSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#additional_entities_count CloudGuardDataSource#additional_entities_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#additional_entities_count CloudGuardDataSource#additional_entities_count}
   */
   readonly additionalEntitiesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#data_source_feed_provider CloudGuardDataSource#data_source_feed_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#data_source_feed_provider CloudGuardDataSource#data_source_feed_provider}
   */
   readonly dataSourceFeedProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#description CloudGuardDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#description CloudGuardDataSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#interval_in_minutes CloudGuardDataSource#interval_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#interval_in_minutes CloudGuardDataSource#interval_in_minutes}
   */
   readonly intervalInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#interval_in_seconds CloudGuardDataSource#interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#interval_in_seconds CloudGuardDataSource#interval_in_seconds}
   */
   readonly intervalInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#logging_query_type CloudGuardDataSource#logging_query_type}
   */
   readonly loggingQueryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#operator CloudGuardDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#operator CloudGuardDataSource#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#query CloudGuardDataSource#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#query CloudGuardDataSource#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#regions CloudGuardDataSource#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#regions CloudGuardDataSource#regions}
   */
   readonly regions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#threshold CloudGuardDataSource#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#threshold CloudGuardDataSource#threshold}
   */
   readonly threshold?: number;
   /**
   * logging_query_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#logging_query_details CloudGuardDataSource#logging_query_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#logging_query_details CloudGuardDataSource#logging_query_details}
   */
   readonly loggingQueryDetails?: CloudGuardDataSourceDataSourceDetailsLoggingQueryDetails;
   /**
   * query_start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#query_start_time CloudGuardDataSource#query_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#query_start_time CloudGuardDataSource#query_start_time}
   */
   readonly queryStartTime?: CloudGuardDataSourceDataSourceDetailsQueryStartTime;
   /**
   * scheduled_query_scope_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#scheduled_query_scope_details CloudGuardDataSource#scheduled_query_scope_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#scheduled_query_scope_details CloudGuardDataSource#scheduled_query_scope_details}
   */
   readonly scheduledQueryScopeDetails?: CloudGuardDataSourceDataSourceDetailsScheduledQueryScopeDetails[] | cdktf.IResolvable;
 }
@@ -1106,15 +1106,15 @@ export class CloudGuardDataSourceDataSourceDetailsOutputReference extends cdktf.
 }
 export interface CloudGuardDataSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#create CloudGuardDataSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#create CloudGuardDataSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#delete CloudGuardDataSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#delete CloudGuardDataSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#update CloudGuardDataSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#update CloudGuardDataSource#update}
   */
   readonly update?: string;
 }
@@ -1266,7 +1266,7 @@ export class CloudGuardDataSourceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source oci_cloud_guard_data_source}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source oci_cloud_guard_data_source}
 */
 export class CloudGuardDataSource extends cdktf.TerraformResource {
 
@@ -1282,7 +1282,7 @@ export class CloudGuardDataSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudGuardDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudGuardDataSource to import
-  * @param importFromId The id of the existing CloudGuardDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudGuardDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudGuardDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1294,7 +1294,7 @@ export class CloudGuardDataSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_guard_data_source oci_cloud_guard_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_guard_data_source oci_cloud_guard_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1305,8 +1305,8 @@ export class CloudGuardDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_guard_data_source',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesStatefulSetConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#account_moid DataIntersightKubernetesStatefulSet#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#account_moid DataIntersightKubernetesStatefulSet#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightKubernetesStatefulSetConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#create_time DataIntersightKubernetesStatefulSet#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#create_time DataIntersightKubernetesStatefulSet#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#domain_group_moid DataIntersightKubernetesStatefulSet#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#domain_group_moid DataIntersightKubernetesStatefulSet#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#id DataIntersightKubernetesStatefulSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#id DataIntersightKubernetesStatefulSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightKubernetesStatefulSetConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#mod_time DataIntersightKubernetesStatefulSet#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#mod_time DataIntersightKubernetesStatefulSet#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * Name of the referenced kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#name DataIntersightKubernetesStatefulSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#name DataIntersightKubernetesStatefulSet#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#owners DataIntersightKubernetesStatefulSet#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#owners DataIntersightKubernetesStatefulSet#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#shared_scope DataIntersightKubernetesStatefulSet#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#shared_scope DataIntersightKubernetesStatefulSet#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * UUID of the referenced kubernetes resource. It is generated by the kubernetes cluster itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#uuid DataIntersightKubernetesStatefulSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#uuid DataIntersightKubernetesStatefulSet#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#ancestors DataIntersightKubernetesStatefulSet#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#ancestors DataIntersightKubernetesStatefulSet#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesStatefulSetAncestors[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#metadata DataIntersightKubernetesStatefulSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#metadata DataIntersightKubernetesStatefulSet#metadata}
   */
   readonly metadata?: DataIntersightKubernetesStatefulSetMetadata;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#parent DataIntersightKubernetesStatefulSet#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#parent DataIntersightKubernetesStatefulSet#parent}
   */
   readonly parent?: DataIntersightKubernetesStatefulSetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#permission_resources DataIntersightKubernetesStatefulSet#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#permission_resources DataIntersightKubernetesStatefulSet#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesStatefulSetPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#registered_device DataIntersightKubernetesStatefulSet#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#registered_device DataIntersightKubernetesStatefulSet#registered_device}
   */
   readonly registeredDevice?: DataIntersightKubernetesStatefulSetRegisteredDevice;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#status DataIntersightKubernetesStatefulSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#status DataIntersightKubernetesStatefulSet#status}
   */
   readonly status?: DataIntersightKubernetesStatefulSetStatus;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#tags DataIntersightKubernetesStatefulSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#tags DataIntersightKubernetesStatefulSet#tags}
   */
   readonly tags?: DataIntersightKubernetesStatefulSetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#version_context DataIntersightKubernetesStatefulSet#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#version_context DataIntersightKubernetesStatefulSet#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesStatefulSetVersionContext;
 }
@@ -1018,6 +1018,11 @@ export class DataIntersightKubernetesStatefulSetResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1534,7 +1539,7 @@ export class DataIntersightKubernetesStatefulSetResultsList extends cdktf.Comple
 }
 export interface DataIntersightKubernetesStatefulSetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1542,19 +1547,19 @@ export interface DataIntersightKubernetesStatefulSetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1567,7 +1572,7 @@ export interface DataIntersightKubernetesStatefulSetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -1799,7 +1804,7 @@ export class DataIntersightKubernetesStatefulSetAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightKubernetesStatefulSetMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1807,44 +1812,44 @@ export interface DataIntersightKubernetesStatefulSetMetadata {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * CreationTimestamp is a timestamp representing the server time when this object was created. It is not guaranteed to be set in happens-before order across separate operations. Clients may not set this value. It is represented in RFC3339 form and is in UTC. Populated by the system. Read-only. Null for lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#creation_timestamp DataIntersightKubernetesStatefulSet#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#creation_timestamp DataIntersightKubernetesStatefulSet#creation_timestamp}
   */
   readonly creationTimestamp?: string;
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#name DataIntersightKubernetesStatefulSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#name DataIntersightKubernetesStatefulSet#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within each name must be unique. An empty namespace is equivalent to the "default" namespace, but "default" is the canonical representation. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#namespace DataIntersightKubernetesStatefulSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#namespace DataIntersightKubernetesStatefulSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#resource_version DataIntersightKubernetesStatefulSet#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#resource_version DataIntersightKubernetesStatefulSet#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID is the unique in time and space value for this object. It is typically generated by the server on successful creation of a resource and is not allowed to change on PUT operations. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#uuid DataIntersightKubernetesStatefulSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#uuid DataIntersightKubernetesStatefulSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -2131,7 +2136,7 @@ export class DataIntersightKubernetesStatefulSetMetadataOutputReference extends 
 }
 export interface DataIntersightKubernetesStatefulSetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2139,19 +2144,19 @@ export interface DataIntersightKubernetesStatefulSetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2164,7 +2169,7 @@ export interface DataIntersightKubernetesStatefulSetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -2364,7 +2369,7 @@ export class DataIntersightKubernetesStatefulSetParentOutputReference extends cd
 }
 export interface DataIntersightKubernetesStatefulSetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2372,19 +2377,19 @@ export interface DataIntersightKubernetesStatefulSetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2397,7 +2402,7 @@ export interface DataIntersightKubernetesStatefulSetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -2629,7 +2634,7 @@ export class DataIntersightKubernetesStatefulSetPermissionResourcesList extends 
 }
 export interface DataIntersightKubernetesStatefulSetRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2637,19 +2642,19 @@ export interface DataIntersightKubernetesStatefulSetRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2662,7 +2667,7 @@ export interface DataIntersightKubernetesStatefulSetRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -2862,13 +2867,13 @@ export class DataIntersightKubernetesStatefulSetRegisteredDeviceOutputReference 
 }
 export interface DataIntersightKubernetesStatefulSetStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * AvailableReplicas indicates the current avaliable replicas running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#available_replicas DataIntersightKubernetesStatefulSet#available_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#available_replicas DataIntersightKubernetesStatefulSet#available_replicas}
   */
   readonly availableReplicas?: number;
   /**
@@ -2876,56 +2881,56 @@ export interface DataIntersightKubernetesStatefulSetStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * CollisionCount is the count of hash collisions for the StatefulSet. The StatefulSet controller uses this field as a collision avoidance mechanism when it needs to create the name for the newest ControllerRevision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#collision_count DataIntersightKubernetesStatefulSet#collision_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#collision_count DataIntersightKubernetesStatefulSet#collision_count}
   */
   readonly collisionCount?: number;
   /**
   * CurrentRevision, if not empty, indicates the version of the StatefulSet used to generate Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#current_revision DataIntersightKubernetesStatefulSet#current_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#current_revision DataIntersightKubernetesStatefulSet#current_revision}
   */
   readonly currentRevision?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
   * ObservedGeneration is the most recent generation observed for this StatefulSet. It corresponds to the StatefulSet's generation, which is updated on mutation by the API Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#observed_generation DataIntersightKubernetesStatefulSet#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#observed_generation DataIntersightKubernetesStatefulSet#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
   * ReadyReplicas is the number of Pods created by the StatefulSet controller that have a Ready Condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#ready_replicas DataIntersightKubernetesStatefulSet#ready_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#ready_replicas DataIntersightKubernetesStatefulSet#ready_replicas}
   */
   readonly readyReplicas?: number;
   /**
   * Number of replicas the statefulset desired to have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#replicas DataIntersightKubernetesStatefulSet#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#replicas DataIntersightKubernetesStatefulSet#replicas}
   */
   readonly replicas?: number;
   /**
   * UpdateRevision, if not empty, indicates the version of the StatefulSet used to generate the pods that have yet to be updated, i.e. pod number <replicas> - <updatedReplicas>, until pod number <replicas>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#update_revision DataIntersightKubernetesStatefulSet#update_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#update_revision DataIntersightKubernetesStatefulSet#update_revision}
   */
   readonly updateRevision?: string;
   /**
   * UpdatedReplicas is the number of Pods created by the StatefulSet controller from the StatefulSet version indicated by updateRevision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#updated_replicas DataIntersightKubernetesStatefulSet#updated_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#updated_replicas DataIntersightKubernetesStatefulSet#updated_replicas}
   */
   readonly updatedReplicas?: number;
 }
@@ -3299,7 +3304,7 @@ export class DataIntersightKubernetesStatefulSetStatusOutputReference extends cd
 }
 export interface DataIntersightKubernetesStatefulSetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3307,19 +3312,19 @@ export interface DataIntersightKubernetesStatefulSetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3332,7 +3337,7 @@ export interface DataIntersightKubernetesStatefulSetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -3564,7 +3569,7 @@ export class DataIntersightKubernetesStatefulSetTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightKubernetesStatefulSetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3572,19 +3577,19 @@ export interface DataIntersightKubernetesStatefulSetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3597,7 +3602,7 @@ export interface DataIntersightKubernetesStatefulSetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -3797,45 +3802,51 @@ export class DataIntersightKubernetesStatefulSetTagsDefinitionOutputReference ex
 }
 export interface DataIntersightKubernetesStatefulSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#key DataIntersightKubernetesStatefulSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#key DataIntersightKubernetesStatefulSet#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#propagated DataIntersightKubernetesStatefulSet#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#propagated DataIntersightKubernetesStatefulSet#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#sys_tag DataIntersightKubernetesStatefulSet#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#type DataIntersightKubernetesStatefulSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#type DataIntersightKubernetesStatefulSet#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#value DataIntersightKubernetesStatefulSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#value DataIntersightKubernetesStatefulSet#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#ancestor_definitions DataIntersightKubernetesStatefulSet#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#ancestor_definitions DataIntersightKubernetesStatefulSet#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesStatefulSetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#definition DataIntersightKubernetesStatefulSet#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#definition DataIntersightKubernetesStatefulSet#definition}
   */
   readonly definition?: DataIntersightKubernetesStatefulSetTagsDefinition;
 }
@@ -3849,6 +3860,7 @@ export function dataIntersightKubernetesStatefulSetTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightKubernetesStatefulSetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3877,6 +3889,12 @@ export function dataIntersightKubernetesStatefulSetTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3943,6 +3961,10 @@ export class DataIntersightKubernetesStatefulSetTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3969,6 +3991,7 @@ export class DataIntersightKubernetesStatefulSetTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3984,6 +4007,7 @@ export class DataIntersightKubernetesStatefulSetTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4037,6 +4061,22 @@ export class DataIntersightKubernetesStatefulSetTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4125,7 +4165,7 @@ export class DataIntersightKubernetesStatefulSetTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightKubernetesStatefulSetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4133,19 +4173,19 @@ export interface DataIntersightKubernetesStatefulSetVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4158,7 +4198,7 @@ export interface DataIntersightKubernetesStatefulSetVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -4390,7 +4430,7 @@ export class DataIntersightKubernetesStatefulSetVersionContextInterestedMosList 
 }
 export interface DataIntersightKubernetesStatefulSetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4398,19 +4438,19 @@ export interface DataIntersightKubernetesStatefulSetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#moid DataIntersightKubernetesStatefulSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4423,7 +4463,7 @@ export interface DataIntersightKubernetesStatefulSetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#selector DataIntersightKubernetesStatefulSet#selector}
   */
   readonly selector?: string;
 }
@@ -4623,7 +4663,7 @@ export class DataIntersightKubernetesStatefulSetVersionContextRefMoOutputReferen
 }
 export interface DataIntersightKubernetesStatefulSetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#additional_properties DataIntersightKubernetesStatefulSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4631,32 +4671,32 @@ export interface DataIntersightKubernetesStatefulSetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#class_id DataIntersightKubernetesStatefulSet#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#marked_for_deletion DataIntersightKubernetesStatefulSet#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#marked_for_deletion DataIntersightKubernetesStatefulSet#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#nr_version DataIntersightKubernetesStatefulSet#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#nr_version DataIntersightKubernetesStatefulSet#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#object_type DataIntersightKubernetesStatefulSet#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#timestamp DataIntersightKubernetesStatefulSet#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#timestamp DataIntersightKubernetesStatefulSet#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4667,19 +4707,19 @@ export interface DataIntersightKubernetesStatefulSetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#version_type DataIntersightKubernetesStatefulSet#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#version_type DataIntersightKubernetesStatefulSet#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#interested_mos DataIntersightKubernetesStatefulSet#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#interested_mos DataIntersightKubernetesStatefulSet#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesStatefulSetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#ref_mo DataIntersightKubernetesStatefulSet#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#ref_mo DataIntersightKubernetesStatefulSet#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesStatefulSetVersionContextRefMo;
 }
@@ -4995,7 +5035,7 @@ export class DataIntersightKubernetesStatefulSetVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set intersight_kubernetes_stateful_set}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set intersight_kubernetes_stateful_set}
 */
 export class DataIntersightKubernetesStatefulSet extends cdktf.TerraformDataSource {
 
@@ -5011,7 +5051,7 @@ export class DataIntersightKubernetesStatefulSet extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightKubernetesStatefulSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesStatefulSet to import
-  * @param importFromId The id of the existing DataIntersightKubernetesStatefulSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesStatefulSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesStatefulSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5023,7 +5063,7 @@ export class DataIntersightKubernetesStatefulSet extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_stateful_set intersight_kubernetes_stateful_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_stateful_set intersight_kubernetes_stateful_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5034,8 +5074,8 @@ export class DataIntersightKubernetesStatefulSet extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_kubernetes_stateful_set',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

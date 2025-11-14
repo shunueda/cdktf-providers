@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface StreamingConnectHarnessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#compartment_id StreamingConnectHarness#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#compartment_id StreamingConnectHarness#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#defined_tags StreamingConnectHarness#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#defined_tags StreamingConnectHarness#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#freeform_tags StreamingConnectHarness#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#freeform_tags StreamingConnectHarness#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#id StreamingConnectHarness#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#id StreamingConnectHarness#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#name StreamingConnectHarness#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#name StreamingConnectHarness#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#timeouts StreamingConnectHarness#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#timeouts StreamingConnectHarness#timeouts}
   */
   readonly timeouts?: StreamingConnectHarnessTimeouts;
 }
 export interface StreamingConnectHarnessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#create StreamingConnectHarness#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#create StreamingConnectHarness#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#delete StreamingConnectHarness#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#delete StreamingConnectHarness#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#update StreamingConnectHarness#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#update StreamingConnectHarness#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class StreamingConnectHarnessTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness oci_streaming_connect_harness}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness oci_streaming_connect_harness}
 */
 export class StreamingConnectHarness extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class StreamingConnectHarness extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingConnectHarness resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingConnectHarness to import
-  * @param importFromId The id of the existing StreamingConnectHarness that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingConnectHarness that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingConnectHarness to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class StreamingConnectHarness extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/streaming_connect_harness oci_streaming_connect_harness} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/streaming_connect_harness oci_streaming_connect_harness} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class StreamingConnectHarness extends cdktf.TerraformResource {
       terraformResourceType: 'oci_streaming_connect_harness',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

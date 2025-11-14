@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PartnerintegrationEtlConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#account_moid PartnerintegrationEtl#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#account_moid PartnerintegrationEtl#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#ancestors PartnerintegrationEtl#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#ancestors PartnerintegrationEtl#ancestors}
   */
   readonly ancestors?: PartnerintegrationEtlAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface PartnerintegrationEtlConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#create_time PartnerintegrationEtl#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#create_time PartnerintegrationEtl#create_time}
   */
   readonly createTime?: string;
   /**
   * Transformation model in yaml format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#data PartnerintegrationEtl#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#data PartnerintegrationEtl#data}
   */
   readonly data?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#domain_group_moid PartnerintegrationEtl#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#domain_group_moid PartnerintegrationEtl#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#id PartnerintegrationEtl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#id PartnerintegrationEtl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,88 +60,88 @@ export interface PartnerintegrationEtlConfig extends cdktf.TerraformMetaArgument
   * A reference to a partnerintegrationInventory resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#inventory PartnerintegrationEtl#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#inventory PartnerintegrationEtl#inventory}
   */
   readonly inventory?: PartnerintegrationEtlInventory[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#mod_time PartnerintegrationEtl#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#mod_time PartnerintegrationEtl#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
   * Placeholder name for the ETL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#name PartnerintegrationEtl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#name PartnerintegrationEtl#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#owners PartnerintegrationEtl#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#owners PartnerintegrationEtl#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#parent PartnerintegrationEtl#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#parent PartnerintegrationEtl#parent}
   */
   readonly parent?: PartnerintegrationEtlParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#permission_resources PartnerintegrationEtl#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#permission_resources PartnerintegrationEtl#permission_resources}
   */
   readonly permissionResources?: PartnerintegrationEtlPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#shared_scope PartnerintegrationEtl#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#shared_scope PartnerintegrationEtl#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#tags PartnerintegrationEtl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#tags PartnerintegrationEtl#tags}
   */
   readonly tags?: PartnerintegrationEtlTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#version_context PartnerintegrationEtl#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#version_context PartnerintegrationEtl#version_context}
   */
   readonly versionContext?: PartnerintegrationEtlVersionContext[] | cdktf.IResolvable;
 }
 export interface PartnerintegrationEtlAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -373,23 +373,23 @@ export class PartnerintegrationEtlAncestorsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationEtlInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -621,23 +621,23 @@ export class PartnerintegrationEtlInventoryList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationEtlParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -869,23 +869,23 @@ export class PartnerintegrationEtlParentList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationEtlPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -1117,23 +1117,23 @@ export class PartnerintegrationEtlPermissionResourcesList extends cdktf.ComplexL
 }
 export interface PartnerintegrationEtlTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -1365,23 +1365,23 @@ export class PartnerintegrationEtlTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface PartnerintegrationEtlTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -1613,31 +1613,35 @@ export class PartnerintegrationEtlTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationEtlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#ancestor_definitions PartnerintegrationEtl#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#ancestor_definitions PartnerintegrationEtl#ancestor_definitions}
   */
   readonly ancestorDefinitions?: PartnerintegrationEtlTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#definition PartnerintegrationEtl#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#definition PartnerintegrationEtl#definition}
   */
   readonly definition?: PartnerintegrationEtlTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#key PartnerintegrationEtl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#key PartnerintegrationEtl#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#propagated PartnerintegrationEtl#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#propagated PartnerintegrationEtl#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#type PartnerintegrationEtl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#sys_tag PartnerintegrationEtl#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#type PartnerintegrationEtl#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#value PartnerintegrationEtl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#value PartnerintegrationEtl#value}
   */
   readonly value?: string;
 }
@@ -1653,6 +1657,7 @@ export function partnerintegrationEtlTagsToTerraform(struct?: Partnerintegration
     definition: cdktf.listMapper(partnerintegrationEtlTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1691,6 +1696,12 @@ export function partnerintegrationEtlTagsToHclTerraform(struct?: Partnerintegrat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1753,6 +1764,10 @@ export class PartnerintegrationEtlTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1773,6 +1788,7 @@ export class PartnerintegrationEtlTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1788,6 +1804,7 @@ export class PartnerintegrationEtlTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1873,6 +1890,22 @@ export class PartnerintegrationEtlTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1927,23 +1960,23 @@ export class PartnerintegrationEtlTagsList extends cdktf.ComplexList {
 }
 export interface PartnerintegrationEtlVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -2175,23 +2208,23 @@ export class PartnerintegrationEtlVersionContextInterestedMosList extends cdktf.
 }
 export interface PartnerintegrationEtlVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#moid PartnerintegrationEtl#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#selector PartnerintegrationEtl#selector}
   */
   readonly selector?: string;
 }
@@ -2423,39 +2456,39 @@ export class PartnerintegrationEtlVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface PartnerintegrationEtlVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#additional_properties PartnerintegrationEtl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#class_id PartnerintegrationEtl#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#interested_mos PartnerintegrationEtl#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#interested_mos PartnerintegrationEtl#interested_mos}
   */
   readonly interestedMos?: PartnerintegrationEtlVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#marked_for_deletion PartnerintegrationEtl#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#marked_for_deletion PartnerintegrationEtl#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#nr_version PartnerintegrationEtl#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#nr_version PartnerintegrationEtl#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#object_type PartnerintegrationEtl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#ref_mo PartnerintegrationEtl#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#ref_mo PartnerintegrationEtl#ref_mo}
   */
   readonly refMo?: PartnerintegrationEtlVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#timestamp PartnerintegrationEtl#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#timestamp PartnerintegrationEtl#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#version_type PartnerintegrationEtl#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#version_type PartnerintegrationEtl#version_type}
   */
   readonly versionType?: string;
 }
@@ -2803,7 +2836,7 @@ export class PartnerintegrationEtlVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl intersight_partnerintegration_etl}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl intersight_partnerintegration_etl}
 */
 export class PartnerintegrationEtl extends cdktf.TerraformResource {
 
@@ -2819,7 +2852,7 @@ export class PartnerintegrationEtl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PartnerintegrationEtl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PartnerintegrationEtl to import
-  * @param importFromId The id of the existing PartnerintegrationEtl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PartnerintegrationEtl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PartnerintegrationEtl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2831,7 +2864,7 @@ export class PartnerintegrationEtl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_etl intersight_partnerintegration_etl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_etl intersight_partnerintegration_etl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2842,8 +2875,8 @@ export class PartnerintegrationEtl extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_partnerintegration_etl',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

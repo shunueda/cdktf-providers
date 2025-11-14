@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseDbHomeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}
   */
   readonly databaseSoftwareImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#db_system_id DatabaseDbHome#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#db_system_id DatabaseDbHome#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#db_version DatabaseDbHome#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#db_version DatabaseDbHome#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#display_name DatabaseDbHome#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#display_name DatabaseDbHome#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#enable_database_delete DatabaseDbHome#enable_database_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#enable_database_delete DatabaseDbHome#enable_database_delete}
   */
   readonly enableDatabaseDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#id DatabaseDbHome#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#id DatabaseDbHome#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#is_desupported_version DatabaseDbHome#is_desupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#is_desupported_version DatabaseDbHome#is_desupported_version}
   */
   readonly isDesupportedVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#is_unified_auditing_enabled DatabaseDbHome#is_unified_auditing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#is_unified_auditing_enabled DatabaseDbHome#is_unified_auditing_enabled}
   */
   readonly isUnifiedAuditingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}
   */
   readonly kmsKeyVersionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#source DatabaseDbHome#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#source DatabaseDbHome#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#vm_cluster_id DatabaseDbHome#vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#vm_cluster_id DatabaseDbHome#vm_cluster_id}
   */
   readonly vmClusterId?: string;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#database DatabaseDbHome#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#database DatabaseDbHome#database}
   */
   readonly database?: DatabaseDbHomeDatabase;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#timeouts DatabaseDbHome#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#timeouts DatabaseDbHome#timeouts}
   */
   readonly timeouts?: DatabaseDbHomeTimeouts;
 }
@@ -167,42 +167,42 @@ export class DatabaseDbHomeDatabaseConnectionStringsList extends cdktf.ComplexLi
 }
 export interface DatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#backup_retention_policy_on_terminate DatabaseDbHome#backup_retention_policy_on_terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#backup_retention_policy_on_terminate DatabaseDbHome#backup_retention_policy_on_terminate}
   */
   readonly backupRetentionPolicyOnTerminate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#dbrs_policy_id DatabaseDbHome#dbrs_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#dbrs_policy_id DatabaseDbHome#dbrs_policy_id}
   */
   readonly dbrsPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#id DatabaseDbHome#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#id DatabaseDbHome#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#is_remote DatabaseDbHome#is_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#is_remote DatabaseDbHome#is_remote}
   */
   readonly isRemote?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#is_retention_lock_enabled DatabaseDbHome#is_retention_lock_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#is_retention_lock_enabled DatabaseDbHome#is_retention_lock_enabled}
   */
   readonly isRetentionLockEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#remote_region DatabaseDbHome#remote_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#remote_region DatabaseDbHome#remote_region}
   */
   readonly remoteRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#type DatabaseDbHome#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#type DatabaseDbHome#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#vpc_password DatabaseDbHome#vpc_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#vpc_password DatabaseDbHome#vpc_password}
   */
   readonly vpcPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#vpc_user DatabaseDbHome#vpc_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#vpc_user DatabaseDbHome#vpc_user}
   */
   readonly vpcUser?: string;
 }
@@ -550,37 +550,37 @@ export class DatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsList ex
 }
 export interface DatabaseDbHomeDatabaseDbBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#auto_backup_enabled DatabaseDbHome#auto_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#auto_backup_enabled DatabaseDbHome#auto_backup_enabled}
   */
   readonly autoBackupEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#auto_backup_window DatabaseDbHome#auto_backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#auto_backup_window DatabaseDbHome#auto_backup_window}
   */
   readonly autoBackupWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#auto_full_backup_day DatabaseDbHome#auto_full_backup_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#auto_full_backup_day DatabaseDbHome#auto_full_backup_day}
   */
   readonly autoFullBackupDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#auto_full_backup_window DatabaseDbHome#auto_full_backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#auto_full_backup_window DatabaseDbHome#auto_full_backup_window}
   */
   readonly autoFullBackupWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#backup_deletion_policy DatabaseDbHome#backup_deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#backup_deletion_policy DatabaseDbHome#backup_deletion_policy}
   */
   readonly backupDeletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#recovery_window_in_days DatabaseDbHome#recovery_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#recovery_window_in_days DatabaseDbHome#recovery_window_in_days}
   */
   readonly recoveryWindowInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#run_immediate_full_backup DatabaseDbHome#run_immediate_full_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#run_immediate_full_backup DatabaseDbHome#run_immediate_full_backup}
   */
   readonly runImmediateFullBackup?: boolean | cdktf.IResolvable;
   /**
   * backup_destination_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#backup_destination_details DatabaseDbHome#backup_destination_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#backup_destination_details DatabaseDbHome#backup_destination_details}
   */
   readonly backupDestinationDetails?: DatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetails[] | cdktf.IResolvable;
 }
@@ -867,15 +867,15 @@ export class DatabaseDbHomeDatabaseDbBackupConfigOutputReference extends cdktf.C
 }
 export interface DatabaseDbHomeDatabaseEncryptionKeyLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}
   */
   readonly azureEncryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}
   */
   readonly hsmPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}
   */
   readonly providerType: string;
 }
@@ -1014,11 +1014,11 @@ export class DatabaseDbHomeDatabaseEncryptionKeyLocationDetailsOutputReference e
 }
 export interface DatabaseDbHomeDatabaseStorageSizeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#data_storage_size_in_gb DatabaseDbHome#data_storage_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#data_storage_size_in_gb DatabaseDbHome#data_storage_size_in_gb}
   */
   readonly dataStorageSizeInGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#reco_storage_size_in_gbs DatabaseDbHome#reco_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#reco_storage_size_in_gbs DatabaseDbHome#reco_storage_size_in_gbs}
   */
   readonly recoStorageSizeInGbs: number;
 }
@@ -1130,97 +1130,97 @@ export class DatabaseDbHomeDatabaseStorageSizeDetailsOutputReference extends cdk
 }
 export interface DatabaseDbHomeDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#admin_password DatabaseDbHome#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#admin_password DatabaseDbHome#admin_password}
   */
   readonly adminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#backup_id DatabaseDbHome#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#backup_id DatabaseDbHome#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#backup_tde_password DatabaseDbHome#backup_tde_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#backup_tde_password DatabaseDbHome#backup_tde_password}
   */
   readonly backupTdePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#character_set DatabaseDbHome#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#character_set DatabaseDbHome#character_set}
   */
   readonly characterSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#database_id DatabaseDbHome#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#database_id DatabaseDbHome#database_id}
   */
   readonly databaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#database_software_image_id DatabaseDbHome#database_software_image_id}
   */
   readonly databaseSoftwareImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#db_name DatabaseDbHome#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#db_name DatabaseDbHome#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#db_workload DatabaseDbHome#db_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#db_workload DatabaseDbHome#db_workload}
   */
   readonly dbWorkload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#defined_tags DatabaseDbHome#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#freeform_tags DatabaseDbHome#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#key_store_id DatabaseDbHome#key_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#key_store_id DatabaseDbHome#key_store_id}
   */
   readonly keyStoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#kms_key_id DatabaseDbHome#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#kms_key_version_id DatabaseDbHome#kms_key_version_id}
   */
   readonly kmsKeyVersionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#ncharacter_set DatabaseDbHome#ncharacter_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#ncharacter_set DatabaseDbHome#ncharacter_set}
   */
   readonly ncharacterSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#pdb_name DatabaseDbHome#pdb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#pdb_name DatabaseDbHome#pdb_name}
   */
   readonly pdbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#pluggable_databases DatabaseDbHome#pluggable_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#pluggable_databases DatabaseDbHome#pluggable_databases}
   */
   readonly pluggableDatabases?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#tde_wallet_password DatabaseDbHome#tde_wallet_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#tde_wallet_password DatabaseDbHome#tde_wallet_password}
   */
   readonly tdeWalletPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#time_stamp_for_point_in_time_recovery DatabaseDbHome#time_stamp_for_point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#time_stamp_for_point_in_time_recovery DatabaseDbHome#time_stamp_for_point_in_time_recovery}
   */
   readonly timeStampForPointInTimeRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#vault_id DatabaseDbHome#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#vault_id DatabaseDbHome#vault_id}
   */
   readonly vaultId?: string;
   /**
   * db_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#db_backup_config DatabaseDbHome#db_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#db_backup_config DatabaseDbHome#db_backup_config}
   */
   readonly dbBackupConfig?: DatabaseDbHomeDatabaseDbBackupConfig;
   /**
   * encryption_key_location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#encryption_key_location_details DatabaseDbHome#encryption_key_location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#encryption_key_location_details DatabaseDbHome#encryption_key_location_details}
   */
   readonly encryptionKeyLocationDetails?: DatabaseDbHomeDatabaseEncryptionKeyLocationDetails;
   /**
   * storage_size_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#storage_size_details DatabaseDbHome#storage_size_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#storage_size_details DatabaseDbHome#storage_size_details}
   */
   readonly storageSizeDetails?: DatabaseDbHomeDatabaseStorageSizeDetails;
 }
@@ -1951,15 +1951,15 @@ export class DatabaseDbHomeDatabaseOutputReference extends cdktf.ComplexObject {
 }
 export interface DatabaseDbHomeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#create DatabaseDbHome#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#create DatabaseDbHome#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#delete DatabaseDbHome#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#delete DatabaseDbHome#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#update DatabaseDbHome#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#update DatabaseDbHome#update}
   */
   readonly update?: string;
 }
@@ -2111,7 +2111,7 @@ export class DatabaseDbHomeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home oci_database_db_home}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home oci_database_db_home}
 */
 export class DatabaseDbHome extends cdktf.TerraformResource {
 
@@ -2127,7 +2127,7 @@ export class DatabaseDbHome extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseDbHome resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseDbHome to import
-  * @param importFromId The id of the existing DatabaseDbHome that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseDbHome that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseDbHome to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2139,7 +2139,7 @@ export class DatabaseDbHome extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_db_home oci_database_db_home} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_db_home oci_database_db_home} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2150,8 +2150,8 @@ export class DatabaseDbHome extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_db_home',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

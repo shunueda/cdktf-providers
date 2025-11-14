@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexClusterStoragePolicyConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#account_moid HyperflexClusterStoragePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#account_moid HyperflexClusterStoragePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#ancestors HyperflexClusterStoragePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#ancestors HyperflexClusterStoragePolicy#ancestors}
   */
   readonly ancestors?: HyperflexClusterStoragePolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,41 +28,41 @@ export interface HyperflexClusterStoragePolicyConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to hyperflexClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#cluster_profiles HyperflexClusterStoragePolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#cluster_profiles HyperflexClusterStoragePolicy#cluster_profiles}
   */
   readonly clusterProfiles?: HyperflexClusterStoragePolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#create_time HyperflexClusterStoragePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#create_time HyperflexClusterStoragePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#description HyperflexClusterStoragePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#description HyperflexClusterStoragePolicy#description}
   */
   readonly description?: string;
   /**
   * If enabled, formats existing disk partitions (destroys all user data).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#disk_partition_cleanup HyperflexClusterStoragePolicy#disk_partition_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#disk_partition_cleanup HyperflexClusterStoragePolicy#disk_partition_cleanup}
   */
   readonly diskPartitionCleanup?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#domain_group_moid HyperflexClusterStoragePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#domain_group_moid HyperflexClusterStoragePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#id HyperflexClusterStoragePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#id HyperflexClusterStoragePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,101 +71,101 @@ export interface HyperflexClusterStoragePolicyConfig extends cdktf.TerraformMeta
   /**
   * Enable or disable Logical Availability Zones (LAZ). If enabled, HyperFlex Data Platform automatically selects and groups nodes into different availability zones. For HyperFlex Data Platform versions prior to 3.0 release, this setting does not apply. For HyperFlex Data Platform versions 3.0 or higher, this setting is only applicable to HyperFlex systems with 8 or more converged nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#logical_avalability_zone_config HyperflexClusterStoragePolicy#logical_avalability_zone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#logical_avalability_zone_config HyperflexClusterStoragePolicy#logical_avalability_zone_config}
   */
   readonly logicalAvalabilityZoneConfig?: HyperflexClusterStoragePolicyLogicalAvalabilityZoneConfig[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#mod_time HyperflexClusterStoragePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#mod_time HyperflexClusterStoragePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#name HyperflexClusterStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#name HyperflexClusterStoragePolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#organization HyperflexClusterStoragePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#organization HyperflexClusterStoragePolicy#organization}
   */
   readonly organization?: HyperflexClusterStoragePolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#owners HyperflexClusterStoragePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#owners HyperflexClusterStoragePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#parent HyperflexClusterStoragePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#parent HyperflexClusterStoragePolicy#parent}
   */
   readonly parent?: HyperflexClusterStoragePolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#permission_resources HyperflexClusterStoragePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#permission_resources HyperflexClusterStoragePolicy#permission_resources}
   */
   readonly permissionResources?: HyperflexClusterStoragePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#shared_scope HyperflexClusterStoragePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#shared_scope HyperflexClusterStoragePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#tags HyperflexClusterStoragePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#tags HyperflexClusterStoragePolicy#tags}
   */
   readonly tags?: HyperflexClusterStoragePolicyTags[] | cdktf.IResolvable;
   /**
   * Enable or disable VDI optimization (hybrid HyperFlex systems only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#vdi_optimization HyperflexClusterStoragePolicy#vdi_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#vdi_optimization HyperflexClusterStoragePolicy#vdi_optimization}
   */
   readonly vdiOptimization?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#version_context HyperflexClusterStoragePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#version_context HyperflexClusterStoragePolicy#version_context}
   */
   readonly versionContext?: HyperflexClusterStoragePolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexClusterStoragePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -397,23 +397,23 @@ export class HyperflexClusterStoragePolicyAncestorsList extends cdktf.ComplexLis
 }
 export interface HyperflexClusterStoragePolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -645,19 +645,19 @@ export class HyperflexClusterStoragePolicyClusterProfilesList extends cdktf.Comp
 }
 export interface HyperflexClusterStoragePolicyLogicalAvalabilityZoneConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#auto_config HyperflexClusterStoragePolicy#auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#auto_config HyperflexClusterStoragePolicy#auto_config}
   */
   readonly autoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -860,23 +860,23 @@ export class HyperflexClusterStoragePolicyLogicalAvalabilityZoneConfigList exten
 }
 export interface HyperflexClusterStoragePolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1108,23 +1108,23 @@ export class HyperflexClusterStoragePolicyOrganizationList extends cdktf.Complex
 }
 export interface HyperflexClusterStoragePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1356,23 +1356,23 @@ export class HyperflexClusterStoragePolicyParentList extends cdktf.ComplexList {
 }
 export interface HyperflexClusterStoragePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1604,23 +1604,23 @@ export class HyperflexClusterStoragePolicyPermissionResourcesList extends cdktf.
 }
 export interface HyperflexClusterStoragePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1852,23 +1852,23 @@ export class HyperflexClusterStoragePolicyTagsAncestorDefinitionsList extends cd
 }
 export interface HyperflexClusterStoragePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2100,31 +2100,35 @@ export class HyperflexClusterStoragePolicyTagsDefinitionList extends cdktf.Compl
 }
 export interface HyperflexClusterStoragePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#ancestor_definitions HyperflexClusterStoragePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#ancestor_definitions HyperflexClusterStoragePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexClusterStoragePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#definition HyperflexClusterStoragePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#definition HyperflexClusterStoragePolicy#definition}
   */
   readonly definition?: HyperflexClusterStoragePolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#key HyperflexClusterStoragePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#key HyperflexClusterStoragePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#propagated HyperflexClusterStoragePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#propagated HyperflexClusterStoragePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#type HyperflexClusterStoragePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#sys_tag HyperflexClusterStoragePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#type HyperflexClusterStoragePolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#value HyperflexClusterStoragePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#value HyperflexClusterStoragePolicy#value}
   */
   readonly value?: string;
 }
@@ -2140,6 +2144,7 @@ export function hyperflexClusterStoragePolicyTagsToTerraform(struct?: HyperflexC
     definition: cdktf.listMapper(hyperflexClusterStoragePolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2178,6 +2183,12 @@ export function hyperflexClusterStoragePolicyTagsToHclTerraform(struct?: Hyperfl
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2240,6 +2251,10 @@ export class HyperflexClusterStoragePolicyTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2260,6 +2275,7 @@ export class HyperflexClusterStoragePolicyTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2275,6 +2291,7 @@ export class HyperflexClusterStoragePolicyTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2360,6 +2377,22 @@ export class HyperflexClusterStoragePolicyTagsOutputReference extends cdktf.Comp
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2414,23 +2447,23 @@ export class HyperflexClusterStoragePolicyTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexClusterStoragePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2662,23 +2695,23 @@ export class HyperflexClusterStoragePolicyVersionContextInterestedMosList extend
 }
 export interface HyperflexClusterStoragePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#moid HyperflexClusterStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#selector HyperflexClusterStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2910,39 +2943,39 @@ export class HyperflexClusterStoragePolicyVersionContextRefMoList extends cdktf.
 }
 export interface HyperflexClusterStoragePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#additional_properties HyperflexClusterStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#class_id HyperflexClusterStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#interested_mos HyperflexClusterStoragePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#interested_mos HyperflexClusterStoragePolicy#interested_mos}
   */
   readonly interestedMos?: HyperflexClusterStoragePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#marked_for_deletion HyperflexClusterStoragePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#marked_for_deletion HyperflexClusterStoragePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#nr_version HyperflexClusterStoragePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#nr_version HyperflexClusterStoragePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#object_type HyperflexClusterStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#ref_mo HyperflexClusterStoragePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#ref_mo HyperflexClusterStoragePolicy#ref_mo}
   */
   readonly refMo?: HyperflexClusterStoragePolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#timestamp HyperflexClusterStoragePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#timestamp HyperflexClusterStoragePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#version_type HyperflexClusterStoragePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#version_type HyperflexClusterStoragePolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3290,7 +3323,7 @@ export class HyperflexClusterStoragePolicyVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy intersight_hyperflex_cluster_storage_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy intersight_hyperflex_cluster_storage_policy}
 */
 export class HyperflexClusterStoragePolicy extends cdktf.TerraformResource {
 
@@ -3306,7 +3339,7 @@ export class HyperflexClusterStoragePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexClusterStoragePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexClusterStoragePolicy to import
-  * @param importFromId The id of the existing HyperflexClusterStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexClusterStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexClusterStoragePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3318,7 +3351,7 @@ export class HyperflexClusterStoragePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_storage_policy intersight_hyperflex_cluster_storage_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_storage_policy intersight_hyperflex_cluster_storage_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3329,8 +3362,8 @@ export class HyperflexClusterStoragePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_cluster_storage_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

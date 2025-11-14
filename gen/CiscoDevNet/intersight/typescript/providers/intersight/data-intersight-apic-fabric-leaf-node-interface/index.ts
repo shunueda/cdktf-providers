@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApicFabricLeafNodeInterfaceConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#account_moid DataIntersightApicFabricLeafNodeInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#account_moid DataIntersightApicFabricLeafNodeInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightApicFabricLeafNodeInterfaceConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#create_time DataIntersightApicFabricLeafNodeInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#create_time DataIntersightApicFabricLeafNodeInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * Distinguished Name (DN) of an object in Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#dn DataIntersightApicFabricLeafNodeInterface#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#dn DataIntersightApicFabricLeafNodeInterface#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#domain_group_moid DataIntersightApicFabricLeafNodeInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#domain_group_moid DataIntersightApicFabricLeafNodeInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Fabric leaf node Distinguished Name (DN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node_dn DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node_dn DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node_dn}
   */
   readonly fabricLeafNodeDn?: string;
   /**
   * Fabric leaf node identification number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node_id DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node_id DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node_id}
   */
   readonly fabricLeafNodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#id DataIntersightApicFabricLeafNodeInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#id DataIntersightApicFabricLeafNodeInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,79 +65,79 @@ export interface DataIntersightApicFabricLeafNodeInterfaceConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#mod_time DataIntersightApicFabricLeafNodeInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#mod_time DataIntersightApicFabricLeafNodeInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * Object name in Cisco Application Policy Infrastructure Controller (APIC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#name DataIntersightApicFabricLeafNodeInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#name DataIntersightApicFabricLeafNodeInterface#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#owners DataIntersightApicFabricLeafNodeInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#owners DataIntersightApicFabricLeafNodeInterface#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#shared_scope DataIntersightApicFabricLeafNodeInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#shared_scope DataIntersightApicFabricLeafNodeInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#ancestors DataIntersightApicFabricLeafNodeInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#ancestors DataIntersightApicFabricLeafNodeInterface#ancestors}
   */
   readonly ancestors?: DataIntersightApicFabricLeafNodeInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * fabric_leaf_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#fabric_leaf_node DataIntersightApicFabricLeafNodeInterface#fabric_leaf_node}
   */
   readonly fabricLeafNode?: DataIntersightApicFabricLeafNodeInterfaceFabricLeafNode;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#parent DataIntersightApicFabricLeafNodeInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#parent DataIntersightApicFabricLeafNodeInterface#parent}
   */
   readonly parent?: DataIntersightApicFabricLeafNodeInterfaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#permission_resources DataIntersightApicFabricLeafNodeInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#permission_resources DataIntersightApicFabricLeafNodeInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightApicFabricLeafNodeInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#registered_device DataIntersightApicFabricLeafNodeInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#registered_device DataIntersightApicFabricLeafNodeInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightApicFabricLeafNodeInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#tags DataIntersightApicFabricLeafNodeInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#tags DataIntersightApicFabricLeafNodeInterface#tags}
   */
   readonly tags?: DataIntersightApicFabricLeafNodeInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#version_context DataIntersightApicFabricLeafNodeInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#version_context DataIntersightApicFabricLeafNodeInterface#version_context}
   */
   readonly versionContext?: DataIntersightApicFabricLeafNodeInterfaceVersionContext;
 }
@@ -884,6 +884,11 @@ export class DataIntersightApicFabricLeafNodeInterfaceResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1404,7 +1409,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceResultsList extends cdktf.
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1412,19 +1417,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1437,7 +1442,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1669,7 +1674,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceAncestorsList extends cdkt
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceFabricLeafNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1677,19 +1682,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceFabricLeafNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1702,7 +1707,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceFabricLeafNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1902,7 +1907,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceFabricLeafNodeOutputRefere
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1910,19 +1915,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1935,7 +1940,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2135,7 +2140,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceParentOutputReference exte
 }
 export interface DataIntersightApicFabricLeafNodeInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2143,19 +2148,19 @@ export interface DataIntersightApicFabricLeafNodeInterfacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2168,7 +2173,7 @@ export interface DataIntersightApicFabricLeafNodeInterfacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2400,7 +2405,7 @@ export class DataIntersightApicFabricLeafNodeInterfacePermissionResourcesList ex
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2408,19 +2413,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2433,7 +2438,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2633,7 +2638,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceRegisteredDeviceOutputRefe
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2641,19 +2646,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2666,7 +2671,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2898,7 +2903,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinitionsLis
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2906,19 +2911,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2931,7 +2936,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3131,45 +3136,51 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsDefinitionOutputRefere
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#key DataIntersightApicFabricLeafNodeInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#key DataIntersightApicFabricLeafNodeInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#propagated DataIntersightApicFabricLeafNodeInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#propagated DataIntersightApicFabricLeafNodeInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#sys_tag DataIntersightApicFabricLeafNodeInterface#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#type DataIntersightApicFabricLeafNodeInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#type DataIntersightApicFabricLeafNodeInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#value DataIntersightApicFabricLeafNodeInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#value DataIntersightApicFabricLeafNodeInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#ancestor_definitions DataIntersightApicFabricLeafNodeInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#ancestor_definitions DataIntersightApicFabricLeafNodeInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#definition DataIntersightApicFabricLeafNodeInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#definition DataIntersightApicFabricLeafNodeInterface#definition}
   */
   readonly definition?: DataIntersightApicFabricLeafNodeInterfaceTagsDefinition;
 }
@@ -3183,6 +3194,7 @@ export function dataIntersightApicFabricLeafNodeInterfaceTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApicFabricLeafNodeInterfaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3211,6 +3223,12 @@ export function dataIntersightApicFabricLeafNodeInterfaceTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3277,6 +3295,10 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3303,6 +3325,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3318,6 +3341,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3371,6 +3395,22 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3459,7 +3499,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceTagsList extends cdktf.Com
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3467,19 +3507,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3492,7 +3532,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3724,7 +3764,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceVersionContextInterestedMo
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3732,19 +3772,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#moid DataIntersightApicFabricLeafNodeInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3757,7 +3797,7 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#selector DataIntersightApicFabricLeafNodeInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3957,7 +3997,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceVersionContextRefMoOutputR
 }
 export interface DataIntersightApicFabricLeafNodeInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#additional_properties DataIntersightApicFabricLeafNodeInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3965,32 +4005,32 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#class_id DataIntersightApicFabricLeafNodeInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#marked_for_deletion DataIntersightApicFabricLeafNodeInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#marked_for_deletion DataIntersightApicFabricLeafNodeInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#nr_version DataIntersightApicFabricLeafNodeInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#nr_version DataIntersightApicFabricLeafNodeInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#object_type DataIntersightApicFabricLeafNodeInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#timestamp DataIntersightApicFabricLeafNodeInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#timestamp DataIntersightApicFabricLeafNodeInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4001,19 +4041,19 @@ export interface DataIntersightApicFabricLeafNodeInterfaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#version_type DataIntersightApicFabricLeafNodeInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#version_type DataIntersightApicFabricLeafNodeInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#interested_mos DataIntersightApicFabricLeafNodeInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#interested_mos DataIntersightApicFabricLeafNodeInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightApicFabricLeafNodeInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#ref_mo DataIntersightApicFabricLeafNodeInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#ref_mo DataIntersightApicFabricLeafNodeInterface#ref_mo}
   */
   readonly refMo?: DataIntersightApicFabricLeafNodeInterfaceVersionContextRefMo;
 }
@@ -4329,7 +4369,7 @@ export class DataIntersightApicFabricLeafNodeInterfaceVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface intersight_apic_fabric_leaf_node_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface intersight_apic_fabric_leaf_node_interface}
 */
 export class DataIntersightApicFabricLeafNodeInterface extends cdktf.TerraformDataSource {
 
@@ -4345,7 +4385,7 @@ export class DataIntersightApicFabricLeafNodeInterface extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightApicFabricLeafNodeInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApicFabricLeafNodeInterface to import
-  * @param importFromId The id of the existing DataIntersightApicFabricLeafNodeInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApicFabricLeafNodeInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApicFabricLeafNodeInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4357,7 +4397,7 @@ export class DataIntersightApicFabricLeafNodeInterface extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/apic_fabric_leaf_node_interface intersight_apic_fabric_leaf_node_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_fabric_leaf_node_interface intersight_apic_fabric_leaf_node_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4368,8 +4408,8 @@ export class DataIntersightApicFabricLeafNodeInterface extends cdktf.TerraformDa
       terraformResourceType: 'intersight_apic_fabric_leaf_node_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

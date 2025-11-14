@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCloudGuardProblemEntitiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#id DataOciCloudGuardProblemEntities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#id DataOciCloudGuardProblemEntities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#problem_id DataOciCloudGuardProblemEntities#problem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#problem_id DataOciCloudGuardProblemEntities#problem_id}
   */
   readonly problemId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#filter DataOciCloudGuardProblemEntities#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#filter DataOciCloudGuardProblemEntities#filter}
   */
   readonly filter?: DataOciCloudGuardProblemEntitiesFilter[] | cdktf.IResolvable;
 }
@@ -289,15 +289,15 @@ export class DataOciCloudGuardProblemEntitiesProblemEntityCollectionList extends
 }
 export interface DataOciCloudGuardProblemEntitiesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#name DataOciCloudGuardProblemEntities#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#name DataOciCloudGuardProblemEntities#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#regex DataOciCloudGuardProblemEntities#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#regex DataOciCloudGuardProblemEntities#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#values DataOciCloudGuardProblemEntities#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#values DataOciCloudGuardProblemEntities#values}
   */
   readonly values: string[];
 }
@@ -465,7 +465,7 @@ export class DataOciCloudGuardProblemEntitiesFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities oci_cloud_guard_problem_entities}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities oci_cloud_guard_problem_entities}
 */
 export class DataOciCloudGuardProblemEntities extends cdktf.TerraformDataSource {
 
@@ -481,7 +481,7 @@ export class DataOciCloudGuardProblemEntities extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciCloudGuardProblemEntities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCloudGuardProblemEntities to import
-  * @param importFromId The id of the existing DataOciCloudGuardProblemEntities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCloudGuardProblemEntities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCloudGuardProblemEntities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class DataOciCloudGuardProblemEntities extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/cloud_guard_problem_entities oci_cloud_guard_problem_entities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/cloud_guard_problem_entities oci_cloud_guard_problem_entities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class DataOciCloudGuardProblemEntities extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_cloud_guard_problem_entities',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

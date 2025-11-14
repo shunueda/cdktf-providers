@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLimitsResourceAvailabilityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#availability_domain DataOciLimitsResourceAvailability#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#availability_domain DataOciLimitsResourceAvailability#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#compartment_id DataOciLimitsResourceAvailability#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#compartment_id DataOciLimitsResourceAvailability#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#id DataOciLimitsResourceAvailability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#external_location DataOciLimitsResourceAvailability#external_location}
+  */
+  readonly externalLocation?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#id DataOciLimitsResourceAvailability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#limit_name DataOciLimitsResourceAvailability#limit_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#limit_name DataOciLimitsResourceAvailability#limit_name}
   */
   readonly limitName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#service_name DataOciLimitsResourceAvailability#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#service_name DataOciLimitsResourceAvailability#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#subscription_id DataOciLimitsResourceAvailability#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#subscription_id DataOciLimitsResourceAvailability#subscription_id}
   */
   readonly subscriptionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability oci_limits_resource_availability}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability oci_limits_resource_availability}
 */
 export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource {
 
@@ -53,7 +57,7 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciLimitsResourceAvailability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLimitsResourceAvailability to import
-  * @param importFromId The id of the existing DataOciLimitsResourceAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLimitsResourceAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLimitsResourceAvailability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +69,7 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/limits_resource_availability oci_limits_resource_availability} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/limits_resource_availability oci_limits_resource_availability} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +80,8 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_limits_resource_availability',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -89,6 +93,7 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
     });
     this._availabilityDomain = config.availabilityDomain;
     this._compartmentId = config.compartmentId;
+    this._externalLocation = config.externalLocation;
     this._id = config.id;
     this._limitName = config.limitName;
     this._serviceName = config.serviceName;
@@ -136,6 +141,22 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
   // effective_quota_value - computed: true, optional: false, required: false
   public get effectiveQuotaValue() {
     return this.getNumberAttribute('effective_quota_value');
+  }
+
+  // external_location - computed: false, optional: true, required: false
+  private _externalLocation?: string; 
+  public get externalLocation() {
+    return this.getStringAttribute('external_location');
+  }
+  public set externalLocation(value: string) {
+    this._externalLocation = value;
+  }
+  public resetExternalLocation() {
+    this._externalLocation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalLocationInput() {
+    return this._externalLocation;
   }
 
   // fractional_availability - computed: true, optional: false, required: false
@@ -219,6 +240,7 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
     return {
       availability_domain: cdktf.stringToTerraform(this._availabilityDomain),
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
+      external_location: cdktf.stringToTerraform(this._externalLocation),
       id: cdktf.stringToTerraform(this._id),
       limit_name: cdktf.stringToTerraform(this._limitName),
       service_name: cdktf.stringToTerraform(this._serviceName),
@@ -236,6 +258,12 @@ export class DataOciLimitsResourceAvailability extends cdktf.TerraformDataSource
       },
       compartment_id: {
         value: cdktf.stringToHclTerraform(this._compartmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      external_location: {
+        value: cdktf.stringToHclTerraform(this._externalLocation),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

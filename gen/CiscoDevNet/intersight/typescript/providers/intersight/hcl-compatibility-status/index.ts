@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HclCompatibilityStatusConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#account_moid HclCompatibilityStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#account_moid HclCompatibilityStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#ancestors HclCompatibilityStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#ancestors HclCompatibilityStatus#ancestors}
   */
   readonly ancestors?: HclCompatibilityStatusAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface HclCompatibilityStatusConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#create_time HclCompatibilityStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#create_time HclCompatibilityStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#domain_group_moid HclCompatibilityStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#domain_group_moid HclCompatibilityStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,41 +53,41 @@ export interface HclCompatibilityStatusConfig extends cdktf.TerraformMetaArgumen
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#mod_time HclCompatibilityStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#mod_time HclCompatibilityStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#owners HclCompatibilityStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#owners HclCompatibilityStatus#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#parent HclCompatibilityStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#parent HclCompatibilityStatus#parent}
   */
   readonly parent?: HclCompatibilityStatusParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#permission_resources HclCompatibilityStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#permission_resources HclCompatibilityStatus#permission_resources}
   */
   readonly permissionResources?: HclCompatibilityStatusPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#profile_list HclCompatibilityStatus#profile_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#profile_list HclCompatibilityStatus#profile_list}
   */
   readonly profileList?: HclCompatibilityStatusProfileListStruct[] | cdktf.IResolvable;
   /**
@@ -96,46 +96,46 @@ export interface HclCompatibilityStatusConfig extends cdktf.TerraformMetaArgumen
   * * `CheckCompatibility` - Checks the compatibility for the given firmware and driver versions. This request type expects the firmware and driver versions to filled and the service validates the values and responds back with the error codes.
   * * `GetRecommendedDrivers` - Responds with the supported drivers. The API expects firmware version to be filled. The API populates driver ISO url for the given server model. Today the link is same for all servers managed by UCSM whereas it depends on the model for Standalone servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#request_type HclCompatibilityStatus#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#request_type HclCompatibilityStatus#request_type}
   */
   readonly requestType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#shared_scope HclCompatibilityStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#shared_scope HclCompatibilityStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#tags HclCompatibilityStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#tags HclCompatibilityStatus#tags}
   */
   readonly tags?: HclCompatibilityStatusTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#version_context HclCompatibilityStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#version_context HclCompatibilityStatus#version_context}
   */
   readonly versionContext?: HclCompatibilityStatusVersionContext[] | cdktf.IResolvable;
 }
 export interface HclCompatibilityStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -367,23 +367,23 @@ export class HclCompatibilityStatusAncestorsList extends cdktf.ComplexList {
 }
 export interface HclCompatibilityStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -615,23 +615,23 @@ export class HclCompatibilityStatusParentList extends cdktf.ComplexList {
 }
 export interface HclCompatibilityStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -863,46 +863,46 @@ export class HclCompatibilityStatusPermissionResourcesList extends cdktf.Complex
 }
 export interface HclCompatibilityStatusProfileListProductsFirmwares {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#driver_name HclCompatibilityStatus#driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#driver_name HclCompatibilityStatus#driver_name}
   */
   readonly driverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#driver_version HclCompatibilityStatus#driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#driver_version HclCompatibilityStatus#driver_version}
   */
   readonly driverVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
   */
   readonly errorCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#firmware_version HclCompatibilityStatus#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#firmware_version HclCompatibilityStatus#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#latest_driver HclCompatibilityStatus#latest_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#latest_driver HclCompatibilityStatus#latest_driver}
   */
   readonly latestDriver?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#latest_firmware HclCompatibilityStatus#latest_firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#latest_firmware HclCompatibilityStatus#latest_firmware}
   */
   readonly latestFirmware?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
 }
@@ -1279,50 +1279,50 @@ export class HclCompatibilityStatusProfileListProductsFirmwaresList extends cdkt
 }
 export interface HclCompatibilityStatusProfileListProducts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#driver_names HclCompatibilityStatus#driver_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#driver_names HclCompatibilityStatus#driver_names}
   */
   readonly driverNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
   */
   readonly errorCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#firmwares HclCompatibilityStatus#firmwares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#firmwares HclCompatibilityStatus#firmwares}
   */
   readonly firmwares?: HclCompatibilityStatusProfileListProductsFirmwares[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#model HclCompatibilityStatus#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#model HclCompatibilityStatus#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#revision HclCompatibilityStatus#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#revision HclCompatibilityStatus#revision}
   */
   readonly revision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#type HclCompatibilityStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#type HclCompatibilityStatus#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#vendor HclCompatibilityStatus#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#vendor HclCompatibilityStatus#vendor}
   */
   readonly vendor?: string;
 }
@@ -1728,66 +1728,66 @@ export class HclCompatibilityStatusProfileListProductsList extends cdktf.Complex
 }
 export interface HclCompatibilityStatusProfileListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#driver_iso_url HclCompatibilityStatus#driver_iso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#driver_iso_url HclCompatibilityStatus#driver_iso_url}
   */
   readonly driverIsoUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#error_code HclCompatibilityStatus#error_code}
   */
   readonly errorCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#id HclCompatibilityStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#os_vendor HclCompatibilityStatus#os_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#os_vendor HclCompatibilityStatus#os_vendor}
   */
   readonly osVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#os_version HclCompatibilityStatus#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#os_version HclCompatibilityStatus#os_version}
   */
   readonly osVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#personality HclCompatibilityStatus#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#personality HclCompatibilityStatus#personality}
   */
   readonly personality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#processor_model HclCompatibilityStatus#processor_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#processor_model HclCompatibilityStatus#processor_model}
   */
   readonly processorModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#products HclCompatibilityStatus#products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#products HclCompatibilityStatus#products}
   */
   readonly products?: HclCompatibilityStatusProfileListProducts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#server_model HclCompatibilityStatus#server_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#server_model HclCompatibilityStatus#server_model}
   */
   readonly serverModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#server_revision HclCompatibilityStatus#server_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#server_revision HclCompatibilityStatus#server_revision}
   */
   readonly serverRevision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#ucs_version HclCompatibilityStatus#ucs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#ucs_version HclCompatibilityStatus#ucs_version}
   */
   readonly ucsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#version_type HclCompatibilityStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#version_type HclCompatibilityStatus#version_type}
   */
   readonly versionType?: string;
 }
@@ -2309,23 +2309,23 @@ export class HclCompatibilityStatusProfileListStructList extends cdktf.ComplexLi
 }
 export interface HclCompatibilityStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2557,23 +2557,23 @@ export class HclCompatibilityStatusTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface HclCompatibilityStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2805,31 +2805,35 @@ export class HclCompatibilityStatusTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface HclCompatibilityStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#ancestor_definitions HclCompatibilityStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#ancestor_definitions HclCompatibilityStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HclCompatibilityStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#definition HclCompatibilityStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#definition HclCompatibilityStatus#definition}
   */
   readonly definition?: HclCompatibilityStatusTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#key HclCompatibilityStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#key HclCompatibilityStatus#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#propagated HclCompatibilityStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#propagated HclCompatibilityStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#type HclCompatibilityStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#sys_tag HclCompatibilityStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#type HclCompatibilityStatus#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#value HclCompatibilityStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#value HclCompatibilityStatus#value}
   */
   readonly value?: string;
 }
@@ -2845,6 +2849,7 @@ export function hclCompatibilityStatusTagsToTerraform(struct?: HclCompatibilityS
     definition: cdktf.listMapper(hclCompatibilityStatusTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2883,6 +2888,12 @@ export function hclCompatibilityStatusTagsToHclTerraform(struct?: HclCompatibili
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2945,6 +2956,10 @@ export class HclCompatibilityStatusTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2965,6 +2980,7 @@ export class HclCompatibilityStatusTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2980,6 +2996,7 @@ export class HclCompatibilityStatusTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3065,6 +3082,22 @@ export class HclCompatibilityStatusTagsOutputReference extends cdktf.ComplexObje
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3119,23 +3152,23 @@ export class HclCompatibilityStatusTagsList extends cdktf.ComplexList {
 }
 export interface HclCompatibilityStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3367,23 +3400,23 @@ export class HclCompatibilityStatusVersionContextInterestedMosList extends cdktf
 }
 export interface HclCompatibilityStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#moid HclCompatibilityStatus#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#selector HclCompatibilityStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3615,39 +3648,39 @@ export class HclCompatibilityStatusVersionContextRefMoList extends cdktf.Complex
 }
 export interface HclCompatibilityStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#additional_properties HclCompatibilityStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#class_id HclCompatibilityStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#interested_mos HclCompatibilityStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#interested_mos HclCompatibilityStatus#interested_mos}
   */
   readonly interestedMos?: HclCompatibilityStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#marked_for_deletion HclCompatibilityStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#marked_for_deletion HclCompatibilityStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#nr_version HclCompatibilityStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#nr_version HclCompatibilityStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#object_type HclCompatibilityStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#ref_mo HclCompatibilityStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#ref_mo HclCompatibilityStatus#ref_mo}
   */
   readonly refMo?: HclCompatibilityStatusVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#timestamp HclCompatibilityStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#timestamp HclCompatibilityStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#version_type HclCompatibilityStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#version_type HclCompatibilityStatus#version_type}
   */
   readonly versionType?: string;
 }
@@ -3995,7 +4028,7 @@ export class HclCompatibilityStatusVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status intersight_hcl_compatibility_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status intersight_hcl_compatibility_status}
 */
 export class HclCompatibilityStatus extends cdktf.TerraformResource {
 
@@ -4011,7 +4044,7 @@ export class HclCompatibilityStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HclCompatibilityStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HclCompatibilityStatus to import
-  * @param importFromId The id of the existing HclCompatibilityStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HclCompatibilityStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HclCompatibilityStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4023,7 +4056,7 @@ export class HclCompatibilityStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hcl_compatibility_status intersight_hcl_compatibility_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hcl_compatibility_status intersight_hcl_compatibility_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4034,8 +4067,8 @@ export class HclCompatibilityStatus extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hcl_compatibility_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

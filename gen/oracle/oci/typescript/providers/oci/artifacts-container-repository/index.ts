@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ArtifactsContainerRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#compartment_id ArtifactsContainerRepository#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#compartment_id ArtifactsContainerRepository#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#defined_tags ArtifactsContainerRepository#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#defined_tags ArtifactsContainerRepository#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#display_name ArtifactsContainerRepository#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#display_name ArtifactsContainerRepository#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#freeform_tags ArtifactsContainerRepository#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#freeform_tags ArtifactsContainerRepository#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#id ArtifactsContainerRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#id ArtifactsContainerRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#is_immutable ArtifactsContainerRepository#is_immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#is_immutable ArtifactsContainerRepository#is_immutable}
   */
   readonly isImmutable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#is_public ArtifactsContainerRepository#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#is_public ArtifactsContainerRepository#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * readme block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#readme ArtifactsContainerRepository#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#readme ArtifactsContainerRepository#readme}
   */
   readonly readme?: ArtifactsContainerRepositoryReadme;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#timeouts ArtifactsContainerRepository#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#timeouts ArtifactsContainerRepository#timeouts}
   */
   readonly timeouts?: ArtifactsContainerRepositoryTimeouts;
 }
 export interface ArtifactsContainerRepositoryReadme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}
   */
   readonly format: string;
 }
@@ -164,15 +164,15 @@ export class ArtifactsContainerRepositoryReadmeOutputReference extends cdktf.Com
 }
 export interface ArtifactsContainerRepositoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#create ArtifactsContainerRepository#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#create ArtifactsContainerRepository#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#delete ArtifactsContainerRepository#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#delete ArtifactsContainerRepository#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#update ArtifactsContainerRepository#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#update ArtifactsContainerRepository#update}
   */
   readonly update?: string;
 }
@@ -324,7 +324,7 @@ export class ArtifactsContainerRepositoryTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository oci_artifacts_container_repository}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository oci_artifacts_container_repository}
 */
 export class ArtifactsContainerRepository extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class ArtifactsContainerRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArtifactsContainerRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArtifactsContainerRepository to import
-  * @param importFromId The id of the existing ArtifactsContainerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArtifactsContainerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArtifactsContainerRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class ArtifactsContainerRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/artifacts_container_repository oci_artifacts_container_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/artifacts_container_repository oci_artifacts_container_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class ArtifactsContainerRepository extends cdktf.TerraformResource {
       terraformResourceType: 'oci_artifacts_container_repository',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

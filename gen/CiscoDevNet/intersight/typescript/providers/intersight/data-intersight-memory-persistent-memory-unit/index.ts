@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataIntersightMemoryPersistentMemoryUnitConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#account_moid DataIntersightMemoryPersistentMemoryUnit#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#account_moid DataIntersightMemoryPersistentMemoryUnit#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This represents the administrative state of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#admin_state DataIntersightMemoryPersistentMemoryUnit#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#admin_state DataIntersightMemoryPersistentMemoryUnit#admin_state}
   */
   readonly adminState?: string;
   /**
   * AppDirect capacity in GiB of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#app_direct_capacity DataIntersightMemoryPersistentMemoryUnit#app_direct_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#app_direct_capacity DataIntersightMemoryPersistentMemoryUnit#app_direct_capacity}
   */
   readonly appDirectCapacity?: string;
   /**
   * This represents the memory array to which the memory unit belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#array_id DataIntersightMemoryPersistentMemoryUnit#array_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#array_id DataIntersightMemoryPersistentMemoryUnit#array_id}
   */
   readonly arrayId?: number;
   /**
   * This represents the memory bank of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#bank DataIntersightMemoryPersistentMemoryUnit#bank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#bank DataIntersightMemoryPersistentMemoryUnit#bank}
   */
   readonly bank?: number;
   /**
   * This represents the memory capacity in MiB of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#capacity DataIntersightMemoryPersistentMemoryUnit#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#capacity DataIntersightMemoryPersistentMemoryUnit#capacity}
   */
   readonly capacity?: string;
   /**
@@ -52,71 +52,71 @@ export interface DataIntersightMemoryPersistentMemoryUnitConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * This represents the clock of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#clock DataIntersightMemoryPersistentMemoryUnit#clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#clock DataIntersightMemoryPersistentMemoryUnit#clock}
   */
   readonly clock?: string;
   /**
   * Count status of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#count_status DataIntersightMemoryPersistentMemoryUnit#count_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#count_status DataIntersightMemoryPersistentMemoryUnit#count_status}
   */
   readonly countStatus?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#create_time DataIntersightMemoryPersistentMemoryUnit#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#create_time DataIntersightMemoryPersistentMemoryUnit#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#device_mo_id DataIntersightMemoryPersistentMemoryUnit#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#device_mo_id DataIntersightMemoryPersistentMemoryUnit#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#dn DataIntersightMemoryPersistentMemoryUnit#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#dn DataIntersightMemoryPersistentMemoryUnit#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#domain_group_moid DataIntersightMemoryPersistentMemoryUnit#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#domain_group_moid DataIntersightMemoryPersistentMemoryUnit#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Firmware version of the firware running on the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#firmware_version DataIntersightMemoryPersistentMemoryUnit#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#firmware_version DataIntersightMemoryPersistentMemoryUnit#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
   * This represents the form factor of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#form_factor DataIntersightMemoryPersistentMemoryUnit#form_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#form_factor DataIntersightMemoryPersistentMemoryUnit#form_factor}
   */
   readonly formFactor?: string;
   /**
   * Frozen status of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#frozen_status DataIntersightMemoryPersistentMemoryUnit#frozen_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#frozen_status DataIntersightMemoryPersistentMemoryUnit#frozen_status}
   */
   readonly frozenStatus?: string;
   /**
   * Health state of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#health_state DataIntersightMemoryPersistentMemoryUnit#health_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#health_state DataIntersightMemoryPersistentMemoryUnit#health_state}
   */
   readonly healthState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#id DataIntersightMemoryPersistentMemoryUnit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#id DataIntersightMemoryPersistentMemoryUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,257 +125,257 @@ export interface DataIntersightMemoryPersistentMemoryUnitConfig extends cdktf.Te
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#is_upgraded DataIntersightMemoryPersistentMemoryUnit#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#is_upgraded DataIntersightMemoryPersistentMemoryUnit#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * This represents the latency of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#latency DataIntersightMemoryPersistentMemoryUnit#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#latency DataIntersightMemoryPersistentMemoryUnit#latency}
   */
   readonly latency?: string;
   /**
   * This represents the location of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#location DataIntersightMemoryPersistentMemoryUnit#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#location DataIntersightMemoryPersistentMemoryUnit#location}
   */
   readonly location?: string;
   /**
   * Lock status of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#lock_status DataIntersightMemoryPersistentMemoryUnit#lock_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#lock_status DataIntersightMemoryPersistentMemoryUnit#lock_status}
   */
   readonly lockStatus?: string;
   /**
   * Memory capacity in GiB of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#memory_capacity DataIntersightMemoryPersistentMemoryUnit#memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#memory_capacity DataIntersightMemoryPersistentMemoryUnit#memory_capacity}
   */
   readonly memoryCapacity?: string;
   /**
   * ID of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#memory_id DataIntersightMemoryPersistentMemoryUnit#memory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#memory_id DataIntersightMemoryPersistentMemoryUnit#memory_id}
   */
   readonly memoryId?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#mod_time DataIntersightMemoryPersistentMemoryUnit#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#mod_time DataIntersightMemoryPersistentMemoryUnit#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#model DataIntersightMemoryPersistentMemoryUnit#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#model DataIntersightMemoryPersistentMemoryUnit#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * This represents the operational power state of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#oper_power_state DataIntersightMemoryPersistentMemoryUnit#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#oper_power_state DataIntersightMemoryPersistentMemoryUnit#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#oper_reason DataIntersightMemoryPersistentMemoryUnit#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#oper_reason DataIntersightMemoryPersistentMemoryUnit#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * This represents the operational state of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#oper_state DataIntersightMemoryPersistentMemoryUnit#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#oper_state DataIntersightMemoryPersistentMemoryUnit#oper_state}
   */
   readonly operState?: string;
   /**
   * This represents the operability of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#operability DataIntersightMemoryPersistentMemoryUnit#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#operability DataIntersightMemoryPersistentMemoryUnit#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#owners DataIntersightMemoryPersistentMemoryUnit#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#owners DataIntersightMemoryPersistentMemoryUnit#owners}
   */
   readonly owners?: string[];
   /**
   * Persistent Memory capacity in GiB of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#persistent_memory_capacity DataIntersightMemoryPersistentMemoryUnit#persistent_memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#persistent_memory_capacity DataIntersightMemoryPersistentMemoryUnit#persistent_memory_capacity}
   */
   readonly persistentMemoryCapacity?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#presence DataIntersightMemoryPersistentMemoryUnit#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#presence DataIntersightMemoryPersistentMemoryUnit#presence}
   */
   readonly presence?: string;
   /**
   * Reserved capacity in GiB of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#reserved_capacity DataIntersightMemoryPersistentMemoryUnit#reserved_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#reserved_capacity DataIntersightMemoryPersistentMemoryUnit#reserved_capacity}
   */
   readonly reservedCapacity?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#revision DataIntersightMemoryPersistentMemoryUnit#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#revision DataIntersightMemoryPersistentMemoryUnit#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#rn DataIntersightMemoryPersistentMemoryUnit#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#rn DataIntersightMemoryPersistentMemoryUnit#rn}
   */
   readonly rn?: string;
   /**
   * Security status of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#security_status DataIntersightMemoryPersistentMemoryUnit#security_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#security_status DataIntersightMemoryPersistentMemoryUnit#security_status}
   */
   readonly securityStatus?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#serial DataIntersightMemoryPersistentMemoryUnit#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#serial DataIntersightMemoryPersistentMemoryUnit#serial}
   */
   readonly serial?: string;
   /**
   * This represents the set of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#set DataIntersightMemoryPersistentMemoryUnit#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#set DataIntersightMemoryPersistentMemoryUnit#set}
   */
   readonly set?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#shared_scope DataIntersightMemoryPersistentMemoryUnit#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#shared_scope DataIntersightMemoryPersistentMemoryUnit#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Socket ID of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#socket_id DataIntersightMemoryPersistentMemoryUnit#socket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#socket_id DataIntersightMemoryPersistentMemoryUnit#socket_id}
   */
   readonly socketId?: string;
   /**
   * Socket Memory ID of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#socket_memory_id DataIntersightMemoryPersistentMemoryUnit#socket_memory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#socket_memory_id DataIntersightMemoryPersistentMemoryUnit#socket_memory_id}
   */
   readonly socketMemoryId?: string;
   /**
   * This represents the speed of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#speed DataIntersightMemoryPersistentMemoryUnit#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#speed DataIntersightMemoryPersistentMemoryUnit#speed}
   */
   readonly speed?: string;
   /**
   * This represents the thremal state of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#thermal DataIntersightMemoryPersistentMemoryUnit#thermal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#thermal DataIntersightMemoryPersistentMemoryUnit#thermal}
   */
   readonly thermal?: string;
   /**
   * Total capacity in GiB of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#total_capacity DataIntersightMemoryPersistentMemoryUnit#total_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#total_capacity DataIntersightMemoryPersistentMemoryUnit#total_capacity}
   */
   readonly totalCapacity?: string;
   /**
   * This represents the memory type of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#type DataIntersightMemoryPersistentMemoryUnit#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#type DataIntersightMemoryPersistentMemoryUnit#type}
   */
   readonly type?: string;
   /**
   * UID of the Persistent Memory Module on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#uid DataIntersightMemoryPersistentMemoryUnit#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#uid DataIntersightMemoryPersistentMemoryUnit#uid}
   */
   readonly uid?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#vendor DataIntersightMemoryPersistentMemoryUnit#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#vendor DataIntersightMemoryPersistentMemoryUnit#vendor}
   */
   readonly vendor?: string;
   /**
   * This represents the visibility of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#visibility DataIntersightMemoryPersistentMemoryUnit#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#visibility DataIntersightMemoryPersistentMemoryUnit#visibility}
   */
   readonly visibility?: string;
   /**
   * This represents the width of the memory unit on a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#width DataIntersightMemoryPersistentMemoryUnit#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#width DataIntersightMemoryPersistentMemoryUnit#width}
   */
   readonly width?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#ancestors DataIntersightMemoryPersistentMemoryUnit#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#ancestors DataIntersightMemoryPersistentMemoryUnit#ancestors}
   */
   readonly ancestors?: DataIntersightMemoryPersistentMemoryUnitAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#inventory_device_info DataIntersightMemoryPersistentMemoryUnit#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#inventory_device_info DataIntersightMemoryPersistentMemoryUnit#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightMemoryPersistentMemoryUnitInventoryDeviceInfo;
   /**
   * memory_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#memory_array DataIntersightMemoryPersistentMemoryUnit#memory_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#memory_array DataIntersightMemoryPersistentMemoryUnit#memory_array}
   */
   readonly memoryArray?: DataIntersightMemoryPersistentMemoryUnitMemoryArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#parent DataIntersightMemoryPersistentMemoryUnit#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#parent DataIntersightMemoryPersistentMemoryUnit#parent}
   */
   readonly parent?: DataIntersightMemoryPersistentMemoryUnitParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#permission_resources DataIntersightMemoryPersistentMemoryUnit#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#permission_resources DataIntersightMemoryPersistentMemoryUnit#permission_resources}
   */
   readonly permissionResources?: DataIntersightMemoryPersistentMemoryUnitPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#previous_fru DataIntersightMemoryPersistentMemoryUnit#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#previous_fru DataIntersightMemoryPersistentMemoryUnit#previous_fru}
   */
   readonly previousFru?: DataIntersightMemoryPersistentMemoryUnitPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#registered_device DataIntersightMemoryPersistentMemoryUnit#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#registered_device DataIntersightMemoryPersistentMemoryUnit#registered_device}
   */
   readonly registeredDevice?: DataIntersightMemoryPersistentMemoryUnitRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#tags DataIntersightMemoryPersistentMemoryUnit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#tags DataIntersightMemoryPersistentMemoryUnit#tags}
   */
   readonly tags?: DataIntersightMemoryPersistentMemoryUnitTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#version_context DataIntersightMemoryPersistentMemoryUnit#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#version_context DataIntersightMemoryPersistentMemoryUnit#version_context}
   */
   readonly versionContext?: DataIntersightMemoryPersistentMemoryUnitVersionContext;
 }
@@ -1312,6 +1312,11 @@ export class DataIntersightMemoryPersistentMemoryUnitResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2034,7 +2039,7 @@ export class DataIntersightMemoryPersistentMemoryUnitResultsList extends cdktf.C
 }
 export interface DataIntersightMemoryPersistentMemoryUnitAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2042,19 +2047,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2067,7 +2072,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2299,7 +2304,7 @@ export class DataIntersightMemoryPersistentMemoryUnitAncestorsList extends cdktf
 }
 export interface DataIntersightMemoryPersistentMemoryUnitInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2307,19 +2312,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2332,7 +2337,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2532,7 +2537,7 @@ export class DataIntersightMemoryPersistentMemoryUnitInventoryDeviceInfoOutputRe
 }
 export interface DataIntersightMemoryPersistentMemoryUnitMemoryArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2540,19 +2545,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitMemoryArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2565,7 +2570,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitMemoryArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2765,7 +2770,7 @@ export class DataIntersightMemoryPersistentMemoryUnitMemoryArrayOutputReference 
 }
 export interface DataIntersightMemoryPersistentMemoryUnitParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2773,19 +2778,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2798,7 +2803,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2998,7 +3003,7 @@ export class DataIntersightMemoryPersistentMemoryUnitParentOutputReference exten
 }
 export interface DataIntersightMemoryPersistentMemoryUnitPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3006,19 +3011,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3031,7 +3036,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3263,7 +3268,7 @@ export class DataIntersightMemoryPersistentMemoryUnitPermissionResourcesList ext
 }
 export interface DataIntersightMemoryPersistentMemoryUnitPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3271,19 +3276,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3296,7 +3301,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3496,7 +3501,7 @@ export class DataIntersightMemoryPersistentMemoryUnitPreviousFruOutputReference 
 }
 export interface DataIntersightMemoryPersistentMemoryUnitRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3504,19 +3509,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3529,7 +3534,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3729,7 +3734,7 @@ export class DataIntersightMemoryPersistentMemoryUnitRegisteredDeviceOutputRefer
 }
 export interface DataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3737,19 +3742,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3762,7 +3767,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3994,7 +3999,7 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitionsList
 }
 export interface DataIntersightMemoryPersistentMemoryUnitTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4002,19 +4007,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4027,7 +4032,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4227,45 +4232,51 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsDefinitionOutputReferen
 }
 export interface DataIntersightMemoryPersistentMemoryUnitTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#key DataIntersightMemoryPersistentMemoryUnit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#key DataIntersightMemoryPersistentMemoryUnit#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#propagated DataIntersightMemoryPersistentMemoryUnit#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#propagated DataIntersightMemoryPersistentMemoryUnit#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#sys_tag DataIntersightMemoryPersistentMemoryUnit#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#type DataIntersightMemoryPersistentMemoryUnit#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#type DataIntersightMemoryPersistentMemoryUnit#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#value DataIntersightMemoryPersistentMemoryUnit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#value DataIntersightMemoryPersistentMemoryUnit#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#ancestor_definitions DataIntersightMemoryPersistentMemoryUnit#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#ancestor_definitions DataIntersightMemoryPersistentMemoryUnit#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#definition DataIntersightMemoryPersistentMemoryUnit#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#definition DataIntersightMemoryPersistentMemoryUnit#definition}
   */
   readonly definition?: DataIntersightMemoryPersistentMemoryUnitTagsDefinition;
 }
@@ -4279,6 +4290,7 @@ export function dataIntersightMemoryPersistentMemoryUnitTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightMemoryPersistentMemoryUnitTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4307,6 +4319,12 @@ export function dataIntersightMemoryPersistentMemoryUnitTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4373,6 +4391,10 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4399,6 +4421,7 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4414,6 +4437,7 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4467,6 +4491,22 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4555,7 +4595,7 @@ export class DataIntersightMemoryPersistentMemoryUnitTagsList extends cdktf.Comp
 }
 export interface DataIntersightMemoryPersistentMemoryUnitVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4563,19 +4603,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4588,7 +4628,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4820,7 +4860,7 @@ export class DataIntersightMemoryPersistentMemoryUnitVersionContextInterestedMos
 }
 export interface DataIntersightMemoryPersistentMemoryUnitVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4828,19 +4868,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#moid DataIntersightMemoryPersistentMemoryUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4853,7 +4893,7 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#selector DataIntersightMemoryPersistentMemoryUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5053,7 +5093,7 @@ export class DataIntersightMemoryPersistentMemoryUnitVersionContextRefMoOutputRe
 }
 export interface DataIntersightMemoryPersistentMemoryUnitVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#additional_properties DataIntersightMemoryPersistentMemoryUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5061,32 +5101,32 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#class_id DataIntersightMemoryPersistentMemoryUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#marked_for_deletion DataIntersightMemoryPersistentMemoryUnit#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#marked_for_deletion DataIntersightMemoryPersistentMemoryUnit#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#nr_version DataIntersightMemoryPersistentMemoryUnit#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#nr_version DataIntersightMemoryPersistentMemoryUnit#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#object_type DataIntersightMemoryPersistentMemoryUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#timestamp DataIntersightMemoryPersistentMemoryUnit#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#timestamp DataIntersightMemoryPersistentMemoryUnit#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5097,19 +5137,19 @@ export interface DataIntersightMemoryPersistentMemoryUnitVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#version_type DataIntersightMemoryPersistentMemoryUnit#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#version_type DataIntersightMemoryPersistentMemoryUnit#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#interested_mos DataIntersightMemoryPersistentMemoryUnit#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#interested_mos DataIntersightMemoryPersistentMemoryUnit#interested_mos}
   */
   readonly interestedMos?: DataIntersightMemoryPersistentMemoryUnitVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#ref_mo DataIntersightMemoryPersistentMemoryUnit#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#ref_mo DataIntersightMemoryPersistentMemoryUnit#ref_mo}
   */
   readonly refMo?: DataIntersightMemoryPersistentMemoryUnitVersionContextRefMo;
 }
@@ -5425,7 +5465,7 @@ export class DataIntersightMemoryPersistentMemoryUnitVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit intersight_memory_persistent_memory_unit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit intersight_memory_persistent_memory_unit}
 */
 export class DataIntersightMemoryPersistentMemoryUnit extends cdktf.TerraformDataSource {
 
@@ -5441,7 +5481,7 @@ export class DataIntersightMemoryPersistentMemoryUnit extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightMemoryPersistentMemoryUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMemoryPersistentMemoryUnit to import
-  * @param importFromId The id of the existing DataIntersightMemoryPersistentMemoryUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMemoryPersistentMemoryUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMemoryPersistentMemoryUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5453,7 +5493,7 @@ export class DataIntersightMemoryPersistentMemoryUnit extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/memory_persistent_memory_unit intersight_memory_persistent_memory_unit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/memory_persistent_memory_unit intersight_memory_persistent_memory_unit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5464,8 +5504,8 @@ export class DataIntersightMemoryPersistentMemoryUnit extends cdktf.TerraformDat
       terraformResourceType: 'intersight_memory_persistent_memory_unit',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

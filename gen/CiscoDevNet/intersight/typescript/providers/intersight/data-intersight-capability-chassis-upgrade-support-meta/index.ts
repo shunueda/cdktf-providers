@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaConfig extends
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#account_moid DataIntersightCapabilityChassisUpgradeSupportMeta#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#account_moid DataIntersightCapabilityChassisUpgradeSupportMeta#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * If enabled, indicates that adapters in servers within this chassis would be upgraded by HSU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#adapters_upgraded_via_hsu DataIntersightCapabilityChassisUpgradeSupportMeta#adapters_upgraded_via_hsu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#adapters_upgraded_via_hsu DataIntersightCapabilityChassisUpgradeSupportMeta#adapters_upgraded_via_hsu}
   */
   readonly adaptersUpgradedViaHsu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaConfig extends
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#create_time DataIntersightCapabilityChassisUpgradeSupportMeta#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#create_time DataIntersightCapabilityChassisUpgradeSupportMeta#create_time}
   */
   readonly createTime?: string;
   /**
   * Verbose description regarding this group of chassis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#description DataIntersightCapabilityChassisUpgradeSupportMeta#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#description DataIntersightCapabilityChassisUpgradeSupportMeta#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#domain_group_moid DataIntersightCapabilityChassisUpgradeSupportMeta#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#domain_group_moid DataIntersightCapabilityChassisUpgradeSupportMeta#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#id DataIntersightCapabilityChassisUpgradeSupportMeta#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#id DataIntersightCapabilityChassisUpgradeSupportMeta#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaConfig extends
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#mod_time DataIntersightCapabilityChassisUpgradeSupportMeta#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#mod_time DataIntersightCapabilityChassisUpgradeSupportMeta#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#name DataIntersightCapabilityChassisUpgradeSupportMeta#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#name DataIntersightCapabilityChassisUpgradeSupportMeta#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#owners DataIntersightCapabilityChassisUpgradeSupportMeta#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#owners DataIntersightCapabilityChassisUpgradeSupportMeta#owners}
   */
   readonly owners?: string[];
   /**
   * Classification of a set of chassis models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#series_id DataIntersightCapabilityChassisUpgradeSupportMeta#series_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#series_id DataIntersightCapabilityChassisUpgradeSupportMeta#series_id}
   */
   readonly seriesId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#shared_scope DataIntersightCapabilityChassisUpgradeSupportMeta#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#shared_scope DataIntersightCapabilityChassisUpgradeSupportMeta#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#supported_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#supported_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_models}
   */
   readonly supportedModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#supported_psu_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_psu_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#supported_psu_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_psu_models}
   */
   readonly supportedPsuModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#supported_xfm_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_xfm_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#supported_xfm_models DataIntersightCapabilityChassisUpgradeSupportMeta#supported_xfm_models}
   */
   readonly supportedXfmModels?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#ancestors DataIntersightCapabilityChassisUpgradeSupportMeta#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#ancestors DataIntersightCapabilityChassisUpgradeSupportMeta#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityChassisUpgradeSupportMetaAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#parent DataIntersightCapabilityChassisUpgradeSupportMeta#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#parent DataIntersightCapabilityChassisUpgradeSupportMeta#parent}
   */
   readonly parent?: DataIntersightCapabilityChassisUpgradeSupportMetaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#permission_resources DataIntersightCapabilityChassisUpgradeSupportMeta#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#permission_resources DataIntersightCapabilityChassisUpgradeSupportMeta#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityChassisUpgradeSupportMetaPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#tags DataIntersightCapabilityChassisUpgradeSupportMeta#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#tags DataIntersightCapabilityChassisUpgradeSupportMeta#tags}
   */
   readonly tags?: DataIntersightCapabilityChassisUpgradeSupportMetaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#version_context DataIntersightCapabilityChassisUpgradeSupportMeta#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#version_context DataIntersightCapabilityChassisUpgradeSupportMeta#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext;
 }
@@ -694,6 +694,11 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaResultsTagsOutputR
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1217,7 +1222,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaResultsList extend
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1225,19 +1230,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1250,7 +1255,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1482,7 +1487,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaAncestorsList exte
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1490,19 +1495,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1515,7 +1520,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1715,7 +1720,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaParentOutputRefere
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1723,19 +1728,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaPermissionReso
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1748,7 +1753,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaPermissionReso
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1980,7 +1985,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaPermissionResource
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1988,19 +1993,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2013,7 +2018,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2245,7 +2250,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDefini
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2253,19 +2258,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2278,7 +2283,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaTagsDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2478,45 +2483,51 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsDefinitionOutp
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#key DataIntersightCapabilityChassisUpgradeSupportMeta#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#key DataIntersightCapabilityChassisUpgradeSupportMeta#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#propagated DataIntersightCapabilityChassisUpgradeSupportMeta#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#propagated DataIntersightCapabilityChassisUpgradeSupportMeta#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#sys_tag DataIntersightCapabilityChassisUpgradeSupportMeta#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#type DataIntersightCapabilityChassisUpgradeSupportMeta#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#type DataIntersightCapabilityChassisUpgradeSupportMeta#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#value DataIntersightCapabilityChassisUpgradeSupportMeta#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#value DataIntersightCapabilityChassisUpgradeSupportMeta#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#ancestor_definitions DataIntersightCapabilityChassisUpgradeSupportMeta#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#ancestor_definitions DataIntersightCapabilityChassisUpgradeSupportMeta#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#definition DataIntersightCapabilityChassisUpgradeSupportMeta#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#definition DataIntersightCapabilityChassisUpgradeSupportMeta#definition}
   */
   readonly definition?: DataIntersightCapabilityChassisUpgradeSupportMetaTagsDefinition;
 }
@@ -2530,6 +2541,7 @@ export function dataIntersightCapabilityChassisUpgradeSupportMetaTagsToTerraform
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityChassisUpgradeSupportMetaTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2558,6 +2570,12 @@ export function dataIntersightCapabilityChassisUpgradeSupportMetaTagsToHclTerraf
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2624,6 +2642,10 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsOutputReferenc
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2650,6 +2672,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsOutputReferenc
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2665,6 +2688,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsOutputReferenc
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2718,6 +2742,22 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsOutputReferenc
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2806,7 +2846,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaTagsList extends c
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2814,19 +2854,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2839,7 +2879,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3071,7 +3111,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextInte
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3079,19 +3119,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#moid DataIntersightCapabilityChassisUpgradeSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3104,7 +3144,7 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#selector DataIntersightCapabilityChassisUpgradeSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3304,7 +3344,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextRefM
 }
 export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#additional_properties DataIntersightCapabilityChassisUpgradeSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3312,32 +3352,32 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#class_id DataIntersightCapabilityChassisUpgradeSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#marked_for_deletion DataIntersightCapabilityChassisUpgradeSupportMeta#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#marked_for_deletion DataIntersightCapabilityChassisUpgradeSupportMeta#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#nr_version DataIntersightCapabilityChassisUpgradeSupportMeta#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#nr_version DataIntersightCapabilityChassisUpgradeSupportMeta#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#object_type DataIntersightCapabilityChassisUpgradeSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#timestamp DataIntersightCapabilityChassisUpgradeSupportMeta#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#timestamp DataIntersightCapabilityChassisUpgradeSupportMeta#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3348,19 +3388,19 @@ export interface DataIntersightCapabilityChassisUpgradeSupportMetaVersionContext
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#version_type DataIntersightCapabilityChassisUpgradeSupportMeta#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#version_type DataIntersightCapabilityChassisUpgradeSupportMeta#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#interested_mos DataIntersightCapabilityChassisUpgradeSupportMeta#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#interested_mos DataIntersightCapabilityChassisUpgradeSupportMeta#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#ref_mo DataIntersightCapabilityChassisUpgradeSupportMeta#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#ref_mo DataIntersightCapabilityChassisUpgradeSupportMeta#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextRefMo;
 }
@@ -3676,7 +3716,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMetaVersionContextOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta intersight_capability_chassis_upgrade_support_meta}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta intersight_capability_chassis_upgrade_support_meta}
 */
 export class DataIntersightCapabilityChassisUpgradeSupportMeta extends cdktf.TerraformDataSource {
 
@@ -3692,7 +3732,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMeta extends cdktf.Ter
   * Generates CDKTF code for importing a DataIntersightCapabilityChassisUpgradeSupportMeta resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityChassisUpgradeSupportMeta to import
-  * @param importFromId The id of the existing DataIntersightCapabilityChassisUpgradeSupportMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityChassisUpgradeSupportMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityChassisUpgradeSupportMeta to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3704,7 +3744,7 @@ export class DataIntersightCapabilityChassisUpgradeSupportMeta extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_chassis_upgrade_support_meta intersight_capability_chassis_upgrade_support_meta} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_chassis_upgrade_support_meta intersight_capability_chassis_upgrade_support_meta} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3715,8 +3755,8 @@ export class DataIntersightCapabilityChassisUpgradeSupportMeta extends cdktf.Ter
       terraformResourceType: 'intersight_capability_chassis_upgrade_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

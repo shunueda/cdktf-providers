@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiRemoteReplicationConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#account_moid DataIntersightStorageHitachiRemoteReplication#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#account_moid DataIntersightStorageHitachiRemoteReplication#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightStorageHitachiRemoteReplicationConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * Consistency group ID. If no consistency group consists, information is not input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#consistency_group_id DataIntersightStorageHitachiRemoteReplication#consistency_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#consistency_group_id DataIntersightStorageHitachiRemoteReplication#consistency_group_id}
   */
   readonly consistencyGroupId?: string;
   /**
   * Copy speed. Number for the size of tracks to be copied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#copy_pace DataIntersightStorageHitachiRemoteReplication#copy_pace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#copy_pace DataIntersightStorageHitachiRemoteReplication#copy_pace}
   */
   readonly copyPace?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#create_time DataIntersightStorageHitachiRemoteReplication#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#create_time DataIntersightStorageHitachiRemoteReplication#create_time}
   */
   readonly createTime?: string;
   /**
   * Status of the 3DC multi-target configuration that uses delta resync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#delta_status DataIntersightStorageHitachiRemoteReplication#delta_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#delta_status DataIntersightStorageHitachiRemoteReplication#delta_status}
   */
   readonly deltaStatus?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#domain_group_moid DataIntersightStorageHitachiRemoteReplication#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#domain_group_moid DataIntersightStorageHitachiRemoteReplication#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Fence level. Whether the P-VOL can be written to when the pair is split due to error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#fence_level DataIntersightStorageHitachiRemoteReplication#fence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#fence_level DataIntersightStorageHitachiRemoteReplication#fence_level}
   */
   readonly fenceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#id DataIntersightStorageHitachiRemoteReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#id DataIntersightStorageHitachiRemoteReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,157 +71,157 @@ export interface DataIntersightStorageHitachiRemoteReplicationConfig extends cdk
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#mod_time DataIntersightStorageHitachiRemoteReplication#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#mod_time DataIntersightStorageHitachiRemoteReplication#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * MU (mirror unit) number of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#mu_number DataIntersightStorageHitachiRemoteReplication#mu_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#mu_number DataIntersightStorageHitachiRemoteReplication#mu_number}
   */
   readonly muNumber?: string;
   /**
   * Object ID of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#name DataIntersightStorageHitachiRemoteReplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#name DataIntersightStorageHitachiRemoteReplication#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#owners DataIntersightStorageHitachiRemoteReplication#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#owners DataIntersightStorageHitachiRemoteReplication#owners}
   */
   readonly owners?: string[];
   /**
   * Path group ID of the RCU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#path_group_id DataIntersightStorageHitachiRemoteReplication#path_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#path_group_id DataIntersightStorageHitachiRemoteReplication#path_group_id}
   */
   readonly pathGroupId?: string;
   /**
   * I-O mode of the P-VOL. Information is input only in the case of global-active device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#pvol_io_mode DataIntersightStorageHitachiRemoteReplication#pvol_io_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#pvol_io_mode DataIntersightStorageHitachiRemoteReplication#pvol_io_mode}
   */
   readonly pvolIoMode?: string;
   /**
   * Journal ID of the P-VOL. A value is input only in the case of Universal Replicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#pvol_journal_id DataIntersightStorageHitachiRemoteReplication#pvol_journal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#pvol_journal_id DataIntersightStorageHitachiRemoteReplication#pvol_journal_id}
   */
   readonly pvolJournalId?: string;
   /**
   * LDEV number of primary volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#pvol_ldev_id DataIntersightStorageHitachiRemoteReplication#pvol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#pvol_ldev_id DataIntersightStorageHitachiRemoteReplication#pvol_ldev_id}
   */
   readonly pvolLdevId?: number;
   /**
   * Serial number of the storage system on the P-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#pvol_storage_serial DataIntersightStorageHitachiRemoteReplication#pvol_storage_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#pvol_storage_serial DataIntersightStorageHitachiRemoteReplication#pvol_storage_serial}
   */
   readonly pvolStorageSerial?: string;
   /**
   * ID of the Quorum disk. A value is input only in the case of global-active device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#quorum_disk_id DataIntersightStorageHitachiRemoteReplication#quorum_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#quorum_disk_id DataIntersightStorageHitachiRemoteReplication#quorum_disk_id}
   */
   readonly quorumDiskId?: string;
   /**
   * Pair type of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#replication_type DataIntersightStorageHitachiRemoteReplication#replication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#replication_type DataIntersightStorageHitachiRemoteReplication#replication_type}
   */
   readonly replicationType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#shared_scope DataIntersightStorageHitachiRemoteReplication#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#shared_scope DataIntersightStorageHitachiRemoteReplication#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Status of the remote copy pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#status DataIntersightStorageHitachiRemoteReplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#status DataIntersightStorageHitachiRemoteReplication#status}
   */
   readonly status?: string;
   /**
   * I-O mode of the S-VOL. Information is input only in the case of global-active device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#svol_io_mode DataIntersightStorageHitachiRemoteReplication#svol_io_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#svol_io_mode DataIntersightStorageHitachiRemoteReplication#svol_io_mode}
   */
   readonly svolIoMode?: string;
   /**
   * Journal ID of the S-VOL. A value is input only in the case of Universal Replicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#svol_journal_id DataIntersightStorageHitachiRemoteReplication#svol_journal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#svol_journal_id DataIntersightStorageHitachiRemoteReplication#svol_journal_id}
   */
   readonly svolJournalId?: string;
   /**
   * LDEV number of secondary volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#svol_ldev_id DataIntersightStorageHitachiRemoteReplication#svol_ldev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#svol_ldev_id DataIntersightStorageHitachiRemoteReplication#svol_ldev_id}
   */
   readonly svolLdevId?: number;
   /**
   * Serial number of the storage system on the S-VOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#svol_storage_serial DataIntersightStorageHitachiRemoteReplication#svol_storage_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#svol_storage_serial DataIntersightStorageHitachiRemoteReplication#svol_storage_serial}
   */
   readonly svolStorageSerial?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#ancestors DataIntersightStorageHitachiRemoteReplication#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#ancestors DataIntersightStorageHitachiRemoteReplication#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiRemoteReplicationAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#array DataIntersightStorageHitachiRemoteReplication#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#array DataIntersightStorageHitachiRemoteReplication#array}
   */
   readonly array?: DataIntersightStorageHitachiRemoteReplicationArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#parent DataIntersightStorageHitachiRemoteReplication#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#parent DataIntersightStorageHitachiRemoteReplication#parent}
   */
   readonly parent?: DataIntersightStorageHitachiRemoteReplicationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#permission_resources DataIntersightStorageHitachiRemoteReplication#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#permission_resources DataIntersightStorageHitachiRemoteReplication#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiRemoteReplicationPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#registered_device DataIntersightStorageHitachiRemoteReplication#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#registered_device DataIntersightStorageHitachiRemoteReplication#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiRemoteReplicationRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#tags DataIntersightStorageHitachiRemoteReplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#tags DataIntersightStorageHitachiRemoteReplication#tags}
   */
   readonly tags?: DataIntersightStorageHitachiRemoteReplicationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#version_context DataIntersightStorageHitachiRemoteReplication#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#version_context DataIntersightStorageHitachiRemoteReplication#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiRemoteReplicationVersionContext;
 }
@@ -968,6 +968,11 @@ export class DataIntersightStorageHitachiRemoteReplicationResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1558,7 +1563,7 @@ export class DataIntersightStorageHitachiRemoteReplicationResultsList extends cd
 }
 export interface DataIntersightStorageHitachiRemoteReplicationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1566,19 +1571,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1591,7 +1596,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -1823,7 +1828,7 @@ export class DataIntersightStorageHitachiRemoteReplicationAncestorsList extends 
 }
 export interface DataIntersightStorageHitachiRemoteReplicationArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1831,19 +1836,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1856,7 +1861,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -2056,7 +2061,7 @@ export class DataIntersightStorageHitachiRemoteReplicationArrayOutputReference e
 }
 export interface DataIntersightStorageHitachiRemoteReplicationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2064,19 +2069,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2089,7 +2094,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -2289,7 +2294,7 @@ export class DataIntersightStorageHitachiRemoteReplicationParentOutputReference 
 }
 export interface DataIntersightStorageHitachiRemoteReplicationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2297,19 +2302,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2322,7 +2327,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -2554,7 +2559,7 @@ export class DataIntersightStorageHitachiRemoteReplicationPermissionResourcesLis
 }
 export interface DataIntersightStorageHitachiRemoteReplicationRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2562,19 +2567,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2587,7 +2592,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -2787,7 +2792,7 @@ export class DataIntersightStorageHitachiRemoteReplicationRegisteredDeviceOutput
 }
 export interface DataIntersightStorageHitachiRemoteReplicationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2795,19 +2800,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2820,7 +2825,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -3052,7 +3057,7 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsAncestorDefinition
 }
 export interface DataIntersightStorageHitachiRemoteReplicationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3060,19 +3065,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3085,7 +3090,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -3285,45 +3290,51 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsDefinitionOutputRe
 }
 export interface DataIntersightStorageHitachiRemoteReplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#key DataIntersightStorageHitachiRemoteReplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#key DataIntersightStorageHitachiRemoteReplication#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#propagated DataIntersightStorageHitachiRemoteReplication#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#propagated DataIntersightStorageHitachiRemoteReplication#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#sys_tag DataIntersightStorageHitachiRemoteReplication#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#type DataIntersightStorageHitachiRemoteReplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#type DataIntersightStorageHitachiRemoteReplication#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#value DataIntersightStorageHitachiRemoteReplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#value DataIntersightStorageHitachiRemoteReplication#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#ancestor_definitions DataIntersightStorageHitachiRemoteReplication#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#ancestor_definitions DataIntersightStorageHitachiRemoteReplication#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiRemoteReplicationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#definition DataIntersightStorageHitachiRemoteReplication#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#definition DataIntersightStorageHitachiRemoteReplication#definition}
   */
   readonly definition?: DataIntersightStorageHitachiRemoteReplicationTagsDefinition;
 }
@@ -3337,6 +3348,7 @@ export function dataIntersightStorageHitachiRemoteReplicationTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageHitachiRemoteReplicationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3365,6 +3377,12 @@ export function dataIntersightStorageHitachiRemoteReplicationTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3431,6 +3449,10 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3457,6 +3479,7 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3472,6 +3495,7 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3525,6 +3549,22 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3613,7 +3653,7 @@ export class DataIntersightStorageHitachiRemoteReplicationTagsList extends cdktf
 }
 export interface DataIntersightStorageHitachiRemoteReplicationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3621,19 +3661,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3646,7 +3686,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -3878,7 +3918,7 @@ export class DataIntersightStorageHitachiRemoteReplicationVersionContextInterest
 }
 export interface DataIntersightStorageHitachiRemoteReplicationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3886,19 +3926,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#moid DataIntersightStorageHitachiRemoteReplication#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3911,7 +3951,7 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#selector DataIntersightStorageHitachiRemoteReplication#selector}
   */
   readonly selector?: string;
 }
@@ -4111,7 +4151,7 @@ export class DataIntersightStorageHitachiRemoteReplicationVersionContextRefMoOut
 }
 export interface DataIntersightStorageHitachiRemoteReplicationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#additional_properties DataIntersightStorageHitachiRemoteReplication#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4119,32 +4159,32 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#class_id DataIntersightStorageHitachiRemoteReplication#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#marked_for_deletion DataIntersightStorageHitachiRemoteReplication#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#marked_for_deletion DataIntersightStorageHitachiRemoteReplication#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#nr_version DataIntersightStorageHitachiRemoteReplication#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#nr_version DataIntersightStorageHitachiRemoteReplication#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#object_type DataIntersightStorageHitachiRemoteReplication#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#timestamp DataIntersightStorageHitachiRemoteReplication#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#timestamp DataIntersightStorageHitachiRemoteReplication#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4155,19 +4195,19 @@ export interface DataIntersightStorageHitachiRemoteReplicationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#version_type DataIntersightStorageHitachiRemoteReplication#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#version_type DataIntersightStorageHitachiRemoteReplication#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#interested_mos DataIntersightStorageHitachiRemoteReplication#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#interested_mos DataIntersightStorageHitachiRemoteReplication#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiRemoteReplicationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#ref_mo DataIntersightStorageHitachiRemoteReplication#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#ref_mo DataIntersightStorageHitachiRemoteReplication#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiRemoteReplicationVersionContextRefMo;
 }
@@ -4483,7 +4523,7 @@ export class DataIntersightStorageHitachiRemoteReplicationVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication intersight_storage_hitachi_remote_replication}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication intersight_storage_hitachi_remote_replication}
 */
 export class DataIntersightStorageHitachiRemoteReplication extends cdktf.TerraformDataSource {
 
@@ -4499,7 +4539,7 @@ export class DataIntersightStorageHitachiRemoteReplication extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightStorageHitachiRemoteReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiRemoteReplication to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiRemoteReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiRemoteReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiRemoteReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4511,7 +4551,7 @@ export class DataIntersightStorageHitachiRemoteReplication extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_hitachi_remote_replication intersight_storage_hitachi_remote_replication} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_remote_replication intersight_storage_hitachi_remote_replication} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4522,8 +4562,8 @@ export class DataIntersightStorageHitachiRemoteReplication extends cdktf.Terrafo
       terraformResourceType: 'intersight_storage_hitachi_remote_replication',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

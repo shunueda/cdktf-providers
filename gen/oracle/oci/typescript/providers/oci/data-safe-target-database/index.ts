@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeTargetDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#compartment_id DataSafeTargetDatabase#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#compartment_id DataSafeTargetDatabase#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#defined_tags DataSafeTargetDatabase#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#defined_tags DataSafeTargetDatabase#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#description DataSafeTargetDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#description DataSafeTargetDatabase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#display_name DataSafeTargetDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#display_name DataSafeTargetDatabase#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#freeform_tags DataSafeTargetDatabase#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#freeform_tags DataSafeTargetDatabase#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#id DataSafeTargetDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#id DataSafeTargetDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,37 +37,37 @@ export interface DataSafeTargetDatabaseConfig extends cdktf.TerraformMetaArgumen
   /**
   * connection_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#connection_option DataSafeTargetDatabase#connection_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#connection_option DataSafeTargetDatabase#connection_option}
   */
   readonly connectionOption?: DataSafeTargetDatabaseConnectionOption;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#credentials DataSafeTargetDatabase#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#credentials DataSafeTargetDatabase#credentials}
   */
   readonly credentials?: DataSafeTargetDatabaseCredentials;
   /**
   * database_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#database_details DataSafeTargetDatabase#database_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#database_details DataSafeTargetDatabase#database_details}
   */
   readonly databaseDetails: DataSafeTargetDatabaseDatabaseDetails;
   /**
   * peer_target_database_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#peer_target_database_details DataSafeTargetDatabase#peer_target_database_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#peer_target_database_details DataSafeTargetDatabase#peer_target_database_details}
   */
   readonly peerTargetDatabaseDetails?: DataSafeTargetDatabasePeerTargetDatabaseDetails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#timeouts DataSafeTargetDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#timeouts DataSafeTargetDatabase#timeouts}
   */
   readonly timeouts?: DataSafeTargetDatabaseTimeouts;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#tls_config DataSafeTargetDatabase#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#tls_config DataSafeTargetDatabase#tls_config}
   */
   readonly tlsConfig?: DataSafeTargetDatabaseTlsConfig;
 }
@@ -415,15 +415,15 @@ export class DataSafeTargetDatabasePeerTargetDatabasesList extends cdktf.Complex
 }
 export interface DataSafeTargetDatabaseConnectionOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#connection_type DataSafeTargetDatabase#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#connection_type DataSafeTargetDatabase#connection_type}
   */
   readonly connectionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#datasafe_private_endpoint_id DataSafeTargetDatabase#datasafe_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#datasafe_private_endpoint_id DataSafeTargetDatabase#datasafe_private_endpoint_id}
   */
   readonly datasafePrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#on_prem_connector_id DataSafeTargetDatabase#on_prem_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#on_prem_connector_id DataSafeTargetDatabase#on_prem_connector_id}
   */
   readonly onPremConnectorId?: string;
 }
@@ -562,11 +562,11 @@ export class DataSafeTargetDatabaseConnectionOptionOutputReference extends cdktf
 }
 export interface DataSafeTargetDatabaseCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#password DataSafeTargetDatabase#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#password DataSafeTargetDatabase#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#user_name DataSafeTargetDatabase#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#user_name DataSafeTargetDatabase#user_name}
   */
   readonly userName: string;
 }
@@ -673,43 +673,43 @@ export class DataSafeTargetDatabaseCredentialsOutputReference extends cdktf.Comp
 }
 export interface DataSafeTargetDatabaseDatabaseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#autonomous_database_id DataSafeTargetDatabase#autonomous_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#autonomous_database_id DataSafeTargetDatabase#autonomous_database_id}
   */
   readonly autonomousDatabaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#database_type DataSafeTargetDatabase#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#database_type DataSafeTargetDatabase#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#db_system_id DataSafeTargetDatabase#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#db_system_id DataSafeTargetDatabase#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#infrastructure_type DataSafeTargetDatabase#infrastructure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#infrastructure_type DataSafeTargetDatabase#infrastructure_type}
   */
   readonly infrastructureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#instance_id DataSafeTargetDatabase#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#instance_id DataSafeTargetDatabase#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#ip_addresses DataSafeTargetDatabase#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#ip_addresses DataSafeTargetDatabase#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#listener_port DataSafeTargetDatabase#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#listener_port DataSafeTargetDatabase#listener_port}
   */
   readonly listenerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#pluggable_database_id DataSafeTargetDatabase#pluggable_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#pluggable_database_id DataSafeTargetDatabase#pluggable_database_id}
   */
   readonly pluggableDatabaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#service_name DataSafeTargetDatabase#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#service_name DataSafeTargetDatabase#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#vm_cluster_id DataSafeTargetDatabase#vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#vm_cluster_id DataSafeTargetDatabase#vm_cluster_id}
   */
   readonly vmClusterId?: string;
 }
@@ -1048,43 +1048,43 @@ export class DataSafeTargetDatabaseDatabaseDetailsOutputReference extends cdktf.
 }
 export interface DataSafeTargetDatabasePeerTargetDatabaseDetailsDatabaseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#autonomous_database_id DataSafeTargetDatabase#autonomous_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#autonomous_database_id DataSafeTargetDatabase#autonomous_database_id}
   */
   readonly autonomousDatabaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#database_type DataSafeTargetDatabase#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#database_type DataSafeTargetDatabase#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#db_system_id DataSafeTargetDatabase#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#db_system_id DataSafeTargetDatabase#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#infrastructure_type DataSafeTargetDatabase#infrastructure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#infrastructure_type DataSafeTargetDatabase#infrastructure_type}
   */
   readonly infrastructureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#instance_id DataSafeTargetDatabase#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#instance_id DataSafeTargetDatabase#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#ip_addresses DataSafeTargetDatabase#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#ip_addresses DataSafeTargetDatabase#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#listener_port DataSafeTargetDatabase#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#listener_port DataSafeTargetDatabase#listener_port}
   */
   readonly listenerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#pluggable_database_id DataSafeTargetDatabase#pluggable_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#pluggable_database_id DataSafeTargetDatabase#pluggable_database_id}
   */
   readonly pluggableDatabaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#service_name DataSafeTargetDatabase#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#service_name DataSafeTargetDatabase#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#vm_cluster_id DataSafeTargetDatabase#vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#vm_cluster_id DataSafeTargetDatabase#vm_cluster_id}
   */
   readonly vmClusterId?: string;
 }
@@ -1423,23 +1423,23 @@ export class DataSafeTargetDatabasePeerTargetDatabaseDetailsDatabaseDetailsOutpu
 }
 export interface DataSafeTargetDatabasePeerTargetDatabaseDetailsTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}
   */
   readonly certificateStoreType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}
   */
   readonly keyStoreContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}
   */
   readonly storePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}
   */
   readonly trustStoreContent?: string;
 }
@@ -1636,27 +1636,27 @@ export class DataSafeTargetDatabasePeerTargetDatabaseDetailsTlsConfigOutputRefer
 }
 export interface DataSafeTargetDatabasePeerTargetDatabaseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#dataguard_association_id DataSafeTargetDatabase#dataguard_association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#dataguard_association_id DataSafeTargetDatabase#dataguard_association_id}
   */
   readonly dataguardAssociationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#description DataSafeTargetDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#description DataSafeTargetDatabase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#display_name DataSafeTargetDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#display_name DataSafeTargetDatabase#display_name}
   */
   readonly displayName?: string;
   /**
   * database_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#database_details DataSafeTargetDatabase#database_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#database_details DataSafeTargetDatabase#database_details}
   */
   readonly databaseDetails: DataSafeTargetDatabasePeerTargetDatabaseDetailsDatabaseDetails;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#tls_config DataSafeTargetDatabase#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#tls_config DataSafeTargetDatabase#tls_config}
   */
   readonly tlsConfig?: DataSafeTargetDatabasePeerTargetDatabaseDetailsTlsConfig;
 }
@@ -1885,15 +1885,15 @@ export class DataSafeTargetDatabasePeerTargetDatabaseDetailsList extends cdktf.C
 }
 export interface DataSafeTargetDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#create DataSafeTargetDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#create DataSafeTargetDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#delete DataSafeTargetDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#delete DataSafeTargetDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#update DataSafeTargetDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#update DataSafeTargetDatabase#update}
   */
   readonly update?: string;
 }
@@ -2045,23 +2045,23 @@ export class DataSafeTargetDatabaseTimeoutsOutputReference extends cdktf.Complex
 }
 export interface DataSafeTargetDatabaseTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}
   */
   readonly certificateStoreType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}
   */
   readonly keyStoreContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}
   */
   readonly storePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}
   */
   readonly trustStoreContent?: string;
 }
@@ -2258,7 +2258,7 @@ export class DataSafeTargetDatabaseTlsConfigOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database oci_data_safe_target_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database oci_data_safe_target_database}
 */
 export class DataSafeTargetDatabase extends cdktf.TerraformResource {
 
@@ -2274,7 +2274,7 @@ export class DataSafeTargetDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeTargetDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeTargetDatabase to import
-  * @param importFromId The id of the existing DataSafeTargetDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeTargetDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeTargetDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2286,7 +2286,7 @@ export class DataSafeTargetDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_target_database oci_data_safe_target_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_target_database oci_data_safe_target_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2297,8 +2297,8 @@ export class DataSafeTargetDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_target_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

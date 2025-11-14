@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#account_moid DataIntersightCapabilityStandardRedfishSupportMeta#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#account_moid DataIntersightCapabilityStandardRedfishSupportMeta#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#create_time DataIntersightCapabilityStandardRedfishSupportMeta#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#create_time DataIntersightCapabilityStandardRedfishSupportMeta#create_time}
   */
   readonly createTime?: string;
   /**
   * Verbose description regarding this group of platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#description DataIntersightCapabilityStandardRedfishSupportMeta#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#description DataIntersightCapabilityStandardRedfishSupportMeta#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#domain_group_moid DataIntersightCapabilityStandardRedfishSupportMeta#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#domain_group_moid DataIntersightCapabilityStandardRedfishSupportMeta#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#id DataIntersightCapabilityStandardRedfishSupportMeta#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#id DataIntersightCapabilityStandardRedfishSupportMeta#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,77 +53,77 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#mod_time DataIntersightCapabilityStandardRedfishSupportMeta#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#mod_time DataIntersightCapabilityStandardRedfishSupportMeta#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#name DataIntersightCapabilityStandardRedfishSupportMeta#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#name DataIntersightCapabilityStandardRedfishSupportMeta#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#owners DataIntersightCapabilityStandardRedfishSupportMeta#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#owners DataIntersightCapabilityStandardRedfishSupportMeta#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#platform_type DataIntersightCapabilityStandardRedfishSupportMeta#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#platform_type DataIntersightCapabilityStandardRedfishSupportMeta#platform_type}
   */
   readonly platformType?: string[];
   /**
   * Classification of a set of server platform type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#series_id DataIntersightCapabilityStandardRedfishSupportMeta#series_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#series_id DataIntersightCapabilityStandardRedfishSupportMeta#series_id}
   */
   readonly seriesId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#shared_scope DataIntersightCapabilityStandardRedfishSupportMeta#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#shared_scope DataIntersightCapabilityStandardRedfishSupportMeta#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#ancestors DataIntersightCapabilityStandardRedfishSupportMeta#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#ancestors DataIntersightCapabilityStandardRedfishSupportMeta#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityStandardRedfishSupportMetaAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#parent DataIntersightCapabilityStandardRedfishSupportMeta#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#parent DataIntersightCapabilityStandardRedfishSupportMeta#parent}
   */
   readonly parent?: DataIntersightCapabilityStandardRedfishSupportMetaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#permission_resources DataIntersightCapabilityStandardRedfishSupportMeta#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#permission_resources DataIntersightCapabilityStandardRedfishSupportMeta#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityStandardRedfishSupportMetaPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#tags DataIntersightCapabilityStandardRedfishSupportMeta#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#tags DataIntersightCapabilityStandardRedfishSupportMeta#tags}
   */
   readonly tags?: DataIntersightCapabilityStandardRedfishSupportMetaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#version_context DataIntersightCapabilityStandardRedfishSupportMeta#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#version_context DataIntersightCapabilityStandardRedfishSupportMeta#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityStandardRedfishSupportMetaVersionContext;
 }
@@ -680,6 +680,11 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaResultsTagsOutput
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1188,7 +1193,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaResultsList exten
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1196,19 +1201,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1221,7 +1226,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1453,7 +1458,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaAncestorsList ext
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1461,19 +1466,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1486,7 +1491,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1686,7 +1691,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaParentOutputRefer
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1694,19 +1699,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1719,7 +1724,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1951,7 +1956,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaPermissionResourc
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1959,19 +1964,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1984,7 +1989,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2216,7 +2221,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorDefin
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2224,19 +2229,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2249,7 +2254,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2449,45 +2454,51 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsDefinitionOut
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#key DataIntersightCapabilityStandardRedfishSupportMeta#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#key DataIntersightCapabilityStandardRedfishSupportMeta#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#propagated DataIntersightCapabilityStandardRedfishSupportMeta#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#propagated DataIntersightCapabilityStandardRedfishSupportMeta#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#sys_tag DataIntersightCapabilityStandardRedfishSupportMeta#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#type DataIntersightCapabilityStandardRedfishSupportMeta#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#type DataIntersightCapabilityStandardRedfishSupportMeta#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#value DataIntersightCapabilityStandardRedfishSupportMeta#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#value DataIntersightCapabilityStandardRedfishSupportMeta#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#ancestor_definitions DataIntersightCapabilityStandardRedfishSupportMeta#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#ancestor_definitions DataIntersightCapabilityStandardRedfishSupportMeta#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#definition DataIntersightCapabilityStandardRedfishSupportMeta#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#definition DataIntersightCapabilityStandardRedfishSupportMeta#definition}
   */
   readonly definition?: DataIntersightCapabilityStandardRedfishSupportMetaTagsDefinition;
 }
@@ -2501,6 +2512,7 @@ export function dataIntersightCapabilityStandardRedfishSupportMetaTagsToTerrafor
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityStandardRedfishSupportMetaTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2529,6 +2541,12 @@ export function dataIntersightCapabilityStandardRedfishSupportMetaTagsToHclTerra
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2595,6 +2613,10 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsOutputReferen
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2621,6 +2643,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsOutputReferen
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2636,6 +2659,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsOutputReferen
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2689,6 +2713,22 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsOutputReferen
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2777,7 +2817,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaTagsList extends 
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2785,19 +2825,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2810,7 +2850,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3042,7 +3082,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaVersionContextInt
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3050,19 +3090,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#moid DataIntersightCapabilityStandardRedfishSupportMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3075,7 +3115,7 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#selector DataIntersightCapabilityStandardRedfishSupportMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3275,7 +3315,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaVersionContextRef
 }
 export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#additional_properties DataIntersightCapabilityStandardRedfishSupportMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3283,32 +3323,32 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#class_id DataIntersightCapabilityStandardRedfishSupportMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#marked_for_deletion DataIntersightCapabilityStandardRedfishSupportMeta#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#marked_for_deletion DataIntersightCapabilityStandardRedfishSupportMeta#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#nr_version DataIntersightCapabilityStandardRedfishSupportMeta#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#nr_version DataIntersightCapabilityStandardRedfishSupportMeta#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#object_type DataIntersightCapabilityStandardRedfishSupportMeta#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#timestamp DataIntersightCapabilityStandardRedfishSupportMeta#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#timestamp DataIntersightCapabilityStandardRedfishSupportMeta#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3319,19 +3359,19 @@ export interface DataIntersightCapabilityStandardRedfishSupportMetaVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#version_type DataIntersightCapabilityStandardRedfishSupportMeta#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#version_type DataIntersightCapabilityStandardRedfishSupportMeta#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#interested_mos DataIntersightCapabilityStandardRedfishSupportMeta#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#interested_mos DataIntersightCapabilityStandardRedfishSupportMeta#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityStandardRedfishSupportMetaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#ref_mo DataIntersightCapabilityStandardRedfishSupportMeta#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#ref_mo DataIntersightCapabilityStandardRedfishSupportMeta#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityStandardRedfishSupportMetaVersionContextRefMo;
 }
@@ -3647,7 +3687,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMetaVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta intersight_capability_standard_redfish_support_meta}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta intersight_capability_standard_redfish_support_meta}
 */
 export class DataIntersightCapabilityStandardRedfishSupportMeta extends cdktf.TerraformDataSource {
 
@@ -3663,7 +3703,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMeta extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightCapabilityStandardRedfishSupportMeta resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityStandardRedfishSupportMeta to import
-  * @param importFromId The id of the existing DataIntersightCapabilityStandardRedfishSupportMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityStandardRedfishSupportMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityStandardRedfishSupportMeta to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3675,7 +3715,7 @@ export class DataIntersightCapabilityStandardRedfishSupportMeta extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_standard_redfish_support_meta intersight_capability_standard_redfish_support_meta} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_standard_redfish_support_meta intersight_capability_standard_redfish_support_meta} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3686,8 +3726,8 @@ export class DataIntersightCapabilityStandardRedfishSupportMeta extends cdktf.Te
       terraformResourceType: 'intersight_capability_standard_redfish_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FirmwareUpgradeImpactConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#account_moid FirmwareUpgradeImpact#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#account_moid FirmwareUpgradeImpact#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#ancestors FirmwareUpgradeImpact#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#ancestors FirmwareUpgradeImpact#ancestors}
   */
   readonly ancestors?: FirmwareUpgradeImpactAncestors[] | cdktf.IResolvable;
   /**
   * An array of relationships to equipmentChassis resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#chassis FirmwareUpgradeImpact#chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#chassis FirmwareUpgradeImpact#chassis}
   */
   readonly chassis?: FirmwareUpgradeImpactChassis[] | cdktf.IResolvable;
   /**
@@ -34,11 +34,11 @@ export interface FirmwareUpgradeImpactConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#components FirmwareUpgradeImpact#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#components FirmwareUpgradeImpact#components}
   */
   readonly components?: string[];
   /**
@@ -47,119 +47,119 @@ export interface FirmwareUpgradeImpactConfig extends cdktf.TerraformMetaArgument
   * * `Completed` - Upgrade impact calculation is completed.
   * * `Unavailable` - Upgrade impact is not available since image is not present in FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#computation_state FirmwareUpgradeImpact#computation_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#computation_state FirmwareUpgradeImpact#computation_state}
   */
   readonly computationState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#create_time FirmwareUpgradeImpact#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#create_time FirmwareUpgradeImpact#create_time}
   */
   readonly createTime?: string;
   /**
   * An array of relationships to assetDeviceRegistration resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#device FirmwareUpgradeImpact#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#device FirmwareUpgradeImpact#device}
   */
   readonly device?: FirmwareUpgradeImpactDevice[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareDistributable resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#distributable FirmwareUpgradeImpact#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#distributable FirmwareUpgradeImpact#distributable}
   */
   readonly distributable?: FirmwareUpgradeImpactDistributable[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#domain_group_moid FirmwareUpgradeImpact#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#domain_group_moid FirmwareUpgradeImpact#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#exclude_component_list FirmwareUpgradeImpact#exclude_component_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#exclude_component_list FirmwareUpgradeImpact#exclude_component_list}
   */
   readonly excludeComponentList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#exclude_components FirmwareUpgradeImpact#exclude_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#exclude_components FirmwareUpgradeImpact#exclude_components}
   */
   readonly excludeComponents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#id FirmwareUpgradeImpact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#id FirmwareUpgradeImpact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#impacts FirmwareUpgradeImpact#impacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#impacts FirmwareUpgradeImpact#impacts}
   */
   readonly impacts?: FirmwareUpgradeImpactImpacts[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#mod_time FirmwareUpgradeImpact#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#mod_time FirmwareUpgradeImpact#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * An array of relationships to networkElement resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#network_elements FirmwareUpgradeImpact#network_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#network_elements FirmwareUpgradeImpact#network_elements}
   */
   readonly networkElements?: FirmwareUpgradeImpactNetworkElements[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#owners FirmwareUpgradeImpact#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#owners FirmwareUpgradeImpact#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#parent FirmwareUpgradeImpact#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#parent FirmwareUpgradeImpact#parent}
   */
   readonly parent?: FirmwareUpgradeImpactParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to pciNode resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#pci_node FirmwareUpgradeImpact#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#pci_node FirmwareUpgradeImpact#pci_node}
   */
   readonly pciNode?: FirmwareUpgradeImpactPciNode[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#permission_resources FirmwareUpgradeImpact#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#permission_resources FirmwareUpgradeImpact#permission_resources}
   */
   readonly permissionResources?: FirmwareUpgradeImpactPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#release FirmwareUpgradeImpact#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#release FirmwareUpgradeImpact#release}
   */
   readonly release?: FirmwareUpgradeImpactRelease[] | cdktf.IResolvable;
   /**
   * An array of relationships to computePhysical resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#server FirmwareUpgradeImpact#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#server FirmwareUpgradeImpact#server}
   */
   readonly server?: FirmwareUpgradeImpactServer[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#shared_scope FirmwareUpgradeImpact#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#shared_scope FirmwareUpgradeImpact#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -167,17 +167,17 @@ export interface FirmwareUpgradeImpactConfig extends cdktf.TerraformMetaArgument
   * * `Basic` - Summary of a single instance involved in the upgrade operation.
   * * `Detail` - Summary of the collection of single instances for a complex component involved in the upgrade operation. For example, in case of a server upgrade, a detailed summary indicates impact of all the single instances which are part of the server, such as storage controller, drives, and BIOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#summary FirmwareUpgradeImpact#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#summary FirmwareUpgradeImpact#summary}
   */
   readonly summary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#tags FirmwareUpgradeImpact#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#tags FirmwareUpgradeImpact#tags}
   */
   readonly tags?: FirmwareUpgradeImpactTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#version_context FirmwareUpgradeImpact#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#version_context FirmwareUpgradeImpact#version_context}
   */
   readonly versionContext?: FirmwareUpgradeImpactVersionContext[] | cdktf.IResolvable;
   /**
@@ -186,29 +186,29 @@ export interface FirmwareUpgradeImpactConfig extends cdktf.TerraformMetaArgument
   * * `full-shutdown` - PSX Switch in XFM will be upgraded in single action.
   * * `partial-shutdown` - PSX Switch in XFM will be upgraded one after other.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#xfm_upgrade_option FirmwareUpgradeImpact#xfm_upgrade_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#xfm_upgrade_option FirmwareUpgradeImpact#xfm_upgrade_option}
   */
   readonly xfmUpgradeOption?: string;
 }
 export interface FirmwareUpgradeImpactAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -440,23 +440,23 @@ export class FirmwareUpgradeImpactAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -688,23 +688,23 @@ export class FirmwareUpgradeImpactChassisList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -936,23 +936,23 @@ export class FirmwareUpgradeImpactDeviceList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -1184,51 +1184,51 @@ export class FirmwareUpgradeImpactDistributableList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactImpacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#computation_error FirmwareUpgradeImpact#computation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#computation_error FirmwareUpgradeImpact#computation_error}
   */
   readonly computationError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#computation_status_detail FirmwareUpgradeImpact#computation_status_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#computation_status_detail FirmwareUpgradeImpact#computation_status_detail}
   */
   readonly computationStatusDetail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#domain_name FirmwareUpgradeImpact#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#domain_name FirmwareUpgradeImpact#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#end_point FirmwareUpgradeImpact#end_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#end_point FirmwareUpgradeImpact#end_point}
   */
   readonly endPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#firmware_version FirmwareUpgradeImpact#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#firmware_version FirmwareUpgradeImpact#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#impact_type FirmwareUpgradeImpact#impact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#impact_type FirmwareUpgradeImpact#impact_type}
   */
   readonly impactType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#model FirmwareUpgradeImpact#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#model FirmwareUpgradeImpact#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#target_firmware_version FirmwareUpgradeImpact#target_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#target_firmware_version FirmwareUpgradeImpact#target_firmware_version}
   */
   readonly targetFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#version_impact FirmwareUpgradeImpact#version_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#version_impact FirmwareUpgradeImpact#version_impact}
   */
   readonly versionImpact?: string;
 }
@@ -1663,23 +1663,23 @@ export class FirmwareUpgradeImpactImpactsList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactNetworkElements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -1911,23 +1911,23 @@ export class FirmwareUpgradeImpactNetworkElementsList extends cdktf.ComplexList 
 }
 export interface FirmwareUpgradeImpactParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2159,23 +2159,23 @@ export class FirmwareUpgradeImpactParentList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactPciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2407,23 +2407,23 @@ export class FirmwareUpgradeImpactPciNodeList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2655,23 +2655,23 @@ export class FirmwareUpgradeImpactPermissionResourcesList extends cdktf.ComplexL
 }
 export interface FirmwareUpgradeImpactRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2903,23 +2903,23 @@ export class FirmwareUpgradeImpactReleaseList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -3151,23 +3151,23 @@ export class FirmwareUpgradeImpactServerList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -3399,23 +3399,23 @@ export class FirmwareUpgradeImpactTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface FirmwareUpgradeImpactTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -3647,31 +3647,35 @@ export class FirmwareUpgradeImpactTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#ancestor_definitions FirmwareUpgradeImpact#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#ancestor_definitions FirmwareUpgradeImpact#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareUpgradeImpactTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#definition FirmwareUpgradeImpact#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#definition FirmwareUpgradeImpact#definition}
   */
   readonly definition?: FirmwareUpgradeImpactTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#key FirmwareUpgradeImpact#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#key FirmwareUpgradeImpact#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#propagated FirmwareUpgradeImpact#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#propagated FirmwareUpgradeImpact#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#type FirmwareUpgradeImpact#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#sys_tag FirmwareUpgradeImpact#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#type FirmwareUpgradeImpact#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#value FirmwareUpgradeImpact#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#value FirmwareUpgradeImpact#value}
   */
   readonly value?: string;
 }
@@ -3687,6 +3691,7 @@ export function firmwareUpgradeImpactTagsToTerraform(struct?: FirmwareUpgradeImp
     definition: cdktf.listMapper(firmwareUpgradeImpactTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3725,6 +3730,12 @@ export function firmwareUpgradeImpactTagsToHclTerraform(struct?: FirmwareUpgrade
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3787,6 +3798,10 @@ export class FirmwareUpgradeImpactTagsOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3807,6 +3822,7 @@ export class FirmwareUpgradeImpactTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3822,6 +3838,7 @@ export class FirmwareUpgradeImpactTagsOutputReference extends cdktf.ComplexObjec
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3907,6 +3924,22 @@ export class FirmwareUpgradeImpactTagsOutputReference extends cdktf.ComplexObjec
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3961,23 +3994,23 @@ export class FirmwareUpgradeImpactTagsList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeImpactVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -4209,23 +4242,23 @@ export class FirmwareUpgradeImpactVersionContextInterestedMosList extends cdktf.
 }
 export interface FirmwareUpgradeImpactVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#moid FirmwareUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#selector FirmwareUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -4457,39 +4490,39 @@ export class FirmwareUpgradeImpactVersionContextRefMoList extends cdktf.ComplexL
 }
 export interface FirmwareUpgradeImpactVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#additional_properties FirmwareUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#class_id FirmwareUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#interested_mos FirmwareUpgradeImpact#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#interested_mos FirmwareUpgradeImpact#interested_mos}
   */
   readonly interestedMos?: FirmwareUpgradeImpactVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#marked_for_deletion FirmwareUpgradeImpact#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#marked_for_deletion FirmwareUpgradeImpact#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#nr_version FirmwareUpgradeImpact#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#nr_version FirmwareUpgradeImpact#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#object_type FirmwareUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#ref_mo FirmwareUpgradeImpact#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#ref_mo FirmwareUpgradeImpact#ref_mo}
   */
   readonly refMo?: FirmwareUpgradeImpactVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#timestamp FirmwareUpgradeImpact#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#timestamp FirmwareUpgradeImpact#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#version_type FirmwareUpgradeImpact#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#version_type FirmwareUpgradeImpact#version_type}
   */
   readonly versionType?: string;
 }
@@ -4837,7 +4870,7 @@ export class FirmwareUpgradeImpactVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact intersight_firmware_upgrade_impact}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact intersight_firmware_upgrade_impact}
 */
 export class FirmwareUpgradeImpact extends cdktf.TerraformResource {
 
@@ -4853,7 +4886,7 @@ export class FirmwareUpgradeImpact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwareUpgradeImpact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareUpgradeImpact to import
-  * @param importFromId The id of the existing FirmwareUpgradeImpact that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareUpgradeImpact that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareUpgradeImpact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4865,7 +4898,7 @@ export class FirmwareUpgradeImpact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_upgrade_impact intersight_firmware_upgrade_impact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_impact intersight_firmware_upgrade_impact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4876,8 +4909,8 @@ export class FirmwareUpgradeImpact extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_upgrade_impact',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

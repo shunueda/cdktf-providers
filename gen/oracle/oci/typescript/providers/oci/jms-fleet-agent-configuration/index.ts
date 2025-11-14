@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface JmsFleetAgentConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}
   */
   readonly agentPollingIntervalInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}
   */
   readonly isCapturingIpAddressAndFqdnEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}
   */
   readonly isCollectingManagedInstanceMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}
   */
   readonly isCollectingUsernamesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}
   */
   readonly isLibrariesScanEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}
   */
   readonly javaUsageTrackerProcessingFrequencyInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}
   */
   readonly jreScanFrequencyInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}
   */
   readonly workRequestValidityPeriodInDays?: number;
   /**
   * linux_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
   */
   readonly linuxConfiguration?: JmsFleetAgentConfigurationLinuxConfiguration;
   /**
   * mac_os_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
   */
   readonly macOsConfiguration?: JmsFleetAgentConfigurationMacOsConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
   */
   readonly timeouts?: JmsFleetAgentConfigurationTimeouts;
   /**
   * windows_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
   */
   readonly windowsConfiguration?: JmsFleetAgentConfigurationWindowsConfiguration;
 }
 export interface JmsFleetAgentConfigurationLinuxConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
   */
   readonly excludePaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
   */
   readonly includePaths: string[];
 }
@@ -188,11 +188,11 @@ export class JmsFleetAgentConfigurationLinuxConfigurationOutputReference extends
 }
 export interface JmsFleetAgentConfigurationMacOsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
   */
   readonly excludePaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
   */
   readonly includePaths: string[];
 }
@@ -299,15 +299,15 @@ export class JmsFleetAgentConfigurationMacOsConfigurationOutputReference extends
 }
 export interface JmsFleetAgentConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#create JmsFleetAgentConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#create JmsFleetAgentConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#delete JmsFleetAgentConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#delete JmsFleetAgentConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#update JmsFleetAgentConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#update JmsFleetAgentConfiguration#update}
   */
   readonly update?: string;
 }
@@ -459,11 +459,11 @@ export class JmsFleetAgentConfigurationTimeoutsOutputReference extends cdktf.Com
 }
 export interface JmsFleetAgentConfigurationWindowsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#exclude_paths JmsFleetAgentConfiguration#exclude_paths}
   */
   readonly excludePaths: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#include_paths JmsFleetAgentConfiguration#include_paths}
   */
   readonly includePaths: string[];
 }
@@ -570,7 +570,7 @@ export class JmsFleetAgentConfigurationWindowsConfigurationOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration oci_jms_fleet_agent_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration oci_jms_fleet_agent_configuration}
 */
 export class JmsFleetAgentConfiguration extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class JmsFleetAgentConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JmsFleetAgentConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsFleetAgentConfiguration to import
-  * @param importFromId The id of the existing JmsFleetAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsFleetAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsFleetAgentConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class JmsFleetAgentConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet_agent_configuration oci_jms_fleet_agent_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet_agent_configuration oci_jms_fleet_agent_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class JmsFleetAgentConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_jms_fleet_agent_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

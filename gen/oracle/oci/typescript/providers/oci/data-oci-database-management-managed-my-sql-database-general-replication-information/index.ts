@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation#managed_my_sql_database_id}
   */
   readonly managedMySqlDatabaseId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information oci_database_management_managed_my_sql_database_general_replication_information}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information oci_database_management_managed_my_sql_database_general_replication_information}
 */
 export class DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInfo
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInformation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInfo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_general_replication_information oci_database_management_managed_my_sql_database_general_replication_information} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_general_replication_information oci_database_management_managed_my_sql_database_general_replication_information} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseGeneralReplicationInfo
       terraformResourceType: 'oci_database_management_managed_my_sql_database_general_replication_information',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

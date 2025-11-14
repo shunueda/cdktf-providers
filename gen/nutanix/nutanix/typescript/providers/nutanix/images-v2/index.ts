@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ImagesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#category_ext_ids ImagesV2#category_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#category_ext_ids ImagesV2#category_ext_ids}
   */
   readonly categoryExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#cluster_location_ext_ids ImagesV2#cluster_location_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#cluster_location_ext_ids ImagesV2#cluster_location_ext_ids}
   */
   readonly clusterLocationExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#description ImagesV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#description ImagesV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#id ImagesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#id ImagesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#name ImagesV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#name ImagesV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#type ImagesV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#type ImagesV2#type}
   */
   readonly type: string;
   /**
   * checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#checksum ImagesV2#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#checksum ImagesV2#checksum}
   */
   readonly checksum?: ImagesV2Checksum[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#source ImagesV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#source ImagesV2#source}
   */
   readonly source?: ImagesV2Source[] | cdktf.IResolvable;
 }
@@ -229,11 +229,11 @@ export class ImagesV2PlacementPolicyStatusList extends cdktf.ComplexList {
 }
 export interface ImagesV2Checksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#hex_digest ImagesV2#hex_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#hex_digest ImagesV2#hex_digest}
   */
   readonly hexDigest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#object_type ImagesV2#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#object_type ImagesV2#object_type}
   */
   readonly objectType: string;
 }
@@ -372,7 +372,7 @@ export class ImagesV2ChecksumList extends cdktf.ComplexList {
 }
 export interface ImagesV2SourceObjectLiteSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#key ImagesV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#key ImagesV2#key}
   */
   readonly key: string;
 }
@@ -485,11 +485,11 @@ export class ImagesV2SourceObjectLiteSourceList extends cdktf.ComplexList {
 }
 export interface ImagesV2SourceUrlSourceBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#password ImagesV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#password ImagesV2#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#username ImagesV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#username ImagesV2#username}
   */
   readonly username: string;
 }
@@ -628,17 +628,17 @@ export class ImagesV2SourceUrlSourceBasicAuthList extends cdktf.ComplexList {
 }
 export interface ImagesV2SourceUrlSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#should_allow_insecure_url ImagesV2#should_allow_insecure_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#should_allow_insecure_url ImagesV2#should_allow_insecure_url}
   */
   readonly shouldAllowInsecureUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#url ImagesV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#url ImagesV2#url}
   */
   readonly url: string;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#basic_auth ImagesV2#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#basic_auth ImagesV2#basic_auth}
   */
   readonly basicAuth?: ImagesV2SourceUrlSourceBasicAuth[] | cdktf.IResolvable;
 }
@@ -809,7 +809,7 @@ export class ImagesV2SourceUrlSourceList extends cdktf.ComplexList {
 }
 export interface ImagesV2SourceVmDiskSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#ext_id ImagesV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#ext_id ImagesV2#ext_id}
   */
   readonly extId: string;
 }
@@ -924,19 +924,19 @@ export interface ImagesV2Source {
   /**
   * object_lite_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#object_lite_source ImagesV2#object_lite_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#object_lite_source ImagesV2#object_lite_source}
   */
   readonly objectLiteSource?: ImagesV2SourceObjectLiteSource[] | cdktf.IResolvable;
   /**
   * url_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#url_source ImagesV2#url_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#url_source ImagesV2#url_source}
   */
   readonly urlSource?: ImagesV2SourceUrlSource[] | cdktf.IResolvable;
   /**
   * vm_disk_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#vm_disk_source ImagesV2#vm_disk_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#vm_disk_source ImagesV2#vm_disk_source}
   */
   readonly vmDiskSource?: ImagesV2SourceVmDiskSource[] | cdktf.IResolvable;
 }
@@ -1110,7 +1110,7 @@ export class ImagesV2SourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2 nutanix_images_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2 nutanix_images_v2}
 */
 export class ImagesV2 extends cdktf.TerraformResource {
 
@@ -1126,7 +1126,7 @@ export class ImagesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImagesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagesV2 to import
-  * @param importFromId The id of the existing ImagesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1138,7 +1138,7 @@ export class ImagesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/images_v2 nutanix_images_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/images_v2 nutanix_images_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1149,8 +1149,8 @@ export class ImagesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_images_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

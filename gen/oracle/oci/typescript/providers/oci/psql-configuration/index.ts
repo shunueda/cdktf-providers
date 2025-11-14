@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface PsqlConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#compartment_id PsqlConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#compartment_id PsqlConfiguration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#compatible_shapes PsqlConfiguration#compatible_shapes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#compatible_shapes PsqlConfiguration#compatible_shapes}
   */
   readonly compatibleShapes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#db_version PsqlConfiguration#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#db_version PsqlConfiguration#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#defined_tags PsqlConfiguration#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#defined_tags PsqlConfiguration#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#description PsqlConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#description PsqlConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#display_name PsqlConfiguration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#display_name PsqlConfiguration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#freeform_tags PsqlConfiguration#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#freeform_tags PsqlConfiguration#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#id PsqlConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#id PsqlConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#instance_memory_size_in_gbs PsqlConfiguration#instance_memory_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#instance_memory_size_in_gbs PsqlConfiguration#instance_memory_size_in_gbs}
   */
   readonly instanceMemorySizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#instance_ocpu_count PsqlConfiguration#instance_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#instance_ocpu_count PsqlConfiguration#instance_ocpu_count}
   */
   readonly instanceOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#is_flexible PsqlConfiguration#is_flexible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#is_flexible PsqlConfiguration#is_flexible}
   */
   readonly isFlexible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#shape PsqlConfiguration#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#shape PsqlConfiguration#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#system_tags PsqlConfiguration#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#system_tags PsqlConfiguration#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * db_configuration_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#db_configuration_overrides PsqlConfiguration#db_configuration_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#db_configuration_overrides PsqlConfiguration#db_configuration_overrides}
   */
   readonly dbConfigurationOverrides: PsqlConfigurationDbConfigurationOverrides;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#timeouts PsqlConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#timeouts PsqlConfiguration#timeouts}
   */
   readonly timeouts?: PsqlConfigurationTimeouts;
 }
@@ -263,11 +263,11 @@ export class PsqlConfigurationConfigurationDetailsList extends cdktf.ComplexList
 }
 export interface PsqlConfigurationDbConfigurationOverridesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#config_key PsqlConfiguration#config_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#config_key PsqlConfiguration#config_key}
   */
   readonly configKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#overriden_config_value PsqlConfiguration#overriden_config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#overriden_config_value PsqlConfiguration#overriden_config_value}
   */
   readonly overridenConfigValue: string;
 }
@@ -408,7 +408,7 @@ export interface PsqlConfigurationDbConfigurationOverrides {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#items PsqlConfiguration#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#items PsqlConfiguration#items}
   */
   readonly items: PsqlConfigurationDbConfigurationOverridesItems[] | cdktf.IResolvable;
 }
@@ -489,15 +489,15 @@ export class PsqlConfigurationDbConfigurationOverridesOutputReference extends cd
 }
 export interface PsqlConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#create PsqlConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#create PsqlConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#delete PsqlConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#delete PsqlConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#update PsqlConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#update PsqlConfiguration#update}
   */
   readonly update?: string;
 }
@@ -649,7 +649,7 @@ export class PsqlConfigurationTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration oci_psql_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration oci_psql_configuration}
 */
 export class PsqlConfiguration extends cdktf.TerraformResource {
 
@@ -665,7 +665,7 @@ export class PsqlConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PsqlConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PsqlConfiguration to import
-  * @param importFromId The id of the existing PsqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PsqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PsqlConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -677,7 +677,7 @@ export class PsqlConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/psql_configuration oci_psql_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/psql_configuration oci_psql_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -688,8 +688,8 @@ export class PsqlConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_psql_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkFirewallNetworkFirewallPolicyAddressListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}
   */
   readonly addresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
   */
   readonly timeouts?: NetworkFirewallNetworkFirewallPolicyAddressListTimeouts;
 }
 export interface NetworkFirewallNetworkFirewallPolicyAddressListTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#create NetworkFirewallNetworkFirewallPolicyAddressList#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#create NetworkFirewallNetworkFirewallPolicyAddressList#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#delete NetworkFirewallNetworkFirewallPolicyAddressList#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#delete NetworkFirewallNetworkFirewallPolicyAddressList#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#update NetworkFirewallNetworkFirewallPolicyAddressList#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#update NetworkFirewallNetworkFirewallPolicyAddressList#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class NetworkFirewallNetworkFirewallPolicyAddressListTimeoutsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list oci_network_firewall_network_firewall_policy_address_list}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list oci_network_firewall_network_firewall_policy_address_list}
 */
 export class NetworkFirewallNetworkFirewallPolicyAddressList extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class NetworkFirewallNetworkFirewallPolicyAddressList extends cdktf.Terra
   * Generates CDKTF code for importing a NetworkFirewallNetworkFirewallPolicyAddressList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirewallNetworkFirewallPolicyAddressList to import
-  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirewallNetworkFirewallPolicyAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirewallNetworkFirewallPolicyAddressList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class NetworkFirewallNetworkFirewallPolicyAddressList extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/network_firewall_network_firewall_policy_address_list oci_network_firewall_network_firewall_policy_address_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/network_firewall_network_firewall_policy_address_list oci_network_firewall_network_firewall_policy_address_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class NetworkFirewallNetworkFirewallPolicyAddressList extends cdktf.Terra
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_address_list',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

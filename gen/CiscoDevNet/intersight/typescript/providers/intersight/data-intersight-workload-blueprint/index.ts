@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWorkloadBlueprintConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#account_moid DataIntersightWorkloadBlueprint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#account_moid DataIntersightWorkloadBlueprint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightWorkloadBlueprintConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#create_time DataIntersightWorkloadBlueprint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#create_time DataIntersightWorkloadBlueprint#create_time}
   */
   readonly createTime?: string;
   /**
   * The flag to indicate that this is the default version of the blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#default_version DataIntersightWorkloadBlueprint#default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#default_version DataIntersightWorkloadBlueprint#default_version}
   */
   readonly defaultVersion?: boolean | cdktf.IResolvable;
   /**
   * The description for this blueprint which provides information on what are the pre-requisites to deploy the blueprint and what features are supported on the blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#domain_group_moid DataIntersightWorkloadBlueprint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#domain_group_moid DataIntersightWorkloadBlueprint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * When set to false the blueprint is created for use within internal services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#external_meta DataIntersightWorkloadBlueprint#external_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#external_meta DataIntersightWorkloadBlueprint#external_meta}
   */
   readonly externalMeta?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#id DataIntersightWorkloadBlueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#id DataIntersightWorkloadBlueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,42 +65,42 @@ export interface DataIntersightWorkloadBlueprintConfig extends cdktf.TerraformMe
   /**
   * A user friendly short name to identify the blueprint. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.), colon (:), space ( ) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#mod_time DataIntersightWorkloadBlueprint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#mod_time DataIntersightWorkloadBlueprint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The name for this blueprint. You can have multiple versions of the blueprint with the same name. Name can only contain letters (a-z, A-Z), numbers (0-9), or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
   * The version of the blueprint to support multiple versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#owners DataIntersightWorkloadBlueprint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#owners DataIntersightWorkloadBlueprint#owners}
   */
   readonly owners?: string[];
   /**
@@ -108,92 +108,92 @@ export interface DataIntersightWorkloadBlueprintConfig extends cdktf.TerraformMe
   * * `None` - Default value is none, platform is not mentioned.
   * * `UnifiedEdge` - The blueprint is created for Unified Edge platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#platform_type DataIntersightWorkloadBlueprint#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#platform_type DataIntersightWorkloadBlueprint#platform_type}
   */
   readonly platformType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#shared_scope DataIntersightWorkloadBlueprint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#shared_scope DataIntersightWorkloadBlueprint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#ancestors DataIntersightWorkloadBlueprint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#ancestors DataIntersightWorkloadBlueprint#ancestors}
   */
   readonly ancestors?: DataIntersightWorkloadBlueprintAncestors[] | cdktf.IResolvable;
   /**
   * blueprint_dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#blueprint_dependencies DataIntersightWorkloadBlueprint#blueprint_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#blueprint_dependencies DataIntersightWorkloadBlueprint#blueprint_dependencies}
   */
   readonly blueprintDependencies?: DataIntersightWorkloadBlueprintBlueprintDependencies[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#catalog DataIntersightWorkloadBlueprint#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#catalog DataIntersightWorkloadBlueprint#catalog}
   */
   readonly catalog?: DataIntersightWorkloadBlueprintCatalog;
   /**
   * generated_object_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#generated_object_definition DataIntersightWorkloadBlueprint#generated_object_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#generated_object_definition DataIntersightWorkloadBlueprint#generated_object_definition}
   */
   readonly generatedObjectDefinition?: DataIntersightWorkloadBlueprintGeneratedObjectDefinition[] | cdktf.IResolvable;
   /**
   * input_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_definition DataIntersightWorkloadBlueprint#input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_definition DataIntersightWorkloadBlueprint#input_definition}
   */
   readonly inputDefinition?: DataIntersightWorkloadBlueprintInputDefinition[] | cdktf.IResolvable;
   /**
   * input_operation_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_operation_metadata DataIntersightWorkloadBlueprint#input_operation_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_operation_metadata DataIntersightWorkloadBlueprint#input_operation_metadata}
   */
   readonly inputOperationMetadata?: DataIntersightWorkloadBlueprintInputOperationMetadata[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#parent DataIntersightWorkloadBlueprint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#parent DataIntersightWorkloadBlueprint#parent}
   */
   readonly parent?: DataIntersightWorkloadBlueprintParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#permission_resources DataIntersightWorkloadBlueprint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#permission_resources DataIntersightWorkloadBlueprint#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkloadBlueprintPermissionResources[] | cdktf.IResolvable;
   /**
   * resource_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#resource_definition DataIntersightWorkloadBlueprint#resource_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#resource_definition DataIntersightWorkloadBlueprint#resource_definition}
   */
   readonly resourceDefinition?: DataIntersightWorkloadBlueprintResourceDefinition;
   /**
   * service_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#service_items DataIntersightWorkloadBlueprint#service_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#service_items DataIntersightWorkloadBlueprint#service_items}
   */
   readonly serviceItems?: DataIntersightWorkloadBlueprintServiceItems[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#tags DataIntersightWorkloadBlueprint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#tags DataIntersightWorkloadBlueprint#tags}
   */
   readonly tags?: DataIntersightWorkloadBlueprintTags[] | cdktf.IResolvable;
   /**
   * validation_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#validation_information DataIntersightWorkloadBlueprint#validation_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#validation_information DataIntersightWorkloadBlueprint#validation_information}
   */
   readonly validationInformation?: DataIntersightWorkloadBlueprintValidationInformation;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#version_context DataIntersightWorkloadBlueprint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#version_context DataIntersightWorkloadBlueprint#version_context}
   */
   readonly versionContext?: DataIntersightWorkloadBlueprintVersionContext;
 }
@@ -2500,6 +2500,11 @@ export class DataIntersightWorkloadBlueprintResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -3277,7 +3282,7 @@ export class DataIntersightWorkloadBlueprintResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightWorkloadBlueprintAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3285,19 +3290,19 @@ export interface DataIntersightWorkloadBlueprintAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3310,7 +3315,7 @@ export interface DataIntersightWorkloadBlueprintAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -3542,7 +3547,7 @@ export class DataIntersightWorkloadBlueprintAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightWorkloadBlueprintBlueprintDependenciesBlueprintDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3550,19 +3555,19 @@ export interface DataIntersightWorkloadBlueprintBlueprintDependenciesBlueprintDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3575,7 +3580,7 @@ export interface DataIntersightWorkloadBlueprintBlueprintDependenciesBlueprintDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -3775,19 +3780,19 @@ export class DataIntersightWorkloadBlueprintBlueprintDependenciesBlueprintDefini
 }
 export interface DataIntersightWorkloadBlueprintBlueprintDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The qualified name of blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#blueprint_name DataIntersightWorkloadBlueprint#blueprint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#blueprint_name DataIntersightWorkloadBlueprint#blueprint_name}
   */
   readonly blueprintName?: string;
   /**
   * Specify the catalog moid that this blueprint belongs too. When catalog moid is not specified then the catalog of the parent blueprint is used first and if no blueprint can be found in that catalog, then the system catalog is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#catalog_moid DataIntersightWorkloadBlueprint#catalog_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#catalog_moid DataIntersightWorkloadBlueprint#catalog_moid}
   */
   readonly catalogMoid?: string;
   /**
@@ -3795,44 +3800,44 @@ export interface DataIntersightWorkloadBlueprintBlueprintDependencies {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The description of that describes the purpose of including this dependent blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
   */
   readonly description?: string;
   /**
   * If any input of the nested blueprint needs to be modified in some form to include data from the parent blueprint, then the input parameters can be specified here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
   */
   readonly inputParameters?: string;
   /**
   * A user defined label identifier for this blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
   */
   readonly label?: string;
   /**
   * The blueprint version. If not specified, the default version is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * blueprint_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#blueprint_definition DataIntersightWorkloadBlueprint#blueprint_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#blueprint_definition DataIntersightWorkloadBlueprint#blueprint_definition}
   */
   readonly blueprintDefinition?: DataIntersightWorkloadBlueprintBlueprintDependenciesBlueprintDefinition;
 }
@@ -4209,7 +4214,7 @@ export class DataIntersightWorkloadBlueprintBlueprintDependenciesList extends cd
 }
 export interface DataIntersightWorkloadBlueprintCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4217,19 +4222,19 @@ export interface DataIntersightWorkloadBlueprintCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4242,7 +4247,7 @@ export interface DataIntersightWorkloadBlueprintCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -4442,7 +4447,7 @@ export class DataIntersightWorkloadBlueprintCatalogOutputReference extends cdktf
 }
 export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionObjectSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4451,7 +4456,7 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionObjectS
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
@@ -4459,7 +4464,7 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionObjectS
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
 }
@@ -4601,7 +4606,7 @@ export class DataIntersightWorkloadBlueprintGeneratedObjectDefinitionObjectSourc
 }
 export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerateOperationsGeneratedObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4609,26 +4614,26 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGene
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the generated object metadata. The objects produced from this metadata are the target of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * A list of key value pairs where key is the property path and value is the template to derive the value. The target of the pre-generation operation is updated with the resolved values of these parameters. This operation is only applicable if the operation is of type "Update".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#property_parameters DataIntersightWorkloadBlueprint#property_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#property_parameters DataIntersightWorkloadBlueprint#property_parameters}
   */
   readonly propertyParameters?: string;
 }
@@ -4860,7 +4865,7 @@ export class DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerate
 }
 export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerateOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4868,14 +4873,14 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGene
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4884,13 +4889,13 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGene
   * * `Delete` - The operation is to immediately delete the object via an HTTP DELETE operation.
   * * `MarkDeleted` - The object is marked as deleted. This adds a tag to the object indicating that it should be deleted as part of the object cleanup task during workload deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#operation DataIntersightWorkloadBlueprint#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#operation DataIntersightWorkloadBlueprint#operation}
   */
   readonly operation?: string;
   /**
   * generated_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#generated_objects DataIntersightWorkloadBlueprint#generated_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#generated_objects DataIntersightWorkloadBlueprint#generated_objects}
   */
   readonly generatedObjects?: DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerateOperationsGeneratedObjects[] | cdktf.IResolvable;
 }
@@ -5122,7 +5127,7 @@ export class DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerate
 }
 export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPropertyIteration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5130,26 +5135,26 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPropert
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The expression to evaluate for each iteration. This expression can refer to the array input that is being iterated over. The value of this expression will be used to populate the array property in the generated object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#iteration DataIntersightWorkloadBlueprint#iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#iteration DataIntersightWorkloadBlueprint#iteration}
   */
   readonly iteration?: string;
   /**
   * The name of the array property in the generated object to populate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
 }
@@ -5381,7 +5386,7 @@ export class DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPropertyIte
 }
 export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5389,60 +5394,60 @@ export interface DataIntersightWorkloadBlueprintGeneratedObjectDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#conditions DataIntersightWorkloadBlueprint#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#conditions DataIntersightWorkloadBlueprint#conditions}
   */
   readonly conditions?: string[];
   /**
   * Name for the generated object. The name given for reference in later parts of the blueprint definition. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-) or an underscore (_). The first and last character in name must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
   * A template for controlling loop behavior when generating multiple instances of the generated object. The resolved value of the template is expected to be an integer which is used to determine the number of iterations in the loop. Each iteration creates a new instance of the generated object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_iteration DataIntersightWorkloadBlueprint#object_iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_iteration DataIntersightWorkloadBlueprint#object_iteration}
   */
   readonly objectIteration?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * A list of key value pairs where key is the property path and value is the template to derive the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#property_parameters DataIntersightWorkloadBlueprint#property_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#property_parameters DataIntersightWorkloadBlueprint#property_parameters}
   */
   readonly propertyParameters?: string;
   /**
   * The flag to indicate if this object must be generated for this blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * object_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_source DataIntersightWorkloadBlueprint#object_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_source DataIntersightWorkloadBlueprint#object_source}
   */
   readonly objectSource?: DataIntersightWorkloadBlueprintGeneratedObjectDefinitionObjectSource;
   /**
   * pre_generate_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#pre_generate_operations DataIntersightWorkloadBlueprint#pre_generate_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#pre_generate_operations DataIntersightWorkloadBlueprint#pre_generate_operations}
   */
   readonly preGenerateOperations?: DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPreGenerateOperations[] | cdktf.IResolvable;
   /**
   * property_iteration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#property_iteration DataIntersightWorkloadBlueprint#property_iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#property_iteration DataIntersightWorkloadBlueprint#property_iteration}
   */
   readonly propertyIteration?: DataIntersightWorkloadBlueprintGeneratedObjectDefinitionPropertyIteration[] | cdktf.IResolvable;
 }
@@ -5848,7 +5853,7 @@ export class DataIntersightWorkloadBlueprintGeneratedObjectDefinitionList extend
 }
 export interface DataIntersightWorkloadBlueprintInputDefinitionDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5856,32 +5861,32 @@ export interface DataIntersightWorkloadBlueprintInputDefinitionDefault {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * A flag that indicates whether a default value is given or not. This flag will be useful in case of the secure parameter where the value will be filtered out in API responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#is_value_set DataIntersightWorkloadBlueprint#is_value_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#is_value_set DataIntersightWorkloadBlueprint#is_value_set}
   */
   readonly isValueSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * Override the default value provided for the data type. When true, allow the user to enter value for the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#override DataIntersightWorkloadBlueprint#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#override DataIntersightWorkloadBlueprint#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * Default value for the data type. If default value was provided and the input was required the default value will be used as the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
   */
   readonly value?: string;
 }
@@ -6110,7 +6115,7 @@ export class DataIntersightWorkloadBlueprintInputDefinitionDefaultOutputReferenc
 }
 export interface DataIntersightWorkloadBlueprintInputDefinitionDisplayMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6118,20 +6123,20 @@ export interface DataIntersightWorkloadBlueprintInputDefinitionDisplayMeta {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * Inventory selector specified for primitive data property should be used in Intersight User Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#inventory_selector DataIntersightWorkloadBlueprint#inventory_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#inventory_selector DataIntersightWorkloadBlueprint#inventory_selector}
   */
   readonly inventorySelector?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6143,7 +6148,7 @@ export interface DataIntersightWorkloadBlueprintInputDefinitionDisplayMeta {
   * * `DrawerSelector` - Display the widget as a selector.
   * * `MultiSelect` - Display the widget as a multi-select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#widget_type DataIntersightWorkloadBlueprint#widget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#widget_type DataIntersightWorkloadBlueprint#widget_type}
   */
   readonly widgetType?: string;
 }
@@ -6343,7 +6348,7 @@ export class DataIntersightWorkloadBlueprintInputDefinitionDisplayMetaOutputRefe
 }
 export interface DataIntersightWorkloadBlueprintInputDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6352,31 +6357,31 @@ export interface DataIntersightWorkloadBlueprintInputDefinition {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * Provide a detailed description of the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
   */
   readonly description?: string;
   /**
   * JSON formatted mapping from other property of the definition to the current property. Input parameter mapping is supported only for custom data type property in workflow definition and custom data type definition. The format to specify mapping ina workflow definition when source property is of scalar types is '${workflow.input.property}'. The format to specify mapping when the source property is of object reference and mapping needs to be made to the property of the object is '${workflow.input.property.subproperty}'. The format to specify mapping in a custom data type definition is '${datatype.type.property}'. When the current property is of non-scalar type like composite custom data type, then mapping can be provided to the individual property of the custom data type like 'cdt_property:${workflow.input.property}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
   */
   readonly inputParameters?: string;
   /**
   * Descriptive label for the data type. Label can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), space ( ), forward slash (/) or an underscore (_). The first and last character in label must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
   */
   readonly label?: string;
   /**
   * Descriptive name for the data type. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-) or an underscore (_). The first and last character in name must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
@@ -6384,25 +6389,25 @@ export interface DataIntersightWorkloadBlueprintInputDefinition {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * Specifies whether this parameter is required. The field is applicable for task and workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#default DataIntersightWorkloadBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#default DataIntersightWorkloadBlueprint#default}
   */
   readonly default?: DataIntersightWorkloadBlueprintInputDefinitionDefault;
   /**
   * display_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#display_meta DataIntersightWorkloadBlueprint#display_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#display_meta DataIntersightWorkloadBlueprint#display_meta}
   */
   readonly displayMeta?: DataIntersightWorkloadBlueprintInputDefinitionDisplayMeta;
 }
@@ -6779,7 +6784,7 @@ export class DataIntersightWorkloadBlueprintInputDefinitionList extends cdktf.Co
 }
 export interface DataIntersightWorkloadBlueprintInputOperationMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6787,28 +6792,28 @@ export interface DataIntersightWorkloadBlueprintInputOperationMetadata {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#impact_type DataIntersightWorkloadBlueprint#impact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#impact_type DataIntersightWorkloadBlueprint#impact_type}
   */
   readonly impactType?: string[];
   /**
   * The name of the input as defined within the definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#operation_modes DataIntersightWorkloadBlueprint#operation_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#operation_modes DataIntersightWorkloadBlueprint#operation_modes}
   */
   readonly operationModes?: string[];
 }
@@ -7069,7 +7074,7 @@ export class DataIntersightWorkloadBlueprintInputOperationMetadataList extends c
 }
 export interface DataIntersightWorkloadBlueprintParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7077,19 +7082,19 @@ export interface DataIntersightWorkloadBlueprintParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7102,7 +7107,7 @@ export interface DataIntersightWorkloadBlueprintParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -7302,7 +7307,7 @@ export class DataIntersightWorkloadBlueprintParentOutputReference extends cdktf.
 }
 export interface DataIntersightWorkloadBlueprintPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7310,19 +7315,19 @@ export interface DataIntersightWorkloadBlueprintPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7335,7 +7340,7 @@ export interface DataIntersightWorkloadBlueprintPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -7567,7 +7572,7 @@ export class DataIntersightWorkloadBlueprintPermissionResourcesList extends cdkt
 }
 export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7575,32 +7580,32 @@ export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * A flag that indicates whether a default value is given or not. This flag will be useful in case of the secure parameter where the value will be filtered out in API responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#is_value_set DataIntersightWorkloadBlueprint#is_value_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#is_value_set DataIntersightWorkloadBlueprint#is_value_set}
   */
   readonly isValueSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * Override the default value provided for the data type. When true, allow the user to enter value for the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#override DataIntersightWorkloadBlueprint#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#override DataIntersightWorkloadBlueprint#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * Default value for the data type. If default value was provided and the input was required the default value will be used as the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
   */
   readonly value?: string;
 }
@@ -7829,7 +7834,7 @@ export class DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDef
 }
 export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDisplayMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7837,20 +7842,20 @@ export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * Inventory selector specified for primitive data property should be used in Intersight User Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#inventory_selector DataIntersightWorkloadBlueprint#inventory_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#inventory_selector DataIntersightWorkloadBlueprint#inventory_selector}
   */
   readonly inventorySelector?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7862,7 +7867,7 @@ export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitio
   * * `DrawerSelector` - Display the widget as a selector.
   * * `MultiSelect` - Display the widget as a multi-select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#widget_type DataIntersightWorkloadBlueprint#widget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#widget_type DataIntersightWorkloadBlueprint#widget_type}
   */
   readonly widgetType?: string;
 }
@@ -8062,7 +8067,7 @@ export class DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDis
 }
 export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8071,31 +8076,31 @@ export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitio
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * Provide a detailed description of the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
   */
   readonly description?: string;
   /**
   * JSON formatted mapping from other property of the definition to the current property. Input parameter mapping is supported only for custom data type property in workflow definition and custom data type definition. The format to specify mapping ina workflow definition when source property is of scalar types is '${workflow.input.property}'. The format to specify mapping when the source property is of object reference and mapping needs to be made to the property of the object is '${workflow.input.property.subproperty}'. The format to specify mapping in a custom data type definition is '${datatype.type.property}'. When the current property is of non-scalar type like composite custom data type, then mapping can be provided to the individual property of the custom data type like 'cdt_property:${workflow.input.property}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
   */
   readonly inputParameters?: string;
   /**
   * Descriptive label for the data type. Label can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), space ( ), forward slash (/) or an underscore (_). The first and last character in label must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
   */
   readonly label?: string;
   /**
   * Descriptive name for the data type. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-) or an underscore (_). The first and last character in name must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#name DataIntersightWorkloadBlueprint#name}
   */
   readonly name?: string;
   /**
@@ -8103,25 +8108,25 @@ export interface DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitio
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * Specifies whether this parameter is required. The field is applicable for task and workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#required DataIntersightWorkloadBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#default DataIntersightWorkloadBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#default DataIntersightWorkloadBlueprint#default}
   */
   readonly default?: DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDefault;
   /**
   * display_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#display_meta DataIntersightWorkloadBlueprint#display_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#display_meta DataIntersightWorkloadBlueprint#display_meta}
   */
   readonly displayMeta?: DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionDisplayMeta;
 }
@@ -8498,7 +8503,7 @@ export class DataIntersightWorkloadBlueprintResourceDefinitionInputDefinitionLis
 }
 export interface DataIntersightWorkloadBlueprintResourceDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8506,20 +8511,20 @@ export interface DataIntersightWorkloadBlueprintResourceDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * input_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_definition DataIntersightWorkloadBlueprint#input_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_definition DataIntersightWorkloadBlueprint#input_definition}
   */
   readonly inputDefinition?: DataIntersightWorkloadBlueprintResourceDefinitionInputDefinition[] | cdktf.IResolvable;
 }
@@ -8690,13 +8695,13 @@ export class DataIntersightWorkloadBlueprintResourceDefinitionOutputReference ex
 }
 export interface DataIntersightWorkloadBlueprintServiceItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Specify the catalog moid that this service item belongs. When catalog moid is not specified then the catalog of the service item is used first and if no service item can be found in that catalog, then the system catalog is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#catalog_moid DataIntersightWorkloadBlueprint#catalog_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#catalog_moid DataIntersightWorkloadBlueprint#catalog_moid}
   */
   readonly catalogMoid?: string;
   /**
@@ -8704,44 +8709,44 @@ export interface DataIntersightWorkloadBlueprintServiceItems {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The description of that describes the purpose of including this service item within the blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#description DataIntersightWorkloadBlueprint#description}
   */
   readonly description?: string;
   /**
   * Capture the mapping of blueprint inputs to service item inputs. The mapping for inputs can refer to blueprint inputs or to the generated objects which are part of this blueprint and all nested blueprints. The mapping will be referred using the convention of ${<BlueprintName>.input.<InputName>} or ${<BlueprintName>.generatedObject.<GeneratedObjectName>}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#input_parameters DataIntersightWorkloadBlueprint#input_parameters}
   */
   readonly inputParameters?: string;
   /**
   * A user defined label identifier for this Service item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#label DataIntersightWorkloadBlueprint#label}
   */
   readonly label?: string;
   /**
   * The service item definition version. If not specified, the default version of the service item is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * The qualified name of service item that should be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#service_item_definition_name DataIntersightWorkloadBlueprint#service_item_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#service_item_definition_name DataIntersightWorkloadBlueprint#service_item_definition_name}
   */
   readonly serviceItemDefinitionName?: string;
 }
@@ -9089,7 +9094,7 @@ export class DataIntersightWorkloadBlueprintServiceItemsList extends cdktf.Compl
 }
 export interface DataIntersightWorkloadBlueprintTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9097,19 +9102,19 @@ export interface DataIntersightWorkloadBlueprintTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9122,7 +9127,7 @@ export interface DataIntersightWorkloadBlueprintTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -9354,7 +9359,7 @@ export class DataIntersightWorkloadBlueprintTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightWorkloadBlueprintTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9362,19 +9367,19 @@ export interface DataIntersightWorkloadBlueprintTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9387,7 +9392,7 @@ export interface DataIntersightWorkloadBlueprintTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -9587,45 +9592,51 @@ export class DataIntersightWorkloadBlueprintTagsDefinitionOutputReference extend
 }
 export interface DataIntersightWorkloadBlueprintTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#key DataIntersightWorkloadBlueprint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#key DataIntersightWorkloadBlueprint#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#propagated DataIntersightWorkloadBlueprint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#propagated DataIntersightWorkloadBlueprint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#sys_tag DataIntersightWorkloadBlueprint#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#type DataIntersightWorkloadBlueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#type DataIntersightWorkloadBlueprint#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#value DataIntersightWorkloadBlueprint#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#ancestor_definitions DataIntersightWorkloadBlueprint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#ancestor_definitions DataIntersightWorkloadBlueprint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkloadBlueprintTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#definition DataIntersightWorkloadBlueprint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#definition DataIntersightWorkloadBlueprint#definition}
   */
   readonly definition?: DataIntersightWorkloadBlueprintTagsDefinition;
 }
@@ -9639,6 +9650,7 @@ export function dataIntersightWorkloadBlueprintTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWorkloadBlueprintTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -9667,6 +9679,12 @@ export function dataIntersightWorkloadBlueprintTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -9733,6 +9751,10 @@ export class DataIntersightWorkloadBlueprintTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -9759,6 +9781,7 @@ export class DataIntersightWorkloadBlueprintTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -9774,6 +9797,7 @@ export class DataIntersightWorkloadBlueprintTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -9827,6 +9851,22 @@ export class DataIntersightWorkloadBlueprintTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -9915,7 +9955,7 @@ export class DataIntersightWorkloadBlueprintTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightWorkloadBlueprintValidationInformationValidationError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9923,38 +9963,38 @@ export interface DataIntersightWorkloadBlueprintValidationInformationValidationE
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * Description of the error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#error_log DataIntersightWorkloadBlueprint#error_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#error_log DataIntersightWorkloadBlueprint#error_log}
   */
   readonly errorLog?: string;
   /**
   * When populated this refers to the input or output field within the workflow or task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#field DataIntersightWorkloadBlueprint#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#field DataIntersightWorkloadBlueprint#field}
   */
   readonly field?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * The task name on which the error is found, when empty the error applies to the top level workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#task_name DataIntersightWorkloadBlueprint#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#task_name DataIntersightWorkloadBlueprint#task_name}
   */
   readonly taskName?: string;
   /**
   * When populated this refers to the transition connection that has a problem. When this field has value OnSuccess it means the transition connection OnSuccess for the task has an issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#transition_name DataIntersightWorkloadBlueprint#transition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#transition_name DataIntersightWorkloadBlueprint#transition_name}
   */
   readonly transitionName?: string;
 }
@@ -10244,7 +10284,7 @@ export class DataIntersightWorkloadBlueprintValidationInformationValidationError
 }
 export interface DataIntersightWorkloadBlueprintValidationInformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10252,7 +10292,7 @@ export interface DataIntersightWorkloadBlueprintValidationInformation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
@@ -10262,14 +10302,14 @@ export interface DataIntersightWorkloadBlueprintValidationInformation {
   * * `UpdateFailed` - The workflow and task definition metadata failed to be updated in the workflow engine.
   * * `Updated` - The workflow and task definition metadata was updated successfully in the workflow engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#engine_state DataIntersightWorkloadBlueprint#engine_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#engine_state DataIntersightWorkloadBlueprint#engine_state}
   */
   readonly engineState?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10278,13 +10318,13 @@ export interface DataIntersightWorkloadBlueprintValidationInformation {
   * * `Valid` - The state when workflow definition is valid.
   * * `Invalid` - The state when workflow definition is invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#state DataIntersightWorkloadBlueprint#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#state DataIntersightWorkloadBlueprint#state}
   */
   readonly state?: string;
   /**
   * validation_error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#validation_error DataIntersightWorkloadBlueprint#validation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#validation_error DataIntersightWorkloadBlueprint#validation_error}
   */
   readonly validationError?: DataIntersightWorkloadBlueprintValidationInformationValidationError[] | cdktf.IResolvable;
 }
@@ -10513,7 +10553,7 @@ export class DataIntersightWorkloadBlueprintValidationInformationOutputReference
 }
 export interface DataIntersightWorkloadBlueprintVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10521,19 +10561,19 @@ export interface DataIntersightWorkloadBlueprintVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10546,7 +10586,7 @@ export interface DataIntersightWorkloadBlueprintVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -10778,7 +10818,7 @@ export class DataIntersightWorkloadBlueprintVersionContextInterestedMosList exte
 }
 export interface DataIntersightWorkloadBlueprintVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10786,19 +10826,19 @@ export interface DataIntersightWorkloadBlueprintVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#moid DataIntersightWorkloadBlueprint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10811,7 +10851,7 @@ export interface DataIntersightWorkloadBlueprintVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#selector DataIntersightWorkloadBlueprint#selector}
   */
   readonly selector?: string;
 }
@@ -11011,7 +11051,7 @@ export class DataIntersightWorkloadBlueprintVersionContextRefMoOutputReference e
 }
 export interface DataIntersightWorkloadBlueprintVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#additional_properties DataIntersightWorkloadBlueprint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11019,32 +11059,32 @@ export interface DataIntersightWorkloadBlueprintVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#class_id DataIntersightWorkloadBlueprint#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#marked_for_deletion DataIntersightWorkloadBlueprint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#marked_for_deletion DataIntersightWorkloadBlueprint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#nr_version DataIntersightWorkloadBlueprint#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#object_type DataIntersightWorkloadBlueprint#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#timestamp DataIntersightWorkloadBlueprint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#timestamp DataIntersightWorkloadBlueprint#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -11055,19 +11095,19 @@ export interface DataIntersightWorkloadBlueprintVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#version_type DataIntersightWorkloadBlueprint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#version_type DataIntersightWorkloadBlueprint#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#interested_mos DataIntersightWorkloadBlueprint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#interested_mos DataIntersightWorkloadBlueprint#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkloadBlueprintVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#ref_mo DataIntersightWorkloadBlueprint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#ref_mo DataIntersightWorkloadBlueprint#ref_mo}
   */
   readonly refMo?: DataIntersightWorkloadBlueprintVersionContextRefMo;
 }
@@ -11383,7 +11423,7 @@ export class DataIntersightWorkloadBlueprintVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint intersight_workload_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint intersight_workload_blueprint}
 */
 export class DataIntersightWorkloadBlueprint extends cdktf.TerraformDataSource {
 
@@ -11399,7 +11439,7 @@ export class DataIntersightWorkloadBlueprint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightWorkloadBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkloadBlueprint to import
-  * @param importFromId The id of the existing DataIntersightWorkloadBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkloadBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkloadBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11411,7 +11451,7 @@ export class DataIntersightWorkloadBlueprint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workload_blueprint intersight_workload_blueprint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workload_blueprint intersight_workload_blueprint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11422,8 +11462,8 @@ export class DataIntersightWorkloadBlueprint extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_workload_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

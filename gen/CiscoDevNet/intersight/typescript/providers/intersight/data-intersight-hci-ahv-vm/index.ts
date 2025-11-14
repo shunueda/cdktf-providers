@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#account_moid DataIntersightHciAhvVm#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#account_moid DataIntersightHciAhvVm#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The BIOS UUID of the VM, similar to physical server's serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#bios_uuid DataIntersightHciAhvVm#bios_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#bios_uuid DataIntersightHciAhvVm#bios_uuid}
   */
   readonly biosUuid?: string;
   /**
@@ -28,70 +28,70 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The unique identifier of the cluster which owns this VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#cluster_ext_id DataIntersightHciAhvVm#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#cluster_ext_id DataIntersightHciAhvVm#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#create_time DataIntersightHciAhvVm#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#create_time DataIntersightHciAhvVm#create_time}
   */
   readonly createTime?: string;
   /**
   * The time the VM was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#creation_time DataIntersightHciAhvVm#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#creation_time DataIntersightHciAhvVm#creation_time}
   */
   readonly creationTime?: string;
   /**
   * The description of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#description DataIntersightHciAhvVm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#description DataIntersightHciAhvVm#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#domain_group_moid DataIntersightHciAhvVm#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#domain_group_moid DataIntersightHciAhvVm#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#enabled_cpu_features DataIntersightHciAhvVm#enabled_cpu_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#enabled_cpu_features DataIntersightHciAhvVm#enabled_cpu_features}
   */
   readonly enabledCpuFeatures?: string[];
   /**
   * The generation UUID of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#generation_uuid DataIntersightHciAhvVm#generation_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#generation_uuid DataIntersightHciAhvVm#generation_uuid}
   */
   readonly generationUuid?: string;
   /**
   * The guest OS name of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#guest_os_name DataIntersightHciAhvVm#guest_os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#guest_os_name DataIntersightHciAhvVm#guest_os_name}
   */
   readonly guestOsName?: string;
   /**
   * VM hardware clock timezone in IANA TZDB format (America/Los_Angeles). 
   * Default: UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#hardware_clock_timezone DataIntersightHciAhvVm#hardware_clock_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#hardware_clock_timezone DataIntersightHciAhvVm#hardware_clock_timezone}
   */
   readonly hardwareClockTimezone?: string;
   /**
   * The hypervisor type of the given VM. It could be AHV, ESX etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#hypervisor_type DataIntersightHciAhvVm#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#hypervisor_type DataIntersightHciAhvVm#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#id DataIntersightHciAhvVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#id DataIntersightHciAhvVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,13 +104,13 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * are powered on before the normal VMs are restored. In other words, 
   * agent VMs cannot be HA-protected or live migrated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_agent_vm DataIntersightHciAhvVm#is_agent_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_agent_vm DataIntersightHciAhvVm#is_agent_vm}
   */
   readonly isAgentVm?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to remove AHV branding from VM firmware tables or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_branding_enabled DataIntersightHciAhvVm#is_branding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_branding_enabled DataIntersightHciAhvVm#is_branding_enabled}
   */
   readonly isBrandingEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -118,7 +118,7 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * hotplug feature should be enabled for the VM or not. If enabled, 
   * the VM can add or remove vCPUs while the VM is running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_cpu_hotplug_enabled DataIntersightHciAhvVm#is_cpu_hotplug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_cpu_hotplug_enabled DataIntersightHciAhvVm#is_cpu_hotplug_enabled}
   */
   readonly isCpuHotplugEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -126,13 +126,13 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * to passthrough the host CPU features to the guest or not. 
   * Enabling this will make VM incapable of live migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_cpu_passthrough_enabled DataIntersightHciAhvVm#is_cpu_passthrough_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_cpu_passthrough_enabled DataIntersightHciAhvVm#is_cpu_passthrough_enabled}
   */
   readonly isCpuPassthroughEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the VM is in the process of cross cluster migration or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_cross_cluster_migration_in_progress DataIntersightHciAhvVm#is_cross_cluster_migration_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_cross_cluster_migration_in_progress DataIntersightHciAhvVm#is_cross_cluster_migration_in_progress}
   */
   readonly isCrossClusterMigrationInProgress?: boolean | cdktf.IResolvable;
   /**
@@ -140,14 +140,14 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * console should be enabled for the VM or not. If enabled, the VM 
   * will have access to the GPU console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_gpu_console_enabled DataIntersightHciAhvVm#is_gpu_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_gpu_console_enabled DataIntersightHciAhvVm#is_gpu_console_enabled}
   */
   readonly isGpuConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the VM is live migrate capable or not. 
   * If the VM is not live migrate capable, it cannot be live migrated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_live_migrate_capable DataIntersightHciAhvVm#is_live_migrate_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_live_migrate_capable DataIntersightHciAhvVm#is_live_migrate_capable}
   */
   readonly isLiveMigrateCapable?: boolean | cdktf.IResolvable;
   /**
@@ -157,7 +157,7 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * hypervisor physical memory. Once enabled, it should be expected 
   * that the VM may suffer performance degradation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_memory_overcommit_enabled DataIntersightHciAhvVm#is_memory_overcommit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_memory_overcommit_enabled DataIntersightHciAhvVm#is_memory_overcommit_enabled}
   */
   readonly isMemoryOvercommitEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -165,103 +165,103 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * SCSI controller should be enabled for the VM or not. If enabled, 
   * the VM will have access to the SCSI controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_scsi_controller_enabled DataIntersightHciAhvVm#is_scsi_controller_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_scsi_controller_enabled DataIntersightHciAhvVm#is_scsi_controller_enabled}
   */
   readonly isScsiControllerEnabled?: boolean | cdktf.IResolvable;
   /**
   * The hard pinning status of the vCPU. It indicates whether the vCPUs 
   * should be hard pinned to specific pCPUs or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_vcpu_hard_pinning_enabled DataIntersightHciAhvVm#is_vcpu_hard_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_vcpu_hard_pinning_enabled DataIntersightHciAhvVm#is_vcpu_hard_pinning_enabled}
   */
   readonly isVcpuHardPinningEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to enable VGA console for the VM or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_vga_console_enabled DataIntersightHciAhvVm#is_vga_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_vga_console_enabled DataIntersightHciAhvVm#is_vga_console_enabled}
   */
   readonly isVgaConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the VM has a virtual TPM enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_vtpm_enabled DataIntersightHciAhvVm#is_vtpm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_vtpm_enabled DataIntersightHciAhvVm#is_vtpm_enabled}
   */
   readonly isVtpmEnabled?: boolean | cdktf.IResolvable;
   /**
   * The machine type of the VM. Possible values are PC, PSERIES, Q35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#machine_type DataIntersightHciAhvVm#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#machine_type DataIntersightHciAhvVm#machine_type}
   */
   readonly machineType?: string;
   /**
   * The memory size in bytes of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#memory_size_bytes DataIntersightHciAhvVm#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#memory_size_bytes DataIntersightHciAhvVm#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#mod_time DataIntersightHciAhvVm#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#mod_time DataIntersightHciAhvVm#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The name of the VM reported by the Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#name DataIntersightHciAhvVm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#name DataIntersightHciAhvVm#name}
   */
   readonly name?: string;
   /**
   * The unique identifier of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#node_ext_id DataIntersightHciAhvVm#node_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#node_ext_id DataIntersightHciAhvVm#node_ext_id}
   */
   readonly nodeExtId?: string;
   /**
   * The number of cores per socket of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#num_cores_per_socket DataIntersightHciAhvVm#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#num_cores_per_socket DataIntersightHciAhvVm#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
   * The number of CPU cores of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#num_cpu_cores DataIntersightHciAhvVm#num_cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#num_cpu_cores DataIntersightHciAhvVm#num_cpu_cores}
   */
   readonly numCpuCores?: number;
   /**
   * Number of NUMA nodes. 0 means NUMA is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#num_numa_nodes DataIntersightHciAhvVm#num_numa_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#num_numa_nodes DataIntersightHciAhvVm#num_numa_nodes}
   */
   readonly numNumaNodes?: number;
   /**
   * The number of sockets of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#num_sockets DataIntersightHciAhvVm#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#num_sockets DataIntersightHciAhvVm#num_sockets}
   */
   readonly numSockets?: number;
   /**
   * The number of threads per core of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#num_threads_per_core DataIntersightHciAhvVm#num_threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#num_threads_per_core DataIntersightHciAhvVm#num_threads_per_core}
   */
   readonly numThreadsPerCore?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#owners DataIntersightHciAhvVm#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#owners DataIntersightHciAhvVm#owners}
   */
   readonly owners?: string[];
   /**
@@ -272,7 +272,7 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * * `PAUSED` - The VM's power state is paused, applicable only to AHV VM.
   * * `SUSPENDED` - The VM's power state is suspended, applicable only to ESXi VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#power_state DataIntersightHciAhvVm#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#power_state DataIntersightHciAhvVm#power_state}
   */
   readonly powerState?: string;
   /**
@@ -281,110 +281,110 @@ export interface DataIntersightHciAhvVmConfig extends cdktf.TerraformMetaArgumen
   * PD_PROTECTED indicates a VM is protected using the Prism Element. 
   * RULE_PROTECTED indicates a VM protection using the Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#protection_type DataIntersightHciAhvVm#protection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#protection_type DataIntersightHciAhvVm#protection_type}
   */
   readonly protectionType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#shared_scope DataIntersightHciAhvVm#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#shared_scope DataIntersightHciAhvVm#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The source UUID of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#source_uuid DataIntersightHciAhvVm#source_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#source_uuid DataIntersightHciAhvVm#source_uuid}
   */
   readonly sourceUuid?: string;
   /**
   * The time the VM was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#update_time DataIntersightHciAhvVm#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#update_time DataIntersightHciAhvVm#update_time}
   */
   readonly updateTime?: string;
   /**
   * The unique identifier of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#vm_ext_id DataIntersightHciAhvVm#vm_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#vm_ext_id DataIntersightHciAhvVm#vm_ext_id}
   */
   readonly vmExtId?: string;
   /**
   * The version of the vTPM module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#vtpm_module_version DataIntersightHciAhvVm#vtpm_module_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#vtpm_module_version DataIntersightHciAhvVm#vtpm_module_version}
   */
   readonly vtpmModuleVersion?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#ancestors DataIntersightHciAhvVm#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#ancestors DataIntersightHciAhvVm#ancestors}
   */
   readonly ancestors?: DataIntersightHciAhvVmAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#cluster DataIntersightHciAhvVm#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#cluster DataIntersightHciAhvVm#cluster}
   */
   readonly cluster?: DataIntersightHciAhvVmCluster;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#disks DataIntersightHciAhvVm#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#disks DataIntersightHciAhvVm#disks}
   */
   readonly disks?: DataIntersightHciAhvVmDisks[] | cdktf.IResolvable;
   /**
   * gpus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#gpus DataIntersightHciAhvVm#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#gpus DataIntersightHciAhvVm#gpus}
   */
   readonly gpus?: DataIntersightHciAhvVmGpus[] | cdktf.IResolvable;
   /**
   * guest_tools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#guest_tools DataIntersightHciAhvVm#guest_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#guest_tools DataIntersightHciAhvVm#guest_tools}
   */
   readonly guestTools?: DataIntersightHciAhvVmGuestTools;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#nics DataIntersightHciAhvVm#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#nics DataIntersightHciAhvVm#nics}
   */
   readonly nics?: DataIntersightHciAhvVmNics[] | cdktf.IResolvable;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#node DataIntersightHciAhvVm#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#node DataIntersightHciAhvVm#node}
   */
   readonly nodeAttribute?: DataIntersightHciAhvVmNode;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#parent DataIntersightHciAhvVm#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#parent DataIntersightHciAhvVm#parent}
   */
   readonly parent?: DataIntersightHciAhvVmParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#permission_resources DataIntersightHciAhvVm#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#permission_resources DataIntersightHciAhvVm#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciAhvVmPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#registered_device DataIntersightHciAhvVm#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#registered_device DataIntersightHciAhvVm#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciAhvVmRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#tags DataIntersightHciAhvVm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#tags DataIntersightHciAhvVm#tags}
   */
   readonly tags?: DataIntersightHciAhvVmTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#version_context DataIntersightHciAhvVm#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#version_context DataIntersightHciAhvVm#version_context}
   */
   readonly versionContext?: DataIntersightHciAhvVmVersionContext;
 }
@@ -1646,6 +1646,11 @@ export class DataIntersightHciAhvVmResultsTagsOutputReference extends cdktf.Comp
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2356,7 +2361,7 @@ export class DataIntersightHciAhvVmResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2364,19 +2369,19 @@ export interface DataIntersightHciAhvVmAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2389,7 +2394,7 @@ export interface DataIntersightHciAhvVmAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -2621,7 +2626,7 @@ export class DataIntersightHciAhvVmAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2629,19 +2634,19 @@ export interface DataIntersightHciAhvVmCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2654,7 +2659,7 @@ export interface DataIntersightHciAhvVmCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -2854,7 +2859,7 @@ export class DataIntersightHciAhvVmClusterOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightHciAhvVmDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2862,19 +2867,19 @@ export interface DataIntersightHciAhvVmDisks {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2887,7 +2892,7 @@ export interface DataIntersightHciAhvVmDisks {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -3119,7 +3124,7 @@ export class DataIntersightHciAhvVmDisksList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3127,19 +3132,19 @@ export interface DataIntersightHciAhvVmGpus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3152,7 +3157,7 @@ export interface DataIntersightHciAhvVmGpus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -3384,17 +3389,17 @@ export class DataIntersightHciAhvVmGpusList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmGuestTools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The available version of the Nutanix Guest Tools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#available_version DataIntersightHciAhvVm#available_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#available_version DataIntersightHciAhvVm#available_version}
   */
   readonly availableVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#capabilities DataIntersightHciAhvVm#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#capabilities DataIntersightHciAhvVm#capabilities}
   */
   readonly capabilities?: string[];
   /**
@@ -3402,62 +3407,62 @@ export interface DataIntersightHciAhvVmGuestTools {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The guest OS version of the Nutanix Guest Tools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#guest_os_version DataIntersightHciAhvVm#guest_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#guest_os_version DataIntersightHciAhvVm#guest_os_version}
   */
   readonly guestOsVersion?: string;
   /**
   * Indicates if the Nutanix Guest Tools is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_enabled DataIntersightHciAhvVm#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_enabled DataIntersightHciAhvVm#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Nutanix Guest Tools is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_installed DataIntersightHciAhvVm#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_installed DataIntersightHciAhvVm#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Nutanix Guest Tools ISO is inserted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_iso_inserted DataIntersightHciAhvVm#is_iso_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_iso_inserted DataIntersightHciAhvVm#is_iso_inserted}
   */
   readonly isIsoInserted?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Nutanix Guest Tools is reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_reachable DataIntersightHciAhvVm#is_reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_reachable DataIntersightHciAhvVm#is_reachable}
   */
   readonly isReachable?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Nutanix Guest Tools VM mobility driver is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_vm_mobility_driver_installed DataIntersightHciAhvVm#is_vm_mobility_driver_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_vm_mobility_driver_installed DataIntersightHciAhvVm#is_vm_mobility_driver_installed}
   */
   readonly isVmMobilityDriverInstalled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Nutanix Guest Tools is VSS snapshot capable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#is_vss_snapshot_capable DataIntersightHciAhvVm#is_vss_snapshot_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#is_vss_snapshot_capable DataIntersightHciAhvVm#is_vss_snapshot_capable}
   */
   readonly isVssSnapshotCapable?: boolean | cdktf.IResolvable;
   /**
   * The version of the Nutanix Guest Tools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#nr_version DataIntersightHciAhvVm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#nr_version DataIntersightHciAhvVm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
 }
@@ -3889,7 +3894,7 @@ export class DataIntersightHciAhvVmGuestToolsOutputReference extends cdktf.Compl
 }
 export interface DataIntersightHciAhvVmNics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3897,19 +3902,19 @@ export interface DataIntersightHciAhvVmNics {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3922,7 +3927,7 @@ export interface DataIntersightHciAhvVmNics {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -4154,7 +4159,7 @@ export class DataIntersightHciAhvVmNicsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4162,19 +4167,19 @@ export interface DataIntersightHciAhvVmNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4187,7 +4192,7 @@ export interface DataIntersightHciAhvVmNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -4387,7 +4392,7 @@ export class DataIntersightHciAhvVmNodeOutputReference extends cdktf.ComplexObje
 }
 export interface DataIntersightHciAhvVmParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4395,19 +4400,19 @@ export interface DataIntersightHciAhvVmParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4420,7 +4425,7 @@ export interface DataIntersightHciAhvVmParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -4620,7 +4625,7 @@ export class DataIntersightHciAhvVmParentOutputReference extends cdktf.ComplexOb
 }
 export interface DataIntersightHciAhvVmPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4628,19 +4633,19 @@ export interface DataIntersightHciAhvVmPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4653,7 +4658,7 @@ export interface DataIntersightHciAhvVmPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -4885,7 +4890,7 @@ export class DataIntersightHciAhvVmPermissionResourcesList extends cdktf.Complex
 }
 export interface DataIntersightHciAhvVmRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4893,19 +4898,19 @@ export interface DataIntersightHciAhvVmRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4918,7 +4923,7 @@ export interface DataIntersightHciAhvVmRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -5118,7 +5123,7 @@ export class DataIntersightHciAhvVmRegisteredDeviceOutputReference extends cdktf
 }
 export interface DataIntersightHciAhvVmTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5126,19 +5131,19 @@ export interface DataIntersightHciAhvVmTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5151,7 +5156,7 @@ export interface DataIntersightHciAhvVmTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -5383,7 +5388,7 @@ export class DataIntersightHciAhvVmTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface DataIntersightHciAhvVmTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5391,19 +5396,19 @@ export interface DataIntersightHciAhvVmTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5416,7 +5421,7 @@ export interface DataIntersightHciAhvVmTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -5616,45 +5621,51 @@ export class DataIntersightHciAhvVmTagsDefinitionOutputReference extends cdktf.C
 }
 export interface DataIntersightHciAhvVmTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#key DataIntersightHciAhvVm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#key DataIntersightHciAhvVm#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#propagated DataIntersightHciAhvVm#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#propagated DataIntersightHciAhvVm#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#sys_tag DataIntersightHciAhvVm#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#type DataIntersightHciAhvVm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#type DataIntersightHciAhvVm#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#value DataIntersightHciAhvVm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#value DataIntersightHciAhvVm#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#ancestor_definitions DataIntersightHciAhvVm#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#ancestor_definitions DataIntersightHciAhvVm#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciAhvVmTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#definition DataIntersightHciAhvVm#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#definition DataIntersightHciAhvVm#definition}
   */
   readonly definition?: DataIntersightHciAhvVmTagsDefinition;
 }
@@ -5668,6 +5679,7 @@ export function dataIntersightHciAhvVmTagsToTerraform(struct?: DataIntersightHci
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHciAhvVmTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5696,6 +5708,12 @@ export function dataIntersightHciAhvVmTagsToHclTerraform(struct?: DataIntersight
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5762,6 +5780,10 @@ export class DataIntersightHciAhvVmTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5788,6 +5810,7 @@ export class DataIntersightHciAhvVmTagsOutputReference extends cdktf.ComplexObje
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5803,6 +5826,7 @@ export class DataIntersightHciAhvVmTagsOutputReference extends cdktf.ComplexObje
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5856,6 +5880,22 @@ export class DataIntersightHciAhvVmTagsOutputReference extends cdktf.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5944,7 +5984,7 @@ export class DataIntersightHciAhvVmTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciAhvVmVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5952,19 +5992,19 @@ export interface DataIntersightHciAhvVmVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5977,7 +6017,7 @@ export interface DataIntersightHciAhvVmVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -6209,7 +6249,7 @@ export class DataIntersightHciAhvVmVersionContextInterestedMosList extends cdktf
 }
 export interface DataIntersightHciAhvVmVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6217,19 +6257,19 @@ export interface DataIntersightHciAhvVmVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#moid DataIntersightHciAhvVm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6242,7 +6282,7 @@ export interface DataIntersightHciAhvVmVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#selector DataIntersightHciAhvVm#selector}
   */
   readonly selector?: string;
 }
@@ -6442,7 +6482,7 @@ export class DataIntersightHciAhvVmVersionContextRefMoOutputReference extends cd
 }
 export interface DataIntersightHciAhvVmVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#additional_properties DataIntersightHciAhvVm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6450,32 +6490,32 @@ export interface DataIntersightHciAhvVmVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#class_id DataIntersightHciAhvVm#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#marked_for_deletion DataIntersightHciAhvVm#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#marked_for_deletion DataIntersightHciAhvVm#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#nr_version DataIntersightHciAhvVm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#nr_version DataIntersightHciAhvVm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#object_type DataIntersightHciAhvVm#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#timestamp DataIntersightHciAhvVm#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#timestamp DataIntersightHciAhvVm#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6486,19 +6526,19 @@ export interface DataIntersightHciAhvVmVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#version_type DataIntersightHciAhvVm#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#version_type DataIntersightHciAhvVm#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#interested_mos DataIntersightHciAhvVm#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#interested_mos DataIntersightHciAhvVm#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciAhvVmVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#ref_mo DataIntersightHciAhvVm#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#ref_mo DataIntersightHciAhvVm#ref_mo}
   */
   readonly refMo?: DataIntersightHciAhvVmVersionContextRefMo;
 }
@@ -6814,7 +6854,7 @@ export class DataIntersightHciAhvVmVersionContextOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm intersight_hci_ahv_vm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm intersight_hci_ahv_vm}
 */
 export class DataIntersightHciAhvVm extends cdktf.TerraformDataSource {
 
@@ -6830,7 +6870,7 @@ export class DataIntersightHciAhvVm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciAhvVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciAhvVm to import
-  * @param importFromId The id of the existing DataIntersightHciAhvVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciAhvVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciAhvVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6842,7 +6882,7 @@ export class DataIntersightHciAhvVm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_ahv_vm intersight_hci_ahv_vm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_ahv_vm intersight_hci_ahv_vm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6853,8 +6893,8 @@ export class DataIntersightHciAhvVm extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_ahv_vm',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

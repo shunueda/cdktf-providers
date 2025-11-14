@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciEmailSuppressionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#compartment_id DataOciEmailSuppressions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#compartment_id DataOciEmailSuppressions#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#email_address DataOciEmailSuppressions#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#email_address DataOciEmailSuppressions#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#id DataOciEmailSuppressions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#id DataOciEmailSuppressions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#time_created_greater_than_or_equal_to DataOciEmailSuppressions#time_created_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#time_created_greater_than_or_equal_to DataOciEmailSuppressions#time_created_greater_than_or_equal_to}
   */
   readonly timeCreatedGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#time_created_less_than DataOciEmailSuppressions#time_created_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#time_created_less_than DataOciEmailSuppressions#time_created_less_than}
   */
   readonly timeCreatedLessThan?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#filter DataOciEmailSuppressions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#filter DataOciEmailSuppressions#filter}
   */
   readonly filter?: DataOciEmailSuppressionsFilter[] | cdktf.IResolvable;
 }
@@ -154,15 +154,15 @@ export class DataOciEmailSuppressionsSuppressionsList extends cdktf.ComplexList 
 }
 export interface DataOciEmailSuppressionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#name DataOciEmailSuppressions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#name DataOciEmailSuppressions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#regex DataOciEmailSuppressions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#regex DataOciEmailSuppressions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#values DataOciEmailSuppressions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#values DataOciEmailSuppressions#values}
   */
   readonly values: string[];
 }
@@ -330,7 +330,7 @@ export class DataOciEmailSuppressionsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions oci_email_suppressions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions oci_email_suppressions}
 */
 export class DataOciEmailSuppressions extends cdktf.TerraformDataSource {
 
@@ -346,7 +346,7 @@ export class DataOciEmailSuppressions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciEmailSuppressions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciEmailSuppressions to import
-  * @param importFromId The id of the existing DataOciEmailSuppressions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciEmailSuppressions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciEmailSuppressions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class DataOciEmailSuppressions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/email_suppressions oci_email_suppressions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/email_suppressions oci_email_suppressions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class DataOciEmailSuppressions extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_email_suppressions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,184 +8,184 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlMysqlDbSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#access_mode MysqlMysqlDbSystem#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#access_mode MysqlMysqlDbSystem#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#admin_password MysqlMysqlDbSystem#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#admin_password MysqlMysqlDbSystem#admin_password}
   */
   readonly adminPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#admin_username MysqlMysqlDbSystem#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#admin_username MysqlMysqlDbSystem#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#availability_domain MysqlMysqlDbSystem#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#availability_domain MysqlMysqlDbSystem#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#compartment_id MysqlMysqlDbSystem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#compartment_id MysqlMysqlDbSystem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#configuration_id MysqlMysqlDbSystem#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#configuration_id MysqlMysqlDbSystem#configuration_id}
   */
   readonly configurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#crash_recovery MysqlMysqlDbSystem#crash_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#crash_recovery MysqlMysqlDbSystem#crash_recovery}
   */
   readonly crashRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#data_storage_size_in_gb MysqlMysqlDbSystem#data_storage_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#data_storage_size_in_gb MysqlMysqlDbSystem#data_storage_size_in_gb}
   */
   readonly dataStorageSizeInGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#database_management MysqlMysqlDbSystem#database_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#database_management MysqlMysqlDbSystem#database_management}
   */
   readonly databaseManagement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#database_mode MysqlMysqlDbSystem#database_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#database_mode MysqlMysqlDbSystem#database_mode}
   */
   readonly databaseMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#defined_tags MysqlMysqlDbSystem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#defined_tags MysqlMysqlDbSystem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#description MysqlMysqlDbSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#description MysqlMysqlDbSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#display_name MysqlMysqlDbSystem#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#display_name MysqlMysqlDbSystem#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#fault_domain MysqlMysqlDbSystem#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#fault_domain MysqlMysqlDbSystem#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#freeform_tags MysqlMysqlDbSystem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#freeform_tags MysqlMysqlDbSystem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#hostname_label MysqlMysqlDbSystem#hostname_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#hostname_label MysqlMysqlDbSystem#hostname_label}
   */
   readonly hostnameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#id MysqlMysqlDbSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#id MysqlMysqlDbSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#ip_address MysqlMysqlDbSystem#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#ip_address MysqlMysqlDbSystem#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_highly_available MysqlMysqlDbSystem#is_highly_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_highly_available MysqlMysqlDbSystem#is_highly_available}
   */
   readonly isHighlyAvailable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#mysql_version MysqlMysqlDbSystem#mysql_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#mysql_version MysqlMysqlDbSystem#mysql_version}
   */
   readonly mysqlVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#nsg_ids MysqlMysqlDbSystem#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#nsg_ids MysqlMysqlDbSystem#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#port_x MysqlMysqlDbSystem#port_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#port_x MysqlMysqlDbSystem#port_x}
   */
   readonly portX?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#security_attributes MysqlMysqlDbSystem#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#security_attributes MysqlMysqlDbSystem#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#shape_name MysqlMysqlDbSystem#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#shape_name MysqlMysqlDbSystem#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#shutdown_type MysqlMysqlDbSystem#shutdown_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#shutdown_type MysqlMysqlDbSystem#shutdown_type}
   */
   readonly shutdownType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#state MysqlMysqlDbSystem#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#state MysqlMysqlDbSystem#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#subnet_id MysqlMysqlDbSystem#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#subnet_id MysqlMysqlDbSystem#subnet_id}
   */
   readonly subnetId: string;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#backup_policy MysqlMysqlDbSystem#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#backup_policy MysqlMysqlDbSystem#backup_policy}
   */
   readonly backupPolicy?: MysqlMysqlDbSystemBackupPolicy;
   /**
   * customer_contacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#customer_contacts MysqlMysqlDbSystem#customer_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#customer_contacts MysqlMysqlDbSystem#customer_contacts}
   */
   readonly customerContacts?: MysqlMysqlDbSystemCustomerContacts[] | cdktf.IResolvable;
   /**
   * data_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#data_storage MysqlMysqlDbSystem#data_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#data_storage MysqlMysqlDbSystem#data_storage}
   */
   readonly dataStorage?: MysqlMysqlDbSystemDataStorage;
   /**
   * deletion_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#deletion_policy MysqlMysqlDbSystem#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#deletion_policy MysqlMysqlDbSystem#deletion_policy}
   */
   readonly deletionPolicy?: MysqlMysqlDbSystemDeletionPolicy[] | cdktf.IResolvable;
   /**
   * encrypt_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#encrypt_data MysqlMysqlDbSystem#encrypt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#encrypt_data MysqlMysqlDbSystem#encrypt_data}
   */
   readonly encryptData?: MysqlMysqlDbSystemEncryptData;
   /**
   * maintenance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#maintenance MysqlMysqlDbSystem#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#maintenance MysqlMysqlDbSystem#maintenance}
   */
   readonly maintenance?: MysqlMysqlDbSystemMaintenance;
   /**
   * read_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#read_endpoint MysqlMysqlDbSystem#read_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#read_endpoint MysqlMysqlDbSystem#read_endpoint}
   */
   readonly readEndpoint?: MysqlMysqlDbSystemReadEndpoint;
   /**
   * rest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#rest MysqlMysqlDbSystem#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#rest MysqlMysqlDbSystem#rest}
   */
   readonly rest?: MysqlMysqlDbSystemRest;
   /**
   * secure_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#secure_connections MysqlMysqlDbSystem#secure_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#secure_connections MysqlMysqlDbSystem#secure_connections}
   */
   readonly secureConnections?: MysqlMysqlDbSystemSecureConnections;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#source MysqlMysqlDbSystem#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#source MysqlMysqlDbSystem#source}
   */
   readonly source?: MysqlMysqlDbSystemSource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#timeouts MysqlMysqlDbSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#timeouts MysqlMysqlDbSystem#timeouts}
   */
   readonly timeouts?: MysqlMysqlDbSystemTimeouts;
 }
@@ -1169,11 +1169,11 @@ export class MysqlMysqlDbSystemPointInTimeRecoveryDetailsList extends cdktf.Comp
 }
 export interface MysqlMysqlDbSystemBackupPolicyCopyPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#backup_copy_retention_in_days MysqlMysqlDbSystem#backup_copy_retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#backup_copy_retention_in_days MysqlMysqlDbSystem#backup_copy_retention_in_days}
   */
   readonly backupCopyRetentionInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#copy_to_region MysqlMysqlDbSystem#copy_to_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#copy_to_region MysqlMysqlDbSystem#copy_to_region}
   */
   readonly copyToRegion: string;
 }
@@ -1315,7 +1315,7 @@ export class MysqlMysqlDbSystemBackupPolicyCopyPoliciesList extends cdktf.Comple
 }
 export interface MysqlMysqlDbSystemBackupPolicyPitrPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1399,39 +1399,39 @@ export class MysqlMysqlDbSystemBackupPolicyPitrPolicyOutputReference extends cdk
 }
 export interface MysqlMysqlDbSystemBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#defined_tags MysqlMysqlDbSystem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#defined_tags MysqlMysqlDbSystem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#freeform_tags MysqlMysqlDbSystem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#freeform_tags MysqlMysqlDbSystem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#retention_in_days MysqlMysqlDbSystem#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#retention_in_days MysqlMysqlDbSystem#retention_in_days}
   */
   readonly retentionInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#soft_delete MysqlMysqlDbSystem#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#soft_delete MysqlMysqlDbSystem#soft_delete}
   */
   readonly softDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}
   */
   readonly windowStartTime?: string;
   /**
   * copy_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#copy_policies MysqlMysqlDbSystem#copy_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#copy_policies MysqlMysqlDbSystem#copy_policies}
   */
   readonly copyPolicies?: MysqlMysqlDbSystemBackupPolicyCopyPolicies[] | cdktf.IResolvable;
   /**
   * pitr_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#pitr_policy MysqlMysqlDbSystem#pitr_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#pitr_policy MysqlMysqlDbSystem#pitr_policy}
   */
   readonly pitrPolicy?: MysqlMysqlDbSystemBackupPolicyPitrPolicy;
 }
@@ -1718,7 +1718,7 @@ export class MysqlMysqlDbSystemBackupPolicyOutputReference extends cdktf.Complex
 }
 export interface MysqlMysqlDbSystemCustomerContacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#email MysqlMysqlDbSystem#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#email MysqlMysqlDbSystem#email}
   */
   readonly email: string;
 }
@@ -1831,11 +1831,11 @@ export class MysqlMysqlDbSystemCustomerContactsList extends cdktf.ComplexList {
 }
 export interface MysqlMysqlDbSystemDataStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_auto_expand_storage_enabled MysqlMysqlDbSystem#is_auto_expand_storage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_auto_expand_storage_enabled MysqlMysqlDbSystem#is_auto_expand_storage_enabled}
   */
   readonly isAutoExpandStorageEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#max_storage_size_in_gbs MysqlMysqlDbSystem#max_storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#max_storage_size_in_gbs MysqlMysqlDbSystem#max_storage_size_in_gbs}
   */
   readonly maxStorageSizeInGbs?: number;
 }
@@ -1963,15 +1963,15 @@ export class MysqlMysqlDbSystemDataStorageOutputReference extends cdktf.ComplexO
 }
 export interface MysqlMysqlDbSystemDeletionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#automatic_backup_retention MysqlMysqlDbSystem#automatic_backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#automatic_backup_retention MysqlMysqlDbSystem#automatic_backup_retention}
   */
   readonly automaticBackupRetention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#final_backup MysqlMysqlDbSystem#final_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#final_backup MysqlMysqlDbSystem#final_backup}
   */
   readonly finalBackup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_delete_protected MysqlMysqlDbSystem#is_delete_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_delete_protected MysqlMysqlDbSystem#is_delete_protected}
   */
   readonly isDeleteProtected?: boolean | cdktf.IResolvable;
 }
@@ -2145,11 +2145,11 @@ export class MysqlMysqlDbSystemDeletionPolicyList extends cdktf.ComplexList {
 }
 export interface MysqlMysqlDbSystemEncryptData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#key_generation_type MysqlMysqlDbSystem#key_generation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#key_generation_type MysqlMysqlDbSystem#key_generation_type}
   */
   readonly keyGenerationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#key_id MysqlMysqlDbSystem#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#key_id MysqlMysqlDbSystem#key_id}
   */
   readonly keyId?: string;
 }
@@ -2259,19 +2259,19 @@ export class MysqlMysqlDbSystemEncryptDataOutputReference extends cdktf.ComplexO
 }
 export interface MysqlMysqlDbSystemMaintenance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#maintenance_schedule_type MysqlMysqlDbSystem#maintenance_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#maintenance_schedule_type MysqlMysqlDbSystem#maintenance_schedule_type}
   */
   readonly maintenanceScheduleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#version_preference MysqlMysqlDbSystem#version_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#version_preference MysqlMysqlDbSystem#version_preference}
   */
   readonly versionPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#version_track_preference MysqlMysqlDbSystem#version_track_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#version_track_preference MysqlMysqlDbSystem#version_track_preference}
   */
   readonly versionTrackPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}
   */
   readonly windowStartTime: string;
 }
@@ -2449,19 +2449,19 @@ export class MysqlMysqlDbSystemMaintenanceOutputReference extends cdktf.ComplexO
 }
 export interface MysqlMysqlDbSystemReadEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#exclude_ips MysqlMysqlDbSystem#exclude_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#exclude_ips MysqlMysqlDbSystem#exclude_ips}
   */
   readonly excludeIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#is_enabled MysqlMysqlDbSystem#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#read_endpoint_hostname_label MysqlMysqlDbSystem#read_endpoint_hostname_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#read_endpoint_hostname_label MysqlMysqlDbSystem#read_endpoint_hostname_label}
   */
   readonly readEndpointHostnameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#read_endpoint_ip_address MysqlMysqlDbSystem#read_endpoint_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#read_endpoint_ip_address MysqlMysqlDbSystem#read_endpoint_ip_address}
   */
   readonly readEndpointIpAddress?: string;
 }
@@ -2632,11 +2632,11 @@ export class MysqlMysqlDbSystemReadEndpointOutputReference extends cdktf.Complex
 }
 export interface MysqlMysqlDbSystemRest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}
   */
   readonly configuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}
   */
   readonly port?: number;
 }
@@ -2746,11 +2746,11 @@ export class MysqlMysqlDbSystemRestOutputReference extends cdktf.ComplexObject {
 }
 export interface MysqlMysqlDbSystemSecureConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#certificate_generation_type MysqlMysqlDbSystem#certificate_generation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#certificate_generation_type MysqlMysqlDbSystem#certificate_generation_type}
   */
   readonly certificateGenerationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#certificate_id MysqlMysqlDbSystem#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#certificate_id MysqlMysqlDbSystem#certificate_id}
   */
   readonly certificateId?: string;
 }
@@ -2860,23 +2860,23 @@ export class MysqlMysqlDbSystemSecureConnectionsOutputReference extends cdktf.Co
 }
 export interface MysqlMysqlDbSystemSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#backup_id MysqlMysqlDbSystem#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#backup_id MysqlMysqlDbSystem#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#db_system_id MysqlMysqlDbSystem#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#db_system_id MysqlMysqlDbSystem#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#recovery_point MysqlMysqlDbSystem#recovery_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#recovery_point MysqlMysqlDbSystem#recovery_point}
   */
   readonly recoveryPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#source_type MysqlMysqlDbSystem#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#source_type MysqlMysqlDbSystem#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#source_url MysqlMysqlDbSystem#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#source_url MysqlMysqlDbSystem#source_url}
   */
   readonly sourceUrl?: string;
 }
@@ -3073,15 +3073,15 @@ export class MysqlMysqlDbSystemSourceOutputReference extends cdktf.ComplexObject
 }
 export interface MysqlMysqlDbSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#create MysqlMysqlDbSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#create MysqlMysqlDbSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#delete MysqlMysqlDbSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#delete MysqlMysqlDbSystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#update MysqlMysqlDbSystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#update MysqlMysqlDbSystem#update}
   */
   readonly update?: string;
 }
@@ -3233,7 +3233,7 @@ export class MysqlMysqlDbSystemTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system}
 */
 export class MysqlMysqlDbSystem extends cdktf.TerraformResource {
 
@@ -3249,7 +3249,7 @@ export class MysqlMysqlDbSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlMysqlDbSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlMysqlDbSystem to import
-  * @param importFromId The id of the existing MysqlMysqlDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlMysqlDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlMysqlDbSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3261,7 +3261,7 @@ export class MysqlMysqlDbSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/mysql_mysql_db_system oci_mysql_mysql_db_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3272,8 +3272,8 @@ export class MysqlMysqlDbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_mysql_db_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

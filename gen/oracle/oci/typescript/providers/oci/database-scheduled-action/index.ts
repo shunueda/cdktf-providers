@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseScheduledActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#action_params DatabaseScheduledAction#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#action_params DatabaseScheduledAction#action_params}
   */
   readonly actionParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#action_type DatabaseScheduledAction#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#action_type DatabaseScheduledAction#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#compartment_id DatabaseScheduledAction#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#compartment_id DatabaseScheduledAction#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#defined_tags DatabaseScheduledAction#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#defined_tags DatabaseScheduledAction#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#freeform_tags DatabaseScheduledAction#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#freeform_tags DatabaseScheduledAction#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#id DatabaseScheduledAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#id DatabaseScheduledAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#scheduling_plan_id DatabaseScheduledAction#scheduling_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#scheduling_plan_id DatabaseScheduledAction#scheduling_plan_id}
   */
   readonly schedulingPlanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#scheduling_window_id DatabaseScheduledAction#scheduling_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#scheduling_window_id DatabaseScheduledAction#scheduling_window_id}
   */
   readonly schedulingWindowId: string;
   /**
   * action_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#action_members DatabaseScheduledAction#action_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#action_members DatabaseScheduledAction#action_members}
   */
   readonly actionMembers?: DatabaseScheduledActionActionMembers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#timeouts DatabaseScheduledAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#timeouts DatabaseScheduledAction#timeouts}
   */
   readonly timeouts?: DatabaseScheduledActionTimeouts;
 }
 export interface DatabaseScheduledActionActionMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}
   */
   readonly estimatedTimeInMins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}
   */
   readonly memberId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}
   */
   readonly memberOrder: number;
 }
@@ -233,15 +233,15 @@ export class DatabaseScheduledActionActionMembersList extends cdktf.ComplexList 
 }
 export interface DatabaseScheduledActionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#create DatabaseScheduledAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#create DatabaseScheduledAction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#delete DatabaseScheduledAction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#delete DatabaseScheduledAction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#update DatabaseScheduledAction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#update DatabaseScheduledAction#update}
   */
   readonly update?: string;
 }
@@ -393,7 +393,7 @@ export class DatabaseScheduledActionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action oci_database_scheduled_action}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action oci_database_scheduled_action}
 */
 export class DatabaseScheduledAction extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class DatabaseScheduledAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseScheduledAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseScheduledAction to import
-  * @param importFromId The id of the existing DatabaseScheduledAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseScheduledAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseScheduledAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class DatabaseScheduledAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_scheduled_action oci_database_scheduled_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_scheduled_action oci_database_scheduled_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class DatabaseScheduledAction extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_scheduled_action',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

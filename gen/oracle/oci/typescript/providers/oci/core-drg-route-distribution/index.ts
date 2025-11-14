@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CoreDrgRouteDistributionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#defined_tags CoreDrgRouteDistribution#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#defined_tags CoreDrgRouteDistribution#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#display_name CoreDrgRouteDistribution#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#display_name CoreDrgRouteDistribution#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#distribution_type CoreDrgRouteDistribution#distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#distribution_type CoreDrgRouteDistribution#distribution_type}
   */
   readonly distributionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#drg_id CoreDrgRouteDistribution#drg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#drg_id CoreDrgRouteDistribution#drg_id}
   */
   readonly drgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#freeform_tags CoreDrgRouteDistribution#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#freeform_tags CoreDrgRouteDistribution#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#id CoreDrgRouteDistribution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#id CoreDrgRouteDistribution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,21 +37,21 @@ export interface CoreDrgRouteDistributionConfig extends cdktf.TerraformMetaArgum
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#timeouts CoreDrgRouteDistribution#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#timeouts CoreDrgRouteDistribution#timeouts}
   */
   readonly timeouts?: CoreDrgRouteDistributionTimeouts;
 }
 export interface CoreDrgRouteDistributionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#create CoreDrgRouteDistribution#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#create CoreDrgRouteDistribution#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#delete CoreDrgRouteDistribution#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#delete CoreDrgRouteDistribution#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#update CoreDrgRouteDistribution#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#update CoreDrgRouteDistribution#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class CoreDrgRouteDistributionTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution oci_core_drg_route_distribution}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution oci_core_drg_route_distribution}
 */
 export class CoreDrgRouteDistribution extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class CoreDrgRouteDistribution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreDrgRouteDistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreDrgRouteDistribution to import
-  * @param importFromId The id of the existing CoreDrgRouteDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreDrgRouteDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreDrgRouteDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class CoreDrgRouteDistribution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_drg_route_distribution oci_core_drg_route_distribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_drg_route_distribution oci_core_drg_route_distribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class CoreDrgRouteDistribution extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_drg_route_distribution',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

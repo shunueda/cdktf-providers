@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#account_moid DataIntersightVirtualizationVmwareHost#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#account_moid DataIntersightVirtualizationVmwareHost#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The time when this host booted up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#boot_time DataIntersightVirtualizationVmwareHost#boot_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#boot_time DataIntersightVirtualizationVmwareHost#boot_time}
   */
   readonly bootTime?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates if the host is connected to the vCenter. Values are connected, not connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#connection_state DataIntersightVirtualizationVmwareHost#connection_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#connection_state DataIntersightVirtualizationVmwareHost#connection_state}
   */
   readonly connectionState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#create_time DataIntersightVirtualizationVmwareHost#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#create_time DataIntersightVirtualizationVmwareHost#create_time}
   */
   readonly createTime?: string;
   /**
   * This field stores the inventory path of a datacenter. Used in host maintenance action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#dc_inv_path DataIntersightVirtualizationVmwareHost#dc_inv_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#dc_inv_path DataIntersightVirtualizationVmwareHost#dc_inv_path}
   */
   readonly dcInvPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#dns_servers DataIntersightVirtualizationVmwareHost#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#dns_servers DataIntersightVirtualizationVmwareHost#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#domain_group_moid DataIntersightVirtualizationVmwareHost#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#domain_group_moid DataIntersightVirtualizationVmwareHost#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -71,7 +71,7 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   * * `Rebooting` - The entity reboot is in progress.
   * * `` - The entity's power state is not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#hw_power_state DataIntersightVirtualizationVmwareHost#hw_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#hw_power_state DataIntersightVirtualizationVmwareHost#hw_power_state}
   */
   readonly hwPowerState?: string;
   /**
@@ -80,11 +80,11 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#hypervisor_type DataIntersightVirtualizationVmwareHost#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#hypervisor_type DataIntersightVirtualizationVmwareHost#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#id DataIntersightVirtualizationVmwareHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#id DataIntersightVirtualizationVmwareHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,83 +93,83 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   /**
   * The internally generated identity of this host. This entity is not manipulated by users. It aids in uniquely identifying the datacenter object. For VMware, this is an MOR (managed object reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#identity DataIntersightVirtualizationVmwareHost#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#identity DataIntersightVirtualizationVmwareHost#identity}
   */
   readonly identity?: string;
   /**
   * True if SSH is enabled in the host, false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#is_ssh_enabled DataIntersightVirtualizationVmwareHost#is_ssh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#is_ssh_enabled DataIntersightVirtualizationVmwareHost#is_ssh_enabled}
   */
   readonly isSshEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is this host in maintenance mode. Set to true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#maintenance_mode DataIntersightVirtualizationVmwareHost#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#maintenance_mode DataIntersightVirtualizationVmwareHost#maintenance_mode}
   */
   readonly maintenanceMode?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#mod_time DataIntersightVirtualizationVmwareHost#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#mod_time DataIntersightVirtualizationVmwareHost#mod_time}
   */
   readonly modTime?: string;
   /**
   * Commercial model information about this hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#model DataIntersightVirtualizationVmwareHost#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#model DataIntersightVirtualizationVmwareHost#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * Name of this host supplied by user. It is not the identity of the host. The name is subject to user manipulations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#name DataIntersightVirtualizationVmwareHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#name DataIntersightVirtualizationVmwareHost#name}
   */
   readonly name?: string;
   /**
   * The count of all network adapters attached to this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#network_adapter_count DataIntersightVirtualizationVmwareHost#network_adapter_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#network_adapter_count DataIntersightVirtualizationVmwareHost#network_adapter_count}
   */
   readonly networkAdapterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#ntp_servers DataIntersightVirtualizationVmwareHost#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#ntp_servers DataIntersightVirtualizationVmwareHost#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#owners DataIntersightVirtualizationVmwareHost#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#owners DataIntersightVirtualizationVmwareHost#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates if the host is in quarantine mode. Will be set to True, when in quarantine mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#quarantine_mode DataIntersightVirtualizationVmwareHost#quarantine_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#quarantine_mode DataIntersightVirtualizationVmwareHost#quarantine_mode}
   */
   readonly quarantineMode?: boolean | cdktf.IResolvable;
   /**
   * Serial number of this host (internally generated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#serial DataIntersightVirtualizationVmwareHost#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#serial DataIntersightVirtualizationVmwareHost#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#shared_scope DataIntersightVirtualizationVmwareHost#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#shared_scope DataIntersightVirtualizationVmwareHost#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -179,163 +179,163 @@ export interface DataIntersightVirtualizationVmwareHostConfig extends cdktf.Terr
   * * `Critical` - Entity is in a critical state, impacting operations.
   * * `Ok` - Entity status is in a stable state, operating normally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#status DataIntersightVirtualizationVmwareHost#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#status DataIntersightVirtualizationVmwareHost#status}
   */
   readonly status?: string;
   /**
   * The count of all storage adapters attached to this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#storage_adapter_count DataIntersightVirtualizationVmwareHost#storage_adapter_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#storage_adapter_count DataIntersightVirtualizationVmwareHost#storage_adapter_count}
   */
   readonly storageAdapterCount?: number;
   /**
   * Time zone this host is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#time_zone DataIntersightVirtualizationVmwareHost#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#time_zone DataIntersightVirtualizationVmwareHost#time_zone}
   */
   readonly timeZone?: string;
   /**
   * The uptime of the host, stored as Duration (from w3c).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#up_time DataIntersightVirtualizationVmwareHost#up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#up_time DataIntersightVirtualizationVmwareHost#up_time}
   */
   readonly upTime?: string;
   /**
   * Universally unique identity of this host (example b3d4483b-5560-9342-8309-b486c9236610). Internally generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#uuid DataIntersightVirtualizationVmwareHost#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#uuid DataIntersightVirtualizationVmwareHost#uuid}
   */
   readonly uuid?: string;
   /**
   * The identity of this host within vCenter (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#vcenter_host_id DataIntersightVirtualizationVmwareHost#vcenter_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#vcenter_host_id DataIntersightVirtualizationVmwareHost#vcenter_host_id}
   */
   readonly vcenterHostId?: string;
   /**
   * Commercial vendor details of this hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#vendor DataIntersightVirtualizationVmwareHost#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#vendor DataIntersightVirtualizationVmwareHost#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#ancestors DataIntersightVirtualizationVmwareHost#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#ancestors DataIntersightVirtualizationVmwareHost#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareHostAncestors[] | cdktf.IResolvable;
   /**
   * attached_resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#attached_resource_tags DataIntersightVirtualizationVmwareHost#attached_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#attached_resource_tags DataIntersightVirtualizationVmwareHost#attached_resource_tags}
   */
   readonly attachedResourceTags?: DataIntersightVirtualizationVmwareHostAttachedResourceTags[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cluster DataIntersightVirtualizationVmwareHost#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cluster DataIntersightVirtualizationVmwareHost#cluster}
   */
   readonly cluster?: DataIntersightVirtualizationVmwareHostCluster;
   /**
   * cpu_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cpu_info DataIntersightVirtualizationVmwareHost#cpu_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cpu_info DataIntersightVirtualizationVmwareHost#cpu_info}
   */
   readonly cpuInfo?: DataIntersightVirtualizationVmwareHostCpuInfo;
   /**
   * datacenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#datacenter DataIntersightVirtualizationVmwareHost#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#datacenter DataIntersightVirtualizationVmwareHost#datacenter}
   */
   readonly datacenter?: DataIntersightVirtualizationVmwareHostDatacenter;
   /**
   * datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#datastores DataIntersightVirtualizationVmwareHost#datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#datastores DataIntersightVirtualizationVmwareHost#datastores}
   */
   readonly datastores?: DataIntersightVirtualizationVmwareHostDatastores[] | cdktf.IResolvable;
   /**
   * distributed_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#distributed_networks DataIntersightVirtualizationVmwareHost#distributed_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#distributed_networks DataIntersightVirtualizationVmwareHost#distributed_networks}
   */
   readonly distributedNetworks?: DataIntersightVirtualizationVmwareHostDistributedNetworks[] | cdktf.IResolvable;
   /**
   * distributed_switches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#distributed_switches DataIntersightVirtualizationVmwareHost#distributed_switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#distributed_switches DataIntersightVirtualizationVmwareHost#distributed_switches}
   */
   readonly distributedSwitches?: DataIntersightVirtualizationVmwareHostDistributedSwitches[] | cdktf.IResolvable;
   /**
   * hardware_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#hardware_info DataIntersightVirtualizationVmwareHost#hardware_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#hardware_info DataIntersightVirtualizationVmwareHost#hardware_info}
   */
   readonly hardwareInfo?: DataIntersightVirtualizationVmwareHostHardwareInfo;
   /**
   * hyper_flex_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#hyper_flex_node DataIntersightVirtualizationVmwareHost#hyper_flex_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#hyper_flex_node DataIntersightVirtualizationVmwareHost#hyper_flex_node}
   */
   readonly hyperFlexNode?: DataIntersightVirtualizationVmwareHostHyperFlexNode;
   /**
   * memory_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#memory_capacity DataIntersightVirtualizationVmwareHost#memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#memory_capacity DataIntersightVirtualizationVmwareHost#memory_capacity}
   */
   readonly memoryCapacity?: DataIntersightVirtualizationVmwareHostMemoryCapacity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#parent DataIntersightVirtualizationVmwareHost#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#parent DataIntersightVirtualizationVmwareHost#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareHostParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#permission_resources DataIntersightVirtualizationVmwareHost#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#permission_resources DataIntersightVirtualizationVmwareHost#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareHostPermissionResources[] | cdktf.IResolvable;
   /**
   * processor_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#processor_capacity DataIntersightVirtualizationVmwareHost#processor_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#processor_capacity DataIntersightVirtualizationVmwareHost#processor_capacity}
   */
   readonly processorCapacity?: DataIntersightVirtualizationVmwareHostProcessorCapacity;
   /**
   * product_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#product_info DataIntersightVirtualizationVmwareHost#product_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#product_info DataIntersightVirtualizationVmwareHost#product_info}
   */
   readonly productInfo?: DataIntersightVirtualizationVmwareHostProductInfo;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#registered_device DataIntersightVirtualizationVmwareHost#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#registered_device DataIntersightVirtualizationVmwareHost#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareHostRegisteredDevice;
   /**
   * resource_consumed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#resource_consumed DataIntersightVirtualizationVmwareHost#resource_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#resource_consumed DataIntersightVirtualizationVmwareHost#resource_consumed}
   */
   readonly resourceConsumed?: DataIntersightVirtualizationVmwareHostResourceConsumed;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#server DataIntersightVirtualizationVmwareHost#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#server DataIntersightVirtualizationVmwareHost#server}
   */
   readonly server?: DataIntersightVirtualizationVmwareHostServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#tags DataIntersightVirtualizationVmwareHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#tags DataIntersightVirtualizationVmwareHost#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareHostTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#version_context DataIntersightVirtualizationVmwareHost#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#version_context DataIntersightVirtualizationVmwareHost#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareHostVersionContext;
 }
@@ -2362,6 +2362,11 @@ export class DataIntersightVirtualizationVmwareHostResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -3050,7 +3055,7 @@ export class DataIntersightVirtualizationVmwareHostResultsList extends cdktf.Com
 }
 export interface DataIntersightVirtualizationVmwareHostAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3058,19 +3063,19 @@ export interface DataIntersightVirtualizationVmwareHostAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3083,7 +3088,7 @@ export interface DataIntersightVirtualizationVmwareHostAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -3315,13 +3320,13 @@ export class DataIntersightVirtualizationVmwareHostAncestorsList extends cdktf.C
 }
 export interface DataIntersightVirtualizationVmwareHostAttachedResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The category of the tag assigned to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#category DataIntersightVirtualizationVmwareHost#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#category DataIntersightVirtualizationVmwareHost#category}
   */
   readonly category?: string;
   /**
@@ -3329,20 +3334,20 @@ export interface DataIntersightVirtualizationVmwareHostAttachedResourceTags {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the tag assigned to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#name DataIntersightVirtualizationVmwareHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#name DataIntersightVirtualizationVmwareHost#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -3574,7 +3579,7 @@ export class DataIntersightVirtualizationVmwareHostAttachedResourceTagsList exte
 }
 export interface DataIntersightVirtualizationVmwareHostCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3582,19 +3587,19 @@ export interface DataIntersightVirtualizationVmwareHostCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3607,7 +3612,7 @@ export interface DataIntersightVirtualizationVmwareHostCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -3807,7 +3812,7 @@ export class DataIntersightVirtualizationVmwareHostClusterOutputReference extend
 }
 export interface DataIntersightVirtualizationVmwareHostCpuInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3815,44 +3820,44 @@ export interface DataIntersightVirtualizationVmwareHostCpuInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * Number of cores per CPU, as reported by the manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cores DataIntersightVirtualizationVmwareHost#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cores DataIntersightVirtualizationVmwareHost#cores}
   */
   readonly cores?: number;
   /**
   * The vendor provided description of the CPU. For example, Intel Xeon E5-2640 v3 @ 2.60GHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#description DataIntersightVirtualizationVmwareHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#description DataIntersightVirtualizationVmwareHost#description}
   */
   readonly description?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Number of CPU sockets available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#sockets DataIntersightVirtualizationVmwareHost#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#sockets DataIntersightVirtualizationVmwareHost#sockets}
   */
   readonly sockets?: number;
   /**
   * Speed of the CPUs in Hertz. For example, 2593749663.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#speed DataIntersightVirtualizationVmwareHost#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#speed DataIntersightVirtualizationVmwareHost#speed}
   */
   readonly speed?: number;
   /**
   * Manufacturer of the CPU . For example, Intel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#vendor DataIntersightVirtualizationVmwareHost#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#vendor DataIntersightVirtualizationVmwareHost#vendor}
   */
   readonly vendor?: string;
 }
@@ -4139,7 +4144,7 @@ export class DataIntersightVirtualizationVmwareHostCpuInfoOutputReference extend
 }
 export interface DataIntersightVirtualizationVmwareHostDatacenter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4147,19 +4152,19 @@ export interface DataIntersightVirtualizationVmwareHostDatacenter {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4172,7 +4177,7 @@ export interface DataIntersightVirtualizationVmwareHostDatacenter {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -4372,7 +4377,7 @@ export class DataIntersightVirtualizationVmwareHostDatacenterOutputReference ext
 }
 export interface DataIntersightVirtualizationVmwareHostDatastores {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4380,19 +4385,19 @@ export interface DataIntersightVirtualizationVmwareHostDatastores {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4405,7 +4410,7 @@ export interface DataIntersightVirtualizationVmwareHostDatastores {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -4637,7 +4642,7 @@ export class DataIntersightVirtualizationVmwareHostDatastoresList extends cdktf.
 }
 export interface DataIntersightVirtualizationVmwareHostDistributedNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4645,19 +4650,19 @@ export interface DataIntersightVirtualizationVmwareHostDistributedNetworks {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4670,7 +4675,7 @@ export interface DataIntersightVirtualizationVmwareHostDistributedNetworks {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -4902,7 +4907,7 @@ export class DataIntersightVirtualizationVmwareHostDistributedNetworksList exten
 }
 export interface DataIntersightVirtualizationVmwareHostDistributedSwitches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4910,19 +4915,19 @@ export interface DataIntersightVirtualizationVmwareHostDistributedSwitches {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4935,7 +4940,7 @@ export interface DataIntersightVirtualizationVmwareHostDistributedSwitches {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -5167,7 +5172,7 @@ export class DataIntersightVirtualizationVmwareHostDistributedSwitchesList exten
 }
 export interface DataIntersightVirtualizationVmwareHostHardwareInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5175,32 +5180,32 @@ export interface DataIntersightVirtualizationVmwareHostHardwareInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The number of cpu cores on this hardware platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cpu_cores DataIntersightVirtualizationVmwareHost#cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cpu_cores DataIntersightVirtualizationVmwareHost#cpu_cores}
   */
   readonly cpuCores?: number;
   /**
   * Speed of cpu in MHz. Usually cpu speeds are reported for modern cpus in GHz but MHz makes it more precise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cpu_speed DataIntersightVirtualizationVmwareHost#cpu_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cpu_speed DataIntersightVirtualizationVmwareHost#cpu_speed}
   */
   readonly cpuSpeed?: number;
   /**
   * The amount of memory allocated (bytes) to this hardware platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#memory_size DataIntersightVirtualizationVmwareHost#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#memory_size DataIntersightVirtualizationVmwareHost#memory_size}
   */
   readonly memorySize?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -5429,7 +5434,7 @@ export class DataIntersightVirtualizationVmwareHostHardwareInfoOutputReference e
 }
 export interface DataIntersightVirtualizationVmwareHostHyperFlexNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5437,19 +5442,19 @@ export interface DataIntersightVirtualizationVmwareHostHyperFlexNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5462,7 +5467,7 @@ export interface DataIntersightVirtualizationVmwareHostHyperFlexNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -5662,13 +5667,13 @@ export class DataIntersightVirtualizationVmwareHostHyperFlexNodeOutputReference 
 }
 export interface DataIntersightVirtualizationVmwareHostMemoryCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The total memory capacity of the entity in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#capacity DataIntersightVirtualizationVmwareHost#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#capacity DataIntersightVirtualizationVmwareHost#capacity}
   */
   readonly capacity?: number;
   /**
@@ -5676,26 +5681,26 @@ export interface DataIntersightVirtualizationVmwareHostMemoryCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * Free memory (bytes) that is unused and available for allocation, as a point-in-time snapshot. The available memory capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used memory capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#free DataIntersightVirtualizationVmwareHost#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#free DataIntersightVirtualizationVmwareHost#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Memory (bytes) that has been already used up, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#used DataIntersightVirtualizationVmwareHost#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#used DataIntersightVirtualizationVmwareHost#used}
   */
   readonly used?: number;
 }
@@ -5924,7 +5929,7 @@ export class DataIntersightVirtualizationVmwareHostMemoryCapacityOutputReference
 }
 export interface DataIntersightVirtualizationVmwareHostParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5932,19 +5937,19 @@ export interface DataIntersightVirtualizationVmwareHostParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5957,7 +5962,7 @@ export interface DataIntersightVirtualizationVmwareHostParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -6157,7 +6162,7 @@ export class DataIntersightVirtualizationVmwareHostParentOutputReference extends
 }
 export interface DataIntersightVirtualizationVmwareHostPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6165,19 +6170,19 @@ export interface DataIntersightVirtualizationVmwareHostPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6190,7 +6195,7 @@ export interface DataIntersightVirtualizationVmwareHostPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -6422,13 +6427,13 @@ export class DataIntersightVirtualizationVmwareHostPermissionResourcesList exten
 }
 export interface DataIntersightVirtualizationVmwareHostProcessorCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total capacity of the entity in MHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#capacity DataIntersightVirtualizationVmwareHost#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#capacity DataIntersightVirtualizationVmwareHost#capacity}
   */
   readonly capacity?: number;
   /**
@@ -6436,26 +6441,26 @@ export interface DataIntersightVirtualizationVmwareHostProcessorCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * Free CPU capacity in MHz, as a point-in-time snapshot. The available CPU capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used CPU capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#free DataIntersightVirtualizationVmwareHost#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#free DataIntersightVirtualizationVmwareHost#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Used CPU capacity of the entity in MHz, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#used DataIntersightVirtualizationVmwareHost#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#used DataIntersightVirtualizationVmwareHost#used}
   */
   readonly used?: number;
 }
@@ -6684,13 +6689,13 @@ export class DataIntersightVirtualizationVmwareHostProcessorCapacityOutputRefere
 }
 export interface DataIntersightVirtualizationVmwareHostProductInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The build number of the hypervisor running on this host (e.g., 4541947, 6.3.9600.18692). The build number may indicate some feature support that applications might rely on. The build number may not always be an integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#build DataIntersightVirtualizationVmwareHost#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#build DataIntersightVirtualizationVmwareHost#build}
   */
   readonly buildAttribute?: string;
   /**
@@ -6698,38 +6703,38 @@ export interface DataIntersightVirtualizationVmwareHostProductInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * Hypervisor version running on the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#nr_version DataIntersightVirtualizationVmwareHost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#nr_version DataIntersightVirtualizationVmwareHost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Commercial product name. For example, VMware ESXi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#product_name DataIntersightVirtualizationVmwareHost#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#product_name DataIntersightVirtualizationVmwareHost#product_name}
   */
   readonly productName?: string;
   /**
   * Product name provided by the vendor. For example, embeddedEsx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#product_type DataIntersightVirtualizationVmwareHost#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#product_type DataIntersightVirtualizationVmwareHost#product_type}
   */
   readonly productType?: string;
   /**
   * Commercial vendor name. For example, VMware Inc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#product_vendor DataIntersightVirtualizationVmwareHost#product_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#product_vendor DataIntersightVirtualizationVmwareHost#product_vendor}
   */
   readonly productVendor?: string;
 }
@@ -7016,7 +7021,7 @@ export class DataIntersightVirtualizationVmwareHostProductInfoOutputReference ex
 }
 export interface DataIntersightVirtualizationVmwareHostRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7024,19 +7029,19 @@ export interface DataIntersightVirtualizationVmwareHostRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7049,7 +7054,7 @@ export interface DataIntersightVirtualizationVmwareHostRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -7249,7 +7254,7 @@ export class DataIntersightVirtualizationVmwareHostRegisteredDeviceOutputReferen
 }
 export interface DataIntersightVirtualizationVmwareHostResourceConsumed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7257,26 +7262,26 @@ export interface DataIntersightVirtualizationVmwareHostResourceConsumed {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The amount of CPU consumed in Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#cpu_consumed DataIntersightVirtualizationVmwareHost#cpu_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#cpu_consumed DataIntersightVirtualizationVmwareHost#cpu_consumed}
   */
   readonly cpuConsumed?: number;
   /**
   * Memory consumed by this host in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#memory_consumed DataIntersightVirtualizationVmwareHost#memory_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#memory_consumed DataIntersightVirtualizationVmwareHost#memory_consumed}
   */
   readonly memoryConsumed?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -7476,7 +7481,7 @@ export class DataIntersightVirtualizationVmwareHostResourceConsumedOutputReferen
 }
 export interface DataIntersightVirtualizationVmwareHostServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7484,19 +7489,19 @@ export interface DataIntersightVirtualizationVmwareHostServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7509,7 +7514,7 @@ export interface DataIntersightVirtualizationVmwareHostServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -7709,7 +7714,7 @@ export class DataIntersightVirtualizationVmwareHostServerOutputReference extends
 }
 export interface DataIntersightVirtualizationVmwareHostTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7717,19 +7722,19 @@ export interface DataIntersightVirtualizationVmwareHostTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7742,7 +7747,7 @@ export interface DataIntersightVirtualizationVmwareHostTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -7974,7 +7979,7 @@ export class DataIntersightVirtualizationVmwareHostTagsAncestorDefinitionsList e
 }
 export interface DataIntersightVirtualizationVmwareHostTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7982,19 +7987,19 @@ export interface DataIntersightVirtualizationVmwareHostTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8007,7 +8012,7 @@ export interface DataIntersightVirtualizationVmwareHostTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -8207,45 +8212,51 @@ export class DataIntersightVirtualizationVmwareHostTagsDefinitionOutputReference
 }
 export interface DataIntersightVirtualizationVmwareHostTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#key DataIntersightVirtualizationVmwareHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#key DataIntersightVirtualizationVmwareHost#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#propagated DataIntersightVirtualizationVmwareHost#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#propagated DataIntersightVirtualizationVmwareHost#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#sys_tag DataIntersightVirtualizationVmwareHost#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#type DataIntersightVirtualizationVmwareHost#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#type DataIntersightVirtualizationVmwareHost#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#value DataIntersightVirtualizationVmwareHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#value DataIntersightVirtualizationVmwareHost#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#ancestor_definitions DataIntersightVirtualizationVmwareHost#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#ancestor_definitions DataIntersightVirtualizationVmwareHost#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareHostTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#definition DataIntersightVirtualizationVmwareHost#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#definition DataIntersightVirtualizationVmwareHost#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareHostTagsDefinition;
 }
@@ -8259,6 +8270,7 @@ export function dataIntersightVirtualizationVmwareHostTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVirtualizationVmwareHostTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -8287,6 +8299,12 @@ export function dataIntersightVirtualizationVmwareHostTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -8353,6 +8371,10 @@ export class DataIntersightVirtualizationVmwareHostTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -8379,6 +8401,7 @@ export class DataIntersightVirtualizationVmwareHostTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -8394,6 +8417,7 @@ export class DataIntersightVirtualizationVmwareHostTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -8447,6 +8471,22 @@ export class DataIntersightVirtualizationVmwareHostTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -8535,7 +8575,7 @@ export class DataIntersightVirtualizationVmwareHostTagsList extends cdktf.Comple
 }
 export interface DataIntersightVirtualizationVmwareHostVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8543,19 +8583,19 @@ export interface DataIntersightVirtualizationVmwareHostVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8568,7 +8608,7 @@ export interface DataIntersightVirtualizationVmwareHostVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -8800,7 +8840,7 @@ export class DataIntersightVirtualizationVmwareHostVersionContextInterestedMosLi
 }
 export interface DataIntersightVirtualizationVmwareHostVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8808,19 +8848,19 @@ export interface DataIntersightVirtualizationVmwareHostVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#moid DataIntersightVirtualizationVmwareHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8833,7 +8873,7 @@ export interface DataIntersightVirtualizationVmwareHostVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#selector DataIntersightVirtualizationVmwareHost#selector}
   */
   readonly selector?: string;
 }
@@ -9033,7 +9073,7 @@ export class DataIntersightVirtualizationVmwareHostVersionContextRefMoOutputRefe
 }
 export interface DataIntersightVirtualizationVmwareHostVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#additional_properties DataIntersightVirtualizationVmwareHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9041,32 +9081,32 @@ export interface DataIntersightVirtualizationVmwareHostVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#class_id DataIntersightVirtualizationVmwareHost#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#marked_for_deletion DataIntersightVirtualizationVmwareHost#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#marked_for_deletion DataIntersightVirtualizationVmwareHost#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#nr_version DataIntersightVirtualizationVmwareHost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#nr_version DataIntersightVirtualizationVmwareHost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#object_type DataIntersightVirtualizationVmwareHost#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#timestamp DataIntersightVirtualizationVmwareHost#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#timestamp DataIntersightVirtualizationVmwareHost#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -9077,19 +9117,19 @@ export interface DataIntersightVirtualizationVmwareHostVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#version_type DataIntersightVirtualizationVmwareHost#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#version_type DataIntersightVirtualizationVmwareHost#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#interested_mos DataIntersightVirtualizationVmwareHost#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#interested_mos DataIntersightVirtualizationVmwareHost#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareHostVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#ref_mo DataIntersightVirtualizationVmwareHost#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#ref_mo DataIntersightVirtualizationVmwareHost#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareHostVersionContextRefMo;
 }
@@ -9405,7 +9445,7 @@ export class DataIntersightVirtualizationVmwareHostVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host intersight_virtualization_vmware_host}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host intersight_virtualization_vmware_host}
 */
 export class DataIntersightVirtualizationVmwareHost extends cdktf.TerraformDataSource {
 
@@ -9421,7 +9461,7 @@ export class DataIntersightVirtualizationVmwareHost extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareHost to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9433,7 +9473,7 @@ export class DataIntersightVirtualizationVmwareHost extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_host intersight_virtualization_vmware_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host intersight_virtualization_vmware_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9444,8 +9484,8 @@ export class DataIntersightVirtualizationVmwareHost extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_virtualization_vmware_host',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

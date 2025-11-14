@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightRecommendationPurchaseOrderListConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#account_moid DataIntersightRecommendationPurchaseOrderList#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#account_moid DataIntersightRecommendationPurchaseOrderList#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightRecommendationPurchaseOrderListConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#create_time DataIntersightRecommendationPurchaseOrderList#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#create_time DataIntersightRecommendationPurchaseOrderList#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#domain_group_moid DataIntersightRecommendationPurchaseOrderList#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#domain_group_moid DataIntersightRecommendationPurchaseOrderList#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#id DataIntersightRecommendationPurchaseOrderList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#id DataIntersightRecommendationPurchaseOrderList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightRecommendationPurchaseOrderListConfig extends cdk
   /**
   * The comma seperated list of items for the current recommendation. This can be used to generate an estimate by uploading it to Cisco Commerce Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#item_list DataIntersightRecommendationPurchaseOrderList#item_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#item_list DataIntersightRecommendationPurchaseOrderList#item_list}
   */
   readonly itemList?: string;
   /**
   * The time when the recommendation was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#last_updated_time DataIntersightRecommendationPurchaseOrderList#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#last_updated_time DataIntersightRecommendationPurchaseOrderList#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#mod_time DataIntersightRecommendationPurchaseOrderList#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#mod_time DataIntersightRecommendationPurchaseOrderList#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The name of the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#name DataIntersightRecommendationPurchaseOrderList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#name DataIntersightRecommendationPurchaseOrderList#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#owners DataIntersightRecommendationPurchaseOrderList#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#owners DataIntersightRecommendationPurchaseOrderList#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates if the recommendation requirement is met by the existing setup by adding hardware components to it or it needs expansion. For example if the recommendation is to add 16 disks to a HyperFlex cluster but the cluster is already alost full and only 8 disks can be added, then this property is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#requirement_met DataIntersightRecommendationPurchaseOrderList#requirement_met}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#requirement_met DataIntersightRecommendationPurchaseOrderList#requirement_met}
   */
   readonly requirementMet?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#shared_scope DataIntersightRecommendationPurchaseOrderList#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#shared_scope DataIntersightRecommendationPurchaseOrderList#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#ancestors DataIntersightRecommendationPurchaseOrderList#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#ancestors DataIntersightRecommendationPurchaseOrderList#ancestors}
   */
   readonly ancestors?: DataIntersightRecommendationPurchaseOrderListAncestors[] | cdktf.IResolvable;
   /**
   * cluster_expansion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#cluster_expansion DataIntersightRecommendationPurchaseOrderList#cluster_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#cluster_expansion DataIntersightRecommendationPurchaseOrderList#cluster_expansion}
   */
   readonly clusterExpansion?: DataIntersightRecommendationPurchaseOrderListClusterExpansion;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#parent DataIntersightRecommendationPurchaseOrderList#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#parent DataIntersightRecommendationPurchaseOrderList#parent}
   */
   readonly parent?: DataIntersightRecommendationPurchaseOrderListParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#permission_resources DataIntersightRecommendationPurchaseOrderList#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#permission_resources DataIntersightRecommendationPurchaseOrderList#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecommendationPurchaseOrderListPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#tags DataIntersightRecommendationPurchaseOrderList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#tags DataIntersightRecommendationPurchaseOrderList#tags}
   */
   readonly tags?: DataIntersightRecommendationPurchaseOrderListTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#version_context DataIntersightRecommendationPurchaseOrderList#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#version_context DataIntersightRecommendationPurchaseOrderList#version_context}
   */
   readonly versionContext?: DataIntersightRecommendationPurchaseOrderListVersionContext;
 }
@@ -783,6 +783,11 @@ export class DataIntersightRecommendationPurchaseOrderListResultsTagsOutputRefer
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1297,7 +1302,7 @@ export class DataIntersightRecommendationPurchaseOrderListResultsList extends cd
 }
 export interface DataIntersightRecommendationPurchaseOrderListAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1305,19 +1310,19 @@ export interface DataIntersightRecommendationPurchaseOrderListAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1330,7 +1335,7 @@ export interface DataIntersightRecommendationPurchaseOrderListAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -1562,7 +1567,7 @@ export class DataIntersightRecommendationPurchaseOrderListAncestorsList extends 
 }
 export interface DataIntersightRecommendationPurchaseOrderListClusterExpansion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1570,19 +1575,19 @@ export interface DataIntersightRecommendationPurchaseOrderListClusterExpansion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1595,7 +1600,7 @@ export interface DataIntersightRecommendationPurchaseOrderListClusterExpansion {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -1795,7 +1800,7 @@ export class DataIntersightRecommendationPurchaseOrderListClusterExpansionOutput
 }
 export interface DataIntersightRecommendationPurchaseOrderListParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1803,19 +1808,19 @@ export interface DataIntersightRecommendationPurchaseOrderListParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1828,7 +1833,7 @@ export interface DataIntersightRecommendationPurchaseOrderListParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -2028,7 +2033,7 @@ export class DataIntersightRecommendationPurchaseOrderListParentOutputReference 
 }
 export interface DataIntersightRecommendationPurchaseOrderListPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2036,19 +2041,19 @@ export interface DataIntersightRecommendationPurchaseOrderListPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2061,7 +2066,7 @@ export interface DataIntersightRecommendationPurchaseOrderListPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -2293,7 +2298,7 @@ export class DataIntersightRecommendationPurchaseOrderListPermissionResourcesLis
 }
 export interface DataIntersightRecommendationPurchaseOrderListTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2301,19 +2306,19 @@ export interface DataIntersightRecommendationPurchaseOrderListTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2326,7 +2331,7 @@ export interface DataIntersightRecommendationPurchaseOrderListTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -2558,7 +2563,7 @@ export class DataIntersightRecommendationPurchaseOrderListTagsAncestorDefinition
 }
 export interface DataIntersightRecommendationPurchaseOrderListTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2566,19 +2571,19 @@ export interface DataIntersightRecommendationPurchaseOrderListTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2591,7 +2596,7 @@ export interface DataIntersightRecommendationPurchaseOrderListTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -2791,45 +2796,51 @@ export class DataIntersightRecommendationPurchaseOrderListTagsDefinitionOutputRe
 }
 export interface DataIntersightRecommendationPurchaseOrderListTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#key DataIntersightRecommendationPurchaseOrderList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#key DataIntersightRecommendationPurchaseOrderList#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#propagated DataIntersightRecommendationPurchaseOrderList#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#propagated DataIntersightRecommendationPurchaseOrderList#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#sys_tag DataIntersightRecommendationPurchaseOrderList#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#type DataIntersightRecommendationPurchaseOrderList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#type DataIntersightRecommendationPurchaseOrderList#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#value DataIntersightRecommendationPurchaseOrderList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#value DataIntersightRecommendationPurchaseOrderList#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#ancestor_definitions DataIntersightRecommendationPurchaseOrderList#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#ancestor_definitions DataIntersightRecommendationPurchaseOrderList#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecommendationPurchaseOrderListTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#definition DataIntersightRecommendationPurchaseOrderList#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#definition DataIntersightRecommendationPurchaseOrderList#definition}
   */
   readonly definition?: DataIntersightRecommendationPurchaseOrderListTagsDefinition;
 }
@@ -2843,6 +2854,7 @@ export function dataIntersightRecommendationPurchaseOrderListTagsToTerraform(str
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightRecommendationPurchaseOrderListTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2871,6 +2883,12 @@ export function dataIntersightRecommendationPurchaseOrderListTagsToHclTerraform(
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2937,6 +2955,10 @@ export class DataIntersightRecommendationPurchaseOrderListTagsOutputReference ex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2963,6 +2985,7 @@ export class DataIntersightRecommendationPurchaseOrderListTagsOutputReference ex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2978,6 +3001,7 @@ export class DataIntersightRecommendationPurchaseOrderListTagsOutputReference ex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3031,6 +3055,22 @@ export class DataIntersightRecommendationPurchaseOrderListTagsOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3119,7 +3159,7 @@ export class DataIntersightRecommendationPurchaseOrderListTagsList extends cdktf
 }
 export interface DataIntersightRecommendationPurchaseOrderListVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3127,19 +3167,19 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3152,7 +3192,7 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -3384,7 +3424,7 @@ export class DataIntersightRecommendationPurchaseOrderListVersionContextInterest
 }
 export interface DataIntersightRecommendationPurchaseOrderListVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3392,19 +3432,19 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#moid DataIntersightRecommendationPurchaseOrderList#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3417,7 +3457,7 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#selector DataIntersightRecommendationPurchaseOrderList#selector}
   */
   readonly selector?: string;
 }
@@ -3617,7 +3657,7 @@ export class DataIntersightRecommendationPurchaseOrderListVersionContextRefMoOut
 }
 export interface DataIntersightRecommendationPurchaseOrderListVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#additional_properties DataIntersightRecommendationPurchaseOrderList#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3625,32 +3665,32 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#class_id DataIntersightRecommendationPurchaseOrderList#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#marked_for_deletion DataIntersightRecommendationPurchaseOrderList#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#marked_for_deletion DataIntersightRecommendationPurchaseOrderList#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#nr_version DataIntersightRecommendationPurchaseOrderList#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#nr_version DataIntersightRecommendationPurchaseOrderList#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#object_type DataIntersightRecommendationPurchaseOrderList#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#timestamp DataIntersightRecommendationPurchaseOrderList#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#timestamp DataIntersightRecommendationPurchaseOrderList#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3661,19 +3701,19 @@ export interface DataIntersightRecommendationPurchaseOrderListVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#version_type DataIntersightRecommendationPurchaseOrderList#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#version_type DataIntersightRecommendationPurchaseOrderList#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#interested_mos DataIntersightRecommendationPurchaseOrderList#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#interested_mos DataIntersightRecommendationPurchaseOrderList#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecommendationPurchaseOrderListVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#ref_mo DataIntersightRecommendationPurchaseOrderList#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#ref_mo DataIntersightRecommendationPurchaseOrderList#ref_mo}
   */
   readonly refMo?: DataIntersightRecommendationPurchaseOrderListVersionContextRefMo;
 }
@@ -3989,7 +4029,7 @@ export class DataIntersightRecommendationPurchaseOrderListVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list intersight_recommendation_purchase_order_list}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list intersight_recommendation_purchase_order_list}
 */
 export class DataIntersightRecommendationPurchaseOrderList extends cdktf.TerraformDataSource {
 
@@ -4005,7 +4045,7 @@ export class DataIntersightRecommendationPurchaseOrderList extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightRecommendationPurchaseOrderList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecommendationPurchaseOrderList to import
-  * @param importFromId The id of the existing DataIntersightRecommendationPurchaseOrderList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecommendationPurchaseOrderList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecommendationPurchaseOrderList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4017,7 +4057,7 @@ export class DataIntersightRecommendationPurchaseOrderList extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recommendation_purchase_order_list intersight_recommendation_purchase_order_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_purchase_order_list intersight_recommendation_purchase_order_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4028,8 +4068,8 @@ export class DataIntersightRecommendationPurchaseOrderList extends cdktf.Terrafo
       terraformResourceType: 'intersight_recommendation_purchase_order_list',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

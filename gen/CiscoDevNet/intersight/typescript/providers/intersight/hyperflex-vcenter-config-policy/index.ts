@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexVcenterConfigPolicyConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#account_moid HyperflexVcenterConfigPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#account_moid HyperflexVcenterConfigPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#ancestors HyperflexVcenterConfigPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#ancestors HyperflexVcenterConfigPolicy#ancestors}
   */
   readonly ancestors?: HyperflexVcenterConfigPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,47 +28,47 @@ export interface HyperflexVcenterConfigPolicyConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to hyperflexClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#cluster_profiles HyperflexVcenterConfigPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#cluster_profiles HyperflexVcenterConfigPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: HyperflexVcenterConfigPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#create_time HyperflexVcenterConfigPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#create_time HyperflexVcenterConfigPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The vCenter datacenter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#data_center HyperflexVcenterConfigPolicy#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#data_center HyperflexVcenterConfigPolicy#data_center}
   */
   readonly dataCenter?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#description HyperflexVcenterConfigPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#description HyperflexVcenterConfigPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#domain_group_moid HyperflexVcenterConfigPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#domain_group_moid HyperflexVcenterConfigPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The vCenter server FQDN or IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#hostname HyperflexVcenterConfigPolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#hostname HyperflexVcenterConfigPolicy#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#id HyperflexVcenterConfigPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#id HyperflexVcenterConfigPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,113 +77,113 @@ export interface HyperflexVcenterConfigPolicyConfig extends cdktf.TerraformMetaA
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#is_password_set HyperflexVcenterConfigPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#is_password_set HyperflexVcenterConfigPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#mod_time HyperflexVcenterConfigPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#mod_time HyperflexVcenterConfigPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#name HyperflexVcenterConfigPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#name HyperflexVcenterConfigPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#organization HyperflexVcenterConfigPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#organization HyperflexVcenterConfigPolicy#organization}
   */
   readonly organization?: HyperflexVcenterConfigPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#owners HyperflexVcenterConfigPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#owners HyperflexVcenterConfigPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#parent HyperflexVcenterConfigPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#parent HyperflexVcenterConfigPolicy#parent}
   */
   readonly parent?: HyperflexVcenterConfigPolicyParent[] | cdktf.IResolvable;
   /**
   * The password for authenticating with vCenter. Follow the corresponding password policy governed by vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#password HyperflexVcenterConfigPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#password HyperflexVcenterConfigPolicy#password}
   */
   readonly password?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#permission_resources HyperflexVcenterConfigPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#permission_resources HyperflexVcenterConfigPolicy#permission_resources}
   */
   readonly permissionResources?: HyperflexVcenterConfigPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#shared_scope HyperflexVcenterConfigPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#shared_scope HyperflexVcenterConfigPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Overrides the default vCenter Single Sign-On URL. Do not specify unless instructed by Cisco TAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#sso_url HyperflexVcenterConfigPolicy#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#sso_url HyperflexVcenterConfigPolicy#sso_url}
   */
   readonly ssoUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#tags HyperflexVcenterConfigPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#tags HyperflexVcenterConfigPolicy#tags}
   */
   readonly tags?: HyperflexVcenterConfigPolicyTags[] | cdktf.IResolvable;
   /**
   * The vCenter username (e.g. administrator@vsphere.local).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#username HyperflexVcenterConfigPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#username HyperflexVcenterConfigPolicy#username}
   */
   readonly username?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#version_context HyperflexVcenterConfigPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#version_context HyperflexVcenterConfigPolicy#version_context}
   */
   readonly versionContext?: HyperflexVcenterConfigPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexVcenterConfigPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -415,23 +415,23 @@ export class HyperflexVcenterConfigPolicyAncestorsList extends cdktf.ComplexList
 }
 export interface HyperflexVcenterConfigPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -663,23 +663,23 @@ export class HyperflexVcenterConfigPolicyClusterProfilesList extends cdktf.Compl
 }
 export interface HyperflexVcenterConfigPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -911,23 +911,23 @@ export class HyperflexVcenterConfigPolicyOrganizationList extends cdktf.ComplexL
 }
 export interface HyperflexVcenterConfigPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1159,23 +1159,23 @@ export class HyperflexVcenterConfigPolicyParentList extends cdktf.ComplexList {
 }
 export interface HyperflexVcenterConfigPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1407,23 +1407,23 @@ export class HyperflexVcenterConfigPolicyPermissionResourcesList extends cdktf.C
 }
 export interface HyperflexVcenterConfigPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1655,23 +1655,23 @@ export class HyperflexVcenterConfigPolicyTagsAncestorDefinitionsList extends cdk
 }
 export interface HyperflexVcenterConfigPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1903,31 +1903,35 @@ export class HyperflexVcenterConfigPolicyTagsDefinitionList extends cdktf.Comple
 }
 export interface HyperflexVcenterConfigPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#ancestor_definitions HyperflexVcenterConfigPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#ancestor_definitions HyperflexVcenterConfigPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexVcenterConfigPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#definition HyperflexVcenterConfigPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#definition HyperflexVcenterConfigPolicy#definition}
   */
   readonly definition?: HyperflexVcenterConfigPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#key HyperflexVcenterConfigPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#key HyperflexVcenterConfigPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#propagated HyperflexVcenterConfigPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#propagated HyperflexVcenterConfigPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#type HyperflexVcenterConfigPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#sys_tag HyperflexVcenterConfigPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#type HyperflexVcenterConfigPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#value HyperflexVcenterConfigPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#value HyperflexVcenterConfigPolicy#value}
   */
   readonly value?: string;
 }
@@ -1943,6 +1947,7 @@ export function hyperflexVcenterConfigPolicyTagsToTerraform(struct?: HyperflexVc
     definition: cdktf.listMapper(hyperflexVcenterConfigPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1981,6 +1986,12 @@ export function hyperflexVcenterConfigPolicyTagsToHclTerraform(struct?: Hyperfle
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2043,6 +2054,10 @@ export class HyperflexVcenterConfigPolicyTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2063,6 +2078,7 @@ export class HyperflexVcenterConfigPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2078,6 +2094,7 @@ export class HyperflexVcenterConfigPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2163,6 +2180,22 @@ export class HyperflexVcenterConfigPolicyTagsOutputReference extends cdktf.Compl
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2217,23 +2250,23 @@ export class HyperflexVcenterConfigPolicyTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexVcenterConfigPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2465,23 +2498,23 @@ export class HyperflexVcenterConfigPolicyVersionContextInterestedMosList extends
 }
 export interface HyperflexVcenterConfigPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#moid HyperflexVcenterConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#selector HyperflexVcenterConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2713,39 +2746,39 @@ export class HyperflexVcenterConfigPolicyVersionContextRefMoList extends cdktf.C
 }
 export interface HyperflexVcenterConfigPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#additional_properties HyperflexVcenterConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#class_id HyperflexVcenterConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#interested_mos HyperflexVcenterConfigPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#interested_mos HyperflexVcenterConfigPolicy#interested_mos}
   */
   readonly interestedMos?: HyperflexVcenterConfigPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#marked_for_deletion HyperflexVcenterConfigPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#marked_for_deletion HyperflexVcenterConfigPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#nr_version HyperflexVcenterConfigPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#nr_version HyperflexVcenterConfigPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#object_type HyperflexVcenterConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#ref_mo HyperflexVcenterConfigPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#ref_mo HyperflexVcenterConfigPolicy#ref_mo}
   */
   readonly refMo?: HyperflexVcenterConfigPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#timestamp HyperflexVcenterConfigPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#timestamp HyperflexVcenterConfigPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#version_type HyperflexVcenterConfigPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#version_type HyperflexVcenterConfigPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3093,7 +3126,7 @@ export class HyperflexVcenterConfigPolicyVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy intersight_hyperflex_vcenter_config_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy intersight_hyperflex_vcenter_config_policy}
 */
 export class HyperflexVcenterConfigPolicy extends cdktf.TerraformResource {
 
@@ -3109,7 +3142,7 @@ export class HyperflexVcenterConfigPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexVcenterConfigPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexVcenterConfigPolicy to import
-  * @param importFromId The id of the existing HyperflexVcenterConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexVcenterConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexVcenterConfigPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3121,7 +3154,7 @@ export class HyperflexVcenterConfigPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_vcenter_config_policy intersight_hyperflex_vcenter_config_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vcenter_config_policy intersight_hyperflex_vcenter_config_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3132,8 +3165,8 @@ export class HyperflexVcenterConfigPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_vcenter_config_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

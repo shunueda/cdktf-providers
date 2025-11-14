@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface UserGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#id UserGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#id UserGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#owner_reference UserGroups#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#owner_reference UserGroups#owner_reference}
   */
   readonly ownerReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#project_reference UserGroups#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#project_reference UserGroups#project_reference}
   */
   readonly projectReference?: { [key: string]: string };
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#categories UserGroups#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#categories UserGroups#categories}
   */
   readonly categories?: UserGroupsCategories[] | cdktf.IResolvable;
   /**
   * directory_service_ou block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#directory_service_ou UserGroups#directory_service_ou}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#directory_service_ou UserGroups#directory_service_ou}
   */
   readonly directoryServiceOu?: UserGroupsDirectoryServiceOu[] | cdktf.IResolvable;
   /**
   * directory_service_user_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#directory_service_user_group UserGroups#directory_service_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#directory_service_user_group UserGroups#directory_service_user_group}
   */
   readonly directoryServiceUserGroup?: UserGroupsDirectoryServiceUserGroup[] | cdktf.IResolvable;
   /**
   * saml_user_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#saml_user_group UserGroups#saml_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#saml_user_group UserGroups#saml_user_group}
   */
   readonly samlUserGroup?: UserGroupsSamlUserGroup[] | cdktf.IResolvable;
 }
 export interface UserGroupsCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#name UserGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#name UserGroups#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#value UserGroups#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#value UserGroups#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class UserGroupsCategoriesList extends cdktf.ComplexList {
 }
 export interface UserGroupsDirectoryServiceOu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#distinguished_name UserGroups#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#distinguished_name UserGroups#distinguished_name}
   */
   readonly distinguishedName: string;
 }
@@ -311,7 +311,7 @@ export class UserGroupsDirectoryServiceOuList extends cdktf.ComplexList {
 }
 export interface UserGroupsDirectoryServiceUserGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#distinguished_name UserGroups#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#distinguished_name UserGroups#distinguished_name}
   */
   readonly distinguishedName: string;
 }
@@ -424,11 +424,11 @@ export class UserGroupsDirectoryServiceUserGroupList extends cdktf.ComplexList {
 }
 export interface UserGroupsSamlUserGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#idp_uuid UserGroups#idp_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#idp_uuid UserGroups#idp_uuid}
   */
   readonly idpUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#name UserGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#name UserGroups#name}
   */
   readonly name: string;
 }
@@ -567,7 +567,7 @@ export class UserGroupsSamlUserGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups nutanix_user_groups}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups nutanix_user_groups}
 */
 export class UserGroups extends cdktf.TerraformResource {
 
@@ -583,7 +583,7 @@ export class UserGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroups to import
-  * @param importFromId The id of the existing UserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -595,7 +595,7 @@ export class UserGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/user_groups nutanix_user_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/user_groups nutanix_user_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -606,8 +606,8 @@ export class UserGroups extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_user_groups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

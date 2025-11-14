@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppNamespaceConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#account_moid DataIntersightStorageNetAppNamespace#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#account_moid DataIntersightStorageNetAppNamespace#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightStorageNetAppNamespaceConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The state of the volume and aggregate that contain the NVMe namespace. Namespaces are only available when their containers are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#container_state DataIntersightStorageNetAppNamespace#container_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#container_state DataIntersightStorageNetAppNamespace#container_state}
   */
   readonly containerState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#create_time DataIntersightStorageNetAppNamespace#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#create_time DataIntersightStorageNetAppNamespace#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#domain_group_moid DataIntersightStorageNetAppNamespace#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#domain_group_moid DataIntersightStorageNetAppNamespace#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#id DataIntersightStorageNetAppNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#id DataIntersightStorageNetAppNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,133 +53,133 @@ export interface DataIntersightStorageNetAppNamespaceConfig extends cdktf.Terraf
   /**
   * Reports if the NVMe namespace is mapped to an NVMe subsystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#is_mapped DataIntersightStorageNetAppNamespace#is_mapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#is_mapped DataIntersightStorageNetAppNamespace#is_mapped}
   */
   readonly isMapped?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#mod_time DataIntersightStorageNetAppNamespace#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#mod_time DataIntersightStorageNetAppNamespace#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The base name component of the NVMe namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#name DataIntersightStorageNetAppNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#name DataIntersightStorageNetAppNamespace#name}
   */
   readonly name?: string;
   /**
   * The NVMe namespace identifier. An identifier used by an NVMe controller to provide access to the NVMe namespace. The format for an NVMe namespace identifier is 8 hexadecimal digits (zero-filled) followed by a lower case "h".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#namespace_id DataIntersightStorageNetAppNamespace#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#namespace_id DataIntersightStorageNetAppNamespace#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#owners DataIntersightStorageNetAppNamespace#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#owners DataIntersightStorageNetAppNamespace#owners}
   */
   readonly owners?: string[];
   /**
   * The fully qualified path name of the NVMe namespace composed of a "/vol" prefix, the volume name, the (optional) qtree name and base name of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#path DataIntersightStorageNetAppNamespace#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#path DataIntersightStorageNetAppNamespace#path}
   */
   readonly path?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#shared_scope DataIntersightStorageNetAppNamespace#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#shared_scope DataIntersightStorageNetAppNamespace#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The state of the NVMe namespace. Normal states for a namespace are online and offline. Other states indicate errors (nvfail, space_error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#state DataIntersightStorageNetAppNamespace#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#state DataIntersightStorageNetAppNamespace#state}
   */
   readonly state?: string;
   /**
   * The NVMe subsystem name to which the NVMe namespace is mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#subsystem_name DataIntersightStorageNetAppNamespace#subsystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#subsystem_name DataIntersightStorageNetAppNamespace#subsystem_name}
   */
   readonly subsystemName?: string;
   /**
   * The storage virtual machine name for the NVMe namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#svm_name DataIntersightStorageNetAppNamespace#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#svm_name DataIntersightStorageNetAppNamespace#svm_name}
   */
   readonly svmName?: string;
   /**
   * Universally unique identifier of the NVMe namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#uuid DataIntersightStorageNetAppNamespace#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#uuid DataIntersightStorageNetAppNamespace#uuid}
   */
   readonly uuid?: string;
   /**
   * The volume name in which the NVMe namespace is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#volume_name DataIntersightStorageNetAppNamespace#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#volume_name DataIntersightStorageNetAppNamespace#volume_name}
   */
   readonly volumeName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#ancestors DataIntersightStorageNetAppNamespace#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#ancestors DataIntersightStorageNetAppNamespace#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppNamespaceAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#array DataIntersightStorageNetAppNamespace#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#array DataIntersightStorageNetAppNamespace#array}
   */
   readonly array?: DataIntersightStorageNetAppNamespaceArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#parent DataIntersightStorageNetAppNamespace#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#parent DataIntersightStorageNetAppNamespace#parent}
   */
   readonly parent?: DataIntersightStorageNetAppNamespaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#permission_resources DataIntersightStorageNetAppNamespace#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#permission_resources DataIntersightStorageNetAppNamespace#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppNamespacePermissionResources[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#storage_container DataIntersightStorageNetAppNamespace#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#storage_container DataIntersightStorageNetAppNamespace#storage_container}
   */
   readonly storageContainer?: DataIntersightStorageNetAppNamespaceStorageContainer;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#storage_utilization DataIntersightStorageNetAppNamespace#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#storage_utilization DataIntersightStorageNetAppNamespace#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStorageNetAppNamespaceStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#tags DataIntersightStorageNetAppNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#tags DataIntersightStorageNetAppNamespace#tags}
   */
   readonly tags?: DataIntersightStorageNetAppNamespaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#version_context DataIntersightStorageNetAppNamespace#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#version_context DataIntersightStorageNetAppNamespace#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppNamespaceVersionContext;
 }
@@ -1036,6 +1036,11 @@ export class DataIntersightStorageNetAppNamespaceResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1592,7 +1597,7 @@ export class DataIntersightStorageNetAppNamespaceResultsList extends cdktf.Compl
 }
 export interface DataIntersightStorageNetAppNamespaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1600,19 +1605,19 @@ export interface DataIntersightStorageNetAppNamespaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1625,7 +1630,7 @@ export interface DataIntersightStorageNetAppNamespaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -1857,7 +1862,7 @@ export class DataIntersightStorageNetAppNamespaceAncestorsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppNamespaceArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1865,19 +1870,19 @@ export interface DataIntersightStorageNetAppNamespaceArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1890,7 +1895,7 @@ export interface DataIntersightStorageNetAppNamespaceArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -2090,7 +2095,7 @@ export class DataIntersightStorageNetAppNamespaceArrayOutputReference extends cd
 }
 export interface DataIntersightStorageNetAppNamespaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2098,19 +2103,19 @@ export interface DataIntersightStorageNetAppNamespaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2123,7 +2128,7 @@ export interface DataIntersightStorageNetAppNamespaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -2323,7 +2328,7 @@ export class DataIntersightStorageNetAppNamespaceParentOutputReference extends c
 }
 export interface DataIntersightStorageNetAppNamespacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2331,19 +2336,19 @@ export interface DataIntersightStorageNetAppNamespacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2356,7 +2361,7 @@ export interface DataIntersightStorageNetAppNamespacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -2588,7 +2593,7 @@ export class DataIntersightStorageNetAppNamespacePermissionResourcesList extends
 }
 export interface DataIntersightStorageNetAppNamespaceStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2596,19 +2601,19 @@ export interface DataIntersightStorageNetAppNamespaceStorageContainer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2621,7 +2626,7 @@ export interface DataIntersightStorageNetAppNamespaceStorageContainer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -2821,19 +2826,19 @@ export class DataIntersightStorageNetAppNamespaceStorageContainerOutputReference
 }
 export interface DataIntersightStorageNetAppNamespaceStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#available DataIntersightStorageNetAppNamespace#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#available DataIntersightStorageNetAppNamespace#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#capacity_utilization DataIntersightStorageNetAppNamespace#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#capacity_utilization DataIntersightStorageNetAppNamespace#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -2842,13 +2847,13 @@ export interface DataIntersightStorageNetAppNamespaceStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#free DataIntersightStorageNetAppNamespace#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#free DataIntersightStorageNetAppNamespace#free}
   */
   readonly free?: number;
   /**
@@ -2856,19 +2861,19 @@ export interface DataIntersightStorageNetAppNamespaceStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#total DataIntersightStorageNetAppNamespace#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#total DataIntersightStorageNetAppNamespace#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#used DataIntersightStorageNetAppNamespace#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#used DataIntersightStorageNetAppNamespace#used}
   */
   readonly used?: number;
 }
@@ -3155,7 +3160,7 @@ export class DataIntersightStorageNetAppNamespaceStorageUtilizationOutputReferen
 }
 export interface DataIntersightStorageNetAppNamespaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3163,19 +3168,19 @@ export interface DataIntersightStorageNetAppNamespaceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3188,7 +3193,7 @@ export interface DataIntersightStorageNetAppNamespaceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -3420,7 +3425,7 @@ export class DataIntersightStorageNetAppNamespaceTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightStorageNetAppNamespaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3428,19 +3433,19 @@ export interface DataIntersightStorageNetAppNamespaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3453,7 +3458,7 @@ export interface DataIntersightStorageNetAppNamespaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -3653,45 +3658,51 @@ export class DataIntersightStorageNetAppNamespaceTagsDefinitionOutputReference e
 }
 export interface DataIntersightStorageNetAppNamespaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#key DataIntersightStorageNetAppNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#key DataIntersightStorageNetAppNamespace#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#propagated DataIntersightStorageNetAppNamespace#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#propagated DataIntersightStorageNetAppNamespace#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#sys_tag DataIntersightStorageNetAppNamespace#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#type DataIntersightStorageNetAppNamespace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#type DataIntersightStorageNetAppNamespace#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#value DataIntersightStorageNetAppNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#value DataIntersightStorageNetAppNamespace#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#ancestor_definitions DataIntersightStorageNetAppNamespace#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#ancestor_definitions DataIntersightStorageNetAppNamespace#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppNamespaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#definition DataIntersightStorageNetAppNamespace#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#definition DataIntersightStorageNetAppNamespace#definition}
   */
   readonly definition?: DataIntersightStorageNetAppNamespaceTagsDefinition;
 }
@@ -3705,6 +3716,7 @@ export function dataIntersightStorageNetAppNamespaceTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppNamespaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3733,6 +3745,12 @@ export function dataIntersightStorageNetAppNamespaceTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3799,6 +3817,10 @@ export class DataIntersightStorageNetAppNamespaceTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3825,6 +3847,7 @@ export class DataIntersightStorageNetAppNamespaceTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3840,6 +3863,7 @@ export class DataIntersightStorageNetAppNamespaceTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3893,6 +3917,22 @@ export class DataIntersightStorageNetAppNamespaceTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3981,7 +4021,7 @@ export class DataIntersightStorageNetAppNamespaceTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightStorageNetAppNamespaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3989,19 +4029,19 @@ export interface DataIntersightStorageNetAppNamespaceVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4014,7 +4054,7 @@ export interface DataIntersightStorageNetAppNamespaceVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -4246,7 +4286,7 @@ export class DataIntersightStorageNetAppNamespaceVersionContextInterestedMosList
 }
 export interface DataIntersightStorageNetAppNamespaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4254,19 +4294,19 @@ export interface DataIntersightStorageNetAppNamespaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#moid DataIntersightStorageNetAppNamespace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4279,7 +4319,7 @@ export interface DataIntersightStorageNetAppNamespaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#selector DataIntersightStorageNetAppNamespace#selector}
   */
   readonly selector?: string;
 }
@@ -4479,7 +4519,7 @@ export class DataIntersightStorageNetAppNamespaceVersionContextRefMoOutputRefere
 }
 export interface DataIntersightStorageNetAppNamespaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#additional_properties DataIntersightStorageNetAppNamespace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4487,32 +4527,32 @@ export interface DataIntersightStorageNetAppNamespaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#class_id DataIntersightStorageNetAppNamespace#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#marked_for_deletion DataIntersightStorageNetAppNamespace#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#marked_for_deletion DataIntersightStorageNetAppNamespace#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#nr_version DataIntersightStorageNetAppNamespace#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#nr_version DataIntersightStorageNetAppNamespace#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#object_type DataIntersightStorageNetAppNamespace#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#timestamp DataIntersightStorageNetAppNamespace#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#timestamp DataIntersightStorageNetAppNamespace#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4523,19 +4563,19 @@ export interface DataIntersightStorageNetAppNamespaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#version_type DataIntersightStorageNetAppNamespace#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#version_type DataIntersightStorageNetAppNamespace#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#interested_mos DataIntersightStorageNetAppNamespace#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#interested_mos DataIntersightStorageNetAppNamespace#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppNamespaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#ref_mo DataIntersightStorageNetAppNamespace#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#ref_mo DataIntersightStorageNetAppNamespace#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppNamespaceVersionContextRefMo;
 }
@@ -4851,7 +4891,7 @@ export class DataIntersightStorageNetAppNamespaceVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace intersight_storage_net_app_namespace}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace intersight_storage_net_app_namespace}
 */
 export class DataIntersightStorageNetAppNamespace extends cdktf.TerraformDataSource {
 
@@ -4867,7 +4907,7 @@ export class DataIntersightStorageNetAppNamespace extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightStorageNetAppNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppNamespace to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4879,7 +4919,7 @@ export class DataIntersightStorageNetAppNamespace extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_namespace intersight_storage_net_app_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_namespace intersight_storage_net_app_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4890,8 +4930,8 @@ export class DataIntersightStorageNetAppNamespace extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_storage_net_app_namespace',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

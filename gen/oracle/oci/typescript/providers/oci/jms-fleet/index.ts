@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface JmsFleetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#compartment_id JmsFleet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#compartment_id JmsFleet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#defined_tags JmsFleet#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#defined_tags JmsFleet#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#description JmsFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#description JmsFleet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#display_name JmsFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#display_name JmsFleet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#freeform_tags JmsFleet#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#freeform_tags JmsFleet#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#id JmsFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#id JmsFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#is_advanced_features_enabled JmsFleet#is_advanced_features_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#is_advanced_features_enabled JmsFleet#is_advanced_features_enabled}
   */
   readonly isAdvancedFeaturesEnabled?: boolean | cdktf.IResolvable;
   /**
   * inventory_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#inventory_log JmsFleet#inventory_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#inventory_log JmsFleet#inventory_log}
   */
   readonly inventoryLog: JmsFleetInventoryLog;
   /**
   * operation_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#operation_log JmsFleet#operation_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#operation_log JmsFleet#operation_log}
   */
   readonly operationLog?: JmsFleetOperationLog;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#timeouts JmsFleet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#timeouts JmsFleet#timeouts}
   */
   readonly timeouts?: JmsFleetTimeouts;
 }
 export interface JmsFleetInventoryLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#log_id JmsFleet#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#log_id JmsFleet#log_id}
   */
   readonly logId: string;
 }
@@ -170,11 +170,11 @@ export class JmsFleetInventoryLogOutputReference extends cdktf.ComplexObject {
 }
 export interface JmsFleetOperationLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#log_id JmsFleet#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#log_id JmsFleet#log_id}
   */
   readonly logId: string;
 }
@@ -281,15 +281,15 @@ export class JmsFleetOperationLogOutputReference extends cdktf.ComplexObject {
 }
 export interface JmsFleetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#create JmsFleet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#create JmsFleet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#delete JmsFleet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#delete JmsFleet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#update JmsFleet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#update JmsFleet#update}
   */
   readonly update?: string;
 }
@@ -441,7 +441,7 @@ export class JmsFleetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet oci_jms_fleet}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet oci_jms_fleet}
 */
 export class JmsFleet extends cdktf.TerraformResource {
 
@@ -457,7 +457,7 @@ export class JmsFleet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JmsFleet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsFleet to import
-  * @param importFromId The id of the existing JmsFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class JmsFleet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_fleet oci_jms_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_fleet oci_jms_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class JmsFleet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_jms_fleet',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

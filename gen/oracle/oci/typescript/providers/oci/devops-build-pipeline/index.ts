@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsBuildPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#defined_tags DevopsBuildPipeline#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#defined_tags DevopsBuildPipeline#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#display_name DevopsBuildPipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#display_name DevopsBuildPipeline#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#freeform_tags DevopsBuildPipeline#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#freeform_tags DevopsBuildPipeline#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#id DevopsBuildPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#id DevopsBuildPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#project_id DevopsBuildPipeline#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#project_id DevopsBuildPipeline#project_id}
   */
   readonly projectId: string;
   /**
   * build_pipeline_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#build_pipeline_parameters DevopsBuildPipeline#build_pipeline_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#build_pipeline_parameters DevopsBuildPipeline#build_pipeline_parameters}
   */
   readonly buildPipelineParameters?: DevopsBuildPipelineBuildPipelineParameters;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#timeouts DevopsBuildPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#timeouts DevopsBuildPipeline#timeouts}
   */
   readonly timeouts?: DevopsBuildPipelineTimeouts;
 }
 export interface DevopsBuildPipelineBuildPipelineParametersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#default_value DevopsBuildPipeline#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#default_value DevopsBuildPipeline#default_value}
   */
   readonly defaultValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#name DevopsBuildPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#name DevopsBuildPipeline#name}
   */
   readonly name: string;
 }
@@ -227,7 +227,7 @@ export interface DevopsBuildPipelineBuildPipelineParameters {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#items DevopsBuildPipeline#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#items DevopsBuildPipeline#items}
   */
   readonly items: DevopsBuildPipelineBuildPipelineParametersItems[] | cdktf.IResolvable;
 }
@@ -308,15 +308,15 @@ export class DevopsBuildPipelineBuildPipelineParametersOutputReference extends c
 }
 export interface DevopsBuildPipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#create DevopsBuildPipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#create DevopsBuildPipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#delete DevopsBuildPipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#delete DevopsBuildPipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#update DevopsBuildPipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#update DevopsBuildPipeline#update}
   */
   readonly update?: string;
 }
@@ -468,7 +468,7 @@ export class DevopsBuildPipelineTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline oci_devops_build_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline oci_devops_build_pipeline}
 */
 export class DevopsBuildPipeline extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class DevopsBuildPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsBuildPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsBuildPipeline to import
-  * @param importFromId The id of the existing DevopsBuildPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsBuildPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsBuildPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class DevopsBuildPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_build_pipeline oci_devops_build_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_build_pipeline oci_devops_build_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class DevopsBuildPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_build_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

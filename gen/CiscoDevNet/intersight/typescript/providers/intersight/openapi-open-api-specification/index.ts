@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OpenapiOpenApiSpecificationConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#account_moid OpenapiOpenApiSpecification#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#account_moid OpenapiOpenApiSpecification#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#ancestors OpenapiOpenApiSpecification#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#ancestors OpenapiOpenApiSpecification#ancestors}
   */
   readonly ancestors?: OpenapiOpenApiSpecificationAncestors[] | cdktf.IResolvable;
   /**
@@ -28,31 +28,31 @@ export interface OpenapiOpenApiSpecificationConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#create_time OpenapiOpenApiSpecification#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#create_time OpenapiOpenApiSpecification#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#description OpenapiOpenApiSpecification#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#description OpenapiOpenApiSpecification#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#domain_group_moid OpenapiOpenApiSpecification#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#domain_group_moid OpenapiOpenApiSpecification#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#download_count OpenapiOpenApiSpecification#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#download_count OpenapiOpenApiSpecification#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -61,23 +61,23 @@ export interface OpenapiOpenApiSpecificationConfig extends cdktf.TerraformMetaAr
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#feature_source OpenapiOpenApiSpecification#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#feature_source OpenapiOpenApiSpecification#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The path of the file in S3/minio bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#file_path OpenapiOpenApiSpecification#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#file_path OpenapiOpenApiSpecification#file_path}
   */
   readonly filePath?: string;
   /**
   * A unique tracking ID for the file being uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#file_upload_id OpenapiOpenApiSpecification#file_upload_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#file_upload_id OpenapiOpenApiSpecification#file_upload_id}
   */
   readonly fileUploadId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#id OpenapiOpenApiSpecification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#id OpenapiOpenApiSpecification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ export interface OpenapiOpenApiSpecificationConfig extends cdktf.TerraformMetaAr
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#import_action OpenapiOpenApiSpecification#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#import_action OpenapiOpenApiSpecification#import_action}
   */
   readonly importAction?: string;
   /**
@@ -116,155 +116,155 @@ export interface OpenapiOpenApiSpecificationConfig extends cdktf.TerraformMetaAr
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#import_state OpenapiOpenApiSpecification#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#import_state OpenapiOpenApiSpecification#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#imported_time OpenapiOpenApiSpecification#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#imported_time OpenapiOpenApiSpecification#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#last_access_time OpenapiOpenApiSpecification#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#last_access_time OpenapiOpenApiSpecification#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#md5e_tag OpenapiOpenApiSpecification#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#md5e_tag OpenapiOpenApiSpecification#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#md5sum OpenapiOpenApiSpecification#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#md5sum OpenapiOpenApiSpecification#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#mod_time OpenapiOpenApiSpecification#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#mod_time OpenapiOpenApiSpecification#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#name OpenapiOpenApiSpecification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#name OpenapiOpenApiSpecification#name}
   */
   readonly name?: string;
   /**
   * Location of the file in an external repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#nr_source OpenapiOpenApiSpecification#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#nr_source OpenapiOpenApiSpecification#nr_source}
   */
   readonly nrSource?: OpenapiOpenApiSpecificationNrSource[] | cdktf.IResolvable;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#nr_version OpenapiOpenApiSpecification#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#nr_version OpenapiOpenApiSpecification#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#organization OpenapiOpenApiSpecification#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#organization OpenapiOpenApiSpecification#organization}
   */
   readonly organization?: OpenapiOpenApiSpecificationOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#owners OpenapiOpenApiSpecification#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#owners OpenapiOpenApiSpecification#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#parent OpenapiOpenApiSpecification#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#parent OpenapiOpenApiSpecification#parent}
   */
   readonly parent?: OpenapiOpenApiSpecificationParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#permission_resources OpenapiOpenApiSpecification#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#permission_resources OpenapiOpenApiSpecification#permission_resources}
   */
   readonly permissionResources?: OpenapiOpenApiSpecificationPermissionResources[] | cdktf.IResolvable;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#release_date OpenapiOpenApiSpecification#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#release_date OpenapiOpenApiSpecification#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#sha512sum OpenapiOpenApiSpecification#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#sha512sum OpenapiOpenApiSpecification#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#shared_scope OpenapiOpenApiSpecification#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#shared_scope OpenapiOpenApiSpecification#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#size OpenapiOpenApiSpecification#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#size OpenapiOpenApiSpecification#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#software_advisory_url OpenapiOpenApiSpecification#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#software_advisory_url OpenapiOpenApiSpecification#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#tags OpenapiOpenApiSpecification#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#tags OpenapiOpenApiSpecification#tags}
   */
   readonly tags?: OpenapiOpenApiSpecificationTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#version_context OpenapiOpenApiSpecification#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#version_context OpenapiOpenApiSpecification#version_context}
   */
   readonly versionContext?: OpenapiOpenApiSpecificationVersionContext[] | cdktf.IResolvable;
 }
 export interface OpenapiOpenApiSpecificationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -496,15 +496,15 @@ export class OpenapiOpenApiSpecificationAncestorsList extends cdktf.ComplexList 
 }
 export interface OpenapiOpenApiSpecificationNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
 }
@@ -678,23 +678,23 @@ export class OpenapiOpenApiSpecificationNrSourceList extends cdktf.ComplexList {
 }
 export interface OpenapiOpenApiSpecificationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -926,23 +926,23 @@ export class OpenapiOpenApiSpecificationOrganizationList extends cdktf.ComplexLi
 }
 export interface OpenapiOpenApiSpecificationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -1174,23 +1174,23 @@ export class OpenapiOpenApiSpecificationParentList extends cdktf.ComplexList {
 }
 export interface OpenapiOpenApiSpecificationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -1422,23 +1422,23 @@ export class OpenapiOpenApiSpecificationPermissionResourcesList extends cdktf.Co
 }
 export interface OpenapiOpenApiSpecificationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -1670,23 +1670,23 @@ export class OpenapiOpenApiSpecificationTagsAncestorDefinitionsList extends cdkt
 }
 export interface OpenapiOpenApiSpecificationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -1918,31 +1918,35 @@ export class OpenapiOpenApiSpecificationTagsDefinitionList extends cdktf.Complex
 }
 export interface OpenapiOpenApiSpecificationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#ancestor_definitions OpenapiOpenApiSpecification#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#ancestor_definitions OpenapiOpenApiSpecification#ancestor_definitions}
   */
   readonly ancestorDefinitions?: OpenapiOpenApiSpecificationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#definition OpenapiOpenApiSpecification#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#definition OpenapiOpenApiSpecification#definition}
   */
   readonly definition?: OpenapiOpenApiSpecificationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#key OpenapiOpenApiSpecification#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#key OpenapiOpenApiSpecification#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#propagated OpenapiOpenApiSpecification#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#propagated OpenapiOpenApiSpecification#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#type OpenapiOpenApiSpecification#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#sys_tag OpenapiOpenApiSpecification#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#type OpenapiOpenApiSpecification#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#value OpenapiOpenApiSpecification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#value OpenapiOpenApiSpecification#value}
   */
   readonly value?: string;
 }
@@ -1958,6 +1962,7 @@ export function openapiOpenApiSpecificationTagsToTerraform(struct?: OpenapiOpenA
     definition: cdktf.listMapper(openapiOpenApiSpecificationTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1996,6 +2001,12 @@ export function openapiOpenApiSpecificationTagsToHclTerraform(struct?: OpenapiOp
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2058,6 +2069,10 @@ export class OpenapiOpenApiSpecificationTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2078,6 +2093,7 @@ export class OpenapiOpenApiSpecificationTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2093,6 +2109,7 @@ export class OpenapiOpenApiSpecificationTagsOutputReference extends cdktf.Comple
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2178,6 +2195,22 @@ export class OpenapiOpenApiSpecificationTagsOutputReference extends cdktf.Comple
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2232,23 +2265,23 @@ export class OpenapiOpenApiSpecificationTagsList extends cdktf.ComplexList {
 }
 export interface OpenapiOpenApiSpecificationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -2480,23 +2513,23 @@ export class OpenapiOpenApiSpecificationVersionContextInterestedMosList extends 
 }
 export interface OpenapiOpenApiSpecificationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#moid OpenapiOpenApiSpecification#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#selector OpenapiOpenApiSpecification#selector}
   */
   readonly selector?: string;
 }
@@ -2728,39 +2761,39 @@ export class OpenapiOpenApiSpecificationVersionContextRefMoList extends cdktf.Co
 }
 export interface OpenapiOpenApiSpecificationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#additional_properties OpenapiOpenApiSpecification#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#class_id OpenapiOpenApiSpecification#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#interested_mos OpenapiOpenApiSpecification#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#interested_mos OpenapiOpenApiSpecification#interested_mos}
   */
   readonly interestedMos?: OpenapiOpenApiSpecificationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#marked_for_deletion OpenapiOpenApiSpecification#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#marked_for_deletion OpenapiOpenApiSpecification#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#nr_version OpenapiOpenApiSpecification#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#nr_version OpenapiOpenApiSpecification#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#object_type OpenapiOpenApiSpecification#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#ref_mo OpenapiOpenApiSpecification#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#ref_mo OpenapiOpenApiSpecification#ref_mo}
   */
   readonly refMo?: OpenapiOpenApiSpecificationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#timestamp OpenapiOpenApiSpecification#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#timestamp OpenapiOpenApiSpecification#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#version_type OpenapiOpenApiSpecification#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#version_type OpenapiOpenApiSpecification#version_type}
   */
   readonly versionType?: string;
 }
@@ -3108,7 +3141,7 @@ export class OpenapiOpenApiSpecificationVersionContextList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification intersight_openapi_open_api_specification}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification intersight_openapi_open_api_specification}
 */
 export class OpenapiOpenApiSpecification extends cdktf.TerraformResource {
 
@@ -3124,7 +3157,7 @@ export class OpenapiOpenApiSpecification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenapiOpenApiSpecification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenapiOpenApiSpecification to import
-  * @param importFromId The id of the existing OpenapiOpenApiSpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenapiOpenApiSpecification that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenapiOpenApiSpecification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3136,7 +3169,7 @@ export class OpenapiOpenApiSpecification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/openapi_open_api_specification intersight_openapi_open_api_specification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_open_api_specification intersight_openapi_open_api_specification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3147,8 +3180,8 @@ export class OpenapiOpenApiSpecification extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_openapi_open_api_specification',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

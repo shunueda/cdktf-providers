@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#account_moid DataIntersightNetworkElementSummary#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#account_moid DataIntersightNetworkElementSummary#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -27,31 +27,31 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `off` - Evacuation state of the switch is disabled.
   * * `N/A` - Evacuation state of the switch is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#admin_evac_state DataIntersightNetworkElementSummary#admin_evac_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#admin_evac_state DataIntersightNetworkElementSummary#admin_evac_state}
   */
   readonly adminEvacState?: string;
   /**
   * The administrative state of the network Element inband management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#admin_inband_interface_state DataIntersightNetworkElementSummary#admin_inband_interface_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#admin_inband_interface_state DataIntersightNetworkElementSummary#admin_inband_interface_state}
   */
   readonly adminInbandInterfaceState?: string;
   /**
   * Available memory (un-used) on this switch platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#available_memory DataIntersightNetworkElementSummary#available_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#available_memory DataIntersightNetworkElementSummary#available_memory}
   */
   readonly availableMemory?: string;
   /**
   * Running firmware bundle information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#bundle_version DataIntersightNetworkElementSummary#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#bundle_version DataIntersightNetworkElementSummary#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
   * Chassis IP of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#chassis DataIntersightNetworkElementSummary#chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#chassis DataIntersightNetworkElementSummary#chassis}
   */
   readonly chassis?: string;
   /**
@@ -59,61 +59,61 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration modified timestamp of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#conf_mod_ts DataIntersightNetworkElementSummary#conf_mod_ts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#conf_mod_ts DataIntersightNetworkElementSummary#conf_mod_ts}
   */
   readonly confModTs?: string;
   /**
   * Configuration modified backup timestamp of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#conf_mod_ts_backup DataIntersightNetworkElementSummary#conf_mod_ts_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#conf_mod_ts_backup DataIntersightNetworkElementSummary#conf_mod_ts_backup}
   */
   readonly confModTsBackup?: string;
   /**
   * Connection status of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#connection_status DataIntersightNetworkElementSummary#connection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#connection_status DataIntersightNetworkElementSummary#connection_status}
   */
   readonly connectionStatus?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#create_time DataIntersightNetworkElementSummary#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#create_time DataIntersightNetworkElementSummary#create_time}
   */
   readonly createTime?: string;
   /**
   * The default domain name configured on the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#default_domain DataIntersightNetworkElementSummary#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#default_domain DataIntersightNetworkElementSummary#default_domain}
   */
   readonly defaultDomain?: string;
   /**
   * The MoId of the registered device that coresponds to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#device_mo_id DataIntersightNetworkElementSummary#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#device_mo_id DataIntersightNetworkElementSummary#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#dn DataIntersightNetworkElementSummary#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#dn DataIntersightNetworkElementSummary#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#domain_group_moid DataIntersightNetworkElementSummary#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#domain_group_moid DataIntersightNetworkElementSummary#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The user configured Ethernet operational mode for this switch (End-Host or Switching).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ethernet_mode DataIntersightNetworkElementSummary#ethernet_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ethernet_mode DataIntersightNetworkElementSummary#ethernet_mode}
   */
   readonly ethernetMode?: string;
   /**
@@ -121,19 +121,19 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `end-host` - In end-host mode, the fabric interconnects appear to the upstream devices as end hosts with multiple links.In this mode, the switch does not run Spanning Tree Protocol and avoids loops by following a set of rules for traffic forwarding.In case of ethernet switching mode - Ethernet end-host mode is also known as Ethernet host virtualizer.
   * * `switch` - In switch mode, the switch runs Spanning Tree Protocol to avoid loops, and broadcast and multicast packets are handled in the traditional way.This is the traditional switch mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ethernet_switching_mode DataIntersightNetworkElementSummary#ethernet_switching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ethernet_switching_mode DataIntersightNetworkElementSummary#ethernet_switching_mode}
   */
   readonly ethernetSwitchingMode?: string;
   /**
   * The fault summary for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#fault_summary DataIntersightNetworkElementSummary#fault_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#fault_summary DataIntersightNetworkElementSummary#fault_summary}
   */
   readonly faultSummary?: number;
   /**
   * The user configured FC operational mode for this switch (End-Host or Switching).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#fc_mode DataIntersightNetworkElementSummary#fc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#fc_mode DataIntersightNetworkElementSummary#fc_mode}
   */
   readonly fcMode?: string;
   /**
@@ -141,29 +141,29 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `end-host` - In end-host mode, the fabric interconnects appear to the upstream devices as end hosts with multiple links.In this mode, the switch does not run Spanning Tree Protocol and avoids loops by following a set of rules for traffic forwarding.In case of ethernet switching mode - Ethernet end-host mode is also known as Ethernet host virtualizer.
   * * `switch` - In switch mode, the switch runs Spanning Tree Protocol to avoid loops, and broadcast and multicast packets are handled in the traditional way.This is the traditional switch mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#fc_switching_mode DataIntersightNetworkElementSummary#fc_switching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#fc_switching_mode DataIntersightNetworkElementSummary#fc_switching_mode}
   */
   readonly fcSwitchingMode?: string;
   /**
   * Running firmware information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#firmware DataIntersightNetworkElementSummary#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#firmware DataIntersightNetworkElementSummary#firmware}
   */
   readonly firmware?: string;
   /**
   * Running firmware information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#firmware_version DataIntersightNetworkElementSummary#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#firmware_version DataIntersightNetworkElementSummary#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
   * The flag to check vulnerability with secure boot technology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#fpga_upgrade_needed DataIntersightNetworkElementSummary#fpga_upgrade_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#fpga_upgrade_needed DataIntersightNetworkElementSummary#fpga_upgrade_needed}
   */
   readonly fpgaUpgradeNeeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#id DataIntersightNetworkElementSummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#id DataIntersightNetworkElementSummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,25 +172,25 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   /**
   * The IP address of the network Element inband management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inband_ip_address DataIntersightNetworkElementSummary#inband_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inband_ip_address DataIntersightNetworkElementSummary#inband_ip_address}
   */
   readonly inbandIpAddress?: string;
   /**
   * The default gateway of the network Element inband management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inband_ip_gateway DataIntersightNetworkElementSummary#inband_ip_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inband_ip_gateway DataIntersightNetworkElementSummary#inband_ip_gateway}
   */
   readonly inbandIpGateway?: string;
   /**
   * The network mask of the network Element inband management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inband_ip_mask DataIntersightNetworkElementSummary#inband_ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inband_ip_mask DataIntersightNetworkElementSummary#inband_ip_mask}
   */
   readonly inbandIpMask?: string;
   /**
   * The VLAN ID of the network Element inband management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inband_vlan DataIntersightNetworkElementSummary#inband_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inband_vlan DataIntersightNetworkElementSummary#inband_vlan}
   */
   readonly inbandVlan?: number;
   /**
@@ -200,25 +200,25 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `Down` - The operational state of the link is down.
   * * `Degraded` - The link is operational but degraded. This state is applicable to port channels when any one of the member links is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inter_cluster_link_state DataIntersightNetworkElementSummary#inter_cluster_link_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inter_cluster_link_state DataIntersightNetworkElementSummary#inter_cluster_link_state}
   */
   readonly interClusterLinkState?: string;
   /**
   * IP version 4 address is saved in this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ipv4_address DataIntersightNetworkElementSummary#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ipv4_address DataIntersightNetworkElementSummary#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#is_upgraded DataIntersightNetworkElementSummary#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#is_upgraded DataIntersightNetworkElementSummary#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * Jumbo Frame configuration for the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#jumbo_frame_enabled DataIntersightNetworkElementSummary#jumbo_frame_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#jumbo_frame_enabled DataIntersightNetworkElementSummary#jumbo_frame_enabled}
   */
   readonly jumboFrameEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -227,86 +227,86 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `UCSM` - Unified Computing System Manager mode of operation.
   * * `Intersight` - Intersight managed mode of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#management_mode DataIntersightNetworkElementSummary#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#management_mode DataIntersightNetworkElementSummary#management_mode}
   */
   readonly managementMode?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#mod_time DataIntersightNetworkElementSummary#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#mod_time DataIntersightNetworkElementSummary#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field identifies the model of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#model DataIntersightNetworkElementSummary#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#model DataIntersightNetworkElementSummary#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The admin configured name of the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#name DataIntersightNetworkElementSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#name DataIntersightNetworkElementSummary#name}
   */
   readonly name?: string;
   /**
   * Firmware version of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#nr_version DataIntersightNetworkElementSummary#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#nr_version DataIntersightNetworkElementSummary#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * Total number of Ethernet ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_ether_ports DataIntersightNetworkElementSummary#num_ether_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_ether_ports DataIntersightNetworkElementSummary#num_ether_ports}
   */
   readonly numEtherPorts?: number;
   /**
   * Total number of configured Ethernet ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_ether_ports_configured DataIntersightNetworkElementSummary#num_ether_ports_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_ether_ports_configured DataIntersightNetworkElementSummary#num_ether_ports_configured}
   */
   readonly numEtherPortsConfigured?: number;
   /**
   * Total number of Ethernet ports which are UP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_ether_ports_link_up DataIntersightNetworkElementSummary#num_ether_ports_link_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_ether_ports_link_up DataIntersightNetworkElementSummary#num_ether_ports_link_up}
   */
   readonly numEtherPortsLinkUp?: number;
   /**
   * Total number of expansion modules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_expansion_modules DataIntersightNetworkElementSummary#num_expansion_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_expansion_modules DataIntersightNetworkElementSummary#num_expansion_modules}
   */
   readonly numExpansionModules?: number;
   /**
   * Total number of FC ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_fc_ports DataIntersightNetworkElementSummary#num_fc_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_fc_ports DataIntersightNetworkElementSummary#num_fc_ports}
   */
   readonly numFcPorts?: number;
   /**
   * Total number of configured FC ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_fc_ports_configured DataIntersightNetworkElementSummary#num_fc_ports_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_fc_ports_configured DataIntersightNetworkElementSummary#num_fc_ports_configured}
   */
   readonly numFcPortsConfigured?: number;
   /**
   * Total number of FC ports which are UP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#num_fc_ports_link_up DataIntersightNetworkElementSummary#num_fc_ports_link_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#num_fc_ports_link_up DataIntersightNetworkElementSummary#num_fc_ports_link_up}
   */
   readonly numFcPortsLinkUp?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -319,150 +319,150 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `off` - Evacuation state of the switch is disabled.
   * * `N/A` - Evacuation state of the switch is not applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#oper_evac_state DataIntersightNetworkElementSummary#oper_evac_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#oper_evac_state DataIntersightNetworkElementSummary#oper_evac_state}
   */
   readonly operEvacState?: string;
   /**
   * The switch's current overall operational/health state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#operability DataIntersightNetworkElementSummary#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#operability DataIntersightNetworkElementSummary#operability}
   */
   readonly operability?: string;
   /**
   * The IP address of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ip_address DataIntersightNetworkElementSummary#out_of_band_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ip_address DataIntersightNetworkElementSummary#out_of_band_ip_address}
   */
   readonly outOfBandIpAddress?: string;
   /**
   * The default gateway of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ip_gateway DataIntersightNetworkElementSummary#out_of_band_ip_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ip_gateway DataIntersightNetworkElementSummary#out_of_band_ip_gateway}
   */
   readonly outOfBandIpGateway?: string;
   /**
   * The network mask of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ip_mask DataIntersightNetworkElementSummary#out_of_band_ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ip_mask DataIntersightNetworkElementSummary#out_of_band_ip_mask}
   */
   readonly outOfBandIpMask?: string;
   /**
   * The IPv4 address of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv4_address DataIntersightNetworkElementSummary#out_of_band_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv4_address DataIntersightNetworkElementSummary#out_of_band_ipv4_address}
   */
   readonly outOfBandIpv4Address?: string;
   /**
   * The default IPv4 gateway of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv4_gateway DataIntersightNetworkElementSummary#out_of_band_ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv4_gateway DataIntersightNetworkElementSummary#out_of_band_ipv4_gateway}
   */
   readonly outOfBandIpv4Gateway?: string;
   /**
   * The network mask of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv4_mask DataIntersightNetworkElementSummary#out_of_band_ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv4_mask DataIntersightNetworkElementSummary#out_of_band_ipv4_mask}
   */
   readonly outOfBandIpv4Mask?: string;
   /**
   * The IPv6 address of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv6_address DataIntersightNetworkElementSummary#out_of_band_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv6_address DataIntersightNetworkElementSummary#out_of_band_ipv6_address}
   */
   readonly outOfBandIpv6Address?: string;
   /**
   * The default IPv6 gateway of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv6_gateway DataIntersightNetworkElementSummary#out_of_band_ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv6_gateway DataIntersightNetworkElementSummary#out_of_band_ipv6_gateway}
   */
   readonly outOfBandIpv6Gateway?: string;
   /**
   * The network mask of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_ipv6_prefix DataIntersightNetworkElementSummary#out_of_band_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_ipv6_prefix DataIntersightNetworkElementSummary#out_of_band_ipv6_prefix}
   */
   readonly outOfBandIpv6Prefix?: string;
   /**
   * The MAC address of the network Element out-of-band management interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#out_of_band_mac DataIntersightNetworkElementSummary#out_of_band_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#out_of_band_mac DataIntersightNetworkElementSummary#out_of_band_mac}
   */
   readonly outOfBandMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#owners DataIntersightNetworkElementSummary#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#owners DataIntersightNetworkElementSummary#owners}
   */
   readonly owners?: string[];
   /**
   * Part number of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#part_number DataIntersightNetworkElementSummary#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#part_number DataIntersightNetworkElementSummary#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field identifies the presence (equipped) or absence of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#presence DataIntersightNetworkElementSummary#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#presence DataIntersightNetworkElementSummary#presence}
   */
   readonly presence?: string;
   /**
   * The reserved VLAN start ID of the Network Element. A block of 128 VLANs are reserved for internal use and cannot be used for carrying network traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#reserved_vlan_start_id DataIntersightNetworkElementSummary#reserved_vlan_start_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#reserved_vlan_start_id DataIntersightNetworkElementSummary#reserved_vlan_start_id}
   */
   readonly reservedVlanStartId?: number;
   /**
   * The product revision of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#revision DataIntersightNetworkElementSummary#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#revision DataIntersightNetworkElementSummary#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#rn DataIntersightNetworkElementSummary#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#rn DataIntersightNetworkElementSummary#rn}
   */
   readonly rn?: string;
   /**
   * This field identifies the serial of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#serial DataIntersightNetworkElementSummary#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#serial DataIntersightNetworkElementSummary#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#shared_scope DataIntersightNetworkElementSummary#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#shared_scope DataIntersightNetworkElementSummary#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Slot Id of the network Element when embedded inside a chassis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#slot_id DataIntersightNetworkElementSummary#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#slot_id DataIntersightNetworkElementSummary#slot_id}
   */
   readonly slotId?: number;
   /**
   * Stores the source object type used to fill the properties of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#source_object_type DataIntersightNetworkElementSummary#source_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#source_object_type DataIntersightNetworkElementSummary#source_object_type}
   */
   readonly sourceObjectType?: string;
   /**
   * The status of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#status DataIntersightNetworkElementSummary#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#status DataIntersightNetworkElementSummary#status}
   */
   readonly status?: string;
   /**
   * The Switch Id of the network Element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#switch_id DataIntersightNetworkElementSummary#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#switch_id DataIntersightNetworkElementSummary#switch_id}
   */
   readonly switchId?: string;
   /**
   * The name of switch profile associated with the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#switch_profile_name DataIntersightNetworkElementSummary#switch_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#switch_profile_name DataIntersightNetworkElementSummary#switch_profile_name}
   */
   readonly switchProfileName?: string;
   /**
@@ -472,13 +472,13 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `MDSDevice` - Switch type of Nexus MDS devices.
   * * `EdgeChassisManagementController` - Switch type of Edge Chassis Management Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#switch_type DataIntersightNetworkElementSummary#switch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#switch_type DataIntersightNetworkElementSummary#switch_type}
   */
   readonly switchType?: string;
   /**
   * System up time of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#system_up_time DataIntersightNetworkElementSummary#system_up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#system_up_time DataIntersightNetworkElementSummary#system_up_time}
   */
   readonly systemUpTime?: string;
   /**
@@ -492,85 +492,85 @@ export interface DataIntersightNetworkElementSummaryConfig extends cdktf.Terrafo
   * * `lower-critical` - State of the sensor indicating that the temperature is below normal range.
   * * `lower-non-recoverable` - State of the sensor indicating that the temperature is extremely below normal range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#thermal DataIntersightNetworkElementSummary#thermal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#thermal DataIntersightNetworkElementSummary#thermal}
   */
   readonly thermal?: string;
   /**
   * Total available memory on this switch platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#total_memory DataIntersightNetworkElementSummary#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#total_memory DataIntersightNetworkElementSummary#total_memory}
   */
   readonly totalMemory?: number;
   /**
   * The user defined label assigned to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#user_label DataIntersightNetworkElementSummary#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#user_label DataIntersightNetworkElementSummary#user_label}
   */
   readonly userLabel?: string;
   /**
   * This field identifies the vendor of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#vendor DataIntersightNetworkElementSummary#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#vendor DataIntersightNetworkElementSummary#vendor}
   */
   readonly vendor?: string;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#alarm_summary DataIntersightNetworkElementSummary#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#alarm_summary DataIntersightNetworkElementSummary#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightNetworkElementSummaryAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ancestors DataIntersightNetworkElementSummary#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ancestors DataIntersightNetworkElementSummary#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkElementSummaryAncestors[] | cdktf.IResolvable;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#equipment_chassis DataIntersightNetworkElementSummary#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#equipment_chassis DataIntersightNetworkElementSummary#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightNetworkElementSummaryEquipmentChassis;
   /**
   * inventory_parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#inventory_parent DataIntersightNetworkElementSummary#inventory_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#inventory_parent DataIntersightNetworkElementSummary#inventory_parent}
   */
   readonly inventoryParent?: DataIntersightNetworkElementSummaryInventoryParent;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#location_details DataIntersightNetworkElementSummary#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#location_details DataIntersightNetworkElementSummary#location_details}
   */
   readonly locationDetails?: DataIntersightNetworkElementSummaryLocationDetails;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#parent DataIntersightNetworkElementSummary#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#parent DataIntersightNetworkElementSummary#parent}
   */
   readonly parent?: DataIntersightNetworkElementSummaryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#permission_resources DataIntersightNetworkElementSummary#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#permission_resources DataIntersightNetworkElementSummary#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkElementSummaryPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#registered_device DataIntersightNetworkElementSummary#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#registered_device DataIntersightNetworkElementSummary#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkElementSummaryRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#tags DataIntersightNetworkElementSummary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#tags DataIntersightNetworkElementSummary#tags}
   */
   readonly tags?: DataIntersightNetworkElementSummaryTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#version_context DataIntersightNetworkElementSummary#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#version_context DataIntersightNetworkElementSummary#version_context}
   */
   readonly versionContext?: DataIntersightNetworkElementSummaryVersionContext;
 }
@@ -1849,6 +1849,11 @@ export class DataIntersightNetworkElementSummaryResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2702,7 +2707,7 @@ export class DataIntersightNetworkElementSummaryResultsList extends cdktf.Comple
 }
 export interface DataIntersightNetworkElementSummaryAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2710,13 +2715,13 @@ export interface DataIntersightNetworkElementSummaryAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The count of alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#critical DataIntersightNetworkElementSummary#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#critical DataIntersightNetworkElementSummary#critical}
   */
   readonly critical?: number;
   /**
@@ -2725,50 +2730,50 @@ export interface DataIntersightNetworkElementSummaryAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#health DataIntersightNetworkElementSummary#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#health DataIntersightNetworkElementSummary#health}
   */
   readonly health?: string;
   /**
   * The count of alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#info DataIntersightNetworkElementSummary#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#info DataIntersightNetworkElementSummary#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The flag that indicates whether suppression is enabled or not in the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#suppressed DataIntersightNetworkElementSummary#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#suppressed DataIntersightNetworkElementSummary#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
   * The count of active suppressed alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#suppressed_critical DataIntersightNetworkElementSummary#suppressed_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#suppressed_critical DataIntersightNetworkElementSummary#suppressed_critical}
   */
   readonly suppressedCritical?: number;
   /**
   * The count of active suppressed alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#suppressed_info DataIntersightNetworkElementSummary#suppressed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#suppressed_info DataIntersightNetworkElementSummary#suppressed_info}
   */
   readonly suppressedInfo?: number;
   /**
   * The count of active suppressed alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#suppressed_warning DataIntersightNetworkElementSummary#suppressed_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#suppressed_warning DataIntersightNetworkElementSummary#suppressed_warning}
   */
   readonly suppressedWarning?: number;
   /**
   * The count of alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#warning DataIntersightNetworkElementSummary#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#warning DataIntersightNetworkElementSummary#warning}
   */
   readonly warning?: number;
 }
@@ -3142,7 +3147,7 @@ export class DataIntersightNetworkElementSummaryAlarmSummaryOutputReference exte
 }
 export interface DataIntersightNetworkElementSummaryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3150,19 +3155,19 @@ export interface DataIntersightNetworkElementSummaryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3175,7 +3180,7 @@ export interface DataIntersightNetworkElementSummaryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3407,7 +3412,7 @@ export class DataIntersightNetworkElementSummaryAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightNetworkElementSummaryEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3415,19 +3420,19 @@ export interface DataIntersightNetworkElementSummaryEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3440,7 +3445,7 @@ export interface DataIntersightNetworkElementSummaryEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3640,7 +3645,7 @@ export class DataIntersightNetworkElementSummaryEquipmentChassisOutputReference 
 }
 export interface DataIntersightNetworkElementSummaryInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3648,19 +3653,19 @@ export interface DataIntersightNetworkElementSummaryInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3673,7 +3678,7 @@ export interface DataIntersightNetworkElementSummaryInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3873,25 +3878,25 @@ export class DataIntersightNetworkElementSummaryInventoryParentOutputReference e
 }
 export interface DataIntersightNetworkElementSummaryLocationDetailsAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The primary street address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#address1 DataIntersightNetworkElementSummary#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#address1 DataIntersightNetworkElementSummary#address1}
   */
   readonly address1?: string;
   /**
   * Additional address information, such as suite number or floor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#address2 DataIntersightNetworkElementSummary#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#address2 DataIntersightNetworkElementSummary#address2}
   */
   readonly address2?: string;
   /**
   * The city where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#city DataIntersightNetworkElementSummary#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#city DataIntersightNetworkElementSummary#city}
   */
   readonly city?: string;
   /**
@@ -3899,7 +3904,7 @@ export interface DataIntersightNetworkElementSummaryLocationDetailsAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
@@ -4149,26 +4154,26 @@ export interface DataIntersightNetworkElementSummaryLocationDetailsAddress {
   * * `ZM` - The country code for Zambia.
   * * `ZW` - The country code for Zimbabwe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#country DataIntersightNetworkElementSummary#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#country DataIntersightNetworkElementSummary#country}
   */
   readonly country?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The postal or ZIP code for the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#postal_code DataIntersightNetworkElementSummary#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#postal_code DataIntersightNetworkElementSummary#postal_code}
   */
   readonly postalCode?: string;
   /**
   * The state or province where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#state_province DataIntersightNetworkElementSummary#state_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#state_province DataIntersightNetworkElementSummary#state_province}
   */
   readonly stateProvince?: string;
 }
@@ -4484,7 +4489,7 @@ export class DataIntersightNetworkElementSummaryLocationDetailsAddressOutputRefe
 }
 export interface DataIntersightNetworkElementSummaryLocationDetailsCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4492,26 +4497,26 @@ export interface DataIntersightNetworkElementSummaryLocationDetailsCoordinates {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The latitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#latitude DataIntersightNetworkElementSummary#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#latitude DataIntersightNetworkElementSummary#latitude}
   */
   readonly latitude?: number;
   /**
   * The longitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#longitude DataIntersightNetworkElementSummary#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#longitude DataIntersightNetworkElementSummary#longitude}
   */
   readonly longitude?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
 }
@@ -4711,7 +4716,7 @@ export class DataIntersightNetworkElementSummaryLocationDetailsCoordinatesOutput
 }
 export interface DataIntersightNetworkElementSummaryLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4719,32 +4724,32 @@ export interface DataIntersightNetworkElementSummaryLocationDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * A user provided name for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#name DataIntersightNetworkElementSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#name DataIntersightNetworkElementSummary#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#address DataIntersightNetworkElementSummary#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#address DataIntersightNetworkElementSummary#address}
   */
   readonly address?: DataIntersightNetworkElementSummaryLocationDetailsAddress;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#coordinates DataIntersightNetworkElementSummary#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#coordinates DataIntersightNetworkElementSummary#coordinates}
   */
   readonly coordinates?: DataIntersightNetworkElementSummaryLocationDetailsCoordinates;
 }
@@ -4973,7 +4978,7 @@ export class DataIntersightNetworkElementSummaryLocationDetailsOutputReference e
 }
 export interface DataIntersightNetworkElementSummaryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4981,19 +4986,19 @@ export interface DataIntersightNetworkElementSummaryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5006,7 +5011,7 @@ export interface DataIntersightNetworkElementSummaryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -5206,7 +5211,7 @@ export class DataIntersightNetworkElementSummaryParentOutputReference extends cd
 }
 export interface DataIntersightNetworkElementSummaryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5214,19 +5219,19 @@ export interface DataIntersightNetworkElementSummaryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5239,7 +5244,7 @@ export interface DataIntersightNetworkElementSummaryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -5471,7 +5476,7 @@ export class DataIntersightNetworkElementSummaryPermissionResourcesList extends 
 }
 export interface DataIntersightNetworkElementSummaryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5479,19 +5484,19 @@ export interface DataIntersightNetworkElementSummaryRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5504,7 +5509,7 @@ export interface DataIntersightNetworkElementSummaryRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -5704,7 +5709,7 @@ export class DataIntersightNetworkElementSummaryRegisteredDeviceOutputReference 
 }
 export interface DataIntersightNetworkElementSummaryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5712,19 +5717,19 @@ export interface DataIntersightNetworkElementSummaryTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5737,7 +5742,7 @@ export interface DataIntersightNetworkElementSummaryTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -5969,7 +5974,7 @@ export class DataIntersightNetworkElementSummaryTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightNetworkElementSummaryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5977,19 +5982,19 @@ export interface DataIntersightNetworkElementSummaryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6002,7 +6007,7 @@ export interface DataIntersightNetworkElementSummaryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -6202,45 +6207,51 @@ export class DataIntersightNetworkElementSummaryTagsDefinitionOutputReference ex
 }
 export interface DataIntersightNetworkElementSummaryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#key DataIntersightNetworkElementSummary#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#key DataIntersightNetworkElementSummary#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#propagated DataIntersightNetworkElementSummary#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#propagated DataIntersightNetworkElementSummary#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#sys_tag DataIntersightNetworkElementSummary#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#type DataIntersightNetworkElementSummary#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#type DataIntersightNetworkElementSummary#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#value DataIntersightNetworkElementSummary#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#value DataIntersightNetworkElementSummary#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ancestor_definitions DataIntersightNetworkElementSummary#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ancestor_definitions DataIntersightNetworkElementSummary#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkElementSummaryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#definition DataIntersightNetworkElementSummary#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#definition DataIntersightNetworkElementSummary#definition}
   */
   readonly definition?: DataIntersightNetworkElementSummaryTagsDefinition;
 }
@@ -6254,6 +6265,7 @@ export function dataIntersightNetworkElementSummaryTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkElementSummaryTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6282,6 +6294,12 @@ export function dataIntersightNetworkElementSummaryTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6348,6 +6366,10 @@ export class DataIntersightNetworkElementSummaryTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6374,6 +6396,7 @@ export class DataIntersightNetworkElementSummaryTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6389,6 +6412,7 @@ export class DataIntersightNetworkElementSummaryTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6442,6 +6466,22 @@ export class DataIntersightNetworkElementSummaryTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6530,7 +6570,7 @@ export class DataIntersightNetworkElementSummaryTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNetworkElementSummaryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6538,19 +6578,19 @@ export interface DataIntersightNetworkElementSummaryVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6563,7 +6603,7 @@ export interface DataIntersightNetworkElementSummaryVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -6795,7 +6835,7 @@ export class DataIntersightNetworkElementSummaryVersionContextInterestedMosList 
 }
 export interface DataIntersightNetworkElementSummaryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6803,19 +6843,19 @@ export interface DataIntersightNetworkElementSummaryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#moid DataIntersightNetworkElementSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6828,7 +6868,7 @@ export interface DataIntersightNetworkElementSummaryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#selector DataIntersightNetworkElementSummary#selector}
   */
   readonly selector?: string;
 }
@@ -7028,7 +7068,7 @@ export class DataIntersightNetworkElementSummaryVersionContextRefMoOutputReferen
 }
 export interface DataIntersightNetworkElementSummaryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#additional_properties DataIntersightNetworkElementSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7036,32 +7076,32 @@ export interface DataIntersightNetworkElementSummaryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#class_id DataIntersightNetworkElementSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#marked_for_deletion DataIntersightNetworkElementSummary#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#marked_for_deletion DataIntersightNetworkElementSummary#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#nr_version DataIntersightNetworkElementSummary#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#nr_version DataIntersightNetworkElementSummary#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#object_type DataIntersightNetworkElementSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#timestamp DataIntersightNetworkElementSummary#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#timestamp DataIntersightNetworkElementSummary#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7072,19 +7112,19 @@ export interface DataIntersightNetworkElementSummaryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#version_type DataIntersightNetworkElementSummary#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#version_type DataIntersightNetworkElementSummary#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#interested_mos DataIntersightNetworkElementSummary#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#interested_mos DataIntersightNetworkElementSummary#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkElementSummaryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#ref_mo DataIntersightNetworkElementSummary#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#ref_mo DataIntersightNetworkElementSummary#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkElementSummaryVersionContextRefMo;
 }
@@ -7400,7 +7440,7 @@ export class DataIntersightNetworkElementSummaryVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary intersight_network_element_summary}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary intersight_network_element_summary}
 */
 export class DataIntersightNetworkElementSummary extends cdktf.TerraformDataSource {
 
@@ -7416,7 +7456,7 @@ export class DataIntersightNetworkElementSummary extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightNetworkElementSummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkElementSummary to import
-  * @param importFromId The id of the existing DataIntersightNetworkElementSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkElementSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkElementSummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7428,7 +7468,7 @@ export class DataIntersightNetworkElementSummary extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_element_summary intersight_network_element_summary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_element_summary intersight_network_element_summary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7439,8 +7479,8 @@ export class DataIntersightNetworkElementSummary extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_network_element_summary',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

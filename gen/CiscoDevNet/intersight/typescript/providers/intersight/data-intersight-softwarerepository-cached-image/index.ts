@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#account_moid DataIntersightSoftwarerepositoryCachedImage#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#account_moid DataIntersightSoftwarerepositoryCachedImage#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -25,11 +25,11 @@ export interface DataIntersightSoftwarerepositoryCachedImageConfig extends cdktf
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#action DataIntersightSoftwarerepositoryCachedImage#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#action DataIntersightSoftwarerepositoryCachedImage#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -50,13 +50,13 @@ export interface DataIntersightSoftwarerepositoryCachedImageConfig extends cdktf
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#cache_state DataIntersightSoftwarerepositoryCachedImage#cache_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#cache_state DataIntersightSoftwarerepositoryCachedImage#cache_state}
   */
   readonly cacheState?: string;
   /**
   * The time when the image or file was cached into the FI storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#cached_time DataIntersightSoftwarerepositoryCachedImage#cached_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#cached_time DataIntersightSoftwarerepositoryCachedImage#cached_time}
   */
   readonly cachedTime?: string;
   /**
@@ -64,41 +64,41 @@ export interface DataIntersightSoftwarerepositoryCachedImageConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#create_time DataIntersightSoftwarerepositoryCachedImage#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#create_time DataIntersightSoftwarerepositoryCachedImage#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#domain_group_moid DataIntersightSoftwarerepositoryCachedImage#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#domain_group_moid DataIntersightSoftwarerepositoryCachedImage#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Any error encountered. Set to empty when download is in progress or completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#download_error DataIntersightSoftwarerepositoryCachedImage#download_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#download_error DataIntersightSoftwarerepositoryCachedImage#download_error}
   */
   readonly downloadError?: string;
   /**
   * The download progress of the file represented as a percentage between 0% and 100%. If progress reporting is not possible, a value of -1 is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#download_progress DataIntersightSoftwarerepositoryCachedImage#download_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#download_progress DataIntersightSoftwarerepositoryCachedImage#download_progress}
   */
   readonly downloadProgress?: number;
   /**
   * The number of retries the plugin attempted before succeeding or failing the download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#download_retries DataIntersightSoftwarerepositoryCachedImage#download_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#download_retries DataIntersightSoftwarerepositoryCachedImage#download_retries}
   */
   readonly downloadRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#id DataIntersightSoftwarerepositoryCachedImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#id DataIntersightSoftwarerepositoryCachedImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,113 +107,113 @@ export interface DataIntersightSoftwarerepositoryCachedImageConfig extends cdktf
   /**
   * Used by the cache monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#last_access_time DataIntersightSoftwarerepositoryCachedImage#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#last_access_time DataIntersightSoftwarerepositoryCachedImage#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 sum of the firmware image that will be used by the endpoint to validate the integrity of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#md5sum DataIntersightSoftwarerepositoryCachedImage#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#md5sum DataIntersightSoftwarerepositoryCachedImage#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#mod_time DataIntersightSoftwarerepositoryCachedImage#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#mod_time DataIntersightSoftwarerepositoryCachedImage#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
   * The actual sha512sum of the cached image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#original_sha512sum DataIntersightSoftwarerepositoryCachedImage#original_sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#original_sha512sum DataIntersightSoftwarerepositoryCachedImage#original_sha512sum}
   */
   readonly originalSha512Sum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#owners DataIntersightSoftwarerepositoryCachedImage#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#owners DataIntersightSoftwarerepositoryCachedImage#owners}
   */
   readonly owners?: string[];
   /**
   * The absolute path of the imported file in the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#path DataIntersightSoftwarerepositoryCachedImage#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#path DataIntersightSoftwarerepositoryCachedImage#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#registered_workflows DataIntersightSoftwarerepositoryCachedImage#registered_workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#registered_workflows DataIntersightSoftwarerepositoryCachedImage#registered_workflows}
   */
   readonly registeredWorkflows?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#shared_scope DataIntersightSoftwarerepositoryCachedImage#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#shared_scope DataIntersightSoftwarerepositoryCachedImage#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The number of times this file has been used to copy or upgrade or install actions. Used by the cache monitoring process to determine the files to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#used_count DataIntersightSoftwarerepositoryCachedImage#used_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#used_count DataIntersightSoftwarerepositoryCachedImage#used_count}
   */
   readonly usedCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#ancestors DataIntersightSoftwarerepositoryCachedImage#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#ancestors DataIntersightSoftwarerepositoryCachedImage#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwarerepositoryCachedImageAncestors[] | cdktf.IResolvable;
   /**
   * checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#checksum DataIntersightSoftwarerepositoryCachedImage#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#checksum DataIntersightSoftwarerepositoryCachedImage#checksum}
   */
   readonly checksum?: DataIntersightSoftwarerepositoryCachedImageChecksum;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#file DataIntersightSoftwarerepositoryCachedImage#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#file DataIntersightSoftwarerepositoryCachedImage#file}
   */
   readonly file?: DataIntersightSoftwarerepositoryCachedImageFile;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#network_element DataIntersightSoftwarerepositoryCachedImage#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#network_element DataIntersightSoftwarerepositoryCachedImage#network_element}
   */
   readonly networkElement?: DataIntersightSoftwarerepositoryCachedImageNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#parent DataIntersightSoftwarerepositoryCachedImage#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#parent DataIntersightSoftwarerepositoryCachedImage#parent}
   */
   readonly parent?: DataIntersightSoftwarerepositoryCachedImageParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#permission_resources DataIntersightSoftwarerepositoryCachedImage#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#permission_resources DataIntersightSoftwarerepositoryCachedImage#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwarerepositoryCachedImagePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#tags DataIntersightSoftwarerepositoryCachedImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#tags DataIntersightSoftwarerepositoryCachedImage#tags}
   */
   readonly tags?: DataIntersightSoftwarerepositoryCachedImageTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#version_context DataIntersightSoftwarerepositoryCachedImage#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#version_context DataIntersightSoftwarerepositoryCachedImage#version_context}
   */
   readonly versionContext?: DataIntersightSoftwarerepositoryCachedImageVersionContext;
 }
@@ -1050,6 +1050,11 @@ export class DataIntersightSoftwarerepositoryCachedImageResultsTagsOutputReferen
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1616,7 +1621,7 @@ export class DataIntersightSoftwarerepositoryCachedImageResultsList extends cdkt
 }
 export interface DataIntersightSoftwarerepositoryCachedImageAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1624,19 +1629,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1649,7 +1654,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -1881,7 +1886,7 @@ export class DataIntersightSoftwarerepositoryCachedImageAncestorsList extends cd
 }
 export interface DataIntersightSoftwarerepositoryCachedImageChecksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1889,7 +1894,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageChecksum {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
@@ -1897,14 +1902,14 @@ export interface DataIntersightSoftwarerepositoryCachedImageChecksum {
   * * `crc` - A CRC hash as definded by RFC 3385. Generated with the IEEE polynomial.
   * * `sha256` - An SHA256 hash as defined by RFC 4634.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#hash_algorithm DataIntersightSoftwarerepositoryCachedImage#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#hash_algorithm DataIntersightSoftwarerepositoryCachedImage#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
 }
@@ -2075,7 +2080,7 @@ export class DataIntersightSoftwarerepositoryCachedImageChecksumOutputReference 
 }
 export interface DataIntersightSoftwarerepositoryCachedImageFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2083,19 +2088,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageFile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2108,7 +2113,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageFile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -2308,7 +2313,7 @@ export class DataIntersightSoftwarerepositoryCachedImageFileOutputReference exte
 }
 export interface DataIntersightSoftwarerepositoryCachedImageNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2316,19 +2321,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2341,7 +2346,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -2541,7 +2546,7 @@ export class DataIntersightSoftwarerepositoryCachedImageNetworkElementOutputRefe
 }
 export interface DataIntersightSoftwarerepositoryCachedImageParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2549,19 +2554,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2574,7 +2579,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -2774,7 +2779,7 @@ export class DataIntersightSoftwarerepositoryCachedImageParentOutputReference ex
 }
 export interface DataIntersightSoftwarerepositoryCachedImagePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2782,19 +2787,19 @@ export interface DataIntersightSoftwarerepositoryCachedImagePermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2807,7 +2812,7 @@ export interface DataIntersightSoftwarerepositoryCachedImagePermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -3039,7 +3044,7 @@ export class DataIntersightSoftwarerepositoryCachedImagePermissionResourcesList 
 }
 export interface DataIntersightSoftwarerepositoryCachedImageTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3047,19 +3052,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3072,7 +3077,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -3304,7 +3309,7 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsAncestorDefinitionsL
 }
 export interface DataIntersightSoftwarerepositoryCachedImageTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3312,19 +3317,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3337,7 +3342,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -3537,45 +3542,51 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsDefinitionOutputRefe
 }
 export interface DataIntersightSoftwarerepositoryCachedImageTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#key DataIntersightSoftwarerepositoryCachedImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#key DataIntersightSoftwarerepositoryCachedImage#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#propagated DataIntersightSoftwarerepositoryCachedImage#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#propagated DataIntersightSoftwarerepositoryCachedImage#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#sys_tag DataIntersightSoftwarerepositoryCachedImage#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#type DataIntersightSoftwarerepositoryCachedImage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#type DataIntersightSoftwarerepositoryCachedImage#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#value DataIntersightSoftwarerepositoryCachedImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#value DataIntersightSoftwarerepositoryCachedImage#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#ancestor_definitions DataIntersightSoftwarerepositoryCachedImage#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#ancestor_definitions DataIntersightSoftwarerepositoryCachedImage#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwarerepositoryCachedImageTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#definition DataIntersightSoftwarerepositoryCachedImage#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#definition DataIntersightSoftwarerepositoryCachedImage#definition}
   */
   readonly definition?: DataIntersightSoftwarerepositoryCachedImageTagsDefinition;
 }
@@ -3589,6 +3600,7 @@ export function dataIntersightSoftwarerepositoryCachedImageTagsToTerraform(struc
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwarerepositoryCachedImageTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3617,6 +3629,12 @@ export function dataIntersightSoftwarerepositoryCachedImageTagsToHclTerraform(st
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3683,6 +3701,10 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsOutputReference exte
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3709,6 +3731,7 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsOutputReference exte
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3724,6 +3747,7 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsOutputReference exte
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3777,6 +3801,22 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsOutputReference exte
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3865,7 +3905,7 @@ export class DataIntersightSoftwarerepositoryCachedImageTagsList extends cdktf.C
 }
 export interface DataIntersightSoftwarerepositoryCachedImageVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3873,19 +3913,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3898,7 +3938,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -4130,7 +4170,7 @@ export class DataIntersightSoftwarerepositoryCachedImageVersionContextInterested
 }
 export interface DataIntersightSoftwarerepositoryCachedImageVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4138,19 +4178,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#moid DataIntersightSoftwarerepositoryCachedImage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4163,7 +4203,7 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#selector DataIntersightSoftwarerepositoryCachedImage#selector}
   */
   readonly selector?: string;
 }
@@ -4363,7 +4403,7 @@ export class DataIntersightSoftwarerepositoryCachedImageVersionContextRefMoOutpu
 }
 export interface DataIntersightSoftwarerepositoryCachedImageVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#additional_properties DataIntersightSoftwarerepositoryCachedImage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4371,32 +4411,32 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#class_id DataIntersightSoftwarerepositoryCachedImage#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#marked_for_deletion DataIntersightSoftwarerepositoryCachedImage#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#marked_for_deletion DataIntersightSoftwarerepositoryCachedImage#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#nr_version DataIntersightSoftwarerepositoryCachedImage#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#nr_version DataIntersightSoftwarerepositoryCachedImage#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#object_type DataIntersightSoftwarerepositoryCachedImage#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#timestamp DataIntersightSoftwarerepositoryCachedImage#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#timestamp DataIntersightSoftwarerepositoryCachedImage#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4407,19 +4447,19 @@ export interface DataIntersightSoftwarerepositoryCachedImageVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#version_type DataIntersightSoftwarerepositoryCachedImage#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#version_type DataIntersightSoftwarerepositoryCachedImage#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#interested_mos DataIntersightSoftwarerepositoryCachedImage#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#interested_mos DataIntersightSoftwarerepositoryCachedImage#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwarerepositoryCachedImageVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#ref_mo DataIntersightSoftwarerepositoryCachedImage#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#ref_mo DataIntersightSoftwarerepositoryCachedImage#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwarerepositoryCachedImageVersionContextRefMo;
 }
@@ -4735,7 +4775,7 @@ export class DataIntersightSoftwarerepositoryCachedImageVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image intersight_softwarerepository_cached_image}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image intersight_softwarerepository_cached_image}
 */
 export class DataIntersightSoftwarerepositoryCachedImage extends cdktf.TerraformDataSource {
 
@@ -4751,7 +4791,7 @@ export class DataIntersightSoftwarerepositoryCachedImage extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightSoftwarerepositoryCachedImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwarerepositoryCachedImage to import
-  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCachedImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCachedImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwarerepositoryCachedImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4763,7 +4803,7 @@ export class DataIntersightSoftwarerepositoryCachedImage extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_cached_image intersight_softwarerepository_cached_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_cached_image intersight_softwarerepository_cached_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4774,8 +4814,8 @@ export class DataIntersightSoftwarerepositoryCachedImage extends cdktf.Terraform
       terraformResourceType: 'intersight_softwarerepository_cached_image',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

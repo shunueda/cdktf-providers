@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#account_moid ResourcepoolPool#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#account_moid ResourcepoolPool#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,23 +18,23 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   * * `None` - The pool will not be considered for evaluation.
   * * `ReEvaluate` - The resources in the pool will be re-evaluated against the server pool qualification associated with it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#action ResourcepoolPool#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#action ResourcepoolPool#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#ancestors ResourcepoolPool#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#ancestors ResourcepoolPool#ancestors}
   */
   readonly ancestors?: ResourcepoolPoolAncestors[] | cdktf.IResolvable;
   /**
   * Number of IDs that are currently assigned (in use).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#assigned ResourcepoolPool#assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#assigned ResourcepoolPool#assigned}
   */
   readonly assigned?: number;
   /**
@@ -42,7 +42,7 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   * * `sequential` - Identifiers are assigned in a sequential order.
   * * `default` - Assignment order is decided by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#assignment_order ResourcepoolPool#assignment_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#assignment_order ResourcepoolPool#assignment_order}
   */
   readonly assignmentOrder?: string;
   /**
@@ -50,29 +50,29 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#create_time ResourcepoolPool#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#create_time ResourcepoolPool#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#description ResourcepoolPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#description ResourcepoolPool#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#domain_group_moid ResourcepoolPool#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#domain_group_moid ResourcepoolPool#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#id ResourcepoolPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#id ResourcepoolPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,50 +81,50 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#mod_time ResourcepoolPool#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#mod_time ResourcepoolPool#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#name ResourcepoolPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#name ResourcepoolPool#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#organization ResourcepoolPool#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#organization ResourcepoolPool#organization}
   */
   readonly organization?: ResourcepoolPoolOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#owners ResourcepoolPool#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#owners ResourcepoolPool#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#parent ResourcepoolPool#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#parent ResourcepoolPool#parent}
   */
   readonly parent?: ResourcepoolPoolParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#permission_resources ResourcepoolPool#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#permission_resources ResourcepoolPool#permission_resources}
   */
   readonly permissionResources?: ResourcepoolPoolPermissionResources[] | cdktf.IResolvable;
   /**
@@ -133,31 +133,31 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   * * `Dynamic` - The resources in the pool will be updated dynamically based on the condition.
   * * `Hybrid` - The resources in the pool can be added by the user statically or dynamically, based on the matching conditions of the qualification policy. If the pool contains both statically added resources and resources added based on the qualification policy, the pool type can be classified as hybrid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#pool_type ResourcepoolPool#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#pool_type ResourcepoolPool#pool_type}
   */
   readonly poolType?: string;
   /**
   * An array of relationships to resourceAbstractResourceQualificationPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#qualification_policies ResourcepoolPool#qualification_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#qualification_policies ResourcepoolPool#qualification_policies}
   */
   readonly qualificationPolicies?: ResourcepoolPoolQualificationPolicies[] | cdktf.IResolvable;
   /**
   * Number of IDs that are currently reserved (and not in use).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#reserved ResourcepoolPool#reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#reserved ResourcepoolPool#reserved}
   */
   readonly reserved?: number;
   /**
   * The resources are added to the pool based on conditions specified by the qualifiers. If there are any changes in the qualifier conditions or the properties of the resources, the corresponding pool will be evaluated for those changes. Subsequently, resources will be updated in the pool based on matching criteria. The status of these changes is tracked using ResourceEvaluationStatus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#resource_evaluation_status ResourcepoolPool#resource_evaluation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#resource_evaluation_status ResourcepoolPool#resource_evaluation_status}
   */
   readonly resourceEvaluationStatus?: ResourcepoolPoolResourceEvaluationStatus[] | cdktf.IResolvable;
   /**
   * The pool specific parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#resource_pool_parameters ResourcepoolPool#resource_pool_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#resource_pool_parameters ResourcepoolPool#resource_pool_parameters}
   */
   readonly resourcePoolParameters?: ResourcepoolPoolResourcePoolParameters[] | cdktf.IResolvable;
   /**
@@ -166,56 +166,56 @@ export interface ResourcepoolPoolConfig extends cdktf.TerraformMetaArguments {
   * * `Mixed` - Resource Pool holds the resources like Rack Server, Blade or Chassis.
   * * `None` - The resource cannot consider for Resource Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#resource_type ResourcepoolPool#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#resource_type ResourcepoolPool#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selectors ResourcepoolPool#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selectors ResourcepoolPool#selectors}
   */
   readonly selectors?: ResourcepoolPoolSelectors[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#shared_scope ResourcepoolPool#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#shared_scope ResourcepoolPool#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Total number of identifiers in this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#size ResourcepoolPool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#size ResourcepoolPool#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#tags ResourcepoolPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#tags ResourcepoolPool#tags}
   */
   readonly tags?: ResourcepoolPoolTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#version_context ResourcepoolPool#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#version_context ResourcepoolPool#version_context}
   */
   readonly versionContext?: ResourcepoolPoolVersionContext[] | cdktf.IResolvable;
 }
 export interface ResourcepoolPoolAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -447,23 +447,23 @@ export class ResourcepoolPoolAncestorsList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -695,23 +695,23 @@ export class ResourcepoolPoolOrganizationList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -943,23 +943,23 @@ export class ResourcepoolPoolParentList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -1191,23 +1191,23 @@ export class ResourcepoolPoolPermissionResourcesList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolQualificationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -1439,23 +1439,23 @@ export class ResourcepoolPoolQualificationPoliciesList extends cdktf.ComplexList
 }
 export interface ResourcepoolPoolResourceEvaluationStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#err_msg ResourcepoolPool#err_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#err_msg ResourcepoolPool#err_msg}
   */
   readonly errMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#state ResourcepoolPool#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#state ResourcepoolPool#state}
   */
   readonly state?: string;
 }
@@ -1687,15 +1687,15 @@ export class ResourcepoolPoolResourceEvaluationStatusList extends cdktf.ComplexL
 }
 export interface ResourcepoolPoolResourcePoolParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
 }
@@ -1869,19 +1869,19 @@ export class ResourcepoolPoolResourcePoolParametersList extends cdktf.ComplexLis
 }
 export interface ResourcepoolPoolSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -2084,23 +2084,23 @@ export class ResourcepoolPoolSelectorsList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -2332,23 +2332,23 @@ export class ResourcepoolPoolTagsAncestorDefinitionsList extends cdktf.ComplexLi
 }
 export interface ResourcepoolPoolTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -2580,31 +2580,35 @@ export class ResourcepoolPoolTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#ancestor_definitions ResourcepoolPool#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#ancestor_definitions ResourcepoolPool#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ResourcepoolPoolTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#definition ResourcepoolPool#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#definition ResourcepoolPool#definition}
   */
   readonly definition?: ResourcepoolPoolTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#key ResourcepoolPool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#key ResourcepoolPool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#propagated ResourcepoolPool#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#propagated ResourcepoolPool#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#type ResourcepoolPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#sys_tag ResourcepoolPool#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#type ResourcepoolPool#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#value ResourcepoolPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#value ResourcepoolPool#value}
   */
   readonly value?: string;
 }
@@ -2620,6 +2624,7 @@ export function resourcepoolPoolTagsToTerraform(struct?: ResourcepoolPoolTags | 
     definition: cdktf.listMapper(resourcepoolPoolTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2658,6 +2663,12 @@ export function resourcepoolPoolTagsToHclTerraform(struct?: ResourcepoolPoolTags
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2720,6 +2731,10 @@ export class ResourcepoolPoolTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2740,6 +2755,7 @@ export class ResourcepoolPoolTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2755,6 +2771,7 @@ export class ResourcepoolPoolTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2840,6 +2857,22 @@ export class ResourcepoolPoolTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2894,23 +2927,23 @@ export class ResourcepoolPoolTagsList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -3142,23 +3175,23 @@ export class ResourcepoolPoolVersionContextInterestedMosList extends cdktf.Compl
 }
 export interface ResourcepoolPoolVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#moid ResourcepoolPool#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#selector ResourcepoolPool#selector}
   */
   readonly selector?: string;
 }
@@ -3390,39 +3423,39 @@ export class ResourcepoolPoolVersionContextRefMoList extends cdktf.ComplexList {
 }
 export interface ResourcepoolPoolVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#additional_properties ResourcepoolPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#class_id ResourcepoolPool#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#interested_mos ResourcepoolPool#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#interested_mos ResourcepoolPool#interested_mos}
   */
   readonly interestedMos?: ResourcepoolPoolVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#marked_for_deletion ResourcepoolPool#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#marked_for_deletion ResourcepoolPool#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#nr_version ResourcepoolPool#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#nr_version ResourcepoolPool#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#object_type ResourcepoolPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#ref_mo ResourcepoolPool#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#ref_mo ResourcepoolPool#ref_mo}
   */
   readonly refMo?: ResourcepoolPoolVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#timestamp ResourcepoolPool#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#timestamp ResourcepoolPool#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#version_type ResourcepoolPool#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#version_type ResourcepoolPool#version_type}
   */
   readonly versionType?: string;
 }
@@ -3770,7 +3803,7 @@ export class ResourcepoolPoolVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool intersight_resourcepool_pool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool intersight_resourcepool_pool}
 */
 export class ResourcepoolPool extends cdktf.TerraformResource {
 
@@ -3786,7 +3819,7 @@ export class ResourcepoolPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourcepoolPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcepoolPool to import
-  * @param importFromId The id of the existing ResourcepoolPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcepoolPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcepoolPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3798,7 +3831,7 @@ export class ResourcepoolPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/resourcepool_pool intersight_resourcepool_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/resourcepool_pool intersight_resourcepool_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3809,8 +3842,8 @@ export class ResourcepoolPool extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_resourcepool_pool',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface RedisRedisClusterGetOciCacheUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#compartment_id RedisRedisClusterGetOciCacheUser#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#compartment_id RedisRedisClusterGetOciCacheUser#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#display_name RedisRedisClusterGetOciCacheUser#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#display_name RedisRedisClusterGetOciCacheUser#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#id RedisRedisClusterGetOciCacheUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#id RedisRedisClusterGetOciCacheUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#redis_cluster_id RedisRedisClusterGetOciCacheUser#redis_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#redis_cluster_id RedisRedisClusterGetOciCacheUser#redis_cluster_id}
   */
   readonly redisClusterId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#timeouts RedisRedisClusterGetOciCacheUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#timeouts RedisRedisClusterGetOciCacheUser#timeouts}
   */
   readonly timeouts?: RedisRedisClusterGetOciCacheUserTimeouts;
 }
@@ -110,15 +110,15 @@ export class RedisRedisClusterGetOciCacheUserOciCacheUsersList extends cdktf.Com
 }
 export interface RedisRedisClusterGetOciCacheUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#create RedisRedisClusterGetOciCacheUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#create RedisRedisClusterGetOciCacheUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#delete RedisRedisClusterGetOciCacheUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#delete RedisRedisClusterGetOciCacheUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#update RedisRedisClusterGetOciCacheUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#update RedisRedisClusterGetOciCacheUser#update}
   */
   readonly update?: string;
 }
@@ -270,7 +270,7 @@ export class RedisRedisClusterGetOciCacheUserTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user oci_redis_redis_cluster_get_oci_cache_user}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user oci_redis_redis_cluster_get_oci_cache_user}
 */
 export class RedisRedisClusterGetOciCacheUser extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class RedisRedisClusterGetOciCacheUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisRedisClusterGetOciCacheUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisRedisClusterGetOciCacheUser to import
-  * @param importFromId The id of the existing RedisRedisClusterGetOciCacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisRedisClusterGetOciCacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisRedisClusterGetOciCacheUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class RedisRedisClusterGetOciCacheUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/redis_redis_cluster_get_oci_cache_user oci_redis_redis_cluster_get_oci_cache_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/redis_redis_cluster_get_oci_cache_user oci_redis_redis_cluster_get_oci_cache_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class RedisRedisClusterGetOciCacheUser extends cdktf.TerraformResource {
       terraformResourceType: 'oci_redis_redis_cluster_get_oci_cache_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

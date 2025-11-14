@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,29 +11,29 @@ export interface LicenseErpLicenseCountConfig extends cdktf.TerraformMetaArgumen
   * A reference to a licenseAccountLicenseData resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#account_license_data LicenseErpLicenseCount#account_license_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#account_license_data LicenseErpLicenseCount#account_license_data}
   */
   readonly accountLicenseData?: LicenseErpLicenseCountAccountLicenseData[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#account_moid LicenseErpLicenseCount#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#account_moid LicenseErpLicenseCount#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The total number of devices claimed in the Erp workflow Advantage tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#advantage_count LicenseErpLicenseCount#advantage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#advantage_count LicenseErpLicenseCount#advantage_count}
   */
   readonly advantageCount?: number;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#ancestors LicenseErpLicenseCount#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#ancestors LicenseErpLicenseCount#ancestors}
   */
   readonly ancestors?: LicenseErpLicenseCountAncestors[] | cdktf.IResolvable;
   /**
@@ -41,23 +41,23 @@ export interface LicenseErpLicenseCountConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#create_time LicenseErpLicenseCount#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#create_time LicenseErpLicenseCount#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#domain_group_moid LicenseErpLicenseCount#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#domain_group_moid LicenseErpLicenseCount#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#id LicenseErpLicenseCount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#id LicenseErpLicenseCount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,76 +66,76 @@ export interface LicenseErpLicenseCountConfig extends cdktf.TerraformMetaArgumen
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#mod_time LicenseErpLicenseCount#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#mod_time LicenseErpLicenseCount#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#owners LicenseErpLicenseCount#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#owners LicenseErpLicenseCount#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#parent LicenseErpLicenseCount#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#parent LicenseErpLicenseCount#parent}
   */
   readonly parent?: LicenseErpLicenseCountParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#permission_resources LicenseErpLicenseCount#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#permission_resources LicenseErpLicenseCount#permission_resources}
   */
   readonly permissionResources?: LicenseErpLicenseCountPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#shared_scope LicenseErpLicenseCount#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#shared_scope LicenseErpLicenseCount#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#tags LicenseErpLicenseCount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#tags LicenseErpLicenseCount#tags}
   */
   readonly tags?: LicenseErpLicenseCountTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#version_context LicenseErpLicenseCount#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#version_context LicenseErpLicenseCount#version_context}
   */
   readonly versionContext?: LicenseErpLicenseCountVersionContext[] | cdktf.IResolvable;
 }
 export interface LicenseErpLicenseCountAccountLicenseData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -367,23 +367,23 @@ export class LicenseErpLicenseCountAccountLicenseDataList extends cdktf.ComplexL
 }
 export interface LicenseErpLicenseCountAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -615,23 +615,23 @@ export class LicenseErpLicenseCountAncestorsList extends cdktf.ComplexList {
 }
 export interface LicenseErpLicenseCountParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -863,23 +863,23 @@ export class LicenseErpLicenseCountParentList extends cdktf.ComplexList {
 }
 export interface LicenseErpLicenseCountPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -1111,23 +1111,23 @@ export class LicenseErpLicenseCountPermissionResourcesList extends cdktf.Complex
 }
 export interface LicenseErpLicenseCountTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -1359,23 +1359,23 @@ export class LicenseErpLicenseCountTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface LicenseErpLicenseCountTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -1607,31 +1607,35 @@ export class LicenseErpLicenseCountTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface LicenseErpLicenseCountTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#ancestor_definitions LicenseErpLicenseCount#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#ancestor_definitions LicenseErpLicenseCount#ancestor_definitions}
   */
   readonly ancestorDefinitions?: LicenseErpLicenseCountTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#definition LicenseErpLicenseCount#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#definition LicenseErpLicenseCount#definition}
   */
   readonly definition?: LicenseErpLicenseCountTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#key LicenseErpLicenseCount#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#key LicenseErpLicenseCount#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#propagated LicenseErpLicenseCount#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#propagated LicenseErpLicenseCount#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#type LicenseErpLicenseCount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#sys_tag LicenseErpLicenseCount#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#type LicenseErpLicenseCount#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#value LicenseErpLicenseCount#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#value LicenseErpLicenseCount#value}
   */
   readonly value?: string;
 }
@@ -1647,6 +1651,7 @@ export function licenseErpLicenseCountTagsToTerraform(struct?: LicenseErpLicense
     definition: cdktf.listMapper(licenseErpLicenseCountTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1685,6 +1690,12 @@ export function licenseErpLicenseCountTagsToHclTerraform(struct?: LicenseErpLice
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1747,6 +1758,10 @@ export class LicenseErpLicenseCountTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1767,6 +1782,7 @@ export class LicenseErpLicenseCountTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1782,6 +1798,7 @@ export class LicenseErpLicenseCountTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1867,6 +1884,22 @@ export class LicenseErpLicenseCountTagsOutputReference extends cdktf.ComplexObje
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1921,23 +1954,23 @@ export class LicenseErpLicenseCountTagsList extends cdktf.ComplexList {
 }
 export interface LicenseErpLicenseCountVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2169,23 +2202,23 @@ export class LicenseErpLicenseCountVersionContextInterestedMosList extends cdktf
 }
 export interface LicenseErpLicenseCountVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#moid LicenseErpLicenseCount#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#selector LicenseErpLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2417,39 +2450,39 @@ export class LicenseErpLicenseCountVersionContextRefMoList extends cdktf.Complex
 }
 export interface LicenseErpLicenseCountVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#additional_properties LicenseErpLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#class_id LicenseErpLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#interested_mos LicenseErpLicenseCount#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#interested_mos LicenseErpLicenseCount#interested_mos}
   */
   readonly interestedMos?: LicenseErpLicenseCountVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#marked_for_deletion LicenseErpLicenseCount#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#marked_for_deletion LicenseErpLicenseCount#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#nr_version LicenseErpLicenseCount#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#nr_version LicenseErpLicenseCount#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#object_type LicenseErpLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#ref_mo LicenseErpLicenseCount#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#ref_mo LicenseErpLicenseCount#ref_mo}
   */
   readonly refMo?: LicenseErpLicenseCountVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#timestamp LicenseErpLicenseCount#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#timestamp LicenseErpLicenseCount#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#version_type LicenseErpLicenseCount#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#version_type LicenseErpLicenseCount#version_type}
   */
   readonly versionType?: string;
 }
@@ -2797,7 +2830,7 @@ export class LicenseErpLicenseCountVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count intersight_license_erp_license_count}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count intersight_license_erp_license_count}
 */
 export class LicenseErpLicenseCount extends cdktf.TerraformResource {
 
@@ -2813,7 +2846,7 @@ export class LicenseErpLicenseCount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseErpLicenseCount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseErpLicenseCount to import
-  * @param importFromId The id of the existing LicenseErpLicenseCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseErpLicenseCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseErpLicenseCount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2825,7 +2858,7 @@ export class LicenseErpLicenseCount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/license_erp_license_count intersight_license_erp_license_count} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_erp_license_count intersight_license_erp_license_count} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2836,8 +2869,8 @@ export class LicenseErpLicenseCount extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_license_erp_license_count',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

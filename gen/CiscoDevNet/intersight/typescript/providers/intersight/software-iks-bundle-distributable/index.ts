@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#account_moid SoftwareIksBundleDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#account_moid SoftwareIksBundleDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#ancestors SoftwareIksBundleDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#ancestors SoftwareIksBundleDistributable#ancestors}
   */
   readonly ancestors?: SoftwareIksBundleDistributableAncestors[] | cdktf.IResolvable;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#bundle_type SoftwareIksBundleDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#bundle_type SoftwareIksBundleDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
   * A reference to a softwarerepositoryCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#catalog SoftwareIksBundleDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#catalog SoftwareIksBundleDistributable#catalog}
   */
   readonly catalog?: SoftwareIksBundleDistributableCatalog[] | cdktf.IResolvable;
   /**
@@ -41,41 +41,41 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#component_meta SoftwareIksBundleDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#component_meta SoftwareIksBundleDistributable#component_meta}
   */
   readonly componentMeta?: SoftwareIksBundleDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#create_time SoftwareIksBundleDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#create_time SoftwareIksBundleDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#description SoftwareIksBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#description SoftwareIksBundleDistributable#description}
   */
   readonly description?: string;
   /**
   * An array of relationships to firmwareDistributableMeta resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#distributable_metas SoftwareIksBundleDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#distributable_metas SoftwareIksBundleDistributable#distributable_metas}
   */
   readonly distributableMetas?: SoftwareIksBundleDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#domain_group_moid SoftwareIksBundleDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#domain_group_moid SoftwareIksBundleDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#download_count SoftwareIksBundleDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#download_count SoftwareIksBundleDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -84,17 +84,17 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#feature_source SoftwareIksBundleDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#feature_source SoftwareIksBundleDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#guid SoftwareIksBundleDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#guid SoftwareIksBundleDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#id SoftwareIksBundleDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#id SoftwareIksBundleDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,13 +103,13 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#image_type SoftwareIksBundleDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#image_type SoftwareIksBundleDistributable#image_type}
   */
   readonly imageType?: string;
   /**
   * An array of relationships to softwareSolutionDistributable resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#images SoftwareIksBundleDistributable#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#images SoftwareIksBundleDistributable#images}
   */
   readonly images?: SoftwareIksBundleDistributableImages[] | cdktf.IResolvable;
   /**
@@ -124,7 +124,7 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#import_action SoftwareIksBundleDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#import_action SoftwareIksBundleDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -145,201 +145,201 @@ export interface SoftwareIksBundleDistributableConfig extends cdktf.TerraformMet
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#import_state SoftwareIksBundleDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#import_state SoftwareIksBundleDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#imported_time SoftwareIksBundleDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#imported_time SoftwareIksBundleDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#last_access_time SoftwareIksBundleDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#last_access_time SoftwareIksBundleDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#md5e_tag SoftwareIksBundleDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#md5e_tag SoftwareIksBundleDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#md5sum SoftwareIksBundleDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#md5sum SoftwareIksBundleDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#mdfid SoftwareIksBundleDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#mdfid SoftwareIksBundleDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#mod_time SoftwareIksBundleDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#mod_time SoftwareIksBundleDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#model SoftwareIksBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#model SoftwareIksBundleDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#name SoftwareIksBundleDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#name SoftwareIksBundleDistributable#name}
   */
   readonly name?: string;
   /**
   * Location of the file in an external repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#nr_source SoftwareIksBundleDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#nr_source SoftwareIksBundleDistributable#nr_source}
   */
   readonly nrSource?: SoftwareIksBundleDistributableNrSource[] | cdktf.IResolvable;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#nr_version SoftwareIksBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#nr_version SoftwareIksBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#owners SoftwareIksBundleDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#owners SoftwareIksBundleDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#parent SoftwareIksBundleDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#parent SoftwareIksBundleDistributable#parent}
   */
   readonly parent?: SoftwareIksBundleDistributableParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#permission_resources SoftwareIksBundleDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#permission_resources SoftwareIksBundleDistributable#permission_resources}
   */
   readonly permissionResources?: SoftwareIksBundleDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#platform_type SoftwareIksBundleDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#platform_type SoftwareIksBundleDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#recommended_build SoftwareIksBundleDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#recommended_build SoftwareIksBundleDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#release SoftwareIksBundleDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#release SoftwareIksBundleDistributable#release}
   */
   readonly release?: SoftwareIksBundleDistributableRelease[] | cdktf.IResolvable;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#release_date SoftwareIksBundleDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#release_date SoftwareIksBundleDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#release_notes_url SoftwareIksBundleDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#release_notes_url SoftwareIksBundleDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#sha512sum SoftwareIksBundleDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#sha512sum SoftwareIksBundleDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#shared_scope SoftwareIksBundleDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#shared_scope SoftwareIksBundleDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#size SoftwareIksBundleDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#size SoftwareIksBundleDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#software_advisory_url SoftwareIksBundleDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#software_advisory_url SoftwareIksBundleDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#software_type_id SoftwareIksBundleDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#software_type_id SoftwareIksBundleDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#supported_models SoftwareIksBundleDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#supported_models SoftwareIksBundleDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#tags SoftwareIksBundleDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#tags SoftwareIksBundleDistributable#tags}
   */
   readonly tags?: SoftwareIksBundleDistributableTags[] | cdktf.IResolvable;
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#vendor SoftwareIksBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#vendor SoftwareIksBundleDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#version_context SoftwareIksBundleDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#version_context SoftwareIksBundleDistributable#version_context}
   */
   readonly versionContext?: SoftwareIksBundleDistributableVersionContext[] | cdktf.IResolvable;
 }
 export interface SoftwareIksBundleDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -571,23 +571,23 @@ export class SoftwareIksBundleDistributableAncestorsList extends cdktf.ComplexLi
 }
 export interface SoftwareIksBundleDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -819,63 +819,63 @@ export class SoftwareIksBundleDistributableCatalogList extends cdktf.ComplexList
 }
 export interface SoftwareIksBundleDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#alternate_packed_version SoftwareIksBundleDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#alternate_packed_version SoftwareIksBundleDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#component_label SoftwareIksBundleDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#component_label SoftwareIksBundleDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#component_type SoftwareIksBundleDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#component_type SoftwareIksBundleDistributable#component_type}
   */
   readonly componentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#description SoftwareIksBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#description SoftwareIksBundleDistributable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#disruption SoftwareIksBundleDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#disruption SoftwareIksBundleDistributable#disruption}
   */
   readonly disruption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#image_path SoftwareIksBundleDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#image_path SoftwareIksBundleDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#is_oob_supported SoftwareIksBundleDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#is_oob_supported SoftwareIksBundleDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#model SoftwareIksBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#model SoftwareIksBundleDistributable#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#oob_manageability SoftwareIksBundleDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#oob_manageability SoftwareIksBundleDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#packed_version SoftwareIksBundleDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#packed_version SoftwareIksBundleDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#redfish_url SoftwareIksBundleDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#redfish_url SoftwareIksBundleDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#vendor SoftwareIksBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#vendor SoftwareIksBundleDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -1397,23 +1397,23 @@ export class SoftwareIksBundleDistributableComponentMetaList extends cdktf.Compl
 }
 export interface SoftwareIksBundleDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -1645,23 +1645,23 @@ export class SoftwareIksBundleDistributableDistributableMetasList extends cdktf.
 }
 export interface SoftwareIksBundleDistributableImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -1893,15 +1893,15 @@ export class SoftwareIksBundleDistributableImagesList extends cdktf.ComplexList 
 }
 export interface SoftwareIksBundleDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -2075,23 +2075,23 @@ export class SoftwareIksBundleDistributableNrSourceList extends cdktf.ComplexLis
 }
 export interface SoftwareIksBundleDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2323,23 +2323,23 @@ export class SoftwareIksBundleDistributableParentList extends cdktf.ComplexList 
 }
 export interface SoftwareIksBundleDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2571,23 +2571,23 @@ export class SoftwareIksBundleDistributablePermissionResourcesList extends cdktf
 }
 export interface SoftwareIksBundleDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2819,23 +2819,23 @@ export class SoftwareIksBundleDistributableReleaseList extends cdktf.ComplexList
 }
 export interface SoftwareIksBundleDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3067,23 +3067,23 @@ export class SoftwareIksBundleDistributableTagsAncestorDefinitionsList extends c
 }
 export interface SoftwareIksBundleDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3315,31 +3315,35 @@ export class SoftwareIksBundleDistributableTagsDefinitionList extends cdktf.Comp
 }
 export interface SoftwareIksBundleDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#ancestor_definitions SoftwareIksBundleDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#ancestor_definitions SoftwareIksBundleDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SoftwareIksBundleDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#definition SoftwareIksBundleDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#definition SoftwareIksBundleDistributable#definition}
   */
   readonly definition?: SoftwareIksBundleDistributableTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#key SoftwareIksBundleDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#key SoftwareIksBundleDistributable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#propagated SoftwareIksBundleDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#propagated SoftwareIksBundleDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#type SoftwareIksBundleDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#sys_tag SoftwareIksBundleDistributable#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#type SoftwareIksBundleDistributable#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#value SoftwareIksBundleDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#value SoftwareIksBundleDistributable#value}
   */
   readonly value?: string;
 }
@@ -3355,6 +3359,7 @@ export function softwareIksBundleDistributableTagsToTerraform(struct?: SoftwareI
     definition: cdktf.listMapper(softwareIksBundleDistributableTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3393,6 +3398,12 @@ export function softwareIksBundleDistributableTagsToHclTerraform(struct?: Softwa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3455,6 +3466,10 @@ export class SoftwareIksBundleDistributableTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3475,6 +3490,7 @@ export class SoftwareIksBundleDistributableTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3490,6 +3506,7 @@ export class SoftwareIksBundleDistributableTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3575,6 +3592,22 @@ export class SoftwareIksBundleDistributableTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3629,23 +3662,23 @@ export class SoftwareIksBundleDistributableTagsList extends cdktf.ComplexList {
 }
 export interface SoftwareIksBundleDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3877,23 +3910,23 @@ export class SoftwareIksBundleDistributableVersionContextInterestedMosList exten
 }
 export interface SoftwareIksBundleDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#moid SoftwareIksBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#selector SoftwareIksBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4125,39 +4158,39 @@ export class SoftwareIksBundleDistributableVersionContextRefMoList extends cdktf
 }
 export interface SoftwareIksBundleDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#additional_properties SoftwareIksBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#class_id SoftwareIksBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#interested_mos SoftwareIksBundleDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#interested_mos SoftwareIksBundleDistributable#interested_mos}
   */
   readonly interestedMos?: SoftwareIksBundleDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#marked_for_deletion SoftwareIksBundleDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#marked_for_deletion SoftwareIksBundleDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#nr_version SoftwareIksBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#nr_version SoftwareIksBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#object_type SoftwareIksBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#ref_mo SoftwareIksBundleDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#ref_mo SoftwareIksBundleDistributable#ref_mo}
   */
   readonly refMo?: SoftwareIksBundleDistributableVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#timestamp SoftwareIksBundleDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#timestamp SoftwareIksBundleDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#version_type SoftwareIksBundleDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#version_type SoftwareIksBundleDistributable#version_type}
   */
   readonly versionType?: string;
 }
@@ -4505,7 +4538,7 @@ export class SoftwareIksBundleDistributableVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable intersight_software_iks_bundle_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable intersight_software_iks_bundle_distributable}
 */
 export class SoftwareIksBundleDistributable extends cdktf.TerraformResource {
 
@@ -4521,7 +4554,7 @@ export class SoftwareIksBundleDistributable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SoftwareIksBundleDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SoftwareIksBundleDistributable to import
-  * @param importFromId The id of the existing SoftwareIksBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SoftwareIksBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SoftwareIksBundleDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4533,7 +4566,7 @@ export class SoftwareIksBundleDistributable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/software_iks_bundle_distributable intersight_software_iks_bundle_distributable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_iks_bundle_distributable intersight_software_iks_bundle_distributable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4544,8 +4577,8 @@ export class SoftwareIksBundleDistributable extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_software_iks_bundle_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

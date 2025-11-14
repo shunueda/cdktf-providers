@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageVdMemberEpConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#account_moid DataIntersightStorageVdMemberEp#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#account_moid DataIntersightStorageVdMemberEp#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageVdMemberEpConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#create_time DataIntersightStorageVdMemberEp#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#create_time DataIntersightStorageVdMemberEp#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#device_mo_id DataIntersightStorageVdMemberEp#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#device_mo_id DataIntersightStorageVdMemberEp#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#dn DataIntersightStorageVdMemberEp#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#dn DataIntersightStorageVdMemberEp#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#domain_group_moid DataIntersightStorageVdMemberEp#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#domain_group_moid DataIntersightStorageVdMemberEp#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#id DataIntersightStorageVdMemberEp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#id DataIntersightStorageVdMemberEp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,115 +59,115 @@ export interface DataIntersightStorageVdMemberEpConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#mod_time DataIntersightStorageVdMemberEp#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#mod_time DataIntersightStorageVdMemberEp#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
   * For certain states, indicates the reason why the operState is in that state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#oper_qualifier_reason DataIntersightStorageVdMemberEp#oper_qualifier_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#oper_qualifier_reason DataIntersightStorageVdMemberEp#oper_qualifier_reason}
   */
   readonly operQualifierReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#owners DataIntersightStorageVdMemberEp#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#owners DataIntersightStorageVdMemberEp#owners}
   */
   readonly owners?: string[];
   /**
   * The presence state of the local disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#presence DataIntersightStorageVdMemberEp#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#presence DataIntersightStorageVdMemberEp#presence}
   */
   readonly presence?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#rn DataIntersightStorageVdMemberEp#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#rn DataIntersightStorageVdMemberEp#rn}
   */
   readonly rn?: string;
   /**
   * Role of the disk normal or hot-spare, used by virtual-drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#role DataIntersightStorageVdMemberEp#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#role DataIntersightStorageVdMemberEp#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#shared_scope DataIntersightStorageVdMemberEp#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#shared_scope DataIntersightStorageVdMemberEp#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The span id number of the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#span_id DataIntersightStorageVdMemberEp#span_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#span_id DataIntersightStorageVdMemberEp#span_id}
   */
   readonly spanId?: string;
   /**
   * The local disk slot number as id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#vd_member_ep_id DataIntersightStorageVdMemberEp#vd_member_ep_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#vd_member_ep_id DataIntersightStorageVdMemberEp#vd_member_ep_id}
   */
   readonly vdMemberEpId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#ancestors DataIntersightStorageVdMemberEp#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#ancestors DataIntersightStorageVdMemberEp#ancestors}
   */
   readonly ancestors?: DataIntersightStorageVdMemberEpAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#inventory_device_info DataIntersightStorageVdMemberEp#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#inventory_device_info DataIntersightStorageVdMemberEp#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageVdMemberEpInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#parent DataIntersightStorageVdMemberEp#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#parent DataIntersightStorageVdMemberEp#parent}
   */
   readonly parent?: DataIntersightStorageVdMemberEpParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#permission_resources DataIntersightStorageVdMemberEp#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#permission_resources DataIntersightStorageVdMemberEp#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageVdMemberEpPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#registered_device DataIntersightStorageVdMemberEp#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#registered_device DataIntersightStorageVdMemberEp#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageVdMemberEpRegisteredDevice;
   /**
   * storage_virtual_drive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#storage_virtual_drive DataIntersightStorageVdMemberEp#storage_virtual_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#storage_virtual_drive DataIntersightStorageVdMemberEp#storage_virtual_drive}
   */
   readonly storageVirtualDrive?: DataIntersightStorageVdMemberEpStorageVirtualDrive;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#tags DataIntersightStorageVdMemberEp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#tags DataIntersightStorageVdMemberEp#tags}
   */
   readonly tags?: DataIntersightStorageVdMemberEpTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#version_context DataIntersightStorageVdMemberEp#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#version_context DataIntersightStorageVdMemberEp#version_context}
   */
   readonly versionContext?: DataIntersightStorageVdMemberEpVersionContext;
 }
@@ -1009,6 +1009,11 @@ export class DataIntersightStorageVdMemberEpResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1555,7 +1560,7 @@ export class DataIntersightStorageVdMemberEpResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightStorageVdMemberEpAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1563,19 +1568,19 @@ export interface DataIntersightStorageVdMemberEpAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1588,7 +1593,7 @@ export interface DataIntersightStorageVdMemberEpAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -1820,7 +1825,7 @@ export class DataIntersightStorageVdMemberEpAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightStorageVdMemberEpInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1828,19 +1833,19 @@ export interface DataIntersightStorageVdMemberEpInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1853,7 +1858,7 @@ export interface DataIntersightStorageVdMemberEpInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -2053,7 +2058,7 @@ export class DataIntersightStorageVdMemberEpInventoryDeviceInfoOutputReference e
 }
 export interface DataIntersightStorageVdMemberEpParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2061,19 +2066,19 @@ export interface DataIntersightStorageVdMemberEpParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2086,7 +2091,7 @@ export interface DataIntersightStorageVdMemberEpParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -2286,7 +2291,7 @@ export class DataIntersightStorageVdMemberEpParentOutputReference extends cdktf.
 }
 export interface DataIntersightStorageVdMemberEpPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2294,19 +2299,19 @@ export interface DataIntersightStorageVdMemberEpPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2319,7 +2324,7 @@ export interface DataIntersightStorageVdMemberEpPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -2551,7 +2556,7 @@ export class DataIntersightStorageVdMemberEpPermissionResourcesList extends cdkt
 }
 export interface DataIntersightStorageVdMemberEpRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2559,19 +2564,19 @@ export interface DataIntersightStorageVdMemberEpRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2584,7 +2589,7 @@ export interface DataIntersightStorageVdMemberEpRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -2784,7 +2789,7 @@ export class DataIntersightStorageVdMemberEpRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightStorageVdMemberEpStorageVirtualDrive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2792,19 +2797,19 @@ export interface DataIntersightStorageVdMemberEpStorageVirtualDrive {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2817,7 +2822,7 @@ export interface DataIntersightStorageVdMemberEpStorageVirtualDrive {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -3017,7 +3022,7 @@ export class DataIntersightStorageVdMemberEpStorageVirtualDriveOutputReference e
 }
 export interface DataIntersightStorageVdMemberEpTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3025,19 +3030,19 @@ export interface DataIntersightStorageVdMemberEpTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3050,7 +3055,7 @@ export interface DataIntersightStorageVdMemberEpTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -3282,7 +3287,7 @@ export class DataIntersightStorageVdMemberEpTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightStorageVdMemberEpTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3290,19 +3295,19 @@ export interface DataIntersightStorageVdMemberEpTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3315,7 +3320,7 @@ export interface DataIntersightStorageVdMemberEpTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -3515,45 +3520,51 @@ export class DataIntersightStorageVdMemberEpTagsDefinitionOutputReference extend
 }
 export interface DataIntersightStorageVdMemberEpTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#key DataIntersightStorageVdMemberEp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#key DataIntersightStorageVdMemberEp#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#propagated DataIntersightStorageVdMemberEp#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#propagated DataIntersightStorageVdMemberEp#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#sys_tag DataIntersightStorageVdMemberEp#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#type DataIntersightStorageVdMemberEp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#type DataIntersightStorageVdMemberEp#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#value DataIntersightStorageVdMemberEp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#value DataIntersightStorageVdMemberEp#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#ancestor_definitions DataIntersightStorageVdMemberEp#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#ancestor_definitions DataIntersightStorageVdMemberEp#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageVdMemberEpTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#definition DataIntersightStorageVdMemberEp#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#definition DataIntersightStorageVdMemberEp#definition}
   */
   readonly definition?: DataIntersightStorageVdMemberEpTagsDefinition;
 }
@@ -3567,6 +3578,7 @@ export function dataIntersightStorageVdMemberEpTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageVdMemberEpTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3595,6 +3607,12 @@ export function dataIntersightStorageVdMemberEpTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3661,6 +3679,10 @@ export class DataIntersightStorageVdMemberEpTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3687,6 +3709,7 @@ export class DataIntersightStorageVdMemberEpTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3702,6 +3725,7 @@ export class DataIntersightStorageVdMemberEpTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3755,6 +3779,22 @@ export class DataIntersightStorageVdMemberEpTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3843,7 +3883,7 @@ export class DataIntersightStorageVdMemberEpTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightStorageVdMemberEpVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3851,19 +3891,19 @@ export interface DataIntersightStorageVdMemberEpVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3876,7 +3916,7 @@ export interface DataIntersightStorageVdMemberEpVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -4108,7 +4148,7 @@ export class DataIntersightStorageVdMemberEpVersionContextInterestedMosList exte
 }
 export interface DataIntersightStorageVdMemberEpVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4116,19 +4156,19 @@ export interface DataIntersightStorageVdMemberEpVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#moid DataIntersightStorageVdMemberEp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4141,7 +4181,7 @@ export interface DataIntersightStorageVdMemberEpVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#selector DataIntersightStorageVdMemberEp#selector}
   */
   readonly selector?: string;
 }
@@ -4341,7 +4381,7 @@ export class DataIntersightStorageVdMemberEpVersionContextRefMoOutputReference e
 }
 export interface DataIntersightStorageVdMemberEpVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#additional_properties DataIntersightStorageVdMemberEp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4349,32 +4389,32 @@ export interface DataIntersightStorageVdMemberEpVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#class_id DataIntersightStorageVdMemberEp#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#marked_for_deletion DataIntersightStorageVdMemberEp#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#marked_for_deletion DataIntersightStorageVdMemberEp#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#nr_version DataIntersightStorageVdMemberEp#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#nr_version DataIntersightStorageVdMemberEp#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#object_type DataIntersightStorageVdMemberEp#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#timestamp DataIntersightStorageVdMemberEp#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#timestamp DataIntersightStorageVdMemberEp#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4385,19 +4425,19 @@ export interface DataIntersightStorageVdMemberEpVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#version_type DataIntersightStorageVdMemberEp#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#version_type DataIntersightStorageVdMemberEp#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#interested_mos DataIntersightStorageVdMemberEp#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#interested_mos DataIntersightStorageVdMemberEp#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageVdMemberEpVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#ref_mo DataIntersightStorageVdMemberEp#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#ref_mo DataIntersightStorageVdMemberEp#ref_mo}
   */
   readonly refMo?: DataIntersightStorageVdMemberEpVersionContextRefMo;
 }
@@ -4713,7 +4753,7 @@ export class DataIntersightStorageVdMemberEpVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep intersight_storage_vd_member_ep}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep intersight_storage_vd_member_ep}
 */
 export class DataIntersightStorageVdMemberEp extends cdktf.TerraformDataSource {
 
@@ -4729,7 +4769,7 @@ export class DataIntersightStorageVdMemberEp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightStorageVdMemberEp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageVdMemberEp to import
-  * @param importFromId The id of the existing DataIntersightStorageVdMemberEp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageVdMemberEp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageVdMemberEp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4741,7 +4781,7 @@ export class DataIntersightStorageVdMemberEp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_vd_member_ep intersight_storage_vd_member_ep} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_vd_member_ep intersight_storage_vd_member_ep} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4752,8 +4792,8 @@ export class DataIntersightStorageVdMemberEp extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_storage_vd_member_ep',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

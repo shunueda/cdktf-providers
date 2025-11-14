@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface PbrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#action Pbr#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#action Pbr#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#api_version Pbr#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#api_version Pbr#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#id Pbr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#id Pbr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#is_bidirectional Pbr#is_bidirectional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#is_bidirectional Pbr#is_bidirectional}
   */
   readonly isBidirectional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#name Pbr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#name Pbr#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#priority Pbr#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#priority Pbr#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#protocol_type Pbr#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#protocol_type Pbr#protocol_type}
   */
   readonly protocolType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#service_ip_list Pbr#service_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#service_ip_list Pbr#service_ip_list}
   */
   readonly serviceIpList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#vpc_name Pbr#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#vpc_name Pbr#vpc_name}
   */
   readonly vpcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#vpc_reference_uuid Pbr#vpc_reference_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#vpc_reference_uuid Pbr#vpc_reference_uuid}
   */
   readonly vpcReferenceUuid?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#destination Pbr#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#destination Pbr#destination}
   */
   readonly destination: PbrDestination;
   /**
   * protocol_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#protocol_parameters Pbr#protocol_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#protocol_parameters Pbr#protocol_parameters}
   */
   readonly protocolParameters?: PbrProtocolParameters;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#source Pbr#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#source Pbr#source}
   */
   readonly source: PbrSource;
 }
 export interface PbrDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#address_type Pbr#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#address_type Pbr#address_type}
   */
   readonly addressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#prefix_length Pbr#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#prefix_length Pbr#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#subnet_ip Pbr#subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#subnet_ip Pbr#subnet_ip}
   */
   readonly subnetIp?: string;
 }
@@ -221,11 +221,11 @@ export class PbrDestinationOutputReference extends cdktf.ComplexObject {
 }
 export interface PbrProtocolParametersIcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#icmp_code Pbr#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#icmp_code Pbr#icmp_code}
   */
   readonly icmpCode: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#icmp_type Pbr#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#icmp_type Pbr#icmp_type}
   */
   readonly icmpType: number;
 }
@@ -332,11 +332,11 @@ export class PbrProtocolParametersIcmpOutputReference extends cdktf.ComplexObjec
 }
 export interface PbrProtocolParametersTcpDestinationPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#end_port Pbr#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#end_port Pbr#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#start_port Pbr#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#start_port Pbr#start_port}
   */
   readonly startPort?: number;
 }
@@ -481,11 +481,11 @@ export class PbrProtocolParametersTcpDestinationPortRangeListStructList extends 
 }
 export interface PbrProtocolParametersTcpSourcePortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#end_port Pbr#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#end_port Pbr#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#start_port Pbr#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#start_port Pbr#start_port}
   */
   readonly startPort?: number;
 }
@@ -632,13 +632,13 @@ export interface PbrProtocolParametersTcp {
   /**
   * destination_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#destination_port_range_list Pbr#destination_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#destination_port_range_list Pbr#destination_port_range_list}
   */
   readonly destinationPortRangeList?: PbrProtocolParametersTcpDestinationPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * source_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#source_port_range_list Pbr#source_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#source_port_range_list Pbr#source_port_range_list}
   */
   readonly sourcePortRangeList?: PbrProtocolParametersTcpSourcePortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -751,11 +751,11 @@ export class PbrProtocolParametersTcpOutputReference extends cdktf.ComplexObject
 }
 export interface PbrProtocolParametersUdpDestinationPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#end_port Pbr#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#end_port Pbr#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#start_port Pbr#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#start_port Pbr#start_port}
   */
   readonly startPort?: number;
 }
@@ -900,11 +900,11 @@ export class PbrProtocolParametersUdpDestinationPortRangeListStructList extends 
 }
 export interface PbrProtocolParametersUdpSourcePortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#end_port Pbr#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#end_port Pbr#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#start_port Pbr#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#start_port Pbr#start_port}
   */
   readonly startPort?: number;
 }
@@ -1051,13 +1051,13 @@ export interface PbrProtocolParametersUdp {
   /**
   * destination_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#destination_port_range_list Pbr#destination_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#destination_port_range_list Pbr#destination_port_range_list}
   */
   readonly destinationPortRangeList?: PbrProtocolParametersUdpDestinationPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * source_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#source_port_range_list Pbr#source_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#source_port_range_list Pbr#source_port_range_list}
   */
   readonly sourcePortRangeList?: PbrProtocolParametersUdpSourcePortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -1170,25 +1170,25 @@ export class PbrProtocolParametersUdpOutputReference extends cdktf.ComplexObject
 }
 export interface PbrProtocolParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#protocol_number Pbr#protocol_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#protocol_number Pbr#protocol_number}
   */
   readonly protocolNumber?: string;
   /**
   * icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#icmp Pbr#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#icmp Pbr#icmp}
   */
   readonly icmp?: PbrProtocolParametersIcmp;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#tcp Pbr#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#tcp Pbr#tcp}
   */
   readonly tcp?: PbrProtocolParametersTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#udp Pbr#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#udp Pbr#udp}
   */
   readonly udp?: PbrProtocolParametersUdp;
 }
@@ -1359,15 +1359,15 @@ export class PbrProtocolParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface PbrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#address_type Pbr#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#address_type Pbr#address_type}
   */
   readonly addressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#prefix_length Pbr#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#prefix_length Pbr#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#subnet_ip Pbr#subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#subnet_ip Pbr#subnet_ip}
   */
   readonly subnetIp?: string;
 }
@@ -1509,7 +1509,7 @@ export class PbrSourceOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr nutanix_pbr}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr nutanix_pbr}
 */
 export class Pbr extends cdktf.TerraformResource {
 
@@ -1525,7 +1525,7 @@ export class Pbr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pbr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pbr to import
-  * @param importFromId The id of the existing Pbr that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pbr that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pbr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1537,7 +1537,7 @@ export class Pbr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pbr nutanix_pbr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pbr nutanix_pbr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1548,8 +1548,8 @@ export class Pbr extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_pbr',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

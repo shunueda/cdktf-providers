@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface TaxRateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag determining whether the tax rate is active or inactive (archived). Inactive tax rates cannot be used with new applications or Checkout Sessions, but will still work for subscriptions and invoices that already have it set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#active TaxRate#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#active TaxRate#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Two-letter country code (ISO 3166-1 alpha-2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#country TaxRate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#country TaxRate#country}
   */
   readonly country?: string;
   /**
   * An arbitrary string attached to the tax rate for your internal use only. It will not be visible to your customers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#description TaxRate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#description TaxRate#description}
   */
   readonly description?: string;
   /**
   * The display name of the tax rate, which will be shown to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#display_name TaxRate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#display_name TaxRate#display_name}
   */
   readonly displayName: string;
   /**
   * This specifies if the tax rate is inclusive or exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#inclusive TaxRate#inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#inclusive TaxRate#inclusive}
   */
   readonly inclusive: boolean | cdktf.IResolvable;
   /**
   * The jurisdiction for the tax rate. You can use this label field for tax reporting purposes.It also appears on your customer’s invoice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#jurisdiction TaxRate#jurisdiction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#jurisdiction TaxRate#jurisdiction}
   */
   readonly jurisdiction?: string;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#metadata TaxRate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#metadata TaxRate#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * This represents the tax rate percent out of 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#percentage TaxRate#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#percentage TaxRate#percentage}
   */
   readonly percentage: number;
   /**
   * ISO 3166-2 subdivision code, without country prefix. For example, “NY” for New York, United States.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#state TaxRate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#state TaxRate#state}
   */
   readonly state?: string;
   /**
   * The high-level tax type, such as vat or sales_tax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#tax_type TaxRate#tax_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#tax_type TaxRate#tax_type}
   */
   readonly taxType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate stripe_tax_rate}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate stripe_tax_rate}
 */
 export class TaxRate extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class TaxRate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaxRate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaxRate to import
-  * @param importFromId The id of the existing TaxRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaxRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaxRate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class TaxRate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/tax_rate stripe_tax_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/tax_rate stripe_tax_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class TaxRate extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_tax_rate',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

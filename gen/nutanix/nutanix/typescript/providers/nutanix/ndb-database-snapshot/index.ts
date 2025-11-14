@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface NdbDatabaseSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#expiry_date_timezone NdbDatabaseSnapshot#expiry_date_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#expiry_date_timezone NdbDatabaseSnapshot#expiry_date_timezone}
   */
   readonly expiryDateTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#name NdbDatabaseSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#name NdbDatabaseSnapshot#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#remove_schedule_in_days NdbDatabaseSnapshot#remove_schedule_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#remove_schedule_in_days NdbDatabaseSnapshot#remove_schedule_in_days}
   */
   readonly removeScheduleInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#replicate_to_clusters NdbDatabaseSnapshot#replicate_to_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#replicate_to_clusters NdbDatabaseSnapshot#replicate_to_clusters}
   */
   readonly replicateToClusters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#time_machine_id NdbDatabaseSnapshot#time_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#time_machine_id NdbDatabaseSnapshot#time_machine_id}
   */
   readonly timeMachineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#time_machine_name NdbDatabaseSnapshot#time_machine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#time_machine_name NdbDatabaseSnapshot#time_machine_name}
   */
   readonly timeMachineName?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#tags NdbDatabaseSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#tags NdbDatabaseSnapshot#tags}
   */
   readonly tags?: NdbDatabaseSnapshotTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#timeouts NdbDatabaseSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#timeouts NdbDatabaseSnapshot#timeouts}
   */
   readonly timeouts?: NdbDatabaseSnapshotTimeouts;
 }
@@ -605,15 +605,15 @@ export class NdbDatabaseSnapshotPropertiesList extends cdktf.ComplexList {
 }
 export interface NdbDatabaseSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#tag_id NdbDatabaseSnapshot#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#tag_id NdbDatabaseSnapshot#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#tag_name NdbDatabaseSnapshot#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#tag_name NdbDatabaseSnapshot#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#value NdbDatabaseSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#value NdbDatabaseSnapshot#value}
   */
   readonly value?: string;
 }
@@ -797,11 +797,11 @@ export class NdbDatabaseSnapshotTagsList extends cdktf.ComplexList {
 }
 export interface NdbDatabaseSnapshotTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#create NdbDatabaseSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#create NdbDatabaseSnapshot#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#delete NdbDatabaseSnapshot#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#delete NdbDatabaseSnapshot#delete}
   */
   readonly delete?: string;
 }
@@ -924,7 +924,7 @@ export class NdbDatabaseSnapshotTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot nutanix_ndb_database_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot nutanix_ndb_database_snapshot}
 */
 export class NdbDatabaseSnapshot extends cdktf.TerraformResource {
 
@@ -940,7 +940,7 @@ export class NdbDatabaseSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbDatabaseSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbDatabaseSnapshot to import
-  * @param importFromId The id of the existing NdbDatabaseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbDatabaseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbDatabaseSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -952,7 +952,7 @@ export class NdbDatabaseSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_database_snapshot nutanix_ndb_database_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_database_snapshot nutanix_ndb_database_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -963,8 +963,8 @@ export class NdbDatabaseSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_database_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

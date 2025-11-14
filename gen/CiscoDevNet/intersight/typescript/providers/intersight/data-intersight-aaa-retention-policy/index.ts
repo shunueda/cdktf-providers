@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightAaaRetentionPolicyConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#account_moid DataIntersightAaaRetentionPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#account_moid DataIntersightAaaRetentionPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightAaaRetentionPolicyConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#create_time DataIntersightAaaRetentionPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#create_time DataIntersightAaaRetentionPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#description DataIntersightAaaRetentionPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#description DataIntersightAaaRetentionPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#domain_group_moid DataIntersightAaaRetentionPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#domain_group_moid DataIntersightAaaRetentionPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#id DataIntersightAaaRetentionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#id DataIntersightAaaRetentionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,79 +53,79 @@ export interface DataIntersightAaaRetentionPolicyConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#mod_time DataIntersightAaaRetentionPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#mod_time DataIntersightAaaRetentionPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#name DataIntersightAaaRetentionPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#name DataIntersightAaaRetentionPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#owners DataIntersightAaaRetentionPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#owners DataIntersightAaaRetentionPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * The time period in months for audit log retention. Audit logs beyond this period will be automatically deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#retention_period DataIntersightAaaRetentionPolicy#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#retention_period DataIntersightAaaRetentionPolicy#retention_period}
   */
   readonly retentionPeriod?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#shared_scope DataIntersightAaaRetentionPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#shared_scope DataIntersightAaaRetentionPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#account DataIntersightAaaRetentionPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#account DataIntersightAaaRetentionPolicy#account}
   */
   readonly account?: DataIntersightAaaRetentionPolicyAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#ancestors DataIntersightAaaRetentionPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#ancestors DataIntersightAaaRetentionPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightAaaRetentionPolicyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#parent DataIntersightAaaRetentionPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#parent DataIntersightAaaRetentionPolicy#parent}
   */
   readonly parent?: DataIntersightAaaRetentionPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#permission_resources DataIntersightAaaRetentionPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#permission_resources DataIntersightAaaRetentionPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightAaaRetentionPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#tags DataIntersightAaaRetentionPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#tags DataIntersightAaaRetentionPolicy#tags}
   */
   readonly tags?: DataIntersightAaaRetentionPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#version_context DataIntersightAaaRetentionPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#version_context DataIntersightAaaRetentionPolicy#version_context}
   */
   readonly versionContext?: DataIntersightAaaRetentionPolicyVersionContext;
 }
@@ -777,6 +777,11 @@ export class DataIntersightAaaRetentionPolicyResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1286,7 +1291,7 @@ export class DataIntersightAaaRetentionPolicyResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightAaaRetentionPolicyAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1294,19 +1299,19 @@ export interface DataIntersightAaaRetentionPolicyAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1319,7 +1324,7 @@ export interface DataIntersightAaaRetentionPolicyAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1519,7 +1524,7 @@ export class DataIntersightAaaRetentionPolicyAccountOutputReference extends cdkt
 }
 export interface DataIntersightAaaRetentionPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1527,19 +1532,19 @@ export interface DataIntersightAaaRetentionPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1552,7 +1557,7 @@ export interface DataIntersightAaaRetentionPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1784,7 +1789,7 @@ export class DataIntersightAaaRetentionPolicyAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightAaaRetentionPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1792,19 +1797,19 @@ export interface DataIntersightAaaRetentionPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1817,7 +1822,7 @@ export interface DataIntersightAaaRetentionPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2017,7 +2022,7 @@ export class DataIntersightAaaRetentionPolicyParentOutputReference extends cdktf
 }
 export interface DataIntersightAaaRetentionPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2025,19 +2030,19 @@ export interface DataIntersightAaaRetentionPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2050,7 +2055,7 @@ export interface DataIntersightAaaRetentionPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2282,7 +2287,7 @@ export class DataIntersightAaaRetentionPolicyPermissionResourcesList extends cdk
 }
 export interface DataIntersightAaaRetentionPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2290,19 +2295,19 @@ export interface DataIntersightAaaRetentionPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2315,7 +2320,7 @@ export interface DataIntersightAaaRetentionPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2547,7 +2552,7 @@ export class DataIntersightAaaRetentionPolicyTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightAaaRetentionPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2555,19 +2560,19 @@ export interface DataIntersightAaaRetentionPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2580,7 +2585,7 @@ export interface DataIntersightAaaRetentionPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2780,45 +2785,51 @@ export class DataIntersightAaaRetentionPolicyTagsDefinitionOutputReference exten
 }
 export interface DataIntersightAaaRetentionPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#key DataIntersightAaaRetentionPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#key DataIntersightAaaRetentionPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#propagated DataIntersightAaaRetentionPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#propagated DataIntersightAaaRetentionPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#sys_tag DataIntersightAaaRetentionPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#type DataIntersightAaaRetentionPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#type DataIntersightAaaRetentionPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#value DataIntersightAaaRetentionPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#value DataIntersightAaaRetentionPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#ancestor_definitions DataIntersightAaaRetentionPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#ancestor_definitions DataIntersightAaaRetentionPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAaaRetentionPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#definition DataIntersightAaaRetentionPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#definition DataIntersightAaaRetentionPolicy#definition}
   */
   readonly definition?: DataIntersightAaaRetentionPolicyTagsDefinition;
 }
@@ -2832,6 +2843,7 @@ export function dataIntersightAaaRetentionPolicyTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightAaaRetentionPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2860,6 +2872,12 @@ export function dataIntersightAaaRetentionPolicyTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2926,6 +2944,10 @@ export class DataIntersightAaaRetentionPolicyTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2952,6 +2974,7 @@ export class DataIntersightAaaRetentionPolicyTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2967,6 +2990,7 @@ export class DataIntersightAaaRetentionPolicyTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3020,6 +3044,22 @@ export class DataIntersightAaaRetentionPolicyTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3108,7 +3148,7 @@ export class DataIntersightAaaRetentionPolicyTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightAaaRetentionPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3116,19 +3156,19 @@ export interface DataIntersightAaaRetentionPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3141,7 +3181,7 @@ export interface DataIntersightAaaRetentionPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3373,7 +3413,7 @@ export class DataIntersightAaaRetentionPolicyVersionContextInterestedMosList ext
 }
 export interface DataIntersightAaaRetentionPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3381,19 +3421,19 @@ export interface DataIntersightAaaRetentionPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#moid DataIntersightAaaRetentionPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3406,7 +3446,7 @@ export interface DataIntersightAaaRetentionPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#selector DataIntersightAaaRetentionPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3606,7 +3646,7 @@ export class DataIntersightAaaRetentionPolicyVersionContextRefMoOutputReference 
 }
 export interface DataIntersightAaaRetentionPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#additional_properties DataIntersightAaaRetentionPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3614,32 +3654,32 @@ export interface DataIntersightAaaRetentionPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#class_id DataIntersightAaaRetentionPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#marked_for_deletion DataIntersightAaaRetentionPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#marked_for_deletion DataIntersightAaaRetentionPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#nr_version DataIntersightAaaRetentionPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#nr_version DataIntersightAaaRetentionPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#object_type DataIntersightAaaRetentionPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#timestamp DataIntersightAaaRetentionPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#timestamp DataIntersightAaaRetentionPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3650,19 +3690,19 @@ export interface DataIntersightAaaRetentionPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#version_type DataIntersightAaaRetentionPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#version_type DataIntersightAaaRetentionPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#interested_mos DataIntersightAaaRetentionPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#interested_mos DataIntersightAaaRetentionPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightAaaRetentionPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#ref_mo DataIntersightAaaRetentionPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#ref_mo DataIntersightAaaRetentionPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightAaaRetentionPolicyVersionContextRefMo;
 }
@@ -3978,7 +4018,7 @@ export class DataIntersightAaaRetentionPolicyVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy intersight_aaa_retention_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy intersight_aaa_retention_policy}
 */
 export class DataIntersightAaaRetentionPolicy extends cdktf.TerraformDataSource {
 
@@ -3994,7 +4034,7 @@ export class DataIntersightAaaRetentionPolicy extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightAaaRetentionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAaaRetentionPolicy to import
-  * @param importFromId The id of the existing DataIntersightAaaRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAaaRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAaaRetentionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4006,7 +4046,7 @@ export class DataIntersightAaaRetentionPolicy extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/aaa_retention_policy intersight_aaa_retention_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/aaa_retention_policy intersight_aaa_retention_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4017,8 +4057,8 @@ export class DataIntersightAaaRetentionPolicy extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_aaa_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

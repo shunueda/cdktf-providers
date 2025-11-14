@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreCpeDeviceShapesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#id DataOciCoreCpeDeviceShapes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#id DataOciCoreCpeDeviceShapes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOciCoreCpeDeviceShapesConfig extends cdktf.TerraformMetaArg
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#filter DataOciCoreCpeDeviceShapes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#filter DataOciCoreCpeDeviceShapes#filter}
   */
   readonly filter?: DataOciCoreCpeDeviceShapesFilter[] | cdktf.IResolvable;
 }
@@ -189,15 +189,15 @@ export class DataOciCoreCpeDeviceShapesCpeDeviceShapesList extends cdktf.Complex
 }
 export interface DataOciCoreCpeDeviceShapesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#name DataOciCoreCpeDeviceShapes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#name DataOciCoreCpeDeviceShapes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#regex DataOciCoreCpeDeviceShapes#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#regex DataOciCoreCpeDeviceShapes#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#values DataOciCoreCpeDeviceShapes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#values DataOciCoreCpeDeviceShapes#values}
   */
   readonly values: string[];
 }
@@ -365,7 +365,7 @@ export class DataOciCoreCpeDeviceShapesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes oci_core_cpe_device_shapes}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes oci_core_cpe_device_shapes}
 */
 export class DataOciCoreCpeDeviceShapes extends cdktf.TerraformDataSource {
 
@@ -381,7 +381,7 @@ export class DataOciCoreCpeDeviceShapes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreCpeDeviceShapes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreCpeDeviceShapes to import
-  * @param importFromId The id of the existing DataOciCoreCpeDeviceShapes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreCpeDeviceShapes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreCpeDeviceShapes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class DataOciCoreCpeDeviceShapes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_cpe_device_shapes oci_core_cpe_device_shapes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_cpe_device_shapes oci_core_cpe_device_shapes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class DataOciCoreCpeDeviceShapes extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_cpe_device_shapes',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

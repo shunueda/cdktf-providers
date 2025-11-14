@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#account_moid DataIntersightEquipmentFexIdentity#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#account_moid DataIntersightEquipmentFexIdentity#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -26,7 +26,7 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   * * `Remove` - Remove the equipment permanently from Intersight management.
   * * `Replace` - Replace the equipment with the other one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#admin_action DataIntersightEquipmentFexIdentity#admin_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#admin_action DataIntersightEquipmentFexIdentity#admin_action}
   */
   readonly adminAction?: string;
   /**
@@ -37,7 +37,7 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   * * `Failed` - User configured settings could not be applied.
   * * `Scheduled` - User configured settings are scheduled to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#admin_action_state DataIntersightEquipmentFexIdentity#admin_action_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#admin_action_state DataIntersightEquipmentFexIdentity#admin_action_state}
   */
   readonly adminActionState?: string;
   /**
@@ -45,23 +45,23 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#create_time DataIntersightEquipmentFexIdentity#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#create_time DataIntersightEquipmentFexIdentity#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#domain_group_moid DataIntersightEquipmentFexIdentity#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#domain_group_moid DataIntersightEquipmentFexIdentity#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#id DataIntersightEquipmentFexIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#id DataIntersightEquipmentFexIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   /**
   * Numeric Identifier assigned by the management system to the equipment. Identifier can only be changed if it has been PATCHED with the AdminAction property set to 'Recommission'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#identifier DataIntersightEquipmentFexIdentity#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#identifier DataIntersightEquipmentFexIdentity#identifier}
   */
   readonly identifier?: number;
   /**
@@ -79,37 +79,37 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   * * `Deep` - The last discovery triggered is deep.
   * * `Shallow` - The last discovery triggered is shallow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#last_discovery_triggered DataIntersightEquipmentFexIdentity#last_discovery_triggered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#last_discovery_triggered DataIntersightEquipmentFexIdentity#last_discovery_triggered}
   */
   readonly lastDiscoveryTriggered?: string;
   /**
   * The time when the last life cycle state change happened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#lifecycle_mod_time DataIntersightEquipmentFexIdentity#lifecycle_mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#lifecycle_mod_time DataIntersightEquipmentFexIdentity#lifecycle_mod_time}
   */
   readonly lifecycleModTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#mod_time DataIntersightEquipmentFexIdentity#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#mod_time DataIntersightEquipmentFexIdentity#mod_time}
   */
   readonly modTime?: string;
   /**
   * The vendor provided model name for the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#model DataIntersightEquipmentFexIdentity#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#model DataIntersightEquipmentFexIdentity#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The name of the equipment for unique identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#name DataIntersightEquipmentFexIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#name DataIntersightEquipmentFexIdentity#name}
   */
   readonly name?: string;
   /**
@@ -139,110 +139,111 @@ export interface DataIntersightEquipmentFexIdentityConfig extends cdktf.Terrafor
   * * `MovedAndReplaced` - The blade server has been moved from its discovered location to a new location within the domain and another blade has been inserted into the previously discovered location.
   * * `DomainRmaPendingUserAction` - Domain RMA detected due to the presence of an old pair of FIs with mismatched serial numbers within the same account. User to either initiate the 'Replace Domain workflow' or unclaim the old domain.
   * * `IdentityUnknown` - The endpoint cannot be identified because of incomplete vendor, model, or serial information.
+  * * `RestoreConfigInProgress` - Restore configuration is in progress on given physical entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#nr_lifecycle DataIntersightEquipmentFexIdentity#nr_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#nr_lifecycle DataIntersightEquipmentFexIdentity#nr_lifecycle}
   */
   readonly nrLifecycle?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#owners DataIntersightEquipmentFexIdentity#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#owners DataIntersightEquipmentFexIdentity#owners}
   */
   readonly owners?: string[];
   /**
   * Specifies whether device configurations need to be reset to default upon first-time discovery or recommission of a server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#reset_to_default DataIntersightEquipmentFexIdentity#reset_to_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#reset_to_default DataIntersightEquipmentFexIdentity#reset_to_default}
   */
   readonly resetToDefault?: boolean | cdktf.IResolvable;
   /**
   * The serial number of the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#serial DataIntersightEquipmentFexIdentity#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#serial DataIntersightEquipmentFexIdentity#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#shared_scope DataIntersightEquipmentFexIdentity#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#shared_scope DataIntersightEquipmentFexIdentity#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Switch ID to which Fabric Extender is connected, ID can be either 1 or 2, equalent to A or B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#switch_id DataIntersightEquipmentFexIdentity#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#switch_id DataIntersightEquipmentFexIdentity#switch_id}
   */
   readonly switchId?: number;
   /**
   * The manufacturer of the equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#vendor DataIntersightEquipmentFexIdentity#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#vendor DataIntersightEquipmentFexIdentity#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#ancestors DataIntersightEquipmentFexIdentity#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#ancestors DataIntersightEquipmentFexIdentity#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentFexIdentityAncestors[] | cdktf.IResolvable;
   /**
   * custom_permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#custom_permission_resources DataIntersightEquipmentFexIdentity#custom_permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#custom_permission_resources DataIntersightEquipmentFexIdentity#custom_permission_resources}
   */
   readonly customPermissionResources?: DataIntersightEquipmentFexIdentityCustomPermissionResources[] | cdktf.IResolvable;
   /**
   * fex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#fex DataIntersightEquipmentFexIdentity#fex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#fex DataIntersightEquipmentFexIdentity#fex}
   */
   readonly fex?: DataIntersightEquipmentFexIdentityFex;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#network_element DataIntersightEquipmentFexIdentity#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#network_element DataIntersightEquipmentFexIdentity#network_element}
   */
   readonly networkElement?: DataIntersightEquipmentFexIdentityNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#parent DataIntersightEquipmentFexIdentity#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#parent DataIntersightEquipmentFexIdentity#parent}
   */
   readonly parent?: DataIntersightEquipmentFexIdentityParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#permission_resources DataIntersightEquipmentFexIdentity#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#permission_resources DataIntersightEquipmentFexIdentity#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentFexIdentityPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#physical_device_registration DataIntersightEquipmentFexIdentity#physical_device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#physical_device_registration DataIntersightEquipmentFexIdentity#physical_device_registration}
   */
   readonly physicalDeviceRegistration?: DataIntersightEquipmentFexIdentityPhysicalDeviceRegistration;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#registered_device DataIntersightEquipmentFexIdentity#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#registered_device DataIntersightEquipmentFexIdentity#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentFexIdentityRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#tags DataIntersightEquipmentFexIdentity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#tags DataIntersightEquipmentFexIdentity#tags}
   */
   readonly tags?: DataIntersightEquipmentFexIdentityTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#version_context DataIntersightEquipmentFexIdentity#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#version_context DataIntersightEquipmentFexIdentity#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentFexIdentityVersionContext;
 }
@@ -1274,6 +1275,11 @@ export class DataIntersightEquipmentFexIdentityResultsTagsOutputReference extend
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1852,7 +1858,7 @@ export class DataIntersightEquipmentFexIdentityResultsList extends cdktf.Complex
 }
 export interface DataIntersightEquipmentFexIdentityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1860,19 +1866,19 @@ export interface DataIntersightEquipmentFexIdentityAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1885,7 +1891,7 @@ export interface DataIntersightEquipmentFexIdentityAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2117,7 +2123,7 @@ export class DataIntersightEquipmentFexIdentityAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightEquipmentFexIdentityCustomPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2125,19 +2131,19 @@ export interface DataIntersightEquipmentFexIdentityCustomPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2150,7 +2156,7 @@ export interface DataIntersightEquipmentFexIdentityCustomPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2382,7 +2388,7 @@ export class DataIntersightEquipmentFexIdentityCustomPermissionResourcesList ext
 }
 export interface DataIntersightEquipmentFexIdentityFex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2390,19 +2396,19 @@ export interface DataIntersightEquipmentFexIdentityFex {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2415,7 +2421,7 @@ export interface DataIntersightEquipmentFexIdentityFex {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2615,7 +2621,7 @@ export class DataIntersightEquipmentFexIdentityFexOutputReference extends cdktf.
 }
 export interface DataIntersightEquipmentFexIdentityNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2623,19 +2629,19 @@ export interface DataIntersightEquipmentFexIdentityNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2648,7 +2654,7 @@ export interface DataIntersightEquipmentFexIdentityNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -2848,7 +2854,7 @@ export class DataIntersightEquipmentFexIdentityNetworkElementOutputReference ext
 }
 export interface DataIntersightEquipmentFexIdentityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2856,19 +2862,19 @@ export interface DataIntersightEquipmentFexIdentityParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2881,7 +2887,7 @@ export interface DataIntersightEquipmentFexIdentityParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3081,7 +3087,7 @@ export class DataIntersightEquipmentFexIdentityParentOutputReference extends cdk
 }
 export interface DataIntersightEquipmentFexIdentityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3089,19 +3095,19 @@ export interface DataIntersightEquipmentFexIdentityPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3114,7 +3120,7 @@ export interface DataIntersightEquipmentFexIdentityPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3346,7 +3352,7 @@ export class DataIntersightEquipmentFexIdentityPermissionResourcesList extends c
 }
 export interface DataIntersightEquipmentFexIdentityPhysicalDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3354,19 +3360,19 @@ export interface DataIntersightEquipmentFexIdentityPhysicalDeviceRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3379,7 +3385,7 @@ export interface DataIntersightEquipmentFexIdentityPhysicalDeviceRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3579,7 +3585,7 @@ export class DataIntersightEquipmentFexIdentityPhysicalDeviceRegistrationOutputR
 }
 export interface DataIntersightEquipmentFexIdentityRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3587,19 +3593,19 @@ export interface DataIntersightEquipmentFexIdentityRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3612,7 +3618,7 @@ export interface DataIntersightEquipmentFexIdentityRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -3812,7 +3818,7 @@ export class DataIntersightEquipmentFexIdentityRegisteredDeviceOutputReference e
 }
 export interface DataIntersightEquipmentFexIdentityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3820,19 +3826,19 @@ export interface DataIntersightEquipmentFexIdentityTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3845,7 +3851,7 @@ export interface DataIntersightEquipmentFexIdentityTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -4077,7 +4083,7 @@ export class DataIntersightEquipmentFexIdentityTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightEquipmentFexIdentityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4085,19 +4091,19 @@ export interface DataIntersightEquipmentFexIdentityTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4110,7 +4116,7 @@ export interface DataIntersightEquipmentFexIdentityTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -4310,45 +4316,51 @@ export class DataIntersightEquipmentFexIdentityTagsDefinitionOutputReference ext
 }
 export interface DataIntersightEquipmentFexIdentityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#key DataIntersightEquipmentFexIdentity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#key DataIntersightEquipmentFexIdentity#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#propagated DataIntersightEquipmentFexIdentity#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#propagated DataIntersightEquipmentFexIdentity#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#sys_tag DataIntersightEquipmentFexIdentity#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#type DataIntersightEquipmentFexIdentity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#type DataIntersightEquipmentFexIdentity#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#value DataIntersightEquipmentFexIdentity#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#value DataIntersightEquipmentFexIdentity#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#ancestor_definitions DataIntersightEquipmentFexIdentity#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#ancestor_definitions DataIntersightEquipmentFexIdentity#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentFexIdentityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#definition DataIntersightEquipmentFexIdentity#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#definition DataIntersightEquipmentFexIdentity#definition}
   */
   readonly definition?: DataIntersightEquipmentFexIdentityTagsDefinition;
 }
@@ -4362,6 +4374,7 @@ export function dataIntersightEquipmentFexIdentityTagsToTerraform(struct?: DataI
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightEquipmentFexIdentityTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4390,6 +4403,12 @@ export function dataIntersightEquipmentFexIdentityTagsToHclTerraform(struct?: Da
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4456,6 +4475,10 @@ export class DataIntersightEquipmentFexIdentityTagsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4482,6 +4505,7 @@ export class DataIntersightEquipmentFexIdentityTagsOutputReference extends cdktf
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4497,6 +4521,7 @@ export class DataIntersightEquipmentFexIdentityTagsOutputReference extends cdktf
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4550,6 +4575,22 @@ export class DataIntersightEquipmentFexIdentityTagsOutputReference extends cdktf
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4638,7 +4679,7 @@ export class DataIntersightEquipmentFexIdentityTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightEquipmentFexIdentityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4646,19 +4687,19 @@ export interface DataIntersightEquipmentFexIdentityVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4671,7 +4712,7 @@ export interface DataIntersightEquipmentFexIdentityVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -4903,7 +4944,7 @@ export class DataIntersightEquipmentFexIdentityVersionContextInterestedMosList e
 }
 export interface DataIntersightEquipmentFexIdentityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4911,19 +4952,19 @@ export interface DataIntersightEquipmentFexIdentityVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#moid DataIntersightEquipmentFexIdentity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4936,7 +4977,7 @@ export interface DataIntersightEquipmentFexIdentityVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#selector DataIntersightEquipmentFexIdentity#selector}
   */
   readonly selector?: string;
 }
@@ -5136,7 +5177,7 @@ export class DataIntersightEquipmentFexIdentityVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightEquipmentFexIdentityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#additional_properties DataIntersightEquipmentFexIdentity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5144,32 +5185,32 @@ export interface DataIntersightEquipmentFexIdentityVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#class_id DataIntersightEquipmentFexIdentity#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#marked_for_deletion DataIntersightEquipmentFexIdentity#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#marked_for_deletion DataIntersightEquipmentFexIdentity#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#nr_version DataIntersightEquipmentFexIdentity#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#nr_version DataIntersightEquipmentFexIdentity#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#object_type DataIntersightEquipmentFexIdentity#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#timestamp DataIntersightEquipmentFexIdentity#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#timestamp DataIntersightEquipmentFexIdentity#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5180,19 +5221,19 @@ export interface DataIntersightEquipmentFexIdentityVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#version_type DataIntersightEquipmentFexIdentity#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#version_type DataIntersightEquipmentFexIdentity#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#interested_mos DataIntersightEquipmentFexIdentity#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#interested_mos DataIntersightEquipmentFexIdentity#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentFexIdentityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#ref_mo DataIntersightEquipmentFexIdentity#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#ref_mo DataIntersightEquipmentFexIdentity#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentFexIdentityVersionContextRefMo;
 }
@@ -5508,7 +5549,7 @@ export class DataIntersightEquipmentFexIdentityVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity intersight_equipment_fex_identity}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity intersight_equipment_fex_identity}
 */
 export class DataIntersightEquipmentFexIdentity extends cdktf.TerraformDataSource {
 
@@ -5524,7 +5565,7 @@ export class DataIntersightEquipmentFexIdentity extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightEquipmentFexIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentFexIdentity to import
-  * @param importFromId The id of the existing DataIntersightEquipmentFexIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentFexIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentFexIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5536,7 +5577,7 @@ export class DataIntersightEquipmentFexIdentity extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fex_identity intersight_equipment_fex_identity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fex_identity intersight_equipment_fex_identity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5547,8 +5588,8 @@ export class DataIntersightEquipmentFexIdentity extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_equipment_fex_identity',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

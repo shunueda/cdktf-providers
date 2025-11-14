@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HyperflexExtIscsiStoragePolicyConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#account_moid HyperflexExtIscsiStoragePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#account_moid HyperflexExtIscsiStoragePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Enable or disable external iSCSI storage configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#admin_state HyperflexExtIscsiStoragePolicy#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#admin_state HyperflexExtIscsiStoragePolicy#admin_state}
   */
   readonly adminState?: boolean | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#ancestors HyperflexExtIscsiStoragePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#ancestors HyperflexExtIscsiStoragePolicy#ancestors}
   */
   readonly ancestors?: HyperflexExtIscsiStoragePolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -34,47 +34,47 @@ export interface HyperflexExtIscsiStoragePolicyConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to hyperflexClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#cluster_profiles HyperflexExtIscsiStoragePolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#cluster_profiles HyperflexExtIscsiStoragePolicy#cluster_profiles}
   */
   readonly clusterProfiles?: HyperflexExtIscsiStoragePolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#create_time HyperflexExtIscsiStoragePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#create_time HyperflexExtIscsiStoragePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#description HyperflexExtIscsiStoragePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#description HyperflexExtIscsiStoragePolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#domain_group_moid HyperflexExtIscsiStoragePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#domain_group_moid HyperflexExtIscsiStoragePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * VLAN for the primary Fabric Interconnect external iSCSI storage traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#exta_traffic HyperflexExtIscsiStoragePolicy#exta_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#exta_traffic HyperflexExtIscsiStoragePolicy#exta_traffic}
   */
   readonly extaTraffic?: HyperflexExtIscsiStoragePolicyExtaTraffic[] | cdktf.IResolvable;
   /**
   * VLAN for the secondary Fabric Interconnect external iSCSI storage traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#extb_traffic HyperflexExtIscsiStoragePolicy#extb_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#extb_traffic HyperflexExtIscsiStoragePolicy#extb_traffic}
   */
   readonly extbTraffic?: HyperflexExtIscsiStoragePolicyExtbTraffic[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#id HyperflexExtIscsiStoragePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#id HyperflexExtIscsiStoragePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,89 +83,89 @@ export interface HyperflexExtIscsiStoragePolicyConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#mod_time HyperflexExtIscsiStoragePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#mod_time HyperflexExtIscsiStoragePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#organization HyperflexExtIscsiStoragePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#organization HyperflexExtIscsiStoragePolicy#organization}
   */
   readonly organization?: HyperflexExtIscsiStoragePolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#owners HyperflexExtIscsiStoragePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#owners HyperflexExtIscsiStoragePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#parent HyperflexExtIscsiStoragePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#parent HyperflexExtIscsiStoragePolicy#parent}
   */
   readonly parent?: HyperflexExtIscsiStoragePolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#permission_resources HyperflexExtIscsiStoragePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#permission_resources HyperflexExtIscsiStoragePolicy#permission_resources}
   */
   readonly permissionResources?: HyperflexExtIscsiStoragePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#shared_scope HyperflexExtIscsiStoragePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#shared_scope HyperflexExtIscsiStoragePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#tags HyperflexExtIscsiStoragePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#tags HyperflexExtIscsiStoragePolicy#tags}
   */
   readonly tags?: HyperflexExtIscsiStoragePolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#version_context HyperflexExtIscsiStoragePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#version_context HyperflexExtIscsiStoragePolicy#version_context}
   */
   readonly versionContext?: HyperflexExtIscsiStoragePolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexExtIscsiStoragePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -397,23 +397,23 @@ export class HyperflexExtIscsiStoragePolicyAncestorsList extends cdktf.ComplexLi
 }
 export interface HyperflexExtIscsiStoragePolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -645,23 +645,23 @@ export class HyperflexExtIscsiStoragePolicyClusterProfilesList extends cdktf.Com
 }
 export interface HyperflexExtIscsiStoragePolicyExtaTraffic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#vlan_id HyperflexExtIscsiStoragePolicy#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#vlan_id HyperflexExtIscsiStoragePolicy#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -893,23 +893,23 @@ export class HyperflexExtIscsiStoragePolicyExtaTrafficList extends cdktf.Complex
 }
 export interface HyperflexExtIscsiStoragePolicyExtbTraffic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#name HyperflexExtIscsiStoragePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#vlan_id HyperflexExtIscsiStoragePolicy#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#vlan_id HyperflexExtIscsiStoragePolicy#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -1141,23 +1141,23 @@ export class HyperflexExtIscsiStoragePolicyExtbTrafficList extends cdktf.Complex
 }
 export interface HyperflexExtIscsiStoragePolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1389,23 +1389,23 @@ export class HyperflexExtIscsiStoragePolicyOrganizationList extends cdktf.Comple
 }
 export interface HyperflexExtIscsiStoragePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1637,23 +1637,23 @@ export class HyperflexExtIscsiStoragePolicyParentList extends cdktf.ComplexList 
 }
 export interface HyperflexExtIscsiStoragePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1885,23 +1885,23 @@ export class HyperflexExtIscsiStoragePolicyPermissionResourcesList extends cdktf
 }
 export interface HyperflexExtIscsiStoragePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2133,23 +2133,23 @@ export class HyperflexExtIscsiStoragePolicyTagsAncestorDefinitionsList extends c
 }
 export interface HyperflexExtIscsiStoragePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2381,31 +2381,35 @@ export class HyperflexExtIscsiStoragePolicyTagsDefinitionList extends cdktf.Comp
 }
 export interface HyperflexExtIscsiStoragePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#ancestor_definitions HyperflexExtIscsiStoragePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#ancestor_definitions HyperflexExtIscsiStoragePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexExtIscsiStoragePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#definition HyperflexExtIscsiStoragePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#definition HyperflexExtIscsiStoragePolicy#definition}
   */
   readonly definition?: HyperflexExtIscsiStoragePolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#key HyperflexExtIscsiStoragePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#key HyperflexExtIscsiStoragePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#propagated HyperflexExtIscsiStoragePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#propagated HyperflexExtIscsiStoragePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#type HyperflexExtIscsiStoragePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#sys_tag HyperflexExtIscsiStoragePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#type HyperflexExtIscsiStoragePolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#value HyperflexExtIscsiStoragePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#value HyperflexExtIscsiStoragePolicy#value}
   */
   readonly value?: string;
 }
@@ -2421,6 +2425,7 @@ export function hyperflexExtIscsiStoragePolicyTagsToTerraform(struct?: Hyperflex
     definition: cdktf.listMapper(hyperflexExtIscsiStoragePolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2459,6 +2464,12 @@ export function hyperflexExtIscsiStoragePolicyTagsToHclTerraform(struct?: Hyperf
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2521,6 +2532,10 @@ export class HyperflexExtIscsiStoragePolicyTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2541,6 +2556,7 @@ export class HyperflexExtIscsiStoragePolicyTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2556,6 +2572,7 @@ export class HyperflexExtIscsiStoragePolicyTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2641,6 +2658,22 @@ export class HyperflexExtIscsiStoragePolicyTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2695,23 +2728,23 @@ export class HyperflexExtIscsiStoragePolicyTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexExtIscsiStoragePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2943,23 +2976,23 @@ export class HyperflexExtIscsiStoragePolicyVersionContextInterestedMosList exten
 }
 export interface HyperflexExtIscsiStoragePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#moid HyperflexExtIscsiStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#selector HyperflexExtIscsiStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3191,39 +3224,39 @@ export class HyperflexExtIscsiStoragePolicyVersionContextRefMoList extends cdktf
 }
 export interface HyperflexExtIscsiStoragePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#additional_properties HyperflexExtIscsiStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#class_id HyperflexExtIscsiStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#interested_mos HyperflexExtIscsiStoragePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#interested_mos HyperflexExtIscsiStoragePolicy#interested_mos}
   */
   readonly interestedMos?: HyperflexExtIscsiStoragePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#marked_for_deletion HyperflexExtIscsiStoragePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#marked_for_deletion HyperflexExtIscsiStoragePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#nr_version HyperflexExtIscsiStoragePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#nr_version HyperflexExtIscsiStoragePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#object_type HyperflexExtIscsiStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#ref_mo HyperflexExtIscsiStoragePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#ref_mo HyperflexExtIscsiStoragePolicy#ref_mo}
   */
   readonly refMo?: HyperflexExtIscsiStoragePolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#timestamp HyperflexExtIscsiStoragePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#timestamp HyperflexExtIscsiStoragePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#version_type HyperflexExtIscsiStoragePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#version_type HyperflexExtIscsiStoragePolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3571,7 +3604,7 @@ export class HyperflexExtIscsiStoragePolicyVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy intersight_hyperflex_ext_iscsi_storage_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy intersight_hyperflex_ext_iscsi_storage_policy}
 */
 export class HyperflexExtIscsiStoragePolicy extends cdktf.TerraformResource {
 
@@ -3587,7 +3620,7 @@ export class HyperflexExtIscsiStoragePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexExtIscsiStoragePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexExtIscsiStoragePolicy to import
-  * @param importFromId The id of the existing HyperflexExtIscsiStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexExtIscsiStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexExtIscsiStoragePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3599,7 +3632,7 @@ export class HyperflexExtIscsiStoragePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_ext_iscsi_storage_policy intersight_hyperflex_ext_iscsi_storage_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_ext_iscsi_storage_policy intersight_hyperflex_ext_iscsi_storage_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3610,8 +3643,8 @@ export class HyperflexExtIscsiStoragePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_ext_iscsi_storage_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

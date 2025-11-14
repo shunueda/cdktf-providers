@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#account_moid DataIntersightSoftwareHclMeta#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#account_moid DataIntersightSoftwareHclMeta#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#bundle_type DataIntersightSoftwareHclMeta#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#bundle_type DataIntersightSoftwareHclMeta#bundle_type}
   */
   readonly bundleType?: string;
   /**
@@ -28,7 +28,7 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
@@ -36,31 +36,31 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   * * `Full` - Indicates that the JSON File does have full content for HCL metadata.
   * * `Incremental` - Indicates that the JSON File does have only the diff of the Hcl meta to be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#content_type DataIntersightSoftwareHclMeta#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#content_type DataIntersightSoftwareHclMeta#content_type}
   */
   readonly contentType?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#create_time DataIntersightSoftwareHclMeta#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#create_time DataIntersightSoftwareHclMeta#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#description DataIntersightSoftwareHclMeta#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#description DataIntersightSoftwareHclMeta#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#domain_group_moid DataIntersightSoftwareHclMeta#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#domain_group_moid DataIntersightSoftwareHclMeta#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#download_count DataIntersightSoftwareHclMeta#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#download_count DataIntersightSoftwareHclMeta#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -69,17 +69,17 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#feature_source DataIntersightSoftwareHclMeta#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#feature_source DataIntersightSoftwareHclMeta#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#guid DataIntersightSoftwareHclMeta#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#guid DataIntersightSoftwareHclMeta#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#id DataIntersightSoftwareHclMeta#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#id DataIntersightSoftwareHclMeta#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#image_type DataIntersightSoftwareHclMeta#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#image_type DataIntersightSoftwareHclMeta#image_type}
   */
   readonly imageType?: string;
   /**
@@ -103,7 +103,7 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#import_action DataIntersightSoftwareHclMeta#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#import_action DataIntersightSoftwareHclMeta#import_action}
   */
   readonly importAction?: string;
   /**
@@ -124,203 +124,203 @@ export interface DataIntersightSoftwareHclMetaConfig extends cdktf.TerraformMeta
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#import_state DataIntersightSoftwareHclMeta#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#import_state DataIntersightSoftwareHclMeta#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#imported_time DataIntersightSoftwareHclMeta#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#imported_time DataIntersightSoftwareHclMeta#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#last_access_time DataIntersightSoftwareHclMeta#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#last_access_time DataIntersightSoftwareHclMeta#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#md5e_tag DataIntersightSoftwareHclMeta#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#md5e_tag DataIntersightSoftwareHclMeta#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#md5sum DataIntersightSoftwareHclMeta#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#md5sum DataIntersightSoftwareHclMeta#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#mdfid DataIntersightSoftwareHclMeta#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#mdfid DataIntersightSoftwareHclMeta#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#mod_time DataIntersightSoftwareHclMeta#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#mod_time DataIntersightSoftwareHclMeta#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#model DataIntersightSoftwareHclMeta#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#model DataIntersightSoftwareHclMeta#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#name DataIntersightSoftwareHclMeta#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#name DataIntersightSoftwareHclMeta#name}
   */
   readonly name?: string;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#nr_version DataIntersightSoftwareHclMeta#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#nr_version DataIntersightSoftwareHclMeta#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#owners DataIntersightSoftwareHclMeta#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#owners DataIntersightSoftwareHclMeta#owners}
   */
   readonly owners?: string[];
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#platform_type DataIntersightSoftwareHclMeta#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#platform_type DataIntersightSoftwareHclMeta#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#recommended_build DataIntersightSoftwareHclMeta#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#recommended_build DataIntersightSoftwareHclMeta#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#release_date DataIntersightSoftwareHclMeta#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#release_date DataIntersightSoftwareHclMeta#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#release_notes_url DataIntersightSoftwareHclMeta#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#release_notes_url DataIntersightSoftwareHclMeta#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#sha512sum DataIntersightSoftwareHclMeta#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#sha512sum DataIntersightSoftwareHclMeta#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#shared_scope DataIntersightSoftwareHclMeta#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#shared_scope DataIntersightSoftwareHclMeta#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#size DataIntersightSoftwareHclMeta#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#size DataIntersightSoftwareHclMeta#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#software_advisory_url DataIntersightSoftwareHclMeta#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#software_advisory_url DataIntersightSoftwareHclMeta#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#software_type_id DataIntersightSoftwareHclMeta#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#software_type_id DataIntersightSoftwareHclMeta#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#supported_models DataIntersightSoftwareHclMeta#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#supported_models DataIntersightSoftwareHclMeta#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#vendor DataIntersightSoftwareHclMeta#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#vendor DataIntersightSoftwareHclMeta#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#ancestors DataIntersightSoftwareHclMeta#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#ancestors DataIntersightSoftwareHclMeta#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwareHclMetaAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#catalog DataIntersightSoftwareHclMeta#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#catalog DataIntersightSoftwareHclMeta#catalog}
   */
   readonly catalog?: DataIntersightSoftwareHclMetaCatalog;
   /**
   * component_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#component_meta DataIntersightSoftwareHclMeta#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#component_meta DataIntersightSoftwareHclMeta#component_meta}
   */
   readonly componentMeta?: DataIntersightSoftwareHclMetaComponentMeta[] | cdktf.IResolvable;
   /**
   * distributable_metas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#distributable_metas DataIntersightSoftwareHclMeta#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#distributable_metas DataIntersightSoftwareHclMeta#distributable_metas}
   */
   readonly distributableMetas?: DataIntersightSoftwareHclMetaDistributableMetas[] | cdktf.IResolvable;
   /**
   * nr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#nr_source DataIntersightSoftwareHclMeta#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#nr_source DataIntersightSoftwareHclMeta#nr_source}
   */
   readonly nrSource?: DataIntersightSoftwareHclMetaNrSource;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#parent DataIntersightSoftwareHclMeta#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#parent DataIntersightSoftwareHclMeta#parent}
   */
   readonly parent?: DataIntersightSoftwareHclMetaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#permission_resources DataIntersightSoftwareHclMeta#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#permission_resources DataIntersightSoftwareHclMeta#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwareHclMetaPermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#release DataIntersightSoftwareHclMeta#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#release DataIntersightSoftwareHclMeta#release}
   */
   readonly release?: DataIntersightSoftwareHclMetaRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#tags DataIntersightSoftwareHclMeta#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#tags DataIntersightSoftwareHclMeta#tags}
   */
   readonly tags?: DataIntersightSoftwareHclMetaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#version_context DataIntersightSoftwareHclMeta#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#version_context DataIntersightSoftwareHclMeta#version_context}
   */
   readonly versionContext?: DataIntersightSoftwareHclMetaVersionContext;
 }
@@ -1392,6 +1392,11 @@ export class DataIntersightSoftwareHclMetaResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2045,7 +2050,7 @@ export class DataIntersightSoftwareHclMetaResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightSoftwareHclMetaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2053,19 +2058,19 @@ export interface DataIntersightSoftwareHclMetaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2078,7 +2083,7 @@ export interface DataIntersightSoftwareHclMetaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2310,7 +2315,7 @@ export class DataIntersightSoftwareHclMetaAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightSoftwareHclMetaCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2318,19 +2323,19 @@ export interface DataIntersightSoftwareHclMetaCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2343,7 +2348,7 @@ export interface DataIntersightSoftwareHclMetaCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2543,13 +2548,13 @@ export class DataIntersightSoftwareHclMetaCatalogOutputReference extends cdktf.C
 }
 export interface DataIntersightSoftwareHclMetaComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Certain components have multiple versions packaged in the distributable. For example, the GPU component has multiple versions of the image packaged in the distributable due to a different onboard chip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#alternate_packed_version DataIntersightSoftwareHclMeta#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#alternate_packed_version DataIntersightSoftwareHclMeta#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
@@ -2557,13 +2562,13 @@ export interface DataIntersightSoftwareHclMetaComponentMeta {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the component in the compressed HSU bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#component_label DataIntersightSoftwareHclMeta#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#component_label DataIntersightSoftwareHclMeta#component_label}
   */
   readonly componentLabel?: string;
   /**
@@ -2593,13 +2598,13 @@ export interface DataIntersightSoftwareHclMetaComponentMeta {
   * * `CMC` - This represents CMC components.
   * * `PSX` - This represents PSX components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#component_type DataIntersightSoftwareHclMeta#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#component_type DataIntersightSoftwareHclMeta#component_type}
   */
   readonly componentType?: string;
   /**
   * This shows the description of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#description DataIntersightSoftwareHclMeta#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#description DataIntersightSoftwareHclMeta#description}
   */
   readonly description?: string;
   /**
@@ -2610,54 +2615,54 @@ export interface DataIntersightSoftwareHclMetaComponentMeta {
   * * `ManualPowerCycle` - Indicates that the component received a manual power cycle request.
   * * `AutomaticPowerCycle` - Indicates that the component received an automatic power cycle request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#disruption DataIntersightSoftwareHclMeta#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#disruption DataIntersightSoftwareHclMeta#disruption}
   */
   readonly disruption?: string;
   /**
   * This shows the path of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#image_path DataIntersightSoftwareHclMeta#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#image_path DataIntersightSoftwareHclMeta#image_path}
   */
   readonly imagePath?: string;
   /**
   * If set, the component can be updated through out-of-band management, else, is updated through host service utility boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#is_oob_supported DataIntersightSoftwareHclMeta#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#is_oob_supported DataIntersightSoftwareHclMeta#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
   * The model of the component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#model DataIntersightSoftwareHclMeta#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#model DataIntersightSoftwareHclMeta#model}
   */
   readonly model?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#oob_manageability DataIntersightSoftwareHclMeta#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#oob_manageability DataIntersightSoftwareHclMeta#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
   * The image version of components packaged in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#packed_version DataIntersightSoftwareHclMeta#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#packed_version DataIntersightSoftwareHclMeta#packed_version}
   */
   readonly packedVersion?: string;
   /**
   * The redfish target for each component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#redfish_url DataIntersightSoftwareHclMeta#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#redfish_url DataIntersightSoftwareHclMeta#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
   * The version of component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#vendor DataIntersightSoftwareHclMeta#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#vendor DataIntersightSoftwareHclMeta#vendor}
   */
   readonly vendor?: string;
 }
@@ -3179,7 +3184,7 @@ export class DataIntersightSoftwareHclMetaComponentMetaList extends cdktf.Comple
 }
 export interface DataIntersightSoftwareHclMetaDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3187,19 +3192,19 @@ export interface DataIntersightSoftwareHclMetaDistributableMetas {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3212,7 +3217,7 @@ export interface DataIntersightSoftwareHclMetaDistributableMetas {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3444,7 +3449,7 @@ export class DataIntersightSoftwareHclMetaDistributableMetasList extends cdktf.C
 }
 export interface DataIntersightSoftwareHclMetaNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3453,7 +3458,7 @@ export interface DataIntersightSoftwareHclMetaNrSource {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
@@ -3461,7 +3466,7 @@ export interface DataIntersightSoftwareHclMetaNrSource {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
 }
@@ -3603,7 +3608,7 @@ export class DataIntersightSoftwareHclMetaNrSourceOutputReference extends cdktf.
 }
 export interface DataIntersightSoftwareHclMetaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3611,19 +3616,19 @@ export interface DataIntersightSoftwareHclMetaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3636,7 +3641,7 @@ export interface DataIntersightSoftwareHclMetaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3836,7 +3841,7 @@ export class DataIntersightSoftwareHclMetaParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightSoftwareHclMetaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3844,19 +3849,19 @@ export interface DataIntersightSoftwareHclMetaPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3869,7 +3874,7 @@ export interface DataIntersightSoftwareHclMetaPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -4101,7 +4106,7 @@ export class DataIntersightSoftwareHclMetaPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightSoftwareHclMetaRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4109,19 +4114,19 @@ export interface DataIntersightSoftwareHclMetaRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4134,7 +4139,7 @@ export interface DataIntersightSoftwareHclMetaRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -4334,7 +4339,7 @@ export class DataIntersightSoftwareHclMetaReleaseOutputReference extends cdktf.C
 }
 export interface DataIntersightSoftwareHclMetaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4342,19 +4347,19 @@ export interface DataIntersightSoftwareHclMetaTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4367,7 +4372,7 @@ export interface DataIntersightSoftwareHclMetaTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -4599,7 +4604,7 @@ export class DataIntersightSoftwareHclMetaTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightSoftwareHclMetaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4607,19 +4612,19 @@ export interface DataIntersightSoftwareHclMetaTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4632,7 +4637,7 @@ export interface DataIntersightSoftwareHclMetaTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -4832,45 +4837,51 @@ export class DataIntersightSoftwareHclMetaTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightSoftwareHclMetaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#key DataIntersightSoftwareHclMeta#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#key DataIntersightSoftwareHclMeta#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#propagated DataIntersightSoftwareHclMeta#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#propagated DataIntersightSoftwareHclMeta#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#sys_tag DataIntersightSoftwareHclMeta#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#type DataIntersightSoftwareHclMeta#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#type DataIntersightSoftwareHclMeta#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#value DataIntersightSoftwareHclMeta#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#value DataIntersightSoftwareHclMeta#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#ancestor_definitions DataIntersightSoftwareHclMeta#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#ancestor_definitions DataIntersightSoftwareHclMeta#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwareHclMetaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#definition DataIntersightSoftwareHclMeta#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#definition DataIntersightSoftwareHclMeta#definition}
   */
   readonly definition?: DataIntersightSoftwareHclMetaTagsDefinition;
 }
@@ -4884,6 +4895,7 @@ export function dataIntersightSoftwareHclMetaTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwareHclMetaTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4912,6 +4924,12 @@ export function dataIntersightSoftwareHclMetaTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4978,6 +4996,10 @@ export class DataIntersightSoftwareHclMetaTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5004,6 +5026,7 @@ export class DataIntersightSoftwareHclMetaTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5019,6 +5042,7 @@ export class DataIntersightSoftwareHclMetaTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5072,6 +5096,22 @@ export class DataIntersightSoftwareHclMetaTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5160,7 +5200,7 @@ export class DataIntersightSoftwareHclMetaTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSoftwareHclMetaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5168,19 +5208,19 @@ export interface DataIntersightSoftwareHclMetaVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5193,7 +5233,7 @@ export interface DataIntersightSoftwareHclMetaVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -5425,7 +5465,7 @@ export class DataIntersightSoftwareHclMetaVersionContextInterestedMosList extend
 }
 export interface DataIntersightSoftwareHclMetaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5433,19 +5473,19 @@ export interface DataIntersightSoftwareHclMetaVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#moid DataIntersightSoftwareHclMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5458,7 +5498,7 @@ export interface DataIntersightSoftwareHclMetaVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#selector DataIntersightSoftwareHclMeta#selector}
   */
   readonly selector?: string;
 }
@@ -5658,7 +5698,7 @@ export class DataIntersightSoftwareHclMetaVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightSoftwareHclMetaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#additional_properties DataIntersightSoftwareHclMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5666,32 +5706,32 @@ export interface DataIntersightSoftwareHclMetaVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#class_id DataIntersightSoftwareHclMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#marked_for_deletion DataIntersightSoftwareHclMeta#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#marked_for_deletion DataIntersightSoftwareHclMeta#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#nr_version DataIntersightSoftwareHclMeta#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#nr_version DataIntersightSoftwareHclMeta#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#object_type DataIntersightSoftwareHclMeta#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#timestamp DataIntersightSoftwareHclMeta#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#timestamp DataIntersightSoftwareHclMeta#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5702,19 +5742,19 @@ export interface DataIntersightSoftwareHclMetaVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#version_type DataIntersightSoftwareHclMeta#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#version_type DataIntersightSoftwareHclMeta#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#interested_mos DataIntersightSoftwareHclMeta#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#interested_mos DataIntersightSoftwareHclMeta#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwareHclMetaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#ref_mo DataIntersightSoftwareHclMeta#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#ref_mo DataIntersightSoftwareHclMeta#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwareHclMetaVersionContextRefMo;
 }
@@ -6030,7 +6070,7 @@ export class DataIntersightSoftwareHclMetaVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta intersight_software_hcl_meta}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta intersight_software_hcl_meta}
 */
 export class DataIntersightSoftwareHclMeta extends cdktf.TerraformDataSource {
 
@@ -6046,7 +6086,7 @@ export class DataIntersightSoftwareHclMeta extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSoftwareHclMeta resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwareHclMeta to import
-  * @param importFromId The id of the existing DataIntersightSoftwareHclMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwareHclMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwareHclMeta to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6058,7 +6098,7 @@ export class DataIntersightSoftwareHclMeta extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hcl_meta intersight_software_hcl_meta} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hcl_meta intersight_software_hcl_meta} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6069,8 +6109,8 @@ export class DataIntersightSoftwareHclMeta extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_software_hcl_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/integration_integration_instance
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/integration_integration_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIntegrationIntegrationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}
   */
   readonly integrationInstanceId: string;
 }
@@ -846,7 +846,7 @@ export class DataOciIntegrationIntegrationInstancePrivateEndpointOutboundConnect
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/integration_integration_instance oci_integration_integration_instance}
 */
 export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSource {
 
@@ -862,7 +862,7 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciIntegrationIntegrationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIntegrationIntegrationInstance to import
-  * @param importFromId The id of the existing DataOciIntegrationIntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/integration_integration_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIntegrationIntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/integration_integration_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIntegrationIntegrationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -874,7 +874,7 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/integration_integration_instance oci_integration_integration_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -885,8 +885,8 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_integration_integration_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

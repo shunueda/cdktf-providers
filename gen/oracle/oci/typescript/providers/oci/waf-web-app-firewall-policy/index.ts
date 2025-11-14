@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface WafWebAppFirewallPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#compartment_id WafWebAppFirewallPolicy#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#compartment_id WafWebAppFirewallPolicy#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#defined_tags WafWebAppFirewallPolicy#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#defined_tags WafWebAppFirewallPolicy#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#display_name WafWebAppFirewallPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#display_name WafWebAppFirewallPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#freeform_tags WafWebAppFirewallPolicy#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#freeform_tags WafWebAppFirewallPolicy#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#id WafWebAppFirewallPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#id WafWebAppFirewallPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#system_tags WafWebAppFirewallPolicy#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#system_tags WafWebAppFirewallPolicy#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#actions WafWebAppFirewallPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#actions WafWebAppFirewallPolicy#actions}
   */
   readonly actions?: WafWebAppFirewallPolicyActions[] | cdktf.IResolvable;
   /**
   * request_access_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#request_access_control WafWebAppFirewallPolicy#request_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#request_access_control WafWebAppFirewallPolicy#request_access_control}
   */
   readonly requestAccessControl?: WafWebAppFirewallPolicyRequestAccessControl;
   /**
   * request_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#request_protection WafWebAppFirewallPolicy#request_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#request_protection WafWebAppFirewallPolicy#request_protection}
   */
   readonly requestProtection?: WafWebAppFirewallPolicyRequestProtection;
   /**
   * request_rate_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#request_rate_limiting WafWebAppFirewallPolicy#request_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#request_rate_limiting WafWebAppFirewallPolicy#request_rate_limiting}
   */
   readonly requestRateLimiting?: WafWebAppFirewallPolicyRequestRateLimiting;
   /**
   * response_access_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#response_access_control WafWebAppFirewallPolicy#response_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#response_access_control WafWebAppFirewallPolicy#response_access_control}
   */
   readonly responseAccessControl?: WafWebAppFirewallPolicyResponseAccessControl;
   /**
   * response_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#response_protection WafWebAppFirewallPolicy#response_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#response_protection WafWebAppFirewallPolicy#response_protection}
   */
   readonly responseProtection?: WafWebAppFirewallPolicyResponseProtection;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#timeouts WafWebAppFirewallPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#timeouts WafWebAppFirewallPolicy#timeouts}
   */
   readonly timeouts?: WafWebAppFirewallPolicyTimeouts;
 }
 export interface WafWebAppFirewallPolicyActionsBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
 }
@@ -226,11 +226,11 @@ export class WafWebAppFirewallPolicyActionsBodyOutputReference extends cdktf.Com
 }
 export interface WafWebAppFirewallPolicyActionsHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#value WafWebAppFirewallPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#value WafWebAppFirewallPolicy#value}
   */
   readonly value?: string;
 }
@@ -375,27 +375,27 @@ export class WafWebAppFirewallPolicyActionsHeadersList extends cdktf.ComplexList
 }
 export interface WafWebAppFirewallPolicyActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#code WafWebAppFirewallPolicy#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#code WafWebAppFirewallPolicy#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#body WafWebAppFirewallPolicy#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#body WafWebAppFirewallPolicy#body}
   */
   readonly body?: WafWebAppFirewallPolicyActionsBody;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#headers WafWebAppFirewallPolicy#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#headers WafWebAppFirewallPolicy#headers}
   */
   readonly headers?: WafWebAppFirewallPolicyActionsHeaders[] | cdktf.IResolvable;
 }
@@ -621,23 +621,23 @@ export class WafWebAppFirewallPolicyActionsList extends cdktf.ComplexList {
 }
 export interface WafWebAppFirewallPolicyRequestAccessControlRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
   */
   readonly conditionLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
 }
@@ -860,13 +860,13 @@ export class WafWebAppFirewallPolicyRequestAccessControlRulesList extends cdktf.
 }
 export interface WafWebAppFirewallPolicyRequestAccessControl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}
   */
   readonly defaultActionName: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
   */
   readonly rules?: WafWebAppFirewallPolicyRequestAccessControlRules[] | cdktf.IResolvable;
 }
@@ -976,11 +976,11 @@ export class WafWebAppFirewallPolicyRequestAccessControlOutputReference extends 
 }
 export interface WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitiesCollaborativeWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#weight WafWebAppFirewallPolicy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#weight WafWebAppFirewallPolicy#weight}
   */
   readonly weight: number;
 }
@@ -1119,11 +1119,11 @@ export class WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilities
 }
 export interface WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitiesExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#args WafWebAppFirewallPolicy#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#args WafWebAppFirewallPolicy#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#request_cookies WafWebAppFirewallPolicy#request_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#request_cookies WafWebAppFirewallPolicy#request_cookies}
   */
   readonly requestCookies?: string[];
 }
@@ -1236,31 +1236,31 @@ export class WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilities
 }
 export interface WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#collaborative_action_threshold WafWebAppFirewallPolicy#collaborative_action_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#collaborative_action_threshold WafWebAppFirewallPolicy#collaborative_action_threshold}
   */
   readonly collaborativeActionThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#version WafWebAppFirewallPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#version WafWebAppFirewallPolicy#version}
   */
   readonly version: number;
   /**
   * collaborative_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#collaborative_weights WafWebAppFirewallPolicy#collaborative_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#collaborative_weights WafWebAppFirewallPolicy#collaborative_weights}
   */
   readonly collaborativeWeights?: WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitiesCollaborativeWeights[] | cdktf.IResolvable;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#exclusions WafWebAppFirewallPolicy#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#exclusions WafWebAppFirewallPolicy#exclusions}
   */
   readonly exclusions?: WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitiesExclusions;
 }
@@ -1515,27 +1515,27 @@ export class WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilities
 }
 export interface WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#allowed_http_methods WafWebAppFirewallPolicy#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#allowed_http_methods WafWebAppFirewallPolicy#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_http_request_header_length WafWebAppFirewallPolicy#max_http_request_header_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_http_request_header_length WafWebAppFirewallPolicy#max_http_request_header_length}
   */
   readonly maxHttpRequestHeaderLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_http_request_headers WafWebAppFirewallPolicy#max_http_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_http_request_headers WafWebAppFirewallPolicy#max_http_request_headers}
   */
   readonly maxHttpRequestHeaders?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_number_of_arguments WafWebAppFirewallPolicy#max_number_of_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_number_of_arguments WafWebAppFirewallPolicy#max_number_of_arguments}
   */
   readonly maxNumberOfArguments?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_single_argument_length WafWebAppFirewallPolicy#max_single_argument_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_single_argument_length WafWebAppFirewallPolicy#max_single_argument_length}
   */
   readonly maxSingleArgumentLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_total_argument_length WafWebAppFirewallPolicy#max_total_argument_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_total_argument_length WafWebAppFirewallPolicy#max_total_argument_length}
   */
   readonly maxTotalArgumentLength?: number;
 }
@@ -1764,39 +1764,39 @@ export class WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitySe
 }
 export interface WafWebAppFirewallPolicyRequestProtectionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
   */
   readonly conditionLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#is_body_inspection_enabled WafWebAppFirewallPolicy#is_body_inspection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#is_body_inspection_enabled WafWebAppFirewallPolicy#is_body_inspection_enabled}
   */
   readonly isBodyInspectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
   /**
   * protection_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#protection_capabilities WafWebAppFirewallPolicy#protection_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#protection_capabilities WafWebAppFirewallPolicy#protection_capabilities}
   */
   readonly protectionCapabilities: WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilities[] | cdktf.IResolvable;
   /**
   * protection_capability_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#protection_capability_settings WafWebAppFirewallPolicy#protection_capability_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#protection_capability_settings WafWebAppFirewallPolicy#protection_capability_settings}
   */
   readonly protectionCapabilitySettings?: WafWebAppFirewallPolicyRequestProtectionRulesProtectionCapabilitySettings;
 }
@@ -2103,17 +2103,17 @@ export class WafWebAppFirewallPolicyRequestProtectionRulesList extends cdktf.Com
 }
 export interface WafWebAppFirewallPolicyRequestProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_exceeded_action_name WafWebAppFirewallPolicy#body_inspection_size_limit_exceeded_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_exceeded_action_name WafWebAppFirewallPolicy#body_inspection_size_limit_exceeded_action_name}
   */
   readonly bodyInspectionSizeLimitExceededActionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_in_bytes WafWebAppFirewallPolicy#body_inspection_size_limit_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_in_bytes WafWebAppFirewallPolicy#body_inspection_size_limit_in_bytes}
   */
   readonly bodyInspectionSizeLimitInBytes?: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
   */
   readonly rules?: WafWebAppFirewallPolicyRequestProtectionRules[] | cdktf.IResolvable;
 }
@@ -2255,15 +2255,15 @@ export class WafWebAppFirewallPolicyRequestProtectionOutputReference extends cdk
 }
 export interface WafWebAppFirewallPolicyRequestRateLimitingRulesConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_duration_in_seconds WafWebAppFirewallPolicy#action_duration_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_duration_in_seconds WafWebAppFirewallPolicy#action_duration_in_seconds}
   */
   readonly actionDurationInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#period_in_seconds WafWebAppFirewallPolicy#period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#period_in_seconds WafWebAppFirewallPolicy#period_in_seconds}
   */
   readonly periodInSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#requests_limit WafWebAppFirewallPolicy#requests_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#requests_limit WafWebAppFirewallPolicy#requests_limit}
   */
   readonly requestsLimit: number;
 }
@@ -2431,29 +2431,29 @@ export class WafWebAppFirewallPolicyRequestRateLimitingRulesConfigurationsList e
 }
 export interface WafWebAppFirewallPolicyRequestRateLimitingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
   */
   readonly conditionLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
   /**
   * configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#configurations WafWebAppFirewallPolicy#configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#configurations WafWebAppFirewallPolicy#configurations}
   */
   readonly configurations: WafWebAppFirewallPolicyRequestRateLimitingRulesConfigurations[] | cdktf.IResolvable;
 }
@@ -2704,7 +2704,7 @@ export interface WafWebAppFirewallPolicyRequestRateLimiting {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
   */
   readonly rules?: WafWebAppFirewallPolicyRequestRateLimitingRules[] | cdktf.IResolvable;
 }
@@ -2788,23 +2788,23 @@ export class WafWebAppFirewallPolicyRequestRateLimitingOutputReference extends c
 }
 export interface WafWebAppFirewallPolicyResponseAccessControlRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
   */
   readonly conditionLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
 }
@@ -3029,7 +3029,7 @@ export interface WafWebAppFirewallPolicyResponseAccessControl {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
   */
   readonly rules?: WafWebAppFirewallPolicyResponseAccessControlRules[] | cdktf.IResolvable;
 }
@@ -3113,11 +3113,11 @@ export class WafWebAppFirewallPolicyResponseAccessControlOutputReference extends
 }
 export interface WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitiesCollaborativeWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#weight WafWebAppFirewallPolicy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#weight WafWebAppFirewallPolicy#weight}
   */
   readonly weight: number;
 }
@@ -3256,11 +3256,11 @@ export class WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitie
 }
 export interface WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitiesExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#args WafWebAppFirewallPolicy#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#args WafWebAppFirewallPolicy#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#request_cookies WafWebAppFirewallPolicy#request_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#request_cookies WafWebAppFirewallPolicy#request_cookies}
   */
   readonly requestCookies?: string[];
 }
@@ -3373,31 +3373,31 @@ export class WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitie
 }
 export interface WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#collaborative_action_threshold WafWebAppFirewallPolicy#collaborative_action_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#collaborative_action_threshold WafWebAppFirewallPolicy#collaborative_action_threshold}
   */
   readonly collaborativeActionThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#key WafWebAppFirewallPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#version WafWebAppFirewallPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#version WafWebAppFirewallPolicy#version}
   */
   readonly version: number;
   /**
   * collaborative_weights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#collaborative_weights WafWebAppFirewallPolicy#collaborative_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#collaborative_weights WafWebAppFirewallPolicy#collaborative_weights}
   */
   readonly collaborativeWeights?: WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitiesCollaborativeWeights[] | cdktf.IResolvable;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#exclusions WafWebAppFirewallPolicy#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#exclusions WafWebAppFirewallPolicy#exclusions}
   */
   readonly exclusions?: WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitiesExclusions;
 }
@@ -3652,27 +3652,27 @@ export class WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitie
 }
 export interface WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#allowed_http_methods WafWebAppFirewallPolicy#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#allowed_http_methods WafWebAppFirewallPolicy#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_http_request_header_length WafWebAppFirewallPolicy#max_http_request_header_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_http_request_header_length WafWebAppFirewallPolicy#max_http_request_header_length}
   */
   readonly maxHttpRequestHeaderLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_http_request_headers WafWebAppFirewallPolicy#max_http_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_http_request_headers WafWebAppFirewallPolicy#max_http_request_headers}
   */
   readonly maxHttpRequestHeaders?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_number_of_arguments WafWebAppFirewallPolicy#max_number_of_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_number_of_arguments WafWebAppFirewallPolicy#max_number_of_arguments}
   */
   readonly maxNumberOfArguments?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_single_argument_length WafWebAppFirewallPolicy#max_single_argument_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_single_argument_length WafWebAppFirewallPolicy#max_single_argument_length}
   */
   readonly maxSingleArgumentLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#max_total_argument_length WafWebAppFirewallPolicy#max_total_argument_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#max_total_argument_length WafWebAppFirewallPolicy#max_total_argument_length}
   */
   readonly maxTotalArgumentLength?: number;
 }
@@ -3901,39 +3901,39 @@ export class WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilityS
 }
 export interface WafWebAppFirewallPolicyResponseProtectionRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#action_name WafWebAppFirewallPolicy#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition WafWebAppFirewallPolicy#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#condition_language WafWebAppFirewallPolicy#condition_language}
   */
   readonly conditionLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#is_body_inspection_enabled WafWebAppFirewallPolicy#is_body_inspection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#is_body_inspection_enabled WafWebAppFirewallPolicy#is_body_inspection_enabled}
   */
   readonly isBodyInspectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#name WafWebAppFirewallPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}
   */
   readonly type: string;
   /**
   * protection_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#protection_capabilities WafWebAppFirewallPolicy#protection_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#protection_capabilities WafWebAppFirewallPolicy#protection_capabilities}
   */
   readonly protectionCapabilities: WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilities[] | cdktf.IResolvable;
   /**
   * protection_capability_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#protection_capability_settings WafWebAppFirewallPolicy#protection_capability_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#protection_capability_settings WafWebAppFirewallPolicy#protection_capability_settings}
   */
   readonly protectionCapabilitySettings?: WafWebAppFirewallPolicyResponseProtectionRulesProtectionCapabilitySettings;
 }
@@ -4242,7 +4242,7 @@ export interface WafWebAppFirewallPolicyResponseProtection {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
   */
   readonly rules?: WafWebAppFirewallPolicyResponseProtectionRules[] | cdktf.IResolvable;
 }
@@ -4326,15 +4326,15 @@ export class WafWebAppFirewallPolicyResponseProtectionOutputReference extends cd
 }
 export interface WafWebAppFirewallPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#create WafWebAppFirewallPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#create WafWebAppFirewallPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#delete WafWebAppFirewallPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#delete WafWebAppFirewallPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#update WafWebAppFirewallPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#update WafWebAppFirewallPolicy#update}
   */
   readonly update?: string;
 }
@@ -4486,7 +4486,7 @@ export class WafWebAppFirewallPolicyTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy}
 */
 export class WafWebAppFirewallPolicy extends cdktf.TerraformResource {
 
@@ -4502,7 +4502,7 @@ export class WafWebAppFirewallPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafWebAppFirewallPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafWebAppFirewallPolicy to import
-  * @param importFromId The id of the existing WafWebAppFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafWebAppFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafWebAppFirewallPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4514,7 +4514,7 @@ export class WafWebAppFirewallPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4525,8 +4525,8 @@ export class WafWebAppFirewallPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'oci_waf_web_app_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

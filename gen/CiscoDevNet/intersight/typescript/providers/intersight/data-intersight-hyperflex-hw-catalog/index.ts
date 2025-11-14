@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexHwCatalogConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#account_moid DataIntersightHyperflexHwCatalog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#account_moid DataIntersightHyperflexHwCatalog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexHwCatalogConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#create_time DataIntersightHyperflexHwCatalog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#create_time DataIntersightHyperflexHwCatalog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#domain_group_moid DataIntersightHyperflexHwCatalog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#domain_group_moid DataIntersightHyperflexHwCatalog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#id DataIntersightHyperflexHwCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#id DataIntersightHyperflexHwCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightHyperflexHwCatalogConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#mod_time DataIntersightHyperflexHwCatalog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#mod_time DataIntersightHyperflexHwCatalog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * Hardware catalog version for HyperFlex hardware catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#nr_version DataIntersightHyperflexHwCatalog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#nr_version DataIntersightHyperflexHwCatalog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#owners DataIntersightHyperflexHwCatalog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#owners DataIntersightHyperflexHwCatalog#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#shared_scope DataIntersightHyperflexHwCatalog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#shared_scope DataIntersightHyperflexHwCatalog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#ancestors DataIntersightHyperflexHwCatalog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#ancestors DataIntersightHyperflexHwCatalog#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexHwCatalogAncestors[] | cdktf.IResolvable;
   /**
   * catalog_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#catalog_infos DataIntersightHyperflexHwCatalog#catalog_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#catalog_infos DataIntersightHyperflexHwCatalog#catalog_infos}
   */
   readonly catalogInfos?: DataIntersightHyperflexHwCatalogCatalogInfos[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#parent DataIntersightHyperflexHwCatalog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#parent DataIntersightHyperflexHwCatalog#parent}
   */
   readonly parent?: DataIntersightHyperflexHwCatalogParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#permission_resources DataIntersightHyperflexHwCatalog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#permission_resources DataIntersightHyperflexHwCatalog#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexHwCatalogPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#tags DataIntersightHyperflexHwCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#tags DataIntersightHyperflexHwCatalog#tags}
   */
   readonly tags?: DataIntersightHyperflexHwCatalogTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#version_context DataIntersightHyperflexHwCatalog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#version_context DataIntersightHyperflexHwCatalog#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexHwCatalogVersionContext;
 }
@@ -765,6 +765,11 @@ export class DataIntersightHyperflexHwCatalogResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1264,7 +1269,7 @@ export class DataIntersightHyperflexHwCatalogResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHyperflexHwCatalogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1272,19 +1277,19 @@ export interface DataIntersightHyperflexHwCatalogAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1297,7 +1302,7 @@ export interface DataIntersightHyperflexHwCatalogAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -1529,7 +1534,7 @@ export class DataIntersightHyperflexHwCatalogAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightHyperflexHwCatalogCatalogInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1537,19 +1542,19 @@ export interface DataIntersightHyperflexHwCatalogCatalogInfos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1562,7 +1567,7 @@ export interface DataIntersightHyperflexHwCatalogCatalogInfos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -1794,7 +1799,7 @@ export class DataIntersightHyperflexHwCatalogCatalogInfosList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexHwCatalogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1802,19 +1807,19 @@ export interface DataIntersightHyperflexHwCatalogParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1827,7 +1832,7 @@ export interface DataIntersightHyperflexHwCatalogParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2027,7 +2032,7 @@ export class DataIntersightHyperflexHwCatalogParentOutputReference extends cdktf
 }
 export interface DataIntersightHyperflexHwCatalogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2035,19 +2040,19 @@ export interface DataIntersightHyperflexHwCatalogPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2060,7 +2065,7 @@ export interface DataIntersightHyperflexHwCatalogPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2292,7 +2297,7 @@ export class DataIntersightHyperflexHwCatalogPermissionResourcesList extends cdk
 }
 export interface DataIntersightHyperflexHwCatalogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2300,19 +2305,19 @@ export interface DataIntersightHyperflexHwCatalogTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2325,7 +2330,7 @@ export interface DataIntersightHyperflexHwCatalogTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2557,7 +2562,7 @@ export class DataIntersightHyperflexHwCatalogTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightHyperflexHwCatalogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2565,19 +2570,19 @@ export interface DataIntersightHyperflexHwCatalogTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2590,7 +2595,7 @@ export interface DataIntersightHyperflexHwCatalogTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2790,45 +2795,51 @@ export class DataIntersightHyperflexHwCatalogTagsDefinitionOutputReference exten
 }
 export interface DataIntersightHyperflexHwCatalogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#key DataIntersightHyperflexHwCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#key DataIntersightHyperflexHwCatalog#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#propagated DataIntersightHyperflexHwCatalog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#propagated DataIntersightHyperflexHwCatalog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#sys_tag DataIntersightHyperflexHwCatalog#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#type DataIntersightHyperflexHwCatalog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#type DataIntersightHyperflexHwCatalog#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#value DataIntersightHyperflexHwCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#value DataIntersightHyperflexHwCatalog#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#ancestor_definitions DataIntersightHyperflexHwCatalog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#ancestor_definitions DataIntersightHyperflexHwCatalog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexHwCatalogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#definition DataIntersightHyperflexHwCatalog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#definition DataIntersightHyperflexHwCatalog#definition}
   */
   readonly definition?: DataIntersightHyperflexHwCatalogTagsDefinition;
 }
@@ -2842,6 +2853,7 @@ export function dataIntersightHyperflexHwCatalogTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexHwCatalogTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2870,6 +2882,12 @@ export function dataIntersightHyperflexHwCatalogTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2936,6 +2954,10 @@ export class DataIntersightHyperflexHwCatalogTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2962,6 +2984,7 @@ export class DataIntersightHyperflexHwCatalogTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2977,6 +3000,7 @@ export class DataIntersightHyperflexHwCatalogTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3030,6 +3054,22 @@ export class DataIntersightHyperflexHwCatalogTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3118,7 +3158,7 @@ export class DataIntersightHyperflexHwCatalogTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightHyperflexHwCatalogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3126,19 +3166,19 @@ export interface DataIntersightHyperflexHwCatalogVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3151,7 +3191,7 @@ export interface DataIntersightHyperflexHwCatalogVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3383,7 +3423,7 @@ export class DataIntersightHyperflexHwCatalogVersionContextInterestedMosList ext
 }
 export interface DataIntersightHyperflexHwCatalogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3391,19 +3431,19 @@ export interface DataIntersightHyperflexHwCatalogVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#moid DataIntersightHyperflexHwCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3416,7 +3456,7 @@ export interface DataIntersightHyperflexHwCatalogVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#selector DataIntersightHyperflexHwCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3616,7 +3656,7 @@ export class DataIntersightHyperflexHwCatalogVersionContextRefMoOutputReference 
 }
 export interface DataIntersightHyperflexHwCatalogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#additional_properties DataIntersightHyperflexHwCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3624,32 +3664,32 @@ export interface DataIntersightHyperflexHwCatalogVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#class_id DataIntersightHyperflexHwCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#marked_for_deletion DataIntersightHyperflexHwCatalog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#marked_for_deletion DataIntersightHyperflexHwCatalog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#nr_version DataIntersightHyperflexHwCatalog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#nr_version DataIntersightHyperflexHwCatalog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#object_type DataIntersightHyperflexHwCatalog#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#timestamp DataIntersightHyperflexHwCatalog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#timestamp DataIntersightHyperflexHwCatalog#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3660,19 +3700,19 @@ export interface DataIntersightHyperflexHwCatalogVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#version_type DataIntersightHyperflexHwCatalog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#version_type DataIntersightHyperflexHwCatalog#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#interested_mos DataIntersightHyperflexHwCatalog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#interested_mos DataIntersightHyperflexHwCatalog#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexHwCatalogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#ref_mo DataIntersightHyperflexHwCatalog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#ref_mo DataIntersightHyperflexHwCatalog#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexHwCatalogVersionContextRefMo;
 }
@@ -3988,7 +4028,7 @@ export class DataIntersightHyperflexHwCatalogVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog intersight_hyperflex_hw_catalog}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog intersight_hyperflex_hw_catalog}
 */
 export class DataIntersightHyperflexHwCatalog extends cdktf.TerraformDataSource {
 
@@ -4004,7 +4044,7 @@ export class DataIntersightHyperflexHwCatalog extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightHyperflexHwCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexHwCatalog to import
-  * @param importFromId The id of the existing DataIntersightHyperflexHwCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexHwCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexHwCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4016,7 +4056,7 @@ export class DataIntersightHyperflexHwCatalog extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_hw_catalog intersight_hyperflex_hw_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hw_catalog intersight_hyperflex_hw_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4027,8 +4067,8 @@ export class DataIntersightHyperflexHwCatalog extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_hyperflex_hw_catalog',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

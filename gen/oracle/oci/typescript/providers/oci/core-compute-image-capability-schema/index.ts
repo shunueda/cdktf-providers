@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CoreComputeImageCapabilitySchemaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#compartment_id CoreComputeImageCapabilitySchema#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#compartment_id CoreComputeImageCapabilitySchema#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#compute_global_image_capability_schema_version_name CoreComputeImageCapabilitySchema#compute_global_image_capability_schema_version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#compute_global_image_capability_schema_version_name CoreComputeImageCapabilitySchema#compute_global_image_capability_schema_version_name}
   */
   readonly computeGlobalImageCapabilitySchemaVersionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#defined_tags CoreComputeImageCapabilitySchema#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#defined_tags CoreComputeImageCapabilitySchema#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#display_name CoreComputeImageCapabilitySchema#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#display_name CoreComputeImageCapabilitySchema#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#freeform_tags CoreComputeImageCapabilitySchema#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#freeform_tags CoreComputeImageCapabilitySchema#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#id CoreComputeImageCapabilitySchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#id CoreComputeImageCapabilitySchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#image_id CoreComputeImageCapabilitySchema#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#image_id CoreComputeImageCapabilitySchema#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#schema_data CoreComputeImageCapabilitySchema#schema_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#schema_data CoreComputeImageCapabilitySchema#schema_data}
   */
   readonly schemaData: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#timeouts CoreComputeImageCapabilitySchema#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#timeouts CoreComputeImageCapabilitySchema#timeouts}
   */
   readonly timeouts?: CoreComputeImageCapabilitySchemaTimeouts;
 }
 export interface CoreComputeImageCapabilitySchemaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#create CoreComputeImageCapabilitySchema#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#create CoreComputeImageCapabilitySchema#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#delete CoreComputeImageCapabilitySchema#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#delete CoreComputeImageCapabilitySchema#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#update CoreComputeImageCapabilitySchema#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#update CoreComputeImageCapabilitySchema#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class CoreComputeImageCapabilitySchemaTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema oci_core_compute_image_capability_schema}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema oci_core_compute_image_capability_schema}
 */
 export class CoreComputeImageCapabilitySchema extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class CoreComputeImageCapabilitySchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreComputeImageCapabilitySchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreComputeImageCapabilitySchema to import
-  * @param importFromId The id of the existing CoreComputeImageCapabilitySchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreComputeImageCapabilitySchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreComputeImageCapabilitySchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class CoreComputeImageCapabilitySchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/core_compute_image_capability_schema oci_core_compute_image_capability_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/core_compute_image_capability_schema oci_core_compute_image_capability_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class CoreComputeImageCapabilitySchema extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_compute_image_capability_schema',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OsValidInstallTargetConfig extends cdktf.TerraformMetaArguments
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#account_moid OsValidInstallTarget#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#account_moid OsValidInstallTarget#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#ancestors OsValidInstallTarget#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#ancestors OsValidInstallTarget#ancestors}
   */
   readonly ancestors?: OsValidInstallTargetAncestors[] | cdktf.IResolvable;
   /**
@@ -28,164 +28,164 @@ export interface OsValidInstallTargetConfig extends cdktf.TerraformMetaArguments
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#create_time OsValidInstallTarget#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#create_time OsValidInstallTarget#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#domain_group_moid OsValidInstallTarget#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#domain_group_moid OsValidInstallTarget#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#e1s_nvme OsValidInstallTarget#e1s_nvme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#e1s_nvme OsValidInstallTarget#e1s_nvme}
   */
   readonly e1SNvme?: OsValidInstallTargetE1SNvme[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#e3s_nvme OsValidInstallTarget#e3s_nvme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#e3s_nvme OsValidInstallTarget#e3s_nvme}
   */
   readonly e3SNvme?: OsValidInstallTargetE3SNvme[] | cdktf.IResolvable;
   /**
   * Error message if any errors are encountered while fetching and validating Install targets for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#error OsValidInstallTarget#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#error OsValidInstallTarget#error}
   */
   readonly error?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#install_targets OsValidInstallTarget#install_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#install_targets OsValidInstallTarget#install_targets}
   */
   readonly installTargets?: OsValidInstallTargetInstallTargets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#m2_jbod OsValidInstallTarget#m2_jbod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#m2_jbod OsValidInstallTarget#m2_jbod}
   */
   readonly m2Jbod?: OsValidInstallTargetM2Jbod[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#m2_nvme_raid_jbod OsValidInstallTarget#m2_nvme_raid_jbod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#m2_nvme_raid_jbod OsValidInstallTarget#m2_nvme_raid_jbod}
   */
   readonly m2NvmeRaidJbod?: OsValidInstallTargetM2NvmeRaidJbod[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#m2_nvme_raid_virtual_drives OsValidInstallTarget#m2_nvme_raid_virtual_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#m2_nvme_raid_virtual_drives OsValidInstallTarget#m2_nvme_raid_virtual_drives}
   */
   readonly m2NvmeRaidVirtualDrives?: OsValidInstallTargetM2NvmeRaidVirtualDrives[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#m2_virtual_drives OsValidInstallTarget#m2_virtual_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#m2_virtual_drives OsValidInstallTarget#m2_virtual_drives}
   */
   readonly m2VirtualDrives?: OsValidInstallTargetM2VirtualDrives[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#mod_time OsValidInstallTarget#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#mod_time OsValidInstallTarget#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#mraid_jbod OsValidInstallTarget#mraid_jbod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#mraid_jbod OsValidInstallTarget#mraid_jbod}
   */
   readonly mraidJbod?: OsValidInstallTargetMraidJbod[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#mraid_virtual_drives OsValidInstallTarget#mraid_virtual_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#mraid_virtual_drives OsValidInstallTarget#mraid_virtual_drives}
   */
   readonly mraidVirtualDrives?: OsValidInstallTargetMraidVirtualDrives[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#mstor_nvme OsValidInstallTarget#mstor_nvme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#mstor_nvme OsValidInstallTarget#mstor_nvme}
   */
   readonly mstorNvme?: OsValidInstallTargetMstorNvme[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#owners OsValidInstallTarget#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#owners OsValidInstallTarget#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#parent OsValidInstallTarget#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#parent OsValidInstallTarget#parent}
   */
   readonly parent?: OsValidInstallTargetParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#permission_resources OsValidInstallTarget#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#permission_resources OsValidInstallTarget#permission_resources}
   */
   readonly permissionResources?: OsValidInstallTargetPermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to computePhysical resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#servers OsValidInstallTarget#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#servers OsValidInstallTarget#servers}
   */
   readonly servers?: OsValidInstallTargetServers[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#shared_scope OsValidInstallTarget#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#shared_scope OsValidInstallTarget#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Flag to denote the source of the request.
   * If the call is from Orchestration UI, only the flat list of Install targets can be sent as response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#src OsValidInstallTarget#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#src OsValidInstallTarget#src}
   */
   readonly src?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#tags OsValidInstallTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#tags OsValidInstallTarget#tags}
   */
   readonly tags?: OsValidInstallTargetTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#u2_nvme OsValidInstallTarget#u2_nvme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#u2_nvme OsValidInstallTarget#u2_nvme}
   */
   readonly u2Nvme?: OsValidInstallTargetU2Nvme[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#version_context OsValidInstallTarget#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#version_context OsValidInstallTarget#version_context}
   */
   readonly versionContext?: OsValidInstallTargetVersionContext[] | cdktf.IResolvable;
 }
 export interface OsValidInstallTargetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -417,23 +417,23 @@ export class OsValidInstallTargetAncestorsList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetE1SNvmeSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -665,35 +665,35 @@ export class OsValidInstallTargetE1SNvmeSourceMoList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetE1SNvme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetE1SNvmeSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -1012,23 +1012,23 @@ export class OsValidInstallTargetE1SNvmeList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetE3SNvmeSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -1260,35 +1260,35 @@ export class OsValidInstallTargetE3SNvmeSourceMoList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetE3SNvme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetE3SNvmeSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -1607,23 +1607,23 @@ export class OsValidInstallTargetE3SNvmeList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetInstallTargetsSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -1855,19 +1855,19 @@ export class OsValidInstallTargetInstallTargetsSourceMoList extends cdktf.Comple
 }
 export interface OsValidInstallTargetInstallTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetInstallTargetsSourceMo[] | cdktf.IResolvable;
 }
@@ -2070,23 +2070,23 @@ export class OsValidInstallTargetInstallTargetsList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetM2JbodSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2318,35 +2318,35 @@ export class OsValidInstallTargetM2JbodSourceMoList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetM2Jbod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetM2JbodSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -2665,23 +2665,23 @@ export class OsValidInstallTargetM2JbodList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetM2NvmeRaidJbodSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2913,35 +2913,35 @@ export class OsValidInstallTargetM2NvmeRaidJbodSourceMoList extends cdktf.Comple
 }
 export interface OsValidInstallTargetM2NvmeRaidJbod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetM2NvmeRaidJbodSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -3260,23 +3260,23 @@ export class OsValidInstallTargetM2NvmeRaidJbodList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetM2NvmeRaidVirtualDrivesSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3508,38 +3508,38 @@ export class OsValidInstallTargetM2NvmeRaidVirtualDrivesSourceMoList extends cdk
 }
 export interface OsValidInstallTargetM2NvmeRaidVirtualDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetM2NvmeRaidVirtualDrivesSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -3858,23 +3858,23 @@ export class OsValidInstallTargetM2NvmeRaidVirtualDrivesList extends cdktf.Compl
 }
 export interface OsValidInstallTargetM2VirtualDrivesSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4106,38 +4106,38 @@ export class OsValidInstallTargetM2VirtualDrivesSourceMoList extends cdktf.Compl
 }
 export interface OsValidInstallTargetM2VirtualDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetM2VirtualDrivesSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -4456,23 +4456,23 @@ export class OsValidInstallTargetM2VirtualDrivesList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetMraidJbodSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4704,35 +4704,35 @@ export class OsValidInstallTargetMraidJbodSourceMoList extends cdktf.ComplexList
 }
 export interface OsValidInstallTargetMraidJbod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetMraidJbodSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -5051,23 +5051,23 @@ export class OsValidInstallTargetMraidJbodList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetMraidVirtualDrivesSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -5299,38 +5299,38 @@ export class OsValidInstallTargetMraidVirtualDrivesSourceMoList extends cdktf.Co
 }
 export interface OsValidInstallTargetMraidVirtualDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#id OsValidInstallTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetMraidVirtualDrivesSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -5649,23 +5649,23 @@ export class OsValidInstallTargetMraidVirtualDrivesList extends cdktf.ComplexLis
 }
 export interface OsValidInstallTargetMstorNvmeSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -5897,35 +5897,35 @@ export class OsValidInstallTargetMstorNvmeSourceMoList extends cdktf.ComplexList
 }
 export interface OsValidInstallTargetMstorNvme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetMstorNvmeSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -6244,23 +6244,23 @@ export class OsValidInstallTargetMstorNvmeList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -6492,23 +6492,23 @@ export class OsValidInstallTargetParentList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -6740,23 +6740,23 @@ export class OsValidInstallTargetPermissionResourcesList extends cdktf.ComplexLi
 }
 export interface OsValidInstallTargetServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -6988,23 +6988,23 @@ export class OsValidInstallTargetServersList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -7236,23 +7236,23 @@ export class OsValidInstallTargetTagsAncestorDefinitionsList extends cdktf.Compl
 }
 export interface OsValidInstallTargetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -7484,31 +7484,35 @@ export class OsValidInstallTargetTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#ancestor_definitions OsValidInstallTarget#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#ancestor_definitions OsValidInstallTarget#ancestor_definitions}
   */
   readonly ancestorDefinitions?: OsValidInstallTargetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#definition OsValidInstallTarget#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#definition OsValidInstallTarget#definition}
   */
   readonly definition?: OsValidInstallTargetTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#key OsValidInstallTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#key OsValidInstallTarget#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#propagated OsValidInstallTarget#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#propagated OsValidInstallTarget#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#type OsValidInstallTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#sys_tag OsValidInstallTarget#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#type OsValidInstallTarget#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#value OsValidInstallTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#value OsValidInstallTarget#value}
   */
   readonly value?: string;
 }
@@ -7524,6 +7528,7 @@ export function osValidInstallTargetTagsToTerraform(struct?: OsValidInstallTarge
     definition: cdktf.listMapper(osValidInstallTargetTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -7562,6 +7567,12 @@ export function osValidInstallTargetTagsToHclTerraform(struct?: OsValidInstallTa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7624,6 +7635,10 @@ export class OsValidInstallTargetTagsOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -7644,6 +7659,7 @@ export class OsValidInstallTargetTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -7659,6 +7675,7 @@ export class OsValidInstallTargetTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -7744,6 +7761,22 @@ export class OsValidInstallTargetTagsOutputReference extends cdktf.ComplexObject
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -7798,23 +7831,23 @@ export class OsValidInstallTargetTagsList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetU2NvmeSourceMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -8046,35 +8079,35 @@ export class OsValidInstallTargetU2NvmeSourceMoList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetU2Nvme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#bootable OsValidInstallTarget#bootable}
   */
   readonly bootable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#name OsValidInstallTarget#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#serial_number OsValidInstallTarget#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#source_mo OsValidInstallTarget#source_mo}
   */
   readonly sourceMo?: OsValidInstallTargetU2NvmeSourceMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#storage_controller_slot_id OsValidInstallTarget#storage_controller_slot_id}
   */
   readonly storageControllerSlotId?: string;
 }
@@ -8393,23 +8426,23 @@ export class OsValidInstallTargetU2NvmeList extends cdktf.ComplexList {
 }
 export interface OsValidInstallTargetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -8641,23 +8674,23 @@ export class OsValidInstallTargetVersionContextInterestedMosList extends cdktf.C
 }
 export interface OsValidInstallTargetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#moid OsValidInstallTarget#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#selector OsValidInstallTarget#selector}
   */
   readonly selector?: string;
 }
@@ -8889,39 +8922,39 @@ export class OsValidInstallTargetVersionContextRefMoList extends cdktf.ComplexLi
 }
 export interface OsValidInstallTargetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#additional_properties OsValidInstallTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#class_id OsValidInstallTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#interested_mos OsValidInstallTarget#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#interested_mos OsValidInstallTarget#interested_mos}
   */
   readonly interestedMos?: OsValidInstallTargetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#marked_for_deletion OsValidInstallTarget#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#marked_for_deletion OsValidInstallTarget#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#nr_version OsValidInstallTarget#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#nr_version OsValidInstallTarget#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#object_type OsValidInstallTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#ref_mo OsValidInstallTarget#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#ref_mo OsValidInstallTarget#ref_mo}
   */
   readonly refMo?: OsValidInstallTargetVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#timestamp OsValidInstallTarget#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#timestamp OsValidInstallTarget#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#version_type OsValidInstallTarget#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#version_type OsValidInstallTarget#version_type}
   */
   readonly versionType?: string;
 }
@@ -9269,7 +9302,7 @@ export class OsValidInstallTargetVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target intersight_os_valid_install_target}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target intersight_os_valid_install_target}
 */
 export class OsValidInstallTarget extends cdktf.TerraformResource {
 
@@ -9285,7 +9318,7 @@ export class OsValidInstallTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsValidInstallTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsValidInstallTarget to import
-  * @param importFromId The id of the existing OsValidInstallTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsValidInstallTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsValidInstallTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9297,7 +9330,7 @@ export class OsValidInstallTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/os_valid_install_target intersight_os_valid_install_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_valid_install_target intersight_os_valid_install_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9308,8 +9341,8 @@ export class OsValidInstallTarget extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_os_valid_install_target',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

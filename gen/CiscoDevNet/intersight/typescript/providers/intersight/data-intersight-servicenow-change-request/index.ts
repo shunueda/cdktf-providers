@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataIntersightServicenowChangeRequestConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#account_moid DataIntersightServicenowChangeRequest#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#account_moid DataIntersightServicenowChangeRequest#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The approver of Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#approval DataIntersightServicenowChangeRequest#approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#approval DataIntersightServicenowChangeRequest#approval}
   */
   readonly approval?: string;
   /**
   * Assigned to value for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#assigned_to DataIntersightServicenowChangeRequest#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#assigned_to DataIntersightServicenowChangeRequest#assigned_to}
   */
   readonly assignedTo?: string;
   /**
   * Assigned to display value for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#assigned_to_display_value DataIntersightServicenowChangeRequest#assigned_to_display_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#assigned_to_display_value DataIntersightServicenowChangeRequest#assigned_to_display_value}
   */
   readonly assignedToDisplayValue?: string;
   /**
   * Change Model for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#change_model DataIntersightServicenowChangeRequest#change_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#change_model DataIntersightServicenowChangeRequest#change_model}
   */
   readonly changeModel?: string;
   /**
   * Change Model display value for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#change_model_display_value DataIntersightServicenowChangeRequest#change_model_display_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#change_model_display_value DataIntersightServicenowChangeRequest#change_model_display_value}
   */
   readonly changeModelDisplayValue?: string;
   /**
   * Number for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#change_request_number DataIntersightServicenowChangeRequest#change_request_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#change_request_number DataIntersightServicenowChangeRequest#change_request_number}
   */
   readonly changeRequestNumber?: string;
   /**
@@ -58,53 +58,53 @@ export interface DataIntersightServicenowChangeRequestConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * Comments on Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#comments DataIntersightServicenowChangeRequest#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#comments DataIntersightServicenowChangeRequest#comments}
   */
   readonly comments?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#create_time DataIntersightServicenowChangeRequest#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#create_time DataIntersightServicenowChangeRequest#create_time}
   */
   readonly createTime?: string;
   /**
   * Creator of Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#created_by DataIntersightServicenowChangeRequest#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#created_by DataIntersightServicenowChangeRequest#created_by}
   */
   readonly createdBy?: string;
   /**
   * Description for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#description DataIntersightServicenowChangeRequest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#description DataIntersightServicenowChangeRequest#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#domain_group_moid DataIntersightServicenowChangeRequest#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#domain_group_moid DataIntersightServicenowChangeRequest#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Due date for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#due_date DataIntersightServicenowChangeRequest#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#due_date DataIntersightServicenowChangeRequest#due_date}
   */
   readonly dueDate?: string;
   /**
   * End date for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#end_date DataIntersightServicenowChangeRequest#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#end_date DataIntersightServicenowChangeRequest#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#id DataIntersightServicenowChangeRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#id DataIntersightServicenowChangeRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,127 +113,127 @@ export interface DataIntersightServicenowChangeRequestConfig extends cdktf.Terra
   /**
   * Impact for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#impact DataIntersightServicenowChangeRequest#impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#impact DataIntersightServicenowChangeRequest#impact}
   */
   readonly impact?: string;
   /**
   * Impact display value for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#impact_display_value DataIntersightServicenowChangeRequest#impact_display_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#impact_display_value DataIntersightServicenowChangeRequest#impact_display_value}
   */
   readonly impactDisplayValue?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#mod_time DataIntersightServicenowChangeRequest#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#mod_time DataIntersightServicenowChangeRequest#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#owners DataIntersightServicenowChangeRequest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#owners DataIntersightServicenowChangeRequest#owners}
   */
   readonly owners?: string[];
   /**
   * Priority for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#priority DataIntersightServicenowChangeRequest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#priority DataIntersightServicenowChangeRequest#priority}
   */
   readonly priority?: string;
   /**
   * Priority display value for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#priority_display_value DataIntersightServicenowChangeRequest#priority_display_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#priority_display_value DataIntersightServicenowChangeRequest#priority_display_value}
   */
   readonly priorityDisplayValue?: string;
   /**
   * The risk for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#risk DataIntersightServicenowChangeRequest#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#risk DataIntersightServicenowChangeRequest#risk}
   */
   readonly risk?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#shared_scope DataIntersightServicenowChangeRequest#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#shared_scope DataIntersightServicenowChangeRequest#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Short Description for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#short_description DataIntersightServicenowChangeRequest#short_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#short_description DataIntersightServicenowChangeRequest#short_description}
   */
   readonly shortDescription?: string;
   /**
   * Start date for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#start_date DataIntersightServicenowChangeRequest#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#start_date DataIntersightServicenowChangeRequest#start_date}
   */
   readonly startDate?: string;
   /**
   * Sys Id for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#sys_id DataIntersightServicenowChangeRequest#sys_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#sys_id DataIntersightServicenowChangeRequest#sys_id}
   */
   readonly sysId?: string;
   /**
   * The type for Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#type DataIntersightServicenowChangeRequest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#type DataIntersightServicenowChangeRequest#type}
   */
   readonly type?: string;
   /**
   * Last update Change Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#updated_by DataIntersightServicenowChangeRequest#updated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#updated_by DataIntersightServicenowChangeRequest#updated_by}
   */
   readonly updatedBy?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#ancestors DataIntersightServicenowChangeRequest#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#ancestors DataIntersightServicenowChangeRequest#ancestors}
   */
   readonly ancestors?: DataIntersightServicenowChangeRequestAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#parent DataIntersightServicenowChangeRequest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#parent DataIntersightServicenowChangeRequest#parent}
   */
   readonly parent?: DataIntersightServicenowChangeRequestParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#permission_resources DataIntersightServicenowChangeRequest#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#permission_resources DataIntersightServicenowChangeRequest#permission_resources}
   */
   readonly permissionResources?: DataIntersightServicenowChangeRequestPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#registered_device DataIntersightServicenowChangeRequest#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#registered_device DataIntersightServicenowChangeRequest#registered_device}
   */
   readonly registeredDevice?: DataIntersightServicenowChangeRequestRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#tags DataIntersightServicenowChangeRequest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#tags DataIntersightServicenowChangeRequest#tags}
   */
   readonly tags?: DataIntersightServicenowChangeRequestTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#version_context DataIntersightServicenowChangeRequest#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#version_context DataIntersightServicenowChangeRequest#version_context}
   */
   readonly versionContext?: DataIntersightServicenowChangeRequestVersionContext;
 }
@@ -885,6 +885,11 @@ export class DataIntersightServicenowChangeRequestResultsTagsOutputReference ext
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1484,7 +1489,7 @@ export class DataIntersightServicenowChangeRequestResultsList extends cdktf.Comp
 }
 export interface DataIntersightServicenowChangeRequestAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1492,19 +1497,19 @@ export interface DataIntersightServicenowChangeRequestAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1517,7 +1522,7 @@ export interface DataIntersightServicenowChangeRequestAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1749,7 +1754,7 @@ export class DataIntersightServicenowChangeRequestAncestorsList extends cdktf.Co
 }
 export interface DataIntersightServicenowChangeRequestParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1757,19 +1762,19 @@ export interface DataIntersightServicenowChangeRequestParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1782,7 +1787,7 @@ export interface DataIntersightServicenowChangeRequestParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1982,7 +1987,7 @@ export class DataIntersightServicenowChangeRequestParentOutputReference extends 
 }
 export interface DataIntersightServicenowChangeRequestPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1990,19 +1995,19 @@ export interface DataIntersightServicenowChangeRequestPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2015,7 +2020,7 @@ export interface DataIntersightServicenowChangeRequestPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2247,7 +2252,7 @@ export class DataIntersightServicenowChangeRequestPermissionResourcesList extend
 }
 export interface DataIntersightServicenowChangeRequestRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2255,19 +2260,19 @@ export interface DataIntersightServicenowChangeRequestRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2280,7 +2285,7 @@ export interface DataIntersightServicenowChangeRequestRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2480,7 +2485,7 @@ export class DataIntersightServicenowChangeRequestRegisteredDeviceOutputReferenc
 }
 export interface DataIntersightServicenowChangeRequestTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2488,19 +2493,19 @@ export interface DataIntersightServicenowChangeRequestTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2513,7 +2518,7 @@ export interface DataIntersightServicenowChangeRequestTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2745,7 +2750,7 @@ export class DataIntersightServicenowChangeRequestTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightServicenowChangeRequestTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2753,19 +2758,19 @@ export interface DataIntersightServicenowChangeRequestTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2778,7 +2783,7 @@ export interface DataIntersightServicenowChangeRequestTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2978,45 +2983,51 @@ export class DataIntersightServicenowChangeRequestTagsDefinitionOutputReference 
 }
 export interface DataIntersightServicenowChangeRequestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#key DataIntersightServicenowChangeRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#key DataIntersightServicenowChangeRequest#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#propagated DataIntersightServicenowChangeRequest#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#propagated DataIntersightServicenowChangeRequest#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#sys_tag DataIntersightServicenowChangeRequest#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#type DataIntersightServicenowChangeRequest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#type DataIntersightServicenowChangeRequest#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#value DataIntersightServicenowChangeRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#value DataIntersightServicenowChangeRequest#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#ancestor_definitions DataIntersightServicenowChangeRequest#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#ancestor_definitions DataIntersightServicenowChangeRequest#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightServicenowChangeRequestTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#definition DataIntersightServicenowChangeRequest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#definition DataIntersightServicenowChangeRequest#definition}
   */
   readonly definition?: DataIntersightServicenowChangeRequestTagsDefinition;
 }
@@ -3030,6 +3041,7 @@ export function dataIntersightServicenowChangeRequestTagsToTerraform(struct?: Da
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightServicenowChangeRequestTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3058,6 +3070,12 @@ export function dataIntersightServicenowChangeRequestTagsToHclTerraform(struct?:
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3124,6 +3142,10 @@ export class DataIntersightServicenowChangeRequestTagsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3150,6 +3172,7 @@ export class DataIntersightServicenowChangeRequestTagsOutputReference extends cd
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3165,6 +3188,7 @@ export class DataIntersightServicenowChangeRequestTagsOutputReference extends cd
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3218,6 +3242,22 @@ export class DataIntersightServicenowChangeRequestTagsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3306,7 +3346,7 @@ export class DataIntersightServicenowChangeRequestTagsList extends cdktf.Complex
 }
 export interface DataIntersightServicenowChangeRequestVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3314,19 +3354,19 @@ export interface DataIntersightServicenowChangeRequestVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3339,7 +3379,7 @@ export interface DataIntersightServicenowChangeRequestVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -3571,7 +3611,7 @@ export class DataIntersightServicenowChangeRequestVersionContextInterestedMosLis
 }
 export interface DataIntersightServicenowChangeRequestVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3579,19 +3619,19 @@ export interface DataIntersightServicenowChangeRequestVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#moid DataIntersightServicenowChangeRequest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3604,7 +3644,7 @@ export interface DataIntersightServicenowChangeRequestVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#selector DataIntersightServicenowChangeRequest#selector}
   */
   readonly selector?: string;
 }
@@ -3804,7 +3844,7 @@ export class DataIntersightServicenowChangeRequestVersionContextRefMoOutputRefer
 }
 export interface DataIntersightServicenowChangeRequestVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#additional_properties DataIntersightServicenowChangeRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3812,32 +3852,32 @@ export interface DataIntersightServicenowChangeRequestVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#class_id DataIntersightServicenowChangeRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#marked_for_deletion DataIntersightServicenowChangeRequest#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#marked_for_deletion DataIntersightServicenowChangeRequest#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#nr_version DataIntersightServicenowChangeRequest#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#nr_version DataIntersightServicenowChangeRequest#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#object_type DataIntersightServicenowChangeRequest#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#timestamp DataIntersightServicenowChangeRequest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#timestamp DataIntersightServicenowChangeRequest#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3848,19 +3888,19 @@ export interface DataIntersightServicenowChangeRequestVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#version_type DataIntersightServicenowChangeRequest#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#version_type DataIntersightServicenowChangeRequest#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#interested_mos DataIntersightServicenowChangeRequest#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#interested_mos DataIntersightServicenowChangeRequest#interested_mos}
   */
   readonly interestedMos?: DataIntersightServicenowChangeRequestVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#ref_mo DataIntersightServicenowChangeRequest#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#ref_mo DataIntersightServicenowChangeRequest#ref_mo}
   */
   readonly refMo?: DataIntersightServicenowChangeRequestVersionContextRefMo;
 }
@@ -4176,7 +4216,7 @@ export class DataIntersightServicenowChangeRequestVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request intersight_servicenow_change_request}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request intersight_servicenow_change_request}
 */
 export class DataIntersightServicenowChangeRequest extends cdktf.TerraformDataSource {
 
@@ -4192,7 +4232,7 @@ export class DataIntersightServicenowChangeRequest extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightServicenowChangeRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightServicenowChangeRequest to import
-  * @param importFromId The id of the existing DataIntersightServicenowChangeRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightServicenowChangeRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightServicenowChangeRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4204,7 +4244,7 @@ export class DataIntersightServicenowChangeRequest extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/servicenow_change_request intersight_servicenow_change_request} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/servicenow_change_request intersight_servicenow_change_request} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4215,8 +4255,8 @@ export class DataIntersightServicenowChangeRequest extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_servicenow_change_request',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

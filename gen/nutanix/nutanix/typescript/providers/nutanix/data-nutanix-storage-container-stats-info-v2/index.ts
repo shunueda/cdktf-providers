@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixStorageContainerStatsInfoV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#end_time DataNutanixStorageContainerStatsInfoV2#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#end_time DataNutanixStorageContainerStatsInfoV2#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#ext_id DataNutanixStorageContainerStatsInfoV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#ext_id DataNutanixStorageContainerStatsInfoV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#id DataNutanixStorageContainerStatsInfoV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#id DataNutanixStorageContainerStatsInfoV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#sampling_interval DataNutanixStorageContainerStatsInfoV2#sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#sampling_interval DataNutanixStorageContainerStatsInfoV2#sampling_interval}
   */
   readonly samplingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#start_time DataNutanixStorageContainerStatsInfoV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#start_time DataNutanixStorageContainerStatsInfoV2#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#stat_type DataNutanixStorageContainerStatsInfoV2#stat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#stat_type DataNutanixStorageContainerStatsInfoV2#stat_type}
   */
   readonly statType?: string;
 }
@@ -2677,7 +2677,7 @@ export class DataNutanixStorageContainerStatsInfoV2StorageUsageBytesList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2 nutanix_storage_container_stats_info_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2 nutanix_storage_container_stats_info_v2}
 */
 export class DataNutanixStorageContainerStatsInfoV2 extends cdktf.TerraformDataSource {
 
@@ -2693,7 +2693,7 @@ export class DataNutanixStorageContainerStatsInfoV2 extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataNutanixStorageContainerStatsInfoV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixStorageContainerStatsInfoV2 to import
-  * @param importFromId The id of the existing DataNutanixStorageContainerStatsInfoV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixStorageContainerStatsInfoV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixStorageContainerStatsInfoV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2705,7 +2705,7 @@ export class DataNutanixStorageContainerStatsInfoV2 extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/storage_container_stats_info_v2 nutanix_storage_container_stats_info_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/storage_container_stats_info_v2 nutanix_storage_container_stats_info_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2716,8 +2716,8 @@ export class DataNutanixStorageContainerStatsInfoV2 extends cdktf.TerraformDataS
       terraformResourceType: 'nutanix_storage_container_stats_info_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

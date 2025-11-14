@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementCloudClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#cloud_db_system_id DataOciDatabaseManagementCloudClusters#cloud_db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#cloud_db_system_id DataOciDatabaseManagementCloudClusters#cloud_db_system_id}
   */
   readonly cloudDbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#compartment_id DataOciDatabaseManagementCloudClusters#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#compartment_id DataOciDatabaseManagementCloudClusters#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#display_name DataOciDatabaseManagementCloudClusters#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#display_name DataOciDatabaseManagementCloudClusters#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#id DataOciDatabaseManagementCloudClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#id DataOciDatabaseManagementCloudClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataOciDatabaseManagementCloudClustersConfig extends cdktf.Terr
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#filter DataOciDatabaseManagementCloudClusters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#filter DataOciDatabaseManagementCloudClusters#filter}
   */
   readonly filter?: DataOciDatabaseManagementCloudClustersFilter[] | cdktf.IResolvable;
 }
@@ -563,15 +563,15 @@ export class DataOciDatabaseManagementCloudClustersCloudClusterCollectionList ex
 }
 export interface DataOciDatabaseManagementCloudClustersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#name DataOciDatabaseManagementCloudClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#name DataOciDatabaseManagementCloudClusters#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#regex DataOciDatabaseManagementCloudClusters#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#regex DataOciDatabaseManagementCloudClusters#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#values DataOciDatabaseManagementCloudClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#values DataOciDatabaseManagementCloudClusters#values}
   */
   readonly values: string[];
 }
@@ -739,7 +739,7 @@ export class DataOciDatabaseManagementCloudClustersFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters oci_database_management_cloud_clusters}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters oci_database_management_cloud_clusters}
 */
 export class DataOciDatabaseManagementCloudClusters extends cdktf.TerraformDataSource {
 
@@ -755,7 +755,7 @@ export class DataOciDatabaseManagementCloudClusters extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDatabaseManagementCloudClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementCloudClusters to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementCloudClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementCloudClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementCloudClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -767,7 +767,7 @@ export class DataOciDatabaseManagementCloudClusters extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_clusters oci_database_management_cloud_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_clusters oci_database_management_cloud_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -778,8 +778,8 @@ export class DataOciDatabaseManagementCloudClusters extends cdktf.TerraformDataS
       terraformResourceType: 'oci_database_management_cloud_clusters',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

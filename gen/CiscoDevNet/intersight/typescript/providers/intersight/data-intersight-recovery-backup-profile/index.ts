@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightRecoveryBackupProfileConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#account_moid DataIntersightRecoveryBackupProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#account_moid DataIntersightRecoveryBackupProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#action DataIntersightRecoveryBackupProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#action DataIntersightRecoveryBackupProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,39 +28,39 @@ export interface DataIntersightRecoveryBackupProfileConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#create_time DataIntersightRecoveryBackupProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#create_time DataIntersightRecoveryBackupProfile#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#deployed_policies DataIntersightRecoveryBackupProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#deployed_policies DataIntersightRecoveryBackupProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#description DataIntersightRecoveryBackupProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#description DataIntersightRecoveryBackupProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#domain_group_moid DataIntersightRecoveryBackupProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#domain_group_moid DataIntersightRecoveryBackupProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enables/Disables the schedule on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#enabled DataIntersightRecoveryBackupProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#enabled DataIntersightRecoveryBackupProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#id DataIntersightRecoveryBackupProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#id DataIntersightRecoveryBackupProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,138 +69,138 @@ export interface DataIntersightRecoveryBackupProfileConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#mod_time DataIntersightRecoveryBackupProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#mod_time DataIntersightRecoveryBackupProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#name DataIntersightRecoveryBackupProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#name DataIntersightRecoveryBackupProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#owners DataIntersightRecoveryBackupProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#owners DataIntersightRecoveryBackupProfile#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#removed_policies DataIntersightRecoveryBackupProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#removed_policies DataIntersightRecoveryBackupProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#shared_scope DataIntersightRecoveryBackupProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#shared_scope DataIntersightRecoveryBackupProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#type DataIntersightRecoveryBackupProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#type DataIntersightRecoveryBackupProfile#type}
   */
   readonly type?: string;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#action_params DataIntersightRecoveryBackupProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#action_params DataIntersightRecoveryBackupProfile#action_params}
   */
   readonly actionParams?: DataIntersightRecoveryBackupProfileActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#ancestors DataIntersightRecoveryBackupProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#ancestors DataIntersightRecoveryBackupProfile#ancestors}
   */
   readonly ancestors?: DataIntersightRecoveryBackupProfileAncestors[] | cdktf.IResolvable;
   /**
   * backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#backup_config DataIntersightRecoveryBackupProfile#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#backup_config DataIntersightRecoveryBackupProfile#backup_config}
   */
   readonly backupConfig?: DataIntersightRecoveryBackupProfileBackupConfig;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#config_context DataIntersightRecoveryBackupProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#config_context DataIntersightRecoveryBackupProfile#config_context}
   */
   readonly configContext?: DataIntersightRecoveryBackupProfileConfigContext;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#config_result DataIntersightRecoveryBackupProfile#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#config_result DataIntersightRecoveryBackupProfile#config_result}
   */
   readonly configResult?: DataIntersightRecoveryBackupProfileConfigResult;
   /**
   * device_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#device_id DataIntersightRecoveryBackupProfile#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#device_id DataIntersightRecoveryBackupProfile#device_id}
   */
   readonly deviceId?: DataIntersightRecoveryBackupProfileDeviceId;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#organization DataIntersightRecoveryBackupProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#organization DataIntersightRecoveryBackupProfile#organization}
   */
   readonly organization?: DataIntersightRecoveryBackupProfileOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#parent DataIntersightRecoveryBackupProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#parent DataIntersightRecoveryBackupProfile#parent}
   */
   readonly parent?: DataIntersightRecoveryBackupProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#permission_resources DataIntersightRecoveryBackupProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#permission_resources DataIntersightRecoveryBackupProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecoveryBackupProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#policy_bucket DataIntersightRecoveryBackupProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#policy_bucket DataIntersightRecoveryBackupProfile#policy_bucket}
   */
   readonly policyBucket?: DataIntersightRecoveryBackupProfilePolicyBucket[] | cdktf.IResolvable;
   /**
   * schedule_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#schedule_config DataIntersightRecoveryBackupProfile#schedule_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#schedule_config DataIntersightRecoveryBackupProfile#schedule_config}
   */
   readonly scheduleConfig?: DataIntersightRecoveryBackupProfileScheduleConfig;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#scheduled_actions DataIntersightRecoveryBackupProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#scheduled_actions DataIntersightRecoveryBackupProfile#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightRecoveryBackupProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#src_template DataIntersightRecoveryBackupProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#src_template DataIntersightRecoveryBackupProfile#src_template}
   */
   readonly srcTemplate?: DataIntersightRecoveryBackupProfileSrcTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#tags DataIntersightRecoveryBackupProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#tags DataIntersightRecoveryBackupProfile#tags}
   */
   readonly tags?: DataIntersightRecoveryBackupProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#version_context DataIntersightRecoveryBackupProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#version_context DataIntersightRecoveryBackupProfile#version_context}
   */
   readonly versionContext?: DataIntersightRecoveryBackupProfileVersionContext;
 }
@@ -1823,6 +1823,11 @@ export class DataIntersightRecoveryBackupProfileResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2406,7 +2411,7 @@ export class DataIntersightRecoveryBackupProfileResultsList extends cdktf.Comple
 }
 export interface DataIntersightRecoveryBackupProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2414,26 +2419,26 @@ export interface DataIntersightRecoveryBackupProfileActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#name DataIntersightRecoveryBackupProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#name DataIntersightRecoveryBackupProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#value DataIntersightRecoveryBackupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#value DataIntersightRecoveryBackupProfile#value}
   */
   readonly value?: string;
 }
@@ -2665,7 +2670,7 @@ export class DataIntersightRecoveryBackupProfileActionParamsList extends cdktf.C
 }
 export interface DataIntersightRecoveryBackupProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2673,19 +2678,19 @@ export interface DataIntersightRecoveryBackupProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2698,7 +2703,7 @@ export interface DataIntersightRecoveryBackupProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2930,7 +2935,7 @@ export class DataIntersightRecoveryBackupProfileAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightRecoveryBackupProfileBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2938,19 +2943,19 @@ export interface DataIntersightRecoveryBackupProfileBackupConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2963,7 +2968,7 @@ export interface DataIntersightRecoveryBackupProfileBackupConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3163,7 +3168,7 @@ export class DataIntersightRecoveryBackupProfileBackupConfigOutputReference exte
 }
 export interface DataIntersightRecoveryBackupProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3171,13 +3176,13 @@ export interface DataIntersightRecoveryBackupProfileConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#config_state DataIntersightRecoveryBackupProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#config_state DataIntersightRecoveryBackupProfile#config_state}
   */
   readonly configState?: string;
   /**
@@ -3198,42 +3203,42 @@ export interface DataIntersightRecoveryBackupProfileConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#config_state_summary DataIntersightRecoveryBackupProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#config_state_summary DataIntersightRecoveryBackupProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#config_type DataIntersightRecoveryBackupProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#config_type DataIntersightRecoveryBackupProfile#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#control_action DataIntersightRecoveryBackupProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#control_action DataIntersightRecoveryBackupProfile#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#error_state DataIntersightRecoveryBackupProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#error_state DataIntersightRecoveryBackupProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#inconsistency_reason DataIntersightRecoveryBackupProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#inconsistency_reason DataIntersightRecoveryBackupProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#oper_state DataIntersightRecoveryBackupProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#oper_state DataIntersightRecoveryBackupProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -3578,7 +3583,7 @@ export class DataIntersightRecoveryBackupProfileConfigContextOutputReference ext
 }
 export interface DataIntersightRecoveryBackupProfileConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3586,19 +3591,19 @@ export interface DataIntersightRecoveryBackupProfileConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3611,7 +3616,7 @@ export interface DataIntersightRecoveryBackupProfileConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3811,7 +3816,7 @@ export class DataIntersightRecoveryBackupProfileConfigResultOutputReference exte
 }
 export interface DataIntersightRecoveryBackupProfileDeviceId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3819,19 +3824,19 @@ export interface DataIntersightRecoveryBackupProfileDeviceId {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3844,7 +3849,7 @@ export interface DataIntersightRecoveryBackupProfileDeviceId {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4044,7 +4049,7 @@ export class DataIntersightRecoveryBackupProfileDeviceIdOutputReference extends 
 }
 export interface DataIntersightRecoveryBackupProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4052,19 +4057,19 @@ export interface DataIntersightRecoveryBackupProfileOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4077,7 +4082,7 @@ export interface DataIntersightRecoveryBackupProfileOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4277,7 +4282,7 @@ export class DataIntersightRecoveryBackupProfileOrganizationOutputReference exte
 }
 export interface DataIntersightRecoveryBackupProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4285,19 +4290,19 @@ export interface DataIntersightRecoveryBackupProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4310,7 +4315,7 @@ export interface DataIntersightRecoveryBackupProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4510,7 +4515,7 @@ export class DataIntersightRecoveryBackupProfileParentOutputReference extends cd
 }
 export interface DataIntersightRecoveryBackupProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4518,19 +4523,19 @@ export interface DataIntersightRecoveryBackupProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4543,7 +4548,7 @@ export interface DataIntersightRecoveryBackupProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4775,7 +4780,7 @@ export class DataIntersightRecoveryBackupProfilePermissionResourcesList extends 
 }
 export interface DataIntersightRecoveryBackupProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4783,19 +4788,19 @@ export interface DataIntersightRecoveryBackupProfilePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4808,7 +4813,7 @@ export interface DataIntersightRecoveryBackupProfilePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5040,7 +5045,7 @@ export class DataIntersightRecoveryBackupProfilePolicyBucketList extends cdktf.C
 }
 export interface DataIntersightRecoveryBackupProfileScheduleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5048,19 +5053,19 @@ export interface DataIntersightRecoveryBackupProfileScheduleConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5073,7 +5078,7 @@ export interface DataIntersightRecoveryBackupProfileScheduleConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5273,7 +5278,7 @@ export class DataIntersightRecoveryBackupProfileScheduleConfigOutputReference ex
 }
 export interface DataIntersightRecoveryBackupProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5282,7 +5287,7 @@ export interface DataIntersightRecoveryBackupProfileScheduledActionsActionQualif
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -5290,7 +5295,7 @@ export interface DataIntersightRecoveryBackupProfileScheduledActionsActionQualif
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -5434,11 +5439,11 @@ export interface DataIntersightRecoveryBackupProfileScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#action DataIntersightRecoveryBackupProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#action DataIntersightRecoveryBackupProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5446,26 +5451,26 @@ export interface DataIntersightRecoveryBackupProfileScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#proceed_on_reboot DataIntersightRecoveryBackupProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#proceed_on_reboot DataIntersightRecoveryBackupProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#action_qualifier DataIntersightRecoveryBackupProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#action_qualifier DataIntersightRecoveryBackupProfile#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightRecoveryBackupProfileScheduledActionsActionQualifier;
 }
@@ -5726,7 +5731,7 @@ export class DataIntersightRecoveryBackupProfileScheduledActionsList extends cdk
 }
 export interface DataIntersightRecoveryBackupProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5734,19 +5739,19 @@ export interface DataIntersightRecoveryBackupProfileSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5759,7 +5764,7 @@ export interface DataIntersightRecoveryBackupProfileSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5959,7 +5964,7 @@ export class DataIntersightRecoveryBackupProfileSrcTemplateOutputReference exten
 }
 export interface DataIntersightRecoveryBackupProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5967,19 +5972,19 @@ export interface DataIntersightRecoveryBackupProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5992,7 +5997,7 @@ export interface DataIntersightRecoveryBackupProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6224,7 +6229,7 @@ export class DataIntersightRecoveryBackupProfileTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightRecoveryBackupProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6232,19 +6237,19 @@ export interface DataIntersightRecoveryBackupProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6257,7 +6262,7 @@ export interface DataIntersightRecoveryBackupProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6457,45 +6462,51 @@ export class DataIntersightRecoveryBackupProfileTagsDefinitionOutputReference ex
 }
 export interface DataIntersightRecoveryBackupProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#key DataIntersightRecoveryBackupProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#key DataIntersightRecoveryBackupProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#propagated DataIntersightRecoveryBackupProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#propagated DataIntersightRecoveryBackupProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#sys_tag DataIntersightRecoveryBackupProfile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#type DataIntersightRecoveryBackupProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#type DataIntersightRecoveryBackupProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#value DataIntersightRecoveryBackupProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#value DataIntersightRecoveryBackupProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#ancestor_definitions DataIntersightRecoveryBackupProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#ancestor_definitions DataIntersightRecoveryBackupProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecoveryBackupProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#definition DataIntersightRecoveryBackupProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#definition DataIntersightRecoveryBackupProfile#definition}
   */
   readonly definition?: DataIntersightRecoveryBackupProfileTagsDefinition;
 }
@@ -6509,6 +6520,7 @@ export function dataIntersightRecoveryBackupProfileTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightRecoveryBackupProfileTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6537,6 +6549,12 @@ export function dataIntersightRecoveryBackupProfileTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6603,6 +6621,10 @@ export class DataIntersightRecoveryBackupProfileTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6629,6 +6651,7 @@ export class DataIntersightRecoveryBackupProfileTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6644,6 +6667,7 @@ export class DataIntersightRecoveryBackupProfileTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6697,6 +6721,22 @@ export class DataIntersightRecoveryBackupProfileTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6785,7 +6825,7 @@ export class DataIntersightRecoveryBackupProfileTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightRecoveryBackupProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6793,19 +6833,19 @@ export interface DataIntersightRecoveryBackupProfileVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6818,7 +6858,7 @@ export interface DataIntersightRecoveryBackupProfileVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7050,7 +7090,7 @@ export class DataIntersightRecoveryBackupProfileVersionContextInterestedMosList 
 }
 export interface DataIntersightRecoveryBackupProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7058,19 +7098,19 @@ export interface DataIntersightRecoveryBackupProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#moid DataIntersightRecoveryBackupProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7083,7 +7123,7 @@ export interface DataIntersightRecoveryBackupProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#selector DataIntersightRecoveryBackupProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7283,7 +7323,7 @@ export class DataIntersightRecoveryBackupProfileVersionContextRefMoOutputReferen
 }
 export interface DataIntersightRecoveryBackupProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#additional_properties DataIntersightRecoveryBackupProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7291,32 +7331,32 @@ export interface DataIntersightRecoveryBackupProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#class_id DataIntersightRecoveryBackupProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#marked_for_deletion DataIntersightRecoveryBackupProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#marked_for_deletion DataIntersightRecoveryBackupProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#nr_version DataIntersightRecoveryBackupProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#nr_version DataIntersightRecoveryBackupProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#object_type DataIntersightRecoveryBackupProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#timestamp DataIntersightRecoveryBackupProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#timestamp DataIntersightRecoveryBackupProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7327,19 +7367,19 @@ export interface DataIntersightRecoveryBackupProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#version_type DataIntersightRecoveryBackupProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#version_type DataIntersightRecoveryBackupProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#interested_mos DataIntersightRecoveryBackupProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#interested_mos DataIntersightRecoveryBackupProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecoveryBackupProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#ref_mo DataIntersightRecoveryBackupProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#ref_mo DataIntersightRecoveryBackupProfile#ref_mo}
   */
   readonly refMo?: DataIntersightRecoveryBackupProfileVersionContextRefMo;
 }
@@ -7655,7 +7695,7 @@ export class DataIntersightRecoveryBackupProfileVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile intersight_recovery_backup_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile intersight_recovery_backup_profile}
 */
 export class DataIntersightRecoveryBackupProfile extends cdktf.TerraformDataSource {
 
@@ -7671,7 +7711,7 @@ export class DataIntersightRecoveryBackupProfile extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightRecoveryBackupProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecoveryBackupProfile to import
-  * @param importFromId The id of the existing DataIntersightRecoveryBackupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecoveryBackupProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecoveryBackupProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7683,7 +7723,7 @@ export class DataIntersightRecoveryBackupProfile extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/recovery_backup_profile intersight_recovery_backup_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recovery_backup_profile intersight_recovery_backup_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7694,8 +7734,8 @@ export class DataIntersightRecoveryBackupProfile extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_recovery_backup_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#account_moid DataIntersightCapabilityDrivesEndpointDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#account_moid DataIntersightCapabilityDrivesEndpointDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This field is to provide alias model of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#alias_model DataIntersightCapabilityDrivesEndpointDescriptor#alias_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#alias_model DataIntersightCapabilityDrivesEndpointDescriptor#alias_model}
   */
   readonly aliasModel?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#create_time DataIntersightCapabilityDrivesEndpointDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#create_time DataIntersightCapabilityDrivesEndpointDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * This field is to provide description of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#description DataIntersightCapabilityDrivesEndpointDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#description DataIntersightCapabilityDrivesEndpointDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#domain_group_moid DataIntersightCapabilityDrivesEndpointDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#domain_group_moid DataIntersightCapabilityDrivesEndpointDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#id DataIntersightCapabilityDrivesEndpointDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#id DataIntersightCapabilityDrivesEndpointDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,89 +59,89 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorConfig extends 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#mod_time DataIntersightCapabilityDrivesEndpointDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#mod_time DataIntersightCapabilityDrivesEndpointDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field is to provide model of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#model DataIntersightCapabilityDrivesEndpointDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#model DataIntersightCapabilityDrivesEndpointDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#owners DataIntersightCapabilityDrivesEndpointDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#owners DataIntersightCapabilityDrivesEndpointDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * This field is to provide partNumber of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#part_number DataIntersightCapabilityDrivesEndpointDescriptor#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#part_number DataIntersightCapabilityDrivesEndpointDescriptor#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field is to provide pid of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#pid DataIntersightCapabilityDrivesEndpointDescriptor#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#pid DataIntersightCapabilityDrivesEndpointDescriptor#pid}
   */
   readonly pid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#shared_scope DataIntersightCapabilityDrivesEndpointDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#shared_scope DataIntersightCapabilityDrivesEndpointDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityDrivesEndpointDescriptor#supported_platforms_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityDrivesEndpointDescriptor#supported_platforms_pids}
   */
   readonly supportedPlatformsPids?: string[];
   /**
   * This field is to provide vendor of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#vendor DataIntersightCapabilityDrivesEndpointDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#vendor DataIntersightCapabilityDrivesEndpointDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#ancestors DataIntersightCapabilityDrivesEndpointDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#ancestors DataIntersightCapabilityDrivesEndpointDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityDrivesEndpointDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#parent DataIntersightCapabilityDrivesEndpointDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#parent DataIntersightCapabilityDrivesEndpointDescriptor#parent}
   */
   readonly parent?: DataIntersightCapabilityDrivesEndpointDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#permission_resources DataIntersightCapabilityDrivesEndpointDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#permission_resources DataIntersightCapabilityDrivesEndpointDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityDrivesEndpointDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#tags DataIntersightCapabilityDrivesEndpointDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#tags DataIntersightCapabilityDrivesEndpointDescriptor#tags}
   */
   readonly tags?: DataIntersightCapabilityDrivesEndpointDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#version_context DataIntersightCapabilityDrivesEndpointDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#version_context DataIntersightCapabilityDrivesEndpointDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityDrivesEndpointDescriptorVersionContext;
 }
@@ -698,6 +698,11 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorResultsTagsOutputRe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1221,7 +1226,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorResultsList extends
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1229,19 +1234,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1254,7 +1259,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1486,7 +1491,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorAncestorsList exten
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1494,19 +1499,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1519,7 +1524,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1719,7 +1724,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorParentOutputReferen
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1727,19 +1732,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1752,7 +1757,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1984,7 +1989,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorPermissionResources
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1992,19 +1997,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2017,7 +2022,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2249,7 +2254,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDefinit
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2257,19 +2262,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2282,7 +2287,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2482,45 +2487,51 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsDefinitionOutpu
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#key DataIntersightCapabilityDrivesEndpointDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#key DataIntersightCapabilityDrivesEndpointDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#propagated DataIntersightCapabilityDrivesEndpointDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#propagated DataIntersightCapabilityDrivesEndpointDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#sys_tag DataIntersightCapabilityDrivesEndpointDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#type DataIntersightCapabilityDrivesEndpointDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#type DataIntersightCapabilityDrivesEndpointDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#value DataIntersightCapabilityDrivesEndpointDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#value DataIntersightCapabilityDrivesEndpointDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityDrivesEndpointDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityDrivesEndpointDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#definition DataIntersightCapabilityDrivesEndpointDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#definition DataIntersightCapabilityDrivesEndpointDescriptor#definition}
   */
   readonly definition?: DataIntersightCapabilityDrivesEndpointDescriptorTagsDefinition;
 }
@@ -2534,6 +2545,7 @@ export function dataIntersightCapabilityDrivesEndpointDescriptorTagsToTerraform(
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityDrivesEndpointDescriptorTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2562,6 +2574,12 @@ export function dataIntersightCapabilityDrivesEndpointDescriptorTagsToHclTerrafo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2628,6 +2646,10 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsOutputReference
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2654,6 +2676,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsOutputReference
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2669,6 +2692,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsOutputReference
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2722,6 +2746,22 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsOutputReference
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2810,7 +2850,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorTagsList extends cd
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2818,19 +2858,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2843,7 +2883,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3075,7 +3115,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorVersionContextInter
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3083,19 +3123,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#moid DataIntersightCapabilityDrivesEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3108,7 +3148,7 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#selector DataIntersightCapabilityDrivesEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3308,7 +3348,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorVersionContextRefMo
 }
 export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#additional_properties DataIntersightCapabilityDrivesEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3316,32 +3356,32 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#class_id DataIntersightCapabilityDrivesEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityDrivesEndpointDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityDrivesEndpointDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#nr_version DataIntersightCapabilityDrivesEndpointDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#nr_version DataIntersightCapabilityDrivesEndpointDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#object_type DataIntersightCapabilityDrivesEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#timestamp DataIntersightCapabilityDrivesEndpointDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#timestamp DataIntersightCapabilityDrivesEndpointDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3352,19 +3392,19 @@ export interface DataIntersightCapabilityDrivesEndpointDescriptorVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#version_type DataIntersightCapabilityDrivesEndpointDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#version_type DataIntersightCapabilityDrivesEndpointDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#interested_mos DataIntersightCapabilityDrivesEndpointDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#interested_mos DataIntersightCapabilityDrivesEndpointDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityDrivesEndpointDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#ref_mo DataIntersightCapabilityDrivesEndpointDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#ref_mo DataIntersightCapabilityDrivesEndpointDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityDrivesEndpointDescriptorVersionContextRefMo;
 }
@@ -3680,7 +3720,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptorVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor intersight_capability_drives_endpoint_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor intersight_capability_drives_endpoint_descriptor}
 */
 export class DataIntersightCapabilityDrivesEndpointDescriptor extends cdktf.TerraformDataSource {
 
@@ -3696,7 +3736,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptor extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightCapabilityDrivesEndpointDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityDrivesEndpointDescriptor to import
-  * @param importFromId The id of the existing DataIntersightCapabilityDrivesEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityDrivesEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityDrivesEndpointDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3708,7 +3748,7 @@ export class DataIntersightCapabilityDrivesEndpointDescriptor extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_drives_endpoint_descriptor intersight_capability_drives_endpoint_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_drives_endpoint_descriptor intersight_capability_drives_endpoint_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3719,8 +3759,8 @@ export class DataIntersightCapabilityDrivesEndpointDescriptor extends cdktf.Terr
       terraformResourceType: 'intersight_capability_drives_endpoint_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

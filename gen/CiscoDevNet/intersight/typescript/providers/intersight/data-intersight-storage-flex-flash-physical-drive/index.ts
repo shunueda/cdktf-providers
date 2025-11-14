@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#account_moid DataIntersightStorageFlexFlashPhysicalDrive#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#account_moid DataIntersightStorageFlexFlashPhysicalDrive#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The status of the flex flash physical drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#card_status DataIntersightStorageFlexFlashPhysicalDrive#card_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#card_status DataIntersightStorageFlexFlashPhysicalDrive#card_status}
   */
   readonly cardStatus?: string;
   /**
   * The card type of the flex flash physical drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#card_type DataIntersightStorageFlexFlashPhysicalDrive#card_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#card_type DataIntersightStorageFlexFlashPhysicalDrive#card_type}
   */
   readonly cardType?: string;
   /**
@@ -34,35 +34,35 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#create_time DataIntersightStorageFlexFlashPhysicalDrive#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#create_time DataIntersightStorageFlexFlashPhysicalDrive#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#device_mo_id DataIntersightStorageFlexFlashPhysicalDrive#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#device_mo_id DataIntersightStorageFlexFlashPhysicalDrive#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#dn DataIntersightStorageFlexFlashPhysicalDrive#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#dn DataIntersightStorageFlexFlashPhysicalDrive#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#domain_group_moid DataIntersightStorageFlexFlashPhysicalDrive#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#domain_group_moid DataIntersightStorageFlexFlashPhysicalDrive#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#id DataIntersightStorageFlexFlashPhysicalDrive#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#id DataIntersightStorageFlexFlashPhysicalDrive#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,139 +71,139 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveConfig extends cdktf
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#is_upgraded DataIntersightStorageFlexFlashPhysicalDrive#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#is_upgraded DataIntersightStorageFlexFlashPhysicalDrive#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#mod_time DataIntersightStorageFlexFlashPhysicalDrive#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#mod_time DataIntersightStorageFlexFlashPhysicalDrive#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#model DataIntersightStorageFlexFlashPhysicalDrive#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#model DataIntersightStorageFlexFlashPhysicalDrive#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
   * The OEM Identifier of the flex flash physical drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#oem_id DataIntersightStorageFlexFlashPhysicalDrive#oem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#oem_id DataIntersightStorageFlexFlashPhysicalDrive#oem_id}
   */
   readonly oemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#owners DataIntersightStorageFlexFlashPhysicalDrive#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#owners DataIntersightStorageFlexFlashPhysicalDrive#owners}
   */
   readonly owners?: string[];
   /**
   * The drive status of the flex flash physical drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#pd_status DataIntersightStorageFlexFlashPhysicalDrive#pd_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#pd_status DataIntersightStorageFlexFlashPhysicalDrive#pd_status}
   */
   readonly pdStatus?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#presence DataIntersightStorageFlexFlashPhysicalDrive#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#presence DataIntersightStorageFlexFlashPhysicalDrive#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#revision DataIntersightStorageFlexFlashPhysicalDrive#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#revision DataIntersightStorageFlexFlashPhysicalDrive#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#rn DataIntersightStorageFlexFlashPhysicalDrive#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#rn DataIntersightStorageFlexFlashPhysicalDrive#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#serial DataIntersightStorageFlexFlashPhysicalDrive#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#serial DataIntersightStorageFlexFlashPhysicalDrive#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#shared_scope DataIntersightStorageFlexFlashPhysicalDrive#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#shared_scope DataIntersightStorageFlexFlashPhysicalDrive#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#vendor DataIntersightStorageFlexFlashPhysicalDrive#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#vendor DataIntersightStorageFlexFlashPhysicalDrive#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#ancestors DataIntersightStorageFlexFlashPhysicalDrive#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#ancestors DataIntersightStorageFlexFlashPhysicalDrive#ancestors}
   */
   readonly ancestors?: DataIntersightStorageFlexFlashPhysicalDriveAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#inventory_device_info DataIntersightStorageFlexFlashPhysicalDrive#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#inventory_device_info DataIntersightStorageFlexFlashPhysicalDrive#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageFlexFlashPhysicalDriveInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#parent DataIntersightStorageFlexFlashPhysicalDrive#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#parent DataIntersightStorageFlexFlashPhysicalDrive#parent}
   */
   readonly parent?: DataIntersightStorageFlexFlashPhysicalDriveParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#permission_resources DataIntersightStorageFlexFlashPhysicalDrive#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#permission_resources DataIntersightStorageFlexFlashPhysicalDrive#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageFlexFlashPhysicalDrivePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#previous_fru DataIntersightStorageFlexFlashPhysicalDrive#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#previous_fru DataIntersightStorageFlexFlashPhysicalDrive#previous_fru}
   */
   readonly previousFru?: DataIntersightStorageFlexFlashPhysicalDrivePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#registered_device DataIntersightStorageFlexFlashPhysicalDrive#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#registered_device DataIntersightStorageFlexFlashPhysicalDrive#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageFlexFlashPhysicalDriveRegisteredDevice;
   /**
   * storage_flex_flash_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#storage_flex_flash_controller DataIntersightStorageFlexFlashPhysicalDrive#storage_flex_flash_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#storage_flex_flash_controller DataIntersightStorageFlexFlashPhysicalDrive#storage_flex_flash_controller}
   */
   readonly storageFlexFlashController?: DataIntersightStorageFlexFlashPhysicalDriveStorageFlexFlashController;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#tags DataIntersightStorageFlexFlashPhysicalDrive#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#tags DataIntersightStorageFlexFlashPhysicalDrive#tags}
   */
   readonly tags?: DataIntersightStorageFlexFlashPhysicalDriveTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#version_context DataIntersightStorageFlexFlashPhysicalDrive#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#version_context DataIntersightStorageFlexFlashPhysicalDrive#version_context}
   */
   readonly versionContext?: DataIntersightStorageFlexFlashPhysicalDriveVersionContext;
 }
@@ -1140,6 +1140,11 @@ export class DataIntersightStorageFlexFlashPhysicalDriveResultsTagsOutputReferen
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1717,7 +1722,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveResultsList extends cdkt
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1725,19 +1730,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1750,7 +1755,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -1982,7 +1987,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveAncestorsList extends cd
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1990,19 +1995,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveInventoryDeviceInfo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2015,7 +2020,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveInventoryDeviceInfo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2215,7 +2220,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveInventoryDeviceInfoOutpu
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2223,19 +2228,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2248,7 +2253,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2448,7 +2453,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveParentOutputReference ex
 }
 export interface DataIntersightStorageFlexFlashPhysicalDrivePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2456,19 +2461,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDrivePermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2481,7 +2486,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDrivePermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2713,7 +2718,7 @@ export class DataIntersightStorageFlexFlashPhysicalDrivePermissionResourcesList 
 }
 export interface DataIntersightStorageFlexFlashPhysicalDrivePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2721,19 +2726,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDrivePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2746,7 +2751,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDrivePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2946,7 +2951,7 @@ export class DataIntersightStorageFlexFlashPhysicalDrivePreviousFruOutputReferen
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2954,19 +2959,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2979,7 +2984,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3179,7 +3184,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveRegisteredDeviceOutputRe
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveStorageFlexFlashController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3187,19 +3192,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveStorageFlexFlashCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3212,7 +3217,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveStorageFlexFlashCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3412,7 +3417,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveStorageFlexFlashControll
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3420,19 +3425,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3445,7 +3450,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3677,7 +3682,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefinitionsL
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3685,19 +3690,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3710,7 +3715,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3910,45 +3915,51 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsDefinitionOutputRefe
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#key DataIntersightStorageFlexFlashPhysicalDrive#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#key DataIntersightStorageFlexFlashPhysicalDrive#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#propagated DataIntersightStorageFlexFlashPhysicalDrive#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#propagated DataIntersightStorageFlexFlashPhysicalDrive#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#sys_tag DataIntersightStorageFlexFlashPhysicalDrive#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#type DataIntersightStorageFlexFlashPhysicalDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#type DataIntersightStorageFlexFlashPhysicalDrive#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#value DataIntersightStorageFlexFlashPhysicalDrive#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#value DataIntersightStorageFlexFlashPhysicalDrive#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#ancestor_definitions DataIntersightStorageFlexFlashPhysicalDrive#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#ancestor_definitions DataIntersightStorageFlexFlashPhysicalDrive#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#definition DataIntersightStorageFlexFlashPhysicalDrive#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#definition DataIntersightStorageFlexFlashPhysicalDrive#definition}
   */
   readonly definition?: DataIntersightStorageFlexFlashPhysicalDriveTagsDefinition;
 }
@@ -3962,6 +3973,7 @@ export function dataIntersightStorageFlexFlashPhysicalDriveTagsToTerraform(struc
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageFlexFlashPhysicalDriveTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3990,6 +4002,12 @@ export function dataIntersightStorageFlexFlashPhysicalDriveTagsToHclTerraform(st
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4056,6 +4074,10 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsOutputReference exte
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4082,6 +4104,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsOutputReference exte
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4097,6 +4120,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsOutputReference exte
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4150,6 +4174,22 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsOutputReference exte
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4238,7 +4278,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveTagsList extends cdktf.C
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4246,19 +4286,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4271,7 +4311,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4503,7 +4543,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveVersionContextInterested
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4511,19 +4551,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#moid DataIntersightStorageFlexFlashPhysicalDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4536,7 +4576,7 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#selector DataIntersightStorageFlexFlashPhysicalDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4736,7 +4776,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveVersionContextRefMoOutpu
 }
 export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#additional_properties DataIntersightStorageFlexFlashPhysicalDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4744,32 +4784,32 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#class_id DataIntersightStorageFlexFlashPhysicalDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#marked_for_deletion DataIntersightStorageFlexFlashPhysicalDrive#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#marked_for_deletion DataIntersightStorageFlexFlashPhysicalDrive#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#nr_version DataIntersightStorageFlexFlashPhysicalDrive#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#nr_version DataIntersightStorageFlexFlashPhysicalDrive#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#object_type DataIntersightStorageFlexFlashPhysicalDrive#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#timestamp DataIntersightStorageFlexFlashPhysicalDrive#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#timestamp DataIntersightStorageFlexFlashPhysicalDrive#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4780,19 +4820,19 @@ export interface DataIntersightStorageFlexFlashPhysicalDriveVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#version_type DataIntersightStorageFlexFlashPhysicalDrive#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#version_type DataIntersightStorageFlexFlashPhysicalDrive#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#interested_mos DataIntersightStorageFlexFlashPhysicalDrive#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#interested_mos DataIntersightStorageFlexFlashPhysicalDrive#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageFlexFlashPhysicalDriveVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#ref_mo DataIntersightStorageFlexFlashPhysicalDrive#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#ref_mo DataIntersightStorageFlexFlashPhysicalDrive#ref_mo}
   */
   readonly refMo?: DataIntersightStorageFlexFlashPhysicalDriveVersionContextRefMo;
 }
@@ -5108,7 +5148,7 @@ export class DataIntersightStorageFlexFlashPhysicalDriveVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive intersight_storage_flex_flash_physical_drive}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive intersight_storage_flex_flash_physical_drive}
 */
 export class DataIntersightStorageFlexFlashPhysicalDrive extends cdktf.TerraformDataSource {
 
@@ -5124,7 +5164,7 @@ export class DataIntersightStorageFlexFlashPhysicalDrive extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightStorageFlexFlashPhysicalDrive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageFlexFlashPhysicalDrive to import
-  * @param importFromId The id of the existing DataIntersightStorageFlexFlashPhysicalDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageFlexFlashPhysicalDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageFlexFlashPhysicalDrive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5136,7 +5176,7 @@ export class DataIntersightStorageFlexFlashPhysicalDrive extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_flash_physical_drive intersight_storage_flex_flash_physical_drive} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_physical_drive intersight_storage_flex_flash_physical_drive} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5147,8 +5187,8 @@ export class DataIntersightStorageFlexFlashPhysicalDrive extends cdktf.Terraform
       terraformResourceType: 'intersight_storage_flex_flash_physical_drive',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

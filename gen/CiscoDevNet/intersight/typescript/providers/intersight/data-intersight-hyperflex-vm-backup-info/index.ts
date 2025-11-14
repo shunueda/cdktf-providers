@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexVmBackupInfoConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#account_moid DataIntersightHyperflexVmBackupInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#account_moid DataIntersightHyperflexVmBackupInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -23,7 +23,7 @@ export interface DataIntersightHyperflexVmBackupInfoConfig extends cdktf.Terrafo
   * * `Protected` - Protection has completed successfully.
   * * `ExceedsInterval` - Protection has not completed successfully in over two times the backup interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#backup_status DataIntersightHyperflexVmBackupInfo#backup_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#backup_status DataIntersightHyperflexVmBackupInfo#backup_status}
   */
   readonly backupStatus?: string;
   /**
@@ -31,23 +31,23 @@ export interface DataIntersightHyperflexVmBackupInfoConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#create_time DataIntersightHyperflexVmBackupInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#create_time DataIntersightHyperflexVmBackupInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#domain_group_moid DataIntersightHyperflexVmBackupInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#domain_group_moid DataIntersightHyperflexVmBackupInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,36 +56,36 @@ export interface DataIntersightHyperflexVmBackupInfoConfig extends cdktf.Terrafo
   /**
   * Retention count from backup policy for local snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#local_snapshot_retention_count DataIntersightHyperflexVmBackupInfo#local_snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#local_snapshot_retention_count DataIntersightHyperflexVmBackupInfo#local_snapshot_retention_count}
   */
   readonly localSnapshotRetentionCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#mod_time DataIntersightHyperflexVmBackupInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#mod_time DataIntersightHyperflexVmBackupInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#owners DataIntersightHyperflexVmBackupInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#owners DataIntersightHyperflexVmBackupInfo#owners}
   */
   readonly owners?: string[];
   /**
   * The power state of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#power_on DataIntersightHyperflexVmBackupInfo#power_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#power_on DataIntersightHyperflexVmBackupInfo#power_on}
   */
   readonly powerOn?: boolean | cdktf.IResolvable;
   /**
@@ -107,116 +107,116 @@ export interface DataIntersightHyperflexVmBackupInfoConfig extends cdktf.Terrafo
   * * `LOCAL_RESTORE_STARTED` - The protection status is local restore started.
   * * `LOCAL_RESTORE_FAILED` - The protection status is local restore failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#protection_status DataIntersightHyperflexVmBackupInfo#protection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#protection_status DataIntersightHyperflexVmBackupInfo#protection_status}
   */
   readonly protectionStatus?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#shared_scope DataIntersightHyperflexVmBackupInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#shared_scope DataIntersightHyperflexVmBackupInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Retention count from backup policy for remote snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#snapshot_retention_count DataIntersightHyperflexVmBackupInfo#snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#snapshot_retention_count DataIntersightHyperflexVmBackupInfo#snapshot_retention_count}
   */
   readonly snapshotRetentionCount?: number;
   /**
   * Name for the source cluster this Virtual Machine is residing on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#src_cluster_name DataIntersightHyperflexVmBackupInfo#src_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#src_cluster_name DataIntersightHyperflexVmBackupInfo#src_cluster_name}
   */
   readonly srcClusterName?: string;
   /**
   * Name for the target cluster this Virtual Machine is residing on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#tgt_cluster_name DataIntersightHyperflexVmBackupInfo#tgt_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#tgt_cluster_name DataIntersightHyperflexVmBackupInfo#tgt_cluster_name}
   */
   readonly tgtClusterName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#ancestors DataIntersightHyperflexVmBackupInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#ancestors DataIntersightHyperflexVmBackupInfo#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexVmBackupInfoAncestors[] | cdktf.IResolvable;
   /**
   * cluster_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#cluster_entity_reference DataIntersightHyperflexVmBackupInfo#cluster_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#cluster_entity_reference DataIntersightHyperflexVmBackupInfo#cluster_entity_reference}
   */
   readonly clusterEntityReference?: DataIntersightHyperflexVmBackupInfoClusterEntityReference;
   /**
   * cluster_id_protection_info_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#cluster_id_protection_info_map DataIntersightHyperflexVmBackupInfo#cluster_id_protection_info_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#cluster_id_protection_info_map DataIntersightHyperflexVmBackupInfo#cluster_id_protection_info_map}
   */
   readonly clusterIdProtectionInfoMap?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMap[] | cdktf.IResolvable;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
   */
   readonly error?: DataIntersightHyperflexVmBackupInfoError;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#parent DataIntersightHyperflexVmBackupInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#parent DataIntersightHyperflexVmBackupInfo#parent}
   */
   readonly parent?: DataIntersightHyperflexVmBackupInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#permission_resources DataIntersightHyperflexVmBackupInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#permission_resources DataIntersightHyperflexVmBackupInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexVmBackupInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#schedule DataIntersightHyperflexVmBackupInfo#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#schedule DataIntersightHyperflexVmBackupInfo#schedule}
   */
   readonly schedule?: DataIntersightHyperflexVmBackupInfoSchedule[] | cdktf.IResolvable;
   /**
   * src_backup_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#src_backup_cluster DataIntersightHyperflexVmBackupInfo#src_backup_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#src_backup_cluster DataIntersightHyperflexVmBackupInfo#src_backup_cluster}
   */
   readonly srcBackupCluster?: DataIntersightHyperflexVmBackupInfoSrcBackupCluster;
   /**
   * src_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#src_cluster DataIntersightHyperflexVmBackupInfo#src_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#src_cluster DataIntersightHyperflexVmBackupInfo#src_cluster}
   */
   readonly srcCluster?: DataIntersightHyperflexVmBackupInfoSrcCluster;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#tags DataIntersightHyperflexVmBackupInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#tags DataIntersightHyperflexVmBackupInfo#tags}
   */
   readonly tags?: DataIntersightHyperflexVmBackupInfoTags[] | cdktf.IResolvable;
   /**
   * tgt_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#tgt_cluster DataIntersightHyperflexVmBackupInfo#tgt_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#tgt_cluster DataIntersightHyperflexVmBackupInfo#tgt_cluster}
   */
   readonly tgtCluster?: DataIntersightHyperflexVmBackupInfoTgtCluster;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#version_context DataIntersightHyperflexVmBackupInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#version_context DataIntersightHyperflexVmBackupInfo#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexVmBackupInfoVersionContext;
   /**
   * vm_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_entity_reference DataIntersightHyperflexVmBackupInfo#vm_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_entity_reference DataIntersightHyperflexVmBackupInfo#vm_entity_reference}
   */
   readonly vmEntityReference?: DataIntersightHyperflexVmBackupInfoVmEntityReference;
   /**
   * vm_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_info DataIntersightHyperflexVmBackupInfo#vm_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_info DataIntersightHyperflexVmBackupInfo#vm_info}
   */
   readonly vmInfo?: DataIntersightHyperflexVmBackupInfoVmInfo;
 }
@@ -3478,6 +3478,11 @@ export class DataIntersightHyperflexVmBackupInfoResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -4556,7 +4561,7 @@ export class DataIntersightHyperflexVmBackupInfoResultsList extends cdktf.Comple
 }
 export interface DataIntersightHyperflexVmBackupInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4564,19 +4569,19 @@ export interface DataIntersightHyperflexVmBackupInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4589,7 +4594,7 @@ export interface DataIntersightHyperflexVmBackupInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4821,7 +4826,7 @@ export class DataIntersightHyperflexVmBackupInfoAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4829,19 +4834,19 @@ export interface DataIntersightHyperflexVmBackupInfoClusterEntityReference {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4855,20 +4860,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterEntityReference {
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4903,7 +4908,7 @@ export interface DataIntersightHyperflexVmBackupInfoClusterEntityReference {
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -5190,7 +5195,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterEntityReferenceOutputRefe
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatusError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5198,26 +5203,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The error message string for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
   */
   readonly message?: string;
   /**
   * The error message ID for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
   */
   readonly messageId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -5417,7 +5422,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatusPackEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5425,19 +5430,19 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5451,20 +5456,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5499,7 +5504,7 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -5788,11 +5793,11 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   /**
   * Actual end time for the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#actual DataIntersightHyperflexVmBackupInfo#actual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#actual DataIntersightHyperflexVmBackupInfo#actual}
   */
   readonly actual?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5800,26 +5805,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Expected end time for the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#expected DataIntersightHyperflexVmBackupInfo#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#expected DataIntersightHyperflexVmBackupInfo#expected}
   */
   readonly expected?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * A flag to determine if snapshot delivery is delayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#rpo_exceeded DataIntersightHyperflexVmBackupInfo#rpo_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#rpo_exceeded DataIntersightHyperflexVmBackupInfo#rpo_exceeded}
   */
   readonly rpoExceeded?: boolean | cdktf.IResolvable;
 }
@@ -6048,13 +6053,13 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Number of bytes currently replicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#bytes_replicated DataIntersightHyperflexVmBackupInfo#bytes_replicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#bytes_replicated DataIntersightHyperflexVmBackupInfo#bytes_replicated}
   */
   readonly bytesReplicated?: number;
   /**
@@ -6062,32 +6067,32 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Replication end time for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#end_time DataIntersightHyperflexVmBackupInfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#end_time DataIntersightHyperflexVmBackupInfo#end_time}
   */
   readonly endTime?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Completion percentage for the replication job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
   */
   readonly pctComplete?: number;
   /**
   * Replication start time for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#start_time DataIntersightHyperflexVmBackupInfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#start_time DataIntersightHyperflexVmBackupInfo#start_time}
   */
   readonly startTime?: number;
   /**
@@ -6100,25 +6105,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `STARTING` - Snapshot replication starting.
   * * `REPLICATING` - Snapshot replication in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
   */
   readonly status?: string;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
   */
   readonly error?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatusError;
   /**
   * pack_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pack_entity_reference DataIntersightHyperflexVmBackupInfo#pack_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pack_entity_reference DataIntersightHyperflexVmBackupInfo#pack_entity_reference}
   */
   readonly packEntityReference?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatusPackEntityReference;
   /**
   * rpo_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#rpo_status DataIntersightHyperflexVmBackupInfo#rpo_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#rpo_status DataIntersightHyperflexVmBackupInfo#rpo_status}
   */
   readonly rpoStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatusRpoStatus;
 }
@@ -6492,7 +6497,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoSnapshotStatusError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6500,26 +6505,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The error message string for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
   */
   readonly message?: string;
   /**
   * The error message ID for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
   */
   readonly messageId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -6719,7 +6724,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoSnapshotStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6727,26 +6732,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Description of this Snapshot Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#description DataIntersightHyperflexVmBackupInfo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#description DataIntersightHyperflexVmBackupInfo#description}
   */
   readonly description?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Completion percentage for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
   */
   readonly pctComplete?: number;
   /**
@@ -6759,25 +6764,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `NONE` - This snapshot status code is none.
   * * `INIT` - This snapshot status code is initializing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
   */
   readonly status?: string;
   /**
   * Timestamp at which the Snapshot is taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
   */
   readonly timestamp?: number;
   /**
   * Space Used by this Snapshot Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#used_space DataIntersightHyperflexVmBackupInfo#used_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#used_space DataIntersightHyperflexVmBackupInfo#used_space}
   */
   readonly usedSpace?: number;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
   */
   readonly error?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoSnapshotStatusError;
 }
@@ -7093,7 +7098,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoVmSnapshotEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7101,19 +7106,19 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7127,20 +7132,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7175,7 +7180,7 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -7462,7 +7467,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7470,14 +7475,14 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7485,25 +7490,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `PRIMARY` - The cluster site for this backup is primary.
   * * `SECONDARY` - The cluster site for this backup is secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#site DataIntersightHyperflexVmBackupInfo#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#site DataIntersightHyperflexVmBackupInfo#site}
   */
   readonly site?: string;
   /**
   * replication_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#replication_status DataIntersightHyperflexVmBackupInfo#replication_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#replication_status DataIntersightHyperflexVmBackupInfo#replication_status}
   */
   readonly replicationStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoReplicationStatus;
   /**
   * snapshot_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#snapshot_status DataIntersightHyperflexVmBackupInfo#snapshot_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#snapshot_status DataIntersightHyperflexVmBackupInfo#snapshot_status}
   */
   readonly snapshotStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoSnapshotStatus;
   /**
   * vm_snapshot_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_snapshot_entity_reference DataIntersightHyperflexVmBackupInfo#vm_snapshot_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_snapshot_entity_reference DataIntersightHyperflexVmBackupInfo#vm_snapshot_entity_reference}
   */
   readonly vmSnapshotEntityReference?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfoVmSnapshotEntityReference;
 }
@@ -7761,7 +7766,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatusError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7769,26 +7774,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The error message string for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
   */
   readonly message?: string;
   /**
   * The error message ID for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
   */
   readonly messageId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -7988,7 +7993,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatusPackEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7996,19 +8001,19 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8022,20 +8027,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8070,7 +8075,7 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -8359,11 +8364,11 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   /**
   * Actual end time for the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#actual DataIntersightHyperflexVmBackupInfo#actual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#actual DataIntersightHyperflexVmBackupInfo#actual}
   */
   readonly actual?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8371,26 +8376,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Expected end time for the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#expected DataIntersightHyperflexVmBackupInfo#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#expected DataIntersightHyperflexVmBackupInfo#expected}
   */
   readonly expected?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * A flag to determine if snapshot delivery is delayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#rpo_exceeded DataIntersightHyperflexVmBackupInfo#rpo_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#rpo_exceeded DataIntersightHyperflexVmBackupInfo#rpo_exceeded}
   */
   readonly rpoExceeded?: boolean | cdktf.IResolvable;
 }
@@ -8619,13 +8624,13 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Number of bytes currently replicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#bytes_replicated DataIntersightHyperflexVmBackupInfo#bytes_replicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#bytes_replicated DataIntersightHyperflexVmBackupInfo#bytes_replicated}
   */
   readonly bytesReplicated?: number;
   /**
@@ -8633,32 +8638,32 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Replication end time for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#end_time DataIntersightHyperflexVmBackupInfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#end_time DataIntersightHyperflexVmBackupInfo#end_time}
   */
   readonly endTime?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Completion percentage for the replication job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
   */
   readonly pctComplete?: number;
   /**
   * Replication start time for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#start_time DataIntersightHyperflexVmBackupInfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#start_time DataIntersightHyperflexVmBackupInfo#start_time}
   */
   readonly startTime?: number;
   /**
@@ -8671,25 +8676,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `STARTING` - Snapshot replication starting.
   * * `REPLICATING` - Snapshot replication in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
   */
   readonly status?: string;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
   */
   readonly error?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatusError;
   /**
   * pack_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pack_entity_reference DataIntersightHyperflexVmBackupInfo#pack_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pack_entity_reference DataIntersightHyperflexVmBackupInfo#pack_entity_reference}
   */
   readonly packEntityReference?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatusPackEntityReference;
   /**
   * rpo_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#rpo_status DataIntersightHyperflexVmBackupInfo#rpo_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#rpo_status DataIntersightHyperflexVmBackupInfo#rpo_status}
   */
   readonly rpoStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatusRpoStatus;
 }
@@ -9063,7 +9068,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoSnapshotStatusError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9071,26 +9076,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The error message string for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
   */
   readonly message?: string;
   /**
   * The error message ID for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
   */
   readonly messageId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -9290,7 +9295,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoSnapshotStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9298,26 +9303,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Description of this Snapshot Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#description DataIntersightHyperflexVmBackupInfo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#description DataIntersightHyperflexVmBackupInfo#description}
   */
   readonly description?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Completion percentage for this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#pct_complete DataIntersightHyperflexVmBackupInfo#pct_complete}
   */
   readonly pctComplete?: number;
   /**
@@ -9330,25 +9335,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `NONE` - This snapshot status code is none.
   * * `INIT` - This snapshot status code is initializing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#status DataIntersightHyperflexVmBackupInfo#status}
   */
   readonly status?: string;
   /**
   * Timestamp at which the Snapshot is taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
   */
   readonly timestamp?: number;
   /**
   * Space Used by this Snapshot Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#used_space DataIntersightHyperflexVmBackupInfo#used_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#used_space DataIntersightHyperflexVmBackupInfo#used_space}
   */
   readonly usedSpace?: number;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#error DataIntersightHyperflexVmBackupInfo#error}
   */
   readonly error?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoSnapshotStatusError;
 }
@@ -9664,7 +9669,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoVmSnapshotEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9672,19 +9677,19 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9698,20 +9703,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9746,7 +9751,7 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -10033,7 +10038,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10041,14 +10046,14 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10056,25 +10061,25 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * * `PRIMARY` - The cluster site for this backup is primary.
   * * `SECONDARY` - The cluster site for this backup is secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#site DataIntersightHyperflexVmBackupInfo#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#site DataIntersightHyperflexVmBackupInfo#site}
   */
   readonly site?: string;
   /**
   * replication_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#replication_status DataIntersightHyperflexVmBackupInfo#replication_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#replication_status DataIntersightHyperflexVmBackupInfo#replication_status}
   */
   readonly replicationStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoReplicationStatus;
   /**
   * snapshot_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#snapshot_status DataIntersightHyperflexVmBackupInfo#snapshot_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#snapshot_status DataIntersightHyperflexVmBackupInfo#snapshot_status}
   */
   readonly snapshotStatus?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoSnapshotStatus;
   /**
   * vm_snapshot_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_snapshot_entity_reference DataIntersightHyperflexVmBackupInfo#vm_snapshot_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_snapshot_entity_reference DataIntersightHyperflexVmBackupInfo#vm_snapshot_entity_reference}
   */
   readonly vmSnapshotEntityReference?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfoVmSnapshotEntityReference;
 }
@@ -10332,7 +10337,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmSpaceUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10340,20 +10345,20 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Space usage of the Virtual Machine from StDataServiceManager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#space_usage DataIntersightHyperflexVmBackupInfo#space_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#space_usage DataIntersightHyperflexVmBackupInfo#space_usage}
   */
   readonly spaceUsage?: number;
 }
@@ -10524,7 +10529,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10532,32 +10537,32 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapPr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * vm_current_protection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_current_protection_info DataIntersightHyperflexVmBackupInfo#vm_current_protection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_current_protection_info DataIntersightHyperflexVmBackupInfo#vm_current_protection_info}
   */
   readonly vmCurrentProtectionInfo?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmCurrentProtectionInfo;
   /**
   * vm_last_successful_protection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_last_successful_protection_info DataIntersightHyperflexVmBackupInfo#vm_last_successful_protection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_last_successful_protection_info DataIntersightHyperflexVmBackupInfo#vm_last_successful_protection_info}
   */
   readonly vmLastSuccessfulProtectionInfo?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmLastSuccessfulProtectionInfo;
   /**
   * vm_space_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vm_space_usage DataIntersightHyperflexVmBackupInfo#vm_space_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vm_space_usage DataIntersightHyperflexVmBackupInfo#vm_space_usage}
   */
   readonly vmSpaceUsage?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfoVmSpaceUsage;
 }
@@ -10786,7 +10791,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtec
 }
 export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10794,26 +10799,26 @@ export interface DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMap {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Cluster Id we are using to map to ProtectionInfo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#cluster_id DataIntersightHyperflexVmBackupInfo#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#cluster_id DataIntersightHyperflexVmBackupInfo#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * protection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#protection_info DataIntersightHyperflexVmBackupInfo#protection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#protection_info DataIntersightHyperflexVmBackupInfo#protection_info}
   */
   readonly protectionInfo?: DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapProtectionInfo;
 }
@@ -11045,7 +11050,7 @@ export class DataIntersightHyperflexVmBackupInfoClusterIdProtectionInfoMapList e
 }
 export interface DataIntersightHyperflexVmBackupInfoError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11053,26 +11058,26 @@ export interface DataIntersightHyperflexVmBackupInfoError {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The error message string for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message DataIntersightHyperflexVmBackupInfo#message}
   */
   readonly message?: string;
   /**
   * The error message ID for this error stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#message_id DataIntersightHyperflexVmBackupInfo#message_id}
   */
   readonly messageId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -11272,7 +11277,7 @@ export class DataIntersightHyperflexVmBackupInfoErrorOutputReference extends cdk
 }
 export interface DataIntersightHyperflexVmBackupInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11280,19 +11285,19 @@ export interface DataIntersightHyperflexVmBackupInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11305,7 +11310,7 @@ export interface DataIntersightHyperflexVmBackupInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -11505,7 +11510,7 @@ export class DataIntersightHyperflexVmBackupInfoParentOutputReference extends cd
 }
 export interface DataIntersightHyperflexVmBackupInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11513,19 +11518,19 @@ export interface DataIntersightHyperflexVmBackupInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11538,7 +11543,7 @@ export interface DataIntersightHyperflexVmBackupInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -11770,13 +11775,13 @@ export class DataIntersightHyperflexVmBackupInfoPermissionResourcesList extends 
 }
 export interface DataIntersightHyperflexVmBackupInfoScheduleSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Time interval between two copies in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#backup_interval DataIntersightHyperflexVmBackupInfo#backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#backup_interval DataIntersightHyperflexVmBackupInfo#backup_interval}
   */
   readonly backupInterval?: number;
   /**
@@ -11784,14 +11789,14 @@ export interface DataIntersightHyperflexVmBackupInfoScheduleSchedule {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -11962,7 +11967,7 @@ export class DataIntersightHyperflexVmBackupInfoScheduleScheduleOutputReference 
 }
 export interface DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11970,19 +11975,19 @@ export interface DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11996,20 +12001,20 @@ export interface DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityR
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12044,7 +12049,7 @@ export interface DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityR
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -12331,7 +12336,7 @@ export class DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityRefer
 }
 export interface DataIntersightHyperflexVmBackupInfoSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12339,26 +12344,26 @@ export interface DataIntersightHyperflexVmBackupInfoSchedule {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#schedule DataIntersightHyperflexVmBackupInfo#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#schedule DataIntersightHyperflexVmBackupInfo#schedule}
   */
   readonly schedule?: DataIntersightHyperflexVmBackupInfoScheduleSchedule;
   /**
   * target_cluster_entity_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#target_cluster_entity_reference DataIntersightHyperflexVmBackupInfo#target_cluster_entity_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#target_cluster_entity_reference DataIntersightHyperflexVmBackupInfo#target_cluster_entity_reference}
   */
   readonly targetClusterEntityReference?: DataIntersightHyperflexVmBackupInfoScheduleTargetClusterEntityReference;
 }
@@ -12590,7 +12595,7 @@ export class DataIntersightHyperflexVmBackupInfoScheduleList extends cdktf.Compl
 }
 export interface DataIntersightHyperflexVmBackupInfoSrcBackupCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12598,19 +12603,19 @@ export interface DataIntersightHyperflexVmBackupInfoSrcBackupCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12623,7 +12628,7 @@ export interface DataIntersightHyperflexVmBackupInfoSrcBackupCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -12823,7 +12828,7 @@ export class DataIntersightHyperflexVmBackupInfoSrcBackupClusterOutputReference 
 }
 export interface DataIntersightHyperflexVmBackupInfoSrcCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12831,19 +12836,19 @@ export interface DataIntersightHyperflexVmBackupInfoSrcCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12856,7 +12861,7 @@ export interface DataIntersightHyperflexVmBackupInfoSrcCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -13056,7 +13061,7 @@ export class DataIntersightHyperflexVmBackupInfoSrcClusterOutputReference extend
 }
 export interface DataIntersightHyperflexVmBackupInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13064,19 +13069,19 @@ export interface DataIntersightHyperflexVmBackupInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13089,7 +13094,7 @@ export interface DataIntersightHyperflexVmBackupInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -13321,7 +13326,7 @@ export class DataIntersightHyperflexVmBackupInfoTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightHyperflexVmBackupInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13329,19 +13334,19 @@ export interface DataIntersightHyperflexVmBackupInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13354,7 +13359,7 @@ export interface DataIntersightHyperflexVmBackupInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -13554,45 +13559,51 @@ export class DataIntersightHyperflexVmBackupInfoTagsDefinitionOutputReference ex
 }
 export interface DataIntersightHyperflexVmBackupInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#key DataIntersightHyperflexVmBackupInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#key DataIntersightHyperflexVmBackupInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#propagated DataIntersightHyperflexVmBackupInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#propagated DataIntersightHyperflexVmBackupInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#sys_tag DataIntersightHyperflexVmBackupInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#value DataIntersightHyperflexVmBackupInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#value DataIntersightHyperflexVmBackupInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#ancestor_definitions DataIntersightHyperflexVmBackupInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#ancestor_definitions DataIntersightHyperflexVmBackupInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexVmBackupInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#definition DataIntersightHyperflexVmBackupInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#definition DataIntersightHyperflexVmBackupInfo#definition}
   */
   readonly definition?: DataIntersightHyperflexVmBackupInfoTagsDefinition;
 }
@@ -13606,6 +13617,7 @@ export function dataIntersightHyperflexVmBackupInfoTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexVmBackupInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -13634,6 +13646,12 @@ export function dataIntersightHyperflexVmBackupInfoTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -13700,6 +13718,10 @@ export class DataIntersightHyperflexVmBackupInfoTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -13726,6 +13748,7 @@ export class DataIntersightHyperflexVmBackupInfoTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -13741,6 +13764,7 @@ export class DataIntersightHyperflexVmBackupInfoTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -13794,6 +13818,22 @@ export class DataIntersightHyperflexVmBackupInfoTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -13882,7 +13922,7 @@ export class DataIntersightHyperflexVmBackupInfoTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHyperflexVmBackupInfoTgtCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13890,19 +13930,19 @@ export interface DataIntersightHyperflexVmBackupInfoTgtCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13915,7 +13955,7 @@ export interface DataIntersightHyperflexVmBackupInfoTgtCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -14115,7 +14155,7 @@ export class DataIntersightHyperflexVmBackupInfoTgtClusterOutputReference extend
 }
 export interface DataIntersightHyperflexVmBackupInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14123,19 +14163,19 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14148,7 +14188,7 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -14380,7 +14420,7 @@ export class DataIntersightHyperflexVmBackupInfoVersionContextInterestedMosList 
 }
 export interface DataIntersightHyperflexVmBackupInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14388,19 +14428,19 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14413,7 +14453,7 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#selector DataIntersightHyperflexVmBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -14613,7 +14653,7 @@ export class DataIntersightHyperflexVmBackupInfoVersionContextRefMoOutputReferen
 }
 export interface DataIntersightHyperflexVmBackupInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14621,32 +14661,32 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#marked_for_deletion DataIntersightHyperflexVmBackupInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#marked_for_deletion DataIntersightHyperflexVmBackupInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#nr_version DataIntersightHyperflexVmBackupInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#nr_version DataIntersightHyperflexVmBackupInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#timestamp DataIntersightHyperflexVmBackupInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -14657,19 +14697,19 @@ export interface DataIntersightHyperflexVmBackupInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#version_type DataIntersightHyperflexVmBackupInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#version_type DataIntersightHyperflexVmBackupInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#interested_mos DataIntersightHyperflexVmBackupInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#interested_mos DataIntersightHyperflexVmBackupInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexVmBackupInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#ref_mo DataIntersightHyperflexVmBackupInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#ref_mo DataIntersightHyperflexVmBackupInfo#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexVmBackupInfoVersionContextRefMo;
 }
@@ -14985,7 +15025,7 @@ export class DataIntersightHyperflexVmBackupInfoVersionContextOutputReference ex
 }
 export interface DataIntersightHyperflexVmBackupInfoVmEntityReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14993,19 +15033,19 @@ export interface DataIntersightHyperflexVmBackupInfoVmEntityReference {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration number for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#confignum DataIntersightHyperflexVmBackupInfo#confignum}
   */
   readonly confignum?: number;
   /**
   * Uuid of the entity for this reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#id DataIntersightHyperflexVmBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15019,20 +15059,20 @@ export interface DataIntersightHyperflexVmBackupInfoVmEntityReference {
   * * `VMINSTANCEUUID` - The entity reference ID type is VM Instance UUID.
   * * `VMNAME` - The entity reference ID type is VM Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#idtype DataIntersightHyperflexVmBackupInfo#idtype}
   */
   readonly idtype?: string;
   /**
   * Name of the entity for this entity reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15067,7 +15107,7 @@ export interface DataIntersightHyperflexVmBackupInfoVmEntityReference {
   * * `HX_TASK` - This entity type is a HyperFlex task.
   * * `ZONE` - This entity type is a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#type DataIntersightHyperflexVmBackupInfo#type}
   */
   readonly type?: string;
 }
@@ -15354,13 +15394,13 @@ export class DataIntersightHyperflexVmBackupInfoVmEntityReferenceOutputReference
 }
 export interface DataIntersightHyperflexVmBackupInfoVmInfoRunTimeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * BiosUuid of the Protected Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#bios_uuid DataIntersightHyperflexVmBackupInfo#bios_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#bios_uuid DataIntersightHyperflexVmBackupInfo#bios_uuid}
   */
   readonly biosUuid?: string;
   /**
@@ -15368,138 +15408,138 @@ export interface DataIntersightHyperflexVmBackupInfoVmInfoRunTimeInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Connection state of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#connection_state DataIntersightHyperflexVmBackupInfo#connection_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#connection_state DataIntersightHyperflexVmBackupInfo#connection_state}
   */
   readonly connectionState?: string;
   /**
   * CPU Usage of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#cpu_usage DataIntersightHyperflexVmBackupInfo#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#cpu_usage DataIntersightHyperflexVmBackupInfo#cpu_usage}
   */
   readonly cpuUsage?: number;
   /**
   * Folder which VM belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#folder DataIntersightHyperflexVmBackupInfo#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#folder DataIntersightHyperflexVmBackupInfo#folder}
   */
   readonly folder?: string;
   /**
   * Guest operating system family, if known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#guest_family DataIntersightHyperflexVmBackupInfo#guest_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#guest_family DataIntersightHyperflexVmBackupInfo#guest_family}
   */
   readonly guestFamily?: string;
   /**
   * Guest operating system full name, if known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#guest_full_name DataIntersightHyperflexVmBackupInfo#guest_full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#guest_full_name DataIntersightHyperflexVmBackupInfo#guest_full_name}
   */
   readonly guestFullName?: string;
   /**
   * Guest operating system identifier (short name), if known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#guest_id DataIntersightHyperflexVmBackupInfo#guest_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#guest_id DataIntersightHyperflexVmBackupInfo#guest_id}
   */
   readonly guestId?: string;
   /**
   * VMware guest reset, powercycle, or boot action states.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#guest_state DataIntersightHyperflexVmBackupInfo#guest_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#guest_state DataIntersightHyperflexVmBackupInfo#guest_state}
   */
   readonly guestState?: string;
   /**
   * Hostname of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#host_name DataIntersightHyperflexVmBackupInfo#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#host_name DataIntersightHyperflexVmBackupInfo#host_name}
   */
   readonly hostName?: string;
   /**
   * InstanceUuid of the Protected Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#instance_uuid DataIntersightHyperflexVmBackupInfo#instance_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#instance_uuid DataIntersightHyperflexVmBackupInfo#instance_uuid}
   */
   readonly instanceUuid?: string;
   /**
   * CPU Memory in MB of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#memory_mb DataIntersightHyperflexVmBackupInfo#memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#memory_mb DataIntersightHyperflexVmBackupInfo#memory_mb}
   */
   readonly memoryMb?: number;
   /**
   * Memory usage of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#memory_usage DataIntersightHyperflexVmBackupInfo#memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#memory_usage DataIntersightHyperflexVmBackupInfo#memory_usage}
   */
   readonly memoryUsage?: number;
   /**
   * Virtual Machine unique MOID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#moid DataIntersightHyperflexVmBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#name DataIntersightHyperflexVmBackupInfo#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#networks DataIntersightHyperflexVmBackupInfo#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#networks DataIntersightHyperflexVmBackupInfo#networks}
   */
   readonly networks?: string[];
   /**
   * Version of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#nr_version DataIntersightHyperflexVmBackupInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#nr_version DataIntersightHyperflexVmBackupInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * Number of CPUs for the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#num_cpu DataIntersightHyperflexVmBackupInfo#num_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#num_cpu DataIntersightHyperflexVmBackupInfo#num_cpu}
   */
   readonly numCpu?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * Power state of the Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#power_state DataIntersightHyperflexVmBackupInfo#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#power_state DataIntersightHyperflexVmBackupInfo#power_state}
   */
   readonly powerState?: string;
   /**
   * Provisioned Size of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#provisioned_size DataIntersightHyperflexVmBackupInfo#provisioned_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#provisioned_size DataIntersightHyperflexVmBackupInfo#provisioned_size}
   */
   readonly provisionedSize?: number;
   /**
   * Resource pool which VM belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#resource_pool DataIntersightHyperflexVmBackupInfo#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#resource_pool DataIntersightHyperflexVmBackupInfo#resource_pool}
   */
   readonly resourcePool?: string;
   /**
   * Used Size of Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#used_size DataIntersightHyperflexVmBackupInfo#used_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#used_size DataIntersightHyperflexVmBackupInfo#used_size}
   */
   readonly usedSize?: number;
   /**
   * Vmx Path in VC datastore format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#vmx_path DataIntersightHyperflexVmBackupInfo#vmx_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#vmx_path DataIntersightHyperflexVmBackupInfo#vmx_path}
   */
   readonly vmxPath?: string;
 }
@@ -16279,7 +16319,7 @@ export class DataIntersightHyperflexVmBackupInfoVmInfoRunTimeInfoOutputReference
 }
 export interface DataIntersightHyperflexVmBackupInfoVmInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#additional_properties DataIntersightHyperflexVmBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16287,14 +16327,14 @@ export interface DataIntersightHyperflexVmBackupInfoVmInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#class_id DataIntersightHyperflexVmBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#object_type DataIntersightHyperflexVmBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16304,19 +16344,19 @@ export interface DataIntersightHyperflexVmBackupInfoVmInfo {
   * * `VM_NOT_SUPPORTED` - This virtual machine is not supported.
   * * `NONE` - This virtual machine does not have a status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#status_code DataIntersightHyperflexVmBackupInfo#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#status_code DataIntersightHyperflexVmBackupInfo#status_code}
   */
   readonly statusCode?: string;
   /**
   * Virtual machine's current UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#uuid DataIntersightHyperflexVmBackupInfo#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#uuid DataIntersightHyperflexVmBackupInfo#uuid}
   */
   readonly uuid?: string;
   /**
   * run_time_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#run_time_info DataIntersightHyperflexVmBackupInfo#run_time_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#run_time_info DataIntersightHyperflexVmBackupInfo#run_time_info}
   */
   readonly runTimeInfo?: DataIntersightHyperflexVmBackupInfoVmInfoRunTimeInfo;
 }
@@ -16545,7 +16585,7 @@ export class DataIntersightHyperflexVmBackupInfoVmInfoOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info intersight_hyperflex_vm_backup_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info intersight_hyperflex_vm_backup_info}
 */
 export class DataIntersightHyperflexVmBackupInfo extends cdktf.TerraformDataSource {
 
@@ -16561,7 +16601,7 @@ export class DataIntersightHyperflexVmBackupInfo extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightHyperflexVmBackupInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexVmBackupInfo to import
-  * @param importFromId The id of the existing DataIntersightHyperflexVmBackupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexVmBackupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexVmBackupInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16573,7 +16613,7 @@ export class DataIntersightHyperflexVmBackupInfo extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_vm_backup_info intersight_hyperflex_vm_backup_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_vm_backup_info intersight_hyperflex_vm_backup_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16584,8 +16624,8 @@ export class DataIntersightHyperflexVmBackupInfo extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_hyperflex_vm_backup_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

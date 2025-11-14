@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
 }
@@ -178,7 +178,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRulePositionLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule oci_network_firewall_network_firewall_policy_decryption_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule oci_network_firewall_network_firewall_policy_decryption_rule}
 */
 export class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule extends c
   * Generates CDKTF code for importing a DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule to import
-  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule oci_network_firewall_network_firewall_policy_decryption_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule oci_network_firewall_network_firewall_policy_decryption_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule extends c
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_decryption_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

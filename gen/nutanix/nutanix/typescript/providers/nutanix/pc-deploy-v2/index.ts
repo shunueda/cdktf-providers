@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface PcDeployV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#id PcDeployV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#id PcDeployV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#should_enable_high_availability PcDeployV2#should_enable_high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#should_enable_high_availability PcDeployV2#should_enable_high_availability}
   */
   readonly shouldEnableHighAvailability?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#config PcDeployV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#config PcDeployV2#config}
   */
   readonly config: PcDeployV2ConfigA;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#network PcDeployV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#network PcDeployV2#network}
   */
   readonly network: PcDeployV2Network;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#timeouts PcDeployV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#timeouts PcDeployV2#timeouts}
   */
   readonly timeouts?: PcDeployV2Timeouts;
 }
 export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#map PcDeployV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#map PcDeployV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -155,33 +155,33 @@ export class PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustom
 }
 export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#boolean PcDeployV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#boolean PcDeployV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#integer PcDeployV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#integer PcDeployV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#integer_list PcDeployV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#integer_list PcDeployV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#object PcDeployV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#object PcDeployV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#string PcDeployV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#string PcDeployV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#string_list PcDeployV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#string_list PcDeployV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#map_of_strings PcDeployV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#map_of_strings PcDeployV2#map_of_strings}
   */
   readonly mapOfStrings?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -471,13 +471,13 @@ export class PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustom
 }
 export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#name PcDeployV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#name PcDeployV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -624,7 +624,7 @@ export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCu
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#key_value_pairs PcDeployV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#key_value_pairs PcDeployV2#key_value_pairs}
   */
   readonly keyValuePairs?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -740,7 +740,7 @@ export class PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustom
 }
 export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value?: string;
 }
@@ -858,13 +858,13 @@ export interface PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScript {
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#custom_key_values PcDeployV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#custom_key_values PcDeployV2#custom_key_values}
   */
   readonly customKeyValues?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#user_data PcDeployV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#user_data PcDeployV2#user_data}
   */
   readonly userData?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -1009,17 +1009,17 @@ export class PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScriptList e
 }
 export interface PcDeployV2ConfigBootstrapConfigCloudInitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#datasource_type PcDeployV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#datasource_type PcDeployV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#metadata PcDeployV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#metadata PcDeployV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#cloud_init_script PcDeployV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#cloud_init_script PcDeployV2#cloud_init_script}
   */
   readonly cloudInitScript?: PcDeployV2ConfigBootstrapConfigCloudInitConfigCloudInitScript[] | cdktf.IResolvable;
 }
@@ -1193,15 +1193,15 @@ export class PcDeployV2ConfigBootstrapConfigCloudInitConfigList extends cdktf.Co
 }
 export interface PcDeployV2ConfigBootstrapConfigEnvironmentInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#provider_type PcDeployV2#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#provider_type PcDeployV2#provider_type}
   */
   readonly providerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#provisioning_type PcDeployV2#provisioning_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#provisioning_type PcDeployV2#provisioning_type}
   */
   readonly provisioningType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#type PcDeployV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#type PcDeployV2#type}
   */
   readonly type?: string;
 }
@@ -1345,13 +1345,13 @@ export interface PcDeployV2ConfigBootstrapConfig {
   /**
   * cloud_init_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#cloud_init_config PcDeployV2#cloud_init_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#cloud_init_config PcDeployV2#cloud_init_config}
   */
   readonly cloudInitConfig?: PcDeployV2ConfigBootstrapConfigCloudInitConfig[] | cdktf.IResolvable;
   /**
   * environment_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#environment_info PcDeployV2#environment_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#environment_info PcDeployV2#environment_info}
   */
   readonly environmentInfo?: PcDeployV2ConfigBootstrapConfigEnvironmentInfo;
 }
@@ -1464,7 +1464,7 @@ export class PcDeployV2ConfigBootstrapConfigOutputReference extends cdktf.Comple
 }
 export interface PcDeployV2ConfigBuildInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#version PcDeployV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#version PcDeployV2#version}
   */
   readonly version?: string;
 }
@@ -1548,11 +1548,11 @@ export class PcDeployV2ConfigBuildInfoOutputReference extends cdktf.ComplexObjec
 }
 export interface PcDeployV2ConfigCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#password PcDeployV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#password PcDeployV2#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#username PcDeployV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#username PcDeployV2#username}
   */
   readonly username: string;
 }
@@ -1691,19 +1691,19 @@ export class PcDeployV2ConfigCredentialsList extends cdktf.ComplexList {
 }
 export interface PcDeployV2ConfigResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#container_ext_ids PcDeployV2#container_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#container_ext_ids PcDeployV2#container_ext_ids}
   */
   readonly containerExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#data_disk_size_bytes PcDeployV2#data_disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#data_disk_size_bytes PcDeployV2#data_disk_size_bytes}
   */
   readonly dataDiskSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#memory_size_bytes PcDeployV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#memory_size_bytes PcDeployV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#num_vcpus PcDeployV2#num_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#num_vcpus PcDeployV2#num_vcpus}
   */
   readonly numVcpus?: number;
 }
@@ -1906,39 +1906,39 @@ export class PcDeployV2ConfigResourceConfigList extends cdktf.ComplexList {
 }
 export interface PcDeployV2ConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#name PcDeployV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#name PcDeployV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#should_enable_lockdown_mode PcDeployV2#should_enable_lockdown_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#should_enable_lockdown_mode PcDeployV2#should_enable_lockdown_mode}
   */
   readonly shouldEnableLockdownMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#size PcDeployV2#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#size PcDeployV2#size}
   */
   readonly size: string;
   /**
   * bootstrap_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#bootstrap_config PcDeployV2#bootstrap_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#bootstrap_config PcDeployV2#bootstrap_config}
   */
   readonly bootstrapConfig?: PcDeployV2ConfigBootstrapConfig;
   /**
   * build_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#build_info PcDeployV2#build_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#build_info PcDeployV2#build_info}
   */
   readonly buildInfo: PcDeployV2ConfigBuildInfo;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#credentials PcDeployV2#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#credentials PcDeployV2#credentials}
   */
   readonly credentials?: PcDeployV2ConfigCredentials[] | cdktf.IResolvable;
   /**
   * resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#resource_config PcDeployV2#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#resource_config PcDeployV2#resource_config}
   */
   readonly resourceConfig?: PcDeployV2ConfigResourceConfig[] | cdktf.IResolvable;
 }
@@ -2187,11 +2187,11 @@ export class PcDeployV2ConfigAOutputReference extends cdktf.ComplexObject {
 }
 export interface PcDeployV2NetworkExternalAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -2333,11 +2333,11 @@ export class PcDeployV2NetworkExternalAddressIpv4List extends cdktf.ComplexList 
 }
 export interface PcDeployV2NetworkExternalAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -2481,13 +2481,13 @@ export interface PcDeployV2NetworkExternalAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkExternalAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkExternalAddressIpv6[] | cdktf.IResolvable;
 }
@@ -2600,7 +2600,7 @@ export class PcDeployV2NetworkExternalAddressOutputReference extends cdktf.Compl
 }
 export interface PcDeployV2NetworkExternalNetworksDefaultGatewayFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -2713,11 +2713,11 @@ export class PcDeployV2NetworkExternalNetworksDefaultGatewayFqdnList extends cdk
 }
 export interface PcDeployV2NetworkExternalNetworksDefaultGatewayIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -2859,11 +2859,11 @@ export class PcDeployV2NetworkExternalNetworksDefaultGatewayIpv4List extends cdk
 }
 export interface PcDeployV2NetworkExternalNetworksDefaultGatewayIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -3007,19 +3007,19 @@ export interface PcDeployV2NetworkExternalNetworksDefaultGateway {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkExternalNetworksDefaultGatewayFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkExternalNetworksDefaultGatewayIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkExternalNetworksDefaultGatewayIpv6[] | cdktf.IResolvable;
 }
@@ -3161,11 +3161,11 @@ export class PcDeployV2NetworkExternalNetworksDefaultGatewayOutputReference exte
 }
 export interface PcDeployV2NetworkExternalNetworksIpRangesBeginIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -3307,11 +3307,11 @@ export class PcDeployV2NetworkExternalNetworksIpRangesBeginIpv4List extends cdkt
 }
 export interface PcDeployV2NetworkExternalNetworksIpRangesBeginIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -3455,13 +3455,13 @@ export interface PcDeployV2NetworkExternalNetworksIpRangesBegin {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkExternalNetworksIpRangesBeginIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkExternalNetworksIpRangesBeginIpv6[] | cdktf.IResolvable;
 }
@@ -3574,11 +3574,11 @@ export class PcDeployV2NetworkExternalNetworksIpRangesBeginOutputReference exten
 }
 export interface PcDeployV2NetworkExternalNetworksIpRangesEndIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -3720,11 +3720,11 @@ export class PcDeployV2NetworkExternalNetworksIpRangesEndIpv4List extends cdktf.
 }
 export interface PcDeployV2NetworkExternalNetworksIpRangesEndIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -3868,13 +3868,13 @@ export interface PcDeployV2NetworkExternalNetworksIpRangesEnd {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkExternalNetworksIpRangesEndIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkExternalNetworksIpRangesEndIpv6[] | cdktf.IResolvable;
 }
@@ -3989,13 +3989,13 @@ export interface PcDeployV2NetworkExternalNetworksIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#begin PcDeployV2#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#begin PcDeployV2#begin}
   */
   readonly begin?: PcDeployV2NetworkExternalNetworksIpRangesBegin;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#end PcDeployV2#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#end PcDeployV2#end}
   */
   readonly end?: PcDeployV2NetworkExternalNetworksIpRangesEnd;
 }
@@ -4140,7 +4140,7 @@ export class PcDeployV2NetworkExternalNetworksIpRangesList extends cdktf.Complex
 }
 export interface PcDeployV2NetworkExternalNetworksSubnetMaskFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -4253,11 +4253,11 @@ export class PcDeployV2NetworkExternalNetworksSubnetMaskFqdnList extends cdktf.C
 }
 export interface PcDeployV2NetworkExternalNetworksSubnetMaskIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -4399,11 +4399,11 @@ export class PcDeployV2NetworkExternalNetworksSubnetMaskIpv4List extends cdktf.C
 }
 export interface PcDeployV2NetworkExternalNetworksSubnetMaskIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -4547,19 +4547,19 @@ export interface PcDeployV2NetworkExternalNetworksSubnetMask {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkExternalNetworksSubnetMaskFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkExternalNetworksSubnetMaskIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkExternalNetworksSubnetMaskIpv6[] | cdktf.IResolvable;
 }
@@ -4701,25 +4701,25 @@ export class PcDeployV2NetworkExternalNetworksSubnetMaskOutputReference extends 
 }
 export interface PcDeployV2NetworkExternalNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#network_ext_id PcDeployV2#network_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#network_ext_id PcDeployV2#network_ext_id}
   */
   readonly networkExtId: string;
   /**
   * default_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#default_gateway PcDeployV2#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#default_gateway PcDeployV2#default_gateway}
   */
   readonly defaultGateway: PcDeployV2NetworkExternalNetworksDefaultGateway;
   /**
   * ip_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ip_ranges PcDeployV2#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ip_ranges PcDeployV2#ip_ranges}
   */
   readonly ipRanges: PcDeployV2NetworkExternalNetworksIpRanges[] | cdktf.IResolvable;
   /**
   * subnet_mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#subnet_mask PcDeployV2#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#subnet_mask PcDeployV2#subnet_mask}
   */
   readonly subnetMask: PcDeployV2NetworkExternalNetworksSubnetMask;
 }
@@ -4910,7 +4910,7 @@ export class PcDeployV2NetworkExternalNetworksList extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkInternalNetworksDefaultGatewayFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -5023,11 +5023,11 @@ export class PcDeployV2NetworkInternalNetworksDefaultGatewayFqdnList extends cdk
 }
 export interface PcDeployV2NetworkInternalNetworksDefaultGatewayIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -5169,11 +5169,11 @@ export class PcDeployV2NetworkInternalNetworksDefaultGatewayIpv4List extends cdk
 }
 export interface PcDeployV2NetworkInternalNetworksDefaultGatewayIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -5317,19 +5317,19 @@ export interface PcDeployV2NetworkInternalNetworksDefaultGateway {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkInternalNetworksDefaultGatewayFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkInternalNetworksDefaultGatewayIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkInternalNetworksDefaultGatewayIpv6[] | cdktf.IResolvable;
 }
@@ -5471,11 +5471,11 @@ export class PcDeployV2NetworkInternalNetworksDefaultGatewayOutputReference exte
 }
 export interface PcDeployV2NetworkInternalNetworksIpRangesBeginIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -5617,11 +5617,11 @@ export class PcDeployV2NetworkInternalNetworksIpRangesBeginIpv4List extends cdkt
 }
 export interface PcDeployV2NetworkInternalNetworksIpRangesBeginIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -5765,13 +5765,13 @@ export interface PcDeployV2NetworkInternalNetworksIpRangesBegin {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkInternalNetworksIpRangesBeginIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkInternalNetworksIpRangesBeginIpv6[] | cdktf.IResolvable;
 }
@@ -5884,11 +5884,11 @@ export class PcDeployV2NetworkInternalNetworksIpRangesBeginOutputReference exten
 }
 export interface PcDeployV2NetworkInternalNetworksIpRangesEndIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -6030,11 +6030,11 @@ export class PcDeployV2NetworkInternalNetworksIpRangesEndIpv4List extends cdktf.
 }
 export interface PcDeployV2NetworkInternalNetworksIpRangesEndIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -6178,13 +6178,13 @@ export interface PcDeployV2NetworkInternalNetworksIpRangesEnd {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkInternalNetworksIpRangesEndIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkInternalNetworksIpRangesEndIpv6[] | cdktf.IResolvable;
 }
@@ -6299,13 +6299,13 @@ export interface PcDeployV2NetworkInternalNetworksIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#begin PcDeployV2#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#begin PcDeployV2#begin}
   */
   readonly begin?: PcDeployV2NetworkInternalNetworksIpRangesBegin;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#end PcDeployV2#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#end PcDeployV2#end}
   */
   readonly end?: PcDeployV2NetworkInternalNetworksIpRangesEnd;
 }
@@ -6450,7 +6450,7 @@ export class PcDeployV2NetworkInternalNetworksIpRangesList extends cdktf.Complex
 }
 export interface PcDeployV2NetworkInternalNetworksSubnetMaskFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -6563,11 +6563,11 @@ export class PcDeployV2NetworkInternalNetworksSubnetMaskFqdnList extends cdktf.C
 }
 export interface PcDeployV2NetworkInternalNetworksSubnetMaskIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -6709,11 +6709,11 @@ export class PcDeployV2NetworkInternalNetworksSubnetMaskIpv4List extends cdktf.C
 }
 export interface PcDeployV2NetworkInternalNetworksSubnetMaskIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -6857,19 +6857,19 @@ export interface PcDeployV2NetworkInternalNetworksSubnetMask {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkInternalNetworksSubnetMaskFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkInternalNetworksSubnetMaskIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkInternalNetworksSubnetMaskIpv6[] | cdktf.IResolvable;
 }
@@ -7013,19 +7013,19 @@ export interface PcDeployV2NetworkInternalNetworks {
   /**
   * default_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#default_gateway PcDeployV2#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#default_gateway PcDeployV2#default_gateway}
   */
   readonly defaultGateway: PcDeployV2NetworkInternalNetworksDefaultGateway;
   /**
   * ip_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ip_ranges PcDeployV2#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ip_ranges PcDeployV2#ip_ranges}
   */
   readonly ipRanges: PcDeployV2NetworkInternalNetworksIpRanges[] | cdktf.IResolvable;
   /**
   * subnet_mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#subnet_mask PcDeployV2#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#subnet_mask PcDeployV2#subnet_mask}
   */
   readonly subnetMask: PcDeployV2NetworkInternalNetworksSubnetMask;
 }
@@ -7158,7 +7158,7 @@ export class PcDeployV2NetworkInternalNetworksOutputReference extends cdktf.Comp
 }
 export interface PcDeployV2NetworkNameServersFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -7271,11 +7271,11 @@ export class PcDeployV2NetworkNameServersFqdnList extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -7417,11 +7417,11 @@ export class PcDeployV2NetworkNameServersIpv4List extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -7565,19 +7565,19 @@ export interface PcDeployV2NetworkNameServers {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkNameServersFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -7751,7 +7751,7 @@ export class PcDeployV2NetworkNameServersList extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkNtpServersFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -7864,11 +7864,11 @@ export class PcDeployV2NetworkNtpServersFqdnList extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkNtpServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -8010,11 +8010,11 @@ export class PcDeployV2NetworkNtpServersIpv4List extends cdktf.ComplexList {
 }
 export interface PcDeployV2NetworkNtpServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#prefix_length PcDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#value PcDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#value PcDeployV2#value}
   */
   readonly value: string;
 }
@@ -8158,19 +8158,19 @@ export interface PcDeployV2NetworkNtpServers {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#fqdn PcDeployV2#fqdn}
   */
   readonly fqdn?: PcDeployV2NetworkNtpServersFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv4 PcDeployV2#ipv4}
   */
   readonly ipv4?: PcDeployV2NetworkNtpServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ipv6 PcDeployV2#ipv6}
   */
   readonly ipv6?: PcDeployV2NetworkNtpServersIpv6[] | cdktf.IResolvable;
 }
@@ -8346,31 +8346,31 @@ export interface PcDeployV2Network {
   /**
   * external_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#external_address PcDeployV2#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#external_address PcDeployV2#external_address}
   */
   readonly externalAddress?: PcDeployV2NetworkExternalAddress;
   /**
   * external_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#external_networks PcDeployV2#external_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#external_networks PcDeployV2#external_networks}
   */
   readonly externalNetworks?: PcDeployV2NetworkExternalNetworks[] | cdktf.IResolvable;
   /**
   * internal_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#internal_networks PcDeployV2#internal_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#internal_networks PcDeployV2#internal_networks}
   */
   readonly internalNetworks?: PcDeployV2NetworkInternalNetworks;
   /**
   * name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#name_servers PcDeployV2#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#name_servers PcDeployV2#name_servers}
   */
   readonly nameServers: PcDeployV2NetworkNameServers[] | cdktf.IResolvable;
   /**
   * ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#ntp_servers PcDeployV2#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#ntp_servers PcDeployV2#ntp_servers}
   */
   readonly ntpServers: PcDeployV2NetworkNtpServers[] | cdktf.IResolvable;
 }
@@ -8569,7 +8569,7 @@ export class PcDeployV2NetworkOutputReference extends cdktf.ComplexObject {
 }
 export interface PcDeployV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#create PcDeployV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#create PcDeployV2#create}
   */
   readonly create?: string;
 }
@@ -8663,7 +8663,7 @@ export class PcDeployV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2 nutanix_pc_deploy_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2 nutanix_pc_deploy_v2}
 */
 export class PcDeployV2 extends cdktf.TerraformResource {
 
@@ -8679,7 +8679,7 @@ export class PcDeployV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PcDeployV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcDeployV2 to import
-  * @param importFromId The id of the existing PcDeployV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcDeployV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcDeployV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8691,7 +8691,7 @@ export class PcDeployV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_deploy_v2 nutanix_pc_deploy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_deploy_v2 nutanix_pc_deploy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8702,8 +8702,8 @@ export class PcDeployV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_pc_deploy_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

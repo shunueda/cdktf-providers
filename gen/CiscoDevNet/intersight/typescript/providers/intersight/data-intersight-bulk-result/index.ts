@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIntersightBulkResultConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#account_moid DataIntersightBulkResult#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#account_moid DataIntersightBulkResult#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,11 +18,11 @@ export interface DataIntersightBulkResultConfig extends cdktf.TerraformMetaArgum
   * * `Stop` - Stop the processing of the request after the first error.
   * * `Proceed` - Proceed with the processing of the request even when an error occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#action_on_error DataIntersightBulkResult#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#action_on_error DataIntersightBulkResult#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -30,29 +30,29 @@ export interface DataIntersightBulkResultConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The timestamp in UTC when the request processing is completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#completion_time DataIntersightBulkResult#completion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#completion_time DataIntersightBulkResult#completion_time}
   */
   readonly completionTime?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#create_time DataIntersightBulkResult#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#create_time DataIntersightBulkResult#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#domain_group_moid DataIntersightBulkResult#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#domain_group_moid DataIntersightBulkResult#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#id DataIntersightBulkResult#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#id DataIntersightBulkResult#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,49 +61,49 @@ export interface DataIntersightBulkResultConfig extends cdktf.TerraformMetaArgum
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#mod_time DataIntersightBulkResult#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#mod_time DataIntersightBulkResult#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The number of subrequests received in this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#num_sub_requests DataIntersightBulkResult#num_sub_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#num_sub_requests DataIntersightBulkResult#num_sub_requests}
   */
   readonly numSubRequests?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#owners DataIntersightBulkResult#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#owners DataIntersightBulkResult#owners}
   */
   readonly owners?: string[];
   /**
   * The individual request to be executed asynchronously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#request DataIntersightBulkResult#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#request DataIntersightBulkResult#request}
   */
   readonly request?: string;
   /**
   * The timestamp in UTC when the request was received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#request_received_time DataIntersightBulkResult#request_received_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#request_received_time DataIntersightBulkResult#request_received_time}
   */
   readonly requestReceivedTime?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#shared_scope DataIntersightBulkResult#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#shared_scope DataIntersightBulkResult#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -117,79 +117,79 @@ export interface DataIntersightBulkResultConfig extends cdktf.TerraformMetaArgum
   * * `Failed` - Indicates that the processing of this request failed.
   * * `TimedOut` - Indicates that the request processing timed out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#status DataIntersightBulkResult#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#status DataIntersightBulkResult#status}
   */
   readonly status?: string;
   /**
   * The status message shows the error details in human readable format when the request goes to failed state. No additional information is shown for success case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#status_message DataIntersightBulkResult#status_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#status_message DataIntersightBulkResult#status_message}
   */
   readonly statusMessage?: string;
   /**
   * The URI on which this async operation is being performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#uri DataIntersightBulkResult#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#uri DataIntersightBulkResult#uri}
   */
   readonly uri?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#ancestors DataIntersightBulkResult#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#ancestors DataIntersightBulkResult#ancestors}
   */
   readonly ancestors?: DataIntersightBulkResultAncestors[] | cdktf.IResolvable;
   /**
   * mo_cloner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#mo_cloner DataIntersightBulkResult#mo_cloner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#mo_cloner DataIntersightBulkResult#mo_cloner}
   */
   readonly moCloner?: DataIntersightBulkResultMoCloner;
   /**
   * mo_deep_cloner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#mo_deep_cloner DataIntersightBulkResult#mo_deep_cloner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#mo_deep_cloner DataIntersightBulkResult#mo_deep_cloner}
   */
   readonly moDeepCloner?: DataIntersightBulkResultMoDeepCloner;
   /**
   * mo_merger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#mo_merger DataIntersightBulkResult#mo_merger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#mo_merger DataIntersightBulkResult#mo_merger}
   */
   readonly moMerger?: DataIntersightBulkResultMoMerger;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#organization DataIntersightBulkResult#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#organization DataIntersightBulkResult#organization}
   */
   readonly organization?: DataIntersightBulkResultOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#parent DataIntersightBulkResult#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#parent DataIntersightBulkResult#parent}
   */
   readonly parent?: DataIntersightBulkResultParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#permission_resources DataIntersightBulkResult#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#permission_resources DataIntersightBulkResult#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkResultPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#tags DataIntersightBulkResult#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#tags DataIntersightBulkResult#tags}
   */
   readonly tags?: DataIntersightBulkResultTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#version_context DataIntersightBulkResult#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#version_context DataIntersightBulkResult#version_context}
   */
   readonly versionContext?: DataIntersightBulkResultVersionContext;
   /**
   * workflow_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#workflow_info DataIntersightBulkResult#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#workflow_info DataIntersightBulkResult#workflow_info}
   */
   readonly workflowInfo?: DataIntersightBulkResultWorkflowInfo;
 }
@@ -1221,6 +1221,11 @@ export class DataIntersightBulkResultResultsTagsOutputReference extends cdktf.Co
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1880,7 +1885,7 @@ export class DataIntersightBulkResultResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkResultAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1888,19 +1893,19 @@ export interface DataIntersightBulkResultAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1913,7 +1918,7 @@ export interface DataIntersightBulkResultAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -2145,7 +2150,7 @@ export class DataIntersightBulkResultAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkResultMoCloner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2153,19 +2158,19 @@ export interface DataIntersightBulkResultMoCloner {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2178,7 +2183,7 @@ export interface DataIntersightBulkResultMoCloner {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -2378,7 +2383,7 @@ export class DataIntersightBulkResultMoClonerOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBulkResultMoDeepCloner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2386,19 +2391,19 @@ export interface DataIntersightBulkResultMoDeepCloner {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2411,7 +2416,7 @@ export interface DataIntersightBulkResultMoDeepCloner {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -2611,7 +2616,7 @@ export class DataIntersightBulkResultMoDeepClonerOutputReference extends cdktf.C
 }
 export interface DataIntersightBulkResultMoMerger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2619,19 +2624,19 @@ export interface DataIntersightBulkResultMoMerger {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2644,7 +2649,7 @@ export interface DataIntersightBulkResultMoMerger {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -2844,7 +2849,7 @@ export class DataIntersightBulkResultMoMergerOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBulkResultOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2852,19 +2857,19 @@ export interface DataIntersightBulkResultOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2877,7 +2882,7 @@ export interface DataIntersightBulkResultOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -3077,7 +3082,7 @@ export class DataIntersightBulkResultOrganizationOutputReference extends cdktf.C
 }
 export interface DataIntersightBulkResultParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3085,19 +3090,19 @@ export interface DataIntersightBulkResultParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3110,7 +3115,7 @@ export interface DataIntersightBulkResultParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -3310,7 +3315,7 @@ export class DataIntersightBulkResultParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightBulkResultPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3318,19 +3323,19 @@ export interface DataIntersightBulkResultPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3343,7 +3348,7 @@ export interface DataIntersightBulkResultPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -3575,7 +3580,7 @@ export class DataIntersightBulkResultPermissionResourcesList extends cdktf.Compl
 }
 export interface DataIntersightBulkResultTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3583,19 +3588,19 @@ export interface DataIntersightBulkResultTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3608,7 +3613,7 @@ export interface DataIntersightBulkResultTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -3840,7 +3845,7 @@ export class DataIntersightBulkResultTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightBulkResultTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3848,19 +3853,19 @@ export interface DataIntersightBulkResultTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3873,7 +3878,7 @@ export interface DataIntersightBulkResultTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -4073,45 +4078,51 @@ export class DataIntersightBulkResultTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightBulkResultTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#key DataIntersightBulkResult#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#key DataIntersightBulkResult#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#propagated DataIntersightBulkResult#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#propagated DataIntersightBulkResult#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#sys_tag DataIntersightBulkResult#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#type DataIntersightBulkResult#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#type DataIntersightBulkResult#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#value DataIntersightBulkResult#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#value DataIntersightBulkResult#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#ancestor_definitions DataIntersightBulkResult#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#ancestor_definitions DataIntersightBulkResult#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkResultTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#definition DataIntersightBulkResult#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#definition DataIntersightBulkResult#definition}
   */
   readonly definition?: DataIntersightBulkResultTagsDefinition;
 }
@@ -4125,6 +4136,7 @@ export function dataIntersightBulkResultTagsToTerraform(struct?: DataIntersightB
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightBulkResultTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4153,6 +4165,12 @@ export function dataIntersightBulkResultTagsToHclTerraform(struct?: DataIntersig
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4219,6 +4237,10 @@ export class DataIntersightBulkResultTagsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4245,6 +4267,7 @@ export class DataIntersightBulkResultTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4260,6 +4283,7 @@ export class DataIntersightBulkResultTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4313,6 +4337,22 @@ export class DataIntersightBulkResultTagsOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4401,7 +4441,7 @@ export class DataIntersightBulkResultTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkResultVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4409,19 +4449,19 @@ export interface DataIntersightBulkResultVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4434,7 +4474,7 @@ export interface DataIntersightBulkResultVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -4666,7 +4706,7 @@ export class DataIntersightBulkResultVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightBulkResultVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4674,19 +4714,19 @@ export interface DataIntersightBulkResultVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4699,7 +4739,7 @@ export interface DataIntersightBulkResultVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -4899,7 +4939,7 @@ export class DataIntersightBulkResultVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightBulkResultVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4907,32 +4947,32 @@ export interface DataIntersightBulkResultVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#marked_for_deletion DataIntersightBulkResult#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#marked_for_deletion DataIntersightBulkResult#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#nr_version DataIntersightBulkResult#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#nr_version DataIntersightBulkResult#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#timestamp DataIntersightBulkResult#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#timestamp DataIntersightBulkResult#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4943,19 +4983,19 @@ export interface DataIntersightBulkResultVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#version_type DataIntersightBulkResult#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#version_type DataIntersightBulkResult#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#interested_mos DataIntersightBulkResult#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#interested_mos DataIntersightBulkResult#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkResultVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#ref_mo DataIntersightBulkResult#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#ref_mo DataIntersightBulkResult#ref_mo}
   */
   readonly refMo?: DataIntersightBulkResultVersionContextRefMo;
 }
@@ -5271,7 +5311,7 @@ export class DataIntersightBulkResultVersionContextOutputReference extends cdktf
 }
 export interface DataIntersightBulkResultWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#additional_properties DataIntersightBulkResult#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5279,19 +5319,19 @@ export interface DataIntersightBulkResultWorkflowInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#class_id DataIntersightBulkResult#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#moid DataIntersightBulkResult#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#object_type DataIntersightBulkResult#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5304,7 +5344,7 @@ export interface DataIntersightBulkResultWorkflowInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#selector DataIntersightBulkResult#selector}
   */
   readonly selector?: string;
 }
@@ -5504,7 +5544,7 @@ export class DataIntersightBulkResultWorkflowInfoOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result intersight_bulk_result}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result intersight_bulk_result}
 */
 export class DataIntersightBulkResult extends cdktf.TerraformDataSource {
 
@@ -5520,7 +5560,7 @@ export class DataIntersightBulkResult extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBulkResult resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBulkResult to import
-  * @param importFromId The id of the existing DataIntersightBulkResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBulkResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBulkResult to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5532,7 +5572,7 @@ export class DataIntersightBulkResult extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bulk_result intersight_bulk_result} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_result intersight_bulk_result} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5543,8 +5583,8 @@ export class DataIntersightBulkResult extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bulk_result',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

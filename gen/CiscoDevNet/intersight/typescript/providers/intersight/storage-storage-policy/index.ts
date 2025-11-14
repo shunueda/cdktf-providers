@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface StorageStoragePolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#account_moid StorageStoragePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#account_moid StorageStoragePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#ancestors StorageStoragePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#ancestors StorageStoragePolicy#ancestors}
   */
   readonly ancestors?: StorageStoragePolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,19 +28,19 @@ export interface StorageStoragePolicyConfig extends cdktf.TerraformMetaArguments
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Only U.3 NVMe drives need to be specified, entered slots will be moved to controller attached mode. Allowed slots are 1-9, 21-24, 101-104. Allowed value is a comma or hyphen separated number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#controller_attached_nvme_slots StorageStoragePolicy#controller_attached_nvme_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#controller_attached_nvme_slots StorageStoragePolicy#controller_attached_nvme_slots}
   */
   readonly controllerAttachedNvmeSlots?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#create_time StorageStoragePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#create_time StorageStoragePolicy#create_time}
   */
   readonly createTime?: string;
   /**
@@ -49,41 +49,41 @@ export interface StorageStoragePolicyConfig extends cdktf.TerraformMetaArguments
   * * `Jbod` - Newly inserted drives or on reboot, drives will automatically move to JBOD state if drive state was UnconfiguredGood.
   * * `RAID0` - Newly inserted drives or on reboot, virtual drives will be created, respective drives will move to Online state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#default_drive_mode StorageStoragePolicy#default_drive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#default_drive_mode StorageStoragePolicy#default_drive_mode}
   */
   readonly defaultDriveMode?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#description StorageStoragePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#description StorageStoragePolicy#description}
   */
   readonly description?: string;
   /**
   * Only U.3 NVMe drives need to be specified, entered slots will be moved to Direct attached mode. Allowed slots are 1-9, 21-24, 101-104. Allowed value is a comma or hyphen separated number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#direct_attached_nvme_slots StorageStoragePolicy#direct_attached_nvme_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#direct_attached_nvme_slots StorageStoragePolicy#direct_attached_nvme_slots}
   */
   readonly directAttachedNvmeSlots?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#domain_group_moid StorageStoragePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#domain_group_moid StorageStoragePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * An array of relationships to storageDriveGroup resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#drive_group StorageStoragePolicy#drive_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#drive_group StorageStoragePolicy#drive_group}
   */
   readonly driveGroup?: StorageStoragePolicyDriveGroup[] | cdktf.IResolvable;
   /**
   * A collection of disks that is to be used as hot spares, globally, for all the RAID groups. Allowed value is a number range separated by a comma or a hyphen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#global_hot_spares StorageStoragePolicy#global_hot_spares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#global_hot_spares StorageStoragePolicy#global_hot_spares}
   */
   readonly globalHotSpares?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#id StorageStoragePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#id StorageStoragePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,91 +92,91 @@ export interface StorageStoragePolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * Virtual Drive configuration for M.2 RAID controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#m2_virtual_drive StorageStoragePolicy#m2_virtual_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#m2_virtual_drive StorageStoragePolicy#m2_virtual_drive}
   */
   readonly m2VirtualDrive?: StorageStoragePolicyM2VirtualDrive[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#mod_time StorageStoragePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#mod_time StorageStoragePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#name StorageStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#name StorageStoragePolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#organization StorageStoragePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#organization StorageStoragePolicy#organization}
   */
   readonly organization?: StorageStoragePolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#owners StorageStoragePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#owners StorageStoragePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#parent StorageStoragePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#parent StorageStoragePolicy#parent}
   */
   readonly parent?: StorageStoragePolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#permission_resources StorageStoragePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#permission_resources StorageStoragePolicy#permission_resources}
   */
   readonly permissionResources?: StorageStoragePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractConfigProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#profiles StorageStoragePolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#profiles StorageStoragePolicy#profiles}
   */
   readonly profiles?: StorageStoragePolicyProfiles[] | cdktf.IResolvable;
   /**
   * The list of disks where RAID0 virtual drives must be created on each individual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#raid0_drive StorageStoragePolicy#raid0_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#raid0_drive StorageStoragePolicy#raid0_drive}
   */
   readonly raid0Drive?: StorageStoragePolicyRaid0Drive[] | cdktf.IResolvable;
   /**
   * Only U.3 NVMe drives need to be specified, entered slots will be moved to RAID attached mode. Allowed slots are 1-4, 101-104. Allowed value is a comma or hyphen separated number ranges. Deprecated in favor of controllerAttachedNvmeSlots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#raid_attached_nvme_slots StorageStoragePolicy#raid_attached_nvme_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#raid_attached_nvme_slots StorageStoragePolicy#raid_attached_nvme_slots}
   */
   readonly raidAttachedNvmeSlots?: string;
   /**
   * JBOD drives specified in this slot range will be encrypted. Allowed values are 'ALL', or a comma or hyphen separated number range. Sample format is ALL or 1, 3 or 4-6, 8. Setting the value to 'ALL' will encrypt all the unused UnconfigureGood/JBOD disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#secure_jbods StorageStoragePolicy#secure_jbods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#secure_jbods StorageStoragePolicy#secure_jbods}
   */
   readonly secureJbods?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#shared_scope StorageStoragePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#shared_scope StorageStoragePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#tags StorageStoragePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#tags StorageStoragePolicy#tags}
   */
   readonly tags?: StorageStoragePolicyTags[] | cdktf.IResolvable;
   /**
@@ -185,41 +185,41 @@ export interface StorageStoragePolicyConfig extends cdktf.TerraformMetaArguments
   * * `UnconfiguredGood` - Unconfigured good state -ready to be added in a RAID group.
   * * `Jbod` - JBOD state where the disks start showing up to Host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#unused_disks_state StorageStoragePolicy#unused_disks_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#unused_disks_state StorageStoragePolicy#unused_disks_state}
   */
   readonly unusedDisksState?: string;
   /**
   * Disks in JBOD State are used to create virtual drives. This setting must be disabled if Default Drive State is set to JBOD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#use_jbod_for_vd_creation StorageStoragePolicy#use_jbod_for_vd_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#use_jbod_for_vd_creation StorageStoragePolicy#use_jbod_for_vd_creation}
   */
   readonly useJbodForVdCreation?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#version_context StorageStoragePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#version_context StorageStoragePolicy#version_context}
   */
   readonly versionContext?: StorageStoragePolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface StorageStoragePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -451,23 +451,23 @@ export class StorageStoragePolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyDriveGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -699,27 +699,27 @@ export class StorageStoragePolicyDriveGroupList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyM2VirtualDrive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#controller_slot StorageStoragePolicy#controller_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#controller_slot StorageStoragePolicy#controller_slot}
   */
   readonly controllerSlot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#enable StorageStoragePolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#enable StorageStoragePolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#name StorageStoragePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#name StorageStoragePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -980,23 +980,23 @@ export class StorageStoragePolicyM2VirtualDriveList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1228,23 +1228,23 @@ export class StorageStoragePolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1476,23 +1476,23 @@ export class StorageStoragePolicyParentList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1724,23 +1724,23 @@ export class StorageStoragePolicyPermissionResourcesList extends cdktf.ComplexLi
 }
 export interface StorageStoragePolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1972,35 +1972,35 @@ export class StorageStoragePolicyProfilesList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyRaid0DriveVirtualDrivePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#access_policy StorageStoragePolicy#access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#access_policy StorageStoragePolicy#access_policy}
   */
   readonly accessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#drive_cache StorageStoragePolicy#drive_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#drive_cache StorageStoragePolicy#drive_cache}
   */
   readonly driveCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#read_policy StorageStoragePolicy#read_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#read_policy StorageStoragePolicy#read_policy}
   */
   readonly readPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#strip_size StorageStoragePolicy#strip_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#strip_size StorageStoragePolicy#strip_size}
   */
   readonly stripSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#write_policy StorageStoragePolicy#write_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#write_policy StorageStoragePolicy#write_policy}
   */
   readonly writePolicy?: string;
 }
@@ -2319,31 +2319,31 @@ export class StorageStoragePolicyRaid0DriveVirtualDrivePolicyList extends cdktf.
 }
 export interface StorageStoragePolicyRaid0Drive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#drive_slots StorageStoragePolicy#drive_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#drive_slots StorageStoragePolicy#drive_slots}
   */
   readonly driveSlots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#drive_slots_list StorageStoragePolicy#drive_slots_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#drive_slots_list StorageStoragePolicy#drive_slots_list}
   */
   readonly driveSlotsList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#enable StorageStoragePolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#enable StorageStoragePolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#virtual_drive_policy StorageStoragePolicy#virtual_drive_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#virtual_drive_policy StorageStoragePolicy#virtual_drive_policy}
   */
   readonly virtualDrivePolicy?: StorageStoragePolicyRaid0DriveVirtualDrivePolicy[] | cdktf.IResolvable;
 }
@@ -2633,23 +2633,23 @@ export class StorageStoragePolicyRaid0DriveList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2881,23 +2881,23 @@ export class StorageStoragePolicyTagsAncestorDefinitionsList extends cdktf.Compl
 }
 export interface StorageStoragePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3129,31 +3129,35 @@ export class StorageStoragePolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#ancestor_definitions StorageStoragePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#ancestor_definitions StorageStoragePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: StorageStoragePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#definition StorageStoragePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#definition StorageStoragePolicy#definition}
   */
   readonly definition?: StorageStoragePolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#key StorageStoragePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#key StorageStoragePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#propagated StorageStoragePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#propagated StorageStoragePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#type StorageStoragePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#sys_tag StorageStoragePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#type StorageStoragePolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#value StorageStoragePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#value StorageStoragePolicy#value}
   */
   readonly value?: string;
 }
@@ -3169,6 +3173,7 @@ export function storageStoragePolicyTagsToTerraform(struct?: StorageStoragePolic
     definition: cdktf.listMapper(storageStoragePolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3207,6 +3212,12 @@ export function storageStoragePolicyTagsToHclTerraform(struct?: StorageStoragePo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3269,6 +3280,10 @@ export class StorageStoragePolicyTagsOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3289,6 +3304,7 @@ export class StorageStoragePolicyTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3304,6 +3320,7 @@ export class StorageStoragePolicyTagsOutputReference extends cdktf.ComplexObject
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3389,6 +3406,22 @@ export class StorageStoragePolicyTagsOutputReference extends cdktf.ComplexObject
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -3443,23 +3476,23 @@ export class StorageStoragePolicyTagsList extends cdktf.ComplexList {
 }
 export interface StorageStoragePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3691,23 +3724,23 @@ export class StorageStoragePolicyVersionContextInterestedMosList extends cdktf.C
 }
 export interface StorageStoragePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#moid StorageStoragePolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#selector StorageStoragePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3939,39 +3972,39 @@ export class StorageStoragePolicyVersionContextRefMoList extends cdktf.ComplexLi
 }
 export interface StorageStoragePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#additional_properties StorageStoragePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#class_id StorageStoragePolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#interested_mos StorageStoragePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#interested_mos StorageStoragePolicy#interested_mos}
   */
   readonly interestedMos?: StorageStoragePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#marked_for_deletion StorageStoragePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#marked_for_deletion StorageStoragePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#nr_version StorageStoragePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#nr_version StorageStoragePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#object_type StorageStoragePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#ref_mo StorageStoragePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#ref_mo StorageStoragePolicy#ref_mo}
   */
   readonly refMo?: StorageStoragePolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#timestamp StorageStoragePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#timestamp StorageStoragePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#version_type StorageStoragePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#version_type StorageStoragePolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -4319,7 +4352,7 @@ export class StorageStoragePolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy intersight_storage_storage_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy intersight_storage_storage_policy}
 */
 export class StorageStoragePolicy extends cdktf.TerraformResource {
 
@@ -4335,7 +4368,7 @@ export class StorageStoragePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageStoragePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageStoragePolicy to import
-  * @param importFromId The id of the existing StorageStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageStoragePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageStoragePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4347,7 +4380,7 @@ export class StorageStoragePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/storage_storage_policy intersight_storage_storage_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_storage_policy intersight_storage_storage_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4358,8 +4391,8 @@ export class StorageStoragePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_storage_storage_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

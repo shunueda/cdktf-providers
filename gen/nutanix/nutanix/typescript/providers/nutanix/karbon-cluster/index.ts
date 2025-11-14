@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface KarbonClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#id KarbonCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#id KarbonCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#name KarbonCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#name KarbonCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#version KarbonCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#version KarbonCluster#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#wait_timeout_minutes KarbonCluster#wait_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#wait_timeout_minutes KarbonCluster#wait_timeout_minutes}
   */
   readonly waitTimeoutMinutes?: number;
   /**
   * active_passive_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#active_passive_config KarbonCluster#active_passive_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#active_passive_config KarbonCluster#active_passive_config}
   */
   readonly activePassiveConfig?: KarbonClusterActivePassiveConfig;
   /**
   * cni_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#cni_config KarbonCluster#cni_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#cni_config KarbonCluster#cni_config}
   */
   readonly cniConfig: KarbonClusterCniConfig;
   /**
   * etcd_node_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#etcd_node_pool KarbonCluster#etcd_node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#etcd_node_pool KarbonCluster#etcd_node_pool}
   */
   readonly etcdNodePool: KarbonClusterEtcdNodePool;
   /**
   * external_lb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#external_lb_config KarbonCluster#external_lb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#external_lb_config KarbonCluster#external_lb_config}
   */
   readonly externalLbConfig?: KarbonClusterExternalLbConfig;
   /**
   * master_node_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#master_node_pool KarbonCluster#master_node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#master_node_pool KarbonCluster#master_node_pool}
   */
   readonly masterNodePool: KarbonClusterMasterNodePool;
   /**
   * private_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#private_registry KarbonCluster#private_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#private_registry KarbonCluster#private_registry}
   */
   readonly privateRegistry?: KarbonClusterPrivateRegistry[] | cdktf.IResolvable;
   /**
   * single_master_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#single_master_config KarbonCluster#single_master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#single_master_config KarbonCluster#single_master_config}
   */
   readonly singleMasterConfig?: KarbonClusterSingleMasterConfig;
   /**
   * storage_class_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#storage_class_config KarbonCluster#storage_class_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#storage_class_config KarbonCluster#storage_class_config}
   */
   readonly storageClassConfig: KarbonClusterStorageClassConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#timeouts KarbonCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#timeouts KarbonCluster#timeouts}
   */
   readonly timeouts?: KarbonClusterTimeouts;
   /**
   * worker_node_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#worker_node_pool KarbonCluster#worker_node_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#worker_node_pool KarbonCluster#worker_node_pool}
   */
   readonly workerNodePool: KarbonClusterWorkerNodePool;
 }
 export interface KarbonClusterActivePassiveConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#external_ipv4_address KarbonCluster#external_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#external_ipv4_address KarbonCluster#external_ipv4_address}
   */
   readonly externalIpv4Address: string;
 }
@@ -170,7 +170,7 @@ export class KarbonClusterActivePassiveConfigOutputReference extends cdktf.Compl
 }
 export interface KarbonClusterCniConfigCalicoConfigIpPoolConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#cidr KarbonCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#cidr KarbonCluster#cidr}
   */
   readonly cidr?: string;
 }
@@ -288,7 +288,7 @@ export interface KarbonClusterCniConfigCalicoConfig {
   /**
   * ip_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#ip_pool_config KarbonCluster#ip_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#ip_pool_config KarbonCluster#ip_pool_config}
   */
   readonly ipPoolConfig?: KarbonClusterCniConfigCalicoConfigIpPoolConfig[] | cdktf.IResolvable;
 }
@@ -453,27 +453,27 @@ export class KarbonClusterCniConfigFlannelConfigList extends cdktf.ComplexList {
 }
 export interface KarbonClusterCniConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#node_cidr_mask_size KarbonCluster#node_cidr_mask_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#node_cidr_mask_size KarbonCluster#node_cidr_mask_size}
   */
   readonly nodeCidrMaskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#pod_ipv4_cidr KarbonCluster#pod_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#pod_ipv4_cidr KarbonCluster#pod_ipv4_cidr}
   */
   readonly podIpv4Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#service_ipv4_cidr KarbonCluster#service_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#service_ipv4_cidr KarbonCluster#service_ipv4_cidr}
   */
   readonly serviceIpv4Cidr?: string;
   /**
   * calico_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#calico_config KarbonCluster#calico_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#calico_config KarbonCluster#calico_config}
   */
   readonly calicoConfig?: KarbonClusterCniConfigCalicoConfig;
   /**
   * flannel_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#flannel_config KarbonCluster#flannel_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#flannel_config KarbonCluster#flannel_config}
   */
   readonly flannelConfig?: KarbonClusterCniConfigFlannelConfig[] | cdktf.IResolvable;
 }
@@ -753,23 +753,23 @@ export class KarbonClusterEtcdNodePoolNodesList extends cdktf.ComplexList {
 }
 export interface KarbonClusterEtcdNodePoolAhvConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
   */
   readonly diskMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
   */
   readonly memoryMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
   */
   readonly networkUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
   */
   readonly prismElementClusterUuid: string;
 }
@@ -963,21 +963,21 @@ export class KarbonClusterEtcdNodePoolAhvConfigOutputReference extends cdktf.Com
 }
 export interface KarbonClusterEtcdNodePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#name KarbonCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#name KarbonCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
   */
   readonly nodeOsVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
   */
   readonly numInstances: number;
   /**
   * ahv_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
   */
   readonly ahvConfig?: KarbonClusterEtcdNodePoolAhvConfig;
 }
@@ -1148,11 +1148,11 @@ export class KarbonClusterEtcdNodePoolOutputReference extends cdktf.ComplexObjec
 }
 export interface KarbonClusterExternalLbConfigMasterNodesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#ipv4_address KarbonCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#ipv4_address KarbonCluster#ipv4_address}
   */
   readonly ipv4Address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#node_pool_name KarbonCluster#node_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#node_pool_name KarbonCluster#node_pool_name}
   */
   readonly nodePoolName?: string;
 }
@@ -1294,13 +1294,13 @@ export class KarbonClusterExternalLbConfigMasterNodesConfigList extends cdktf.Co
 }
 export interface KarbonClusterExternalLbConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#external_ipv4_address KarbonCluster#external_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#external_ipv4_address KarbonCluster#external_ipv4_address}
   */
   readonly externalIpv4Address: string;
   /**
   * master_nodes_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#master_nodes_config KarbonCluster#master_nodes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#master_nodes_config KarbonCluster#master_nodes_config}
   */
   readonly masterNodesConfig: KarbonClusterExternalLbConfigMasterNodesConfig[] | cdktf.IResolvable;
 }
@@ -1487,23 +1487,23 @@ export class KarbonClusterMasterNodePoolNodesList extends cdktf.ComplexList {
 }
 export interface KarbonClusterMasterNodePoolAhvConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
   */
   readonly diskMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
   */
   readonly memoryMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
   */
   readonly networkUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
   */
   readonly prismElementClusterUuid: string;
 }
@@ -1697,21 +1697,21 @@ export class KarbonClusterMasterNodePoolAhvConfigOutputReference extends cdktf.C
 }
 export interface KarbonClusterMasterNodePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#name KarbonCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#name KarbonCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
   */
   readonly nodeOsVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
   */
   readonly numInstances: number;
   /**
   * ahv_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
   */
   readonly ahvConfig?: KarbonClusterMasterNodePoolAhvConfig;
 }
@@ -1882,7 +1882,7 @@ export class KarbonClusterMasterNodePoolOutputReference extends cdktf.ComplexObj
 }
 export interface KarbonClusterPrivateRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#registry_name KarbonCluster#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#registry_name KarbonCluster#registry_name}
   */
   readonly registryName: string;
 }
@@ -2044,27 +2044,27 @@ export class KarbonClusterSingleMasterConfigOutputReference extends cdktf.Comple
 }
 export interface KarbonClusterStorageClassConfigVolumesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#file_system KarbonCluster#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#file_system KarbonCluster#file_system}
   */
   readonly fileSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#flash_mode KarbonCluster#flash_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#flash_mode KarbonCluster#flash_mode}
   */
   readonly flashMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#password KarbonCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#password KarbonCluster#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
   */
   readonly prismElementClusterUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#storage_container KarbonCluster#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#storage_container KarbonCluster#storage_container}
   */
   readonly storageContainer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#username KarbonCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#username KarbonCluster#username}
   */
   readonly username: string;
 }
@@ -2281,17 +2281,17 @@ export class KarbonClusterStorageClassConfigVolumesConfigOutputReference extends
 }
 export interface KarbonClusterStorageClassConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#name KarbonCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#name KarbonCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#reclaim_policy KarbonCluster#reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#reclaim_policy KarbonCluster#reclaim_policy}
   */
   readonly reclaimPolicy?: string;
   /**
   * volumes_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#volumes_config KarbonCluster#volumes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#volumes_config KarbonCluster#volumes_config}
   */
   readonly volumesConfig: KarbonClusterStorageClassConfigVolumesConfig;
 }
@@ -2430,15 +2430,15 @@ export class KarbonClusterStorageClassConfigOutputReference extends cdktf.Comple
 }
 export interface KarbonClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#create KarbonCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#create KarbonCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#delete KarbonCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#delete KarbonCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#update KarbonCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#update KarbonCluster#update}
   */
   readonly update?: string;
 }
@@ -2670,23 +2670,23 @@ export class KarbonClusterWorkerNodePoolNodesList extends cdktf.ComplexList {
 }
 export interface KarbonClusterWorkerNodePoolAhvConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#cpu KarbonCluster#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#disk_mib KarbonCluster#disk_mib}
   */
   readonly diskMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#memory_mib KarbonCluster#memory_mib}
   */
   readonly memoryMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#network_uuid KarbonCluster#network_uuid}
   */
   readonly networkUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#prism_element_cluster_uuid KarbonCluster#prism_element_cluster_uuid}
   */
   readonly prismElementClusterUuid: string;
 }
@@ -2880,21 +2880,21 @@ export class KarbonClusterWorkerNodePoolAhvConfigOutputReference extends cdktf.C
 }
 export interface KarbonClusterWorkerNodePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#name KarbonCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#name KarbonCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#node_os_version KarbonCluster#node_os_version}
   */
   readonly nodeOsVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#num_instances KarbonCluster#num_instances}
   */
   readonly numInstances: number;
   /**
   * ahv_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#ahv_config KarbonCluster#ahv_config}
   */
   readonly ahvConfig?: KarbonClusterWorkerNodePoolAhvConfig;
 }
@@ -3065,7 +3065,7 @@ export class KarbonClusterWorkerNodePoolOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster nutanix_karbon_cluster}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster nutanix_karbon_cluster}
 */
 export class KarbonCluster extends cdktf.TerraformResource {
 
@@ -3081,7 +3081,7 @@ export class KarbonCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KarbonCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KarbonCluster to import
-  * @param importFromId The id of the existing KarbonCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KarbonCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KarbonCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3093,7 +3093,7 @@ export class KarbonCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/karbon_cluster nutanix_karbon_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/karbon_cluster nutanix_karbon_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3104,8 +3104,8 @@ export class KarbonCluster extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_karbon_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

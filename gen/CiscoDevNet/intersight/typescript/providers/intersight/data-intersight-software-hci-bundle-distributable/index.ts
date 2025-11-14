@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#account_moid DataIntersightSoftwareHciBundleDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#account_moid DataIntersightSoftwareHciBundleDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#bundle_type DataIntersightSoftwareHciBundleDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#bundle_type DataIntersightSoftwareHciBundleDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
@@ -28,31 +28,31 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#create_time DataIntersightSoftwareHciBundleDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#create_time DataIntersightSoftwareHciBundleDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#description DataIntersightSoftwareHciBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#description DataIntersightSoftwareHciBundleDistributable#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#domain_group_moid DataIntersightSoftwareHciBundleDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#domain_group_moid DataIntersightSoftwareHciBundleDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#download_count DataIntersightSoftwareHciBundleDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#download_count DataIntersightSoftwareHciBundleDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -61,17 +61,17 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#feature_source DataIntersightSoftwareHciBundleDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#feature_source DataIntersightSoftwareHciBundleDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#guid DataIntersightSoftwareHciBundleDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#guid DataIntersightSoftwareHciBundleDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#id DataIntersightSoftwareHciBundleDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#id DataIntersightSoftwareHciBundleDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#image_type DataIntersightSoftwareHciBundleDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#image_type DataIntersightSoftwareHciBundleDistributable#image_type}
   */
   readonly imageType?: string;
   /**
@@ -95,7 +95,7 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#import_action DataIntersightSoftwareHciBundleDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#import_action DataIntersightSoftwareHciBundleDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -116,209 +116,209 @@ export interface DataIntersightSoftwareHciBundleDistributableConfig extends cdkt
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#import_state DataIntersightSoftwareHciBundleDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#import_state DataIntersightSoftwareHciBundleDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#imported_time DataIntersightSoftwareHciBundleDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#imported_time DataIntersightSoftwareHciBundleDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#last_access_time DataIntersightSoftwareHciBundleDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#last_access_time DataIntersightSoftwareHciBundleDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#md5e_tag DataIntersightSoftwareHciBundleDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#md5e_tag DataIntersightSoftwareHciBundleDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#md5sum DataIntersightSoftwareHciBundleDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#md5sum DataIntersightSoftwareHciBundleDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#mdfid DataIntersightSoftwareHciBundleDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#mdfid DataIntersightSoftwareHciBundleDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#mod_time DataIntersightSoftwareHciBundleDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#mod_time DataIntersightSoftwareHciBundleDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#model DataIntersightSoftwareHciBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#model DataIntersightSoftwareHciBundleDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#name DataIntersightSoftwareHciBundleDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#name DataIntersightSoftwareHciBundleDistributable#name}
   */
   readonly name?: string;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#nr_version DataIntersightSoftwareHciBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#nr_version DataIntersightSoftwareHciBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#owners DataIntersightSoftwareHciBundleDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#owners DataIntersightSoftwareHciBundleDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#platform_type DataIntersightSoftwareHciBundleDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#platform_type DataIntersightSoftwareHciBundleDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#recommended_build DataIntersightSoftwareHciBundleDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#recommended_build DataIntersightSoftwareHciBundleDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#release_date DataIntersightSoftwareHciBundleDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#release_date DataIntersightSoftwareHciBundleDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#release_notes_url DataIntersightSoftwareHciBundleDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#release_notes_url DataIntersightSoftwareHciBundleDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#sha512sum DataIntersightSoftwareHciBundleDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#sha512sum DataIntersightSoftwareHciBundleDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#shared_scope DataIntersightSoftwareHciBundleDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#shared_scope DataIntersightSoftwareHciBundleDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#size DataIntersightSoftwareHciBundleDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#size DataIntersightSoftwareHciBundleDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#software_advisory_url DataIntersightSoftwareHciBundleDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#software_advisory_url DataIntersightSoftwareHciBundleDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#software_type_id DataIntersightSoftwareHciBundleDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#software_type_id DataIntersightSoftwareHciBundleDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#supported_models DataIntersightSoftwareHciBundleDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#supported_models DataIntersightSoftwareHciBundleDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#vendor DataIntersightSoftwareHciBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#vendor DataIntersightSoftwareHciBundleDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#ancestors DataIntersightSoftwareHciBundleDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#ancestors DataIntersightSoftwareHciBundleDistributable#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwareHciBundleDistributableAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#catalog DataIntersightSoftwareHciBundleDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#catalog DataIntersightSoftwareHciBundleDistributable#catalog}
   */
   readonly catalog?: DataIntersightSoftwareHciBundleDistributableCatalog;
   /**
   * component_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#component_meta DataIntersightSoftwareHciBundleDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#component_meta DataIntersightSoftwareHciBundleDistributable#component_meta}
   */
   readonly componentMeta?: DataIntersightSoftwareHciBundleDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * distributable_metas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#distributable_metas DataIntersightSoftwareHciBundleDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#distributable_metas DataIntersightSoftwareHciBundleDistributable#distributable_metas}
   */
   readonly distributableMetas?: DataIntersightSoftwareHciBundleDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#images DataIntersightSoftwareHciBundleDistributable#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#images DataIntersightSoftwareHciBundleDistributable#images}
   */
   readonly images?: DataIntersightSoftwareHciBundleDistributableImages[] | cdktf.IResolvable;
   /**
   * nr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#nr_source DataIntersightSoftwareHciBundleDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#nr_source DataIntersightSoftwareHciBundleDistributable#nr_source}
   */
   readonly nrSource?: DataIntersightSoftwareHciBundleDistributableNrSource;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#parent DataIntersightSoftwareHciBundleDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#parent DataIntersightSoftwareHciBundleDistributable#parent}
   */
   readonly parent?: DataIntersightSoftwareHciBundleDistributableParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#permission_resources DataIntersightSoftwareHciBundleDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#permission_resources DataIntersightSoftwareHciBundleDistributable#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwareHciBundleDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#release DataIntersightSoftwareHciBundleDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#release DataIntersightSoftwareHciBundleDistributable#release}
   */
   readonly release?: DataIntersightSoftwareHciBundleDistributableRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#tags DataIntersightSoftwareHciBundleDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#tags DataIntersightSoftwareHciBundleDistributable#tags}
   */
   readonly tags?: DataIntersightSoftwareHciBundleDistributableTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#version_context DataIntersightSoftwareHciBundleDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#version_context DataIntersightSoftwareHciBundleDistributable#version_context}
   */
   readonly versionContext?: DataIntersightSoftwareHciBundleDistributableVersionContext;
 }
@@ -1485,6 +1485,11 @@ export class DataIntersightSoftwareHciBundleDistributableResultsTagsOutputRefere
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2139,7 +2144,7 @@ export class DataIntersightSoftwareHciBundleDistributableResultsList extends cdk
 }
 export interface DataIntersightSoftwareHciBundleDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2147,19 +2152,19 @@ export interface DataIntersightSoftwareHciBundleDistributableAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2172,7 +2177,7 @@ export interface DataIntersightSoftwareHciBundleDistributableAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2404,7 +2409,7 @@ export class DataIntersightSoftwareHciBundleDistributableAncestorsList extends c
 }
 export interface DataIntersightSoftwareHciBundleDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2412,19 +2417,19 @@ export interface DataIntersightSoftwareHciBundleDistributableCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2437,7 +2442,7 @@ export interface DataIntersightSoftwareHciBundleDistributableCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2637,13 +2642,13 @@ export class DataIntersightSoftwareHciBundleDistributableCatalogOutputReference 
 }
 export interface DataIntersightSoftwareHciBundleDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Certain components have multiple versions packaged in the distributable. For example, the GPU component has multiple versions of the image packaged in the distributable due to a different onboard chip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#alternate_packed_version DataIntersightSoftwareHciBundleDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#alternate_packed_version DataIntersightSoftwareHciBundleDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
@@ -2651,13 +2656,13 @@ export interface DataIntersightSoftwareHciBundleDistributableComponentMeta {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the component in the compressed HSU bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#component_label DataIntersightSoftwareHciBundleDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#component_label DataIntersightSoftwareHciBundleDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
@@ -2687,13 +2692,13 @@ export interface DataIntersightSoftwareHciBundleDistributableComponentMeta {
   * * `CMC` - This represents CMC components.
   * * `PSX` - This represents PSX components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#component_type DataIntersightSoftwareHciBundleDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#component_type DataIntersightSoftwareHciBundleDistributable#component_type}
   */
   readonly componentType?: string;
   /**
   * This shows the description of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#description DataIntersightSoftwareHciBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#description DataIntersightSoftwareHciBundleDistributable#description}
   */
   readonly description?: string;
   /**
@@ -2704,54 +2709,54 @@ export interface DataIntersightSoftwareHciBundleDistributableComponentMeta {
   * * `ManualPowerCycle` - Indicates that the component received a manual power cycle request.
   * * `AutomaticPowerCycle` - Indicates that the component received an automatic power cycle request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#disruption DataIntersightSoftwareHciBundleDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#disruption DataIntersightSoftwareHciBundleDistributable#disruption}
   */
   readonly disruption?: string;
   /**
   * This shows the path of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#image_path DataIntersightSoftwareHciBundleDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#image_path DataIntersightSoftwareHciBundleDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
   * If set, the component can be updated through out-of-band management, else, is updated through host service utility boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#is_oob_supported DataIntersightSoftwareHciBundleDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#is_oob_supported DataIntersightSoftwareHciBundleDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
   * The model of the component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#model DataIntersightSoftwareHciBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#model DataIntersightSoftwareHciBundleDistributable#model}
   */
   readonly model?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#oob_manageability DataIntersightSoftwareHciBundleDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#oob_manageability DataIntersightSoftwareHciBundleDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
   * The image version of components packaged in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#packed_version DataIntersightSoftwareHciBundleDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#packed_version DataIntersightSoftwareHciBundleDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
   * The redfish target for each component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#redfish_url DataIntersightSoftwareHciBundleDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#redfish_url DataIntersightSoftwareHciBundleDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
   * The version of component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#vendor DataIntersightSoftwareHciBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#vendor DataIntersightSoftwareHciBundleDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -3273,7 +3278,7 @@ export class DataIntersightSoftwareHciBundleDistributableComponentMetaList exten
 }
 export interface DataIntersightSoftwareHciBundleDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3281,19 +3286,19 @@ export interface DataIntersightSoftwareHciBundleDistributableDistributableMetas 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3306,7 +3311,7 @@ export interface DataIntersightSoftwareHciBundleDistributableDistributableMetas 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3538,7 +3543,7 @@ export class DataIntersightSoftwareHciBundleDistributableDistributableMetasList 
 }
 export interface DataIntersightSoftwareHciBundleDistributableImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3546,19 +3551,19 @@ export interface DataIntersightSoftwareHciBundleDistributableImages {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3571,7 +3576,7 @@ export interface DataIntersightSoftwareHciBundleDistributableImages {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3803,7 +3808,7 @@ export class DataIntersightSoftwareHciBundleDistributableImagesList extends cdkt
 }
 export interface DataIntersightSoftwareHciBundleDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3812,7 +3817,7 @@ export interface DataIntersightSoftwareHciBundleDistributableNrSource {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
@@ -3820,7 +3825,7 @@ export interface DataIntersightSoftwareHciBundleDistributableNrSource {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -3962,7 +3967,7 @@ export class DataIntersightSoftwareHciBundleDistributableNrSourceOutputReference
 }
 export interface DataIntersightSoftwareHciBundleDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3970,19 +3975,19 @@ export interface DataIntersightSoftwareHciBundleDistributableParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3995,7 +4000,7 @@ export interface DataIntersightSoftwareHciBundleDistributableParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4195,7 +4200,7 @@ export class DataIntersightSoftwareHciBundleDistributableParentOutputReference e
 }
 export interface DataIntersightSoftwareHciBundleDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4203,19 +4208,19 @@ export interface DataIntersightSoftwareHciBundleDistributablePermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4228,7 +4233,7 @@ export interface DataIntersightSoftwareHciBundleDistributablePermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4460,7 +4465,7 @@ export class DataIntersightSoftwareHciBundleDistributablePermissionResourcesList
 }
 export interface DataIntersightSoftwareHciBundleDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4468,19 +4473,19 @@ export interface DataIntersightSoftwareHciBundleDistributableRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4493,7 +4498,7 @@ export interface DataIntersightSoftwareHciBundleDistributableRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4693,7 +4698,7 @@ export class DataIntersightSoftwareHciBundleDistributableReleaseOutputReference 
 }
 export interface DataIntersightSoftwareHciBundleDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4701,19 +4706,19 @@ export interface DataIntersightSoftwareHciBundleDistributableTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4726,7 +4731,7 @@ export interface DataIntersightSoftwareHciBundleDistributableTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4958,7 +4963,7 @@ export class DataIntersightSoftwareHciBundleDistributableTagsAncestorDefinitions
 }
 export interface DataIntersightSoftwareHciBundleDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4966,19 +4971,19 @@ export interface DataIntersightSoftwareHciBundleDistributableTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4991,7 +4996,7 @@ export interface DataIntersightSoftwareHciBundleDistributableTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5191,45 +5196,51 @@ export class DataIntersightSoftwareHciBundleDistributableTagsDefinitionOutputRef
 }
 export interface DataIntersightSoftwareHciBundleDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#key DataIntersightSoftwareHciBundleDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#key DataIntersightSoftwareHciBundleDistributable#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#propagated DataIntersightSoftwareHciBundleDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#propagated DataIntersightSoftwareHciBundleDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#sys_tag DataIntersightSoftwareHciBundleDistributable#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#type DataIntersightSoftwareHciBundleDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#type DataIntersightSoftwareHciBundleDistributable#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#value DataIntersightSoftwareHciBundleDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#value DataIntersightSoftwareHciBundleDistributable#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#ancestor_definitions DataIntersightSoftwareHciBundleDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#ancestor_definitions DataIntersightSoftwareHciBundleDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwareHciBundleDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#definition DataIntersightSoftwareHciBundleDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#definition DataIntersightSoftwareHciBundleDistributable#definition}
   */
   readonly definition?: DataIntersightSoftwareHciBundleDistributableTagsDefinition;
 }
@@ -5243,6 +5254,7 @@ export function dataIntersightSoftwareHciBundleDistributableTagsToTerraform(stru
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwareHciBundleDistributableTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5271,6 +5283,12 @@ export function dataIntersightSoftwareHciBundleDistributableTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5337,6 +5355,10 @@ export class DataIntersightSoftwareHciBundleDistributableTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5363,6 +5385,7 @@ export class DataIntersightSoftwareHciBundleDistributableTagsOutputReference ext
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5378,6 +5401,7 @@ export class DataIntersightSoftwareHciBundleDistributableTagsOutputReference ext
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5431,6 +5455,22 @@ export class DataIntersightSoftwareHciBundleDistributableTagsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5519,7 +5559,7 @@ export class DataIntersightSoftwareHciBundleDistributableTagsList extends cdktf.
 }
 export interface DataIntersightSoftwareHciBundleDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5527,19 +5567,19 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5552,7 +5592,7 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5784,7 +5824,7 @@ export class DataIntersightSoftwareHciBundleDistributableVersionContextIntereste
 }
 export interface DataIntersightSoftwareHciBundleDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5792,19 +5832,19 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#moid DataIntersightSoftwareHciBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5817,7 +5857,7 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#selector DataIntersightSoftwareHciBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -6017,7 +6057,7 @@ export class DataIntersightSoftwareHciBundleDistributableVersionContextRefMoOutp
 }
 export interface DataIntersightSoftwareHciBundleDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#additional_properties DataIntersightSoftwareHciBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6025,32 +6065,32 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#class_id DataIntersightSoftwareHciBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#marked_for_deletion DataIntersightSoftwareHciBundleDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#marked_for_deletion DataIntersightSoftwareHciBundleDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#nr_version DataIntersightSoftwareHciBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#nr_version DataIntersightSoftwareHciBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#object_type DataIntersightSoftwareHciBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#timestamp DataIntersightSoftwareHciBundleDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#timestamp DataIntersightSoftwareHciBundleDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6061,19 +6101,19 @@ export interface DataIntersightSoftwareHciBundleDistributableVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#version_type DataIntersightSoftwareHciBundleDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#version_type DataIntersightSoftwareHciBundleDistributable#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#interested_mos DataIntersightSoftwareHciBundleDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#interested_mos DataIntersightSoftwareHciBundleDistributable#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwareHciBundleDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#ref_mo DataIntersightSoftwareHciBundleDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#ref_mo DataIntersightSoftwareHciBundleDistributable#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwareHciBundleDistributableVersionContextRefMo;
 }
@@ -6389,7 +6429,7 @@ export class DataIntersightSoftwareHciBundleDistributableVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable intersight_software_hci_bundle_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable intersight_software_hci_bundle_distributable}
 */
 export class DataIntersightSoftwareHciBundleDistributable extends cdktf.TerraformDataSource {
 
@@ -6405,7 +6445,7 @@ export class DataIntersightSoftwareHciBundleDistributable extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightSoftwareHciBundleDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwareHciBundleDistributable to import
-  * @param importFromId The id of the existing DataIntersightSoftwareHciBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwareHciBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwareHciBundleDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6417,7 +6457,7 @@ export class DataIntersightSoftwareHciBundleDistributable extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/software_hci_bundle_distributable intersight_software_hci_bundle_distributable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hci_bundle_distributable intersight_software_hci_bundle_distributable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6428,8 +6468,8 @@ export class DataIntersightSoftwareHciBundleDistributable extends cdktf.Terrafor
       terraformResourceType: 'intersight_software_hci_bundle_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

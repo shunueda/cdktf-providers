@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#account_moid DataIntersightCapabilitySiocModuleCapabilityDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#account_moid DataIntersightCapabilitySiocModuleCapabilityDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#create_time DataIntersightCapabilitySiocModuleCapabilityDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#create_time DataIntersightCapabilitySiocModuleCapabilityDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Device connector support on SIOC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#dc_supported DataIntersightCapabilitySiocModuleCapabilityDef#dc_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#dc_supported DataIntersightCapabilitySiocModuleCapabilityDef#dc_supported}
   */
   readonly dcSupported?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#domain_group_moid DataIntersightCapabilitySiocModuleCapabilityDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#domain_group_moid DataIntersightCapabilitySiocModuleCapabilityDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#id DataIntersightCapabilitySiocModuleCapabilityDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#id DataIntersightCapabilitySiocModuleCapabilityDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#mod_time DataIntersightCapabilitySiocModuleCapabilityDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#mod_time DataIntersightCapabilitySiocModuleCapabilityDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#name DataIntersightCapabilitySiocModuleCapabilityDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#name DataIntersightCapabilitySiocModuleCapabilityDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#owners DataIntersightCapabilitySiocModuleCapabilityDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#owners DataIntersightCapabilitySiocModuleCapabilityDef#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#shared_scope DataIntersightCapabilitySiocModuleCapabilityDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#shared_scope DataIntersightCapabilitySiocModuleCapabilityDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#ancestors DataIntersightCapabilitySiocModuleCapabilityDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#ancestors DataIntersightCapabilitySiocModuleCapabilityDef#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilitySiocModuleCapabilityDefAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#parent DataIntersightCapabilitySiocModuleCapabilityDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#parent DataIntersightCapabilitySiocModuleCapabilityDef#parent}
   */
   readonly parent?: DataIntersightCapabilitySiocModuleCapabilityDefParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#permission_resources DataIntersightCapabilitySiocModuleCapabilityDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#permission_resources DataIntersightCapabilitySiocModuleCapabilityDef#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilitySiocModuleCapabilityDefPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#tags DataIntersightCapabilitySiocModuleCapabilityDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#tags DataIntersightCapabilitySiocModuleCapabilityDef#tags}
   */
   readonly tags?: DataIntersightCapabilitySiocModuleCapabilityDefTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#version_context DataIntersightCapabilitySiocModuleCapabilityDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#version_context DataIntersightCapabilitySiocModuleCapabilityDef#version_context}
   */
   readonly versionContext?: DataIntersightCapabilitySiocModuleCapabilityDefVersionContext;
 }
@@ -670,6 +670,11 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefResultsTagsOutputRef
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1168,7 +1173,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefResultsList extends 
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1176,19 +1181,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1201,7 +1206,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1433,7 +1438,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefAncestorsList extend
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1441,19 +1446,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1466,7 +1471,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1666,7 +1671,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefParentOutputReferenc
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1674,19 +1679,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1699,7 +1704,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1931,7 +1936,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefPermissionResourcesL
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1939,19 +1944,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1964,7 +1969,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -2196,7 +2201,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefiniti
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2204,19 +2209,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2229,7 +2234,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -2429,45 +2434,51 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsDefinitionOutput
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#key DataIntersightCapabilitySiocModuleCapabilityDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#key DataIntersightCapabilitySiocModuleCapabilityDef#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#propagated DataIntersightCapabilitySiocModuleCapabilityDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#propagated DataIntersightCapabilitySiocModuleCapabilityDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#sys_tag DataIntersightCapabilitySiocModuleCapabilityDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#type DataIntersightCapabilitySiocModuleCapabilityDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#type DataIntersightCapabilitySiocModuleCapabilityDef#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#value DataIntersightCapabilitySiocModuleCapabilityDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#value DataIntersightCapabilitySiocModuleCapabilityDef#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#ancestor_definitions DataIntersightCapabilitySiocModuleCapabilityDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#ancestor_definitions DataIntersightCapabilitySiocModuleCapabilityDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#definition DataIntersightCapabilitySiocModuleCapabilityDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#definition DataIntersightCapabilitySiocModuleCapabilityDef#definition}
   */
   readonly definition?: DataIntersightCapabilitySiocModuleCapabilityDefTagsDefinition;
 }
@@ -2481,6 +2492,7 @@ export function dataIntersightCapabilitySiocModuleCapabilityDefTagsToTerraform(s
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilitySiocModuleCapabilityDefTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2509,6 +2521,12 @@ export function dataIntersightCapabilitySiocModuleCapabilityDefTagsToHclTerrafor
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2575,6 +2593,10 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsOutputReference 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2601,6 +2623,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsOutputReference 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2616,6 +2639,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsOutputReference 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2669,6 +2693,22 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsOutputReference 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2757,7 +2797,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefTagsList extends cdk
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2765,19 +2805,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2790,7 +2830,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -3022,7 +3062,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefVersionContextIntere
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3030,19 +3070,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#moid DataIntersightCapabilitySiocModuleCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3055,7 +3095,7 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#selector DataIntersightCapabilitySiocModuleCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -3255,7 +3295,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefVersionContextRefMoO
 }
 export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#additional_properties DataIntersightCapabilitySiocModuleCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3263,32 +3303,32 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#class_id DataIntersightCapabilitySiocModuleCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#marked_for_deletion DataIntersightCapabilitySiocModuleCapabilityDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#marked_for_deletion DataIntersightCapabilitySiocModuleCapabilityDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#nr_version DataIntersightCapabilitySiocModuleCapabilityDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#nr_version DataIntersightCapabilitySiocModuleCapabilityDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#object_type DataIntersightCapabilitySiocModuleCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#timestamp DataIntersightCapabilitySiocModuleCapabilityDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#timestamp DataIntersightCapabilitySiocModuleCapabilityDef#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3299,19 +3339,19 @@ export interface DataIntersightCapabilitySiocModuleCapabilityDefVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#version_type DataIntersightCapabilitySiocModuleCapabilityDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#version_type DataIntersightCapabilitySiocModuleCapabilityDef#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#interested_mos DataIntersightCapabilitySiocModuleCapabilityDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#interested_mos DataIntersightCapabilitySiocModuleCapabilityDef#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilitySiocModuleCapabilityDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#ref_mo DataIntersightCapabilitySiocModuleCapabilityDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#ref_mo DataIntersightCapabilitySiocModuleCapabilityDef#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilitySiocModuleCapabilityDefVersionContextRefMo;
 }
@@ -3627,7 +3667,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDefVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def intersight_capability_sioc_module_capability_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def intersight_capability_sioc_module_capability_def}
 */
 export class DataIntersightCapabilitySiocModuleCapabilityDef extends cdktf.TerraformDataSource {
 
@@ -3643,7 +3683,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDef extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightCapabilitySiocModuleCapabilityDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilitySiocModuleCapabilityDef to import
-  * @param importFromId The id of the existing DataIntersightCapabilitySiocModuleCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilitySiocModuleCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilitySiocModuleCapabilityDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3655,7 +3695,7 @@ export class DataIntersightCapabilitySiocModuleCapabilityDef extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_sioc_module_capability_def intersight_capability_sioc_module_capability_def} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_capability_def intersight_capability_sioc_module_capability_def} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3666,8 +3706,8 @@ export class DataIntersightCapabilitySiocModuleCapabilityDef extends cdktf.Terra
       terraformResourceType: 'intersight_capability_sioc_module_capability_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

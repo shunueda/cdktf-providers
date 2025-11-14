@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputeDownloadStatusConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#account_moid DataIntersightComputeDownloadStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#account_moid DataIntersightComputeDownloadStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,59 +22,59 @@ export interface DataIntersightComputeDownloadStatusConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#create_time DataIntersightComputeDownloadStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#create_time DataIntersightComputeDownloadStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#domain_group_moid DataIntersightComputeDownloadStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#domain_group_moid DataIntersightComputeDownloadStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Any error encountered. Set to empty when download is in progress or completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_error DataIntersightComputeDownloadStatus#download_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_error DataIntersightComputeDownloadStatus#download_error}
   */
   readonly downloadError?: string;
   /**
   * The message from the endpoint during the download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_message DataIntersightComputeDownloadStatus#download_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_message DataIntersightComputeDownloadStatus#download_message}
   */
   readonly downloadMessage?: string;
   /**
   * The percentage of the image downloaded in the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_percentage DataIntersightComputeDownloadStatus#download_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_percentage DataIntersightComputeDownloadStatus#download_percentage}
   */
   readonly downloadPercentage?: number;
   /**
   * The download progress of the file represented as a percentage between 0% and 100%. If progress reporting is not possible, a value of -1 is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_progress DataIntersightComputeDownloadStatus#download_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_progress DataIntersightComputeDownloadStatus#download_progress}
   */
   readonly downloadProgress?: number;
   /**
   * The number of retries the plugin attempted before succeeding or failing the download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_retries DataIntersightComputeDownloadStatus#download_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_retries DataIntersightComputeDownloadStatus#download_retries}
   */
   readonly downloadRetries?: number;
   /**
   * The image download stages. Example:downloading, flashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#download_stage DataIntersightComputeDownloadStatus#download_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#download_stage DataIntersightComputeDownloadStatus#download_stage}
   */
   readonly downloadStage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#id DataIntersightComputeDownloadStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#id DataIntersightComputeDownloadStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,85 +83,85 @@ export interface DataIntersightComputeDownloadStatusConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#mod_time DataIntersightComputeDownloadStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#mod_time DataIntersightComputeDownloadStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#owners DataIntersightComputeDownloadStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#owners DataIntersightComputeDownloadStatus#owners}
   */
   readonly owners?: string[];
   /**
   * The error message from the endpoint during the SD card download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#sd_card_download_error DataIntersightComputeDownloadStatus#sd_card_download_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#sd_card_download_error DataIntersightComputeDownloadStatus#sd_card_download_error}
   */
   readonly sdCardDownloadError?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#shared_scope DataIntersightComputeDownloadStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#shared_scope DataIntersightComputeDownloadStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#ancestors DataIntersightComputeDownloadStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#ancestors DataIntersightComputeDownloadStatus#ancestors}
   */
   readonly ancestors?: DataIntersightComputeDownloadStatusAncestors[] | cdktf.IResolvable;
   /**
   * checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#checksum DataIntersightComputeDownloadStatus#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#checksum DataIntersightComputeDownloadStatus#checksum}
   */
   readonly checksum?: DataIntersightComputeDownloadStatusChecksum;
   /**
   * host_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#host_op DataIntersightComputeDownloadStatus#host_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#host_op DataIntersightComputeDownloadStatus#host_op}
   */
   readonly hostOp?: DataIntersightComputeDownloadStatusHostOp;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#parent DataIntersightComputeDownloadStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#parent DataIntersightComputeDownloadStatus#parent}
   */
   readonly parent?: DataIntersightComputeDownloadStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#permission_resources DataIntersightComputeDownloadStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#permission_resources DataIntersightComputeDownloadStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeDownloadStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#tags DataIntersightComputeDownloadStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#tags DataIntersightComputeDownloadStatus#tags}
   */
   readonly tags?: DataIntersightComputeDownloadStatusTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#version_context DataIntersightComputeDownloadStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#version_context DataIntersightComputeDownloadStatus#version_context}
   */
   readonly versionContext?: DataIntersightComputeDownloadStatusVersionContext;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#workflow DataIntersightComputeDownloadStatus#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#workflow DataIntersightComputeDownloadStatus#workflow}
   */
   readonly workflow?: DataIntersightComputeDownloadStatusWorkflow;
 }
@@ -903,6 +903,11 @@ export class DataIntersightComputeDownloadStatusResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1539,7 +1544,7 @@ export class DataIntersightComputeDownloadStatusResultsList extends cdktf.Comple
 }
 export interface DataIntersightComputeDownloadStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1547,19 +1552,19 @@ export interface DataIntersightComputeDownloadStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1572,7 +1577,7 @@ export interface DataIntersightComputeDownloadStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1804,7 +1809,7 @@ export class DataIntersightComputeDownloadStatusAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightComputeDownloadStatusChecksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1812,7 +1817,7 @@ export interface DataIntersightComputeDownloadStatusChecksum {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
@@ -1820,14 +1825,14 @@ export interface DataIntersightComputeDownloadStatusChecksum {
   * * `crc` - A CRC hash as definded by RFC 3385. Generated with the IEEE polynomial.
   * * `sha256` - An SHA256 hash as defined by RFC 4634.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#hash_algorithm DataIntersightComputeDownloadStatus#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#hash_algorithm DataIntersightComputeDownloadStatus#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
 }
@@ -1998,7 +2003,7 @@ export class DataIntersightComputeDownloadStatusChecksumOutputReference extends 
 }
 export interface DataIntersightComputeDownloadStatusHostOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2006,19 +2011,19 @@ export interface DataIntersightComputeDownloadStatusHostOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2031,7 +2036,7 @@ export interface DataIntersightComputeDownloadStatusHostOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2231,7 +2236,7 @@ export class DataIntersightComputeDownloadStatusHostOpOutputReference extends cd
 }
 export interface DataIntersightComputeDownloadStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2239,19 +2244,19 @@ export interface DataIntersightComputeDownloadStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2264,7 +2269,7 @@ export interface DataIntersightComputeDownloadStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2464,7 +2469,7 @@ export class DataIntersightComputeDownloadStatusParentOutputReference extends cd
 }
 export interface DataIntersightComputeDownloadStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2472,19 +2477,19 @@ export interface DataIntersightComputeDownloadStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2497,7 +2502,7 @@ export interface DataIntersightComputeDownloadStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2729,7 +2734,7 @@ export class DataIntersightComputeDownloadStatusPermissionResourcesList extends 
 }
 export interface DataIntersightComputeDownloadStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2737,19 +2742,19 @@ export interface DataIntersightComputeDownloadStatusTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2762,7 +2767,7 @@ export interface DataIntersightComputeDownloadStatusTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2994,7 +2999,7 @@ export class DataIntersightComputeDownloadStatusTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightComputeDownloadStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3002,19 +3007,19 @@ export interface DataIntersightComputeDownloadStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3027,7 +3032,7 @@ export interface DataIntersightComputeDownloadStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3227,45 +3232,51 @@ export class DataIntersightComputeDownloadStatusTagsDefinitionOutputReference ex
 }
 export interface DataIntersightComputeDownloadStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#key DataIntersightComputeDownloadStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#key DataIntersightComputeDownloadStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#propagated DataIntersightComputeDownloadStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#propagated DataIntersightComputeDownloadStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#sys_tag DataIntersightComputeDownloadStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#type DataIntersightComputeDownloadStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#type DataIntersightComputeDownloadStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#value DataIntersightComputeDownloadStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#value DataIntersightComputeDownloadStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#ancestor_definitions DataIntersightComputeDownloadStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#ancestor_definitions DataIntersightComputeDownloadStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeDownloadStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#definition DataIntersightComputeDownloadStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#definition DataIntersightComputeDownloadStatus#definition}
   */
   readonly definition?: DataIntersightComputeDownloadStatusTagsDefinition;
 }
@@ -3279,6 +3290,7 @@ export function dataIntersightComputeDownloadStatusTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightComputeDownloadStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3307,6 +3319,12 @@ export function dataIntersightComputeDownloadStatusTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3373,6 +3391,10 @@ export class DataIntersightComputeDownloadStatusTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3399,6 +3421,7 @@ export class DataIntersightComputeDownloadStatusTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3414,6 +3437,7 @@ export class DataIntersightComputeDownloadStatusTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3467,6 +3491,22 @@ export class DataIntersightComputeDownloadStatusTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3555,7 +3595,7 @@ export class DataIntersightComputeDownloadStatusTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeDownloadStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3563,19 +3603,19 @@ export interface DataIntersightComputeDownloadStatusVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3588,7 +3628,7 @@ export interface DataIntersightComputeDownloadStatusVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3820,7 +3860,7 @@ export class DataIntersightComputeDownloadStatusVersionContextInterestedMosList 
 }
 export interface DataIntersightComputeDownloadStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3828,19 +3868,19 @@ export interface DataIntersightComputeDownloadStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3853,7 +3893,7 @@ export interface DataIntersightComputeDownloadStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4053,7 +4093,7 @@ export class DataIntersightComputeDownloadStatusVersionContextRefMoOutputReferen
 }
 export interface DataIntersightComputeDownloadStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4061,32 +4101,32 @@ export interface DataIntersightComputeDownloadStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#marked_for_deletion DataIntersightComputeDownloadStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#marked_for_deletion DataIntersightComputeDownloadStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#nr_version DataIntersightComputeDownloadStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#nr_version DataIntersightComputeDownloadStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#timestamp DataIntersightComputeDownloadStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#timestamp DataIntersightComputeDownloadStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4097,19 +4137,19 @@ export interface DataIntersightComputeDownloadStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#version_type DataIntersightComputeDownloadStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#version_type DataIntersightComputeDownloadStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#interested_mos DataIntersightComputeDownloadStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#interested_mos DataIntersightComputeDownloadStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeDownloadStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#ref_mo DataIntersightComputeDownloadStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#ref_mo DataIntersightComputeDownloadStatus#ref_mo}
   */
   readonly refMo?: DataIntersightComputeDownloadStatusVersionContextRefMo;
 }
@@ -4425,7 +4465,7 @@ export class DataIntersightComputeDownloadStatusVersionContextOutputReference ex
 }
 export interface DataIntersightComputeDownloadStatusWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#additional_properties DataIntersightComputeDownloadStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4433,19 +4473,19 @@ export interface DataIntersightComputeDownloadStatusWorkflow {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#class_id DataIntersightComputeDownloadStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#moid DataIntersightComputeDownloadStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#object_type DataIntersightComputeDownloadStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4458,7 +4498,7 @@ export interface DataIntersightComputeDownloadStatusWorkflow {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#selector DataIntersightComputeDownloadStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4658,7 +4698,7 @@ export class DataIntersightComputeDownloadStatusWorkflowOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status intersight_compute_download_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status intersight_compute_download_status}
 */
 export class DataIntersightComputeDownloadStatus extends cdktf.TerraformDataSource {
 
@@ -4674,7 +4714,7 @@ export class DataIntersightComputeDownloadStatus extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightComputeDownloadStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeDownloadStatus to import
-  * @param importFromId The id of the existing DataIntersightComputeDownloadStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeDownloadStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeDownloadStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4686,7 +4726,7 @@ export class DataIntersightComputeDownloadStatus extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_download_status intersight_compute_download_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_download_status intersight_compute_download_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4697,8 +4737,8 @@ export class DataIntersightComputeDownloadStatus extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_compute_download_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

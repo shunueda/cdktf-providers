@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#account_moid DataIntersightVnicFcIf#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#account_moid DataIntersightVnicFcIf#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#create_time DataIntersightVnicFcIf#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#create_time DataIntersightVnicFcIf#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#domain_group_moid DataIntersightVnicFcIf#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#domain_group_moid DataIntersightVnicFcIf#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#id DataIntersightVnicFcIf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#id DataIntersightVnicFcIf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,65 +47,65 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#mod_time DataIntersightVnicFcIf#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#mod_time DataIntersightVnicFcIf#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * Name of the virtual fibre channel interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#name DataIntersightVnicFcIf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#name DataIntersightVnicFcIf#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
   * The order in which the virtual interface is brought up. The order assigned to an interface should be unique for all the Ethernet and Fibre-Channel interfaces on each PCI link on a VIC adapter. The order should start from zero with no overlaps. The maximum value of PCI order is limited by the number of virtual interfaces (Ethernet and Fibre-Channel) on each PCI link on a VIC adapter. All VIC adapters have a single PCI link except VIC 1340, VIC 1380 and VIC 1385 which have two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#order DataIntersightVnicFcIf#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#order DataIntersightVnicFcIf#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#overridden_list DataIntersightVnicFcIf#overridden_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#overridden_list DataIntersightVnicFcIf#overridden_list}
   */
   readonly overriddenList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#owners DataIntersightVnicFcIf#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#owners DataIntersightVnicFcIf#owners}
   */
   readonly owners?: string[];
   /**
   * Enables retention of LUN ID associations in memory until they are manually cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#persistent_bindings DataIntersightVnicFcIf#persistent_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#persistent_bindings DataIntersightVnicFcIf#persistent_bindings}
   */
   readonly persistentBindings?: boolean | cdktf.IResolvable;
   /**
   * Pingroup name associated to vfc for static pinning. SCP deploy will resolve pingroup name and fetches the correspoding uplink port/port channel to pin the vfc traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#pin_group_name DataIntersightVnicFcIf#pin_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#pin_group_name DataIntersightVnicFcIf#pin_group_name}
   */
   readonly pinGroupName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#shared_scope DataIntersightVnicFcIf#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#shared_scope DataIntersightVnicFcIf#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * An FcIf is marked stale if it was deployed to the endpoint and the San Connectivity Policy associated with the server profile does not have this EthIf anymore. This maybe due to the San Connectivity Policy being removed from the server profile or a different San Connectivity Policy is attached which does not include any FcIf with the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#stale DataIntersightVnicFcIf#stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#stale DataIntersightVnicFcIf#stale}
   */
   readonly stale?: boolean | cdktf.IResolvable;
   /**
@@ -113,7 +113,7 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   * Allowed ranges are 20:00:00:00:00:00:00:00 to 20:FF:FF:FF:FF:FF:FF:FF or from 50:00:00:00:00:00:00:00 to 5F:FF:FF:FF:FF:FF:FF:FF.
   * To ensure uniqueness of WWN's in the SAN fabric, you are strongly encouraged to use the WWN prefix - 20:00:00:25:B5:xx:xx:xx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#static_wwpn_address DataIntersightVnicFcIf#static_wwpn_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#static_wwpn_address DataIntersightVnicFcIf#static_wwpn_address}
   */
   readonly staticWwpnAddress?: string;
   /**
@@ -124,7 +124,7 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   * * `InProgress` - The Enum value represents that the object sync with the attached template is in progress.
   * * `OutOfSync` - The Enum value represents that the object values are not in sync with attached template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#template_sync_status DataIntersightVnicFcIf#template_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#template_sync_status DataIntersightVnicFcIf#template_sync_status}
   */
   readonly templateSyncStatus?: string;
   /**
@@ -134,19 +134,19 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   * * `fc-nvme-target` - Fc-nvme-target specifies vHBA as a provider of storage volumes to initiators. Enables NVMe-based message commands to transfer data and status information between host and target storage systems. Currently tech-preview, only enabled with an asynchronous driver.
   * * `fc-target` - Fc-target specifies vHBA as a provider of storage volumes to initiators. Enables SCSI commands to transfer data and status information between host and target storage systems. fc-target is enabled only with an asynchronous driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
   */
   readonly type?: string;
   /**
   * This should be the same as the channel number of the vfc created on switch in order to set up the data path. The property is applicable only for FI attached servers where a vfc is created on the switch for every vHBA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#vif_id DataIntersightVnicFcIf#vif_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#vif_id DataIntersightVnicFcIf#vif_id}
   */
   readonly vifId?: number;
   /**
   * The WWPN address that is assigned to the vHBA based on the wwn pool that has been assigned to the SAN Connectivity Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn DataIntersightVnicFcIf#wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn DataIntersightVnicFcIf#wwpn}
   */
   readonly wwpn?: string;
   /**
@@ -154,127 +154,127 @@ export interface DataIntersightVnicFcIfConfig extends cdktf.TerraformMetaArgumen
   * * `POOL` - The user selects a pool from which the mac/wwn address will be leased for the Virtual Interface.
   * * `STATIC` - The user assigns a static mac/wwn address for the Virtual Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn_address_type DataIntersightVnicFcIf#wwpn_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn_address_type DataIntersightVnicFcIf#wwpn_address_type}
   */
   readonly wwpnAddressType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#ancestors DataIntersightVnicFcIf#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#ancestors DataIntersightVnicFcIf#ancestors}
   */
   readonly ancestors?: DataIntersightVnicFcIfAncestors[] | cdktf.IResolvable;
   /**
   * fc_adapter_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#fc_adapter_policy DataIntersightVnicFcIf#fc_adapter_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#fc_adapter_policy DataIntersightVnicFcIf#fc_adapter_policy}
   */
   readonly fcAdapterPolicy?: DataIntersightVnicFcIfFcAdapterPolicy;
   /**
   * fc_network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#fc_network_policy DataIntersightVnicFcIf#fc_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#fc_network_policy DataIntersightVnicFcIf#fc_network_policy}
   */
   readonly fcNetworkPolicy?: DataIntersightVnicFcIfFcNetworkPolicy;
   /**
   * fc_qos_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#fc_qos_policy DataIntersightVnicFcIf#fc_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#fc_qos_policy DataIntersightVnicFcIf#fc_qos_policy}
   */
   readonly fcQosPolicy?: DataIntersightVnicFcIfFcQosPolicy;
   /**
   * fc_zone_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#fc_zone_policies DataIntersightVnicFcIf#fc_zone_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#fc_zone_policies DataIntersightVnicFcIf#fc_zone_policies}
   */
   readonly fcZonePolicies?: DataIntersightVnicFcIfFcZonePolicies[] | cdktf.IResolvable;
   /**
   * old_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#old_info DataIntersightVnicFcIf#old_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#old_info DataIntersightVnicFcIf#old_info}
   */
   readonly oldInfo?: DataIntersightVnicFcIfOldInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#parent DataIntersightVnicFcIf#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#parent DataIntersightVnicFcIf#parent}
   */
   readonly parent?: DataIntersightVnicFcIfParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#permission_resources DataIntersightVnicFcIf#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#permission_resources DataIntersightVnicFcIf#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicFcIfPermissionResources[] | cdktf.IResolvable;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#placement DataIntersightVnicFcIf#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#placement DataIntersightVnicFcIf#placement}
   */
   readonly placement?: DataIntersightVnicFcIfPlacement;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#profile DataIntersightVnicFcIf#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#profile DataIntersightVnicFcIf#profile}
   */
   readonly profile?: DataIntersightVnicFcIfProfile;
   /**
   * san_connectivity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#san_connectivity_policy DataIntersightVnicFcIf#san_connectivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#san_connectivity_policy DataIntersightVnicFcIf#san_connectivity_policy}
   */
   readonly sanConnectivityPolicy?: DataIntersightVnicFcIfSanConnectivityPolicy;
   /**
   * scp_vhba block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#scp_vhba DataIntersightVnicFcIf#scp_vhba}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#scp_vhba DataIntersightVnicFcIf#scp_vhba}
   */
   readonly scpVhba?: DataIntersightVnicFcIfScpVhba;
   /**
   * sp_vhbas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#sp_vhbas DataIntersightVnicFcIf#sp_vhbas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#sp_vhbas DataIntersightVnicFcIf#sp_vhbas}
   */
   readonly spVhbas?: DataIntersightVnicFcIfSpVhbas[] | cdktf.IResolvable;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#src_template DataIntersightVnicFcIf#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#src_template DataIntersightVnicFcIf#src_template}
   */
   readonly srcTemplate?: DataIntersightVnicFcIfSrcTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#tags DataIntersightVnicFcIf#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#tags DataIntersightVnicFcIf#tags}
   */
   readonly tags?: DataIntersightVnicFcIfTags[] | cdktf.IResolvable;
   /**
   * template_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#template_actions DataIntersightVnicFcIf#template_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#template_actions DataIntersightVnicFcIf#template_actions}
   */
   readonly templateActions?: DataIntersightVnicFcIfTemplateActions[] | cdktf.IResolvable;
   /**
   * template_sync_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#template_sync_errors DataIntersightVnicFcIf#template_sync_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#template_sync_errors DataIntersightVnicFcIf#template_sync_errors}
   */
   readonly templateSyncErrors?: DataIntersightVnicFcIfTemplateSyncErrors[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#version_context DataIntersightVnicFcIf#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#version_context DataIntersightVnicFcIf#version_context}
   */
   readonly versionContext?: DataIntersightVnicFcIfVersionContext;
   /**
   * wwpn_lease block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn_lease DataIntersightVnicFcIf#wwpn_lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn_lease DataIntersightVnicFcIf#wwpn_lease}
   */
   readonly wwpnLease?: DataIntersightVnicFcIfWwpnLease;
   /**
   * wwpn_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn_pool DataIntersightVnicFcIf#wwpn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn_pool DataIntersightVnicFcIf#wwpn_pool}
   */
   readonly wwpnPool?: DataIntersightVnicFcIfWwpnPool;
 }
@@ -2113,6 +2113,11 @@ export class DataIntersightVnicFcIfResultsTagsOutputReference extends cdktf.Comp
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -3227,7 +3232,7 @@ export class DataIntersightVnicFcIfResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicFcIfAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3235,19 +3240,19 @@ export interface DataIntersightVnicFcIfAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3260,7 +3265,7 @@ export interface DataIntersightVnicFcIfAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -3492,7 +3497,7 @@ export class DataIntersightVnicFcIfAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicFcIfFcAdapterPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3500,19 +3505,19 @@ export interface DataIntersightVnicFcIfFcAdapterPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3525,7 +3530,7 @@ export interface DataIntersightVnicFcIfFcAdapterPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -3725,7 +3730,7 @@ export class DataIntersightVnicFcIfFcAdapterPolicyOutputReference extends cdktf.
 }
 export interface DataIntersightVnicFcIfFcNetworkPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3733,19 +3738,19 @@ export interface DataIntersightVnicFcIfFcNetworkPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3758,7 +3763,7 @@ export interface DataIntersightVnicFcIfFcNetworkPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -3958,7 +3963,7 @@ export class DataIntersightVnicFcIfFcNetworkPolicyOutputReference extends cdktf.
 }
 export interface DataIntersightVnicFcIfFcQosPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3966,19 +3971,19 @@ export interface DataIntersightVnicFcIfFcQosPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3991,7 +3996,7 @@ export interface DataIntersightVnicFcIfFcQosPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -4191,7 +4196,7 @@ export class DataIntersightVnicFcIfFcQosPolicyOutputReference extends cdktf.Comp
 }
 export interface DataIntersightVnicFcIfFcZonePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4199,19 +4204,19 @@ export interface DataIntersightVnicFcIfFcZonePolicies {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4224,7 +4229,7 @@ export interface DataIntersightVnicFcIfFcZonePolicies {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -4456,7 +4461,7 @@ export class DataIntersightVnicFcIfFcZonePoliciesList extends cdktf.ComplexList 
 }
 export interface DataIntersightVnicFcIfOldInfoWwpnPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4464,19 +4469,19 @@ export interface DataIntersightVnicFcIfOldInfoWwpnPool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4489,7 +4494,7 @@ export interface DataIntersightVnicFcIfOldInfoWwpnPool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -4689,7 +4694,7 @@ export class DataIntersightVnicFcIfOldInfoWwpnPoolOutputReference extends cdktf.
 }
 export interface DataIntersightVnicFcIfOldInfoWwpnlease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4697,19 +4702,19 @@ export interface DataIntersightVnicFcIfOldInfoWwpnlease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4722,7 +4727,7 @@ export interface DataIntersightVnicFcIfOldInfoWwpnlease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -4922,7 +4927,7 @@ export class DataIntersightVnicFcIfOldInfoWwpnleaseOutputReference extends cdktf
 }
 export interface DataIntersightVnicFcIfOldInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4930,14 +4935,14 @@ export interface DataIntersightVnicFcIfOldInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4945,19 +4950,19 @@ export interface DataIntersightVnicFcIfOldInfo {
   * Allowed ranges are 20:00:00:00:00:00:00:00 to 20:FF:FF:FF:FF:FF:FF:FF or from 50:00:00:00:00:00:00:00 to 5F:FF:FF:FF:FF:FF:FF:FF.
   * To ensure uniqueness of WWN's in the SAN fabric, you are strongly encouraged to use the WWN prefix - 20:00:00:25:B5:xx:xx:xx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#static_wwpn_address DataIntersightVnicFcIf#static_wwpn_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#static_wwpn_address DataIntersightVnicFcIf#static_wwpn_address}
   */
   readonly staticWwpnAddress?: string;
   /**
   * Old Vif id that was associated with the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#vif_id DataIntersightVnicFcIf#vif_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#vif_id DataIntersightVnicFcIf#vif_id}
   */
   readonly vifId?: number;
   /**
   * The WWPN address that is assigned to the vHBA based on the wwn pool that has been assigned to the SAN Connectivity Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn DataIntersightVnicFcIf#wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn DataIntersightVnicFcIf#wwpn}
   */
   readonly wwpn?: string;
   /**
@@ -4965,19 +4970,19 @@ export interface DataIntersightVnicFcIfOldInfo {
   * * `POOL` - The user selects a pool from which the mac/wwn address will be leased for the Virtual Interface.
   * * `STATIC` - The user assigns a static mac/wwn address for the Virtual Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn_address_type DataIntersightVnicFcIf#wwpn_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn_address_type DataIntersightVnicFcIf#wwpn_address_type}
   */
   readonly wwpnAddressType?: string;
   /**
   * wwpn_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpn_pool DataIntersightVnicFcIf#wwpn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpn_pool DataIntersightVnicFcIf#wwpn_pool}
   */
   readonly wwpnPool?: DataIntersightVnicFcIfOldInfoWwpnPool;
   /**
   * wwpnlease block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#wwpnlease DataIntersightVnicFcIf#wwpnlease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#wwpnlease DataIntersightVnicFcIf#wwpnlease}
   */
   readonly wwpnlease?: DataIntersightVnicFcIfOldInfoWwpnlease;
 }
@@ -5293,7 +5298,7 @@ export class DataIntersightVnicFcIfOldInfoOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightVnicFcIfParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5301,19 +5306,19 @@ export interface DataIntersightVnicFcIfParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5326,7 +5331,7 @@ export interface DataIntersightVnicFcIfParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -5526,7 +5531,7 @@ export class DataIntersightVnicFcIfParentOutputReference extends cdktf.ComplexOb
 }
 export interface DataIntersightVnicFcIfPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5534,19 +5539,19 @@ export interface DataIntersightVnicFcIfPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5559,7 +5564,7 @@ export interface DataIntersightVnicFcIfPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -5791,19 +5796,19 @@ export class DataIntersightVnicFcIfPermissionResourcesList extends cdktf.Complex
 }
 export interface DataIntersightVnicFcIfPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Enable or disable automatic assignment of the PCI Link in a dual-link adapter. This option applies only to 13xx series VICs that support dual-link. If enabled, the system determines the placement of the vNIC/vHBA on either of the PCI Links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#auto_pci_link DataIntersightVnicFcIf#auto_pci_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#auto_pci_link DataIntersightVnicFcIf#auto_pci_link}
   */
   readonly autoPciLink?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable automatic assignment of the VIC slot ID. If enabled and the server has only one VIC, the same VIC is chosen for all the vNICs. If enabled and the server has multiple VICs, the vNIC/vHBA are deployed on the first VIC. The Slot ID determines the first VIC. MLOM is the first Slot ID and the ID increments to 2, 3, and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#auto_slot_id DataIntersightVnicFcIf#auto_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#auto_slot_id DataIntersightVnicFcIf#auto_slot_id}
   */
   readonly autoSlotId?: boolean | cdktf.IResolvable;
   /**
@@ -5811,13 +5816,13 @@ export interface DataIntersightVnicFcIfPlacement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * PCIe Slot where the VIC adapter is installed. Supported values are (1-15) and MLOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#id DataIntersightVnicFcIf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#id DataIntersightVnicFcIf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5827,13 +5832,13 @@ export interface DataIntersightVnicFcIfPlacement {
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
   * The PCI Link used as transport for the virtual interface. PCI Link is only applicable for select Cisco UCS VIC 1300 models (UCSC-PCIE-C40Q-03, UCSB-MLOM-40G-03, UCSB-VIC-M83-8P) that support two PCI links. The value, if specified, for any other VIC model will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#pci_link DataIntersightVnicFcIf#pci_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#pci_link DataIntersightVnicFcIf#pci_link}
   */
   readonly pciLink?: number;
   /**
@@ -5842,7 +5847,7 @@ export interface DataIntersightVnicFcIfPlacement {
   * * `Load-Balanced` - The system will uniformly distribute the interfaces across the PCI Links.
   * * `None` - Assignment is not applicable and will be set when the AutoPciLink is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#pci_link_assignment_mode DataIntersightVnicFcIf#pci_link_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#pci_link_assignment_mode DataIntersightVnicFcIf#pci_link_assignment_mode}
   */
   readonly pciLinkAssignmentMode?: string;
   /**
@@ -5851,13 +5856,13 @@ export interface DataIntersightVnicFcIfPlacement {
   * * `A` - Fabric A of the FI cluster.
   * * `B` - Fabric B of the FI cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#switch_id DataIntersightVnicFcIf#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#switch_id DataIntersightVnicFcIf#switch_id}
   */
   readonly switchId?: string;
   /**
   * Adapter port on which the virtual interface will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#uplink DataIntersightVnicFcIf#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#uplink DataIntersightVnicFcIf#uplink}
   */
   readonly uplink?: number;
 }
@@ -6202,7 +6207,7 @@ export class DataIntersightVnicFcIfPlacementOutputReference extends cdktf.Comple
 }
 export interface DataIntersightVnicFcIfProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6210,19 +6215,19 @@ export interface DataIntersightVnicFcIfProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6235,7 +6240,7 @@ export interface DataIntersightVnicFcIfProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -6435,7 +6440,7 @@ export class DataIntersightVnicFcIfProfileOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightVnicFcIfSanConnectivityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6443,19 +6448,19 @@ export interface DataIntersightVnicFcIfSanConnectivityPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6468,7 +6473,7 @@ export interface DataIntersightVnicFcIfSanConnectivityPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -6668,7 +6673,7 @@ export class DataIntersightVnicFcIfSanConnectivityPolicyOutputReference extends 
 }
 export interface DataIntersightVnicFcIfScpVhba {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6676,19 +6681,19 @@ export interface DataIntersightVnicFcIfScpVhba {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6701,7 +6706,7 @@ export interface DataIntersightVnicFcIfScpVhba {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -6901,7 +6906,7 @@ export class DataIntersightVnicFcIfScpVhbaOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightVnicFcIfSpVhbas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6909,19 +6914,19 @@ export interface DataIntersightVnicFcIfSpVhbas {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6934,7 +6939,7 @@ export interface DataIntersightVnicFcIfSpVhbas {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -7166,7 +7171,7 @@ export class DataIntersightVnicFcIfSpVhbasList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicFcIfSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7174,19 +7179,19 @@ export interface DataIntersightVnicFcIfSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7199,7 +7204,7 @@ export interface DataIntersightVnicFcIfSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -7399,7 +7404,7 @@ export class DataIntersightVnicFcIfSrcTemplateOutputReference extends cdktf.Comp
 }
 export interface DataIntersightVnicFcIfTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7407,19 +7412,19 @@ export interface DataIntersightVnicFcIfTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7432,7 +7437,7 @@ export interface DataIntersightVnicFcIfTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -7664,7 +7669,7 @@ export class DataIntersightVnicFcIfTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface DataIntersightVnicFcIfTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7672,19 +7677,19 @@ export interface DataIntersightVnicFcIfTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7697,7 +7702,7 @@ export interface DataIntersightVnicFcIfTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -7897,45 +7902,51 @@ export class DataIntersightVnicFcIfTagsDefinitionOutputReference extends cdktf.C
 }
 export interface DataIntersightVnicFcIfTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#key DataIntersightVnicFcIf#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#key DataIntersightVnicFcIf#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#propagated DataIntersightVnicFcIf#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#propagated DataIntersightVnicFcIf#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#sys_tag DataIntersightVnicFcIf#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#value DataIntersightVnicFcIf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#value DataIntersightVnicFcIf#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#ancestor_definitions DataIntersightVnicFcIf#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#ancestor_definitions DataIntersightVnicFcIf#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicFcIfTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#definition DataIntersightVnicFcIf#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#definition DataIntersightVnicFcIf#definition}
   */
   readonly definition?: DataIntersightVnicFcIfTagsDefinition;
 }
@@ -7949,6 +7960,7 @@ export function dataIntersightVnicFcIfTagsToTerraform(struct?: DataIntersightVni
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVnicFcIfTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -7977,6 +7989,12 @@ export function dataIntersightVnicFcIfTagsToHclTerraform(struct?: DataIntersight
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -8043,6 +8061,10 @@ export class DataIntersightVnicFcIfTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -8069,6 +8091,7 @@ export class DataIntersightVnicFcIfTagsOutputReference extends cdktf.ComplexObje
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -8084,6 +8107,7 @@ export class DataIntersightVnicFcIfTagsOutputReference extends cdktf.ComplexObje
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -8137,6 +8161,22 @@ export class DataIntersightVnicFcIfTagsOutputReference extends cdktf.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -8225,7 +8265,7 @@ export class DataIntersightVnicFcIfTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicFcIfTemplateActionsParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8233,7 +8273,7 @@ export interface DataIntersightVnicFcIfTemplateActionsParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
@@ -8243,14 +8283,14 @@ export interface DataIntersightVnicFcIfTemplateActionsParams {
   * * `SyncTimer` - The parameter for the initial delay in seconds after which the sync action must be executed. The supported range is from 0 to 60 seconds.
   * * `OverriddenList` - The parameter applicable in attach operation indicating the configurations that must override the template configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#name DataIntersightVnicFcIf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#name DataIntersightVnicFcIf#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8259,7 +8299,7 @@ export interface DataIntersightVnicFcIfTemplateActionsParams {
   * b) Name - SyncTimer, Supported Values - 0 to 60 seconds.
   * c) Name - OverriddenList, Supported Values - Comma Separated list of overridable configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#value DataIntersightVnicFcIf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#value DataIntersightVnicFcIf#value}
   */
   readonly value?: string;
 }
@@ -8491,7 +8531,7 @@ export class DataIntersightVnicFcIfTemplateActionsParamsList extends cdktf.Compl
 }
 export interface DataIntersightVnicFcIfTemplateActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8499,14 +8539,14 @@ export interface DataIntersightVnicFcIfTemplateActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8516,13 +8556,13 @@ export interface DataIntersightVnicFcIfTemplateActions {
   * * `Detach` - The action to detach the current derived object from its attached template.
   * * `Attach` - The action to attach the current object to the specified template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
   */
   readonly type?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#params DataIntersightVnicFcIf#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#params DataIntersightVnicFcIf#params}
   */
   readonly params?: DataIntersightVnicFcIfTemplateActionsParams[] | cdktf.IResolvable;
 }
@@ -8754,7 +8794,7 @@ export class DataIntersightVnicFcIfTemplateActionsList extends cdktf.ComplexList
 }
 export interface DataIntersightVnicFcIfTemplateSyncErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8762,20 +8802,20 @@ export interface DataIntersightVnicFcIfTemplateSyncErrors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The localized message based on the locale setting of the user's context providing the error description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#message DataIntersightVnicFcIf#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#message DataIntersightVnicFcIf#message}
   */
   readonly message?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8785,7 +8825,7 @@ export interface DataIntersightVnicFcIfTemplateSyncErrors {
   * * `User` - Any configuration error due to incorrect or invalid input and that requires user intervention for correction, is displayed under this category. This error type is considered fatal and not retried.For example, when a new policy is attached to a server profile template, the sync to a derived server profile fails. This happens when the policyis not applicable to the server assigned to the server profile, such as the Power policy that is not applicable for UCS Rack servers.
   * * `Internal` - Any application internal errors are displayed under this category. This error type is considered fatal and not retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#type DataIntersightVnicFcIf#type}
   */
   readonly type?: string;
 }
@@ -9017,7 +9057,7 @@ export class DataIntersightVnicFcIfTemplateSyncErrorsList extends cdktf.ComplexL
 }
 export interface DataIntersightVnicFcIfVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9025,19 +9065,19 @@ export interface DataIntersightVnicFcIfVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9050,7 +9090,7 @@ export interface DataIntersightVnicFcIfVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -9282,7 +9322,7 @@ export class DataIntersightVnicFcIfVersionContextInterestedMosList extends cdktf
 }
 export interface DataIntersightVnicFcIfVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9290,19 +9330,19 @@ export interface DataIntersightVnicFcIfVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9315,7 +9355,7 @@ export interface DataIntersightVnicFcIfVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -9515,7 +9555,7 @@ export class DataIntersightVnicFcIfVersionContextRefMoOutputReference extends cd
 }
 export interface DataIntersightVnicFcIfVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9523,32 +9563,32 @@ export interface DataIntersightVnicFcIfVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#marked_for_deletion DataIntersightVnicFcIf#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#marked_for_deletion DataIntersightVnicFcIf#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#nr_version DataIntersightVnicFcIf#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#nr_version DataIntersightVnicFcIf#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#timestamp DataIntersightVnicFcIf#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#timestamp DataIntersightVnicFcIf#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -9559,19 +9599,19 @@ export interface DataIntersightVnicFcIfVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#version_type DataIntersightVnicFcIf#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#version_type DataIntersightVnicFcIf#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#interested_mos DataIntersightVnicFcIf#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#interested_mos DataIntersightVnicFcIf#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicFcIfVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#ref_mo DataIntersightVnicFcIf#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#ref_mo DataIntersightVnicFcIf#ref_mo}
   */
   readonly refMo?: DataIntersightVnicFcIfVersionContextRefMo;
 }
@@ -9887,7 +9927,7 @@ export class DataIntersightVnicFcIfVersionContextOutputReference extends cdktf.C
 }
 export interface DataIntersightVnicFcIfWwpnLease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9895,19 +9935,19 @@ export interface DataIntersightVnicFcIfWwpnLease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9920,7 +9960,7 @@ export interface DataIntersightVnicFcIfWwpnLease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -10120,7 +10160,7 @@ export class DataIntersightVnicFcIfWwpnLeaseOutputReference extends cdktf.Comple
 }
 export interface DataIntersightVnicFcIfWwpnPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#additional_properties DataIntersightVnicFcIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10128,19 +10168,19 @@ export interface DataIntersightVnicFcIfWwpnPool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#class_id DataIntersightVnicFcIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#moid DataIntersightVnicFcIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#object_type DataIntersightVnicFcIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10153,7 +10193,7 @@ export interface DataIntersightVnicFcIfWwpnPool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#selector DataIntersightVnicFcIf#selector}
   */
   readonly selector?: string;
 }
@@ -10353,7 +10393,7 @@ export class DataIntersightVnicFcIfWwpnPoolOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if intersight_vnic_fc_if}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if intersight_vnic_fc_if}
 */
 export class DataIntersightVnicFcIf extends cdktf.TerraformDataSource {
 
@@ -10369,7 +10409,7 @@ export class DataIntersightVnicFcIf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightVnicFcIf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicFcIf to import
-  * @param importFromId The id of the existing DataIntersightVnicFcIf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicFcIf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicFcIf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10381,7 +10421,7 @@ export class DataIntersightVnicFcIf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_fc_if intersight_vnic_fc_if} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_fc_if intersight_vnic_fc_if} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10392,8 +10432,8 @@ export class DataIntersightVnicFcIf extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_fc_if',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

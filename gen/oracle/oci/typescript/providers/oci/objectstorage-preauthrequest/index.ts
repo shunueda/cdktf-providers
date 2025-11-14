@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectstoragePreauthrequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#access_type ObjectstoragePreauthrequest#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#access_type ObjectstoragePreauthrequest#access_type}
   */
   readonly accessType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#bucket ObjectstoragePreauthrequest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#bucket ObjectstoragePreauthrequest#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#bucket_listing_action ObjectstoragePreauthrequest#bucket_listing_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#bucket_listing_action ObjectstoragePreauthrequest#bucket_listing_action}
   */
   readonly bucketListingAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#id ObjectstoragePreauthrequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#id ObjectstoragePreauthrequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#name ObjectstoragePreauthrequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#name ObjectstoragePreauthrequest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#namespace ObjectstoragePreauthrequest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#namespace ObjectstoragePreauthrequest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#object ObjectstoragePreauthrequest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#object ObjectstoragePreauthrequest#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#object_name ObjectstoragePreauthrequest#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#object_name ObjectstoragePreauthrequest#object_name}
   */
   readonly objectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#time_expires ObjectstoragePreauthrequest#time_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#time_expires ObjectstoragePreauthrequest#time_expires}
   */
   readonly timeExpires: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#timeouts ObjectstoragePreauthrequest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#timeouts ObjectstoragePreauthrequest#timeouts}
   */
   readonly timeouts?: ObjectstoragePreauthrequestTimeouts;
 }
 export interface ObjectstoragePreauthrequestTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#create ObjectstoragePreauthrequest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#create ObjectstoragePreauthrequest#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#delete ObjectstoragePreauthrequest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#delete ObjectstoragePreauthrequest#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#update ObjectstoragePreauthrequest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#update ObjectstoragePreauthrequest#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class ObjectstoragePreauthrequestTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest oci_objectstorage_preauthrequest}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest oci_objectstorage_preauthrequest}
 */
 export class ObjectstoragePreauthrequest extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class ObjectstoragePreauthrequest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectstoragePreauthrequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectstoragePreauthrequest to import
-  * @param importFromId The id of the existing ObjectstoragePreauthrequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectstoragePreauthrequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectstoragePreauthrequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class ObjectstoragePreauthrequest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/objectstorage_preauthrequest oci_objectstorage_preauthrequest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/objectstorage_preauthrequest oci_objectstorage_preauthrequest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class ObjectstoragePreauthrequest extends cdktf.TerraformResource {
       terraformResourceType: 'oci_objectstorage_preauthrequest',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

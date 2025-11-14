@@ -2061,6 +2061,7 @@ Object.defineProperty(exports, 'dataOciFileStorageSnapshot', { get: function () 
 Object.defineProperty(exports, 'dataOciFileStorageSnapshots', { get: function () { return require('./data-oci-file-storage-snapshots'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementAnnouncements', { get: function () { return require('./data-oci-fleet-apps-management-announcements'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementCatalogItem', { get: function () { return require('./data-oci-fleet-apps-management-catalog-item'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementCatalogItemVariablesDefinition', { get: function () { return require('./data-oci-fleet-apps-management-catalog-item-variables-definition'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementCatalogItems', { get: function () { return require('./data-oci-fleet-apps-management-catalog-items'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementCompliancePolicies', { get: function () { return require('./data-oci-fleet-apps-management-compliance-policies'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementCompliancePolicy', { get: function () { return require('./data-oci-fleet-apps-management-compliance-policy'); } });
@@ -2069,6 +2070,7 @@ Object.defineProperty(exports, 'dataOciFleetAppsManagementCompliancePolicyRules'
 Object.defineProperty(exports, 'dataOciFleetAppsManagementComplianceRecordCounts', { get: function () { return require('./data-oci-fleet-apps-management-compliance-record-counts'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementComplianceRecords', { get: function () { return require('./data-oci-fleet-apps-management-compliance-records'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleet', { get: function () { return require('./data-oci-fleet-apps-management-fleet'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetCompliance', { get: function () { return require('./data-oci-fleet-apps-management-fleet-compliance'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetComplianceReport', { get: function () { return require('./data-oci-fleet-apps-management-fleet-compliance-report'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetCredential', { get: function () { return require('./data-oci-fleet-apps-management-fleet-credential'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetCredentials', { get: function () { return require('./data-oci-fleet-apps-management-fleet-credentials'); } });
@@ -2079,6 +2081,7 @@ Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetResource', { get:
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetResources', { get: function () { return require('./data-oci-fleet-apps-management-fleet-resources'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleetTargets', { get: function () { return require('./data-oci-fleet-apps-management-fleet-targets'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementFleets', { get: function () { return require('./data-oci-fleet-apps-management-fleets'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementInstalledPatches', { get: function () { return require('./data-oci-fleet-apps-management-installed-patches'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementInventoryRecords', { get: function () { return require('./data-oci-fleet-apps-management-inventory-records'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementInventoryResources', { get: function () { return require('./data-oci-fleet-apps-management-inventory-resources'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementMaintenanceWindow', { get: function () { return require('./data-oci-fleet-apps-management-maintenance-window'); } });
@@ -2094,7 +2097,13 @@ Object.defineProperty(exports, 'dataOciFleetAppsManagementProperties', { get: fu
 Object.defineProperty(exports, 'dataOciFleetAppsManagementProperty', { get: function () { return require('./data-oci-fleet-apps-management-property'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementProvision', { get: function () { return require('./data-oci-fleet-apps-management-provision'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementProvisions', { get: function () { return require('./data-oci-fleet-apps-management-provisions'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementRecommendedPatches', { get: function () { return require('./data-oci-fleet-apps-management-recommended-patches'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementReportMetadata', { get: function () { return require('./data-oci-fleet-apps-management-report-metadata'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbook', { get: function () { return require('./data-oci-fleet-apps-management-runbook'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookExport', { get: function () { return require('./data-oci-fleet-apps-management-runbook-export'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookExportStatuses', { get: function () { return require('./data-oci-fleet-apps-management-runbook-export-statuses'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookImport', { get: function () { return require('./data-oci-fleet-apps-management-runbook-import'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookImportStatuses', { get: function () { return require('./data-oci-fleet-apps-management-runbook-import-statuses'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookVersion', { get: function () { return require('./data-oci-fleet-apps-management-runbook-version'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbookVersions', { get: function () { return require('./data-oci-fleet-apps-management-runbook-versions'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementRunbooks', { get: function () { return require('./data-oci-fleet-apps-management-runbooks'); } });
@@ -2105,6 +2114,8 @@ Object.defineProperty(exports, 'dataOciFleetAppsManagementSchedulerExecutions', 
 Object.defineProperty(exports, 'dataOciFleetAppsManagementSchedulerJobCounts', { get: function () { return require('./data-oci-fleet-apps-management-scheduler-job-counts'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementSchedulerJobJobActivityResources', { get: function () { return require('./data-oci-fleet-apps-management-scheduler-job-job-activity-resources'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementSchedulerJobJobActivitySteps', { get: function () { return require('./data-oci-fleet-apps-management-scheduler-job-job-activity-steps'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementTargetComponents', { get: function () { return require('./data-oci-fleet-apps-management-target-components'); } });
+Object.defineProperty(exports, 'dataOciFleetAppsManagementTargetProperties', { get: function () { return require('./data-oci-fleet-apps-management-target-properties'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementTaskRecord', { get: function () { return require('./data-oci-fleet-apps-management-task-record'); } });
 Object.defineProperty(exports, 'dataOciFleetAppsManagementTaskRecords', { get: function () { return require('./data-oci-fleet-apps-management-task-records'); } });
 Object.defineProperty(exports, 'dataOciFleetSoftwareUpdateFsuCollection', { get: function () { return require('./data-oci-fleet-software-update-fsu-collection'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface CapacityManagementInternalOccmDemandSignalDeliveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#accepted_quantity CapacityManagementInternalOccmDemandSignalDelivery#accepted_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#accepted_quantity CapacityManagementInternalOccmDemandSignalDelivery#accepted_quantity}
   */
   readonly acceptedQuantity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#compartment_id CapacityManagementInternalOccmDemandSignalDelivery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#compartment_id CapacityManagementInternalOccmDemandSignalDelivery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#defined_tags CapacityManagementInternalOccmDemandSignalDelivery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#defined_tags CapacityManagementInternalOccmDemandSignalDelivery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#demand_signal_id CapacityManagementInternalOccmDemandSignalDelivery#demand_signal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#demand_signal_id CapacityManagementInternalOccmDemandSignalDelivery#demand_signal_id}
   */
   readonly demandSignalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#demand_signal_item_id CapacityManagementInternalOccmDemandSignalDelivery#demand_signal_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#demand_signal_item_id CapacityManagementInternalOccmDemandSignalDelivery#demand_signal_item_id}
   */
   readonly demandSignalItemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#freeform_tags CapacityManagementInternalOccmDemandSignalDelivery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#freeform_tags CapacityManagementInternalOccmDemandSignalDelivery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#id CapacityManagementInternalOccmDemandSignalDelivery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#id CapacityManagementInternalOccmDemandSignalDelivery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#justification CapacityManagementInternalOccmDemandSignalDelivery#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#justification CapacityManagementInternalOccmDemandSignalDelivery#justification}
   */
   readonly justification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#lifecycle_details CapacityManagementInternalOccmDemandSignalDelivery#lifecycle_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#lifecycle_details CapacityManagementInternalOccmDemandSignalDelivery#lifecycle_details}
   */
   readonly lifecycleDetails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#notes CapacityManagementInternalOccmDemandSignalDelivery#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#notes CapacityManagementInternalOccmDemandSignalDelivery#notes}
   */
   readonly notes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#occ_customer_group_id CapacityManagementInternalOccmDemandSignalDelivery#occ_customer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#occ_customer_group_id CapacityManagementInternalOccmDemandSignalDelivery#occ_customer_group_id}
   */
   readonly occCustomerGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#timeouts CapacityManagementInternalOccmDemandSignalDelivery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#timeouts CapacityManagementInternalOccmDemandSignalDelivery#timeouts}
   */
   readonly timeouts?: CapacityManagementInternalOccmDemandSignalDeliveryTimeouts;
 }
 export interface CapacityManagementInternalOccmDemandSignalDeliveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#create CapacityManagementInternalOccmDemandSignalDelivery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#create CapacityManagementInternalOccmDemandSignalDelivery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#delete CapacityManagementInternalOccmDemandSignalDelivery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#delete CapacityManagementInternalOccmDemandSignalDelivery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#update CapacityManagementInternalOccmDemandSignalDelivery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#update CapacityManagementInternalOccmDemandSignalDelivery#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class CapacityManagementInternalOccmDemandSignalDeliveryTimeoutsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery oci_capacity_management_internal_occm_demand_signal_delivery}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery oci_capacity_management_internal_occm_demand_signal_delivery}
 */
 export class CapacityManagementInternalOccmDemandSignalDelivery extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class CapacityManagementInternalOccmDemandSignalDelivery extends cdktf.Te
   * Generates CDKTF code for importing a CapacityManagementInternalOccmDemandSignalDelivery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapacityManagementInternalOccmDemandSignalDelivery to import
-  * @param importFromId The id of the existing CapacityManagementInternalOccmDemandSignalDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapacityManagementInternalOccmDemandSignalDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapacityManagementInternalOccmDemandSignalDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class CapacityManagementInternalOccmDemandSignalDelivery extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/capacity_management_internal_occm_demand_signal_delivery oci_capacity_management_internal_occm_demand_signal_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/capacity_management_internal_occm_demand_signal_delivery oci_capacity_management_internal_occm_demand_signal_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class CapacityManagementInternalOccmDemandSignalDelivery extends cdktf.Te
       terraformResourceType: 'oci_capacity_management_internal_occm_demand_signal_delivery',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

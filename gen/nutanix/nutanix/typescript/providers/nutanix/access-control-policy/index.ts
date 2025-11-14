@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface AccessControlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#description AccessControlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#description AccessControlPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#id AccessControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#id AccessControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
   */
   readonly categories?: AccessControlPolicyCategories[] | cdktf.IResolvable;
   /**
   * context_filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#context_filter_list AccessControlPolicy#context_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#context_filter_list AccessControlPolicy#context_filter_list}
   */
   readonly contextFilterList?: AccessControlPolicyContextFilterListStruct[] | cdktf.IResolvable;
   /**
   * owner_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#owner_reference AccessControlPolicy#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#owner_reference AccessControlPolicy#owner_reference}
   */
   readonly ownerReference?: AccessControlPolicyOwnerReference;
   /**
   * role_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#role_reference AccessControlPolicy#role_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#role_reference AccessControlPolicy#role_reference}
   */
   readonly roleReference: AccessControlPolicyRoleReference;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#timeouts AccessControlPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#timeouts AccessControlPolicy#timeouts}
   */
   readonly timeouts?: AccessControlPolicyTimeouts;
   /**
   * user_group_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#user_group_reference_list AccessControlPolicy#user_group_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#user_group_reference_list AccessControlPolicy#user_group_reference_list}
   */
   readonly userGroupReferenceList?: AccessControlPolicyUserGroupReferenceListStruct[] | cdktf.IResolvable;
   /**
   * user_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#user_reference_list AccessControlPolicy#user_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#user_reference_list AccessControlPolicy#user_reference_list}
   */
   readonly userReferenceList?: AccessControlPolicyUserReferenceListStruct[] | cdktf.IResolvable;
 }
 export interface AccessControlPolicyCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#value AccessControlPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#value AccessControlPolicy#value}
   */
   readonly value?: string;
 }
@@ -216,11 +216,11 @@ export class AccessControlPolicyCategoriesList extends cdktf.ComplexList {
 }
 export interface AccessControlPolicyContextFilterListEntityFilterExpressionListRightHandSideCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#value AccessControlPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#value AccessControlPolicy#value}
   */
   readonly value?: string[];
 }
@@ -333,17 +333,17 @@ export class AccessControlPolicyContextFilterListEntityFilterExpressionListRight
 }
 export interface AccessControlPolicyContextFilterListEntityFilterExpressionListRightHandSide {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#collection AccessControlPolicy#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#collection AccessControlPolicy#collection}
   */
   readonly collection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid_list AccessControlPolicy#uuid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid_list AccessControlPolicy#uuid_list}
   */
   readonly uuidList?: string[];
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
   */
   readonly categories?: AccessControlPolicyContextFilterListEntityFilterExpressionListRightHandSideCategories;
 }
@@ -485,17 +485,17 @@ export class AccessControlPolicyContextFilterListEntityFilterExpressionListRight
 }
 export interface AccessControlPolicyContextFilterListEntityFilterExpressionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#left_hand_side_entity_type AccessControlPolicy#left_hand_side_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#left_hand_side_entity_type AccessControlPolicy#left_hand_side_entity_type}
   */
   readonly leftHandSideEntityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#operator AccessControlPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#operator AccessControlPolicy#operator}
   */
   readonly operator: string;
   /**
   * right_hand_side block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#right_hand_side AccessControlPolicy#right_hand_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#right_hand_side AccessControlPolicy#right_hand_side}
   */
   readonly rightHandSide: AccessControlPolicyContextFilterListEntityFilterExpressionListRightHandSide;
 }
@@ -663,11 +663,11 @@ export class AccessControlPolicyContextFilterListEntityFilterExpressionListStruc
 }
 export interface AccessControlPolicyContextFilterListScopeFilterExpressionListRightHandSideCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#value AccessControlPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#value AccessControlPolicy#value}
   */
   readonly value?: string[];
 }
@@ -780,17 +780,17 @@ export class AccessControlPolicyContextFilterListScopeFilterExpressionListRightH
 }
 export interface AccessControlPolicyContextFilterListScopeFilterExpressionListRightHandSide {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#collection AccessControlPolicy#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#collection AccessControlPolicy#collection}
   */
   readonly collection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid_list AccessControlPolicy#uuid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid_list AccessControlPolicy#uuid_list}
   */
   readonly uuidList?: string[];
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#categories AccessControlPolicy#categories}
   */
   readonly categories?: AccessControlPolicyContextFilterListScopeFilterExpressionListRightHandSideCategories;
 }
@@ -932,17 +932,17 @@ export class AccessControlPolicyContextFilterListScopeFilterExpressionListRightH
 }
 export interface AccessControlPolicyContextFilterListScopeFilterExpressionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#left_hand_side AccessControlPolicy#left_hand_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#left_hand_side AccessControlPolicy#left_hand_side}
   */
   readonly leftHandSide: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#operator AccessControlPolicy#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#operator AccessControlPolicy#operator}
   */
   readonly operator: string;
   /**
   * right_hand_side block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#right_hand_side AccessControlPolicy#right_hand_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#right_hand_side AccessControlPolicy#right_hand_side}
   */
   readonly rightHandSide: AccessControlPolicyContextFilterListScopeFilterExpressionListRightHandSide;
 }
@@ -1109,13 +1109,13 @@ export interface AccessControlPolicyContextFilterListStruct {
   /**
   * entity_filter_expression_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#entity_filter_expression_list AccessControlPolicy#entity_filter_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#entity_filter_expression_list AccessControlPolicy#entity_filter_expression_list}
   */
   readonly entityFilterExpressionList: AccessControlPolicyContextFilterListEntityFilterExpressionListStruct[] | cdktf.IResolvable;
   /**
   * scope_filter_expression_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#scope_filter_expression_list AccessControlPolicy#scope_filter_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#scope_filter_expression_list AccessControlPolicy#scope_filter_expression_list}
   */
   readonly scopeFilterExpressionList?: AccessControlPolicyContextFilterListScopeFilterExpressionListStruct[] | cdktf.IResolvable;
 }
@@ -1257,15 +1257,15 @@ export class AccessControlPolicyContextFilterListStructList extends cdktf.Comple
 }
 export interface AccessControlPolicyOwnerReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#kind AccessControlPolicy#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#kind AccessControlPolicy#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -1407,15 +1407,15 @@ export class AccessControlPolicyOwnerReferenceOutputReference extends cdktf.Comp
 }
 export interface AccessControlPolicyRoleReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#kind AccessControlPolicy#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#kind AccessControlPolicy#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
   */
   readonly uuid: string;
 }
@@ -1551,15 +1551,15 @@ export class AccessControlPolicyRoleReferenceOutputReference extends cdktf.Compl
 }
 export interface AccessControlPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#create AccessControlPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#create AccessControlPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#delete AccessControlPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#delete AccessControlPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#update AccessControlPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#update AccessControlPolicy#update}
   */
   readonly update?: string;
 }
@@ -1711,11 +1711,11 @@ export class AccessControlPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface AccessControlPolicyUserGroupReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
   */
   readonly uuid: string;
 }
@@ -1862,11 +1862,11 @@ export class AccessControlPolicyUserGroupReferenceListStructList extends cdktf.C
 }
 export interface AccessControlPolicyUserReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#name AccessControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#name AccessControlPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#uuid AccessControlPolicy#uuid}
   */
   readonly uuid: string;
 }
@@ -2013,7 +2013,7 @@ export class AccessControlPolicyUserReferenceListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy nutanix_access_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy nutanix_access_control_policy}
 */
 export class AccessControlPolicy extends cdktf.TerraformResource {
 
@@ -2029,7 +2029,7 @@ export class AccessControlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessControlPolicy to import
-  * @param importFromId The id of the existing AccessControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2041,7 +2041,7 @@ export class AccessControlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/access_control_policy nutanix_access_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/access_control_policy nutanix_access_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2052,8 +2052,8 @@ export class AccessControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_access_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

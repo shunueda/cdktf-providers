@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseUserDataAccessContainerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container#id DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container#id DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container#managed_database_id DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container#managed_database_id DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container#name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container#name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container#user_name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container#user_name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer#user_name}
   */
   readonly userName: string;
 }
@@ -104,7 +104,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainerItem
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container oci_database_management_managed_database_user_data_access_container}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container oci_database_management_managed_database_user_data_access_container}
 */
 export class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer ext
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_user_data_access_container oci_database_management_managed_database_user_data_access_container} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_user_data_access_container oci_database_management_managed_database_user_data_access_container} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainer ext
       terraformResourceType: 'oci_database_management_managed_database_user_data_access_container',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

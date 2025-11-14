@@ -200,41 +200,41 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#account_moid DataIntersightComputeBlade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#account_moid DataIntersightComputeBlade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The desired power state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#admin_power_state DataIntersightComputeBlade#admin_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#admin_power_state DataIntersightComputeBlade#admin_power_state}
   */
   readonly adminPowerState?: string;
   /**
   * The user defined asset tag assigned to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#asset_tag DataIntersightComputeBlade#asset_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#asset_tag DataIntersightComputeBlade#asset_tag}
   */
   readonly assetTag?: string;
   /**
   * The amount of memory available on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#available_memory DataIntersightComputeBlade#available_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#available_memory DataIntersightComputeBlade#available_memory}
   */
   readonly availableMemory?: number;
   /**
   * The BIOS POST completion status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bios_post_complete DataIntersightComputeBlade#bios_post_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bios_post_complete DataIntersightComputeBlade#bios_post_complete}
   */
   readonly biosPostComplete?: boolean | cdktf.IResolvable;
   /**
   * The BMC inventory readiness status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bmc_inventory_ready DataIntersightComputeBlade#bmc_inventory_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bmc_inventory_ready DataIntersightComputeBlade#bmc_inventory_ready}
   */
   readonly bmcInventoryReady?: boolean | cdktf.IResolvable;
   /**
@@ -244,7 +244,7 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `OSRunning` - The operating system boot process has started and running.
   * * `OEM` - The server is in an OEM-defined startup state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_last_state DataIntersightComputeBlade#boot_last_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_last_state DataIntersightComputeBlade#boot_last_state}
   */
   readonly bootLastState?: string;
   /**
@@ -252,13 +252,13 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `None` - The server has not yet completed OEM initialization.
   * * `PlatformInitializing` - The server is initializing after being powered on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_oem_last_state DataIntersightComputeBlade#boot_oem_last_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_oem_last_state DataIntersightComputeBlade#boot_oem_last_state}
   */
   readonly bootOemLastState?: string;
   /**
   * The id of the chassis that the blade is discovered in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#chassis_id DataIntersightComputeBlade#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#chassis_id DataIntersightComputeBlade#chassis_id}
   */
   readonly chassisId?: string;
   /**
@@ -266,7 +266,7 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
@@ -274,25 +274,25 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `Air` - Cooling mode of the device is set to Air.
   * * `Immersion` - Cooling mode of the device is set to Immersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#cooling_mode DataIntersightComputeBlade#cooling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#cooling_mode DataIntersightComputeBlade#cooling_mode}
   */
   readonly coolingMode?: string;
   /**
   * Total processing capacity of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#cpu_capacity DataIntersightComputeBlade#cpu_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#cpu_capacity DataIntersightComputeBlade#cpu_capacity}
   */
   readonly cpuCapacity?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#create_time DataIntersightComputeBlade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#create_time DataIntersightComputeBlade#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#device_mo_id DataIntersightComputeBlade#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#device_mo_id DataIntersightComputeBlade#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
@@ -301,25 +301,25 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `Enabled` - The configured state is enabled.
   * * `Disabled` - The configured state is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#dimm_blocklisting DataIntersightComputeBlade#dimm_blocklisting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#dimm_blocklisting DataIntersightComputeBlade#dimm_blocklisting}
   */
   readonly dimmBlocklisting?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#dn DataIntersightComputeBlade#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#dn DataIntersightComputeBlade#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#domain_group_moid DataIntersightComputeBlade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#domain_group_moid DataIntersightComputeBlade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The fault summary for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#fault_summary DataIntersightComputeBlade#fault_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#fault_summary DataIntersightComputeBlade#fault_summary}
   */
   readonly faultSummary?: number;
   /**
@@ -328,23 +328,23 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `Lock` - Front Panel of the server is set to Locked state.
   * * `Unlock` - Front Panel of the server is set to Unlocked state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#front_panel_lock_state DataIntersightComputeBlade#front_panel_lock_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#front_panel_lock_state DataIntersightComputeBlade#front_panel_lock_state}
   */
   readonly frontPanelLockState?: string;
   /**
   * The universally unique hardware identity of the server provided by the manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#hardware_uuid DataIntersightComputeBlade#hardware_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#hardware_uuid DataIntersightComputeBlade#hardware_uuid}
   */
   readonly hardwareUuid?: string;
   /**
   * The flag to indicate server has the support for E3.S drives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#has_e3_s_support DataIntersightComputeBlade#has_e3_s_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#has_e3_s_support DataIntersightComputeBlade#has_e3_s_support}
   */
   readonly hasE3SSupport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#id DataIntersightComputeBlade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#id DataIntersightComputeBlade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -353,25 +353,25 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#is_upgraded DataIntersightComputeBlade#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#is_upgraded DataIntersightComputeBlade#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The KVM server state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#kvm_server_state_enabled DataIntersightComputeBlade#kvm_server_state_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#kvm_server_state_enabled DataIntersightComputeBlade#kvm_server_state_enabled}
   */
   readonly kvmServerStateEnabled?: boolean | cdktf.IResolvable;
   /**
   * The KVM Vendor for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#kvm_vendor DataIntersightComputeBlade#kvm_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#kvm_vendor DataIntersightComputeBlade#kvm_vendor}
   */
   readonly kvmVendor?: string;
   /**
   * The Last host power state changed time of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#last_power_state_changed_time DataIntersightComputeBlade#last_power_state_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#last_power_state_changed_time DataIntersightComputeBlade#last_power_state_changed_time}
   */
   readonly lastPowerStateChangedTime?: string;
   /**
@@ -380,43 +380,43 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `UCSM` - Unified Computing System Manager mode of operation.
   * * `Intersight` - Intersight managed mode of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#management_mode DataIntersightComputeBlade#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#management_mode DataIntersightComputeBlade#management_mode}
   */
   readonly managementMode?: string;
   /**
   * The maximum memory speed in MHz available on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#memory_speed DataIntersightComputeBlade#memory_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#memory_speed DataIntersightComputeBlade#memory_speed}
   */
   readonly memorySpeed?: string;
   /**
   * Management address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#mgmt_ip_address DataIntersightComputeBlade#mgmt_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#mgmt_ip_address DataIntersightComputeBlade#mgmt_ip_address}
   */
   readonly mgmtIpAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#mod_time DataIntersightComputeBlade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#mod_time DataIntersightComputeBlade#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#model DataIntersightComputeBlade#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#model DataIntersightComputeBlade#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The name of the UCS Fabric Interconnect cluster or Cisco Integrated Management Controller (CIMC). When this server is attached to a UCS Fabric Interconnect, the value of this property is the name of the UCS Fabric Interconnect along with chassis/server Id. When this server configured in standalone mode, the value of this property is the name of the Cisco Integrated Management Controller. when this server is configired in IMM mode, the value of this property contains model and chassis/server Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
   */
   readonly name?: string;
   /**
@@ -436,461 +436,461 @@ export interface DataIntersightComputeBladeConfig extends cdktf.TerraformMetaArg
   * * `Replaced` - The blade server has been removed from its discovered location and another blade has been inserted in that location. Blade inventory can be cleaned up and updated by doing a software remove operation on the physically removed blade.
   * * `MovedAndReplaced` - The blade server has been moved from its discovered location to a new location and another blade has been inserted into the old discovered location. Blade inventory can be updated by performing a rediscover operation on the moved blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#nr_lifecycle DataIntersightComputeBlade#nr_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#nr_lifecycle DataIntersightComputeBlade#nr_lifecycle}
   */
   readonly nrLifecycle?: string;
   /**
   * The total number of network adapters present on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_adaptors DataIntersightComputeBlade#num_adaptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_adaptors DataIntersightComputeBlade#num_adaptors}
   */
   readonly numAdaptors?: number;
   /**
   * The total number of CPU cores present on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_cpu_cores DataIntersightComputeBlade#num_cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_cpu_cores DataIntersightComputeBlade#num_cpu_cores}
   */
   readonly numCpuCores?: number;
   /**
   * The total number of CPU cores enabled on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_cpu_cores_enabled DataIntersightComputeBlade#num_cpu_cores_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_cpu_cores_enabled DataIntersightComputeBlade#num_cpu_cores_enabled}
   */
   readonly numCpuCoresEnabled?: number;
   /**
   * The total number of CPUs present on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_cpus DataIntersightComputeBlade#num_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_cpus DataIntersightComputeBlade#num_cpus}
   */
   readonly numCpus?: number;
   /**
   * The total number of vNICs which are visible to a host on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_eth_host_interfaces DataIntersightComputeBlade#num_eth_host_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_eth_host_interfaces DataIntersightComputeBlade#num_eth_host_interfaces}
   */
   readonly numEthHostInterfaces?: number;
   /**
   * The total number of vHBAs which are visible to a host on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_fc_host_interfaces DataIntersightComputeBlade#num_fc_host_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_fc_host_interfaces DataIntersightComputeBlade#num_fc_host_interfaces}
   */
   readonly numFcHostInterfaces?: number;
   /**
   * The total number of threads the server is capable of handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#num_threads DataIntersightComputeBlade#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#num_threads DataIntersightComputeBlade#num_threads}
   */
   readonly numThreads?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
   * The actual power state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#oper_power_state DataIntersightComputeBlade#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#oper_power_state DataIntersightComputeBlade#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#oper_reason DataIntersightComputeBlade#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#oper_reason DataIntersightComputeBlade#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * The operational state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#oper_state DataIntersightComputeBlade#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#oper_state DataIntersightComputeBlade#oper_state}
   */
   readonly operState?: string;
   /**
   * The operability of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#operability DataIntersightComputeBlade#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#operability DataIntersightComputeBlade#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#owners DataIntersightComputeBlade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#owners DataIntersightComputeBlade#owners}
   */
   readonly owners?: string[];
   /**
   * The platform type of the registered device - whether managed by UCSM or operating in standalone mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#platform_type DataIntersightComputeBlade#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#platform_type DataIntersightComputeBlade#platform_type}
   */
   readonly platformType?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#presence DataIntersightComputeBlade#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#presence DataIntersightComputeBlade#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#revision DataIntersightComputeBlade#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#revision DataIntersightComputeBlade#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#rn DataIntersightComputeBlade#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#rn DataIntersightComputeBlade#rn}
   */
   readonly rn?: string;
   /**
   * The mode of the server that determines it is scaled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#scaled_mode DataIntersightComputeBlade#scaled_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#scaled_mode DataIntersightComputeBlade#scaled_mode}
   */
   readonly scaledMode?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#serial DataIntersightComputeBlade#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#serial DataIntersightComputeBlade#serial}
   */
   readonly serial?: string;
   /**
   * The distinguished name of the service profile to which the server is associated to. It is applicable only for servers which are managed via UCSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#service_profile DataIntersightComputeBlade#service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#service_profile DataIntersightComputeBlade#service_profile}
   */
   readonly serviceProfile?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#shared_scope DataIntersightComputeBlade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#shared_scope DataIntersightComputeBlade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The slot number in the chassis that the blade is discovered in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#slot_id DataIntersightComputeBlade#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#slot_id DataIntersightComputeBlade#slot_id}
   */
   readonly slotId?: number;
   /**
   * The total memory available on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#total_memory DataIntersightComputeBlade#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#total_memory DataIntersightComputeBlade#total_memory}
   */
   readonly totalMemory?: number;
   /**
   * The Tunneled vKVM status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#tunneled_kvm DataIntersightComputeBlade#tunneled_kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#tunneled_kvm DataIntersightComputeBlade#tunneled_kvm}
   */
   readonly tunneledKvm?: boolean | cdktf.IResolvable;
   /**
   * The user defined label assigned to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#user_label DataIntersightComputeBlade#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#user_label DataIntersightComputeBlade#user_label}
   */
   readonly userLabel?: string;
   /**
   * The universally unique identity of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#uuid DataIntersightComputeBlade#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#uuid DataIntersightComputeBlade#uuid}
   */
   readonly uuid?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#vendor DataIntersightComputeBlade#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#vendor DataIntersightComputeBlade#vendor}
   */
   readonly vendor?: string;
   /**
   * adapters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#adapters DataIntersightComputeBlade#adapters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#adapters DataIntersightComputeBlade#adapters}
   */
   readonly adapters?: DataIntersightComputeBladeAdapters[] | cdktf.IResolvable;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#alarm_summary DataIntersightComputeBlade#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#alarm_summary DataIntersightComputeBlade#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightComputeBladeAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#ancestors DataIntersightComputeBlade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#ancestors DataIntersightComputeBlade#ancestors}
   */
   readonly ancestors?: DataIntersightComputeBladeAncestors[] | cdktf.IResolvable;
   /**
   * bios_bootmode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bios_bootmode DataIntersightComputeBlade#bios_bootmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bios_bootmode DataIntersightComputeBlade#bios_bootmode}
   */
   readonly biosBootmode?: DataIntersightComputeBladeBiosBootmode;
   /**
   * bios_token_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bios_token_settings DataIntersightComputeBlade#bios_token_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bios_token_settings DataIntersightComputeBlade#bios_token_settings}
   */
   readonly biosTokenSettings?: DataIntersightComputeBladeBiosTokenSettings;
   /**
   * bios_units block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bios_units DataIntersightComputeBlade#bios_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bios_units DataIntersightComputeBlade#bios_units}
   */
   readonly biosUnits?: DataIntersightComputeBladeBiosUnits[] | cdktf.IResolvable;
   /**
   * bios_vf_select_memory_ras_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bios_vf_select_memory_ras_configuration DataIntersightComputeBlade#bios_vf_select_memory_ras_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bios_vf_select_memory_ras_configuration DataIntersightComputeBlade#bios_vf_select_memory_ras_configuration}
   */
   readonly biosVfSelectMemoryRasConfiguration?: DataIntersightComputeBladeBiosVfSelectMemoryRasConfiguration;
   /**
   * bmc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#bmc DataIntersightComputeBlade#bmc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#bmc DataIntersightComputeBlade#bmc}
   */
   readonly bmc?: DataIntersightComputeBladeBmc;
   /**
   * board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#board DataIntersightComputeBlade#board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#board DataIntersightComputeBlade#board}
   */
   readonly board?: DataIntersightComputeBladeBoard;
   /**
   * boot_cdd_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_cdd_devices DataIntersightComputeBlade#boot_cdd_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_cdd_devices DataIntersightComputeBlade#boot_cdd_devices}
   */
   readonly bootCddDevices?: DataIntersightComputeBladeBootCddDevices[] | cdktf.IResolvable;
   /**
   * boot_device_boot_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_device_boot_security DataIntersightComputeBlade#boot_device_boot_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_device_boot_security DataIntersightComputeBlade#boot_device_boot_security}
   */
   readonly bootDeviceBootSecurity?: DataIntersightComputeBladeBootDeviceBootSecurity;
   /**
   * boot_device_bootmode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_device_bootmode DataIntersightComputeBlade#boot_device_bootmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_device_bootmode DataIntersightComputeBlade#boot_device_bootmode}
   */
   readonly bootDeviceBootmode?: DataIntersightComputeBladeBootDeviceBootmode;
   /**
   * boot_hdd_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_hdd_devices DataIntersightComputeBlade#boot_hdd_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_hdd_devices DataIntersightComputeBlade#boot_hdd_devices}
   */
   readonly bootHddDevices?: DataIntersightComputeBladeBootHddDevices[] | cdktf.IResolvable;
   /**
   * boot_iscsi_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_iscsi_devices DataIntersightComputeBlade#boot_iscsi_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_iscsi_devices DataIntersightComputeBlade#boot_iscsi_devices}
   */
   readonly bootIscsiDevices?: DataIntersightComputeBladeBootIscsiDevices[] | cdktf.IResolvable;
   /**
   * boot_nvme_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_nvme_devices DataIntersightComputeBlade#boot_nvme_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_nvme_devices DataIntersightComputeBlade#boot_nvme_devices}
   */
   readonly bootNvmeDevices?: DataIntersightComputeBladeBootNvmeDevices[] | cdktf.IResolvable;
   /**
   * boot_pch_storage_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_pch_storage_devices DataIntersightComputeBlade#boot_pch_storage_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_pch_storage_devices DataIntersightComputeBlade#boot_pch_storage_devices}
   */
   readonly bootPchStorageDevices?: DataIntersightComputeBladeBootPchStorageDevices[] | cdktf.IResolvable;
   /**
   * boot_pxe_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_pxe_devices DataIntersightComputeBlade#boot_pxe_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_pxe_devices DataIntersightComputeBlade#boot_pxe_devices}
   */
   readonly bootPxeDevices?: DataIntersightComputeBladeBootPxeDevices[] | cdktf.IResolvable;
   /**
   * boot_san_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_san_devices DataIntersightComputeBlade#boot_san_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_san_devices DataIntersightComputeBlade#boot_san_devices}
   */
   readonly bootSanDevices?: DataIntersightComputeBladeBootSanDevices[] | cdktf.IResolvable;
   /**
   * boot_sd_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_sd_devices DataIntersightComputeBlade#boot_sd_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_sd_devices DataIntersightComputeBlade#boot_sd_devices}
   */
   readonly bootSdDevices?: DataIntersightComputeBladeBootSdDevices[] | cdktf.IResolvable;
   /**
   * boot_uefi_shell_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_uefi_shell_devices DataIntersightComputeBlade#boot_uefi_shell_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_uefi_shell_devices DataIntersightComputeBlade#boot_uefi_shell_devices}
   */
   readonly bootUefiShellDevices?: DataIntersightComputeBladeBootUefiShellDevices[] | cdktf.IResolvable;
   /**
   * boot_usb_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_usb_devices DataIntersightComputeBlade#boot_usb_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_usb_devices DataIntersightComputeBlade#boot_usb_devices}
   */
   readonly bootUsbDevices?: DataIntersightComputeBladeBootUsbDevices[] | cdktf.IResolvable;
   /**
   * boot_vmedia_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#boot_vmedia_devices DataIntersightComputeBlade#boot_vmedia_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#boot_vmedia_devices DataIntersightComputeBlade#boot_vmedia_devices}
   */
   readonly bootVmediaDevices?: DataIntersightComputeBladeBootVmediaDevices[] | cdktf.IResolvable;
   /**
   * compute_personality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#compute_personality DataIntersightComputeBlade#compute_personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#compute_personality DataIntersightComputeBlade#compute_personality}
   */
   readonly computePersonality?: DataIntersightComputeBladeComputePersonality[] | cdktf.IResolvable;
   /**
   * compute_server_power_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#compute_server_power_parameters DataIntersightComputeBlade#compute_server_power_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#compute_server_power_parameters DataIntersightComputeBlade#compute_server_power_parameters}
   */
   readonly computeServerPowerParameters?: DataIntersightComputeBladeComputeServerPowerParameters;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#equipment_chassis DataIntersightComputeBlade#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#equipment_chassis DataIntersightComputeBlade#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightComputeBladeEquipmentChassis;
   /**
   * equipment_io_expanders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#equipment_io_expanders DataIntersightComputeBlade#equipment_io_expanders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#equipment_io_expanders DataIntersightComputeBlade#equipment_io_expanders}
   */
   readonly equipmentIoExpanders?: DataIntersightComputeBladeEquipmentIoExpanders[] | cdktf.IResolvable;
   /**
   * generic_inventory_holders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#generic_inventory_holders DataIntersightComputeBlade#generic_inventory_holders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#generic_inventory_holders DataIntersightComputeBlade#generic_inventory_holders}
   */
   readonly genericInventoryHolders?: DataIntersightComputeBladeGenericInventoryHolders[] | cdktf.IResolvable;
   /**
   * graphics_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#graphics_cards DataIntersightComputeBlade#graphics_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#graphics_cards DataIntersightComputeBlade#graphics_cards}
   */
   readonly graphicsCards?: DataIntersightComputeBladeGraphicsCards[] | cdktf.IResolvable;
   /**
   * hybrid_drive_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#hybrid_drive_slots DataIntersightComputeBlade#hybrid_drive_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#hybrid_drive_slots DataIntersightComputeBlade#hybrid_drive_slots}
   */
   readonly hybridDriveSlots?: DataIntersightComputeBladeHybridDriveSlots[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#inventory_device_info DataIntersightComputeBlade#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#inventory_device_info DataIntersightComputeBlade#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightComputeBladeInventoryDeviceInfo;
   /**
   * kvm_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#kvm_ip_addresses DataIntersightComputeBlade#kvm_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#kvm_ip_addresses DataIntersightComputeBlade#kvm_ip_addresses}
   */
   readonly kvmIpAddresses?: DataIntersightComputeBladeKvmIpAddresses[] | cdktf.IResolvable;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#location_details DataIntersightComputeBlade#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#location_details DataIntersightComputeBlade#location_details}
   */
   readonly locationDetails?: DataIntersightComputeBladeLocationDetails;
   /**
   * locator_led block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#locator_led DataIntersightComputeBlade#locator_led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#locator_led DataIntersightComputeBlade#locator_led}
   */
   readonly locatorLed?: DataIntersightComputeBladeLocatorLed;
   /**
   * memory_arrays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#memory_arrays DataIntersightComputeBlade#memory_arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#memory_arrays DataIntersightComputeBlade#memory_arrays}
   */
   readonly memoryArrays?: DataIntersightComputeBladeMemoryArrays[] | cdktf.IResolvable;
   /**
   * mgmt_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#mgmt_identity DataIntersightComputeBlade#mgmt_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#mgmt_identity DataIntersightComputeBlade#mgmt_identity}
   */
   readonly mgmtIdentity?: DataIntersightComputeBladeMgmtIdentity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#parent DataIntersightComputeBlade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#parent DataIntersightComputeBlade#parent}
   */
   readonly parent?: DataIntersightComputeBladeParent;
   /**
   * pci_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#pci_devices DataIntersightComputeBlade#pci_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#pci_devices DataIntersightComputeBlade#pci_devices}
   */
   readonly pciDevices?: DataIntersightComputeBladePciDevices[] | cdktf.IResolvable;
   /**
   * pci_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#pci_nodes DataIntersightComputeBlade#pci_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#pci_nodes DataIntersightComputeBlade#pci_nodes}
   */
   readonly pciNodes?: DataIntersightComputeBladePciNodes[] | cdktf.IResolvable;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#permission_resources DataIntersightComputeBlade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#permission_resources DataIntersightComputeBlade#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeBladePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#previous_fru DataIntersightComputeBlade#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#previous_fru DataIntersightComputeBlade#previous_fru}
   */
   readonly previousFru?: DataIntersightComputeBladePreviousFru;
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#processors DataIntersightComputeBlade#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#processors DataIntersightComputeBlade#processors}
   */
   readonly processors?: DataIntersightComputeBladeProcessors[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#registered_device DataIntersightComputeBlade#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#registered_device DataIntersightComputeBlade#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeBladeRegisteredDevice;
   /**
   * storage_controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#storage_controllers DataIntersightComputeBlade#storage_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#storage_controllers DataIntersightComputeBlade#storage_controllers}
   */
   readonly storageControllers?: DataIntersightComputeBladeStorageControllers[] | cdktf.IResolvable;
   /**
   * storage_enclosures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#storage_enclosures DataIntersightComputeBlade#storage_enclosures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#storage_enclosures DataIntersightComputeBlade#storage_enclosures}
   */
   readonly storageEnclosures?: DataIntersightComputeBladeStorageEnclosures[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#tags DataIntersightComputeBlade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#tags DataIntersightComputeBlade#tags}
   */
   readonly tags?: DataIntersightComputeBladeTags[] | cdktf.IResolvable;
   /**
   * top_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#top_system DataIntersightComputeBlade#top_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#top_system DataIntersightComputeBlade#top_system}
   */
   readonly topSystem?: DataIntersightComputeBladeTopSystem;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#version_context DataIntersightComputeBlade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#version_context DataIntersightComputeBlade#version_context}
   */
   readonly versionContext?: DataIntersightComputeBladeVersionContext;
   /**
   * vmedia block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#vmedia DataIntersightComputeBlade#vmedia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#vmedia DataIntersightComputeBlade#vmedia}
   */
   readonly vmedia?: DataIntersightComputeBladeVmedia;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade intersight_compute_blade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade intersight_compute_blade}
 */
 export class DataIntersightComputeBlade extends cdktf.TerraformDataSource {
 
@@ -906,7 +906,7 @@ export class DataIntersightComputeBlade extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightComputeBlade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeBlade to import
-  * @param importFromId The id of the existing DataIntersightComputeBlade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeBlade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeBlade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -918,7 +918,7 @@ export class DataIntersightComputeBlade extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/compute_blade intersight_compute_blade} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade intersight_compute_blade} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -929,8 +929,8 @@ export class DataIntersightComputeBlade extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_compute_blade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

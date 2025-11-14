@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexServiceAuthTokenConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#account_moid DataIntersightHyperflexServiceAuthToken#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#account_moid DataIntersightHyperflexServiceAuthToken#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightHyperflexServiceAuthTokenConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * Client Id or tenant Id of the entity that uses the service auth token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#client_id DataIntersightHyperflexServiceAuthToken#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#client_id DataIntersightHyperflexServiceAuthToken#client_id}
   */
   readonly clientId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#create_time DataIntersightHyperflexServiceAuthToken#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#create_time DataIntersightHyperflexServiceAuthToken#create_time}
   */
   readonly createTime?: string;
   /**
   * Version of Container Storage Interface (CSI) that the tokenOwner is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#csi_version DataIntersightHyperflexServiceAuthToken#csi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#csi_version DataIntersightHyperflexServiceAuthToken#csi_version}
   */
   readonly csiVersion?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#domain_group_moid DataIntersightHyperflexServiceAuthToken#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#domain_group_moid DataIntersightHyperflexServiceAuthToken#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#id DataIntersightHyperflexServiceAuthToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#id DataIntersightHyperflexServiceAuthToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,37 +59,37 @@ export interface DataIntersightHyperflexServiceAuthTokenConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#mod_time DataIntersightHyperflexServiceAuthToken#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#mod_time DataIntersightHyperflexServiceAuthToken#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#owners DataIntersightHyperflexServiceAuthToken#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#owners DataIntersightHyperflexServiceAuthToken#owners}
   */
   readonly owners?: string[];
   /**
   * Service auth token that has been created by HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#service_auth_token DataIntersightHyperflexServiceAuthToken#service_auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#service_auth_token DataIntersightHyperflexServiceAuthToken#service_auth_token}
   */
   readonly serviceAuthToken?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#shared_scope DataIntersightHyperflexServiceAuthToken#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#shared_scope DataIntersightHyperflexServiceAuthToken#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -102,55 +102,55 @@ export interface DataIntersightHyperflexServiceAuthTokenConfig extends cdktf.Ter
   * * `Revoked` - The service auth token revocation has been successfully revoked.
   * * `FailedToRevoke` - Cannot revoke the service auth token on the underlying HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#status DataIntersightHyperflexServiceAuthToken#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#status DataIntersightHyperflexServiceAuthToken#status}
   */
   readonly status?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#ancestors DataIntersightHyperflexServiceAuthToken#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#ancestors DataIntersightHyperflexServiceAuthToken#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexServiceAuthTokenAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#cluster DataIntersightHyperflexServiceAuthToken#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#cluster DataIntersightHyperflexServiceAuthToken#cluster}
   */
   readonly cluster?: DataIntersightHyperflexServiceAuthTokenCluster;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#organization DataIntersightHyperflexServiceAuthToken#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#organization DataIntersightHyperflexServiceAuthToken#organization}
   */
   readonly organization?: DataIntersightHyperflexServiceAuthTokenOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#parent DataIntersightHyperflexServiceAuthToken#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#parent DataIntersightHyperflexServiceAuthToken#parent}
   */
   readonly parent?: DataIntersightHyperflexServiceAuthTokenParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#permission_resources DataIntersightHyperflexServiceAuthToken#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#permission_resources DataIntersightHyperflexServiceAuthToken#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexServiceAuthTokenPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#tags DataIntersightHyperflexServiceAuthToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#tags DataIntersightHyperflexServiceAuthToken#tags}
   */
   readonly tags?: DataIntersightHyperflexServiceAuthTokenTags[] | cdktf.IResolvable;
   /**
   * token_owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#token_owner DataIntersightHyperflexServiceAuthToken#token_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#token_owner DataIntersightHyperflexServiceAuthToken#token_owner}
   */
   readonly tokenOwner?: DataIntersightHyperflexServiceAuthTokenTokenOwner;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#version_context DataIntersightHyperflexServiceAuthToken#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#version_context DataIntersightHyperflexServiceAuthToken#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexServiceAuthTokenVersionContext;
 }
@@ -897,6 +897,11 @@ export class DataIntersightHyperflexServiceAuthTokenResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1518,7 +1523,7 @@ export class DataIntersightHyperflexServiceAuthTokenResultsList extends cdktf.Co
 }
 export interface DataIntersightHyperflexServiceAuthTokenAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1526,19 +1531,19 @@ export interface DataIntersightHyperflexServiceAuthTokenAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1551,7 +1556,7 @@ export interface DataIntersightHyperflexServiceAuthTokenAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -1783,7 +1788,7 @@ export class DataIntersightHyperflexServiceAuthTokenAncestorsList extends cdktf.
 }
 export interface DataIntersightHyperflexServiceAuthTokenCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1791,19 +1796,19 @@ export interface DataIntersightHyperflexServiceAuthTokenCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1816,7 +1821,7 @@ export interface DataIntersightHyperflexServiceAuthTokenCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2016,7 +2021,7 @@ export class DataIntersightHyperflexServiceAuthTokenClusterOutputReference exten
 }
 export interface DataIntersightHyperflexServiceAuthTokenOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2024,19 +2029,19 @@ export interface DataIntersightHyperflexServiceAuthTokenOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2049,7 +2054,7 @@ export interface DataIntersightHyperflexServiceAuthTokenOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2249,7 +2254,7 @@ export class DataIntersightHyperflexServiceAuthTokenOrganizationOutputReference 
 }
 export interface DataIntersightHyperflexServiceAuthTokenParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2257,19 +2262,19 @@ export interface DataIntersightHyperflexServiceAuthTokenParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2282,7 +2287,7 @@ export interface DataIntersightHyperflexServiceAuthTokenParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2482,7 +2487,7 @@ export class DataIntersightHyperflexServiceAuthTokenParentOutputReference extend
 }
 export interface DataIntersightHyperflexServiceAuthTokenPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2490,19 +2495,19 @@ export interface DataIntersightHyperflexServiceAuthTokenPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2515,7 +2520,7 @@ export interface DataIntersightHyperflexServiceAuthTokenPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2747,7 +2752,7 @@ export class DataIntersightHyperflexServiceAuthTokenPermissionResourcesList exte
 }
 export interface DataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2755,19 +2760,19 @@ export interface DataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2780,7 +2785,7 @@ export interface DataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -3012,7 +3017,7 @@ export class DataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitionsList 
 }
 export interface DataIntersightHyperflexServiceAuthTokenTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3020,19 +3025,19 @@ export interface DataIntersightHyperflexServiceAuthTokenTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3045,7 +3050,7 @@ export interface DataIntersightHyperflexServiceAuthTokenTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -3245,45 +3250,51 @@ export class DataIntersightHyperflexServiceAuthTokenTagsDefinitionOutputReferenc
 }
 export interface DataIntersightHyperflexServiceAuthTokenTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#key DataIntersightHyperflexServiceAuthToken#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#key DataIntersightHyperflexServiceAuthToken#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#propagated DataIntersightHyperflexServiceAuthToken#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#propagated DataIntersightHyperflexServiceAuthToken#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#sys_tag DataIntersightHyperflexServiceAuthToken#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#type DataIntersightHyperflexServiceAuthToken#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#type DataIntersightHyperflexServiceAuthToken#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#value DataIntersightHyperflexServiceAuthToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#value DataIntersightHyperflexServiceAuthToken#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#ancestor_definitions DataIntersightHyperflexServiceAuthToken#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#ancestor_definitions DataIntersightHyperflexServiceAuthToken#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#definition DataIntersightHyperflexServiceAuthToken#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#definition DataIntersightHyperflexServiceAuthToken#definition}
   */
   readonly definition?: DataIntersightHyperflexServiceAuthTokenTagsDefinition;
 }
@@ -3297,6 +3308,7 @@ export function dataIntersightHyperflexServiceAuthTokenTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexServiceAuthTokenTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3325,6 +3337,12 @@ export function dataIntersightHyperflexServiceAuthTokenTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3391,6 +3409,10 @@ export class DataIntersightHyperflexServiceAuthTokenTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3417,6 +3439,7 @@ export class DataIntersightHyperflexServiceAuthTokenTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3432,6 +3455,7 @@ export class DataIntersightHyperflexServiceAuthTokenTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3485,6 +3509,22 @@ export class DataIntersightHyperflexServiceAuthTokenTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3573,7 +3613,7 @@ export class DataIntersightHyperflexServiceAuthTokenTagsList extends cdktf.Compl
 }
 export interface DataIntersightHyperflexServiceAuthTokenTokenOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3581,19 +3621,19 @@ export interface DataIntersightHyperflexServiceAuthTokenTokenOwner {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3606,7 +3646,7 @@ export interface DataIntersightHyperflexServiceAuthTokenTokenOwner {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -3806,7 +3846,7 @@ export class DataIntersightHyperflexServiceAuthTokenTokenOwnerOutputReference ex
 }
 export interface DataIntersightHyperflexServiceAuthTokenVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3814,19 +3854,19 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3839,7 +3879,7 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -4071,7 +4111,7 @@ export class DataIntersightHyperflexServiceAuthTokenVersionContextInterestedMosL
 }
 export interface DataIntersightHyperflexServiceAuthTokenVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4079,19 +4119,19 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#moid DataIntersightHyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4104,7 +4144,7 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#selector DataIntersightHyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -4304,7 +4344,7 @@ export class DataIntersightHyperflexServiceAuthTokenVersionContextRefMoOutputRef
 }
 export interface DataIntersightHyperflexServiceAuthTokenVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#additional_properties DataIntersightHyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4312,32 +4352,32 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#class_id DataIntersightHyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#marked_for_deletion DataIntersightHyperflexServiceAuthToken#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#marked_for_deletion DataIntersightHyperflexServiceAuthToken#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#nr_version DataIntersightHyperflexServiceAuthToken#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#nr_version DataIntersightHyperflexServiceAuthToken#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#object_type DataIntersightHyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#timestamp DataIntersightHyperflexServiceAuthToken#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#timestamp DataIntersightHyperflexServiceAuthToken#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4348,19 +4388,19 @@ export interface DataIntersightHyperflexServiceAuthTokenVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#version_type DataIntersightHyperflexServiceAuthToken#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#version_type DataIntersightHyperflexServiceAuthToken#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#interested_mos DataIntersightHyperflexServiceAuthToken#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#interested_mos DataIntersightHyperflexServiceAuthToken#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexServiceAuthTokenVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#ref_mo DataIntersightHyperflexServiceAuthToken#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#ref_mo DataIntersightHyperflexServiceAuthToken#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexServiceAuthTokenVersionContextRefMo;
 }
@@ -4676,7 +4716,7 @@ export class DataIntersightHyperflexServiceAuthTokenVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token}
 */
 export class DataIntersightHyperflexServiceAuthToken extends cdktf.TerraformDataSource {
 
@@ -4692,7 +4732,7 @@ export class DataIntersightHyperflexServiceAuthToken extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightHyperflexServiceAuthToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexServiceAuthToken to import
-  * @param importFromId The id of the existing DataIntersightHyperflexServiceAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexServiceAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexServiceAuthToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4704,7 +4744,7 @@ export class DataIntersightHyperflexServiceAuthToken extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4715,8 +4755,8 @@ export class DataIntersightHyperflexServiceAuthToken extends cdktf.TerraformData
       terraformResourceType: 'intersight_hyperflex_service_auth_token',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

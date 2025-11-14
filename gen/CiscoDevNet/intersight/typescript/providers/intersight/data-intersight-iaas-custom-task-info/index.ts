@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIaasCustomTaskInfoConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#account_moid DataIntersightIaasCustomTaskInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#account_moid DataIntersightIaasCustomTaskInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIaasCustomTaskInfoConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#create_time DataIntersightIaasCustomTaskInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#create_time DataIntersightIaasCustomTaskInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#domain_group_moid DataIntersightIaasCustomTaskInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#domain_group_moid DataIntersightIaasCustomTaskInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#id DataIntersightIaasCustomTaskInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#id DataIntersightIaasCustomTaskInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightIaasCustomTaskInfoConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#mod_time DataIntersightIaasCustomTaskInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#mod_time DataIntersightIaasCustomTaskInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#owners DataIntersightIaasCustomTaskInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#owners DataIntersightIaasCustomTaskInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#shared_scope DataIntersightIaasCustomTaskInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#shared_scope DataIntersightIaasCustomTaskInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Task decription or Comment of the Custom task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#task_description DataIntersightIaasCustomTaskInfo#task_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#task_description DataIntersightIaasCustomTaskInfo#task_description}
   */
   readonly taskDescription?: string;
   /**
   * Number of times this task has executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#task_execution_count DataIntersightIaasCustomTaskInfo#task_execution_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#task_execution_count DataIntersightIaasCustomTaskInfo#task_execution_count}
   */
   readonly taskExecutionCount?: number;
   /**
   * Task Label in the Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#task_label DataIntersightIaasCustomTaskInfo#task_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#task_label DataIntersightIaasCustomTaskInfo#task_label}
   */
   readonly taskLabel?: string;
   /**
   * Name of the Custom Task in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#task_name DataIntersightIaasCustomTaskInfo#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#task_name DataIntersightIaasCustomTaskInfo#task_name}
   */
   readonly taskName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#ancestors DataIntersightIaasCustomTaskInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#ancestors DataIntersightIaasCustomTaskInfo#ancestors}
   */
   readonly ancestors?: DataIntersightIaasCustomTaskInfoAncestors[] | cdktf.IResolvable;
   /**
   * guid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#guid DataIntersightIaasCustomTaskInfo#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#guid DataIntersightIaasCustomTaskInfo#guid}
   */
   readonly guid?: DataIntersightIaasCustomTaskInfoGuid;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#parent DataIntersightIaasCustomTaskInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#parent DataIntersightIaasCustomTaskInfo#parent}
   */
   readonly parent?: DataIntersightIaasCustomTaskInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#permission_resources DataIntersightIaasCustomTaskInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#permission_resources DataIntersightIaasCustomTaskInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightIaasCustomTaskInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#tags DataIntersightIaasCustomTaskInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#tags DataIntersightIaasCustomTaskInfo#tags}
   */
   readonly tags?: DataIntersightIaasCustomTaskInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#version_context DataIntersightIaasCustomTaskInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#version_context DataIntersightIaasCustomTaskInfo#version_context}
   */
   readonly versionContext?: DataIntersightIaasCustomTaskInfoVersionContext;
 }
@@ -783,6 +783,11 @@ export class DataIntersightIaasCustomTaskInfoResultsTagsOutputReference extends 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1297,7 +1302,7 @@ export class DataIntersightIaasCustomTaskInfoResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightIaasCustomTaskInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1305,19 +1310,19 @@ export interface DataIntersightIaasCustomTaskInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1330,7 +1335,7 @@ export interface DataIntersightIaasCustomTaskInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1562,7 +1567,7 @@ export class DataIntersightIaasCustomTaskInfoAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightIaasCustomTaskInfoGuid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1570,19 +1575,19 @@ export interface DataIntersightIaasCustomTaskInfoGuid {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1595,7 +1600,7 @@ export interface DataIntersightIaasCustomTaskInfoGuid {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1795,7 +1800,7 @@ export class DataIntersightIaasCustomTaskInfoGuidOutputReference extends cdktf.C
 }
 export interface DataIntersightIaasCustomTaskInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1803,19 +1808,19 @@ export interface DataIntersightIaasCustomTaskInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1828,7 +1833,7 @@ export interface DataIntersightIaasCustomTaskInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2028,7 +2033,7 @@ export class DataIntersightIaasCustomTaskInfoParentOutputReference extends cdktf
 }
 export interface DataIntersightIaasCustomTaskInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2036,19 +2041,19 @@ export interface DataIntersightIaasCustomTaskInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2061,7 +2066,7 @@ export interface DataIntersightIaasCustomTaskInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2293,7 +2298,7 @@ export class DataIntersightIaasCustomTaskInfoPermissionResourcesList extends cdk
 }
 export interface DataIntersightIaasCustomTaskInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2301,19 +2306,19 @@ export interface DataIntersightIaasCustomTaskInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2326,7 +2331,7 @@ export interface DataIntersightIaasCustomTaskInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2558,7 +2563,7 @@ export class DataIntersightIaasCustomTaskInfoTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightIaasCustomTaskInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2566,19 +2571,19 @@ export interface DataIntersightIaasCustomTaskInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2591,7 +2596,7 @@ export interface DataIntersightIaasCustomTaskInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2791,45 +2796,51 @@ export class DataIntersightIaasCustomTaskInfoTagsDefinitionOutputReference exten
 }
 export interface DataIntersightIaasCustomTaskInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#key DataIntersightIaasCustomTaskInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#key DataIntersightIaasCustomTaskInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#propagated DataIntersightIaasCustomTaskInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#propagated DataIntersightIaasCustomTaskInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#sys_tag DataIntersightIaasCustomTaskInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#type DataIntersightIaasCustomTaskInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#type DataIntersightIaasCustomTaskInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#value DataIntersightIaasCustomTaskInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#value DataIntersightIaasCustomTaskInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#ancestor_definitions DataIntersightIaasCustomTaskInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#ancestor_definitions DataIntersightIaasCustomTaskInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIaasCustomTaskInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#definition DataIntersightIaasCustomTaskInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#definition DataIntersightIaasCustomTaskInfo#definition}
   */
   readonly definition?: DataIntersightIaasCustomTaskInfoTagsDefinition;
 }
@@ -2843,6 +2854,7 @@ export function dataIntersightIaasCustomTaskInfoTagsToTerraform(struct?: DataInt
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIaasCustomTaskInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2871,6 +2883,12 @@ export function dataIntersightIaasCustomTaskInfoTagsToHclTerraform(struct?: Data
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2937,6 +2955,10 @@ export class DataIntersightIaasCustomTaskInfoTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2963,6 +2985,7 @@ export class DataIntersightIaasCustomTaskInfoTagsOutputReference extends cdktf.C
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2978,6 +3001,7 @@ export class DataIntersightIaasCustomTaskInfoTagsOutputReference extends cdktf.C
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3031,6 +3055,22 @@ export class DataIntersightIaasCustomTaskInfoTagsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3119,7 +3159,7 @@ export class DataIntersightIaasCustomTaskInfoTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightIaasCustomTaskInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3127,19 +3167,19 @@ export interface DataIntersightIaasCustomTaskInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3152,7 +3192,7 @@ export interface DataIntersightIaasCustomTaskInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3384,7 +3424,7 @@ export class DataIntersightIaasCustomTaskInfoVersionContextInterestedMosList ext
 }
 export interface DataIntersightIaasCustomTaskInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3392,19 +3432,19 @@ export interface DataIntersightIaasCustomTaskInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#moid DataIntersightIaasCustomTaskInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3417,7 +3457,7 @@ export interface DataIntersightIaasCustomTaskInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#selector DataIntersightIaasCustomTaskInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3617,7 +3657,7 @@ export class DataIntersightIaasCustomTaskInfoVersionContextRefMoOutputReference 
 }
 export interface DataIntersightIaasCustomTaskInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#additional_properties DataIntersightIaasCustomTaskInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3625,32 +3665,32 @@ export interface DataIntersightIaasCustomTaskInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#class_id DataIntersightIaasCustomTaskInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#marked_for_deletion DataIntersightIaasCustomTaskInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#marked_for_deletion DataIntersightIaasCustomTaskInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#nr_version DataIntersightIaasCustomTaskInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#nr_version DataIntersightIaasCustomTaskInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#object_type DataIntersightIaasCustomTaskInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#timestamp DataIntersightIaasCustomTaskInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#timestamp DataIntersightIaasCustomTaskInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3661,19 +3701,19 @@ export interface DataIntersightIaasCustomTaskInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#version_type DataIntersightIaasCustomTaskInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#version_type DataIntersightIaasCustomTaskInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#interested_mos DataIntersightIaasCustomTaskInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#interested_mos DataIntersightIaasCustomTaskInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightIaasCustomTaskInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#ref_mo DataIntersightIaasCustomTaskInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#ref_mo DataIntersightIaasCustomTaskInfo#ref_mo}
   */
   readonly refMo?: DataIntersightIaasCustomTaskInfoVersionContextRefMo;
 }
@@ -3989,7 +4029,7 @@ export class DataIntersightIaasCustomTaskInfoVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info intersight_iaas_custom_task_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info intersight_iaas_custom_task_info}
 */
 export class DataIntersightIaasCustomTaskInfo extends cdktf.TerraformDataSource {
 
@@ -4005,7 +4045,7 @@ export class DataIntersightIaasCustomTaskInfo extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightIaasCustomTaskInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIaasCustomTaskInfo to import
-  * @param importFromId The id of the existing DataIntersightIaasCustomTaskInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIaasCustomTaskInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIaasCustomTaskInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4017,7 +4057,7 @@ export class DataIntersightIaasCustomTaskInfo extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iaas_custom_task_info intersight_iaas_custom_task_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_custom_task_info intersight_iaas_custom_task_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4028,8 +4068,8 @@ export class DataIntersightIaasCustomTaskInfo extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_iaas_custom_task_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

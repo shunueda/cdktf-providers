@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCapacityManagementOccmDemandSignalsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#compartment_id DataOciCapacityManagementOccmDemandSignals#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#compartment_id DataOciCapacityManagementOccmDemandSignals#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#display_name DataOciCapacityManagementOccmDemandSignals#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#display_name DataOciCapacityManagementOccmDemandSignals#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#id DataOciCapacityManagementOccmDemandSignals#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#id DataOciCapacityManagementOccmDemandSignals#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#lifecycle_details DataOciCapacityManagementOccmDemandSignals#lifecycle_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#lifecycle_details DataOciCapacityManagementOccmDemandSignals#lifecycle_details}
   */
   readonly lifecycleDetails?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#filter DataOciCapacityManagementOccmDemandSignals#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#filter DataOciCapacityManagementOccmDemandSignals#filter}
   */
   readonly filter?: DataOciCapacityManagementOccmDemandSignalsFilter[] | cdktf.IResolvable;
 }
@@ -239,15 +239,15 @@ export class DataOciCapacityManagementOccmDemandSignalsOccmDemandSignalCollectio
 }
 export interface DataOciCapacityManagementOccmDemandSignalsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#name DataOciCapacityManagementOccmDemandSignals#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#name DataOciCapacityManagementOccmDemandSignals#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#regex DataOciCapacityManagementOccmDemandSignals#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#regex DataOciCapacityManagementOccmDemandSignals#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#values DataOciCapacityManagementOccmDemandSignals#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#values DataOciCapacityManagementOccmDemandSignals#values}
   */
   readonly values: string[];
 }
@@ -415,7 +415,7 @@ export class DataOciCapacityManagementOccmDemandSignalsFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals oci_capacity_management_occm_demand_signals}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals oci_capacity_management_occm_demand_signals}
 */
 export class DataOciCapacityManagementOccmDemandSignals extends cdktf.TerraformDataSource {
 
@@ -431,7 +431,7 @@ export class DataOciCapacityManagementOccmDemandSignals extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciCapacityManagementOccmDemandSignals resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCapacityManagementOccmDemandSignals to import
-  * @param importFromId The id of the existing DataOciCapacityManagementOccmDemandSignals that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCapacityManagementOccmDemandSignals that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCapacityManagementOccmDemandSignals to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class DataOciCapacityManagementOccmDemandSignals extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_occm_demand_signals oci_capacity_management_occm_demand_signals} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_occm_demand_signals oci_capacity_management_occm_demand_signals} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class DataOciCapacityManagementOccmDemandSignals extends cdktf.TerraformD
       terraformResourceType: 'oci_capacity_management_occm_demand_signals',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

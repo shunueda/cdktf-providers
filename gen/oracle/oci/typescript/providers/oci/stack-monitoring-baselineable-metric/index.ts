@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface StackMonitoringBaselineableMetricConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}
   */
   readonly column: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}
   */
   readonly resourceType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
   */
   readonly timeouts?: StackMonitoringBaselineableMetricTimeouts;
 }
 export interface StackMonitoringBaselineableMetricTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#create StackMonitoringBaselineableMetric#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#create StackMonitoringBaselineableMetric#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#delete StackMonitoringBaselineableMetric#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#delete StackMonitoringBaselineableMetric#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#update StackMonitoringBaselineableMetric#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#update StackMonitoringBaselineableMetric#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class StackMonitoringBaselineableMetricTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric oci_stack_monitoring_baselineable_metric}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric oci_stack_monitoring_baselineable_metric}
 */
 export class StackMonitoringBaselineableMetric extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class StackMonitoringBaselineableMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StackMonitoringBaselineableMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackMonitoringBaselineableMetric to import
-  * @param importFromId The id of the existing StackMonitoringBaselineableMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackMonitoringBaselineableMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackMonitoringBaselineableMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class StackMonitoringBaselineableMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/stack_monitoring_baselineable_metric oci_stack_monitoring_baselineable_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/stack_monitoring_baselineable_metric oci_stack_monitoring_baselineable_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class StackMonitoringBaselineableMetric extends cdktf.TerraformResource {
       terraformResourceType: 'oci_stack_monitoring_baselineable_metric',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

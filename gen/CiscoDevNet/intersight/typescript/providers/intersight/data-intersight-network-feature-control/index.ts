@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightNetworkFeatureControlConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#account_moid DataIntersightNetworkFeatureControl#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#account_moid DataIntersightNetworkFeatureControl#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The admin state of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#admin_state DataIntersightNetworkFeatureControl#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#admin_state DataIntersightNetworkFeatureControl#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightNetworkFeatureControlConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#create_time DataIntersightNetworkFeatureControl#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#create_time DataIntersightNetworkFeatureControl#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#device_mo_id DataIntersightNetworkFeatureControl#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#device_mo_id DataIntersightNetworkFeatureControl#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#dn DataIntersightNetworkFeatureControl#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#dn DataIntersightNetworkFeatureControl#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#domain_group_moid DataIntersightNetworkFeatureControl#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#domain_group_moid DataIntersightNetworkFeatureControl#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#id DataIntersightNetworkFeatureControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#id DataIntersightNetworkFeatureControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,103 +65,103 @@ export interface DataIntersightNetworkFeatureControlConfig extends cdktf.Terrafo
   /**
   * The number of instances of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#instance DataIntersightNetworkFeatureControl#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#instance DataIntersightNetworkFeatureControl#instance}
   */
   readonly instance?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#mod_time DataIntersightNetworkFeatureControl#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#mod_time DataIntersightNetworkFeatureControl#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The name to identify the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#name DataIntersightNetworkFeatureControl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#name DataIntersightNetworkFeatureControl#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
   * The operational state of the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#operational_state DataIntersightNetworkFeatureControl#operational_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#operational_state DataIntersightNetworkFeatureControl#operational_state}
   */
   readonly operationalState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#owners DataIntersightNetworkFeatureControl#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#owners DataIntersightNetworkFeatureControl#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#rn DataIntersightNetworkFeatureControl#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#rn DataIntersightNetworkFeatureControl#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#shared_scope DataIntersightNetworkFeatureControl#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#shared_scope DataIntersightNetworkFeatureControl#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The status message to capture admin state detailed information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#status_msg DataIntersightNetworkFeatureControl#status_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#status_msg DataIntersightNetworkFeatureControl#status_msg}
   */
   readonly statusMsg?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#ancestors DataIntersightNetworkFeatureControl#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#ancestors DataIntersightNetworkFeatureControl#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkFeatureControlAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#network_element DataIntersightNetworkFeatureControl#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#network_element DataIntersightNetworkFeatureControl#network_element}
   */
   readonly networkElement?: DataIntersightNetworkFeatureControlNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#parent DataIntersightNetworkFeatureControl#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#parent DataIntersightNetworkFeatureControl#parent}
   */
   readonly parent?: DataIntersightNetworkFeatureControlParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#permission_resources DataIntersightNetworkFeatureControl#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#permission_resources DataIntersightNetworkFeatureControl#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkFeatureControlPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#registered_device DataIntersightNetworkFeatureControl#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#registered_device DataIntersightNetworkFeatureControl#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkFeatureControlRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#tags DataIntersightNetworkFeatureControl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#tags DataIntersightNetworkFeatureControl#tags}
   */
   readonly tags?: DataIntersightNetworkFeatureControlTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#version_context DataIntersightNetworkFeatureControl#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#version_context DataIntersightNetworkFeatureControl#version_context}
   */
   readonly versionContext?: DataIntersightNetworkFeatureControlVersionContext;
 }
@@ -908,6 +908,11 @@ export class DataIntersightNetworkFeatureControlResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1448,7 +1453,7 @@ export class DataIntersightNetworkFeatureControlResultsList extends cdktf.Comple
 }
 export interface DataIntersightNetworkFeatureControlAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1456,19 +1461,19 @@ export interface DataIntersightNetworkFeatureControlAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1481,7 +1486,7 @@ export interface DataIntersightNetworkFeatureControlAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -1713,7 +1718,7 @@ export class DataIntersightNetworkFeatureControlAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightNetworkFeatureControlNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1721,19 +1726,19 @@ export interface DataIntersightNetworkFeatureControlNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1746,7 +1751,7 @@ export interface DataIntersightNetworkFeatureControlNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -1946,7 +1951,7 @@ export class DataIntersightNetworkFeatureControlNetworkElementOutputReference ex
 }
 export interface DataIntersightNetworkFeatureControlParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1954,19 +1959,19 @@ export interface DataIntersightNetworkFeatureControlParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1979,7 +1984,7 @@ export interface DataIntersightNetworkFeatureControlParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -2179,7 +2184,7 @@ export class DataIntersightNetworkFeatureControlParentOutputReference extends cd
 }
 export interface DataIntersightNetworkFeatureControlPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2187,19 +2192,19 @@ export interface DataIntersightNetworkFeatureControlPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2212,7 +2217,7 @@ export interface DataIntersightNetworkFeatureControlPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -2444,7 +2449,7 @@ export class DataIntersightNetworkFeatureControlPermissionResourcesList extends 
 }
 export interface DataIntersightNetworkFeatureControlRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2452,19 +2457,19 @@ export interface DataIntersightNetworkFeatureControlRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2477,7 +2482,7 @@ export interface DataIntersightNetworkFeatureControlRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -2677,7 +2682,7 @@ export class DataIntersightNetworkFeatureControlRegisteredDeviceOutputReference 
 }
 export interface DataIntersightNetworkFeatureControlTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2685,19 +2690,19 @@ export interface DataIntersightNetworkFeatureControlTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2710,7 +2715,7 @@ export interface DataIntersightNetworkFeatureControlTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -2942,7 +2947,7 @@ export class DataIntersightNetworkFeatureControlTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightNetworkFeatureControlTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2950,19 +2955,19 @@ export interface DataIntersightNetworkFeatureControlTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2975,7 +2980,7 @@ export interface DataIntersightNetworkFeatureControlTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -3175,45 +3180,51 @@ export class DataIntersightNetworkFeatureControlTagsDefinitionOutputReference ex
 }
 export interface DataIntersightNetworkFeatureControlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#key DataIntersightNetworkFeatureControl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#key DataIntersightNetworkFeatureControl#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#propagated DataIntersightNetworkFeatureControl#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#propagated DataIntersightNetworkFeatureControl#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#sys_tag DataIntersightNetworkFeatureControl#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#type DataIntersightNetworkFeatureControl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#type DataIntersightNetworkFeatureControl#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#value DataIntersightNetworkFeatureControl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#value DataIntersightNetworkFeatureControl#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#ancestor_definitions DataIntersightNetworkFeatureControl#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#ancestor_definitions DataIntersightNetworkFeatureControl#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkFeatureControlTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#definition DataIntersightNetworkFeatureControl#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#definition DataIntersightNetworkFeatureControl#definition}
   */
   readonly definition?: DataIntersightNetworkFeatureControlTagsDefinition;
 }
@@ -3227,6 +3238,7 @@ export function dataIntersightNetworkFeatureControlTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkFeatureControlTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3255,6 +3267,12 @@ export function dataIntersightNetworkFeatureControlTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3321,6 +3339,10 @@ export class DataIntersightNetworkFeatureControlTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3347,6 +3369,7 @@ export class DataIntersightNetworkFeatureControlTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3362,6 +3385,7 @@ export class DataIntersightNetworkFeatureControlTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3415,6 +3439,22 @@ export class DataIntersightNetworkFeatureControlTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3503,7 +3543,7 @@ export class DataIntersightNetworkFeatureControlTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNetworkFeatureControlVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3511,19 +3551,19 @@ export interface DataIntersightNetworkFeatureControlVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3536,7 +3576,7 @@ export interface DataIntersightNetworkFeatureControlVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -3768,7 +3808,7 @@ export class DataIntersightNetworkFeatureControlVersionContextInterestedMosList 
 }
 export interface DataIntersightNetworkFeatureControlVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3776,19 +3816,19 @@ export interface DataIntersightNetworkFeatureControlVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#moid DataIntersightNetworkFeatureControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3801,7 +3841,7 @@ export interface DataIntersightNetworkFeatureControlVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#selector DataIntersightNetworkFeatureControl#selector}
   */
   readonly selector?: string;
 }
@@ -4001,7 +4041,7 @@ export class DataIntersightNetworkFeatureControlVersionContextRefMoOutputReferen
 }
 export interface DataIntersightNetworkFeatureControlVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#additional_properties DataIntersightNetworkFeatureControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4009,32 +4049,32 @@ export interface DataIntersightNetworkFeatureControlVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#class_id DataIntersightNetworkFeatureControl#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#marked_for_deletion DataIntersightNetworkFeatureControl#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#marked_for_deletion DataIntersightNetworkFeatureControl#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#nr_version DataIntersightNetworkFeatureControl#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#nr_version DataIntersightNetworkFeatureControl#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#object_type DataIntersightNetworkFeatureControl#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#timestamp DataIntersightNetworkFeatureControl#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#timestamp DataIntersightNetworkFeatureControl#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4045,19 +4085,19 @@ export interface DataIntersightNetworkFeatureControlVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#version_type DataIntersightNetworkFeatureControl#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#version_type DataIntersightNetworkFeatureControl#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#interested_mos DataIntersightNetworkFeatureControl#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#interested_mos DataIntersightNetworkFeatureControl#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkFeatureControlVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#ref_mo DataIntersightNetworkFeatureControl#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#ref_mo DataIntersightNetworkFeatureControl#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkFeatureControlVersionContextRefMo;
 }
@@ -4373,7 +4413,7 @@ export class DataIntersightNetworkFeatureControlVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control intersight_network_feature_control}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control intersight_network_feature_control}
 */
 export class DataIntersightNetworkFeatureControl extends cdktf.TerraformDataSource {
 
@@ -4389,7 +4429,7 @@ export class DataIntersightNetworkFeatureControl extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightNetworkFeatureControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkFeatureControl to import
-  * @param importFromId The id of the existing DataIntersightNetworkFeatureControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkFeatureControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkFeatureControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4401,7 +4441,7 @@ export class DataIntersightNetworkFeatureControl extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/network_feature_control intersight_network_feature_control} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_feature_control intersight_network_feature_control} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4412,8 +4452,8 @@ export class DataIntersightNetworkFeatureControl extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_network_feature_control',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMonitoringMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#compartment_id DataOciMonitoringMetrics#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#compartment_id DataOciMonitoringMetrics#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#compartment_id_in_subtree DataOciMonitoringMetrics#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#compartment_id_in_subtree DataOciMonitoringMetrics#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#dimension_filters DataOciMonitoringMetrics#dimension_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#dimension_filters DataOciMonitoringMetrics#dimension_filters}
   */
   readonly dimensionFilters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#group_by DataOciMonitoringMetrics#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#group_by DataOciMonitoringMetrics#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#id DataOciMonitoringMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#id DataOciMonitoringMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#namespace DataOciMonitoringMetrics#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#namespace DataOciMonitoringMetrics#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#resource_group DataOciMonitoringMetrics#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#resource_group DataOciMonitoringMetrics#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#filter DataOciMonitoringMetrics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#filter DataOciMonitoringMetrics#filter}
   */
   readonly filter?: DataOciMonitoringMetricsFilter[] | cdktf.IResolvable;
 }
@@ -163,15 +163,15 @@ export class DataOciMonitoringMetricsMetricsList extends cdktf.ComplexList {
 }
 export interface DataOciMonitoringMetricsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#regex DataOciMonitoringMetrics#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#regex DataOciMonitoringMetrics#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#values DataOciMonitoringMetrics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#values DataOciMonitoringMetrics#values}
   */
   readonly values: string[];
 }
@@ -339,7 +339,7 @@ export class DataOciMonitoringMetricsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics oci_monitoring_metrics}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics oci_monitoring_metrics}
 */
 export class DataOciMonitoringMetrics extends cdktf.TerraformDataSource {
 
@@ -355,7 +355,7 @@ export class DataOciMonitoringMetrics extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMonitoringMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMonitoringMetrics to import
-  * @param importFromId The id of the existing DataOciMonitoringMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMonitoringMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMonitoringMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +367,7 @@ export class DataOciMonitoringMetrics extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/monitoring_metrics oci_monitoring_metrics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/monitoring_metrics oci_monitoring_metrics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +378,8 @@ export class DataOciMonitoringMetrics extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_monitoring_metrics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

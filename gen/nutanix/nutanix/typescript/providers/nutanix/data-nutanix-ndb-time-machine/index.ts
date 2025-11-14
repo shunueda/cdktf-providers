@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixNdbTimeMachineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#time_machine_id DataNutanixNdbTimeMachine#time_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#time_machine_id DataNutanixNdbTimeMachine#time_machine_id}
   */
   readonly timeMachineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#time_machine_name DataNutanixNdbTimeMachine#time_machine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#time_machine_name DataNutanixNdbTimeMachine#time_machine_name}
   */
   readonly timeMachineName?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#tags DataNutanixNdbTimeMachine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#tags DataNutanixNdbTimeMachine#tags}
   */
   readonly tags?: DataNutanixNdbTimeMachineTags[] | cdktf.IResolvable;
 }
@@ -1041,15 +1041,15 @@ export class DataNutanixNdbTimeMachineSlaList extends cdktf.ComplexList {
 }
 export interface DataNutanixNdbTimeMachineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#tag_id DataNutanixNdbTimeMachine#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#tag_id DataNutanixNdbTimeMachine#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#tag_name DataNutanixNdbTimeMachine#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#tag_name DataNutanixNdbTimeMachine#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#value DataNutanixNdbTimeMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#value DataNutanixNdbTimeMachine#value}
   */
   readonly value?: string;
 }
@@ -1233,7 +1233,7 @@ export class DataNutanixNdbTimeMachineTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine nutanix_ndb_time_machine}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine nutanix_ndb_time_machine}
 */
 export class DataNutanixNdbTimeMachine extends cdktf.TerraformDataSource {
 
@@ -1249,7 +1249,7 @@ export class DataNutanixNdbTimeMachine extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixNdbTimeMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixNdbTimeMachine to import
-  * @param importFromId The id of the existing DataNutanixNdbTimeMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixNdbTimeMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixNdbTimeMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1261,7 +1261,7 @@ export class DataNutanixNdbTimeMachine extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_time_machine nutanix_ndb_time_machine} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_time_machine nutanix_ndb_time_machine} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1272,8 +1272,8 @@ export class DataNutanixNdbTimeMachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_ndb_time_machine',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

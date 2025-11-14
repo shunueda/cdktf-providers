@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,154 +8,154 @@ import * as cdktf from 'cdktf';
 
 export interface NdbCloneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#clustered NdbClone#clustered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#clustered NdbClone#clustered}
   */
   readonly clustered?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#compute_profile_id NdbClone#compute_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#compute_profile_id NdbClone#compute_profile_id}
   */
   readonly computeProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#create_dbserver NdbClone#create_dbserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#create_dbserver NdbClone#create_dbserver}
   */
   readonly createDbserver?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#database_parameter_profile_id NdbClone#database_parameter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#database_parameter_profile_id NdbClone#database_parameter_profile_id}
   */
   readonly databaseParameterProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#dbserver_cluster_id NdbClone#dbserver_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#dbserver_cluster_id NdbClone#dbserver_cluster_id}
   */
   readonly dbserverClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#dbserver_id NdbClone#dbserver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#dbserver_id NdbClone#dbserver_id}
   */
   readonly dbserverId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#dbserver_logical_cluster_id NdbClone#dbserver_logical_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#dbserver_logical_cluster_id NdbClone#dbserver_logical_cluster_id}
   */
   readonly dbserverLogicalClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#delete NdbClone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#delete NdbClone#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#delete_logical_cluster NdbClone#delete_logical_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#delete_logical_cluster NdbClone#delete_logical_cluster}
   */
   readonly deleteLogicalCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#delete_time_machine NdbClone#delete_time_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#delete_time_machine NdbClone#delete_time_machine}
   */
   readonly deleteTimeMachine?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#description NdbClone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#description NdbClone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#forced NdbClone#forced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#forced NdbClone#forced}
   */
   readonly forced?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#id NdbClone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#id NdbClone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#latest_snapshot NdbClone#latest_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#latest_snapshot NdbClone#latest_snapshot}
   */
   readonly latestSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#name NdbClone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#name NdbClone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#network_profile_id NdbClone#network_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#network_profile_id NdbClone#network_profile_id}
   */
   readonly networkProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#node_count NdbClone#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#node_count NdbClone#node_count}
   */
   readonly nodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#nx_cluster_id NdbClone#nx_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#nx_cluster_id NdbClone#nx_cluster_id}
   */
   readonly nxClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#remove NdbClone#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#remove NdbClone#remove}
   */
   readonly remove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#remove_logical_cluster NdbClone#remove_logical_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#remove_logical_cluster NdbClone#remove_logical_cluster}
   */
   readonly removeLogicalCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#snapshot_id NdbClone#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#snapshot_id NdbClone#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#soft_remove NdbClone#soft_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#soft_remove NdbClone#soft_remove}
   */
   readonly softRemove?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#ssh_public_key NdbClone#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#ssh_public_key NdbClone#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#time_machine_id NdbClone#time_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#time_machine_id NdbClone#time_machine_id}
   */
   readonly timeMachineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#time_machine_name NdbClone#time_machine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#time_machine_name NdbClone#time_machine_name}
   */
   readonly timeMachineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#time_zone NdbClone#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#time_zone NdbClone#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#user_pitr_timestamp NdbClone#user_pitr_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#user_pitr_timestamp NdbClone#user_pitr_timestamp}
   */
   readonly userPitrTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#vm_password NdbClone#vm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#vm_password NdbClone#vm_password}
   */
   readonly vmPassword?: string;
   /**
   * actionarguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#actionarguments NdbClone#actionarguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#actionarguments NdbClone#actionarguments}
   */
   readonly actionarguments?: NdbCloneActionarguments[] | cdktf.IResolvable;
   /**
   * lcm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#lcm_config NdbClone#lcm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#lcm_config NdbClone#lcm_config}
   */
   readonly lcmConfig?: NdbCloneLcmConfig[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#nodes NdbClone#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#nodes NdbClone#nodes}
   */
   readonly nodes: NdbCloneNodes[] | cdktf.IResolvable;
   /**
   * postgresql_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#postgresql_info NdbClone#postgresql_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#postgresql_info NdbClone#postgresql_info}
   */
   readonly postgresqlInfo?: NdbClonePostgresqlInfo[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#tags NdbClone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#tags NdbClone#tags}
   */
   readonly tags?: NdbCloneTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#timeouts NdbClone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#timeouts NdbClone#timeouts}
   */
   readonly timeouts?: NdbCloneTimeouts;
 }
@@ -3138,11 +3138,11 @@ export class NdbCloneTimeMachineList extends cdktf.ComplexList {
 }
 export interface NdbCloneActionarguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#name NdbClone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#name NdbClone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#value NdbClone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#value NdbClone#value}
   */
   readonly value: string;
 }
@@ -3281,15 +3281,15 @@ export class NdbCloneActionargumentsList extends cdktf.ComplexList {
 }
 export interface NdbCloneLcmConfigDatabaseLcmConfigExpiryDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#delete_database NdbClone#delete_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#delete_database NdbClone#delete_database}
   */
   readonly deleteDatabase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#expire_in_days NdbClone#expire_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#expire_in_days NdbClone#expire_in_days}
   */
   readonly expireInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#expiry_date_timezone NdbClone#expiry_date_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#expiry_date_timezone NdbClone#expiry_date_timezone}
   */
   readonly expiryDateTimezone: string;
 }
@@ -3460,15 +3460,15 @@ export class NdbCloneLcmConfigDatabaseLcmConfigExpiryDetailsList extends cdktf.C
 }
 export interface NdbCloneLcmConfigDatabaseLcmConfigRefreshDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#refresh_date_timezone NdbClone#refresh_date_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#refresh_date_timezone NdbClone#refresh_date_timezone}
   */
   readonly refreshDateTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#refresh_in_days NdbClone#refresh_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#refresh_in_days NdbClone#refresh_in_days}
   */
   readonly refreshInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#refresh_time NdbClone#refresh_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#refresh_time NdbClone#refresh_time}
   */
   readonly refreshTime?: string;
 }
@@ -3644,13 +3644,13 @@ export interface NdbCloneLcmConfigDatabaseLcmConfig {
   /**
   * expiry_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#expiry_details NdbClone#expiry_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#expiry_details NdbClone#expiry_details}
   */
   readonly expiryDetails?: NdbCloneLcmConfigDatabaseLcmConfigExpiryDetails[] | cdktf.IResolvable;
   /**
   * refresh_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#refresh_details NdbClone#refresh_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#refresh_details NdbClone#refresh_details}
   */
   readonly refreshDetails?: NdbCloneLcmConfigDatabaseLcmConfigRefreshDetails[] | cdktf.IResolvable;
 }
@@ -3797,7 +3797,7 @@ export interface NdbCloneLcmConfig {
   /**
   * database_lcm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#database_lcm_config NdbClone#database_lcm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#database_lcm_config NdbClone#database_lcm_config}
   */
   readonly databaseLcmConfig?: NdbCloneLcmConfigDatabaseLcmConfig[] | cdktf.IResolvable;
 }
@@ -3913,11 +3913,11 @@ export class NdbCloneLcmConfigList extends cdktf.ComplexList {
 }
 export interface NdbCloneNodesProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#name NdbClone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#name NdbClone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#value NdbClone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#value NdbClone#value}
   */
   readonly value?: string;
 }
@@ -4062,33 +4062,33 @@ export class NdbCloneNodesPropertiesList extends cdktf.ComplexList {
 }
 export interface NdbCloneNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#compute_profile_id NdbClone#compute_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#compute_profile_id NdbClone#compute_profile_id}
   */
   readonly computeProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#dbserver_id NdbClone#dbserver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#dbserver_id NdbClone#dbserver_id}
   */
   readonly dbserverId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#network_profile_id NdbClone#network_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#network_profile_id NdbClone#network_profile_id}
   */
   readonly networkProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#new_db_server_time_zone NdbClone#new_db_server_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#new_db_server_time_zone NdbClone#new_db_server_time_zone}
   */
   readonly newDbServerTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#nx_cluster_id NdbClone#nx_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#nx_cluster_id NdbClone#nx_cluster_id}
   */
   readonly nxClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#vm_name NdbClone#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#vm_name NdbClone#vm_name}
   */
   readonly vmName?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#properties NdbClone#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#properties NdbClone#properties}
   */
   readonly properties?: NdbCloneNodesProperties[] | cdktf.IResolvable;
 }
@@ -4378,23 +4378,23 @@ export class NdbCloneNodesList extends cdktf.ComplexList {
 }
 export interface NdbClonePostgresqlInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#db_password NdbClone#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#db_password NdbClone#db_password}
   */
   readonly dbPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#dbserver_description NdbClone#dbserver_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#dbserver_description NdbClone#dbserver_description}
   */
   readonly dbserverDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#post_clone_cmd NdbClone#post_clone_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#post_clone_cmd NdbClone#post_clone_cmd}
   */
   readonly postCloneCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#pre_clone_cmd NdbClone#pre_clone_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#pre_clone_cmd NdbClone#pre_clone_cmd}
   */
   readonly preCloneCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#vm_name NdbClone#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#vm_name NdbClone#vm_name}
   */
   readonly vmName: string;
 }
@@ -4620,15 +4620,15 @@ export class NdbClonePostgresqlInfoList extends cdktf.ComplexList {
 }
 export interface NdbCloneTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#tag_id NdbClone#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#tag_id NdbClone#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#tag_name NdbClone#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#tag_name NdbClone#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#value NdbClone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#value NdbClone#value}
   */
   readonly value?: string;
 }
@@ -4812,11 +4812,11 @@ export class NdbCloneTagsList extends cdktf.ComplexList {
 }
 export interface NdbCloneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#create NdbClone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#create NdbClone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#delete NdbClone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#delete NdbClone#delete}
   */
   readonly delete?: string;
 }
@@ -4939,7 +4939,7 @@ export class NdbCloneTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone nutanix_ndb_clone}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone nutanix_ndb_clone}
 */
 export class NdbClone extends cdktf.TerraformResource {
 
@@ -4955,7 +4955,7 @@ export class NdbClone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbClone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbClone to import
-  * @param importFromId The id of the existing NdbClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbClone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4967,7 +4967,7 @@ export class NdbClone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_clone nutanix_ndb_clone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_clone nutanix_ndb_clone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4978,8 +4978,8 @@ export class NdbClone extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_clone',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

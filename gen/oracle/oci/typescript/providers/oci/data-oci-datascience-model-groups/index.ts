@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceModelGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#compartment_id DataOciDatascienceModelGroups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#compartment_id DataOciDatascienceModelGroups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#created_by DataOciDatascienceModelGroups#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#created_by DataOciDatascienceModelGroups#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#display_name DataOciDatascienceModelGroups#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#display_name DataOciDatascienceModelGroups#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#id DataOciDatascienceModelGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#id DataOciDatascienceModelGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#model_group_version_history_id DataOciDatascienceModelGroups#model_group_version_history_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#model_group_version_history_id DataOciDatascienceModelGroups#model_group_version_history_id}
   */
   readonly modelGroupVersionHistoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#project_id DataOciDatascienceModelGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#project_id DataOciDatascienceModelGroups#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#state DataOciDatascienceModelGroups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#state DataOciDatascienceModelGroups#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#filter DataOciDatascienceModelGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#filter DataOciDatascienceModelGroups#filter}
   */
   readonly filter?: DataOciDatascienceModelGroupsFilter[] | cdktf.IResolvable;
 }
@@ -1178,15 +1178,15 @@ export class DataOciDatascienceModelGroupsModelGroupsList extends cdktf.ComplexL
 }
 export interface DataOciDatascienceModelGroupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#name DataOciDatascienceModelGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#name DataOciDatascienceModelGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#regex DataOciDatascienceModelGroups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#regex DataOciDatascienceModelGroups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#values DataOciDatascienceModelGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#values DataOciDatascienceModelGroups#values}
   */
   readonly values: string[];
 }
@@ -1354,7 +1354,7 @@ export class DataOciDatascienceModelGroupsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups oci_datascience_model_groups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups oci_datascience_model_groups}
 */
 export class DataOciDatascienceModelGroups extends cdktf.TerraformDataSource {
 
@@ -1370,7 +1370,7 @@ export class DataOciDatascienceModelGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatascienceModelGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceModelGroups to import
-  * @param importFromId The id of the existing DataOciDatascienceModelGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceModelGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceModelGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1382,7 +1382,7 @@ export class DataOciDatascienceModelGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_groups oci_datascience_model_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_groups oci_datascience_model_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1393,8 +1393,8 @@ export class DataOciDatascienceModelGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datascience_model_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

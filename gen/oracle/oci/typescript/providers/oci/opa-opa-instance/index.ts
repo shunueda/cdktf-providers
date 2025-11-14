@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface OpaOpaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#compartment_id OpaOpaInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#compartment_id OpaOpaInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#consumption_model OpaOpaInstance#consumption_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#consumption_model OpaOpaInstance#consumption_model}
   */
   readonly consumptionModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#defined_tags OpaOpaInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#defined_tags OpaOpaInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#description OpaOpaInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#description OpaOpaInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#display_name OpaOpaInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#display_name OpaOpaInstance#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#freeform_tags OpaOpaInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#freeform_tags OpaOpaInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#id OpaOpaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#id OpaOpaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#idcs_at OpaOpaInstance#idcs_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#idcs_at OpaOpaInstance#idcs_at}
   */
   readonly idcsAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#is_breakglass_enabled OpaOpaInstance#is_breakglass_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#is_breakglass_enabled OpaOpaInstance#is_breakglass_enabled}
   */
   readonly isBreakglassEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#metering_type OpaOpaInstance#metering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#metering_type OpaOpaInstance#metering_type}
   */
   readonly meteringType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#shape_name OpaOpaInstance#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#shape_name OpaOpaInstance#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#state OpaOpaInstance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#state OpaOpaInstance#state}
   */
   readonly state?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#timeouts OpaOpaInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#timeouts OpaOpaInstance#timeouts}
   */
   readonly timeouts?: OpaOpaInstanceTimeouts;
 }
@@ -162,15 +162,15 @@ export class OpaOpaInstanceAttachmentsList extends cdktf.ComplexList {
 }
 export interface OpaOpaInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#create OpaOpaInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#create OpaOpaInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#delete OpaOpaInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#delete OpaOpaInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#update OpaOpaInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#update OpaOpaInstance#update}
   */
   readonly update?: string;
 }
@@ -322,7 +322,7 @@ export class OpaOpaInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance oci_opa_opa_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance oci_opa_opa_instance}
 */
 export class OpaOpaInstance extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class OpaOpaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpaOpaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpaOpaInstance to import
-  * @param importFromId The id of the existing OpaOpaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpaOpaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpaOpaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class OpaOpaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/opa_opa_instance oci_opa_opa_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/opa_opa_instance oci_opa_opa_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class OpaOpaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_opa_opa_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

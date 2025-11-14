@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamSharingRuleConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#account_moid DataIntersightIamSharingRule#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#account_moid DataIntersightIamSharingRule#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIamSharingRuleConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#create_time DataIntersightIamSharingRule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#create_time DataIntersightIamSharingRule#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#domain_group_moid DataIntersightIamSharingRule#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#domain_group_moid DataIntersightIamSharingRule#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#id DataIntersightIamSharingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#id DataIntersightIamSharingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightIamSharingRuleConfig extends cdktf.TerraformMetaA
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#mod_time DataIntersightIamSharingRule#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#mod_time DataIntersightIamSharingRule#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#owners DataIntersightIamSharingRule#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#owners DataIntersightIamSharingRule#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#shared_scope DataIntersightIamSharingRule#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#shared_scope DataIntersightIamSharingRule#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#account DataIntersightIamSharingRule#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#account DataIntersightIamSharingRule#account}
   */
   readonly account?: DataIntersightIamSharingRuleAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#ancestors DataIntersightIamSharingRule#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#ancestors DataIntersightIamSharingRule#ancestors}
   */
   readonly ancestors?: DataIntersightIamSharingRuleAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#parent DataIntersightIamSharingRule#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#parent DataIntersightIamSharingRule#parent}
   */
   readonly parent?: DataIntersightIamSharingRuleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#permission_resources DataIntersightIamSharingRule#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#permission_resources DataIntersightIamSharingRule#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamSharingRulePermissionResources[] | cdktf.IResolvable;
   /**
   * shared_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#shared_resource DataIntersightIamSharingRule#shared_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#shared_resource DataIntersightIamSharingRule#shared_resource}
   */
   readonly sharedResource?: DataIntersightIamSharingRuleSharedResource;
   /**
   * shared_with_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#shared_with_resource DataIntersightIamSharingRule#shared_with_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#shared_with_resource DataIntersightIamSharingRule#shared_with_resource}
   */
   readonly sharedWithResource?: DataIntersightIamSharingRuleSharedWithResource;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#tags DataIntersightIamSharingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#tags DataIntersightIamSharingRule#tags}
   */
   readonly tags?: DataIntersightIamSharingRuleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#version_context DataIntersightIamSharingRule#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#version_context DataIntersightIamSharingRule#version_context}
   */
   readonly versionContext?: DataIntersightIamSharingRuleVersionContext;
 }
@@ -961,6 +961,11 @@ export class DataIntersightIamSharingRuleResultsTagsOutputReference extends cdkt
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1467,7 +1472,7 @@ export class DataIntersightIamSharingRuleResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSharingRuleAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1475,19 +1480,19 @@ export interface DataIntersightIamSharingRuleAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1500,7 +1505,7 @@ export interface DataIntersightIamSharingRuleAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -1700,7 +1705,7 @@ export class DataIntersightIamSharingRuleAccountOutputReference extends cdktf.Co
 }
 export interface DataIntersightIamSharingRuleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1708,19 +1713,19 @@ export interface DataIntersightIamSharingRuleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1733,7 +1738,7 @@ export interface DataIntersightIamSharingRuleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -1965,7 +1970,7 @@ export class DataIntersightIamSharingRuleAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightIamSharingRuleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1973,19 +1978,19 @@ export interface DataIntersightIamSharingRuleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1998,7 +2003,7 @@ export interface DataIntersightIamSharingRuleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -2198,7 +2203,7 @@ export class DataIntersightIamSharingRuleParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightIamSharingRulePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2206,19 +2211,19 @@ export interface DataIntersightIamSharingRulePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2231,7 +2236,7 @@ export interface DataIntersightIamSharingRulePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -2463,7 +2468,7 @@ export class DataIntersightIamSharingRulePermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightIamSharingRuleSharedResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2471,19 +2476,19 @@ export interface DataIntersightIamSharingRuleSharedResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2496,7 +2501,7 @@ export interface DataIntersightIamSharingRuleSharedResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -2696,7 +2701,7 @@ export class DataIntersightIamSharingRuleSharedResourceOutputReference extends c
 }
 export interface DataIntersightIamSharingRuleSharedWithResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2704,19 +2709,19 @@ export interface DataIntersightIamSharingRuleSharedWithResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2729,7 +2734,7 @@ export interface DataIntersightIamSharingRuleSharedWithResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -2929,7 +2934,7 @@ export class DataIntersightIamSharingRuleSharedWithResourceOutputReference exten
 }
 export interface DataIntersightIamSharingRuleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2937,19 +2942,19 @@ export interface DataIntersightIamSharingRuleTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2962,7 +2967,7 @@ export interface DataIntersightIamSharingRuleTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -3194,7 +3199,7 @@ export class DataIntersightIamSharingRuleTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightIamSharingRuleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3202,19 +3207,19 @@ export interface DataIntersightIamSharingRuleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3227,7 +3232,7 @@ export interface DataIntersightIamSharingRuleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -3427,45 +3432,51 @@ export class DataIntersightIamSharingRuleTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightIamSharingRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#key DataIntersightIamSharingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#key DataIntersightIamSharingRule#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#propagated DataIntersightIamSharingRule#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#propagated DataIntersightIamSharingRule#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#sys_tag DataIntersightIamSharingRule#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#type DataIntersightIamSharingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#type DataIntersightIamSharingRule#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#value DataIntersightIamSharingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#value DataIntersightIamSharingRule#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#ancestor_definitions DataIntersightIamSharingRule#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#ancestor_definitions DataIntersightIamSharingRule#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamSharingRuleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#definition DataIntersightIamSharingRule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#definition DataIntersightIamSharingRule#definition}
   */
   readonly definition?: DataIntersightIamSharingRuleTagsDefinition;
 }
@@ -3479,6 +3490,7 @@ export function dataIntersightIamSharingRuleTagsToTerraform(struct?: DataIntersi
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamSharingRuleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3507,6 +3519,12 @@ export function dataIntersightIamSharingRuleTagsToHclTerraform(struct?: DataInte
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3573,6 +3591,10 @@ export class DataIntersightIamSharingRuleTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3599,6 +3621,7 @@ export class DataIntersightIamSharingRuleTagsOutputReference extends cdktf.Compl
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3614,6 +3637,7 @@ export class DataIntersightIamSharingRuleTagsOutputReference extends cdktf.Compl
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3667,6 +3691,22 @@ export class DataIntersightIamSharingRuleTagsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3755,7 +3795,7 @@ export class DataIntersightIamSharingRuleTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSharingRuleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3763,19 +3803,19 @@ export interface DataIntersightIamSharingRuleVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3788,7 +3828,7 @@ export interface DataIntersightIamSharingRuleVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -4020,7 +4060,7 @@ export class DataIntersightIamSharingRuleVersionContextInterestedMosList extends
 }
 export interface DataIntersightIamSharingRuleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4028,19 +4068,19 @@ export interface DataIntersightIamSharingRuleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#moid DataIntersightIamSharingRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4053,7 +4093,7 @@ export interface DataIntersightIamSharingRuleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#selector DataIntersightIamSharingRule#selector}
   */
   readonly selector?: string;
 }
@@ -4253,7 +4293,7 @@ export class DataIntersightIamSharingRuleVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightIamSharingRuleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#additional_properties DataIntersightIamSharingRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4261,32 +4301,32 @@ export interface DataIntersightIamSharingRuleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#class_id DataIntersightIamSharingRule#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#marked_for_deletion DataIntersightIamSharingRule#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#marked_for_deletion DataIntersightIamSharingRule#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#nr_version DataIntersightIamSharingRule#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#nr_version DataIntersightIamSharingRule#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#object_type DataIntersightIamSharingRule#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#timestamp DataIntersightIamSharingRule#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#timestamp DataIntersightIamSharingRule#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4297,19 +4337,19 @@ export interface DataIntersightIamSharingRuleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#version_type DataIntersightIamSharingRule#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#version_type DataIntersightIamSharingRule#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#interested_mos DataIntersightIamSharingRule#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#interested_mos DataIntersightIamSharingRule#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamSharingRuleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#ref_mo DataIntersightIamSharingRule#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#ref_mo DataIntersightIamSharingRule#ref_mo}
   */
   readonly refMo?: DataIntersightIamSharingRuleVersionContextRefMo;
 }
@@ -4625,7 +4665,7 @@ export class DataIntersightIamSharingRuleVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule intersight_iam_sharing_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule intersight_iam_sharing_rule}
 */
 export class DataIntersightIamSharingRule extends cdktf.TerraformDataSource {
 
@@ -4641,7 +4681,7 @@ export class DataIntersightIamSharingRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamSharingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamSharingRule to import
-  * @param importFromId The id of the existing DataIntersightIamSharingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamSharingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamSharingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4653,7 +4693,7 @@ export class DataIntersightIamSharingRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_sharing_rule intersight_iam_sharing_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_sharing_rule intersight_iam_sharing_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4664,8 +4704,8 @@ export class DataIntersightIamSharingRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_sharing_rule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

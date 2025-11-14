@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSnmpPolicyInventoryConfig extends cdktf.Terraform
   /**
   * The default SNMPv1, SNMPv2c community name or SNMPv3 username to include on any trap messages sent to the SNMP host. The name can be 32 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#access_community_string DataIntersightSnmpPolicyInventory#access_community_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#access_community_string DataIntersightSnmpPolicyInventory#access_community_string}
   */
   readonly accessCommunityString?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#account_moid DataIntersightSnmpPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#account_moid DataIntersightSnmpPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,7 +28,7 @@ export interface DataIntersightSnmpPolicyInventoryConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
@@ -37,47 +37,47 @@ export interface DataIntersightSnmpPolicyInventoryConfig extends cdktf.Terraform
   * * `Limited` - Partial access to read the information in the inventory tables.
   * * `Full` - Full access to read the information in the inventory tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#community_access DataIntersightSnmpPolicyInventory#community_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#community_access DataIntersightSnmpPolicyInventory#community_access}
   */
   readonly communityAccess?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#create_time DataIntersightSnmpPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#create_time DataIntersightSnmpPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#description DataIntersightSnmpPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#description DataIntersightSnmpPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#device_mo_id DataIntersightSnmpPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#device_mo_id DataIntersightSnmpPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#domain_group_moid DataIntersightSnmpPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#domain_group_moid DataIntersightSnmpPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * State of the SNMP Policy on the endpoint. If enabled, the endpoint sends SNMP traps to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#enabled DataIntersightSnmpPolicyInventory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#enabled DataIntersightSnmpPolicyInventory#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * User-defined unique identification of the static engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#engine_id DataIntersightSnmpPolicyInventory#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#engine_id DataIntersightSnmpPolicyInventory#engine_id}
   */
   readonly engineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#id DataIntersightSnmpPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#id DataIntersightSnmpPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,121 +86,121 @@ export interface DataIntersightSnmpPolicyInventoryConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#mod_time DataIntersightSnmpPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#mod_time DataIntersightSnmpPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#name DataIntersightSnmpPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#name DataIntersightSnmpPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#owners DataIntersightSnmpPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#owners DataIntersightSnmpPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#shared_scope DataIntersightSnmpPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#shared_scope DataIntersightSnmpPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Port on which Cisco IMC SNMP agent runs. Enter a value between 1-65535. Reserved ports not allowed (22, 23, 80, 123, 389, 443, 623, 636, 2068, 3268, 3269).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#snmp_port DataIntersightSnmpPolicyInventory#snmp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#snmp_port DataIntersightSnmpPolicyInventory#snmp_port}
   */
   readonly snmpPort?: number;
   /**
   * Contact person responsible for the SNMP implementation. Enter a string up to 64 characters, such as an email address or a name and telephone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#sys_contact DataIntersightSnmpPolicyInventory#sys_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#sys_contact DataIntersightSnmpPolicyInventory#sys_contact}
   */
   readonly sysContact?: string;
   /**
   * Location of host on which the SNMP agent (server) runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#sys_location DataIntersightSnmpPolicyInventory#sys_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#sys_location DataIntersightSnmpPolicyInventory#sys_location}
   */
   readonly sysLocation?: string;
   /**
   * SNMP community group used for sending SNMP trap to other devices. Valid only for SNMPv2c users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#trap_community DataIntersightSnmpPolicyInventory#trap_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#trap_community DataIntersightSnmpPolicyInventory#trap_community}
   */
   readonly trapCommunity?: string;
   /**
   * State of the SNMP v2c on the endpoint. If enabled, the endpoint sends SNMP v2c properties to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#v2_enabled DataIntersightSnmpPolicyInventory#v2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#v2_enabled DataIntersightSnmpPolicyInventory#v2_enabled}
   */
   readonly v2Enabled?: boolean | cdktf.IResolvable;
   /**
   * State of the SNMP v3 on the endpoint. If enabled, the endpoint sends SNMP v3 properties to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#v3_enabled DataIntersightSnmpPolicyInventory#v3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#v3_enabled DataIntersightSnmpPolicyInventory#v3_enabled}
   */
   readonly v3Enabled?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#ancestors DataIntersightSnmpPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#ancestors DataIntersightSnmpPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightSnmpPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#parent DataIntersightSnmpPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#parent DataIntersightSnmpPolicyInventory#parent}
   */
   readonly parent?: DataIntersightSnmpPolicyInventoryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#permission_resources DataIntersightSnmpPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#permission_resources DataIntersightSnmpPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightSnmpPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * snmp_traps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#snmp_traps DataIntersightSnmpPolicyInventory#snmp_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#snmp_traps DataIntersightSnmpPolicyInventory#snmp_traps}
   */
   readonly snmpTraps?: DataIntersightSnmpPolicyInventorySnmpTraps[] | cdktf.IResolvable;
   /**
   * snmp_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#snmp_users DataIntersightSnmpPolicyInventory#snmp_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#snmp_users DataIntersightSnmpPolicyInventory#snmp_users}
   */
   readonly snmpUsers?: DataIntersightSnmpPolicyInventorySnmpUsers[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#tags DataIntersightSnmpPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#tags DataIntersightSnmpPolicyInventory#tags}
   */
   readonly tags?: DataIntersightSnmpPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#target_mo DataIntersightSnmpPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#target_mo DataIntersightSnmpPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightSnmpPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#version_context DataIntersightSnmpPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#version_context DataIntersightSnmpPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightSnmpPolicyInventoryVersionContext;
 }
@@ -1012,6 +1012,11 @@ export class DataIntersightSnmpPolicyInventoryResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1678,7 +1683,7 @@ export class DataIntersightSnmpPolicyInventoryResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightSnmpPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1686,19 +1691,19 @@ export interface DataIntersightSnmpPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1711,7 +1716,7 @@ export interface DataIntersightSnmpPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1943,7 +1948,7 @@ export class DataIntersightSnmpPolicyInventoryAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightSnmpPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1951,19 +1956,19 @@ export interface DataIntersightSnmpPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1976,7 +1981,7 @@ export interface DataIntersightSnmpPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2176,7 +2181,7 @@ export class DataIntersightSnmpPolicyInventoryParentOutputReference extends cdkt
 }
 export interface DataIntersightSnmpPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2184,19 +2189,19 @@ export interface DataIntersightSnmpPolicyInventoryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2209,7 +2214,7 @@ export interface DataIntersightSnmpPolicyInventoryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2441,7 +2446,7 @@ export class DataIntersightSnmpPolicyInventoryPermissionResourcesList extends cd
 }
 export interface DataIntersightSnmpPolicyInventorySnmpTraps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2449,25 +2454,25 @@ export interface DataIntersightSnmpPolicyInventorySnmpTraps {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * SNMP community group used for sending SNMP trap to other devices. Applicable only for SNMP v2c.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#community DataIntersightSnmpPolicyInventory#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#community DataIntersightSnmpPolicyInventory#community}
   */
   readonly community?: string;
   /**
   * Address to which the SNMP trap information is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#destination DataIntersightSnmpPolicyInventory#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#destination DataIntersightSnmpPolicyInventory#destination}
   */
   readonly destination?: string;
   /**
   * Enables/disables the trap on the server If enabled, trap is active on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#enabled DataIntersightSnmpPolicyInventory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#enabled DataIntersightSnmpPolicyInventory#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -2476,20 +2481,20 @@ export interface DataIntersightSnmpPolicyInventorySnmpTraps {
   * * `V1` - SNMP v1 trap version notifications.
   * * `V2` - SNMP v2 trap version notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#nr_version DataIntersightSnmpPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#nr_version DataIntersightSnmpPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * Port used by the server to communicate with the trap destination. Enter a value between 1-65535. Reserved ports not allowed (22, 23, 80, 123, 389, 443, 623, 636, 2068, 3268, 3269).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#port DataIntersightSnmpPolicyInventory#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#port DataIntersightSnmpPolicyInventory#port}
   */
   readonly port?: number;
   /**
@@ -2498,7 +2503,7 @@ export interface DataIntersightSnmpPolicyInventorySnmpTraps {
   * * `NoAuthNoPriv` - The user does not require an authorization or privacy password.
   * * `AuthNoPriv` - The user requires an authorization password but not a privacy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#security_level DataIntersightSnmpPolicyInventory#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#security_level DataIntersightSnmpPolicyInventory#security_level}
   */
   readonly securityLevel?: string;
   /**
@@ -2506,19 +2511,19 @@ export interface DataIntersightSnmpPolicyInventorySnmpTraps {
   * * `Trap` - Do not receive notifications when trap is sent to the destination.
   * * `Inform` - Receive notifications when trap is sent to the destination. This option is valid only for V2 users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#type DataIntersightSnmpPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#type DataIntersightSnmpPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * SNMP user for the trap. Applicable only to SNMPv3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#user DataIntersightSnmpPolicyInventory#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#user DataIntersightSnmpPolicyInventory#user}
   */
   readonly user?: string;
   /**
   * VRF name of the SNMP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#vrf_name DataIntersightSnmpPolicyInventory#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#vrf_name DataIntersightSnmpPolicyInventory#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -2953,13 +2958,13 @@ export class DataIntersightSnmpPolicyInventorySnmpTrapsList extends cdktf.Comple
 }
 export interface DataIntersightSnmpPolicyInventorySnmpUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Authorization password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#auth_password DataIntersightSnmpPolicyInventory#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#auth_password DataIntersightSnmpPolicyInventory#auth_password}
   */
   readonly authPassword?: string;
   /**
@@ -2972,7 +2977,7 @@ export interface DataIntersightSnmpPolicyInventorySnmpUsers {
   * * `SHA-384` - SHA-384 protocol is used to authenticate SNMP user.
   * * `SHA-512` - SHA-512 protocol is used to authenticate SNMP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#auth_type DataIntersightSnmpPolicyInventory#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#auth_type DataIntersightSnmpPolicyInventory#auth_type}
   */
   readonly authType?: string;
   /**
@@ -2980,38 +2985,38 @@ export interface DataIntersightSnmpPolicyInventorySnmpUsers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates whether the value of the 'authPassword' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#is_auth_password_set DataIntersightSnmpPolicyInventory#is_auth_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#is_auth_password_set DataIntersightSnmpPolicyInventory#is_auth_password_set}
   */
   readonly isAuthPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'privacyPassword' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#is_privacy_password_set DataIntersightSnmpPolicyInventory#is_privacy_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#is_privacy_password_set DataIntersightSnmpPolicyInventory#is_privacy_password_set}
   */
   readonly isPrivacyPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * SNMP username. Must have a minimum of 1 and and a maximum of 31 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#name DataIntersightSnmpPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#name DataIntersightSnmpPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * Privacy password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#privacy_password DataIntersightSnmpPolicyInventory#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#privacy_password DataIntersightSnmpPolicyInventory#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
@@ -3020,7 +3025,7 @@ export interface DataIntersightSnmpPolicyInventorySnmpUsers {
   * * `DES` - DES privacy protocol is used for SNMP user.
   * * `AES` - AES privacy protocol is used for SNMP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#privacy_type DataIntersightSnmpPolicyInventory#privacy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#privacy_type DataIntersightSnmpPolicyInventory#privacy_type}
   */
   readonly privacyType?: string;
   /**
@@ -3029,7 +3034,7 @@ export interface DataIntersightSnmpPolicyInventorySnmpUsers {
   * * `NoAuthNoPriv` - The user does not require an authorization or privacy password.
   * * `AuthNoPriv` - The user requires an authorization password but not a privacy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#security_level DataIntersightSnmpPolicyInventory#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#security_level DataIntersightSnmpPolicyInventory#security_level}
   */
   readonly securityLevel?: string;
 }
@@ -3435,7 +3440,7 @@ export class DataIntersightSnmpPolicyInventorySnmpUsersList extends cdktf.Comple
 }
 export interface DataIntersightSnmpPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3443,19 +3448,19 @@ export interface DataIntersightSnmpPolicyInventoryTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3468,7 +3473,7 @@ export interface DataIntersightSnmpPolicyInventoryTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3700,7 +3705,7 @@ export class DataIntersightSnmpPolicyInventoryTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightSnmpPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3708,19 +3713,19 @@ export interface DataIntersightSnmpPolicyInventoryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3733,7 +3738,7 @@ export interface DataIntersightSnmpPolicyInventoryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3933,45 +3938,51 @@ export class DataIntersightSnmpPolicyInventoryTagsDefinitionOutputReference exte
 }
 export interface DataIntersightSnmpPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#key DataIntersightSnmpPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#key DataIntersightSnmpPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#propagated DataIntersightSnmpPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#propagated DataIntersightSnmpPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#sys_tag DataIntersightSnmpPolicyInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#type DataIntersightSnmpPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#type DataIntersightSnmpPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#value DataIntersightSnmpPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#value DataIntersightSnmpPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#ancestor_definitions DataIntersightSnmpPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#ancestor_definitions DataIntersightSnmpPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSnmpPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#definition DataIntersightSnmpPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#definition DataIntersightSnmpPolicyInventory#definition}
   */
   readonly definition?: DataIntersightSnmpPolicyInventoryTagsDefinition;
 }
@@ -3985,6 +3996,7 @@ export function dataIntersightSnmpPolicyInventoryTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSnmpPolicyInventoryTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4013,6 +4025,12 @@ export function dataIntersightSnmpPolicyInventoryTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4079,6 +4097,10 @@ export class DataIntersightSnmpPolicyInventoryTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4105,6 +4127,7 @@ export class DataIntersightSnmpPolicyInventoryTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4120,6 +4143,7 @@ export class DataIntersightSnmpPolicyInventoryTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4173,6 +4197,22 @@ export class DataIntersightSnmpPolicyInventoryTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4261,7 +4301,7 @@ export class DataIntersightSnmpPolicyInventoryTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightSnmpPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4269,19 +4309,19 @@ export interface DataIntersightSnmpPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4294,7 +4334,7 @@ export interface DataIntersightSnmpPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4494,7 +4534,7 @@ export class DataIntersightSnmpPolicyInventoryTargetMoOutputReference extends cd
 }
 export interface DataIntersightSnmpPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4502,19 +4542,19 @@ export interface DataIntersightSnmpPolicyInventoryVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4527,7 +4567,7 @@ export interface DataIntersightSnmpPolicyInventoryVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4759,7 +4799,7 @@ export class DataIntersightSnmpPolicyInventoryVersionContextInterestedMosList ex
 }
 export interface DataIntersightSnmpPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4767,19 +4807,19 @@ export interface DataIntersightSnmpPolicyInventoryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#moid DataIntersightSnmpPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4792,7 +4832,7 @@ export interface DataIntersightSnmpPolicyInventoryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#selector DataIntersightSnmpPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4992,7 +5032,7 @@ export class DataIntersightSnmpPolicyInventoryVersionContextRefMoOutputReference
 }
 export interface DataIntersightSnmpPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#additional_properties DataIntersightSnmpPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5000,32 +5040,32 @@ export interface DataIntersightSnmpPolicyInventoryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#class_id DataIntersightSnmpPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#marked_for_deletion DataIntersightSnmpPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#marked_for_deletion DataIntersightSnmpPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#nr_version DataIntersightSnmpPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#nr_version DataIntersightSnmpPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#object_type DataIntersightSnmpPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#timestamp DataIntersightSnmpPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#timestamp DataIntersightSnmpPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5036,19 +5076,19 @@ export interface DataIntersightSnmpPolicyInventoryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#version_type DataIntersightSnmpPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#version_type DataIntersightSnmpPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#interested_mos DataIntersightSnmpPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#interested_mos DataIntersightSnmpPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightSnmpPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#ref_mo DataIntersightSnmpPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#ref_mo DataIntersightSnmpPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightSnmpPolicyInventoryVersionContextRefMo;
 }
@@ -5364,7 +5404,7 @@ export class DataIntersightSnmpPolicyInventoryVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory intersight_snmp_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory intersight_snmp_policy_inventory}
 */
 export class DataIntersightSnmpPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -5380,7 +5420,7 @@ export class DataIntersightSnmpPolicyInventory extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightSnmpPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSnmpPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightSnmpPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSnmpPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSnmpPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5392,7 +5432,7 @@ export class DataIntersightSnmpPolicyInventory extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy_inventory intersight_snmp_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy_inventory intersight_snmp_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5403,8 +5443,8 @@ export class DataIntersightSnmpPolicyInventory extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_snmp_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -44,11 +44,11 @@ templateV2TemplateVersionSpecVersionSourceToHclTerraform,
 TemplateV2TemplateVersionSpecVersionSourceOutputReference } from './structs0'
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReferenceDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#bus_type TemplateV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#bus_type TemplateV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#index TemplateV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#index TemplateV2#index}
   */
   readonly index?: number;
 }
@@ -193,7 +193,7 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSource
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReferenceVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -309,19 +309,19 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSource
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#disk_ext_id TemplateV2#disk_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#disk_ext_id TemplateV2#disk_ext_id}
   */
   readonly diskExtId?: string;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#disk_address TemplateV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#disk_address TemplateV2#disk_address}
   */
   readonly diskAddress?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReferenceDiskAddress[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vm_reference TemplateV2#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vm_reference TemplateV2#vm_reference}
   */
   readonly vmReference?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReferenceVmReference[] | cdktf.IResolvable;
 }
@@ -497,13 +497,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSo
   /**
   * image_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#image_reference TemplateV2#image_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#image_reference TemplateV2#image_reference}
   */
   readonly imageReference?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceImageReference[] | cdktf.IResolvable;
   /**
   * vm_disk_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vm_disk_reference TemplateV2#vm_disk_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vm_disk_reference TemplateV2#vm_disk_reference}
   */
   readonly vmDiskReference?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReferenceVmDiskReference[] | cdktf.IResolvable;
 }
@@ -650,7 +650,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSo
   /**
   * reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#reference TemplateV2#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#reference TemplateV2#reference}
   */
   readonly reference?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSourceReference[] | cdktf.IResolvable;
 }
@@ -766,7 +766,7 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSource
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_flash_mode_enabled TemplateV2#is_flash_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_flash_mode_enabled TemplateV2#is_flash_mode_enabled}
   */
   readonly isFlashModeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -882,7 +882,7 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageCon
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -998,29 +998,29 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageCon
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#disk_size_bytes TemplateV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#disk_size_bytes TemplateV2#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_migration_in_progress TemplateV2#is_migration_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_migration_in_progress TemplateV2#is_migration_in_progress}
   */
   readonly isMigrationInProgress?: boolean | cdktf.IResolvable;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#data_source TemplateV2#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#data_source TemplateV2#data_source}
   */
   readonly dataSource?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskDataSource[] | cdktf.IResolvable;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#storage_config TemplateV2#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#storage_config TemplateV2#storage_config}
   */
   readonly storageConfig?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageConfig[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#storage_container TemplateV2#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#storage_container TemplateV2#storage_container}
   */
   readonly storageContainer?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDiskStorageContainer[] | cdktf.IResolvable;
 }
@@ -1259,13 +1259,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecDisksBackingInfo {
   /**
   * adfs_volume_group_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#adfs_volume_group_reference TemplateV2#adfs_volume_group_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#adfs_volume_group_reference TemplateV2#adfs_volume_group_reference}
   */
   readonly adfsVolumeGroupReference?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoAdfsVolumeGroupReference[] | cdktf.IResolvable;
   /**
   * vm_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vm_disk TemplateV2#vm_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vm_disk TemplateV2#vm_disk}
   */
   readonly vmDisk?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoVmDisk[] | cdktf.IResolvable;
 }
@@ -1410,11 +1410,11 @@ export class TemplateV2TemplateVersionSpecVmSpecDisksBackingInfoList extends cdk
 }
 export interface TemplateV2TemplateVersionSpecVmSpecDisksDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#bus_type TemplateV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#bus_type TemplateV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#index TemplateV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#index TemplateV2#index}
   */
   readonly index?: number;
 }
@@ -1561,13 +1561,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecDisks {
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#backing_info TemplateV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#backing_info TemplateV2#backing_info}
   */
   readonly backingInfo?: TemplateV2TemplateVersionSpecVmSpecDisksBackingInfo[] | cdktf.IResolvable;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#disk_address TemplateV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#disk_address TemplateV2#disk_address}
   */
   readonly diskAddress?: TemplateV2TemplateVersionSpecVmSpecDisksDiskAddress[] | cdktf.IResolvable;
 }
@@ -1808,19 +1808,19 @@ export class TemplateV2TemplateVersionSpecVmSpecGpusLinksList extends cdktf.Comp
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGpusPciAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#bus TemplateV2#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#bus TemplateV2#bus}
   */
   readonly bus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#device TemplateV2#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#device TemplateV2#device}
   */
   readonly device?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#func TemplateV2#func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#func TemplateV2#func}
   */
   readonly func?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#segment TemplateV2#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#segment TemplateV2#segment}
   */
   readonly segment?: number;
 }
@@ -2023,21 +2023,21 @@ export class TemplateV2TemplateVersionSpecVmSpecGpusPciAddressList extends cdktf
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#device_id TemplateV2#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#device_id TemplateV2#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#mode TemplateV2#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#mode TemplateV2#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vendor TemplateV2#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vendor TemplateV2#vendor}
   */
   readonly vendor?: string;
   /**
   * pci_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#pci_address TemplateV2#pci_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#pci_address TemplateV2#pci_address}
   */
   readonly pciAddress?: TemplateV2TemplateVersionSpecVmSpecGpusPciAddress[] | cdktf.IResolvable;
 }
@@ -2281,7 +2281,7 @@ export class TemplateV2TemplateVersionSpecVmSpecGpusList extends cdktf.ComplexLi
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map TemplateV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map TemplateV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -2397,33 +2397,33 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudIni
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#boolean TemplateV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#boolean TemplateV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer TemplateV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer TemplateV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer_list TemplateV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer_list TemplateV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#object TemplateV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#object TemplateV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string TemplateV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string TemplateV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string_list TemplateV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string_list TemplateV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
   */
   readonly mapOfStrings?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -2713,13 +2713,13 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudIni
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#name TemplateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#name TemplateV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -2866,7 +2866,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigClou
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#key_value_pairs TemplateV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#key_value_pairs TemplateV2#key_value_pairs}
   */
   readonly keyValuePairs?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -2982,7 +2982,7 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudIni
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value?: string;
 }
@@ -3100,13 +3100,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigClou
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#custom_key_values TemplateV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#custom_key_values TemplateV2#custom_key_values}
   */
   readonly customKeyValues?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#user_data TemplateV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#user_data TemplateV2#user_data}
   */
   readonly userData?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -3251,17 +3251,17 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudIni
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#datasource_type TemplateV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#datasource_type TemplateV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#metadata TemplateV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#metadata TemplateV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#cloud_init_script TemplateV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#cloud_init_script TemplateV2#cloud_init_script}
   */
   readonly cloudInitScript?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInitCloudInitScript[] | cdktf.IResolvable;
 }
@@ -3435,7 +3435,7 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudIni
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map TemplateV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map TemplateV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -3551,33 +3551,33 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepS
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#boolean TemplateV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#boolean TemplateV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer TemplateV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer TemplateV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer_list TemplateV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer_list TemplateV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#object TemplateV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#object TemplateV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string TemplateV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string TemplateV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string_list TemplateV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string_list TemplateV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
   */
   readonly mapOfStrings?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -3867,13 +3867,13 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepS
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#name TemplateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#name TemplateV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -4020,7 +4020,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysp
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#key_value_pairs TemplateV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#key_value_pairs TemplateV2#key_value_pairs}
   */
   readonly keyValuePairs?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -4136,7 +4136,7 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepS
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptUnattendXml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value?: string;
 }
@@ -4254,13 +4254,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysp
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#custom_key_values TemplateV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#custom_key_values TemplateV2#custom_key_values}
   */
   readonly customKeyValues?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * unattend_xml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#unattend_xml TemplateV2#unattend_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#unattend_xml TemplateV2#unattend_xml}
   */
   readonly unattendXml?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScriptUnattendXml[] | cdktf.IResolvable;
 }
@@ -4405,13 +4405,13 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepS
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#install_type TemplateV2#install_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#install_type TemplateV2#install_type}
   */
   readonly installType?: string;
   /**
   * sysprep_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#sysprep_script TemplateV2#sysprep_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#sysprep_script TemplateV2#sysprep_script}
   */
   readonly sysprepScript?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprepSysprepScript[] | cdktf.IResolvable;
 }
@@ -4558,13 +4558,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfig {
   /**
   * cloud_init block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#cloud_init TemplateV2#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#cloud_init TemplateV2#cloud_init}
   */
   readonly cloudInit?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigCloudInit[] | cdktf.IResolvable;
   /**
   * sysprep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#sysprep TemplateV2#sysprep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#sysprep TemplateV2#sysprep}
   */
   readonly sysprep?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfigSysprep[] | cdktf.IResolvable;
 }
@@ -4711,7 +4711,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecGuestCustomization {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#config TemplateV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#config TemplateV2#config}
   */
   readonly config?: TemplateV2TemplateVersionSpecVmSpecGuestCustomizationConfig[] | cdktf.IResolvable;
 }
@@ -4827,11 +4827,11 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestCustomizationList extends c
 }
 export interface TemplateV2TemplateVersionSpecVmSpecGuestTools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#capabilities TemplateV2#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#capabilities TemplateV2#capabilities}
   */
   readonly capabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_enabled TemplateV2#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_enabled TemplateV2#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -5016,7 +5016,7 @@ export class TemplateV2TemplateVersionSpecVmSpecGuestToolsList extends cdktf.Com
 }
 export interface TemplateV2TemplateVersionSpecVmSpecHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -5212,19 +5212,19 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsLinksList extends cdktf.Comp
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsBackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_connected TemplateV2#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_connected TemplateV2#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#mac_address TemplateV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#mac_address TemplateV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#model TemplateV2#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#model TemplateV2#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#num_queues TemplateV2#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#num_queues TemplateV2#num_queues}
   */
   readonly numQueues?: number;
 }
@@ -5587,7 +5587,7 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4ConfigSeconda
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#should_assign_ip TemplateV2#should_assign_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#should_assign_ip TemplateV2#should_assign_ip}
   */
   readonly shouldAssignIp?: boolean | cdktf.IResolvable;
 }
@@ -5715,11 +5715,11 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4ConfigList ex
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4InfoLearnedIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#prefix_length TemplateV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#prefix_length TemplateV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value: string;
 }
@@ -5863,7 +5863,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4Info {
   /**
   * learned_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#learned_ip_addresses TemplateV2#learned_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#learned_ip_addresses TemplateV2#learned_ip_addresses}
   */
   readonly learnedIpAddresses?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4InfoLearnedIpAddresses[] | cdktf.IResolvable;
 }
@@ -5979,7 +5979,7 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4InfoList exte
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoNetworkFunctionChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -6095,7 +6095,7 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoNetworkFunctionCh
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -6211,47 +6211,47 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoSubnetList extend
 }
 export interface TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#network_function_nic_type TemplateV2#network_function_nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#network_function_nic_type TemplateV2#network_function_nic_type}
   */
   readonly networkFunctionNicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#nic_type TemplateV2#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#nic_type TemplateV2#nic_type}
   */
   readonly nicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#should_allow_unknown_macs TemplateV2#should_allow_unknown_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#should_allow_unknown_macs TemplateV2#should_allow_unknown_macs}
   */
   readonly shouldAllowUnknownMacs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#trunked_vlans TemplateV2#trunked_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#trunked_vlans TemplateV2#trunked_vlans}
   */
   readonly trunkedVlans?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vlan_mode TemplateV2#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vlan_mode TemplateV2#vlan_mode}
   */
   readonly vlanMode?: string;
   /**
   * ipv4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ipv4_config TemplateV2#ipv4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ipv4_config TemplateV2#ipv4_config}
   */
   readonly ipv4Config?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4Config[] | cdktf.IResolvable;
   /**
   * ipv4_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ipv4_info TemplateV2#ipv4_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ipv4_info TemplateV2#ipv4_info}
   */
   readonly ipv4Info?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoIpv4Info[] | cdktf.IResolvable;
   /**
   * network_function_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#network_function_chain TemplateV2#network_function_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#network_function_chain TemplateV2#network_function_chain}
   */
   readonly networkFunctionChain?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoNetworkFunctionChain[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#subnet TemplateV2#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#subnet TemplateV2#subnet}
   */
   readonly subnet?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfoSubnet[] | cdktf.IResolvable;
 }
@@ -6601,13 +6601,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecNics {
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#backing_info TemplateV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#backing_info TemplateV2#backing_info}
   */
   readonly backingInfo?: TemplateV2TemplateVersionSpecVmSpecNicsBackingInfo[] | cdktf.IResolvable;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#network_info TemplateV2#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#network_info TemplateV2#network_info}
   */
   readonly networkInfo?: TemplateV2TemplateVersionSpecVmSpecNicsNetworkInfo[] | cdktf.IResolvable;
 }
@@ -6768,7 +6768,7 @@ export class TemplateV2TemplateVersionSpecVmSpecNicsList extends cdktf.ComplexLi
 }
 export interface TemplateV2TemplateVersionSpecVmSpecOwnershipInfoOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -6886,7 +6886,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecOwnershipInfo {
   /**
   * owner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#owner TemplateV2#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#owner TemplateV2#owner}
   */
   readonly owner?: TemplateV2TemplateVersionSpecVmSpecOwnershipInfoOwner[] | cdktf.IResolvable;
 }
@@ -7082,7 +7082,7 @@ export class TemplateV2TemplateVersionSpecVmSpecPciDevicesLinksList extends cdkt
 }
 export interface TemplateV2TemplateVersionSpecVmSpecPciDevicesAssignedDeviceInfoDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#device_ext_id TemplateV2#device_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#device_ext_id TemplateV2#device_ext_id}
   */
   readonly deviceExtId?: string;
 }
@@ -7200,7 +7200,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecPciDevicesAssignedDeviceInfo
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#device TemplateV2#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#device TemplateV2#device}
   */
   readonly device?: TemplateV2TemplateVersionSpecVmSpecPciDevicesAssignedDeviceInfoDevice[] | cdktf.IResolvable;
 }
@@ -7316,7 +7316,7 @@ export class TemplateV2TemplateVersionSpecVmSpecPciDevicesAssignedDeviceInfoList
 }
 export interface TemplateV2TemplateVersionSpecVmSpecPciDevicesBackingInfoPcieDeviceReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#device_ext_id TemplateV2#device_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#device_ext_id TemplateV2#device_ext_id}
   */
   readonly deviceExtId?: string;
 }
@@ -7434,7 +7434,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecPciDevicesBackingInfo {
   /**
   * pcie_device_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#pcie_device_reference TemplateV2#pcie_device_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#pcie_device_reference TemplateV2#pcie_device_reference}
   */
   readonly pcieDeviceReference?: TemplateV2TemplateVersionSpecVmSpecPciDevicesBackingInfoPcieDeviceReference[] | cdktf.IResolvable;
 }
@@ -7552,13 +7552,13 @@ export interface TemplateV2TemplateVersionSpecVmSpecPciDevices {
   /**
   * assigned_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#assigned_device_info TemplateV2#assigned_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#assigned_device_info TemplateV2#assigned_device_info}
   */
   readonly assignedDeviceInfo?: TemplateV2TemplateVersionSpecVmSpecPciDevicesAssignedDeviceInfo[] | cdktf.IResolvable;
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#backing_info TemplateV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#backing_info TemplateV2#backing_info}
   */
   readonly backingInfo?: TemplateV2TemplateVersionSpecVmSpecPciDevicesBackingInfo[] | cdktf.IResolvable;
 }
@@ -7719,7 +7719,7 @@ export class TemplateV2TemplateVersionSpecVmSpecPciDevicesList extends cdktf.Com
 }
 export interface TemplateV2TemplateVersionSpecVmSpecProtectionPolicyStatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ext_id TemplateV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ext_id TemplateV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -7837,7 +7837,7 @@ export interface TemplateV2TemplateVersionSpecVmSpecProtectionPolicyState {
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#policy TemplateV2#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#policy TemplateV2#policy}
   */
   readonly policy?: TemplateV2TemplateVersionSpecVmSpecProtectionPolicyStatePolicy[] | cdktf.IResolvable;
 }
@@ -8033,11 +8033,11 @@ export class TemplateV2TemplateVersionSpecVmSpecSerialPortsLinksList extends cdk
 }
 export interface TemplateV2TemplateVersionSpecVmSpecSerialPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#index TemplateV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#index TemplateV2#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_connected TemplateV2#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_connected TemplateV2#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
 }
@@ -8198,7 +8198,7 @@ export class TemplateV2TemplateVersionSpecVmSpecSerialPortsList extends cdktf.Co
 }
 export interface TemplateV2TemplateVersionSpecVmSpecSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#entity_type TemplateV2#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#entity_type TemplateV2#entity_type}
   */
   readonly entityType?: string;
 }
@@ -8319,7 +8319,7 @@ export class TemplateV2TemplateVersionSpecVmSpecSourceList extends cdktf.Complex
 }
 export interface TemplateV2TemplateVersionSpecVmSpecStorageConfigQosConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#throttled_iops TemplateV2#throttled_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#throttled_iops TemplateV2#throttled_iops}
   */
   readonly throttledIops?: number;
 }
@@ -8435,13 +8435,13 @@ export class TemplateV2TemplateVersionSpecVmSpecStorageConfigQosConfigList exten
 }
 export interface TemplateV2TemplateVersionSpecVmSpecStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_flash_mode_enabled TemplateV2#is_flash_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_flash_mode_enabled TemplateV2#is_flash_mode_enabled}
   */
   readonly isFlashModeEnabled?: boolean | cdktf.IResolvable;
   /**
   * qos_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#qos_config TemplateV2#qos_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#qos_config TemplateV2#qos_config}
   */
   readonly qosConfig?: TemplateV2TemplateVersionSpecVmSpecStorageConfigQosConfig[] | cdktf.IResolvable;
 }
@@ -8586,7 +8586,7 @@ export class TemplateV2TemplateVersionSpecVmSpecStorageConfigList extends cdktf.
 }
 export interface TemplateV2TemplateVersionSpecVmSpecVtpmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_vtpm_enabled TemplateV2#is_vtpm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_vtpm_enabled TemplateV2#is_vtpm_enabled}
   */
   readonly isVtpmEnabled?: boolean | cdktf.IResolvable;
 }
@@ -8707,209 +8707,209 @@ export class TemplateV2TemplateVersionSpecVmSpecVtpmConfigList extends cdktf.Com
 }
 export interface TemplateV2TemplateVersionSpecVmSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#bios_uuid TemplateV2#bios_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#bios_uuid TemplateV2#bios_uuid}
   */
   readonly biosUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#description TemplateV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#description TemplateV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#enabled_cpu_features TemplateV2#enabled_cpu_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#enabled_cpu_features TemplateV2#enabled_cpu_features}
   */
   readonly enabledCpuFeatures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#generation_uuid TemplateV2#generation_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#generation_uuid TemplateV2#generation_uuid}
   */
   readonly generationUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#hardware_clock_timezone TemplateV2#hardware_clock_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#hardware_clock_timezone TemplateV2#hardware_clock_timezone}
   */
   readonly hardwareClockTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_agent_vm TemplateV2#is_agent_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_agent_vm TemplateV2#is_agent_vm}
   */
   readonly isAgentVm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_branding_enabled TemplateV2#is_branding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_branding_enabled TemplateV2#is_branding_enabled}
   */
   readonly isBrandingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_cpu_hotplug_enabled TemplateV2#is_cpu_hotplug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_cpu_hotplug_enabled TemplateV2#is_cpu_hotplug_enabled}
   */
   readonly isCpuHotplugEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_cpu_passthrough_enabled TemplateV2#is_cpu_passthrough_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_cpu_passthrough_enabled TemplateV2#is_cpu_passthrough_enabled}
   */
   readonly isCpuPassthroughEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_gpu_console_enabled TemplateV2#is_gpu_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_gpu_console_enabled TemplateV2#is_gpu_console_enabled}
   */
   readonly isGpuConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_memory_overcommit_enabled TemplateV2#is_memory_overcommit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_memory_overcommit_enabled TemplateV2#is_memory_overcommit_enabled}
   */
   readonly isMemoryOvercommitEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_scsi_controller_enabled TemplateV2#is_scsi_controller_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_scsi_controller_enabled TemplateV2#is_scsi_controller_enabled}
   */
   readonly isScsiControllerEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_vcpu_hard_pinning_enabled TemplateV2#is_vcpu_hard_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_vcpu_hard_pinning_enabled TemplateV2#is_vcpu_hard_pinning_enabled}
   */
   readonly isVcpuHardPinningEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_vga_console_enabled TemplateV2#is_vga_console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_vga_console_enabled TemplateV2#is_vga_console_enabled}
   */
   readonly isVgaConsoleEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#machine_type TemplateV2#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#machine_type TemplateV2#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#memory_size_bytes TemplateV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#memory_size_bytes TemplateV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#name TemplateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#name TemplateV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#num_cores_per_socket TemplateV2#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#num_cores_per_socket TemplateV2#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#num_numa_nodes TemplateV2#num_numa_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#num_numa_nodes TemplateV2#num_numa_nodes}
   */
   readonly numNumaNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#num_sockets TemplateV2#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#num_sockets TemplateV2#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#num_threads_per_core TemplateV2#num_threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#num_threads_per_core TemplateV2#num_threads_per_core}
   */
   readonly numThreadsPerCore?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#power_state TemplateV2#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#power_state TemplateV2#power_state}
   */
   readonly powerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#protection_type TemplateV2#protection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#protection_type TemplateV2#protection_type}
   */
   readonly protectionType?: string;
   /**
   * apc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#apc_config TemplateV2#apc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#apc_config TemplateV2#apc_config}
   */
   readonly apcConfig?: TemplateV2TemplateVersionSpecVmSpecApcConfig[] | cdktf.IResolvable;
   /**
   * availability_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#availability_zone TemplateV2#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#availability_zone TemplateV2#availability_zone}
   */
   readonly availabilityZone?: TemplateV2TemplateVersionSpecVmSpecAvailabilityZone[] | cdktf.IResolvable;
   /**
   * boot_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#boot_config TemplateV2#boot_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#boot_config TemplateV2#boot_config}
   */
   readonly bootConfig?: TemplateV2TemplateVersionSpecVmSpecBootConfig[] | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#categories TemplateV2#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#categories TemplateV2#categories}
   */
   readonly categories?: TemplateV2TemplateVersionSpecVmSpecCategories[] | cdktf.IResolvable;
   /**
   * cd_roms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#cd_roms TemplateV2#cd_roms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#cd_roms TemplateV2#cd_roms}
   */
   readonly cdRoms?: TemplateV2TemplateVersionSpecVmSpecCdRoms[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#cluster TemplateV2#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#cluster TemplateV2#cluster}
   */
   readonly cluster?: TemplateV2TemplateVersionSpecVmSpecCluster[] | cdktf.IResolvable;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#disks TemplateV2#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#disks TemplateV2#disks}
   */
   readonly disks?: TemplateV2TemplateVersionSpecVmSpecDisks[] | cdktf.IResolvable;
   /**
   * gpus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#gpus TemplateV2#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#gpus TemplateV2#gpus}
   */
   readonly gpus?: TemplateV2TemplateVersionSpecVmSpecGpus[] | cdktf.IResolvable;
   /**
   * guest_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#guest_customization TemplateV2#guest_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#guest_customization TemplateV2#guest_customization}
   */
   readonly guestCustomization?: TemplateV2TemplateVersionSpecVmSpecGuestCustomization[] | cdktf.IResolvable;
   /**
   * guest_tools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#guest_tools TemplateV2#guest_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#guest_tools TemplateV2#guest_tools}
   */
   readonly guestTools?: TemplateV2TemplateVersionSpecVmSpecGuestTools[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#host TemplateV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#host TemplateV2#host}
   */
   readonly host?: TemplateV2TemplateVersionSpecVmSpecHost[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#nics TemplateV2#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#nics TemplateV2#nics}
   */
   readonly nics?: TemplateV2TemplateVersionSpecVmSpecNics[] | cdktf.IResolvable;
   /**
   * ownership_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#ownership_info TemplateV2#ownership_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#ownership_info TemplateV2#ownership_info}
   */
   readonly ownershipInfo?: TemplateV2TemplateVersionSpecVmSpecOwnershipInfo[] | cdktf.IResolvable;
   /**
   * pci_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#pci_devices TemplateV2#pci_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#pci_devices TemplateV2#pci_devices}
   */
   readonly pciDevices?: TemplateV2TemplateVersionSpecVmSpecPciDevices[] | cdktf.IResolvable;
   /**
   * protection_policy_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#protection_policy_state TemplateV2#protection_policy_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#protection_policy_state TemplateV2#protection_policy_state}
   */
   readonly protectionPolicyState?: TemplateV2TemplateVersionSpecVmSpecProtectionPolicyState[] | cdktf.IResolvable;
   /**
   * serial_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#serial_ports TemplateV2#serial_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#serial_ports TemplateV2#serial_ports}
   */
   readonly serialPorts?: TemplateV2TemplateVersionSpecVmSpecSerialPorts[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#source TemplateV2#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#source TemplateV2#source}
   */
   readonly source?: TemplateV2TemplateVersionSpecVmSpecSource[] | cdktf.IResolvable;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#storage_config TemplateV2#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#storage_config TemplateV2#storage_config}
   */
   readonly storageConfig?: TemplateV2TemplateVersionSpecVmSpecStorageConfig[] | cdktf.IResolvable;
   /**
   * vtpm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vtpm_config TemplateV2#vtpm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vtpm_config TemplateV2#vtpm_config}
   */
   readonly vtpmConfig?: TemplateV2TemplateVersionSpecVmSpecVtpmConfig[] | cdktf.IResolvable;
 }
@@ -10250,41 +10250,41 @@ export class TemplateV2TemplateVersionSpecVmSpecList extends cdktf.ComplexList {
 }
 export interface TemplateV2TemplateVersionSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_active_version TemplateV2#is_active_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_active_version TemplateV2#is_active_version}
   */
   readonly isActiveVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_gc_override_enabled TemplateV2#is_gc_override_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_gc_override_enabled TemplateV2#is_gc_override_enabled}
   */
   readonly isGcOverrideEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#version_description TemplateV2#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#version_description TemplateV2#version_description}
   */
   readonly versionDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#version_name TemplateV2#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#version_name TemplateV2#version_name}
   */
   readonly versionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#version_source_discriminator TemplateV2#version_source_discriminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#version_source_discriminator TemplateV2#version_source_discriminator}
   */
   readonly versionSourceDiscriminator?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#created_by TemplateV2#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#created_by TemplateV2#created_by}
   */
   readonly createdBy?: TemplateV2TemplateVersionSpecCreatedBy[] | cdktf.IResolvable;
   /**
   * version_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#version_source TemplateV2#version_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#version_source TemplateV2#version_source}
   */
   readonly versionSource: TemplateV2TemplateVersionSpecVersionSource;
   /**
   * vm_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#vm_spec TemplateV2#vm_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#vm_spec TemplateV2#vm_spec}
   */
   readonly vmSpec?: TemplateV2TemplateVersionSpecVmSpec[] | cdktf.IResolvable;
 }
@@ -10589,7 +10589,7 @@ export class TemplateV2TemplateVersionSpecOutputReference extends cdktf.ComplexO
 }
 export interface TemplateV2UpdatedByAdditionalAttributesValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map TemplateV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map TemplateV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -10705,33 +10705,33 @@ export class TemplateV2UpdatedByAdditionalAttributesValueMapOfStringsList extend
 }
 export interface TemplateV2UpdatedByAdditionalAttributesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#boolean TemplateV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#boolean TemplateV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer TemplateV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer TemplateV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#integer_list TemplateV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#integer_list TemplateV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#object TemplateV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#object TemplateV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string TemplateV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string TemplateV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#string_list TemplateV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#string_list TemplateV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#map_of_strings TemplateV2#map_of_strings}
   */
   readonly mapOfStrings?: TemplateV2UpdatedByAdditionalAttributesValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -11021,13 +11021,13 @@ export class TemplateV2UpdatedByAdditionalAttributesValueList extends cdktf.Comp
 }
 export interface TemplateV2UpdatedByAdditionalAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#name TemplateV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#name TemplateV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#value TemplateV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#value TemplateV2#value}
   */
   readonly value?: TemplateV2UpdatedByAdditionalAttributesValue[] | cdktf.IResolvable;
 }
@@ -11172,69 +11172,69 @@ export class TemplateV2UpdatedByAdditionalAttributesList extends cdktf.ComplexLi
 }
 export interface TemplateV2UpdatedBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#creation_type TemplateV2#creation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#creation_type TemplateV2#creation_type}
   */
   readonly creationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#description TemplateV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#description TemplateV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#display_name TemplateV2#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#display_name TemplateV2#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#email_id TemplateV2#email_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#email_id TemplateV2#email_id}
   */
   readonly emailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#first_name TemplateV2#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#first_name TemplateV2#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#idp_id TemplateV2#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#idp_id TemplateV2#idp_id}
   */
   readonly idpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#is_force_reset_password_enabled TemplateV2#is_force_reset_password_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#is_force_reset_password_enabled TemplateV2#is_force_reset_password_enabled}
   */
   readonly isForceResetPasswordEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#last_name TemplateV2#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#last_name TemplateV2#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#locale TemplateV2#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#locale TemplateV2#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#middle_initial TemplateV2#middle_initial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#middle_initial TemplateV2#middle_initial}
   */
   readonly middleInitial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#password TemplateV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#password TemplateV2#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#region TemplateV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#region TemplateV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#status TemplateV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#status TemplateV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#user_type TemplateV2#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#user_type TemplateV2#user_type}
   */
   readonly userType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#username TemplateV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#username TemplateV2#username}
   */
   readonly username: string;
   /**
   * additional_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/template_v2#additional_attributes TemplateV2#additional_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/template_v2#additional_attributes TemplateV2#additional_attributes}
   */
   readonly additionalAttributes?: TemplateV2UpdatedByAdditionalAttributes[] | cdktf.IResolvable;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SelfServiceAppCustomActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#action_name SelfServiceAppCustomAction#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#action_name SelfServiceAppCustomAction#action_name}
   */
   readonly actionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#app_name SelfServiceAppCustomAction#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#app_name SelfServiceAppCustomAction#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#app_uuid SelfServiceAppCustomAction#app_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#app_uuid SelfServiceAppCustomAction#app_uuid}
   */
   readonly appUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#id SelfServiceAppCustomAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#id SelfServiceAppCustomAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#runlog_uuid SelfServiceAppCustomAction#runlog_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#runlog_uuid SelfServiceAppCustomAction#runlog_uuid}
   */
   readonly runlogUuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action nutanix_self_service_app_custom_action}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action nutanix_self_service_app_custom_action}
 */
 export class SelfServiceAppCustomAction extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SelfServiceAppCustomAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SelfServiceAppCustomAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelfServiceAppCustomAction to import
-  * @param importFromId The id of the existing SelfServiceAppCustomAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelfServiceAppCustomAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelfServiceAppCustomAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SelfServiceAppCustomAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_custom_action nutanix_self_service_app_custom_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_custom_action nutanix_self_service_app_custom_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SelfServiceAppCustomAction extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_self_service_app_custom_action',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

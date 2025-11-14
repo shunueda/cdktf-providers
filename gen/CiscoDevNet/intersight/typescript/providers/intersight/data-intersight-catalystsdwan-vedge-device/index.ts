@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCatalystsdwanVedgeDeviceConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#account_moid DataIntersightCatalystsdwanVedgeDevice#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#account_moid DataIntersightCatalystsdwanVedgeDevice#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,71 +22,71 @@ export interface DataIntersightCatalystsdwanVedgeDeviceConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Catalyst SDWAN device config status message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#config_status_message DataIntersightCatalystsdwanVedgeDevice#config_status_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#config_status_message DataIntersightCatalystsdwanVedgeDevice#config_status_message}
   */
   readonly configStatusMessage?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#create_time DataIntersightCatalystsdwanVedgeDevice#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#create_time DataIntersightCatalystsdwanVedgeDevice#create_time}
   */
   readonly createTime?: string;
   /**
   * The Catalyst SDWAN device id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#device_id DataIntersightCatalystsdwanVedgeDevice#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#device_id DataIntersightCatalystsdwanVedgeDevice#device_id}
   */
   readonly deviceId?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#device_mo_id DataIntersightCatalystsdwanVedgeDevice#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#device_mo_id DataIntersightCatalystsdwanVedgeDevice#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Catalyst SDWAN device state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#device_state DataIntersightCatalystsdwanVedgeDevice#device_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#device_state DataIntersightCatalystsdwanVedgeDevice#device_state}
   */
   readonly deviceState?: string;
   /**
   * The categorization of the device type. Optional parameter to categorize devices by product type. For example, Meraki device types are wireless, appliance, switch, systemsManager, camera, cellularGateway, sensor, and secureConnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#device_type DataIntersightCatalystsdwanVedgeDevice#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#device_type DataIntersightCatalystsdwanVedgeDevice#device_type}
   */
   readonly deviceType?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#dn DataIntersightCatalystsdwanVedgeDevice#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#dn DataIntersightCatalystsdwanVedgeDevice#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#domain_group_moid DataIntersightCatalystsdwanVedgeDevice#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#domain_group_moid DataIntersightCatalystsdwanVedgeDevice#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The hardware version of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#hardware_version DataIntersightCatalystsdwanVedgeDevice#hardware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#hardware_version DataIntersightCatalystsdwanVedgeDevice#hardware_version}
   */
   readonly hardwareVersion?: string;
   /**
   * The Catalyst SDWAN device host name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#host_name DataIntersightCatalystsdwanVedgeDevice#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#host_name DataIntersightCatalystsdwanVedgeDevice#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#id DataIntersightCatalystsdwanVedgeDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#id DataIntersightCatalystsdwanVedgeDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,187 +95,187 @@ export interface DataIntersightCatalystsdwanVedgeDeviceConfig extends cdktf.Terr
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#is_upgraded DataIntersightCatalystsdwanVedgeDevice#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#is_upgraded DataIntersightCatalystsdwanVedgeDevice#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#mod_time DataIntersightCatalystsdwanVedgeDevice#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#mod_time DataIntersightCatalystsdwanVedgeDevice#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#model DataIntersightCatalystsdwanVedgeDevice#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#model DataIntersightCatalystsdwanVedgeDevice#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * Administrator defined name for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#name DataIntersightCatalystsdwanVedgeDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#name DataIntersightCatalystsdwanVedgeDevice#name}
   */
   readonly name?: string;
   /**
   * Current running software version of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#nr_version DataIntersightCatalystsdwanVedgeDevice#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#nr_version DataIntersightCatalystsdwanVedgeDevice#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#owners DataIntersightCatalystsdwanVedgeDevice#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#owners DataIntersightCatalystsdwanVedgeDevice#owners}
   */
   readonly owners?: string[];
   /**
   * The Catalyst SDWAN device platform family.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#platform_family DataIntersightCatalystsdwanVedgeDevice#platform_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#platform_family DataIntersightCatalystsdwanVedgeDevice#platform_family}
   */
   readonly platformFamily?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#presence DataIntersightCatalystsdwanVedgeDevice#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#presence DataIntersightCatalystsdwanVedgeDevice#presence}
   */
   readonly presence?: string;
   /**
   * The Catalyst SDWAN device reachability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#reachability DataIntersightCatalystsdwanVedgeDevice#reachability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#reachability DataIntersightCatalystsdwanVedgeDevice#reachability}
   */
   readonly reachability?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#revision DataIntersightCatalystsdwanVedgeDevice#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#revision DataIntersightCatalystsdwanVedgeDevice#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#rn DataIntersightCatalystsdwanVedgeDevice#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#rn DataIntersightCatalystsdwanVedgeDevice#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#serial DataIntersightCatalystsdwanVedgeDevice#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#serial DataIntersightCatalystsdwanVedgeDevice#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#shared_scope DataIntersightCatalystsdwanVedgeDevice#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#shared_scope DataIntersightCatalystsdwanVedgeDevice#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Catalyst SDWAN device site id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#site_id DataIntersightCatalystsdwanVedgeDevice#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#site_id DataIntersightCatalystsdwanVedgeDevice#site_id}
   */
   readonly siteId?: string;
   /**
   * The Catalyst SDWAN device site name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#site_name DataIntersightCatalystsdwanVedgeDevice#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#site_name DataIntersightCatalystsdwanVedgeDevice#site_name}
   */
   readonly siteName?: string;
   /**
   * The Catalyst SDWAN device sp organization name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#sp_organization_name DataIntersightCatalystsdwanVedgeDevice#sp_organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#sp_organization_name DataIntersightCatalystsdwanVedgeDevice#sp_organization_name}
   */
   readonly spOrganizationName?: string;
   /**
   * The Catalyst SDWAN device system IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#system_ip DataIntersightCatalystsdwanVedgeDevice#system_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#system_ip DataIntersightCatalystsdwanVedgeDevice#system_ip}
   */
   readonly systemIp?: string;
   /**
   * The Catalyst SDWAN device template status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#template_status DataIntersightCatalystsdwanVedgeDevice#template_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#template_status DataIntersightCatalystsdwanVedgeDevice#template_status}
   */
   readonly templateStatus?: string;
   /**
   * Unique identity of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#uuid DataIntersightCatalystsdwanVedgeDevice#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#uuid DataIntersightCatalystsdwanVedgeDevice#uuid}
   */
   readonly uuid?: string;
   /**
   * The Catalyst SDWAN device validity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#validity DataIntersightCatalystsdwanVedgeDevice#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#validity DataIntersightCatalystsdwanVedgeDevice#validity}
   */
   readonly validity?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#vendor DataIntersightCatalystsdwanVedgeDevice#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#vendor DataIntersightCatalystsdwanVedgeDevice#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#ancestors DataIntersightCatalystsdwanVedgeDevice#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#ancestors DataIntersightCatalystsdwanVedgeDevice#ancestors}
   */
   readonly ancestors?: DataIntersightCatalystsdwanVedgeDeviceAncestors[] | cdktf.IResolvable;
   /**
   * device_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#device_location DataIntersightCatalystsdwanVedgeDevice#device_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#device_location DataIntersightCatalystsdwanVedgeDevice#device_location}
   */
   readonly deviceLocation?: DataIntersightCatalystsdwanVedgeDeviceDeviceLocation;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#parent DataIntersightCatalystsdwanVedgeDevice#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#parent DataIntersightCatalystsdwanVedgeDevice#parent}
   */
   readonly parent?: DataIntersightCatalystsdwanVedgeDeviceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#permission_resources DataIntersightCatalystsdwanVedgeDevice#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#permission_resources DataIntersightCatalystsdwanVedgeDevice#permission_resources}
   */
   readonly permissionResources?: DataIntersightCatalystsdwanVedgeDevicePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#previous_fru DataIntersightCatalystsdwanVedgeDevice#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#previous_fru DataIntersightCatalystsdwanVedgeDevice#previous_fru}
   */
   readonly previousFru?: DataIntersightCatalystsdwanVedgeDevicePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#registered_device DataIntersightCatalystsdwanVedgeDevice#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#registered_device DataIntersightCatalystsdwanVedgeDevice#registered_device}
   */
   readonly registeredDevice?: DataIntersightCatalystsdwanVedgeDeviceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#tags DataIntersightCatalystsdwanVedgeDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#tags DataIntersightCatalystsdwanVedgeDevice#tags}
   */
   readonly tags?: DataIntersightCatalystsdwanVedgeDeviceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#version_context DataIntersightCatalystsdwanVedgeDevice#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#version_context DataIntersightCatalystsdwanVedgeDevice#version_context}
   */
   readonly versionContext?: DataIntersightCatalystsdwanVedgeDeviceVersionContext;
 }
@@ -1122,6 +1122,11 @@ export class DataIntersightCatalystsdwanVedgeDeviceResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1758,7 +1763,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceResultsList extends cdktf.Com
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1766,19 +1771,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1791,7 +1796,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2023,13 +2028,13 @@ export class DataIntersightCatalystsdwanVedgeDeviceAncestorsList extends cdktf.C
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceDeviceLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The information about the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#address DataIntersightCatalystsdwanVedgeDevice#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#address DataIntersightCatalystsdwanVedgeDevice#address}
   */
   readonly address?: string;
   /**
@@ -2037,26 +2042,26 @@ export interface DataIntersightCatalystsdwanVedgeDeviceDeviceLocation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * Location latitude in decimal degrees format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#latitude DataIntersightCatalystsdwanVedgeDevice#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#latitude DataIntersightCatalystsdwanVedgeDevice#latitude}
   */
   readonly latitude?: number;
   /**
   * Location longitude in decimal degrees format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#longitude DataIntersightCatalystsdwanVedgeDevice#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#longitude DataIntersightCatalystsdwanVedgeDevice#longitude}
   */
   readonly longitude?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
 }
@@ -2285,7 +2290,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceDeviceLocationOutputReference
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2293,19 +2298,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2318,7 +2323,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2518,7 +2523,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceParentOutputReference extends
 }
 export interface DataIntersightCatalystsdwanVedgeDevicePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2526,19 +2531,19 @@ export interface DataIntersightCatalystsdwanVedgeDevicePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2551,7 +2556,7 @@ export interface DataIntersightCatalystsdwanVedgeDevicePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2783,7 +2788,7 @@ export class DataIntersightCatalystsdwanVedgeDevicePermissionResourcesList exten
 }
 export interface DataIntersightCatalystsdwanVedgeDevicePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2791,19 +2796,19 @@ export interface DataIntersightCatalystsdwanVedgeDevicePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2816,7 +2821,7 @@ export interface DataIntersightCatalystsdwanVedgeDevicePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3016,7 +3021,7 @@ export class DataIntersightCatalystsdwanVedgeDevicePreviousFruOutputReference ex
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3024,19 +3029,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3049,7 +3054,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3249,7 +3254,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceRegisteredDeviceOutputReferen
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3257,19 +3262,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3282,7 +3287,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3514,7 +3519,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitionsList e
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3522,19 +3527,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3547,7 +3552,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3747,45 +3752,51 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsDefinitionOutputReference
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#key DataIntersightCatalystsdwanVedgeDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#key DataIntersightCatalystsdwanVedgeDevice#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#propagated DataIntersightCatalystsdwanVedgeDevice#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#propagated DataIntersightCatalystsdwanVedgeDevice#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#sys_tag DataIntersightCatalystsdwanVedgeDevice#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#type DataIntersightCatalystsdwanVedgeDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#type DataIntersightCatalystsdwanVedgeDevice#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#value DataIntersightCatalystsdwanVedgeDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#value DataIntersightCatalystsdwanVedgeDevice#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#ancestor_definitions DataIntersightCatalystsdwanVedgeDevice#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#ancestor_definitions DataIntersightCatalystsdwanVedgeDevice#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#definition DataIntersightCatalystsdwanVedgeDevice#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#definition DataIntersightCatalystsdwanVedgeDevice#definition}
   */
   readonly definition?: DataIntersightCatalystsdwanVedgeDeviceTagsDefinition;
 }
@@ -3799,6 +3810,7 @@ export function dataIntersightCatalystsdwanVedgeDeviceTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCatalystsdwanVedgeDeviceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3827,6 +3839,12 @@ export function dataIntersightCatalystsdwanVedgeDeviceTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3893,6 +3911,10 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3919,6 +3941,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3934,6 +3957,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3987,6 +4011,22 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4075,7 +4115,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceTagsList extends cdktf.Comple
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4083,19 +4123,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4108,7 +4148,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4340,7 +4380,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceVersionContextInterestedMosLi
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4348,19 +4388,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#moid DataIntersightCatalystsdwanVedgeDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4373,7 +4413,7 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#selector DataIntersightCatalystsdwanVedgeDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4573,7 +4613,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceVersionContextRefMoOutputRefe
 }
 export interface DataIntersightCatalystsdwanVedgeDeviceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#additional_properties DataIntersightCatalystsdwanVedgeDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4581,32 +4621,32 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#class_id DataIntersightCatalystsdwanVedgeDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#marked_for_deletion DataIntersightCatalystsdwanVedgeDevice#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#marked_for_deletion DataIntersightCatalystsdwanVedgeDevice#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#nr_version DataIntersightCatalystsdwanVedgeDevice#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#nr_version DataIntersightCatalystsdwanVedgeDevice#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#object_type DataIntersightCatalystsdwanVedgeDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#timestamp DataIntersightCatalystsdwanVedgeDevice#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#timestamp DataIntersightCatalystsdwanVedgeDevice#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4617,19 +4657,19 @@ export interface DataIntersightCatalystsdwanVedgeDeviceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#version_type DataIntersightCatalystsdwanVedgeDevice#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#version_type DataIntersightCatalystsdwanVedgeDevice#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#interested_mos DataIntersightCatalystsdwanVedgeDevice#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#interested_mos DataIntersightCatalystsdwanVedgeDevice#interested_mos}
   */
   readonly interestedMos?: DataIntersightCatalystsdwanVedgeDeviceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#ref_mo DataIntersightCatalystsdwanVedgeDevice#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#ref_mo DataIntersightCatalystsdwanVedgeDevice#ref_mo}
   */
   readonly refMo?: DataIntersightCatalystsdwanVedgeDeviceVersionContextRefMo;
 }
@@ -4945,7 +4985,7 @@ export class DataIntersightCatalystsdwanVedgeDeviceVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device intersight_catalystsdwan_vedge_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device intersight_catalystsdwan_vedge_device}
 */
 export class DataIntersightCatalystsdwanVedgeDevice extends cdktf.TerraformDataSource {
 
@@ -4961,7 +5001,7 @@ export class DataIntersightCatalystsdwanVedgeDevice extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightCatalystsdwanVedgeDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCatalystsdwanVedgeDevice to import
-  * @param importFromId The id of the existing DataIntersightCatalystsdwanVedgeDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCatalystsdwanVedgeDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCatalystsdwanVedgeDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4973,7 +5013,7 @@ export class DataIntersightCatalystsdwanVedgeDevice extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/catalystsdwan_vedge_device intersight_catalystsdwan_vedge_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_vedge_device intersight_catalystsdwan_vedge_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4984,8 +5024,8 @@ export class DataIntersightCatalystsdwanVedgeDevice extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_catalystsdwan_vedge_device',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

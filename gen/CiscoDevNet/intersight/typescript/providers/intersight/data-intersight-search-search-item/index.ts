@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSearchSearchItemConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#account_moid DataIntersightSearchSearchItem#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#account_moid DataIntersightSearchSearchItem#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -23,23 +23,23 @@ export interface DataIntersightSearchSearchItemConfig extends cdktf.TerraformMet
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#create_time DataIntersightSearchSearchItem#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#create_time DataIntersightSearchSearchItem#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#domain_group_moid DataIntersightSearchSearchItem#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#domain_group_moid DataIntersightSearchSearchItem#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#id DataIntersightSearchSearchItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#id DataIntersightSearchSearchItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,13 +48,13 @@ export interface DataIntersightSearchSearchItemConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#mod_time DataIntersightSearchSearchItem#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#mod_time DataIntersightSearchSearchItem#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
@@ -62,48 +62,48 @@ export interface DataIntersightSearchSearchItemConfig extends cdktf.TerraformMet
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#owners DataIntersightSearchSearchItem#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#owners DataIntersightSearchSearchItem#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#shared_scope DataIntersightSearchSearchItem#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#shared_scope DataIntersightSearchSearchItem#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#ancestors DataIntersightSearchSearchItem#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#ancestors DataIntersightSearchSearchItem#ancestors}
   */
   readonly ancestors?: DataIntersightSearchSearchItemAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#parent DataIntersightSearchSearchItem#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#parent DataIntersightSearchSearchItem#parent}
   */
   readonly parent?: DataIntersightSearchSearchItemParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#permission_resources DataIntersightSearchSearchItem#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#permission_resources DataIntersightSearchSearchItem#permission_resources}
   */
   readonly permissionResources?: DataIntersightSearchSearchItemPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#tags DataIntersightSearchSearchItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#tags DataIntersightSearchSearchItem#tags}
   */
   readonly tags?: DataIntersightSearchSearchItemTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#version_context DataIntersightSearchSearchItem#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#version_context DataIntersightSearchSearchItem#version_context}
   */
   readonly versionContext?: DataIntersightSearchSearchItemVersionContext;
 }
@@ -660,6 +660,11 @@ export class DataIntersightSearchSearchItemResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1148,7 +1153,7 @@ export class DataIntersightSearchSearchItemResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightSearchSearchItemAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1156,19 +1161,19 @@ export interface DataIntersightSearchSearchItemAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1181,7 +1186,7 @@ export interface DataIntersightSearchSearchItemAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -1413,7 +1418,7 @@ export class DataIntersightSearchSearchItemAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightSearchSearchItemParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1421,19 +1426,19 @@ export interface DataIntersightSearchSearchItemParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1446,7 +1451,7 @@ export interface DataIntersightSearchSearchItemParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -1646,7 +1651,7 @@ export class DataIntersightSearchSearchItemParentOutputReference extends cdktf.C
 }
 export interface DataIntersightSearchSearchItemPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1654,19 +1659,19 @@ export interface DataIntersightSearchSearchItemPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1679,7 +1684,7 @@ export interface DataIntersightSearchSearchItemPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -1911,7 +1916,7 @@ export class DataIntersightSearchSearchItemPermissionResourcesList extends cdktf
 }
 export interface DataIntersightSearchSearchItemTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1919,19 +1924,19 @@ export interface DataIntersightSearchSearchItemTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1944,7 +1949,7 @@ export interface DataIntersightSearchSearchItemTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -2176,7 +2181,7 @@ export class DataIntersightSearchSearchItemTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightSearchSearchItemTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2184,19 +2189,19 @@ export interface DataIntersightSearchSearchItemTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2209,7 +2214,7 @@ export interface DataIntersightSearchSearchItemTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -2409,45 +2414,51 @@ export class DataIntersightSearchSearchItemTagsDefinitionOutputReference extends
 }
 export interface DataIntersightSearchSearchItemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#key DataIntersightSearchSearchItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#key DataIntersightSearchSearchItem#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#propagated DataIntersightSearchSearchItem#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#propagated DataIntersightSearchSearchItem#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#sys_tag DataIntersightSearchSearchItem#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#type DataIntersightSearchSearchItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#type DataIntersightSearchSearchItem#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#value DataIntersightSearchSearchItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#value DataIntersightSearchSearchItem#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#ancestor_definitions DataIntersightSearchSearchItem#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#ancestor_definitions DataIntersightSearchSearchItem#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSearchSearchItemTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#definition DataIntersightSearchSearchItem#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#definition DataIntersightSearchSearchItem#definition}
   */
   readonly definition?: DataIntersightSearchSearchItemTagsDefinition;
 }
@@ -2461,6 +2472,7 @@ export function dataIntersightSearchSearchItemTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSearchSearchItemTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2489,6 +2501,12 @@ export function dataIntersightSearchSearchItemTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2555,6 +2573,10 @@ export class DataIntersightSearchSearchItemTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2581,6 +2603,7 @@ export class DataIntersightSearchSearchItemTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2596,6 +2619,7 @@ export class DataIntersightSearchSearchItemTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2649,6 +2673,22 @@ export class DataIntersightSearchSearchItemTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2737,7 +2777,7 @@ export class DataIntersightSearchSearchItemTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSearchSearchItemVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2745,19 +2785,19 @@ export interface DataIntersightSearchSearchItemVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2770,7 +2810,7 @@ export interface DataIntersightSearchSearchItemVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -3002,7 +3042,7 @@ export class DataIntersightSearchSearchItemVersionContextInterestedMosList exten
 }
 export interface DataIntersightSearchSearchItemVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3010,19 +3050,19 @@ export interface DataIntersightSearchSearchItemVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#moid DataIntersightSearchSearchItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3035,7 +3075,7 @@ export interface DataIntersightSearchSearchItemVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#selector DataIntersightSearchSearchItem#selector}
   */
   readonly selector?: string;
 }
@@ -3235,7 +3275,7 @@ export class DataIntersightSearchSearchItemVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightSearchSearchItemVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#additional_properties DataIntersightSearchSearchItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3243,32 +3283,32 @@ export interface DataIntersightSearchSearchItemVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#class_id DataIntersightSearchSearchItem#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#marked_for_deletion DataIntersightSearchSearchItem#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#marked_for_deletion DataIntersightSearchSearchItem#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#nr_version DataIntersightSearchSearchItem#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#nr_version DataIntersightSearchSearchItem#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#object_type DataIntersightSearchSearchItem#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#timestamp DataIntersightSearchSearchItem#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#timestamp DataIntersightSearchSearchItem#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3279,19 +3319,19 @@ export interface DataIntersightSearchSearchItemVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#version_type DataIntersightSearchSearchItem#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#version_type DataIntersightSearchSearchItem#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#interested_mos DataIntersightSearchSearchItem#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#interested_mos DataIntersightSearchSearchItem#interested_mos}
   */
   readonly interestedMos?: DataIntersightSearchSearchItemVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#ref_mo DataIntersightSearchSearchItem#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#ref_mo DataIntersightSearchSearchItem#ref_mo}
   */
   readonly refMo?: DataIntersightSearchSearchItemVersionContextRefMo;
 }
@@ -3607,7 +3647,7 @@ export class DataIntersightSearchSearchItemVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item intersight_search_search_item}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item intersight_search_search_item}
 */
 export class DataIntersightSearchSearchItem extends cdktf.TerraformDataSource {
 
@@ -3623,7 +3663,7 @@ export class DataIntersightSearchSearchItem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSearchSearchItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSearchSearchItem to import
-  * @param importFromId The id of the existing DataIntersightSearchSearchItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSearchSearchItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSearchSearchItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3635,7 +3675,7 @@ export class DataIntersightSearchSearchItem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/search_search_item intersight_search_search_item} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/search_search_item intersight_search_search_item} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3646,8 +3686,8 @@ export class DataIntersightSearchSearchItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_search_search_item',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

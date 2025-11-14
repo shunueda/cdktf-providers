@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ResourceSlaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#account_id ResourceSla#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#account_id ResourceSla#account_id}
   */
   readonly accountId?: string;
   /**
   * The ID of the Prefect resource to set the SLA for, in the format of `prefect.<resource_type>.<resource_id>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#resource_id ResourceSla#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#resource_id ResourceSla#resource_id}
   */
   readonly resourceId: string;
   /**
   * List of SLAs to set for the resource. Note that this is a declarative list, and any SLAs that are not defined in this list will be removed from the resource (if they existed previously). Existing SLAs will be updated to match the definitions in this list. See documentation on [Defining SLAs](https://docs.prefect.io/v3/automate/events/slas#defining-slas) for more information, as well as the [API specification](https://app.prefect.cloud/api/docs#tag/SLAs/operation/apply_slas_api_accounts__account_id__workspaces__workspace_id__slas_apply_resource_slas__resource_id__post) for the SLA payload structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#slas ResourceSla#slas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#slas ResourceSla#slas}
   */
   readonly slas: ResourceSlaSlas[] | cdktf.IResolvable;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#workspace_id ResourceSla#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#workspace_id ResourceSla#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -36,55 +36,55 @@ export interface ResourceSlaSlas {
   /**
   * (TimeToCompletion SLA) The maximum flow run duration in seconds allowed before the SLA is violated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#duration ResourceSla#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#duration ResourceSla#duration}
   */
   readonly duration?: number;
   /**
   * Whether the SLA is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#enabled ResourceSla#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#enabled ResourceSla#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * (Freshness SLA) The event to expect for this SLA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#expected_event ResourceSla#expected_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#expected_event ResourceSla#expected_event}
   */
   readonly expectedEvent?: string;
   /**
   * Name of the SLA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#name ResourceSla#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#name ResourceSla#name}
   */
   readonly name: string;
   /**
   * Resource that owns this SLA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#owner_resource ResourceSla#owner_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#owner_resource ResourceSla#owner_resource}
   */
   readonly ownerResource?: string;
   /**
   * (Freshness SLA) The resource to match for this SLA. Use `jsonencode()`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#resource_match ResourceSla#resource_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#resource_match ResourceSla#resource_match}
   */
   readonly resourceMatch?: string;
   /**
   * Severity level of the SLA. Can be one of `minor`, `low`, `moderate`, `high`, or `critical`. Defaults to `high`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#severity ResourceSla#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#severity ResourceSla#severity}
   */
   readonly severity?: string;
   /**
   * (Frequency SLA) The amount of time after a flow run is considered stale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#stale_after ResourceSla#stale_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#stale_after ResourceSla#stale_after}
   */
   readonly staleAfter?: number;
   /**
   * (Freshness SLA or Lateness SLA) The amount of time after a flow run is considered stale or late.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#within ResourceSla#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#within ResourceSla#within}
   */
   readonly within?: number;
 }
@@ -429,7 +429,7 @@ export class ResourceSlaSlasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla prefect_resource_sla}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla prefect_resource_sla}
 */
 export class ResourceSla extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class ResourceSla extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceSla resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceSla to import
-  * @param importFromId The id of the existing ResourceSla that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceSla that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceSla to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class ResourceSla extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/resources/resource_sla prefect_resource_sla} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/resource_sla prefect_resource_sla} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class ResourceSla extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_resource_sla',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0',
-        providerVersionConstraint: '2.90.0'
+        providerVersion: '2.90.1',
+        providerVersionConstraint: '2.90.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourcepoolMembershipReservationConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#account_moid DataIntersightResourcepoolMembershipReservation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#account_moid DataIntersightResourcepoolMembershipReservation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightResourcepoolMembershipReservationConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#create_time DataIntersightResourcepoolMembershipReservation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#create_time DataIntersightResourcepoolMembershipReservation#create_time}
   */
   readonly createTime?: string;
   /**
   * Details of the use case for which the reservation was created, such as decommissioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#description DataIntersightResourcepoolMembershipReservation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#description DataIntersightResourcepoolMembershipReservation#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#domain_group_moid DataIntersightResourcepoolMembershipReservation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#domain_group_moid DataIntersightResourcepoolMembershipReservation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The resource reservation includes an expiration date and a timestamp indicating when this management object will be cleared. The expiration date is set during the decommissioning process and is maintained for a period of 3 months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#expiration DataIntersightResourcepoolMembershipReservation#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#expiration DataIntersightResourcepoolMembershipReservation#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#id DataIntersightResourcepoolMembershipReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#id DataIntersightResourcepoolMembershipReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface DataIntersightResourcepoolMembershipReservationConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#mod_time DataIntersightResourcepoolMembershipReservation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#mod_time DataIntersightResourcepoolMembershipReservation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#owners DataIntersightResourcepoolMembershipReservation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#owners DataIntersightResourcepoolMembershipReservation#owners}
   */
   readonly owners?: string[];
   /**
   * The unique identification of the resource is based on the resource OData string, which is mentioned as part of the ReservationSelector. For example, 'Serial eq 'EM6259AE6B'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#reservation_selector DataIntersightResourcepoolMembershipReservation#reservation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#reservation_selector DataIntersightResourcepoolMembershipReservation#reservation_selector}
   */
   readonly reservationSelector?: string;
   /**
   * The type of resource that is placed into resource groups or pools. Resource Type can be either 'compute.Blade' or 'compute.RackUnit' for pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#resource_type DataIntersightResourcepoolMembershipReservation#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#resource_type DataIntersightResourcepoolMembershipReservation#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#shared_scope DataIntersightResourcepoolMembershipReservation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#shared_scope DataIntersightResourcepoolMembershipReservation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -105,55 +105,55 @@ export interface DataIntersightResourcepoolMembershipReservationConfig extends c
   * * `Failed` - A reservation is changed to Failed status if the validations on resources, resource groups fails.
   * * `Finished` - A reservation is changed to Finished status if the validations on resources, resource groups are successful. The resource moids in reservation will be added to resource groups using OData filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#status DataIntersightResourcepoolMembershipReservation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#status DataIntersightResourcepoolMembershipReservation#status}
   */
   readonly status?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#account DataIntersightResourcepoolMembershipReservation#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#account DataIntersightResourcepoolMembershipReservation#account}
   */
   readonly account?: DataIntersightResourcepoolMembershipReservationAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#ancestors DataIntersightResourcepoolMembershipReservation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#ancestors DataIntersightResourcepoolMembershipReservation#ancestors}
   */
   readonly ancestors?: DataIntersightResourcepoolMembershipReservationAncestors[] | cdktf.IResolvable;
   /**
   * identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#identity DataIntersightResourcepoolMembershipReservation#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#identity DataIntersightResourcepoolMembershipReservation#identity}
   */
   readonly identity?: DataIntersightResourcepoolMembershipReservationIdentity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#parent DataIntersightResourcepoolMembershipReservation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#parent DataIntersightResourcepoolMembershipReservation#parent}
   */
   readonly parent?: DataIntersightResourcepoolMembershipReservationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#permission_resources DataIntersightResourcepoolMembershipReservation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#permission_resources DataIntersightResourcepoolMembershipReservation#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourcepoolMembershipReservationPermissionResources[] | cdktf.IResolvable;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#pools DataIntersightResourcepoolMembershipReservation#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#pools DataIntersightResourcepoolMembershipReservation#pools}
   */
   readonly pools?: DataIntersightResourcepoolMembershipReservationPools[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#tags DataIntersightResourcepoolMembershipReservation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#tags DataIntersightResourcepoolMembershipReservation#tags}
   */
   readonly tags?: DataIntersightResourcepoolMembershipReservationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#version_context DataIntersightResourcepoolMembershipReservation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#version_context DataIntersightResourcepoolMembershipReservation#version_context}
   */
   readonly versionContext?: DataIntersightResourcepoolMembershipReservationVersionContext;
 }
@@ -995,6 +995,11 @@ export class DataIntersightResourcepoolMembershipReservationResultsTagsOutputRef
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1526,7 +1531,7 @@ export class DataIntersightResourcepoolMembershipReservationResultsList extends 
 }
 export interface DataIntersightResourcepoolMembershipReservationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1534,19 +1539,19 @@ export interface DataIntersightResourcepoolMembershipReservationAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1559,7 +1564,7 @@ export interface DataIntersightResourcepoolMembershipReservationAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -1759,7 +1764,7 @@ export class DataIntersightResourcepoolMembershipReservationAccountOutputReferen
 }
 export interface DataIntersightResourcepoolMembershipReservationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1767,19 +1772,19 @@ export interface DataIntersightResourcepoolMembershipReservationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1792,7 +1797,7 @@ export interface DataIntersightResourcepoolMembershipReservationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2024,7 +2029,7 @@ export class DataIntersightResourcepoolMembershipReservationAncestorsList extend
 }
 export interface DataIntersightResourcepoolMembershipReservationIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2032,19 +2037,19 @@ export interface DataIntersightResourcepoolMembershipReservationIdentity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2057,7 +2062,7 @@ export interface DataIntersightResourcepoolMembershipReservationIdentity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2257,7 +2262,7 @@ export class DataIntersightResourcepoolMembershipReservationIdentityOutputRefere
 }
 export interface DataIntersightResourcepoolMembershipReservationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2265,19 +2270,19 @@ export interface DataIntersightResourcepoolMembershipReservationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2290,7 +2295,7 @@ export interface DataIntersightResourcepoolMembershipReservationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2490,7 +2495,7 @@ export class DataIntersightResourcepoolMembershipReservationParentOutputReferenc
 }
 export interface DataIntersightResourcepoolMembershipReservationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2498,19 +2503,19 @@ export interface DataIntersightResourcepoolMembershipReservationPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2523,7 +2528,7 @@ export interface DataIntersightResourcepoolMembershipReservationPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -2755,7 +2760,7 @@ export class DataIntersightResourcepoolMembershipReservationPermissionResourcesL
 }
 export interface DataIntersightResourcepoolMembershipReservationPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2763,19 +2768,19 @@ export interface DataIntersightResourcepoolMembershipReservationPools {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2788,7 +2793,7 @@ export interface DataIntersightResourcepoolMembershipReservationPools {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3020,7 +3025,7 @@ export class DataIntersightResourcepoolMembershipReservationPoolsList extends cd
 }
 export interface DataIntersightResourcepoolMembershipReservationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3028,19 +3033,19 @@ export interface DataIntersightResourcepoolMembershipReservationTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3053,7 +3058,7 @@ export interface DataIntersightResourcepoolMembershipReservationTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3285,7 +3290,7 @@ export class DataIntersightResourcepoolMembershipReservationTagsAncestorDefiniti
 }
 export interface DataIntersightResourcepoolMembershipReservationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3293,19 +3298,19 @@ export interface DataIntersightResourcepoolMembershipReservationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3318,7 +3323,7 @@ export interface DataIntersightResourcepoolMembershipReservationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -3518,45 +3523,51 @@ export class DataIntersightResourcepoolMembershipReservationTagsDefinitionOutput
 }
 export interface DataIntersightResourcepoolMembershipReservationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#key DataIntersightResourcepoolMembershipReservation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#key DataIntersightResourcepoolMembershipReservation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#propagated DataIntersightResourcepoolMembershipReservation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#propagated DataIntersightResourcepoolMembershipReservation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#sys_tag DataIntersightResourcepoolMembershipReservation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#type DataIntersightResourcepoolMembershipReservation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#type DataIntersightResourcepoolMembershipReservation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#value DataIntersightResourcepoolMembershipReservation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#value DataIntersightResourcepoolMembershipReservation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#ancestor_definitions DataIntersightResourcepoolMembershipReservation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#ancestor_definitions DataIntersightResourcepoolMembershipReservation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourcepoolMembershipReservationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#definition DataIntersightResourcepoolMembershipReservation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#definition DataIntersightResourcepoolMembershipReservation#definition}
   */
   readonly definition?: DataIntersightResourcepoolMembershipReservationTagsDefinition;
 }
@@ -3570,6 +3581,7 @@ export function dataIntersightResourcepoolMembershipReservationTagsToTerraform(s
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightResourcepoolMembershipReservationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3598,6 +3610,12 @@ export function dataIntersightResourcepoolMembershipReservationTagsToHclTerrafor
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3664,6 +3682,10 @@ export class DataIntersightResourcepoolMembershipReservationTagsOutputReference 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3690,6 +3712,7 @@ export class DataIntersightResourcepoolMembershipReservationTagsOutputReference 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3705,6 +3728,7 @@ export class DataIntersightResourcepoolMembershipReservationTagsOutputReference 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3758,6 +3782,22 @@ export class DataIntersightResourcepoolMembershipReservationTagsOutputReference 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3846,7 +3886,7 @@ export class DataIntersightResourcepoolMembershipReservationTagsList extends cdk
 }
 export interface DataIntersightResourcepoolMembershipReservationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3854,19 +3894,19 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3879,7 +3919,7 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4111,7 +4151,7 @@ export class DataIntersightResourcepoolMembershipReservationVersionContextIntere
 }
 export interface DataIntersightResourcepoolMembershipReservationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4119,19 +4159,19 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#moid DataIntersightResourcepoolMembershipReservation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4144,7 +4184,7 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#selector DataIntersightResourcepoolMembershipReservation#selector}
   */
   readonly selector?: string;
 }
@@ -4344,7 +4384,7 @@ export class DataIntersightResourcepoolMembershipReservationVersionContextRefMoO
 }
 export interface DataIntersightResourcepoolMembershipReservationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#additional_properties DataIntersightResourcepoolMembershipReservation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4352,32 +4392,32 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#class_id DataIntersightResourcepoolMembershipReservation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#marked_for_deletion DataIntersightResourcepoolMembershipReservation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#marked_for_deletion DataIntersightResourcepoolMembershipReservation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#nr_version DataIntersightResourcepoolMembershipReservation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#nr_version DataIntersightResourcepoolMembershipReservation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#object_type DataIntersightResourcepoolMembershipReservation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#timestamp DataIntersightResourcepoolMembershipReservation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#timestamp DataIntersightResourcepoolMembershipReservation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4388,19 +4428,19 @@ export interface DataIntersightResourcepoolMembershipReservationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#version_type DataIntersightResourcepoolMembershipReservation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#version_type DataIntersightResourcepoolMembershipReservation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#interested_mos DataIntersightResourcepoolMembershipReservation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#interested_mos DataIntersightResourcepoolMembershipReservation#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourcepoolMembershipReservationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#ref_mo DataIntersightResourcepoolMembershipReservation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#ref_mo DataIntersightResourcepoolMembershipReservation#ref_mo}
   */
   readonly refMo?: DataIntersightResourcepoolMembershipReservationVersionContextRefMo;
 }
@@ -4716,7 +4756,7 @@ export class DataIntersightResourcepoolMembershipReservationVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation intersight_resourcepool_membership_reservation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation intersight_resourcepool_membership_reservation}
 */
 export class DataIntersightResourcepoolMembershipReservation extends cdktf.TerraformDataSource {
 
@@ -4732,7 +4772,7 @@ export class DataIntersightResourcepoolMembershipReservation extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightResourcepoolMembershipReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourcepoolMembershipReservation to import
-  * @param importFromId The id of the existing DataIntersightResourcepoolMembershipReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourcepoolMembershipReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourcepoolMembershipReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4744,7 +4784,7 @@ export class DataIntersightResourcepoolMembershipReservation extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_membership_reservation intersight_resourcepool_membership_reservation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_membership_reservation intersight_resourcepool_membership_reservation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4755,8 +4795,8 @@ export class DataIntersightResourcepoolMembershipReservation extends cdktf.Terra
       terraformResourceType: 'intersight_resourcepool_membership_reservation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

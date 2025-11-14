@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SqlserverflexUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the SQLServer Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#instance_id SqlserverflexUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#instance_id SqlserverflexUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#project_id SqlserverflexUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#project_id SqlserverflexUser#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#region SqlserverflexUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#region SqlserverflexUser#region}
   */
   readonly region?: string;
   /**
   * Database access levels for the user. The values for the default roles are: `##STACKIT_DatabaseManager##`, `##STACKIT_LoginManager##`, `##STACKIT_ProcessManager##`, `##STACKIT_ServerManager##`, `##STACKIT_SQLAgentManager##`, `##STACKIT_SQLAgentUser##`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#roles SqlserverflexUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#roles SqlserverflexUser#roles}
   */
   readonly roles: string[];
   /**
   * Username of the SQLServer Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#username SqlserverflexUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#username SqlserverflexUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user stackit_sqlserverflex_user}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user stackit_sqlserverflex_user}
 */
 export class SqlserverflexUser extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class SqlserverflexUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverflexUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverflexUser to import
-  * @param importFromId The id of the existing SqlserverflexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverflexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverflexUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class SqlserverflexUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/sqlserverflex_user stackit_sqlserverflex_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/sqlserverflex_user stackit_sqlserverflex_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class SqlserverflexUser extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_sqlserverflex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

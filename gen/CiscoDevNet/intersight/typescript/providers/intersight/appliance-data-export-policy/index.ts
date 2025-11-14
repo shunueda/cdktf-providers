@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface ApplianceDataExportPolicyConfig extends cdktf.TerraformMetaArgu
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#account ApplianceDataExportPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#account ApplianceDataExportPolicy#account}
   */
   readonly account?: ApplianceDataExportPolicyAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#account_moid ApplianceDataExportPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#account_moid ApplianceDataExportPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#ancestors ApplianceDataExportPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#ancestors ApplianceDataExportPolicy#ancestors}
   */
   readonly ancestors?: ApplianceDataExportPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -35,29 +35,29 @@ export interface ApplianceDataExportPolicyConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#create_time ApplianceDataExportPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#create_time ApplianceDataExportPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#domain_group_moid ApplianceDataExportPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#domain_group_moid ApplianceDataExportPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Status of the data collection mode. If the value is 'true', then data collection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#enable ApplianceDataExportPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#enable ApplianceDataExportPolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#id ApplianceDataExportPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#id ApplianceDataExportPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,95 +66,95 @@ export interface ApplianceDataExportPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#mod_time ApplianceDataExportPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#mod_time ApplianceDataExportPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Data Export Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#name ApplianceDataExportPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#name ApplianceDataExportPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#owners ApplianceDataExportPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#owners ApplianceDataExportPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#parent ApplianceDataExportPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#parent ApplianceDataExportPolicy#parent}
   */
   readonly parent?: ApplianceDataExportPolicyParent[] | cdktf.IResolvable;
   /**
   * A reference to a applianceDataExportPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#parent_config ApplianceDataExportPolicy#parent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#parent_config ApplianceDataExportPolicy#parent_config}
   */
   readonly parentConfig?: ApplianceDataExportPolicyParentConfig[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#permission_resources ApplianceDataExportPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#permission_resources ApplianceDataExportPolicy#permission_resources}
   */
   readonly permissionResources?: ApplianceDataExportPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#shared_scope ApplianceDataExportPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#shared_scope ApplianceDataExportPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * An array of relationships to applianceDataExportPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#sub_configs ApplianceDataExportPolicy#sub_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#sub_configs ApplianceDataExportPolicy#sub_configs}
   */
   readonly subConfigs?: ApplianceDataExportPolicySubConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#tags ApplianceDataExportPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#tags ApplianceDataExportPolicy#tags}
   */
   readonly tags?: ApplianceDataExportPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#version_context ApplianceDataExportPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#version_context ApplianceDataExportPolicy#version_context}
   */
   readonly versionContext?: ApplianceDataExportPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface ApplianceDataExportPolicyAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -386,23 +386,23 @@ export class ApplianceDataExportPolicyAccountList extends cdktf.ComplexList {
 }
 export interface ApplianceDataExportPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -634,23 +634,23 @@ export class ApplianceDataExportPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface ApplianceDataExportPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -882,23 +882,23 @@ export class ApplianceDataExportPolicyParentList extends cdktf.ComplexList {
 }
 export interface ApplianceDataExportPolicyParentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1130,23 +1130,23 @@ export class ApplianceDataExportPolicyParentConfigList extends cdktf.ComplexList
 }
 export interface ApplianceDataExportPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1378,23 +1378,23 @@ export class ApplianceDataExportPolicyPermissionResourcesList extends cdktf.Comp
 }
 export interface ApplianceDataExportPolicySubConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1626,23 +1626,23 @@ export class ApplianceDataExportPolicySubConfigsList extends cdktf.ComplexList {
 }
 export interface ApplianceDataExportPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1874,23 +1874,23 @@ export class ApplianceDataExportPolicyTagsAncestorDefinitionsList extends cdktf.
 }
 export interface ApplianceDataExportPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2122,31 +2122,35 @@ export class ApplianceDataExportPolicyTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface ApplianceDataExportPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#ancestor_definitions ApplianceDataExportPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#ancestor_definitions ApplianceDataExportPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ApplianceDataExportPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#definition ApplianceDataExportPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#definition ApplianceDataExportPolicy#definition}
   */
   readonly definition?: ApplianceDataExportPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#key ApplianceDataExportPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#key ApplianceDataExportPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#propagated ApplianceDataExportPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#propagated ApplianceDataExportPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#type ApplianceDataExportPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#sys_tag ApplianceDataExportPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#type ApplianceDataExportPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#value ApplianceDataExportPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#value ApplianceDataExportPolicy#value}
   */
   readonly value?: string;
 }
@@ -2162,6 +2166,7 @@ export function applianceDataExportPolicyTagsToTerraform(struct?: ApplianceDataE
     definition: cdktf.listMapper(applianceDataExportPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2200,6 +2205,12 @@ export function applianceDataExportPolicyTagsToHclTerraform(struct?: ApplianceDa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2262,6 +2273,10 @@ export class ApplianceDataExportPolicyTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2282,6 +2297,7 @@ export class ApplianceDataExportPolicyTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2297,6 +2313,7 @@ export class ApplianceDataExportPolicyTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2382,6 +2399,22 @@ export class ApplianceDataExportPolicyTagsOutputReference extends cdktf.ComplexO
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2436,23 +2469,23 @@ export class ApplianceDataExportPolicyTagsList extends cdktf.ComplexList {
 }
 export interface ApplianceDataExportPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2684,23 +2717,23 @@ export class ApplianceDataExportPolicyVersionContextInterestedMosList extends cd
 }
 export interface ApplianceDataExportPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#moid ApplianceDataExportPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#selector ApplianceDataExportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2932,39 +2965,39 @@ export class ApplianceDataExportPolicyVersionContextRefMoList extends cdktf.Comp
 }
 export interface ApplianceDataExportPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#additional_properties ApplianceDataExportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#class_id ApplianceDataExportPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#interested_mos ApplianceDataExportPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#interested_mos ApplianceDataExportPolicy#interested_mos}
   */
   readonly interestedMos?: ApplianceDataExportPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#marked_for_deletion ApplianceDataExportPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#marked_for_deletion ApplianceDataExportPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#nr_version ApplianceDataExportPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#nr_version ApplianceDataExportPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#object_type ApplianceDataExportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#ref_mo ApplianceDataExportPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#ref_mo ApplianceDataExportPolicy#ref_mo}
   */
   readonly refMo?: ApplianceDataExportPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#timestamp ApplianceDataExportPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#timestamp ApplianceDataExportPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#version_type ApplianceDataExportPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#version_type ApplianceDataExportPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3312,7 +3345,7 @@ export class ApplianceDataExportPolicyVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy intersight_appliance_data_export_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy intersight_appliance_data_export_policy}
 */
 export class ApplianceDataExportPolicy extends cdktf.TerraformResource {
 
@@ -3328,7 +3361,7 @@ export class ApplianceDataExportPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceDataExportPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceDataExportPolicy to import
-  * @param importFromId The id of the existing ApplianceDataExportPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceDataExportPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceDataExportPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3340,7 +3373,7 @@ export class ApplianceDataExportPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_data_export_policy intersight_appliance_data_export_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_data_export_policy intersight_appliance_data_export_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3351,8 +3384,8 @@ export class ApplianceDataExportPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_data_export_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

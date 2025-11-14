@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#account_moid DataIntersightWorkflowCustomDataTypeDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#account_moid DataIntersightWorkflowCustomDataTypeDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * When true this data type definition is a collection of type definitions to represent composite data like JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#composite_type DataIntersightWorkflowCustomDataTypeDefinition#composite_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#composite_type DataIntersightWorkflowCustomDataTypeDefinition#composite_type}
   */
   readonly compositeType?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#create_time DataIntersightWorkflowCustomDataTypeDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#create_time DataIntersightWorkflowCustomDataTypeDefinition#create_time}
   */
   readonly createTime?: string;
   /**
   * A human-friendly description of this custom data type indicating it's domain and usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#description DataIntersightWorkflowCustomDataTypeDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#description DataIntersightWorkflowCustomDataTypeDefinition#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#domain_group_moid DataIntersightWorkflowCustomDataTypeDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#domain_group_moid DataIntersightWorkflowCustomDataTypeDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#id DataIntersightWorkflowCustomDataTypeDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#id DataIntersightWorkflowCustomDataTypeDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionConfig extends cd
   /**
   * A user friendly short name to identify the custom data type definition. Label can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.), colon (:), space ( ), single quote ('), or an underscore (_) and must be at least 2 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#label DataIntersightWorkflowCustomDataTypeDefinition#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#label DataIntersightWorkflowCustomDataTypeDefinition#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#mod_time DataIntersightWorkflowCustomDataTypeDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#mod_time DataIntersightWorkflowCustomDataTypeDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The name of custom data type definition. The valid name can contain lower case and upper case alphabetic characters, digits and special characters '-' and '_'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#owners DataIntersightWorkflowCustomDataTypeDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#owners DataIntersightWorkflowCustomDataTypeDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#shared_scope DataIntersightWorkflowCustomDataTypeDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#shared_scope DataIntersightWorkflowCustomDataTypeDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#ancestors DataIntersightWorkflowCustomDataTypeDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#ancestors DataIntersightWorkflowCustomDataTypeDefinition#ancestors}
   */
   readonly ancestors?: DataIntersightWorkflowCustomDataTypeDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#catalog DataIntersightWorkflowCustomDataTypeDefinition#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#catalog DataIntersightWorkflowCustomDataTypeDefinition#catalog}
   */
   readonly catalog?: DataIntersightWorkflowCustomDataTypeDefinitionCatalog;
   /**
   * cloned_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#cloned_from DataIntersightWorkflowCustomDataTypeDefinition#cloned_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#cloned_from DataIntersightWorkflowCustomDataTypeDefinition#cloned_from}
   */
   readonly clonedFrom?: DataIntersightWorkflowCustomDataTypeDefinitionClonedFrom;
   /**
   * parameter_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#parameter_set DataIntersightWorkflowCustomDataTypeDefinition#parameter_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#parameter_set DataIntersightWorkflowCustomDataTypeDefinition#parameter_set}
   */
   readonly parameterSet?: DataIntersightWorkflowCustomDataTypeDefinitionParameterSet[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#parent DataIntersightWorkflowCustomDataTypeDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#parent DataIntersightWorkflowCustomDataTypeDefinition#parent}
   */
   readonly parent?: DataIntersightWorkflowCustomDataTypeDefinitionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#permission_resources DataIntersightWorkflowCustomDataTypeDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#permission_resources DataIntersightWorkflowCustomDataTypeDefinition#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkflowCustomDataTypeDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#properties DataIntersightWorkflowCustomDataTypeDefinition#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#properties DataIntersightWorkflowCustomDataTypeDefinition#properties}
   */
   readonly properties?: DataIntersightWorkflowCustomDataTypeDefinitionProperties;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#tags DataIntersightWorkflowCustomDataTypeDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#tags DataIntersightWorkflowCustomDataTypeDefinition#tags}
   */
   readonly tags?: DataIntersightWorkflowCustomDataTypeDefinitionTags[] | cdktf.IResolvable;
   /**
   * type_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#type_definition DataIntersightWorkflowCustomDataTypeDefinition#type_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#type_definition DataIntersightWorkflowCustomDataTypeDefinition#type_definition}
   */
   readonly typeDefinition?: DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinition[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#version_context DataIntersightWorkflowCustomDataTypeDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#version_context DataIntersightWorkflowCustomDataTypeDefinition#version_context}
   */
   readonly versionContext?: DataIntersightWorkflowCustomDataTypeDefinitionVersionContext;
 }
@@ -1107,6 +1107,11 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionResultsTagsOutputRefe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1962,7 +1967,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionResultsList extends c
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1970,19 +1975,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1995,7 +2000,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2227,7 +2232,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionAncestorsList extends
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2235,19 +2240,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2260,7 +2265,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2460,7 +2465,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionCatalogOutputReferenc
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionClonedFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2468,19 +2473,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionClonedFrom {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2493,7 +2498,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionClonedFrom {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2693,7 +2698,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionClonedFromOutputRefer
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionParameterSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2701,7 +2706,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionParameterSet {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
@@ -2711,36 +2716,36 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionParameterSet {
   * * `contains` - Checks if the second parameter string value is a substring of the first parameter string value.
   * * `matchesPattern` - Checks if a string matches a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#condition DataIntersightWorkflowCustomDataTypeDefinition#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#condition DataIntersightWorkflowCustomDataTypeDefinition#condition}
   */
   readonly condition?: string;
   /**
   * Name of the controlling entity, whose value will be used for evaluating the parameter set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#control_parameter DataIntersightWorkflowCustomDataTypeDefinition#control_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#control_parameter DataIntersightWorkflowCustomDataTypeDefinition#control_parameter}
   */
   readonly controlParameter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#enable_parameters DataIntersightWorkflowCustomDataTypeDefinition#enable_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#enable_parameters DataIntersightWorkflowCustomDataTypeDefinition#enable_parameters}
   */
   readonly enableParameters?: string[];
   /**
   * Name for the parameter set.  Limited to 64 alphanumeric characters (upper and lower case), and special characters '-' and '_'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The controlling parameter will be evaluated against this 'value'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
   */
   readonly value?: string;
 }
@@ -3059,7 +3064,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionParameterSetList exte
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3067,19 +3072,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3092,7 +3097,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3292,7 +3297,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionParentOutputReference
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3300,19 +3305,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionPermissionResourc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3325,7 +3330,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionPermissionResourc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3557,7 +3562,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionPermissionResourcesLi
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3565,26 +3570,26 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionProperties {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * When set to false custom data type is not cloneable. It is set to true only if data type is not internal and it is not using any internal custom data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#cloneable DataIntersightWorkflowCustomDataTypeDefinition#cloneable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#cloneable DataIntersightWorkflowCustomDataTypeDefinition#cloneable}
   */
   readonly cloneable?: boolean | cdktf.IResolvable;
   /**
   * When set to false the custom data type is owned by the system and used for internal services. Such custom data type cannot be directly used by external entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#external_meta DataIntersightWorkflowCustomDataTypeDefinition#external_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#external_meta DataIntersightWorkflowCustomDataTypeDefinition#external_meta}
   */
   readonly externalMeta?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -3784,7 +3789,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionPropertiesOutputRefer
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3792,19 +3797,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3817,7 +3822,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4049,7 +4054,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefinitio
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4057,19 +4062,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4082,7 +4087,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4282,45 +4287,51 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsDefinitionOutputR
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#key DataIntersightWorkflowCustomDataTypeDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#key DataIntersightWorkflowCustomDataTypeDefinition#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#propagated DataIntersightWorkflowCustomDataTypeDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#propagated DataIntersightWorkflowCustomDataTypeDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#sys_tag DataIntersightWorkflowCustomDataTypeDefinition#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#type DataIntersightWorkflowCustomDataTypeDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#type DataIntersightWorkflowCustomDataTypeDefinition#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#ancestor_definitions DataIntersightWorkflowCustomDataTypeDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#ancestor_definitions DataIntersightWorkflowCustomDataTypeDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#definition DataIntersightWorkflowCustomDataTypeDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#definition DataIntersightWorkflowCustomDataTypeDefinition#definition}
   */
   readonly definition?: DataIntersightWorkflowCustomDataTypeDefinitionTagsDefinition;
 }
@@ -4334,6 +4345,7 @@ export function dataIntersightWorkflowCustomDataTypeDefinitionTagsToTerraform(st
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWorkflowCustomDataTypeDefinitionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4362,6 +4374,12 @@ export function dataIntersightWorkflowCustomDataTypeDefinitionTagsToHclTerraform
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4428,6 +4446,10 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsOutputReference e
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4454,6 +4476,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsOutputReference e
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4469,6 +4492,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsOutputReference e
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4522,6 +4546,22 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsOutputReference e
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4610,7 +4650,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTagsList extends cdkt
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4618,32 +4658,32 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * A flag that indicates whether a default value is given or not. This flag will be useful in case of the secure parameter where the value will be filtered out in API responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#is_value_set DataIntersightWorkflowCustomDataTypeDefinition#is_value_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#is_value_set DataIntersightWorkflowCustomDataTypeDefinition#is_value_set}
   */
   readonly isValueSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Override the default value provided for the data type. When true, allow the user to enter value for the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#override DataIntersightWorkflowCustomDataTypeDefinition#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#override DataIntersightWorkflowCustomDataTypeDefinition#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * Default value for the data type. If default value was provided and the input was required the default value will be used as the input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#value DataIntersightWorkflowCustomDataTypeDefinition#value}
   */
   readonly value?: string;
 }
@@ -4872,7 +4912,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDefault
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDisplayMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4880,20 +4920,20 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDis
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Inventory selector specified for primitive data property should be used in Intersight User Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#inventory_selector DataIntersightWorkflowCustomDataTypeDefinition#inventory_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#inventory_selector DataIntersightWorkflowCustomDataTypeDefinition#inventory_selector}
   */
   readonly inventorySelector?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4905,7 +4945,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDis
   * * `DrawerSelector` - Display the widget as a selector.
   * * `MultiSelect` - Display the widget as a multi-select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#widget_type DataIntersightWorkflowCustomDataTypeDefinition#widget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#widget_type DataIntersightWorkflowCustomDataTypeDefinition#widget_type}
   */
   readonly widgetType?: string;
 }
@@ -5105,7 +5145,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDisplay
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5114,31 +5154,31 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinition {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Provide a detailed description of the data type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#description DataIntersightWorkflowCustomDataTypeDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#description DataIntersightWorkflowCustomDataTypeDefinition#description}
   */
   readonly description?: string;
   /**
   * JSON formatted mapping from other property of the definition to the current property. Input parameter mapping is supported only for custom data type property in workflow definition and custom data type definition. The format to specify mapping ina workflow definition when source property is of scalar types is '${workflow.input.property}'. The format to specify mapping when the source property is of object reference and mapping needs to be made to the property of the object is '${workflow.input.property.subproperty}'. The format to specify mapping in a custom data type definition is '${datatype.type.property}'. When the current property is of non-scalar type like composite custom data type, then mapping can be provided to the individual property of the custom data type like 'cdt_property:${workflow.input.property}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#input_parameters DataIntersightWorkflowCustomDataTypeDefinition#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#input_parameters DataIntersightWorkflowCustomDataTypeDefinition#input_parameters}
   */
   readonly inputParameters?: string;
   /**
   * Descriptive label for the data type. Label can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), space ( ), forward slash (/) or an underscore (_). The first and last character in label must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#label DataIntersightWorkflowCustomDataTypeDefinition#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#label DataIntersightWorkflowCustomDataTypeDefinition#label}
   */
   readonly label?: string;
   /**
   * Descriptive name for the data type. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-) or an underscore (_). The first and last character in name must be an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#name DataIntersightWorkflowCustomDataTypeDefinition#name}
   */
   readonly name?: string;
   /**
@@ -5146,25 +5186,25 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinition {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Specifies whether this parameter is required. The field is applicable for task and workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#required DataIntersightWorkflowCustomDataTypeDefinition#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#required DataIntersightWorkflowCustomDataTypeDefinition#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#default DataIntersightWorkflowCustomDataTypeDefinition#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#default DataIntersightWorkflowCustomDataTypeDefinition#default}
   */
   readonly default?: DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDefault;
   /**
   * display_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#display_meta DataIntersightWorkflowCustomDataTypeDefinition#display_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#display_meta DataIntersightWorkflowCustomDataTypeDefinition#display_meta}
   */
   readonly displayMeta?: DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionDisplayMeta;
 }
@@ -5541,7 +5581,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionTypeDefinitionList ex
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5549,19 +5589,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextInt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5574,7 +5614,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextInt
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -5806,7 +5846,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionVersionContextInteres
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5814,19 +5854,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextRef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#moid DataIntersightWorkflowCustomDataTypeDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5839,7 +5879,7 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContextRef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#selector DataIntersightWorkflowCustomDataTypeDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -6039,7 +6079,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionVersionContextRefMoOu
 }
 export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#additional_properties DataIntersightWorkflowCustomDataTypeDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6047,32 +6087,32 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#class_id DataIntersightWorkflowCustomDataTypeDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#marked_for_deletion DataIntersightWorkflowCustomDataTypeDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#marked_for_deletion DataIntersightWorkflowCustomDataTypeDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#nr_version DataIntersightWorkflowCustomDataTypeDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#nr_version DataIntersightWorkflowCustomDataTypeDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#object_type DataIntersightWorkflowCustomDataTypeDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#timestamp DataIntersightWorkflowCustomDataTypeDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#timestamp DataIntersightWorkflowCustomDataTypeDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6083,19 +6123,19 @@ export interface DataIntersightWorkflowCustomDataTypeDefinitionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#version_type DataIntersightWorkflowCustomDataTypeDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#version_type DataIntersightWorkflowCustomDataTypeDefinition#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#interested_mos DataIntersightWorkflowCustomDataTypeDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#interested_mos DataIntersightWorkflowCustomDataTypeDefinition#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkflowCustomDataTypeDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#ref_mo DataIntersightWorkflowCustomDataTypeDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#ref_mo DataIntersightWorkflowCustomDataTypeDefinition#ref_mo}
   */
   readonly refMo?: DataIntersightWorkflowCustomDataTypeDefinitionVersionContextRefMo;
 }
@@ -6411,7 +6451,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinitionVersionContextOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition intersight_workflow_custom_data_type_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition intersight_workflow_custom_data_type_definition}
 */
 export class DataIntersightWorkflowCustomDataTypeDefinition extends cdktf.TerraformDataSource {
 
@@ -6427,7 +6467,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinition extends cdktf.Terraf
   * Generates CDKTF code for importing a DataIntersightWorkflowCustomDataTypeDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkflowCustomDataTypeDefinition to import
-  * @param importFromId The id of the existing DataIntersightWorkflowCustomDataTypeDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkflowCustomDataTypeDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkflowCustomDataTypeDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6439,7 +6479,7 @@ export class DataIntersightWorkflowCustomDataTypeDefinition extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_custom_data_type_definition intersight_workflow_custom_data_type_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_custom_data_type_definition intersight_workflow_custom_data_type_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6450,8 +6490,8 @@ export class DataIntersightWorkflowCustomDataTypeDefinition extends cdktf.Terraf
       terraformResourceType: 'intersight_workflow_custom_data_type_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

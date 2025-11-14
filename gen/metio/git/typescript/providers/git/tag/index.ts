@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag#directory Tag#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag#directory Tag#directory}
   */
   readonly directory: string;
   /**
   * The tag message to use. Note that by specifying a message, an annotated tag will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag#message Tag#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag#message Tag#message}
   */
   readonly message?: string;
   /**
   * The name of the Git tag to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag#name Tag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag#name Tag#name}
   */
   readonly name: string;
   /**
   * The [revision](https://www.git-scm.com/docs/gitrevisions) of the commit to tag. Can be any value that `go-git` [supports](https://pkg.go.dev/github.com/go-git/go-git/v5#Repository.ResolveRevision). If none is specified, `HEAD` will be tagged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag#revision Tag#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag#revision Tag#revision}
   */
   readonly revision?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag git_tag}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag git_tag}
 */
 export class Tag extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Tag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tag to import
-  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Tag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/resources/tag git_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/resources/tag git_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Tag extends cdktf.TerraformResource {
       terraformResourceType: 'git_tag',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

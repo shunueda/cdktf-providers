@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintConfig
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#account_moid DataIntersightSoftwarerepositoryCategorySupportConstraint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#account_moid DataIntersightSoftwarerepositoryCategorySupportConstraint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintConfig
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * Identifier for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#constraint_id DataIntersightSoftwarerepositoryCategorySupportConstraint#constraint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#constraint_id DataIntersightSoftwarerepositoryCategorySupportConstraint#constraint_id}
   */
   readonly constraintId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#create_time DataIntersightSoftwarerepositoryCategorySupportConstraint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#create_time DataIntersightSoftwarerepositoryCategorySupportConstraint#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#domain_group_moid DataIntersightSoftwarerepositoryCategorySupportConstraint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#domain_group_moid DataIntersightSoftwarerepositoryCategorySupportConstraint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#id DataIntersightSoftwarerepositoryCategorySupportConstraint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#id DataIntersightSoftwarerepositoryCategorySupportConstraint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,95 +53,95 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintConfig
   /**
   * Cisco software repository image category identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#mdf_id DataIntersightSoftwarerepositoryCategorySupportConstraint#mdf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#mdf_id DataIntersightSoftwarerepositoryCategorySupportConstraint#mdf_id}
   */
   readonly mdfId?: string;
   /**
   * Minimum image version from where the models can be supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#min_version DataIntersightSoftwarerepositoryCategorySupportConstraint#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#min_version DataIntersightSoftwarerepositoryCategorySupportConstraint#min_version}
   */
   readonly minVersion?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#mod_time DataIntersightSoftwarerepositoryCategorySupportConstraint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#mod_time DataIntersightSoftwarerepositoryCategorySupportConstraint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#name DataIntersightSoftwarerepositoryCategorySupportConstraint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#name DataIntersightSoftwarerepositoryCategorySupportConstraint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#owners DataIntersightSoftwarerepositoryCategorySupportConstraint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#owners DataIntersightSoftwarerepositoryCategorySupportConstraint#owners}
   */
   readonly owners?: string[];
   /**
   * Fields which tells if the constraint is based on image name parsing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#parse_from_image_name DataIntersightSoftwarerepositoryCategorySupportConstraint#parse_from_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#parse_from_image_name DataIntersightSoftwarerepositoryCategorySupportConstraint#parse_from_image_name}
   */
   readonly parseFromImageName?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#shared_scope DataIntersightSoftwarerepositoryCategorySupportConstraint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#shared_scope DataIntersightSoftwarerepositoryCategorySupportConstraint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#supported_models DataIntersightSoftwarerepositoryCategorySupportConstraint#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#supported_models DataIntersightSoftwarerepositoryCategorySupportConstraint#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#ancestors DataIntersightSoftwarerepositoryCategorySupportConstraint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#ancestors DataIntersightSoftwarerepositoryCategorySupportConstraint#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwarerepositoryCategorySupportConstraintAncestors[] | cdktf.IResolvable;
   /**
   * filtered_models block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#filtered_models DataIntersightSoftwarerepositoryCategorySupportConstraint#filtered_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#filtered_models DataIntersightSoftwarerepositoryCategorySupportConstraint#filtered_models}
   */
   readonly filteredModels?: DataIntersightSoftwarerepositoryCategorySupportConstraintFilteredModels[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#parent DataIntersightSoftwarerepositoryCategorySupportConstraint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#parent DataIntersightSoftwarerepositoryCategorySupportConstraint#parent}
   */
   readonly parent?: DataIntersightSoftwarerepositoryCategorySupportConstraintParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#permission_resources DataIntersightSoftwarerepositoryCategorySupportConstraint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#permission_resources DataIntersightSoftwarerepositoryCategorySupportConstraint#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwarerepositoryCategorySupportConstraintPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#tags DataIntersightSoftwarerepositoryCategorySupportConstraint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#tags DataIntersightSoftwarerepositoryCategorySupportConstraint#tags}
   */
   readonly tags?: DataIntersightSoftwarerepositoryCategorySupportConstraintTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#version_context DataIntersightSoftwarerepositoryCategorySupportConstraint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#version_context DataIntersightSoftwarerepositoryCategorySupportConstraint#version_context}
   */
   readonly versionContext?: DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContext;
 }
@@ -803,6 +803,11 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintResultsTag
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1327,7 +1332,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintResultsLis
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1335,19 +1340,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintAncest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1360,7 +1365,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintAncest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -1592,7 +1597,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintAncestorsL
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintFilteredModels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1600,36 +1605,36 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintFilter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * Minimum version of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#min_version DataIntersightSoftwarerepositoryCategorySupportConstraint#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#min_version DataIntersightSoftwarerepositoryCategorySupportConstraint#min_version}
   */
   readonly minVersion?: string;
   /**
   * Name of the contraint, used to identify constriant type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#name DataIntersightSoftwarerepositoryCategorySupportConstraint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#name DataIntersightSoftwarerepositoryCategorySupportConstraint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular expression of the image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#platform_regex DataIntersightSoftwarerepositoryCategorySupportConstraint#platform_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#platform_regex DataIntersightSoftwarerepositoryCategorySupportConstraint#platform_regex}
   */
   readonly platformRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#supported_models DataIntersightSoftwarerepositoryCategorySupportConstraint#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#supported_models DataIntersightSoftwarerepositoryCategorySupportConstraint#supported_models}
   */
   readonly supportedModels?: string[];
 }
@@ -1919,7 +1924,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintFilteredMo
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1927,19 +1932,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintParent
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1952,7 +1957,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintParent
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -2152,7 +2157,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintParentOutp
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2160,19 +2165,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintPermis
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2185,7 +2190,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintPermis
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -2417,7 +2422,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintPermission
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2425,19 +2430,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsAn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2450,7 +2455,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsAn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -2682,7 +2687,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsAncest
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2690,19 +2695,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2715,7 +2720,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTagsDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -2915,45 +2920,51 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsDefini
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#key DataIntersightSoftwarerepositoryCategorySupportConstraint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#key DataIntersightSoftwarerepositoryCategorySupportConstraint#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#propagated DataIntersightSoftwarerepositoryCategorySupportConstraint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#propagated DataIntersightSoftwarerepositoryCategorySupportConstraint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#sys_tag DataIntersightSoftwarerepositoryCategorySupportConstraint#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#type DataIntersightSoftwarerepositoryCategorySupportConstraint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#type DataIntersightSoftwarerepositoryCategorySupportConstraint#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#value DataIntersightSoftwarerepositoryCategorySupportConstraint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#value DataIntersightSoftwarerepositoryCategorySupportConstraint#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#ancestor_definitions DataIntersightSoftwarerepositoryCategorySupportConstraint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#ancestor_definitions DataIntersightSoftwarerepositoryCategorySupportConstraint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwarerepositoryCategorySupportConstraintTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#definition DataIntersightSoftwarerepositoryCategorySupportConstraint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#definition DataIntersightSoftwarerepositoryCategorySupportConstraint#definition}
   */
   readonly definition?: DataIntersightSoftwarerepositoryCategorySupportConstraintTagsDefinition;
 }
@@ -2967,6 +2978,7 @@ export function dataIntersightSoftwarerepositoryCategorySupportConstraintTagsToT
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwarerepositoryCategorySupportConstraintTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2995,6 +3007,12 @@ export function dataIntersightSoftwarerepositoryCategorySupportConstraintTagsToH
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3061,6 +3079,10 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsOutput
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3087,6 +3109,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsOutput
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3102,6 +3125,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsOutput
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3155,6 +3179,22 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsOutput
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3243,7 +3283,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintTagsList e
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3251,19 +3291,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3276,7 +3316,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -3508,7 +3548,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintVersionCon
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3516,19 +3556,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#moid DataIntersightSoftwarerepositoryCategorySupportConstraint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3541,7 +3581,7 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#selector DataIntersightSoftwarerepositoryCategorySupportConstraint#selector}
   */
   readonly selector?: string;
 }
@@ -3741,7 +3781,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintVersionCon
 }
 export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#additional_properties DataIntersightSoftwarerepositoryCategorySupportConstraint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3749,32 +3789,32 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#class_id DataIntersightSoftwarerepositoryCategorySupportConstraint#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#marked_for_deletion DataIntersightSoftwarerepositoryCategorySupportConstraint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#marked_for_deletion DataIntersightSoftwarerepositoryCategorySupportConstraint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#nr_version DataIntersightSoftwarerepositoryCategorySupportConstraint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#nr_version DataIntersightSoftwarerepositoryCategorySupportConstraint#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#object_type DataIntersightSoftwarerepositoryCategorySupportConstraint#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#timestamp DataIntersightSoftwarerepositoryCategorySupportConstraint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#timestamp DataIntersightSoftwarerepositoryCategorySupportConstraint#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3785,19 +3825,19 @@ export interface DataIntersightSoftwarerepositoryCategorySupportConstraintVersio
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#version_type DataIntersightSoftwarerepositoryCategorySupportConstraint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#version_type DataIntersightSoftwarerepositoryCategorySupportConstraint#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#interested_mos DataIntersightSoftwarerepositoryCategorySupportConstraint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#interested_mos DataIntersightSoftwarerepositoryCategorySupportConstraint#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#ref_mo DataIntersightSoftwarerepositoryCategorySupportConstraint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#ref_mo DataIntersightSoftwarerepositoryCategorySupportConstraint#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwarerepositoryCategorySupportConstraintVersionContextRefMo;
 }
@@ -4113,7 +4153,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraintVersionCon
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint intersight_softwarerepository_category_support_constraint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint intersight_softwarerepository_category_support_constraint}
 */
 export class DataIntersightSoftwarerepositoryCategorySupportConstraint extends cdktf.TerraformDataSource {
 
@@ -4129,7 +4169,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraint extends c
   * Generates CDKTF code for importing a DataIntersightSoftwarerepositoryCategorySupportConstraint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwarerepositoryCategorySupportConstraint to import
-  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCategorySupportConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCategorySupportConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwarerepositoryCategorySupportConstraint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4141,7 +4181,7 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraint extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_support_constraint intersight_softwarerepository_category_support_constraint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_support_constraint intersight_softwarerepository_category_support_constraint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4152,8 +4192,8 @@ export class DataIntersightSoftwarerepositoryCategorySupportConstraint extends c
       terraformResourceType: 'intersight_softwarerepository_category_support_constraint',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

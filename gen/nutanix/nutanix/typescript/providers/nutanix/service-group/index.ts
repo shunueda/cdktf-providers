@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#description ServiceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#description ServiceGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#id ServiceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#id ServiceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#name ServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#name ServiceGroup#name}
   */
   readonly name: string;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#service_list ServiceGroup#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#service_list ServiceGroup#service_list}
   */
   readonly serviceList: ServiceGroupServiceListStruct[] | cdktf.IResolvable;
 }
 export interface ServiceGroupServiceListIcmpTypeCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#code ServiceGroup#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#code ServiceGroup#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#type ServiceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#type ServiceGroup#type}
   */
   readonly type?: string;
 }
@@ -180,11 +180,11 @@ export class ServiceGroupServiceListIcmpTypeCodeListStructList extends cdktf.Com
 }
 export interface ServiceGroupServiceListTcpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#end_port ServiceGroup#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#end_port ServiceGroup#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#start_port ServiceGroup#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#start_port ServiceGroup#start_port}
   */
   readonly startPort?: number;
 }
@@ -329,11 +329,11 @@ export class ServiceGroupServiceListTcpPortRangeListStructList extends cdktf.Com
 }
 export interface ServiceGroupServiceListUdpPortRangeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#end_port ServiceGroup#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#end_port ServiceGroup#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#start_port ServiceGroup#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#start_port ServiceGroup#start_port}
   */
   readonly startPort?: number;
 }
@@ -478,25 +478,25 @@ export class ServiceGroupServiceListUdpPortRangeListStructList extends cdktf.Com
 }
 export interface ServiceGroupServiceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#protocol ServiceGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#protocol ServiceGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * icmp_type_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#icmp_type_code_list ServiceGroup#icmp_type_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#icmp_type_code_list ServiceGroup#icmp_type_code_list}
   */
   readonly icmpTypeCodeList?: ServiceGroupServiceListIcmpTypeCodeListStruct[] | cdktf.IResolvable;
   /**
   * tcp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#tcp_port_range_list ServiceGroup#tcp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#tcp_port_range_list ServiceGroup#tcp_port_range_list}
   */
   readonly tcpPortRangeList?: ServiceGroupServiceListTcpPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * udp_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#udp_port_range_list ServiceGroup#udp_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#udp_port_range_list ServiceGroup#udp_port_range_list}
   */
   readonly udpPortRangeList?: ServiceGroupServiceListUdpPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -699,7 +699,7 @@ export class ServiceGroupServiceListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group nutanix_service_group}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group nutanix_service_group}
 */
 export class ServiceGroup extends cdktf.TerraformResource {
 
@@ -715,7 +715,7 @@ export class ServiceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceGroup to import
-  * @param importFromId The id of the existing ServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -727,7 +727,7 @@ export class ServiceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/service_group nutanix_service_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/service_group nutanix_service_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -738,8 +738,8 @@ export class ServiceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_service_group',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

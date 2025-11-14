@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMediaServicesMediaWorkflowConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#compartment_id DataOciMediaServicesMediaWorkflowConfigurations#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#compartment_id DataOciMediaServicesMediaWorkflowConfigurations#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#display_name DataOciMediaServicesMediaWorkflowConfigurations#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#display_name DataOciMediaServicesMediaWorkflowConfigurations#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#id DataOciMediaServicesMediaWorkflowConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#id DataOciMediaServicesMediaWorkflowConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#state DataOciMediaServicesMediaWorkflowConfigurations#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#state DataOciMediaServicesMediaWorkflowConfigurations#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#filter DataOciMediaServicesMediaWorkflowConfigurations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#filter DataOciMediaServicesMediaWorkflowConfigurations#filter}
   */
   readonly filter?: DataOciMediaServicesMediaWorkflowConfigurationsFilter[] | cdktf.IResolvable;
 }
@@ -345,15 +345,15 @@ export class DataOciMediaServicesMediaWorkflowConfigurationsMediaWorkflowConfigu
 }
 export interface DataOciMediaServicesMediaWorkflowConfigurationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#name DataOciMediaServicesMediaWorkflowConfigurations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#name DataOciMediaServicesMediaWorkflowConfigurations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#regex DataOciMediaServicesMediaWorkflowConfigurations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#regex DataOciMediaServicesMediaWorkflowConfigurations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#values DataOciMediaServicesMediaWorkflowConfigurations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#values DataOciMediaServicesMediaWorkflowConfigurations#values}
   */
   readonly values: string[];
 }
@@ -521,7 +521,7 @@ export class DataOciMediaServicesMediaWorkflowConfigurationsFilterList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations oci_media_services_media_workflow_configurations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations oci_media_services_media_workflow_configurations}
 */
 export class DataOciMediaServicesMediaWorkflowConfigurations extends cdktf.TerraformDataSource {
 
@@ -537,7 +537,7 @@ export class DataOciMediaServicesMediaWorkflowConfigurations extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciMediaServicesMediaWorkflowConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMediaServicesMediaWorkflowConfigurations to import
-  * @param importFromId The id of the existing DataOciMediaServicesMediaWorkflowConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMediaServicesMediaWorkflowConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMediaServicesMediaWorkflowConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class DataOciMediaServicesMediaWorkflowConfigurations extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/media_services_media_workflow_configurations oci_media_services_media_workflow_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/media_services_media_workflow_configurations oci_media_services_media_workflow_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class DataOciMediaServicesMediaWorkflowConfigurations extends cdktf.Terra
       terraformResourceType: 'oci_media_services_media_workflow_configurations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

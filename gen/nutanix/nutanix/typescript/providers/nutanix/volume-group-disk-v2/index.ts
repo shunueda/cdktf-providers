@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VolumeGroupDiskV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Volume Disk description. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#description VolumeGroupDiskV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#description VolumeGroupDiskV2#description}
   */
   readonly description?: string;
   /**
   * Size of the disk in bytes. This field is mandatory during Volume Group creation if a new disk is being created on the storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#disk_size_bytes VolumeGroupDiskV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#disk_size_bytes VolumeGroupDiskV2#disk_size_bytes}
   */
   readonly diskSizeBytes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#id VolumeGroupDiskV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#id VolumeGroupDiskV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface VolumeGroupDiskV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Index of the disk in a Volume Group. This field is optional and immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#index VolumeGroupDiskV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#index VolumeGroupDiskV2#index}
   */
   readonly index?: number;
   /**
   * The external identifier of the volume group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#volume_group_ext_id VolumeGroupDiskV2#volume_group_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#volume_group_ext_id VolumeGroupDiskV2#volume_group_ext_id}
   */
   readonly volumeGroupExtId: string;
   /**
   * disk_data_source_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#disk_data_source_reference VolumeGroupDiskV2#disk_data_source_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#disk_data_source_reference VolumeGroupDiskV2#disk_data_source_reference}
   */
   readonly diskDataSourceReference: VolumeGroupDiskV2DiskDataSourceReference[] | cdktf.IResolvable;
   /**
   * disk_storage_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#disk_storage_features VolumeGroupDiskV2#disk_storage_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#disk_storage_features VolumeGroupDiskV2#disk_storage_features}
   */
   readonly diskStorageFeatures?: VolumeGroupDiskV2DiskStorageFeatures[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface VolumeGroupDiskV2DiskDataSourceReference {
   /**
   * The Entity Type of the Data Source Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#entity_type VolumeGroupDiskV2#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#entity_type VolumeGroupDiskV2#entity_type}
   */
   readonly entityType?: string;
   /**
   * The external identifier of the Data Source Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#ext_id VolumeGroupDiskV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#ext_id VolumeGroupDiskV2#ext_id}
   */
   readonly extId: string;
   /**
   * The name of the Data Source Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#name VolumeGroupDiskV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#name VolumeGroupDiskV2#name}
   */
   readonly name?: string;
   /**
   * The uri list of the Data Source Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#uris VolumeGroupDiskV2#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#uris VolumeGroupDiskV2#uris}
   */
   readonly uris?: string[];
 }
@@ -275,7 +275,7 @@ export interface VolumeGroupDiskV2DiskStorageFeaturesFlashMode {
   /**
   * The flash mode is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#is_enabled VolumeGroupDiskV2#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#is_enabled VolumeGroupDiskV2#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -393,7 +393,7 @@ export interface VolumeGroupDiskV2DiskStorageFeatures {
   /**
   * flash_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#flash_mode VolumeGroupDiskV2#flash_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#flash_mode VolumeGroupDiskV2#flash_mode}
   */
   readonly flashMode?: VolumeGroupDiskV2DiskStorageFeaturesFlashMode[] | cdktf.IResolvable;
 }
@@ -509,7 +509,7 @@ export class VolumeGroupDiskV2DiskStorageFeaturesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2 nutanix_volume_group_disk_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2 nutanix_volume_group_disk_v2}
 */
 export class VolumeGroupDiskV2 extends cdktf.TerraformResource {
 
@@ -525,7 +525,7 @@ export class VolumeGroupDiskV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeGroupDiskV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeGroupDiskV2 to import
-  * @param importFromId The id of the existing VolumeGroupDiskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeGroupDiskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeGroupDiskV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -537,7 +537,7 @@ export class VolumeGroupDiskV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_disk_v2 nutanix_volume_group_disk_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_disk_v2 nutanix_volume_group_disk_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -548,8 +548,8 @@ export class VolumeGroupDiskV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_volume_group_disk_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

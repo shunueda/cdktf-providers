@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address map with fields related to the address: line1, line2, city, state, zip and country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#address Card#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#address Card#address}
   */
   readonly address?: { [key: string]: string };
   /**
   * The customer that this card belongs to. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#customer Card#customer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#customer Card#customer}
   */
   readonly customer: string;
   /**
   * Card security code. Highly recommended to always include this value, but it's required only for accounts based in European countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#cvc Card#cvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#cvc Card#cvc}
   */
   readonly cvc?: number;
   /**
   * Two-digit number representing the card's expiration month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#exp_month Card#exp_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#exp_month Card#exp_month}
   */
   readonly expMonth: number;
   /**
   * Four-digit number representing the card's expiration year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#exp_year Card#exp_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#exp_year Card#exp_year}
   */
   readonly expYear: number;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#metadata Card#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#metadata Card#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Cardholder name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#name Card#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#name Card#name}
   */
   readonly name?: string;
   /**
   * The card number, as a string without any separators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#number Card#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#number Card#number}
   */
   readonly number: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card stripe_card}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card stripe_card}
 */
 export class Card extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class Card extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Card resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Card to import
-  * @param importFromId The id of the existing Card that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Card that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Card to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class Card extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/card stripe_card} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/card stripe_card} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class Card extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_card',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

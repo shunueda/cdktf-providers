@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseTableStatisticsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#id DataOciDatabaseManagementManagedDatabaseTableStatistics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#id DataOciDatabaseManagementManagedDatabaseTableStatistics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#managed_database_id DataOciDatabaseManagementManagedDatabaseTableStatistics#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#managed_database_id DataOciDatabaseManagementManagedDatabaseTableStatistics#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#filter DataOciDatabaseManagementManagedDatabaseTableStatistics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#filter DataOciDatabaseManagementManagedDatabaseTableStatistics#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseTableStatisticsFilter[] | cdktf.IResolvable;
 }
@@ -188,15 +188,15 @@ export class DataOciDatabaseManagementManagedDatabaseTableStatisticsTableStatist
 }
 export interface DataOciDatabaseManagementManagedDatabaseTableStatisticsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#name DataOciDatabaseManagementManagedDatabaseTableStatistics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#name DataOciDatabaseManagementManagedDatabaseTableStatistics#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#regex DataOciDatabaseManagementManagedDatabaseTableStatistics#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#regex DataOciDatabaseManagementManagedDatabaseTableStatistics#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#values DataOciDatabaseManagementManagedDatabaseTableStatistics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#values DataOciDatabaseManagementManagedDatabaseTableStatistics#values}
   */
   readonly values: string[];
 }
@@ -364,7 +364,7 @@ export class DataOciDatabaseManagementManagedDatabaseTableStatisticsFilterList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics oci_database_management_managed_database_table_statistics}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics oci_database_management_managed_database_table_statistics}
 */
 export class DataOciDatabaseManagementManagedDatabaseTableStatistics extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataOciDatabaseManagementManagedDatabaseTableStatistics extends cdk
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseTableStatistics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseTableStatistics to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseTableStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseTableStatistics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseTableStatistics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataOciDatabaseManagementManagedDatabaseTableStatistics extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_database_table_statistics oci_database_management_managed_database_table_statistics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_database_table_statistics oci_database_management_managed_database_table_statistics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataOciDatabaseManagementManagedDatabaseTableStatistics extends cdk
       terraformResourceType: 'oci_database_management_managed_database_table_statistics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

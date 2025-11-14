@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitServiceAccountConfig extends cdktf.TerraformMetaArgu
   /**
   * Email of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account#email DataStackitServiceAccount#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account#email DataStackitServiceAccount#email}
   */
   readonly email: string;
   /**
   * STACKIT project ID to which the service account is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account#project_id DataStackitServiceAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account#project_id DataStackitServiceAccount#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account stackit_service_account}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account stackit_service_account}
 */
 export class DataStackitServiceAccount extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataStackitServiceAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitServiceAccount to import
-  * @param importFromId The id of the existing DataStackitServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataStackitServiceAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/service_account stackit_service_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/service_account stackit_service_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataStackitServiceAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_service_account',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

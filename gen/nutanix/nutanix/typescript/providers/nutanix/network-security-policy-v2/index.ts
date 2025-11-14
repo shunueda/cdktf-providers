@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkSecurityPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#description NetworkSecurityPolicyV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#description NetworkSecurityPolicyV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#id NetworkSecurityPolicyV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#id NetworkSecurityPolicyV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#is_hitlog_enabled NetworkSecurityPolicyV2#is_hitlog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#is_hitlog_enabled NetworkSecurityPolicyV2#is_hitlog_enabled}
   */
   readonly isHitlogEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#is_ipv6_traffic_allowed NetworkSecurityPolicyV2#is_ipv6_traffic_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#is_ipv6_traffic_allowed NetworkSecurityPolicyV2#is_ipv6_traffic_allowed}
   */
   readonly isIpv6TrafficAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#name NetworkSecurityPolicyV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#name NetworkSecurityPolicyV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#scope NetworkSecurityPolicyV2#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#scope NetworkSecurityPolicyV2#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#state NetworkSecurityPolicyV2#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#state NetworkSecurityPolicyV2#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#vpc_reference NetworkSecurityPolicyV2#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#vpc_reference NetworkSecurityPolicyV2#vpc_reference}
   */
   readonly vpcReference?: string[];
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#rules NetworkSecurityPolicyV2#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#rules NetworkSecurityPolicyV2#rules}
   */
   readonly rules?: NetworkSecurityPolicyV2Rules[] | cdktf.IResolvable;
 }
@@ -215,11 +215,11 @@ export class NetworkSecurityPolicyV2RulesLinksList extends cdktf.ComplexList {
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecDestSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#prefix_length NetworkSecurityPolicyV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#prefix_length NetworkSecurityPolicyV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#value NetworkSecurityPolicyV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#value NetworkSecurityPolicyV2#value}
   */
   readonly value?: string;
 }
@@ -364,15 +364,15 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecDestSubnetList e
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecIcmpServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#code NetworkSecurityPolicyV2#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#code NetworkSecurityPolicyV2#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#is_all_allowed NetworkSecurityPolicyV2#is_all_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#is_all_allowed NetworkSecurityPolicyV2#is_all_allowed}
   */
   readonly isAllAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
   */
   readonly type?: number;
 }
@@ -546,11 +546,11 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecIcmpServicesList
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecSrcSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#prefix_length NetworkSecurityPolicyV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#prefix_length NetworkSecurityPolicyV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#value NetworkSecurityPolicyV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#value NetworkSecurityPolicyV2#value}
   */
   readonly value?: string;
 }
@@ -695,11 +695,11 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecSrcSubnetList ex
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecTcpServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#end_port NetworkSecurityPolicyV2#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#end_port NetworkSecurityPolicyV2#end_port}
   */
   readonly endPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#start_port NetworkSecurityPolicyV2#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#start_port NetworkSecurityPolicyV2#start_port}
   */
   readonly startPort: number;
 }
@@ -838,11 +838,11 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecTcpServicesList 
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecUdpServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#end_port NetworkSecurityPolicyV2#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#end_port NetworkSecurityPolicyV2#end_port}
   */
   readonly endPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#start_port NetworkSecurityPolicyV2#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#start_port NetworkSecurityPolicyV2#start_port}
   */
   readonly startPort: number;
 }
@@ -981,73 +981,73 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecUdpServicesList 
 }
 export interface NetworkSecurityPolicyV2RulesSpecApplicationRuleSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#dest_address_group_references NetworkSecurityPolicyV2#dest_address_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#dest_address_group_references NetworkSecurityPolicyV2#dest_address_group_references}
   */
   readonly destAddressGroupReferences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#dest_allow_spec NetworkSecurityPolicyV2#dest_allow_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#dest_allow_spec NetworkSecurityPolicyV2#dest_allow_spec}
   */
   readonly destAllowSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#dest_category_references NetworkSecurityPolicyV2#dest_category_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#dest_category_references NetworkSecurityPolicyV2#dest_category_references}
   */
   readonly destCategoryReferences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#is_all_protocol_allowed NetworkSecurityPolicyV2#is_all_protocol_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#is_all_protocol_allowed NetworkSecurityPolicyV2#is_all_protocol_allowed}
   */
   readonly isAllProtocolAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#network_function_chain_reference NetworkSecurityPolicyV2#network_function_chain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#network_function_chain_reference NetworkSecurityPolicyV2#network_function_chain_reference}
   */
   readonly networkFunctionChainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#secured_group_category_references NetworkSecurityPolicyV2#secured_group_category_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#secured_group_category_references NetworkSecurityPolicyV2#secured_group_category_references}
   */
   readonly securedGroupCategoryReferences: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#service_group_references NetworkSecurityPolicyV2#service_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#service_group_references NetworkSecurityPolicyV2#service_group_references}
   */
   readonly serviceGroupReferences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#src_address_group_references NetworkSecurityPolicyV2#src_address_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#src_address_group_references NetworkSecurityPolicyV2#src_address_group_references}
   */
   readonly srcAddressGroupReferences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#src_allow_spec NetworkSecurityPolicyV2#src_allow_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#src_allow_spec NetworkSecurityPolicyV2#src_allow_spec}
   */
   readonly srcAllowSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#src_category_references NetworkSecurityPolicyV2#src_category_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#src_category_references NetworkSecurityPolicyV2#src_category_references}
   */
   readonly srcCategoryReferences?: string[];
   /**
   * dest_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#dest_subnet NetworkSecurityPolicyV2#dest_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#dest_subnet NetworkSecurityPolicyV2#dest_subnet}
   */
   readonly destSubnet?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecDestSubnet[] | cdktf.IResolvable;
   /**
   * icmp_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#icmp_services NetworkSecurityPolicyV2#icmp_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#icmp_services NetworkSecurityPolicyV2#icmp_services}
   */
   readonly icmpServices?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecIcmpServices[] | cdktf.IResolvable;
   /**
   * src_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#src_subnet NetworkSecurityPolicyV2#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#src_subnet NetworkSecurityPolicyV2#src_subnet}
   */
   readonly srcSubnet?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecSrcSubnet[] | cdktf.IResolvable;
   /**
   * tcp_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#tcp_services NetworkSecurityPolicyV2#tcp_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#tcp_services NetworkSecurityPolicyV2#tcp_services}
   */
   readonly tcpServices?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecTcpServices[] | cdktf.IResolvable;
   /**
   * udp_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#udp_services NetworkSecurityPolicyV2#udp_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#udp_services NetworkSecurityPolicyV2#udp_services}
   */
   readonly udpServices?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecUdpServices[] | cdktf.IResolvable;
 }
@@ -1566,11 +1566,11 @@ export class NetworkSecurityPolicyV2RulesSpecApplicationRuleSpecList extends cdk
 }
 export interface NetworkSecurityPolicyV2RulesSpecIntraEntityGroupRuleSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#secured_group_action NetworkSecurityPolicyV2#secured_group_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#secured_group_action NetworkSecurityPolicyV2#secured_group_action}
   */
   readonly securedGroupAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#secured_group_category_references NetworkSecurityPolicyV2#secured_group_category_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#secured_group_category_references NetworkSecurityPolicyV2#secured_group_category_references}
   */
   readonly securedGroupCategoryReferences?: string[];
 }
@@ -1715,7 +1715,7 @@ export class NetworkSecurityPolicyV2RulesSpecIntraEntityGroupRuleSpecList extend
 }
 export interface NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpecAllToAllIsolationGroupIsolationGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#group_category_references NetworkSecurityPolicyV2#group_category_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#group_category_references NetworkSecurityPolicyV2#group_category_references}
   */
   readonly groupCategoryReferences: string[];
 }
@@ -1830,7 +1830,7 @@ export interface NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpecAl
   /**
   * isolation_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#isolation_group NetworkSecurityPolicyV2#isolation_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#isolation_group NetworkSecurityPolicyV2#isolation_group}
   */
   readonly isolationGroup: NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpecAllToAllIsolationGroupIsolationGroup[] | cdktf.IResolvable;
 }
@@ -1945,7 +1945,7 @@ export interface NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpec {
   /**
   * all_to_all_isolation_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#all_to_all_isolation_group NetworkSecurityPolicyV2#all_to_all_isolation_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#all_to_all_isolation_group NetworkSecurityPolicyV2#all_to_all_isolation_group}
   */
   readonly allToAllIsolationGroup?: NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpecAllToAllIsolationGroup[] | cdktf.IResolvable;
 }
@@ -2063,7 +2063,7 @@ export interface NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpec {
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#spec NetworkSecurityPolicyV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#spec NetworkSecurityPolicyV2#spec}
   */
   readonly spec: NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecSpec[] | cdktf.IResolvable;
 }
@@ -2176,11 +2176,11 @@ export class NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpecList exten
 }
 export interface NetworkSecurityPolicyV2RulesSpecTwoEnvIsolationRuleSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#first_isolation_group NetworkSecurityPolicyV2#first_isolation_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#first_isolation_group NetworkSecurityPolicyV2#first_isolation_group}
   */
   readonly firstIsolationGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#second_isolation_group NetworkSecurityPolicyV2#second_isolation_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#second_isolation_group NetworkSecurityPolicyV2#second_isolation_group}
   */
   readonly secondIsolationGroup: string[];
 }
@@ -2321,25 +2321,25 @@ export interface NetworkSecurityPolicyV2RulesSpec {
   /**
   * application_rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#application_rule_spec NetworkSecurityPolicyV2#application_rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#application_rule_spec NetworkSecurityPolicyV2#application_rule_spec}
   */
   readonly applicationRuleSpec?: NetworkSecurityPolicyV2RulesSpecApplicationRuleSpec[] | cdktf.IResolvable;
   /**
   * intra_entity_group_rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#intra_entity_group_rule_spec NetworkSecurityPolicyV2#intra_entity_group_rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#intra_entity_group_rule_spec NetworkSecurityPolicyV2#intra_entity_group_rule_spec}
   */
   readonly intraEntityGroupRuleSpec?: NetworkSecurityPolicyV2RulesSpecIntraEntityGroupRuleSpec[] | cdktf.IResolvable;
   /**
   * multi_env_isolation_rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#multi_env_isolation_rule_spec NetworkSecurityPolicyV2#multi_env_isolation_rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#multi_env_isolation_rule_spec NetworkSecurityPolicyV2#multi_env_isolation_rule_spec}
   */
   readonly multiEnvIsolationRuleSpec?: NetworkSecurityPolicyV2RulesSpecMultiEnvIsolationRuleSpec[] | cdktf.IResolvable;
   /**
   * two_env_isolation_rule_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#two_env_isolation_rule_spec NetworkSecurityPolicyV2#two_env_isolation_rule_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#two_env_isolation_rule_spec NetworkSecurityPolicyV2#two_env_isolation_rule_spec}
   */
   readonly twoEnvIsolationRuleSpec?: NetworkSecurityPolicyV2RulesSpecTwoEnvIsolationRuleSpec[] | cdktf.IResolvable;
 }
@@ -2542,17 +2542,17 @@ export class NetworkSecurityPolicyV2RulesSpecList extends cdktf.ComplexList {
 }
 export interface NetworkSecurityPolicyV2Rules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#description NetworkSecurityPolicyV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#description NetworkSecurityPolicyV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#type NetworkSecurityPolicyV2#type}
   */
   readonly type: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#spec NetworkSecurityPolicyV2#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#spec NetworkSecurityPolicyV2#spec}
   */
   readonly spec: NetworkSecurityPolicyV2RulesSpec[] | cdktf.IResolvable;
 }
@@ -2731,7 +2731,7 @@ export class NetworkSecurityPolicyV2RulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2 nutanix_network_security_policy_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2 nutanix_network_security_policy_v2}
 */
 export class NetworkSecurityPolicyV2 extends cdktf.TerraformResource {
 
@@ -2747,7 +2747,7 @@ export class NetworkSecurityPolicyV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSecurityPolicyV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSecurityPolicyV2 to import
-  * @param importFromId The id of the existing NetworkSecurityPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSecurityPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSecurityPolicyV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2759,7 +2759,7 @@ export class NetworkSecurityPolicyV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/network_security_policy_v2 nutanix_network_security_policy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/network_security_policy_v2 nutanix_network_security_policy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2770,8 +2770,8 @@ export class NetworkSecurityPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_network_security_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

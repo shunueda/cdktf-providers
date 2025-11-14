@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPrefectWorkerMetadataConfig extends cdktf.TerraformMetaArgu
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata#account_id DataPrefectWorkerMetadata#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata#account_id DataPrefectWorkerMetadata#account_id}
   */
   readonly accountId?: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata#workspace_id DataPrefectWorkerMetadata#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata#workspace_id DataPrefectWorkerMetadata#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -146,7 +146,7 @@ export class DataPrefectWorkerMetadataBaseJobConfigsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata prefect_worker_metadata}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata prefect_worker_metadata}
 */
 export class DataPrefectWorkerMetadata extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataPrefectWorkerMetadata extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectWorkerMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectWorkerMetadata to import
-  * @param importFromId The id of the existing DataPrefectWorkerMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectWorkerMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectWorkerMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataPrefectWorkerMetadata extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/worker_metadata prefect_worker_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/worker_metadata prefect_worker_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataPrefectWorkerMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_worker_metadata',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0',
-        providerVersionConstraint: '2.90.0'
+        providerVersion: '2.90.1',
+        providerVersionConstraint: '2.90.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

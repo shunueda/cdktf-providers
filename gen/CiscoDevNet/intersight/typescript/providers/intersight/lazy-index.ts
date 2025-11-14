@@ -14,6 +14,7 @@ Object.defineProperty(exports, 'applianceDataExportPolicy', { get: function () {
 Object.defineProperty(exports, 'applianceDeviceClaim', { get: function () { return require('./appliance-device-claim'); } });
 Object.defineProperty(exports, 'applianceDiagSetting', { get: function () { return require('./appliance-diag-setting'); } });
 Object.defineProperty(exports, 'applianceExternalSyslogSetting', { get: function () { return require('./appliance-external-syslog-setting'); } });
+Object.defineProperty(exports, 'applianceFqdnUpdate', { get: function () { return require('./appliance-fqdn-update'); } });
 Object.defineProperty(exports, 'applianceRemoteFileImport', { get: function () { return require('./appliance-remote-file-import'); } });
 Object.defineProperty(exports, 'applianceRestore', { get: function () { return require('./appliance-restore'); } });
 Object.defineProperty(exports, 'assetDeviceClaim', { get: function () { return require('./asset-device-claim'); } });
@@ -468,6 +469,7 @@ Object.defineProperty(exports, 'dataIntersightApplianceExternalSyslogSetting', {
 Object.defineProperty(exports, 'dataIntersightApplianceFileGateway', { get: function () { return require('./data-intersight-appliance-file-gateway'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceFileSystemOpStatus', { get: function () { return require('./data-intersight-appliance-file-system-op-status'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceFileSystemStatus', { get: function () { return require('./data-intersight-appliance-file-system-status'); } });
+Object.defineProperty(exports, 'dataIntersightApplianceFqdnUpdate', { get: function () { return require('./data-intersight-appliance-fqdn-update'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceGroupOpStatus', { get: function () { return require('./data-intersight-appliance-group-op-status'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceGroupStatus', { get: function () { return require('./data-intersight-appliance-group-status'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceImageBundle', { get: function () { return require('./data-intersight-appliance-image-bundle'); } });

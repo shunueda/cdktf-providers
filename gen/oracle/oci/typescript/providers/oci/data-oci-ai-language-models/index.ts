@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciAiLanguageModelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#compartment_id DataOciAiLanguageModels#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#compartment_id DataOciAiLanguageModels#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#display_name DataOciAiLanguageModels#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#display_name DataOciAiLanguageModels#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#id DataOciAiLanguageModels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#id DataOciAiLanguageModels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#project_id DataOciAiLanguageModels#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#project_id DataOciAiLanguageModels#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#state DataOciAiLanguageModels#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#state DataOciAiLanguageModels#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#filter DataOciAiLanguageModels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#filter DataOciAiLanguageModels#filter}
   */
   readonly filter?: DataOciAiLanguageModelsFilter[] | cdktf.IResolvable;
 }
@@ -1471,15 +1471,15 @@ export class DataOciAiLanguageModelsModelCollectionList extends cdktf.ComplexLis
 }
 export interface DataOciAiLanguageModelsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#name DataOciAiLanguageModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#name DataOciAiLanguageModels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#regex DataOciAiLanguageModels#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#regex DataOciAiLanguageModels#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#values DataOciAiLanguageModels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#values DataOciAiLanguageModels#values}
   */
   readonly values: string[];
 }
@@ -1647,7 +1647,7 @@ export class DataOciAiLanguageModelsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models oci_ai_language_models}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models oci_ai_language_models}
 */
 export class DataOciAiLanguageModels extends cdktf.TerraformDataSource {
 
@@ -1663,7 +1663,7 @@ export class DataOciAiLanguageModels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciAiLanguageModels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciAiLanguageModels to import
-  * @param importFromId The id of the existing DataOciAiLanguageModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciAiLanguageModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciAiLanguageModels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1675,7 +1675,7 @@ export class DataOciAiLanguageModels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_language_models oci_ai_language_models} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_language_models oci_ai_language_models} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1686,8 +1686,8 @@ export class DataOciAiLanguageModels extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ai_language_models',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

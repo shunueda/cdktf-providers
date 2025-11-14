@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseGiVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#availability_domain DataOciDatabaseGiVersions#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#availability_domain DataOciDatabaseGiVersions#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#compartment_id DataOciDatabaseGiVersions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#compartment_id DataOciDatabaseGiVersions#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#id DataOciDatabaseGiVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#id DataOciDatabaseGiVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#resource_id DataOciDatabaseGiVersions#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#resource_id DataOciDatabaseGiVersions#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#shape DataOciDatabaseGiVersions#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#shape DataOciDatabaseGiVersions#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#shape_attribute DataOciDatabaseGiVersions#shape_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#shape_attribute DataOciDatabaseGiVersions#shape_attribute}
   */
   readonly shapeAttribute?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#filter DataOciDatabaseGiVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#filter DataOciDatabaseGiVersions#filter}
   */
   readonly filter?: DataOciDatabaseGiVersionsFilter[] | cdktf.IResolvable;
 }
@@ -118,15 +118,15 @@ export class DataOciDatabaseGiVersionsGiVersionsList extends cdktf.ComplexList {
 }
 export interface DataOciDatabaseGiVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#name DataOciDatabaseGiVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#name DataOciDatabaseGiVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#regex DataOciDatabaseGiVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#regex DataOciDatabaseGiVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#values DataOciDatabaseGiVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#values DataOciDatabaseGiVersions#values}
   */
   readonly values: string[];
 }
@@ -294,7 +294,7 @@ export class DataOciDatabaseGiVersionsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions oci_database_gi_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions oci_database_gi_versions}
 */
 export class DataOciDatabaseGiVersions extends cdktf.TerraformDataSource {
 
@@ -310,7 +310,7 @@ export class DataOciDatabaseGiVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatabaseGiVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseGiVersions to import
-  * @param importFromId The id of the existing DataOciDatabaseGiVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseGiVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseGiVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class DataOciDatabaseGiVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_gi_versions oci_database_gi_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_gi_versions oci_database_gi_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class DataOciDatabaseGiVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_database_gi_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

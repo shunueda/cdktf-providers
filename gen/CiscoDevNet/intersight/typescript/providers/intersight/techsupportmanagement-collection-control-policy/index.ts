@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface TechsupportmanagementCollectionControlPolicyConfig extends cdkt
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#account TechsupportmanagementCollectionControlPolicy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#account TechsupportmanagementCollectionControlPolicy#account}
   */
   readonly account?: TechsupportmanagementCollectionControlPolicyAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#account_moid TechsupportmanagementCollectionControlPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#account_moid TechsupportmanagementCollectionControlPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#ancestors TechsupportmanagementCollectionControlPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#ancestors TechsupportmanagementCollectionControlPolicy#ancestors}
   */
   readonly ancestors?: TechsupportmanagementCollectionControlPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -35,13 +35,13 @@ export interface TechsupportmanagementCollectionControlPolicyConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#create_time TechsupportmanagementCollectionControlPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#create_time TechsupportmanagementCollectionControlPolicy#create_time}
   */
   readonly createTime?: string;
   /**
@@ -50,17 +50,17 @@ export interface TechsupportmanagementCollectionControlPolicyConfig extends cdkt
   * * `SaaS` - Service deployment type SaaS.
   * * `Appliance` - Service deployment type Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#deployment_type TechsupportmanagementCollectionControlPolicy#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#deployment_type TechsupportmanagementCollectionControlPolicy#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#domain_group_moid TechsupportmanagementCollectionControlPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#domain_group_moid TechsupportmanagementCollectionControlPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#id TechsupportmanagementCollectionControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#id TechsupportmanagementCollectionControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,48 +69,48 @@ export interface TechsupportmanagementCollectionControlPolicyConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#mod_time TechsupportmanagementCollectionControlPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#mod_time TechsupportmanagementCollectionControlPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#owners TechsupportmanagementCollectionControlPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#owners TechsupportmanagementCollectionControlPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#parent TechsupportmanagementCollectionControlPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#parent TechsupportmanagementCollectionControlPolicy#parent}
   */
   readonly parent?: TechsupportmanagementCollectionControlPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#permission_resources TechsupportmanagementCollectionControlPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#permission_resources TechsupportmanagementCollectionControlPolicy#permission_resources}
   */
   readonly permissionResources?: TechsupportmanagementCollectionControlPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#shared_scope TechsupportmanagementCollectionControlPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#shared_scope TechsupportmanagementCollectionControlPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#tags TechsupportmanagementCollectionControlPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#tags TechsupportmanagementCollectionControlPolicy#tags}
   */
   readonly tags?: TechsupportmanagementCollectionControlPolicyTags[] | cdktf.IResolvable;
   /**
@@ -118,35 +118,35 @@ export interface TechsupportmanagementCollectionControlPolicyConfig extends cdkt
   * * `Enable` - Enable techsupport collection.
   * * `Disable` - Disable techsupport collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#tech_support_collection TechsupportmanagementCollectionControlPolicy#tech_support_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#tech_support_collection TechsupportmanagementCollectionControlPolicy#tech_support_collection}
   */
   readonly techSupportCollection?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#version_context TechsupportmanagementCollectionControlPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#version_context TechsupportmanagementCollectionControlPolicy#version_context}
   */
   readonly versionContext?: TechsupportmanagementCollectionControlPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface TechsupportmanagementCollectionControlPolicyAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -378,23 +378,23 @@ export class TechsupportmanagementCollectionControlPolicyAccountList extends cdk
 }
 export interface TechsupportmanagementCollectionControlPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -626,23 +626,23 @@ export class TechsupportmanagementCollectionControlPolicyAncestorsList extends c
 }
 export interface TechsupportmanagementCollectionControlPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -874,23 +874,23 @@ export class TechsupportmanagementCollectionControlPolicyParentList extends cdkt
 }
 export interface TechsupportmanagementCollectionControlPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1122,23 +1122,23 @@ export class TechsupportmanagementCollectionControlPolicyPermissionResourcesList
 }
 export interface TechsupportmanagementCollectionControlPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1370,23 +1370,23 @@ export class TechsupportmanagementCollectionControlPolicyTagsAncestorDefinitions
 }
 export interface TechsupportmanagementCollectionControlPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1618,31 +1618,35 @@ export class TechsupportmanagementCollectionControlPolicyTagsDefinitionList exte
 }
 export interface TechsupportmanagementCollectionControlPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#ancestor_definitions TechsupportmanagementCollectionControlPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#ancestor_definitions TechsupportmanagementCollectionControlPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TechsupportmanagementCollectionControlPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#definition TechsupportmanagementCollectionControlPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#definition TechsupportmanagementCollectionControlPolicy#definition}
   */
   readonly definition?: TechsupportmanagementCollectionControlPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#key TechsupportmanagementCollectionControlPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#key TechsupportmanagementCollectionControlPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#propagated TechsupportmanagementCollectionControlPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#propagated TechsupportmanagementCollectionControlPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#type TechsupportmanagementCollectionControlPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#sys_tag TechsupportmanagementCollectionControlPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#type TechsupportmanagementCollectionControlPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#value TechsupportmanagementCollectionControlPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#value TechsupportmanagementCollectionControlPolicy#value}
   */
   readonly value?: string;
 }
@@ -1658,6 +1662,7 @@ export function techsupportmanagementCollectionControlPolicyTagsToTerraform(stru
     definition: cdktf.listMapper(techsupportmanagementCollectionControlPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1696,6 +1701,12 @@ export function techsupportmanagementCollectionControlPolicyTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1758,6 +1769,10 @@ export class TechsupportmanagementCollectionControlPolicyTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1778,6 +1793,7 @@ export class TechsupportmanagementCollectionControlPolicyTagsOutputReference ext
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1793,6 +1809,7 @@ export class TechsupportmanagementCollectionControlPolicyTagsOutputReference ext
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1878,6 +1895,22 @@ export class TechsupportmanagementCollectionControlPolicyTagsOutputReference ext
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1932,23 +1965,23 @@ export class TechsupportmanagementCollectionControlPolicyTagsList extends cdktf.
 }
 export interface TechsupportmanagementCollectionControlPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2180,23 +2213,23 @@ export class TechsupportmanagementCollectionControlPolicyVersionContextIntereste
 }
 export interface TechsupportmanagementCollectionControlPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#moid TechsupportmanagementCollectionControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#selector TechsupportmanagementCollectionControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2428,39 +2461,39 @@ export class TechsupportmanagementCollectionControlPolicyVersionContextRefMoList
 }
 export interface TechsupportmanagementCollectionControlPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#additional_properties TechsupportmanagementCollectionControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#class_id TechsupportmanagementCollectionControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#interested_mos TechsupportmanagementCollectionControlPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#interested_mos TechsupportmanagementCollectionControlPolicy#interested_mos}
   */
   readonly interestedMos?: TechsupportmanagementCollectionControlPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#marked_for_deletion TechsupportmanagementCollectionControlPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#marked_for_deletion TechsupportmanagementCollectionControlPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#nr_version TechsupportmanagementCollectionControlPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#nr_version TechsupportmanagementCollectionControlPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#object_type TechsupportmanagementCollectionControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#ref_mo TechsupportmanagementCollectionControlPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#ref_mo TechsupportmanagementCollectionControlPolicy#ref_mo}
   */
   readonly refMo?: TechsupportmanagementCollectionControlPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#timestamp TechsupportmanagementCollectionControlPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#timestamp TechsupportmanagementCollectionControlPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#version_type TechsupportmanagementCollectionControlPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#version_type TechsupportmanagementCollectionControlPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -2808,7 +2841,7 @@ export class TechsupportmanagementCollectionControlPolicyVersionContextList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy intersight_techsupportmanagement_collection_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy intersight_techsupportmanagement_collection_control_policy}
 */
 export class TechsupportmanagementCollectionControlPolicy extends cdktf.TerraformResource {
 
@@ -2824,7 +2857,7 @@ export class TechsupportmanagementCollectionControlPolicy extends cdktf.Terrafor
   * Generates CDKTF code for importing a TechsupportmanagementCollectionControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TechsupportmanagementCollectionControlPolicy to import
-  * @param importFromId The id of the existing TechsupportmanagementCollectionControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TechsupportmanagementCollectionControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TechsupportmanagementCollectionControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2836,7 +2869,7 @@ export class TechsupportmanagementCollectionControlPolicy extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_collection_control_policy intersight_techsupportmanagement_collection_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_collection_control_policy intersight_techsupportmanagement_collection_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2847,8 +2880,8 @@ export class TechsupportmanagementCollectionControlPolicy extends cdktf.Terrafor
       terraformResourceType: 'intersight_techsupportmanagement_collection_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

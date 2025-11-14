@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightAssetTargetConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#account_moid DataIntersightAssetTarget#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#account_moid DataIntersightAssetTarget#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The name or email id of the user who claimed the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#claimed_by_user_name DataIntersightAssetTarget#claimed_by_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#claimed_by_user_name DataIntersightAssetTarget#claimed_by_user_name}
   */
   readonly claimedByUserName?: string;
   /**
@@ -28,42 +28,42 @@ export interface DataIntersightAssetTargetConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Device Connector version for target types which are managed by via embedded Device Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#connector_version DataIntersightAssetTarget#connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#connector_version DataIntersightAssetTarget#connector_version}
   */
   readonly connectorVersion?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#create_time DataIntersightAssetTarget#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#create_time DataIntersightAssetTarget#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#domain_group_moid DataIntersightAssetTarget#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#domain_group_moid DataIntersightAssetTarget#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * ExternalIpAddress is applicable for targets which are managed via an Intersight Device Connector. The value is the IP Address of the target as seen from Intersight. It is either the IP Address of the managed target's interface which has a route to the internet or a NAT IP Address when the target is deployed in a private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#external_ip_address DataIntersightAssetTarget#external_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#external_ip_address DataIntersightAssetTarget#external_ip_address}
   */
   readonly externalIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#id DataIntersightAssetTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#id DataIntersightAssetTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#ip_address DataIntersightAssetTarget#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#ip_address DataIntersightAssetTarget#ip_address}
   */
   readonly ipAddress?: string[];
   /**
@@ -73,53 +73,53 @@ export interface DataIntersightAssetTargetConfig extends cdktf.TerraformMetaArgu
   * * `IntersightAssist` - Management of a target is performed via a selected Intersight Assist. Network connections are established from the Intersight Assist to a management interface of the Target.
   * * `DeviceConnector` - An Intersight Device Connector running within the Target establishes a connection to Intersight and management of the target is performed via this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#management_location DataIntersightAssetTarget#management_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#management_location DataIntersightAssetTarget#management_location}
   */
   readonly managementLocation?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#mod_time DataIntersightAssetTarget#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#mod_time DataIntersightAssetTarget#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * A user provided name for the managed target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#name DataIntersightAssetTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#name DataIntersightAssetTarget#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#owners DataIntersightAssetTarget#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#owners DataIntersightAssetTarget#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#product_id DataIntersightAssetTarget#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#product_id DataIntersightAssetTarget#product_id}
   */
   readonly productId?: string[];
   /**
   * For targets which are managed by an embedded Intersight Device Connector, this field indicates that an administrator of the target has disabled management operations of the Device Connector and only monitoring is permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#read_only DataIntersightAssetTarget#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#read_only DataIntersightAssetTarget#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#shared_scope DataIntersightAssetTarget#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#shared_scope DataIntersightAssetTarget#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -132,17 +132,17 @@ export interface DataIntersightAssetTargetConfig extends cdktf.TerraformMetaArgu
   * * `Unclaimed` - The device was un-claimed from the users account by an Administrator of the device. Also indicates the failure to claim Targets of type HTTP Endpoint in Intersight.
   * * `Claimed` - Target of type HTTP Endpoint is successfully claimed in Intersight. Currently no validation is performed to verify the Target connectivity from Intersight at the time of creation. However invoking API from Intersight Orchestrator fails if this Target is not reachable from Intersight or if Target API credentials are incorrect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#status DataIntersightAssetTarget#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#status DataIntersightAssetTarget#status}
   */
   readonly status?: string;
   /**
   * StatusErrorReason provides additional context for the Status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#status_error_reason DataIntersightAssetTarget#status_error_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#status_error_reason DataIntersightAssetTarget#status_error_reason}
   */
   readonly statusErrorReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#target_id DataIntersightAssetTarget#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#target_id DataIntersightAssetTarget#target_id}
   */
   readonly targetId?: string[];
   /**
@@ -231,109 +231,109 @@ export interface DataIntersightAssetTargetConfig extends cdktf.TerraformMetaArgu
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#target_type DataIntersightAssetTarget#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#target_type DataIntersightAssetTarget#target_type}
   */
   readonly targetType?: string;
   /**
   * The vendor of the managed target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#vendor DataIntersightAssetTarget#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#vendor DataIntersightAssetTarget#vendor}
   */
   readonly vendor?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#account DataIntersightAssetTarget#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#account DataIntersightAssetTarget#account}
   */
   readonly account?: DataIntersightAssetTargetAccount;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#alarm_summary DataIntersightAssetTarget#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#alarm_summary DataIntersightAssetTarget#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightAssetTargetAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#ancestors DataIntersightAssetTarget#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#ancestors DataIntersightAssetTarget#ancestors}
   */
   readonly ancestors?: DataIntersightAssetTargetAncestors[] | cdktf.IResolvable;
   /**
   * assigned_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#assigned_location DataIntersightAssetTarget#assigned_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#assigned_location DataIntersightAssetTarget#assigned_location}
   */
   readonly assignedLocation?: DataIntersightAssetTargetAssignedLocation;
   /**
   * assist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#assist DataIntersightAssetTarget#assist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#assist DataIntersightAssetTarget#assist}
   */
   readonly assist?: DataIntersightAssetTargetAssist;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#connections DataIntersightAssetTarget#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#connections DataIntersightAssetTarget#connections}
   */
   readonly connections?: DataIntersightAssetTargetConnections[] | cdktf.IResolvable;
   /**
   * custom_permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#custom_permission_resources DataIntersightAssetTarget#custom_permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#custom_permission_resources DataIntersightAssetTarget#custom_permission_resources}
   */
   readonly customPermissionResources?: DataIntersightAssetTargetCustomPermissionResources[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#parent DataIntersightAssetTarget#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#parent DataIntersightAssetTarget#parent}
   */
   readonly parent?: DataIntersightAssetTargetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#permission_resources DataIntersightAssetTarget#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#permission_resources DataIntersightAssetTarget#permission_resources}
   */
   readonly permissionResources?: DataIntersightAssetTargetPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#registered_device DataIntersightAssetTarget#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#registered_device DataIntersightAssetTarget#registered_device}
   */
   readonly registeredDevice?: DataIntersightAssetTargetRegisteredDevice;
   /**
   * reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#reservation DataIntersightAssetTarget#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#reservation DataIntersightAssetTarget#reservation}
   */
   readonly reservation?: DataIntersightAssetTargetReservation;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#services DataIntersightAssetTarget#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#services DataIntersightAssetTarget#services}
   */
   readonly services?: DataIntersightAssetTargetServices[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#tags DataIntersightAssetTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#tags DataIntersightAssetTarget#tags}
   */
   readonly tags?: DataIntersightAssetTargetTags[] | cdktf.IResolvable;
   /**
   * trust_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#trust_point DataIntersightAssetTarget#trust_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#trust_point DataIntersightAssetTarget#trust_point}
   */
   readonly trustPoint?: DataIntersightAssetTargetTrustPoint;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#version_context DataIntersightAssetTarget#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#version_context DataIntersightAssetTarget#version_context}
   */
   readonly versionContext?: DataIntersightAssetTargetVersionContext;
   /**
   * workflow_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#workflow_info DataIntersightAssetTarget#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#workflow_info DataIntersightAssetTarget#workflow_info}
   */
   readonly workflowInfo?: DataIntersightAssetTargetWorkflowInfo;
 }
@@ -1932,6 +1932,11 @@ export class DataIntersightAssetTargetResultsTagsOutputReference extends cdktf.C
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2741,7 +2746,7 @@ export class DataIntersightAssetTargetResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAssetTargetAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2749,19 +2754,19 @@ export interface DataIntersightAssetTargetAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2774,7 +2779,7 @@ export interface DataIntersightAssetTargetAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2974,7 +2979,7 @@ export class DataIntersightAssetTargetAccountOutputReference extends cdktf.Compl
 }
 export interface DataIntersightAssetTargetAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2982,13 +2987,13 @@ export interface DataIntersightAssetTargetAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The count of active alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#critical DataIntersightAssetTarget#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#critical DataIntersightAssetTarget#critical}
   */
   readonly critical?: number;
   /**
@@ -2997,44 +3002,44 @@ export interface DataIntersightAssetTargetAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#health DataIntersightAssetTarget#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#health DataIntersightAssetTarget#health}
   */
   readonly health?: string;
   /**
   * The count of active alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#info DataIntersightAssetTarget#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#info DataIntersightAssetTarget#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * The count of active suppressed alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#suppressed_critical DataIntersightAssetTarget#suppressed_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#suppressed_critical DataIntersightAssetTarget#suppressed_critical}
   */
   readonly suppressedCritical?: number;
   /**
   * The count of active suppressed alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#suppressed_info DataIntersightAssetTarget#suppressed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#suppressed_info DataIntersightAssetTarget#suppressed_info}
   */
   readonly suppressedInfo?: number;
   /**
   * The count of active suppressed alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#suppressed_warning DataIntersightAssetTarget#suppressed_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#suppressed_warning DataIntersightAssetTarget#suppressed_warning}
   */
   readonly suppressedWarning?: number;
   /**
   * The count of active alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#warning DataIntersightAssetTarget#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#warning DataIntersightAssetTarget#warning}
   */
   readonly warning?: number;
 }
@@ -3379,7 +3384,7 @@ export class DataIntersightAssetTargetAlarmSummaryOutputReference extends cdktf.
 }
 export interface DataIntersightAssetTargetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3387,19 +3392,19 @@ export interface DataIntersightAssetTargetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3412,7 +3417,7 @@ export interface DataIntersightAssetTargetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3644,7 +3649,7 @@ export class DataIntersightAssetTargetAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAssetTargetAssignedLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3652,19 +3657,19 @@ export interface DataIntersightAssetTargetAssignedLocation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3677,7 +3682,7 @@ export interface DataIntersightAssetTargetAssignedLocation {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3877,7 +3882,7 @@ export class DataIntersightAssetTargetAssignedLocationOutputReference extends cd
 }
 export interface DataIntersightAssetTargetAssist {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3885,19 +3890,19 @@ export interface DataIntersightAssetTargetAssist {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3910,7 +3915,7 @@ export interface DataIntersightAssetTargetAssist {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4110,7 +4115,7 @@ export class DataIntersightAssetTargetAssistOutputReference extends cdktf.Comple
 }
 export interface DataIntersightAssetTargetConnectionsCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4119,7 +4124,7 @@ export interface DataIntersightAssetTargetConnectionsCredential {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
@@ -4127,7 +4132,7 @@ export interface DataIntersightAssetTargetConnectionsCredential {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
 }
@@ -4269,7 +4274,7 @@ export class DataIntersightAssetTargetConnectionsCredentialOutputReference exten
 }
 export interface DataIntersightAssetTargetConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4278,7 +4283,7 @@ export interface DataIntersightAssetTargetConnections {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
@@ -4286,13 +4291,13 @@ export interface DataIntersightAssetTargetConnections {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#credential DataIntersightAssetTarget#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#credential DataIntersightAssetTarget#credential}
   */
   readonly credential?: DataIntersightAssetTargetConnectionsCredential;
 }
@@ -4495,7 +4500,7 @@ export class DataIntersightAssetTargetConnectionsList extends cdktf.ComplexList 
 }
 export interface DataIntersightAssetTargetCustomPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4503,19 +4508,19 @@ export interface DataIntersightAssetTargetCustomPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4528,7 +4533,7 @@ export interface DataIntersightAssetTargetCustomPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4760,7 +4765,7 @@ export class DataIntersightAssetTargetCustomPermissionResourcesList extends cdkt
 }
 export interface DataIntersightAssetTargetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4768,19 +4773,19 @@ export interface DataIntersightAssetTargetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4793,7 +4798,7 @@ export interface DataIntersightAssetTargetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -4993,7 +4998,7 @@ export class DataIntersightAssetTargetParentOutputReference extends cdktf.Comple
 }
 export interface DataIntersightAssetTargetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5001,19 +5006,19 @@ export interface DataIntersightAssetTargetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5026,7 +5031,7 @@ export interface DataIntersightAssetTargetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -5258,7 +5263,7 @@ export class DataIntersightAssetTargetPermissionResourcesList extends cdktf.Comp
 }
 export interface DataIntersightAssetTargetRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5266,19 +5271,19 @@ export interface DataIntersightAssetTargetRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5291,7 +5296,7 @@ export interface DataIntersightAssetTargetRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -5491,7 +5496,7 @@ export class DataIntersightAssetTargetRegisteredDeviceOutputReference extends cd
 }
 export interface DataIntersightAssetTargetReservation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5499,19 +5504,19 @@ export interface DataIntersightAssetTargetReservation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5524,7 +5529,7 @@ export interface DataIntersightAssetTargetReservation {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -5724,7 +5729,7 @@ export class DataIntersightAssetTargetReservationOutputReference extends cdktf.C
 }
 export interface DataIntersightAssetTargetServicesOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5733,7 +5738,7 @@ export interface DataIntersightAssetTargetServicesOptions {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
@@ -5741,7 +5746,7 @@ export interface DataIntersightAssetTargetServicesOptions {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
 }
@@ -5883,7 +5888,7 @@ export class DataIntersightAssetTargetServicesOptionsOutputReference extends cdk
 }
 export interface DataIntersightAssetTargetServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5892,7 +5897,7 @@ export interface DataIntersightAssetTargetServices {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
@@ -5900,13 +5905,13 @@ export interface DataIntersightAssetTargetServices {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#options DataIntersightAssetTarget#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#options DataIntersightAssetTarget#options}
   */
   readonly options?: DataIntersightAssetTargetServicesOptions;
 }
@@ -6109,7 +6114,7 @@ export class DataIntersightAssetTargetServicesList extends cdktf.ComplexList {
 }
 export interface DataIntersightAssetTargetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6117,19 +6122,19 @@ export interface DataIntersightAssetTargetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6142,7 +6147,7 @@ export interface DataIntersightAssetTargetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -6374,7 +6379,7 @@ export class DataIntersightAssetTargetTagsAncestorDefinitionsList extends cdktf.
 }
 export interface DataIntersightAssetTargetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6382,19 +6387,19 @@ export interface DataIntersightAssetTargetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6407,7 +6412,7 @@ export interface DataIntersightAssetTargetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -6607,45 +6612,51 @@ export class DataIntersightAssetTargetTagsDefinitionOutputReference extends cdkt
 }
 export interface DataIntersightAssetTargetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#key DataIntersightAssetTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#key DataIntersightAssetTarget#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#propagated DataIntersightAssetTarget#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#propagated DataIntersightAssetTarget#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#sys_tag DataIntersightAssetTarget#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#type DataIntersightAssetTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#type DataIntersightAssetTarget#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#value DataIntersightAssetTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#value DataIntersightAssetTarget#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#ancestor_definitions DataIntersightAssetTarget#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#ancestor_definitions DataIntersightAssetTarget#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAssetTargetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#definition DataIntersightAssetTarget#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#definition DataIntersightAssetTarget#definition}
   */
   readonly definition?: DataIntersightAssetTargetTagsDefinition;
 }
@@ -6659,6 +6670,7 @@ export function dataIntersightAssetTargetTagsToTerraform(struct?: DataIntersight
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightAssetTargetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6687,6 +6699,12 @@ export function dataIntersightAssetTargetTagsToHclTerraform(struct?: DataIntersi
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6753,6 +6771,10 @@ export class DataIntersightAssetTargetTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6779,6 +6801,7 @@ export class DataIntersightAssetTargetTagsOutputReference extends cdktf.ComplexO
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6794,6 +6817,7 @@ export class DataIntersightAssetTargetTagsOutputReference extends cdktf.ComplexO
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6847,6 +6871,22 @@ export class DataIntersightAssetTargetTagsOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6935,7 +6975,7 @@ export class DataIntersightAssetTargetTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAssetTargetTrustPoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6943,19 +6983,19 @@ export interface DataIntersightAssetTargetTrustPoint {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6968,7 +7008,7 @@ export interface DataIntersightAssetTargetTrustPoint {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -7168,7 +7208,7 @@ export class DataIntersightAssetTargetTrustPointOutputReference extends cdktf.Co
 }
 export interface DataIntersightAssetTargetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7176,19 +7216,19 @@ export interface DataIntersightAssetTargetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7201,7 +7241,7 @@ export interface DataIntersightAssetTargetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -7433,7 +7473,7 @@ export class DataIntersightAssetTargetVersionContextInterestedMosList extends cd
 }
 export interface DataIntersightAssetTargetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7441,19 +7481,19 @@ export interface DataIntersightAssetTargetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7466,7 +7506,7 @@ export interface DataIntersightAssetTargetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -7666,7 +7706,7 @@ export class DataIntersightAssetTargetVersionContextRefMoOutputReference extends
 }
 export interface DataIntersightAssetTargetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7674,32 +7714,32 @@ export interface DataIntersightAssetTargetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#marked_for_deletion DataIntersightAssetTarget#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#marked_for_deletion DataIntersightAssetTarget#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#nr_version DataIntersightAssetTarget#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#nr_version DataIntersightAssetTarget#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#timestamp DataIntersightAssetTarget#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#timestamp DataIntersightAssetTarget#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7710,19 +7750,19 @@ export interface DataIntersightAssetTargetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#version_type DataIntersightAssetTarget#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#version_type DataIntersightAssetTarget#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#interested_mos DataIntersightAssetTarget#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#interested_mos DataIntersightAssetTarget#interested_mos}
   */
   readonly interestedMos?: DataIntersightAssetTargetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#ref_mo DataIntersightAssetTarget#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#ref_mo DataIntersightAssetTarget#ref_mo}
   */
   readonly refMo?: DataIntersightAssetTargetVersionContextRefMo;
 }
@@ -8038,7 +8078,7 @@ export class DataIntersightAssetTargetVersionContextOutputReference extends cdkt
 }
 export interface DataIntersightAssetTargetWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#additional_properties DataIntersightAssetTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8046,19 +8086,19 @@ export interface DataIntersightAssetTargetWorkflowInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#class_id DataIntersightAssetTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#moid DataIntersightAssetTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#object_type DataIntersightAssetTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8071,7 +8111,7 @@ export interface DataIntersightAssetTargetWorkflowInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#selector DataIntersightAssetTarget#selector}
   */
   readonly selector?: string;
 }
@@ -8271,7 +8311,7 @@ export class DataIntersightAssetTargetWorkflowInfoOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target intersight_asset_target}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target intersight_asset_target}
 */
 export class DataIntersightAssetTarget extends cdktf.TerraformDataSource {
 
@@ -8287,7 +8327,7 @@ export class DataIntersightAssetTarget extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightAssetTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAssetTarget to import
-  * @param importFromId The id of the existing DataIntersightAssetTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAssetTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAssetTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8299,7 +8339,7 @@ export class DataIntersightAssetTarget extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_target intersight_asset_target} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_target intersight_asset_target} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8310,8 +8350,8 @@ export class DataIntersightAssetTarget extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_asset_target',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

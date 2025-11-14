@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface KmsVaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#compartment_id KmsVault#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#compartment_id KmsVault#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#defined_tags KmsVault#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#defined_tags KmsVault#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#display_name KmsVault#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#display_name KmsVault#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#freeform_tags KmsVault#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#freeform_tags KmsVault#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#id KmsVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#id KmsVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#restore_trigger KmsVault#restore_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#restore_trigger KmsVault#restore_trigger}
   */
   readonly restoreTrigger?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#time_of_deletion KmsVault#time_of_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#time_of_deletion KmsVault#time_of_deletion}
   */
   readonly timeOfDeletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#vault_type KmsVault#vault_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#vault_type KmsVault#vault_type}
   */
   readonly vaultType: string;
   /**
   * external_key_manager_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#external_key_manager_metadata KmsVault#external_key_manager_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#external_key_manager_metadata KmsVault#external_key_manager_metadata}
   */
   readonly externalKeyManagerMetadata?: KmsVaultExternalKeyManagerMetadata;
   /**
   * restore_from_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#restore_from_file KmsVault#restore_from_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#restore_from_file KmsVault#restore_from_file}
   */
   readonly restoreFromFile?: KmsVaultRestoreFromFile;
   /**
   * restore_from_object_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#restore_from_object_store KmsVault#restore_from_object_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#restore_from_object_store KmsVault#restore_from_object_store}
   */
   readonly restoreFromObjectStore?: KmsVaultRestoreFromObjectStore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#timeouts KmsVault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#timeouts KmsVault#timeouts}
   */
   readonly timeouts?: KmsVaultTimeouts;
 }
@@ -315,15 +315,15 @@ export class KmsVaultReplicaDetailsList extends cdktf.ComplexList {
 }
 export interface KmsVaultExternalKeyManagerMetadataOauthMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}
   */
   readonly clientAppId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}
   */
   readonly clientAppSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}
   */
   readonly idcsAccountNameUrl: string;
 }
@@ -456,17 +456,17 @@ export class KmsVaultExternalKeyManagerMetadataOauthMetadataOutputReference exte
 }
 export interface KmsVaultExternalKeyManagerMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}
   */
   readonly externalVaultEndpointUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}
   */
   readonly privateEndpointId: string;
   /**
   * oauth_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
   */
   readonly oauthMetadata: KmsVaultExternalKeyManagerMetadataOauthMetadata;
 }
@@ -599,15 +599,15 @@ export class KmsVaultExternalKeyManagerMetadataOutputReference extends cdktf.Com
 }
 export interface KmsVaultRestoreFromFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#content_length KmsVault#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#content_length KmsVault#content_length}
   */
   readonly contentLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#content_md5 KmsVault#content_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#content_md5 KmsVault#content_md5}
   */
   readonly contentMd5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}
   */
   readonly restoreVaultFromFileDetails: string;
 }
@@ -743,23 +743,23 @@ export class KmsVaultRestoreFromFileOutputReference extends cdktf.ComplexObject 
 }
 export interface KmsVaultRestoreFromObjectStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#bucket KmsVault#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#bucket KmsVault#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#destination KmsVault#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#destination KmsVault#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#namespace KmsVault#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#namespace KmsVault#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#object KmsVault#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#object KmsVault#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#uri KmsVault#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#uri KmsVault#uri}
   */
   readonly uri?: string;
 }
@@ -956,15 +956,15 @@ export class KmsVaultRestoreFromObjectStoreOutputReference extends cdktf.Complex
 }
 export interface KmsVaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#create KmsVault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#create KmsVault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#delete KmsVault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#delete KmsVault#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#update KmsVault#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#update KmsVault#update}
   */
   readonly update?: string;
 }
@@ -1116,7 +1116,7 @@ export class KmsVaultTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault oci_kms_vault}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault oci_kms_vault}
 */
 export class KmsVault extends cdktf.TerraformResource {
 
@@ -1132,7 +1132,7 @@ export class KmsVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsVault to import
-  * @param importFromId The id of the existing KmsVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class KmsVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_vault oci_kms_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_vault oci_kms_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class KmsVault extends cdktf.TerraformResource {
       terraformResourceType: 'oci_kms_vault',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

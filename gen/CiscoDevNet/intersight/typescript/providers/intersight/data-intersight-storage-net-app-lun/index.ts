@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppLunConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#account_moid DataIntersightStorageNetAppLun#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#account_moid DataIntersightStorageNetAppLun#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageNetAppLunConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The state of the volume and aggregate that contain the LUN. LUNs are only available when their containers are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#container_state DataIntersightStorageNetAppLun#container_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#container_state DataIntersightStorageNetAppLun#container_state}
   */
   readonly containerState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#create_time DataIntersightStorageNetAppLun#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#create_time DataIntersightStorageNetAppLun#create_time}
   */
   readonly createTime?: string;
   /**
   * Short description about the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#description DataIntersightStorageNetAppLun#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#description DataIntersightStorageNetAppLun#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#domain_group_moid DataIntersightStorageNetAppLun#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#domain_group_moid DataIntersightStorageNetAppLun#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#id DataIntersightStorageNetAppLun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#id DataIntersightStorageNetAppLun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,50 +59,50 @@ export interface DataIntersightStorageNetAppLunConfig extends cdktf.TerraformMet
   /**
   * Reports if the LUN is mapped to one or more initiator groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#is_mapped DataIntersightStorageNetAppLun#is_mapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#is_mapped DataIntersightStorageNetAppLun#is_mapped}
   */
   readonly isMapped?: string;
   /**
   * Unique identifier of LUN across data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#key DataIntersightStorageNetAppLun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#key DataIntersightStorageNetAppLun#key}
   */
   readonly key?: string;
   /**
   * Reports if the LUN is mapped to one or more initiator groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#mapped DataIntersightStorageNetAppLun#mapped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#mapped DataIntersightStorageNetAppLun#mapped}
   */
   readonly mapped?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#mod_time DataIntersightStorageNetAppLun#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#mod_time DataIntersightStorageNetAppLun#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * NAA id of volume. It is a significant number to identify corresponding lun path in hypervisor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#naa_id DataIntersightStorageNetAppLun#naa_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#naa_id DataIntersightStorageNetAppLun#naa_id}
   */
   readonly naaId?: string;
   /**
   * Named entity of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#name DataIntersightStorageNetAppLun#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#name DataIntersightStorageNetAppLun#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -118,36 +118,36 @@ export interface DataIntersightStorageNetAppLunConfig extends cdktf.TerraformMet
   * * `Windows` - Single-partition Windows disk using the Master Boot Record (MBR) partitioning style.
   * * `Xen` - Xen is a type-1 hypervisor, providing services that allow multiple computer operating systems to execute on the same computer hardware concurrently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#os_type DataIntersightStorageNetAppLun#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#os_type DataIntersightStorageNetAppLun#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#owners DataIntersightStorageNetAppLun#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#owners DataIntersightStorageNetAppLun#owners}
   */
   readonly owners?: string[];
   /**
   * Path where the LUN is mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#path DataIntersightStorageNetAppLun#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#path DataIntersightStorageNetAppLun#path}
   */
   readonly path?: string;
   /**
   * Serial number for the provisioned LUN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#serial DataIntersightStorageNetAppLun#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#serial DataIntersightStorageNetAppLun#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#shared_scope DataIntersightStorageNetAppLun#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#shared_scope DataIntersightStorageNetAppLun#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User provisioned volume size. It is the size exposed to host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#size DataIntersightStorageNetAppLun#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#size DataIntersightStorageNetAppLun#size}
   */
   readonly size?: number;
   /**
@@ -155,91 +155,91 @@ export interface DataIntersightStorageNetAppLunConfig extends cdktf.TerraformMet
   * * `offline` - The LUN is administratively offline, or a more detailed offline reason is not available.
   * * `online` - The state of the LUN is online.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#state DataIntersightStorageNetAppLun#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#state DataIntersightStorageNetAppLun#state}
   */
   readonly state?: string;
   /**
   * The storage virtual machine name for the lun.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#svm_name DataIntersightStorageNetAppLun#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#svm_name DataIntersightStorageNetAppLun#svm_name}
   */
   readonly svmName?: string;
   /**
   * Universally unique identifier of the LUN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#uuid DataIntersightStorageNetAppLun#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#uuid DataIntersightStorageNetAppLun#uuid}
   */
   readonly uuid?: string;
   /**
   * The parent volume name for the lun.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#volume_name DataIntersightStorageNetAppLun#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#volume_name DataIntersightStorageNetAppLun#volume_name}
   */
   readonly volumeName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#ancestors DataIntersightStorageNetAppLun#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#ancestors DataIntersightStorageNetAppLun#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppLunAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#array DataIntersightStorageNetAppLun#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#array DataIntersightStorageNetAppLun#array}
   */
   readonly array?: DataIntersightStorageNetAppLunArray;
   /**
   * avg_performance_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#avg_performance_metrics DataIntersightStorageNetAppLun#avg_performance_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#avg_performance_metrics DataIntersightStorageNetAppLun#avg_performance_metrics}
   */
   readonly avgPerformanceMetrics?: DataIntersightStorageNetAppLunAvgPerformanceMetrics;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#events DataIntersightStorageNetAppLun#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#events DataIntersightStorageNetAppLun#events}
   */
   readonly events?: DataIntersightStorageNetAppLunEvents[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#host DataIntersightStorageNetAppLun#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#host DataIntersightStorageNetAppLun#host}
   */
   readonly host?: DataIntersightStorageNetAppLunHost[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#parent DataIntersightStorageNetAppLun#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#parent DataIntersightStorageNetAppLun#parent}
   */
   readonly parent?: DataIntersightStorageNetAppLunParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#permission_resources DataIntersightStorageNetAppLun#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#permission_resources DataIntersightStorageNetAppLun#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppLunPermissionResources[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#storage_container DataIntersightStorageNetAppLun#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#storage_container DataIntersightStorageNetAppLun#storage_container}
   */
   readonly storageContainer?: DataIntersightStorageNetAppLunStorageContainer;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#storage_utilization DataIntersightStorageNetAppLun#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#storage_utilization DataIntersightStorageNetAppLun#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStorageNetAppLunStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#tags DataIntersightStorageNetAppLun#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#tags DataIntersightStorageNetAppLun#tags}
   */
   readonly tags?: DataIntersightStorageNetAppLunTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#version_context DataIntersightStorageNetAppLun#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#version_context DataIntersightStorageNetAppLun#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppLunVersionContext;
 }
@@ -1391,6 +1391,11 @@ export class DataIntersightStorageNetAppLunResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1990,7 +1995,7 @@ export class DataIntersightStorageNetAppLunResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightStorageNetAppLunAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1998,19 +2003,19 @@ export interface DataIntersightStorageNetAppLunAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2023,7 +2028,7 @@ export interface DataIntersightStorageNetAppLunAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -2255,7 +2260,7 @@ export class DataIntersightStorageNetAppLunAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightStorageNetAppLunArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2263,19 +2268,19 @@ export interface DataIntersightStorageNetAppLunArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2288,7 +2293,7 @@ export interface DataIntersightStorageNetAppLunArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -2488,7 +2493,7 @@ export class DataIntersightStorageNetAppLunArrayOutputReference extends cdktf.Co
 }
 export interface DataIntersightStorageNetAppLunAvgPerformanceMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2497,19 +2502,19 @@ export interface DataIntersightStorageNetAppLunAvgPerformanceMetrics {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * Rate of I/O operations observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#iops DataIntersightStorageNetAppLun#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#iops DataIntersightStorageNetAppLun#iops}
   */
   readonly iops?: number;
   /**
   * Latency observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#latency DataIntersightStorageNetAppLun#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#latency DataIntersightStorageNetAppLun#latency}
   */
   readonly latency?: number;
   /**
@@ -2517,19 +2522,19 @@ export interface DataIntersightStorageNetAppLunAvgPerformanceMetrics {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
   * Duration of periodic aggregation, in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#period DataIntersightStorageNetAppLun#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#period DataIntersightStorageNetAppLun#period}
   */
   readonly period?: number;
   /**
   * Throughput observed at the storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#throughput DataIntersightStorageNetAppLun#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#throughput DataIntersightStorageNetAppLun#throughput}
   */
   readonly throughput?: number;
 }
@@ -2787,7 +2792,7 @@ export class DataIntersightStorageNetAppLunAvgPerformanceMetricsOutputReference 
 }
 export interface DataIntersightStorageNetAppLunEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2795,19 +2800,19 @@ export interface DataIntersightStorageNetAppLunEvents {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2820,7 +2825,7 @@ export interface DataIntersightStorageNetAppLunEvents {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -3052,7 +3057,7 @@ export class DataIntersightStorageNetAppLunEventsList extends cdktf.ComplexList 
 }
 export interface DataIntersightStorageNetAppLunHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3060,19 +3065,19 @@ export interface DataIntersightStorageNetAppLunHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3085,7 +3090,7 @@ export interface DataIntersightStorageNetAppLunHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -3317,7 +3322,7 @@ export class DataIntersightStorageNetAppLunHostList extends cdktf.ComplexList {
 }
 export interface DataIntersightStorageNetAppLunParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3325,19 +3330,19 @@ export interface DataIntersightStorageNetAppLunParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3350,7 +3355,7 @@ export interface DataIntersightStorageNetAppLunParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -3550,7 +3555,7 @@ export class DataIntersightStorageNetAppLunParentOutputReference extends cdktf.C
 }
 export interface DataIntersightStorageNetAppLunPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3558,19 +3563,19 @@ export interface DataIntersightStorageNetAppLunPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3583,7 +3588,7 @@ export interface DataIntersightStorageNetAppLunPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -3815,7 +3820,7 @@ export class DataIntersightStorageNetAppLunPermissionResourcesList extends cdktf
 }
 export interface DataIntersightStorageNetAppLunStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3823,19 +3828,19 @@ export interface DataIntersightStorageNetAppLunStorageContainer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3848,7 +3853,7 @@ export interface DataIntersightStorageNetAppLunStorageContainer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -4048,19 +4053,19 @@ export class DataIntersightStorageNetAppLunStorageContainerOutputReference exten
 }
 export interface DataIntersightStorageNetAppLunStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#available DataIntersightStorageNetAppLun#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#available DataIntersightStorageNetAppLun#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#capacity_utilization DataIntersightStorageNetAppLun#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#capacity_utilization DataIntersightStorageNetAppLun#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -4069,13 +4074,13 @@ export interface DataIntersightStorageNetAppLunStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#free DataIntersightStorageNetAppLun#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#free DataIntersightStorageNetAppLun#free}
   */
   readonly free?: number;
   /**
@@ -4083,19 +4088,19 @@ export interface DataIntersightStorageNetAppLunStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#total DataIntersightStorageNetAppLun#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#total DataIntersightStorageNetAppLun#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#used DataIntersightStorageNetAppLun#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#used DataIntersightStorageNetAppLun#used}
   */
   readonly used?: number;
 }
@@ -4382,7 +4387,7 @@ export class DataIntersightStorageNetAppLunStorageUtilizationOutputReference ext
 }
 export interface DataIntersightStorageNetAppLunTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4390,19 +4395,19 @@ export interface DataIntersightStorageNetAppLunTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4415,7 +4420,7 @@ export interface DataIntersightStorageNetAppLunTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -4647,7 +4652,7 @@ export class DataIntersightStorageNetAppLunTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightStorageNetAppLunTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4655,19 +4660,19 @@ export interface DataIntersightStorageNetAppLunTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4680,7 +4685,7 @@ export interface DataIntersightStorageNetAppLunTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -4880,45 +4885,51 @@ export class DataIntersightStorageNetAppLunTagsDefinitionOutputReference extends
 }
 export interface DataIntersightStorageNetAppLunTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#key DataIntersightStorageNetAppLun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#key DataIntersightStorageNetAppLun#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#propagated DataIntersightStorageNetAppLun#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#propagated DataIntersightStorageNetAppLun#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#sys_tag DataIntersightStorageNetAppLun#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#type DataIntersightStorageNetAppLun#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#type DataIntersightStorageNetAppLun#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#value DataIntersightStorageNetAppLun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#value DataIntersightStorageNetAppLun#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#ancestor_definitions DataIntersightStorageNetAppLun#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#ancestor_definitions DataIntersightStorageNetAppLun#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppLunTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#definition DataIntersightStorageNetAppLun#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#definition DataIntersightStorageNetAppLun#definition}
   */
   readonly definition?: DataIntersightStorageNetAppLunTagsDefinition;
 }
@@ -4932,6 +4943,7 @@ export function dataIntersightStorageNetAppLunTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppLunTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4960,6 +4972,12 @@ export function dataIntersightStorageNetAppLunTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5026,6 +5044,10 @@ export class DataIntersightStorageNetAppLunTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5052,6 +5074,7 @@ export class DataIntersightStorageNetAppLunTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5067,6 +5090,7 @@ export class DataIntersightStorageNetAppLunTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5120,6 +5144,22 @@ export class DataIntersightStorageNetAppLunTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5208,7 +5248,7 @@ export class DataIntersightStorageNetAppLunTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightStorageNetAppLunVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5216,19 +5256,19 @@ export interface DataIntersightStorageNetAppLunVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5241,7 +5281,7 @@ export interface DataIntersightStorageNetAppLunVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -5473,7 +5513,7 @@ export class DataIntersightStorageNetAppLunVersionContextInterestedMosList exten
 }
 export interface DataIntersightStorageNetAppLunVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5481,19 +5521,19 @@ export interface DataIntersightStorageNetAppLunVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#moid DataIntersightStorageNetAppLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5506,7 +5546,7 @@ export interface DataIntersightStorageNetAppLunVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#selector DataIntersightStorageNetAppLun#selector}
   */
   readonly selector?: string;
 }
@@ -5706,7 +5746,7 @@ export class DataIntersightStorageNetAppLunVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightStorageNetAppLunVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#additional_properties DataIntersightStorageNetAppLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5714,32 +5754,32 @@ export interface DataIntersightStorageNetAppLunVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#class_id DataIntersightStorageNetAppLun#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#marked_for_deletion DataIntersightStorageNetAppLun#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#marked_for_deletion DataIntersightStorageNetAppLun#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#nr_version DataIntersightStorageNetAppLun#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#nr_version DataIntersightStorageNetAppLun#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#object_type DataIntersightStorageNetAppLun#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#timestamp DataIntersightStorageNetAppLun#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#timestamp DataIntersightStorageNetAppLun#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5750,19 +5790,19 @@ export interface DataIntersightStorageNetAppLunVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#version_type DataIntersightStorageNetAppLun#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#version_type DataIntersightStorageNetAppLun#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#interested_mos DataIntersightStorageNetAppLun#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#interested_mos DataIntersightStorageNetAppLun#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppLunVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#ref_mo DataIntersightStorageNetAppLun#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#ref_mo DataIntersightStorageNetAppLun#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppLunVersionContextRefMo;
 }
@@ -6078,7 +6118,7 @@ export class DataIntersightStorageNetAppLunVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun intersight_storage_net_app_lun}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun intersight_storage_net_app_lun}
 */
 export class DataIntersightStorageNetAppLun extends cdktf.TerraformDataSource {
 
@@ -6094,7 +6134,7 @@ export class DataIntersightStorageNetAppLun extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightStorageNetAppLun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppLun to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppLun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6106,7 +6146,7 @@ export class DataIntersightStorageNetAppLun extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_lun intersight_storage_net_app_lun} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_lun intersight_storage_net_app_lun} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6117,8 +6157,8 @@ export class DataIntersightStorageNetAppLun extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_storage_net_app_lun',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightVnicEthAdapterPolicyConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#account_moid DataIntersightVnicEthAdapterPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#account_moid DataIntersightVnicEthAdapterPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Enables advanced filtering on the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#advanced_filter DataIntersightVnicEthAdapterPolicy#advanced_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#advanced_filter DataIntersightVnicEthAdapterPolicy#advanced_filter}
   */
   readonly advancedFilter?: boolean | cdktf.IResolvable;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightVnicEthAdapterPolicyConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#create_time DataIntersightVnicEthAdapterPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#create_time DataIntersightVnicEthAdapterPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#description DataIntersightVnicEthAdapterPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#description DataIntersightVnicEthAdapterPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#domain_group_moid DataIntersightVnicEthAdapterPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#domain_group_moid DataIntersightVnicEthAdapterPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enables EtherChannel Pinning to combine multiple physical links between two network switches into a single logical link. Transmit Queue Count should be at least 2 to enable ether channel pinning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ether_channel_pinning_enabled DataIntersightVnicEthAdapterPolicy#ether_channel_pinning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ether_channel_pinning_enabled DataIntersightVnicEthAdapterPolicy#ether_channel_pinning_enabled}
   */
   readonly etherChannelPinningEnabled?: boolean | cdktf.IResolvable;
   /**
   * GENEVE offload protocol allows you to create logical networks that span physical network boundaries by allowing any information to be encoded in a packet and passed between tunnel endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#geneve_enabled DataIntersightVnicEthAdapterPolicy#geneve_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#geneve_enabled DataIntersightVnicEthAdapterPolicy#geneve_enabled}
   */
   readonly geneveEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#id DataIntersightVnicEthAdapterPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#id DataIntersightVnicEthAdapterPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,157 +71,157 @@ export interface DataIntersightVnicEthAdapterPolicyConfig extends cdktf.Terrafor
   /**
   * Enables Interrupt Scaling on the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#interrupt_scaling DataIntersightVnicEthAdapterPolicy#interrupt_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#interrupt_scaling DataIntersightVnicEthAdapterPolicy#interrupt_scaling}
   */
   readonly interruptScaling?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#mod_time DataIntersightVnicEthAdapterPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#mod_time DataIntersightVnicEthAdapterPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#name DataIntersightVnicEthAdapterPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#name DataIntersightVnicEthAdapterPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#owners DataIntersightVnicEthAdapterPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#owners DataIntersightVnicEthAdapterPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Receive Side Scaling allows the incoming traffic to be spread across multiple CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#rss_settings DataIntersightVnicEthAdapterPolicy#rss_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#rss_settings DataIntersightVnicEthAdapterPolicy#rss_settings}
   */
   readonly rssSettings?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#shared_scope DataIntersightVnicEthAdapterPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#shared_scope DataIntersightVnicEthAdapterPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Uplink Failback Timeout in seconds when uplink failover is enabled for a vNIC. After a vNIC has started using its secondary interface, this setting controls how long the primary interface must be available before the system resumes using the primary interface for the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#uplink_failback_timeout DataIntersightVnicEthAdapterPolicy#uplink_failback_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#uplink_failback_timeout DataIntersightVnicEthAdapterPolicy#uplink_failback_timeout}
   */
   readonly uplinkFailbackTimeout?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ancestors DataIntersightVnicEthAdapterPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ancestors DataIntersightVnicEthAdapterPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightVnicEthAdapterPolicyAncestors[] | cdktf.IResolvable;
   /**
   * arfs_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#arfs_settings DataIntersightVnicEthAdapterPolicy#arfs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#arfs_settings DataIntersightVnicEthAdapterPolicy#arfs_settings}
   */
   readonly arfsSettings?: DataIntersightVnicEthAdapterPolicyArfsSettings;
   /**
   * completion_queue_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#completion_queue_settings DataIntersightVnicEthAdapterPolicy#completion_queue_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#completion_queue_settings DataIntersightVnicEthAdapterPolicy#completion_queue_settings}
   */
   readonly completionQueueSettings?: DataIntersightVnicEthAdapterPolicyCompletionQueueSettings;
   /**
   * interrupt_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#interrupt_settings DataIntersightVnicEthAdapterPolicy#interrupt_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#interrupt_settings DataIntersightVnicEthAdapterPolicy#interrupt_settings}
   */
   readonly interruptSettings?: DataIntersightVnicEthAdapterPolicyInterruptSettings;
   /**
   * nvgre_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nvgre_settings DataIntersightVnicEthAdapterPolicy#nvgre_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nvgre_settings DataIntersightVnicEthAdapterPolicy#nvgre_settings}
   */
   readonly nvgreSettings?: DataIntersightVnicEthAdapterPolicyNvgreSettings;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#organization DataIntersightVnicEthAdapterPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#organization DataIntersightVnicEthAdapterPolicy#organization}
   */
   readonly organization?: DataIntersightVnicEthAdapterPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#parent DataIntersightVnicEthAdapterPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#parent DataIntersightVnicEthAdapterPolicy#parent}
   */
   readonly parent?: DataIntersightVnicEthAdapterPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#permission_resources DataIntersightVnicEthAdapterPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#permission_resources DataIntersightVnicEthAdapterPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicEthAdapterPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * ptp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ptp_settings DataIntersightVnicEthAdapterPolicy#ptp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ptp_settings DataIntersightVnicEthAdapterPolicy#ptp_settings}
   */
   readonly ptpSettings?: DataIntersightVnicEthAdapterPolicyPtpSettings;
   /**
   * roce_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#roce_settings DataIntersightVnicEthAdapterPolicy#roce_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#roce_settings DataIntersightVnicEthAdapterPolicy#roce_settings}
   */
   readonly roceSettings?: DataIntersightVnicEthAdapterPolicyRoceSettings;
   /**
   * rss_hash_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#rss_hash_settings DataIntersightVnicEthAdapterPolicy#rss_hash_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#rss_hash_settings DataIntersightVnicEthAdapterPolicy#rss_hash_settings}
   */
   readonly rssHashSettings?: DataIntersightVnicEthAdapterPolicyRssHashSettings;
   /**
   * rx_queue_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#rx_queue_settings DataIntersightVnicEthAdapterPolicy#rx_queue_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#rx_queue_settings DataIntersightVnicEthAdapterPolicy#rx_queue_settings}
   */
   readonly rxQueueSettings?: DataIntersightVnicEthAdapterPolicyRxQueueSettings;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tags DataIntersightVnicEthAdapterPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tags DataIntersightVnicEthAdapterPolicy#tags}
   */
   readonly tags?: DataIntersightVnicEthAdapterPolicyTags[] | cdktf.IResolvable;
   /**
   * tcp_offload_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tcp_offload_settings DataIntersightVnicEthAdapterPolicy#tcp_offload_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tcp_offload_settings DataIntersightVnicEthAdapterPolicy#tcp_offload_settings}
   */
   readonly tcpOffloadSettings?: DataIntersightVnicEthAdapterPolicyTcpOffloadSettings;
   /**
   * tx_queue_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tx_queue_settings DataIntersightVnicEthAdapterPolicy#tx_queue_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tx_queue_settings DataIntersightVnicEthAdapterPolicy#tx_queue_settings}
   */
   readonly txQueueSettings?: DataIntersightVnicEthAdapterPolicyTxQueueSettings;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#version_context DataIntersightVnicEthAdapterPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#version_context DataIntersightVnicEthAdapterPolicy#version_context}
   */
   readonly versionContext?: DataIntersightVnicEthAdapterPolicyVersionContext;
   /**
   * vxlan_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#vxlan_settings DataIntersightVnicEthAdapterPolicy#vxlan_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#vxlan_settings DataIntersightVnicEthAdapterPolicy#vxlan_settings}
   */
   readonly vxlanSettings?: DataIntersightVnicEthAdapterPolicyVxlanSettings;
 }
@@ -1678,6 +1678,11 @@ export class DataIntersightVnicEthAdapterPolicyResultsTagsOutputReference extend
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2568,7 +2573,7 @@ export class DataIntersightVnicEthAdapterPolicyResultsList extends cdktf.Complex
 }
 export interface DataIntersightVnicEthAdapterPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2576,19 +2581,19 @@ export interface DataIntersightVnicEthAdapterPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2601,7 +2606,7 @@ export interface DataIntersightVnicEthAdapterPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2833,7 +2838,7 @@ export class DataIntersightVnicEthAdapterPolicyAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightVnicEthAdapterPolicyArfsSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2841,20 +2846,20 @@ export interface DataIntersightVnicEthAdapterPolicyArfsSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Status of Accelerated Receive Flow Steering on the virtual ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -3025,7 +3030,7 @@ export class DataIntersightVnicEthAdapterPolicyArfsSettingsOutputReference exten
 }
 export interface DataIntersightVnicEthAdapterPolicyCompletionQueueSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3033,26 +3038,26 @@ export interface DataIntersightVnicEthAdapterPolicyCompletionQueueSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The number of completion queue resources to allocate. In general, the number of completion queue resources to allocate is equal to the number of transmit queue resources plus the number of receive queue resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The number of descriptors in each completion queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
   */
   readonly ringSize?: number;
 }
@@ -3252,7 +3257,7 @@ export class DataIntersightVnicEthAdapterPolicyCompletionQueueSettingsOutputRefe
 }
 export interface DataIntersightVnicEthAdapterPolicyInterruptSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3260,13 +3265,13 @@ export interface DataIntersightVnicEthAdapterPolicyInterruptSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time to wait between interrupts or the idle period that must be encountered before an interrupt is sent. To turn off interrupt coalescing, enter 0 (zero) in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#coalescing_time DataIntersightVnicEthAdapterPolicy#coalescing_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#coalescing_time DataIntersightVnicEthAdapterPolicy#coalescing_time}
   */
   readonly coalescingTime?: number;
   /**
@@ -3274,7 +3279,7 @@ export interface DataIntersightVnicEthAdapterPolicyInterruptSettings {
   * * `MIN` - The system waits for the time specified in the Coalescing Time field before sending another interrupt event.
   * * `IDLE` - The system does not send an interrupt until there is a period of no activity lasting as least as long as the time specified in the Coalescing Time field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#coalescing_type DataIntersightVnicEthAdapterPolicy#coalescing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#coalescing_type DataIntersightVnicEthAdapterPolicy#coalescing_type}
   */
   readonly coalescingType?: string;
   /**
@@ -3283,20 +3288,20 @@ export interface DataIntersightVnicEthAdapterPolicyInterruptSettings {
   * * `MSI` - Message Signaled Interrupt (MSI) mechanism that treats messages as interrupts.
   * * `INTx` - Line-based interrupt (INTx) mechanism similar to the one used in Legacy systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#mode DataIntersightVnicEthAdapterPolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#mode DataIntersightVnicEthAdapterPolicy#mode}
   */
   readonly mode?: string;
   /**
   * The number of interrupt resources to allocate. Typical value is be equal to the number of completion queue resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -3554,7 +3559,7 @@ export class DataIntersightVnicEthAdapterPolicyInterruptSettingsOutputReference 
 }
 export interface DataIntersightVnicEthAdapterPolicyNvgreSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3562,20 +3567,20 @@ export interface DataIntersightVnicEthAdapterPolicyNvgreSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Status of the Network Virtualization using Generic Routing Encapsulation on the virtual ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -3746,7 +3751,7 @@ export class DataIntersightVnicEthAdapterPolicyNvgreSettingsOutputReference exte
 }
 export interface DataIntersightVnicEthAdapterPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3754,19 +3759,19 @@ export interface DataIntersightVnicEthAdapterPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3779,7 +3784,7 @@ export interface DataIntersightVnicEthAdapterPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3979,7 +3984,7 @@ export class DataIntersightVnicEthAdapterPolicyOrganizationOutputReference exten
 }
 export interface DataIntersightVnicEthAdapterPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3987,19 +3992,19 @@ export interface DataIntersightVnicEthAdapterPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4012,7 +4017,7 @@ export interface DataIntersightVnicEthAdapterPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4212,7 +4217,7 @@ export class DataIntersightVnicEthAdapterPolicyParentOutputReference extends cdk
 }
 export interface DataIntersightVnicEthAdapterPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4220,19 +4225,19 @@ export interface DataIntersightVnicEthAdapterPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4245,7 +4250,7 @@ export interface DataIntersightVnicEthAdapterPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4477,7 +4482,7 @@ export class DataIntersightVnicEthAdapterPolicyPermissionResourcesList extends c
 }
 export interface DataIntersightVnicEthAdapterPolicyPtpSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4485,20 +4490,20 @@ export interface DataIntersightVnicEthAdapterPolicyPtpSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Status of Precision Time Protocol (PTP) on the virtual ethernet interface. PTP can be enabled only on one vNIC on an adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -4669,7 +4674,7 @@ export class DataIntersightVnicEthAdapterPolicyPtpSettingsOutputReference extend
 }
 export interface DataIntersightVnicEthAdapterPolicyRoceSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4677,7 +4682,7 @@ export interface DataIntersightVnicEthAdapterPolicyRoceSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -4688,19 +4693,19 @@ export interface DataIntersightVnicEthAdapterPolicyRoceSettings {
   * * `4` - RDMA CoS Service Level 4.
   * * `6` - RDMA CoS Service Level 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_of_service DataIntersightVnicEthAdapterPolicy#class_of_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_of_service DataIntersightVnicEthAdapterPolicy#class_of_service}
   */
   readonly classOfService?: number;
   /**
   * If enabled sets RDMA over Converged Ethernet (RoCE) on this virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of memory regions per adapter. Recommended value = integer power of 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#memory_regions DataIntersightVnicEthAdapterPolicy#memory_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#memory_regions DataIntersightVnicEthAdapterPolicy#memory_regions}
   */
   readonly memoryRegions?: number;
   /**
@@ -4708,26 +4713,26 @@ export interface DataIntersightVnicEthAdapterPolicyRoceSettings {
   * * `1` - RDMA over Converged Ethernet Protocol Version 1.
   * * `2` - RDMA over Converged Ethernet Protocol Version 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_version DataIntersightVnicEthAdapterPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_version DataIntersightVnicEthAdapterPolicy#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The number of queue pairs per adapter. Recommended value = integer power of 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#queue_pairs DataIntersightVnicEthAdapterPolicy#queue_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#queue_pairs DataIntersightVnicEthAdapterPolicy#queue_pairs}
   */
   readonly queuePairs?: number;
   /**
   * The number of resource groups per adapter. Recommended value = be an integer power of 2 greater than or equal to the number of CPU cores on the system for optimum performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#resource_groups DataIntersightVnicEthAdapterPolicy#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#resource_groups DataIntersightVnicEthAdapterPolicy#resource_groups}
   */
   readonly resourceGroups?: number;
 }
@@ -5043,7 +5048,7 @@ export class DataIntersightVnicEthAdapterPolicyRoceSettingsOutputReference exten
 }
 export interface DataIntersightVnicEthAdapterPolicyRssHashSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5051,62 +5056,62 @@ export interface DataIntersightVnicEthAdapterPolicyRssHashSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * When enabled, the IPv4 address is used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ipv4_hash DataIntersightVnicEthAdapterPolicy#ipv4_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ipv4_hash DataIntersightVnicEthAdapterPolicy#ipv4_hash}
   */
   readonly ipv4Hash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the IPv6 extensions are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ipv6_ext_hash DataIntersightVnicEthAdapterPolicy#ipv6_ext_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ipv6_ext_hash DataIntersightVnicEthAdapterPolicy#ipv6_ext_hash}
   */
   readonly ipv6ExtHash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the IPv6 address is used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ipv6_hash DataIntersightVnicEthAdapterPolicy#ipv6_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ipv6_hash DataIntersightVnicEthAdapterPolicy#ipv6_hash}
   */
   readonly ipv6Hash?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * When enabled, both the IPv4 address and TCP port number are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv4_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv4_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv4_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv4_hash}
   */
   readonly tcpIpv4Hash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, both the IPv6 extensions and TCP port number are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv6_ext_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv6_ext_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv6_ext_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv6_ext_hash}
   */
   readonly tcpIpv6ExtHash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, both the IPv6 address and TCP port number are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv6_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv6_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tcp_ipv6_hash DataIntersightVnicEthAdapterPolicy#tcp_ipv6_hash}
   */
   readonly tcpIpv6Hash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, both the IPv4 address and UDP port number are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#udp_ipv4_hash DataIntersightVnicEthAdapterPolicy#udp_ipv4_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#udp_ipv4_hash DataIntersightVnicEthAdapterPolicy#udp_ipv4_hash}
   */
   readonly udpIpv4Hash?: boolean | cdktf.IResolvable;
   /**
   * When enabled, both the IPv6 address and UDP port number are used for traffic distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#udp_ipv6_hash DataIntersightVnicEthAdapterPolicy#udp_ipv6_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#udp_ipv6_hash DataIntersightVnicEthAdapterPolicy#udp_ipv6_hash}
   */
   readonly udpIpv6Hash?: boolean | cdktf.IResolvable;
 }
@@ -5480,7 +5485,7 @@ export class DataIntersightVnicEthAdapterPolicyRssHashSettingsOutputReference ex
 }
 export interface DataIntersightVnicEthAdapterPolicyRxQueueSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5488,26 +5493,26 @@ export interface DataIntersightVnicEthAdapterPolicyRxQueueSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The number of queue resources to allocate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The number of descriptors in each queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
   */
   readonly ringSize?: number;
 }
@@ -5707,7 +5712,7 @@ export class DataIntersightVnicEthAdapterPolicyRxQueueSettingsOutputReference ex
 }
 export interface DataIntersightVnicEthAdapterPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5715,19 +5720,19 @@ export interface DataIntersightVnicEthAdapterPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5740,7 +5745,7 @@ export interface DataIntersightVnicEthAdapterPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5972,7 +5977,7 @@ export class DataIntersightVnicEthAdapterPolicyTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightVnicEthAdapterPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5980,19 +5985,19 @@ export interface DataIntersightVnicEthAdapterPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6005,7 +6010,7 @@ export interface DataIntersightVnicEthAdapterPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6205,45 +6210,51 @@ export class DataIntersightVnicEthAdapterPolicyTagsDefinitionOutputReference ext
 }
 export interface DataIntersightVnicEthAdapterPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#key DataIntersightVnicEthAdapterPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#key DataIntersightVnicEthAdapterPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#propagated DataIntersightVnicEthAdapterPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#propagated DataIntersightVnicEthAdapterPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#sys_tag DataIntersightVnicEthAdapterPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#type DataIntersightVnicEthAdapterPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#type DataIntersightVnicEthAdapterPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#value DataIntersightVnicEthAdapterPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#value DataIntersightVnicEthAdapterPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ancestor_definitions DataIntersightVnicEthAdapterPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ancestor_definitions DataIntersightVnicEthAdapterPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicEthAdapterPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#definition DataIntersightVnicEthAdapterPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#definition DataIntersightVnicEthAdapterPolicy#definition}
   */
   readonly definition?: DataIntersightVnicEthAdapterPolicyTagsDefinition;
 }
@@ -6257,6 +6268,7 @@ export function dataIntersightVnicEthAdapterPolicyTagsToTerraform(struct?: DataI
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVnicEthAdapterPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6285,6 +6297,12 @@ export function dataIntersightVnicEthAdapterPolicyTagsToHclTerraform(struct?: Da
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6351,6 +6369,10 @@ export class DataIntersightVnicEthAdapterPolicyTagsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6377,6 +6399,7 @@ export class DataIntersightVnicEthAdapterPolicyTagsOutputReference extends cdktf
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6392,6 +6415,7 @@ export class DataIntersightVnicEthAdapterPolicyTagsOutputReference extends cdktf
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6445,6 +6469,22 @@ export class DataIntersightVnicEthAdapterPolicyTagsOutputReference extends cdktf
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6533,7 +6573,7 @@ export class DataIntersightVnicEthAdapterPolicyTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightVnicEthAdapterPolicyTcpOffloadSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6541,38 +6581,38 @@ export interface DataIntersightVnicEthAdapterPolicyTcpOffloadSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Enables the reassembly of segmented packets in hardware before sending them to the CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#large_receive DataIntersightVnicEthAdapterPolicy#large_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#large_receive DataIntersightVnicEthAdapterPolicy#large_receive}
   */
   readonly largeReceive?: boolean | cdktf.IResolvable;
   /**
   * Enables the CPU to send large packets to the hardware for segmentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#large_send DataIntersightVnicEthAdapterPolicy#large_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#large_send DataIntersightVnicEthAdapterPolicy#large_send}
   */
   readonly largeSend?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * When enabled, the CPU sends all packet checksums to the hardware for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#rx_checksum DataIntersightVnicEthAdapterPolicy#rx_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#rx_checksum DataIntersightVnicEthAdapterPolicy#rx_checksum}
   */
   readonly rxChecksum?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the CPU sends all packets to the hardware so that the checksum can be calculated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#tx_checksum DataIntersightVnicEthAdapterPolicy#tx_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#tx_checksum DataIntersightVnicEthAdapterPolicy#tx_checksum}
   */
   readonly txChecksum?: boolean | cdktf.IResolvable;
 }
@@ -6830,7 +6870,7 @@ export class DataIntersightVnicEthAdapterPolicyTcpOffloadSettingsOutputReference
 }
 export interface DataIntersightVnicEthAdapterPolicyTxQueueSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6838,26 +6878,26 @@ export interface DataIntersightVnicEthAdapterPolicyTxQueueSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The number of queue resources to allocate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_count DataIntersightVnicEthAdapterPolicy#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The number of descriptors in each queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ring_size DataIntersightVnicEthAdapterPolicy#ring_size}
   */
   readonly ringSize?: number;
 }
@@ -7057,7 +7097,7 @@ export class DataIntersightVnicEthAdapterPolicyTxQueueSettingsOutputReference ex
 }
 export interface DataIntersightVnicEthAdapterPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7065,19 +7105,19 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7090,7 +7130,7 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -7322,7 +7362,7 @@ export class DataIntersightVnicEthAdapterPolicyVersionContextInterestedMosList e
 }
 export interface DataIntersightVnicEthAdapterPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7330,19 +7370,19 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#moid DataIntersightVnicEthAdapterPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7355,7 +7395,7 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#selector DataIntersightVnicEthAdapterPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -7555,7 +7595,7 @@ export class DataIntersightVnicEthAdapterPolicyVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightVnicEthAdapterPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7563,32 +7603,32 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#marked_for_deletion DataIntersightVnicEthAdapterPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#marked_for_deletion DataIntersightVnicEthAdapterPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#nr_version DataIntersightVnicEthAdapterPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#nr_version DataIntersightVnicEthAdapterPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#timestamp DataIntersightVnicEthAdapterPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#timestamp DataIntersightVnicEthAdapterPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7599,19 +7639,19 @@ export interface DataIntersightVnicEthAdapterPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#version_type DataIntersightVnicEthAdapterPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#version_type DataIntersightVnicEthAdapterPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#interested_mos DataIntersightVnicEthAdapterPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#interested_mos DataIntersightVnicEthAdapterPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicEthAdapterPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#ref_mo DataIntersightVnicEthAdapterPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#ref_mo DataIntersightVnicEthAdapterPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightVnicEthAdapterPolicyVersionContextRefMo;
 }
@@ -7927,7 +7967,7 @@ export class DataIntersightVnicEthAdapterPolicyVersionContextOutputReference ext
 }
 export interface DataIntersightVnicEthAdapterPolicyVxlanSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#additional_properties DataIntersightVnicEthAdapterPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7935,20 +7975,20 @@ export interface DataIntersightVnicEthAdapterPolicyVxlanSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#class_id DataIntersightVnicEthAdapterPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Status of the Virtual Extensible LAN Protocol on the virtual ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#enabled DataIntersightVnicEthAdapterPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#object_type DataIntersightVnicEthAdapterPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -8119,7 +8159,7 @@ export class DataIntersightVnicEthAdapterPolicyVxlanSettingsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy intersight_vnic_eth_adapter_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy intersight_vnic_eth_adapter_policy}
 */
 export class DataIntersightVnicEthAdapterPolicy extends cdktf.TerraformDataSource {
 
@@ -8135,7 +8175,7 @@ export class DataIntersightVnicEthAdapterPolicy extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightVnicEthAdapterPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicEthAdapterPolicy to import
-  * @param importFromId The id of the existing DataIntersightVnicEthAdapterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicEthAdapterPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicEthAdapterPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8147,7 +8187,7 @@ export class DataIntersightVnicEthAdapterPolicy extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_eth_adapter_policy intersight_vnic_eth_adapter_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_adapter_policy intersight_vnic_eth_adapter_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8158,8 +8198,8 @@ export class DataIntersightVnicEthAdapterPolicy extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_vnic_eth_adapter_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

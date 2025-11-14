@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#account_moid DataIntersightNiatelemetryPasswordStrengthCheck#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#account_moid DataIntersightNiatelemetryPasswordStrengthCheck#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#create_time DataIntersightNiatelemetryPasswordStrengthCheck#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#create_time DataIntersightNiatelemetryPasswordStrengthCheck#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn for each registering user in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#dn DataIntersightNiatelemetryPasswordStrengthCheck#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#dn DataIntersightNiatelemetryPasswordStrengthCheck#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#domain_group_moid DataIntersightNiatelemetryPasswordStrengthCheck#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#domain_group_moid DataIntersightNiatelemetryPasswordStrengthCheck#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#id DataIntersightNiatelemetryPasswordStrengthCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#id DataIntersightNiatelemetryPasswordStrengthCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#mod_time DataIntersightNiatelemetryPasswordStrengthCheck#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#mod_time DataIntersightNiatelemetryPasswordStrengthCheck#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#owners DataIntersightNiatelemetryPasswordStrengthCheck#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#owners DataIntersightNiatelemetryPasswordStrengthCheck#owners}
   */
   readonly owners?: string[];
   /**
   * Check for password strength per user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#pwd_strength_check DataIntersightNiatelemetryPasswordStrengthCheck#pwd_strength_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#pwd_strength_check DataIntersightNiatelemetryPasswordStrengthCheck#pwd_strength_check}
   */
   readonly pwdStrengthCheck?: string;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#record_type DataIntersightNiatelemetryPasswordStrengthCheck#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#record_type DataIntersightNiatelemetryPasswordStrengthCheck#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#record_version DataIntersightNiatelemetryPasswordStrengthCheck#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#record_version DataIntersightNiatelemetryPasswordStrengthCheck#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#shared_scope DataIntersightNiatelemetryPasswordStrengthCheck#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#shared_scope DataIntersightNiatelemetryPasswordStrengthCheck#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#site_name DataIntersightNiatelemetryPasswordStrengthCheck#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#site_name DataIntersightNiatelemetryPasswordStrengthCheck#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#ancestors DataIntersightNiatelemetryPasswordStrengthCheck#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#ancestors DataIntersightNiatelemetryPasswordStrengthCheck#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryPasswordStrengthCheckAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#parent DataIntersightNiatelemetryPasswordStrengthCheck#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#parent DataIntersightNiatelemetryPasswordStrengthCheck#parent}
   */
   readonly parent?: DataIntersightNiatelemetryPasswordStrengthCheckParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#permission_resources DataIntersightNiatelemetryPasswordStrengthCheck#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#permission_resources DataIntersightNiatelemetryPasswordStrengthCheck#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryPasswordStrengthCheckPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#registered_device DataIntersightNiatelemetryPasswordStrengthCheck#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#registered_device DataIntersightNiatelemetryPasswordStrengthCheck#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryPasswordStrengthCheckRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#tags DataIntersightNiatelemetryPasswordStrengthCheck#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#tags DataIntersightNiatelemetryPasswordStrengthCheck#tags}
   */
   readonly tags?: DataIntersightNiatelemetryPasswordStrengthCheckTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#version_context DataIntersightNiatelemetryPasswordStrengthCheck#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#version_context DataIntersightNiatelemetryPasswordStrengthCheck#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryPasswordStrengthCheckVersionContext;
 }
@@ -789,6 +789,11 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckResultsTagsOutputRef
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1308,7 +1313,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckResultsList extends 
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1316,19 +1321,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1341,7 +1346,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -1573,7 +1578,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckAncestorsList extend
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1581,19 +1586,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1606,7 +1611,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -1806,7 +1811,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckParentOutputReferenc
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1814,19 +1819,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1839,7 +1844,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -2071,7 +2076,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckPermissionResourcesL
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2079,19 +2084,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckRegisteredDevice
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2104,7 +2109,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckRegisteredDevice
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -2304,7 +2309,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckRegisteredDeviceOutp
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2312,19 +2317,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2337,7 +2342,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -2569,7 +2574,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefiniti
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2577,19 +2582,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2602,7 +2607,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -2802,45 +2807,51 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsDefinitionOutput
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#key DataIntersightNiatelemetryPasswordStrengthCheck#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#key DataIntersightNiatelemetryPasswordStrengthCheck#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#propagated DataIntersightNiatelemetryPasswordStrengthCheck#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#propagated DataIntersightNiatelemetryPasswordStrengthCheck#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#sys_tag DataIntersightNiatelemetryPasswordStrengthCheck#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#type DataIntersightNiatelemetryPasswordStrengthCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#type DataIntersightNiatelemetryPasswordStrengthCheck#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#value DataIntersightNiatelemetryPasswordStrengthCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#value DataIntersightNiatelemetryPasswordStrengthCheck#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#ancestor_definitions DataIntersightNiatelemetryPasswordStrengthCheck#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#ancestor_definitions DataIntersightNiatelemetryPasswordStrengthCheck#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#definition DataIntersightNiatelemetryPasswordStrengthCheck#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#definition DataIntersightNiatelemetryPasswordStrengthCheck#definition}
   */
   readonly definition?: DataIntersightNiatelemetryPasswordStrengthCheckTagsDefinition;
 }
@@ -2854,6 +2865,7 @@ export function dataIntersightNiatelemetryPasswordStrengthCheckTagsToTerraform(s
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNiatelemetryPasswordStrengthCheckTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2882,6 +2894,12 @@ export function dataIntersightNiatelemetryPasswordStrengthCheckTagsToHclTerrafor
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2948,6 +2966,10 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsOutputReference 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2974,6 +2996,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsOutputReference 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2989,6 +3012,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsOutputReference 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3042,6 +3066,22 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsOutputReference 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3130,7 +3170,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckTagsList extends cdk
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3138,19 +3178,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3163,7 +3203,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -3395,7 +3435,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckVersionContextIntere
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3403,19 +3443,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#moid DataIntersightNiatelemetryPasswordStrengthCheck#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3428,7 +3468,7 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#selector DataIntersightNiatelemetryPasswordStrengthCheck#selector}
   */
   readonly selector?: string;
 }
@@ -3628,7 +3668,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckVersionContextRefMoO
 }
 export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#additional_properties DataIntersightNiatelemetryPasswordStrengthCheck#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3636,32 +3676,32 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#class_id DataIntersightNiatelemetryPasswordStrengthCheck#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#marked_for_deletion DataIntersightNiatelemetryPasswordStrengthCheck#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#marked_for_deletion DataIntersightNiatelemetryPasswordStrengthCheck#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#nr_version DataIntersightNiatelemetryPasswordStrengthCheck#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#nr_version DataIntersightNiatelemetryPasswordStrengthCheck#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#object_type DataIntersightNiatelemetryPasswordStrengthCheck#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#timestamp DataIntersightNiatelemetryPasswordStrengthCheck#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#timestamp DataIntersightNiatelemetryPasswordStrengthCheck#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3672,19 +3712,19 @@ export interface DataIntersightNiatelemetryPasswordStrengthCheckVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#version_type DataIntersightNiatelemetryPasswordStrengthCheck#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#version_type DataIntersightNiatelemetryPasswordStrengthCheck#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#interested_mos DataIntersightNiatelemetryPasswordStrengthCheck#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#interested_mos DataIntersightNiatelemetryPasswordStrengthCheck#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryPasswordStrengthCheckVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#ref_mo DataIntersightNiatelemetryPasswordStrengthCheck#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#ref_mo DataIntersightNiatelemetryPasswordStrengthCheck#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryPasswordStrengthCheckVersionContextRefMo;
 }
@@ -4000,7 +4040,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheckVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check intersight_niatelemetry_password_strength_check}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check intersight_niatelemetry_password_strength_check}
 */
 export class DataIntersightNiatelemetryPasswordStrengthCheck extends cdktf.TerraformDataSource {
 
@@ -4016,7 +4056,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheck extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightNiatelemetryPasswordStrengthCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryPasswordStrengthCheck to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryPasswordStrengthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryPasswordStrengthCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryPasswordStrengthCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4028,7 +4068,7 @@ export class DataIntersightNiatelemetryPasswordStrengthCheck extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_password_strength_check intersight_niatelemetry_password_strength_check} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_password_strength_check intersight_niatelemetry_password_strength_check} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4039,8 +4079,8 @@ export class DataIntersightNiatelemetryPasswordStrengthCheck extends cdktf.Terra
       terraformResourceType: 'intersight_niatelemetry_password_strength_check',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

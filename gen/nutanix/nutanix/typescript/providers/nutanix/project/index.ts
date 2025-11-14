@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,158 +8,158 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#api_version Project#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#api_version Project#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#cluster_uuid Project#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#cluster_uuid Project#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#description Project#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#enable_collab Project#enable_collab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#enable_collab Project#enable_collab}
   */
   readonly enableCollab?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#owner_reference Project#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#owner_reference Project#owner_reference}
   */
   readonly ownerReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#project_reference Project#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#project_reference Project#project_reference}
   */
   readonly projectReference?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#use_project_internal Project#use_project_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#use_project_internal Project#use_project_internal}
   */
   readonly useProjectInternal?: boolean | cdktf.IResolvable;
   /**
   * account_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#account_reference_list Project#account_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#account_reference_list Project#account_reference_list}
   */
   readonly accountReferenceList?: ProjectAccountReferenceListStruct[] | cdktf.IResolvable;
   /**
   * acp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#acp Project#acp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#acp Project#acp}
   */
   readonly acp?: ProjectAcp[] | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#categories Project#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#categories Project#categories}
   */
   readonly categories?: ProjectCategories[] | cdktf.IResolvable;
   /**
   * cluster_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#cluster_reference_list Project#cluster_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#cluster_reference_list Project#cluster_reference_list}
   */
   readonly clusterReferenceList?: ProjectClusterReferenceListStruct[] | cdktf.IResolvable;
   /**
   * default_environment_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#default_environment_reference Project#default_environment_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#default_environment_reference Project#default_environment_reference}
   */
   readonly defaultEnvironmentReference?: ProjectDefaultEnvironmentReference;
   /**
   * default_subnet_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#default_subnet_reference Project#default_subnet_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#default_subnet_reference Project#default_subnet_reference}
   */
   readonly defaultSubnetReference: ProjectDefaultSubnetReference;
   /**
   * environment_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#environment_reference_list Project#environment_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#environment_reference_list Project#environment_reference_list}
   */
   readonly environmentReferenceList?: ProjectEnvironmentReferenceListStruct[] | cdktf.IResolvable;
   /**
   * external_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#external_network_list Project#external_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#external_network_list Project#external_network_list}
   */
   readonly externalNetworkList?: ProjectExternalNetworkListStruct[] | cdktf.IResolvable;
   /**
   * external_user_group_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#external_user_group_reference_list Project#external_user_group_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#external_user_group_reference_list Project#external_user_group_reference_list}
   */
   readonly externalUserGroupReferenceList?: ProjectExternalUserGroupReferenceListStruct[] | cdktf.IResolvable;
   /**
   * resource_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#resource_domain Project#resource_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#resource_domain Project#resource_domain}
   */
   readonly resourceDomain?: ProjectResourceDomain;
   /**
   * subnet_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#subnet_reference_list Project#subnet_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#subnet_reference_list Project#subnet_reference_list}
   */
   readonly subnetReferenceList?: ProjectSubnetReferenceListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#timeouts Project#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#timeouts Project#timeouts}
   */
   readonly timeouts?: ProjectTimeouts;
   /**
   * tunnel_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#tunnel_reference_list Project#tunnel_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#tunnel_reference_list Project#tunnel_reference_list}
   */
   readonly tunnelReferenceList?: ProjectTunnelReferenceListStruct[] | cdktf.IResolvable;
   /**
   * user_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_group_list Project#user_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_group_list Project#user_group_list}
   */
   readonly userGroupList?: ProjectUserGroupListStruct[] | cdktf.IResolvable;
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_list Project#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_list Project#user_list}
   */
   readonly userList?: ProjectUserListStruct[] | cdktf.IResolvable;
   /**
   * user_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_reference_list Project#user_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_reference_list Project#user_reference_list}
   */
   readonly userReferenceList?: ProjectUserReferenceListStruct[] | cdktf.IResolvable;
   /**
   * vpc_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#vpc_reference_list Project#vpc_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#vpc_reference_list Project#vpc_reference_list}
   */
   readonly vpcReferenceList?: ProjectVpcReferenceListStruct[] | cdktf.IResolvable;
 }
 export interface ProjectAccountReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -916,15 +916,15 @@ export class ProjectAcpContextFilterListStructList extends cdktf.ComplexList {
 }
 export interface ProjectAcpRoleReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -1060,15 +1060,15 @@ export class ProjectAcpRoleReferenceOutputReference extends cdktf.ComplexObject 
 }
 export interface ProjectAcpUserGroupReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -1239,15 +1239,15 @@ export class ProjectAcpUserGroupReferenceListStructList extends cdktf.ComplexLis
 }
 export interface ProjectAcpUserReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -1418,29 +1418,29 @@ export class ProjectAcpUserReferenceListStructList extends cdktf.ComplexList {
 }
 export interface ProjectAcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * role_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#role_reference Project#role_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#role_reference Project#role_reference}
   */
   readonly roleReference: ProjectAcpRoleReference;
   /**
   * user_group_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_group_reference_list Project#user_group_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_group_reference_list Project#user_group_reference_list}
   */
   readonly userGroupReferenceList?: ProjectAcpUserGroupReferenceListStruct[] | cdktf.IResolvable;
   /**
   * user_reference_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_reference_list Project#user_reference_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_reference_list Project#user_reference_list}
   */
   readonly userReferenceList?: ProjectAcpUserReferenceListStruct[] | cdktf.IResolvable;
 }
@@ -1681,11 +1681,11 @@ export class ProjectAcpList extends cdktf.ComplexList {
 }
 export interface ProjectCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#value Project#value}
   */
   readonly value?: string;
 }
@@ -1830,15 +1830,15 @@ export class ProjectCategoriesList extends cdktf.ComplexList {
 }
 export interface ProjectClusterReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2009,15 +2009,15 @@ export class ProjectClusterReferenceListStructList extends cdktf.ComplexList {
 }
 export interface ProjectDefaultEnvironmentReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2156,15 +2156,15 @@ export class ProjectDefaultEnvironmentReferenceOutputReference extends cdktf.Com
 }
 export interface ProjectDefaultSubnetReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2303,15 +2303,15 @@ export class ProjectDefaultSubnetReferenceOutputReference extends cdktf.ComplexO
 }
 export interface ProjectEnvironmentReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2482,11 +2482,11 @@ export class ProjectEnvironmentReferenceListStructList extends cdktf.ComplexList
 }
 export interface ProjectExternalNetworkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2628,15 +2628,15 @@ export class ProjectExternalNetworkListStructList extends cdktf.ComplexList {
 }
 export interface ProjectExternalUserGroupReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -2807,11 +2807,11 @@ export class ProjectExternalUserGroupReferenceListStructList extends cdktf.Compl
 }
 export interface ProjectResourceDomainResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#limit Project#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#limit Project#limit}
   */
   readonly limit: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#resource_type Project#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#resource_type Project#resource_type}
   */
   readonly resourceType: string;
 }
@@ -2962,7 +2962,7 @@ export interface ProjectResourceDomain {
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#resources Project#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#resources Project#resources}
   */
   readonly resources: ProjectResourceDomainResources[] | cdktf.IResolvable;
 }
@@ -3043,15 +3043,15 @@ export class ProjectResourceDomainOutputReference extends cdktf.ComplexObject {
 }
 export interface ProjectSubnetReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -3222,15 +3222,15 @@ export class ProjectSubnetReferenceListStructList extends cdktf.ComplexList {
 }
 export interface ProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#create Project#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#create Project#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#delete Project#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#delete Project#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#update Project#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#update Project#update}
   */
   readonly update?: string;
 }
@@ -3382,15 +3382,15 @@ export class ProjectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface ProjectTunnelReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -3561,7 +3561,7 @@ export class ProjectTunnelReferenceListStructList extends cdktf.ComplexList {
 }
 export interface ProjectUserGroupListDirectoryServiceOu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#distinguished_name Project#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#distinguished_name Project#distinguished_name}
   */
   readonly distinguishedName: string;
 }
@@ -3674,7 +3674,7 @@ export class ProjectUserGroupListDirectoryServiceOuList extends cdktf.ComplexLis
 }
 export interface ProjectUserGroupListDirectoryServiceUserGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#distinguished_name Project#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#distinguished_name Project#distinguished_name}
   */
   readonly distinguishedName: string;
 }
@@ -3787,11 +3787,11 @@ export class ProjectUserGroupListDirectoryServiceUserGroupList extends cdktf.Com
 }
 export interface ProjectUserGroupListSamlUserGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#idp_uuid Project#idp_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#idp_uuid Project#idp_uuid}
   */
   readonly idpUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name: string;
 }
@@ -3930,25 +3930,25 @@ export class ProjectUserGroupListSamlUserGroupList extends cdktf.ComplexList {
 }
 export interface ProjectUserGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#metadata Project#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#metadata Project#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * directory_service_ou block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#directory_service_ou Project#directory_service_ou}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#directory_service_ou Project#directory_service_ou}
   */
   readonly directoryServiceOu?: ProjectUserGroupListDirectoryServiceOu[] | cdktf.IResolvable;
   /**
   * directory_service_user_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#directory_service_user_group Project#directory_service_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#directory_service_user_group Project#directory_service_user_group}
   */
   readonly directoryServiceUserGroup?: ProjectUserGroupListDirectoryServiceUserGroup[] | cdktf.IResolvable;
   /**
   * saml_user_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#saml_user_group Project#saml_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#saml_user_group Project#saml_user_group}
   */
   readonly samlUserGroup?: ProjectUserGroupListSamlUserGroup[] | cdktf.IResolvable;
 }
@@ -4151,15 +4151,15 @@ export class ProjectUserGroupListStructList extends cdktf.ComplexList {
 }
 export interface ProjectUserListDirectoryServiceUserDirectoryServiceReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -4298,13 +4298,13 @@ export class ProjectUserListDirectoryServiceUserDirectoryServiceReferenceOutputR
 }
 export interface ProjectUserListDirectoryServiceUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#user_principal_name Project#user_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#user_principal_name Project#user_principal_name}
   */
   readonly userPrincipalName?: string;
   /**
   * directory_service_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#directory_service_reference Project#directory_service_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#directory_service_reference Project#directory_service_reference}
   */
   readonly directoryServiceReference: ProjectUserListDirectoryServiceUserDirectoryServiceReference;
 }
@@ -4419,15 +4419,15 @@ export class ProjectUserListDirectoryServiceUserOutputReference extends cdktf.Co
 }
 export interface ProjectUserListIdentityProviderUserIdentityProviderReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -4566,13 +4566,13 @@ export class ProjectUserListIdentityProviderUserIdentityProviderReferenceOutputR
 }
 export interface ProjectUserListIdentityProviderUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#username Project#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#username Project#username}
   */
   readonly username?: string;
   /**
   * identity_provider_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#identity_provider_reference Project#identity_provider_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#identity_provider_reference Project#identity_provider_reference}
   */
   readonly identityProviderReference: ProjectUserListIdentityProviderUserIdentityProviderReference;
 }
@@ -4682,19 +4682,19 @@ export class ProjectUserListIdentityProviderUserOutputReference extends cdktf.Co
 }
 export interface ProjectUserListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#metadata Project#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#metadata Project#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * directory_service_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#directory_service_user Project#directory_service_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#directory_service_user Project#directory_service_user}
   */
   readonly directoryServiceUser?: ProjectUserListDirectoryServiceUser;
   /**
   * identity_provider_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#identity_provider_user Project#identity_provider_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#identity_provider_user Project#identity_provider_user}
   */
   readonly identityProviderUser?: ProjectUserListIdentityProviderUser;
 }
@@ -4868,15 +4868,15 @@ export class ProjectUserListStructList extends cdktf.ComplexList {
 }
 export interface ProjectUserReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -5047,15 +5047,15 @@ export class ProjectUserReferenceListStructList extends cdktf.ComplexList {
 }
 export interface ProjectVpcReferenceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#uuid Project#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#uuid Project#uuid}
   */
   readonly uuid: string;
 }
@@ -5226,7 +5226,7 @@ export class ProjectVpcReferenceListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project nutanix_project}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project nutanix_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -5242,7 +5242,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5254,7 +5254,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/project nutanix_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/project nutanix_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5265,8 +5265,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_project',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

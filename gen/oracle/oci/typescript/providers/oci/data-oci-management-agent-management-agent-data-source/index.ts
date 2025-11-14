@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciManagementAgentManagementAgentDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source#data_source_key DataOciManagementAgentManagementAgentDataSource#data_source_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source#data_source_key DataOciManagementAgentManagementAgentDataSource#data_source_key}
   */
   readonly dataSourceKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source#management_agent_id DataOciManagementAgentManagementAgentDataSource#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source#management_agent_id DataOciManagementAgentManagementAgentDataSource#management_agent_id}
   */
   readonly managementAgentId: string;
 }
@@ -98,7 +98,7 @@ export class DataOciManagementAgentManagementAgentDataSourceMetricDimensionsList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source oci_management_agent_management_agent_data_source}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source oci_management_agent_management_agent_data_source}
 */
 export class DataOciManagementAgentManagementAgentDataSource extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataOciManagementAgentManagementAgentDataSource extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciManagementAgentManagementAgentDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciManagementAgentManagementAgentDataSource to import
-  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciManagementAgentManagementAgentDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataOciManagementAgentManagementAgentDataSource extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_data_source oci_management_agent_management_agent_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_data_source oci_management_agent_management_agent_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataOciManagementAgentManagementAgentDataSource extends cdktf.Terra
       terraformResourceType: 'oci_management_agent_management_agent_data_source',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

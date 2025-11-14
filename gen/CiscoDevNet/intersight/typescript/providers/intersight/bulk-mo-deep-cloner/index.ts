@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface BulkMoDeepClonerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#account_moid BulkMoDeepCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#account_moid BulkMoDeepCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ancestors BulkMoDeepCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ancestors BulkMoDeepCloner#ancestors}
   */
   readonly ancestors?: BulkMoDeepClonerAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a bulkResult resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#async_result BulkMoDeepCloner#async_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#async_result BulkMoDeepCloner#async_result}
   */
   readonly asyncResult?: BulkMoDeepClonerAsyncResult[] | cdktf.IResolvable;
   /**
@@ -35,27 +35,27 @@ export interface BulkMoDeepClonerConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#create_time BulkMoDeepCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#create_time BulkMoDeepCloner#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#domain_group_moid BulkMoDeepCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#domain_group_moid BulkMoDeepCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#exclude_properties BulkMoDeepCloner#exclude_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#exclude_properties BulkMoDeepCloner#exclude_properties}
   */
   readonly excludeProperties?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#id BulkMoDeepCloner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#id BulkMoDeepCloner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,56 +64,56 @@ export interface BulkMoDeepClonerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#mod_time BulkMoDeepCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#mod_time BulkMoDeepCloner#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
   * MoRef of the source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#nr_source BulkMoDeepCloner#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#nr_source BulkMoDeepCloner#nr_source}
   */
   readonly nrSource?: BulkMoDeepClonerNrSource[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#organization BulkMoDeepCloner#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#organization BulkMoDeepCloner#organization}
   */
   readonly organization?: BulkMoDeepClonerOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#owners BulkMoDeepCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#owners BulkMoDeepCloner#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#parent BulkMoDeepCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#parent BulkMoDeepCloner#parent}
   */
   readonly parent?: BulkMoDeepClonerParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#permission_resources BulkMoDeepCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#permission_resources BulkMoDeepCloner#permission_resources}
   */
   readonly permissionResources?: BulkMoDeepClonerPermissionResources[] | cdktf.IResolvable;
   /**
   * Name suffix to be applied to all the MOs being cloned when ReferencePolicy chosen is CreateNew. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#reference_name_suffix BulkMoDeepCloner#reference_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#reference_name_suffix BulkMoDeepCloner#reference_name_suffix}
   */
   readonly referenceNameSuffix?: string;
   /**
@@ -121,57 +121,57 @@ export interface BulkMoDeepClonerConfig extends cdktf.TerraformMetaArguments {
   * * `ReuseAll` - Any policies in the destination organization whose name matches the policy referenced in the cloned policy will be attached. If no policyin the destination organization matches by name, a policy will be cloned with the same name.Pool references will always be matched by name. If not found, the pool will be cloned in the destination organization, but no identifierblocks will be created.
   * * `CreateNew` - New policies will be created for the source and all the attached policies. If a policy of the same name and type already exists in thedestination organization or any organization from which it shares policies, a clone will be created with the provided suffix added to the name.Pool references will always be matched by name. If not found, the pool will be cloned in the destination organization, but no identifierblocks will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#reference_policy BulkMoDeepCloner#reference_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#reference_policy BulkMoDeepCloner#reference_policy}
   */
   readonly referencePolicy?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#shared_scope BulkMoDeepCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#shared_scope BulkMoDeepCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#tags BulkMoDeepCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#tags BulkMoDeepCloner#tags}
   */
   readonly tags?: BulkMoDeepClonerTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#targets BulkMoDeepCloner#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#targets BulkMoDeepCloner#targets}
   */
   readonly targets?: BulkMoDeepClonerTargets[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#version_context BulkMoDeepCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#version_context BulkMoDeepCloner#version_context}
   */
   readonly versionContext?: BulkMoDeepClonerVersionContext[] | cdktf.IResolvable;
   /**
   * A user-friendly short name to identify the workflow. Name can only contain letters (a-z, A-Z),
   * numbers (0-9), hyphen (-), period (.), colon (:), space ( ), forward slash (/), comma or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#workflow_name_suffix BulkMoDeepCloner#workflow_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#workflow_name_suffix BulkMoDeepCloner#workflow_name_suffix}
   */
   readonly workflowNameSuffix?: string;
 }
 export interface BulkMoDeepClonerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -403,23 +403,23 @@ export class BulkMoDeepClonerAncestorsList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerAsyncResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -651,23 +651,23 @@ export class BulkMoDeepClonerAsyncResultList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -899,23 +899,23 @@ export class BulkMoDeepClonerNrSourceList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -1147,23 +1147,23 @@ export class BulkMoDeepClonerOrganizationList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -1395,23 +1395,23 @@ export class BulkMoDeepClonerParentList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -1643,23 +1643,23 @@ export class BulkMoDeepClonerPermissionResourcesList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -1891,23 +1891,23 @@ export class BulkMoDeepClonerTagsAncestorDefinitionsList extends cdktf.ComplexLi
 }
 export interface BulkMoDeepClonerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -2139,31 +2139,35 @@ export class BulkMoDeepClonerTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ancestor_definitions BulkMoDeepCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ancestor_definitions BulkMoDeepCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: BulkMoDeepClonerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#definition BulkMoDeepCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#definition BulkMoDeepCloner#definition}
   */
   readonly definition?: BulkMoDeepClonerTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#key BulkMoDeepCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#key BulkMoDeepCloner#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#propagated BulkMoDeepCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#propagated BulkMoDeepCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#type BulkMoDeepCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#sys_tag BulkMoDeepCloner#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#type BulkMoDeepCloner#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#value BulkMoDeepCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#value BulkMoDeepCloner#value}
   */
   readonly value?: string;
 }
@@ -2179,6 +2183,7 @@ export function bulkMoDeepClonerTagsToTerraform(struct?: BulkMoDeepClonerTags | 
     definition: cdktf.listMapper(bulkMoDeepClonerTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2217,6 +2222,12 @@ export function bulkMoDeepClonerTagsToHclTerraform(struct?: BulkMoDeepClonerTags
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2279,6 +2290,10 @@ export class BulkMoDeepClonerTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2299,6 +2314,7 @@ export class BulkMoDeepClonerTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2314,6 +2330,7 @@ export class BulkMoDeepClonerTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2399,6 +2416,22 @@ export class BulkMoDeepClonerTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2453,23 +2486,23 @@ export class BulkMoDeepClonerTagsList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTargetsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -2701,23 +2734,23 @@ export class BulkMoDeepClonerTargetsAncestorsList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTargetsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -2949,23 +2982,23 @@ export class BulkMoDeepClonerTargetsParentList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTargetsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -3197,23 +3230,23 @@ export class BulkMoDeepClonerTargetsPermissionResourcesList extends cdktf.Comple
 }
 export interface BulkMoDeepClonerTargetsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -3445,23 +3478,23 @@ export class BulkMoDeepClonerTargetsTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface BulkMoDeepClonerTargetsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -3693,31 +3726,35 @@ export class BulkMoDeepClonerTargetsTagsDefinitionList extends cdktf.ComplexList
 }
 export interface BulkMoDeepClonerTargetsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ancestor_definitions BulkMoDeepCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ancestor_definitions BulkMoDeepCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: BulkMoDeepClonerTargetsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#definition BulkMoDeepCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#definition BulkMoDeepCloner#definition}
   */
   readonly definition?: BulkMoDeepClonerTargetsTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#key BulkMoDeepCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#key BulkMoDeepCloner#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#propagated BulkMoDeepCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#propagated BulkMoDeepCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#type BulkMoDeepCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#sys_tag BulkMoDeepCloner#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#type BulkMoDeepCloner#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#value BulkMoDeepCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#value BulkMoDeepCloner#value}
   */
   readonly value?: string;
 }
@@ -3733,6 +3770,7 @@ export function bulkMoDeepClonerTargetsTagsToTerraform(struct?: BulkMoDeepCloner
     definition: cdktf.listMapper(bulkMoDeepClonerTargetsTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -3771,6 +3809,12 @@ export function bulkMoDeepClonerTargetsTagsToHclTerraform(struct?: BulkMoDeepClo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3833,6 +3877,10 @@ export class BulkMoDeepClonerTargetsTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3853,6 +3901,7 @@ export class BulkMoDeepClonerTargetsTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -3868,6 +3917,7 @@ export class BulkMoDeepClonerTargetsTagsOutputReference extends cdktf.ComplexObj
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -3953,6 +4003,22 @@ export class BulkMoDeepClonerTargetsTagsOutputReference extends cdktf.ComplexObj
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -4007,23 +4073,23 @@ export class BulkMoDeepClonerTargetsTagsList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerTargetsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -4255,23 +4321,23 @@ export class BulkMoDeepClonerTargetsVersionContextInterestedMosList extends cdkt
 }
 export interface BulkMoDeepClonerTargetsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -4503,39 +4569,39 @@ export class BulkMoDeepClonerTargetsVersionContextRefMoList extends cdktf.Comple
 }
 export interface BulkMoDeepClonerTargetsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#interested_mos BulkMoDeepCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#interested_mos BulkMoDeepCloner#interested_mos}
   */
   readonly interestedMos?: BulkMoDeepClonerTargetsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#marked_for_deletion BulkMoDeepCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#marked_for_deletion BulkMoDeepCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#nr_version BulkMoDeepCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#nr_version BulkMoDeepCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ref_mo BulkMoDeepCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ref_mo BulkMoDeepCloner#ref_mo}
   */
   readonly refMo?: BulkMoDeepClonerTargetsVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#timestamp BulkMoDeepCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#timestamp BulkMoDeepCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#version_type BulkMoDeepCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#version_type BulkMoDeepCloner#version_type}
   */
   readonly versionType?: string;
 }
@@ -4883,63 +4949,63 @@ export class BulkMoDeepClonerTargetsVersionContextList extends cdktf.ComplexList
 }
 export interface BulkMoDeepClonerTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#account_moid BulkMoDeepCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#account_moid BulkMoDeepCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ancestors BulkMoDeepCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ancestors BulkMoDeepCloner#ancestors}
   */
   readonly ancestors?: BulkMoDeepClonerTargetsAncestors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#create_time BulkMoDeepCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#create_time BulkMoDeepCloner#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#domain_group_moid BulkMoDeepCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#domain_group_moid BulkMoDeepCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#mod_time BulkMoDeepCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#mod_time BulkMoDeepCloner#mod_time}
   */
   readonly modTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#owners BulkMoDeepCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#owners BulkMoDeepCloner#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#parent BulkMoDeepCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#parent BulkMoDeepCloner#parent}
   */
   readonly parent?: BulkMoDeepClonerTargetsParent[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#permission_resources BulkMoDeepCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#permission_resources BulkMoDeepCloner#permission_resources}
   */
   readonly permissionResources?: BulkMoDeepClonerTargetsPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#shared_scope BulkMoDeepCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#shared_scope BulkMoDeepCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#tags BulkMoDeepCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#tags BulkMoDeepCloner#tags}
   */
   readonly tags?: BulkMoDeepClonerTargetsTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#version_context BulkMoDeepCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#version_context BulkMoDeepCloner#version_context}
   */
   readonly versionContext?: BulkMoDeepClonerTargetsVersionContext[] | cdktf.IResolvable;
 }
@@ -5461,23 +5527,23 @@ export class BulkMoDeepClonerTargetsList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5709,23 +5775,23 @@ export class BulkMoDeepClonerVersionContextInterestedMosList extends cdktf.Compl
 }
 export interface BulkMoDeepClonerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#moid BulkMoDeepCloner#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#selector BulkMoDeepCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5957,39 +6023,39 @@ export class BulkMoDeepClonerVersionContextRefMoList extends cdktf.ComplexList {
 }
 export interface BulkMoDeepClonerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#additional_properties BulkMoDeepCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#class_id BulkMoDeepCloner#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#interested_mos BulkMoDeepCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#interested_mos BulkMoDeepCloner#interested_mos}
   */
   readonly interestedMos?: BulkMoDeepClonerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#marked_for_deletion BulkMoDeepCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#marked_for_deletion BulkMoDeepCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#nr_version BulkMoDeepCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#nr_version BulkMoDeepCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#object_type BulkMoDeepCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#ref_mo BulkMoDeepCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#ref_mo BulkMoDeepCloner#ref_mo}
   */
   readonly refMo?: BulkMoDeepClonerVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#timestamp BulkMoDeepCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#timestamp BulkMoDeepCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#version_type BulkMoDeepCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#version_type BulkMoDeepCloner#version_type}
   */
   readonly versionType?: string;
 }
@@ -6337,7 +6403,7 @@ export class BulkMoDeepClonerVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner intersight_bulk_mo_deep_cloner}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner intersight_bulk_mo_deep_cloner}
 */
 export class BulkMoDeepCloner extends cdktf.TerraformResource {
 
@@ -6353,7 +6419,7 @@ export class BulkMoDeepCloner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BulkMoDeepCloner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BulkMoDeepCloner to import
-  * @param importFromId The id of the existing BulkMoDeepCloner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BulkMoDeepCloner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BulkMoDeepCloner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6365,7 +6431,7 @@ export class BulkMoDeepCloner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bulk_mo_deep_cloner intersight_bulk_mo_deep_cloner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bulk_mo_deep_cloner intersight_bulk_mo_deep_cloner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6376,8 +6442,8 @@ export class BulkMoDeepCloner extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_bulk_mo_deep_cloner',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

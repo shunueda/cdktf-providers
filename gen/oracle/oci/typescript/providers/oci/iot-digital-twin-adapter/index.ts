@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface IotDigitalTwinAdapterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#defined_tags IotDigitalTwinAdapter#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#defined_tags IotDigitalTwinAdapter#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_id IotDigitalTwinAdapter#digital_twin_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#digital_twin_model_id IotDigitalTwinAdapter#digital_twin_model_id}
   */
   readonly digitalTwinModelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_spec_uri IotDigitalTwinAdapter#digital_twin_model_spec_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#digital_twin_model_spec_uri IotDigitalTwinAdapter#digital_twin_model_spec_uri}
   */
   readonly digitalTwinModelSpecUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#display_name IotDigitalTwinAdapter#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#display_name IotDigitalTwinAdapter#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#freeform_tags IotDigitalTwinAdapter#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#freeform_tags IotDigitalTwinAdapter#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#id IotDigitalTwinAdapter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#id IotDigitalTwinAdapter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#iot_domain_id IotDigitalTwinAdapter#iot_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#iot_domain_id IotDigitalTwinAdapter#iot_domain_id}
   */
   readonly iotDomainId: string;
   /**
   * inbound_envelope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#inbound_envelope IotDigitalTwinAdapter#inbound_envelope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#inbound_envelope IotDigitalTwinAdapter#inbound_envelope}
   */
   readonly inboundEnvelope?: IotDigitalTwinAdapterInboundEnvelope;
   /**
   * inbound_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#inbound_routes IotDigitalTwinAdapter#inbound_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#inbound_routes IotDigitalTwinAdapter#inbound_routes}
   */
   readonly inboundRoutes?: IotDigitalTwinAdapterInboundRoutes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#timeouts IotDigitalTwinAdapter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#timeouts IotDigitalTwinAdapter#timeouts}
   */
   readonly timeouts?: IotDigitalTwinAdapterTimeouts;
 }
 export interface IotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}
   */
   readonly timeObserved?: string;
 }
@@ -147,11 +147,11 @@ export class IotDigitalTwinAdapterInboundEnvelopeEnvelopeMappingOutputReference 
 }
 export interface IotDigitalTwinAdapterInboundEnvelopeReferencePayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}
   */
   readonly data: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}
   */
   readonly dataFormat: string;
 }
@@ -258,19 +258,19 @@ export class IotDigitalTwinAdapterInboundEnvelopeReferencePayloadOutputReference
 }
 export interface IotDigitalTwinAdapterInboundEnvelope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}
   */
   readonly referenceEndpoint: string;
   /**
   * envelope_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
   */
   readonly envelopeMapping?: IotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping;
   /**
   * reference_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
   */
   readonly referencePayload?: IotDigitalTwinAdapterInboundEnvelopeReferencePayload;
 }
@@ -409,11 +409,11 @@ export class IotDigitalTwinAdapterInboundEnvelopeOutputReference extends cdktf.C
 }
 export interface IotDigitalTwinAdapterInboundRoutesReferencePayload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}
   */
   readonly data: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}
   */
   readonly dataFormat: string;
 }
@@ -520,21 +520,21 @@ export class IotDigitalTwinAdapterInboundRoutesReferencePayloadOutputReference e
 }
 export interface IotDigitalTwinAdapterInboundRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#condition IotDigitalTwinAdapter#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#payload_mapping IotDigitalTwinAdapter#payload_mapping}
   */
   readonly payloadMapping?: { [key: string]: string };
   /**
   * reference_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
   */
   readonly referencePayload?: IotDigitalTwinAdapterInboundRoutesReferencePayload;
 }
@@ -734,15 +734,15 @@ export class IotDigitalTwinAdapterInboundRoutesList extends cdktf.ComplexList {
 }
 export interface IotDigitalTwinAdapterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#create IotDigitalTwinAdapter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#create IotDigitalTwinAdapter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#delete IotDigitalTwinAdapter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#delete IotDigitalTwinAdapter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#update IotDigitalTwinAdapter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#update IotDigitalTwinAdapter#update}
   */
   readonly update?: string;
 }
@@ -894,7 +894,7 @@ export class IotDigitalTwinAdapterTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter oci_iot_digital_twin_adapter}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter oci_iot_digital_twin_adapter}
 */
 export class IotDigitalTwinAdapter extends cdktf.TerraformResource {
 
@@ -910,7 +910,7 @@ export class IotDigitalTwinAdapter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotDigitalTwinAdapter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotDigitalTwinAdapter to import
-  * @param importFromId The id of the existing IotDigitalTwinAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotDigitalTwinAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotDigitalTwinAdapter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -922,7 +922,7 @@ export class IotDigitalTwinAdapter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/iot_digital_twin_adapter oci_iot_digital_twin_adapter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/iot_digital_twin_adapter oci_iot_digital_twin_adapter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -933,8 +933,8 @@ export class IotDigitalTwinAdapter extends cdktf.TerraformResource {
       terraformResourceType: 'oci_iot_digital_twin_adapter',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

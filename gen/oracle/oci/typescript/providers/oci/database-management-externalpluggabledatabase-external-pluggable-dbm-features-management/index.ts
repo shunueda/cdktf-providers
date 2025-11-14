@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#enable_external_pluggable_dbm_feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#enable_external_pluggable_dbm_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#enable_external_pluggable_dbm_feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#enable_external_pluggable_dbm_feature}
   */
   readonly enableExternalPluggableDbmFeature: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#external_pluggable_database_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#external_pluggable_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#external_pluggable_database_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#external_pluggable_database_id}
   */
   readonly externalPluggableDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature}
   */
   readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DatabaseManagementExternalpluggabledatabaseExternalPluggableDbm
   /**
   * feature_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature_details DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature_details DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature_details}
   */
   readonly featureDetails?: DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementFeatureDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#timeouts DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#timeouts DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#timeouts}
   */
   readonly timeouts?: DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementTimeouts;
 }
 export interface DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementFeatureDetailsConnectorDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#connector_type DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#connector_type DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#connector_type}
   */
   readonly connectorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#database_connector_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#database_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#database_connector_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#database_connector_id}
   */
   readonly databaseConnectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#management_agent_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#management_agent_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#private_end_point_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#private_end_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#private_end_point_id DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#private_end_point_id}
   */
   readonly privateEndPointId?: string;
 }
@@ -224,13 +224,13 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
 }
 export interface DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementFeatureDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#feature DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#feature}
   */
   readonly feature: string;
   /**
   * connector_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#connector_details DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#connector_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#connector_details DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#connector_details}
   */
   readonly connectorDetails?: DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementFeatureDetailsConnectorDetails;
 }
@@ -340,15 +340,15 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
 }
 export interface DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#create DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#create DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#delete DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#delete DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#update DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#update DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#update}
   */
   readonly update?: string;
 }
@@ -500,7 +500,7 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management oci_database_management_externalpluggabledatabase_external_pluggable_dbm_features_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management oci_database_management_externalpluggabledatabase_external_pluggable_dbm_features_management}
 */
 export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement extends cdktf.TerraformResource {
 
@@ -516,7 +516,7 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
   * Generates CDKTF code for importing a DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement to import
-  * @param importFromId The id of the existing DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management oci_database_management_externalpluggabledatabase_external_pluggable_dbm_features_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management oci_database_management_externalpluggabledatabase_external_pluggable_dbm_features_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeat
       terraformResourceType: 'oci_database_management_externalpluggabledatabase_external_pluggable_dbm_features_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

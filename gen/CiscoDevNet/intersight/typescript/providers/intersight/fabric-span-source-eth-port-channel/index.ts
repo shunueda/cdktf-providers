@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#account_moid FabricSpanSourceEthPortChannel#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#account_moid FabricSpanSourceEthPortChannel#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#ancestors FabricSpanSourceEthPortChannel#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#ancestors FabricSpanSourceEthPortChannel#ancestors}
   */
   readonly ancestors?: FabricSpanSourceEthPortChannelAncestors[] | cdktf.IResolvable;
   /**
@@ -29,13 +29,13 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#create_time FabricSpanSourceEthPortChannel#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#create_time FabricSpanSourceEthPortChannel#create_time}
   */
   readonly createTime?: string;
   /**
@@ -44,17 +44,17 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   * * `Transmit` - SPAN outgoing traffic on the SPAN source interface.
   * * `Both` - SPAN incoming and outgoing traffic on the SPAN source interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#direction FabricSpanSourceEthPortChannel#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#direction FabricSpanSourceEthPortChannel#direction}
   */
   readonly direction?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#domain_group_moid FabricSpanSourceEthPortChannel#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#domain_group_moid FabricSpanSourceEthPortChannel#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#id FabricSpanSourceEthPortChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#id FabricSpanSourceEthPortChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,13 +63,13 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#mod_time FabricSpanSourceEthPortChannel#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#mod_time FabricSpanSourceEthPortChannel#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
@@ -77,44 +77,44 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#owners FabricSpanSourceEthPortChannel#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#owners FabricSpanSourceEthPortChannel#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#parent FabricSpanSourceEthPortChannel#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#parent FabricSpanSourceEthPortChannel#parent}
   */
   readonly parent?: FabricSpanSourceEthPortChannelParent[] | cdktf.IResolvable;
   /**
   * Port-channel ID of SPAN source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#pc_id FabricSpanSourceEthPortChannel#pc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#pc_id FabricSpanSourceEthPortChannel#pc_id}
   */
   readonly pcId?: number;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#permission_resources FabricSpanSourceEthPortChannel#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#permission_resources FabricSpanSourceEthPortChannel#permission_resources}
   */
   readonly permissionResources?: FabricSpanSourceEthPortChannelPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a inventoryInterface resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#physical_port_channel FabricSpanSourceEthPortChannel#physical_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#physical_port_channel FabricSpanSourceEthPortChannel#physical_port_channel}
   */
   readonly physicalPortChannel?: FabricSpanSourceEthPortChannelPhysicalPortChannel[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#shared_scope FabricSpanSourceEthPortChannel#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#shared_scope FabricSpanSourceEthPortChannel#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -124,46 +124,46 @@ export interface FabricSpanSourceEthPortChannelConfig extends cdktf.TerraformMet
   * * `FcUplink` - FcoeUplink Role corresponding to PortRole in PortPolicy.
   * * `Appliance` - FcoeUplink Role corresponding to PortRole in PortPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#source_role FabricSpanSourceEthPortChannel#source_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#source_role FabricSpanSourceEthPortChannel#source_role}
   */
   readonly sourceRole?: string;
   /**
   * A reference to a fabricSpanSession resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#span_session FabricSpanSourceEthPortChannel#span_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#span_session FabricSpanSourceEthPortChannel#span_session}
   */
   readonly spanSession?: FabricSpanSourceEthPortChannelSpanSession[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#tags FabricSpanSourceEthPortChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#tags FabricSpanSourceEthPortChannel#tags}
   */
   readonly tags?: FabricSpanSourceEthPortChannelTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#version_context FabricSpanSourceEthPortChannel#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#version_context FabricSpanSourceEthPortChannel#version_context}
   */
   readonly versionContext?: FabricSpanSourceEthPortChannelVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricSpanSourceEthPortChannelAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -395,23 +395,23 @@ export class FabricSpanSourceEthPortChannelAncestorsList extends cdktf.ComplexLi
 }
 export interface FabricSpanSourceEthPortChannelParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -643,23 +643,23 @@ export class FabricSpanSourceEthPortChannelParentList extends cdktf.ComplexList 
 }
 export interface FabricSpanSourceEthPortChannelPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -891,23 +891,23 @@ export class FabricSpanSourceEthPortChannelPermissionResourcesList extends cdktf
 }
 export interface FabricSpanSourceEthPortChannelPhysicalPortChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -1139,23 +1139,23 @@ export class FabricSpanSourceEthPortChannelPhysicalPortChannelList extends cdktf
 }
 export interface FabricSpanSourceEthPortChannelSpanSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -1387,23 +1387,23 @@ export class FabricSpanSourceEthPortChannelSpanSessionList extends cdktf.Complex
 }
 export interface FabricSpanSourceEthPortChannelTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -1635,23 +1635,23 @@ export class FabricSpanSourceEthPortChannelTagsAncestorDefinitionsList extends c
 }
 export interface FabricSpanSourceEthPortChannelTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -1883,31 +1883,35 @@ export class FabricSpanSourceEthPortChannelTagsDefinitionList extends cdktf.Comp
 }
 export interface FabricSpanSourceEthPortChannelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#ancestor_definitions FabricSpanSourceEthPortChannel#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#ancestor_definitions FabricSpanSourceEthPortChannel#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricSpanSourceEthPortChannelTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#definition FabricSpanSourceEthPortChannel#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#definition FabricSpanSourceEthPortChannel#definition}
   */
   readonly definition?: FabricSpanSourceEthPortChannelTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#key FabricSpanSourceEthPortChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#key FabricSpanSourceEthPortChannel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#propagated FabricSpanSourceEthPortChannel#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#propagated FabricSpanSourceEthPortChannel#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#type FabricSpanSourceEthPortChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#sys_tag FabricSpanSourceEthPortChannel#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#type FabricSpanSourceEthPortChannel#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#value FabricSpanSourceEthPortChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#value FabricSpanSourceEthPortChannel#value}
   */
   readonly value?: string;
 }
@@ -1923,6 +1927,7 @@ export function fabricSpanSourceEthPortChannelTagsToTerraform(struct?: FabricSpa
     definition: cdktf.listMapper(fabricSpanSourceEthPortChannelTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1961,6 +1966,12 @@ export function fabricSpanSourceEthPortChannelTagsToHclTerraform(struct?: Fabric
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2023,6 +2034,10 @@ export class FabricSpanSourceEthPortChannelTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2043,6 +2058,7 @@ export class FabricSpanSourceEthPortChannelTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2058,6 +2074,7 @@ export class FabricSpanSourceEthPortChannelTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2143,6 +2160,22 @@ export class FabricSpanSourceEthPortChannelTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2197,23 +2230,23 @@ export class FabricSpanSourceEthPortChannelTagsList extends cdktf.ComplexList {
 }
 export interface FabricSpanSourceEthPortChannelVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2445,23 +2478,23 @@ export class FabricSpanSourceEthPortChannelVersionContextInterestedMosList exten
 }
 export interface FabricSpanSourceEthPortChannelVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#moid FabricSpanSourceEthPortChannel#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#selector FabricSpanSourceEthPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2693,39 +2726,39 @@ export class FabricSpanSourceEthPortChannelVersionContextRefMoList extends cdktf
 }
 export interface FabricSpanSourceEthPortChannelVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#additional_properties FabricSpanSourceEthPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#class_id FabricSpanSourceEthPortChannel#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#interested_mos FabricSpanSourceEthPortChannel#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#interested_mos FabricSpanSourceEthPortChannel#interested_mos}
   */
   readonly interestedMos?: FabricSpanSourceEthPortChannelVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#marked_for_deletion FabricSpanSourceEthPortChannel#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#marked_for_deletion FabricSpanSourceEthPortChannel#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#nr_version FabricSpanSourceEthPortChannel#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#nr_version FabricSpanSourceEthPortChannel#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#object_type FabricSpanSourceEthPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#ref_mo FabricSpanSourceEthPortChannel#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#ref_mo FabricSpanSourceEthPortChannel#ref_mo}
   */
   readonly refMo?: FabricSpanSourceEthPortChannelVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#timestamp FabricSpanSourceEthPortChannel#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#timestamp FabricSpanSourceEthPortChannel#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#version_type FabricSpanSourceEthPortChannel#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#version_type FabricSpanSourceEthPortChannel#version_type}
   */
   readonly versionType?: string;
 }
@@ -3073,7 +3106,7 @@ export class FabricSpanSourceEthPortChannelVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel intersight_fabric_span_source_eth_port_channel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel intersight_fabric_span_source_eth_port_channel}
 */
 export class FabricSpanSourceEthPortChannel extends cdktf.TerraformResource {
 
@@ -3089,7 +3122,7 @@ export class FabricSpanSourceEthPortChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricSpanSourceEthPortChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricSpanSourceEthPortChannel to import
-  * @param importFromId The id of the existing FabricSpanSourceEthPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricSpanSourceEthPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricSpanSourceEthPortChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3101,7 +3134,7 @@ export class FabricSpanSourceEthPortChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_span_source_eth_port_channel intersight_fabric_span_source_eth_port_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_span_source_eth_port_channel intersight_fabric_span_source_eth_port_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3112,8 +3145,8 @@ export class FabricSpanSourceEthPortChannel extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_span_source_eth_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface JmsJmsPluginConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#agent_id JmsJmsPlugin#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#agent_id JmsJmsPlugin#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#agent_type JmsJmsPlugin#agent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#agent_type JmsJmsPlugin#agent_type}
   */
   readonly agentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#compartment_id JmsJmsPlugin#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#compartment_id JmsJmsPlugin#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#defined_tags JmsJmsPlugin#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#defined_tags JmsJmsPlugin#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#fleet_id JmsJmsPlugin#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#fleet_id JmsJmsPlugin#fleet_id}
   */
   readonly fleetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#freeform_tags JmsJmsPlugin#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#freeform_tags JmsJmsPlugin#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#id JmsJmsPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#id JmsJmsPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,21 +41,21 @@ export interface JmsJmsPluginConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#timeouts JmsJmsPlugin#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#timeouts JmsJmsPlugin#timeouts}
   */
   readonly timeouts?: JmsJmsPluginTimeouts;
 }
 export interface JmsJmsPluginTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#create JmsJmsPlugin#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#create JmsJmsPlugin#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#delete JmsJmsPlugin#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#delete JmsJmsPlugin#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#update JmsJmsPlugin#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#update JmsJmsPlugin#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class JmsJmsPluginTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin oci_jms_jms_plugin}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin oci_jms_jms_plugin}
 */
 export class JmsJmsPlugin extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class JmsJmsPlugin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JmsJmsPlugin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsJmsPlugin to import
-  * @param importFromId The id of the existing JmsJmsPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsJmsPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsJmsPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class JmsJmsPlugin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/jms_jms_plugin oci_jms_jms_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/jms_jms_plugin oci_jms_jms_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class JmsJmsPlugin extends cdktf.TerraformResource {
       terraformResourceType: 'oci_jms_jms_plugin',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

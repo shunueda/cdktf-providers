@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeCapacityTopologyComputeNetworkBlocksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#availability_domain DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compartment_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_capacity_topology_id}
   */
   readonly computeCapacityTopologyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#compute_hpc_island_id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#compute_hpc_island_id}
   */
   readonly computeHpcIslandId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#id DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface DataOciCoreComputeCapacityTopologyComputeNetworkBlocksConfig ex
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#filter DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#filter}
   */
   readonly filter?: DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter[] | cdktf.IResolvable;
 }
@@ -220,15 +220,15 @@ export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocksComputeNetwor
 }
 export interface DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}
   */
   readonly values: string[];
 }
@@ -396,7 +396,7 @@ export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilterList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks oci_core_compute_capacity_topology_compute_network_blocks}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks oci_core_compute_capacity_topology_compute_network_blocks}
 */
 export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocks extends cdktf.TerraformDataSource {
 
@@ -412,7 +412,7 @@ export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocks extends cdkt
   * Generates CDKTF code for importing a DataOciCoreComputeCapacityTopologyComputeNetworkBlocks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeCapacityTopologyComputeNetworkBlocks to import
-  * @param importFromId The id of the existing DataOciCoreComputeCapacityTopologyComputeNetworkBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeCapacityTopologyComputeNetworkBlocks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeCapacityTopologyComputeNetworkBlocks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocks extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks oci_core_compute_capacity_topology_compute_network_blocks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_compute_capacity_topology_compute_network_blocks oci_core_compute_capacity_topology_compute_network_blocks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class DataOciCoreComputeCapacityTopologyComputeNetworkBlocks extends cdkt
       terraformResourceType: 'oci_core_compute_capacity_topology_compute_network_blocks',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

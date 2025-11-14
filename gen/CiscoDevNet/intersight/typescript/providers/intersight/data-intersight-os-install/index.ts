@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightOsInstallConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#account_moid DataIntersightOsInstall#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#account_moid DataIntersightOsInstall#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightOsInstallConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#create_time DataIntersightOsInstall#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#create_time DataIntersightOsInstall#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the OS install configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#description DataIntersightOsInstall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#description DataIntersightOsInstall#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#domain_group_moid DataIntersightOsInstall#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#domain_group_moid DataIntersightOsInstall#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The failure message of the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#error_msg DataIntersightOsInstall#error_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#error_msg DataIntersightOsInstall#error_msg}
   */
   readonly errorMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#id DataIntersightOsInstall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#id DataIntersightOsInstall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,32 +61,32 @@ export interface DataIntersightOsInstallConfig extends cdktf.TerraformMetaArgume
   * Only vMedia is supported as of now.
   * * `vMedia` - OS image is mounted as vMedia in target server for OS installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#install_method DataIntersightOsInstall#install_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#install_method DataIntersightOsInstall#install_method}
   */
   readonly installMethod?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#mod_time DataIntersightOsInstall#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#mod_time DataIntersightOsInstall#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The name of the OS install configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#name DataIntersightOsInstall#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#name DataIntersightOsInstall#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -97,114 +97,114 @@ export interface DataIntersightOsInstallConfig extends cdktf.TerraformMetaArgume
   * * `CompletedError` - The API is failed with operation then OperStatus will be marked as CompletedError.
   * * `CompletedWarning` - The API is completed with some warning then OperStatus will be CompletedWarning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#oper_state DataIntersightOsInstall#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#oper_state DataIntersightOsInstall#oper_state}
   */
   readonly operState?: string;
   /**
   * ESXi Secure Boot installation is currently not supported. As a workaround, Secure Boot will be disabled before installation and restored after installation is complete. Enable to Override Secure Boot Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#override_secure_boot DataIntersightOsInstall#override_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#override_secure_boot DataIntersightOsInstall#override_secure_boot}
   */
   readonly overrideSecureBoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#owners DataIntersightOsInstall#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#owners DataIntersightOsInstall#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#shared_scope DataIntersightOsInstall#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#shared_scope DataIntersightOsInstall#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * additional_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_parameters DataIntersightOsInstall#additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_parameters DataIntersightOsInstall#additional_parameters}
   */
   readonly additionalParameters?: DataIntersightOsInstallAdditionalParameters[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#ancestors DataIntersightOsInstall#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#ancestors DataIntersightOsInstall#ancestors}
   */
   readonly ancestors?: DataIntersightOsInstallAncestors[] | cdktf.IResolvable;
   /**
   * answers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#answers DataIntersightOsInstall#answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#answers DataIntersightOsInstall#answers}
   */
   readonly answers?: DataIntersightOsInstallAnswers;
   /**
   * configuration_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#configuration_file DataIntersightOsInstall#configuration_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#configuration_file DataIntersightOsInstall#configuration_file}
   */
   readonly configurationFile?: DataIntersightOsInstallConfigurationFile;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#image DataIntersightOsInstall#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#image DataIntersightOsInstall#image}
   */
   readonly image?: DataIntersightOsInstallImage;
   /**
   * install_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#install_target DataIntersightOsInstall#install_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#install_target DataIntersightOsInstall#install_target}
   */
   readonly installTarget?: DataIntersightOsInstallInstallTarget;
   /**
   * operating_system_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#operating_system_parameters DataIntersightOsInstall#operating_system_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#operating_system_parameters DataIntersightOsInstall#operating_system_parameters}
   */
   readonly operatingSystemParameters?: DataIntersightOsInstallOperatingSystemParameters;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#organization DataIntersightOsInstall#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#organization DataIntersightOsInstall#organization}
   */
   readonly organization?: DataIntersightOsInstallOrganization;
   /**
   * osdu_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#osdu_image DataIntersightOsInstall#osdu_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#osdu_image DataIntersightOsInstall#osdu_image}
   */
   readonly osduImage?: DataIntersightOsInstallOsduImage;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#parent DataIntersightOsInstall#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#parent DataIntersightOsInstall#parent}
   */
   readonly parent?: DataIntersightOsInstallParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#permission_resources DataIntersightOsInstall#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#permission_resources DataIntersightOsInstall#permission_resources}
   */
   readonly permissionResources?: DataIntersightOsInstallPermissionResources[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#server DataIntersightOsInstall#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#server DataIntersightOsInstall#server}
   */
   readonly server?: DataIntersightOsInstallServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#tags DataIntersightOsInstall#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#tags DataIntersightOsInstall#tags}
   */
   readonly tags?: DataIntersightOsInstallTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#version_context DataIntersightOsInstall#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#version_context DataIntersightOsInstall#version_context}
   */
   readonly versionContext?: DataIntersightOsInstallVersionContext;
   /**
   * workflow_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#workflow_info DataIntersightOsInstall#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#workflow_info DataIntersightOsInstall#workflow_info}
   */
   readonly workflowInfo?: DataIntersightOsInstallWorkflowInfo;
 }
@@ -1742,6 +1742,11 @@ export class DataIntersightOsInstallResultsTagsOutputReference extends cdktf.Com
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2415,7 +2420,7 @@ export class DataIntersightOsInstallResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOsInstallAdditionalParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2423,32 +2428,32 @@ export interface DataIntersightOsInstallAdditionalParameters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * Flag to indicate if value is set. Value will be used to check if any edit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#is_value_set DataIntersightOsInstall#is_value_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#is_value_set DataIntersightOsInstall#is_value_set}
   */
   readonly isValueSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
   * Definition of place holder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#type DataIntersightOsInstall#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#type DataIntersightOsInstall#type}
   */
   readonly type?: string;
   /**
   * Value for placeholder provided by user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#value DataIntersightOsInstall#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#value DataIntersightOsInstall#value}
   */
   readonly value?: string;
 }
@@ -2709,7 +2714,7 @@ export class DataIntersightOsInstallAdditionalParametersList extends cdktf.Compl
 }
 export interface DataIntersightOsInstallAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2717,19 +2722,19 @@ export interface DataIntersightOsInstallAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2742,7 +2747,7 @@ export interface DataIntersightOsInstallAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -2974,7 +2979,7 @@ export class DataIntersightOsInstallAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOsInstallAnswersIpConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2983,7 +2988,7 @@ export interface DataIntersightOsInstallAnswersIpConfiguration {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
@@ -2991,7 +2996,7 @@ export interface DataIntersightOsInstallAnswersIpConfiguration {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
 }
@@ -3133,11 +3138,11 @@ export class DataIntersightOsInstallAnswersIpConfigurationOutputReference extend
 }
 export interface DataIntersightOsInstallAnswers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#alternate_name_servers DataIntersightOsInstall#alternate_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#alternate_name_servers DataIntersightOsInstall#alternate_name_servers}
   */
   readonly alternateNameServers?: string[];
   /**
@@ -3145,7 +3150,7 @@ export interface DataIntersightOsInstallAnswers {
   * in this property.
   * The value is mandatory only when the 'Source' property has been set to 'File'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#answer_file DataIntersightOsInstall#answer_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#answer_file DataIntersightOsInstall#answer_file}
   */
   readonly answerFile?: string;
   /**
@@ -3153,13 +3158,13 @@ export interface DataIntersightOsInstallAnswers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * Hostname to be configured for the server in the OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#hostname DataIntersightOsInstall#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#hostname DataIntersightOsInstall#hostname}
   */
   readonly hostname?: string;
   /**
@@ -3170,31 +3175,31 @@ export interface DataIntersightOsInstallAnswers {
   * * `static` - In case of static IP configuraton, provide the details such as IP address, netmask, and gateway.
   * * `DHCP` - In case of dynamic IP configuration, the IP address, netmask and gateway detailsare obtained from DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#ip_config_type DataIntersightOsInstall#ip_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#ip_config_type DataIntersightOsInstall#ip_config_type}
   */
   readonly ipConfigType?: string;
   /**
   * Indicates whether the value of the 'answerFile' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#is_answer_file_set DataIntersightOsInstall#is_answer_file_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#is_answer_file_set DataIntersightOsInstall#is_answer_file_set}
   */
   readonly isAnswerFileSet?: boolean | cdktf.IResolvable;
   /**
   * Enable to indicate Root Password provided is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#is_root_password_crypted DataIntersightOsInstall#is_root_password_crypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#is_root_password_crypted DataIntersightOsInstall#is_root_password_crypted}
   */
   readonly isRootPasswordCrypted?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'rootPassword' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#is_root_password_set DataIntersightOsInstall#is_root_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#is_root_password_set DataIntersightOsInstall#is_root_password_set}
   */
   readonly isRootPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * IP address of the name server to be configured in the OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#nameserver DataIntersightOsInstall#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#nameserver DataIntersightOsInstall#nameserver}
   */
   readonly nameserver?: string;
   /**
@@ -3203,7 +3208,7 @@ export interface DataIntersightOsInstallAnswers {
   * A persistent interface name is binded to the MAC address and the interface name will be used for network configuration.
   * Refer https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-configuration-installation-options.html#CreateProfile-Network-names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#network_device DataIntersightOsInstall#network_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#network_device DataIntersightOsInstall#network_device}
   */
   readonly networkDevice?: string;
   /**
@@ -3219,20 +3224,20 @@ export interface DataIntersightOsInstallAnswers {
   * * `File` - Indicates that the answer file is a static content that has all thevalues populated.
   * * `Template` - Indicates that the given answers are used to populate the answer filetemplate. The template allows the users to refer some server specificanswers as fields/placeholders and replace these placeholders with theactual values for each Server during OS installation using 'Answers' and'AdditionalParameters' properties in os.Install MO.The answer file templates can be created by users as os.ConfigurationFile objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#nr_source DataIntersightOsInstall#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#nr_source DataIntersightOsInstall#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
   * The product key to be used for a specific version of Windows installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#product_key DataIntersightOsInstall#product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#product_key DataIntersightOsInstall#product_key}
   */
   readonly productKey?: string;
   /**
@@ -3240,13 +3245,13 @@ export interface DataIntersightOsInstallAnswers {
   * Intersight encrypts the plaintext password. Enable the Encrypted Password option to provide an encrypted password.
   * For more details on encrypting passwords, see Help Center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#root_password DataIntersightOsInstall#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#root_password DataIntersightOsInstall#root_password}
   */
   readonly rootPassword?: string;
   /**
   * ip_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#ip_configuration DataIntersightOsInstall#ip_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#ip_configuration DataIntersightOsInstall#ip_configuration}
   */
   readonly ipConfiguration?: DataIntersightOsInstallAnswersIpConfiguration;
 }
@@ -3765,7 +3770,7 @@ export class DataIntersightOsInstallAnswersOutputReference extends cdktf.Complex
 }
 export interface DataIntersightOsInstallConfigurationFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3773,19 +3778,19 @@ export interface DataIntersightOsInstallConfigurationFile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3798,7 +3803,7 @@ export interface DataIntersightOsInstallConfigurationFile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -3998,7 +4003,7 @@ export class DataIntersightOsInstallConfigurationFileOutputReference extends cdk
 }
 export interface DataIntersightOsInstallImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4006,19 +4011,19 @@ export interface DataIntersightOsInstallImage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4031,7 +4036,7 @@ export interface DataIntersightOsInstallImage {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -4231,7 +4236,7 @@ export class DataIntersightOsInstallImageOutputReference extends cdktf.ComplexOb
 }
 export interface DataIntersightOsInstallInstallTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4240,7 +4245,7 @@ export interface DataIntersightOsInstallInstallTarget {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
@@ -4248,7 +4253,7 @@ export interface DataIntersightOsInstallInstallTarget {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
 }
@@ -4390,7 +4395,7 @@ export class DataIntersightOsInstallInstallTargetOutputReference extends cdktf.C
 }
 export interface DataIntersightOsInstallOperatingSystemParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4399,7 +4404,7 @@ export interface DataIntersightOsInstallOperatingSystemParameters {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
@@ -4407,7 +4412,7 @@ export interface DataIntersightOsInstallOperatingSystemParameters {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
 }
@@ -4549,7 +4554,7 @@ export class DataIntersightOsInstallOperatingSystemParametersOutputReference ext
 }
 export interface DataIntersightOsInstallOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4557,19 +4562,19 @@ export interface DataIntersightOsInstallOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4582,7 +4587,7 @@ export interface DataIntersightOsInstallOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -4782,7 +4787,7 @@ export class DataIntersightOsInstallOrganizationOutputReference extends cdktf.Co
 }
 export interface DataIntersightOsInstallOsduImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4790,19 +4795,19 @@ export interface DataIntersightOsInstallOsduImage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4815,7 +4820,7 @@ export interface DataIntersightOsInstallOsduImage {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -5015,7 +5020,7 @@ export class DataIntersightOsInstallOsduImageOutputReference extends cdktf.Compl
 }
 export interface DataIntersightOsInstallParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5023,19 +5028,19 @@ export interface DataIntersightOsInstallParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5048,7 +5053,7 @@ export interface DataIntersightOsInstallParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -5248,7 +5253,7 @@ export class DataIntersightOsInstallParentOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightOsInstallPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5256,19 +5261,19 @@ export interface DataIntersightOsInstallPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5281,7 +5286,7 @@ export interface DataIntersightOsInstallPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -5513,7 +5518,7 @@ export class DataIntersightOsInstallPermissionResourcesList extends cdktf.Comple
 }
 export interface DataIntersightOsInstallServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5521,19 +5526,19 @@ export interface DataIntersightOsInstallServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5546,7 +5551,7 @@ export interface DataIntersightOsInstallServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -5746,7 +5751,7 @@ export class DataIntersightOsInstallServerOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightOsInstallTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5754,19 +5759,19 @@ export interface DataIntersightOsInstallTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5779,7 +5784,7 @@ export interface DataIntersightOsInstallTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -6011,7 +6016,7 @@ export class DataIntersightOsInstallTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface DataIntersightOsInstallTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6019,19 +6024,19 @@ export interface DataIntersightOsInstallTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6044,7 +6049,7 @@ export interface DataIntersightOsInstallTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -6244,45 +6249,51 @@ export class DataIntersightOsInstallTagsDefinitionOutputReference extends cdktf.
 }
 export interface DataIntersightOsInstallTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#key DataIntersightOsInstall#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#key DataIntersightOsInstall#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#propagated DataIntersightOsInstall#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#propagated DataIntersightOsInstall#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#sys_tag DataIntersightOsInstall#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#type DataIntersightOsInstall#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#type DataIntersightOsInstall#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#value DataIntersightOsInstall#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#value DataIntersightOsInstall#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#ancestor_definitions DataIntersightOsInstall#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#ancestor_definitions DataIntersightOsInstall#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOsInstallTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#definition DataIntersightOsInstall#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#definition DataIntersightOsInstall#definition}
   */
   readonly definition?: DataIntersightOsInstallTagsDefinition;
 }
@@ -6296,6 +6307,7 @@ export function dataIntersightOsInstallTagsToTerraform(struct?: DataIntersightOs
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightOsInstallTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6324,6 +6336,12 @@ export function dataIntersightOsInstallTagsToHclTerraform(struct?: DataIntersigh
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6390,6 +6408,10 @@ export class DataIntersightOsInstallTagsOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6416,6 +6438,7 @@ export class DataIntersightOsInstallTagsOutputReference extends cdktf.ComplexObj
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6431,6 +6454,7 @@ export class DataIntersightOsInstallTagsOutputReference extends cdktf.ComplexObj
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6484,6 +6508,22 @@ export class DataIntersightOsInstallTagsOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6572,7 +6612,7 @@ export class DataIntersightOsInstallTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOsInstallVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6580,19 +6620,19 @@ export interface DataIntersightOsInstallVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6605,7 +6645,7 @@ export interface DataIntersightOsInstallVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -6837,7 +6877,7 @@ export class DataIntersightOsInstallVersionContextInterestedMosList extends cdkt
 }
 export interface DataIntersightOsInstallVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6845,19 +6885,19 @@ export interface DataIntersightOsInstallVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6870,7 +6910,7 @@ export interface DataIntersightOsInstallVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -7070,7 +7110,7 @@ export class DataIntersightOsInstallVersionContextRefMoOutputReference extends c
 }
 export interface DataIntersightOsInstallVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7078,32 +7118,32 @@ export interface DataIntersightOsInstallVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#marked_for_deletion DataIntersightOsInstall#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#marked_for_deletion DataIntersightOsInstall#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#nr_version DataIntersightOsInstall#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#nr_version DataIntersightOsInstall#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#timestamp DataIntersightOsInstall#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#timestamp DataIntersightOsInstall#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7114,19 +7154,19 @@ export interface DataIntersightOsInstallVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#version_type DataIntersightOsInstall#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#version_type DataIntersightOsInstall#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#interested_mos DataIntersightOsInstall#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#interested_mos DataIntersightOsInstall#interested_mos}
   */
   readonly interestedMos?: DataIntersightOsInstallVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#ref_mo DataIntersightOsInstall#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#ref_mo DataIntersightOsInstall#ref_mo}
   */
   readonly refMo?: DataIntersightOsInstallVersionContextRefMo;
 }
@@ -7442,7 +7482,7 @@ export class DataIntersightOsInstallVersionContextOutputReference extends cdktf.
 }
 export interface DataIntersightOsInstallWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#additional_properties DataIntersightOsInstall#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7450,19 +7490,19 @@ export interface DataIntersightOsInstallWorkflowInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#class_id DataIntersightOsInstall#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#moid DataIntersightOsInstall#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#object_type DataIntersightOsInstall#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7475,7 +7515,7 @@ export interface DataIntersightOsInstallWorkflowInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#selector DataIntersightOsInstall#selector}
   */
   readonly selector?: string;
 }
@@ -7675,7 +7715,7 @@ export class DataIntersightOsInstallWorkflowInfoOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install intersight_os_install}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install intersight_os_install}
 */
 export class DataIntersightOsInstall extends cdktf.TerraformDataSource {
 
@@ -7691,7 +7731,7 @@ export class DataIntersightOsInstall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightOsInstall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOsInstall to import
-  * @param importFromId The id of the existing DataIntersightOsInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOsInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOsInstall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7703,7 +7743,7 @@ export class DataIntersightOsInstall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/os_install intersight_os_install} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/os_install intersight_os_install} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7714,8 +7754,8 @@ export class DataIntersightOsInstall extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_os_install',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

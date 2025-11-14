@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightAssetGeoLocationConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#account_moid DataIntersightAssetGeoLocation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#account_moid DataIntersightAssetGeoLocation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightAssetGeoLocationConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#create_time DataIntersightAssetGeoLocation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#create_time DataIntersightAssetGeoLocation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#domain_group_moid DataIntersightAssetGeoLocation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#domain_group_moid DataIntersightAssetGeoLocation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#id DataIntersightAssetGeoLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#id DataIntersightAssetGeoLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightAssetGeoLocationConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#mod_time DataIntersightAssetGeoLocation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#mod_time DataIntersightAssetGeoLocation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * A user provided name for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#name DataIntersightAssetGeoLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#name DataIntersightAssetGeoLocation#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#owners DataIntersightAssetGeoLocation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#owners DataIntersightAssetGeoLocation#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#shared_scope DataIntersightAssetGeoLocation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#shared_scope DataIntersightAssetGeoLocation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#account DataIntersightAssetGeoLocation#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#account DataIntersightAssetGeoLocation#account}
   */
   readonly account?: DataIntersightAssetGeoLocationAccount;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#address DataIntersightAssetGeoLocation#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#address DataIntersightAssetGeoLocation#address}
   */
   readonly address?: DataIntersightAssetGeoLocationAddress;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#ancestors DataIntersightAssetGeoLocation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#ancestors DataIntersightAssetGeoLocation#ancestors}
   */
   readonly ancestors?: DataIntersightAssetGeoLocationAncestors[] | cdktf.IResolvable;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#coordinates DataIntersightAssetGeoLocation#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#coordinates DataIntersightAssetGeoLocation#coordinates}
   */
   readonly coordinates?: DataIntersightAssetGeoLocationCoordinates;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#parent DataIntersightAssetGeoLocation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#parent DataIntersightAssetGeoLocation#parent}
   */
   readonly parent?: DataIntersightAssetGeoLocationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#permission_resources DataIntersightAssetGeoLocation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#permission_resources DataIntersightAssetGeoLocation#permission_resources}
   */
   readonly permissionResources?: DataIntersightAssetGeoLocationPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#tags DataIntersightAssetGeoLocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#tags DataIntersightAssetGeoLocation#tags}
   */
   readonly tags?: DataIntersightAssetGeoLocationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#version_context DataIntersightAssetGeoLocation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#version_context DataIntersightAssetGeoLocation#version_context}
   */
   readonly versionContext?: DataIntersightAssetGeoLocationVersionContext;
 }
@@ -987,6 +987,11 @@ export class DataIntersightAssetGeoLocationResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1498,7 +1503,7 @@ export class DataIntersightAssetGeoLocationResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightAssetGeoLocationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1506,19 +1511,19 @@ export interface DataIntersightAssetGeoLocationAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1531,7 +1536,7 @@ export interface DataIntersightAssetGeoLocationAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -1731,25 +1736,25 @@ export class DataIntersightAssetGeoLocationAccountOutputReference extends cdktf.
 }
 export interface DataIntersightAssetGeoLocationAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The primary street address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#address1 DataIntersightAssetGeoLocation#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#address1 DataIntersightAssetGeoLocation#address1}
   */
   readonly address1?: string;
   /**
   * Additional address information, such as suite number or floor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#address2 DataIntersightAssetGeoLocation#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#address2 DataIntersightAssetGeoLocation#address2}
   */
   readonly address2?: string;
   /**
   * The city where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#city DataIntersightAssetGeoLocation#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#city DataIntersightAssetGeoLocation#city}
   */
   readonly city?: string;
   /**
@@ -1757,7 +1762,7 @@ export interface DataIntersightAssetGeoLocationAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
@@ -2007,26 +2012,26 @@ export interface DataIntersightAssetGeoLocationAddress {
   * * `ZM` - The country code for Zambia.
   * * `ZW` - The country code for Zimbabwe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#country DataIntersightAssetGeoLocation#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#country DataIntersightAssetGeoLocation#country}
   */
   readonly country?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
   * The postal or ZIP code for the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#postal_code DataIntersightAssetGeoLocation#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#postal_code DataIntersightAssetGeoLocation#postal_code}
   */
   readonly postalCode?: string;
   /**
   * The state or province where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#state_province DataIntersightAssetGeoLocation#state_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#state_province DataIntersightAssetGeoLocation#state_province}
   */
   readonly stateProvince?: string;
 }
@@ -2342,7 +2347,7 @@ export class DataIntersightAssetGeoLocationAddressOutputReference extends cdktf.
 }
 export interface DataIntersightAssetGeoLocationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2350,19 +2355,19 @@ export interface DataIntersightAssetGeoLocationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2375,7 +2380,7 @@ export interface DataIntersightAssetGeoLocationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -2607,7 +2612,7 @@ export class DataIntersightAssetGeoLocationAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightAssetGeoLocationCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2615,26 +2620,26 @@ export interface DataIntersightAssetGeoLocationCoordinates {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The latitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#latitude DataIntersightAssetGeoLocation#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#latitude DataIntersightAssetGeoLocation#latitude}
   */
   readonly latitude?: number;
   /**
   * The longitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#longitude DataIntersightAssetGeoLocation#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#longitude DataIntersightAssetGeoLocation#longitude}
   */
   readonly longitude?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
 }
@@ -2834,7 +2839,7 @@ export class DataIntersightAssetGeoLocationCoordinatesOutputReference extends cd
 }
 export interface DataIntersightAssetGeoLocationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2842,19 +2847,19 @@ export interface DataIntersightAssetGeoLocationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2867,7 +2872,7 @@ export interface DataIntersightAssetGeoLocationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -3067,7 +3072,7 @@ export class DataIntersightAssetGeoLocationParentOutputReference extends cdktf.C
 }
 export interface DataIntersightAssetGeoLocationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3075,19 +3080,19 @@ export interface DataIntersightAssetGeoLocationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3100,7 +3105,7 @@ export interface DataIntersightAssetGeoLocationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -3332,7 +3337,7 @@ export class DataIntersightAssetGeoLocationPermissionResourcesList extends cdktf
 }
 export interface DataIntersightAssetGeoLocationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3340,19 +3345,19 @@ export interface DataIntersightAssetGeoLocationTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3365,7 +3370,7 @@ export interface DataIntersightAssetGeoLocationTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -3597,7 +3602,7 @@ export class DataIntersightAssetGeoLocationTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightAssetGeoLocationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3605,19 +3610,19 @@ export interface DataIntersightAssetGeoLocationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3630,7 +3635,7 @@ export interface DataIntersightAssetGeoLocationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -3830,45 +3835,51 @@ export class DataIntersightAssetGeoLocationTagsDefinitionOutputReference extends
 }
 export interface DataIntersightAssetGeoLocationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#key DataIntersightAssetGeoLocation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#key DataIntersightAssetGeoLocation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#propagated DataIntersightAssetGeoLocation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#propagated DataIntersightAssetGeoLocation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#sys_tag DataIntersightAssetGeoLocation#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#type DataIntersightAssetGeoLocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#type DataIntersightAssetGeoLocation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#value DataIntersightAssetGeoLocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#value DataIntersightAssetGeoLocation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#ancestor_definitions DataIntersightAssetGeoLocation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#ancestor_definitions DataIntersightAssetGeoLocation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAssetGeoLocationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#definition DataIntersightAssetGeoLocation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#definition DataIntersightAssetGeoLocation#definition}
   */
   readonly definition?: DataIntersightAssetGeoLocationTagsDefinition;
 }
@@ -3882,6 +3893,7 @@ export function dataIntersightAssetGeoLocationTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightAssetGeoLocationTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3910,6 +3922,12 @@ export function dataIntersightAssetGeoLocationTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3976,6 +3994,10 @@ export class DataIntersightAssetGeoLocationTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4002,6 +4024,7 @@ export class DataIntersightAssetGeoLocationTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4017,6 +4040,7 @@ export class DataIntersightAssetGeoLocationTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4070,6 +4094,22 @@ export class DataIntersightAssetGeoLocationTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4158,7 +4198,7 @@ export class DataIntersightAssetGeoLocationTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightAssetGeoLocationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4166,19 +4206,19 @@ export interface DataIntersightAssetGeoLocationVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4191,7 +4231,7 @@ export interface DataIntersightAssetGeoLocationVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -4423,7 +4463,7 @@ export class DataIntersightAssetGeoLocationVersionContextInterestedMosList exten
 }
 export interface DataIntersightAssetGeoLocationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4431,19 +4471,19 @@ export interface DataIntersightAssetGeoLocationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#moid DataIntersightAssetGeoLocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4456,7 +4496,7 @@ export interface DataIntersightAssetGeoLocationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#selector DataIntersightAssetGeoLocation#selector}
   */
   readonly selector?: string;
 }
@@ -4656,7 +4696,7 @@ export class DataIntersightAssetGeoLocationVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightAssetGeoLocationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#additional_properties DataIntersightAssetGeoLocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4664,32 +4704,32 @@ export interface DataIntersightAssetGeoLocationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#class_id DataIntersightAssetGeoLocation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#marked_for_deletion DataIntersightAssetGeoLocation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#marked_for_deletion DataIntersightAssetGeoLocation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#nr_version DataIntersightAssetGeoLocation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#nr_version DataIntersightAssetGeoLocation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#object_type DataIntersightAssetGeoLocation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#timestamp DataIntersightAssetGeoLocation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#timestamp DataIntersightAssetGeoLocation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4700,19 +4740,19 @@ export interface DataIntersightAssetGeoLocationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#version_type DataIntersightAssetGeoLocation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#version_type DataIntersightAssetGeoLocation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#interested_mos DataIntersightAssetGeoLocation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#interested_mos DataIntersightAssetGeoLocation#interested_mos}
   */
   readonly interestedMos?: DataIntersightAssetGeoLocationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#ref_mo DataIntersightAssetGeoLocation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#ref_mo DataIntersightAssetGeoLocation#ref_mo}
   */
   readonly refMo?: DataIntersightAssetGeoLocationVersionContextRefMo;
 }
@@ -5028,7 +5068,7 @@ export class DataIntersightAssetGeoLocationVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location intersight_asset_geo_location}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location intersight_asset_geo_location}
 */
 export class DataIntersightAssetGeoLocation extends cdktf.TerraformDataSource {
 
@@ -5044,7 +5084,7 @@ export class DataIntersightAssetGeoLocation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightAssetGeoLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAssetGeoLocation to import
-  * @param importFromId The id of the existing DataIntersightAssetGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAssetGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAssetGeoLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5056,7 +5096,7 @@ export class DataIntersightAssetGeoLocation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/asset_geo_location intersight_asset_geo_location} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_geo_location intersight_asset_geo_location} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5067,8 +5107,8 @@ export class DataIntersightAssetGeoLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_asset_geo_location',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

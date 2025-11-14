@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetrySyslogSysMsgConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#account_moid DataIntersightNiatelemetrySyslogSysMsg#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#account_moid DataIntersightNiatelemetrySyslogSysMsg#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightNiatelemetrySyslogSysMsgConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * Parent common policy for syslog msg in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#common_policy DataIntersightNiatelemetrySyslogSysMsg#common_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#common_policy DataIntersightNiatelemetrySyslogSysMsg#common_policy}
   */
   readonly commonPolicy?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#create_time DataIntersightNiatelemetrySyslogSysMsg#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#create_time DataIntersightNiatelemetrySyslogSysMsg#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the Syslog System msg in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#dn DataIntersightNiatelemetrySyslogSysMsg#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#dn DataIntersightNiatelemetrySyslogSysMsg#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#domain_group_moid DataIntersightNiatelemetrySyslogSysMsg#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#domain_group_moid DataIntersightNiatelemetrySyslogSysMsg#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * List of Facility filter DN of the Syslog System msg in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#facility_filter DataIntersightNiatelemetrySyslogSysMsg#facility_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#facility_filter DataIntersightNiatelemetrySyslogSysMsg#facility_filter}
   */
   readonly facilityFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#id DataIntersightNiatelemetrySyslogSysMsg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#id DataIntersightNiatelemetrySyslogSysMsg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface DataIntersightNiatelemetrySyslogSysMsgConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#mod_time DataIntersightNiatelemetrySyslogSysMsg#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#mod_time DataIntersightNiatelemetrySyslogSysMsg#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#owners DataIntersightNiatelemetrySyslogSysMsg#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#owners DataIntersightNiatelemetrySyslogSysMsg#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#record_type DataIntersightNiatelemetrySyslogSysMsg#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#record_type DataIntersightNiatelemetrySyslogSysMsg#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#record_version DataIntersightNiatelemetrySyslogSysMsg#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#record_version DataIntersightNiatelemetrySyslogSysMsg#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#shared_scope DataIntersightNiatelemetrySyslogSysMsg#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#shared_scope DataIntersightNiatelemetrySyslogSysMsg#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#site_name DataIntersightNiatelemetrySyslogSysMsg#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#site_name DataIntersightNiatelemetrySyslogSysMsg#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#ancestors DataIntersightNiatelemetrySyslogSysMsg#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#ancestors DataIntersightNiatelemetrySyslogSysMsg#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetrySyslogSysMsgAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#parent DataIntersightNiatelemetrySyslogSysMsg#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#parent DataIntersightNiatelemetrySyslogSysMsg#parent}
   */
   readonly parent?: DataIntersightNiatelemetrySyslogSysMsgParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#permission_resources DataIntersightNiatelemetrySyslogSysMsg#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#permission_resources DataIntersightNiatelemetrySyslogSysMsg#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetrySyslogSysMsgPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#registered_device DataIntersightNiatelemetrySyslogSysMsg#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#registered_device DataIntersightNiatelemetrySyslogSysMsg#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetrySyslogSysMsgRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#tags DataIntersightNiatelemetrySyslogSysMsg#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#tags DataIntersightNiatelemetrySyslogSysMsg#tags}
   */
   readonly tags?: DataIntersightNiatelemetrySyslogSysMsgTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#version_context DataIntersightNiatelemetrySyslogSysMsg#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#version_context DataIntersightNiatelemetrySyslogSysMsg#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetrySyslogSysMsgVersionContext;
 }
@@ -795,6 +795,11 @@ export class DataIntersightNiatelemetrySyslogSysMsgResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1319,7 +1324,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgResultsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1327,19 +1332,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1352,7 +1357,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -1584,7 +1589,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgAncestorsList extends cdktf.C
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1592,19 +1597,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1617,7 +1622,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -1817,7 +1822,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgParentOutputReference extends
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1825,19 +1830,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1850,7 +1855,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -2082,7 +2087,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgPermissionResourcesList exten
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2090,19 +2095,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2115,7 +2120,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -2315,7 +2320,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgRegisteredDeviceOutputReferen
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2323,19 +2328,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2348,7 +2353,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -2580,7 +2585,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitionsList e
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2588,19 +2593,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2613,7 +2618,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -2813,45 +2818,51 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsDefinitionOutputReference
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#key DataIntersightNiatelemetrySyslogSysMsg#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#key DataIntersightNiatelemetrySyslogSysMsg#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#propagated DataIntersightNiatelemetrySyslogSysMsg#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#propagated DataIntersightNiatelemetrySyslogSysMsg#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#sys_tag DataIntersightNiatelemetrySyslogSysMsg#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#type DataIntersightNiatelemetrySyslogSysMsg#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#type DataIntersightNiatelemetrySyslogSysMsg#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#value DataIntersightNiatelemetrySyslogSysMsg#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#value DataIntersightNiatelemetrySyslogSysMsg#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#ancestor_definitions DataIntersightNiatelemetrySyslogSysMsg#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#ancestor_definitions DataIntersightNiatelemetrySyslogSysMsg#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#definition DataIntersightNiatelemetrySyslogSysMsg#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#definition DataIntersightNiatelemetrySyslogSysMsg#definition}
   */
   readonly definition?: DataIntersightNiatelemetrySyslogSysMsgTagsDefinition;
 }
@@ -2865,6 +2876,7 @@ export function dataIntersightNiatelemetrySyslogSysMsgTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNiatelemetrySyslogSysMsgTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2893,6 +2905,12 @@ export function dataIntersightNiatelemetrySyslogSysMsgTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2959,6 +2977,10 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2985,6 +3007,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3000,6 +3023,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3053,6 +3077,22 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3141,7 +3181,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgTagsList extends cdktf.Comple
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3149,19 +3189,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3174,7 +3214,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -3406,7 +3446,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgVersionContextInterestedMosLi
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3414,19 +3454,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#moid DataIntersightNiatelemetrySyslogSysMsg#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3439,7 +3479,7 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#selector DataIntersightNiatelemetrySyslogSysMsg#selector}
   */
   readonly selector?: string;
 }
@@ -3639,7 +3679,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgVersionContextRefMoOutputRefe
 }
 export interface DataIntersightNiatelemetrySyslogSysMsgVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#additional_properties DataIntersightNiatelemetrySyslogSysMsg#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3647,32 +3687,32 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#class_id DataIntersightNiatelemetrySyslogSysMsg#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#marked_for_deletion DataIntersightNiatelemetrySyslogSysMsg#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#marked_for_deletion DataIntersightNiatelemetrySyslogSysMsg#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#nr_version DataIntersightNiatelemetrySyslogSysMsg#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#nr_version DataIntersightNiatelemetrySyslogSysMsg#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#object_type DataIntersightNiatelemetrySyslogSysMsg#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#timestamp DataIntersightNiatelemetrySyslogSysMsg#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#timestamp DataIntersightNiatelemetrySyslogSysMsg#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3683,19 +3723,19 @@ export interface DataIntersightNiatelemetrySyslogSysMsgVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#version_type DataIntersightNiatelemetrySyslogSysMsg#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#version_type DataIntersightNiatelemetrySyslogSysMsg#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#interested_mos DataIntersightNiatelemetrySyslogSysMsg#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#interested_mos DataIntersightNiatelemetrySyslogSysMsg#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetrySyslogSysMsgVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#ref_mo DataIntersightNiatelemetrySyslogSysMsg#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#ref_mo DataIntersightNiatelemetrySyslogSysMsg#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetrySyslogSysMsgVersionContextRefMo;
 }
@@ -4011,7 +4051,7 @@ export class DataIntersightNiatelemetrySyslogSysMsgVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg intersight_niatelemetry_syslog_sys_msg}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg intersight_niatelemetry_syslog_sys_msg}
 */
 export class DataIntersightNiatelemetrySyslogSysMsg extends cdktf.TerraformDataSource {
 
@@ -4027,7 +4067,7 @@ export class DataIntersightNiatelemetrySyslogSysMsg extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightNiatelemetrySyslogSysMsg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetrySyslogSysMsg to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetrySyslogSysMsg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetrySyslogSysMsg that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetrySyslogSysMsg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4039,7 +4079,7 @@ export class DataIntersightNiatelemetrySyslogSysMsg extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_syslog_sys_msg intersight_niatelemetry_syslog_sys_msg} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_sys_msg intersight_niatelemetry_syslog_sys_msg} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4050,8 +4090,8 @@ export class DataIntersightNiatelemetrySyslogSysMsg extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_niatelemetry_syslog_sys_msg',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

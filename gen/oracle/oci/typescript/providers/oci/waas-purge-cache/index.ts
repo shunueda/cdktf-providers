@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface WaasPurgeCacheConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#id WaasPurgeCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#id WaasPurgeCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#resources WaasPurgeCache#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#resources WaasPurgeCache#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#waas_policy_id WaasPurgeCache#waas_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#waas_policy_id WaasPurgeCache#waas_policy_id}
   */
   readonly waasPolicyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#timeouts WaasPurgeCache#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#timeouts WaasPurgeCache#timeouts}
   */
   readonly timeouts?: WaasPurgeCacheTimeouts;
 }
 export interface WaasPurgeCacheTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#create WaasPurgeCache#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#create WaasPurgeCache#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#delete WaasPurgeCache#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#delete WaasPurgeCache#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#update WaasPurgeCache#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#update WaasPurgeCache#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class WaasPurgeCacheTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache oci_waas_purge_cache}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache oci_waas_purge_cache}
 */
 export class WaasPurgeCache extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class WaasPurgeCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaasPurgeCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaasPurgeCache to import
-  * @param importFromId The id of the existing WaasPurgeCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaasPurgeCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaasPurgeCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class WaasPurgeCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/waas_purge_cache oci_waas_purge_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/waas_purge_cache oci_waas_purge_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class WaasPurgeCache extends cdktf.TerraformResource {
       terraformResourceType: 'oci_waas_purge_cache',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

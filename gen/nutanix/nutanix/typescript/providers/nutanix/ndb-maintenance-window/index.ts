@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NdbMaintenanceWindowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#day_of_week NdbMaintenanceWindow#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#day_of_week NdbMaintenanceWindow#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#description NdbMaintenanceWindow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#description NdbMaintenanceWindow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#duration NdbMaintenanceWindow#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#duration NdbMaintenanceWindow#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#id NdbMaintenanceWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#id NdbMaintenanceWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#name NdbMaintenanceWindow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#name NdbMaintenanceWindow#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#recurrence NdbMaintenanceWindow#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#recurrence NdbMaintenanceWindow#recurrence}
   */
   readonly recurrence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#start_time NdbMaintenanceWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#start_time NdbMaintenanceWindow#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#timezone NdbMaintenanceWindow#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#timezone NdbMaintenanceWindow#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#week_of_month NdbMaintenanceWindow#week_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#week_of_month NdbMaintenanceWindow#week_of_month}
   */
   readonly weekOfMonth?: number;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#tags NdbMaintenanceWindow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#tags NdbMaintenanceWindow#tags}
   */
   readonly tags?: NdbMaintenanceWindowTags[] | cdktf.IResolvable;
 }
@@ -739,15 +739,15 @@ export class NdbMaintenanceWindowScheduleList extends cdktf.ComplexList {
 }
 export interface NdbMaintenanceWindowTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#tag_id NdbMaintenanceWindow#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#tag_id NdbMaintenanceWindow#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#tag_name NdbMaintenanceWindow#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#tag_name NdbMaintenanceWindow#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#value NdbMaintenanceWindow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#value NdbMaintenanceWindow#value}
   */
   readonly value?: string;
 }
@@ -931,7 +931,7 @@ export class NdbMaintenanceWindowTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window nutanix_ndb_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window nutanix_ndb_maintenance_window}
 */
 export class NdbMaintenanceWindow extends cdktf.TerraformResource {
 
@@ -947,7 +947,7 @@ export class NdbMaintenanceWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbMaintenanceWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbMaintenanceWindow to import
-  * @param importFromId The id of the existing NdbMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbMaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -959,7 +959,7 @@ export class NdbMaintenanceWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_window nutanix_ndb_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_window nutanix_ndb_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -970,8 +970,8 @@ export class NdbMaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

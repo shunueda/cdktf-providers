@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NetworkVpcsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs#description NetworkVpcs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs#description NetworkVpcs#description}
   */
   readonly description?: string;
   /**
   * The name of the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs#name NetworkVpcs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs#name NetworkVpcs#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs mgc_network_vpcs}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs mgc_network_vpcs}
 */
 export class NetworkVpcs extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class NetworkVpcs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVpcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVpcs to import
-  * @param importFromId The id of the existing NetworkVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVpcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class NetworkVpcs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_vpcs mgc_network_vpcs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/network_vpcs mgc_network_vpcs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class NetworkVpcs extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_vpcs',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

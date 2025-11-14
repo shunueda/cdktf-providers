@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightFcPortChannelConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#account_moid DataIntersightFcPortChannel#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#account_moid DataIntersightFcPortChannel#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Administrator configured Speed applied on the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#admin_speed DataIntersightFcPortChannel#admin_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#admin_speed DataIntersightFcPortChannel#admin_speed}
   */
   readonly adminSpeed?: string;
   /**
   * Administratively configured state (enabled/disabled) for this portchannel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#admin_state DataIntersightFcPortChannel#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#admin_state DataIntersightFcPortChannel#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -34,35 +34,35 @@ export interface DataIntersightFcPortChannelConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#create_time DataIntersightFcPortChannel#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#create_time DataIntersightFcPortChannel#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#device_mo_id DataIntersightFcPortChannel#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#device_mo_id DataIntersightFcPortChannel#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#dn DataIntersightFcPortChannel#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#dn DataIntersightFcPortChannel#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#domain_group_moid DataIntersightFcPortChannel#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#domain_group_moid DataIntersightFcPortChannel#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#id DataIntersightFcPortChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#id DataIntersightFcPortChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,157 +71,157 @@ export interface DataIntersightFcPortChannelConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#mod_time DataIntersightFcPortChannel#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#mod_time DataIntersightFcPortChannel#mod_time}
   */
   readonly modTime?: string;
   /**
   * Mode information N_proxy, F or E associated to the Fibre Channel portchannel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#mode DataIntersightFcPortChannel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#mode DataIntersightFcPortChannel#mode}
   */
   readonly mode?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * Name of the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#name DataIntersightFcPortChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#name DataIntersightFcPortChannel#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational speed of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#oper_speed DataIntersightFcPortChannel#oper_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#oper_speed DataIntersightFcPortChannel#oper_speed}
   */
   readonly operSpeed?: string;
   /**
   * Operational state of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#oper_state DataIntersightFcPortChannel#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#oper_state DataIntersightFcPortChannel#oper_state}
   */
   readonly operState?: string;
   /**
   * Reason for this port-channel's Operational state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#oper_state_qual DataIntersightFcPortChannel#oper_state_qual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#oper_state_qual DataIntersightFcPortChannel#oper_state_qual}
   */
   readonly operStateQual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#owners DataIntersightFcPortChannel#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#owners DataIntersightFcPortChannel#owners}
   */
   readonly owners?: string[];
   /**
   * Unique identifier for this port-channel on the FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#port_channel_id DataIntersightFcPortChannel#port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#port_channel_id DataIntersightFcPortChannel#port_channel_id}
   */
   readonly portChannelId?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#rn DataIntersightFcPortChannel#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#rn DataIntersightFcPortChannel#rn}
   */
   readonly rn?: string;
   /**
   * This port-channel's configured role (fcUplink, fcStorage, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#role DataIntersightFcPortChannel#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#role DataIntersightFcPortChannel#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#shared_scope DataIntersightFcPortChannel#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#shared_scope DataIntersightFcPortChannel#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Switch Identifier that is local to a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#switch_id DataIntersightFcPortChannel#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#switch_id DataIntersightFcPortChannel#switch_id}
   */
   readonly switchId?: string;
   /**
   * The user defined label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#user_label DataIntersightFcPortChannel#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#user_label DataIntersightFcPortChannel#user_label}
   */
   readonly userLabel?: string;
   /**
   * Virtual San that is associated to the port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#vsan DataIntersightFcPortChannel#vsan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#vsan DataIntersightFcPortChannel#vsan}
   */
   readonly vsan?: number;
   /**
   * World Wide Name of the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#wwn DataIntersightFcPortChannel#wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#wwn DataIntersightFcPortChannel#wwn}
   */
   readonly wwn?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#ancestors DataIntersightFcPortChannel#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#ancestors DataIntersightFcPortChannel#ancestors}
   */
   readonly ancestors?: DataIntersightFcPortChannelAncestors[] | cdktf.IResolvable;
   /**
   * equipment_switch_card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#equipment_switch_card DataIntersightFcPortChannel#equipment_switch_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#equipment_switch_card DataIntersightFcPortChannel#equipment_switch_card}
   */
   readonly equipmentSwitchCard?: DataIntersightFcPortChannelEquipmentSwitchCard;
   /**
   * fc_neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#fc_neighbor DataIntersightFcPortChannel#fc_neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#fc_neighbor DataIntersightFcPortChannel#fc_neighbor}
   */
   readonly fcNeighbor?: DataIntersightFcPortChannelFcNeighbor[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#network_element DataIntersightFcPortChannel#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#network_element DataIntersightFcPortChannel#network_element}
   */
   readonly networkElement?: DataIntersightFcPortChannelNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#parent DataIntersightFcPortChannel#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#parent DataIntersightFcPortChannel#parent}
   */
   readonly parent?: DataIntersightFcPortChannelParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#permission_resources DataIntersightFcPortChannel#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#permission_resources DataIntersightFcPortChannel#permission_resources}
   */
   readonly permissionResources?: DataIntersightFcPortChannelPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#registered_device DataIntersightFcPortChannel#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#registered_device DataIntersightFcPortChannel#registered_device}
   */
   readonly registeredDevice?: DataIntersightFcPortChannelRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#tags DataIntersightFcPortChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#tags DataIntersightFcPortChannel#tags}
   */
   readonly tags?: DataIntersightFcPortChannelTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#version_context DataIntersightFcPortChannel#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#version_context DataIntersightFcPortChannel#version_context}
   */
   readonly versionContext?: DataIntersightFcPortChannelVersionContext;
 }
@@ -1158,6 +1158,11 @@ export class DataIntersightFcPortChannelResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1750,7 +1755,7 @@ export class DataIntersightFcPortChannelResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFcPortChannelAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1758,19 +1763,19 @@ export interface DataIntersightFcPortChannelAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1783,7 +1788,7 @@ export interface DataIntersightFcPortChannelAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2015,7 +2020,7 @@ export class DataIntersightFcPortChannelAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightFcPortChannelEquipmentSwitchCard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2023,19 +2028,19 @@ export interface DataIntersightFcPortChannelEquipmentSwitchCard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2048,7 +2053,7 @@ export interface DataIntersightFcPortChannelEquipmentSwitchCard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2248,7 +2253,7 @@ export class DataIntersightFcPortChannelEquipmentSwitchCardOutputReference exten
 }
 export interface DataIntersightFcPortChannelFcNeighbor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2256,19 +2261,19 @@ export interface DataIntersightFcPortChannelFcNeighbor {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2281,7 +2286,7 @@ export interface DataIntersightFcPortChannelFcNeighbor {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2513,7 +2518,7 @@ export class DataIntersightFcPortChannelFcNeighborList extends cdktf.ComplexList
 }
 export interface DataIntersightFcPortChannelNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2521,19 +2526,19 @@ export interface DataIntersightFcPortChannelNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2546,7 +2551,7 @@ export interface DataIntersightFcPortChannelNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2746,7 +2751,7 @@ export class DataIntersightFcPortChannelNetworkElementOutputReference extends cd
 }
 export interface DataIntersightFcPortChannelParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2754,19 +2759,19 @@ export interface DataIntersightFcPortChannelParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2779,7 +2784,7 @@ export interface DataIntersightFcPortChannelParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2979,7 +2984,7 @@ export class DataIntersightFcPortChannelParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightFcPortChannelPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2987,19 +2992,19 @@ export interface DataIntersightFcPortChannelPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3012,7 +3017,7 @@ export interface DataIntersightFcPortChannelPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3244,7 +3249,7 @@ export class DataIntersightFcPortChannelPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightFcPortChannelRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3252,19 +3257,19 @@ export interface DataIntersightFcPortChannelRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3277,7 +3282,7 @@ export interface DataIntersightFcPortChannelRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3477,7 +3482,7 @@ export class DataIntersightFcPortChannelRegisteredDeviceOutputReference extends 
 }
 export interface DataIntersightFcPortChannelTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3485,19 +3490,19 @@ export interface DataIntersightFcPortChannelTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3510,7 +3515,7 @@ export interface DataIntersightFcPortChannelTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3742,7 +3747,7 @@ export class DataIntersightFcPortChannelTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightFcPortChannelTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3750,19 +3755,19 @@ export interface DataIntersightFcPortChannelTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3775,7 +3780,7 @@ export interface DataIntersightFcPortChannelTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3975,45 +3980,51 @@ export class DataIntersightFcPortChannelTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightFcPortChannelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#key DataIntersightFcPortChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#key DataIntersightFcPortChannel#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#propagated DataIntersightFcPortChannel#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#propagated DataIntersightFcPortChannel#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#sys_tag DataIntersightFcPortChannel#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#type DataIntersightFcPortChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#type DataIntersightFcPortChannel#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#value DataIntersightFcPortChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#value DataIntersightFcPortChannel#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#ancestor_definitions DataIntersightFcPortChannel#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#ancestor_definitions DataIntersightFcPortChannel#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFcPortChannelTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#definition DataIntersightFcPortChannel#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#definition DataIntersightFcPortChannel#definition}
   */
   readonly definition?: DataIntersightFcPortChannelTagsDefinition;
 }
@@ -4027,6 +4038,7 @@ export function dataIntersightFcPortChannelTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFcPortChannelTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4055,6 +4067,12 @@ export function dataIntersightFcPortChannelTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4121,6 +4139,10 @@ export class DataIntersightFcPortChannelTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4147,6 +4169,7 @@ export class DataIntersightFcPortChannelTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4162,6 +4185,7 @@ export class DataIntersightFcPortChannelTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4215,6 +4239,22 @@ export class DataIntersightFcPortChannelTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4303,7 +4343,7 @@ export class DataIntersightFcPortChannelTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFcPortChannelVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4311,19 +4351,19 @@ export interface DataIntersightFcPortChannelVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4336,7 +4376,7 @@ export interface DataIntersightFcPortChannelVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -4568,7 +4608,7 @@ export class DataIntersightFcPortChannelVersionContextInterestedMosList extends 
 }
 export interface DataIntersightFcPortChannelVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4576,19 +4616,19 @@ export interface DataIntersightFcPortChannelVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#moid DataIntersightFcPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4601,7 +4641,7 @@ export interface DataIntersightFcPortChannelVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#selector DataIntersightFcPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -4801,7 +4841,7 @@ export class DataIntersightFcPortChannelVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightFcPortChannelVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#additional_properties DataIntersightFcPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4809,32 +4849,32 @@ export interface DataIntersightFcPortChannelVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#class_id DataIntersightFcPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#marked_for_deletion DataIntersightFcPortChannel#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#marked_for_deletion DataIntersightFcPortChannel#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#nr_version DataIntersightFcPortChannel#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#nr_version DataIntersightFcPortChannel#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#object_type DataIntersightFcPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#timestamp DataIntersightFcPortChannel#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#timestamp DataIntersightFcPortChannel#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4845,19 +4885,19 @@ export interface DataIntersightFcPortChannelVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#version_type DataIntersightFcPortChannel#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#version_type DataIntersightFcPortChannel#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#interested_mos DataIntersightFcPortChannel#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#interested_mos DataIntersightFcPortChannel#interested_mos}
   */
   readonly interestedMos?: DataIntersightFcPortChannelVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#ref_mo DataIntersightFcPortChannel#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#ref_mo DataIntersightFcPortChannel#ref_mo}
   */
   readonly refMo?: DataIntersightFcPortChannelVersionContextRefMo;
 }
@@ -5173,7 +5213,7 @@ export class DataIntersightFcPortChannelVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel intersight_fc_port_channel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel intersight_fc_port_channel}
 */
 export class DataIntersightFcPortChannel extends cdktf.TerraformDataSource {
 
@@ -5189,7 +5229,7 @@ export class DataIntersightFcPortChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFcPortChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFcPortChannel to import
-  * @param importFromId The id of the existing DataIntersightFcPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFcPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFcPortChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5201,7 +5241,7 @@ export class DataIntersightFcPortChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fc_port_channel intersight_fc_port_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fc_port_channel intersight_fc_port_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5212,8 +5252,8 @@ export class DataIntersightFcPortChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fc_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

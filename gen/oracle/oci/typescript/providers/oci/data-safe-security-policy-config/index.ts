@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSecurityPolicyConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#compartment_id DataSafeSecurityPolicyConfigA#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#compartment_id DataSafeSecurityPolicyConfigA#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#defined_tags DataSafeSecurityPolicyConfigA#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#defined_tags DataSafeSecurityPolicyConfigA#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#description DataSafeSecurityPolicyConfigA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#description DataSafeSecurityPolicyConfigA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#display_name DataSafeSecurityPolicyConfigA#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#display_name DataSafeSecurityPolicyConfigA#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#freeform_tags DataSafeSecurityPolicyConfigA#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#freeform_tags DataSafeSecurityPolicyConfigA#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#id DataSafeSecurityPolicyConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#id DataSafeSecurityPolicyConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#security_policy_id DataSafeSecurityPolicyConfigA#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#security_policy_id DataSafeSecurityPolicyConfigA#security_policy_id}
   */
   readonly securityPolicyId: string;
   /**
   * firewall_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#firewall_config DataSafeSecurityPolicyConfigA#firewall_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#firewall_config DataSafeSecurityPolicyConfigA#firewall_config}
   */
   readonly firewallConfig?: DataSafeSecurityPolicyConfigFirewallConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#timeouts DataSafeSecurityPolicyConfigA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#timeouts DataSafeSecurityPolicyConfigA#timeouts}
   */
   readonly timeouts?: DataSafeSecurityPolicyConfigTimeouts;
   /**
   * unified_audit_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#unified_audit_policy_config DataSafeSecurityPolicyConfigA#unified_audit_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#unified_audit_policy_config DataSafeSecurityPolicyConfigA#unified_audit_policy_config}
   */
   readonly unifiedAuditPolicyConfig?: DataSafeSecurityPolicyConfigUnifiedAuditPolicyConfig;
 }
 export interface DataSafeSecurityPolicyConfigFirewallConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}
   */
   readonly excludeJob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}
   */
   readonly violationLogAutoPurge?: string;
 }
@@ -214,15 +214,15 @@ export class DataSafeSecurityPolicyConfigFirewallConfigOutputReference extends c
 }
 export interface DataSafeSecurityPolicyConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#create DataSafeSecurityPolicyConfigA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#create DataSafeSecurityPolicyConfigA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#delete DataSafeSecurityPolicyConfigA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#delete DataSafeSecurityPolicyConfigA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#update DataSafeSecurityPolicyConfigA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#update DataSafeSecurityPolicyConfigA#update}
   */
   readonly update?: string;
 }
@@ -374,7 +374,7 @@ export class DataSafeSecurityPolicyConfigTimeoutsOutputReference extends cdktf.C
 }
 export interface DataSafeSecurityPolicyConfigUnifiedAuditPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#exclude_datasafe_user DataSafeSecurityPolicyConfigA#exclude_datasafe_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#exclude_datasafe_user DataSafeSecurityPolicyConfigA#exclude_datasafe_user}
   */
   readonly excludeDatasafeUser?: string;
 }
@@ -458,7 +458,7 @@ export class DataSafeSecurityPolicyConfigUnifiedAuditPolicyConfigOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config oci_data_safe_security_policy_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config oci_data_safe_security_policy_config}
 */
 export class DataSafeSecurityPolicyConfigA extends cdktf.TerraformResource {
 
@@ -474,7 +474,7 @@ export class DataSafeSecurityPolicyConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeSecurityPolicyConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSecurityPolicyConfigA to import
-  * @param importFromId The id of the existing DataSafeSecurityPolicyConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSecurityPolicyConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSecurityPolicyConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -486,7 +486,7 @@ export class DataSafeSecurityPolicyConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_security_policy_config oci_data_safe_security_policy_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_security_policy_config oci_data_safe_security_policy_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -497,8 +497,8 @@ export class DataSafeSecurityPolicyConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_security_policy_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

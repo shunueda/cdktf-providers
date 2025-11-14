@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightCloudTfcWorkspaceConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#account_moid DataIntersightCloudTfcWorkspace#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#account_moid DataIntersightCloudTfcWorkspace#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The agent pool associated with this workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#agent_pool_id DataIntersightCloudTfcWorkspace#agent_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#agent_pool_id DataIntersightCloudTfcWorkspace#agent_pool_id}
   */
   readonly agentPoolId?: string;
   /**
   * Whether or not Terraform Cloud should automatically apply a successful Terraform plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#apply_method DataIntersightCloudTfcWorkspace#apply_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#apply_method DataIntersightCloudTfcWorkspace#apply_method}
   */
   readonly applyMethod?: boolean | cdktf.IResolvable;
   /**
@@ -34,29 +34,29 @@ export interface DataIntersightCloudTfcWorkspaceConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#create_time DataIntersightCloudTfcWorkspace#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#create_time DataIntersightCloudTfcWorkspace#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#domain_group_moid DataIntersightCloudTfcWorkspace#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#domain_group_moid DataIntersightCloudTfcWorkspace#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Indicates where the Terraform cloud should execute the runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#execution_mode DataIntersightCloudTfcWorkspace#execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#execution_mode DataIntersightCloudTfcWorkspace#execution_mode}
   */
   readonly executionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#id DataIntersightCloudTfcWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#id DataIntersightCloudTfcWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,91 +65,91 @@ export interface DataIntersightCloudTfcWorkspaceConfig extends cdktf.TerraformMe
   /**
   * The unique id for this workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#identity DataIntersightCloudTfcWorkspace#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#identity DataIntersightCloudTfcWorkspace#identity}
   */
   readonly identity?: string;
   /**
   * The status of the last executed run in this workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#last_run_status DataIntersightCloudTfcWorkspace#last_run_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#last_run_status DataIntersightCloudTfcWorkspace#last_run_status}
   */
   readonly lastRunStatus?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#mod_time DataIntersightCloudTfcWorkspace#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#mod_time DataIntersightCloudTfcWorkspace#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#name DataIntersightCloudTfcWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#name DataIntersightCloudTfcWorkspace#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#owners DataIntersightCloudTfcWorkspace#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#owners DataIntersightCloudTfcWorkspace#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#shared_scope DataIntersightCloudTfcWorkspace#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#shared_scope DataIntersightCloudTfcWorkspace#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#ancestors DataIntersightCloudTfcWorkspace#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#ancestors DataIntersightCloudTfcWorkspace#ancestors}
   */
   readonly ancestors?: DataIntersightCloudTfcWorkspaceAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#organization DataIntersightCloudTfcWorkspace#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#organization DataIntersightCloudTfcWorkspace#organization}
   */
   readonly organization?: DataIntersightCloudTfcWorkspaceOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#parent DataIntersightCloudTfcWorkspace#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#parent DataIntersightCloudTfcWorkspace#parent}
   */
   readonly parent?: DataIntersightCloudTfcWorkspaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#permission_resources DataIntersightCloudTfcWorkspace#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#permission_resources DataIntersightCloudTfcWorkspace#permission_resources}
   */
   readonly permissionResources?: DataIntersightCloudTfcWorkspacePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#tags DataIntersightCloudTfcWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#tags DataIntersightCloudTfcWorkspace#tags}
   */
   readonly tags?: DataIntersightCloudTfcWorkspaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#version_context DataIntersightCloudTfcWorkspace#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#version_context DataIntersightCloudTfcWorkspace#version_context}
   */
   readonly versionContext?: DataIntersightCloudTfcWorkspaceVersionContext;
   /**
   * workspace_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#workspace_variables DataIntersightCloudTfcWorkspace#workspace_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#workspace_variables DataIntersightCloudTfcWorkspace#workspace_variables}
   */
   readonly workspaceVariables?: DataIntersightCloudTfcWorkspaceWorkspaceVariables[] | cdktf.IResolvable;
 }
@@ -799,6 +799,11 @@ export class DataIntersightCloudTfcWorkspaceResultsTagsOutputReference extends c
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1451,7 +1456,7 @@ export class DataIntersightCloudTfcWorkspaceResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightCloudTfcWorkspaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1459,19 +1464,19 @@ export interface DataIntersightCloudTfcWorkspaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1484,7 +1489,7 @@ export interface DataIntersightCloudTfcWorkspaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -1716,7 +1721,7 @@ export class DataIntersightCloudTfcWorkspaceAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightCloudTfcWorkspaceOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1724,19 +1729,19 @@ export interface DataIntersightCloudTfcWorkspaceOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1749,7 +1754,7 @@ export interface DataIntersightCloudTfcWorkspaceOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -1949,7 +1954,7 @@ export class DataIntersightCloudTfcWorkspaceOrganizationOutputReference extends 
 }
 export interface DataIntersightCloudTfcWorkspaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1957,19 +1962,19 @@ export interface DataIntersightCloudTfcWorkspaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1982,7 +1987,7 @@ export interface DataIntersightCloudTfcWorkspaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -2182,7 +2187,7 @@ export class DataIntersightCloudTfcWorkspaceParentOutputReference extends cdktf.
 }
 export interface DataIntersightCloudTfcWorkspacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2190,19 +2195,19 @@ export interface DataIntersightCloudTfcWorkspacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2215,7 +2220,7 @@ export interface DataIntersightCloudTfcWorkspacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -2447,7 +2452,7 @@ export class DataIntersightCloudTfcWorkspacePermissionResourcesList extends cdkt
 }
 export interface DataIntersightCloudTfcWorkspaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2455,19 +2460,19 @@ export interface DataIntersightCloudTfcWorkspaceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2480,7 +2485,7 @@ export interface DataIntersightCloudTfcWorkspaceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -2712,7 +2717,7 @@ export class DataIntersightCloudTfcWorkspaceTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightCloudTfcWorkspaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2720,19 +2725,19 @@ export interface DataIntersightCloudTfcWorkspaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2745,7 +2750,7 @@ export interface DataIntersightCloudTfcWorkspaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -2945,45 +2950,51 @@ export class DataIntersightCloudTfcWorkspaceTagsDefinitionOutputReference extend
 }
 export interface DataIntersightCloudTfcWorkspaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#key DataIntersightCloudTfcWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#key DataIntersightCloudTfcWorkspace#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#propagated DataIntersightCloudTfcWorkspace#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#propagated DataIntersightCloudTfcWorkspace#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#sys_tag DataIntersightCloudTfcWorkspace#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#type DataIntersightCloudTfcWorkspace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#type DataIntersightCloudTfcWorkspace#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#value DataIntersightCloudTfcWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#value DataIntersightCloudTfcWorkspace#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#ancestor_definitions DataIntersightCloudTfcWorkspace#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#ancestor_definitions DataIntersightCloudTfcWorkspace#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCloudTfcWorkspaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#definition DataIntersightCloudTfcWorkspace#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#definition DataIntersightCloudTfcWorkspace#definition}
   */
   readonly definition?: DataIntersightCloudTfcWorkspaceTagsDefinition;
 }
@@ -2997,6 +3008,7 @@ export function dataIntersightCloudTfcWorkspaceTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCloudTfcWorkspaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3025,6 +3037,12 @@ export function dataIntersightCloudTfcWorkspaceTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3091,6 +3109,10 @@ export class DataIntersightCloudTfcWorkspaceTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3117,6 +3139,7 @@ export class DataIntersightCloudTfcWorkspaceTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3132,6 +3155,7 @@ export class DataIntersightCloudTfcWorkspaceTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3185,6 +3209,22 @@ export class DataIntersightCloudTfcWorkspaceTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3273,7 +3313,7 @@ export class DataIntersightCloudTfcWorkspaceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCloudTfcWorkspaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3281,19 +3321,19 @@ export interface DataIntersightCloudTfcWorkspaceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3306,7 +3346,7 @@ export interface DataIntersightCloudTfcWorkspaceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -3538,7 +3578,7 @@ export class DataIntersightCloudTfcWorkspaceVersionContextInterestedMosList exte
 }
 export interface DataIntersightCloudTfcWorkspaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3546,19 +3586,19 @@ export interface DataIntersightCloudTfcWorkspaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#moid DataIntersightCloudTfcWorkspace#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3571,7 +3611,7 @@ export interface DataIntersightCloudTfcWorkspaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#selector DataIntersightCloudTfcWorkspace#selector}
   */
   readonly selector?: string;
 }
@@ -3771,7 +3811,7 @@ export class DataIntersightCloudTfcWorkspaceVersionContextRefMoOutputReference e
 }
 export interface DataIntersightCloudTfcWorkspaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3779,32 +3819,32 @@ export interface DataIntersightCloudTfcWorkspaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#marked_for_deletion DataIntersightCloudTfcWorkspace#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#marked_for_deletion DataIntersightCloudTfcWorkspace#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#nr_version DataIntersightCloudTfcWorkspace#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#nr_version DataIntersightCloudTfcWorkspace#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#timestamp DataIntersightCloudTfcWorkspace#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#timestamp DataIntersightCloudTfcWorkspace#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3815,19 +3855,19 @@ export interface DataIntersightCloudTfcWorkspaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#version_type DataIntersightCloudTfcWorkspace#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#version_type DataIntersightCloudTfcWorkspace#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#interested_mos DataIntersightCloudTfcWorkspace#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#interested_mos DataIntersightCloudTfcWorkspace#interested_mos}
   */
   readonly interestedMos?: DataIntersightCloudTfcWorkspaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#ref_mo DataIntersightCloudTfcWorkspace#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#ref_mo DataIntersightCloudTfcWorkspace#ref_mo}
   */
   readonly refMo?: DataIntersightCloudTfcWorkspaceVersionContextRefMo;
 }
@@ -4143,13 +4183,13 @@ export class DataIntersightCloudTfcWorkspaceVersionContextOutputReference extend
 }
 export interface DataIntersightCloudTfcWorkspaceWorkspaceVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#additional_properties DataIntersightCloudTfcWorkspace#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Whether this is a Terraform environment variable. Valid values are "terraform" or "env".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#category DataIntersightCloudTfcWorkspace#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#category DataIntersightCloudTfcWorkspace#category}
   */
   readonly category?: string;
   /**
@@ -4157,50 +4197,50 @@ export interface DataIntersightCloudTfcWorkspaceWorkspaceVariables {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#class_id DataIntersightCloudTfcWorkspace#class_id}
   */
   readonly classId?: string;
   /**
   * The description of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#description DataIntersightCloudTfcWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#description DataIntersightCloudTfcWorkspace#description}
   */
   readonly description?: string;
   /**
   * Whether to evaluate the value of the variable as a string of HCL code. Has no effect for environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#hcl DataIntersightCloudTfcWorkspace#hcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#hcl DataIntersightCloudTfcWorkspace#hcl}
   */
   readonly hcl?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier for this variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#identity DataIntersightCloudTfcWorkspace#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#identity DataIntersightCloudTfcWorkspace#identity}
   */
   readonly identity?: string;
   /**
   * The name of the variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#key DataIntersightCloudTfcWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#key DataIntersightCloudTfcWorkspace#key}
   */
   readonly key?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#object_type DataIntersightCloudTfcWorkspace#object_type}
   */
   readonly objectType?: string;
   /**
   * Whether the value is sensitive. If true then variable is written once and not visible thereafter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#sensitive DataIntersightCloudTfcWorkspace#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#sensitive DataIntersightCloudTfcWorkspace#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * The value of the variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#value DataIntersightCloudTfcWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#value DataIntersightCloudTfcWorkspace#value}
   */
   readonly value?: string;
 }
@@ -4577,7 +4617,7 @@ export class DataIntersightCloudTfcWorkspaceWorkspaceVariablesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace intersight_cloud_tfc_workspace}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace intersight_cloud_tfc_workspace}
 */
 export class DataIntersightCloudTfcWorkspace extends cdktf.TerraformDataSource {
 
@@ -4593,7 +4633,7 @@ export class DataIntersightCloudTfcWorkspace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightCloudTfcWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCloudTfcWorkspace to import
-  * @param importFromId The id of the existing DataIntersightCloudTfcWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCloudTfcWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCloudTfcWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4605,7 +4645,7 @@ export class DataIntersightCloudTfcWorkspace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cloud_tfc_workspace intersight_cloud_tfc_workspace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_workspace intersight_cloud_tfc_workspace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4616,8 +4656,8 @@ export class DataIntersightCloudTfcWorkspace extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_cloud_tfc_workspace',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

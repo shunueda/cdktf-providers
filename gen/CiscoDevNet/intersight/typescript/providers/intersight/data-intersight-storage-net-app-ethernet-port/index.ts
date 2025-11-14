@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#account_moid DataIntersightStorageNetAppEthernetPort#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#account_moid DataIntersightStorageNetAppEthernetPort#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Name of the broadcast domain, scoped to its IPspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#broadcast_domain_name DataIntersightStorageNetAppEthernetPort#broadcast_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#broadcast_domain_name DataIntersightStorageNetAppEthernetPort#broadcast_domain_name}
   */
   readonly broadcastDomainName?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#create_time DataIntersightStorageNetAppEthernetPort#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#create_time DataIntersightStorageNetAppEthernetPort#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#domain_group_moid DataIntersightStorageNetAppEthernetPort#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#domain_group_moid DataIntersightStorageNetAppEthernetPort#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Status of port to determine if its enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#enabled DataIntersightStorageNetAppEthernetPort#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#enabled DataIntersightStorageNetAppEthernetPort#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#id DataIntersightStorageNetAppEthernetPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#id DataIntersightStorageNetAppEthernetPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,48 +59,48 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   /**
   * MAC address of the port available in storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#mac_address DataIntersightStorageNetAppEthernetPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#mac_address DataIntersightStorageNetAppEthernetPort#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#mod_time DataIntersightStorageNetAppEthernetPort#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#mod_time DataIntersightStorageNetAppEthernetPort#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * Maximum transmission unit of the physical port available in storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#mtu DataIntersightStorageNetAppEthernetPort#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#mtu DataIntersightStorageNetAppEthernetPort#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the port available in storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
   */
   readonly name?: string;
   /**
   * The node name for the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
   */
   readonly nodeName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#owners DataIntersightStorageNetAppEthernetPort#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#owners DataIntersightStorageNetAppEthernetPort#owners}
   */
   readonly owners?: string[];
   /**
@@ -109,20 +109,20 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   * * `Up` - An active port is listed as Up.
   * * `Degraded` - An active port that is Up but unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#port_state DataIntersightStorageNetAppEthernetPort#port_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#port_state DataIntersightStorageNetAppEthernetPort#port_state}
   */
   readonly portState?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#shared_scope DataIntersightStorageNetAppEthernetPort#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#shared_scope DataIntersightStorageNetAppEthernetPort#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Operational speed of port measured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#speed DataIntersightStorageNetAppEthernetPort#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#speed DataIntersightStorageNetAppEthernetPort#speed}
   */
   readonly speed?: number;
   /**
@@ -131,7 +131,7 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   * * `up` - An active port is listed as Up.
   * * `present` - An active port is listed as present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#state DataIntersightStorageNetAppEthernetPort#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#state DataIntersightStorageNetAppEthernetPort#state}
   */
   readonly state?: string;
   /**
@@ -140,67 +140,67 @@ export interface DataIntersightStorageNetAppEthernetPortConfig extends cdktf.Ter
   * * `physical` - LIFs can be configured directly on physical ports.
   * * `VLAN` - A logical port that receives and sends VLAN-tagged (IEEE 802.1Q standard) traffic. VLAN port characteristics include the VLAN ID for the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#type DataIntersightStorageNetAppEthernetPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#type DataIntersightStorageNetAppEthernetPort#type}
   */
   readonly type?: string;
   /**
   * Universally unique identifier of the physical port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#ancestors DataIntersightStorageNetAppEthernetPort#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#ancestors DataIntersightStorageNetAppEthernetPort#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppEthernetPortAncestors[] | cdktf.IResolvable;
   /**
   * array_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#array_controller DataIntersightStorageNetAppEthernetPort#array_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#array_controller DataIntersightStorageNetAppEthernetPort#array_controller}
   */
   readonly arrayController?: DataIntersightStorageNetAppEthernetPortArrayController;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#events DataIntersightStorageNetAppEthernetPort#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#events DataIntersightStorageNetAppEthernetPort#events}
   */
   readonly events?: DataIntersightStorageNetAppEthernetPortEvents[] | cdktf.IResolvable;
   /**
   * net_app_ethernet_port_lag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#net_app_ethernet_port_lag DataIntersightStorageNetAppEthernetPort#net_app_ethernet_port_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#net_app_ethernet_port_lag DataIntersightStorageNetAppEthernetPort#net_app_ethernet_port_lag}
   */
   readonly netAppEthernetPortLag?: DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLag;
   /**
   * net_app_ethernet_port_vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#net_app_ethernet_port_vlan DataIntersightStorageNetAppEthernetPort#net_app_ethernet_port_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#net_app_ethernet_port_vlan DataIntersightStorageNetAppEthernetPort#net_app_ethernet_port_vlan}
   */
   readonly netAppEthernetPortVlan?: DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlan;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#parent DataIntersightStorageNetAppEthernetPort#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#parent DataIntersightStorageNetAppEthernetPort#parent}
   */
   readonly parent?: DataIntersightStorageNetAppEthernetPortParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#permission_resources DataIntersightStorageNetAppEthernetPort#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#permission_resources DataIntersightStorageNetAppEthernetPort#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppEthernetPortPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#tags DataIntersightStorageNetAppEthernetPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#tags DataIntersightStorageNetAppEthernetPort#tags}
   */
   readonly tags?: DataIntersightStorageNetAppEthernetPortTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#version_context DataIntersightStorageNetAppEthernetPort#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#version_context DataIntersightStorageNetAppEthernetPort#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppEthernetPortVersionContext;
 }
@@ -1450,6 +1450,11 @@ export class DataIntersightStorageNetAppEthernetPortResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2017,7 +2022,7 @@ export class DataIntersightStorageNetAppEthernetPortResultsList extends cdktf.Co
 }
 export interface DataIntersightStorageNetAppEthernetPortAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2025,19 +2030,19 @@ export interface DataIntersightStorageNetAppEthernetPortAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2050,7 +2055,7 @@ export interface DataIntersightStorageNetAppEthernetPortAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -2282,7 +2287,7 @@ export class DataIntersightStorageNetAppEthernetPortAncestorsList extends cdktf.
 }
 export interface DataIntersightStorageNetAppEthernetPortArrayController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2290,19 +2295,19 @@ export interface DataIntersightStorageNetAppEthernetPortArrayController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2315,7 +2320,7 @@ export interface DataIntersightStorageNetAppEthernetPortArrayController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -2515,7 +2520,7 @@ export class DataIntersightStorageNetAppEthernetPortArrayControllerOutputReferen
 }
 export interface DataIntersightStorageNetAppEthernetPortEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2523,19 +2528,19 @@ export interface DataIntersightStorageNetAppEthernetPortEvents {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2548,7 +2553,7 @@ export interface DataIntersightStorageNetAppEthernetPortEvents {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -2780,7 +2785,7 @@ export class DataIntersightStorageNetAppEthernetPortEventsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagActivePorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2788,32 +2793,32 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagAct
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * Name associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
   */
   readonly name?: string;
   /**
   * Name of the node associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
   */
   readonly nodeName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * Unique identifier of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
   */
   readonly uuid?: string;
 }
@@ -3074,7 +3079,7 @@ export class DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagActiveP
 }
 export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagMemberPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3082,32 +3087,32 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagMem
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * Name associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
   */
   readonly name?: string;
   /**
   * Name of the node associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
   */
   readonly nodeName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * Unique identifier of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
   */
   readonly uuid?: string;
 }
@@ -3368,7 +3373,7 @@ export class DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagMemberP
 }
 export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3376,7 +3381,7 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLag {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
@@ -3387,7 +3392,7 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLag {
   * * `mac` - Network traffic is distributed based on MAC addresses.
   * * `sequential` - Network traffic is distributed in round-robin fashion from the list of configured, available ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#distribution_policy DataIntersightStorageNetAppEthernetPort#distribution_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#distribution_policy DataIntersightStorageNetAppEthernetPort#distribution_policy}
   */
   readonly distributionPolicy?: string;
   /**
@@ -3397,26 +3402,26 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLag {
   * * `multimode` - Bundle multiple member ports of the interface group to act as a single trunked port.
   * * `singlemode` - Provide port redundancy using member ports of the interface group for failover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#mode DataIntersightStorageNetAppEthernetPort#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#mode DataIntersightStorageNetAppEthernetPort#mode}
   */
   readonly mode?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * active_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#active_ports DataIntersightStorageNetAppEthernetPort#active_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#active_ports DataIntersightStorageNetAppEthernetPort#active_ports}
   */
   readonly activePorts?: DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagActivePorts[] | cdktf.IResolvable;
   /**
   * member_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#member_ports DataIntersightStorageNetAppEthernetPort#member_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#member_ports DataIntersightStorageNetAppEthernetPort#member_ports}
   */
   readonly memberPorts?: DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagMemberPorts[] | cdktf.IResolvable;
 }
@@ -3674,7 +3679,7 @@ export class DataIntersightStorageNetAppEthernetPortNetAppEthernetPortLagOutputR
 }
 export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlanBasePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3682,32 +3687,32 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlanBa
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * Name associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#name DataIntersightStorageNetAppEthernetPort#name}
   */
   readonly name?: string;
   /**
   * Name of the node associated with this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#node_name DataIntersightStorageNetAppEthernetPort#node_name}
   */
   readonly nodeName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * Unique identifier of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#uuid DataIntersightStorageNetAppEthernetPort#uuid}
   */
   readonly uuid?: string;
 }
@@ -3936,7 +3941,7 @@ export class DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlanBasePo
 }
 export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3944,26 +3949,26 @@ export interface DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlan {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The ID tag of the VLAN for this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#tag DataIntersightStorageNetAppEthernetPort#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#tag DataIntersightStorageNetAppEthernetPort#tag}
   */
   readonly tag?: number;
   /**
   * base_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#base_port DataIntersightStorageNetAppEthernetPort#base_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#base_port DataIntersightStorageNetAppEthernetPort#base_port}
   */
   readonly basePort?: DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlanBasePort;
 }
@@ -4163,7 +4168,7 @@ export class DataIntersightStorageNetAppEthernetPortNetAppEthernetPortVlanOutput
 }
 export interface DataIntersightStorageNetAppEthernetPortParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4171,19 +4176,19 @@ export interface DataIntersightStorageNetAppEthernetPortParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4196,7 +4201,7 @@ export interface DataIntersightStorageNetAppEthernetPortParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -4396,7 +4401,7 @@ export class DataIntersightStorageNetAppEthernetPortParentOutputReference extend
 }
 export interface DataIntersightStorageNetAppEthernetPortPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4404,19 +4409,19 @@ export interface DataIntersightStorageNetAppEthernetPortPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4429,7 +4434,7 @@ export interface DataIntersightStorageNetAppEthernetPortPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -4661,7 +4666,7 @@ export class DataIntersightStorageNetAppEthernetPortPermissionResourcesList exte
 }
 export interface DataIntersightStorageNetAppEthernetPortTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4669,19 +4674,19 @@ export interface DataIntersightStorageNetAppEthernetPortTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4694,7 +4699,7 @@ export interface DataIntersightStorageNetAppEthernetPortTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -4926,7 +4931,7 @@ export class DataIntersightStorageNetAppEthernetPortTagsAncestorDefinitionsList 
 }
 export interface DataIntersightStorageNetAppEthernetPortTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4934,19 +4939,19 @@ export interface DataIntersightStorageNetAppEthernetPortTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4959,7 +4964,7 @@ export interface DataIntersightStorageNetAppEthernetPortTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -5159,45 +5164,51 @@ export class DataIntersightStorageNetAppEthernetPortTagsDefinitionOutputReferenc
 }
 export interface DataIntersightStorageNetAppEthernetPortTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#key DataIntersightStorageNetAppEthernetPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#key DataIntersightStorageNetAppEthernetPort#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#propagated DataIntersightStorageNetAppEthernetPort#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#propagated DataIntersightStorageNetAppEthernetPort#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#sys_tag DataIntersightStorageNetAppEthernetPort#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#type DataIntersightStorageNetAppEthernetPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#type DataIntersightStorageNetAppEthernetPort#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#value DataIntersightStorageNetAppEthernetPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#value DataIntersightStorageNetAppEthernetPort#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#ancestor_definitions DataIntersightStorageNetAppEthernetPort#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#ancestor_definitions DataIntersightStorageNetAppEthernetPort#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppEthernetPortTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#definition DataIntersightStorageNetAppEthernetPort#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#definition DataIntersightStorageNetAppEthernetPort#definition}
   */
   readonly definition?: DataIntersightStorageNetAppEthernetPortTagsDefinition;
 }
@@ -5211,6 +5222,7 @@ export function dataIntersightStorageNetAppEthernetPortTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppEthernetPortTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5239,6 +5251,12 @@ export function dataIntersightStorageNetAppEthernetPortTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5305,6 +5323,10 @@ export class DataIntersightStorageNetAppEthernetPortTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5331,6 +5353,7 @@ export class DataIntersightStorageNetAppEthernetPortTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5346,6 +5369,7 @@ export class DataIntersightStorageNetAppEthernetPortTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5399,6 +5423,22 @@ export class DataIntersightStorageNetAppEthernetPortTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5487,7 +5527,7 @@ export class DataIntersightStorageNetAppEthernetPortTagsList extends cdktf.Compl
 }
 export interface DataIntersightStorageNetAppEthernetPortVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5495,19 +5535,19 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5520,7 +5560,7 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -5752,7 +5792,7 @@ export class DataIntersightStorageNetAppEthernetPortVersionContextInterestedMosL
 }
 export interface DataIntersightStorageNetAppEthernetPortVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5760,19 +5800,19 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#moid DataIntersightStorageNetAppEthernetPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5785,7 +5825,7 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#selector DataIntersightStorageNetAppEthernetPort#selector}
   */
   readonly selector?: string;
 }
@@ -5985,7 +6025,7 @@ export class DataIntersightStorageNetAppEthernetPortVersionContextRefMoOutputRef
 }
 export interface DataIntersightStorageNetAppEthernetPortVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#additional_properties DataIntersightStorageNetAppEthernetPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5993,32 +6033,32 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#class_id DataIntersightStorageNetAppEthernetPort#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#marked_for_deletion DataIntersightStorageNetAppEthernetPort#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#marked_for_deletion DataIntersightStorageNetAppEthernetPort#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#nr_version DataIntersightStorageNetAppEthernetPort#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#nr_version DataIntersightStorageNetAppEthernetPort#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#object_type DataIntersightStorageNetAppEthernetPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#timestamp DataIntersightStorageNetAppEthernetPort#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#timestamp DataIntersightStorageNetAppEthernetPort#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6029,19 +6069,19 @@ export interface DataIntersightStorageNetAppEthernetPortVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#version_type DataIntersightStorageNetAppEthernetPort#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#version_type DataIntersightStorageNetAppEthernetPort#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#interested_mos DataIntersightStorageNetAppEthernetPort#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#interested_mos DataIntersightStorageNetAppEthernetPort#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppEthernetPortVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#ref_mo DataIntersightStorageNetAppEthernetPort#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#ref_mo DataIntersightStorageNetAppEthernetPort#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppEthernetPortVersionContextRefMo;
 }
@@ -6357,7 +6397,7 @@ export class DataIntersightStorageNetAppEthernetPortVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port intersight_storage_net_app_ethernet_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port intersight_storage_net_app_ethernet_port}
 */
 export class DataIntersightStorageNetAppEthernetPort extends cdktf.TerraformDataSource {
 
@@ -6373,7 +6413,7 @@ export class DataIntersightStorageNetAppEthernetPort extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightStorageNetAppEthernetPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppEthernetPort to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppEthernetPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppEthernetPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppEthernetPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6385,7 +6425,7 @@ export class DataIntersightStorageNetAppEthernetPort extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_ethernet_port intersight_storage_net_app_ethernet_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_ethernet_port intersight_storage_net_app_ethernet_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6396,8 +6436,8 @@ export class DataIntersightStorageNetAppEthernetPort extends cdktf.TerraformData
       terraformResourceType: 'intersight_storage_net_app_ethernet_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   /**
   * Access key ID for AWS_S3 and other S3 compatible provider types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#access_key DataIntersightStorageNetAppCloudTarget#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#access_key DataIntersightStorageNetAppCloudTarget#access_key}
   */
   readonly accessKey?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#account_moid DataIntersightStorageNetAppCloudTarget#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#account_moid DataIntersightStorageNetAppCloudTarget#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Authentication used to access the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#authentication_type DataIntersightStorageNetAppCloudTarget#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#authentication_type DataIntersightStorageNetAppCloudTarget#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Azure cloud account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#azure_account DataIntersightStorageNetAppCloudTarget#azure_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#azure_account DataIntersightStorageNetAppCloudTarget#azure_account}
   */
   readonly azureAccount?: string;
   /**
   * Specifies a full URL of the request to a CAP server for retrieving temporary credentials (access-key, secret-password, and session token) for accessing the object store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#cap_url DataIntersightStorageNetAppCloudTarget#cap_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#cap_url DataIntersightStorageNetAppCloudTarget#cap_url}
   */
   readonly capUrl?: string;
   /**
   * Is SSL/TLS certificate validation enabled? The default value is true. This can only be modified for SGWS, IBM_COS, and ONTAP_S3 provider types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#certificate_validation_enabled DataIntersightStorageNetAppCloudTarget#certificate_validation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#certificate_validation_enabled DataIntersightStorageNetAppCloudTarget#certificate_validation_enabled}
   */
   readonly certificateValidationEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -52,33 +52,33 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#cloud_storage DataIntersightStorageNetAppCloudTarget#cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#cloud_storage DataIntersightStorageNetAppCloudTarget#cloud_storage}
   */
   readonly cloudStorage?: string[];
   /**
   * Data bucket/container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#container DataIntersightStorageNetAppCloudTarget#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#container DataIntersightStorageNetAppCloudTarget#container}
   */
   readonly container?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#create_time DataIntersightStorageNetAppCloudTarget#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#create_time DataIntersightStorageNetAppCloudTarget#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#domain_group_moid DataIntersightStorageNetAppCloudTarget#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#domain_group_moid DataIntersightStorageNetAppCloudTarget#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#id DataIntersightStorageNetAppCloudTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#id DataIntersightStorageNetAppCloudTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,32 +87,32 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   /**
   * IPspace to use in order to reach the cloud target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#ipspace DataIntersightStorageNetAppCloudTarget#ipspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#ipspace DataIntersightStorageNetAppCloudTarget#ipspace}
   */
   readonly ipspace?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#mod_time DataIntersightStorageNetAppCloudTarget#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#mod_time DataIntersightStorageNetAppCloudTarget#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * Name of the cloud target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#name DataIntersightStorageNetAppCloudTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#name DataIntersightStorageNetAppCloudTarget#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -120,17 +120,17 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   * * `FabricPool` - NetApp FabricPool Cloud Target owner.
   * * `SnapMirror` - NetApp SnapMirror Cloud Target owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#owner DataIntersightStorageNetAppCloudTarget#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#owner DataIntersightStorageNetAppCloudTarget#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#owners DataIntersightStorageNetAppCloudTarget#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#owners DataIntersightStorageNetAppCloudTarget#owners}
   */
   readonly owners?: string[];
   /**
   * Port number of the object store that ONTAP uses when establishing a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#port DataIntersightStorageNetAppCloudTarget#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#port DataIntersightStorageNetAppCloudTarget#port}
   */
   readonly port?: number;
   /**
@@ -143,20 +143,20 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   * * `IBM_COS` - Cloud target provider type IBM_COS.
   * * `SGWS` - Cloud target provider type SGWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#provider_type DataIntersightStorageNetAppCloudTarget#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#provider_type DataIntersightStorageNetAppCloudTarget#provider_type}
   */
   readonly providerType?: string;
   /**
   * Fully qualified domain name of the object store server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#server DataIntersightStorageNetAppCloudTarget#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#server DataIntersightStorageNetAppCloudTarget#server}
   */
   readonly server?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#shared_scope DataIntersightStorageNetAppCloudTarget#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#shared_scope DataIntersightStorageNetAppCloudTarget#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -164,61 +164,61 @@ export interface DataIntersightStorageNetAppCloudTargetConfig extends cdktf.Terr
   * * `data` - Data is stored in the SnapMirror target.
   * * `metadata` - Metadata is stored in the SnapMirror target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#snap_mirror_use DataIntersightStorageNetAppCloudTarget#snap_mirror_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#snap_mirror_use DataIntersightStorageNetAppCloudTarget#snap_mirror_use}
   */
   readonly snapMirrorUse?: string;
   /**
   * SSL/HTTPS enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#ssl_enabled DataIntersightStorageNetAppCloudTarget#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#ssl_enabled DataIntersightStorageNetAppCloudTarget#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * The amount of cloud space used by all the aggregates attached to the target, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#used DataIntersightStorageNetAppCloudTarget#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#used DataIntersightStorageNetAppCloudTarget#used}
   */
   readonly used?: number;
   /**
   * Uuid of the cloud target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#uuid DataIntersightStorageNetAppCloudTarget#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#uuid DataIntersightStorageNetAppCloudTarget#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#ancestors DataIntersightStorageNetAppCloudTarget#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#ancestors DataIntersightStorageNetAppCloudTarget#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppCloudTargetAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#array DataIntersightStorageNetAppCloudTarget#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#array DataIntersightStorageNetAppCloudTarget#array}
   */
   readonly array?: DataIntersightStorageNetAppCloudTargetArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#parent DataIntersightStorageNetAppCloudTarget#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#parent DataIntersightStorageNetAppCloudTarget#parent}
   */
   readonly parent?: DataIntersightStorageNetAppCloudTargetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#permission_resources DataIntersightStorageNetAppCloudTarget#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#permission_resources DataIntersightStorageNetAppCloudTarget#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppCloudTargetPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#tags DataIntersightStorageNetAppCloudTarget#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#tags DataIntersightStorageNetAppCloudTarget#tags}
   */
   readonly tags?: DataIntersightStorageNetAppCloudTargetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#version_context DataIntersightStorageNetAppCloudTarget#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#version_context DataIntersightStorageNetAppCloudTarget#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppCloudTargetVersionContext;
 }
@@ -870,6 +870,11 @@ export class DataIntersightStorageNetAppCloudTargetResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1449,7 +1454,7 @@ export class DataIntersightStorageNetAppCloudTargetResultsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppCloudTargetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1457,19 +1462,19 @@ export interface DataIntersightStorageNetAppCloudTargetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1482,7 +1487,7 @@ export interface DataIntersightStorageNetAppCloudTargetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -1714,7 +1719,7 @@ export class DataIntersightStorageNetAppCloudTargetAncestorsList extends cdktf.C
 }
 export interface DataIntersightStorageNetAppCloudTargetArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1722,19 +1727,19 @@ export interface DataIntersightStorageNetAppCloudTargetArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1747,7 +1752,7 @@ export interface DataIntersightStorageNetAppCloudTargetArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -1947,7 +1952,7 @@ export class DataIntersightStorageNetAppCloudTargetArrayOutputReference extends 
 }
 export interface DataIntersightStorageNetAppCloudTargetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1955,19 +1960,19 @@ export interface DataIntersightStorageNetAppCloudTargetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1980,7 +1985,7 @@ export interface DataIntersightStorageNetAppCloudTargetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2180,7 +2185,7 @@ export class DataIntersightStorageNetAppCloudTargetParentOutputReference extends
 }
 export interface DataIntersightStorageNetAppCloudTargetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2188,19 +2193,19 @@ export interface DataIntersightStorageNetAppCloudTargetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2213,7 +2218,7 @@ export interface DataIntersightStorageNetAppCloudTargetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2445,7 +2450,7 @@ export class DataIntersightStorageNetAppCloudTargetPermissionResourcesList exten
 }
 export interface DataIntersightStorageNetAppCloudTargetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2453,19 +2458,19 @@ export interface DataIntersightStorageNetAppCloudTargetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2478,7 +2483,7 @@ export interface DataIntersightStorageNetAppCloudTargetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2710,7 +2715,7 @@ export class DataIntersightStorageNetAppCloudTargetTagsAncestorDefinitionsList e
 }
 export interface DataIntersightStorageNetAppCloudTargetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2718,19 +2723,19 @@ export interface DataIntersightStorageNetAppCloudTargetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2743,7 +2748,7 @@ export interface DataIntersightStorageNetAppCloudTargetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -2943,45 +2948,51 @@ export class DataIntersightStorageNetAppCloudTargetTagsDefinitionOutputReference
 }
 export interface DataIntersightStorageNetAppCloudTargetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#key DataIntersightStorageNetAppCloudTarget#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#key DataIntersightStorageNetAppCloudTarget#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#propagated DataIntersightStorageNetAppCloudTarget#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#propagated DataIntersightStorageNetAppCloudTarget#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#sys_tag DataIntersightStorageNetAppCloudTarget#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#type DataIntersightStorageNetAppCloudTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#type DataIntersightStorageNetAppCloudTarget#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#value DataIntersightStorageNetAppCloudTarget#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#value DataIntersightStorageNetAppCloudTarget#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#ancestor_definitions DataIntersightStorageNetAppCloudTarget#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#ancestor_definitions DataIntersightStorageNetAppCloudTarget#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppCloudTargetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#definition DataIntersightStorageNetAppCloudTarget#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#definition DataIntersightStorageNetAppCloudTarget#definition}
   */
   readonly definition?: DataIntersightStorageNetAppCloudTargetTagsDefinition;
 }
@@ -2995,6 +3006,7 @@ export function dataIntersightStorageNetAppCloudTargetTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppCloudTargetTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3023,6 +3035,12 @@ export function dataIntersightStorageNetAppCloudTargetTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3089,6 +3107,10 @@ export class DataIntersightStorageNetAppCloudTargetTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3115,6 +3137,7 @@ export class DataIntersightStorageNetAppCloudTargetTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3130,6 +3153,7 @@ export class DataIntersightStorageNetAppCloudTargetTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3183,6 +3207,22 @@ export class DataIntersightStorageNetAppCloudTargetTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3271,7 +3311,7 @@ export class DataIntersightStorageNetAppCloudTargetTagsList extends cdktf.Comple
 }
 export interface DataIntersightStorageNetAppCloudTargetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3279,19 +3319,19 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3304,7 +3344,7 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3536,7 +3576,7 @@ export class DataIntersightStorageNetAppCloudTargetVersionContextInterestedMosLi
 }
 export interface DataIntersightStorageNetAppCloudTargetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3544,19 +3584,19 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#moid DataIntersightStorageNetAppCloudTarget#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3569,7 +3609,7 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#selector DataIntersightStorageNetAppCloudTarget#selector}
   */
   readonly selector?: string;
 }
@@ -3769,7 +3809,7 @@ export class DataIntersightStorageNetAppCloudTargetVersionContextRefMoOutputRefe
 }
 export interface DataIntersightStorageNetAppCloudTargetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#additional_properties DataIntersightStorageNetAppCloudTarget#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3777,32 +3817,32 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#class_id DataIntersightStorageNetAppCloudTarget#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#marked_for_deletion DataIntersightStorageNetAppCloudTarget#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#marked_for_deletion DataIntersightStorageNetAppCloudTarget#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#nr_version DataIntersightStorageNetAppCloudTarget#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#nr_version DataIntersightStorageNetAppCloudTarget#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#object_type DataIntersightStorageNetAppCloudTarget#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#timestamp DataIntersightStorageNetAppCloudTarget#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#timestamp DataIntersightStorageNetAppCloudTarget#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3813,19 +3853,19 @@ export interface DataIntersightStorageNetAppCloudTargetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#version_type DataIntersightStorageNetAppCloudTarget#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#version_type DataIntersightStorageNetAppCloudTarget#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#interested_mos DataIntersightStorageNetAppCloudTarget#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#interested_mos DataIntersightStorageNetAppCloudTarget#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppCloudTargetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#ref_mo DataIntersightStorageNetAppCloudTarget#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#ref_mo DataIntersightStorageNetAppCloudTarget#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppCloudTargetVersionContextRefMo;
 }
@@ -4141,7 +4181,7 @@ export class DataIntersightStorageNetAppCloudTargetVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target intersight_storage_net_app_cloud_target}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target intersight_storage_net_app_cloud_target}
 */
 export class DataIntersightStorageNetAppCloudTarget extends cdktf.TerraformDataSource {
 
@@ -4157,7 +4197,7 @@ export class DataIntersightStorageNetAppCloudTarget extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightStorageNetAppCloudTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppCloudTarget to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppCloudTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppCloudTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppCloudTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4169,7 +4209,7 @@ export class DataIntersightStorageNetAppCloudTarget extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_cloud_target intersight_storage_net_app_cloud_target} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_cloud_target intersight_storage_net_app_cloud_target} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4180,8 +4220,8 @@ export class DataIntersightStorageNetAppCloudTarget extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_net_app_cloud_target',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

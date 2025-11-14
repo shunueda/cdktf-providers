@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexServerFirmwareVersionConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#account_moid DataIntersightHyperflexServerFirmwareVersion#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#account_moid DataIntersightHyperflexServerFirmwareVersion#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexServerFirmwareVersionConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#create_time DataIntersightHyperflexServerFirmwareVersion#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#create_time DataIntersightHyperflexServerFirmwareVersion#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#domain_group_moid DataIntersightHyperflexServerFirmwareVersion#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#domain_group_moid DataIntersightHyperflexServerFirmwareVersion#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#id DataIntersightHyperflexServerFirmwareVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#id DataIntersightHyperflexServerFirmwareVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightHyperflexServerFirmwareVersionConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#mod_time DataIntersightHyperflexServerFirmwareVersion#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#mod_time DataIntersightHyperflexServerFirmwareVersion#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#owners DataIntersightHyperflexServerFirmwareVersion#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#owners DataIntersightHyperflexServerFirmwareVersion#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#shared_scope DataIntersightHyperflexServerFirmwareVersion#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#shared_scope DataIntersightHyperflexServerFirmwareVersion#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#ancestors DataIntersightHyperflexServerFirmwareVersion#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#ancestors DataIntersightHyperflexServerFirmwareVersion#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexServerFirmwareVersionAncestors[] | cdktf.IResolvable;
   /**
   * app_catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#app_catalog DataIntersightHyperflexServerFirmwareVersion#app_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#app_catalog DataIntersightHyperflexServerFirmwareVersion#app_catalog}
   */
   readonly appCatalog?: DataIntersightHyperflexServerFirmwareVersionAppCatalog;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#parent DataIntersightHyperflexServerFirmwareVersion#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#parent DataIntersightHyperflexServerFirmwareVersion#parent}
   */
   readonly parent?: DataIntersightHyperflexServerFirmwareVersionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#permission_resources DataIntersightHyperflexServerFirmwareVersion#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#permission_resources DataIntersightHyperflexServerFirmwareVersion#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexServerFirmwareVersionPermissionResources[] | cdktf.IResolvable;
   /**
   * server_firmware_version_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#server_firmware_version_entries DataIntersightHyperflexServerFirmwareVersion#server_firmware_version_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#server_firmware_version_entries DataIntersightHyperflexServerFirmwareVersion#server_firmware_version_entries}
   */
   readonly serverFirmwareVersionEntries?: DataIntersightHyperflexServerFirmwareVersionServerFirmwareVersionEntries[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#tags DataIntersightHyperflexServerFirmwareVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#tags DataIntersightHyperflexServerFirmwareVersion#tags}
   */
   readonly tags?: DataIntersightHyperflexServerFirmwareVersionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#version_context DataIntersightHyperflexServerFirmwareVersion#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#version_context DataIntersightHyperflexServerFirmwareVersion#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexServerFirmwareVersionVersionContext;
 }
@@ -860,6 +860,11 @@ export class DataIntersightHyperflexServerFirmwareVersionResultsTagsOutputRefere
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1360,7 +1365,7 @@ export class DataIntersightHyperflexServerFirmwareVersionResultsList extends cdk
 }
 export interface DataIntersightHyperflexServerFirmwareVersionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1368,19 +1373,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1393,7 +1398,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1625,7 +1630,7 @@ export class DataIntersightHyperflexServerFirmwareVersionAncestorsList extends c
 }
 export interface DataIntersightHyperflexServerFirmwareVersionAppCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1633,19 +1638,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionAppCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1658,7 +1663,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionAppCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1858,7 +1863,7 @@ export class DataIntersightHyperflexServerFirmwareVersionAppCatalogOutputReferen
 }
 export interface DataIntersightHyperflexServerFirmwareVersionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1866,19 +1871,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1891,7 +1896,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2091,7 +2096,7 @@ export class DataIntersightHyperflexServerFirmwareVersionParentOutputReference e
 }
 export interface DataIntersightHyperflexServerFirmwareVersionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2099,19 +2104,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2124,7 +2129,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2356,7 +2361,7 @@ export class DataIntersightHyperflexServerFirmwareVersionPermissionResourcesList
 }
 export interface DataIntersightHyperflexServerFirmwareVersionServerFirmwareVersionEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2364,19 +2369,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionServerFirmwareVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2389,7 +2394,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionServerFirmwareVersi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2621,7 +2626,7 @@ export class DataIntersightHyperflexServerFirmwareVersionServerFirmwareVersionEn
 }
 export interface DataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2629,19 +2634,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2654,7 +2659,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2886,7 +2891,7 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinitions
 }
 export interface DataIntersightHyperflexServerFirmwareVersionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2894,19 +2899,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2919,7 +2924,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -3119,45 +3124,51 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsDefinitionOutputRef
 }
 export interface DataIntersightHyperflexServerFirmwareVersionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#key DataIntersightHyperflexServerFirmwareVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#key DataIntersightHyperflexServerFirmwareVersion#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#propagated DataIntersightHyperflexServerFirmwareVersion#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#propagated DataIntersightHyperflexServerFirmwareVersion#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#sys_tag DataIntersightHyperflexServerFirmwareVersion#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#type DataIntersightHyperflexServerFirmwareVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#type DataIntersightHyperflexServerFirmwareVersion#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#value DataIntersightHyperflexServerFirmwareVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#value DataIntersightHyperflexServerFirmwareVersion#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#ancestor_definitions DataIntersightHyperflexServerFirmwareVersion#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#ancestor_definitions DataIntersightHyperflexServerFirmwareVersion#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#definition DataIntersightHyperflexServerFirmwareVersion#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#definition DataIntersightHyperflexServerFirmwareVersion#definition}
   */
   readonly definition?: DataIntersightHyperflexServerFirmwareVersionTagsDefinition;
 }
@@ -3171,6 +3182,7 @@ export function dataIntersightHyperflexServerFirmwareVersionTagsToTerraform(stru
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexServerFirmwareVersionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3199,6 +3211,12 @@ export function dataIntersightHyperflexServerFirmwareVersionTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3265,6 +3283,10 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3291,6 +3313,7 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsOutputReference ext
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3306,6 +3329,7 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsOutputReference ext
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3359,6 +3383,22 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3447,7 +3487,7 @@ export class DataIntersightHyperflexServerFirmwareVersionTagsList extends cdktf.
 }
 export interface DataIntersightHyperflexServerFirmwareVersionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3455,19 +3495,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3480,7 +3520,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -3712,7 +3752,7 @@ export class DataIntersightHyperflexServerFirmwareVersionVersionContextIntereste
 }
 export interface DataIntersightHyperflexServerFirmwareVersionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3720,19 +3760,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#moid DataIntersightHyperflexServerFirmwareVersion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3745,7 +3785,7 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#selector DataIntersightHyperflexServerFirmwareVersion#selector}
   */
   readonly selector?: string;
 }
@@ -3945,7 +3985,7 @@ export class DataIntersightHyperflexServerFirmwareVersionVersionContextRefMoOutp
 }
 export interface DataIntersightHyperflexServerFirmwareVersionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#additional_properties DataIntersightHyperflexServerFirmwareVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3953,32 +3993,32 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#class_id DataIntersightHyperflexServerFirmwareVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#marked_for_deletion DataIntersightHyperflexServerFirmwareVersion#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#marked_for_deletion DataIntersightHyperflexServerFirmwareVersion#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#nr_version DataIntersightHyperflexServerFirmwareVersion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#nr_version DataIntersightHyperflexServerFirmwareVersion#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#object_type DataIntersightHyperflexServerFirmwareVersion#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#timestamp DataIntersightHyperflexServerFirmwareVersion#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#timestamp DataIntersightHyperflexServerFirmwareVersion#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3989,19 +4029,19 @@ export interface DataIntersightHyperflexServerFirmwareVersionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#version_type DataIntersightHyperflexServerFirmwareVersion#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#version_type DataIntersightHyperflexServerFirmwareVersion#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#interested_mos DataIntersightHyperflexServerFirmwareVersion#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#interested_mos DataIntersightHyperflexServerFirmwareVersion#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexServerFirmwareVersionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#ref_mo DataIntersightHyperflexServerFirmwareVersion#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#ref_mo DataIntersightHyperflexServerFirmwareVersion#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexServerFirmwareVersionVersionContextRefMo;
 }
@@ -4317,7 +4357,7 @@ export class DataIntersightHyperflexServerFirmwareVersionVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version intersight_hyperflex_server_firmware_version}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version intersight_hyperflex_server_firmware_version}
 */
 export class DataIntersightHyperflexServerFirmwareVersion extends cdktf.TerraformDataSource {
 
@@ -4333,7 +4373,7 @@ export class DataIntersightHyperflexServerFirmwareVersion extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightHyperflexServerFirmwareVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexServerFirmwareVersion to import
-  * @param importFromId The id of the existing DataIntersightHyperflexServerFirmwareVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexServerFirmwareVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexServerFirmwareVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4345,7 +4385,7 @@ export class DataIntersightHyperflexServerFirmwareVersion extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_server_firmware_version intersight_hyperflex_server_firmware_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_server_firmware_version intersight_hyperflex_server_firmware_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4356,8 +4396,8 @@ export class DataIntersightHyperflexServerFirmwareVersion extends cdktf.Terrafor
       terraformResourceType: 'intersight_hyperflex_server_firmware_version',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

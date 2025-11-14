@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataGitCommitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit#directory DataGitCommit#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit#directory DataGitCommit#directory}
   */
   readonly directory: string;
   /**
   * The [revision](https://www.git-scm.com/docs/gitrevisions) of the commit to fetch. Note that `go-git` does not [support](https://pkg.go.dev/github.com/go-git/go-git/v5#Repository.ResolveRevision) every revision type at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit#revision DataGitCommit#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit#revision DataGitCommit#revision}
   */
   readonly revision: string;
 }
@@ -150,7 +150,7 @@ export class DataGitCommitCommitterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit git_commit}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit git_commit}
 */
 export class DataGitCommit extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataGitCommit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitCommit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitCommit to import
-  * @param importFromId The id of the existing DataGitCommit that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitCommit that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitCommit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataGitCommit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/commit git_commit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/commit git_commit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataGitCommit extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_commit',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

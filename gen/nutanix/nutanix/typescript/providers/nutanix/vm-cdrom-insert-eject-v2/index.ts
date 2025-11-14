@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface VmCdromInsertEjectV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#action VmCdromInsertEjectV2#action}
+  */
+  readonly action?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#id VmCdromInsertEjectV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#id VmCdromInsertEjectV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#vm_ext_id VmCdromInsertEjectV2#vm_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#vm_ext_id VmCdromInsertEjectV2#vm_ext_id}
   */
   readonly vmExtId: string;
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#backing_info VmCdromInsertEjectV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#backing_info VmCdromInsertEjectV2#backing_info}
   */
   readonly backingInfo?: VmCdromInsertEjectV2BackingInfo[] | cdktf.IResolvable;
 }
+export interface VmCdromInsertEjectV2DiskAddress {
+}
+
+export function vmCdromInsertEjectV2DiskAddressToTerraform(struct?: VmCdromInsertEjectV2DiskAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function vmCdromInsertEjectV2DiskAddressToHclTerraform(struct?: VmCdromInsertEjectV2DiskAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class VmCdromInsertEjectV2DiskAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VmCdromInsertEjectV2DiskAddress | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VmCdromInsertEjectV2DiskAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // bus_type - computed: true, optional: false, required: false
+  public get busType() {
+    return this.getStringAttribute('bus_type');
+  }
+
+  // index - computed: true, optional: false, required: false
+  public get index() {
+    return this.getNumberAttribute('index');
+  }
+}
+
+export class VmCdromInsertEjectV2DiskAddressList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VmCdromInsertEjectV2DiskAddressOutputReference {
+    return new VmCdromInsertEjectV2DiskAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface VmCdromInsertEjectV2BackingInfoDataSourceReferenceImageReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#image_ext_id VmCdromInsertEjectV2#image_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#image_ext_id VmCdromInsertEjectV2#image_ext_id}
   */
   readonly imageExtId?: string;
 }
@@ -147,11 +231,11 @@ export class VmCdromInsertEjectV2BackingInfoDataSourceReferenceImageReferenceLis
 }
 export interface VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#bus_type VmCdromInsertEjectV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#bus_type VmCdromInsertEjectV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#index VmCdromInsertEjectV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#index VmCdromInsertEjectV2#index}
   */
   readonly index?: number;
 }
@@ -296,7 +380,7 @@ export class VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceDi
 }
 export interface VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -412,19 +496,19 @@ export class VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceVm
 }
 export interface VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#disk_ext_id VmCdromInsertEjectV2#disk_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#disk_ext_id VmCdromInsertEjectV2#disk_ext_id}
   */
   readonly diskExtId?: string;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#disk_address VmCdromInsertEjectV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#disk_address VmCdromInsertEjectV2#disk_address}
   */
   readonly diskAddress?: VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceDiskAddress[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#vm_reference VmCdromInsertEjectV2#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#vm_reference VmCdromInsertEjectV2#vm_reference}
   */
   readonly vmReference?: VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReferenceVmReference[] | cdktf.IResolvable;
 }
@@ -600,13 +684,13 @@ export interface VmCdromInsertEjectV2BackingInfoDataSourceReference {
   /**
   * image_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#image_reference VmCdromInsertEjectV2#image_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#image_reference VmCdromInsertEjectV2#image_reference}
   */
   readonly imageReference?: VmCdromInsertEjectV2BackingInfoDataSourceReferenceImageReference[] | cdktf.IResolvable;
   /**
   * vm_disk_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#vm_disk_reference VmCdromInsertEjectV2#vm_disk_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#vm_disk_reference VmCdromInsertEjectV2#vm_disk_reference}
   */
   readonly vmDiskReference?: VmCdromInsertEjectV2BackingInfoDataSourceReferenceVmDiskReference[] | cdktf.IResolvable;
 }
@@ -753,7 +837,7 @@ export interface VmCdromInsertEjectV2BackingInfoDataSource {
   /**
   * reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#reference VmCdromInsertEjectV2#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#reference VmCdromInsertEjectV2#reference}
   */
   readonly reference?: VmCdromInsertEjectV2BackingInfoDataSourceReference[] | cdktf.IResolvable;
 }
@@ -869,7 +953,7 @@ export class VmCdromInsertEjectV2BackingInfoDataSourceList extends cdktf.Complex
 }
 export interface VmCdromInsertEjectV2BackingInfoStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#is_flash_mode_enabled VmCdromInsertEjectV2#is_flash_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#is_flash_mode_enabled VmCdromInsertEjectV2#is_flash_mode_enabled}
   */
   readonly isFlashModeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -985,7 +1069,7 @@ export class VmCdromInsertEjectV2BackingInfoStorageConfigList extends cdktf.Comp
 }
 export interface VmCdromInsertEjectV2BackingInfoStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#ext_id VmCdromInsertEjectV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -1101,25 +1185,25 @@ export class VmCdromInsertEjectV2BackingInfoStorageContainerList extends cdktf.C
 }
 export interface VmCdromInsertEjectV2BackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#disk_size_bytes VmCdromInsertEjectV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#disk_size_bytes VmCdromInsertEjectV2#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#data_source VmCdromInsertEjectV2#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#data_source VmCdromInsertEjectV2#data_source}
   */
   readonly dataSource?: VmCdromInsertEjectV2BackingInfoDataSource[] | cdktf.IResolvable;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#storage_config VmCdromInsertEjectV2#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#storage_config VmCdromInsertEjectV2#storage_config}
   */
   readonly storageConfig?: VmCdromInsertEjectV2BackingInfoStorageConfig[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#storage_container VmCdromInsertEjectV2#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#storage_container VmCdromInsertEjectV2#storage_container}
   */
   readonly storageContainer?: VmCdromInsertEjectV2BackingInfoStorageContainer[] | cdktf.IResolvable;
 }
@@ -1236,7 +1320,12 @@ export class VmCdromInsertEjectV2BackingInfoOutputReference extends cdktf.Comple
     }
   }
 
-  // disk_size_bytes - computed: false, optional: true, required: false
+  // disk_ext_id - computed: true, optional: false, required: false
+  public get diskExtId() {
+    return this.getStringAttribute('disk_ext_id');
+  }
+
+  // disk_size_bytes - computed: true, optional: true, required: false
   private _diskSizeBytes?: number; 
   public get diskSizeBytes() {
     return this.getNumberAttribute('disk_size_bytes');
@@ -1250,6 +1339,11 @@ export class VmCdromInsertEjectV2BackingInfoOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get diskSizeBytesInput() {
     return this._diskSizeBytes;
+  }
+
+  // is_migration_in_progress - computed: true, optional: false, required: false
+  public get isMigrationInProgress() {
+    return this.getBooleanAttribute('is_migration_in_progress');
   }
 
   // data_source - computed: false, optional: true, required: false
@@ -1322,7 +1416,7 @@ export class VmCdromInsertEjectV2BackingInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2 nutanix_vm_cdrom_insert_eject_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2 nutanix_vm_cdrom_insert_eject_v2}
 */
 export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
 
@@ -1338,7 +1432,7 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmCdromInsertEjectV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmCdromInsertEjectV2 to import
-  * @param importFromId The id of the existing VmCdromInsertEjectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmCdromInsertEjectV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmCdromInsertEjectV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1350,7 +1444,7 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/vm_cdrom_insert_eject_v2 nutanix_vm_cdrom_insert_eject_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/vm_cdrom_insert_eject_v2 nutanix_vm_cdrom_insert_eject_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1361,8 +1455,8 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_vm_cdrom_insert_eject_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1372,6 +1466,7 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._action = config.action;
     this._extId = config.extId;
     this._id = config.id;
     this._vmExtId = config.vmExtId;
@@ -1381,6 +1476,33 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // cdrom_ext_id - computed: true, optional: false, required: false
+  public get cdromExtId() {
+    return this.getStringAttribute('cdrom_ext_id');
+  }
+
+  // disk_address - computed: true, optional: false, required: false
+  private _diskAddress = new VmCdromInsertEjectV2DiskAddressList(this, "disk_address", false);
+  public get diskAddress() {
+    return this._diskAddress;
+  }
 
   // ext_id - computed: false, optional: false, required: true
   private _extId?: string; 
@@ -1409,6 +1531,11 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // iso_type - computed: true, optional: false, required: false
+  public get isoType() {
+    return this.getStringAttribute('iso_type');
   }
 
   // vm_ext_id - computed: false, optional: false, required: true
@@ -1446,6 +1573,7 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      action: cdktf.stringToTerraform(this._action),
       ext_id: cdktf.stringToTerraform(this._extId),
       id: cdktf.stringToTerraform(this._id),
       vm_ext_id: cdktf.stringToTerraform(this._vmExtId),
@@ -1455,6 +1583,12 @@ export class VmCdromInsertEjectV2 extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      action: {
+        value: cdktf.stringToHclTerraform(this._action),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       ext_id: {
         value: cdktf.stringToHclTerraform(this._extId),
         isBlock: false,

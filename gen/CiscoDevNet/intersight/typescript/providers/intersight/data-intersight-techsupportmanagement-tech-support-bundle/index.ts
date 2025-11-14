@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleConfig exte
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#account_moid DataIntersightTechsupportmanagementTechSupportBundle#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#account_moid DataIntersightTechsupportmanagementTechSupportBundle#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleConfig exte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#create_time DataIntersightTechsupportmanagementTechSupportBundle#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#create_time DataIntersightTechsupportmanagementTechSupportBundle#create_time}
   */
   readonly createTime?: string;
   /**
   * The device identifier used to uniquely identify an individual device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#device_identifier DataIntersightTechsupportmanagementTechSupportBundle#device_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#device_identifier DataIntersightTechsupportmanagementTechSupportBundle#device_identifier}
   */
   readonly deviceIdentifier?: string;
   /**
   * The device type obtained from the inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#device_type DataIntersightTechsupportmanagementTechSupportBundle#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#device_type DataIntersightTechsupportmanagementTechSupportBundle#device_type}
   */
   readonly deviceType?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#domain_group_moid DataIntersightTechsupportmanagementTechSupportBundle#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#domain_group_moid DataIntersightTechsupportmanagementTechSupportBundle#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#id DataIntersightTechsupportmanagementTechSupportBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#id DataIntersightTechsupportmanagementTechSupportBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,30 +59,30 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleConfig exte
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#mod_time DataIntersightTechsupportmanagementTechSupportBundle#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#mod_time DataIntersightTechsupportmanagementTechSupportBundle#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#owners DataIntersightTechsupportmanagementTechSupportBundle#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#owners DataIntersightTechsupportmanagementTechSupportBundle#owners}
   */
   readonly owners?: string[];
   /**
   * Product identification of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#pid DataIntersightTechsupportmanagementTechSupportBundle#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#pid DataIntersightTechsupportmanagementTechSupportBundle#pid}
   */
   readonly pid?: string;
   /**
@@ -171,74 +171,74 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleConfig exte
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#platform_type DataIntersightTechsupportmanagementTechSupportBundle#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#platform_type DataIntersightTechsupportmanagementTechSupportBundle#platform_type}
   */
   readonly platformType?: string;
   /**
   * Serial number of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#serial DataIntersightTechsupportmanagementTechSupportBundle#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#serial DataIntersightTechsupportmanagementTechSupportBundle#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#shared_scope DataIntersightTechsupportmanagementTechSupportBundle#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#shared_scope DataIntersightTechsupportmanagementTechSupportBundle#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#ancestors DataIntersightTechsupportmanagementTechSupportBundle#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#ancestors DataIntersightTechsupportmanagementTechSupportBundle#ancestors}
   */
   readonly ancestors?: DataIntersightTechsupportmanagementTechSupportBundleAncestors[] | cdktf.IResolvable;
   /**
   * device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#device_registration DataIntersightTechsupportmanagementTechSupportBundle#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#device_registration DataIntersightTechsupportmanagementTechSupportBundle#device_registration}
   */
   readonly deviceRegistration?: DataIntersightTechsupportmanagementTechSupportBundleDeviceRegistration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#parent DataIntersightTechsupportmanagementTechSupportBundle#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#parent DataIntersightTechsupportmanagementTechSupportBundle#parent}
   */
   readonly parent?: DataIntersightTechsupportmanagementTechSupportBundleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#permission_resources DataIntersightTechsupportmanagementTechSupportBundle#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#permission_resources DataIntersightTechsupportmanagementTechSupportBundle#permission_resources}
   */
   readonly permissionResources?: DataIntersightTechsupportmanagementTechSupportBundlePermissionResources[] | cdktf.IResolvable;
   /**
   * platform_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#platform_param DataIntersightTechsupportmanagementTechSupportBundle#platform_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#platform_param DataIntersightTechsupportmanagementTechSupportBundle#platform_param}
   */
   readonly platformParam?: DataIntersightTechsupportmanagementTechSupportBundlePlatformParam;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#tags DataIntersightTechsupportmanagementTechSupportBundle#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#tags DataIntersightTechsupportmanagementTechSupportBundle#tags}
   */
   readonly tags?: DataIntersightTechsupportmanagementTechSupportBundleTags[] | cdktf.IResolvable;
   /**
   * target_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#target_resource DataIntersightTechsupportmanagementTechSupportBundle#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#target_resource DataIntersightTechsupportmanagementTechSupportBundle#target_resource}
   */
   readonly targetResource?: DataIntersightTechsupportmanagementTechSupportBundleTargetResource;
   /**
   * tech_support_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#tech_support_status DataIntersightTechsupportmanagementTechSupportBundle#tech_support_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#tech_support_status DataIntersightTechsupportmanagementTechSupportBundle#tech_support_status}
   */
   readonly techSupportStatus?: DataIntersightTechsupportmanagementTechSupportBundleTechSupportStatus;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#version_context DataIntersightTechsupportmanagementTechSupportBundle#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#version_context DataIntersightTechsupportmanagementTechSupportBundle#version_context}
   */
   readonly versionContext?: DataIntersightTechsupportmanagementTechSupportBundleVersionContext;
 }
@@ -975,6 +975,11 @@ export class DataIntersightTechsupportmanagementTechSupportBundleResultsTagsOutp
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1702,7 +1707,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleResultsList ext
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1710,19 +1715,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1735,7 +1740,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -1967,7 +1972,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleAncestorsList e
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1975,19 +1980,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleDeviceRegis
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2000,7 +2005,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleDeviceRegis
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2200,7 +2205,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleDeviceRegistrat
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2208,19 +2213,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2233,7 +2238,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2433,7 +2438,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleParentOutputRef
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundlePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2441,19 +2446,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundlePermissionR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2466,7 +2471,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundlePermissionR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2698,7 +2703,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundlePermissionResou
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundlePlatformParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2707,7 +2712,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundlePlatformPar
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
@@ -2715,7 +2720,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundlePlatformPar
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
 }
@@ -2857,7 +2862,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundlePlatformParamOu
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2865,19 +2870,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTagsAncesto
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2890,7 +2895,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTagsAncesto
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -3122,7 +3127,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsAncestorDef
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3130,19 +3135,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTagsDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3155,7 +3160,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTagsDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -3355,45 +3360,51 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsDefinitionO
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#key DataIntersightTechsupportmanagementTechSupportBundle#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#key DataIntersightTechsupportmanagementTechSupportBundle#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#propagated DataIntersightTechsupportmanagementTechSupportBundle#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#propagated DataIntersightTechsupportmanagementTechSupportBundle#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#sys_tag DataIntersightTechsupportmanagementTechSupportBundle#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#type DataIntersightTechsupportmanagementTechSupportBundle#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#type DataIntersightTechsupportmanagementTechSupportBundle#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#value DataIntersightTechsupportmanagementTechSupportBundle#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#value DataIntersightTechsupportmanagementTechSupportBundle#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#ancestor_definitions DataIntersightTechsupportmanagementTechSupportBundle#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#ancestor_definitions DataIntersightTechsupportmanagementTechSupportBundle#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightTechsupportmanagementTechSupportBundleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#definition DataIntersightTechsupportmanagementTechSupportBundle#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#definition DataIntersightTechsupportmanagementTechSupportBundle#definition}
   */
   readonly definition?: DataIntersightTechsupportmanagementTechSupportBundleTagsDefinition;
 }
@@ -3407,6 +3418,7 @@ export function dataIntersightTechsupportmanagementTechSupportBundleTagsToTerraf
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightTechsupportmanagementTechSupportBundleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3435,6 +3447,12 @@ export function dataIntersightTechsupportmanagementTechSupportBundleTagsToHclTer
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3501,6 +3519,10 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsOutputRefer
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3527,6 +3549,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsOutputRefer
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3542,6 +3565,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsOutputRefer
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3595,6 +3619,22 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsOutputRefer
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3683,7 +3723,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTagsList extend
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleTargetResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3691,19 +3731,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTargetResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3716,7 +3756,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTargetResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -3916,7 +3956,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTargetResourceO
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleTechSupportStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3924,19 +3964,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTechSupport
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3949,7 +3989,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleTechSupport
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -4149,7 +4189,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleTechSupportStat
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4157,19 +4197,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4182,7 +4222,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -4414,7 +4454,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleVersionContextI
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4422,19 +4462,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#moid DataIntersightTechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4447,7 +4487,7 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#selector DataIntersightTechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -4647,7 +4687,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleVersionContextR
 }
 export interface DataIntersightTechsupportmanagementTechSupportBundleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#additional_properties DataIntersightTechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4655,32 +4695,32 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#class_id DataIntersightTechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#marked_for_deletion DataIntersightTechsupportmanagementTechSupportBundle#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#marked_for_deletion DataIntersightTechsupportmanagementTechSupportBundle#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#nr_version DataIntersightTechsupportmanagementTechSupportBundle#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#nr_version DataIntersightTechsupportmanagementTechSupportBundle#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#object_type DataIntersightTechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#timestamp DataIntersightTechsupportmanagementTechSupportBundle#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#timestamp DataIntersightTechsupportmanagementTechSupportBundle#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4691,19 +4731,19 @@ export interface DataIntersightTechsupportmanagementTechSupportBundleVersionCont
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#version_type DataIntersightTechsupportmanagementTechSupportBundle#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#version_type DataIntersightTechsupportmanagementTechSupportBundle#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#interested_mos DataIntersightTechsupportmanagementTechSupportBundle#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#interested_mos DataIntersightTechsupportmanagementTechSupportBundle#interested_mos}
   */
   readonly interestedMos?: DataIntersightTechsupportmanagementTechSupportBundleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#ref_mo DataIntersightTechsupportmanagementTechSupportBundle#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#ref_mo DataIntersightTechsupportmanagementTechSupportBundle#ref_mo}
   */
   readonly refMo?: DataIntersightTechsupportmanagementTechSupportBundleVersionContextRefMo;
 }
@@ -5019,7 +5059,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundleVersionContextO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle}
 */
 export class DataIntersightTechsupportmanagementTechSupportBundle extends cdktf.TerraformDataSource {
 
@@ -5035,7 +5075,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundle extends cdktf.
   * Generates CDKTF code for importing a DataIntersightTechsupportmanagementTechSupportBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightTechsupportmanagementTechSupportBundle to import
-  * @param importFromId The id of the existing DataIntersightTechsupportmanagementTechSupportBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightTechsupportmanagementTechSupportBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightTechsupportmanagementTechSupportBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5047,7 +5087,7 @@ export class DataIntersightTechsupportmanagementTechSupportBundle extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5058,8 +5098,8 @@ export class DataIntersightTechsupportmanagementTechSupportBundle extends cdktf.
       terraformResourceType: 'intersight_techsupportmanagement_tech_support_bundle',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

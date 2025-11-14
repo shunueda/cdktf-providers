@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface HyperflexClusterBackupPolicyConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#account_moid HyperflexClusterBackupPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#account_moid HyperflexClusterBackupPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#ancestors HyperflexClusterBackupPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#ancestors HyperflexClusterBackupPolicy#ancestors}
   */
   readonly ancestors?: HyperflexClusterBackupPolicyAncestors[] | cdktf.IResolvable;
   /**
   * Backup datastore name prefix used during the auto creation of the datastore. All VMs created in this datastore will be automatically backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_name HyperflexClusterBackupPolicy#backup_data_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_name HyperflexClusterBackupPolicy#backup_data_store_name}
   */
   readonly backupDataStoreName?: string;
   /**
   * Replication data store size in backupDataStoreSizeUnit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_size HyperflexClusterBackupPolicy#backup_data_store_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_size HyperflexClusterBackupPolicy#backup_data_store_size}
   */
   readonly backupDataStoreSize?: number;
   /**
   * Replication data store size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_size_unit HyperflexClusterBackupPolicy#backup_data_store_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#backup_data_store_size_unit HyperflexClusterBackupPolicy#backup_data_store_size_unit}
   */
   readonly backupDataStoreSizeUnit?: string;
   /**
   * A reference to a hyperflexCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#backup_target HyperflexClusterBackupPolicy#backup_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#backup_target HyperflexClusterBackupPolicy#backup_target}
   */
   readonly backupTarget?: HyperflexClusterBackupPolicyBackupTarget[] | cdktf.IResolvable;
   /**
@@ -53,41 +53,41 @@ export interface HyperflexClusterBackupPolicyConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * An array of relationships to hyperflexClusterProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#cluster_profiles HyperflexClusterBackupPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#cluster_profiles HyperflexClusterBackupPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: HyperflexClusterBackupPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#create_time HyperflexClusterBackupPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#create_time HyperflexClusterBackupPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Whether the datastore is encrypted or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#data_store_encryption_enabled HyperflexClusterBackupPolicy#data_store_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#data_store_encryption_enabled HyperflexClusterBackupPolicy#data_store_encryption_enabled}
   */
   readonly dataStoreEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#description HyperflexClusterBackupPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#description HyperflexClusterBackupPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#domain_group_moid HyperflexClusterBackupPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#domain_group_moid HyperflexClusterBackupPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#id HyperflexClusterBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#id HyperflexClusterBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,113 +96,113 @@ export interface HyperflexClusterBackupPolicyConfig extends cdktf.TerraformMetaA
   /**
   * Number of snapshots that will be retained as part of the Multi Point in Time support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#local_snapshot_retention_count HyperflexClusterBackupPolicy#local_snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#local_snapshot_retention_count HyperflexClusterBackupPolicy#local_snapshot_retention_count}
   */
   readonly localSnapshotRetentionCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#mod_time HyperflexClusterBackupPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#mod_time HyperflexClusterBackupPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#name HyperflexClusterBackupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#name HyperflexClusterBackupPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#organization HyperflexClusterBackupPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#organization HyperflexClusterBackupPolicy#organization}
   */
   readonly organization?: HyperflexClusterBackupPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#owners HyperflexClusterBackupPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#owners HyperflexClusterBackupPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#parent HyperflexClusterBackupPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#parent HyperflexClusterBackupPolicy#parent}
   */
   readonly parent?: HyperflexClusterBackupPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#permission_resources HyperflexClusterBackupPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#permission_resources HyperflexClusterBackupPolicy#permission_resources}
   */
   readonly permissionResources?: HyperflexClusterBackupPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Replication cluster pairing name prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#replication_pair_name_prefix HyperflexClusterBackupPolicy#replication_pair_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#replication_pair_name_prefix HyperflexClusterBackupPolicy#replication_pair_name_prefix}
   */
   readonly replicationPairNamePrefix?: string;
   /**
   * Backup policy replication schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#replication_schedule HyperflexClusterBackupPolicy#replication_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#replication_schedule HyperflexClusterBackupPolicy#replication_schedule}
   */
   readonly replicationSchedule?: HyperflexClusterBackupPolicyReplicationSchedule[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#shared_scope HyperflexClusterBackupPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#shared_scope HyperflexClusterBackupPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Number of snapshots that will be retained as part of the Multi Point in Time support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#snapshot_retention_count HyperflexClusterBackupPolicy#snapshot_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#snapshot_retention_count HyperflexClusterBackupPolicy#snapshot_retention_count}
   */
   readonly snapshotRetentionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#tags HyperflexClusterBackupPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#tags HyperflexClusterBackupPolicy#tags}
   */
   readonly tags?: HyperflexClusterBackupPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#version_context HyperflexClusterBackupPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#version_context HyperflexClusterBackupPolicy#version_context}
   */
   readonly versionContext?: HyperflexClusterBackupPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexClusterBackupPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -434,23 +434,23 @@ export class HyperflexClusterBackupPolicyAncestorsList extends cdktf.ComplexList
 }
 export interface HyperflexClusterBackupPolicyBackupTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -682,23 +682,23 @@ export class HyperflexClusterBackupPolicyBackupTargetList extends cdktf.ComplexL
 }
 export interface HyperflexClusterBackupPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -930,23 +930,23 @@ export class HyperflexClusterBackupPolicyClusterProfilesList extends cdktf.Compl
 }
 export interface HyperflexClusterBackupPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1178,23 +1178,23 @@ export class HyperflexClusterBackupPolicyOrganizationList extends cdktf.ComplexL
 }
 export interface HyperflexClusterBackupPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1426,23 +1426,23 @@ export class HyperflexClusterBackupPolicyParentList extends cdktf.ComplexList {
 }
 export interface HyperflexClusterBackupPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1674,19 +1674,19 @@ export class HyperflexClusterBackupPolicyPermissionResourcesList extends cdktf.C
 }
 export interface HyperflexClusterBackupPolicyReplicationSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#backup_interval HyperflexClusterBackupPolicy#backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#backup_interval HyperflexClusterBackupPolicy#backup_interval}
   */
   readonly backupInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -1889,23 +1889,23 @@ export class HyperflexClusterBackupPolicyReplicationScheduleList extends cdktf.C
 }
 export interface HyperflexClusterBackupPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2137,23 +2137,23 @@ export class HyperflexClusterBackupPolicyTagsAncestorDefinitionsList extends cdk
 }
 export interface HyperflexClusterBackupPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2385,31 +2385,35 @@ export class HyperflexClusterBackupPolicyTagsDefinitionList extends cdktf.Comple
 }
 export interface HyperflexClusterBackupPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#ancestor_definitions HyperflexClusterBackupPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#ancestor_definitions HyperflexClusterBackupPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexClusterBackupPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#definition HyperflexClusterBackupPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#definition HyperflexClusterBackupPolicy#definition}
   */
   readonly definition?: HyperflexClusterBackupPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#key HyperflexClusterBackupPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#key HyperflexClusterBackupPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#propagated HyperflexClusterBackupPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#propagated HyperflexClusterBackupPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#type HyperflexClusterBackupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#sys_tag HyperflexClusterBackupPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#type HyperflexClusterBackupPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#value HyperflexClusterBackupPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#value HyperflexClusterBackupPolicy#value}
   */
   readonly value?: string;
 }
@@ -2425,6 +2429,7 @@ export function hyperflexClusterBackupPolicyTagsToTerraform(struct?: HyperflexCl
     definition: cdktf.listMapper(hyperflexClusterBackupPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2463,6 +2468,12 @@ export function hyperflexClusterBackupPolicyTagsToHclTerraform(struct?: Hyperfle
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2525,6 +2536,10 @@ export class HyperflexClusterBackupPolicyTagsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2545,6 +2560,7 @@ export class HyperflexClusterBackupPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2560,6 +2576,7 @@ export class HyperflexClusterBackupPolicyTagsOutputReference extends cdktf.Compl
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2645,6 +2662,22 @@ export class HyperflexClusterBackupPolicyTagsOutputReference extends cdktf.Compl
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2699,23 +2732,23 @@ export class HyperflexClusterBackupPolicyTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexClusterBackupPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2947,23 +2980,23 @@ export class HyperflexClusterBackupPolicyVersionContextInterestedMosList extends
 }
 export interface HyperflexClusterBackupPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#moid HyperflexClusterBackupPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#selector HyperflexClusterBackupPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3195,39 +3228,39 @@ export class HyperflexClusterBackupPolicyVersionContextRefMoList extends cdktf.C
 }
 export interface HyperflexClusterBackupPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#additional_properties HyperflexClusterBackupPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#class_id HyperflexClusterBackupPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#interested_mos HyperflexClusterBackupPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#interested_mos HyperflexClusterBackupPolicy#interested_mos}
   */
   readonly interestedMos?: HyperflexClusterBackupPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#marked_for_deletion HyperflexClusterBackupPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#marked_for_deletion HyperflexClusterBackupPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#nr_version HyperflexClusterBackupPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#nr_version HyperflexClusterBackupPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#object_type HyperflexClusterBackupPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#ref_mo HyperflexClusterBackupPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#ref_mo HyperflexClusterBackupPolicy#ref_mo}
   */
   readonly refMo?: HyperflexClusterBackupPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#timestamp HyperflexClusterBackupPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#timestamp HyperflexClusterBackupPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#version_type HyperflexClusterBackupPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#version_type HyperflexClusterBackupPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3575,7 +3608,7 @@ export class HyperflexClusterBackupPolicyVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy intersight_hyperflex_cluster_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy intersight_hyperflex_cluster_backup_policy}
 */
 export class HyperflexClusterBackupPolicy extends cdktf.TerraformResource {
 
@@ -3591,7 +3624,7 @@ export class HyperflexClusterBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexClusterBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexClusterBackupPolicy to import
-  * @param importFromId The id of the existing HyperflexClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexClusterBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3603,7 +3636,7 @@ export class HyperflexClusterBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_cluster_backup_policy intersight_hyperflex_cluster_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_backup_policy intersight_hyperflex_cluster_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3614,8 +3647,8 @@ export class HyperflexClusterBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_cluster_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

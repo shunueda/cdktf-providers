@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DisasterRecoveryAutomaticDrConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_failover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_failover_dr_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#default_failover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_failover_dr_plan_id}
   */
   readonly defaultFailoverDrPlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_switchover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_switchover_dr_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#default_switchover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_switchover_dr_plan_id}
   */
   readonly defaultSwitchoverDrPlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#defined_tags DisasterRecoveryAutomaticDrConfiguration#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#defined_tags DisasterRecoveryAutomaticDrConfiguration#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#display_name DisasterRecoveryAutomaticDrConfiguration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#display_name DisasterRecoveryAutomaticDrConfiguration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#dr_protection_group_id DisasterRecoveryAutomaticDrConfiguration#dr_protection_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#dr_protection_group_id DisasterRecoveryAutomaticDrConfiguration#dr_protection_group_id}
   */
   readonly drProtectionGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#freeform_tags DisasterRecoveryAutomaticDrConfiguration#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#freeform_tags DisasterRecoveryAutomaticDrConfiguration#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#id DisasterRecoveryAutomaticDrConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#id DisasterRecoveryAutomaticDrConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DisasterRecoveryAutomaticDrConfigurationConfig extends cdktf.Te
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#members DisasterRecoveryAutomaticDrConfiguration#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#members DisasterRecoveryAutomaticDrConfiguration#members}
   */
   readonly members: DisasterRecoveryAutomaticDrConfigurationMembers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#timeouts DisasterRecoveryAutomaticDrConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#timeouts DisasterRecoveryAutomaticDrConfiguration#timeouts}
   */
   readonly timeouts?: DisasterRecoveryAutomaticDrConfigurationTimeouts;
 }
 export interface DisasterRecoveryAutomaticDrConfigurationMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_failover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_failover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_failover_enabled}
   */
   readonly isAutoFailoverEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_switchover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_switchover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_switchover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_switchover_enabled}
   */
   readonly isAutoSwitchoverEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_id DisasterRecoveryAutomaticDrConfiguration#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#member_id DisasterRecoveryAutomaticDrConfiguration#member_id}
   */
   readonly memberId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_type DisasterRecoveryAutomaticDrConfiguration#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#member_type DisasterRecoveryAutomaticDrConfiguration#member_type}
   */
   readonly memberType: string;
 }
@@ -262,15 +262,15 @@ export class DisasterRecoveryAutomaticDrConfigurationMembersList extends cdktf.C
 }
 export interface DisasterRecoveryAutomaticDrConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#create DisasterRecoveryAutomaticDrConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#create DisasterRecoveryAutomaticDrConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#delete DisasterRecoveryAutomaticDrConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#delete DisasterRecoveryAutomaticDrConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#update DisasterRecoveryAutomaticDrConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#update DisasterRecoveryAutomaticDrConfiguration#update}
   */
   readonly update?: string;
 }
@@ -422,7 +422,7 @@ export class DisasterRecoveryAutomaticDrConfigurationTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration oci_disaster_recovery_automatic_dr_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration oci_disaster_recovery_automatic_dr_configuration}
 */
 export class DisasterRecoveryAutomaticDrConfiguration extends cdktf.TerraformResource {
 
@@ -438,7 +438,7 @@ export class DisasterRecoveryAutomaticDrConfiguration extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DisasterRecoveryAutomaticDrConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DisasterRecoveryAutomaticDrConfiguration to import
-  * @param importFromId The id of the existing DisasterRecoveryAutomaticDrConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DisasterRecoveryAutomaticDrConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DisasterRecoveryAutomaticDrConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +450,7 @@ export class DisasterRecoveryAutomaticDrConfiguration extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/disaster_recovery_automatic_dr_configuration oci_disaster_recovery_automatic_dr_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/disaster_recovery_automatic_dr_configuration oci_disaster_recovery_automatic_dr_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +461,8 @@ export class DisasterRecoveryAutomaticDrConfiguration extends cdktf.TerraformRes
       terraformResourceType: 'oci_disaster_recovery_automatic_dr_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

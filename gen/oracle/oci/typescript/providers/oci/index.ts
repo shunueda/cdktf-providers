@@ -2061,6 +2061,7 @@ export * as dataOciFileStorageSnapshot from './data-oci-file-storage-snapshot';
 export * as dataOciFileStorageSnapshots from './data-oci-file-storage-snapshots';
 export * as dataOciFleetAppsManagementAnnouncements from './data-oci-fleet-apps-management-announcements';
 export * as dataOciFleetAppsManagementCatalogItem from './data-oci-fleet-apps-management-catalog-item';
+export * as dataOciFleetAppsManagementCatalogItemVariablesDefinition from './data-oci-fleet-apps-management-catalog-item-variables-definition';
 export * as dataOciFleetAppsManagementCatalogItems from './data-oci-fleet-apps-management-catalog-items';
 export * as dataOciFleetAppsManagementCompliancePolicies from './data-oci-fleet-apps-management-compliance-policies';
 export * as dataOciFleetAppsManagementCompliancePolicy from './data-oci-fleet-apps-management-compliance-policy';
@@ -2069,6 +2070,7 @@ export * as dataOciFleetAppsManagementCompliancePolicyRules from './data-oci-fle
 export * as dataOciFleetAppsManagementComplianceRecordCounts from './data-oci-fleet-apps-management-compliance-record-counts';
 export * as dataOciFleetAppsManagementComplianceRecords from './data-oci-fleet-apps-management-compliance-records';
 export * as dataOciFleetAppsManagementFleet from './data-oci-fleet-apps-management-fleet';
+export * as dataOciFleetAppsManagementFleetCompliance from './data-oci-fleet-apps-management-fleet-compliance';
 export * as dataOciFleetAppsManagementFleetComplianceReport from './data-oci-fleet-apps-management-fleet-compliance-report';
 export * as dataOciFleetAppsManagementFleetCredential from './data-oci-fleet-apps-management-fleet-credential';
 export * as dataOciFleetAppsManagementFleetCredentials from './data-oci-fleet-apps-management-fleet-credentials';
@@ -2079,6 +2081,7 @@ export * as dataOciFleetAppsManagementFleetResource from './data-oci-fleet-apps-
 export * as dataOciFleetAppsManagementFleetResources from './data-oci-fleet-apps-management-fleet-resources';
 export * as dataOciFleetAppsManagementFleetTargets from './data-oci-fleet-apps-management-fleet-targets';
 export * as dataOciFleetAppsManagementFleets from './data-oci-fleet-apps-management-fleets';
+export * as dataOciFleetAppsManagementInstalledPatches from './data-oci-fleet-apps-management-installed-patches';
 export * as dataOciFleetAppsManagementInventoryRecords from './data-oci-fleet-apps-management-inventory-records';
 export * as dataOciFleetAppsManagementInventoryResources from './data-oci-fleet-apps-management-inventory-resources';
 export * as dataOciFleetAppsManagementMaintenanceWindow from './data-oci-fleet-apps-management-maintenance-window';
@@ -2094,7 +2097,13 @@ export * as dataOciFleetAppsManagementProperties from './data-oci-fleet-apps-man
 export * as dataOciFleetAppsManagementProperty from './data-oci-fleet-apps-management-property';
 export * as dataOciFleetAppsManagementProvision from './data-oci-fleet-apps-management-provision';
 export * as dataOciFleetAppsManagementProvisions from './data-oci-fleet-apps-management-provisions';
+export * as dataOciFleetAppsManagementRecommendedPatches from './data-oci-fleet-apps-management-recommended-patches';
+export * as dataOciFleetAppsManagementReportMetadata from './data-oci-fleet-apps-management-report-metadata';
 export * as dataOciFleetAppsManagementRunbook from './data-oci-fleet-apps-management-runbook';
+export * as dataOciFleetAppsManagementRunbookExport from './data-oci-fleet-apps-management-runbook-export';
+export * as dataOciFleetAppsManagementRunbookExportStatuses from './data-oci-fleet-apps-management-runbook-export-statuses';
+export * as dataOciFleetAppsManagementRunbookImport from './data-oci-fleet-apps-management-runbook-import';
+export * as dataOciFleetAppsManagementRunbookImportStatuses from './data-oci-fleet-apps-management-runbook-import-statuses';
 export * as dataOciFleetAppsManagementRunbookVersion from './data-oci-fleet-apps-management-runbook-version';
 export * as dataOciFleetAppsManagementRunbookVersions from './data-oci-fleet-apps-management-runbook-versions';
 export * as dataOciFleetAppsManagementRunbooks from './data-oci-fleet-apps-management-runbooks';
@@ -2105,6 +2114,8 @@ export * as dataOciFleetAppsManagementSchedulerExecutions from './data-oci-fleet
 export * as dataOciFleetAppsManagementSchedulerJobCounts from './data-oci-fleet-apps-management-scheduler-job-counts';
 export * as dataOciFleetAppsManagementSchedulerJobJobActivityResources from './data-oci-fleet-apps-management-scheduler-job-job-activity-resources';
 export * as dataOciFleetAppsManagementSchedulerJobJobActivitySteps from './data-oci-fleet-apps-management-scheduler-job-job-activity-steps';
+export * as dataOciFleetAppsManagementTargetComponents from './data-oci-fleet-apps-management-target-components';
+export * as dataOciFleetAppsManagementTargetProperties from './data-oci-fleet-apps-management-target-properties';
 export * as dataOciFleetAppsManagementTaskRecord from './data-oci-fleet-apps-management-task-record';
 export * as dataOciFleetAppsManagementTaskRecords from './data-oci-fleet-apps-management-task-records';
 export * as dataOciFleetSoftwareUpdateFsuCollection from './data-oci-fleet-software-update-fsu-collection';

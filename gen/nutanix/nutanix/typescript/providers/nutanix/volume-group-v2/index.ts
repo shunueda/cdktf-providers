@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface VolumeGroupV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#attachment_type VolumeGroupV2#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#attachment_type VolumeGroupV2#attachment_type}
   */
   readonly attachmentType?: string;
   /**
   * The UUID of the cluster that will host the Volume Group. This is a mandatory field for creating a Volume Group on Prism Central.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#cluster_reference VolumeGroupV2#cluster_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#cluster_reference VolumeGroupV2#cluster_reference}
   */
   readonly clusterReference: string;
   /**
   * Service/user who created this Volume Group. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#created_by VolumeGroupV2#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#created_by VolumeGroupV2#created_by}
   */
   readonly createdBy?: string;
   /**
   * Volume Group description. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#description VolumeGroupV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#description VolumeGroupV2#description}
   */
   readonly description?: string;
   /**
   * The authentication type enabled for the Volume Group. This is an optional field. If omitted, authentication is not configured for the Volume Group. If this is set to CHAP, the target/client secret must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#enabled_authentications VolumeGroupV2#enabled_authentications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#enabled_authentications VolumeGroupV2#enabled_authentications}
   */
   readonly enabledAuthentications?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#id VolumeGroupV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#id VolumeGroupV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#is_hidden VolumeGroupV2#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#is_hidden VolumeGroupV2#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * Volume Group name. This is an Required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#name VolumeGroupV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#name VolumeGroupV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#protocol VolumeGroupV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#protocol VolumeGroupV2#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether the Volume Group can be shared across multiple iSCSI initiators. The mode cannot be changed from SHARED to NOT_SHARED on a Volume Group with multiple attachments. Similarly, a Volume Group cannot be associated with more than one attachment as long as it is in exclusive mode. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#sharing_status VolumeGroupV2#sharing_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#sharing_status VolumeGroupV2#sharing_status}
   */
   readonly sharingStatus?: string;
   /**
   * Indicates whether to enable Volume Group load balancing for VM attachments. This cannot be enabled if there are iSCSI client attachments already associated with the Volume Group, and vice-versa. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#should_load_balance_vm_attachments VolumeGroupV2#should_load_balance_vm_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#should_load_balance_vm_attachments VolumeGroupV2#should_load_balance_vm_attachments}
   */
   readonly shouldLoadBalanceVmAttachments?: boolean | cdktf.IResolvable;
   /**
   * Name of the external client target that will be visible and accessible to the client. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#target_name VolumeGroupV2#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#target_name VolumeGroupV2#target_name}
   */
   readonly targetName?: string;
   /**
   * The specifications contain the target prefix for external clients as the value. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#target_prefix VolumeGroupV2#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#target_prefix VolumeGroupV2#target_prefix}
   */
   readonly targetPrefix?: string;
   /**
   * Expected usage type for the Volume Group. This is an indicative hint on how the caller will consume the Volume Group. This is an optional field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#usage_type VolumeGroupV2#usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#usage_type VolumeGroupV2#usage_type}
   */
   readonly usageType?: string;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#disks VolumeGroupV2#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#disks VolumeGroupV2#disks}
   */
   readonly disks?: VolumeGroupV2Disks[] | cdktf.IResolvable;
   /**
   * iscsi_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#iscsi_features VolumeGroupV2#iscsi_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#iscsi_features VolumeGroupV2#iscsi_features}
   */
   readonly iscsiFeatures?: VolumeGroupV2IscsiFeatures[] | cdktf.IResolvable;
   /**
   * storage_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#storage_features VolumeGroupV2#storage_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#storage_features VolumeGroupV2#storage_features}
   */
   readonly storageFeatures?: VolumeGroupV2StorageFeatures[] | cdktf.IResolvable;
 }
 export interface VolumeGroupV2DisksDiskDataSourceReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#entity_type VolumeGroupV2#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#entity_type VolumeGroupV2#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#ext_id VolumeGroupV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#ext_id VolumeGroupV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#name VolumeGroupV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#name VolumeGroupV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#uris VolumeGroupV2#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#uris VolumeGroupV2#uris}
   */
   readonly uris?: string[];
 }
@@ -319,7 +319,7 @@ export class VolumeGroupV2DisksDiskDataSourceReferenceList extends cdktf.Complex
 }
 export interface VolumeGroupV2DisksDiskStorageFeaturesFlashMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#is_enabled VolumeGroupV2#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#is_enabled VolumeGroupV2#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -437,7 +437,7 @@ export interface VolumeGroupV2DisksDiskStorageFeatures {
   /**
   * flash_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#flash_mode VolumeGroupV2#flash_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#flash_mode VolumeGroupV2#flash_mode}
   */
   readonly flashMode?: VolumeGroupV2DisksDiskStorageFeaturesFlashMode[] | cdktf.IResolvable;
 }
@@ -553,27 +553,27 @@ export class VolumeGroupV2DisksDiskStorageFeaturesList extends cdktf.ComplexList
 }
 export interface VolumeGroupV2Disks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#description VolumeGroupV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#description VolumeGroupV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#disk_size_bytes VolumeGroupV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#disk_size_bytes VolumeGroupV2#disk_size_bytes}
   */
   readonly diskSizeBytes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#index VolumeGroupV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#index VolumeGroupV2#index}
   */
   readonly index?: number;
   /**
   * disk_data_source_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#disk_data_source_reference VolumeGroupV2#disk_data_source_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#disk_data_source_reference VolumeGroupV2#disk_data_source_reference}
   */
   readonly diskDataSourceReference: VolumeGroupV2DisksDiskDataSourceReference[] | cdktf.IResolvable;
   /**
   * disk_storage_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#disk_storage_features VolumeGroupV2#disk_storage_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#disk_storage_features VolumeGroupV2#disk_storage_features}
   */
   readonly diskStorageFeatures?: VolumeGroupV2DisksDiskStorageFeatures[] | cdktf.IResolvable;
 }
@@ -801,13 +801,13 @@ export interface VolumeGroupV2IscsiFeatures {
   /**
   * The authentication type enabled for the Volume Group. This is an optional field. If omitted, authentication is not configured for the Volume Group. If this is set to CHAP, the target/client secret must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#enabled_authentications VolumeGroupV2#enabled_authentications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#enabled_authentications VolumeGroupV2#enabled_authentications}
   */
   readonly enabledAuthentications?: string;
   /**
   * Target secret in case of a CHAP authentication. This field must only be provided in case the authentication type is not set to CHAP. This is an optional field and it cannot be retrieved once configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#target_secret VolumeGroupV2#target_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#target_secret VolumeGroupV2#target_secret}
   */
   readonly targetSecret?: string;
 }
@@ -954,7 +954,7 @@ export interface VolumeGroupV2StorageFeaturesFlashMode {
   /**
   * Indicates whether the flash mode is enabled for the Volume Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#is_enabled VolumeGroupV2#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#is_enabled VolumeGroupV2#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1072,7 +1072,7 @@ export interface VolumeGroupV2StorageFeatures {
   /**
   * flash_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#flash_mode VolumeGroupV2#flash_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#flash_mode VolumeGroupV2#flash_mode}
   */
   readonly flashMode?: VolumeGroupV2StorageFeaturesFlashMode[] | cdktf.IResolvable;
 }
@@ -1188,7 +1188,7 @@ export class VolumeGroupV2StorageFeaturesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2 nutanix_volume_group_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2 nutanix_volume_group_v2}
 */
 export class VolumeGroupV2 extends cdktf.TerraformResource {
 
@@ -1204,7 +1204,7 @@ export class VolumeGroupV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeGroupV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeGroupV2 to import
-  * @param importFromId The id of the existing VolumeGroupV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeGroupV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeGroupV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1216,7 +1216,7 @@ export class VolumeGroupV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_v2 nutanix_volume_group_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_v2 nutanix_volume_group_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1227,8 +1227,8 @@ export class VolumeGroupV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_volume_group_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SelfServiceAppProvisionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#action SelfServiceAppProvision#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#action SelfServiceAppProvision#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#app_description SelfServiceAppProvision#app_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#app_description SelfServiceAppProvision#app_description}
   */
   readonly appDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#app_name SelfServiceAppProvision#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#app_name SelfServiceAppProvision#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#bp_name SelfServiceAppProvision#bp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#bp_name SelfServiceAppProvision#bp_name}
   */
   readonly bpName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#bp_uuid SelfServiceAppProvision#bp_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#bp_uuid SelfServiceAppProvision#bp_uuid}
   */
   readonly bpUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#id SelfServiceAppProvision#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#id SelfServiceAppProvision#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#soft_delete SelfServiceAppProvision#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#soft_delete SelfServiceAppProvision#soft_delete}
   */
   readonly softDelete?: boolean | cdktf.IResolvable;
   /**
   * runtime_editables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#runtime_editables SelfServiceAppProvision#runtime_editables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#runtime_editables SelfServiceAppProvision#runtime_editables}
   */
   readonly runtimeEditables?: SelfServiceAppProvisionRuntimeEditables[] | cdktf.IResolvable;
 }
@@ -601,27 +601,27 @@ export class SelfServiceAppProvisionVmList extends cdktf.ComplexList {
 }
 export interface SelfServiceAppProvisionRuntimeEditablesActionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -882,27 +882,27 @@ export class SelfServiceAppProvisionRuntimeEditablesActionListStructList extends
 }
 export interface SelfServiceAppProvisionRuntimeEditablesAppProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -1131,27 +1131,27 @@ export class SelfServiceAppProvisionRuntimeEditablesAppProfileOutputReference ex
 }
 export interface SelfServiceAppProvisionRuntimeEditablesCredentialListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -1412,27 +1412,27 @@ export class SelfServiceAppProvisionRuntimeEditablesCredentialListStructList ext
 }
 export interface SelfServiceAppProvisionRuntimeEditablesDeploymentListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -1693,27 +1693,27 @@ export class SelfServiceAppProvisionRuntimeEditablesDeploymentListStructList ext
 }
 export interface SelfServiceAppProvisionRuntimeEditablesPackageListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -1974,27 +1974,27 @@ export class SelfServiceAppProvisionRuntimeEditablesPackageListStructList extend
 }
 export interface SelfServiceAppProvisionRuntimeEditablesRestoreConfigListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -2255,27 +2255,27 @@ export class SelfServiceAppProvisionRuntimeEditablesRestoreConfigListStructList 
 }
 export interface SelfServiceAppProvisionRuntimeEditablesServiceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -2536,27 +2536,27 @@ export class SelfServiceAppProvisionRuntimeEditablesServiceListStructList extend
 }
 export interface SelfServiceAppProvisionRuntimeEditablesSnapshotConfigListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -2817,27 +2817,27 @@ export class SelfServiceAppProvisionRuntimeEditablesSnapshotConfigListStructList
 }
 export interface SelfServiceAppProvisionRuntimeEditablesSubstrateListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -3098,27 +3098,27 @@ export class SelfServiceAppProvisionRuntimeEditablesSubstrateListStructList exte
 }
 export interface SelfServiceAppProvisionRuntimeEditablesTaskListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -3379,27 +3379,27 @@ export class SelfServiceAppProvisionRuntimeEditablesTaskListStructList extends c
 }
 export interface SelfServiceAppProvisionRuntimeEditablesVariableListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#context SelfServiceAppProvision#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#description SelfServiceAppProvision#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#name SelfServiceAppProvision#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#type SelfServiceAppProvision#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#uuid SelfServiceAppProvision#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#value SelfServiceAppProvision#value}
   */
   readonly value?: string;
 }
@@ -3662,67 +3662,67 @@ export interface SelfServiceAppProvisionRuntimeEditables {
   /**
   * action_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#action_list SelfServiceAppProvision#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#action_list SelfServiceAppProvision#action_list}
   */
   readonly actionList?: SelfServiceAppProvisionRuntimeEditablesActionListStruct[] | cdktf.IResolvable;
   /**
   * app_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#app_profile SelfServiceAppProvision#app_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#app_profile SelfServiceAppProvision#app_profile}
   */
   readonly appProfile?: SelfServiceAppProvisionRuntimeEditablesAppProfile;
   /**
   * credential_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#credential_list SelfServiceAppProvision#credential_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#credential_list SelfServiceAppProvision#credential_list}
   */
   readonly credentialList?: SelfServiceAppProvisionRuntimeEditablesCredentialListStruct[] | cdktf.IResolvable;
   /**
   * deployment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#deployment_list SelfServiceAppProvision#deployment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#deployment_list SelfServiceAppProvision#deployment_list}
   */
   readonly deploymentList?: SelfServiceAppProvisionRuntimeEditablesDeploymentListStruct[] | cdktf.IResolvable;
   /**
   * package_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#package_list SelfServiceAppProvision#package_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#package_list SelfServiceAppProvision#package_list}
   */
   readonly packageList?: SelfServiceAppProvisionRuntimeEditablesPackageListStruct[] | cdktf.IResolvable;
   /**
   * restore_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#restore_config_list SelfServiceAppProvision#restore_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#restore_config_list SelfServiceAppProvision#restore_config_list}
   */
   readonly restoreConfigList?: SelfServiceAppProvisionRuntimeEditablesRestoreConfigListStruct[] | cdktf.IResolvable;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#service_list SelfServiceAppProvision#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#service_list SelfServiceAppProvision#service_list}
   */
   readonly serviceList?: SelfServiceAppProvisionRuntimeEditablesServiceListStruct[] | cdktf.IResolvable;
   /**
   * snapshot_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#snapshot_config_list SelfServiceAppProvision#snapshot_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#snapshot_config_list SelfServiceAppProvision#snapshot_config_list}
   */
   readonly snapshotConfigList?: SelfServiceAppProvisionRuntimeEditablesSnapshotConfigListStruct[] | cdktf.IResolvable;
   /**
   * substrate_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#substrate_list SelfServiceAppProvision#substrate_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#substrate_list SelfServiceAppProvision#substrate_list}
   */
   readonly substrateList?: SelfServiceAppProvisionRuntimeEditablesSubstrateListStruct[] | cdktf.IResolvable;
   /**
   * task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#task_list SelfServiceAppProvision#task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#task_list SelfServiceAppProvision#task_list}
   */
   readonly taskList?: SelfServiceAppProvisionRuntimeEditablesTaskListStruct[] | cdktf.IResolvable;
   /**
   * variable_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#variable_list SelfServiceAppProvision#variable_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#variable_list SelfServiceAppProvision#variable_list}
   */
   readonly variableList?: SelfServiceAppProvisionRuntimeEditablesVariableListStruct[] | cdktf.IResolvable;
 }
@@ -4128,7 +4128,7 @@ export class SelfServiceAppProvisionRuntimeEditablesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision nutanix_self_service_app_provision}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision nutanix_self_service_app_provision}
 */
 export class SelfServiceAppProvision extends cdktf.TerraformResource {
 
@@ -4144,7 +4144,7 @@ export class SelfServiceAppProvision extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SelfServiceAppProvision resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelfServiceAppProvision to import
-  * @param importFromId The id of the existing SelfServiceAppProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelfServiceAppProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelfServiceAppProvision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4156,7 +4156,7 @@ export class SelfServiceAppProvision extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_provision nutanix_self_service_app_provision} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_provision nutanix_self_service_app_provision} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4167,8 +4167,8 @@ export class SelfServiceAppProvision extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_self_service_app_provision',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

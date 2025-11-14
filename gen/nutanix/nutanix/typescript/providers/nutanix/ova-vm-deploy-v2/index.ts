@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface OvaVmDeployV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#cluster_location_ext_id OvaVmDeployV2#cluster_location_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#cluster_location_ext_id OvaVmDeployV2#cluster_location_ext_id}
   */
   readonly clusterLocationExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#id OvaVmDeployV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#id OvaVmDeployV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface OvaVmDeployV2Config extends cdktf.TerraformMetaArguments {
   /**
   * override_vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#override_vm_config OvaVmDeployV2#override_vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#override_vm_config OvaVmDeployV2#override_vm_config}
   */
   readonly overrideVmConfig: OvaVmDeployV2OverrideVmConfig[] | cdktf.IResolvable;
 }
 export interface OvaVmDeployV2OverrideVmConfigCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -147,7 +147,7 @@ export class OvaVmDeployV2OverrideVmConfigCategoriesList extends cdktf.ComplexLi
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceImageReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#image_ext_id OvaVmDeployV2#image_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#image_ext_id OvaVmDeployV2#image_ext_id}
   */
   readonly imageExtId?: string;
 }
@@ -263,11 +263,11 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceIm
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReferenceDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#bus_type OvaVmDeployV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#bus_type OvaVmDeployV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#index OvaVmDeployV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#index OvaVmDeployV2#index}
   */
   readonly index?: number;
 }
@@ -412,7 +412,7 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVm
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReferenceVmReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -528,19 +528,19 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVm
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#disk_ext_id OvaVmDeployV2#disk_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#disk_ext_id OvaVmDeployV2#disk_ext_id}
   */
   readonly diskExtId?: string;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#disk_address OvaVmDeployV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#disk_address OvaVmDeployV2#disk_address}
   */
   readonly diskAddress?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReferenceDiskAddress[] | cdktf.IResolvable;
   /**
   * vm_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#vm_reference OvaVmDeployV2#vm_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#vm_reference OvaVmDeployV2#vm_reference}
   */
   readonly vmReference?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReferenceVmReference[] | cdktf.IResolvable;
 }
@@ -716,13 +716,13 @@ export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferen
   /**
   * image_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#image_reference OvaVmDeployV2#image_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#image_reference OvaVmDeployV2#image_reference}
   */
   readonly imageReference?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceImageReference[] | cdktf.IResolvable;
   /**
   * vm_disk_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#vm_disk_reference OvaVmDeployV2#vm_disk_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#vm_disk_reference OvaVmDeployV2#vm_disk_reference}
   */
   readonly vmDiskReference?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReferenceVmDiskReference[] | cdktf.IResolvable;
 }
@@ -869,7 +869,7 @@ export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSource {
   /**
   * reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#reference OvaVmDeployV2#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#reference OvaVmDeployV2#reference}
   */
   readonly reference?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceReference[] | cdktf.IResolvable;
 }
@@ -985,7 +985,7 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSourceList extend
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#is_flash_mode_enabled OvaVmDeployV2#is_flash_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#is_flash_mode_enabled OvaVmDeployV2#is_flash_mode_enabled}
   */
   readonly isFlashModeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1101,7 +1101,7 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageConfigList ext
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -1217,25 +1217,25 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageContainerList 
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsBackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#disk_size_bytes OvaVmDeployV2#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#disk_size_bytes OvaVmDeployV2#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#data_source OvaVmDeployV2#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#data_source OvaVmDeployV2#data_source}
   */
   readonly dataSource?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoDataSource[] | cdktf.IResolvable;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#storage_config OvaVmDeployV2#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#storage_config OvaVmDeployV2#storage_config}
   */
   readonly storageConfig?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageConfig[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#storage_container OvaVmDeployV2#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#storage_container OvaVmDeployV2#storage_container}
   */
   readonly storageContainer?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoStorageContainer[] | cdktf.IResolvable;
 }
@@ -1438,11 +1438,11 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsBackingInfoList extends cdktf.Co
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRomsDiskAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#bus_type OvaVmDeployV2#bus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#bus_type OvaVmDeployV2#bus_type}
   */
   readonly busType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#index OvaVmDeployV2#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#index OvaVmDeployV2#index}
   */
   readonly index?: number;
 }
@@ -1587,19 +1587,19 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsDiskAddressList extends cdktf.Co
 }
 export interface OvaVmDeployV2OverrideVmConfigCdRoms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#iso_type OvaVmDeployV2#iso_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#iso_type OvaVmDeployV2#iso_type}
   */
   readonly isoType?: string;
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#backing_info OvaVmDeployV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#backing_info OvaVmDeployV2#backing_info}
   */
   readonly backingInfo?: OvaVmDeployV2OverrideVmConfigCdRomsBackingInfo[] | cdktf.IResolvable;
   /**
   * disk_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#disk_address OvaVmDeployV2#disk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#disk_address OvaVmDeployV2#disk_address}
   */
   readonly diskAddress?: OvaVmDeployV2OverrideVmConfigCdRomsDiskAddress[] | cdktf.IResolvable;
 }
@@ -1778,19 +1778,19 @@ export class OvaVmDeployV2OverrideVmConfigCdRomsList extends cdktf.ComplexList {
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsBackingInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#is_connected OvaVmDeployV2#is_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#is_connected OvaVmDeployV2#is_connected}
   */
   readonly isConnected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#mac_address OvaVmDeployV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#mac_address OvaVmDeployV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#model OvaVmDeployV2#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#model OvaVmDeployV2#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#num_queues OvaVmDeployV2#num_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#num_queues OvaVmDeployV2#num_queues}
   */
   readonly numQueues?: number;
 }
@@ -1993,11 +1993,11 @@ export class OvaVmDeployV2OverrideVmConfigNicsBackingInfoList extends cdktf.Comp
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
   */
   readonly value?: string;
 }
@@ -2142,11 +2142,11 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigIpAddressList
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
   */
   readonly value?: string;
 }
@@ -2291,19 +2291,19 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigSecondaryIpAd
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#should_assign_ip OvaVmDeployV2#should_assign_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#should_assign_ip OvaVmDeployV2#should_assign_ip}
   */
   readonly shouldAssignIp?: boolean | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ip_address OvaVmDeployV2#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ip_address OvaVmDeployV2#ip_address}
   */
   readonly ipAddress?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigIpAddress[] | cdktf.IResolvable;
   /**
   * secondary_ip_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#secondary_ip_address_list OvaVmDeployV2#secondary_ip_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#secondary_ip_address_list OvaVmDeployV2#secondary_ip_address_list}
   */
   readonly secondaryIpAddressList?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigSecondaryIpAddressListStruct[] | cdktf.IResolvable;
 }
@@ -2477,11 +2477,11 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4ConfigList extends 
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4InfoLearnedIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#prefix_length OvaVmDeployV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#value OvaVmDeployV2#value}
   */
   readonly value: string;
 }
@@ -2625,7 +2625,7 @@ export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4Info {
   /**
   * learned_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#learned_ip_addresses OvaVmDeployV2#learned_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#learned_ip_addresses OvaVmDeployV2#learned_ip_addresses}
   */
   readonly learnedIpAddresses?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4InfoLearnedIpAddresses[] | cdktf.IResolvable;
 }
@@ -2741,7 +2741,7 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4InfoList extends cd
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoNetworkFunctionChain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -2857,7 +2857,7 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoNetworkFunctionChainLis
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfoSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ext_id OvaVmDeployV2#ext_id}
   */
   readonly extId?: string;
 }
@@ -2973,47 +2973,47 @@ export class OvaVmDeployV2OverrideVmConfigNicsNetworkInfoSubnetList extends cdkt
 }
 export interface OvaVmDeployV2OverrideVmConfigNicsNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#network_function_nic_type OvaVmDeployV2#network_function_nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#network_function_nic_type OvaVmDeployV2#network_function_nic_type}
   */
   readonly networkFunctionNicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#nic_type OvaVmDeployV2#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#nic_type OvaVmDeployV2#nic_type}
   */
   readonly nicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#should_allow_unknown_macs OvaVmDeployV2#should_allow_unknown_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#should_allow_unknown_macs OvaVmDeployV2#should_allow_unknown_macs}
   */
   readonly shouldAllowUnknownMacs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#trunked_vlans OvaVmDeployV2#trunked_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#trunked_vlans OvaVmDeployV2#trunked_vlans}
   */
   readonly trunkedVlans?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#vlan_mode OvaVmDeployV2#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#vlan_mode OvaVmDeployV2#vlan_mode}
   */
   readonly vlanMode?: string;
   /**
   * ipv4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ipv4_config OvaVmDeployV2#ipv4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ipv4_config OvaVmDeployV2#ipv4_config}
   */
   readonly ipv4Config?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4Config[] | cdktf.IResolvable;
   /**
   * ipv4_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#ipv4_info OvaVmDeployV2#ipv4_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#ipv4_info OvaVmDeployV2#ipv4_info}
   */
   readonly ipv4Info?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoIpv4Info[] | cdktf.IResolvable;
   /**
   * network_function_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#network_function_chain OvaVmDeployV2#network_function_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#network_function_chain OvaVmDeployV2#network_function_chain}
   */
   readonly networkFunctionChain?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoNetworkFunctionChain[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#subnet OvaVmDeployV2#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#subnet OvaVmDeployV2#subnet}
   */
   readonly subnet?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfoSubnet[] | cdktf.IResolvable;
 }
@@ -3363,13 +3363,13 @@ export interface OvaVmDeployV2OverrideVmConfigNics {
   /**
   * backing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#backing_info OvaVmDeployV2#backing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#backing_info OvaVmDeployV2#backing_info}
   */
   readonly backingInfo?: OvaVmDeployV2OverrideVmConfigNicsBackingInfo[] | cdktf.IResolvable;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#network_info OvaVmDeployV2#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#network_info OvaVmDeployV2#network_info}
   */
   readonly networkInfo?: OvaVmDeployV2OverrideVmConfigNicsNetworkInfo[] | cdktf.IResolvable;
 }
@@ -3519,41 +3519,41 @@ export class OvaVmDeployV2OverrideVmConfigNicsList extends cdktf.ComplexList {
 }
 export interface OvaVmDeployV2OverrideVmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#memory_size_bytes OvaVmDeployV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#memory_size_bytes OvaVmDeployV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#name OvaVmDeployV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#name OvaVmDeployV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#num_cores_per_socket OvaVmDeployV2#num_cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#num_cores_per_socket OvaVmDeployV2#num_cores_per_socket}
   */
   readonly numCoresPerSocket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#num_sockets OvaVmDeployV2#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#num_sockets OvaVmDeployV2#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#num_threads_per_core OvaVmDeployV2#num_threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#num_threads_per_core OvaVmDeployV2#num_threads_per_core}
   */
   readonly numThreadsPerCore?: number;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#categories OvaVmDeployV2#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#categories OvaVmDeployV2#categories}
   */
   readonly categories?: OvaVmDeployV2OverrideVmConfigCategories[] | cdktf.IResolvable;
   /**
   * cd_roms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#cd_roms OvaVmDeployV2#cd_roms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#cd_roms OvaVmDeployV2#cd_roms}
   */
   readonly cdRoms?: OvaVmDeployV2OverrideVmConfigCdRoms[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#nics OvaVmDeployV2#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#nics OvaVmDeployV2#nics}
   */
   readonly nics: OvaVmDeployV2OverrideVmConfigNics[] | cdktf.IResolvable;
 }
@@ -3869,7 +3869,7 @@ export class OvaVmDeployV2OverrideVmConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2 nutanix_ova_vm_deploy_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2 nutanix_ova_vm_deploy_v2}
 */
 export class OvaVmDeployV2 extends cdktf.TerraformResource {
 
@@ -3885,7 +3885,7 @@ export class OvaVmDeployV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OvaVmDeployV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OvaVmDeployV2 to import
-  * @param importFromId The id of the existing OvaVmDeployV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OvaVmDeployV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OvaVmDeployV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3897,7 +3897,7 @@ export class OvaVmDeployV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_vm_deploy_v2 nutanix_ova_vm_deploy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_vm_deploy_v2 nutanix_ova_vm_deploy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3908,8 +3908,8 @@ export class OvaVmDeployV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ova_vm_deploy_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

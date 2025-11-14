@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#account_moid DataIntersightFabricSpanSession#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#account_moid DataIntersightFabricSpanSession#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `Disabled` - Admin configured Disabled State.
   * * `Enabled` - Admin configured Enabled State.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#admin_state DataIntersightFabricSpanSession#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#admin_state DataIntersightFabricSpanSession#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -30,7 +30,7 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
@@ -41,23 +41,23 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `Failed` - User configured settings could not be applied.
   * * `Scheduled` - User configured settings are scheduled to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#config_state DataIntersightFabricSpanSession#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#config_state DataIntersightFabricSpanSession#config_state}
   */
   readonly configState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#create_time DataIntersightFabricSpanSession#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#create_time DataIntersightFabricSpanSession#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#domain_group_moid DataIntersightFabricSpanSession#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#domain_group_moid DataIntersightFabricSpanSession#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#id DataIntersightFabricSpanSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#id DataIntersightFabricSpanSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,26 +66,26 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#mod_time DataIntersightFabricSpanSession#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#mod_time DataIntersightFabricSpanSession#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * Name of the SPAN session. The name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#name DataIntersightFabricSpanSession#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#name DataIntersightFabricSpanSession#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -95,7 +95,7 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `Down` - SPAN session operational state is Down.
   * * `Error` - SPAN session operational state is Error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#oper_state DataIntersightFabricSpanSession#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#oper_state DataIntersightFabricSpanSession#oper_state}
   */
   readonly operState?: string;
   /**
@@ -114,30 +114,30 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `TunnelMisconfDown` - Tunnel Misconfigured or Down.
   * * `NoFlowIdSpecified` - No Flow ID specified for ERSPAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#oper_state_reason DataIntersightFabricSpanSession#oper_state_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#oper_state_reason DataIntersightFabricSpanSession#oper_state_reason}
   */
   readonly operStateReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#owners DataIntersightFabricSpanSession#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#owners DataIntersightFabricSpanSession#owners}
   */
   readonly owners?: string[];
   /**
   * Session ID identifies the SPAN session on the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#session_id DataIntersightFabricSpanSession#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#session_id DataIntersightFabricSpanSession#session_id}
   */
   readonly sessionId?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#shared_scope DataIntersightFabricSpanSession#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#shared_scope DataIntersightFabricSpanSession#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Count of total number of sources in the SPAN session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#source_count DataIntersightFabricSpanSession#source_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#source_count DataIntersightFabricSpanSession#source_count}
   */
   readonly sourceCount?: number;
   /**
@@ -145,7 +145,7 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `Disabled` - Admin configured Disabled State.
   * * `Enabled` - Admin configured Enabled State.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#span_control_packets DataIntersightFabricSpanSession#span_control_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#span_control_packets DataIntersightFabricSpanSession#span_control_packets}
   */
   readonly spanControlPackets?: string;
   /**
@@ -153,73 +153,73 @@ export interface DataIntersightFabricSpanSessionConfig extends cdktf.TerraformMe
   * * `A` - Switch Identifier of Fabric Interconnect A.
   * * `B` - Switch Identifier of Fabric Interconnect B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#switch_id DataIntersightFabricSpanSession#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#switch_id DataIntersightFabricSpanSession#switch_id}
   */
   readonly switchId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#ancestors DataIntersightFabricSpanSession#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#ancestors DataIntersightFabricSpanSession#ancestors}
   */
   readonly ancestors?: DataIntersightFabricSpanSessionAncestors[] | cdktf.IResolvable;
   /**
   * dest_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#dest_ports DataIntersightFabricSpanSession#dest_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#dest_ports DataIntersightFabricSpanSession#dest_ports}
   */
   readonly destPorts?: DataIntersightFabricSpanSessionDestPorts[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#network_element DataIntersightFabricSpanSession#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#network_element DataIntersightFabricSpanSession#network_element}
   */
   readonly networkElement?: DataIntersightFabricSpanSessionNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#parent DataIntersightFabricSpanSession#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#parent DataIntersightFabricSpanSession#parent}
   */
   readonly parent?: DataIntersightFabricSpanSessionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#permission_resources DataIntersightFabricSpanSession#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#permission_resources DataIntersightFabricSpanSession#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricSpanSessionPermissionResources[] | cdktf.IResolvable;
   /**
   * source_port_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#source_port_channels DataIntersightFabricSpanSession#source_port_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#source_port_channels DataIntersightFabricSpanSession#source_port_channels}
   */
   readonly sourcePortChannels?: DataIntersightFabricSpanSessionSourcePortChannels[] | cdktf.IResolvable;
   /**
   * source_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#source_ports DataIntersightFabricSpanSession#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#source_ports DataIntersightFabricSpanSession#source_ports}
   */
   readonly sourcePorts?: DataIntersightFabricSpanSessionSourcePorts[] | cdktf.IResolvable;
   /**
   * source_virtual_ifs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#source_virtual_ifs DataIntersightFabricSpanSession#source_virtual_ifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#source_virtual_ifs DataIntersightFabricSpanSession#source_virtual_ifs}
   */
   readonly sourceVirtualIfs?: DataIntersightFabricSpanSessionSourceVirtualIfs[] | cdktf.IResolvable;
   /**
   * source_vlans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#source_vlans DataIntersightFabricSpanSession#source_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#source_vlans DataIntersightFabricSpanSession#source_vlans}
   */
   readonly sourceVlans?: DataIntersightFabricSpanSessionSourceVlans[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#tags DataIntersightFabricSpanSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#tags DataIntersightFabricSpanSession#tags}
   */
   readonly tags?: DataIntersightFabricSpanSessionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#version_context DataIntersightFabricSpanSession#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#version_context DataIntersightFabricSpanSession#version_context}
   */
   readonly versionContext?: DataIntersightFabricSpanSessionVersionContext;
 }
@@ -1346,6 +1346,11 @@ export class DataIntersightFabricSpanSessionResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1915,7 +1920,7 @@ export class DataIntersightFabricSpanSessionResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightFabricSpanSessionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1923,19 +1928,19 @@ export interface DataIntersightFabricSpanSessionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1948,7 +1953,7 @@ export interface DataIntersightFabricSpanSessionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -2180,7 +2185,7 @@ export class DataIntersightFabricSpanSessionAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightFabricSpanSessionDestPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2188,19 +2193,19 @@ export interface DataIntersightFabricSpanSessionDestPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2213,7 +2218,7 @@ export interface DataIntersightFabricSpanSessionDestPorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -2445,7 +2450,7 @@ export class DataIntersightFabricSpanSessionDestPortsList extends cdktf.ComplexL
 }
 export interface DataIntersightFabricSpanSessionNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2453,19 +2458,19 @@ export interface DataIntersightFabricSpanSessionNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2478,7 +2483,7 @@ export interface DataIntersightFabricSpanSessionNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -2678,7 +2683,7 @@ export class DataIntersightFabricSpanSessionNetworkElementOutputReference extend
 }
 export interface DataIntersightFabricSpanSessionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2686,19 +2691,19 @@ export interface DataIntersightFabricSpanSessionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2711,7 +2716,7 @@ export interface DataIntersightFabricSpanSessionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -2911,7 +2916,7 @@ export class DataIntersightFabricSpanSessionParentOutputReference extends cdktf.
 }
 export interface DataIntersightFabricSpanSessionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2919,19 +2924,19 @@ export interface DataIntersightFabricSpanSessionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2944,7 +2949,7 @@ export interface DataIntersightFabricSpanSessionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -3176,7 +3181,7 @@ export class DataIntersightFabricSpanSessionPermissionResourcesList extends cdkt
 }
 export interface DataIntersightFabricSpanSessionSourcePortChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3184,19 +3189,19 @@ export interface DataIntersightFabricSpanSessionSourcePortChannels {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3209,7 +3214,7 @@ export interface DataIntersightFabricSpanSessionSourcePortChannels {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -3441,7 +3446,7 @@ export class DataIntersightFabricSpanSessionSourcePortChannelsList extends cdktf
 }
 export interface DataIntersightFabricSpanSessionSourcePorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3449,19 +3454,19 @@ export interface DataIntersightFabricSpanSessionSourcePorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3474,7 +3479,7 @@ export interface DataIntersightFabricSpanSessionSourcePorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -3706,7 +3711,7 @@ export class DataIntersightFabricSpanSessionSourcePortsList extends cdktf.Comple
 }
 export interface DataIntersightFabricSpanSessionSourceVirtualIfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3714,19 +3719,19 @@ export interface DataIntersightFabricSpanSessionSourceVirtualIfs {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3739,7 +3744,7 @@ export interface DataIntersightFabricSpanSessionSourceVirtualIfs {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -3971,7 +3976,7 @@ export class DataIntersightFabricSpanSessionSourceVirtualIfsList extends cdktf.C
 }
 export interface DataIntersightFabricSpanSessionSourceVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3979,19 +3984,19 @@ export interface DataIntersightFabricSpanSessionSourceVlans {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4004,7 +4009,7 @@ export interface DataIntersightFabricSpanSessionSourceVlans {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -4236,7 +4241,7 @@ export class DataIntersightFabricSpanSessionSourceVlansList extends cdktf.Comple
 }
 export interface DataIntersightFabricSpanSessionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4244,19 +4249,19 @@ export interface DataIntersightFabricSpanSessionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4269,7 +4274,7 @@ export interface DataIntersightFabricSpanSessionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -4501,7 +4506,7 @@ export class DataIntersightFabricSpanSessionTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightFabricSpanSessionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4509,19 +4514,19 @@ export interface DataIntersightFabricSpanSessionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4534,7 +4539,7 @@ export interface DataIntersightFabricSpanSessionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -4734,45 +4739,51 @@ export class DataIntersightFabricSpanSessionTagsDefinitionOutputReference extend
 }
 export interface DataIntersightFabricSpanSessionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#key DataIntersightFabricSpanSession#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#key DataIntersightFabricSpanSession#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#propagated DataIntersightFabricSpanSession#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#propagated DataIntersightFabricSpanSession#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#sys_tag DataIntersightFabricSpanSession#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#type DataIntersightFabricSpanSession#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#type DataIntersightFabricSpanSession#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#value DataIntersightFabricSpanSession#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#value DataIntersightFabricSpanSession#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#ancestor_definitions DataIntersightFabricSpanSession#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#ancestor_definitions DataIntersightFabricSpanSession#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricSpanSessionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#definition DataIntersightFabricSpanSession#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#definition DataIntersightFabricSpanSession#definition}
   */
   readonly definition?: DataIntersightFabricSpanSessionTagsDefinition;
 }
@@ -4786,6 +4797,7 @@ export function dataIntersightFabricSpanSessionTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFabricSpanSessionTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4814,6 +4826,12 @@ export function dataIntersightFabricSpanSessionTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4880,6 +4898,10 @@ export class DataIntersightFabricSpanSessionTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4906,6 +4928,7 @@ export class DataIntersightFabricSpanSessionTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4921,6 +4944,7 @@ export class DataIntersightFabricSpanSessionTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4974,6 +4998,22 @@ export class DataIntersightFabricSpanSessionTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5062,7 +5102,7 @@ export class DataIntersightFabricSpanSessionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFabricSpanSessionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5070,19 +5110,19 @@ export interface DataIntersightFabricSpanSessionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5095,7 +5135,7 @@ export interface DataIntersightFabricSpanSessionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -5327,7 +5367,7 @@ export class DataIntersightFabricSpanSessionVersionContextInterestedMosList exte
 }
 export interface DataIntersightFabricSpanSessionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5335,19 +5375,19 @@ export interface DataIntersightFabricSpanSessionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#moid DataIntersightFabricSpanSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5360,7 +5400,7 @@ export interface DataIntersightFabricSpanSessionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#selector DataIntersightFabricSpanSession#selector}
   */
   readonly selector?: string;
 }
@@ -5560,7 +5600,7 @@ export class DataIntersightFabricSpanSessionVersionContextRefMoOutputReference e
 }
 export interface DataIntersightFabricSpanSessionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#additional_properties DataIntersightFabricSpanSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5568,32 +5608,32 @@ export interface DataIntersightFabricSpanSessionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#class_id DataIntersightFabricSpanSession#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#marked_for_deletion DataIntersightFabricSpanSession#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#marked_for_deletion DataIntersightFabricSpanSession#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#nr_version DataIntersightFabricSpanSession#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#nr_version DataIntersightFabricSpanSession#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#object_type DataIntersightFabricSpanSession#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#timestamp DataIntersightFabricSpanSession#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#timestamp DataIntersightFabricSpanSession#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5604,19 +5644,19 @@ export interface DataIntersightFabricSpanSessionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#version_type DataIntersightFabricSpanSession#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#version_type DataIntersightFabricSpanSession#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#interested_mos DataIntersightFabricSpanSession#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#interested_mos DataIntersightFabricSpanSession#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricSpanSessionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#ref_mo DataIntersightFabricSpanSession#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#ref_mo DataIntersightFabricSpanSession#ref_mo}
   */
   readonly refMo?: DataIntersightFabricSpanSessionVersionContextRefMo;
 }
@@ -5932,7 +5972,7 @@ export class DataIntersightFabricSpanSessionVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session intersight_fabric_span_session}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session intersight_fabric_span_session}
 */
 export class DataIntersightFabricSpanSession extends cdktf.TerraformDataSource {
 
@@ -5948,7 +5988,7 @@ export class DataIntersightFabricSpanSession extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFabricSpanSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricSpanSession to import
-  * @param importFromId The id of the existing DataIntersightFabricSpanSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricSpanSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricSpanSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5960,7 +6000,7 @@ export class DataIntersightFabricSpanSession extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fabric_span_session intersight_fabric_span_session} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_session intersight_fabric_span_session} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5971,8 +6011,8 @@ export class DataIntersightFabricSpanSession extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fabric_span_session',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataIntersightHciClusterConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#account_moid DataIntersightHciCluster#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#account_moid DataIntersightHciCluster#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The software build type, such as "release" or "debug" build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#build_info_build_type DataIntersightHciCluster#build_info_build_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#build_info_build_type DataIntersightHciCluster#build_info_build_type}
   */
   readonly buildInfoBuildType?: string;
   /**
   * The software commit id for this build image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#build_info_commit_id DataIntersightHciCluster#build_info_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#build_info_commit_id DataIntersightHciCluster#build_info_commit_id}
   */
   readonly buildInfoCommitId?: string;
   /**
   * The longer form of software version. It usually includes the commit id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#build_info_full_version DataIntersightHciCluster#build_info_full_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#build_info_full_version DataIntersightHciCluster#build_info_full_version}
   */
   readonly buildInfoFullVersion?: string;
   /**
   * The short version of the software commit id for this build image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#build_info_short_commit_id DataIntersightHciCluster#build_info_short_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#build_info_short_commit_id DataIntersightHciCluster#build_info_short_commit_id}
   */
   readonly buildInfoShortCommitId?: string;
   /**
   * The software version from the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#build_info_version DataIntersightHciCluster#build_info_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#build_info_version DataIntersightHciCluster#build_info_version}
   */
   readonly buildInfoVersion?: string;
   /**
@@ -52,77 +52,77 @@ export interface DataIntersightHciClusterConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The CPU architecture of the cluster server such as x86_64 and PPC64LE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cluster_arch DataIntersightHciCluster#cluster_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cluster_arch DataIntersightHciCluster#cluster_arch}
   */
   readonly clusterArch?: string;
   /**
   * The unique identifier of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cluster_ext_id DataIntersightHciCluster#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cluster_ext_id DataIntersightHciCluster#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cluster_function DataIntersightHciCluster#cluster_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cluster_function DataIntersightHciCluster#cluster_function}
   */
   readonly clusterFunction?: string[];
   /**
   * The name of the default container created as part of cluster creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#container_name DataIntersightHciCluster#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#container_name DataIntersightHciCluster#container_name}
   */
   readonly containerName?: string;
   /**
   * The CPU capacity in Hz of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cpu_capacity_hz DataIntersightHciCluster#cpu_capacity_hz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cpu_capacity_hz DataIntersightHciCluster#cpu_capacity_hz}
   */
   readonly cpuCapacityHz?: number;
   /**
   * The CPU usage in Hz of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cpu_usage_hz DataIntersightHciCluster#cpu_usage_hz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cpu_usage_hz DataIntersightHciCluster#cpu_usage_hz}
   */
   readonly cpuUsageHz?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#create_time DataIntersightHciCluster#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#create_time DataIntersightHciCluster#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#domain_group_moid DataIntersightHciCluster#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#domain_group_moid DataIntersightHciCluster#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Indicate if encryption-in-transit is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#encryption_in_transit_status DataIntersightHciCluster#encryption_in_transit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#encryption_in_transit_status DataIntersightHciCluster#encryption_in_transit_status}
   */
   readonly encryptionInTransitStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#encryption_scope DataIntersightHciCluster#encryption_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#encryption_scope DataIntersightHciCluster#encryption_scope}
   */
   readonly encryptionScope?: string[];
   /**
   * The external subnet of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#external_subnet DataIntersightHciCluster#external_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#external_subnet DataIntersightHciCluster#external_subnet}
   */
   readonly externalSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#hypervisor_types DataIntersightHciCluster#hypervisor_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#hypervisor_types DataIntersightHciCluster#hypervisor_types}
   */
   readonly hypervisorTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#id DataIntersightHciCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#id DataIntersightHciCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,302 +131,302 @@ export interface DataIntersightHciClusterConfig extends cdktf.TerraformMetaArgum
   /**
   * Cluster incarnation Id, part of payload for cluster update operation only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#incarnationid DataIntersightHciCluster#incarnationid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#incarnationid DataIntersightHciCluster#incarnationid}
   */
   readonly incarnationid?: string;
   /**
   * The number of inefficient VMs in this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#inefficient_vm_count DataIntersightHciCluster#inefficient_vm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#inefficient_vm_count DataIntersightHciCluster#inefficient_vm_count}
   */
   readonly inefficientVmCount?: number;
   /**
   * The internal subnet of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#internal_subnet DataIntersightHciCluster#internal_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#internal_subnet DataIntersightHciCluster#internal_subnet}
   */
   readonly internalSubnet?: string;
   /**
   * The LTS status indicates whether the release is categorized as Long-term or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#is_lts DataIntersightHciCluster#is_lts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#is_lts DataIntersightHciCluster#is_lts}
   */
   readonly isLts?: boolean | cdktf.IResolvable;
   /**
   * The key management server type of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#key_management_server_type DataIntersightHciCluster#key_management_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#key_management_server_type DataIntersightHciCluster#key_management_server_type}
   */
   readonly keyManagementServerType?: string;
   /**
   * The masquerading port of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#masquerading_port DataIntersightHciCluster#masquerading_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#masquerading_port DataIntersightHciCluster#masquerading_port}
   */
   readonly masqueradingPort?: number;
   /**
   * The memory capacity in bytes of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#memory_capacity_bytes DataIntersightHciCluster#memory_capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#memory_capacity_bytes DataIntersightHciCluster#memory_capacity_bytes}
   */
   readonly memoryCapacityBytes?: number;
   /**
   * The memory usage in bytes of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#memory_usage_bytes DataIntersightHciCluster#memory_usage_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#memory_usage_bytes DataIntersightHciCluster#memory_usage_bytes}
   */
   readonly memoryUsageBytes?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#mod_time DataIntersightHciCluster#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#mod_time DataIntersightHciCluster#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The name of the reported cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#name DataIntersightHciCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#name DataIntersightHciCluster#name}
   */
   readonly name?: string;
   /**
   * The number of nodes in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#number_of_nodes DataIntersightHciCluster#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#number_of_nodes DataIntersightHciCluster#number_of_nodes}
   */
   readonly numberOfNodes?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The operation mode of the cluster such as NORMAL, READ_ONLY, STAND_ALONE, SWITCH_TO_TWO_NODE, OVERRIDE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#operation_mode DataIntersightHciCluster#operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#operation_mode DataIntersightHciCluster#operation_mode}
   */
   readonly operationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#owners DataIntersightHciCluster#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#owners DataIntersightHciCluster#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates whether the password ssh into the cluster is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#password_remote_login_enabled DataIntersightHciCluster#password_remote_login_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#password_remote_login_enabled DataIntersightHciCluster#password_remote_login_enabled}
   */
   readonly passwordRemoteLoginEnabled?: boolean | cdktf.IResolvable;
   /**
   * The unique identifier of the domain manager (Prism Central) instance which manages this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#pc_ext_id DataIntersightHciCluster#pc_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#pc_ext_id DataIntersightHciCluster#pc_ext_id}
   */
   readonly pcExtId?: string;
   /**
   * The redundancy factor of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#redundancy_factor DataIntersightHciCluster#redundancy_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#redundancy_factor DataIntersightHciCluster#redundancy_factor}
   */
   readonly redundancyFactor?: number;
   /**
   * The remote support status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#remote_support DataIntersightHciCluster#remote_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#remote_support DataIntersightHciCluster#remote_support}
   */
   readonly remoteSupport?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#shared_scope DataIntersightHciCluster#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#shared_scope DataIntersightHciCluster#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The storage capacity in bytes of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#storage_capacity_bytes DataIntersightHciCluster#storage_capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#storage_capacity_bytes DataIntersightHciCluster#storage_capacity_bytes}
   */
   readonly storageCapacityBytes?: number;
   /**
   * The storage usage in bytes of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#storage_usage_bytes DataIntersightHciCluster#storage_usage_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#storage_usage_bytes DataIntersightHciCluster#storage_usage_bytes}
   */
   readonly storageUsageBytes?: number;
   /**
   * The timezone of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#timezone DataIntersightHciCluster#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#timezone DataIntersightHciCluster#timezone}
   */
   readonly timezone?: string;
   /**
   * The upgrade status of a cluster includes the following known values: PENDING, DOWNLOADING, QUEUED, PREUPGRADE, UPGRADING, SUCCEEDED,
   * FAILED, CANCELLED, and SCHEDULED.The upgrade status of a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#upgrade_status DataIntersightHciCluster#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#upgrade_status DataIntersightHciCluster#upgrade_status}
   */
   readonly upgradeStatus?: string;
   /**
   * The number of VMs running on this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#vm_count DataIntersightHciCluster#vm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#vm_count DataIntersightHciCluster#vm_count}
   */
   readonly vmCount?: number;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#alarm_summary DataIntersightHciCluster#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#alarm_summary DataIntersightHciCluster#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightHciClusterAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ancestors DataIntersightHciCluster#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ancestors DataIntersightHciCluster#ancestors}
   */
   readonly ancestors?: DataIntersightHciClusterAncestors[] | cdktf.IResolvable;
   /**
   * backplane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#backplane DataIntersightHciCluster#backplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#backplane DataIntersightHciCluster#backplane}
   */
   readonly backplane?: DataIntersightHciClusterBackplane;
   /**
   * cluster_software_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#cluster_software_map DataIntersightHciCluster#cluster_software_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#cluster_software_map DataIntersightHciCluster#cluster_software_map}
   */
   readonly clusterSoftwareMap?: DataIntersightHciClusterClusterSoftwareMap[] | cdktf.IResolvable;
   /**
   * compliance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#compliance DataIntersightHciCluster#compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#compliance DataIntersightHciCluster#compliance}
   */
   readonly compliance?: DataIntersightHciClusterCompliance;
   /**
   * domain_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#domain_manager DataIntersightHciCluster#domain_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#domain_manager DataIntersightHciCluster#domain_manager}
   */
   readonly domainManager?: DataIntersightHciClusterDomainManager;
   /**
   * entitlement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#entitlement DataIntersightHciCluster#entitlement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#entitlement DataIntersightHciCluster#entitlement}
   */
   readonly entitlement?: DataIntersightHciClusterEntitlement;
   /**
   * external_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#external_address DataIntersightHciCluster#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#external_address DataIntersightHciCluster#external_address}
   */
   readonly externalAddress?: DataIntersightHciClusterExternalAddress;
   /**
   * external_data_service_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#external_data_service_ip DataIntersightHciCluster#external_data_service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#external_data_service_ip DataIntersightHciCluster#external_data_service_ip}
   */
   readonly externalDataServiceIp?: DataIntersightHciClusterExternalDataServiceIp;
   /**
   * fault_tolerance_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#fault_tolerance_state DataIntersightHciCluster#fault_tolerance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#fault_tolerance_state DataIntersightHciCluster#fault_tolerance_state}
   */
   readonly faultToleranceState?: DataIntersightHciClusterFaultToleranceState;
   /**
   * management_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#management_server DataIntersightHciCluster#management_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#management_server DataIntersightHciCluster#management_server}
   */
   readonly managementServer?: DataIntersightHciClusterManagementServer;
   /**
   * masquerading_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#masquerading_ip DataIntersightHciCluster#masquerading_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#masquerading_ip DataIntersightHciCluster#masquerading_ip}
   */
   readonly masqueradingIp?: DataIntersightHciClusterMasqueradingIp;
   /**
   * name_server_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#name_server_ip_list DataIntersightHciCluster#name_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#name_server_ip_list DataIntersightHciCluster#name_server_ip_list}
   */
   readonly nameServerIpList?: DataIntersightHciClusterNameServerIpListStruct[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#nodes DataIntersightHciCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#nodes DataIntersightHciCluster#nodes}
   */
   readonly nodes?: DataIntersightHciClusterNodes[] | cdktf.IResolvable;
   /**
   * ntp_server_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ntp_server_ip_list DataIntersightHciCluster#ntp_server_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ntp_server_ip_list DataIntersightHciCluster#ntp_server_ip_list}
   */
   readonly ntpServerIpList?: DataIntersightHciClusterNtpServerIpListStruct[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#parent DataIntersightHciCluster#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#parent DataIntersightHciCluster#parent}
   */
   readonly parent?: DataIntersightHciClusterParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#permission_resources DataIntersightHciCluster#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#permission_resources DataIntersightHciCluster#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciClusterPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_gpus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#physical_gpus DataIntersightHciCluster#physical_gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#physical_gpus DataIntersightHciCluster#physical_gpus}
   */
   readonly physicalGpus?: DataIntersightHciClusterPhysicalGpus[] | cdktf.IResolvable;
   /**
   * pulse_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#pulse_status DataIntersightHciCluster#pulse_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#pulse_status DataIntersightHciCluster#pulse_status}
   */
   readonly pulseStatus?: DataIntersightHciClusterPulseStatus;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#registered_device DataIntersightHciCluster#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#registered_device DataIntersightHciCluster#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciClusterRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#tags DataIntersightHciCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#tags DataIntersightHciCluster#tags}
   */
   readonly tags?: DataIntersightHciClusterTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#version_context DataIntersightHciCluster#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#version_context DataIntersightHciCluster#version_context}
   */
   readonly versionContext?: DataIntersightHciClusterVersionContext;
   /**
   * violation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#violation DataIntersightHciCluster#violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#violation DataIntersightHciCluster#violation}
   */
   readonly violation?: DataIntersightHciClusterViolation;
   /**
   * virtual_gpus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#virtual_gpus DataIntersightHciCluster#virtual_gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#virtual_gpus DataIntersightHciCluster#virtual_gpus}
   */
   readonly virtualGpus?: DataIntersightHciClusterVirtualGpus[] | cdktf.IResolvable;
   /**
   * vms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#vms DataIntersightHciCluster#vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#vms DataIntersightHciCluster#vms}
   */
   readonly vms?: DataIntersightHciClusterVms[] | cdktf.IResolvable;
 }
@@ -3016,6 +3016,11 @@ export class DataIntersightHciClusterResultsTagsOutputReference extends cdktf.Co
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -4084,7 +4089,7 @@ export class DataIntersightHciClusterResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciClusterAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4092,13 +4097,13 @@ export interface DataIntersightHciClusterAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The count of alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#critical DataIntersightHciCluster#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#critical DataIntersightHciCluster#critical}
   */
   readonly critical?: number;
   /**
@@ -4107,26 +4112,26 @@ export interface DataIntersightHciClusterAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#health DataIntersightHciCluster#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#health DataIntersightHciCluster#health}
   */
   readonly health?: string;
   /**
   * The count of alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#info DataIntersightHciCluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#info DataIntersightHciCluster#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The count of alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#warning DataIntersightHciCluster#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#warning DataIntersightHciCluster#warning}
   */
   readonly warning?: number;
 }
@@ -4384,7 +4389,7 @@ export class DataIntersightHciClusterAlarmSummaryOutputReference extends cdktf.C
 }
 export interface DataIntersightHciClusterAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4392,19 +4397,19 @@ export interface DataIntersightHciClusterAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4417,7 +4422,7 @@ export interface DataIntersightHciClusterAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -4649,7 +4654,7 @@ export class DataIntersightHciClusterAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciClusterBackplaneNetmask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4657,38 +4662,38 @@ export interface DataIntersightHciClusterBackplaneNetmask {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -4946,7 +4951,7 @@ export class DataIntersightHciClusterBackplaneNetmaskOutputReference extends cdk
 }
 export interface DataIntersightHciClusterBackplaneSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4954,38 +4959,38 @@ export interface DataIntersightHciClusterBackplaneSubnet {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -5243,7 +5248,7 @@ export class DataIntersightHciClusterBackplaneSubnetOutputReference extends cdkt
 }
 export interface DataIntersightHciClusterBackplane {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5251,38 +5256,38 @@ export interface DataIntersightHciClusterBackplane {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * Is segmentation enabled on the backplane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#is_segmentation_enabled DataIntersightHciCluster#is_segmentation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#is_segmentation_enabled DataIntersightHciCluster#is_segmentation_enabled}
   */
   readonly isSegmentationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The vlan tag of this backplane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#vlan_tag DataIntersightHciCluster#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#vlan_tag DataIntersightHciCluster#vlan_tag}
   */
   readonly vlanTag?: number;
   /**
   * netmask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#netmask DataIntersightHciCluster#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#netmask DataIntersightHciCluster#netmask}
   */
   readonly netmask?: DataIntersightHciClusterBackplaneNetmask;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#subnet DataIntersightHciCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#subnet DataIntersightHciCluster#subnet}
   */
   readonly subnet?: DataIntersightHciClusterBackplaneSubnet;
 }
@@ -5540,7 +5545,7 @@ export class DataIntersightHciClusterBackplaneOutputReference extends cdktf.Comp
 }
 export interface DataIntersightHciClusterClusterSoftwareMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5548,26 +5553,26 @@ export interface DataIntersightHciClusterClusterSoftwareMap {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The version of the software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#nr_version DataIntersightHciCluster#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#nr_version DataIntersightHciCluster#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The type of the software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#software_type DataIntersightHciCluster#software_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#software_type DataIntersightHciCluster#software_type}
   */
   readonly softwareType?: string;
 }
@@ -5799,7 +5804,7 @@ export class DataIntersightHciClusterClusterSoftwareMapList extends cdktf.Comple
 }
 export interface DataIntersightHciClusterCompliance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5807,19 +5812,19 @@ export interface DataIntersightHciClusterCompliance {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5832,7 +5837,7 @@ export interface DataIntersightHciClusterCompliance {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -6032,7 +6037,7 @@ export class DataIntersightHciClusterComplianceOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciClusterDomainManager {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6040,19 +6045,19 @@ export interface DataIntersightHciClusterDomainManager {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6065,7 +6070,7 @@ export interface DataIntersightHciClusterDomainManager {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -6265,7 +6270,7 @@ export class DataIntersightHciClusterDomainManagerOutputReference extends cdktf.
 }
 export interface DataIntersightHciClusterEntitlement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6273,19 +6278,19 @@ export interface DataIntersightHciClusterEntitlement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6298,7 +6303,7 @@ export interface DataIntersightHciClusterEntitlement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -6498,7 +6503,7 @@ export class DataIntersightHciClusterEntitlementOutputReference extends cdktf.Co
 }
 export interface DataIntersightHciClusterExternalAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6506,38 +6511,38 @@ export interface DataIntersightHciClusterExternalAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -6795,7 +6800,7 @@ export class DataIntersightHciClusterExternalAddressOutputReference extends cdkt
 }
 export interface DataIntersightHciClusterExternalDataServiceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6803,38 +6808,38 @@ export interface DataIntersightHciClusterExternalDataServiceIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -7092,7 +7097,7 @@ export class DataIntersightHciClusterExternalDataServiceIpOutputReference extend
 }
 export interface DataIntersightHciClusterFaultToleranceState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7100,33 +7105,33 @@ export interface DataIntersightHciClusterFaultToleranceState {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The maximum fault tolerance level that is supported currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#current_max_fault_tolerance DataIntersightHciCluster#current_max_fault_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#current_max_fault_tolerance DataIntersightHciCluster#current_max_fault_tolerance}
   */
   readonly currentMaxFaultTolerance?: number;
   /**
   * The maximum fault tolerance level that is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#desired_max_fault_tolerance DataIntersightHciCluster#desired_max_fault_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#desired_max_fault_tolerance DataIntersightHciCluster#desired_max_fault_tolerance}
   */
   readonly desiredMaxFaultTolerance?: number;
   /**
   * Domain awareness level corresponds to unit of cluster group. Part of
   * payload for both cluster create & update operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#domain_awareness_level DataIntersightHciCluster#domain_awareness_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#domain_awareness_level DataIntersightHciCluster#domain_awareness_level}
   */
   readonly domainAwarenessLevel?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -7355,7 +7360,7 @@ export class DataIntersightHciClusterFaultToleranceStateOutputReference extends 
 }
 export interface DataIntersightHciClusterManagementServerIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7363,38 +7368,38 @@ export interface DataIntersightHciClusterManagementServerIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -7652,7 +7657,7 @@ export class DataIntersightHciClusterManagementServerIpOutputReference extends c
 }
 export interface DataIntersightHciClusterManagementServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7660,44 +7665,44 @@ export interface DataIntersightHciClusterManagementServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * Is DRS enabled on the management server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#drs_enabled DataIntersightHciCluster#drs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#drs_enabled DataIntersightHciCluster#drs_enabled}
   */
   readonly drsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the management server is in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#in_use DataIntersightHciCluster#in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#in_use DataIntersightHciCluster#in_use}
   */
   readonly inUse?: boolean | cdktf.IResolvable;
   /**
   * Is the management server registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#is_registered DataIntersightHciCluster#is_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#is_registered DataIntersightHciCluster#is_registered}
   */
   readonly isRegistered?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The fully qualified domain name of the management server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#type DataIntersightHciCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#type DataIntersightHciCluster#type}
   */
   readonly type?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ip DataIntersightHciCluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ip DataIntersightHciCluster#ip}
   */
   readonly ip?: DataIntersightHciClusterManagementServerIp;
 }
@@ -7984,7 +7989,7 @@ export class DataIntersightHciClusterManagementServerOutputReference extends cdk
 }
 export interface DataIntersightHciClusterMasqueradingIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7992,38 +7997,38 @@ export interface DataIntersightHciClusterMasqueradingIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -8281,7 +8286,7 @@ export class DataIntersightHciClusterMasqueradingIpOutputReference extends cdktf
 }
 export interface DataIntersightHciClusterNameServerIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8289,44 +8294,44 @@ export interface DataIntersightHciClusterNameServerIpListStruct {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The fully qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#fqdn DataIntersightHciCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#fqdn DataIntersightHciCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -8645,7 +8650,7 @@ export class DataIntersightHciClusterNameServerIpListStructList extends cdktf.Co
 }
 export interface DataIntersightHciClusterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8653,19 +8658,19 @@ export interface DataIntersightHciClusterNodes {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8678,7 +8683,7 @@ export interface DataIntersightHciClusterNodes {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -8910,7 +8915,7 @@ export class DataIntersightHciClusterNodesList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciClusterNtpServerIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8918,44 +8923,44 @@ export interface DataIntersightHciClusterNtpServerIpListStruct {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The fully qualified domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#fqdn DataIntersightHciCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#fqdn DataIntersightHciCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_address DataIntersightHciCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv4_prefix_length DataIntersightHciCluster#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_address DataIntersightHciCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ipv6_prefix_length DataIntersightHciCluster#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -9274,7 +9279,7 @@ export class DataIntersightHciClusterNtpServerIpListStructList extends cdktf.Com
 }
 export interface DataIntersightHciClusterParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9282,19 +9287,19 @@ export interface DataIntersightHciClusterParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9307,7 +9312,7 @@ export interface DataIntersightHciClusterParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -9507,7 +9512,7 @@ export class DataIntersightHciClusterParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightHciClusterPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9515,19 +9520,19 @@ export interface DataIntersightHciClusterPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9540,7 +9545,7 @@ export interface DataIntersightHciClusterPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -9772,7 +9777,7 @@ export class DataIntersightHciClusterPermissionResourcesList extends cdktf.Compl
 }
 export interface DataIntersightHciClusterPhysicalGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9780,19 +9785,19 @@ export interface DataIntersightHciClusterPhysicalGpus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9805,7 +9810,7 @@ export interface DataIntersightHciClusterPhysicalGpus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -10037,7 +10042,7 @@ export class DataIntersightHciClusterPhysicalGpusList extends cdktf.ComplexList 
 }
 export interface DataIntersightHciClusterPulseStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10045,26 +10050,26 @@ export interface DataIntersightHciClusterPulseStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The status of the pulse service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#enabled DataIntersightHciCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#enabled DataIntersightHciCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * PII Scrubbing Level for pulse. It describe at what level the pulse data is collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#pii_scrubbing_level DataIntersightHciCluster#pii_scrubbing_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#pii_scrubbing_level DataIntersightHciCluster#pii_scrubbing_level}
   */
   readonly piiScrubbingLevel?: string;
 }
@@ -10264,7 +10269,7 @@ export class DataIntersightHciClusterPulseStatusOutputReference extends cdktf.Co
 }
 export interface DataIntersightHciClusterRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10272,19 +10277,19 @@ export interface DataIntersightHciClusterRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10297,7 +10302,7 @@ export interface DataIntersightHciClusterRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -10497,7 +10502,7 @@ export class DataIntersightHciClusterRegisteredDeviceOutputReference extends cdk
 }
 export interface DataIntersightHciClusterTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10505,19 +10510,19 @@ export interface DataIntersightHciClusterTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10530,7 +10535,7 @@ export interface DataIntersightHciClusterTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -10762,7 +10767,7 @@ export class DataIntersightHciClusterTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightHciClusterTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10770,19 +10775,19 @@ export interface DataIntersightHciClusterTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10795,7 +10800,7 @@ export interface DataIntersightHciClusterTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -10995,45 +11000,51 @@ export class DataIntersightHciClusterTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightHciClusterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#key DataIntersightHciCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#key DataIntersightHciCluster#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#propagated DataIntersightHciCluster#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#propagated DataIntersightHciCluster#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#sys_tag DataIntersightHciCluster#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#type DataIntersightHciCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#type DataIntersightHciCluster#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#value DataIntersightHciCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#value DataIntersightHciCluster#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ancestor_definitions DataIntersightHciCluster#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ancestor_definitions DataIntersightHciCluster#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciClusterTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#definition DataIntersightHciCluster#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#definition DataIntersightHciCluster#definition}
   */
   readonly definition?: DataIntersightHciClusterTagsDefinition;
 }
@@ -11047,6 +11058,7 @@ export function dataIntersightHciClusterTagsToTerraform(struct?: DataIntersightH
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHciClusterTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -11075,6 +11087,12 @@ export function dataIntersightHciClusterTagsToHclTerraform(struct?: DataIntersig
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -11141,6 +11159,10 @@ export class DataIntersightHciClusterTagsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -11167,6 +11189,7 @@ export class DataIntersightHciClusterTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -11182,6 +11205,7 @@ export class DataIntersightHciClusterTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -11235,6 +11259,22 @@ export class DataIntersightHciClusterTagsOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -11323,7 +11363,7 @@ export class DataIntersightHciClusterTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciClusterVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11331,19 +11371,19 @@ export interface DataIntersightHciClusterVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11356,7 +11396,7 @@ export interface DataIntersightHciClusterVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -11588,7 +11628,7 @@ export class DataIntersightHciClusterVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightHciClusterVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11596,19 +11636,19 @@ export interface DataIntersightHciClusterVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11621,7 +11661,7 @@ export interface DataIntersightHciClusterVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -11821,7 +11861,7 @@ export class DataIntersightHciClusterVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightHciClusterVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11829,32 +11869,32 @@ export interface DataIntersightHciClusterVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#marked_for_deletion DataIntersightHciCluster#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#marked_for_deletion DataIntersightHciCluster#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#nr_version DataIntersightHciCluster#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#nr_version DataIntersightHciCluster#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#timestamp DataIntersightHciCluster#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#timestamp DataIntersightHciCluster#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -11865,19 +11905,19 @@ export interface DataIntersightHciClusterVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#version_type DataIntersightHciCluster#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#version_type DataIntersightHciCluster#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#interested_mos DataIntersightHciCluster#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#interested_mos DataIntersightHciCluster#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciClusterVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#ref_mo DataIntersightHciCluster#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#ref_mo DataIntersightHciCluster#ref_mo}
   */
   readonly refMo?: DataIntersightHciClusterVersionContextRefMo;
 }
@@ -12193,7 +12233,7 @@ export class DataIntersightHciClusterVersionContextOutputReference extends cdktf
 }
 export interface DataIntersightHciClusterViolation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12201,19 +12241,19 @@ export interface DataIntersightHciClusterViolation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12226,7 +12266,7 @@ export interface DataIntersightHciClusterViolation {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -12426,7 +12466,7 @@ export class DataIntersightHciClusterViolationOutputReference extends cdktf.Comp
 }
 export interface DataIntersightHciClusterVirtualGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12434,19 +12474,19 @@ export interface DataIntersightHciClusterVirtualGpus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12459,7 +12499,7 @@ export interface DataIntersightHciClusterVirtualGpus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -12691,7 +12731,7 @@ export class DataIntersightHciClusterVirtualGpusList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciClusterVms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#additional_properties DataIntersightHciCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12699,19 +12739,19 @@ export interface DataIntersightHciClusterVms {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#class_id DataIntersightHciCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#moid DataIntersightHciCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#object_type DataIntersightHciCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12724,7 +12764,7 @@ export interface DataIntersightHciClusterVms {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#selector DataIntersightHciCluster#selector}
   */
   readonly selector?: string;
 }
@@ -12956,7 +12996,7 @@ export class DataIntersightHciClusterVmsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster intersight_hci_cluster}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster intersight_hci_cluster}
 */
 export class DataIntersightHciCluster extends cdktf.TerraformDataSource {
 
@@ -12972,7 +13012,7 @@ export class DataIntersightHciCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciCluster to import
-  * @param importFromId The id of the existing DataIntersightHciCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12984,7 +13024,7 @@ export class DataIntersightHciCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hci_cluster intersight_hci_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_cluster intersight_hci_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12995,8 +13035,8 @@ export class DataIntersightHciCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_cluster',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

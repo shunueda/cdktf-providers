@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface PcBackupTargetV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#domain_manager_ext_id PcBackupTargetV2#domain_manager_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#domain_manager_ext_id PcBackupTargetV2#domain_manager_ext_id}
   */
   readonly domainManagerExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#id PcBackupTargetV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#id PcBackupTargetV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface PcBackupTargetV2Config extends cdktf.TerraformMetaArguments {
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#location PcBackupTargetV2#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#location PcBackupTargetV2#location}
   */
   readonly location: PcBackupTargetV2Location;
 }
@@ -107,7 +107,7 @@ export class PcBackupTargetV2LinksList extends cdktf.ComplexList {
 }
 export interface PcBackupTargetV2LocationClusterLocationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#ext_id PcBackupTargetV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#ext_id PcBackupTargetV2#ext_id}
   */
   readonly extId: string;
 }
@@ -227,7 +227,7 @@ export interface PcBackupTargetV2LocationClusterLocation {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#config PcBackupTargetV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#config PcBackupTargetV2#config}
   */
   readonly config: PcBackupTargetV2LocationClusterLocationConfig[] | cdktf.IResolvable;
 }
@@ -340,7 +340,7 @@ export class PcBackupTargetV2LocationClusterLocationList extends cdktf.ComplexLi
 }
 export interface PcBackupTargetV2LocationObjectStoreLocationBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#rpo_in_minutes PcBackupTargetV2#rpo_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#rpo_in_minutes PcBackupTargetV2#rpo_in_minutes}
   */
   readonly rpoInMinutes: number;
 }
@@ -453,11 +453,11 @@ export class PcBackupTargetV2LocationObjectStoreLocationBackupPolicyList extends
 }
 export interface PcBackupTargetV2LocationObjectStoreLocationProviderConfigCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#access_key_id PcBackupTargetV2#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#access_key_id PcBackupTargetV2#access_key_id}
   */
   readonly accessKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#secret_access_key PcBackupTargetV2#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#secret_access_key PcBackupTargetV2#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -564,17 +564,17 @@ export class PcBackupTargetV2LocationObjectStoreLocationProviderConfigCredential
 }
 export interface PcBackupTargetV2LocationObjectStoreLocationProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#bucket_name PcBackupTargetV2#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#bucket_name PcBackupTargetV2#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#region PcBackupTargetV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#region PcBackupTargetV2#region}
   */
   readonly region?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#credentials PcBackupTargetV2#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#credentials PcBackupTargetV2#credentials}
   */
   readonly credentials?: PcBackupTargetV2LocationObjectStoreLocationProviderConfigCredentials;
 }
@@ -747,13 +747,13 @@ export interface PcBackupTargetV2LocationObjectStoreLocation {
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#backup_policy PcBackupTargetV2#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#backup_policy PcBackupTargetV2#backup_policy}
   */
   readonly backupPolicy?: PcBackupTargetV2LocationObjectStoreLocationBackupPolicy[] | cdktf.IResolvable;
   /**
   * provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#provider_config PcBackupTargetV2#provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#provider_config PcBackupTargetV2#provider_config}
   */
   readonly providerConfig: PcBackupTargetV2LocationObjectStoreLocationProviderConfig[] | cdktf.IResolvable;
 }
@@ -897,13 +897,13 @@ export interface PcBackupTargetV2Location {
   /**
   * cluster_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#cluster_location PcBackupTargetV2#cluster_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#cluster_location PcBackupTargetV2#cluster_location}
   */
   readonly clusterLocation?: PcBackupTargetV2LocationClusterLocation[] | cdktf.IResolvable;
   /**
   * object_store_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#object_store_location PcBackupTargetV2#object_store_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#object_store_location PcBackupTargetV2#object_store_location}
   */
   readonly objectStoreLocation?: PcBackupTargetV2LocationObjectStoreLocation[] | cdktf.IResolvable;
 }
@@ -1016,7 +1016,7 @@ export class PcBackupTargetV2LocationOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2 nutanix_pc_backup_target_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2 nutanix_pc_backup_target_v2}
 */
 export class PcBackupTargetV2 extends cdktf.TerraformResource {
 
@@ -1032,7 +1032,7 @@ export class PcBackupTargetV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PcBackupTargetV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcBackupTargetV2 to import
-  * @param importFromId The id of the existing PcBackupTargetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcBackupTargetV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcBackupTargetV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1044,7 +1044,7 @@ export class PcBackupTargetV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_backup_target_v2 nutanix_pc_backup_target_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_backup_target_v2 nutanix_pc_backup_target_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1055,8 +1055,8 @@ export class PcBackupTargetV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_pc_backup_target_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

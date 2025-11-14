@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface KubernetesVirtualMachineNodeProfileConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#account_moid KubernetesVirtualMachineNodeProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#account_moid KubernetesVirtualMachineNodeProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#action KubernetesVirtualMachineNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#action KubernetesVirtualMachineNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#action_params KubernetesVirtualMachineNodeProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#action_params KubernetesVirtualMachineNodeProfile#action_params}
   */
   readonly actionParams?: KubernetesVirtualMachineNodeProfileActionParams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ancestors KubernetesVirtualMachineNodeProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ancestors KubernetesVirtualMachineNodeProfile#ancestors}
   */
   readonly ancestors?: KubernetesVirtualMachineNodeProfileAncestors[] | cdktf.IResolvable;
   /**
@@ -38,7 +38,7 @@ export interface KubernetesVirtualMachineNodeProfileConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -46,203 +46,203 @@ export interface KubernetesVirtualMachineNodeProfileConfig extends cdktf.Terrafo
   * * `noProvider` - Enables the use of no cloud provider.
   * * `external` - Out of tree cloud provider, e.g. CPI for vsphere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#cloud_provider KubernetesVirtualMachineNodeProfile#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#cloud_provider KubernetesVirtualMachineNodeProfile#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The configuration state and results of the last configuration operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#config_context KubernetesVirtualMachineNodeProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#config_context KubernetesVirtualMachineNodeProfile#config_context}
   */
   readonly configContext?: KubernetesVirtualMachineNodeProfileConfigContext[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesConfigResult resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#config_result KubernetesVirtualMachineNodeProfile#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#config_result KubernetesVirtualMachineNodeProfile#config_result}
   */
   readonly configResult?: KubernetesVirtualMachineNodeProfileConfigResult[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#create_time KubernetesVirtualMachineNodeProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#create_time KubernetesVirtualMachineNodeProfile#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#deployed_policies KubernetesVirtualMachineNodeProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#deployed_policies KubernetesVirtualMachineNodeProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#description KubernetesVirtualMachineNodeProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#description KubernetesVirtualMachineNodeProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#domain_group_moid KubernetesVirtualMachineNodeProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#domain_group_moid KubernetesVirtualMachineNodeProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#id KubernetesVirtualMachineNodeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#id KubernetesVirtualMachineNodeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#interfaces KubernetesVirtualMachineNodeProfile#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#interfaces KubernetesVirtualMachineNodeProfile#interfaces}
   */
   readonly interfaces?: KubernetesVirtualMachineNodeProfileInterfaces[] | cdktf.IResolvable;
   /**
   * An array of relationships to ippoolIpLease resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ip_addresses KubernetesVirtualMachineNodeProfile#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ip_addresses KubernetesVirtualMachineNodeProfile#ip_addresses}
   */
   readonly ipAddresses?: KubernetesVirtualMachineNodeProfileIpAddresses[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#mod_time KubernetesVirtualMachineNodeProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#mod_time KubernetesVirtualMachineNodeProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
   */
   readonly name?: string;
   /**
   * A reference to a kubernetesNodeGroupProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#node_group KubernetesVirtualMachineNodeProfile#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#node_group KubernetesVirtualMachineNodeProfile#node_group}
   */
   readonly nodeGroup?: KubernetesVirtualMachineNodeProfileNodeGroup[] | cdktf.IResolvable;
   /**
   * A reference to a ippoolIpLease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#node_ip KubernetesVirtualMachineNodeProfile#node_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#node_ip KubernetesVirtualMachineNodeProfile#node_ip}
   */
   readonly nodeIp?: KubernetesVirtualMachineNodeProfileNodeIp[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesVersion resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#nr_version KubernetesVirtualMachineNodeProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#nr_version KubernetesVirtualMachineNodeProfile#nr_version}
   */
   readonly nrVersion?: KubernetesVirtualMachineNodeProfileNrVersion[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#owners KubernetesVirtualMachineNodeProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#owners KubernetesVirtualMachineNodeProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#parent KubernetesVirtualMachineNodeProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#parent KubernetesVirtualMachineNodeProfile#parent}
   */
   readonly parent?: KubernetesVirtualMachineNodeProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#permission_resources KubernetesVirtualMachineNodeProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#permission_resources KubernetesVirtualMachineNodeProfile#permission_resources}
   */
   readonly permissionResources?: KubernetesVirtualMachineNodeProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#policy_bucket KubernetesVirtualMachineNodeProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#policy_bucket KubernetesVirtualMachineNodeProfile#policy_bucket}
   */
   readonly policyBucket?: KubernetesVirtualMachineNodeProfilePolicyBucket[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#removed_policies KubernetesVirtualMachineNodeProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#removed_policies KubernetesVirtualMachineNodeProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#scheduled_actions KubernetesVirtualMachineNodeProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#scheduled_actions KubernetesVirtualMachineNodeProfile#scheduled_actions}
   */
   readonly scheduledActions?: KubernetesVirtualMachineNodeProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#shared_scope KubernetesVirtualMachineNodeProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#shared_scope KubernetesVirtualMachineNodeProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#src_template KubernetesVirtualMachineNodeProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#src_template KubernetesVirtualMachineNodeProfile#src_template}
   */
   readonly srcTemplate?: KubernetesVirtualMachineNodeProfileSrcTemplate[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#tags KubernetesVirtualMachineNodeProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#tags KubernetesVirtualMachineNodeProfile#tags}
   */
   readonly tags?: KubernetesVirtualMachineNodeProfileTags[] | cdktf.IResolvable;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#target KubernetesVirtualMachineNodeProfile#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#target KubernetesVirtualMachineNodeProfile#target}
   */
   readonly target?: KubernetesVirtualMachineNodeProfileTarget[] | cdktf.IResolvable;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
   */
   readonly type?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#version_context KubernetesVirtualMachineNodeProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#version_context KubernetesVirtualMachineNodeProfile#version_context}
   */
   readonly versionContext?: KubernetesVirtualMachineNodeProfileVersionContext[] | cdktf.IResolvable;
   /**
   * A reference to a virtualizationVirtualMachine resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#virtual_machine KubernetesVirtualMachineNodeProfile#virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#virtual_machine KubernetesVirtualMachineNodeProfile#virtual_machine}
   */
   readonly virtualMachine?: KubernetesVirtualMachineNodeProfileVirtualMachine[] | cdktf.IResolvable;
 }
 export interface KubernetesVirtualMachineNodeProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -474,23 +474,23 @@ export class KubernetesVirtualMachineNodeProfileActionParamsList extends cdktf.C
 }
 export interface KubernetesVirtualMachineNodeProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -722,43 +722,43 @@ export class KubernetesVirtualMachineNodeProfileAncestorsList extends cdktf.Comp
 }
 export interface KubernetesVirtualMachineNodeProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#config_state KubernetesVirtualMachineNodeProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#config_state KubernetesVirtualMachineNodeProfile#config_state}
   */
   readonly configState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#config_state_summary KubernetesVirtualMachineNodeProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#config_state_summary KubernetesVirtualMachineNodeProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#config_type KubernetesVirtualMachineNodeProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#config_type KubernetesVirtualMachineNodeProfile#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#control_action KubernetesVirtualMachineNodeProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#control_action KubernetesVirtualMachineNodeProfile#control_action}
   */
   readonly controlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#error_state KubernetesVirtualMachineNodeProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#error_state KubernetesVirtualMachineNodeProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#inconsistency_reason KubernetesVirtualMachineNodeProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#inconsistency_reason KubernetesVirtualMachineNodeProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#oper_state KubernetesVirtualMachineNodeProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#oper_state KubernetesVirtualMachineNodeProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -1135,23 +1135,23 @@ export class KubernetesVirtualMachineNodeProfileConfigContextList extends cdktf.
 }
 export interface KubernetesVirtualMachineNodeProfileConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1383,23 +1383,23 @@ export class KubernetesVirtualMachineNodeProfileConfigResultList extends cdktf.C
 }
 export interface KubernetesVirtualMachineNodeProfileInterfacesIpV4ConfigsLease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1631,23 +1631,23 @@ export class KubernetesVirtualMachineNodeProfileInterfacesIpV4ConfigsLeaseList e
 }
 export interface KubernetesVirtualMachineNodeProfileInterfacesIpV4Configs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ip KubernetesVirtualMachineNodeProfile#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ip KubernetesVirtualMachineNodeProfile#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#lease KubernetesVirtualMachineNodeProfile#lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#lease KubernetesVirtualMachineNodeProfile#lease}
   */
   readonly lease?: KubernetesVirtualMachineNodeProfileInterfacesIpV4ConfigsLease[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -1879,23 +1879,23 @@ export class KubernetesVirtualMachineNodeProfileInterfacesIpV4ConfigsList extend
 }
 export interface KubernetesVirtualMachineNodeProfileInterfacesMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -2127,23 +2127,23 @@ export class KubernetesVirtualMachineNodeProfileInterfacesMatcherList extends cd
 }
 export interface KubernetesVirtualMachineNodeProfileInterfacesRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#to KubernetesVirtualMachineNodeProfile#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#to KubernetesVirtualMachineNodeProfile#to}
   */
   readonly to?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#via KubernetesVirtualMachineNodeProfile#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#via KubernetesVirtualMachineNodeProfile#via}
   */
   readonly via?: string;
 }
@@ -2375,47 +2375,47 @@ export class KubernetesVirtualMachineNodeProfileInterfacesRoutesList extends cdk
 }
 export interface KubernetesVirtualMachineNodeProfileInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#addresses KubernetesVirtualMachineNodeProfile#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#addresses KubernetesVirtualMachineNodeProfile#addresses}
   */
   readonly addresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#gateway KubernetesVirtualMachineNodeProfile#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#gateway KubernetesVirtualMachineNodeProfile#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ip_v4_configs KubernetesVirtualMachineNodeProfile#ip_v4_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ip_v4_configs KubernetesVirtualMachineNodeProfile#ip_v4_configs}
   */
   readonly ipV4Configs?: KubernetesVirtualMachineNodeProfileInterfacesIpV4Configs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#matcher KubernetesVirtualMachineNodeProfile#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#matcher KubernetesVirtualMachineNodeProfile#matcher}
   */
   readonly matcher?: KubernetesVirtualMachineNodeProfileInterfacesMatcher[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#mtu KubernetesVirtualMachineNodeProfile#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#mtu KubernetesVirtualMachineNodeProfile#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#name KubernetesVirtualMachineNodeProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#provider_name KubernetesVirtualMachineNodeProfile#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#provider_name KubernetesVirtualMachineNodeProfile#provider_name}
   */
   readonly providerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#routes KubernetesVirtualMachineNodeProfile#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#routes KubernetesVirtualMachineNodeProfile#routes}
   */
   readonly routes?: KubernetesVirtualMachineNodeProfileInterfacesRoutes[] | cdktf.IResolvable;
 }
@@ -2821,23 +2821,23 @@ export class KubernetesVirtualMachineNodeProfileInterfacesList extends cdktf.Com
 }
 export interface KubernetesVirtualMachineNodeProfileIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3069,23 +3069,23 @@ export class KubernetesVirtualMachineNodeProfileIpAddressesList extends cdktf.Co
 }
 export interface KubernetesVirtualMachineNodeProfileNodeGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3317,23 +3317,23 @@ export class KubernetesVirtualMachineNodeProfileNodeGroupList extends cdktf.Comp
 }
 export interface KubernetesVirtualMachineNodeProfileNodeIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3565,23 +3565,23 @@ export class KubernetesVirtualMachineNodeProfileNodeIpList extends cdktf.Complex
 }
 export interface KubernetesVirtualMachineNodeProfileNrVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3813,23 +3813,23 @@ export class KubernetesVirtualMachineNodeProfileNrVersionList extends cdktf.Comp
 }
 export interface KubernetesVirtualMachineNodeProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4061,23 +4061,23 @@ export class KubernetesVirtualMachineNodeProfileParentList extends cdktf.Complex
 }
 export interface KubernetesVirtualMachineNodeProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4309,23 +4309,23 @@ export class KubernetesVirtualMachineNodeProfilePermissionResourcesList extends 
 }
 export interface KubernetesVirtualMachineNodeProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4557,15 +4557,15 @@ export class KubernetesVirtualMachineNodeProfilePolicyBucketList extends cdktf.C
 }
 export interface KubernetesVirtualMachineNodeProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -4739,27 +4739,27 @@ export class KubernetesVirtualMachineNodeProfileScheduledActionsActionQualifierL
 }
 export interface KubernetesVirtualMachineNodeProfileScheduledActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#action KubernetesVirtualMachineNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#action KubernetesVirtualMachineNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#action_qualifier KubernetesVirtualMachineNodeProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#action_qualifier KubernetesVirtualMachineNodeProfile#action_qualifier}
   */
   readonly actionQualifier?: KubernetesVirtualMachineNodeProfileScheduledActionsActionQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#proceed_on_reboot KubernetesVirtualMachineNodeProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#proceed_on_reboot KubernetesVirtualMachineNodeProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
 }
@@ -5020,23 +5020,23 @@ export class KubernetesVirtualMachineNodeProfileScheduledActionsList extends cdk
 }
 export interface KubernetesVirtualMachineNodeProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5268,23 +5268,23 @@ export class KubernetesVirtualMachineNodeProfileSrcTemplateList extends cdktf.Co
 }
 export interface KubernetesVirtualMachineNodeProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5516,23 +5516,23 @@ export class KubernetesVirtualMachineNodeProfileTagsAncestorDefinitionsList exte
 }
 export interface KubernetesVirtualMachineNodeProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5764,31 +5764,35 @@ export class KubernetesVirtualMachineNodeProfileTagsDefinitionList extends cdktf
 }
 export interface KubernetesVirtualMachineNodeProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ancestor_definitions KubernetesVirtualMachineNodeProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ancestor_definitions KubernetesVirtualMachineNodeProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesVirtualMachineNodeProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#definition KubernetesVirtualMachineNodeProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#definition KubernetesVirtualMachineNodeProfile#definition}
   */
   readonly definition?: KubernetesVirtualMachineNodeProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#key KubernetesVirtualMachineNodeProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#key KubernetesVirtualMachineNodeProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#propagated KubernetesVirtualMachineNodeProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#propagated KubernetesVirtualMachineNodeProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#sys_tag KubernetesVirtualMachineNodeProfile#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#type KubernetesVirtualMachineNodeProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#value KubernetesVirtualMachineNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -5804,6 +5808,7 @@ export function kubernetesVirtualMachineNodeProfileTagsToTerraform(struct?: Kube
     definition: cdktf.listMapper(kubernetesVirtualMachineNodeProfileTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -5842,6 +5847,12 @@ export function kubernetesVirtualMachineNodeProfileTagsToHclTerraform(struct?: K
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5904,6 +5915,10 @@ export class KubernetesVirtualMachineNodeProfileTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5924,6 +5939,7 @@ export class KubernetesVirtualMachineNodeProfileTagsOutputReference extends cdkt
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -5939,6 +5955,7 @@ export class KubernetesVirtualMachineNodeProfileTagsOutputReference extends cdkt
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -6024,6 +6041,22 @@ export class KubernetesVirtualMachineNodeProfileTagsOutputReference extends cdkt
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -6078,23 +6111,23 @@ export class KubernetesVirtualMachineNodeProfileTagsList extends cdktf.ComplexLi
 }
 export interface KubernetesVirtualMachineNodeProfileTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6326,23 +6359,23 @@ export class KubernetesVirtualMachineNodeProfileTargetList extends cdktf.Complex
 }
 export interface KubernetesVirtualMachineNodeProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6574,23 +6607,23 @@ export class KubernetesVirtualMachineNodeProfileVersionContextInterestedMosList 
 }
 export interface KubernetesVirtualMachineNodeProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6822,39 +6855,39 @@ export class KubernetesVirtualMachineNodeProfileVersionContextRefMoList extends 
 }
 export interface KubernetesVirtualMachineNodeProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#interested_mos KubernetesVirtualMachineNodeProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#interested_mos KubernetesVirtualMachineNodeProfile#interested_mos}
   */
   readonly interestedMos?: KubernetesVirtualMachineNodeProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#marked_for_deletion KubernetesVirtualMachineNodeProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#marked_for_deletion KubernetesVirtualMachineNodeProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#nr_version KubernetesVirtualMachineNodeProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#nr_version KubernetesVirtualMachineNodeProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#ref_mo KubernetesVirtualMachineNodeProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#ref_mo KubernetesVirtualMachineNodeProfile#ref_mo}
   */
   readonly refMo?: KubernetesVirtualMachineNodeProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#timestamp KubernetesVirtualMachineNodeProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#timestamp KubernetesVirtualMachineNodeProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#version_type KubernetesVirtualMachineNodeProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#version_type KubernetesVirtualMachineNodeProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -7202,23 +7235,23 @@ export class KubernetesVirtualMachineNodeProfileVersionContextList extends cdktf
 }
 export interface KubernetesVirtualMachineNodeProfileVirtualMachine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#additional_properties KubernetesVirtualMachineNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#class_id KubernetesVirtualMachineNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#moid KubernetesVirtualMachineNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#object_type KubernetesVirtualMachineNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#selector KubernetesVirtualMachineNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7450,7 +7483,7 @@ export class KubernetesVirtualMachineNodeProfileVirtualMachineList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile intersight_kubernetes_virtual_machine_node_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile intersight_kubernetes_virtual_machine_node_profile}
 */
 export class KubernetesVirtualMachineNodeProfile extends cdktf.TerraformResource {
 
@@ -7466,7 +7499,7 @@ export class KubernetesVirtualMachineNodeProfile extends cdktf.TerraformResource
   * Generates CDKTF code for importing a KubernetesVirtualMachineNodeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesVirtualMachineNodeProfile to import
-  * @param importFromId The id of the existing KubernetesVirtualMachineNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesVirtualMachineNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesVirtualMachineNodeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7478,7 +7511,7 @@ export class KubernetesVirtualMachineNodeProfile extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/kubernetes_virtual_machine_node_profile intersight_kubernetes_virtual_machine_node_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_node_profile intersight_kubernetes_virtual_machine_node_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7489,8 +7522,8 @@ export class KubernetesVirtualMachineNodeProfile extends cdktf.TerraformResource
       terraformResourceType: 'intersight_kubernetes_virtual_machine_node_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

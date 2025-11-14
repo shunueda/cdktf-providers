@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#account_moid DataIntersightSoftwarerepositoryCategoryMapper#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#account_moid DataIntersightSoftwarerepositoryCategoryMapper#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The category of the model series.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#category DataIntersightSoftwarerepositoryCategoryMapper#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#category DataIntersightSoftwarerepositoryCategoryMapper#category}
   */
   readonly category?: string;
   /**
@@ -28,19 +28,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#create_time DataIntersightSoftwarerepositoryCategoryMapper#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#create_time DataIntersightSoftwarerepositoryCategoryMapper#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#domain_group_moid DataIntersightSoftwarerepositoryCategoryMapper#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#domain_group_moid DataIntersightSoftwarerepositoryCategoryMapper#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -52,11 +52,11 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperConfig extends cd
   * * `HyperflexDistributable` - It stores HyperFlex images.
   * * `HciDistributable` - It stores HCI images, such as bootstrap iso images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#file_type DataIntersightSoftwarerepositoryCategoryMapper#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#file_type DataIntersightSoftwarerepositoryCategoryMapper#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#id DataIntersightSoftwarerepositoryCategoryMapper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#id DataIntersightSoftwarerepositoryCategoryMapper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,37 +65,37 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperConfig extends cd
   /**
   * The type of image based on the endpoint it can upgrade. For example, ucs-c420m5-huu-3.2.1a.iso can upgrade standalone servers, so the image type is Standalone Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#image_type DataIntersightSoftwarerepositoryCategoryMapper#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#image_type DataIntersightSoftwarerepositoryCategoryMapper#image_type}
   */
   readonly imageType?: string;
   /**
   * Defines whether NFS firmware upgrade is supported with this image type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#is_nfs_upgrade_supported DataIntersightSoftwarerepositoryCategoryMapper#is_nfs_upgrade_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#is_nfs_upgrade_supported DataIntersightSoftwarerepositoryCategoryMapper#is_nfs_upgrade_supported}
   */
   readonly isNfsUpgradeSupported?: boolean | cdktf.IResolvable;
   /**
   * Cisco software repository image category identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#mdf_id DataIntersightSoftwarerepositoryCategoryMapper#mdf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#mdf_id DataIntersightSoftwarerepositoryCategoryMapper#mdf_id}
   */
   readonly mdfId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#mod_time DataIntersightSoftwarerepositoryCategoryMapper#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#mod_time DataIntersightSoftwarerepositoryCategoryMapper#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#name DataIntersightSoftwarerepositoryCategoryMapper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#name DataIntersightSoftwarerepositoryCategoryMapper#name}
   */
   readonly name?: string;
   /**
@@ -105,81 +105,81 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperConfig extends cd
   * * `LocalMachine` - The file is available on the local client machine. Used as an upload source type.
   * * `NetworkShare` - External repository in the customer datacenter. This will typically be a file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#nr_source DataIntersightSoftwarerepositoryCategoryMapper#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#nr_source DataIntersightSoftwarerepositoryCategoryMapper#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The version from which user can download images from amazon store, if source is external cloud store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#nr_version DataIntersightSoftwarerepositoryCategoryMapper#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#nr_version DataIntersightSoftwarerepositoryCategoryMapper#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#owners DataIntersightSoftwarerepositoryCategoryMapper#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#owners DataIntersightSoftwarerepositoryCategoryMapper#owners}
   */
   readonly owners?: string[];
   /**
   * The regex that all images of this category follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#regex_pattern DataIntersightSoftwarerepositoryCategoryMapper#regex_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#regex_pattern DataIntersightSoftwarerepositoryCategoryMapper#regex_pattern}
   */
   readonly regexPattern?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#shared_scope DataIntersightSoftwarerepositoryCategoryMapper#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#shared_scope DataIntersightSoftwarerepositoryCategoryMapper#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#supported_models DataIntersightSoftwarerepositoryCategoryMapper#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#supported_models DataIntersightSoftwarerepositoryCategoryMapper#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#sw_id DataIntersightSoftwarerepositoryCategoryMapper#sw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#sw_id DataIntersightSoftwarerepositoryCategoryMapper#sw_id}
   */
   readonly swId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#tag_types DataIntersightSoftwarerepositoryCategoryMapper#tag_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#tag_types DataIntersightSoftwarerepositoryCategoryMapper#tag_types}
   */
   readonly tagTypes?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#ancestors DataIntersightSoftwarerepositoryCategoryMapper#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#ancestors DataIntersightSoftwarerepositoryCategoryMapper#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwarerepositoryCategoryMapperAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#parent DataIntersightSoftwarerepositoryCategoryMapper#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#parent DataIntersightSoftwarerepositoryCategoryMapper#parent}
   */
   readonly parent?: DataIntersightSoftwarerepositoryCategoryMapperParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#permission_resources DataIntersightSoftwarerepositoryCategoryMapper#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#permission_resources DataIntersightSoftwarerepositoryCategoryMapper#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwarerepositoryCategoryMapperPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#tags DataIntersightSoftwarerepositoryCategoryMapper#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#tags DataIntersightSoftwarerepositoryCategoryMapper#tags}
   */
   readonly tags?: DataIntersightSoftwarerepositoryCategoryMapperTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#version_context DataIntersightSoftwarerepositoryCategoryMapper#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#version_context DataIntersightSoftwarerepositoryCategoryMapper#version_context}
   */
   readonly versionContext?: DataIntersightSoftwarerepositoryCategoryMapperVersionContext;
 }
@@ -736,6 +736,11 @@ export class DataIntersightSoftwarerepositoryCategoryMapperResultsTagsOutputRefe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1284,7 +1289,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperResultsList extends c
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1292,19 +1297,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1317,7 +1322,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -1549,7 +1554,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperAncestorsList extends
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1557,19 +1562,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1582,7 +1587,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -1782,7 +1787,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperParentOutputReference
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1790,19 +1795,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperPermissionResourc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1815,7 +1820,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperPermissionResourc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -2047,7 +2052,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperPermissionResourcesLi
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2055,19 +2060,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2080,7 +2085,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -2312,7 +2317,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefinitio
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2320,19 +2325,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2345,7 +2350,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -2545,45 +2550,51 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsDefinitionOutputR
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#key DataIntersightSoftwarerepositoryCategoryMapper#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#key DataIntersightSoftwarerepositoryCategoryMapper#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#propagated DataIntersightSoftwarerepositoryCategoryMapper#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#propagated DataIntersightSoftwarerepositoryCategoryMapper#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#sys_tag DataIntersightSoftwarerepositoryCategoryMapper#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#type DataIntersightSoftwarerepositoryCategoryMapper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#type DataIntersightSoftwarerepositoryCategoryMapper#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#value DataIntersightSoftwarerepositoryCategoryMapper#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#value DataIntersightSoftwarerepositoryCategoryMapper#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#ancestor_definitions DataIntersightSoftwarerepositoryCategoryMapper#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#ancestor_definitions DataIntersightSoftwarerepositoryCategoryMapper#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#definition DataIntersightSoftwarerepositoryCategoryMapper#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#definition DataIntersightSoftwarerepositoryCategoryMapper#definition}
   */
   readonly definition?: DataIntersightSoftwarerepositoryCategoryMapperTagsDefinition;
 }
@@ -2597,6 +2608,7 @@ export function dataIntersightSoftwarerepositoryCategoryMapperTagsToTerraform(st
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSoftwarerepositoryCategoryMapperTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2625,6 +2637,12 @@ export function dataIntersightSoftwarerepositoryCategoryMapperTagsToHclTerraform
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2691,6 +2709,10 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsOutputReference e
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2717,6 +2739,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsOutputReference e
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2732,6 +2755,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsOutputReference e
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2785,6 +2809,22 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsOutputReference e
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2873,7 +2913,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperTagsList extends cdkt
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2881,19 +2921,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextInt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2906,7 +2946,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextInt
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -3138,7 +3178,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperVersionContextInteres
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3146,19 +3186,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextRef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#moid DataIntersightSoftwarerepositoryCategoryMapper#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3171,7 +3211,7 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContextRef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#selector DataIntersightSoftwarerepositoryCategoryMapper#selector}
   */
   readonly selector?: string;
 }
@@ -3371,7 +3411,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperVersionContextRefMoOu
 }
 export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#additional_properties DataIntersightSoftwarerepositoryCategoryMapper#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3379,32 +3419,32 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#class_id DataIntersightSoftwarerepositoryCategoryMapper#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#marked_for_deletion DataIntersightSoftwarerepositoryCategoryMapper#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#marked_for_deletion DataIntersightSoftwarerepositoryCategoryMapper#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#nr_version DataIntersightSoftwarerepositoryCategoryMapper#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#nr_version DataIntersightSoftwarerepositoryCategoryMapper#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#object_type DataIntersightSoftwarerepositoryCategoryMapper#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#timestamp DataIntersightSoftwarerepositoryCategoryMapper#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#timestamp DataIntersightSoftwarerepositoryCategoryMapper#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3415,19 +3455,19 @@ export interface DataIntersightSoftwarerepositoryCategoryMapperVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#version_type DataIntersightSoftwarerepositoryCategoryMapper#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#version_type DataIntersightSoftwarerepositoryCategoryMapper#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#interested_mos DataIntersightSoftwarerepositoryCategoryMapper#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#interested_mos DataIntersightSoftwarerepositoryCategoryMapper#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwarerepositoryCategoryMapperVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#ref_mo DataIntersightSoftwarerepositoryCategoryMapper#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#ref_mo DataIntersightSoftwarerepositoryCategoryMapper#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwarerepositoryCategoryMapperVersionContextRefMo;
 }
@@ -3743,7 +3783,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapperVersionContextOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper intersight_softwarerepository_category_mapper}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper intersight_softwarerepository_category_mapper}
 */
 export class DataIntersightSoftwarerepositoryCategoryMapper extends cdktf.TerraformDataSource {
 
@@ -3759,7 +3799,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapper extends cdktf.Terraf
   * Generates CDKTF code for importing a DataIntersightSoftwarerepositoryCategoryMapper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwarerepositoryCategoryMapper to import
-  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCategoryMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwarerepositoryCategoryMapper that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwarerepositoryCategoryMapper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3771,7 +3811,7 @@ export class DataIntersightSoftwarerepositoryCategoryMapper extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/softwarerepository_category_mapper intersight_softwarerepository_category_mapper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/softwarerepository_category_mapper intersight_softwarerepository_category_mapper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3782,8 +3822,8 @@ export class DataIntersightSoftwarerepositoryCategoryMapper extends cdktf.Terraf
       terraformResourceType: 'intersight_softwarerepository_category_mapper',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

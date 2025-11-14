@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightTerminalAuditLogConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#account_moid DataIntersightTerminalAuditLog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#account_moid DataIntersightTerminalAuditLog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightTerminalAuditLogConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#create_time DataIntersightTerminalAuditLog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#create_time DataIntersightTerminalAuditLog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#domain_group_moid DataIntersightTerminalAuditLog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#domain_group_moid DataIntersightTerminalAuditLog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time the terminal was closed. If terminal has not closed, value is zero time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#end_time DataIntersightTerminalAuditLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#end_time DataIntersightTerminalAuditLog#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#id DataIntersightTerminalAuditLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#id DataIntersightTerminalAuditLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,79 +53,79 @@ export interface DataIntersightTerminalAuditLogConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#mod_time DataIntersightTerminalAuditLog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#mod_time DataIntersightTerminalAuditLog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#owners DataIntersightTerminalAuditLog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#owners DataIntersightTerminalAuditLog#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#shared_scope DataIntersightTerminalAuditLog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#shared_scope DataIntersightTerminalAuditLog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The time the terminal session was opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#start_time DataIntersightTerminalAuditLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#start_time DataIntersightTerminalAuditLog#start_time}
   */
   readonly startTime?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#ancestors DataIntersightTerminalAuditLog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#ancestors DataIntersightTerminalAuditLog#ancestors}
   */
   readonly ancestors?: DataIntersightTerminalAuditLogAncestors[] | cdktf.IResolvable;
   /**
   * device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#device_registration DataIntersightTerminalAuditLog#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#device_registration DataIntersightTerminalAuditLog#device_registration}
   */
   readonly deviceRegistration?: DataIntersightTerminalAuditLogDeviceRegistration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#parent DataIntersightTerminalAuditLog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#parent DataIntersightTerminalAuditLog#parent}
   */
   readonly parent?: DataIntersightTerminalAuditLogParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#permission_resources DataIntersightTerminalAuditLog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#permission_resources DataIntersightTerminalAuditLog#permission_resources}
   */
   readonly permissionResources?: DataIntersightTerminalAuditLogPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#tags DataIntersightTerminalAuditLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#tags DataIntersightTerminalAuditLog#tags}
   */
   readonly tags?: DataIntersightTerminalAuditLogTags[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#user DataIntersightTerminalAuditLog#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#user DataIntersightTerminalAuditLog#user}
   */
   readonly user?: DataIntersightTerminalAuditLogUser;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#version_context DataIntersightTerminalAuditLog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#version_context DataIntersightTerminalAuditLog#version_context}
   */
   readonly versionContext?: DataIntersightTerminalAuditLogVersionContext;
 }
@@ -777,6 +777,11 @@ export class DataIntersightTerminalAuditLogResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1382,7 +1387,7 @@ export class DataIntersightTerminalAuditLogResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightTerminalAuditLogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1390,19 +1395,19 @@ export interface DataIntersightTerminalAuditLogAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1415,7 +1420,7 @@ export interface DataIntersightTerminalAuditLogAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -1647,7 +1652,7 @@ export class DataIntersightTerminalAuditLogAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightTerminalAuditLogDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1655,19 +1660,19 @@ export interface DataIntersightTerminalAuditLogDeviceRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1680,7 +1685,7 @@ export interface DataIntersightTerminalAuditLogDeviceRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -1880,7 +1885,7 @@ export class DataIntersightTerminalAuditLogDeviceRegistrationOutputReference ext
 }
 export interface DataIntersightTerminalAuditLogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1888,19 +1893,19 @@ export interface DataIntersightTerminalAuditLogParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1913,7 +1918,7 @@ export interface DataIntersightTerminalAuditLogParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -2113,7 +2118,7 @@ export class DataIntersightTerminalAuditLogParentOutputReference extends cdktf.C
 }
 export interface DataIntersightTerminalAuditLogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2121,19 +2126,19 @@ export interface DataIntersightTerminalAuditLogPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2146,7 +2151,7 @@ export interface DataIntersightTerminalAuditLogPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -2378,7 +2383,7 @@ export class DataIntersightTerminalAuditLogPermissionResourcesList extends cdktf
 }
 export interface DataIntersightTerminalAuditLogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2386,19 +2391,19 @@ export interface DataIntersightTerminalAuditLogTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2411,7 +2416,7 @@ export interface DataIntersightTerminalAuditLogTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -2643,7 +2648,7 @@ export class DataIntersightTerminalAuditLogTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightTerminalAuditLogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2651,19 +2656,19 @@ export interface DataIntersightTerminalAuditLogTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2676,7 +2681,7 @@ export interface DataIntersightTerminalAuditLogTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -2876,45 +2881,51 @@ export class DataIntersightTerminalAuditLogTagsDefinitionOutputReference extends
 }
 export interface DataIntersightTerminalAuditLogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#key DataIntersightTerminalAuditLog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#key DataIntersightTerminalAuditLog#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#propagated DataIntersightTerminalAuditLog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#propagated DataIntersightTerminalAuditLog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#sys_tag DataIntersightTerminalAuditLog#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#type DataIntersightTerminalAuditLog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#type DataIntersightTerminalAuditLog#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#value DataIntersightTerminalAuditLog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#value DataIntersightTerminalAuditLog#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#ancestor_definitions DataIntersightTerminalAuditLog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#ancestor_definitions DataIntersightTerminalAuditLog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightTerminalAuditLogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#definition DataIntersightTerminalAuditLog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#definition DataIntersightTerminalAuditLog#definition}
   */
   readonly definition?: DataIntersightTerminalAuditLogTagsDefinition;
 }
@@ -2928,6 +2939,7 @@ export function dataIntersightTerminalAuditLogTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightTerminalAuditLogTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2956,6 +2968,12 @@ export function dataIntersightTerminalAuditLogTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3022,6 +3040,10 @@ export class DataIntersightTerminalAuditLogTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3048,6 +3070,7 @@ export class DataIntersightTerminalAuditLogTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3063,6 +3086,7 @@ export class DataIntersightTerminalAuditLogTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3116,6 +3140,22 @@ export class DataIntersightTerminalAuditLogTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3204,7 +3244,7 @@ export class DataIntersightTerminalAuditLogTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightTerminalAuditLogUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3212,19 +3252,19 @@ export interface DataIntersightTerminalAuditLogUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3237,7 +3277,7 @@ export interface DataIntersightTerminalAuditLogUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -3437,7 +3477,7 @@ export class DataIntersightTerminalAuditLogUserOutputReference extends cdktf.Com
 }
 export interface DataIntersightTerminalAuditLogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3445,19 +3485,19 @@ export interface DataIntersightTerminalAuditLogVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3470,7 +3510,7 @@ export interface DataIntersightTerminalAuditLogVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -3702,7 +3742,7 @@ export class DataIntersightTerminalAuditLogVersionContextInterestedMosList exten
 }
 export interface DataIntersightTerminalAuditLogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3710,19 +3750,19 @@ export interface DataIntersightTerminalAuditLogVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#moid DataIntersightTerminalAuditLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3735,7 +3775,7 @@ export interface DataIntersightTerminalAuditLogVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#selector DataIntersightTerminalAuditLog#selector}
   */
   readonly selector?: string;
 }
@@ -3935,7 +3975,7 @@ export class DataIntersightTerminalAuditLogVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightTerminalAuditLogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#additional_properties DataIntersightTerminalAuditLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3943,32 +3983,32 @@ export interface DataIntersightTerminalAuditLogVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#class_id DataIntersightTerminalAuditLog#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#marked_for_deletion DataIntersightTerminalAuditLog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#marked_for_deletion DataIntersightTerminalAuditLog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#nr_version DataIntersightTerminalAuditLog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#nr_version DataIntersightTerminalAuditLog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#object_type DataIntersightTerminalAuditLog#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#timestamp DataIntersightTerminalAuditLog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#timestamp DataIntersightTerminalAuditLog#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3979,19 +4019,19 @@ export interface DataIntersightTerminalAuditLogVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#version_type DataIntersightTerminalAuditLog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#version_type DataIntersightTerminalAuditLog#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#interested_mos DataIntersightTerminalAuditLog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#interested_mos DataIntersightTerminalAuditLog#interested_mos}
   */
   readonly interestedMos?: DataIntersightTerminalAuditLogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#ref_mo DataIntersightTerminalAuditLog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#ref_mo DataIntersightTerminalAuditLog#ref_mo}
   */
   readonly refMo?: DataIntersightTerminalAuditLogVersionContextRefMo;
 }
@@ -4307,7 +4347,7 @@ export class DataIntersightTerminalAuditLogVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log intersight_terminal_audit_log}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log intersight_terminal_audit_log}
 */
 export class DataIntersightTerminalAuditLog extends cdktf.TerraformDataSource {
 
@@ -4323,7 +4363,7 @@ export class DataIntersightTerminalAuditLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightTerminalAuditLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightTerminalAuditLog to import
-  * @param importFromId The id of the existing DataIntersightTerminalAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightTerminalAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightTerminalAuditLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4335,7 +4375,7 @@ export class DataIntersightTerminalAuditLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/terminal_audit_log intersight_terminal_audit_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/terminal_audit_log intersight_terminal_audit_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4346,8 +4386,8 @@ export class DataIntersightTerminalAuditLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_terminal_audit_log',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

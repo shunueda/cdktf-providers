@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightChassisProfileTemplateConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#account_moid DataIntersightChassisProfileTemplate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#account_moid DataIntersightChassisProfileTemplate#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#action DataIntersightChassisProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#action DataIntersightChassisProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,33 +28,33 @@ export interface DataIntersightChassisProfileTemplateConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#create_time DataIntersightChassisProfileTemplate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#create_time DataIntersightChassisProfileTemplate#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#deployed_policies DataIntersightChassisProfileTemplate#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#deployed_policies DataIntersightChassisProfileTemplate#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#description DataIntersightChassisProfileTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#description DataIntersightChassisProfileTemplate#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#domain_group_moid DataIntersightChassisProfileTemplate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#domain_group_moid DataIntersightChassisProfileTemplate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#id DataIntersightChassisProfileTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#id DataIntersightChassisProfileTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,139 +63,139 @@ export interface DataIntersightChassisProfileTemplateConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#mod_time DataIntersightChassisProfileTemplate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#mod_time DataIntersightChassisProfileTemplate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#name DataIntersightChassisProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#name DataIntersightChassisProfileTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#owners DataIntersightChassisProfileTemplate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#owners DataIntersightChassisProfileTemplate#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#removed_policies DataIntersightChassisProfileTemplate#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#removed_policies DataIntersightChassisProfileTemplate#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#shared_scope DataIntersightChassisProfileTemplate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#shared_scope DataIntersightChassisProfileTemplate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The platform for which the chassis profile is applicable. It can either be a chassis that is operating in standalone mode or which is attached to a Fabric Interconnect managed by Intersight.
   * * `FIAttached` - Chassis which are connected to a Fabric Interconnect that is managed by Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#target_platform DataIntersightChassisProfileTemplate#target_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#target_platform DataIntersightChassisProfileTemplate#target_platform}
   */
   readonly targetPlatform?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#type DataIntersightChassisProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#type DataIntersightChassisProfileTemplate#type}
   */
   readonly type?: string;
   /**
   * The count of the chassis profiles derived from the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#usage DataIntersightChassisProfileTemplate#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#usage DataIntersightChassisProfileTemplate#usage}
   */
   readonly usage?: number;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#action_params DataIntersightChassisProfileTemplate#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#action_params DataIntersightChassisProfileTemplate#action_params}
   */
   readonly actionParams?: DataIntersightChassisProfileTemplateActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#ancestors DataIntersightChassisProfileTemplate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#ancestors DataIntersightChassisProfileTemplate#ancestors}
   */
   readonly ancestors?: DataIntersightChassisProfileTemplateAncestors[] | cdktf.IResolvable;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#config_context DataIntersightChassisProfileTemplate#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#config_context DataIntersightChassisProfileTemplate#config_context}
   */
   readonly configContext?: DataIntersightChassisProfileTemplateConfigContext;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#config_result DataIntersightChassisProfileTemplate#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#config_result DataIntersightChassisProfileTemplate#config_result}
   */
   readonly configResult?: DataIntersightChassisProfileTemplateConfigResult;
   /**
   * iom_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#iom_profiles DataIntersightChassisProfileTemplate#iom_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#iom_profiles DataIntersightChassisProfileTemplate#iom_profiles}
   */
   readonly iomProfiles?: DataIntersightChassisProfileTemplateIomProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#organization DataIntersightChassisProfileTemplate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#organization DataIntersightChassisProfileTemplate#organization}
   */
   readonly organization?: DataIntersightChassisProfileTemplateOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#parent DataIntersightChassisProfileTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#parent DataIntersightChassisProfileTemplate#parent}
   */
   readonly parent?: DataIntersightChassisProfileTemplateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#permission_resources DataIntersightChassisProfileTemplate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#permission_resources DataIntersightChassisProfileTemplate#permission_resources}
   */
   readonly permissionResources?: DataIntersightChassisProfileTemplatePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#policy_bucket DataIntersightChassisProfileTemplate#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#policy_bucket DataIntersightChassisProfileTemplate#policy_bucket}
   */
   readonly policyBucket?: DataIntersightChassisProfileTemplatePolicyBucket[] | cdktf.IResolvable;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#scheduled_actions DataIntersightChassisProfileTemplate#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#scheduled_actions DataIntersightChassisProfileTemplate#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightChassisProfileTemplateScheduledActions[] | cdktf.IResolvable;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#src_template DataIntersightChassisProfileTemplate#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#src_template DataIntersightChassisProfileTemplate#src_template}
   */
   readonly srcTemplate?: DataIntersightChassisProfileTemplateSrcTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#tags DataIntersightChassisProfileTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#tags DataIntersightChassisProfileTemplate#tags}
   */
   readonly tags?: DataIntersightChassisProfileTemplateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#version_context DataIntersightChassisProfileTemplate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#version_context DataIntersightChassisProfileTemplate#version_context}
   */
   readonly versionContext?: DataIntersightChassisProfileTemplateVersionContext;
 }
@@ -1628,6 +1628,11 @@ export class DataIntersightChassisProfileTemplateResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2204,7 +2209,7 @@ export class DataIntersightChassisProfileTemplateResultsList extends cdktf.Compl
 }
 export interface DataIntersightChassisProfileTemplateActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2212,26 +2217,26 @@ export interface DataIntersightChassisProfileTemplateActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#name DataIntersightChassisProfileTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#name DataIntersightChassisProfileTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#value DataIntersightChassisProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#value DataIntersightChassisProfileTemplate#value}
   */
   readonly value?: string;
 }
@@ -2463,7 +2468,7 @@ export class DataIntersightChassisProfileTemplateActionParamsList extends cdktf.
 }
 export interface DataIntersightChassisProfileTemplateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2471,19 +2476,19 @@ export interface DataIntersightChassisProfileTemplateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2496,7 +2501,7 @@ export interface DataIntersightChassisProfileTemplateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2728,7 +2733,7 @@ export class DataIntersightChassisProfileTemplateAncestorsList extends cdktf.Com
 }
 export interface DataIntersightChassisProfileTemplateConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2736,13 +2741,13 @@ export interface DataIntersightChassisProfileTemplateConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#config_state DataIntersightChassisProfileTemplate#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#config_state DataIntersightChassisProfileTemplate#config_state}
   */
   readonly configState?: string;
   /**
@@ -2763,42 +2768,42 @@ export interface DataIntersightChassisProfileTemplateConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#config_state_summary DataIntersightChassisProfileTemplate#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#config_state_summary DataIntersightChassisProfileTemplate#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#config_type DataIntersightChassisProfileTemplate#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#config_type DataIntersightChassisProfileTemplate#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#control_action DataIntersightChassisProfileTemplate#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#control_action DataIntersightChassisProfileTemplate#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#error_state DataIntersightChassisProfileTemplate#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#error_state DataIntersightChassisProfileTemplate#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#inconsistency_reason DataIntersightChassisProfileTemplate#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#inconsistency_reason DataIntersightChassisProfileTemplate#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#oper_state DataIntersightChassisProfileTemplate#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#oper_state DataIntersightChassisProfileTemplate#oper_state}
   */
   readonly operState?: string;
 }
@@ -3143,7 +3148,7 @@ export class DataIntersightChassisProfileTemplateConfigContextOutputReference ex
 }
 export interface DataIntersightChassisProfileTemplateConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3151,19 +3156,19 @@ export interface DataIntersightChassisProfileTemplateConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3176,7 +3181,7 @@ export interface DataIntersightChassisProfileTemplateConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3376,7 +3381,7 @@ export class DataIntersightChassisProfileTemplateConfigResultOutputReference ext
 }
 export interface DataIntersightChassisProfileTemplateIomProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3384,19 +3389,19 @@ export interface DataIntersightChassisProfileTemplateIomProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3409,7 +3414,7 @@ export interface DataIntersightChassisProfileTemplateIomProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3641,7 +3646,7 @@ export class DataIntersightChassisProfileTemplateIomProfilesList extends cdktf.C
 }
 export interface DataIntersightChassisProfileTemplateOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3649,19 +3654,19 @@ export interface DataIntersightChassisProfileTemplateOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3674,7 +3679,7 @@ export interface DataIntersightChassisProfileTemplateOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3874,7 +3879,7 @@ export class DataIntersightChassisProfileTemplateOrganizationOutputReference ext
 }
 export interface DataIntersightChassisProfileTemplateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3882,19 +3887,19 @@ export interface DataIntersightChassisProfileTemplateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3907,7 +3912,7 @@ export interface DataIntersightChassisProfileTemplateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4107,7 +4112,7 @@ export class DataIntersightChassisProfileTemplateParentOutputReference extends c
 }
 export interface DataIntersightChassisProfileTemplatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4115,19 +4120,19 @@ export interface DataIntersightChassisProfileTemplatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4140,7 +4145,7 @@ export interface DataIntersightChassisProfileTemplatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4372,7 +4377,7 @@ export class DataIntersightChassisProfileTemplatePermissionResourcesList extends
 }
 export interface DataIntersightChassisProfileTemplatePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4380,19 +4385,19 @@ export interface DataIntersightChassisProfileTemplatePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4405,7 +4410,7 @@ export interface DataIntersightChassisProfileTemplatePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4637,7 +4642,7 @@ export class DataIntersightChassisProfileTemplatePolicyBucketList extends cdktf.
 }
 export interface DataIntersightChassisProfileTemplateScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4646,7 +4651,7 @@ export interface DataIntersightChassisProfileTemplateScheduledActionsActionQuali
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
@@ -4654,7 +4659,7 @@ export interface DataIntersightChassisProfileTemplateScheduledActionsActionQuali
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
 }
@@ -4798,11 +4803,11 @@ export interface DataIntersightChassisProfileTemplateScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#action DataIntersightChassisProfileTemplate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#action DataIntersightChassisProfileTemplate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4810,26 +4815,26 @@ export interface DataIntersightChassisProfileTemplateScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#proceed_on_reboot DataIntersightChassisProfileTemplate#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#proceed_on_reboot DataIntersightChassisProfileTemplate#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#action_qualifier DataIntersightChassisProfileTemplate#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#action_qualifier DataIntersightChassisProfileTemplate#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightChassisProfileTemplateScheduledActionsActionQualifier;
 }
@@ -5090,7 +5095,7 @@ export class DataIntersightChassisProfileTemplateScheduledActionsList extends cd
 }
 export interface DataIntersightChassisProfileTemplateSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5098,19 +5103,19 @@ export interface DataIntersightChassisProfileTemplateSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5123,7 +5128,7 @@ export interface DataIntersightChassisProfileTemplateSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5323,7 +5328,7 @@ export class DataIntersightChassisProfileTemplateSrcTemplateOutputReference exte
 }
 export interface DataIntersightChassisProfileTemplateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5331,19 +5336,19 @@ export interface DataIntersightChassisProfileTemplateTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5356,7 +5361,7 @@ export interface DataIntersightChassisProfileTemplateTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5588,7 +5593,7 @@ export class DataIntersightChassisProfileTemplateTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightChassisProfileTemplateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5596,19 +5601,19 @@ export interface DataIntersightChassisProfileTemplateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5621,7 +5626,7 @@ export interface DataIntersightChassisProfileTemplateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5821,45 +5826,51 @@ export class DataIntersightChassisProfileTemplateTagsDefinitionOutputReference e
 }
 export interface DataIntersightChassisProfileTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#key DataIntersightChassisProfileTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#key DataIntersightChassisProfileTemplate#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#propagated DataIntersightChassisProfileTemplate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#propagated DataIntersightChassisProfileTemplate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#sys_tag DataIntersightChassisProfileTemplate#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#type DataIntersightChassisProfileTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#type DataIntersightChassisProfileTemplate#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#value DataIntersightChassisProfileTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#value DataIntersightChassisProfileTemplate#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#ancestor_definitions DataIntersightChassisProfileTemplate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#ancestor_definitions DataIntersightChassisProfileTemplate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightChassisProfileTemplateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#definition DataIntersightChassisProfileTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#definition DataIntersightChassisProfileTemplate#definition}
   */
   readonly definition?: DataIntersightChassisProfileTemplateTagsDefinition;
 }
@@ -5873,6 +5884,7 @@ export function dataIntersightChassisProfileTemplateTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightChassisProfileTemplateTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5901,6 +5913,12 @@ export function dataIntersightChassisProfileTemplateTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5967,6 +5985,10 @@ export class DataIntersightChassisProfileTemplateTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5993,6 +6015,7 @@ export class DataIntersightChassisProfileTemplateTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6008,6 +6031,7 @@ export class DataIntersightChassisProfileTemplateTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6061,6 +6085,22 @@ export class DataIntersightChassisProfileTemplateTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6149,7 +6189,7 @@ export class DataIntersightChassisProfileTemplateTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightChassisProfileTemplateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6157,19 +6197,19 @@ export interface DataIntersightChassisProfileTemplateVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6182,7 +6222,7 @@ export interface DataIntersightChassisProfileTemplateVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -6414,7 +6454,7 @@ export class DataIntersightChassisProfileTemplateVersionContextInterestedMosList
 }
 export interface DataIntersightChassisProfileTemplateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6422,19 +6462,19 @@ export interface DataIntersightChassisProfileTemplateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#moid DataIntersightChassisProfileTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6447,7 +6487,7 @@ export interface DataIntersightChassisProfileTemplateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#selector DataIntersightChassisProfileTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -6647,7 +6687,7 @@ export class DataIntersightChassisProfileTemplateVersionContextRefMoOutputRefere
 }
 export interface DataIntersightChassisProfileTemplateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#additional_properties DataIntersightChassisProfileTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6655,32 +6695,32 @@ export interface DataIntersightChassisProfileTemplateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#class_id DataIntersightChassisProfileTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#marked_for_deletion DataIntersightChassisProfileTemplate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#marked_for_deletion DataIntersightChassisProfileTemplate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#nr_version DataIntersightChassisProfileTemplate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#nr_version DataIntersightChassisProfileTemplate#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#object_type DataIntersightChassisProfileTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#timestamp DataIntersightChassisProfileTemplate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#timestamp DataIntersightChassisProfileTemplate#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6691,19 +6731,19 @@ export interface DataIntersightChassisProfileTemplateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#version_type DataIntersightChassisProfileTemplate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#version_type DataIntersightChassisProfileTemplate#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#interested_mos DataIntersightChassisProfileTemplate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#interested_mos DataIntersightChassisProfileTemplate#interested_mos}
   */
   readonly interestedMos?: DataIntersightChassisProfileTemplateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#ref_mo DataIntersightChassisProfileTemplate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#ref_mo DataIntersightChassisProfileTemplate#ref_mo}
   */
   readonly refMo?: DataIntersightChassisProfileTemplateVersionContextRefMo;
 }
@@ -7019,7 +7059,7 @@ export class DataIntersightChassisProfileTemplateVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template intersight_chassis_profile_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template intersight_chassis_profile_template}
 */
 export class DataIntersightChassisProfileTemplate extends cdktf.TerraformDataSource {
 
@@ -7035,7 +7075,7 @@ export class DataIntersightChassisProfileTemplate extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightChassisProfileTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightChassisProfileTemplate to import
-  * @param importFromId The id of the existing DataIntersightChassisProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightChassisProfileTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightChassisProfileTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7047,7 +7087,7 @@ export class DataIntersightChassisProfileTemplate extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/chassis_profile_template intersight_chassis_profile_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/chassis_profile_template intersight_chassis_profile_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7058,8 +7098,8 @@ export class DataIntersightChassisProfileTemplate extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_chassis_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsNamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#compartment_id LogAnalyticsNamespace#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#compartment_id LogAnalyticsNamespace#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#id LogAnalyticsNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#id LogAnalyticsNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#is_onboarded LogAnalyticsNamespace#is_onboarded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#is_onboarded LogAnalyticsNamespace#is_onboarded}
   */
   readonly isOnboarded: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#namespace LogAnalyticsNamespace#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#namespace LogAnalyticsNamespace#namespace}
   */
   readonly namespace: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#timeouts LogAnalyticsNamespace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#timeouts LogAnalyticsNamespace#timeouts}
   */
   readonly timeouts?: LogAnalyticsNamespaceTimeouts;
 }
 export interface LogAnalyticsNamespaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#create LogAnalyticsNamespace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#create LogAnalyticsNamespace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#update LogAnalyticsNamespace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#update LogAnalyticsNamespace#update}
   */
   readonly update?: string;
 }
@@ -162,7 +162,7 @@ export class LogAnalyticsNamespaceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace oci_log_analytics_namespace}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace oci_log_analytics_namespace}
 */
 export class LogAnalyticsNamespace extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class LogAnalyticsNamespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogAnalyticsNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsNamespace to import
-  * @param importFromId The id of the existing LogAnalyticsNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class LogAnalyticsNamespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_namespace oci_log_analytics_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_namespace oci_log_analytics_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class LogAnalyticsNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'oci_log_analytics_namespace',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightStoragePureNfsPolicyRuleConfig extends cdktf.Terr
   /**
   * Access of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#access DataIntersightStoragePureNfsPolicyRule#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#access DataIntersightStoragePureNfsPolicyRule#access}
   */
   readonly access?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#account_moid DataIntersightStoragePureNfsPolicyRule#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#account_moid DataIntersightStoragePureNfsPolicyRule#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Anongid of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#anongid DataIntersightStoragePureNfsPolicyRule#anongid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#anongid DataIntersightStoragePureNfsPolicyRule#anongid}
   */
   readonly anongid?: string;
   /**
   * Anonuid of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#anonuid DataIntersightStoragePureNfsPolicyRule#anonuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#anonuid DataIntersightStoragePureNfsPolicyRule#anonuid}
   */
   readonly anonuid?: string;
   /**
@@ -40,35 +40,35 @@ export interface DataIntersightStoragePureNfsPolicyRuleConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * Client of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#client DataIntersightStoragePureNfsPolicyRule#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#client DataIntersightStoragePureNfsPolicyRule#client}
   */
   readonly client?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#create_time DataIntersightStoragePureNfsPolicyRule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#create_time DataIntersightStoragePureNfsPolicyRule#create_time}
   */
   readonly createTime?: string;
   /**
   * A boolean value, if set to true, lists only destroyed objects that are in the eradication pending state. If set to false, lists only objects that are not destroyed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#destroyed DataIntersightStoragePureNfsPolicyRule#destroyed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#destroyed DataIntersightStoragePureNfsPolicyRule#destroyed}
   */
   readonly destroyed?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#domain_group_moid DataIntersightStoragePureNfsPolicyRule#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#domain_group_moid DataIntersightStoragePureNfsPolicyRule#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#id DataIntersightStoragePureNfsPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#id DataIntersightStoragePureNfsPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,105 +77,105 @@ export interface DataIntersightStoragePureNfsPolicyRuleConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#mod_time DataIntersightStoragePureNfsPolicyRule#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#mod_time DataIntersightStoragePureNfsPolicyRule#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * Name of the NFS policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#name DataIntersightStoragePureNfsPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#name DataIntersightStoragePureNfsPolicyRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#nfs_version DataIntersightStoragePureNfsPolicyRule#nfs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#nfs_version DataIntersightStoragePureNfsPolicyRule#nfs_version}
   */
   readonly nfsVersion?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#owners DataIntersightStoragePureNfsPolicyRule#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#owners DataIntersightStoragePureNfsPolicyRule#owners}
   */
   readonly owners?: string[];
   /**
   * Permission of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#permission DataIntersightStoragePureNfsPolicyRule#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#permission DataIntersightStoragePureNfsPolicyRule#permission}
   */
   readonly permission?: string;
   /**
   * Name of the NFS policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#policy_name DataIntersightStoragePureNfsPolicyRule#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#policy_name DataIntersightStoragePureNfsPolicyRule#policy_name}
   */
   readonly policyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#security DataIntersightStoragePureNfsPolicyRule#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#security DataIntersightStoragePureNfsPolicyRule#security}
   */
   readonly security?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#shared_scope DataIntersightStoragePureNfsPolicyRule#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#shared_scope DataIntersightStoragePureNfsPolicyRule#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#ancestors DataIntersightStoragePureNfsPolicyRule#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#ancestors DataIntersightStoragePureNfsPolicyRule#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureNfsPolicyRuleAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#array DataIntersightStoragePureNfsPolicyRule#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#array DataIntersightStoragePureNfsPolicyRule#array}
   */
   readonly array?: DataIntersightStoragePureNfsPolicyRuleArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#parent DataIntersightStoragePureNfsPolicyRule#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#parent DataIntersightStoragePureNfsPolicyRule#parent}
   */
   readonly parent?: DataIntersightStoragePureNfsPolicyRuleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#permission_resources DataIntersightStoragePureNfsPolicyRule#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#permission_resources DataIntersightStoragePureNfsPolicyRule#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureNfsPolicyRulePermissionResources[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#policy DataIntersightStoragePureNfsPolicyRule#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#policy DataIntersightStoragePureNfsPolicyRule#policy}
   */
   readonly policy?: DataIntersightStoragePureNfsPolicyRulePolicy;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#registered_device DataIntersightStoragePureNfsPolicyRule#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#registered_device DataIntersightStoragePureNfsPolicyRule#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureNfsPolicyRuleRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#tags DataIntersightStoragePureNfsPolicyRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#tags DataIntersightStoragePureNfsPolicyRule#tags}
   */
   readonly tags?: DataIntersightStoragePureNfsPolicyRuleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#version_context DataIntersightStoragePureNfsPolicyRule#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#version_context DataIntersightStoragePureNfsPolicyRule#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureNfsPolicyRuleVersionContext;
 }
@@ -1017,6 +1017,11 @@ export class DataIntersightStoragePureNfsPolicyRuleResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1573,7 +1578,7 @@ export class DataIntersightStoragePureNfsPolicyRuleResultsList extends cdktf.Com
 }
 export interface DataIntersightStoragePureNfsPolicyRuleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1581,19 +1586,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1606,7 +1611,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -1838,7 +1843,7 @@ export class DataIntersightStoragePureNfsPolicyRuleAncestorsList extends cdktf.C
 }
 export interface DataIntersightStoragePureNfsPolicyRuleArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1846,19 +1851,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1871,7 +1876,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2071,7 +2076,7 @@ export class DataIntersightStoragePureNfsPolicyRuleArrayOutputReference extends 
 }
 export interface DataIntersightStoragePureNfsPolicyRuleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2079,19 +2084,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2104,7 +2109,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2304,7 +2309,7 @@ export class DataIntersightStoragePureNfsPolicyRuleParentOutputReference extends
 }
 export interface DataIntersightStoragePureNfsPolicyRulePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2312,19 +2317,19 @@ export interface DataIntersightStoragePureNfsPolicyRulePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2337,7 +2342,7 @@ export interface DataIntersightStoragePureNfsPolicyRulePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2569,7 +2574,7 @@ export class DataIntersightStoragePureNfsPolicyRulePermissionResourcesList exten
 }
 export interface DataIntersightStoragePureNfsPolicyRulePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2577,19 +2582,19 @@ export interface DataIntersightStoragePureNfsPolicyRulePolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2602,7 +2607,7 @@ export interface DataIntersightStoragePureNfsPolicyRulePolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2802,7 +2807,7 @@ export class DataIntersightStoragePureNfsPolicyRulePolicyOutputReference extends
 }
 export interface DataIntersightStoragePureNfsPolicyRuleRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2810,19 +2815,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2835,7 +2840,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -3035,7 +3040,7 @@ export class DataIntersightStoragePureNfsPolicyRuleRegisteredDeviceOutputReferen
 }
 export interface DataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3043,19 +3048,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3068,7 +3073,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -3300,7 +3305,7 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitionsList e
 }
 export interface DataIntersightStoragePureNfsPolicyRuleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3308,19 +3313,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3333,7 +3338,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -3533,45 +3538,51 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsDefinitionOutputReference
 }
 export interface DataIntersightStoragePureNfsPolicyRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#key DataIntersightStoragePureNfsPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#key DataIntersightStoragePureNfsPolicyRule#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#propagated DataIntersightStoragePureNfsPolicyRule#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#propagated DataIntersightStoragePureNfsPolicyRule#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#sys_tag DataIntersightStoragePureNfsPolicyRule#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#type DataIntersightStoragePureNfsPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#type DataIntersightStoragePureNfsPolicyRule#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#value DataIntersightStoragePureNfsPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#value DataIntersightStoragePureNfsPolicyRule#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#ancestor_definitions DataIntersightStoragePureNfsPolicyRule#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#ancestor_definitions DataIntersightStoragePureNfsPolicyRule#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#definition DataIntersightStoragePureNfsPolicyRule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#definition DataIntersightStoragePureNfsPolicyRule#definition}
   */
   readonly definition?: DataIntersightStoragePureNfsPolicyRuleTagsDefinition;
 }
@@ -3585,6 +3596,7 @@ export function dataIntersightStoragePureNfsPolicyRuleTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStoragePureNfsPolicyRuleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3613,6 +3625,12 @@ export function dataIntersightStoragePureNfsPolicyRuleTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3679,6 +3697,10 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3705,6 +3727,7 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3720,6 +3743,7 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3773,6 +3797,22 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3861,7 +3901,7 @@ export class DataIntersightStoragePureNfsPolicyRuleTagsList extends cdktf.Comple
 }
 export interface DataIntersightStoragePureNfsPolicyRuleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3869,19 +3909,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3894,7 +3934,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -4126,7 +4166,7 @@ export class DataIntersightStoragePureNfsPolicyRuleVersionContextInterestedMosLi
 }
 export interface DataIntersightStoragePureNfsPolicyRuleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4134,19 +4174,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#moid DataIntersightStoragePureNfsPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4159,7 +4199,7 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#selector DataIntersightStoragePureNfsPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -4359,7 +4399,7 @@ export class DataIntersightStoragePureNfsPolicyRuleVersionContextRefMoOutputRefe
 }
 export interface DataIntersightStoragePureNfsPolicyRuleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#additional_properties DataIntersightStoragePureNfsPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4367,32 +4407,32 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#class_id DataIntersightStoragePureNfsPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#marked_for_deletion DataIntersightStoragePureNfsPolicyRule#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#marked_for_deletion DataIntersightStoragePureNfsPolicyRule#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#nr_version DataIntersightStoragePureNfsPolicyRule#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#nr_version DataIntersightStoragePureNfsPolicyRule#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#object_type DataIntersightStoragePureNfsPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#timestamp DataIntersightStoragePureNfsPolicyRule#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#timestamp DataIntersightStoragePureNfsPolicyRule#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4403,19 +4443,19 @@ export interface DataIntersightStoragePureNfsPolicyRuleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#version_type DataIntersightStoragePureNfsPolicyRule#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#version_type DataIntersightStoragePureNfsPolicyRule#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#interested_mos DataIntersightStoragePureNfsPolicyRule#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#interested_mos DataIntersightStoragePureNfsPolicyRule#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureNfsPolicyRuleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#ref_mo DataIntersightStoragePureNfsPolicyRule#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#ref_mo DataIntersightStoragePureNfsPolicyRule#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureNfsPolicyRuleVersionContextRefMo;
 }
@@ -4731,7 +4771,7 @@ export class DataIntersightStoragePureNfsPolicyRuleVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule intersight_storage_pure_nfs_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule intersight_storage_pure_nfs_policy_rule}
 */
 export class DataIntersightStoragePureNfsPolicyRule extends cdktf.TerraformDataSource {
 
@@ -4747,7 +4787,7 @@ export class DataIntersightStoragePureNfsPolicyRule extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightStoragePureNfsPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureNfsPolicyRule to import
-  * @param importFromId The id of the existing DataIntersightStoragePureNfsPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureNfsPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureNfsPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4759,7 +4799,7 @@ export class DataIntersightStoragePureNfsPolicyRule extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_nfs_policy_rule intersight_storage_pure_nfs_policy_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_nfs_policy_rule intersight_storage_pure_nfs_policy_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4770,8 +4810,8 @@ export class DataIntersightStoragePureNfsPolicyRule extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_pure_nfs_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

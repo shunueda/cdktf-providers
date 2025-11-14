@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreVolumeGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#availability_domain DataOciCoreVolumeGroups#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#availability_domain DataOciCoreVolumeGroups#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#compartment_id DataOciCoreVolumeGroups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#compartment_id DataOciCoreVolumeGroups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#display_name DataOciCoreVolumeGroups#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#display_name DataOciCoreVolumeGroups#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#id DataOciCoreVolumeGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#id DataOciCoreVolumeGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#state DataOciCoreVolumeGroups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#state DataOciCoreVolumeGroups#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#filter DataOciCoreVolumeGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#filter DataOciCoreVolumeGroups#filter}
   */
   readonly filter?: DataOciCoreVolumeGroupsFilter[] | cdktf.IResolvable;
 }
@@ -393,15 +393,15 @@ export class DataOciCoreVolumeGroupsVolumeGroupsList extends cdktf.ComplexList {
 }
 export interface DataOciCoreVolumeGroupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#name DataOciCoreVolumeGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#name DataOciCoreVolumeGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#regex DataOciCoreVolumeGroups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#regex DataOciCoreVolumeGroups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#values DataOciCoreVolumeGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#values DataOciCoreVolumeGroups#values}
   */
   readonly values: string[];
 }
@@ -569,7 +569,7 @@ export class DataOciCoreVolumeGroupsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups oci_core_volume_groups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups oci_core_volume_groups}
 */
 export class DataOciCoreVolumeGroups extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataOciCoreVolumeGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreVolumeGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreVolumeGroups to import
-  * @param importFromId The id of the existing DataOciCoreVolumeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreVolumeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreVolumeGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataOciCoreVolumeGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume_groups oci_core_volume_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume_groups oci_core_volume_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class DataOciCoreVolumeGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_volume_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

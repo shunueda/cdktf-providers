@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCoremanagementDownloadConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#account_moid DataIntersightCoremanagementDownload#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#account_moid DataIntersightCoremanagementDownload#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightCoremanagementDownloadConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#create_time DataIntersightCoremanagementDownload#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#create_time DataIntersightCoremanagementDownload#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#domain_group_moid DataIntersightCoremanagementDownload#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#domain_group_moid DataIntersightCoremanagementDownload#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#id DataIntersightCoremanagementDownload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#id DataIntersightCoremanagementDownload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface DataIntersightCoremanagementDownloadConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#mod_time DataIntersightCoremanagementDownload#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#mod_time DataIntersightCoremanagementDownload#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#owners DataIntersightCoremanagementDownload#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#owners DataIntersightCoremanagementDownload#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#shared_scope DataIntersightCoremanagementDownload#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#shared_scope DataIntersightCoremanagementDownload#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#ancestors DataIntersightCoremanagementDownload#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#ancestors DataIntersightCoremanagementDownload#ancestors}
   */
   readonly ancestors?: DataIntersightCoremanagementDownloadAncestors[] | cdktf.IResolvable;
   /**
   * core_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#core_file DataIntersightCoremanagementDownload#core_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#core_file DataIntersightCoremanagementDownload#core_file}
   */
   readonly coreFile?: DataIntersightCoremanagementDownloadCoreFile;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#parent DataIntersightCoremanagementDownload#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#parent DataIntersightCoremanagementDownload#parent}
   */
   readonly parent?: DataIntersightCoremanagementDownloadParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#permission_resources DataIntersightCoremanagementDownload#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#permission_resources DataIntersightCoremanagementDownload#permission_resources}
   */
   readonly permissionResources?: DataIntersightCoremanagementDownloadPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#tags DataIntersightCoremanagementDownload#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#tags DataIntersightCoremanagementDownload#tags}
   */
   readonly tags?: DataIntersightCoremanagementDownloadTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#version_context DataIntersightCoremanagementDownload#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#version_context DataIntersightCoremanagementDownload#version_context}
   */
   readonly versionContext?: DataIntersightCoremanagementDownloadVersionContext;
 }
@@ -759,6 +759,11 @@ export class DataIntersightCoremanagementDownloadResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1253,7 +1258,7 @@ export class DataIntersightCoremanagementDownloadResultsList extends cdktf.Compl
 }
 export interface DataIntersightCoremanagementDownloadAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1261,19 +1266,19 @@ export interface DataIntersightCoremanagementDownloadAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1286,7 +1291,7 @@ export interface DataIntersightCoremanagementDownloadAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -1518,7 +1523,7 @@ export class DataIntersightCoremanagementDownloadAncestorsList extends cdktf.Com
 }
 export interface DataIntersightCoremanagementDownloadCoreFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1526,19 +1531,19 @@ export interface DataIntersightCoremanagementDownloadCoreFile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1551,7 +1556,7 @@ export interface DataIntersightCoremanagementDownloadCoreFile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -1751,7 +1756,7 @@ export class DataIntersightCoremanagementDownloadCoreFileOutputReference extends
 }
 export interface DataIntersightCoremanagementDownloadParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1759,19 +1764,19 @@ export interface DataIntersightCoremanagementDownloadParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1784,7 +1789,7 @@ export interface DataIntersightCoremanagementDownloadParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -1984,7 +1989,7 @@ export class DataIntersightCoremanagementDownloadParentOutputReference extends c
 }
 export interface DataIntersightCoremanagementDownloadPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1992,19 +1997,19 @@ export interface DataIntersightCoremanagementDownloadPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2017,7 +2022,7 @@ export interface DataIntersightCoremanagementDownloadPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2249,7 +2254,7 @@ export class DataIntersightCoremanagementDownloadPermissionResourcesList extends
 }
 export interface DataIntersightCoremanagementDownloadTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2257,19 +2262,19 @@ export interface DataIntersightCoremanagementDownloadTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2282,7 +2287,7 @@ export interface DataIntersightCoremanagementDownloadTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2514,7 +2519,7 @@ export class DataIntersightCoremanagementDownloadTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightCoremanagementDownloadTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2522,19 +2527,19 @@ export interface DataIntersightCoremanagementDownloadTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2547,7 +2552,7 @@ export interface DataIntersightCoremanagementDownloadTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2747,45 +2752,51 @@ export class DataIntersightCoremanagementDownloadTagsDefinitionOutputReference e
 }
 export interface DataIntersightCoremanagementDownloadTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#key DataIntersightCoremanagementDownload#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#key DataIntersightCoremanagementDownload#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#propagated DataIntersightCoremanagementDownload#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#propagated DataIntersightCoremanagementDownload#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#sys_tag DataIntersightCoremanagementDownload#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#type DataIntersightCoremanagementDownload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#type DataIntersightCoremanagementDownload#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#value DataIntersightCoremanagementDownload#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#value DataIntersightCoremanagementDownload#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#ancestor_definitions DataIntersightCoremanagementDownload#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#ancestor_definitions DataIntersightCoremanagementDownload#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCoremanagementDownloadTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#definition DataIntersightCoremanagementDownload#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#definition DataIntersightCoremanagementDownload#definition}
   */
   readonly definition?: DataIntersightCoremanagementDownloadTagsDefinition;
 }
@@ -2799,6 +2810,7 @@ export function dataIntersightCoremanagementDownloadTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCoremanagementDownloadTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2827,6 +2839,12 @@ export function dataIntersightCoremanagementDownloadTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2893,6 +2911,10 @@ export class DataIntersightCoremanagementDownloadTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2919,6 +2941,7 @@ export class DataIntersightCoremanagementDownloadTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2934,6 +2957,7 @@ export class DataIntersightCoremanagementDownloadTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2987,6 +3011,22 @@ export class DataIntersightCoremanagementDownloadTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3075,7 +3115,7 @@ export class DataIntersightCoremanagementDownloadTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightCoremanagementDownloadVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3083,19 +3123,19 @@ export interface DataIntersightCoremanagementDownloadVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3108,7 +3148,7 @@ export interface DataIntersightCoremanagementDownloadVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -3340,7 +3380,7 @@ export class DataIntersightCoremanagementDownloadVersionContextInterestedMosList
 }
 export interface DataIntersightCoremanagementDownloadVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3348,19 +3388,19 @@ export interface DataIntersightCoremanagementDownloadVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#moid DataIntersightCoremanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3373,7 +3413,7 @@ export interface DataIntersightCoremanagementDownloadVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#selector DataIntersightCoremanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -3573,7 +3613,7 @@ export class DataIntersightCoremanagementDownloadVersionContextRefMoOutputRefere
 }
 export interface DataIntersightCoremanagementDownloadVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#additional_properties DataIntersightCoremanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3581,32 +3621,32 @@ export interface DataIntersightCoremanagementDownloadVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#class_id DataIntersightCoremanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#marked_for_deletion DataIntersightCoremanagementDownload#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#marked_for_deletion DataIntersightCoremanagementDownload#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#nr_version DataIntersightCoremanagementDownload#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#nr_version DataIntersightCoremanagementDownload#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#object_type DataIntersightCoremanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#timestamp DataIntersightCoremanagementDownload#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#timestamp DataIntersightCoremanagementDownload#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3617,19 +3657,19 @@ export interface DataIntersightCoremanagementDownloadVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#version_type DataIntersightCoremanagementDownload#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#version_type DataIntersightCoremanagementDownload#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#interested_mos DataIntersightCoremanagementDownload#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#interested_mos DataIntersightCoremanagementDownload#interested_mos}
   */
   readonly interestedMos?: DataIntersightCoremanagementDownloadVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#ref_mo DataIntersightCoremanagementDownload#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#ref_mo DataIntersightCoremanagementDownload#ref_mo}
   */
   readonly refMo?: DataIntersightCoremanagementDownloadVersionContextRefMo;
 }
@@ -3945,7 +3985,7 @@ export class DataIntersightCoremanagementDownloadVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download intersight_coremanagement_download}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download intersight_coremanagement_download}
 */
 export class DataIntersightCoremanagementDownload extends cdktf.TerraformDataSource {
 
@@ -3961,7 +4001,7 @@ export class DataIntersightCoremanagementDownload extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightCoremanagementDownload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCoremanagementDownload to import
-  * @param importFromId The id of the existing DataIntersightCoremanagementDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCoremanagementDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCoremanagementDownload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3973,7 +4013,7 @@ export class DataIntersightCoremanagementDownload extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/coremanagement_download intersight_coremanagement_download} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/coremanagement_download intersight_coremanagement_download} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3984,8 +4024,8 @@ export class DataIntersightCoremanagementDownload extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_coremanagement_download',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

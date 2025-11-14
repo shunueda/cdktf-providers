@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface NdbMaintenanceTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#dbserver_cluster NdbMaintenanceTask#dbserver_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#dbserver_cluster NdbMaintenanceTask#dbserver_cluster}
   */
   readonly dbserverCluster?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#dbserver_id NdbMaintenanceTask#dbserver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#dbserver_id NdbMaintenanceTask#dbserver_id}
   */
   readonly dbserverId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#id NdbMaintenanceTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#id NdbMaintenanceTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#maintenance_window_id NdbMaintenanceTask#maintenance_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#maintenance_window_id NdbMaintenanceTask#maintenance_window_id}
   */
   readonly maintenanceWindowId: string;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#tasks NdbMaintenanceTask#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#tasks NdbMaintenanceTask#tasks}
   */
   readonly tasks?: NdbMaintenanceTaskTasks[] | cdktf.IResolvable;
 }
@@ -524,15 +524,15 @@ export class NdbMaintenanceTaskEntityTaskAssociationList extends cdktf.ComplexLi
 }
 export interface NdbMaintenanceTaskTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#post_command NdbMaintenanceTask#post_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#post_command NdbMaintenanceTask#post_command}
   */
   readonly postCommand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#pre_command NdbMaintenanceTask#pre_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#pre_command NdbMaintenanceTask#pre_command}
   */
   readonly preCommand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#task_type NdbMaintenanceTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#task_type NdbMaintenanceTask#task_type}
   */
   readonly taskType?: string;
 }
@@ -706,7 +706,7 @@ export class NdbMaintenanceTaskTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task nutanix_ndb_maintenance_task}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task nutanix_ndb_maintenance_task}
 */
 export class NdbMaintenanceTask extends cdktf.TerraformResource {
 
@@ -722,7 +722,7 @@ export class NdbMaintenanceTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NdbMaintenanceTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NdbMaintenanceTask to import
-  * @param importFromId The id of the existing NdbMaintenanceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NdbMaintenanceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NdbMaintenanceTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class NdbMaintenanceTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ndb_maintenance_task nutanix_ndb_maintenance_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ndb_maintenance_task nutanix_ndb_maintenance_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,8 +745,8 @@ export class NdbMaintenanceTask extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_maintenance_task',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

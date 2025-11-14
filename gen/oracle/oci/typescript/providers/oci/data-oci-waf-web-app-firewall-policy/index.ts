@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/waf_web_app_firewall_policy
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waf_web_app_firewall_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciWafWebAppFirewallPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/waf_web_app_firewall_policy#web_app_firewall_policy_id DataOciWafWebAppFirewallPolicy#web_app_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waf_web_app_firewall_policy#web_app_firewall_policy_id DataOciWafWebAppFirewallPolicy#web_app_firewall_policy_id}
   */
   readonly webAppFirewallPolicyId: string;
 }
@@ -1995,7 +1995,7 @@ export class DataOciWafWebAppFirewallPolicyResponseProtectionList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy}
 */
 export class DataOciWafWebAppFirewallPolicy extends cdktf.TerraformDataSource {
 
@@ -2011,7 +2011,7 @@ export class DataOciWafWebAppFirewallPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciWafWebAppFirewallPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciWafWebAppFirewallPolicy to import
-  * @param importFromId The id of the existing DataOciWafWebAppFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/waf_web_app_firewall_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciWafWebAppFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waf_web_app_firewall_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciWafWebAppFirewallPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2023,7 +2023,7 @@ export class DataOciWafWebAppFirewallPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/waf_web_app_firewall_policy oci_waf_web_app_firewall_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2034,8 +2034,8 @@ export class DataOciWafWebAppFirewallPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_waf_web_app_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

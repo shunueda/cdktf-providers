@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCapacityManagementInternalOccmDemandSignalDeliveriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#compartment_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#compartment_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#occ_customer_group_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#occ_customer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#occ_customer_group_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#occ_customer_group_id}
   */
   readonly occCustomerGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#occm_demand_signal_item_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#occm_demand_signal_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#occm_demand_signal_item_id DataOciCapacityManagementInternalOccmDemandSignalDeliveries#occm_demand_signal_item_id}
   */
   readonly occmDemandSignalItemId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#filter DataOciCapacityManagementInternalOccmDemandSignalDeliveries#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#filter DataOciCapacityManagementInternalOccmDemandSignalDeliveries#filter}
   */
   readonly filter?: DataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilter[] | cdktf.IResolvable;
 }
@@ -254,15 +254,15 @@ export class DataOciCapacityManagementInternalOccmDemandSignalDeliveriesInternal
 }
 export interface DataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#name DataOciCapacityManagementInternalOccmDemandSignalDeliveries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#name DataOciCapacityManagementInternalOccmDemandSignalDeliveries#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#regex DataOciCapacityManagementInternalOccmDemandSignalDeliveries#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#regex DataOciCapacityManagementInternalOccmDemandSignalDeliveries#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#values DataOciCapacityManagementInternalOccmDemandSignalDeliveries#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#values DataOciCapacityManagementInternalOccmDemandSignalDeliveries#values}
   */
   readonly values: string[];
 }
@@ -430,7 +430,7 @@ export class DataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilterLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries oci_capacity_management_internal_occm_demand_signal_deliveries}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries oci_capacity_management_internal_occm_demand_signal_deliveries}
 */
 export class DataOciCapacityManagementInternalOccmDemandSignalDeliveries extends cdktf.TerraformDataSource {
 
@@ -446,7 +446,7 @@ export class DataOciCapacityManagementInternalOccmDemandSignalDeliveries extends
   * Generates CDKTF code for importing a DataOciCapacityManagementInternalOccmDemandSignalDeliveries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCapacityManagementInternalOccmDemandSignalDeliveries to import
-  * @param importFromId The id of the existing DataOciCapacityManagementInternalOccmDemandSignalDeliveries that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCapacityManagementInternalOccmDemandSignalDeliveries that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCapacityManagementInternalOccmDemandSignalDeliveries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class DataOciCapacityManagementInternalOccmDemandSignalDeliveries extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries oci_capacity_management_internal_occm_demand_signal_deliveries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries oci_capacity_management_internal_occm_demand_signal_deliveries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class DataOciCapacityManagementInternalOccmDemandSignalDeliveries extends
       terraformResourceType: 'oci_capacity_management_internal_occm_demand_signal_deliveries',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

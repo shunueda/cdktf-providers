@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexSoftwareDistributionVersionConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#account_moid HyperflexSoftwareDistributionVersion#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#account_moid HyperflexSoftwareDistributionVersion#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#ancestors HyperflexSoftwareDistributionVersion#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#ancestors HyperflexSoftwareDistributionVersion#ancestors}
   */
   readonly ancestors?: HyperflexSoftwareDistributionVersionAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface HyperflexSoftwareDistributionVersionConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#create_time HyperflexSoftwareDistributionVersion#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#create_time HyperflexSoftwareDistributionVersion#create_time}
   */
   readonly createTime?: string;
   /**
   * An array of relationships to hyperflexSoftwareDistributionComponent resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#distribution_components HyperflexSoftwareDistributionVersion#distribution_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#distribution_components HyperflexSoftwareDistributionVersion#distribution_components}
   */
   readonly distributionComponents?: HyperflexSoftwareDistributionVersionDistributionComponents[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#domain_group_moid HyperflexSoftwareDistributionVersion#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#domain_group_moid HyperflexSoftwareDistributionVersion#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#id HyperflexSoftwareDistributionVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#id HyperflexSoftwareDistributionVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,89 +59,89 @@ export interface HyperflexSoftwareDistributionVersionConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#mod_time HyperflexSoftwareDistributionVersion#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#mod_time HyperflexSoftwareDistributionVersion#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
   * The HyperFlex Software Distribution version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#nr_version HyperflexSoftwareDistributionVersion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#nr_version HyperflexSoftwareDistributionVersion#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#owners HyperflexSoftwareDistributionVersion#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#owners HyperflexSoftwareDistributionVersion#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#parent HyperflexSoftwareDistributionVersion#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#parent HyperflexSoftwareDistributionVersion#parent}
   */
   readonly parent?: HyperflexSoftwareDistributionVersionParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#permission_resources HyperflexSoftwareDistributionVersion#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#permission_resources HyperflexSoftwareDistributionVersion#permission_resources}
   */
   readonly permissionResources?: HyperflexSoftwareDistributionVersionPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#shared_scope HyperflexSoftwareDistributionVersion#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#shared_scope HyperflexSoftwareDistributionVersion#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a hyperflexSoftwareDistributionEntry resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#software_distribution_entry HyperflexSoftwareDistributionVersion#software_distribution_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#software_distribution_entry HyperflexSoftwareDistributionVersion#software_distribution_entry}
   */
   readonly softwareDistributionEntry?: HyperflexSoftwareDistributionVersionSoftwareDistributionEntry[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#tags HyperflexSoftwareDistributionVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#tags HyperflexSoftwareDistributionVersion#tags}
   */
   readonly tags?: HyperflexSoftwareDistributionVersionTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#version_context HyperflexSoftwareDistributionVersion#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#version_context HyperflexSoftwareDistributionVersion#version_context}
   */
   readonly versionContext?: HyperflexSoftwareDistributionVersionVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexSoftwareDistributionVersionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -373,23 +373,23 @@ export class HyperflexSoftwareDistributionVersionAncestorsList extends cdktf.Com
 }
 export interface HyperflexSoftwareDistributionVersionDistributionComponents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -621,23 +621,23 @@ export class HyperflexSoftwareDistributionVersionDistributionComponentsList exte
 }
 export interface HyperflexSoftwareDistributionVersionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -869,23 +869,23 @@ export class HyperflexSoftwareDistributionVersionParentList extends cdktf.Comple
 }
 export interface HyperflexSoftwareDistributionVersionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1117,23 +1117,23 @@ export class HyperflexSoftwareDistributionVersionPermissionResourcesList extends
 }
 export interface HyperflexSoftwareDistributionVersionSoftwareDistributionEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1365,23 +1365,23 @@ export class HyperflexSoftwareDistributionVersionSoftwareDistributionEntryList e
 }
 export interface HyperflexSoftwareDistributionVersionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1613,23 +1613,23 @@ export class HyperflexSoftwareDistributionVersionTagsAncestorDefinitionsList ext
 }
 export interface HyperflexSoftwareDistributionVersionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1861,31 +1861,35 @@ export class HyperflexSoftwareDistributionVersionTagsDefinitionList extends cdkt
 }
 export interface HyperflexSoftwareDistributionVersionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#ancestor_definitions HyperflexSoftwareDistributionVersion#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#ancestor_definitions HyperflexSoftwareDistributionVersion#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexSoftwareDistributionVersionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#definition HyperflexSoftwareDistributionVersion#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#definition HyperflexSoftwareDistributionVersion#definition}
   */
   readonly definition?: HyperflexSoftwareDistributionVersionTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#key HyperflexSoftwareDistributionVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#key HyperflexSoftwareDistributionVersion#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#propagated HyperflexSoftwareDistributionVersion#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#propagated HyperflexSoftwareDistributionVersion#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#type HyperflexSoftwareDistributionVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#sys_tag HyperflexSoftwareDistributionVersion#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#type HyperflexSoftwareDistributionVersion#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#value HyperflexSoftwareDistributionVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#value HyperflexSoftwareDistributionVersion#value}
   */
   readonly value?: string;
 }
@@ -1901,6 +1905,7 @@ export function hyperflexSoftwareDistributionVersionTagsToTerraform(struct?: Hyp
     definition: cdktf.listMapper(hyperflexSoftwareDistributionVersionTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1939,6 +1944,12 @@ export function hyperflexSoftwareDistributionVersionTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2001,6 +2012,10 @@ export class HyperflexSoftwareDistributionVersionTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2021,6 +2036,7 @@ export class HyperflexSoftwareDistributionVersionTagsOutputReference extends cdk
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2036,6 +2052,7 @@ export class HyperflexSoftwareDistributionVersionTagsOutputReference extends cdk
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2121,6 +2138,22 @@ export class HyperflexSoftwareDistributionVersionTagsOutputReference extends cdk
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2175,23 +2208,23 @@ export class HyperflexSoftwareDistributionVersionTagsList extends cdktf.ComplexL
 }
 export interface HyperflexSoftwareDistributionVersionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2423,23 +2456,23 @@ export class HyperflexSoftwareDistributionVersionVersionContextInterestedMosList
 }
 export interface HyperflexSoftwareDistributionVersionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#moid HyperflexSoftwareDistributionVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#selector HyperflexSoftwareDistributionVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2671,39 +2704,39 @@ export class HyperflexSoftwareDistributionVersionVersionContextRefMoList extends
 }
 export interface HyperflexSoftwareDistributionVersionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#additional_properties HyperflexSoftwareDistributionVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#class_id HyperflexSoftwareDistributionVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#interested_mos HyperflexSoftwareDistributionVersion#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#interested_mos HyperflexSoftwareDistributionVersion#interested_mos}
   */
   readonly interestedMos?: HyperflexSoftwareDistributionVersionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#marked_for_deletion HyperflexSoftwareDistributionVersion#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#marked_for_deletion HyperflexSoftwareDistributionVersion#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#nr_version HyperflexSoftwareDistributionVersion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#nr_version HyperflexSoftwareDistributionVersion#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#object_type HyperflexSoftwareDistributionVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#ref_mo HyperflexSoftwareDistributionVersion#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#ref_mo HyperflexSoftwareDistributionVersion#ref_mo}
   */
   readonly refMo?: HyperflexSoftwareDistributionVersionVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#timestamp HyperflexSoftwareDistributionVersion#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#timestamp HyperflexSoftwareDistributionVersion#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#version_type HyperflexSoftwareDistributionVersion#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#version_type HyperflexSoftwareDistributionVersion#version_type}
   */
   readonly versionType?: string;
 }
@@ -3051,7 +3084,7 @@ export class HyperflexSoftwareDistributionVersionVersionContextList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version intersight_hyperflex_software_distribution_version}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version intersight_hyperflex_software_distribution_version}
 */
 export class HyperflexSoftwareDistributionVersion extends cdktf.TerraformResource {
 
@@ -3067,7 +3100,7 @@ export class HyperflexSoftwareDistributionVersion extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a HyperflexSoftwareDistributionVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexSoftwareDistributionVersion to import
-  * @param importFromId The id of the existing HyperflexSoftwareDistributionVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexSoftwareDistributionVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexSoftwareDistributionVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3079,7 +3112,7 @@ export class HyperflexSoftwareDistributionVersion extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/hyperflex_software_distribution_version intersight_hyperflex_software_distribution_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_software_distribution_version intersight_hyperflex_software_distribution_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3090,8 +3123,8 @@ export class HyperflexSoftwareDistributionVersion extends cdktf.TerraformResourc
       terraformResourceType: 'intersight_hyperflex_software_distribution_version',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

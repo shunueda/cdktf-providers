@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsUserAttributesSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#attribute_sets DataOciIdentityDomainsUserAttributesSettings#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#attribute_sets DataOciIdentityDomainsUserAttributesSettings#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#attributes DataOciIdentityDomainsUserAttributesSettings#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#attributes DataOciIdentityDomainsUserAttributesSettings#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#authorization DataOciIdentityDomainsUserAttributesSettings#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#authorization DataOciIdentityDomainsUserAttributesSettings#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#compartment_id DataOciIdentityDomainsUserAttributesSettings#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#compartment_id DataOciIdentityDomainsUserAttributesSettings#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#id DataOciIdentityDomainsUserAttributesSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#id DataOciIdentityDomainsUserAttributesSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#idcs_endpoint DataOciIdentityDomainsUserAttributesSettings#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#idcs_endpoint DataOciIdentityDomainsUserAttributesSettings#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#resource_type_schema_version DataOciIdentityDomainsUserAttributesSettings#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#resource_type_schema_version DataOciIdentityDomainsUserAttributesSettings#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -666,7 +666,7 @@ export class DataOciIdentityDomainsUserAttributesSettingsUserAttributesSettingsL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings oci_identity_domains_user_attributes_settings}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings oci_identity_domains_user_attributes_settings}
 */
 export class DataOciIdentityDomainsUserAttributesSettings extends cdktf.TerraformDataSource {
 
@@ -682,7 +682,7 @@ export class DataOciIdentityDomainsUserAttributesSettings extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataOciIdentityDomainsUserAttributesSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsUserAttributesSettings to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsUserAttributesSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsUserAttributesSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsUserAttributesSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -694,7 +694,7 @@ export class DataOciIdentityDomainsUserAttributesSettings extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_user_attributes_settings oci_identity_domains_user_attributes_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_user_attributes_settings oci_identity_domains_user_attributes_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -705,8 +705,8 @@ export class DataOciIdentityDomainsUserAttributesSettings extends cdktf.Terrafor
       terraformResourceType: 'oci_identity_domains_user_attributes_settings',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

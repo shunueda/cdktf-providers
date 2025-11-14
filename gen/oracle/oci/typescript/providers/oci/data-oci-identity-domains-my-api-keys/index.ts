@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsMyApiKeysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#authorization DataOciIdentityDomainsMyApiKeys#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#authorization DataOciIdentityDomainsMyApiKeys#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#compartment_id DataOciIdentityDomainsMyApiKeys#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#compartment_id DataOciIdentityDomainsMyApiKeys#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#id DataOciIdentityDomainsMyApiKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#id DataOciIdentityDomainsMyApiKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#idcs_endpoint DataOciIdentityDomainsMyApiKeys#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#idcs_endpoint DataOciIdentityDomainsMyApiKeys#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#my_api_key_count DataOciIdentityDomainsMyApiKeys#my_api_key_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#my_api_key_count DataOciIdentityDomainsMyApiKeys#my_api_key_count}
   */
   readonly myApiKeyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#my_api_key_filter DataOciIdentityDomainsMyApiKeys#my_api_key_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#my_api_key_filter DataOciIdentityDomainsMyApiKeys#my_api_key_filter}
   */
   readonly myApiKeyFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#resource_type_schema_version DataOciIdentityDomainsMyApiKeys#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#resource_type_schema_version DataOciIdentityDomainsMyApiKeys#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#sort_by DataOciIdentityDomainsMyApiKeys#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#sort_by DataOciIdentityDomainsMyApiKeys#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#sort_order DataOciIdentityDomainsMyApiKeys#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#sort_order DataOciIdentityDomainsMyApiKeys#sort_order}
   */
   readonly sortOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#start_index DataOciIdentityDomainsMyApiKeys#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#start_index DataOciIdentityDomainsMyApiKeys#start_index}
   */
   readonly startIndex?: number;
 }
@@ -688,7 +688,7 @@ export class DataOciIdentityDomainsMyApiKeysMyApiKeysList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys oci_identity_domains_my_api_keys}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys oci_identity_domains_my_api_keys}
 */
 export class DataOciIdentityDomainsMyApiKeys extends cdktf.TerraformDataSource {
 
@@ -704,7 +704,7 @@ export class DataOciIdentityDomainsMyApiKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityDomainsMyApiKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsMyApiKeys to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsMyApiKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsMyApiKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsMyApiKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -716,7 +716,7 @@ export class DataOciIdentityDomainsMyApiKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/identity_domains_my_api_keys oci_identity_domains_my_api_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/identity_domains_my_api_keys oci_identity_domains_my_api_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -727,8 +727,8 @@ export class DataOciIdentityDomainsMyApiKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_domains_my_api_keys',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

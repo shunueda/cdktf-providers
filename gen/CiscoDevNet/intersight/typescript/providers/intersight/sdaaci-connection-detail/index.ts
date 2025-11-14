@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SdaaciConnectionDetailConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#account_moid SdaaciConnectionDetail#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#account_moid SdaaciConnectionDetail#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#ancestors SdaaciConnectionDetail#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#ancestors SdaaciConnectionDetail#ancestors}
   */
   readonly ancestors?: SdaaciConnectionDetailAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface SdaaciConnectionDetailConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#create_time SdaaciConnectionDetail#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#create_time SdaaciConnectionDetail#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the connection between the two peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#description SdaaciConnectionDetail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#description SdaaciConnectionDetail#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#domain_group_moid SdaaciConnectionDetail#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#domain_group_moid SdaaciConnectionDetail#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#id SdaaciConnectionDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#id SdaaciConnectionDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,117 +59,117 @@ export interface SdaaciConnectionDetailConfig extends cdktf.TerraformMetaArgumen
   /**
   * Ip pool Id configured for this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#ip_pool SdaaciConnectionDetail#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#ip_pool SdaaciConnectionDetail#ip_pool}
   */
   readonly ipPool?: string;
   /**
   * Layer 3 handoff Id configured between a border node and a border leaf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#layer3_handoff_id SdaaciConnectionDetail#layer3_handoff_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#layer3_handoff_id SdaaciConnectionDetail#layer3_handoff_id}
   */
   readonly layer3HandoffId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#mod_time SdaaciConnectionDetail#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#mod_time SdaaciConnectionDetail#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
   * A reference to a sdaaciConnection resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#nr_connection SdaaciConnectionDetail#nr_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#nr_connection SdaaciConnectionDetail#nr_connection}
   */
   readonly nrConnection?: SdaaciConnectionDetailNrConnection[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#owners SdaaciConnectionDetail#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#owners SdaaciConnectionDetail#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#parent SdaaciConnectionDetail#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#parent SdaaciConnectionDetail#parent}
   */
   readonly parent?: SdaaciConnectionDetailParent[] | cdktf.IResolvable;
   /**
   * Interface Id configured on Peer A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_ainterface SdaaciConnectionDetail#peer_ainterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_ainterface SdaaciConnectionDetail#peer_ainterface}
   */
   readonly peerAinterface?: string;
   /**
   * IP address of the device used as the local peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_aip_address SdaaciConnectionDetail#peer_aip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_aip_address SdaaciConnectionDetail#peer_aip_address}
   */
   readonly peerAipAddress?: string;
   /**
   * Type of device used as Peer A in this peer connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_atype SdaaciConnectionDetail#peer_atype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_atype SdaaciConnectionDetail#peer_atype}
   */
   readonly peerAtype?: string;
   /**
   * Interface Id configured on Peer B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_binterface SdaaciConnectionDetail#peer_binterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_binterface SdaaciConnectionDetail#peer_binterface}
   */
   readonly peerBinterface?: string;
   /**
   * IP address of the device used as the remote peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_bip_address SdaaciConnectionDetail#peer_bip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_bip_address SdaaciConnectionDetail#peer_bip_address}
   */
   readonly peerBipAddress?: string;
   /**
   * Type of device used as Peer B in this peer connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peer_btype SdaaciConnectionDetail#peer_btype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peer_btype SdaaciConnectionDetail#peer_btype}
   */
   readonly peerBtype?: string;
   /**
   * First peer in the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peera SdaaciConnectionDetail#peera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peera SdaaciConnectionDetail#peera}
   */
   readonly peera?: string;
   /**
   * Second peer in the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#peerb SdaaciConnectionDetail#peerb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#peerb SdaaciConnectionDetail#peerb}
   */
   readonly peerb?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#permission_resources SdaaciConnectionDetail#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#permission_resources SdaaciConnectionDetail#permission_resources}
   */
   readonly permissionResources?: SdaaciConnectionDetailPermissionResources[] | cdktf.IResolvable;
   /**
   * Router Id defined for this peer connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#router_id SdaaciConnectionDetail#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#router_id SdaaciConnectionDetail#router_id}
   */
   readonly routerId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#shared_scope SdaaciConnectionDetail#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#shared_scope SdaaciConnectionDetail#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -177,39 +177,39 @@ export interface SdaaciConnectionDetailConfig extends cdktf.TerraformMetaArgumen
   * * `NotConnected` - Status of the connection:Not connected.
   * * `Connected` - Status of the connection:Connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#status SdaaciConnectionDetail#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#status SdaaciConnectionDetail#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#tags SdaaciConnectionDetail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#tags SdaaciConnectionDetail#tags}
   */
   readonly tags?: SdaaciConnectionDetailTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#version_context SdaaciConnectionDetail#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#version_context SdaaciConnectionDetail#version_context}
   */
   readonly versionContext?: SdaaciConnectionDetailVersionContext[] | cdktf.IResolvable;
 }
 export interface SdaaciConnectionDetailAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -441,23 +441,23 @@ export class SdaaciConnectionDetailAncestorsList extends cdktf.ComplexList {
 }
 export interface SdaaciConnectionDetailNrConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -689,23 +689,23 @@ export class SdaaciConnectionDetailNrConnectionList extends cdktf.ComplexList {
 }
 export interface SdaaciConnectionDetailParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -937,23 +937,23 @@ export class SdaaciConnectionDetailParentList extends cdktf.ComplexList {
 }
 export interface SdaaciConnectionDetailPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -1185,23 +1185,23 @@ export class SdaaciConnectionDetailPermissionResourcesList extends cdktf.Complex
 }
 export interface SdaaciConnectionDetailTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -1433,23 +1433,23 @@ export class SdaaciConnectionDetailTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface SdaaciConnectionDetailTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -1681,31 +1681,35 @@ export class SdaaciConnectionDetailTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface SdaaciConnectionDetailTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#ancestor_definitions SdaaciConnectionDetail#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#ancestor_definitions SdaaciConnectionDetail#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SdaaciConnectionDetailTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#definition SdaaciConnectionDetail#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#definition SdaaciConnectionDetail#definition}
   */
   readonly definition?: SdaaciConnectionDetailTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#key SdaaciConnectionDetail#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#key SdaaciConnectionDetail#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#propagated SdaaciConnectionDetail#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#propagated SdaaciConnectionDetail#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#type SdaaciConnectionDetail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#sys_tag SdaaciConnectionDetail#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#type SdaaciConnectionDetail#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#value SdaaciConnectionDetail#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#value SdaaciConnectionDetail#value}
   */
   readonly value?: string;
 }
@@ -1721,6 +1725,7 @@ export function sdaaciConnectionDetailTagsToTerraform(struct?: SdaaciConnectionD
     definition: cdktf.listMapper(sdaaciConnectionDetailTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1759,6 +1764,12 @@ export function sdaaciConnectionDetailTagsToHclTerraform(struct?: SdaaciConnecti
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1821,6 +1832,10 @@ export class SdaaciConnectionDetailTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1841,6 +1856,7 @@ export class SdaaciConnectionDetailTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1856,6 +1872,7 @@ export class SdaaciConnectionDetailTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1941,6 +1958,22 @@ export class SdaaciConnectionDetailTagsOutputReference extends cdktf.ComplexObje
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1995,23 +2028,23 @@ export class SdaaciConnectionDetailTagsList extends cdktf.ComplexList {
 }
 export interface SdaaciConnectionDetailVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2243,23 +2276,23 @@ export class SdaaciConnectionDetailVersionContextInterestedMosList extends cdktf
 }
 export interface SdaaciConnectionDetailVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#moid SdaaciConnectionDetail#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#selector SdaaciConnectionDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2491,39 +2524,39 @@ export class SdaaciConnectionDetailVersionContextRefMoList extends cdktf.Complex
 }
 export interface SdaaciConnectionDetailVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#additional_properties SdaaciConnectionDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#class_id SdaaciConnectionDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#interested_mos SdaaciConnectionDetail#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#interested_mos SdaaciConnectionDetail#interested_mos}
   */
   readonly interestedMos?: SdaaciConnectionDetailVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#marked_for_deletion SdaaciConnectionDetail#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#marked_for_deletion SdaaciConnectionDetail#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#nr_version SdaaciConnectionDetail#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#nr_version SdaaciConnectionDetail#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#object_type SdaaciConnectionDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#ref_mo SdaaciConnectionDetail#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#ref_mo SdaaciConnectionDetail#ref_mo}
   */
   readonly refMo?: SdaaciConnectionDetailVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#timestamp SdaaciConnectionDetail#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#timestamp SdaaciConnectionDetail#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#version_type SdaaciConnectionDetail#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#version_type SdaaciConnectionDetail#version_type}
   */
   readonly versionType?: string;
 }
@@ -2871,7 +2904,7 @@ export class SdaaciConnectionDetailVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail intersight_sdaaci_connection_detail}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail intersight_sdaaci_connection_detail}
 */
 export class SdaaciConnectionDetail extends cdktf.TerraformResource {
 
@@ -2887,7 +2920,7 @@ export class SdaaciConnectionDetail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdaaciConnectionDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdaaciConnectionDetail to import
-  * @param importFromId The id of the existing SdaaciConnectionDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdaaciConnectionDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdaaciConnectionDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2899,7 +2932,7 @@ export class SdaaciConnectionDetail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/sdaaci_connection_detail intersight_sdaaci_connection_detail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/sdaaci_connection_detail intersight_sdaaci_connection_detail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2910,8 +2943,8 @@ export class SdaaciConnectionDetail extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_sdaaci_connection_detail',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

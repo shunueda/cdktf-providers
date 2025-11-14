@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightAdapterHostIscsiInterfaceConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#account_moid DataIntersightAdapterHostIscsiInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#account_moid DataIntersightAdapterHostIscsiInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Admin Configured State of Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#admin_state DataIntersightAdapterHostIscsiInterface#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#admin_state DataIntersightAdapterHostIscsiInterface#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -28,53 +28,53 @@ export interface DataIntersightAdapterHostIscsiInterfaceConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#create_time DataIntersightAdapterHostIscsiInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#create_time DataIntersightAdapterHostIscsiInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#device_mo_id DataIntersightAdapterHostIscsiInterface#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#device_mo_id DataIntersightAdapterHostIscsiInterface#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#dn DataIntersightAdapterHostIscsiInterface#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#dn DataIntersightAdapterHostIscsiInterface#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#domain_group_moid DataIntersightAdapterHostIscsiInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#domain_group_moid DataIntersightAdapterHostIscsiInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The Endpoint Config Dn of the Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#ep_dn DataIntersightAdapterHostIscsiInterface#ep_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#ep_dn DataIntersightAdapterHostIscsiInterface#ep_dn}
   */
   readonly epDn?: string;
   /**
   * Identifier of the Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#host_iscsi_interface_id DataIntersightAdapterHostIscsiInterface#host_iscsi_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#host_iscsi_interface_id DataIntersightAdapterHostIscsiInterface#host_iscsi_interface_id}
   */
   readonly hostIscsiInterfaceId?: number;
   /**
   * The visibility of the Host to the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#host_visible DataIntersightAdapterHostIscsiInterface#host_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#host_visible DataIntersightAdapterHostIscsiInterface#host_visible}
   */
   readonly hostVisible?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#id DataIntersightAdapterHostIscsiInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#id DataIntersightAdapterHostIscsiInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,157 +83,157 @@ export interface DataIntersightAdapterHostIscsiInterfaceConfig extends cdktf.Ter
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#is_upgraded DataIntersightAdapterHostIscsiInterface#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#is_upgraded DataIntersightAdapterHostIscsiInterface#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * MAC address of Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#mac_address DataIntersightAdapterHostIscsiInterface#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#mac_address DataIntersightAdapterHostIscsiInterface#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#mod_time DataIntersightAdapterHostIscsiInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#mod_time DataIntersightAdapterHostIscsiInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#model DataIntersightAdapterHostIscsiInterface#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#model DataIntersightAdapterHostIscsiInterface#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#name DataIntersightAdapterHostIscsiInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#name DataIntersightAdapterHostIscsiInterface#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational State of Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#oper_state DataIntersightAdapterHostIscsiInterface#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#oper_state DataIntersightAdapterHostIscsiInterface#oper_state}
   */
   readonly operState?: string;
   /**
   * Operability status of Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#operability DataIntersightAdapterHostIscsiInterface#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#operability DataIntersightAdapterHostIscsiInterface#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#owners DataIntersightAdapterHostIscsiInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#owners DataIntersightAdapterHostIscsiInterface#owners}
   */
   readonly owners?: string[];
   /**
   * PeerPort Dn of Host ISCSI Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#peer_dn DataIntersightAdapterHostIscsiInterface#peer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#peer_dn DataIntersightAdapterHostIscsiInterface#peer_dn}
   */
   readonly peerDn?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#presence DataIntersightAdapterHostIscsiInterface#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#presence DataIntersightAdapterHostIscsiInterface#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#revision DataIntersightAdapterHostIscsiInterface#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#revision DataIntersightAdapterHostIscsiInterface#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#rn DataIntersightAdapterHostIscsiInterface#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#rn DataIntersightAdapterHostIscsiInterface#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#serial DataIntersightAdapterHostIscsiInterface#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#serial DataIntersightAdapterHostIscsiInterface#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#shared_scope DataIntersightAdapterHostIscsiInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#shared_scope DataIntersightAdapterHostIscsiInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#vendor DataIntersightAdapterHostIscsiInterface#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#vendor DataIntersightAdapterHostIscsiInterface#vendor}
   */
   readonly vendor?: string;
   /**
   * adapter_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#adapter_unit DataIntersightAdapterHostIscsiInterface#adapter_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#adapter_unit DataIntersightAdapterHostIscsiInterface#adapter_unit}
   */
   readonly adapterUnit?: DataIntersightAdapterHostIscsiInterfaceAdapterUnit;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#ancestors DataIntersightAdapterHostIscsiInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#ancestors DataIntersightAdapterHostIscsiInterface#ancestors}
   */
   readonly ancestors?: DataIntersightAdapterHostIscsiInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#inventory_device_info DataIntersightAdapterHostIscsiInterface#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#inventory_device_info DataIntersightAdapterHostIscsiInterface#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightAdapterHostIscsiInterfaceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#parent DataIntersightAdapterHostIscsiInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#parent DataIntersightAdapterHostIscsiInterface#parent}
   */
   readonly parent?: DataIntersightAdapterHostIscsiInterfaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#permission_resources DataIntersightAdapterHostIscsiInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#permission_resources DataIntersightAdapterHostIscsiInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightAdapterHostIscsiInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#previous_fru DataIntersightAdapterHostIscsiInterface#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#previous_fru DataIntersightAdapterHostIscsiInterface#previous_fru}
   */
   readonly previousFru?: DataIntersightAdapterHostIscsiInterfacePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#registered_device DataIntersightAdapterHostIscsiInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#registered_device DataIntersightAdapterHostIscsiInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightAdapterHostIscsiInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#tags DataIntersightAdapterHostIscsiInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#tags DataIntersightAdapterHostIscsiInterface#tags}
   */
   readonly tags?: DataIntersightAdapterHostIscsiInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#version_context DataIntersightAdapterHostIscsiInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#version_context DataIntersightAdapterHostIscsiInterface#version_context}
   */
   readonly versionContext?: DataIntersightAdapterHostIscsiInterfaceVersionContext;
 }
@@ -1170,6 +1170,11 @@ export class DataIntersightAdapterHostIscsiInterfaceResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1772,7 +1777,7 @@ export class DataIntersightAdapterHostIscsiInterfaceResultsList extends cdktf.Co
 }
 export interface DataIntersightAdapterHostIscsiInterfaceAdapterUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1780,19 +1785,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceAdapterUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1805,7 +1810,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceAdapterUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2005,7 +2010,7 @@ export class DataIntersightAdapterHostIscsiInterfaceAdapterUnitOutputReference e
 }
 export interface DataIntersightAdapterHostIscsiInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2013,19 +2018,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2038,7 +2043,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2270,7 +2275,7 @@ export class DataIntersightAdapterHostIscsiInterfaceAncestorsList extends cdktf.
 }
 export interface DataIntersightAdapterHostIscsiInterfaceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2278,19 +2283,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2303,7 +2308,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2503,7 +2508,7 @@ export class DataIntersightAdapterHostIscsiInterfaceInventoryDeviceInfoOutputRef
 }
 export interface DataIntersightAdapterHostIscsiInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2511,19 +2516,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2536,7 +2541,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2736,7 +2741,7 @@ export class DataIntersightAdapterHostIscsiInterfaceParentOutputReference extend
 }
 export interface DataIntersightAdapterHostIscsiInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2744,19 +2749,19 @@ export interface DataIntersightAdapterHostIscsiInterfacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2769,7 +2774,7 @@ export interface DataIntersightAdapterHostIscsiInterfacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3001,7 +3006,7 @@ export class DataIntersightAdapterHostIscsiInterfacePermissionResourcesList exte
 }
 export interface DataIntersightAdapterHostIscsiInterfacePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3009,19 +3014,19 @@ export interface DataIntersightAdapterHostIscsiInterfacePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3034,7 +3039,7 @@ export interface DataIntersightAdapterHostIscsiInterfacePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3234,7 +3239,7 @@ export class DataIntersightAdapterHostIscsiInterfacePreviousFruOutputReference e
 }
 export interface DataIntersightAdapterHostIscsiInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3242,19 +3247,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3267,7 +3272,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3467,7 +3472,7 @@ export class DataIntersightAdapterHostIscsiInterfaceRegisteredDeviceOutputRefere
 }
 export interface DataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3475,19 +3480,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3500,7 +3505,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3732,7 +3737,7 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitionsList 
 }
 export interface DataIntersightAdapterHostIscsiInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3740,19 +3745,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3765,7 +3770,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3965,45 +3970,51 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsDefinitionOutputReferenc
 }
 export interface DataIntersightAdapterHostIscsiInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#key DataIntersightAdapterHostIscsiInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#key DataIntersightAdapterHostIscsiInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#propagated DataIntersightAdapterHostIscsiInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#propagated DataIntersightAdapterHostIscsiInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#sys_tag DataIntersightAdapterHostIscsiInterface#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#type DataIntersightAdapterHostIscsiInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#type DataIntersightAdapterHostIscsiInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#value DataIntersightAdapterHostIscsiInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#value DataIntersightAdapterHostIscsiInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#ancestor_definitions DataIntersightAdapterHostIscsiInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#ancestor_definitions DataIntersightAdapterHostIscsiInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#definition DataIntersightAdapterHostIscsiInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#definition DataIntersightAdapterHostIscsiInterface#definition}
   */
   readonly definition?: DataIntersightAdapterHostIscsiInterfaceTagsDefinition;
 }
@@ -4017,6 +4028,7 @@ export function dataIntersightAdapterHostIscsiInterfaceTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightAdapterHostIscsiInterfaceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4045,6 +4057,12 @@ export function dataIntersightAdapterHostIscsiInterfaceTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4111,6 +4129,10 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4137,6 +4159,7 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4152,6 +4175,7 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4205,6 +4229,22 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4293,7 +4333,7 @@ export class DataIntersightAdapterHostIscsiInterfaceTagsList extends cdktf.Compl
 }
 export interface DataIntersightAdapterHostIscsiInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4301,19 +4341,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4326,7 +4366,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4558,7 +4598,7 @@ export class DataIntersightAdapterHostIscsiInterfaceVersionContextInterestedMosL
 }
 export interface DataIntersightAdapterHostIscsiInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4566,19 +4606,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#moid DataIntersightAdapterHostIscsiInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4591,7 +4631,7 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#selector DataIntersightAdapterHostIscsiInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4791,7 +4831,7 @@ export class DataIntersightAdapterHostIscsiInterfaceVersionContextRefMoOutputRef
 }
 export interface DataIntersightAdapterHostIscsiInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#additional_properties DataIntersightAdapterHostIscsiInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4799,32 +4839,32 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#class_id DataIntersightAdapterHostIscsiInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#marked_for_deletion DataIntersightAdapterHostIscsiInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#marked_for_deletion DataIntersightAdapterHostIscsiInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#nr_version DataIntersightAdapterHostIscsiInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#nr_version DataIntersightAdapterHostIscsiInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#object_type DataIntersightAdapterHostIscsiInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#timestamp DataIntersightAdapterHostIscsiInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#timestamp DataIntersightAdapterHostIscsiInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4835,19 +4875,19 @@ export interface DataIntersightAdapterHostIscsiInterfaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#version_type DataIntersightAdapterHostIscsiInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#version_type DataIntersightAdapterHostIscsiInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#interested_mos DataIntersightAdapterHostIscsiInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#interested_mos DataIntersightAdapterHostIscsiInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightAdapterHostIscsiInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#ref_mo DataIntersightAdapterHostIscsiInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#ref_mo DataIntersightAdapterHostIscsiInterface#ref_mo}
   */
   readonly refMo?: DataIntersightAdapterHostIscsiInterfaceVersionContextRefMo;
 }
@@ -5163,7 +5203,7 @@ export class DataIntersightAdapterHostIscsiInterfaceVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface intersight_adapter_host_iscsi_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface intersight_adapter_host_iscsi_interface}
 */
 export class DataIntersightAdapterHostIscsiInterface extends cdktf.TerraformDataSource {
 
@@ -5179,7 +5219,7 @@ export class DataIntersightAdapterHostIscsiInterface extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightAdapterHostIscsiInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAdapterHostIscsiInterface to import
-  * @param importFromId The id of the existing DataIntersightAdapterHostIscsiInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAdapterHostIscsiInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAdapterHostIscsiInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5191,7 +5231,7 @@ export class DataIntersightAdapterHostIscsiInterface extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/adapter_host_iscsi_interface intersight_adapter_host_iscsi_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_host_iscsi_interface intersight_adapter_host_iscsi_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5202,8 +5242,8 @@ export class DataIntersightAdapterHostIscsiInterface extends cdktf.TerraformData
       terraformResourceType: 'intersight_adapter_host_iscsi_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

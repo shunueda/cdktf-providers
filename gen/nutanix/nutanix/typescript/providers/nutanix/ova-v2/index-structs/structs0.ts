@@ -8372,7 +8372,7 @@ export class OvaV2VmConfigList extends cdktf.ComplexList {
 }
 export interface OvaV2ChecksumOvaSha1Checksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#hex_digest OvaV2#hex_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#hex_digest OvaV2#hex_digest}
   */
   readonly hexDigest: string;
 }
@@ -8485,7 +8485,7 @@ export class OvaV2ChecksumOvaSha1ChecksumList extends cdktf.ComplexList {
 }
 export interface OvaV2ChecksumOvaSha256Checksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/ova_v2#hex_digest OvaV2#hex_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/ova_v2#hex_digest OvaV2#hex_digest}
   */
   readonly hexDigest: string;
 }

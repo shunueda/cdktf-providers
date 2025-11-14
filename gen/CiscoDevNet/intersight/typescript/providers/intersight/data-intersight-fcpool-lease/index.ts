@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFcpoolLeaseConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#account_moid DataIntersightFcpoolLease#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#account_moid DataIntersightFcpoolLease#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightFcpoolLeaseConfig extends cdktf.TerraformMetaArgu
   * * `dynamic` - Identifiers to be allocated by system.
   * * `static` - Identifiers are assigned by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#allocation_type DataIntersightFcpoolLease#allocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#allocation_type DataIntersightFcpoolLease#allocation_type}
   */
   readonly allocationType?: string;
   /**
@@ -30,29 +30,29 @@ export interface DataIntersightFcpoolLeaseConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#create_time DataIntersightFcpoolLease#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#create_time DataIntersightFcpoolLease#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#domain_group_moid DataIntersightFcpoolLease#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#domain_group_moid DataIntersightFcpoolLease#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HasDuplicate represents if there are other pools in which this id exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#has_duplicate DataIntersightFcpoolLease#has_duplicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#has_duplicate DataIntersightFcpoolLease#has_duplicate}
   */
   readonly hasDuplicate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#id DataIntersightFcpoolLease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#id DataIntersightFcpoolLease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,115 +61,115 @@ export interface DataIntersightFcpoolLeaseConfig extends cdktf.TerraformMetaArgu
   /**
   * The migration capability is applicable only for dynamic lease requests and it works in conjunction with  preferred ID. If there is an existing dynamic or static lease that matches the preferred ID, that existing  lease will be migrated to the current pool. That means the existing lease will be deleted and a new lease  will be created in the pool. If there is a reservation exists that matches with preferred ID, that  reservation will be kept as is and next available ID from the pool will be leased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#migrate DataIntersightFcpoolLease#migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#migrate DataIntersightFcpoolLease#migrate}
   */
   readonly migrate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#mod_time DataIntersightFcpoolLease#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#mod_time DataIntersightFcpoolLease#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#owners DataIntersightFcpoolLease#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#owners DataIntersightFcpoolLease#owners}
   */
   readonly owners?: string[];
   /**
   * Purpose of this WWN pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#pool_purpose DataIntersightFcpoolLease#pool_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#pool_purpose DataIntersightFcpoolLease#pool_purpose}
   */
   readonly poolPurpose?: string;
   /**
   * The preferred WWN ID address can be specified only for dynamic lease requests. Intersight will make its best  effort to allocate that WWN ID address if it is available in the pool. If the specified preferred WWN ID address  is not in the range of the pool or if it is already leased or reserved, then the next available WWN ID address  from the pool will be leased. Since this feature is specific to dynamic lease requests only, static lease  request will fail if it specifies the preferred WWN ID address property. When the preferred WWN ID address  property is specified in conjunction with 'migrate' property, existing static or dynamic lease will be  replaced by the new lease. Migration also supported only for dynamic lease requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#preferred_wwn_id DataIntersightFcpoolLease#preferred_wwn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#preferred_wwn_id DataIntersightFcpoolLease#preferred_wwn_id}
   */
   readonly preferredWwnId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#shared_scope DataIntersightFcpoolLease#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#shared_scope DataIntersightFcpoolLease#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * WWN ID allocated for pool based allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#wwn_id DataIntersightFcpoolLease#wwn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#wwn_id DataIntersightFcpoolLease#wwn_id}
   */
   readonly wwnId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#ancestors DataIntersightFcpoolLease#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#ancestors DataIntersightFcpoolLease#ancestors}
   */
   readonly ancestors?: DataIntersightFcpoolLeaseAncestors[] | cdktf.IResolvable;
   /**
   * assigned_to_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#assigned_to_entity DataIntersightFcpoolLease#assigned_to_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#assigned_to_entity DataIntersightFcpoolLease#assigned_to_entity}
   */
   readonly assignedToEntity?: DataIntersightFcpoolLeaseAssignedToEntity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#parent DataIntersightFcpoolLease#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#parent DataIntersightFcpoolLease#parent}
   */
   readonly parent?: DataIntersightFcpoolLeaseParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#permission_resources DataIntersightFcpoolLease#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#permission_resources DataIntersightFcpoolLease#permission_resources}
   */
   readonly permissionResources?: DataIntersightFcpoolLeasePermissionResources[] | cdktf.IResolvable;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#pool DataIntersightFcpoolLease#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#pool DataIntersightFcpoolLease#pool}
   */
   readonly pool?: DataIntersightFcpoolLeasePool;
   /**
   * pool_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#pool_member DataIntersightFcpoolLease#pool_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#pool_member DataIntersightFcpoolLease#pool_member}
   */
   readonly poolMember?: DataIntersightFcpoolLeasePoolMember;
   /**
   * reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#reservation DataIntersightFcpoolLease#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#reservation DataIntersightFcpoolLease#reservation}
   */
   readonly reservation?: DataIntersightFcpoolLeaseReservation;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#tags DataIntersightFcpoolLease#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#tags DataIntersightFcpoolLease#tags}
   */
   readonly tags?: DataIntersightFcpoolLeaseTags[] | cdktf.IResolvable;
   /**
   * universe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#universe DataIntersightFcpoolLease#universe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#universe DataIntersightFcpoolLease#universe}
   */
   readonly universe?: DataIntersightFcpoolLeaseUniverse;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#version_context DataIntersightFcpoolLease#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#version_context DataIntersightFcpoolLease#version_context}
   */
   readonly versionContext?: DataIntersightFcpoolLeaseVersionContext;
 }
@@ -1111,6 +1111,11 @@ export class DataIntersightFcpoolLeaseResultsTagsOutputReference extends cdktf.C
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1754,7 +1759,7 @@ export class DataIntersightFcpoolLeaseResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFcpoolLeaseAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1762,19 +1767,19 @@ export interface DataIntersightFcpoolLeaseAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1787,7 +1792,7 @@ export interface DataIntersightFcpoolLeaseAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2019,7 +2024,7 @@ export class DataIntersightFcpoolLeaseAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFcpoolLeaseAssignedToEntity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2027,19 +2032,19 @@ export interface DataIntersightFcpoolLeaseAssignedToEntity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2052,7 +2057,7 @@ export interface DataIntersightFcpoolLeaseAssignedToEntity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2252,7 +2257,7 @@ export class DataIntersightFcpoolLeaseAssignedToEntityOutputReference extends cd
 }
 export interface DataIntersightFcpoolLeaseParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2260,19 +2265,19 @@ export interface DataIntersightFcpoolLeaseParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2285,7 +2290,7 @@ export interface DataIntersightFcpoolLeaseParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2485,7 +2490,7 @@ export class DataIntersightFcpoolLeaseParentOutputReference extends cdktf.Comple
 }
 export interface DataIntersightFcpoolLeasePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2493,19 +2498,19 @@ export interface DataIntersightFcpoolLeasePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2518,7 +2523,7 @@ export interface DataIntersightFcpoolLeasePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2750,7 +2755,7 @@ export class DataIntersightFcpoolLeasePermissionResourcesList extends cdktf.Comp
 }
 export interface DataIntersightFcpoolLeasePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2758,19 +2763,19 @@ export interface DataIntersightFcpoolLeasePool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2783,7 +2788,7 @@ export interface DataIntersightFcpoolLeasePool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -2983,7 +2988,7 @@ export class DataIntersightFcpoolLeasePoolOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightFcpoolLeasePoolMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2991,19 +2996,19 @@ export interface DataIntersightFcpoolLeasePoolMember {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3016,7 +3021,7 @@ export interface DataIntersightFcpoolLeasePoolMember {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3216,7 +3221,7 @@ export class DataIntersightFcpoolLeasePoolMemberOutputReference extends cdktf.Co
 }
 export interface DataIntersightFcpoolLeaseReservation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3224,13 +3229,13 @@ export interface DataIntersightFcpoolLeaseReservation {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The consumer name for which the reserved fc pool would be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#consumer_name DataIntersightFcpoolLease#consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#consumer_name DataIntersightFcpoolLease#consumer_name}
   */
   readonly consumerName?: string;
   /**
@@ -3238,20 +3243,20 @@ export interface DataIntersightFcpoolLeaseReservation {
   * * `Vhba` - FC reservation would be used by Vhba.
   * * `WWNN` - FC reservation would be used by WWNN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#consumer_type DataIntersightFcpoolLease#consumer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#consumer_type DataIntersightFcpoolLease#consumer_type}
   */
   readonly consumerType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
   * The moid of the reservation object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#reservation_moid DataIntersightFcpoolLease#reservation_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#reservation_moid DataIntersightFcpoolLease#reservation_moid}
   */
   readonly reservationMoid?: string;
 }
@@ -3480,7 +3485,7 @@ export class DataIntersightFcpoolLeaseReservationOutputReference extends cdktf.C
 }
 export interface DataIntersightFcpoolLeaseTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3488,19 +3493,19 @@ export interface DataIntersightFcpoolLeaseTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3513,7 +3518,7 @@ export interface DataIntersightFcpoolLeaseTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3745,7 +3750,7 @@ export class DataIntersightFcpoolLeaseTagsAncestorDefinitionsList extends cdktf.
 }
 export interface DataIntersightFcpoolLeaseTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3753,19 +3758,19 @@ export interface DataIntersightFcpoolLeaseTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3778,7 +3783,7 @@ export interface DataIntersightFcpoolLeaseTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -3978,45 +3983,51 @@ export class DataIntersightFcpoolLeaseTagsDefinitionOutputReference extends cdkt
 }
 export interface DataIntersightFcpoolLeaseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#key DataIntersightFcpoolLease#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#key DataIntersightFcpoolLease#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#propagated DataIntersightFcpoolLease#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#propagated DataIntersightFcpoolLease#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#sys_tag DataIntersightFcpoolLease#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#type DataIntersightFcpoolLease#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#type DataIntersightFcpoolLease#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#value DataIntersightFcpoolLease#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#value DataIntersightFcpoolLease#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#ancestor_definitions DataIntersightFcpoolLease#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#ancestor_definitions DataIntersightFcpoolLease#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFcpoolLeaseTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#definition DataIntersightFcpoolLease#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#definition DataIntersightFcpoolLease#definition}
   */
   readonly definition?: DataIntersightFcpoolLeaseTagsDefinition;
 }
@@ -4030,6 +4041,7 @@ export function dataIntersightFcpoolLeaseTagsToTerraform(struct?: DataIntersight
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFcpoolLeaseTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4058,6 +4070,12 @@ export function dataIntersightFcpoolLeaseTagsToHclTerraform(struct?: DataIntersi
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4124,6 +4142,10 @@ export class DataIntersightFcpoolLeaseTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4150,6 +4172,7 @@ export class DataIntersightFcpoolLeaseTagsOutputReference extends cdktf.ComplexO
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4165,6 +4188,7 @@ export class DataIntersightFcpoolLeaseTagsOutputReference extends cdktf.ComplexO
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4218,6 +4242,22 @@ export class DataIntersightFcpoolLeaseTagsOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4306,7 +4346,7 @@ export class DataIntersightFcpoolLeaseTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightFcpoolLeaseUniverse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4314,19 +4354,19 @@ export interface DataIntersightFcpoolLeaseUniverse {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4339,7 +4379,7 @@ export interface DataIntersightFcpoolLeaseUniverse {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -4539,7 +4579,7 @@ export class DataIntersightFcpoolLeaseUniverseOutputReference extends cdktf.Comp
 }
 export interface DataIntersightFcpoolLeaseVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4547,19 +4587,19 @@ export interface DataIntersightFcpoolLeaseVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4572,7 +4612,7 @@ export interface DataIntersightFcpoolLeaseVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -4804,7 +4844,7 @@ export class DataIntersightFcpoolLeaseVersionContextInterestedMosList extends cd
 }
 export interface DataIntersightFcpoolLeaseVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4812,19 +4852,19 @@ export interface DataIntersightFcpoolLeaseVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#moid DataIntersightFcpoolLease#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4837,7 +4877,7 @@ export interface DataIntersightFcpoolLeaseVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#selector DataIntersightFcpoolLease#selector}
   */
   readonly selector?: string;
 }
@@ -5037,7 +5077,7 @@ export class DataIntersightFcpoolLeaseVersionContextRefMoOutputReference extends
 }
 export interface DataIntersightFcpoolLeaseVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#additional_properties DataIntersightFcpoolLease#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5045,32 +5085,32 @@ export interface DataIntersightFcpoolLeaseVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#class_id DataIntersightFcpoolLease#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#marked_for_deletion DataIntersightFcpoolLease#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#marked_for_deletion DataIntersightFcpoolLease#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#nr_version DataIntersightFcpoolLease#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#nr_version DataIntersightFcpoolLease#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#object_type DataIntersightFcpoolLease#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#timestamp DataIntersightFcpoolLease#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#timestamp DataIntersightFcpoolLease#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5081,19 +5121,19 @@ export interface DataIntersightFcpoolLeaseVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#version_type DataIntersightFcpoolLease#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#version_type DataIntersightFcpoolLease#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#interested_mos DataIntersightFcpoolLease#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#interested_mos DataIntersightFcpoolLease#interested_mos}
   */
   readonly interestedMos?: DataIntersightFcpoolLeaseVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#ref_mo DataIntersightFcpoolLease#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#ref_mo DataIntersightFcpoolLease#ref_mo}
   */
   readonly refMo?: DataIntersightFcpoolLeaseVersionContextRefMo;
 }
@@ -5409,7 +5449,7 @@ export class DataIntersightFcpoolLeaseVersionContextOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease intersight_fcpool_lease}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease intersight_fcpool_lease}
 */
 export class DataIntersightFcpoolLease extends cdktf.TerraformDataSource {
 
@@ -5425,7 +5465,7 @@ export class DataIntersightFcpoolLease extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightFcpoolLease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFcpoolLease to import
-  * @param importFromId The id of the existing DataIntersightFcpoolLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFcpoolLease that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFcpoolLease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5437,7 +5477,7 @@ export class DataIntersightFcpoolLease extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/fcpool_lease intersight_fcpool_lease} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fcpool_lease intersight_fcpool_lease} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5448,8 +5488,8 @@ export class DataIntersightFcpoolLease extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_fcpool_lease',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

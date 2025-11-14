@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementCloudAsmsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#cloud_db_system_id DataOciDatabaseManagementCloudAsms#cloud_db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#cloud_db_system_id DataOciDatabaseManagementCloudAsms#cloud_db_system_id}
   */
   readonly cloudDbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#compartment_id DataOciDatabaseManagementCloudAsms#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#compartment_id DataOciDatabaseManagementCloudAsms#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#display_name DataOciDatabaseManagementCloudAsms#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#display_name DataOciDatabaseManagementCloudAsms#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#id DataOciDatabaseManagementCloudAsms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#id DataOciDatabaseManagementCloudAsms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataOciDatabaseManagementCloudAsmsConfig extends cdktf.Terrafor
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#filter DataOciDatabaseManagementCloudAsms#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#filter DataOciDatabaseManagementCloudAsms#filter}
   */
   readonly filter?: DataOciDatabaseManagementCloudAsmsFilter[] | cdktf.IResolvable;
 }
@@ -406,15 +406,15 @@ export class DataOciDatabaseManagementCloudAsmsCloudAsmCollectionList extends cd
 }
 export interface DataOciDatabaseManagementCloudAsmsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#name DataOciDatabaseManagementCloudAsms#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#name DataOciDatabaseManagementCloudAsms#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#regex DataOciDatabaseManagementCloudAsms#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#regex DataOciDatabaseManagementCloudAsms#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#values DataOciDatabaseManagementCloudAsms#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#values DataOciDatabaseManagementCloudAsms#values}
   */
   readonly values: string[];
 }
@@ -582,7 +582,7 @@ export class DataOciDatabaseManagementCloudAsmsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms oci_database_management_cloud_asms}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms oci_database_management_cloud_asms}
 */
 export class DataOciDatabaseManagementCloudAsms extends cdktf.TerraformDataSource {
 
@@ -598,7 +598,7 @@ export class DataOciDatabaseManagementCloudAsms extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDatabaseManagementCloudAsms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementCloudAsms to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementCloudAsms that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementCloudAsms that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementCloudAsms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +610,7 @@ export class DataOciDatabaseManagementCloudAsms extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_cloud_asms oci_database_management_cloud_asms} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_cloud_asms oci_database_management_cloud_asms} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +621,8 @@ export class DataOciDatabaseManagementCloudAsms extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_database_management_cloud_asms',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

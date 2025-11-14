@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/opsi_awr_hub
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_awr_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOpsiAwrHubConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}
   */
   readonly awrHubId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/opsi_awr_hub oci_opsi_awr_hub}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_awr_hub oci_opsi_awr_hub}
 */
 export class DataOciOpsiAwrHub extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciOpsiAwrHub extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciOpsiAwrHub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOpsiAwrHub to import
-  * @param importFromId The id of the existing DataOciOpsiAwrHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/opsi_awr_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOpsiAwrHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_awr_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOpsiAwrHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciOpsiAwrHub extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/opsi_awr_hub oci_opsi_awr_hub} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/opsi_awr_hub oci_opsi_awr_hub} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciOpsiAwrHub extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_opsi_awr_hub',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

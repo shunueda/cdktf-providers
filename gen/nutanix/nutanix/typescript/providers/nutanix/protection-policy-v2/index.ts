@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectionPolicyV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#category_ids ProtectionPolicyV2#category_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#category_ids ProtectionPolicyV2#category_ids}
   */
   readonly categoryIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#description ProtectionPolicyV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#description ProtectionPolicyV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#id ProtectionPolicyV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#id ProtectionPolicyV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#name ProtectionPolicyV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#name ProtectionPolicyV2#name}
   */
   readonly name: string;
   /**
   * replication_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#replication_configurations ProtectionPolicyV2#replication_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#replication_configurations ProtectionPolicyV2#replication_configurations}
   */
   readonly replicationConfigurations: ProtectionPolicyV2ReplicationConfigurations[] | cdktf.IResolvable;
   /**
   * replication_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#replication_locations ProtectionPolicyV2#replication_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#replication_locations ProtectionPolicyV2#replication_locations}
   */
   readonly replicationLocations: ProtectionPolicyV2ReplicationLocations[] | cdktf.IResolvable;
 }
@@ -121,11 +121,11 @@ export class ProtectionPolicyV2LinksList extends cdktf.ComplexList {
 }
 export interface ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRollupRetentionLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#frequency ProtectionPolicyV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#frequency ProtectionPolicyV2#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#snapshot_interval_type ProtectionPolicyV2#snapshot_interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#snapshot_interval_type ProtectionPolicyV2#snapshot_interval_type}
   */
   readonly snapshotIntervalType?: string;
 }
@@ -235,11 +235,11 @@ export class ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRol
 }
 export interface ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRollupRetentionRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#frequency ProtectionPolicyV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#frequency ProtectionPolicyV2#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#snapshot_interval_type ProtectionPolicyV2#snapshot_interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#snapshot_interval_type ProtectionPolicyV2#snapshot_interval_type}
   */
   readonly snapshotIntervalType?: string;
 }
@@ -351,13 +351,13 @@ export interface ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAut
   /**
   * local block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#local ProtectionPolicyV2#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#local ProtectionPolicyV2#local}
   */
   readonly local: ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRollupRetentionLocal;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#remote ProtectionPolicyV2#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#remote ProtectionPolicyV2#remote}
   */
   readonly remote?: ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRollupRetentionRemote;
 }
@@ -467,11 +467,11 @@ export class ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRol
 }
 export interface ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionLinearRetention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#local ProtectionPolicyV2#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#local ProtectionPolicyV2#local}
   */
   readonly local: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#remote ProtectionPolicyV2#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#remote ProtectionPolicyV2#remote}
   */
   readonly remote?: number;
 }
@@ -583,13 +583,13 @@ export interface ProtectionPolicyV2ReplicationConfigurationsScheduleRetention {
   /**
   * auto_rollup_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#auto_rollup_retention ProtectionPolicyV2#auto_rollup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#auto_rollup_retention ProtectionPolicyV2#auto_rollup_retention}
   */
   readonly autoRollupRetention?: ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionAutoRollupRetention;
   /**
   * linear_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#linear_retention ProtectionPolicyV2#linear_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#linear_retention ProtectionPolicyV2#linear_retention}
   */
   readonly linearRetention?: ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionLinearRetention;
 }
@@ -702,25 +702,25 @@ export class ProtectionPolicyV2ReplicationConfigurationsScheduleRetentionOutputR
 }
 export interface ProtectionPolicyV2ReplicationConfigurationsSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#recovery_point_objective_time_seconds ProtectionPolicyV2#recovery_point_objective_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#recovery_point_objective_time_seconds ProtectionPolicyV2#recovery_point_objective_time_seconds}
   */
   readonly recoveryPointObjectiveTimeSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#recovery_point_type ProtectionPolicyV2#recovery_point_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#recovery_point_type ProtectionPolicyV2#recovery_point_type}
   */
   readonly recoveryPointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#start_time ProtectionPolicyV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#start_time ProtectionPolicyV2#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#sync_replication_auto_suspend_timeout_seconds ProtectionPolicyV2#sync_replication_auto_suspend_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#sync_replication_auto_suspend_timeout_seconds ProtectionPolicyV2#sync_replication_auto_suspend_timeout_seconds}
   */
   readonly syncReplicationAutoSuspendTimeoutSeconds?: number;
   /**
   * retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#retention ProtectionPolicyV2#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#retention ProtectionPolicyV2#retention}
   */
   readonly retention?: ProtectionPolicyV2ReplicationConfigurationsScheduleRetention;
 }
@@ -920,17 +920,17 @@ export class ProtectionPolicyV2ReplicationConfigurationsScheduleOutputReference 
 }
 export interface ProtectionPolicyV2ReplicationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#remote_location_label ProtectionPolicyV2#remote_location_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#remote_location_label ProtectionPolicyV2#remote_location_label}
   */
   readonly remoteLocationLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#source_location_label ProtectionPolicyV2#source_location_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#source_location_label ProtectionPolicyV2#source_location_label}
   */
   readonly sourceLocationLabel: string;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#schedule ProtectionPolicyV2#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#schedule ProtectionPolicyV2#schedule}
   */
   readonly schedule: ProtectionPolicyV2ReplicationConfigurationsSchedule;
 }
@@ -1098,7 +1098,7 @@ export class ProtectionPolicyV2ReplicationConfigurationsList extends cdktf.Compl
 }
 export interface ProtectionPolicyV2ReplicationLocationsReplicationSubLocationClusterExtIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#cluster_ext_ids ProtectionPolicyV2#cluster_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#cluster_ext_ids ProtectionPolicyV2#cluster_ext_ids}
   */
   readonly clusterExtIds: string[];
 }
@@ -1181,7 +1181,7 @@ export interface ProtectionPolicyV2ReplicationLocationsReplicationSubLocation {
   /**
   * cluster_ext_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#cluster_ext_ids ProtectionPolicyV2#cluster_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#cluster_ext_ids ProtectionPolicyV2#cluster_ext_ids}
   */
   readonly clusterExtIds: ProtectionPolicyV2ReplicationLocationsReplicationSubLocationClusterExtIds;
 }
@@ -1262,21 +1262,21 @@ export class ProtectionPolicyV2ReplicationLocationsReplicationSubLocationOutputR
 }
 export interface ProtectionPolicyV2ReplicationLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#domain_manager_ext_id ProtectionPolicyV2#domain_manager_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#domain_manager_ext_id ProtectionPolicyV2#domain_manager_ext_id}
   */
   readonly domainManagerExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#is_primary ProtectionPolicyV2#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#is_primary ProtectionPolicyV2#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#label ProtectionPolicyV2#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#label ProtectionPolicyV2#label}
   */
   readonly label: string;
   /**
   * replication_sub_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#replication_sub_location ProtectionPolicyV2#replication_sub_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#replication_sub_location ProtectionPolicyV2#replication_sub_location}
   */
   readonly replicationSubLocation?: ProtectionPolicyV2ReplicationLocationsReplicationSubLocation;
 }
@@ -1473,7 +1473,7 @@ export class ProtectionPolicyV2ReplicationLocationsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2 nutanix_protection_policy_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2 nutanix_protection_policy_v2}
 */
 export class ProtectionPolicyV2 extends cdktf.TerraformResource {
 
@@ -1489,7 +1489,7 @@ export class ProtectionPolicyV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionPolicyV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionPolicyV2 to import
-  * @param importFromId The id of the existing ProtectionPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionPolicyV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionPolicyV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1501,7 +1501,7 @@ export class ProtectionPolicyV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_policy_v2 nutanix_protection_policy_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_policy_v2 nutanix_protection_policy_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1512,8 +1512,8 @@ export class ProtectionPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_protection_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

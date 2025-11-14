@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamSecurityHolderConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#account_moid DataIntersightIamSecurityHolder#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#account_moid DataIntersightIamSecurityHolder#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIamSecurityHolderConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#create_time DataIntersightIamSecurityHolder#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#create_time DataIntersightIamSecurityHolder#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#domain_group_moid DataIntersightIamSecurityHolder#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#domain_group_moid DataIntersightIamSecurityHolder#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#id DataIntersightIamSecurityHolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#id DataIntersightIamSecurityHolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightIamSecurityHolderConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#mod_time DataIntersightIamSecurityHolder#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#mod_time DataIntersightIamSecurityHolder#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#owners DataIntersightIamSecurityHolder#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#owners DataIntersightIamSecurityHolder#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#shared_scope DataIntersightIamSecurityHolder#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#shared_scope DataIntersightIamSecurityHolder#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#account DataIntersightIamSecurityHolder#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#account DataIntersightIamSecurityHolder#account}
   */
   readonly account?: DataIntersightIamSecurityHolderAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#ancestors DataIntersightIamSecurityHolder#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#ancestors DataIntersightIamSecurityHolder#ancestors}
   */
   readonly ancestors?: DataIntersightIamSecurityHolderAncestors[] | cdktf.IResolvable;
   /**
   * ip_rules_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#ip_rules_configuration DataIntersightIamSecurityHolder#ip_rules_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#ip_rules_configuration DataIntersightIamSecurityHolder#ip_rules_configuration}
   */
   readonly ipRulesConfiguration?: DataIntersightIamSecurityHolderIpRulesConfiguration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#parent DataIntersightIamSecurityHolder#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#parent DataIntersightIamSecurityHolder#parent}
   */
   readonly parent?: DataIntersightIamSecurityHolderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#permission_resources DataIntersightIamSecurityHolder#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#permission_resources DataIntersightIamSecurityHolder#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamSecurityHolderPermissionResources[] | cdktf.IResolvable;
   /**
   * resource_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#resource_permissions DataIntersightIamSecurityHolder#resource_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#resource_permissions DataIntersightIamSecurityHolder#resource_permissions}
   */
   readonly resourcePermissions?: DataIntersightIamSecurityHolderResourcePermissions[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#tags DataIntersightIamSecurityHolder#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#tags DataIntersightIamSecurityHolder#tags}
   */
   readonly tags?: DataIntersightIamSecurityHolderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#version_context DataIntersightIamSecurityHolder#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#version_context DataIntersightIamSecurityHolder#version_context}
   */
   readonly versionContext?: DataIntersightIamSecurityHolderVersionContext;
 }
@@ -961,6 +961,11 @@ export class DataIntersightIamSecurityHolderResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1467,7 +1472,7 @@ export class DataIntersightIamSecurityHolderResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIamSecurityHolderAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1475,19 +1480,19 @@ export interface DataIntersightIamSecurityHolderAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1500,7 +1505,7 @@ export interface DataIntersightIamSecurityHolderAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -1700,7 +1705,7 @@ export class DataIntersightIamSecurityHolderAccountOutputReference extends cdktf
 }
 export interface DataIntersightIamSecurityHolderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1708,19 +1713,19 @@ export interface DataIntersightIamSecurityHolderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1733,7 +1738,7 @@ export interface DataIntersightIamSecurityHolderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -1965,7 +1970,7 @@ export class DataIntersightIamSecurityHolderAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightIamSecurityHolderIpRulesConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1973,19 +1978,19 @@ export interface DataIntersightIamSecurityHolderIpRulesConfiguration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1998,7 +2003,7 @@ export interface DataIntersightIamSecurityHolderIpRulesConfiguration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2198,7 +2203,7 @@ export class DataIntersightIamSecurityHolderIpRulesConfigurationOutputReference 
 }
 export interface DataIntersightIamSecurityHolderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2206,19 +2211,19 @@ export interface DataIntersightIamSecurityHolderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2231,7 +2236,7 @@ export interface DataIntersightIamSecurityHolderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2431,7 +2436,7 @@ export class DataIntersightIamSecurityHolderParentOutputReference extends cdktf.
 }
 export interface DataIntersightIamSecurityHolderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2439,19 +2444,19 @@ export interface DataIntersightIamSecurityHolderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2464,7 +2469,7 @@ export interface DataIntersightIamSecurityHolderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2696,7 +2701,7 @@ export class DataIntersightIamSecurityHolderPermissionResourcesList extends cdkt
 }
 export interface DataIntersightIamSecurityHolderResourcePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2704,19 +2709,19 @@ export interface DataIntersightIamSecurityHolderResourcePermissions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2729,7 +2734,7 @@ export interface DataIntersightIamSecurityHolderResourcePermissions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2961,7 +2966,7 @@ export class DataIntersightIamSecurityHolderResourcePermissionsList extends cdkt
 }
 export interface DataIntersightIamSecurityHolderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2969,19 +2974,19 @@ export interface DataIntersightIamSecurityHolderTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2994,7 +2999,7 @@ export interface DataIntersightIamSecurityHolderTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3226,7 +3231,7 @@ export class DataIntersightIamSecurityHolderTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightIamSecurityHolderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3234,19 +3239,19 @@ export interface DataIntersightIamSecurityHolderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3259,7 +3264,7 @@ export interface DataIntersightIamSecurityHolderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3459,45 +3464,51 @@ export class DataIntersightIamSecurityHolderTagsDefinitionOutputReference extend
 }
 export interface DataIntersightIamSecurityHolderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#key DataIntersightIamSecurityHolder#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#key DataIntersightIamSecurityHolder#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#propagated DataIntersightIamSecurityHolder#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#propagated DataIntersightIamSecurityHolder#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#sys_tag DataIntersightIamSecurityHolder#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#type DataIntersightIamSecurityHolder#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#type DataIntersightIamSecurityHolder#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#value DataIntersightIamSecurityHolder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#value DataIntersightIamSecurityHolder#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#ancestor_definitions DataIntersightIamSecurityHolder#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#ancestor_definitions DataIntersightIamSecurityHolder#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamSecurityHolderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#definition DataIntersightIamSecurityHolder#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#definition DataIntersightIamSecurityHolder#definition}
   */
   readonly definition?: DataIntersightIamSecurityHolderTagsDefinition;
 }
@@ -3511,6 +3522,7 @@ export function dataIntersightIamSecurityHolderTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamSecurityHolderTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3539,6 +3551,12 @@ export function dataIntersightIamSecurityHolderTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3605,6 +3623,10 @@ export class DataIntersightIamSecurityHolderTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3631,6 +3653,7 @@ export class DataIntersightIamSecurityHolderTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3646,6 +3669,7 @@ export class DataIntersightIamSecurityHolderTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3699,6 +3723,22 @@ export class DataIntersightIamSecurityHolderTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3787,7 +3827,7 @@ export class DataIntersightIamSecurityHolderTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSecurityHolderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3795,19 +3835,19 @@ export interface DataIntersightIamSecurityHolderVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3820,7 +3860,7 @@ export interface DataIntersightIamSecurityHolderVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -4052,7 +4092,7 @@ export class DataIntersightIamSecurityHolderVersionContextInterestedMosList exte
 }
 export interface DataIntersightIamSecurityHolderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4060,19 +4100,19 @@ export interface DataIntersightIamSecurityHolderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#moid DataIntersightIamSecurityHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4085,7 +4125,7 @@ export interface DataIntersightIamSecurityHolderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#selector DataIntersightIamSecurityHolder#selector}
   */
   readonly selector?: string;
 }
@@ -4285,7 +4325,7 @@ export class DataIntersightIamSecurityHolderVersionContextRefMoOutputReference e
 }
 export interface DataIntersightIamSecurityHolderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#additional_properties DataIntersightIamSecurityHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4293,32 +4333,32 @@ export interface DataIntersightIamSecurityHolderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#class_id DataIntersightIamSecurityHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#marked_for_deletion DataIntersightIamSecurityHolder#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#marked_for_deletion DataIntersightIamSecurityHolder#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#nr_version DataIntersightIamSecurityHolder#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#nr_version DataIntersightIamSecurityHolder#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#object_type DataIntersightIamSecurityHolder#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#timestamp DataIntersightIamSecurityHolder#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#timestamp DataIntersightIamSecurityHolder#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4329,19 +4369,19 @@ export interface DataIntersightIamSecurityHolderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#version_type DataIntersightIamSecurityHolder#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#version_type DataIntersightIamSecurityHolder#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#interested_mos DataIntersightIamSecurityHolder#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#interested_mos DataIntersightIamSecurityHolder#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamSecurityHolderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#ref_mo DataIntersightIamSecurityHolder#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#ref_mo DataIntersightIamSecurityHolder#ref_mo}
   */
   readonly refMo?: DataIntersightIamSecurityHolderVersionContextRefMo;
 }
@@ -4657,7 +4697,7 @@ export class DataIntersightIamSecurityHolderVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder intersight_iam_security_holder}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder intersight_iam_security_holder}
 */
 export class DataIntersightIamSecurityHolder extends cdktf.TerraformDataSource {
 
@@ -4673,7 +4713,7 @@ export class DataIntersightIamSecurityHolder extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamSecurityHolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamSecurityHolder to import
-  * @param importFromId The id of the existing DataIntersightIamSecurityHolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamSecurityHolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamSecurityHolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4685,7 +4725,7 @@ export class DataIntersightIamSecurityHolder extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_security_holder intersight_iam_security_holder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_security_holder intersight_iam_security_holder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4696,8 +4736,8 @@ export class DataIntersightIamSecurityHolder extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_security_holder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

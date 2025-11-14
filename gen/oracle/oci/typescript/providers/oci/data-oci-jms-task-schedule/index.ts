@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsTaskScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}
   */
   readonly fleetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}
   */
   readonly taskScheduleId: string;
 }
@@ -1559,7 +1559,7 @@ export class DataOciJmsTaskScheduleTaskDetailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule oci_jms_task_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule oci_jms_task_schedule}
 */
 export class DataOciJmsTaskSchedule extends cdktf.TerraformDataSource {
 
@@ -1575,7 +1575,7 @@ export class DataOciJmsTaskSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciJmsTaskSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsTaskSchedule to import
-  * @param importFromId The id of the existing DataOciJmsTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsTaskSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsTaskSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class DataOciJmsTaskSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_task_schedule oci_jms_task_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_task_schedule oci_jms_task_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,8 +1598,8 @@ export class DataOciJmsTaskSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_jms_task_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

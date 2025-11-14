@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourceGroupMemberConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#account_moid DataIntersightResourceGroupMember#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#account_moid DataIntersightResourceGroupMember#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightResourceGroupMemberConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#create_time DataIntersightResourceGroupMember#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#create_time DataIntersightResourceGroupMember#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#domain_group_moid DataIntersightResourceGroupMember#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#domain_group_moid DataIntersightResourceGroupMember#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#id DataIntersightResourceGroupMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#id DataIntersightResourceGroupMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightResourceGroupMemberConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#mod_time DataIntersightResourceGroupMember#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#mod_time DataIntersightResourceGroupMember#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#owners DataIntersightResourceGroupMember#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#owners DataIntersightResourceGroupMember#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#shared_scope DataIntersightResourceGroupMember#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#shared_scope DataIntersightResourceGroupMember#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#ancestors DataIntersightResourceGroupMember#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#ancestors DataIntersightResourceGroupMember#ancestors}
   */
   readonly ancestors?: DataIntersightResourceGroupMemberAncestors[] | cdktf.IResolvable;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#group DataIntersightResourceGroupMember#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#group DataIntersightResourceGroupMember#group}
   */
   readonly group?: DataIntersightResourceGroupMemberGroup;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#parent DataIntersightResourceGroupMember#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#parent DataIntersightResourceGroupMember#parent}
   */
   readonly parent?: DataIntersightResourceGroupMemberParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#permission_resources DataIntersightResourceGroupMember#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#permission_resources DataIntersightResourceGroupMember#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourceGroupMemberPermissionResources[] | cdktf.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#resource DataIntersightResourceGroupMember#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#resource DataIntersightResourceGroupMember#resource}
   */
   readonly resource?: DataIntersightResourceGroupMemberResource;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#tags DataIntersightResourceGroupMember#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#tags DataIntersightResourceGroupMember#tags}
   */
   readonly tags?: DataIntersightResourceGroupMemberTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#version_context DataIntersightResourceGroupMember#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#version_context DataIntersightResourceGroupMember#version_context}
   */
   readonly versionContext?: DataIntersightResourceGroupMemberVersionContext;
 }
@@ -860,6 +860,11 @@ export class DataIntersightResourceGroupMemberResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1360,7 +1365,7 @@ export class DataIntersightResourceGroupMemberResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightResourceGroupMemberAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1368,19 +1373,19 @@ export interface DataIntersightResourceGroupMemberAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1393,7 +1398,7 @@ export interface DataIntersightResourceGroupMemberAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -1625,7 +1630,7 @@ export class DataIntersightResourceGroupMemberAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightResourceGroupMemberGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1633,19 +1638,19 @@ export interface DataIntersightResourceGroupMemberGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1658,7 +1663,7 @@ export interface DataIntersightResourceGroupMemberGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -1858,7 +1863,7 @@ export class DataIntersightResourceGroupMemberGroupOutputReference extends cdktf
 }
 export interface DataIntersightResourceGroupMemberParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1866,19 +1871,19 @@ export interface DataIntersightResourceGroupMemberParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1891,7 +1896,7 @@ export interface DataIntersightResourceGroupMemberParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -2091,7 +2096,7 @@ export class DataIntersightResourceGroupMemberParentOutputReference extends cdkt
 }
 export interface DataIntersightResourceGroupMemberPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2099,19 +2104,19 @@ export interface DataIntersightResourceGroupMemberPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2124,7 +2129,7 @@ export interface DataIntersightResourceGroupMemberPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -2356,7 +2361,7 @@ export class DataIntersightResourceGroupMemberPermissionResourcesList extends cd
 }
 export interface DataIntersightResourceGroupMemberResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2364,19 +2369,19 @@ export interface DataIntersightResourceGroupMemberResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2389,7 +2394,7 @@ export interface DataIntersightResourceGroupMemberResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -2589,7 +2594,7 @@ export class DataIntersightResourceGroupMemberResourceOutputReference extends cd
 }
 export interface DataIntersightResourceGroupMemberTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2597,19 +2602,19 @@ export interface DataIntersightResourceGroupMemberTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2622,7 +2627,7 @@ export interface DataIntersightResourceGroupMemberTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -2854,7 +2859,7 @@ export class DataIntersightResourceGroupMemberTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightResourceGroupMemberTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2862,19 +2867,19 @@ export interface DataIntersightResourceGroupMemberTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2887,7 +2892,7 @@ export interface DataIntersightResourceGroupMemberTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -3087,45 +3092,51 @@ export class DataIntersightResourceGroupMemberTagsDefinitionOutputReference exte
 }
 export interface DataIntersightResourceGroupMemberTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#key DataIntersightResourceGroupMember#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#key DataIntersightResourceGroupMember#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#propagated DataIntersightResourceGroupMember#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#propagated DataIntersightResourceGroupMember#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#sys_tag DataIntersightResourceGroupMember#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#type DataIntersightResourceGroupMember#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#type DataIntersightResourceGroupMember#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#value DataIntersightResourceGroupMember#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#value DataIntersightResourceGroupMember#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#ancestor_definitions DataIntersightResourceGroupMember#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#ancestor_definitions DataIntersightResourceGroupMember#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourceGroupMemberTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#definition DataIntersightResourceGroupMember#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#definition DataIntersightResourceGroupMember#definition}
   */
   readonly definition?: DataIntersightResourceGroupMemberTagsDefinition;
 }
@@ -3139,6 +3150,7 @@ export function dataIntersightResourceGroupMemberTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightResourceGroupMemberTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3167,6 +3179,12 @@ export function dataIntersightResourceGroupMemberTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3233,6 +3251,10 @@ export class DataIntersightResourceGroupMemberTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3259,6 +3281,7 @@ export class DataIntersightResourceGroupMemberTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3274,6 +3297,7 @@ export class DataIntersightResourceGroupMemberTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3327,6 +3351,22 @@ export class DataIntersightResourceGroupMemberTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3415,7 +3455,7 @@ export class DataIntersightResourceGroupMemberTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightResourceGroupMemberVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3423,19 +3463,19 @@ export interface DataIntersightResourceGroupMemberVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3448,7 +3488,7 @@ export interface DataIntersightResourceGroupMemberVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -3680,7 +3720,7 @@ export class DataIntersightResourceGroupMemberVersionContextInterestedMosList ex
 }
 export interface DataIntersightResourceGroupMemberVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3688,19 +3728,19 @@ export interface DataIntersightResourceGroupMemberVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#moid DataIntersightResourceGroupMember#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3713,7 +3753,7 @@ export interface DataIntersightResourceGroupMemberVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#selector DataIntersightResourceGroupMember#selector}
   */
   readonly selector?: string;
 }
@@ -3913,7 +3953,7 @@ export class DataIntersightResourceGroupMemberVersionContextRefMoOutputReference
 }
 export interface DataIntersightResourceGroupMemberVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#additional_properties DataIntersightResourceGroupMember#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3921,32 +3961,32 @@ export interface DataIntersightResourceGroupMemberVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#class_id DataIntersightResourceGroupMember#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#marked_for_deletion DataIntersightResourceGroupMember#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#marked_for_deletion DataIntersightResourceGroupMember#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#nr_version DataIntersightResourceGroupMember#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#nr_version DataIntersightResourceGroupMember#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#object_type DataIntersightResourceGroupMember#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#timestamp DataIntersightResourceGroupMember#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#timestamp DataIntersightResourceGroupMember#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3957,19 +3997,19 @@ export interface DataIntersightResourceGroupMemberVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#version_type DataIntersightResourceGroupMember#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#version_type DataIntersightResourceGroupMember#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#interested_mos DataIntersightResourceGroupMember#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#interested_mos DataIntersightResourceGroupMember#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourceGroupMemberVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#ref_mo DataIntersightResourceGroupMember#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#ref_mo DataIntersightResourceGroupMember#ref_mo}
   */
   readonly refMo?: DataIntersightResourceGroupMemberVersionContextRefMo;
 }
@@ -4285,7 +4325,7 @@ export class DataIntersightResourceGroupMemberVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member intersight_resource_group_member}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member intersight_resource_group_member}
 */
 export class DataIntersightResourceGroupMember extends cdktf.TerraformDataSource {
 
@@ -4301,7 +4341,7 @@ export class DataIntersightResourceGroupMember extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightResourceGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourceGroupMember to import
-  * @param importFromId The id of the existing DataIntersightResourceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourceGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4313,7 +4353,7 @@ export class DataIntersightResourceGroupMember extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resource_group_member intersight_resource_group_member} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_group_member intersight_resource_group_member} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4324,8 +4364,8 @@ export class DataIntersightResourceGroupMember extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_resource_group_member',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProductFeatureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Entitlements Feature the product will be attached to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature#entitlements_feature ProductFeature#entitlements_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature#entitlements_feature ProductFeature#entitlements_feature}
   */
   readonly entitlementsFeature: string;
   /**
   * The ID of the product that this Entitlements Feature will be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature#product ProductFeature#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature#product ProductFeature#product}
   */
   readonly product: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature stripe_product_feature}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature stripe_product_feature}
 */
 export class ProductFeature extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ProductFeature extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProductFeature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProductFeature to import
-  * @param importFromId The id of the existing ProductFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProductFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProductFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ProductFeature extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/product_feature stripe_product_feature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/product_feature stripe_product_feature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ProductFeature extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_product_feature',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

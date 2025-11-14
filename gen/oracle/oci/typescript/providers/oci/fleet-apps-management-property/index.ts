@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementPropertyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#compartment_id FleetAppsManagementProperty#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#compartment_id FleetAppsManagementProperty#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#display_name FleetAppsManagementProperty#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#defined_tags FleetAppsManagementProperty#defined_tags}
+  */
+  readonly definedTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#display_name FleetAppsManagementProperty#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#id FleetAppsManagementProperty#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#freeform_tags FleetAppsManagementProperty#freeform_tags}
+  */
+  readonly freeformTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#id FleetAppsManagementProperty#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#selection FleetAppsManagementProperty#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#selection FleetAppsManagementProperty#selection}
   */
   readonly selection: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#value_type FleetAppsManagementProperty#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#value_type FleetAppsManagementProperty#value_type}
   */
   readonly valueType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#values FleetAppsManagementProperty#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#values FleetAppsManagementProperty#values}
   */
   readonly values?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#timeouts FleetAppsManagementProperty#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#timeouts FleetAppsManagementProperty#timeouts}
   */
   readonly timeouts?: FleetAppsManagementPropertyTimeouts;
 }
 export interface FleetAppsManagementPropertyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#create FleetAppsManagementProperty#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#create FleetAppsManagementProperty#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#delete FleetAppsManagementProperty#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#delete FleetAppsManagementProperty#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#update FleetAppsManagementProperty#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#update FleetAppsManagementProperty#update}
   */
   readonly update?: string;
 }
@@ -203,7 +211,7 @@ export class FleetAppsManagementPropertyTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property oci_fleet_apps_management_property}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property oci_fleet_apps_management_property}
 */
 export class FleetAppsManagementProperty extends cdktf.TerraformResource {
 
@@ -219,7 +227,7 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementProperty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementProperty to import
-  * @param importFromId The id of the existing FleetAppsManagementProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementProperty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +239,7 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/fleet_apps_management_property oci_fleet_apps_management_property} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/fleet_apps_management_property oci_fleet_apps_management_property} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +250,8 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_property',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -254,7 +262,9 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._compartmentId = config.compartmentId;
+    this._definedTags = config.definedTags;
     this._displayName = config.displayName;
+    this._freeformTags = config.freeformTags;
     this._id = config.id;
     this._selection = config.selection;
     this._valueType = config.valueType;
@@ -279,9 +289,19 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
     return this._compartmentId;
   }
 
-  // defined_tags - computed: true, optional: false, required: false
-  private _definedTags = new cdktf.StringMap(this, "defined_tags");
+  // defined_tags - computed: true, optional: true, required: false
+  private _definedTags?: { [key: string]: string }; 
   public get definedTags() {
+    return this.getStringMapAttribute('defined_tags');
+  }
+  public set definedTags(value: { [key: string]: string }) {
+    this._definedTags = value;
+  }
+  public resetDefinedTags() {
+    this._definedTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get definedTagsInput() {
     return this._definedTags;
   }
 
@@ -298,9 +318,19 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
     return this._displayName;
   }
 
-  // freeform_tags - computed: true, optional: false, required: false
-  private _freeformTags = new cdktf.StringMap(this, "freeform_tags");
+  // freeform_tags - computed: true, optional: true, required: false
+  private _freeformTags?: { [key: string]: string }; 
   public get freeformTags() {
+    return this.getStringMapAttribute('freeform_tags');
+  }
+  public set freeformTags(value: { [key: string]: string }) {
+    this._freeformTags = value;
+  }
+  public resetFreeformTags() {
+    this._freeformTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get freeformTagsInput() {
     return this._freeformTags;
   }
 
@@ -426,7 +456,9 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
+      defined_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._definedTags),
       display_name: cdktf.stringToTerraform(this._displayName),
+      freeform_tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._freeformTags),
       id: cdktf.stringToTerraform(this._id),
       selection: cdktf.stringToTerraform(this._selection),
       value_type: cdktf.stringToTerraform(this._valueType),
@@ -443,11 +475,23 @@ export class FleetAppsManagementProperty extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      defined_tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._definedTags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      freeform_tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._freeformTags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

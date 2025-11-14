@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface KmsGeneratedKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#associated_data KmsGeneratedKey#associated_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#associated_data KmsGeneratedKey#associated_data}
   */
   readonly associatedData?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#crypto_endpoint KmsGeneratedKey#crypto_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#crypto_endpoint KmsGeneratedKey#crypto_endpoint}
   */
   readonly cryptoEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#id KmsGeneratedKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#id KmsGeneratedKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#include_plaintext_key KmsGeneratedKey#include_plaintext_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#include_plaintext_key KmsGeneratedKey#include_plaintext_key}
   */
   readonly includePlaintextKey: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#key_id KmsGeneratedKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#key_id KmsGeneratedKey#key_id}
   */
   readonly keyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#logging_context KmsGeneratedKey#logging_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#logging_context KmsGeneratedKey#logging_context}
   */
   readonly loggingContext?: { [key: string]: string };
   /**
   * key_shape block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#key_shape KmsGeneratedKey#key_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#key_shape KmsGeneratedKey#key_shape}
   */
   readonly keyShape: KmsGeneratedKeyKeyShape;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#timeouts KmsGeneratedKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#timeouts KmsGeneratedKey#timeouts}
   */
   readonly timeouts?: KmsGeneratedKeyTimeouts;
 }
 export interface KmsGeneratedKeyKeyShape {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}
   */
   readonly curveId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#length KmsGeneratedKey#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#length KmsGeneratedKey#length}
   */
   readonly length: number;
 }
@@ -193,15 +193,15 @@ export class KmsGeneratedKeyKeyShapeOutputReference extends cdktf.ComplexObject 
 }
 export interface KmsGeneratedKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#create KmsGeneratedKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#create KmsGeneratedKey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#delete KmsGeneratedKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#delete KmsGeneratedKey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#update KmsGeneratedKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#update KmsGeneratedKey#update}
   */
   readonly update?: string;
 }
@@ -353,7 +353,7 @@ export class KmsGeneratedKeyTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key oci_kms_generated_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key oci_kms_generated_key}
 */
 export class KmsGeneratedKey extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class KmsGeneratedKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsGeneratedKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsGeneratedKey to import
-  * @param importFromId The id of the existing KmsGeneratedKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsGeneratedKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsGeneratedKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class KmsGeneratedKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/kms_generated_key oci_kms_generated_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/kms_generated_key oci_kms_generated_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class KmsGeneratedKey extends cdktf.TerraformResource {
       terraformResourceType: 'oci_kms_generated_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

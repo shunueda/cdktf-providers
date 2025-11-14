@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixUserGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#id DataNutanixUserGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#id DataNutanixUserGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataNutanixUserGroupsConfig extends cdktf.TerraformMetaArgument
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#metadata DataNutanixUserGroups#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#metadata DataNutanixUserGroups#metadata}
   */
   readonly metadata?: DataNutanixUserGroupsMetadata[] | cdktf.IResolvable;
 }
@@ -576,27 +576,27 @@ export class DataNutanixUserGroupsEntitiesList extends cdktf.ComplexList {
 }
 export interface DataNutanixUserGroupsMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#filter DataNutanixUserGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#filter DataNutanixUserGroups#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#kind DataNutanixUserGroups#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#kind DataNutanixUserGroups#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#length DataNutanixUserGroups#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#length DataNutanixUserGroups#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#offset DataNutanixUserGroups#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#offset DataNutanixUserGroups#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#sort_attribute DataNutanixUserGroups#sort_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#sort_attribute DataNutanixUserGroups#sort_attribute}
   */
   readonly sortAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#sort_order DataNutanixUserGroups#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#sort_order DataNutanixUserGroups#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -857,7 +857,7 @@ export class DataNutanixUserGroupsMetadataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups nutanix_user_groups}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups nutanix_user_groups}
 */
 export class DataNutanixUserGroups extends cdktf.TerraformDataSource {
 
@@ -873,7 +873,7 @@ export class DataNutanixUserGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixUserGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixUserGroups to import
-  * @param importFromId The id of the existing DataNutanixUserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixUserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixUserGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -885,7 +885,7 @@ export class DataNutanixUserGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/user_groups nutanix_user_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/user_groups nutanix_user_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,8 +896,8 @@ export class DataNutanixUserGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_user_groups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

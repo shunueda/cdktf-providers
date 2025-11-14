@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TechsupportmanagementTechSupportBundleConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#account_moid TechsupportmanagementTechSupportBundle#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#account_moid TechsupportmanagementTechSupportBundle#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#ancestors TechsupportmanagementTechSupportBundle#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#ancestors TechsupportmanagementTechSupportBundle#ancestors}
   */
   readonly ancestors?: TechsupportmanagementTechSupportBundleAncestors[] | cdktf.IResolvable;
   /**
@@ -28,42 +28,42 @@ export interface TechsupportmanagementTechSupportBundleConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#create_time TechsupportmanagementTechSupportBundle#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#create_time TechsupportmanagementTechSupportBundle#create_time}
   */
   readonly createTime?: string;
   /**
   * The device identifier used to uniquely identify an individual device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#device_identifier TechsupportmanagementTechSupportBundle#device_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#device_identifier TechsupportmanagementTechSupportBundle#device_identifier}
   */
   readonly deviceIdentifier?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#device_registration TechsupportmanagementTechSupportBundle#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#device_registration TechsupportmanagementTechSupportBundle#device_registration}
   */
   readonly deviceRegistration?: TechsupportmanagementTechSupportBundleDeviceRegistration[] | cdktf.IResolvable;
   /**
   * The device type obtained from the inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#device_type TechsupportmanagementTechSupportBundle#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#device_type TechsupportmanagementTechSupportBundle#device_type}
   */
   readonly deviceType?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#domain_group_moid TechsupportmanagementTechSupportBundle#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#domain_group_moid TechsupportmanagementTechSupportBundle#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#id TechsupportmanagementTechSupportBundle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#id TechsupportmanagementTechSupportBundle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,49 +72,49 @@ export interface TechsupportmanagementTechSupportBundleConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#mod_time TechsupportmanagementTechSupportBundle#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#mod_time TechsupportmanagementTechSupportBundle#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#owners TechsupportmanagementTechSupportBundle#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#owners TechsupportmanagementTechSupportBundle#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#parent TechsupportmanagementTechSupportBundle#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#parent TechsupportmanagementTechSupportBundle#parent}
   */
   readonly parent?: TechsupportmanagementTechSupportBundleParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#permission_resources TechsupportmanagementTechSupportBundle#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#permission_resources TechsupportmanagementTechSupportBundle#permission_resources}
   */
   readonly permissionResources?: TechsupportmanagementTechSupportBundlePermissionResources[] | cdktf.IResolvable;
   /**
   * Product identification of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#pid TechsupportmanagementTechSupportBundle#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#pid TechsupportmanagementTechSupportBundle#pid}
   */
   readonly pid?: string;
   /**
   * A platform specific data payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#platform_param TechsupportmanagementTechSupportBundle#platform_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#platform_param TechsupportmanagementTechSupportBundle#platform_param}
   */
   readonly platformParam?: TechsupportmanagementTechSupportBundlePlatformParam[] | cdktf.IResolvable;
   /**
@@ -203,66 +203,66 @@ export interface TechsupportmanagementTechSupportBundleConfig extends cdktf.Terr
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#platform_type TechsupportmanagementTechSupportBundle#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#platform_type TechsupportmanagementTechSupportBundle#platform_type}
   */
   readonly platformType?: string;
   /**
   * Serial number of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#serial TechsupportmanagementTechSupportBundle#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#serial TechsupportmanagementTechSupportBundle#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#shared_scope TechsupportmanagementTechSupportBundle#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#shared_scope TechsupportmanagementTechSupportBundle#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#tags TechsupportmanagementTechSupportBundle#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#tags TechsupportmanagementTechSupportBundle#tags}
   */
   readonly tags?: TechsupportmanagementTechSupportBundleTags[] | cdktf.IResolvable;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#target_resource TechsupportmanagementTechSupportBundle#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#target_resource TechsupportmanagementTechSupportBundle#target_resource}
   */
   readonly targetResource?: TechsupportmanagementTechSupportBundleTargetResource[] | cdktf.IResolvable;
   /**
   * A reference to a techsupportmanagementTechSupportStatus resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#tech_support_status TechsupportmanagementTechSupportBundle#tech_support_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#tech_support_status TechsupportmanagementTechSupportBundle#tech_support_status}
   */
   readonly techSupportStatus?: TechsupportmanagementTechSupportBundleTechSupportStatus[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#version_context TechsupportmanagementTechSupportBundle#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#version_context TechsupportmanagementTechSupportBundle#version_context}
   */
   readonly versionContext?: TechsupportmanagementTechSupportBundleVersionContext[] | cdktf.IResolvable;
 }
 export interface TechsupportmanagementTechSupportBundleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -494,23 +494,23 @@ export class TechsupportmanagementTechSupportBundleAncestorsList extends cdktf.C
 }
 export interface TechsupportmanagementTechSupportBundleDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -742,23 +742,23 @@ export class TechsupportmanagementTechSupportBundleDeviceRegistrationList extend
 }
 export interface TechsupportmanagementTechSupportBundleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -990,23 +990,23 @@ export class TechsupportmanagementTechSupportBundleParentList extends cdktf.Comp
 }
 export interface TechsupportmanagementTechSupportBundlePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -1238,15 +1238,15 @@ export class TechsupportmanagementTechSupportBundlePermissionResourcesList exten
 }
 export interface TechsupportmanagementTechSupportBundlePlatformParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
 }
@@ -1420,23 +1420,23 @@ export class TechsupportmanagementTechSupportBundlePlatformParamList extends cdk
 }
 export interface TechsupportmanagementTechSupportBundleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -1668,23 +1668,23 @@ export class TechsupportmanagementTechSupportBundleTagsAncestorDefinitionsList e
 }
 export interface TechsupportmanagementTechSupportBundleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -1916,31 +1916,35 @@ export class TechsupportmanagementTechSupportBundleTagsDefinitionList extends cd
 }
 export interface TechsupportmanagementTechSupportBundleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#ancestor_definitions TechsupportmanagementTechSupportBundle#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#ancestor_definitions TechsupportmanagementTechSupportBundle#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TechsupportmanagementTechSupportBundleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#definition TechsupportmanagementTechSupportBundle#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#definition TechsupportmanagementTechSupportBundle#definition}
   */
   readonly definition?: TechsupportmanagementTechSupportBundleTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#key TechsupportmanagementTechSupportBundle#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#key TechsupportmanagementTechSupportBundle#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#propagated TechsupportmanagementTechSupportBundle#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#propagated TechsupportmanagementTechSupportBundle#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#type TechsupportmanagementTechSupportBundle#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#sys_tag TechsupportmanagementTechSupportBundle#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#type TechsupportmanagementTechSupportBundle#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#value TechsupportmanagementTechSupportBundle#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#value TechsupportmanagementTechSupportBundle#value}
   */
   readonly value?: string;
 }
@@ -1956,6 +1960,7 @@ export function techsupportmanagementTechSupportBundleTagsToTerraform(struct?: T
     definition: cdktf.listMapper(techsupportmanagementTechSupportBundleTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1994,6 +1999,12 @@ export function techsupportmanagementTechSupportBundleTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2056,6 +2067,10 @@ export class TechsupportmanagementTechSupportBundleTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2076,6 +2091,7 @@ export class TechsupportmanagementTechSupportBundleTagsOutputReference extends c
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2091,6 +2107,7 @@ export class TechsupportmanagementTechSupportBundleTagsOutputReference extends c
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2176,6 +2193,22 @@ export class TechsupportmanagementTechSupportBundleTagsOutputReference extends c
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2230,23 +2263,23 @@ export class TechsupportmanagementTechSupportBundleTagsList extends cdktf.Comple
 }
 export interface TechsupportmanagementTechSupportBundleTargetResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2478,23 +2511,23 @@ export class TechsupportmanagementTechSupportBundleTargetResourceList extends cd
 }
 export interface TechsupportmanagementTechSupportBundleTechSupportStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2726,23 +2759,23 @@ export class TechsupportmanagementTechSupportBundleTechSupportStatusList extends
 }
 export interface TechsupportmanagementTechSupportBundleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -2974,23 +3007,23 @@ export class TechsupportmanagementTechSupportBundleVersionContextInterestedMosLi
 }
 export interface TechsupportmanagementTechSupportBundleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#moid TechsupportmanagementTechSupportBundle#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#selector TechsupportmanagementTechSupportBundle#selector}
   */
   readonly selector?: string;
 }
@@ -3222,39 +3255,39 @@ export class TechsupportmanagementTechSupportBundleVersionContextRefMoList exten
 }
 export interface TechsupportmanagementTechSupportBundleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#additional_properties TechsupportmanagementTechSupportBundle#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#class_id TechsupportmanagementTechSupportBundle#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#interested_mos TechsupportmanagementTechSupportBundle#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#interested_mos TechsupportmanagementTechSupportBundle#interested_mos}
   */
   readonly interestedMos?: TechsupportmanagementTechSupportBundleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#marked_for_deletion TechsupportmanagementTechSupportBundle#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#marked_for_deletion TechsupportmanagementTechSupportBundle#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#nr_version TechsupportmanagementTechSupportBundle#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#nr_version TechsupportmanagementTechSupportBundle#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#object_type TechsupportmanagementTechSupportBundle#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#ref_mo TechsupportmanagementTechSupportBundle#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#ref_mo TechsupportmanagementTechSupportBundle#ref_mo}
   */
   readonly refMo?: TechsupportmanagementTechSupportBundleVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#timestamp TechsupportmanagementTechSupportBundle#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#timestamp TechsupportmanagementTechSupportBundle#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#version_type TechsupportmanagementTechSupportBundle#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#version_type TechsupportmanagementTechSupportBundle#version_type}
   */
   readonly versionType?: string;
 }
@@ -3602,7 +3635,7 @@ export class TechsupportmanagementTechSupportBundleVersionContextList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle}
 */
 export class TechsupportmanagementTechSupportBundle extends cdktf.TerraformResource {
 
@@ -3618,7 +3651,7 @@ export class TechsupportmanagementTechSupportBundle extends cdktf.TerraformResou
   * Generates CDKTF code for importing a TechsupportmanagementTechSupportBundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TechsupportmanagementTechSupportBundle to import
-  * @param importFromId The id of the existing TechsupportmanagementTechSupportBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TechsupportmanagementTechSupportBundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TechsupportmanagementTechSupportBundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3630,7 +3663,7 @@ export class TechsupportmanagementTechSupportBundle extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/techsupportmanagement_tech_support_bundle intersight_techsupportmanagement_tech_support_bundle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3641,8 +3674,8 @@ export class TechsupportmanagementTechSupportBundle extends cdktf.TerraformResou
       terraformResourceType: 'intersight_techsupportmanagement_tech_support_bundle',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

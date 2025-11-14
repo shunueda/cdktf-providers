@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamLdapPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#account_moid DataIntersightIamLdapPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#account_moid DataIntersightIamLdapPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightIamLdapPolicyConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#create_time DataIntersightIamLdapPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#create_time DataIntersightIamLdapPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#description DataIntersightIamLdapPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#description DataIntersightIamLdapPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#domain_group_moid DataIntersightIamLdapPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#domain_group_moid DataIntersightIamLdapPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enables DNS to access LDAP servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#enable_dns DataIntersightIamLdapPolicy#enable_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#enable_dns DataIntersightIamLdapPolicy#enable_dns}
   */
   readonly enableDns?: boolean | cdktf.IResolvable;
   /**
   * LDAP server performs authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#enabled DataIntersightIamLdapPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#enabled DataIntersightIamLdapPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#id DataIntersightIamLdapPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#id DataIntersightIamLdapPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,37 +65,37 @@ export interface DataIntersightIamLdapPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#mod_time DataIntersightIamLdapPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#mod_time DataIntersightIamLdapPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#name DataIntersightIamLdapPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#name DataIntersightIamLdapPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#owners DataIntersightIamLdapPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#owners DataIntersightIamLdapPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#shared_scope DataIntersightIamLdapPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#shared_scope DataIntersightIamLdapPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -103,79 +103,79 @@ export interface DataIntersightIamLdapPolicyConfig extends cdktf.TerraformMetaAr
   * * `LocalUserDb` - Precedence is given to local user database while searching.
   * * `LDAPUserDb` - Precedence is given to LADP user database while searching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#user_search_precedence DataIntersightIamLdapPolicy#user_search_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#user_search_precedence DataIntersightIamLdapPolicy#user_search_precedence}
   */
   readonly userSearchPrecedence?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#ancestors DataIntersightIamLdapPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#ancestors DataIntersightIamLdapPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightIamLdapPolicyAncestors[] | cdktf.IResolvable;
   /**
   * appliance_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#appliance_account DataIntersightIamLdapPolicy#appliance_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#appliance_account DataIntersightIamLdapPolicy#appliance_account}
   */
   readonly applianceAccount?: DataIntersightIamLdapPolicyApplianceAccount;
   /**
   * base_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#base_properties DataIntersightIamLdapPolicy#base_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#base_properties DataIntersightIamLdapPolicy#base_properties}
   */
   readonly baseProperties?: DataIntersightIamLdapPolicyBaseProperties;
   /**
   * dns_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#dns_parameters DataIntersightIamLdapPolicy#dns_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#dns_parameters DataIntersightIamLdapPolicy#dns_parameters}
   */
   readonly dnsParameters?: DataIntersightIamLdapPolicyDnsParameters;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#groups DataIntersightIamLdapPolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#groups DataIntersightIamLdapPolicy#groups}
   */
   readonly groups?: DataIntersightIamLdapPolicyGroups[] | cdktf.IResolvable;
   /**
   * nr_providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#nr_providers DataIntersightIamLdapPolicy#nr_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#nr_providers DataIntersightIamLdapPolicy#nr_providers}
   */
   readonly nrProviders?: DataIntersightIamLdapPolicyNrProviders[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#organization DataIntersightIamLdapPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#organization DataIntersightIamLdapPolicy#organization}
   */
   readonly organization?: DataIntersightIamLdapPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#parent DataIntersightIamLdapPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#parent DataIntersightIamLdapPolicy#parent}
   */
   readonly parent?: DataIntersightIamLdapPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#permission_resources DataIntersightIamLdapPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#permission_resources DataIntersightIamLdapPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamLdapPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#profiles DataIntersightIamLdapPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#profiles DataIntersightIamLdapPolicy#profiles}
   */
   readonly profiles?: DataIntersightIamLdapPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#tags DataIntersightIamLdapPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#tags DataIntersightIamLdapPolicy#tags}
   */
   readonly tags?: DataIntersightIamLdapPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#version_context DataIntersightIamLdapPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#version_context DataIntersightIamLdapPolicy#version_context}
   */
   readonly versionContext?: DataIntersightIamLdapPolicyVersionContext;
 }
@@ -1462,6 +1462,11 @@ export class DataIntersightIamLdapPolicyResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2017,7 +2022,7 @@ export class DataIntersightIamLdapPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamLdapPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2025,19 +2030,19 @@ export interface DataIntersightIamLdapPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2050,7 +2055,7 @@ export interface DataIntersightIamLdapPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2282,7 +2287,7 @@ export class DataIntersightIamLdapPolicyAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightIamLdapPolicyApplianceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2290,19 +2295,19 @@ export interface DataIntersightIamLdapPolicyApplianceAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2315,7 +2320,7 @@ export interface DataIntersightIamLdapPolicyApplianceAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2515,25 +2520,25 @@ export class DataIntersightIamLdapPolicyApplianceAccountOutputReference extends 
 }
 export interface DataIntersightIamLdapPolicyBaseProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Role and locale information of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#attribute DataIntersightIamLdapPolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#attribute DataIntersightIamLdapPolicy#attribute}
   */
   readonly attribute?: string;
   /**
   * Base Distinguished Name (DN). Starting point from where server will search for users and groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#base_dn DataIntersightIamLdapPolicy#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#base_dn DataIntersightIamLdapPolicy#base_dn}
   */
   readonly baseDn?: string;
   /**
   * Distinguished Name (DN) of the user, that is used to authenticate against LDAP servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#bind_dn DataIntersightIamLdapPolicy#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#bind_dn DataIntersightIamLdapPolicy#bind_dn}
   */
   readonly bindDn?: string;
   /**
@@ -2542,7 +2547,7 @@ export interface DataIntersightIamLdapPolicyBaseProperties {
   * * `Anonymous` - Requires no username and password. If this option is selected and the LDAP server is configured for Anonymous logins, then the user gains access.
   * * `ConfiguredCredentials` - Requires a known set of credentials to be specified for the initial bind process. If the initial bind process succeeds, then the distinguished name (DN) of the user name is queried and re-used for the re-binding process. If the re-binding process fails, then the user is denied access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#bind_method DataIntersightIamLdapPolicy#bind_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#bind_method DataIntersightIamLdapPolicy#bind_method}
   */
   readonly bindMethod?: string;
   /**
@@ -2550,74 +2555,74 @@ export interface DataIntersightIamLdapPolicyBaseProperties {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The IPv4 domain that all users must be in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#domain DataIntersightIamLdapPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#domain DataIntersightIamLdapPolicy#domain}
   */
   readonly domain?: string;
   /**
   * If enabled, the endpoint encrypts all information it sends to the LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#enable_encryption DataIntersightIamLdapPolicy#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#enable_encryption DataIntersightIamLdapPolicy#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * If enabled, user authorization is also done at the group level for LDAP users not in the local user database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#enable_group_authorization DataIntersightIamLdapPolicy#enable_group_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#enable_group_authorization DataIntersightIamLdapPolicy#enable_group_authorization}
   */
   readonly enableGroupAuthorization?: boolean | cdktf.IResolvable;
   /**
   * If enabled, an extended search walks the chain of ancestry all the way to the root and returns all the groups and subgroups, each of those groups belong to recursively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#enable_nested_group_search DataIntersightIamLdapPolicy#enable_nested_group_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#enable_nested_group_search DataIntersightIamLdapPolicy#enable_nested_group_search}
   */
   readonly enableNestedGroupSearch?: boolean | cdktf.IResolvable;
   /**
   * Criteria to identify entries in search requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#filter DataIntersightIamLdapPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#filter DataIntersightIamLdapPolicy#filter}
   */
   readonly filter?: string;
   /**
   * Groups to which an LDAP entry belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#group_attribute DataIntersightIamLdapPolicy#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#group_attribute DataIntersightIamLdapPolicy#group_attribute}
   */
   readonly groupAttribute?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#is_password_set DataIntersightIamLdapPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#is_password_set DataIntersightIamLdapPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * Search depth to look for a nested LDAP group in an LDAP group map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#nested_group_search_depth DataIntersightIamLdapPolicy#nested_group_search_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#nested_group_search_depth DataIntersightIamLdapPolicy#nested_group_search_depth}
   */
   readonly nestedGroupSearchDepth?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The password of the user for initial bind process. It can be any string that adheres to the following constraints. It can have character except spaces, tabs, line breaks. It cannot be more than 254 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#password DataIntersightIamLdapPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#password DataIntersightIamLdapPolicy#password}
   */
   readonly password?: string;
   /**
   * LDAP authentication timeout duration, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#timeout DataIntersightIamLdapPolicy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#timeout DataIntersightIamLdapPolicy#timeout}
   */
   readonly timeout?: number;
 }
@@ -3165,7 +3170,7 @@ export class DataIntersightIamLdapPolicyBasePropertiesOutputReference extends cd
 }
 export interface DataIntersightIamLdapPolicyDnsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3173,7 +3178,7 @@ export interface DataIntersightIamLdapPolicyDnsParameters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -3182,26 +3187,26 @@ export interface DataIntersightIamLdapPolicyDnsParameters {
   * * `Configured` - The configured-search domain.
   * * `ConfiguredExtracted` - The domain name extracted from the login ID than the configured-search domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#nr_source DataIntersightIamLdapPolicy#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#nr_source DataIntersightIamLdapPolicy#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Domain name that acts as a source for a DNS query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#search_domain DataIntersightIamLdapPolicy#search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#search_domain DataIntersightIamLdapPolicy#search_domain}
   */
   readonly searchDomain?: string;
   /**
   * Forest name that acts as a source for a DNS query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#search_forest DataIntersightIamLdapPolicy#search_forest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#search_forest DataIntersightIamLdapPolicy#search_forest}
   */
   readonly searchForest?: string;
 }
@@ -3430,7 +3435,7 @@ export class DataIntersightIamLdapPolicyDnsParametersOutputReference extends cdk
 }
 export interface DataIntersightIamLdapPolicyGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3438,19 +3443,19 @@ export interface DataIntersightIamLdapPolicyGroups {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3463,7 +3468,7 @@ export interface DataIntersightIamLdapPolicyGroups {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3695,7 +3700,7 @@ export class DataIntersightIamLdapPolicyGroupsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamLdapPolicyNrProviders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3703,19 +3708,19 @@ export interface DataIntersightIamLdapPolicyNrProviders {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3728,7 +3733,7 @@ export interface DataIntersightIamLdapPolicyNrProviders {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3960,7 +3965,7 @@ export class DataIntersightIamLdapPolicyNrProvidersList extends cdktf.ComplexLis
 }
 export interface DataIntersightIamLdapPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3968,19 +3973,19 @@ export interface DataIntersightIamLdapPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3993,7 +3998,7 @@ export interface DataIntersightIamLdapPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4193,7 +4198,7 @@ export class DataIntersightIamLdapPolicyOrganizationOutputReference extends cdkt
 }
 export interface DataIntersightIamLdapPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4201,19 +4206,19 @@ export interface DataIntersightIamLdapPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4226,7 +4231,7 @@ export interface DataIntersightIamLdapPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4426,7 +4431,7 @@ export class DataIntersightIamLdapPolicyParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightIamLdapPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4434,19 +4439,19 @@ export interface DataIntersightIamLdapPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4459,7 +4464,7 @@ export interface DataIntersightIamLdapPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4691,7 +4696,7 @@ export class DataIntersightIamLdapPolicyPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightIamLdapPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4699,19 +4704,19 @@ export interface DataIntersightIamLdapPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4724,7 +4729,7 @@ export interface DataIntersightIamLdapPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4956,7 +4961,7 @@ export class DataIntersightIamLdapPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamLdapPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4964,19 +4969,19 @@ export interface DataIntersightIamLdapPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4989,7 +4994,7 @@ export interface DataIntersightIamLdapPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5221,7 +5226,7 @@ export class DataIntersightIamLdapPolicyTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightIamLdapPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5229,19 +5234,19 @@ export interface DataIntersightIamLdapPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5254,7 +5259,7 @@ export interface DataIntersightIamLdapPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5454,45 +5459,51 @@ export class DataIntersightIamLdapPolicyTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightIamLdapPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#key DataIntersightIamLdapPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#key DataIntersightIamLdapPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#propagated DataIntersightIamLdapPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#propagated DataIntersightIamLdapPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#sys_tag DataIntersightIamLdapPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#type DataIntersightIamLdapPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#type DataIntersightIamLdapPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#value DataIntersightIamLdapPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#value DataIntersightIamLdapPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#ancestor_definitions DataIntersightIamLdapPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#ancestor_definitions DataIntersightIamLdapPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamLdapPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#definition DataIntersightIamLdapPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#definition DataIntersightIamLdapPolicy#definition}
   */
   readonly definition?: DataIntersightIamLdapPolicyTagsDefinition;
 }
@@ -5506,6 +5517,7 @@ export function dataIntersightIamLdapPolicyTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightIamLdapPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5534,6 +5546,12 @@ export function dataIntersightIamLdapPolicyTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5600,6 +5618,10 @@ export class DataIntersightIamLdapPolicyTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5626,6 +5648,7 @@ export class DataIntersightIamLdapPolicyTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5641,6 +5664,7 @@ export class DataIntersightIamLdapPolicyTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5694,6 +5718,22 @@ export class DataIntersightIamLdapPolicyTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5782,7 +5822,7 @@ export class DataIntersightIamLdapPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamLdapPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5790,19 +5830,19 @@ export interface DataIntersightIamLdapPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5815,7 +5855,7 @@ export interface DataIntersightIamLdapPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6047,7 +6087,7 @@ export class DataIntersightIamLdapPolicyVersionContextInterestedMosList extends 
 }
 export interface DataIntersightIamLdapPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6055,19 +6095,19 @@ export interface DataIntersightIamLdapPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#moid DataIntersightIamLdapPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6080,7 +6120,7 @@ export interface DataIntersightIamLdapPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#selector DataIntersightIamLdapPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6280,7 +6320,7 @@ export class DataIntersightIamLdapPolicyVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightIamLdapPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#additional_properties DataIntersightIamLdapPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6288,32 +6328,32 @@ export interface DataIntersightIamLdapPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#class_id DataIntersightIamLdapPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#marked_for_deletion DataIntersightIamLdapPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#marked_for_deletion DataIntersightIamLdapPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#nr_version DataIntersightIamLdapPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#nr_version DataIntersightIamLdapPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#object_type DataIntersightIamLdapPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#timestamp DataIntersightIamLdapPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#timestamp DataIntersightIamLdapPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6324,19 +6364,19 @@ export interface DataIntersightIamLdapPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#version_type DataIntersightIamLdapPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#version_type DataIntersightIamLdapPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#interested_mos DataIntersightIamLdapPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#interested_mos DataIntersightIamLdapPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamLdapPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#ref_mo DataIntersightIamLdapPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#ref_mo DataIntersightIamLdapPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightIamLdapPolicyVersionContextRefMo;
 }
@@ -6652,7 +6692,7 @@ export class DataIntersightIamLdapPolicyVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy intersight_iam_ldap_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy intersight_iam_ldap_policy}
 */
 export class DataIntersightIamLdapPolicy extends cdktf.TerraformDataSource {
 
@@ -6668,7 +6708,7 @@ export class DataIntersightIamLdapPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamLdapPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamLdapPolicy to import
-  * @param importFromId The id of the existing DataIntersightIamLdapPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamLdapPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamLdapPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6680,7 +6720,7 @@ export class DataIntersightIamLdapPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/iam_ldap_policy intersight_iam_ldap_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_ldap_policy intersight_iam_ldap_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6691,8 +6731,8 @@ export class DataIntersightIamLdapPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_ldap_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

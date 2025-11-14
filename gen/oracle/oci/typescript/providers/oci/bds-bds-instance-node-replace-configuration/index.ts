@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsInstanceNodeReplaceConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#bds_instance_id BdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#bds_instance_id BdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}
   */
   readonly bdsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#cluster_admin_password BdsBdsInstanceNodeReplaceConfiguration#cluster_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#cluster_admin_password BdsBdsInstanceNodeReplaceConfiguration#cluster_admin_password}
   */
   readonly clusterAdminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#display_name BdsBdsInstanceNodeReplaceConfiguration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#display_name BdsBdsInstanceNodeReplaceConfiguration#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#duration_in_minutes BdsBdsInstanceNodeReplaceConfiguration#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#duration_in_minutes BdsBdsInstanceNodeReplaceConfiguration#duration_in_minutes}
   */
   readonly durationInMinutes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#id BdsBdsInstanceNodeReplaceConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#id BdsBdsInstanceNodeReplaceConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#metric_type BdsBdsInstanceNodeReplaceConfiguration#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#metric_type BdsBdsInstanceNodeReplaceConfiguration#metric_type}
   */
   readonly metricType: string;
   /**
   * level_type_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#level_type_details BdsBdsInstanceNodeReplaceConfiguration#level_type_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#level_type_details BdsBdsInstanceNodeReplaceConfiguration#level_type_details}
   */
   readonly levelTypeDetails: BdsBdsInstanceNodeReplaceConfigurationLevelTypeDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#timeouts BdsBdsInstanceNodeReplaceConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#timeouts BdsBdsInstanceNodeReplaceConfiguration#timeouts}
   */
   readonly timeouts?: BdsBdsInstanceNodeReplaceConfigurationTimeouts;
 }
 export interface BdsBdsInstanceNodeReplaceConfigurationLevelTypeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#level_type BdsBdsInstanceNodeReplaceConfiguration#level_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#level_type BdsBdsInstanceNodeReplaceConfiguration#level_type}
   */
   readonly levelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#node_host_name BdsBdsInstanceNodeReplaceConfiguration#node_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#node_host_name BdsBdsInstanceNodeReplaceConfiguration#node_host_name}
   */
   readonly nodeHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#node_type BdsBdsInstanceNodeReplaceConfiguration#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#node_type BdsBdsInstanceNodeReplaceConfiguration#node_type}
   */
   readonly nodeType?: string;
 }
@@ -196,15 +196,15 @@ export class BdsBdsInstanceNodeReplaceConfigurationLevelTypeDetailsOutputReferen
 }
 export interface BdsBdsInstanceNodeReplaceConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#create BdsBdsInstanceNodeReplaceConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#create BdsBdsInstanceNodeReplaceConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#delete BdsBdsInstanceNodeReplaceConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#delete BdsBdsInstanceNodeReplaceConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#update BdsBdsInstanceNodeReplaceConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#update BdsBdsInstanceNodeReplaceConfiguration#update}
   */
   readonly update?: string;
 }
@@ -356,7 +356,7 @@ export class BdsBdsInstanceNodeReplaceConfigurationTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration oci_bds_bds_instance_node_replace_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration oci_bds_bds_instance_node_replace_configuration}
 */
 export class BdsBdsInstanceNodeReplaceConfiguration extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class BdsBdsInstanceNodeReplaceConfiguration extends cdktf.TerraformResou
   * Generates CDKTF code for importing a BdsBdsInstanceNodeReplaceConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsInstanceNodeReplaceConfiguration to import
-  * @param importFromId The id of the existing BdsBdsInstanceNodeReplaceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsInstanceNodeReplaceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsInstanceNodeReplaceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class BdsBdsInstanceNodeReplaceConfiguration extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/bds_bds_instance_node_replace_configuration oci_bds_bds_instance_node_replace_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/bds_bds_instance_node_replace_configuration oci_bds_bds_instance_node_replace_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class BdsBdsInstanceNodeReplaceConfiguration extends cdktf.TerraformResou
       terraformResourceType: 'oci_bds_bds_instance_node_replace_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

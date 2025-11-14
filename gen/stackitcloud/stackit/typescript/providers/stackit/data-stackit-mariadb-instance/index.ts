@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitMariadbInstanceConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the MariaDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance#instance_id DataStackitMariadbInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance#instance_id DataStackitMariadbInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT Project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance#project_id DataStackitMariadbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance#project_id DataStackitMariadbInstance#project_id}
   */
   readonly projectId: string;
 }
@@ -111,7 +111,7 @@ export class DataStackitMariadbInstanceParametersOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance stackit_mariadb_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance stackit_mariadb_instance}
 */
 export class DataStackitMariadbInstance extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataStackitMariadbInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitMariadbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitMariadbInstance to import
-  * @param importFromId The id of the existing DataStackitMariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitMariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitMariadbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataStackitMariadbInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/data-sources/mariadb_instance stackit_mariadb_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/mariadb_instance stackit_mariadb_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataStackitMariadbInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_mariadb_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface ProtectionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#description ProtectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#description ProtectionRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#id ProtectionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#id ProtectionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#name ProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#name ProtectionRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#start_time ProtectionRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#start_time ProtectionRule#start_time}
   */
   readonly startTime?: string;
   /**
   * availability_zone_connectivity_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#availability_zone_connectivity_list ProtectionRule#availability_zone_connectivity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#availability_zone_connectivity_list ProtectionRule#availability_zone_connectivity_list}
   */
   readonly availabilityZoneConnectivityList: ProtectionRuleAvailabilityZoneConnectivityListStruct[] | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#categories ProtectionRule#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#categories ProtectionRule#categories}
   */
   readonly categories?: ProtectionRuleCategories[] | cdktf.IResolvable;
   /**
   * category_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#category_filter ProtectionRule#category_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#category_filter ProtectionRule#category_filter}
   */
   readonly categoryFilter?: ProtectionRuleCategoryFilter;
   /**
   * ordered_availability_zone_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#ordered_availability_zone_list ProtectionRule#ordered_availability_zone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#ordered_availability_zone_list ProtectionRule#ordered_availability_zone_list}
   */
   readonly orderedAvailabilityZoneList: ProtectionRuleOrderedAvailabilityZoneListStruct[] | cdktf.IResolvable;
   /**
   * owner_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#owner_reference ProtectionRule#owner_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#owner_reference ProtectionRule#owner_reference}
   */
   readonly ownerReference?: ProtectionRuleOwnerReference;
   /**
   * project_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#project_reference ProtectionRule#project_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#project_reference ProtectionRule#project_reference}
   */
   readonly projectReference?: ProtectionRuleProjectReference;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#timeouts ProtectionRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#timeouts ProtectionRule#timeouts}
   */
   readonly timeouts?: ProtectionRuleTimeouts;
 }
 export interface ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListLocalSnapshotRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#num_snapshots ProtectionRule#num_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#num_snapshots ProtectionRule#num_snapshots}
   */
   readonly numSnapshots?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#rollup_retention_policy_multiple ProtectionRule#rollup_retention_policy_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#rollup_retention_policy_multiple ProtectionRule#rollup_retention_policy_multiple}
   */
   readonly rollupRetentionPolicyMultiple?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#rollup_retention_policy_snapshot_interval_type ProtectionRule#rollup_retention_policy_snapshot_interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#rollup_retention_policy_snapshot_interval_type ProtectionRule#rollup_retention_policy_snapshot_interval_type}
   */
   readonly rollupRetentionPolicySnapshotIntervalType?: string;
 }
@@ -221,15 +221,15 @@ export class ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListL
 }
 export interface ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListRemoteSnapshotRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#num_snapshots ProtectionRule#num_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#num_snapshots ProtectionRule#num_snapshots}
   */
   readonly numSnapshots?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#rollup_retention_policy_multiple ProtectionRule#rollup_retention_policy_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#rollup_retention_policy_multiple ProtectionRule#rollup_retention_policy_multiple}
   */
   readonly rollupRetentionPolicyMultiple?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#rollup_retention_policy_snapshot_interval_type ProtectionRule#rollup_retention_policy_snapshot_interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#rollup_retention_policy_snapshot_interval_type ProtectionRule#rollup_retention_policy_snapshot_interval_type}
   */
   readonly rollupRetentionPolicySnapshotIntervalType?: string;
 }
@@ -371,27 +371,27 @@ export class ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListR
 }
 export interface ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#auto_suspend_timeout_secs ProtectionRule#auto_suspend_timeout_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#auto_suspend_timeout_secs ProtectionRule#auto_suspend_timeout_secs}
   */
   readonly autoSuspendTimeoutSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#recovery_point_objective_secs ProtectionRule#recovery_point_objective_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#recovery_point_objective_secs ProtectionRule#recovery_point_objective_secs}
   */
   readonly recoveryPointObjectiveSecs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#snapshot_type ProtectionRule#snapshot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#snapshot_type ProtectionRule#snapshot_type}
   */
   readonly snapshotType?: string;
   /**
   * local_snapshot_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#local_snapshot_retention_policy ProtectionRule#local_snapshot_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#local_snapshot_retention_policy ProtectionRule#local_snapshot_retention_policy}
   */
   readonly localSnapshotRetentionPolicy?: ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListLocalSnapshotRetentionPolicy;
   /**
   * remote_snapshot_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#remote_snapshot_retention_policy ProtectionRule#remote_snapshot_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#remote_snapshot_retention_policy ProtectionRule#remote_snapshot_retention_policy}
   */
   readonly remoteSnapshotRetentionPolicy?: ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListRemoteSnapshotRetentionPolicy;
 }
@@ -620,17 +620,17 @@ export class ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListS
 }
 export interface ProtectionRuleAvailabilityZoneConnectivityListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#destination_availability_zone_index ProtectionRule#destination_availability_zone_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#destination_availability_zone_index ProtectionRule#destination_availability_zone_index}
   */
   readonly destinationAvailabilityZoneIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#source_availability_zone_index ProtectionRule#source_availability_zone_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#source_availability_zone_index ProtectionRule#source_availability_zone_index}
   */
   readonly sourceAvailabilityZoneIndex?: number;
   /**
   * snapshot_schedule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#snapshot_schedule_list ProtectionRule#snapshot_schedule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#snapshot_schedule_list ProtectionRule#snapshot_schedule_list}
   */
   readonly snapshotScheduleList?: ProtectionRuleAvailabilityZoneConnectivityListSnapshotScheduleListStruct[] | cdktf.IResolvable;
 }
@@ -804,11 +804,11 @@ export class ProtectionRuleAvailabilityZoneConnectivityListStructList extends cd
 }
 export interface ProtectionRuleCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#name ProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#name ProtectionRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#value ProtectionRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#value ProtectionRule#value}
   */
   readonly value?: string;
 }
@@ -953,11 +953,11 @@ export class ProtectionRuleCategoriesList extends cdktf.ComplexList {
 }
 export interface ProtectionRuleCategoryFilterParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#name ProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#name ProtectionRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#values ProtectionRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#values ProtectionRule#values}
   */
   readonly values: string[];
 }
@@ -1096,17 +1096,17 @@ export class ProtectionRuleCategoryFilterParamsList extends cdktf.ComplexList {
 }
 export interface ProtectionRuleCategoryFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#kind_list ProtectionRule#kind_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#kind_list ProtectionRule#kind_list}
   */
   readonly kindList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#type ProtectionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#type ProtectionRule#type}
   */
   readonly type?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#params ProtectionRule#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#params ProtectionRule#params}
   */
   readonly params?: ProtectionRuleCategoryFilterParams[] | cdktf.IResolvable;
 }
@@ -1248,11 +1248,11 @@ export class ProtectionRuleCategoryFilterOutputReference extends cdktf.ComplexOb
 }
 export interface ProtectionRuleOrderedAvailabilityZoneListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#availability_zone_url ProtectionRule#availability_zone_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#availability_zone_url ProtectionRule#availability_zone_url}
   */
   readonly availabilityZoneUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#cluster_uuid ProtectionRule#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#cluster_uuid ProtectionRule#cluster_uuid}
   */
   readonly clusterUuid?: string;
 }
@@ -1397,15 +1397,15 @@ export class ProtectionRuleOrderedAvailabilityZoneListStructList extends cdktf.C
 }
 export interface ProtectionRuleOwnerReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#kind ProtectionRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#kind ProtectionRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#name ProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#name ProtectionRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#uuid ProtectionRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#uuid ProtectionRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -1547,15 +1547,15 @@ export class ProtectionRuleOwnerReferenceOutputReference extends cdktf.ComplexOb
 }
 export interface ProtectionRuleProjectReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#kind ProtectionRule#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#kind ProtectionRule#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#name ProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#name ProtectionRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#uuid ProtectionRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#uuid ProtectionRule#uuid}
   */
   readonly uuid?: string;
 }
@@ -1697,15 +1697,15 @@ export class ProtectionRuleProjectReferenceOutputReference extends cdktf.Complex
 }
 export interface ProtectionRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#create ProtectionRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#create ProtectionRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#delete ProtectionRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#delete ProtectionRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#update ProtectionRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#update ProtectionRule#update}
   */
   readonly update?: string;
 }
@@ -1857,7 +1857,7 @@ export class ProtectionRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule nutanix_protection_rule}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule nutanix_protection_rule}
 */
 export class ProtectionRule extends cdktf.TerraformResource {
 
@@ -1873,7 +1873,7 @@ export class ProtectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionRule to import
-  * @param importFromId The id of the existing ProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1885,7 +1885,7 @@ export class ProtectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/protection_rule nutanix_protection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/protection_rule nutanix_protection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1896,8 +1896,8 @@ export class ProtectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_protection_rule',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

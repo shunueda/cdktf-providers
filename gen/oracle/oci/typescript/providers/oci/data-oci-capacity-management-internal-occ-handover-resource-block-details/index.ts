@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#host_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#host_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#occ_handover_resource_block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#occ_handover_resource_block_id}
   */
   readonly occHandoverResourceBlockId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#filter DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#filter DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#filter}
   */
   readonly filter?: DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilter[] | cdktf.IResolvable;
 }
@@ -188,15 +188,15 @@ export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsOcc
 }
 export interface DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#name DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#name DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#regex DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#regex DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#values DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#values DataOciCapacityManagementInternalOccHandoverResourceBlockDetails#values}
   */
   readonly values: string[];
 }
@@ -364,7 +364,7 @@ export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetailsFil
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details oci_capacity_management_internal_occ_handover_resource_block_details}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details oci_capacity_management_internal_occ_handover_resource_block_details}
 */
 export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetails extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetails ex
   * Generates CDKTF code for importing a DataOciCapacityManagementInternalOccHandoverResourceBlockDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCapacityManagementInternalOccHandoverResourceBlockDetails to import
-  * @param importFromId The id of the existing DataOciCapacityManagementInternalOccHandoverResourceBlockDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCapacityManagementInternalOccHandoverResourceBlockDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCapacityManagementInternalOccHandoverResourceBlockDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetails ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details oci_capacity_management_internal_occ_handover_resource_block_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/capacity_management_internal_occ_handover_resource_block_details oci_capacity_management_internal_occ_handover_resource_block_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataOciCapacityManagementInternalOccHandoverResourceBlockDetails ex
       terraformResourceType: 'oci_capacity_management_internal_occ_handover_resource_block_details',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

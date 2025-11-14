@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeCompareUserAssessmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#comparison_user_assessment_id DataSafeCompareUserAssessment#comparison_user_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#comparison_user_assessment_id DataSafeCompareUserAssessment#comparison_user_assessment_id}
   */
   readonly comparisonUserAssessmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#id DataSafeCompareUserAssessment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#id DataSafeCompareUserAssessment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#user_assessment_id DataSafeCompareUserAssessment#user_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#user_assessment_id DataSafeCompareUserAssessment#user_assessment_id}
   */
   readonly userAssessmentId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#timeouts DataSafeCompareUserAssessment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#timeouts DataSafeCompareUserAssessment#timeouts}
   */
   readonly timeouts?: DataSafeCompareUserAssessmentTimeouts;
 }
 export interface DataSafeCompareUserAssessmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#create DataSafeCompareUserAssessment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#create DataSafeCompareUserAssessment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#delete DataSafeCompareUserAssessment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#delete DataSafeCompareUserAssessment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#update DataSafeCompareUserAssessment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#update DataSafeCompareUserAssessment#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class DataSafeCompareUserAssessmentTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment oci_data_safe_compare_user_assessment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment oci_data_safe_compare_user_assessment}
 */
 export class DataSafeCompareUserAssessment extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class DataSafeCompareUserAssessment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeCompareUserAssessment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeCompareUserAssessment to import
-  * @param importFromId The id of the existing DataSafeCompareUserAssessment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeCompareUserAssessment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeCompareUserAssessment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataSafeCompareUserAssessment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_compare_user_assessment oci_data_safe_compare_user_assessment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_compare_user_assessment oci_data_safe_compare_user_assessment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataSafeCompareUserAssessment extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_compare_user_assessment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

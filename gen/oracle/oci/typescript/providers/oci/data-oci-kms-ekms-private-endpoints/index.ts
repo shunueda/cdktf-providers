@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciKmsEkmsPrivateEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#compartment_id DataOciKmsEkmsPrivateEndpoints#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#compartment_id DataOciKmsEkmsPrivateEndpoints#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#id DataOciKmsEkmsPrivateEndpoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#id DataOciKmsEkmsPrivateEndpoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciKmsEkmsPrivateEndpointsConfig extends cdktf.TerraformMet
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#filter DataOciKmsEkmsPrivateEndpoints#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#filter DataOciKmsEkmsPrivateEndpoints#filter}
   */
   readonly filter?: DataOciKmsEkmsPrivateEndpointsFilter[] | cdktf.IResolvable;
 }
@@ -169,15 +169,15 @@ export class DataOciKmsEkmsPrivateEndpointsEkmsPrivateEndpointsList extends cdkt
 }
 export interface DataOciKmsEkmsPrivateEndpointsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#name DataOciKmsEkmsPrivateEndpoints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#name DataOciKmsEkmsPrivateEndpoints#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#regex DataOciKmsEkmsPrivateEndpoints#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#regex DataOciKmsEkmsPrivateEndpoints#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#values DataOciKmsEkmsPrivateEndpoints#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#values DataOciKmsEkmsPrivateEndpoints#values}
   */
   readonly values: string[];
 }
@@ -345,7 +345,7 @@ export class DataOciKmsEkmsPrivateEndpointsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints oci_kms_ekms_private_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints oci_kms_ekms_private_endpoints}
 */
 export class DataOciKmsEkmsPrivateEndpoints extends cdktf.TerraformDataSource {
 
@@ -361,7 +361,7 @@ export class DataOciKmsEkmsPrivateEndpoints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciKmsEkmsPrivateEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciKmsEkmsPrivateEndpoints to import
-  * @param importFromId The id of the existing DataOciKmsEkmsPrivateEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciKmsEkmsPrivateEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciKmsEkmsPrivateEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class DataOciKmsEkmsPrivateEndpoints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/kms_ekms_private_endpoints oci_kms_ekms_private_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/kms_ekms_private_endpoints oci_kms_ekms_private_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class DataOciKmsEkmsPrivateEndpoints extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_kms_ekms_private_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface CustomerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address map with fields related to the address: line1, line2, city, state, postal_code and country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#address Customer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#address Customer#address}
   */
   readonly address?: { [key: string]: string };
   /**
   * An integer amount in cents that represents the customer’s current balance, which affect the customer’s future invoices. A negative amount represents a credit that decreases the amount due on an invoice; a positive amount increases the amount due on an invoice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#balance Customer#balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#balance Customer#balance}
   */
   readonly balance?: number;
   /**
   * An arbitrary string that you can attach to a customer object. It is displayed alongside the customer in the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#description Customer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#description Customer#description}
   */
   readonly description?: string;
   /**
   * Customer’s email address. It’s displayed alongside the customer in your dashboard and can be useful for searching and tracking. This may be up to 512 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#email Customer#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#email Customer#email}
   */
   readonly email?: string;
   /**
   * The prefix for the customer used to generate unique invoice numbers. Must be 3–12 uppercase letters or numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#invoice_prefix Customer#invoice_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#invoice_prefix Customer#invoice_prefix}
   */
   readonly invoicePrefix?: string;
   /**
   * Default invoice settings for this customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#invoice_settings Customer#invoice_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#invoice_settings Customer#invoice_settings}
   */
   readonly invoiceSettings?: { [key: string]: string };
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#metadata Customer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#metadata Customer#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The customer’s full name or business name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#name Customer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#name Customer#name}
   */
   readonly name?: string;
   /**
   * The sequence to be used on the customer’s next invoice. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#next_invoice_sequence Customer#next_invoice_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#next_invoice_sequence Customer#next_invoice_sequence}
   */
   readonly nextInvoiceSequence?: number;
   /**
   * The customer’s phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#phone Customer#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#phone Customer#phone}
   */
   readonly phone?: string;
   /**
   * Customer’s preferred languages, ordered by preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#preferred_locales Customer#preferred_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#preferred_locales Customer#preferred_locales}
   */
   readonly preferredLocales?: string[];
   /**
   * Shipping map with fields like name, phone and fields related to the address: line1, line2, city, state, postal_code and country. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#shipping Customer#shipping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#shipping Customer#shipping}
   */
   readonly shipping?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer stripe_customer}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer stripe_customer}
 */
 export class Customer extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class Customer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Customer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Customer to import
-  * @param importFromId The id of the existing Customer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Customer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Customer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class Customer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/customer stripe_customer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/customer stripe_customer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class Customer extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_customer',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

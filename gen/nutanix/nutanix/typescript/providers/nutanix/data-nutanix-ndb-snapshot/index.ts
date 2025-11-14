@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixNdbSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#snapshot_id DataNutanixNdbSnapshot#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#snapshot_id DataNutanixNdbSnapshot#snapshot_id}
   */
   readonly snapshotId: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#filters DataNutanixNdbSnapshot#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#filters DataNutanixNdbSnapshot#filters}
   */
   readonly filters?: DataNutanixNdbSnapshotFilters[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#tags DataNutanixNdbSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#tags DataNutanixNdbSnapshot#tags}
   */
   readonly tags?: DataNutanixNdbSnapshotTags[] | cdktf.IResolvable;
 }
@@ -585,11 +585,11 @@ export class DataNutanixNdbSnapshotPropertiesList extends cdktf.ComplexList {
 }
 export interface DataNutanixNdbSnapshotFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#load_replicated_child_snapshots DataNutanixNdbSnapshot#load_replicated_child_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#load_replicated_child_snapshots DataNutanixNdbSnapshot#load_replicated_child_snapshots}
   */
   readonly loadReplicatedChildSnapshots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#timezone DataNutanixNdbSnapshot#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#timezone DataNutanixNdbSnapshot#timezone}
   */
   readonly timezone?: string;
 }
@@ -734,15 +734,15 @@ export class DataNutanixNdbSnapshotFiltersList extends cdktf.ComplexList {
 }
 export interface DataNutanixNdbSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#tag_id DataNutanixNdbSnapshot#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#tag_id DataNutanixNdbSnapshot#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#tag_name DataNutanixNdbSnapshot#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#tag_name DataNutanixNdbSnapshot#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#value DataNutanixNdbSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#value DataNutanixNdbSnapshot#value}
   */
   readonly value?: string;
 }
@@ -926,7 +926,7 @@ export class DataNutanixNdbSnapshotTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot nutanix_ndb_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot nutanix_ndb_snapshot}
 */
 export class DataNutanixNdbSnapshot extends cdktf.TerraformDataSource {
 
@@ -942,7 +942,7 @@ export class DataNutanixNdbSnapshot extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixNdbSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixNdbSnapshot to import
-  * @param importFromId The id of the existing DataNutanixNdbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixNdbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixNdbSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -954,7 +954,7 @@ export class DataNutanixNdbSnapshot extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_snapshot nutanix_ndb_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_snapshot nutanix_ndb_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -965,8 +965,8 @@ export class DataNutanixNdbSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_ndb_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

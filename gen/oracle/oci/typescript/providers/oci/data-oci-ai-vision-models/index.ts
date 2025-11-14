@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciAiVisionModelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#compartment_id DataOciAiVisionModels#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#compartment_id DataOciAiVisionModels#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#display_name DataOciAiVisionModels#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#display_name DataOciAiVisionModels#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#id DataOciAiVisionModels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#id DataOciAiVisionModels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#project_id DataOciAiVisionModels#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#project_id DataOciAiVisionModels#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#state DataOciAiVisionModels#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#state DataOciAiVisionModels#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#filter DataOciAiVisionModels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#filter DataOciAiVisionModels#filter}
   */
   readonly filter?: DataOciAiVisionModelsFilter[] | cdktf.IResolvable;
 }
@@ -611,15 +611,15 @@ export class DataOciAiVisionModelsModelCollectionList extends cdktf.ComplexList 
 }
 export interface DataOciAiVisionModelsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#name DataOciAiVisionModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#name DataOciAiVisionModels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#regex DataOciAiVisionModels#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#regex DataOciAiVisionModels#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#values DataOciAiVisionModels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#values DataOciAiVisionModels#values}
   */
   readonly values: string[];
 }
@@ -787,7 +787,7 @@ export class DataOciAiVisionModelsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models oci_ai_vision_models}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models oci_ai_vision_models}
 */
 export class DataOciAiVisionModels extends cdktf.TerraformDataSource {
 
@@ -803,7 +803,7 @@ export class DataOciAiVisionModels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciAiVisionModels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciAiVisionModels to import
-  * @param importFromId The id of the existing DataOciAiVisionModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciAiVisionModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciAiVisionModels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -815,7 +815,7 @@ export class DataOciAiVisionModels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/ai_vision_models oci_ai_vision_models} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/ai_vision_models oci_ai_vision_models} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -826,8 +826,8 @@ export class DataOciAiVisionModels extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ai_vision_models',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

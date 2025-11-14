@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExternalDatabaseConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#connector_agent_id DatabaseExternalDatabaseConnector#connector_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#connector_agent_id DatabaseExternalDatabaseConnector#connector_agent_id}
   */
   readonly connectorAgentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#connector_type DatabaseExternalDatabaseConnector#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#connector_type DatabaseExternalDatabaseConnector#connector_type}
   */
   readonly connectorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#defined_tags DatabaseExternalDatabaseConnector#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#defined_tags DatabaseExternalDatabaseConnector#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#display_name DatabaseExternalDatabaseConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#display_name DatabaseExternalDatabaseConnector#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#external_database_id DatabaseExternalDatabaseConnector#external_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#external_database_id DatabaseExternalDatabaseConnector#external_database_id}
   */
   readonly externalDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#freeform_tags DatabaseExternalDatabaseConnector#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#freeform_tags DatabaseExternalDatabaseConnector#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#id DatabaseExternalDatabaseConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#id DatabaseExternalDatabaseConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,45 +41,45 @@ export interface DatabaseExternalDatabaseConnectorConfig extends cdktf.Terraform
   /**
   * connection_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#connection_credentials DatabaseExternalDatabaseConnector#connection_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#connection_credentials DatabaseExternalDatabaseConnector#connection_credentials}
   */
   readonly connectionCredentials: DatabaseExternalDatabaseConnectorConnectionCredentials;
   /**
   * connection_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#connection_string DatabaseExternalDatabaseConnector#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#connection_string DatabaseExternalDatabaseConnector#connection_string}
   */
   readonly connectionString: DatabaseExternalDatabaseConnectorConnectionString;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#timeouts DatabaseExternalDatabaseConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#timeouts DatabaseExternalDatabaseConnector#timeouts}
   */
   readonly timeouts?: DatabaseExternalDatabaseConnectorTimeouts;
 }
 export interface DatabaseExternalDatabaseConnectorConnectionCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#credential_name DatabaseExternalDatabaseConnector#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#credential_name DatabaseExternalDatabaseConnector#credential_name}
   */
   readonly credentialName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#credential_type DatabaseExternalDatabaseConnector#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#credential_type DatabaseExternalDatabaseConnector#credential_type}
   */
   readonly credentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#password DatabaseExternalDatabaseConnector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#password DatabaseExternalDatabaseConnector#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#role DatabaseExternalDatabaseConnector#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#role DatabaseExternalDatabaseConnector#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#ssl_secret_id DatabaseExternalDatabaseConnector#ssl_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#ssl_secret_id DatabaseExternalDatabaseConnector#ssl_secret_id}
   */
   readonly sslSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#username DatabaseExternalDatabaseConnector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#username DatabaseExternalDatabaseConnector#username}
   */
   readonly username?: string;
 }
@@ -308,19 +308,19 @@ export class DatabaseExternalDatabaseConnectorConnectionCredentialsOutputReferen
 }
 export interface DatabaseExternalDatabaseConnectorConnectionString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}
   */
   readonly service: string;
 }
@@ -479,15 +479,15 @@ export class DatabaseExternalDatabaseConnectorConnectionStringOutputReference ex
 }
 export interface DatabaseExternalDatabaseConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#create DatabaseExternalDatabaseConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#create DatabaseExternalDatabaseConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#delete DatabaseExternalDatabaseConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#delete DatabaseExternalDatabaseConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#update DatabaseExternalDatabaseConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#update DatabaseExternalDatabaseConnector#update}
   */
   readonly update?: string;
 }
@@ -639,7 +639,7 @@ export class DatabaseExternalDatabaseConnectorTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector oci_database_external_database_connector}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector oci_database_external_database_connector}
 */
 export class DatabaseExternalDatabaseConnector extends cdktf.TerraformResource {
 
@@ -655,7 +655,7 @@ export class DatabaseExternalDatabaseConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseExternalDatabaseConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExternalDatabaseConnector to import
-  * @param importFromId The id of the existing DatabaseExternalDatabaseConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExternalDatabaseConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExternalDatabaseConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -667,7 +667,7 @@ export class DatabaseExternalDatabaseConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_external_database_connector oci_database_external_database_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_external_database_connector oci_database_external_database_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -678,8 +678,8 @@ export class DatabaseExternalDatabaseConnector extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_external_database_connector',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

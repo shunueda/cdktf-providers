@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataIntersightEtherPortChannelConfig extends cdktf.TerraformMet
   /**
   * Access VLANs for this port-channel, on this FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#access_vlan DataIntersightEtherPortChannel#access_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#access_vlan DataIntersightEtherPortChannel#access_vlan}
   */
   readonly accessVlan?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#account_moid DataIntersightEtherPortChannel#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#account_moid DataIntersightEtherPortChannel#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Administratively configured state (enabled/disabled) for this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#admin_state DataIntersightEtherPortChannel#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#admin_state DataIntersightEtherPortChannel#admin_state}
   */
   readonly adminState?: string;
   /**
   * Allowed VLANs on this port-channel, on this FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#allowed_vlans DataIntersightEtherPortChannel#allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#allowed_vlans DataIntersightEtherPortChannel#allowed_vlans}
   */
   readonly allowedVlans?: string;
   /**
   * Bandwidth of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#band_width DataIntersightEtherPortChannel#band_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#band_width DataIntersightEtherPortChannel#band_width}
   */
   readonly bandWidth?: string;
   /**
@@ -46,41 +46,41 @@ export interface DataIntersightEtherPortChannelConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#create_time DataIntersightEtherPortChannel#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#create_time DataIntersightEtherPortChannel#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#description DataIntersightEtherPortChannel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#description DataIntersightEtherPortChannel#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#device_mo_id DataIntersightEtherPortChannel#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#device_mo_id DataIntersightEtherPortChannel#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#dn DataIntersightEtherPortChannel#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#dn DataIntersightEtherPortChannel#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#domain_group_moid DataIntersightEtherPortChannel#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#domain_group_moid DataIntersightEtherPortChannel#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#id DataIntersightEtherPortChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#id DataIntersightEtherPortChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,181 +89,181 @@ export interface DataIntersightEtherPortChannelConfig extends cdktf.TerraformMet
   /**
   * IP address of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ip_address DataIntersightEtherPortChannel#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ip_address DataIntersightEtherPortChannel#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IP address mask of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ip_address_mask DataIntersightEtherPortChannel#ip_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ip_address_mask DataIntersightEtherPortChannel#ip_address_mask}
   */
   readonly ipAddressMask?: number;
   /**
   * IPv6 subnet in CIDR notation of this port-channel. Ex. 2000::/8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ipv6_subnet_cidr DataIntersightEtherPortChannel#ipv6_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ipv6_subnet_cidr DataIntersightEtherPortChannel#ipv6_subnet_cidr}
   */
   readonly ipv6SubnetCidr?: string;
   /**
   * MAC address of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#mac_address DataIntersightEtherPortChannel#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#mac_address DataIntersightEtherPortChannel#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#mod_time DataIntersightEtherPortChannel#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#mod_time DataIntersightEtherPortChannel#mod_time}
   */
   readonly modTime?: string;
   /**
   * Operating mode of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#mode DataIntersightEtherPortChannel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#mode DataIntersightEtherPortChannel#mode}
   */
   readonly mode?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * Maximum transmission unit of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#mtu DataIntersightEtherPortChannel#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#mtu DataIntersightEtherPortChannel#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#name DataIntersightEtherPortChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#name DataIntersightEtherPortChannel#name}
   */
   readonly name?: string;
   /**
   * Native VLAN for this port-channel, on this FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#native_vlan DataIntersightEtherPortChannel#native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#native_vlan DataIntersightEtherPortChannel#native_vlan}
   */
   readonly nativeVlan?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational speed of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#oper_speed DataIntersightEtherPortChannel#oper_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#oper_speed DataIntersightEtherPortChannel#oper_speed}
   */
   readonly operSpeed?: string;
   /**
   * Operational state of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#oper_state DataIntersightEtherPortChannel#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#oper_state DataIntersightEtherPortChannel#oper_state}
   */
   readonly operState?: string;
   /**
   * Reason for this port-channel's Operational state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#oper_state_qual DataIntersightEtherPortChannel#oper_state_qual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#oper_state_qual DataIntersightEtherPortChannel#oper_state_qual}
   */
   readonly operStateQual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#owners DataIntersightEtherPortChannel#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#owners DataIntersightEtherPortChannel#owners}
   */
   readonly owners?: string[];
   /**
   * Unique identifier for this port-channel on the FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#port_channel_id DataIntersightEtherPortChannel#port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#port_channel_id DataIntersightEtherPortChannel#port_channel_id}
   */
   readonly portChannelId?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#rn DataIntersightEtherPortChannel#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#rn DataIntersightEtherPortChannel#rn}
   */
   readonly rn?: string;
   /**
   * This port-channel's configured role (uplink, server, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#role DataIntersightEtherPortChannel#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#role DataIntersightEtherPortChannel#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#shared_scope DataIntersightEtherPortChannel#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#shared_scope DataIntersightEtherPortChannel#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Detailed status of this port-channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#status DataIntersightEtherPortChannel#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#status DataIntersightEtherPortChannel#status}
   */
   readonly status?: string;
   /**
   * Switch Identifier that is local to a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#switch_id DataIntersightEtherPortChannel#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#switch_id DataIntersightEtherPortChannel#switch_id}
   */
   readonly switchId?: string;
   /**
   * The user defined label assigned to the port channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#user_label DataIntersightEtherPortChannel#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#user_label DataIntersightEtherPortChannel#user_label}
   */
   readonly userLabel?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ancestors DataIntersightEtherPortChannel#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ancestors DataIntersightEtherPortChannel#ancestors}
   */
   readonly ancestors?: DataIntersightEtherPortChannelAncestors[] | cdktf.IResolvable;
   /**
   * equipment_switch_card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#equipment_switch_card DataIntersightEtherPortChannel#equipment_switch_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#equipment_switch_card DataIntersightEtherPortChannel#equipment_switch_card}
   */
   readonly equipmentSwitchCard?: DataIntersightEtherPortChannelEquipmentSwitchCard;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#network_element DataIntersightEtherPortChannel#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#network_element DataIntersightEtherPortChannel#network_element}
   */
   readonly networkElement?: DataIntersightEtherPortChannelNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#parent DataIntersightEtherPortChannel#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#parent DataIntersightEtherPortChannel#parent}
   */
   readonly parent?: DataIntersightEtherPortChannelParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#permission_resources DataIntersightEtherPortChannel#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#permission_resources DataIntersightEtherPortChannel#permission_resources}
   */
   readonly permissionResources?: DataIntersightEtherPortChannelPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#registered_device DataIntersightEtherPortChannel#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#registered_device DataIntersightEtherPortChannel#registered_device}
   */
   readonly registeredDevice?: DataIntersightEtherPortChannelRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#tags DataIntersightEtherPortChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#tags DataIntersightEtherPortChannel#tags}
   */
   readonly tags?: DataIntersightEtherPortChannelTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#version_context DataIntersightEtherPortChannel#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#version_context DataIntersightEtherPortChannel#version_context}
   */
   readonly versionContext?: DataIntersightEtherPortChannelVersionContext;
 }
@@ -1105,6 +1105,11 @@ export class DataIntersightEtherPortChannelResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1731,7 +1736,7 @@ export class DataIntersightEtherPortChannelResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightEtherPortChannelAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1739,19 +1744,19 @@ export interface DataIntersightEtherPortChannelAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1764,7 +1769,7 @@ export interface DataIntersightEtherPortChannelAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -1996,7 +2001,7 @@ export class DataIntersightEtherPortChannelAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightEtherPortChannelEquipmentSwitchCard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2004,19 +2009,19 @@ export interface DataIntersightEtherPortChannelEquipmentSwitchCard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2029,7 +2034,7 @@ export interface DataIntersightEtherPortChannelEquipmentSwitchCard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2229,7 +2234,7 @@ export class DataIntersightEtherPortChannelEquipmentSwitchCardOutputReference ex
 }
 export interface DataIntersightEtherPortChannelNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2237,19 +2242,19 @@ export interface DataIntersightEtherPortChannelNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2262,7 +2267,7 @@ export interface DataIntersightEtherPortChannelNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2462,7 +2467,7 @@ export class DataIntersightEtherPortChannelNetworkElementOutputReference extends
 }
 export interface DataIntersightEtherPortChannelParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2470,19 +2475,19 @@ export interface DataIntersightEtherPortChannelParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2495,7 +2500,7 @@ export interface DataIntersightEtherPortChannelParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2695,7 +2700,7 @@ export class DataIntersightEtherPortChannelParentOutputReference extends cdktf.C
 }
 export interface DataIntersightEtherPortChannelPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2703,19 +2708,19 @@ export interface DataIntersightEtherPortChannelPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2728,7 +2733,7 @@ export interface DataIntersightEtherPortChannelPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -2960,7 +2965,7 @@ export class DataIntersightEtherPortChannelPermissionResourcesList extends cdktf
 }
 export interface DataIntersightEtherPortChannelRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2968,19 +2973,19 @@ export interface DataIntersightEtherPortChannelRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2993,7 +2998,7 @@ export interface DataIntersightEtherPortChannelRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3193,7 +3198,7 @@ export class DataIntersightEtherPortChannelRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightEtherPortChannelTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3201,19 +3206,19 @@ export interface DataIntersightEtherPortChannelTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3226,7 +3231,7 @@ export interface DataIntersightEtherPortChannelTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3458,7 +3463,7 @@ export class DataIntersightEtherPortChannelTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightEtherPortChannelTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3466,19 +3471,19 @@ export interface DataIntersightEtherPortChannelTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3491,7 +3496,7 @@ export interface DataIntersightEtherPortChannelTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -3691,45 +3696,51 @@ export class DataIntersightEtherPortChannelTagsDefinitionOutputReference extends
 }
 export interface DataIntersightEtherPortChannelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#key DataIntersightEtherPortChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#key DataIntersightEtherPortChannel#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#propagated DataIntersightEtherPortChannel#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#propagated DataIntersightEtherPortChannel#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#sys_tag DataIntersightEtherPortChannel#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#type DataIntersightEtherPortChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#type DataIntersightEtherPortChannel#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#value DataIntersightEtherPortChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#value DataIntersightEtherPortChannel#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ancestor_definitions DataIntersightEtherPortChannel#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ancestor_definitions DataIntersightEtherPortChannel#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEtherPortChannelTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#definition DataIntersightEtherPortChannel#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#definition DataIntersightEtherPortChannel#definition}
   */
   readonly definition?: DataIntersightEtherPortChannelTagsDefinition;
 }
@@ -3743,6 +3754,7 @@ export function dataIntersightEtherPortChannelTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightEtherPortChannelTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3771,6 +3783,12 @@ export function dataIntersightEtherPortChannelTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3837,6 +3855,10 @@ export class DataIntersightEtherPortChannelTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3863,6 +3885,7 @@ export class DataIntersightEtherPortChannelTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3878,6 +3901,7 @@ export class DataIntersightEtherPortChannelTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3931,6 +3955,22 @@ export class DataIntersightEtherPortChannelTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4019,7 +4059,7 @@ export class DataIntersightEtherPortChannelTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightEtherPortChannelVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4027,19 +4067,19 @@ export interface DataIntersightEtherPortChannelVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4052,7 +4092,7 @@ export interface DataIntersightEtherPortChannelVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -4284,7 +4324,7 @@ export class DataIntersightEtherPortChannelVersionContextInterestedMosList exten
 }
 export interface DataIntersightEtherPortChannelVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4292,19 +4332,19 @@ export interface DataIntersightEtherPortChannelVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#moid DataIntersightEtherPortChannel#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4317,7 +4357,7 @@ export interface DataIntersightEtherPortChannelVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#selector DataIntersightEtherPortChannel#selector}
   */
   readonly selector?: string;
 }
@@ -4517,7 +4557,7 @@ export class DataIntersightEtherPortChannelVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightEtherPortChannelVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#additional_properties DataIntersightEtherPortChannel#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4525,32 +4565,32 @@ export interface DataIntersightEtherPortChannelVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#class_id DataIntersightEtherPortChannel#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#marked_for_deletion DataIntersightEtherPortChannel#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#marked_for_deletion DataIntersightEtherPortChannel#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#nr_version DataIntersightEtherPortChannel#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#nr_version DataIntersightEtherPortChannel#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#object_type DataIntersightEtherPortChannel#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#timestamp DataIntersightEtherPortChannel#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#timestamp DataIntersightEtherPortChannel#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4561,19 +4601,19 @@ export interface DataIntersightEtherPortChannelVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#version_type DataIntersightEtherPortChannel#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#version_type DataIntersightEtherPortChannel#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#interested_mos DataIntersightEtherPortChannel#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#interested_mos DataIntersightEtherPortChannel#interested_mos}
   */
   readonly interestedMos?: DataIntersightEtherPortChannelVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#ref_mo DataIntersightEtherPortChannel#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#ref_mo DataIntersightEtherPortChannel#ref_mo}
   */
   readonly refMo?: DataIntersightEtherPortChannelVersionContextRefMo;
 }
@@ -4889,7 +4929,7 @@ export class DataIntersightEtherPortChannelVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel intersight_ether_port_channel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel intersight_ether_port_channel}
 */
 export class DataIntersightEtherPortChannel extends cdktf.TerraformDataSource {
 
@@ -4905,7 +4945,7 @@ export class DataIntersightEtherPortChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightEtherPortChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEtherPortChannel to import
-  * @param importFromId The id of the existing DataIntersightEtherPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEtherPortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEtherPortChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4917,7 +4957,7 @@ export class DataIntersightEtherPortChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ether_port_channel intersight_ether_port_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_port_channel intersight_ether_port_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4928,8 +4968,8 @@ export class DataIntersightEtherPortChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ether_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

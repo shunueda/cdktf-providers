@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightApplianceUpgradeConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#account_moid DataIntersightApplianceUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#account_moid DataIntersightApplianceUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Indicates if the software upgrade is active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#active DataIntersightApplianceUpgrade#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#active DataIntersightApplianceUpgrade#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * True if all nodes in cluster are pingable, otherwise false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#all_nodes_pingable DataIntersightApplianceUpgrade#all_nodes_pingable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#all_nodes_pingable DataIntersightApplianceUpgrade#all_nodes_pingable}
   */
   readonly allNodesPingable?: boolean | cdktf.IResolvable;
   /**
   * Indicates that the request was automatically created by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#auto_created DataIntersightApplianceUpgrade#auto_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#auto_created DataIntersightApplianceUpgrade#auto_created}
   */
   readonly autoCreated?: boolean | cdktf.IResolvable;
   /**
@@ -40,53 +40,53 @@ export interface DataIntersightApplianceUpgradeConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#create_time DataIntersightApplianceUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#create_time DataIntersightApplianceUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the software upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#description DataIntersightApplianceUpgrade#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#description DataIntersightApplianceUpgrade#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#domain_group_moid DataIntersightApplianceUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#domain_group_moid DataIntersightApplianceUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Elapsed time in seconds during the software upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date of the software upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
   */
   readonly endTime?: string;
   /**
   * Error code for Intersight Appliance's software upgrade. In case of failure - this code will help decide if software upgrade can be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#error_code DataIntersightApplianceUpgrade#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#error_code DataIntersightApplianceUpgrade#error_code}
   */
   readonly errorCode?: number;
   /**
   * Software upgrade manifest's fingerprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#fingerprint DataIntersightApplianceUpgrade#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#fingerprint DataIntersightApplianceUpgrade#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#id DataIntersightApplianceUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#id DataIntersightApplianceUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,175 +95,175 @@ export interface DataIntersightApplianceUpgradeConfig extends cdktf.TerraformMet
   /**
   * Track if software upgrade is upgrading or rolling back.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#is_rolling_back DataIntersightApplianceUpgrade#is_rolling_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#is_rolling_back DataIntersightApplianceUpgrade#is_rolling_back}
   */
   readonly isRollingBack?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the upgrade is triggered by user or due to schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#is_user_triggered DataIntersightApplianceUpgrade#is_user_triggered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#is_user_triggered DataIntersightApplianceUpgrade#is_user_triggered}
   */
   readonly isUserTriggered?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#messages DataIntersightApplianceUpgrade#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#messages DataIntersightApplianceUpgrade#messages}
   */
   readonly messages?: string[];
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#mod_time DataIntersightApplianceUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#mod_time DataIntersightApplianceUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * Software upgrade manifest's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#nr_version DataIntersightApplianceUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#nr_version DataIntersightApplianceUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#owners DataIntersightApplianceUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#owners DataIntersightApplianceUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * The number of previous failed install attempts of the same upgrade version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#previous_install_attempts DataIntersightApplianceUpgrade#previous_install_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#previous_install_attempts DataIntersightApplianceUpgrade#previous_install_attempts}
   */
   readonly previousInstallAttempts?: number;
   /**
   * Track if rollback is needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#rollback_needed DataIntersightApplianceUpgrade#rollback_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#rollback_needed DataIntersightApplianceUpgrade#rollback_needed}
   */
   readonly rollbackNeeded?: boolean | cdktf.IResolvable;
   /**
   * Status of the Intersight Appliance's software rollback status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#rollback_status DataIntersightApplianceUpgrade#rollback_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#rollback_status DataIntersightApplianceUpgrade#rollback_status}
   */
   readonly rollbackStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#services DataIntersightApplianceUpgrade#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#services DataIntersightApplianceUpgrade#services}
   */
   readonly services?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#shared_scope DataIntersightApplianceUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#shared_scope DataIntersightApplianceUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start date of the software upgrade. UI can modify startTime to re-schedule an upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
   */
   readonly startTime?: string;
   /**
   * Status of the Intersight Appliance's software upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
   */
   readonly status?: string;
   /**
   * Total number of nodes this upgrade will run on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#total_nodes DataIntersightApplianceUpgrade#total_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#total_nodes DataIntersightApplianceUpgrade#total_nodes}
   */
   readonly totalNodes?: number;
   /**
   * TotalPhase represents the total number of the upgradePhases for one upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#total_phases DataIntersightApplianceUpgrade#total_phases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#total_phases DataIntersightApplianceUpgrade#total_phases}
   */
   readonly totalPhases?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#ui_packages DataIntersightApplianceUpgrade#ui_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#ui_packages DataIntersightApplianceUpgrade#ui_packages}
   */
   readonly uiPackages?: string[];
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#account DataIntersightApplianceUpgrade#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#account DataIntersightApplianceUpgrade#account}
   */
   readonly account?: DataIntersightApplianceUpgradeAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#ancestors DataIntersightApplianceUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#ancestors DataIntersightApplianceUpgrade#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceUpgradeAncestors[] | cdktf.IResolvable;
   /**
   * completed_phases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#completed_phases DataIntersightApplianceUpgrade#completed_phases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#completed_phases DataIntersightApplianceUpgrade#completed_phases}
   */
   readonly completedPhases?: DataIntersightApplianceUpgradeCompletedPhases[] | cdktf.IResolvable;
   /**
   * current_phase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_phase DataIntersightApplianceUpgrade#current_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_phase DataIntersightApplianceUpgrade#current_phase}
   */
   readonly currentPhase?: DataIntersightApplianceUpgradeCurrentPhase;
   /**
   * image_bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#image_bundle DataIntersightApplianceUpgrade#image_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#image_bundle DataIntersightApplianceUpgrade#image_bundle}
   */
   readonly imageBundle?: DataIntersightApplianceUpgradeImageBundle;
   /**
   * node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#node_info DataIntersightApplianceUpgrade#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#node_info DataIntersightApplianceUpgrade#node_info}
   */
   readonly nodeInfo?: DataIntersightApplianceUpgradeNodeInfo[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#parent DataIntersightApplianceUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#parent DataIntersightApplianceUpgrade#parent}
   */
   readonly parent?: DataIntersightApplianceUpgradeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#permission_resources DataIntersightApplianceUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#permission_resources DataIntersightApplianceUpgrade#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * requires block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#requires DataIntersightApplianceUpgrade#requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#requires DataIntersightApplianceUpgrade#requires}
   */
   readonly requires?: DataIntersightApplianceUpgradeRequires;
   /**
   * rollback_phases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#rollback_phases DataIntersightApplianceUpgrade#rollback_phases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#rollback_phases DataIntersightApplianceUpgrade#rollback_phases}
   */
   readonly rollbackPhases?: DataIntersightApplianceUpgradeRollbackPhases[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#tags DataIntersightApplianceUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#tags DataIntersightApplianceUpgrade#tags}
   */
   readonly tags?: DataIntersightApplianceUpgradeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#version_context DataIntersightApplianceUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#version_context DataIntersightApplianceUpgrade#version_context}
   */
   readonly versionContext?: DataIntersightApplianceUpgradeVersionContext;
 }
@@ -1635,6 +1635,11 @@ export class DataIntersightApplianceUpgradeResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2270,7 +2275,7 @@ export class DataIntersightApplianceUpgradeResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightApplianceUpgradeAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2278,19 +2283,19 @@ export interface DataIntersightApplianceUpgradeAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2303,7 +2308,7 @@ export interface DataIntersightApplianceUpgradeAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2503,7 +2508,7 @@ export class DataIntersightApplianceUpgradeAccountOutputReference extends cdktf.
 }
 export interface DataIntersightApplianceUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2511,19 +2516,19 @@ export interface DataIntersightApplianceUpgradeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2536,7 +2541,7 @@ export interface DataIntersightApplianceUpgradeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2768,7 +2773,7 @@ export class DataIntersightApplianceUpgradeAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightApplianceUpgradeCompletedPhases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2776,43 +2781,43 @@ export interface DataIntersightApplianceUpgradeCompletedPhases {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Id of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
   */
   readonly currentNode?: number;
   /**
   * Hostname of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
   */
   readonly currentNodeHostname?: string;
   /**
   * Elapsed time in seconds to complete the current upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
   */
   readonly endTime?: string;
   /**
   * Indicates if the upgrade phase has failed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
   */
   readonly failed?: boolean | cdktf.IResolvable;
   /**
   * Status message set during the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
   */
   readonly message?: string;
   /**
@@ -2836,32 +2841,32 @@ export interface DataIntersightApplianceUpgradeCompletedPhases {
   * * `Cancel` - Indicates that the upgrade was canceled by the Intersight Appliance.
   * * `Telemetry` - Upgrade service sends basic telemetry data to the Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Retry count of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Start date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
   */
   readonly startTime?: string;
   /**
   * Status of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
   */
   readonly status?: string;
 }
@@ -3325,7 +3330,7 @@ export class DataIntersightApplianceUpgradeCompletedPhasesList extends cdktf.Com
 }
 export interface DataIntersightApplianceUpgradeCurrentPhase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3333,43 +3338,43 @@ export interface DataIntersightApplianceUpgradeCurrentPhase {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Id of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
   */
   readonly currentNode?: number;
   /**
   * Hostname of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
   */
   readonly currentNodeHostname?: string;
   /**
   * Elapsed time in seconds to complete the current upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
   */
   readonly endTime?: string;
   /**
   * Indicates if the upgrade phase has failed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
   */
   readonly failed?: boolean | cdktf.IResolvable;
   /**
   * Status message set during the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
   */
   readonly message?: string;
   /**
@@ -3393,32 +3398,32 @@ export interface DataIntersightApplianceUpgradeCurrentPhase {
   * * `Cancel` - Indicates that the upgrade was canceled by the Intersight Appliance.
   * * `Telemetry` - Upgrade service sends basic telemetry data to the Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Retry count of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Start date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
   */
   readonly startTime?: string;
   /**
   * Status of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
   */
   readonly status?: string;
 }
@@ -3850,7 +3855,7 @@ export class DataIntersightApplianceUpgradeCurrentPhaseOutputReference extends c
 }
 export interface DataIntersightApplianceUpgradeImageBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3858,19 +3863,19 @@ export interface DataIntersightApplianceUpgradeImageBundle {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3883,7 +3888,7 @@ export interface DataIntersightApplianceUpgradeImageBundle {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4083,7 +4088,7 @@ export class DataIntersightApplianceUpgradeImageBundleOutputReference extends cd
 }
 export interface DataIntersightApplianceUpgradeNodeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4091,43 +4096,43 @@ export interface DataIntersightApplianceUpgradeNodeInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Gateway ip address of the cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#gateway DataIntersightApplianceUpgrade#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#gateway DataIntersightApplianceUpgrade#gateway}
   */
   readonly gateway?: string;
   /**
   * Hostname of the cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#hostname DataIntersightApplianceUpgrade#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#hostname DataIntersightApplianceUpgrade#hostname}
   */
   readonly hostname?: string;
   /**
   * Ip address of the cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#ip_address DataIntersightApplianceUpgrade#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#ip_address DataIntersightApplianceUpgrade#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Netmask of the cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#netmask DataIntersightApplianceUpgrade#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#netmask DataIntersightApplianceUpgrade#netmask}
   */
   readonly netmask?: string;
   /**
   * Id number of the cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#node_id DataIntersightApplianceUpgrade#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#node_id DataIntersightApplianceUpgrade#node_id}
   */
   readonly nodeId?: number;
   /**
   * Moid of the corresponding appliance.ClusterInfo or appliance.NodeInfo mo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#node_moid DataIntersightApplianceUpgrade#node_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#node_moid DataIntersightApplianceUpgrade#node_moid}
   */
   readonly nodeMoid?: string;
   /**
@@ -4137,14 +4142,14 @@ export interface DataIntersightApplianceUpgradeNodeInfo {
   * * `hamanagement` - Management node type when Intersight Virtual Appliance is running as multi node HA deployment.
   * * `metrics` - Metrics node when Intersight Virtual Appliance is running management-metrics node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#node_type DataIntersightApplianceUpgrade#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#node_type DataIntersightApplianceUpgrade#node_type}
   */
   readonly nodeType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4162,7 +4167,7 @@ export interface DataIntersightApplianceUpgradeNodeInfo {
   * * `WorkerNodeInstSuccess` - The worker node installation succeeded.
   * * `WorkerNodeInstFailed` - The worker node installation failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
   */
   readonly status?: string;
 }
@@ -4568,7 +4573,7 @@ export class DataIntersightApplianceUpgradeNodeInfoList extends cdktf.ComplexLis
 }
 export interface DataIntersightApplianceUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4576,19 +4581,19 @@ export interface DataIntersightApplianceUpgradeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4601,7 +4606,7 @@ export interface DataIntersightApplianceUpgradeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4801,7 +4806,7 @@ export class DataIntersightApplianceUpgradeParentOutputReference extends cdktf.C
 }
 export interface DataIntersightApplianceUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4809,19 +4814,19 @@ export interface DataIntersightApplianceUpgradePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4834,7 +4839,7 @@ export interface DataIntersightApplianceUpgradePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5066,7 +5071,7 @@ export class DataIntersightApplianceUpgradePermissionResourcesList extends cdktf
 }
 export interface DataIntersightApplianceUpgradeRequires {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5074,19 +5079,19 @@ export interface DataIntersightApplianceUpgradeRequires {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5099,7 +5104,7 @@ export interface DataIntersightApplianceUpgradeRequires {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5299,7 +5304,7 @@ export class DataIntersightApplianceUpgradeRequiresOutputReference extends cdktf
 }
 export interface DataIntersightApplianceUpgradeRollbackPhases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5307,43 +5312,43 @@ export interface DataIntersightApplianceUpgradeRollbackPhases {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Id of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node DataIntersightApplianceUpgrade#current_node}
   */
   readonly currentNode?: number;
   /**
   * Hostname of the node the upgrade phase is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#current_node_hostname DataIntersightApplianceUpgrade#current_node_hostname}
   */
   readonly currentNodeHostname?: string;
   /**
   * Elapsed time in seconds to complete the current upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#elapsed_time DataIntersightApplianceUpgrade#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#end_time DataIntersightApplianceUpgrade#end_time}
   */
   readonly endTime?: string;
   /**
   * Indicates if the upgrade phase has failed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#failed DataIntersightApplianceUpgrade#failed}
   */
   readonly failed?: boolean | cdktf.IResolvable;
   /**
   * Status message set during the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#message DataIntersightApplianceUpgrade#message}
   */
   readonly message?: string;
   /**
@@ -5367,32 +5372,32 @@ export interface DataIntersightApplianceUpgradeRollbackPhases {
   * * `Cancel` - Indicates that the upgrade was canceled by the Intersight Appliance.
   * * `Telemetry` - Upgrade service sends basic telemetry data to the Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#name DataIntersightApplianceUpgrade#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Retry count of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#retry_count DataIntersightApplianceUpgrade#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Start date of the software upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#start_time DataIntersightApplianceUpgrade#start_time}
   */
   readonly startTime?: string;
   /**
   * Status of the upgrade phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#status DataIntersightApplianceUpgrade#status}
   */
   readonly status?: string;
 }
@@ -5856,7 +5861,7 @@ export class DataIntersightApplianceUpgradeRollbackPhasesList extends cdktf.Comp
 }
 export interface DataIntersightApplianceUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5864,19 +5869,19 @@ export interface DataIntersightApplianceUpgradeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5889,7 +5894,7 @@ export interface DataIntersightApplianceUpgradeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6121,7 +6126,7 @@ export class DataIntersightApplianceUpgradeTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightApplianceUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6129,19 +6134,19 @@ export interface DataIntersightApplianceUpgradeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6154,7 +6159,7 @@ export interface DataIntersightApplianceUpgradeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6354,45 +6359,51 @@ export class DataIntersightApplianceUpgradeTagsDefinitionOutputReference extends
 }
 export interface DataIntersightApplianceUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#key DataIntersightApplianceUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#key DataIntersightApplianceUpgrade#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#propagated DataIntersightApplianceUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#propagated DataIntersightApplianceUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#sys_tag DataIntersightApplianceUpgrade#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#type DataIntersightApplianceUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#type DataIntersightApplianceUpgrade#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#value DataIntersightApplianceUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#value DataIntersightApplianceUpgrade#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#ancestor_definitions DataIntersightApplianceUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#ancestor_definitions DataIntersightApplianceUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#definition DataIntersightApplianceUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#definition DataIntersightApplianceUpgrade#definition}
   */
   readonly definition?: DataIntersightApplianceUpgradeTagsDefinition;
 }
@@ -6406,6 +6417,7 @@ export function dataIntersightApplianceUpgradeTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceUpgradeTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -6434,6 +6446,12 @@ export function dataIntersightApplianceUpgradeTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6500,6 +6518,10 @@ export class DataIntersightApplianceUpgradeTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6526,6 +6548,7 @@ export class DataIntersightApplianceUpgradeTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -6541,6 +6564,7 @@ export class DataIntersightApplianceUpgradeTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6594,6 +6618,22 @@ export class DataIntersightApplianceUpgradeTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6682,7 +6722,7 @@ export class DataIntersightApplianceUpgradeTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApplianceUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6690,19 +6730,19 @@ export interface DataIntersightApplianceUpgradeVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6715,7 +6755,7 @@ export interface DataIntersightApplianceUpgradeVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6947,7 +6987,7 @@ export class DataIntersightApplianceUpgradeVersionContextInterestedMosList exten
 }
 export interface DataIntersightApplianceUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6955,19 +6995,19 @@ export interface DataIntersightApplianceUpgradeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#moid DataIntersightApplianceUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6980,7 +7020,7 @@ export interface DataIntersightApplianceUpgradeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#selector DataIntersightApplianceUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -7180,7 +7220,7 @@ export class DataIntersightApplianceUpgradeVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightApplianceUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#additional_properties DataIntersightApplianceUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7188,32 +7228,32 @@ export interface DataIntersightApplianceUpgradeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#class_id DataIntersightApplianceUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#marked_for_deletion DataIntersightApplianceUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#marked_for_deletion DataIntersightApplianceUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#nr_version DataIntersightApplianceUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#nr_version DataIntersightApplianceUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#object_type DataIntersightApplianceUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#timestamp DataIntersightApplianceUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#timestamp DataIntersightApplianceUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7224,19 +7264,19 @@ export interface DataIntersightApplianceUpgradeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#version_type DataIntersightApplianceUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#version_type DataIntersightApplianceUpgrade#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#interested_mos DataIntersightApplianceUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#interested_mos DataIntersightApplianceUpgrade#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#ref_mo DataIntersightApplianceUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#ref_mo DataIntersightApplianceUpgrade#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceUpgradeVersionContextRefMo;
 }
@@ -7552,7 +7592,7 @@ export class DataIntersightApplianceUpgradeVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade intersight_appliance_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade intersight_appliance_upgrade}
 */
 export class DataIntersightApplianceUpgrade extends cdktf.TerraformDataSource {
 
@@ -7568,7 +7608,7 @@ export class DataIntersightApplianceUpgrade extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightApplianceUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceUpgrade to import
-  * @param importFromId The id of the existing DataIntersightApplianceUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7580,7 +7620,7 @@ export class DataIntersightApplianceUpgrade extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_upgrade intersight_appliance_upgrade} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_upgrade intersight_appliance_upgrade} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7591,8 +7631,8 @@ export class DataIntersightApplianceUpgrade extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_appliance_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

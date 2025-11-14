@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentFanControlConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#account_moid DataIntersightEquipmentFanControl#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#account_moid DataIntersightEquipmentFanControl#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightEquipmentFanControlConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#create_time DataIntersightEquipmentFanControl#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#create_time DataIntersightEquipmentFanControl#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#device_mo_id DataIntersightEquipmentFanControl#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#device_mo_id DataIntersightEquipmentFanControl#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#dn DataIntersightEquipmentFanControl#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#dn DataIntersightEquipmentFanControl#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#domain_group_moid DataIntersightEquipmentFanControl#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#domain_group_moid DataIntersightEquipmentFanControl#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#id DataIntersightEquipmentFanControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#id DataIntersightEquipmentFanControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,13 +59,13 @@ export interface DataIntersightEquipmentFanControlConfig extends cdktf.Terraform
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#is_upgraded DataIntersightEquipmentFanControl#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#is_upgraded DataIntersightEquipmentFanControl#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#mod_time DataIntersightEquipmentFanControl#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#mod_time DataIntersightEquipmentFanControl#mod_time}
   */
   readonly modTime?: string;
   /**
@@ -76,121 +76,121 @@ export interface DataIntersightEquipmentFanControlConfig extends cdktf.Terraform
   * * `MaximumPower` - Value of Fan Speed is MaximumPower.
   * * `Acoustic` - Value of Fan Speed is Acoustic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#mode DataIntersightEquipmentFanControl#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#mode DataIntersightEquipmentFanControl#mode}
   */
   readonly mode?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#model DataIntersightEquipmentFanControl#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#model DataIntersightEquipmentFanControl#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#owners DataIntersightEquipmentFanControl#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#owners DataIntersightEquipmentFanControl#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#presence DataIntersightEquipmentFanControl#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#presence DataIntersightEquipmentFanControl#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#revision DataIntersightEquipmentFanControl#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#revision DataIntersightEquipmentFanControl#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#rn DataIntersightEquipmentFanControl#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#rn DataIntersightEquipmentFanControl#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#serial DataIntersightEquipmentFanControl#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#serial DataIntersightEquipmentFanControl#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#shared_scope DataIntersightEquipmentFanControl#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#shared_scope DataIntersightEquipmentFanControl#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#vendor DataIntersightEquipmentFanControl#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#vendor DataIntersightEquipmentFanControl#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#ancestors DataIntersightEquipmentFanControl#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#ancestors DataIntersightEquipmentFanControl#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentFanControlAncestors[] | cdktf.IResolvable;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#equipment_chassis DataIntersightEquipmentFanControl#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#equipment_chassis DataIntersightEquipmentFanControl#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightEquipmentFanControlEquipmentChassis;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#inventory_device_info DataIntersightEquipmentFanControl#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#inventory_device_info DataIntersightEquipmentFanControl#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightEquipmentFanControlInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#parent DataIntersightEquipmentFanControl#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#parent DataIntersightEquipmentFanControl#parent}
   */
   readonly parent?: DataIntersightEquipmentFanControlParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#permission_resources DataIntersightEquipmentFanControl#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#permission_resources DataIntersightEquipmentFanControl#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentFanControlPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#previous_fru DataIntersightEquipmentFanControl#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#previous_fru DataIntersightEquipmentFanControl#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentFanControlPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#registered_device DataIntersightEquipmentFanControl#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#registered_device DataIntersightEquipmentFanControl#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentFanControlRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#tags DataIntersightEquipmentFanControl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#tags DataIntersightEquipmentFanControl#tags}
   */
   readonly tags?: DataIntersightEquipmentFanControlTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#version_context DataIntersightEquipmentFanControl#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#version_context DataIntersightEquipmentFanControl#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentFanControlVersionContext;
 }
@@ -1127,6 +1127,11 @@ export class DataIntersightEquipmentFanControlResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1689,7 +1694,7 @@ export class DataIntersightEquipmentFanControlResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightEquipmentFanControlAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1697,19 +1702,19 @@ export interface DataIntersightEquipmentFanControlAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1722,7 +1727,7 @@ export interface DataIntersightEquipmentFanControlAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -1954,7 +1959,7 @@ export class DataIntersightEquipmentFanControlAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightEquipmentFanControlEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1962,19 +1967,19 @@ export interface DataIntersightEquipmentFanControlEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1987,7 +1992,7 @@ export interface DataIntersightEquipmentFanControlEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -2187,7 +2192,7 @@ export class DataIntersightEquipmentFanControlEquipmentChassisOutputReference ex
 }
 export interface DataIntersightEquipmentFanControlInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2195,19 +2200,19 @@ export interface DataIntersightEquipmentFanControlInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2220,7 +2225,7 @@ export interface DataIntersightEquipmentFanControlInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -2420,7 +2425,7 @@ export class DataIntersightEquipmentFanControlInventoryDeviceInfoOutputReference
 }
 export interface DataIntersightEquipmentFanControlParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2428,19 +2433,19 @@ export interface DataIntersightEquipmentFanControlParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2453,7 +2458,7 @@ export interface DataIntersightEquipmentFanControlParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -2653,7 +2658,7 @@ export class DataIntersightEquipmentFanControlParentOutputReference extends cdkt
 }
 export interface DataIntersightEquipmentFanControlPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2661,19 +2666,19 @@ export interface DataIntersightEquipmentFanControlPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2686,7 +2691,7 @@ export interface DataIntersightEquipmentFanControlPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -2918,7 +2923,7 @@ export class DataIntersightEquipmentFanControlPermissionResourcesList extends cd
 }
 export interface DataIntersightEquipmentFanControlPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2926,19 +2931,19 @@ export interface DataIntersightEquipmentFanControlPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2951,7 +2956,7 @@ export interface DataIntersightEquipmentFanControlPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -3151,7 +3156,7 @@ export class DataIntersightEquipmentFanControlPreviousFruOutputReference extends
 }
 export interface DataIntersightEquipmentFanControlRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3159,19 +3164,19 @@ export interface DataIntersightEquipmentFanControlRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3184,7 +3189,7 @@ export interface DataIntersightEquipmentFanControlRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -3384,7 +3389,7 @@ export class DataIntersightEquipmentFanControlRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightEquipmentFanControlTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3392,19 +3397,19 @@ export interface DataIntersightEquipmentFanControlTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3417,7 +3422,7 @@ export interface DataIntersightEquipmentFanControlTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -3649,7 +3654,7 @@ export class DataIntersightEquipmentFanControlTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightEquipmentFanControlTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3657,19 +3662,19 @@ export interface DataIntersightEquipmentFanControlTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3682,7 +3687,7 @@ export interface DataIntersightEquipmentFanControlTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -3882,45 +3887,51 @@ export class DataIntersightEquipmentFanControlTagsDefinitionOutputReference exte
 }
 export interface DataIntersightEquipmentFanControlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#key DataIntersightEquipmentFanControl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#key DataIntersightEquipmentFanControl#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#propagated DataIntersightEquipmentFanControl#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#propagated DataIntersightEquipmentFanControl#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#sys_tag DataIntersightEquipmentFanControl#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#type DataIntersightEquipmentFanControl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#type DataIntersightEquipmentFanControl#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#value DataIntersightEquipmentFanControl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#value DataIntersightEquipmentFanControl#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#ancestor_definitions DataIntersightEquipmentFanControl#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#ancestor_definitions DataIntersightEquipmentFanControl#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentFanControlTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#definition DataIntersightEquipmentFanControl#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#definition DataIntersightEquipmentFanControl#definition}
   */
   readonly definition?: DataIntersightEquipmentFanControlTagsDefinition;
 }
@@ -3934,6 +3945,7 @@ export function dataIntersightEquipmentFanControlTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightEquipmentFanControlTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3962,6 +3974,12 @@ export function dataIntersightEquipmentFanControlTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4028,6 +4046,10 @@ export class DataIntersightEquipmentFanControlTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4054,6 +4076,7 @@ export class DataIntersightEquipmentFanControlTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4069,6 +4092,7 @@ export class DataIntersightEquipmentFanControlTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4122,6 +4146,22 @@ export class DataIntersightEquipmentFanControlTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4210,7 +4250,7 @@ export class DataIntersightEquipmentFanControlTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightEquipmentFanControlVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4218,19 +4258,19 @@ export interface DataIntersightEquipmentFanControlVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4243,7 +4283,7 @@ export interface DataIntersightEquipmentFanControlVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -4475,7 +4515,7 @@ export class DataIntersightEquipmentFanControlVersionContextInterestedMosList ex
 }
 export interface DataIntersightEquipmentFanControlVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4483,19 +4523,19 @@ export interface DataIntersightEquipmentFanControlVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#moid DataIntersightEquipmentFanControl#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4508,7 +4548,7 @@ export interface DataIntersightEquipmentFanControlVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#selector DataIntersightEquipmentFanControl#selector}
   */
   readonly selector?: string;
 }
@@ -4708,7 +4748,7 @@ export class DataIntersightEquipmentFanControlVersionContextRefMoOutputReference
 }
 export interface DataIntersightEquipmentFanControlVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#additional_properties DataIntersightEquipmentFanControl#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4716,32 +4756,32 @@ export interface DataIntersightEquipmentFanControlVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#class_id DataIntersightEquipmentFanControl#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#marked_for_deletion DataIntersightEquipmentFanControl#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#marked_for_deletion DataIntersightEquipmentFanControl#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#nr_version DataIntersightEquipmentFanControl#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#nr_version DataIntersightEquipmentFanControl#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#object_type DataIntersightEquipmentFanControl#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#timestamp DataIntersightEquipmentFanControl#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#timestamp DataIntersightEquipmentFanControl#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4752,19 +4792,19 @@ export interface DataIntersightEquipmentFanControlVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#version_type DataIntersightEquipmentFanControl#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#version_type DataIntersightEquipmentFanControl#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#interested_mos DataIntersightEquipmentFanControl#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#interested_mos DataIntersightEquipmentFanControl#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentFanControlVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#ref_mo DataIntersightEquipmentFanControl#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#ref_mo DataIntersightEquipmentFanControl#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentFanControlVersionContextRefMo;
 }
@@ -5080,7 +5120,7 @@ export class DataIntersightEquipmentFanControlVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control intersight_equipment_fan_control}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control intersight_equipment_fan_control}
 */
 export class DataIntersightEquipmentFanControl extends cdktf.TerraformDataSource {
 
@@ -5096,7 +5136,7 @@ export class DataIntersightEquipmentFanControl extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightEquipmentFanControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentFanControl to import
-  * @param importFromId The id of the existing DataIntersightEquipmentFanControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentFanControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentFanControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5108,7 +5148,7 @@ export class DataIntersightEquipmentFanControl extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_fan_control intersight_equipment_fan_control} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_fan_control intersight_equipment_fan_control} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5119,8 +5159,8 @@ export class DataIntersightEquipmentFanControl extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_equipment_fan_control',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

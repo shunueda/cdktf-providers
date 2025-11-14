@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightWorkspaceFolderConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#account_moid DataIntersightWorkspaceFolder#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#account_moid DataIntersightWorkspaceFolder#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * It is to define if folder is archived or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#archived DataIntersightWorkspaceFolder#archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#archived DataIntersightWorkspaceFolder#archived}
   */
   readonly archived?: boolean | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightWorkspaceFolderConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#create_time DataIntersightWorkspaceFolder#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#create_time DataIntersightWorkspaceFolder#create_time}
   */
   readonly createTime?: string;
   /**
   * The UserID or email who created this folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#create_user DataIntersightWorkspaceFolder#create_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#create_user DataIntersightWorkspaceFolder#create_user}
   */
   readonly createUser?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#domain_group_moid DataIntersightWorkspaceFolder#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#domain_group_moid DataIntersightWorkspaceFolder#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#id DataIntersightWorkspaceFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#id DataIntersightWorkspaceFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,97 +59,97 @@ export interface DataIntersightWorkspaceFolderConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#mod_time DataIntersightWorkspaceFolder#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#mod_time DataIntersightWorkspaceFolder#mod_time}
   */
   readonly modTime?: string;
   /**
   * The UserID or email who last modified this folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#mod_user DataIntersightWorkspaceFolder#mod_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#mod_user DataIntersightWorkspaceFolder#mod_user}
   */
   readonly modUser?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The name for this folder. You can have multiple versions of the folder with the same name. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#name DataIntersightWorkspaceFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#name DataIntersightWorkspaceFolder#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#owners DataIntersightWorkspaceFolder#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#owners DataIntersightWorkspaceFolder#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#shared_scope DataIntersightWorkspaceFolder#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#shared_scope DataIntersightWorkspaceFolder#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#ancestors DataIntersightWorkspaceFolder#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#ancestors DataIntersightWorkspaceFolder#ancestors}
   */
   readonly ancestors?: DataIntersightWorkspaceFolderAncestors[] | cdktf.IResolvable;
   /**
   * assets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#assets DataIntersightWorkspaceFolder#assets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#assets DataIntersightWorkspaceFolder#assets}
   */
   readonly assets?: DataIntersightWorkspaceFolderAssets[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#catalog DataIntersightWorkspaceFolder#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#catalog DataIntersightWorkspaceFolder#catalog}
   */
   readonly catalog?: DataIntersightWorkspaceFolderCatalog;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#parent DataIntersightWorkspaceFolder#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#parent DataIntersightWorkspaceFolder#parent}
   */
   readonly parent?: DataIntersightWorkspaceFolderParent;
   /**
   * parent_folder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#parent_folder DataIntersightWorkspaceFolder#parent_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#parent_folder DataIntersightWorkspaceFolder#parent_folder}
   */
   readonly parentFolder?: DataIntersightWorkspaceFolderParentFolder;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#permission_resources DataIntersightWorkspaceFolder#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#permission_resources DataIntersightWorkspaceFolder#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkspaceFolderPermissionResources[] | cdktf.IResolvable;
   /**
   * sub_folders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#sub_folders DataIntersightWorkspaceFolder#sub_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#sub_folders DataIntersightWorkspaceFolder#sub_folders}
   */
   readonly subFolders?: DataIntersightWorkspaceFolderSubFolders[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#tags DataIntersightWorkspaceFolder#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#tags DataIntersightWorkspaceFolder#tags}
   */
   readonly tags?: DataIntersightWorkspaceFolderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#version_context DataIntersightWorkspaceFolder#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#version_context DataIntersightWorkspaceFolder#version_context}
   */
   readonly versionContext?: DataIntersightWorkspaceFolderVersionContext;
 }
@@ -1086,6 +1086,11 @@ export class DataIntersightWorkspaceFolderResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1618,7 +1623,7 @@ export class DataIntersightWorkspaceFolderResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightWorkspaceFolderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1626,19 +1631,19 @@ export interface DataIntersightWorkspaceFolderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1651,7 +1656,7 @@ export interface DataIntersightWorkspaceFolderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -1883,7 +1888,7 @@ export class DataIntersightWorkspaceFolderAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightWorkspaceFolderAssets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1891,19 +1896,19 @@ export interface DataIntersightWorkspaceFolderAssets {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1916,7 +1921,7 @@ export interface DataIntersightWorkspaceFolderAssets {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -2148,7 +2153,7 @@ export class DataIntersightWorkspaceFolderAssetsList extends cdktf.ComplexList {
 }
 export interface DataIntersightWorkspaceFolderCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2156,19 +2161,19 @@ export interface DataIntersightWorkspaceFolderCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2181,7 +2186,7 @@ export interface DataIntersightWorkspaceFolderCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -2381,7 +2386,7 @@ export class DataIntersightWorkspaceFolderCatalogOutputReference extends cdktf.C
 }
 export interface DataIntersightWorkspaceFolderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2389,19 +2394,19 @@ export interface DataIntersightWorkspaceFolderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2414,7 +2419,7 @@ export interface DataIntersightWorkspaceFolderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -2614,7 +2619,7 @@ export class DataIntersightWorkspaceFolderParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightWorkspaceFolderParentFolder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2622,19 +2627,19 @@ export interface DataIntersightWorkspaceFolderParentFolder {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2647,7 +2652,7 @@ export interface DataIntersightWorkspaceFolderParentFolder {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -2847,7 +2852,7 @@ export class DataIntersightWorkspaceFolderParentFolderOutputReference extends cd
 }
 export interface DataIntersightWorkspaceFolderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2855,19 +2860,19 @@ export interface DataIntersightWorkspaceFolderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2880,7 +2885,7 @@ export interface DataIntersightWorkspaceFolderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -3112,7 +3117,7 @@ export class DataIntersightWorkspaceFolderPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightWorkspaceFolderSubFolders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3120,19 +3125,19 @@ export interface DataIntersightWorkspaceFolderSubFolders {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3145,7 +3150,7 @@ export interface DataIntersightWorkspaceFolderSubFolders {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -3377,7 +3382,7 @@ export class DataIntersightWorkspaceFolderSubFoldersList extends cdktf.ComplexLi
 }
 export interface DataIntersightWorkspaceFolderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3385,19 +3390,19 @@ export interface DataIntersightWorkspaceFolderTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3410,7 +3415,7 @@ export interface DataIntersightWorkspaceFolderTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -3642,7 +3647,7 @@ export class DataIntersightWorkspaceFolderTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightWorkspaceFolderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3650,19 +3655,19 @@ export interface DataIntersightWorkspaceFolderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3675,7 +3680,7 @@ export interface DataIntersightWorkspaceFolderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -3875,45 +3880,51 @@ export class DataIntersightWorkspaceFolderTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightWorkspaceFolderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#key DataIntersightWorkspaceFolder#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#key DataIntersightWorkspaceFolder#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#propagated DataIntersightWorkspaceFolder#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#propagated DataIntersightWorkspaceFolder#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#sys_tag DataIntersightWorkspaceFolder#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#type DataIntersightWorkspaceFolder#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#type DataIntersightWorkspaceFolder#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#value DataIntersightWorkspaceFolder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#value DataIntersightWorkspaceFolder#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#ancestor_definitions DataIntersightWorkspaceFolder#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#ancestor_definitions DataIntersightWorkspaceFolder#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkspaceFolderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#definition DataIntersightWorkspaceFolder#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#definition DataIntersightWorkspaceFolder#definition}
   */
   readonly definition?: DataIntersightWorkspaceFolderTagsDefinition;
 }
@@ -3927,6 +3938,7 @@ export function dataIntersightWorkspaceFolderTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWorkspaceFolderTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3955,6 +3967,12 @@ export function dataIntersightWorkspaceFolderTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4021,6 +4039,10 @@ export class DataIntersightWorkspaceFolderTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4047,6 +4069,7 @@ export class DataIntersightWorkspaceFolderTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4062,6 +4085,7 @@ export class DataIntersightWorkspaceFolderTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4115,6 +4139,22 @@ export class DataIntersightWorkspaceFolderTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4203,7 +4243,7 @@ export class DataIntersightWorkspaceFolderTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightWorkspaceFolderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4211,19 +4251,19 @@ export interface DataIntersightWorkspaceFolderVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4236,7 +4276,7 @@ export interface DataIntersightWorkspaceFolderVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -4468,7 +4508,7 @@ export class DataIntersightWorkspaceFolderVersionContextInterestedMosList extend
 }
 export interface DataIntersightWorkspaceFolderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4476,19 +4516,19 @@ export interface DataIntersightWorkspaceFolderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#moid DataIntersightWorkspaceFolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4501,7 +4541,7 @@ export interface DataIntersightWorkspaceFolderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#selector DataIntersightWorkspaceFolder#selector}
   */
   readonly selector?: string;
 }
@@ -4701,7 +4741,7 @@ export class DataIntersightWorkspaceFolderVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightWorkspaceFolderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#additional_properties DataIntersightWorkspaceFolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4709,32 +4749,32 @@ export interface DataIntersightWorkspaceFolderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#class_id DataIntersightWorkspaceFolder#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#marked_for_deletion DataIntersightWorkspaceFolder#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#marked_for_deletion DataIntersightWorkspaceFolder#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#nr_version DataIntersightWorkspaceFolder#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#nr_version DataIntersightWorkspaceFolder#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#object_type DataIntersightWorkspaceFolder#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#timestamp DataIntersightWorkspaceFolder#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#timestamp DataIntersightWorkspaceFolder#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4745,19 +4785,19 @@ export interface DataIntersightWorkspaceFolderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#version_type DataIntersightWorkspaceFolder#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#version_type DataIntersightWorkspaceFolder#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#interested_mos DataIntersightWorkspaceFolder#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#interested_mos DataIntersightWorkspaceFolder#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkspaceFolderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#ref_mo DataIntersightWorkspaceFolder#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#ref_mo DataIntersightWorkspaceFolder#ref_mo}
   */
   readonly refMo?: DataIntersightWorkspaceFolderVersionContextRefMo;
 }
@@ -5073,7 +5113,7 @@ export class DataIntersightWorkspaceFolderVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder intersight_workspace_folder}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder intersight_workspace_folder}
 */
 export class DataIntersightWorkspaceFolder extends cdktf.TerraformDataSource {
 
@@ -5089,7 +5129,7 @@ export class DataIntersightWorkspaceFolder extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightWorkspaceFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkspaceFolder to import
-  * @param importFromId The id of the existing DataIntersightWorkspaceFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkspaceFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkspaceFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5101,7 +5141,7 @@ export class DataIntersightWorkspaceFolder extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workspace_folder intersight_workspace_folder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workspace_folder intersight_workspace_folder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5112,8 +5152,8 @@ export class DataIntersightWorkspaceFolder extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_workspace_folder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

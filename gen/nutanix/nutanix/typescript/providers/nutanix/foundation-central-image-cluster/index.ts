@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface FoundationCentralImageClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#aos_package_sha256sum FoundationCentralImageCluster#aos_package_sha256sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#aos_package_sha256sum FoundationCentralImageCluster#aos_package_sha256sum}
   */
   readonly aosPackageSha256Sum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#aos_package_url FoundationCentralImageCluster#aos_package_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#aos_package_url FoundationCentralImageCluster#aos_package_url}
   */
   readonly aosPackageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cluster_external_ip FoundationCentralImageCluster#cluster_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cluster_external_ip FoundationCentralImageCluster#cluster_external_ip}
   */
   readonly clusterExternalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cluster_name FoundationCentralImageCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cluster_name FoundationCentralImageCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cluster_size FoundationCentralImageCluster#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cluster_size FoundationCentralImageCluster#cluster_size}
   */
   readonly clusterSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#fc_api_key_uuid FoundationCentralImageCluster#fc_api_key_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#fc_api_key_uuid FoundationCentralImageCluster#fc_api_key_uuid}
   */
   readonly fcApiKeyUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#id FoundationCentralImageCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#id FoundationCentralImageCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#image_cluster_uuid FoundationCentralImageCluster#image_cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#image_cluster_uuid FoundationCentralImageCluster#image_cluster_uuid}
   */
   readonly imageClusterUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#redundancy_factor FoundationCentralImageCluster#redundancy_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#redundancy_factor FoundationCentralImageCluster#redundancy_factor}
   */
   readonly redundancyFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#server_configuration_data FoundationCentralImageCluster#server_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#server_configuration_data FoundationCentralImageCluster#server_configuration_data}
   */
   readonly serverConfigurationData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#skip_cluster_creation FoundationCentralImageCluster#skip_cluster_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#skip_cluster_creation FoundationCentralImageCluster#skip_cluster_creation}
   */
   readonly skipClusterCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#storage_node_count FoundationCentralImageCluster#storage_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#storage_node_count FoundationCentralImageCluster#storage_node_count}
   */
   readonly storageNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#timezone FoundationCentralImageCluster#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#timezone FoundationCentralImageCluster#timezone}
   */
   readonly timezone?: string;
   /**
   * cluster_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cluster_status FoundationCentralImageCluster#cluster_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cluster_status FoundationCentralImageCluster#cluster_status}
   */
   readonly clusterStatus?: FoundationCentralImageClusterClusterStatus;
   /**
   * common_network_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#common_network_settings FoundationCentralImageCluster#common_network_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#common_network_settings FoundationCentralImageCluster#common_network_settings}
   */
   readonly commonNetworkSettings?: FoundationCentralImageClusterCommonNetworkSettings;
   /**
   * hypervisor_iso_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_iso_details FoundationCentralImageCluster#hypervisor_iso_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_iso_details FoundationCentralImageCluster#hypervisor_iso_details}
   */
   readonly hypervisorIsoDetails?: FoundationCentralImageClusterHypervisorIsoDetails;
   /**
   * hypervisor_isos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_isos FoundationCentralImageCluster#hypervisor_isos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_isos FoundationCentralImageCluster#hypervisor_isos}
   */
   readonly hypervisorIsos?: FoundationCentralImageClusterHypervisorIsos;
   /**
   * node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#node_list FoundationCentralImageCluster#node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#node_list FoundationCentralImageCluster#node_list}
   */
   readonly nodeList?: FoundationCentralImageClusterNodeListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#timeouts FoundationCentralImageCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#timeouts FoundationCentralImageCluster#timeouts}
   */
   readonly timeouts?: FoundationCentralImageClusterTimeouts;
 }
@@ -1019,19 +1019,19 @@ export class FoundationCentralImageClusterClusterStatusOutputReference extends c
 }
 export interface FoundationCentralImageClusterCommonNetworkSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_dns_servers FoundationCentralImageCluster#cvm_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_dns_servers FoundationCentralImageCluster#cvm_dns_servers}
   */
   readonly cvmDnsServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_ntp_servers FoundationCentralImageCluster#cvm_ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_ntp_servers FoundationCentralImageCluster#cvm_ntp_servers}
   */
   readonly cvmNtpServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_dns_servers FoundationCentralImageCluster#hypervisor_dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_dns_servers FoundationCentralImageCluster#hypervisor_dns_servers}
   */
   readonly hypervisorDnsServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_ntp_servers FoundationCentralImageCluster#hypervisor_ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_ntp_servers FoundationCentralImageCluster#hypervisor_ntp_servers}
   */
   readonly hypervisorNtpServers?: string[];
 }
@@ -1202,19 +1202,19 @@ export class FoundationCentralImageClusterCommonNetworkSettingsOutputReference e
 }
 export interface FoundationCentralImageClusterHypervisorIsoDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hyperv_product_key FoundationCentralImageCluster#hyperv_product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hyperv_product_key FoundationCentralImageCluster#hyperv_product_key}
   */
   readonly hypervProductKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hyperv_sku FoundationCentralImageCluster#hyperv_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hyperv_sku FoundationCentralImageCluster#hyperv_sku}
   */
   readonly hypervSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#sha256sum FoundationCentralImageCluster#sha256sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#sha256sum FoundationCentralImageCluster#sha256sum}
   */
   readonly sha256Sum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#url FoundationCentralImageCluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#url FoundationCentralImageCluster#url}
   */
   readonly url?: string;
 }
@@ -1385,23 +1385,23 @@ export class FoundationCentralImageClusterHypervisorIsoDetailsOutputReference ex
 }
 export interface FoundationCentralImageClusterHypervisorIsos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hyperv_product_key FoundationCentralImageCluster#hyperv_product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hyperv_product_key FoundationCentralImageCluster#hyperv_product_key}
   */
   readonly hypervProductKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hyperv_sku FoundationCentralImageCluster#hyperv_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hyperv_sku FoundationCentralImageCluster#hyperv_sku}
   */
   readonly hypervSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_type FoundationCentralImageCluster#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_type FoundationCentralImageCluster#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#sha256sum FoundationCentralImageCluster#sha256sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#sha256sum FoundationCentralImageCluster#sha256sum}
   */
   readonly sha256Sum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#url FoundationCentralImageCluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#url FoundationCentralImageCluster#url}
   */
   readonly url?: string;
 }
@@ -1601,79 +1601,79 @@ export class FoundationCentralImageClusterHypervisorIsosOutputReference extends 
 }
 export interface FoundationCentralImageClusterNodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_gateway FoundationCentralImageCluster#cvm_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_gateway FoundationCentralImageCluster#cvm_gateway}
   */
   readonly cvmGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_ip FoundationCentralImageCluster#cvm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_ip FoundationCentralImageCluster#cvm_ip}
   */
   readonly cvmIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_netmask FoundationCentralImageCluster#cvm_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_netmask FoundationCentralImageCluster#cvm_netmask}
   */
   readonly cvmNetmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_ram_gb FoundationCentralImageCluster#cvm_ram_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_ram_gb FoundationCentralImageCluster#cvm_ram_gb}
   */
   readonly cvmRamGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#cvm_vlan_id FoundationCentralImageCluster#cvm_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#cvm_vlan_id FoundationCentralImageCluster#cvm_vlan_id}
   */
   readonly cvmVlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hardware_attributes_override FoundationCentralImageCluster#hardware_attributes_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hardware_attributes_override FoundationCentralImageCluster#hardware_attributes_override}
   */
   readonly hardwareAttributesOverride?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_gateway FoundationCentralImageCluster#hypervisor_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_gateway FoundationCentralImageCluster#hypervisor_gateway}
   */
   readonly hypervisorGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_hostname FoundationCentralImageCluster#hypervisor_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_hostname FoundationCentralImageCluster#hypervisor_hostname}
   */
   readonly hypervisorHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_ip FoundationCentralImageCluster#hypervisor_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_ip FoundationCentralImageCluster#hypervisor_ip}
   */
   readonly hypervisorIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_netmask FoundationCentralImageCluster#hypervisor_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_netmask FoundationCentralImageCluster#hypervisor_netmask}
   */
   readonly hypervisorNetmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#hypervisor_type FoundationCentralImageCluster#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#hypervisor_type FoundationCentralImageCluster#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#image_now FoundationCentralImageCluster#image_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#image_now FoundationCentralImageCluster#image_now}
   */
   readonly imageNow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#imaged_node_uuid FoundationCentralImageCluster#imaged_node_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#imaged_node_uuid FoundationCentralImageCluster#imaged_node_uuid}
   */
   readonly imagedNodeUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#ipmi_gateway FoundationCentralImageCluster#ipmi_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#ipmi_gateway FoundationCentralImageCluster#ipmi_gateway}
   */
   readonly ipmiGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#ipmi_ip FoundationCentralImageCluster#ipmi_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#ipmi_ip FoundationCentralImageCluster#ipmi_ip}
   */
   readonly ipmiIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#ipmi_netmask FoundationCentralImageCluster#ipmi_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#ipmi_netmask FoundationCentralImageCluster#ipmi_netmask}
   */
   readonly ipmiNetmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#rdma_passthrough FoundationCentralImageCluster#rdma_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#rdma_passthrough FoundationCentralImageCluster#rdma_passthrough}
   */
   readonly rdmaPassthrough?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#server_configuration_data FoundationCentralImageCluster#server_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#server_configuration_data FoundationCentralImageCluster#server_configuration_data}
   */
   readonly serverConfigurationData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#use_existing_network_settings FoundationCentralImageCluster#use_existing_network_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#use_existing_network_settings FoundationCentralImageCluster#use_existing_network_settings}
   */
   readonly useExistingNetworkSettings?: boolean | cdktf.IResolvable;
 }
@@ -2311,7 +2311,7 @@ export class FoundationCentralImageClusterNodeListStructList extends cdktf.Compl
 }
 export interface FoundationCentralImageClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#create FoundationCentralImageCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#create FoundationCentralImageCluster#create}
   */
   readonly create?: string;
 }
@@ -2405,7 +2405,7 @@ export class FoundationCentralImageClusterTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster nutanix_foundation_central_image_cluster}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster nutanix_foundation_central_image_cluster}
 */
 export class FoundationCentralImageCluster extends cdktf.TerraformResource {
 
@@ -2421,7 +2421,7 @@ export class FoundationCentralImageCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FoundationCentralImageCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FoundationCentralImageCluster to import
-  * @param importFromId The id of the existing FoundationCentralImageCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FoundationCentralImageCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FoundationCentralImageCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2433,7 +2433,7 @@ export class FoundationCentralImageCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_central_image_cluster nutanix_foundation_central_image_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_central_image_cluster nutanix_foundation_central_image_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2444,8 +2444,8 @@ export class FoundationCentralImageCluster extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_foundation_central_image_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiAgentToolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#agent_id GenerativeAiAgentTool#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#agent_id GenerativeAiAgentTool#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#compartment_id GenerativeAiAgentTool#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#compartment_id GenerativeAiAgentTool#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#defined_tags GenerativeAiAgentTool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#defined_tags GenerativeAiAgentTool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#description GenerativeAiAgentTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#description GenerativeAiAgentTool#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#display_name GenerativeAiAgentTool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#display_name GenerativeAiAgentTool#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#freeform_tags GenerativeAiAgentTool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#freeform_tags GenerativeAiAgentTool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#id GenerativeAiAgentTool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#id GenerativeAiAgentTool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#metadata GenerativeAiAgentTool#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#metadata GenerativeAiAgentTool#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#timeouts GenerativeAiAgentTool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#timeouts GenerativeAiAgentTool#timeouts}
   */
   readonly timeouts?: GenerativeAiAgentToolTimeouts;
   /**
   * tool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#tool_config GenerativeAiAgentTool#tool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#tool_config GenerativeAiAgentTool#tool_config}
   */
   readonly toolConfig: GenerativeAiAgentToolToolConfig;
 }
 export interface GenerativeAiAgentToolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#create GenerativeAiAgentTool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#create GenerativeAiAgentTool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#delete GenerativeAiAgentTool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#delete GenerativeAiAgentTool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#update GenerativeAiAgentTool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#update GenerativeAiAgentTool#update}
   */
   readonly update?: string;
 }
@@ -217,23 +217,23 @@ export class GenerativeAiAgentToolTimeoutsOutputReference extends cdktf.ComplexO
 }
 export interface GenerativeAiAgentToolToolConfigApiSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#api_schema_input_location_type GenerativeAiAgentTool#api_schema_input_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#api_schema_input_location_type GenerativeAiAgentTool#api_schema_input_location_type}
   */
   readonly apiSchemaInputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#object GenerativeAiAgentTool#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#object GenerativeAiAgentTool#object}
   */
   readonly object?: string;
 }
@@ -430,11 +430,11 @@ export class GenerativeAiAgentToolToolConfigApiSchemaOutputReference extends cdk
 }
 export interface GenerativeAiAgentToolToolConfigDatabaseConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}
   */
   readonly connectionType: string;
 }
@@ -541,23 +541,23 @@ export class GenerativeAiAgentToolToolConfigDatabaseConnectionOutputReference ex
 }
 export interface GenerativeAiAgentToolToolConfigDatabaseSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
   */
   readonly inputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
   */
   readonly prefix?: string;
 }
@@ -754,15 +754,15 @@ export class GenerativeAiAgentToolToolConfigDatabaseSchemaOutputReference extend
 }
 export interface GenerativeAiAgentToolToolConfigFunction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#description GenerativeAiAgentTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#description GenerativeAiAgentTool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#name GenerativeAiAgentTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#name GenerativeAiAgentTool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#parameters GenerativeAiAgentTool#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#parameters GenerativeAiAgentTool#parameters}
   */
   readonly parameters?: { [key: string]: string };
 }
@@ -904,7 +904,7 @@ export class GenerativeAiAgentToolToolConfigFunctionOutputReference extends cdkt
 }
 export interface GenerativeAiAgentToolToolConfigGenerationLlmCustomization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#instruction GenerativeAiAgentTool#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#instruction GenerativeAiAgentTool#instruction}
   */
   readonly instruction?: string;
 }
@@ -988,31 +988,31 @@ export class GenerativeAiAgentToolToolConfigGenerationLlmCustomizationOutputRefe
 }
 export interface GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#client_id GenerativeAiAgentTool#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#client_id GenerativeAiAgentTool#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config_type GenerativeAiAgentTool#http_endpoint_auth_scope_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config_type GenerativeAiAgentTool#http_endpoint_auth_scope_config_type}
   */
   readonly httpEndpointAuthScopeConfigType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#idcs_url GenerativeAiAgentTool#idcs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#idcs_url GenerativeAiAgentTool#idcs_url}
   */
   readonly idcsUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#key_location GenerativeAiAgentTool#key_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#key_location GenerativeAiAgentTool#key_location}
   */
   readonly keyLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#key_name GenerativeAiAgentTool#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#key_name GenerativeAiAgentTool#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#scope_url GenerativeAiAgentTool#scope_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#scope_url GenerativeAiAgentTool#scope_url}
   */
   readonly scopeUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#vault_secret_id GenerativeAiAgentTool#vault_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#vault_secret_id GenerativeAiAgentTool#vault_secret_id}
   */
   readonly vaultSecretId?: string;
 }
@@ -1267,13 +1267,13 @@ export class GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAu
 }
 export interface GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}
   */
   readonly httpEndpointAuthScope?: string;
   /**
   * http_endpoint_auth_scope_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
   */
   readonly httpEndpointAuthScopeConfig?: GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig;
 }
@@ -1420,7 +1420,7 @@ export interface GenerativeAiAgentToolToolConfigHttpEndpointAuthConfig {
   /**
   * http_endpoint_auth_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_sources GenerativeAiAgentTool#http_endpoint_auth_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#http_endpoint_auth_sources GenerativeAiAgentTool#http_endpoint_auth_sources}
   */
   readonly httpEndpointAuthSources?: GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources[] | cdktf.IResolvable;
 }
@@ -1504,23 +1504,23 @@ export class GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigOutputReferenc
 }
 export interface GenerativeAiAgentToolToolConfigIclExamples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
   */
   readonly inputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
   */
   readonly prefix?: string;
 }
@@ -1717,7 +1717,7 @@ export class GenerativeAiAgentToolToolConfigIclExamplesOutputReference extends c
 }
 export interface GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#knowledge_base_id GenerativeAiAgentTool#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#knowledge_base_id GenerativeAiAgentTool#knowledge_base_id}
   */
   readonly knowledgeBaseId?: string;
 }
@@ -1833,23 +1833,23 @@ export class GenerativeAiAgentToolToolConfigKnowledgeBaseConfigsList extends cdk
 }
 export interface GenerativeAiAgentToolToolConfigTableAndColumnDescription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#bucket GenerativeAiAgentTool#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#content GenerativeAiAgentTool#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#input_location_type GenerativeAiAgentTool#input_location_type}
   */
   readonly inputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#namespace GenerativeAiAgentTool#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#prefix GenerativeAiAgentTool#prefix}
   */
   readonly prefix?: string;
 }
@@ -2046,85 +2046,85 @@ export class GenerativeAiAgentToolToolConfigTableAndColumnDescriptionOutputRefer
 }
 export interface GenerativeAiAgentToolToolConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#agent_endpoint_id GenerativeAiAgentTool#agent_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#agent_endpoint_id GenerativeAiAgentTool#agent_endpoint_id}
   */
   readonly agentEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#dialect GenerativeAiAgentTool#dialect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#dialect GenerativeAiAgentTool#dialect}
   */
   readonly dialect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#model_size GenerativeAiAgentTool#model_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#model_size GenerativeAiAgentTool#model_size}
   */
   readonly modelSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#should_enable_self_correction GenerativeAiAgentTool#should_enable_self_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#should_enable_self_correction GenerativeAiAgentTool#should_enable_self_correction}
   */
   readonly shouldEnableSelfCorrection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#should_enable_sql_execution GenerativeAiAgentTool#should_enable_sql_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#should_enable_sql_execution GenerativeAiAgentTool#should_enable_sql_execution}
   */
   readonly shouldEnableSqlExecution?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#subnet_id GenerativeAiAgentTool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#subnet_id GenerativeAiAgentTool#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#tool_config_type GenerativeAiAgentTool#tool_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#tool_config_type GenerativeAiAgentTool#tool_config_type}
   */
   readonly toolConfigType: string;
   /**
   * api_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#api_schema GenerativeAiAgentTool#api_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#api_schema GenerativeAiAgentTool#api_schema}
   */
   readonly apiSchema?: GenerativeAiAgentToolToolConfigApiSchema;
   /**
   * database_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#database_connection GenerativeAiAgentTool#database_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#database_connection GenerativeAiAgentTool#database_connection}
   */
   readonly databaseConnection?: GenerativeAiAgentToolToolConfigDatabaseConnection;
   /**
   * database_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#database_schema GenerativeAiAgentTool#database_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#database_schema GenerativeAiAgentTool#database_schema}
   */
   readonly databaseSchema?: GenerativeAiAgentToolToolConfigDatabaseSchema;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#function GenerativeAiAgentTool#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#function GenerativeAiAgentTool#function}
   */
   readonly function?: GenerativeAiAgentToolToolConfigFunction;
   /**
   * generation_llm_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#generation_llm_customization GenerativeAiAgentTool#generation_llm_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#generation_llm_customization GenerativeAiAgentTool#generation_llm_customization}
   */
   readonly generationLlmCustomization?: GenerativeAiAgentToolToolConfigGenerationLlmCustomization;
   /**
   * http_endpoint_auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_config GenerativeAiAgentTool#http_endpoint_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#http_endpoint_auth_config GenerativeAiAgentTool#http_endpoint_auth_config}
   */
   readonly httpEndpointAuthConfig?: GenerativeAiAgentToolToolConfigHttpEndpointAuthConfig;
   /**
   * icl_examples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#icl_examples GenerativeAiAgentTool#icl_examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#icl_examples GenerativeAiAgentTool#icl_examples}
   */
   readonly iclExamples?: GenerativeAiAgentToolToolConfigIclExamples;
   /**
   * knowledge_base_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#knowledge_base_configs GenerativeAiAgentTool#knowledge_base_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#knowledge_base_configs GenerativeAiAgentTool#knowledge_base_configs}
   */
   readonly knowledgeBaseConfigs?: GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs[] | cdktf.IResolvable;
   /**
   * table_and_column_description block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#table_and_column_description GenerativeAiAgentTool#table_and_column_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#table_and_column_description GenerativeAiAgentTool#table_and_column_description}
   */
   readonly tableAndColumnDescription?: GenerativeAiAgentToolToolConfigTableAndColumnDescription;
 }
@@ -2640,7 +2640,7 @@ export class GenerativeAiAgentToolToolConfigOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool oci_generative_ai_agent_tool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool oci_generative_ai_agent_tool}
 */
 export class GenerativeAiAgentTool extends cdktf.TerraformResource {
 
@@ -2656,7 +2656,7 @@ export class GenerativeAiAgentTool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenerativeAiAgentTool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiAgentTool to import
-  * @param importFromId The id of the existing GenerativeAiAgentTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiAgentTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiAgentTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2668,7 +2668,7 @@ export class GenerativeAiAgentTool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/generative_ai_agent_tool oci_generative_ai_agent_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/generative_ai_agent_tool oci_generative_ai_agent_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2679,8 +2679,8 @@ export class GenerativeAiAgentTool extends cdktf.TerraformResource {
       terraformResourceType: 'oci_generative_ai_agent_tool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

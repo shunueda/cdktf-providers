@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface PartnerintegrationDeviceConnectorConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#account_moid PartnerintegrationDeviceConnector#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#account_moid PartnerintegrationDeviceConnector#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -20,23 +20,23 @@ export interface PartnerintegrationDeviceConnectorConfig extends cdktf.Terraform
   * * `Deploy` - Deploy the device connector service on the appliance.
   * * `Upload` - Upload a file to the Partner Integration Appliance bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#action PartnerintegrationDeviceConnector#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#action PartnerintegrationDeviceConnector#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#ancestors PartnerintegrationDeviceConnector#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#ancestors PartnerintegrationDeviceConnector#ancestors}
   */
   readonly ancestors?: PartnerintegrationDeviceConnectorAncestors[] | cdktf.IResolvable;
   /**
   * Time when build was triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#build_start_time PartnerintegrationDeviceConnector#build_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#build_start_time PartnerintegrationDeviceConnector#build_start_time}
   */
   readonly buildStartTime?: string;
   /**
@@ -48,7 +48,7 @@ export interface PartnerintegrationDeviceConnectorConfig extends cdktf.Terraform
   * * `DockerFailed` - The docker build has failed.
   * * `Completed` - The operation completed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#build_status PartnerintegrationDeviceConnector#build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#build_status PartnerintegrationDeviceConnector#build_status}
   */
   readonly buildStatus?: string;
   /**
@@ -56,23 +56,23 @@ export interface PartnerintegrationDeviceConnectorConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#create_time PartnerintegrationDeviceConnector#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#create_time PartnerintegrationDeviceConnector#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#domain_group_moid PartnerintegrationDeviceConnector#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#domain_group_moid PartnerintegrationDeviceConnector#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#id PartnerintegrationDeviceConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#id PartnerintegrationDeviceConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,113 +81,113 @@ export interface PartnerintegrationDeviceConnectorConfig extends cdktf.Terraform
   /**
   * Name of the docker image that is built.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#image_name PartnerintegrationDeviceConnector#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#image_name PartnerintegrationDeviceConnector#image_name}
   */
   readonly imageName?: string;
   /**
   * An array of relationships to partnerintegrationDcLogs resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#logs PartnerintegrationDeviceConnector#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#logs PartnerintegrationDeviceConnector#logs}
   */
   readonly logs?: PartnerintegrationDeviceConnectorLogs[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#mod_time PartnerintegrationDeviceConnector#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#mod_time PartnerintegrationDeviceConnector#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
   * Name of the device connector recipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#name PartnerintegrationDeviceConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#name PartnerintegrationDeviceConnector#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#organization PartnerintegrationDeviceConnector#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#organization PartnerintegrationDeviceConnector#organization}
   */
   readonly organization?: PartnerintegrationDeviceConnectorOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#owners PartnerintegrationDeviceConnector#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#owners PartnerintegrationDeviceConnector#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#parent PartnerintegrationDeviceConnector#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#parent PartnerintegrationDeviceConnector#parent}
   */
   readonly parent?: PartnerintegrationDeviceConnectorParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#permission_resources PartnerintegrationDeviceConnector#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#permission_resources PartnerintegrationDeviceConnector#permission_resources}
   */
   readonly permissionResources?: PartnerintegrationDeviceConnectorPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#shared_scope PartnerintegrationDeviceConnector#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#shared_scope PartnerintegrationDeviceConnector#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the bucket to pick up the file from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#src_bucket PartnerintegrationDeviceConnector#src_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#src_bucket PartnerintegrationDeviceConnector#src_bucket}
   */
   readonly srcBucket?: string;
   /**
   * Name of source file to upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#src_file_name PartnerintegrationDeviceConnector#src_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#src_file_name PartnerintegrationDeviceConnector#src_file_name}
   */
   readonly srcFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#tags PartnerintegrationDeviceConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#tags PartnerintegrationDeviceConnector#tags}
   */
   readonly tags?: PartnerintegrationDeviceConnectorTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#version_context PartnerintegrationDeviceConnector#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#version_context PartnerintegrationDeviceConnector#version_context}
   */
   readonly versionContext?: PartnerintegrationDeviceConnectorVersionContext[] | cdktf.IResolvable;
 }
 export interface PartnerintegrationDeviceConnectorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -419,23 +419,23 @@ export class PartnerintegrationDeviceConnectorAncestorsList extends cdktf.Comple
 }
 export interface PartnerintegrationDeviceConnectorLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -667,23 +667,23 @@ export class PartnerintegrationDeviceConnectorLogsList extends cdktf.ComplexList
 }
 export interface PartnerintegrationDeviceConnectorOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -915,23 +915,23 @@ export class PartnerintegrationDeviceConnectorOrganizationList extends cdktf.Com
 }
 export interface PartnerintegrationDeviceConnectorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -1163,23 +1163,23 @@ export class PartnerintegrationDeviceConnectorParentList extends cdktf.ComplexLi
 }
 export interface PartnerintegrationDeviceConnectorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -1411,23 +1411,23 @@ export class PartnerintegrationDeviceConnectorPermissionResourcesList extends cd
 }
 export interface PartnerintegrationDeviceConnectorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -1659,23 +1659,23 @@ export class PartnerintegrationDeviceConnectorTagsAncestorDefinitionsList extend
 }
 export interface PartnerintegrationDeviceConnectorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -1907,31 +1907,35 @@ export class PartnerintegrationDeviceConnectorTagsDefinitionList extends cdktf.C
 }
 export interface PartnerintegrationDeviceConnectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#ancestor_definitions PartnerintegrationDeviceConnector#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#ancestor_definitions PartnerintegrationDeviceConnector#ancestor_definitions}
   */
   readonly ancestorDefinitions?: PartnerintegrationDeviceConnectorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#definition PartnerintegrationDeviceConnector#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#definition PartnerintegrationDeviceConnector#definition}
   */
   readonly definition?: PartnerintegrationDeviceConnectorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#key PartnerintegrationDeviceConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#key PartnerintegrationDeviceConnector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#propagated PartnerintegrationDeviceConnector#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#propagated PartnerintegrationDeviceConnector#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#type PartnerintegrationDeviceConnector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#sys_tag PartnerintegrationDeviceConnector#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#type PartnerintegrationDeviceConnector#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#value PartnerintegrationDeviceConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#value PartnerintegrationDeviceConnector#value}
   */
   readonly value?: string;
 }
@@ -1947,6 +1951,7 @@ export function partnerintegrationDeviceConnectorTagsToTerraform(struct?: Partne
     definition: cdktf.listMapper(partnerintegrationDeviceConnectorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1985,6 +1990,12 @@ export function partnerintegrationDeviceConnectorTagsToHclTerraform(struct?: Par
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2047,6 +2058,10 @@ export class PartnerintegrationDeviceConnectorTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2067,6 +2082,7 @@ export class PartnerintegrationDeviceConnectorTagsOutputReference extends cdktf.
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2082,6 +2098,7 @@ export class PartnerintegrationDeviceConnectorTagsOutputReference extends cdktf.
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2167,6 +2184,22 @@ export class PartnerintegrationDeviceConnectorTagsOutputReference extends cdktf.
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2221,23 +2254,23 @@ export class PartnerintegrationDeviceConnectorTagsList extends cdktf.ComplexList
 }
 export interface PartnerintegrationDeviceConnectorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -2469,23 +2502,23 @@ export class PartnerintegrationDeviceConnectorVersionContextInterestedMosList ex
 }
 export interface PartnerintegrationDeviceConnectorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#moid PartnerintegrationDeviceConnector#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#selector PartnerintegrationDeviceConnector#selector}
   */
   readonly selector?: string;
 }
@@ -2717,39 +2750,39 @@ export class PartnerintegrationDeviceConnectorVersionContextRefMoList extends cd
 }
 export interface PartnerintegrationDeviceConnectorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#additional_properties PartnerintegrationDeviceConnector#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#class_id PartnerintegrationDeviceConnector#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#interested_mos PartnerintegrationDeviceConnector#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#interested_mos PartnerintegrationDeviceConnector#interested_mos}
   */
   readonly interestedMos?: PartnerintegrationDeviceConnectorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#marked_for_deletion PartnerintegrationDeviceConnector#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#marked_for_deletion PartnerintegrationDeviceConnector#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#nr_version PartnerintegrationDeviceConnector#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#nr_version PartnerintegrationDeviceConnector#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#object_type PartnerintegrationDeviceConnector#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#ref_mo PartnerintegrationDeviceConnector#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#ref_mo PartnerintegrationDeviceConnector#ref_mo}
   */
   readonly refMo?: PartnerintegrationDeviceConnectorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#timestamp PartnerintegrationDeviceConnector#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#timestamp PartnerintegrationDeviceConnector#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#version_type PartnerintegrationDeviceConnector#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#version_type PartnerintegrationDeviceConnector#version_type}
   */
   readonly versionType?: string;
 }
@@ -3097,7 +3130,7 @@ export class PartnerintegrationDeviceConnectorVersionContextList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector intersight_partnerintegration_device_connector}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector intersight_partnerintegration_device_connector}
 */
 export class PartnerintegrationDeviceConnector extends cdktf.TerraformResource {
 
@@ -3113,7 +3146,7 @@ export class PartnerintegrationDeviceConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PartnerintegrationDeviceConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PartnerintegrationDeviceConnector to import
-  * @param importFromId The id of the existing PartnerintegrationDeviceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PartnerintegrationDeviceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PartnerintegrationDeviceConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3125,7 +3158,7 @@ export class PartnerintegrationDeviceConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/partnerintegration_device_connector intersight_partnerintegration_device_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/partnerintegration_device_connector intersight_partnerintegration_device_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3136,8 +3169,8 @@ export class PartnerintegrationDeviceConnector extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_partnerintegration_device_connector',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

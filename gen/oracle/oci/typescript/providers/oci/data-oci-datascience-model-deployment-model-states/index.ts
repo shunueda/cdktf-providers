@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceModelDeploymentModelStatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#compartment_id DataOciDatascienceModelDeploymentModelStates#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#compartment_id DataOciDatascienceModelDeploymentModelStates#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#display_name DataOciDatascienceModelDeploymentModelStates#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#display_name DataOciDatascienceModelDeploymentModelStates#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#id DataOciDatascienceModelDeploymentModelStates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#id DataOciDatascienceModelDeploymentModelStates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#inference_key DataOciDatascienceModelDeploymentModelStates#inference_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#inference_key DataOciDatascienceModelDeploymentModelStates#inference_key}
   */
   readonly inferenceKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#model_deployment_id DataOciDatascienceModelDeploymentModelStates#model_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#model_deployment_id DataOciDatascienceModelDeploymentModelStates#model_deployment_id}
   */
   readonly modelDeploymentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#model_id DataOciDatascienceModelDeploymentModelStates#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#model_id DataOciDatascienceModelDeploymentModelStates#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#project_id DataOciDatascienceModelDeploymentModelStates#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#project_id DataOciDatascienceModelDeploymentModelStates#project_id}
   */
   readonly projectId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#filter DataOciDatascienceModelDeploymentModelStates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#filter DataOciDatascienceModelDeploymentModelStates#filter}
   */
   readonly filter?: DataOciDatascienceModelDeploymentModelStatesFilter[] | cdktf.IResolvable;
 }
@@ -160,15 +160,15 @@ export class DataOciDatascienceModelDeploymentModelStatesModelDeploymentModelSta
 }
 export interface DataOciDatascienceModelDeploymentModelStatesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#name DataOciDatascienceModelDeploymentModelStates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#name DataOciDatascienceModelDeploymentModelStates#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#regex DataOciDatascienceModelDeploymentModelStates#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#regex DataOciDatascienceModelDeploymentModelStates#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#values DataOciDatascienceModelDeploymentModelStates#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#values DataOciDatascienceModelDeploymentModelStates#values}
   */
   readonly values: string[];
 }
@@ -336,7 +336,7 @@ export class DataOciDatascienceModelDeploymentModelStatesFilterList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states oci_datascience_model_deployment_model_states}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states oci_datascience_model_deployment_model_states}
 */
 export class DataOciDatascienceModelDeploymentModelStates extends cdktf.TerraformDataSource {
 
@@ -352,7 +352,7 @@ export class DataOciDatascienceModelDeploymentModelStates extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataOciDatascienceModelDeploymentModelStates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceModelDeploymentModelStates to import
-  * @param importFromId The id of the existing DataOciDatascienceModelDeploymentModelStates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceModelDeploymentModelStates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceModelDeploymentModelStates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class DataOciDatascienceModelDeploymentModelStates extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datascience_model_deployment_model_states oci_datascience_model_deployment_model_states} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datascience_model_deployment_model_states oci_datascience_model_deployment_model_states} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class DataOciDatascienceModelDeploymentModelStates extends cdktf.Terrafor
       terraformResourceType: 'oci_datascience_model_deployment_model_states',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

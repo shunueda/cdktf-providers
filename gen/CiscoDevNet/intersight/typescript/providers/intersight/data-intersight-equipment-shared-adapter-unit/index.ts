@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightEquipmentSharedAdapterUnitConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#account_moid DataIntersightEquipmentSharedAdapterUnit#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#account_moid DataIntersightEquipmentSharedAdapterUnit#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Unique Identifier of a shared adapter unit within a expander module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#adapter_id DataIntersightEquipmentSharedAdapterUnit#adapter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#adapter_id DataIntersightEquipmentSharedAdapterUnit#adapter_id}
   */
   readonly adapterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightEquipmentSharedAdapterUnitConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#create_time DataIntersightEquipmentSharedAdapterUnit#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#create_time DataIntersightEquipmentSharedAdapterUnit#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#device_mo_id DataIntersightEquipmentSharedAdapterUnit#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#device_mo_id DataIntersightEquipmentSharedAdapterUnit#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#dn DataIntersightEquipmentSharedAdapterUnit#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#dn DataIntersightEquipmentSharedAdapterUnit#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#domain_group_moid DataIntersightEquipmentSharedAdapterUnit#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#domain_group_moid DataIntersightEquipmentSharedAdapterUnit#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Firmware version of the shared adapter unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#firmware_version DataIntersightEquipmentSharedAdapterUnit#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#firmware_version DataIntersightEquipmentSharedAdapterUnit#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#id DataIntersightEquipmentSharedAdapterUnit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#id DataIntersightEquipmentSharedAdapterUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,155 +71,155 @@ export interface DataIntersightEquipmentSharedAdapterUnitConfig extends cdktf.Te
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#is_upgraded DataIntersightEquipmentSharedAdapterUnit#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#is_upgraded DataIntersightEquipmentSharedAdapterUnit#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#mod_time DataIntersightEquipmentSharedAdapterUnit#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#mod_time DataIntersightEquipmentSharedAdapterUnit#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#model DataIntersightEquipmentSharedAdapterUnit#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#model DataIntersightEquipmentSharedAdapterUnit#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#oper_reason DataIntersightEquipmentSharedAdapterUnit#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#oper_reason DataIntersightEquipmentSharedAdapterUnit#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * Operational state of the shared adapter unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#oper_state DataIntersightEquipmentSharedAdapterUnit#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#oper_state DataIntersightEquipmentSharedAdapterUnit#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#owners DataIntersightEquipmentSharedAdapterUnit#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#owners DataIntersightEquipmentSharedAdapterUnit#owners}
   */
   readonly owners?: string[];
   /**
   * Part number of a shared adapter unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#part_number DataIntersightEquipmentSharedAdapterUnit#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#part_number DataIntersightEquipmentSharedAdapterUnit#part_number}
   */
   readonly partNumber?: string;
   /**
   * PCIe slot of the adapter in the chassis expander module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#pci_slot DataIntersightEquipmentSharedAdapterUnit#pci_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#pci_slot DataIntersightEquipmentSharedAdapterUnit#pci_slot}
   */
   readonly pciSlot?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#presence DataIntersightEquipmentSharedAdapterUnit#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#presence DataIntersightEquipmentSharedAdapterUnit#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#revision DataIntersightEquipmentSharedAdapterUnit#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#revision DataIntersightEquipmentSharedAdapterUnit#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#rn DataIntersightEquipmentSharedAdapterUnit#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#rn DataIntersightEquipmentSharedAdapterUnit#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#serial DataIntersightEquipmentSharedAdapterUnit#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#serial DataIntersightEquipmentSharedAdapterUnit#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#shared_scope DataIntersightEquipmentSharedAdapterUnit#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#shared_scope DataIntersightEquipmentSharedAdapterUnit#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#vendor DataIntersightEquipmentSharedAdapterUnit#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#vendor DataIntersightEquipmentSharedAdapterUnit#vendor}
   */
   readonly vendor?: string;
   /**
   * adapter_units block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#adapter_units DataIntersightEquipmentSharedAdapterUnit#adapter_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#adapter_units DataIntersightEquipmentSharedAdapterUnit#adapter_units}
   */
   readonly adapterUnits?: DataIntersightEquipmentSharedAdapterUnitAdapterUnits[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#ancestors DataIntersightEquipmentSharedAdapterUnit#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#ancestors DataIntersightEquipmentSharedAdapterUnit#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentSharedAdapterUnitAncestors[] | cdktf.IResolvable;
   /**
   * equipment_expander_module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#equipment_expander_module DataIntersightEquipmentSharedAdapterUnit#equipment_expander_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#equipment_expander_module DataIntersightEquipmentSharedAdapterUnit#equipment_expander_module}
   */
   readonly equipmentExpanderModule?: DataIntersightEquipmentSharedAdapterUnitEquipmentExpanderModule;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#parent DataIntersightEquipmentSharedAdapterUnit#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#parent DataIntersightEquipmentSharedAdapterUnit#parent}
   */
   readonly parent?: DataIntersightEquipmentSharedAdapterUnitParent;
   /**
   * pci_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#pci_endpoint DataIntersightEquipmentSharedAdapterUnit#pci_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#pci_endpoint DataIntersightEquipmentSharedAdapterUnit#pci_endpoint}
   */
   readonly pciEndpoint?: DataIntersightEquipmentSharedAdapterUnitPciEndpoint;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#permission_resources DataIntersightEquipmentSharedAdapterUnit#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#permission_resources DataIntersightEquipmentSharedAdapterUnit#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentSharedAdapterUnitPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#previous_fru DataIntersightEquipmentSharedAdapterUnit#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#previous_fru DataIntersightEquipmentSharedAdapterUnit#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentSharedAdapterUnitPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#registered_device DataIntersightEquipmentSharedAdapterUnit#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#registered_device DataIntersightEquipmentSharedAdapterUnit#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentSharedAdapterUnitRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#tags DataIntersightEquipmentSharedAdapterUnit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#tags DataIntersightEquipmentSharedAdapterUnit#tags}
   */
   readonly tags?: DataIntersightEquipmentSharedAdapterUnitTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#version_context DataIntersightEquipmentSharedAdapterUnit#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#version_context DataIntersightEquipmentSharedAdapterUnit#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentSharedAdapterUnitVersionContext;
 }
@@ -1251,6 +1251,11 @@ export class DataIntersightEquipmentSharedAdapterUnitResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1844,7 +1849,7 @@ export class DataIntersightEquipmentSharedAdapterUnitResultsList extends cdktf.C
 }
 export interface DataIntersightEquipmentSharedAdapterUnitAdapterUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1852,19 +1857,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitAdapterUnits {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1877,7 +1882,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitAdapterUnits {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2109,7 +2114,7 @@ export class DataIntersightEquipmentSharedAdapterUnitAdapterUnitsList extends cd
 }
 export interface DataIntersightEquipmentSharedAdapterUnitAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2117,19 +2122,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2142,7 +2147,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2374,7 +2379,7 @@ export class DataIntersightEquipmentSharedAdapterUnitAncestorsList extends cdktf
 }
 export interface DataIntersightEquipmentSharedAdapterUnitEquipmentExpanderModule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2382,19 +2387,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitEquipmentExpanderModule
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2407,7 +2412,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitEquipmentExpanderModule
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2607,7 +2612,7 @@ export class DataIntersightEquipmentSharedAdapterUnitEquipmentExpanderModuleOutp
 }
 export interface DataIntersightEquipmentSharedAdapterUnitParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2615,19 +2620,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2640,7 +2645,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -2840,7 +2845,7 @@ export class DataIntersightEquipmentSharedAdapterUnitParentOutputReference exten
 }
 export interface DataIntersightEquipmentSharedAdapterUnitPciEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2848,19 +2853,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitPciEndpoint {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2873,7 +2878,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitPciEndpoint {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3073,7 +3078,7 @@ export class DataIntersightEquipmentSharedAdapterUnitPciEndpointOutputReference 
 }
 export interface DataIntersightEquipmentSharedAdapterUnitPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3081,19 +3086,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3106,7 +3111,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3338,7 +3343,7 @@ export class DataIntersightEquipmentSharedAdapterUnitPermissionResourcesList ext
 }
 export interface DataIntersightEquipmentSharedAdapterUnitPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3346,19 +3351,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3371,7 +3376,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3571,7 +3576,7 @@ export class DataIntersightEquipmentSharedAdapterUnitPreviousFruOutputReference 
 }
 export interface DataIntersightEquipmentSharedAdapterUnitRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3579,19 +3584,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3604,7 +3609,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -3804,7 +3809,7 @@ export class DataIntersightEquipmentSharedAdapterUnitRegisteredDeviceOutputRefer
 }
 export interface DataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3812,19 +3817,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3837,7 +3842,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4069,7 +4074,7 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitionsList
 }
 export interface DataIntersightEquipmentSharedAdapterUnitTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4077,19 +4082,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4102,7 +4107,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4302,45 +4307,51 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsDefinitionOutputReferen
 }
 export interface DataIntersightEquipmentSharedAdapterUnitTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#key DataIntersightEquipmentSharedAdapterUnit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#key DataIntersightEquipmentSharedAdapterUnit#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#propagated DataIntersightEquipmentSharedAdapterUnit#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#propagated DataIntersightEquipmentSharedAdapterUnit#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#sys_tag DataIntersightEquipmentSharedAdapterUnit#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#type DataIntersightEquipmentSharedAdapterUnit#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#type DataIntersightEquipmentSharedAdapterUnit#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#value DataIntersightEquipmentSharedAdapterUnit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#value DataIntersightEquipmentSharedAdapterUnit#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#ancestor_definitions DataIntersightEquipmentSharedAdapterUnit#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#ancestor_definitions DataIntersightEquipmentSharedAdapterUnit#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#definition DataIntersightEquipmentSharedAdapterUnit#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#definition DataIntersightEquipmentSharedAdapterUnit#definition}
   */
   readonly definition?: DataIntersightEquipmentSharedAdapterUnitTagsDefinition;
 }
@@ -4354,6 +4365,7 @@ export function dataIntersightEquipmentSharedAdapterUnitTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightEquipmentSharedAdapterUnitTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4382,6 +4394,12 @@ export function dataIntersightEquipmentSharedAdapterUnitTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4448,6 +4466,10 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4474,6 +4496,7 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4489,6 +4512,7 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4542,6 +4566,22 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4630,7 +4670,7 @@ export class DataIntersightEquipmentSharedAdapterUnitTagsList extends cdktf.Comp
 }
 export interface DataIntersightEquipmentSharedAdapterUnitVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4638,19 +4678,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4663,7 +4703,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -4895,7 +4935,7 @@ export class DataIntersightEquipmentSharedAdapterUnitVersionContextInterestedMos
 }
 export interface DataIntersightEquipmentSharedAdapterUnitVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4903,19 +4943,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#moid DataIntersightEquipmentSharedAdapterUnit#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4928,7 +4968,7 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#selector DataIntersightEquipmentSharedAdapterUnit#selector}
   */
   readonly selector?: string;
 }
@@ -5128,7 +5168,7 @@ export class DataIntersightEquipmentSharedAdapterUnitVersionContextRefMoOutputRe
 }
 export interface DataIntersightEquipmentSharedAdapterUnitVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#additional_properties DataIntersightEquipmentSharedAdapterUnit#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5136,32 +5176,32 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#class_id DataIntersightEquipmentSharedAdapterUnit#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#marked_for_deletion DataIntersightEquipmentSharedAdapterUnit#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#marked_for_deletion DataIntersightEquipmentSharedAdapterUnit#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#nr_version DataIntersightEquipmentSharedAdapterUnit#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#nr_version DataIntersightEquipmentSharedAdapterUnit#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#object_type DataIntersightEquipmentSharedAdapterUnit#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#timestamp DataIntersightEquipmentSharedAdapterUnit#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#timestamp DataIntersightEquipmentSharedAdapterUnit#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5172,19 +5212,19 @@ export interface DataIntersightEquipmentSharedAdapterUnitVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#version_type DataIntersightEquipmentSharedAdapterUnit#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#version_type DataIntersightEquipmentSharedAdapterUnit#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#interested_mos DataIntersightEquipmentSharedAdapterUnit#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#interested_mos DataIntersightEquipmentSharedAdapterUnit#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentSharedAdapterUnitVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#ref_mo DataIntersightEquipmentSharedAdapterUnit#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#ref_mo DataIntersightEquipmentSharedAdapterUnit#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentSharedAdapterUnitVersionContextRefMo;
 }
@@ -5500,7 +5540,7 @@ export class DataIntersightEquipmentSharedAdapterUnitVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit intersight_equipment_shared_adapter_unit}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit intersight_equipment_shared_adapter_unit}
 */
 export class DataIntersightEquipmentSharedAdapterUnit extends cdktf.TerraformDataSource {
 
@@ -5516,7 +5556,7 @@ export class DataIntersightEquipmentSharedAdapterUnit extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightEquipmentSharedAdapterUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentSharedAdapterUnit to import
-  * @param importFromId The id of the existing DataIntersightEquipmentSharedAdapterUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentSharedAdapterUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentSharedAdapterUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5528,7 +5568,7 @@ export class DataIntersightEquipmentSharedAdapterUnit extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/equipment_shared_adapter_unit intersight_equipment_shared_adapter_unit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_shared_adapter_unit intersight_equipment_shared_adapter_unit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5539,8 +5579,8 @@ export class DataIntersightEquipmentSharedAdapterUnit extends cdktf.TerraformDat
       terraformResourceType: 'intersight_equipment_shared_adapter_unit',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

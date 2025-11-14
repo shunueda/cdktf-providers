@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ApigatewayGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}
   */
   readonly certificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#id ApigatewayGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#id ApigatewayGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}
   */
   readonly networkSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}
   */
   readonly subnetId: string;
   /**
   * ca_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
   */
   readonly caBundles?: ApigatewayGatewayCaBundles[] | cdktf.IResolvable;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
   */
   readonly locks?: ApigatewayGatewayLocks[] | cdktf.IResolvable;
   /**
   * response_cache_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
   */
   readonly responseCacheDetails?: ApigatewayGatewayResponseCacheDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
   */
   readonly timeouts?: ApigatewayGatewayTimeouts;
 }
@@ -152,15 +152,15 @@ export class ApigatewayGatewayIpAddressesList extends cdktf.ComplexList {
 }
 export interface ApigatewayGatewayCaBundles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#ca_bundle_id ApigatewayGateway#ca_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#ca_bundle_id ApigatewayGateway#ca_bundle_id}
   */
   readonly caBundleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#certificate_authority_id ApigatewayGateway#certificate_authority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#certificate_authority_id ApigatewayGateway#certificate_authority_id}
   */
   readonly certificateAuthorityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
 }
@@ -331,11 +331,11 @@ export class ApigatewayGatewayCaBundlesList extends cdktf.ComplexList {
 }
 export interface ApigatewayGatewayLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#message ApigatewayGateway#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#message ApigatewayGateway#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
 }
@@ -487,11 +487,11 @@ export class ApigatewayGatewayLocksList extends cdktf.ComplexList {
 }
 export interface ApigatewayGatewayResponseCacheDetailsServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#host ApigatewayGateway#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#port ApigatewayGateway#port}
   */
   readonly port?: number;
 }
@@ -636,41 +636,41 @@ export class ApigatewayGatewayResponseCacheDetailsServersList extends cdktf.Comp
 }
 export interface ApigatewayGatewayResponseCacheDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}
   */
   readonly authenticationSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}
   */
   readonly authenticationSecretVersionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}
   */
   readonly connectTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}
   */
   readonly isSslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}
   */
   readonly isSslVerifyDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}
   */
   readonly readTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}
   */
   readonly sendTimeoutInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#type ApigatewayGateway#type}
   */
   readonly type: string;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
   */
   readonly servers?: ApigatewayGatewayResponseCacheDetailsServers[] | cdktf.IResolvable;
 }
@@ -983,15 +983,15 @@ export class ApigatewayGatewayResponseCacheDetailsOutputReference extends cdktf.
 }
 export interface ApigatewayGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#create ApigatewayGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#create ApigatewayGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#delete ApigatewayGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#delete ApigatewayGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#update ApigatewayGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#update ApigatewayGateway#update}
   */
   readonly update?: string;
 }
@@ -1143,7 +1143,7 @@ export class ApigatewayGatewayTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway oci_apigateway_gateway}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway oci_apigateway_gateway}
 */
 export class ApigatewayGateway extends cdktf.TerraformResource {
 
@@ -1159,7 +1159,7 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewayGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayGateway to import
-  * @param importFromId The id of the existing ApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1171,7 +1171,7 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/apigateway_gateway oci_apigateway_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1182,8 +1182,8 @@ export class ApigatewayGateway extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_gateway',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

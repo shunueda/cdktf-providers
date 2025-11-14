@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNtpNtpServerConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#account_moid DataIntersightNtpNtpServer#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#account_moid DataIntersightNtpNtpServer#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNtpNtpServerConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#create_time DataIntersightNtpNtpServer#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#create_time DataIntersightNtpNtpServer#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#device_mo_id DataIntersightNtpNtpServer#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#device_mo_id DataIntersightNtpNtpServer#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#dn DataIntersightNtpNtpServer#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#dn DataIntersightNtpNtpServer#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#domain_group_moid DataIntersightNtpNtpServer#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#domain_group_moid DataIntersightNtpNtpServer#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#id DataIntersightNtpNtpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#id DataIntersightNtpNtpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface DataIntersightNtpNtpServerConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#mod_time DataIntersightNtpNtpServer#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#mod_time DataIntersightNtpNtpServer#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#owners DataIntersightNtpNtpServer#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#owners DataIntersightNtpNtpServer#owners}
   */
   readonly owners?: string[];
   /**
   * The default polling interval of the NTP server in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#poll DataIntersightNtpNtpServer#poll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#poll DataIntersightNtpNtpServer#poll}
   */
   readonly poll?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#rn DataIntersightNtpNtpServer#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#rn DataIntersightNtpNtpServer#rn}
   */
   readonly rn?: string;
   /**
   * The IP address of the NTP server. Supports both IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#server_ip_address DataIntersightNtpNtpServer#server_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#server_ip_address DataIntersightNtpNtpServer#server_ip_address}
   */
   readonly serverIpAddress?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#shared_scope DataIntersightNtpNtpServer#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#shared_scope DataIntersightNtpNtpServer#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The stratum level of the NTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#stratum DataIntersightNtpNtpServer#stratum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#stratum DataIntersightNtpNtpServer#stratum}
   */
   readonly stratum?: number;
   /**
@@ -115,55 +115,55 @@ export interface DataIntersightNtpNtpServerConfig extends cdktf.TerraformMetaArg
   * * `Server` - NTP configured is server type.
   * * `Peer` - NTP configured is peer type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#type DataIntersightNtpNtpServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#type DataIntersightNtpNtpServer#type}
   */
   readonly type?: string;
   /**
   * VRF name to be used by NTP Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#vrf_name DataIntersightNtpNtpServer#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#vrf_name DataIntersightNtpNtpServer#vrf_name}
   */
   readonly vrfName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#ancestors DataIntersightNtpNtpServer#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#ancestors DataIntersightNtpNtpServer#ancestors}
   */
   readonly ancestors?: DataIntersightNtpNtpServerAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#network_element DataIntersightNtpNtpServer#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#network_element DataIntersightNtpNtpServer#network_element}
   */
   readonly networkElement?: DataIntersightNtpNtpServerNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#parent DataIntersightNtpNtpServer#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#parent DataIntersightNtpNtpServer#parent}
   */
   readonly parent?: DataIntersightNtpNtpServerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#permission_resources DataIntersightNtpNtpServer#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#permission_resources DataIntersightNtpNtpServer#permission_resources}
   */
   readonly permissionResources?: DataIntersightNtpNtpServerPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#registered_device DataIntersightNtpNtpServer#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#registered_device DataIntersightNtpNtpServer#registered_device}
   */
   readonly registeredDevice?: DataIntersightNtpNtpServerRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#tags DataIntersightNtpNtpServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#tags DataIntersightNtpNtpServer#tags}
   */
   readonly tags?: DataIntersightNtpNtpServerTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#version_context DataIntersightNtpNtpServer#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#version_context DataIntersightNtpNtpServer#version_context}
   */
   readonly versionContext?: DataIntersightNtpNtpServerVersionContext;
 }
@@ -910,6 +910,11 @@ export class DataIntersightNtpNtpServerResultsTagsOutputReference extends cdktf.
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1450,7 +1455,7 @@ export class DataIntersightNtpNtpServerResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpNtpServerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1458,19 +1463,19 @@ export interface DataIntersightNtpNtpServerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1483,7 +1488,7 @@ export interface DataIntersightNtpNtpServerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -1715,7 +1720,7 @@ export class DataIntersightNtpNtpServerAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpNtpServerNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1723,19 +1728,19 @@ export interface DataIntersightNtpNtpServerNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1748,7 +1753,7 @@ export interface DataIntersightNtpNtpServerNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -1948,7 +1953,7 @@ export class DataIntersightNtpNtpServerNetworkElementOutputReference extends cdk
 }
 export interface DataIntersightNtpNtpServerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1956,19 +1961,19 @@ export interface DataIntersightNtpNtpServerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1981,7 +1986,7 @@ export interface DataIntersightNtpNtpServerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -2181,7 +2186,7 @@ export class DataIntersightNtpNtpServerParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightNtpNtpServerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2189,19 +2194,19 @@ export interface DataIntersightNtpNtpServerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2214,7 +2219,7 @@ export interface DataIntersightNtpNtpServerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -2446,7 +2451,7 @@ export class DataIntersightNtpNtpServerPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightNtpNtpServerRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2454,19 +2459,19 @@ export interface DataIntersightNtpNtpServerRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2479,7 +2484,7 @@ export interface DataIntersightNtpNtpServerRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -2679,7 +2684,7 @@ export class DataIntersightNtpNtpServerRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightNtpNtpServerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2687,19 +2692,19 @@ export interface DataIntersightNtpNtpServerTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2712,7 +2717,7 @@ export interface DataIntersightNtpNtpServerTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -2944,7 +2949,7 @@ export class DataIntersightNtpNtpServerTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightNtpNtpServerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2952,19 +2957,19 @@ export interface DataIntersightNtpNtpServerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2977,7 +2982,7 @@ export interface DataIntersightNtpNtpServerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -3177,45 +3182,51 @@ export class DataIntersightNtpNtpServerTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightNtpNtpServerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#key DataIntersightNtpNtpServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#key DataIntersightNtpNtpServer#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#propagated DataIntersightNtpNtpServer#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#propagated DataIntersightNtpNtpServer#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#sys_tag DataIntersightNtpNtpServer#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#type DataIntersightNtpNtpServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#type DataIntersightNtpNtpServer#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#value DataIntersightNtpNtpServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#value DataIntersightNtpNtpServer#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#ancestor_definitions DataIntersightNtpNtpServer#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#ancestor_definitions DataIntersightNtpNtpServer#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNtpNtpServerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#definition DataIntersightNtpNtpServer#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#definition DataIntersightNtpNtpServer#definition}
   */
   readonly definition?: DataIntersightNtpNtpServerTagsDefinition;
 }
@@ -3229,6 +3240,7 @@ export function dataIntersightNtpNtpServerTagsToTerraform(struct?: DataIntersigh
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNtpNtpServerTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3257,6 +3269,12 @@ export function dataIntersightNtpNtpServerTagsToHclTerraform(struct?: DataInters
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3323,6 +3341,10 @@ export class DataIntersightNtpNtpServerTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3349,6 +3371,7 @@ export class DataIntersightNtpNtpServerTagsOutputReference extends cdktf.Complex
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3364,6 +3387,7 @@ export class DataIntersightNtpNtpServerTagsOutputReference extends cdktf.Complex
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3417,6 +3441,22 @@ export class DataIntersightNtpNtpServerTagsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3505,7 +3545,7 @@ export class DataIntersightNtpNtpServerTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpNtpServerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3513,19 +3553,19 @@ export interface DataIntersightNtpNtpServerVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3538,7 +3578,7 @@ export interface DataIntersightNtpNtpServerVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -3770,7 +3810,7 @@ export class DataIntersightNtpNtpServerVersionContextInterestedMosList extends c
 }
 export interface DataIntersightNtpNtpServerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3778,19 +3818,19 @@ export interface DataIntersightNtpNtpServerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#moid DataIntersightNtpNtpServer#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3803,7 +3843,7 @@ export interface DataIntersightNtpNtpServerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#selector DataIntersightNtpNtpServer#selector}
   */
   readonly selector?: string;
 }
@@ -4003,7 +4043,7 @@ export class DataIntersightNtpNtpServerVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightNtpNtpServerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#additional_properties DataIntersightNtpNtpServer#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4011,32 +4051,32 @@ export interface DataIntersightNtpNtpServerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#class_id DataIntersightNtpNtpServer#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#marked_for_deletion DataIntersightNtpNtpServer#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#marked_for_deletion DataIntersightNtpNtpServer#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#nr_version DataIntersightNtpNtpServer#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#nr_version DataIntersightNtpNtpServer#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#object_type DataIntersightNtpNtpServer#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#timestamp DataIntersightNtpNtpServer#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#timestamp DataIntersightNtpNtpServer#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4047,19 +4087,19 @@ export interface DataIntersightNtpNtpServerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#version_type DataIntersightNtpNtpServer#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#version_type DataIntersightNtpNtpServer#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#interested_mos DataIntersightNtpNtpServer#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#interested_mos DataIntersightNtpNtpServer#interested_mos}
   */
   readonly interestedMos?: DataIntersightNtpNtpServerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#ref_mo DataIntersightNtpNtpServer#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#ref_mo DataIntersightNtpNtpServer#ref_mo}
   */
   readonly refMo?: DataIntersightNtpNtpServerVersionContextRefMo;
 }
@@ -4375,7 +4415,7 @@ export class DataIntersightNtpNtpServerVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server intersight_ntp_ntp_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server intersight_ntp_ntp_server}
 */
 export class DataIntersightNtpNtpServer extends cdktf.TerraformDataSource {
 
@@ -4391,7 +4431,7 @@ export class DataIntersightNtpNtpServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNtpNtpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNtpNtpServer to import
-  * @param importFromId The id of the existing DataIntersightNtpNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNtpNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNtpNtpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4403,7 +4443,7 @@ export class DataIntersightNtpNtpServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/ntp_ntp_server intersight_ntp_ntp_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_ntp_server intersight_ntp_ntp_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4414,8 +4454,8 @@ export class DataIntersightNtpNtpServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ntp_ntp_server',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

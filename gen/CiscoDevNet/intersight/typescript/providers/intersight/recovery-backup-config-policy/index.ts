@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RecoveryBackupConfigPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#account_moid RecoveryBackupConfigPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#account_moid RecoveryBackupConfigPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#ancestors RecoveryBackupConfigPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#ancestors RecoveryBackupConfigPolicy#ancestors}
   */
   readonly ancestors?: RecoveryBackupConfigPolicyAncestors[] | cdktf.IResolvable;
   /**
   * An array of relationships to recoveryBackupProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#backup_profiles RecoveryBackupConfigPolicy#backup_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#backup_profiles RecoveryBackupConfigPolicy#backup_profiles}
   */
   readonly backupProfiles?: RecoveryBackupConfigPolicyBackupProfiles[] | cdktf.IResolvable;
   /**
@@ -34,35 +34,35 @@ export interface RecoveryBackupConfigPolicyConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#create_time RecoveryBackupConfigPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#create_time RecoveryBackupConfigPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#description RecoveryBackupConfigPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#description RecoveryBackupConfigPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#domain_group_moid RecoveryBackupConfigPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#domain_group_moid RecoveryBackupConfigPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Backup image file name prefix with timestamp (e.g., prefix-1572431305418).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#file_name_prefix RecoveryBackupConfigPolicy#file_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#file_name_prefix RecoveryBackupConfigPolicy#file_name_prefix}
   */
   readonly fileNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#id RecoveryBackupConfigPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#id RecoveryBackupConfigPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ export interface RecoveryBackupConfigPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#is_password_set RecoveryBackupConfigPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#is_password_set RecoveryBackupConfigPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
@@ -79,68 +79,68 @@ export interface RecoveryBackupConfigPolicyConfig extends cdktf.TerraformMetaArg
   * * `Network Share` - Backup is stored remotely on a separate server.
   * * `Local Storage` - Backup is stored locally on endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#location_type RecoveryBackupConfigPolicy#location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#location_type RecoveryBackupConfigPolicy#location_type}
   */
   readonly locationType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#mod_time RecoveryBackupConfigPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#mod_time RecoveryBackupConfigPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#name RecoveryBackupConfigPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#name RecoveryBackupConfigPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#organization RecoveryBackupConfigPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#organization RecoveryBackupConfigPolicy#organization}
   */
   readonly organization?: RecoveryBackupConfigPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#owners RecoveryBackupConfigPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#owners RecoveryBackupConfigPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#parent RecoveryBackupConfigPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#parent RecoveryBackupConfigPolicy#parent}
   */
   readonly parent?: RecoveryBackupConfigPolicyParent[] | cdktf.IResolvable;
   /**
   * The backup server password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#password RecoveryBackupConfigPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#password RecoveryBackupConfigPolicy#password}
   */
   readonly password?: string;
   /**
   * File system path for storing backup images, including IP address/hostname (e.g., 172.29.109.234/var/backups/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#path RecoveryBackupConfigPolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#path RecoveryBackupConfigPolicy#path}
   */
   readonly path?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#permission_resources RecoveryBackupConfigPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#permission_resources RecoveryBackupConfigPolicy#permission_resources}
   */
   readonly permissionResources?: RecoveryBackupConfigPolicyPermissionResources[] | cdktf.IResolvable;
   /**
@@ -149,58 +149,58 @@ export interface RecoveryBackupConfigPolicyConfig extends cdktf.TerraformMetaArg
   * * `SFTP` - SSH File Transfer Protocol (SFTP) to access file server.
   * * `FTP` - File Transfer Protocol (FTP) to access file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#protocol RecoveryBackupConfigPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#protocol RecoveryBackupConfigPolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * Number of backup copies maintained on local or remote server (older backups overwritten).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#retention_count RecoveryBackupConfigPolicy#retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#retention_count RecoveryBackupConfigPolicy#retention_count}
   */
   readonly retentionCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#shared_scope RecoveryBackupConfigPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#shared_scope RecoveryBackupConfigPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#tags RecoveryBackupConfigPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#tags RecoveryBackupConfigPolicy#tags}
   */
   readonly tags?: RecoveryBackupConfigPolicyTags[] | cdktf.IResolvable;
   /**
   * The backup server username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#user_name RecoveryBackupConfigPolicy#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#user_name RecoveryBackupConfigPolicy#user_name}
   */
   readonly userName?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#version_context RecoveryBackupConfigPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#version_context RecoveryBackupConfigPolicy#version_context}
   */
   readonly versionContext?: RecoveryBackupConfigPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface RecoveryBackupConfigPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -432,23 +432,23 @@ export class RecoveryBackupConfigPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface RecoveryBackupConfigPolicyBackupProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -680,23 +680,23 @@ export class RecoveryBackupConfigPolicyBackupProfilesList extends cdktf.ComplexL
 }
 export interface RecoveryBackupConfigPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -928,23 +928,23 @@ export class RecoveryBackupConfigPolicyOrganizationList extends cdktf.ComplexLis
 }
 export interface RecoveryBackupConfigPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1176,23 +1176,23 @@ export class RecoveryBackupConfigPolicyParentList extends cdktf.ComplexList {
 }
 export interface RecoveryBackupConfigPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1424,23 +1424,23 @@ export class RecoveryBackupConfigPolicyPermissionResourcesList extends cdktf.Com
 }
 export interface RecoveryBackupConfigPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1672,23 +1672,23 @@ export class RecoveryBackupConfigPolicyTagsAncestorDefinitionsList extends cdktf
 }
 export interface RecoveryBackupConfigPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1920,31 +1920,35 @@ export class RecoveryBackupConfigPolicyTagsDefinitionList extends cdktf.ComplexL
 }
 export interface RecoveryBackupConfigPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#ancestor_definitions RecoveryBackupConfigPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#ancestor_definitions RecoveryBackupConfigPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: RecoveryBackupConfigPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#definition RecoveryBackupConfigPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#definition RecoveryBackupConfigPolicy#definition}
   */
   readonly definition?: RecoveryBackupConfigPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#key RecoveryBackupConfigPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#key RecoveryBackupConfigPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#propagated RecoveryBackupConfigPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#propagated RecoveryBackupConfigPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#type RecoveryBackupConfigPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#sys_tag RecoveryBackupConfigPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#type RecoveryBackupConfigPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#value RecoveryBackupConfigPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#value RecoveryBackupConfigPolicy#value}
   */
   readonly value?: string;
 }
@@ -1960,6 +1964,7 @@ export function recoveryBackupConfigPolicyTagsToTerraform(struct?: RecoveryBacku
     definition: cdktf.listMapper(recoveryBackupConfigPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1998,6 +2003,12 @@ export function recoveryBackupConfigPolicyTagsToHclTerraform(struct?: RecoveryBa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2060,6 +2071,10 @@ export class RecoveryBackupConfigPolicyTagsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2080,6 +2095,7 @@ export class RecoveryBackupConfigPolicyTagsOutputReference extends cdktf.Complex
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2095,6 +2111,7 @@ export class RecoveryBackupConfigPolicyTagsOutputReference extends cdktf.Complex
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2180,6 +2197,22 @@ export class RecoveryBackupConfigPolicyTagsOutputReference extends cdktf.Complex
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2234,23 +2267,23 @@ export class RecoveryBackupConfigPolicyTagsList extends cdktf.ComplexList {
 }
 export interface RecoveryBackupConfigPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2482,23 +2515,23 @@ export class RecoveryBackupConfigPolicyVersionContextInterestedMosList extends c
 }
 export interface RecoveryBackupConfigPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#moid RecoveryBackupConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#selector RecoveryBackupConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2730,39 +2763,39 @@ export class RecoveryBackupConfigPolicyVersionContextRefMoList extends cdktf.Com
 }
 export interface RecoveryBackupConfigPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#additional_properties RecoveryBackupConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#class_id RecoveryBackupConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#interested_mos RecoveryBackupConfigPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#interested_mos RecoveryBackupConfigPolicy#interested_mos}
   */
   readonly interestedMos?: RecoveryBackupConfigPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#marked_for_deletion RecoveryBackupConfigPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#marked_for_deletion RecoveryBackupConfigPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#nr_version RecoveryBackupConfigPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#nr_version RecoveryBackupConfigPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#object_type RecoveryBackupConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#ref_mo RecoveryBackupConfigPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#ref_mo RecoveryBackupConfigPolicy#ref_mo}
   */
   readonly refMo?: RecoveryBackupConfigPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#timestamp RecoveryBackupConfigPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#timestamp RecoveryBackupConfigPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#version_type RecoveryBackupConfigPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#version_type RecoveryBackupConfigPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3110,7 +3143,7 @@ export class RecoveryBackupConfigPolicyVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy intersight_recovery_backup_config_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy intersight_recovery_backup_config_policy}
 */
 export class RecoveryBackupConfigPolicy extends cdktf.TerraformResource {
 
@@ -3126,7 +3159,7 @@ export class RecoveryBackupConfigPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecoveryBackupConfigPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecoveryBackupConfigPolicy to import
-  * @param importFromId The id of the existing RecoveryBackupConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecoveryBackupConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecoveryBackupConfigPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3138,7 +3171,7 @@ export class RecoveryBackupConfigPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/recovery_backup_config_policy intersight_recovery_backup_config_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recovery_backup_config_policy intersight_recovery_backup_config_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3149,8 +3182,8 @@ export class RecoveryBackupConfigPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_recovery_backup_config_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

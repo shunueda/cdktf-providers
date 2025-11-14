@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBiosTokenSettingsConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#account_moid DataIntersightBiosTokenSettings#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#account_moid DataIntersightBiosTokenSettings#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBiosTokenSettingsConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#create_time DataIntersightBiosTokenSettings#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#create_time DataIntersightBiosTokenSettings#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#device_mo_id DataIntersightBiosTokenSettings#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#device_mo_id DataIntersightBiosTokenSettings#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#dn DataIntersightBiosTokenSettings#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#dn DataIntersightBiosTokenSettings#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#domain_group_moid DataIntersightBiosTokenSettings#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#domain_group_moid DataIntersightBiosTokenSettings#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#id DataIntersightBiosTokenSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#id DataIntersightBiosTokenSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,109 @@ export interface DataIntersightBiosTokenSettingsConfig extends cdktf.TerraformMe
   /**
   * Value that represents if the BIOS configuration is active. Possible values are "yes" and "no".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#is_assigned DataIntersightBiosTokenSettings#is_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#is_assigned DataIntersightBiosTokenSettings#is_assigned}
   */
   readonly isAssigned?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#mod_time DataIntersightBiosTokenSettings#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#mod_time DataIntersightBiosTokenSettings#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#owners DataIntersightBiosTokenSettings#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#owners DataIntersightBiosTokenSettings#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#rn DataIntersightBiosTokenSettings#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#rn DataIntersightBiosTokenSettings#rn}
   */
   readonly rn?: string;
   /**
   * Parent server serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#serial DataIntersightBiosTokenSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#serial DataIntersightBiosTokenSettings#serial}
   */
   readonly serial?: string;
   /**
   * BIOS configuration name as found in dn. Possible values are "ADDDC-Sparing", "Maximum-Performance", "Partial-Mirror-mode-1LM", "Mirror-Mode-1LM", "Mirroring", "Lockstep", "Sparing", "Platform-Default".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#settings_mo_rn DataIntersightBiosTokenSettings#settings_mo_rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#settings_mo_rn DataIntersightBiosTokenSettings#settings_mo_rn}
   */
   readonly settingsMoRn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#shared_scope DataIntersightBiosTokenSettings#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#shared_scope DataIntersightBiosTokenSettings#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#ancestors DataIntersightBiosTokenSettings#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#ancestors DataIntersightBiosTokenSettings#ancestors}
   */
   readonly ancestors?: DataIntersightBiosTokenSettingsAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#compute_blade DataIntersightBiosTokenSettings#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#compute_blade DataIntersightBiosTokenSettings#compute_blade}
   */
   readonly computeBlade?: DataIntersightBiosTokenSettingsComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#compute_rack_unit DataIntersightBiosTokenSettings#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#compute_rack_unit DataIntersightBiosTokenSettings#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightBiosTokenSettingsComputeRackUnit;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#inventory_device_info DataIntersightBiosTokenSettings#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#inventory_device_info DataIntersightBiosTokenSettings#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBiosTokenSettingsInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#parent DataIntersightBiosTokenSettings#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#parent DataIntersightBiosTokenSettings#parent}
   */
   readonly parent?: DataIntersightBiosTokenSettingsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#permission_resources DataIntersightBiosTokenSettings#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#permission_resources DataIntersightBiosTokenSettings#permission_resources}
   */
   readonly permissionResources?: DataIntersightBiosTokenSettingsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#registered_device DataIntersightBiosTokenSettings#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#registered_device DataIntersightBiosTokenSettings#registered_device}
   */
   readonly registeredDevice?: DataIntersightBiosTokenSettingsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#tags DataIntersightBiosTokenSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#tags DataIntersightBiosTokenSettings#tags}
   */
   readonly tags?: DataIntersightBiosTokenSettingsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#version_context DataIntersightBiosTokenSettings#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#version_context DataIntersightBiosTokenSettings#version_context}
   */
   readonly versionContext?: DataIntersightBiosTokenSettingsVersionContext;
 }
@@ -1098,6 +1098,11 @@ export class DataIntersightBiosTokenSettingsResultsTagsOutputReference extends c
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1640,7 +1645,7 @@ export class DataIntersightBiosTokenSettingsResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightBiosTokenSettingsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1648,19 +1653,19 @@ export interface DataIntersightBiosTokenSettingsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1673,7 +1678,7 @@ export interface DataIntersightBiosTokenSettingsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -1905,7 +1910,7 @@ export class DataIntersightBiosTokenSettingsAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightBiosTokenSettingsComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1913,19 +1918,19 @@ export interface DataIntersightBiosTokenSettingsComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1938,7 +1943,7 @@ export interface DataIntersightBiosTokenSettingsComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -2138,7 +2143,7 @@ export class DataIntersightBiosTokenSettingsComputeBladeOutputReference extends 
 }
 export interface DataIntersightBiosTokenSettingsComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2146,19 +2151,19 @@ export interface DataIntersightBiosTokenSettingsComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2171,7 +2176,7 @@ export interface DataIntersightBiosTokenSettingsComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -2371,7 +2376,7 @@ export class DataIntersightBiosTokenSettingsComputeRackUnitOutputReference exten
 }
 export interface DataIntersightBiosTokenSettingsInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2379,19 +2384,19 @@ export interface DataIntersightBiosTokenSettingsInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2404,7 +2409,7 @@ export interface DataIntersightBiosTokenSettingsInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -2604,7 +2609,7 @@ export class DataIntersightBiosTokenSettingsInventoryDeviceInfoOutputReference e
 }
 export interface DataIntersightBiosTokenSettingsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2612,19 +2617,19 @@ export interface DataIntersightBiosTokenSettingsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2637,7 +2642,7 @@ export interface DataIntersightBiosTokenSettingsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -2837,7 +2842,7 @@ export class DataIntersightBiosTokenSettingsParentOutputReference extends cdktf.
 }
 export interface DataIntersightBiosTokenSettingsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2845,19 +2850,19 @@ export interface DataIntersightBiosTokenSettingsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2870,7 +2875,7 @@ export interface DataIntersightBiosTokenSettingsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -3102,7 +3107,7 @@ export class DataIntersightBiosTokenSettingsPermissionResourcesList extends cdkt
 }
 export interface DataIntersightBiosTokenSettingsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3110,19 +3115,19 @@ export interface DataIntersightBiosTokenSettingsRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3135,7 +3140,7 @@ export interface DataIntersightBiosTokenSettingsRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -3335,7 +3340,7 @@ export class DataIntersightBiosTokenSettingsRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightBiosTokenSettingsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3343,19 +3348,19 @@ export interface DataIntersightBiosTokenSettingsTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3368,7 +3373,7 @@ export interface DataIntersightBiosTokenSettingsTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -3600,7 +3605,7 @@ export class DataIntersightBiosTokenSettingsTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightBiosTokenSettingsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3608,19 +3613,19 @@ export interface DataIntersightBiosTokenSettingsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3633,7 +3638,7 @@ export interface DataIntersightBiosTokenSettingsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -3833,45 +3838,51 @@ export class DataIntersightBiosTokenSettingsTagsDefinitionOutputReference extend
 }
 export interface DataIntersightBiosTokenSettingsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#key DataIntersightBiosTokenSettings#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#key DataIntersightBiosTokenSettings#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#propagated DataIntersightBiosTokenSettings#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#propagated DataIntersightBiosTokenSettings#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#sys_tag DataIntersightBiosTokenSettings#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#type DataIntersightBiosTokenSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#type DataIntersightBiosTokenSettings#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#value DataIntersightBiosTokenSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#value DataIntersightBiosTokenSettings#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#ancestor_definitions DataIntersightBiosTokenSettings#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#ancestor_definitions DataIntersightBiosTokenSettings#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBiosTokenSettingsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#definition DataIntersightBiosTokenSettings#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#definition DataIntersightBiosTokenSettings#definition}
   */
   readonly definition?: DataIntersightBiosTokenSettingsTagsDefinition;
 }
@@ -3885,6 +3896,7 @@ export function dataIntersightBiosTokenSettingsTagsToTerraform(struct?: DataInte
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightBiosTokenSettingsTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3913,6 +3925,12 @@ export function dataIntersightBiosTokenSettingsTagsToHclTerraform(struct?: DataI
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3979,6 +3997,10 @@ export class DataIntersightBiosTokenSettingsTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4005,6 +4027,7 @@ export class DataIntersightBiosTokenSettingsTagsOutputReference extends cdktf.Co
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4020,6 +4043,7 @@ export class DataIntersightBiosTokenSettingsTagsOutputReference extends cdktf.Co
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4073,6 +4097,22 @@ export class DataIntersightBiosTokenSettingsTagsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4161,7 +4201,7 @@ export class DataIntersightBiosTokenSettingsTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBiosTokenSettingsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4169,19 +4209,19 @@ export interface DataIntersightBiosTokenSettingsVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4194,7 +4234,7 @@ export interface DataIntersightBiosTokenSettingsVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -4426,7 +4466,7 @@ export class DataIntersightBiosTokenSettingsVersionContextInterestedMosList exte
 }
 export interface DataIntersightBiosTokenSettingsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4434,19 +4474,19 @@ export interface DataIntersightBiosTokenSettingsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#moid DataIntersightBiosTokenSettings#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4459,7 +4499,7 @@ export interface DataIntersightBiosTokenSettingsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#selector DataIntersightBiosTokenSettings#selector}
   */
   readonly selector?: string;
 }
@@ -4659,7 +4699,7 @@ export class DataIntersightBiosTokenSettingsVersionContextRefMoOutputReference e
 }
 export interface DataIntersightBiosTokenSettingsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#additional_properties DataIntersightBiosTokenSettings#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4667,32 +4707,32 @@ export interface DataIntersightBiosTokenSettingsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#class_id DataIntersightBiosTokenSettings#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#marked_for_deletion DataIntersightBiosTokenSettings#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#marked_for_deletion DataIntersightBiosTokenSettings#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#nr_version DataIntersightBiosTokenSettings#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#nr_version DataIntersightBiosTokenSettings#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#object_type DataIntersightBiosTokenSettings#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#timestamp DataIntersightBiosTokenSettings#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#timestamp DataIntersightBiosTokenSettings#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4703,19 +4743,19 @@ export interface DataIntersightBiosTokenSettingsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#version_type DataIntersightBiosTokenSettings#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#version_type DataIntersightBiosTokenSettings#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#interested_mos DataIntersightBiosTokenSettings#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#interested_mos DataIntersightBiosTokenSettings#interested_mos}
   */
   readonly interestedMos?: DataIntersightBiosTokenSettingsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#ref_mo DataIntersightBiosTokenSettings#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#ref_mo DataIntersightBiosTokenSettings#ref_mo}
   */
   readonly refMo?: DataIntersightBiosTokenSettingsVersionContextRefMo;
 }
@@ -5031,7 +5071,7 @@ export class DataIntersightBiosTokenSettingsVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings intersight_bios_token_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings intersight_bios_token_settings}
 */
 export class DataIntersightBiosTokenSettings extends cdktf.TerraformDataSource {
 
@@ -5047,7 +5087,7 @@ export class DataIntersightBiosTokenSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBiosTokenSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBiosTokenSettings to import
-  * @param importFromId The id of the existing DataIntersightBiosTokenSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBiosTokenSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBiosTokenSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5059,7 +5099,7 @@ export class DataIntersightBiosTokenSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/bios_token_settings intersight_bios_token_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_token_settings intersight_bios_token_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5070,8 +5110,8 @@ export class DataIntersightBiosTokenSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bios_token_settings',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

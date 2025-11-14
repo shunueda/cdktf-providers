@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#account_moid DataIntersightWorkflowServiceItemInstance#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#account_moid DataIntersightWorkflowServiceItemInstance#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#create_time DataIntersightWorkflowServiceItemInstance#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#create_time DataIntersightWorkflowServiceItemInstance#create_time}
   */
   readonly createTime?: string;
   /**
   * The description for this service item instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#description DataIntersightWorkflowServiceItemInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#description DataIntersightWorkflowServiceItemInstance#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#domain_group_moid DataIntersightWorkflowServiceItemInstance#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#domain_group_moid DataIntersightWorkflowServiceItemInstance#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#id DataIntersightWorkflowServiceItemInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#id DataIntersightWorkflowServiceItemInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   /**
   * A user friendly short name to identify the resource. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.), colon (:), space ( ) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#label DataIntersightWorkflowServiceItemInstance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#label DataIntersightWorkflowServiceItemInstance#label}
   */
   readonly label?: string;
   /**
@@ -64,36 +64,36 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   * * `Okay` - The last action on the service item instance completed and the service item instance is in Okay state.
   * * `Decommissioned` - The service item is decommissioned and can be safely deleted. A service item instance in any other state after it has been created cannot be deleted until it has been decommissioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#last_status DataIntersightWorkflowServiceItemInstance#last_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#last_status DataIntersightWorkflowServiceItemInstance#last_status}
   */
   readonly lastStatus?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#mod_time DataIntersightWorkflowServiceItemInstance#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#mod_time DataIntersightWorkflowServiceItemInstance#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * A name of the service item instance. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#name DataIntersightWorkflowServiceItemInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#name DataIntersightWorkflowServiceItemInstance#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#owners DataIntersightWorkflowServiceItemInstance#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#owners DataIntersightWorkflowServiceItemInstance#owners}
   */
   readonly owners?: string[];
   /**
@@ -106,14 +106,14 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   * * `Deleted` - The service item is deleted.
   * * `Failed` - The service item action is failed to perform the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#resourcelifecycle_status DataIntersightWorkflowServiceItemInstance#resourcelifecycle_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#resourcelifecycle_status DataIntersightWorkflowServiceItemInstance#resourcelifecycle_status}
   */
   readonly resourcelifecycleStatus?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#shared_scope DataIntersightWorkflowServiceItemInstance#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#shared_scope DataIntersightWorkflowServiceItemInstance#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -124,85 +124,85 @@ export interface DataIntersightWorkflowServiceItemInstanceConfig extends cdktf.T
   * * `Okay` - The last action on the service item instance completed and the service item instance is in Okay state.
   * * `Decommissioned` - The service item is decommissioned and can be safely deleted. A service item instance in any other state after it has been created cannot be deleted until it has been decommissioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#status DataIntersightWorkflowServiceItemInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#status DataIntersightWorkflowServiceItemInstance#status}
   */
   readonly status?: string;
   /**
   * The user identifier which indicates the user that started this workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#user_id_or_email DataIntersightWorkflowServiceItemInstance#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#user_id_or_email DataIntersightWorkflowServiceItemInstance#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#ancestors DataIntersightWorkflowServiceItemInstance#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#ancestors DataIntersightWorkflowServiceItemInstance#ancestors}
   */
   readonly ancestors?: DataIntersightWorkflowServiceItemInstanceAncestors[] | cdktf.IResolvable;
   /**
   * catalog_service_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#catalog_service_request DataIntersightWorkflowServiceItemInstance#catalog_service_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#catalog_service_request DataIntersightWorkflowServiceItemInstance#catalog_service_request}
   */
   readonly catalogServiceRequest?: DataIntersightWorkflowServiceItemInstanceCatalogServiceRequest[] | cdktf.IResolvable;
   /**
   * idp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#idp DataIntersightWorkflowServiceItemInstance#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#idp DataIntersightWorkflowServiceItemInstance#idp}
   */
   readonly idp?: DataIntersightWorkflowServiceItemInstanceIdp;
   /**
   * idp_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#idp_reference DataIntersightWorkflowServiceItemInstance#idp_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#idp_reference DataIntersightWorkflowServiceItemInstance#idp_reference}
   */
   readonly idpReference?: DataIntersightWorkflowServiceItemInstanceIdpReference;
   /**
   * migration_history block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#migration_history DataIntersightWorkflowServiceItemInstance#migration_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#migration_history DataIntersightWorkflowServiceItemInstance#migration_history}
   */
   readonly migrationHistory?: DataIntersightWorkflowServiceItemInstanceMigrationHistory[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#organization DataIntersightWorkflowServiceItemInstance#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#organization DataIntersightWorkflowServiceItemInstance#organization}
   */
   readonly organization?: DataIntersightWorkflowServiceItemInstanceOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#parent DataIntersightWorkflowServiceItemInstance#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#parent DataIntersightWorkflowServiceItemInstance#parent}
   */
   readonly parent?: DataIntersightWorkflowServiceItemInstanceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#permission_resources DataIntersightWorkflowServiceItemInstance#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#permission_resources DataIntersightWorkflowServiceItemInstance#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkflowServiceItemInstancePermissionResources[] | cdktf.IResolvable;
   /**
   * service_item_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#service_item_definition DataIntersightWorkflowServiceItemInstance#service_item_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#service_item_definition DataIntersightWorkflowServiceItemInstance#service_item_definition}
   */
   readonly serviceItemDefinition?: DataIntersightWorkflowServiceItemInstanceServiceItemDefinition;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#tags DataIntersightWorkflowServiceItemInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#tags DataIntersightWorkflowServiceItemInstance#tags}
   */
   readonly tags?: DataIntersightWorkflowServiceItemInstanceTags[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#user DataIntersightWorkflowServiceItemInstance#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#user DataIntersightWorkflowServiceItemInstance#user}
   */
   readonly user?: DataIntersightWorkflowServiceItemInstanceUser;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#version_context DataIntersightWorkflowServiceItemInstance#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#version_context DataIntersightWorkflowServiceItemInstance#version_context}
   */
   readonly versionContext?: DataIntersightWorkflowServiceItemInstanceVersionContext;
 }
@@ -1627,6 +1627,11 @@ export class DataIntersightWorkflowServiceItemInstanceResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2287,7 +2292,7 @@ export class DataIntersightWorkflowServiceItemInstanceResultsList extends cdktf.
 }
 export interface DataIntersightWorkflowServiceItemInstanceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2295,19 +2300,19 @@ export interface DataIntersightWorkflowServiceItemInstanceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2320,7 +2325,7 @@ export interface DataIntersightWorkflowServiceItemInstanceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2552,7 +2557,7 @@ export class DataIntersightWorkflowServiceItemInstanceAncestorsList extends cdkt
 }
 export interface DataIntersightWorkflowServiceItemInstanceCatalogServiceRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2560,19 +2565,19 @@ export interface DataIntersightWorkflowServiceItemInstanceCatalogServiceRequest 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2585,7 +2590,7 @@ export interface DataIntersightWorkflowServiceItemInstanceCatalogServiceRequest 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2817,7 +2822,7 @@ export class DataIntersightWorkflowServiceItemInstanceCatalogServiceRequestList 
 }
 export interface DataIntersightWorkflowServiceItemInstanceIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2825,19 +2830,19 @@ export interface DataIntersightWorkflowServiceItemInstanceIdp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2850,7 +2855,7 @@ export interface DataIntersightWorkflowServiceItemInstanceIdp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3050,7 +3055,7 @@ export class DataIntersightWorkflowServiceItemInstanceIdpOutputReference extends
 }
 export interface DataIntersightWorkflowServiceItemInstanceIdpReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3058,19 +3063,19 @@ export interface DataIntersightWorkflowServiceItemInstanceIdpReference {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3083,7 +3088,7 @@ export interface DataIntersightWorkflowServiceItemInstanceIdpReference {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3283,7 +3288,7 @@ export class DataIntersightWorkflowServiceItemInstanceIdpReferenceOutputReferenc
 }
 export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3291,19 +3296,19 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryDestin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3316,7 +3321,7 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryDestin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3516,7 +3521,7 @@ export class DataIntersightWorkflowServiceItemInstanceMigrationHistoryDestinatio
 }
 export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryMigrationActionInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3524,19 +3529,19 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryMigrat
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3549,7 +3554,7 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryMigrat
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3749,7 +3754,7 @@ export class DataIntersightWorkflowServiceItemInstanceMigrationHistoryMigrationA
 }
 export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3757,19 +3762,19 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryNrSour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3782,7 +3787,7 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistoryNrSour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3982,7 +3987,7 @@ export class DataIntersightWorkflowServiceItemInstanceMigrationHistoryNrSourceOu
 }
 export interface DataIntersightWorkflowServiceItemInstanceMigrationHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3990,38 +3995,38 @@ export interface DataIntersightWorkflowServiceItemInstanceMigrationHistory {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
   * The time when the migration was performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#timestamp DataIntersightWorkflowServiceItemInstance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#timestamp DataIntersightWorkflowServiceItemInstance#timestamp}
   */
   readonly timestamp?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#destination DataIntersightWorkflowServiceItemInstance#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#destination DataIntersightWorkflowServiceItemInstance#destination}
   */
   readonly destination?: DataIntersightWorkflowServiceItemInstanceMigrationHistoryDestination;
   /**
   * migration_action_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#migration_action_instance DataIntersightWorkflowServiceItemInstance#migration_action_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#migration_action_instance DataIntersightWorkflowServiceItemInstance#migration_action_instance}
   */
   readonly migrationActionInstance?: DataIntersightWorkflowServiceItemInstanceMigrationHistoryMigrationActionInstance;
   /**
   * nr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#nr_source DataIntersightWorkflowServiceItemInstance#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#nr_source DataIntersightWorkflowServiceItemInstance#nr_source}
   */
   readonly nrSource?: DataIntersightWorkflowServiceItemInstanceMigrationHistoryNrSource;
 }
@@ -4311,7 +4316,7 @@ export class DataIntersightWorkflowServiceItemInstanceMigrationHistoryList exten
 }
 export interface DataIntersightWorkflowServiceItemInstanceOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4319,19 +4324,19 @@ export interface DataIntersightWorkflowServiceItemInstanceOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4344,7 +4349,7 @@ export interface DataIntersightWorkflowServiceItemInstanceOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4544,7 +4549,7 @@ export class DataIntersightWorkflowServiceItemInstanceOrganizationOutputReferenc
 }
 export interface DataIntersightWorkflowServiceItemInstanceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4552,19 +4557,19 @@ export interface DataIntersightWorkflowServiceItemInstanceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4577,7 +4582,7 @@ export interface DataIntersightWorkflowServiceItemInstanceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4777,7 +4782,7 @@ export class DataIntersightWorkflowServiceItemInstanceParentOutputReference exte
 }
 export interface DataIntersightWorkflowServiceItemInstancePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4785,19 +4790,19 @@ export interface DataIntersightWorkflowServiceItemInstancePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4810,7 +4815,7 @@ export interface DataIntersightWorkflowServiceItemInstancePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -5042,7 +5047,7 @@ export class DataIntersightWorkflowServiceItemInstancePermissionResourcesList ex
 }
 export interface DataIntersightWorkflowServiceItemInstanceServiceItemDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5050,19 +5055,19 @@ export interface DataIntersightWorkflowServiceItemInstanceServiceItemDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5075,7 +5080,7 @@ export interface DataIntersightWorkflowServiceItemInstanceServiceItemDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -5275,7 +5280,7 @@ export class DataIntersightWorkflowServiceItemInstanceServiceItemDefinitionOutpu
 }
 export interface DataIntersightWorkflowServiceItemInstanceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5283,19 +5288,19 @@ export interface DataIntersightWorkflowServiceItemInstanceTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5308,7 +5313,7 @@ export interface DataIntersightWorkflowServiceItemInstanceTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -5540,7 +5545,7 @@ export class DataIntersightWorkflowServiceItemInstanceTagsAncestorDefinitionsLis
 }
 export interface DataIntersightWorkflowServiceItemInstanceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5548,19 +5553,19 @@ export interface DataIntersightWorkflowServiceItemInstanceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5573,7 +5578,7 @@ export interface DataIntersightWorkflowServiceItemInstanceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -5773,45 +5778,51 @@ export class DataIntersightWorkflowServiceItemInstanceTagsDefinitionOutputRefere
 }
 export interface DataIntersightWorkflowServiceItemInstanceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#key DataIntersightWorkflowServiceItemInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#key DataIntersightWorkflowServiceItemInstance#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#propagated DataIntersightWorkflowServiceItemInstance#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#propagated DataIntersightWorkflowServiceItemInstance#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#sys_tag DataIntersightWorkflowServiceItemInstance#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#type DataIntersightWorkflowServiceItemInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#type DataIntersightWorkflowServiceItemInstance#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#value DataIntersightWorkflowServiceItemInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#value DataIntersightWorkflowServiceItemInstance#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#ancestor_definitions DataIntersightWorkflowServiceItemInstance#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#ancestor_definitions DataIntersightWorkflowServiceItemInstance#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkflowServiceItemInstanceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#definition DataIntersightWorkflowServiceItemInstance#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#definition DataIntersightWorkflowServiceItemInstance#definition}
   */
   readonly definition?: DataIntersightWorkflowServiceItemInstanceTagsDefinition;
 }
@@ -5825,6 +5836,7 @@ export function dataIntersightWorkflowServiceItemInstanceTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightWorkflowServiceItemInstanceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5853,6 +5865,12 @@ export function dataIntersightWorkflowServiceItemInstanceTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5919,6 +5937,10 @@ export class DataIntersightWorkflowServiceItemInstanceTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5945,6 +5967,7 @@ export class DataIntersightWorkflowServiceItemInstanceTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5960,6 +5983,7 @@ export class DataIntersightWorkflowServiceItemInstanceTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -6013,6 +6037,22 @@ export class DataIntersightWorkflowServiceItemInstanceTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -6101,7 +6141,7 @@ export class DataIntersightWorkflowServiceItemInstanceTagsList extends cdktf.Com
 }
 export interface DataIntersightWorkflowServiceItemInstanceUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6109,19 +6149,19 @@ export interface DataIntersightWorkflowServiceItemInstanceUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6134,7 +6174,7 @@ export interface DataIntersightWorkflowServiceItemInstanceUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -6334,7 +6374,7 @@ export class DataIntersightWorkflowServiceItemInstanceUserOutputReference extend
 }
 export interface DataIntersightWorkflowServiceItemInstanceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6342,19 +6382,19 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6367,7 +6407,7 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -6599,7 +6639,7 @@ export class DataIntersightWorkflowServiceItemInstanceVersionContextInterestedMo
 }
 export interface DataIntersightWorkflowServiceItemInstanceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6607,19 +6647,19 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#moid DataIntersightWorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6632,7 +6672,7 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#selector DataIntersightWorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -6832,7 +6872,7 @@ export class DataIntersightWorkflowServiceItemInstanceVersionContextRefMoOutputR
 }
 export interface DataIntersightWorkflowServiceItemInstanceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#additional_properties DataIntersightWorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6840,32 +6880,32 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#class_id DataIntersightWorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#marked_for_deletion DataIntersightWorkflowServiceItemInstance#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#marked_for_deletion DataIntersightWorkflowServiceItemInstance#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#nr_version DataIntersightWorkflowServiceItemInstance#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#nr_version DataIntersightWorkflowServiceItemInstance#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#object_type DataIntersightWorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#timestamp DataIntersightWorkflowServiceItemInstance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#timestamp DataIntersightWorkflowServiceItemInstance#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6876,19 +6916,19 @@ export interface DataIntersightWorkflowServiceItemInstanceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#version_type DataIntersightWorkflowServiceItemInstance#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#version_type DataIntersightWorkflowServiceItemInstance#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#interested_mos DataIntersightWorkflowServiceItemInstance#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#interested_mos DataIntersightWorkflowServiceItemInstance#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkflowServiceItemInstanceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#ref_mo DataIntersightWorkflowServiceItemInstance#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#ref_mo DataIntersightWorkflowServiceItemInstance#ref_mo}
   */
   readonly refMo?: DataIntersightWorkflowServiceItemInstanceVersionContextRefMo;
 }
@@ -7204,7 +7244,7 @@ export class DataIntersightWorkflowServiceItemInstanceVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance intersight_workflow_service_item_instance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance intersight_workflow_service_item_instance}
 */
 export class DataIntersightWorkflowServiceItemInstance extends cdktf.TerraformDataSource {
 
@@ -7220,7 +7260,7 @@ export class DataIntersightWorkflowServiceItemInstance extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightWorkflowServiceItemInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkflowServiceItemInstance to import
-  * @param importFromId The id of the existing DataIntersightWorkflowServiceItemInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkflowServiceItemInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkflowServiceItemInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7232,7 +7272,7 @@ export class DataIntersightWorkflowServiceItemInstance extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/workflow_service_item_instance intersight_workflow_service_item_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_service_item_instance intersight_workflow_service_item_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7243,8 +7283,8 @@ export class DataIntersightWorkflowServiceItemInstance extends cdktf.TerraformDa
       terraformResourceType: 'intersight_workflow_service_item_instance',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

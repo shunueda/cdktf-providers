@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHyperflexAutoSupportPolicyConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#account_moid DataIntersightHyperflexAutoSupportPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#account_moid DataIntersightHyperflexAutoSupportPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Enable or disable Auto-Support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#admin_state DataIntersightHyperflexAutoSupportPolicy#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#admin_state DataIntersightHyperflexAutoSupportPolicy#admin_state}
   */
   readonly adminState?: boolean | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightHyperflexAutoSupportPolicyConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#create_time DataIntersightHyperflexAutoSupportPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#create_time DataIntersightHyperflexAutoSupportPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#description DataIntersightHyperflexAutoSupportPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#description DataIntersightHyperflexAutoSupportPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#domain_group_moid DataIntersightHyperflexAutoSupportPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#domain_group_moid DataIntersightHyperflexAutoSupportPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#id DataIntersightHyperflexAutoSupportPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#id DataIntersightHyperflexAutoSupportPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightHyperflexAutoSupportPolicyConfig extends cdktf.Te
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#mod_time DataIntersightHyperflexAutoSupportPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#mod_time DataIntersightHyperflexAutoSupportPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#name DataIntersightHyperflexAutoSupportPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#name DataIntersightHyperflexAutoSupportPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#owners DataIntersightHyperflexAutoSupportPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#owners DataIntersightHyperflexAutoSupportPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * The recipient email address for support tickets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#service_ticket_receipient DataIntersightHyperflexAutoSupportPolicy#service_ticket_receipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#service_ticket_receipient DataIntersightHyperflexAutoSupportPolicy#service_ticket_receipient}
   */
   readonly serviceTicketReceipient?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#shared_scope DataIntersightHyperflexAutoSupportPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#shared_scope DataIntersightHyperflexAutoSupportPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#ancestors DataIntersightHyperflexAutoSupportPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#ancestors DataIntersightHyperflexAutoSupportPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexAutoSupportPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#cluster_profiles DataIntersightHyperflexAutoSupportPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#cluster_profiles DataIntersightHyperflexAutoSupportPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightHyperflexAutoSupportPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#organization DataIntersightHyperflexAutoSupportPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#organization DataIntersightHyperflexAutoSupportPolicy#organization}
   */
   readonly organization?: DataIntersightHyperflexAutoSupportPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#parent DataIntersightHyperflexAutoSupportPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#parent DataIntersightHyperflexAutoSupportPolicy#parent}
   */
   readonly parent?: DataIntersightHyperflexAutoSupportPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#permission_resources DataIntersightHyperflexAutoSupportPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#permission_resources DataIntersightHyperflexAutoSupportPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexAutoSupportPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#tags DataIntersightHyperflexAutoSupportPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#tags DataIntersightHyperflexAutoSupportPolicy#tags}
   */
   readonly tags?: DataIntersightHyperflexAutoSupportPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#version_context DataIntersightHyperflexAutoSupportPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#version_context DataIntersightHyperflexAutoSupportPolicy#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexAutoSupportPolicyVersionContext;
 }
@@ -884,6 +884,11 @@ export class DataIntersightHyperflexAutoSupportPolicyResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1404,7 +1409,7 @@ export class DataIntersightHyperflexAutoSupportPolicyResultsList extends cdktf.C
 }
 export interface DataIntersightHyperflexAutoSupportPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1412,19 +1417,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1437,7 +1442,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1669,7 +1674,7 @@ export class DataIntersightHyperflexAutoSupportPolicyAncestorsList extends cdktf
 }
 export interface DataIntersightHyperflexAutoSupportPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1677,19 +1682,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1702,7 +1707,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1934,7 +1939,7 @@ export class DataIntersightHyperflexAutoSupportPolicyClusterProfilesList extends
 }
 export interface DataIntersightHyperflexAutoSupportPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1942,19 +1947,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1967,7 +1972,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2167,7 +2172,7 @@ export class DataIntersightHyperflexAutoSupportPolicyOrganizationOutputReference
 }
 export interface DataIntersightHyperflexAutoSupportPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2175,19 +2180,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2200,7 +2205,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2400,7 +2405,7 @@ export class DataIntersightHyperflexAutoSupportPolicyParentOutputReference exten
 }
 export interface DataIntersightHyperflexAutoSupportPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2408,19 +2413,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2433,7 +2438,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2665,7 +2670,7 @@ export class DataIntersightHyperflexAutoSupportPolicyPermissionResourcesList ext
 }
 export interface DataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2673,19 +2678,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2698,7 +2703,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2930,7 +2935,7 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitionsList
 }
 export interface DataIntersightHyperflexAutoSupportPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2938,19 +2943,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2963,7 +2968,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3163,45 +3168,51 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsDefinitionOutputReferen
 }
 export interface DataIntersightHyperflexAutoSupportPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#key DataIntersightHyperflexAutoSupportPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#key DataIntersightHyperflexAutoSupportPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#propagated DataIntersightHyperflexAutoSupportPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#propagated DataIntersightHyperflexAutoSupportPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#sys_tag DataIntersightHyperflexAutoSupportPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#type DataIntersightHyperflexAutoSupportPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#type DataIntersightHyperflexAutoSupportPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#value DataIntersightHyperflexAutoSupportPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#value DataIntersightHyperflexAutoSupportPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#ancestor_definitions DataIntersightHyperflexAutoSupportPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#ancestor_definitions DataIntersightHyperflexAutoSupportPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#definition DataIntersightHyperflexAutoSupportPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#definition DataIntersightHyperflexAutoSupportPolicy#definition}
   */
   readonly definition?: DataIntersightHyperflexAutoSupportPolicyTagsDefinition;
 }
@@ -3215,6 +3226,7 @@ export function dataIntersightHyperflexAutoSupportPolicyTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexAutoSupportPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3243,6 +3255,12 @@ export function dataIntersightHyperflexAutoSupportPolicyTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3309,6 +3327,10 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3335,6 +3357,7 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3350,6 +3373,7 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3403,6 +3427,22 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3491,7 +3531,7 @@ export class DataIntersightHyperflexAutoSupportPolicyTagsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexAutoSupportPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3499,19 +3539,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3524,7 +3564,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3756,7 +3796,7 @@ export class DataIntersightHyperflexAutoSupportPolicyVersionContextInterestedMos
 }
 export interface DataIntersightHyperflexAutoSupportPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3764,19 +3804,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#moid DataIntersightHyperflexAutoSupportPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3789,7 +3829,7 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#selector DataIntersightHyperflexAutoSupportPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3989,7 +4029,7 @@ export class DataIntersightHyperflexAutoSupportPolicyVersionContextRefMoOutputRe
 }
 export interface DataIntersightHyperflexAutoSupportPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#additional_properties DataIntersightHyperflexAutoSupportPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3997,32 +4037,32 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#class_id DataIntersightHyperflexAutoSupportPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#marked_for_deletion DataIntersightHyperflexAutoSupportPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#marked_for_deletion DataIntersightHyperflexAutoSupportPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#nr_version DataIntersightHyperflexAutoSupportPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#nr_version DataIntersightHyperflexAutoSupportPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#object_type DataIntersightHyperflexAutoSupportPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#timestamp DataIntersightHyperflexAutoSupportPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#timestamp DataIntersightHyperflexAutoSupportPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4033,19 +4073,19 @@ export interface DataIntersightHyperflexAutoSupportPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#version_type DataIntersightHyperflexAutoSupportPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#version_type DataIntersightHyperflexAutoSupportPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#interested_mos DataIntersightHyperflexAutoSupportPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#interested_mos DataIntersightHyperflexAutoSupportPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexAutoSupportPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#ref_mo DataIntersightHyperflexAutoSupportPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#ref_mo DataIntersightHyperflexAutoSupportPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexAutoSupportPolicyVersionContextRefMo;
 }
@@ -4361,7 +4401,7 @@ export class DataIntersightHyperflexAutoSupportPolicyVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy intersight_hyperflex_auto_support_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy intersight_hyperflex_auto_support_policy}
 */
 export class DataIntersightHyperflexAutoSupportPolicy extends cdktf.TerraformDataSource {
 
@@ -4377,7 +4417,7 @@ export class DataIntersightHyperflexAutoSupportPolicy extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightHyperflexAutoSupportPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexAutoSupportPolicy to import
-  * @param importFromId The id of the existing DataIntersightHyperflexAutoSupportPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexAutoSupportPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexAutoSupportPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4389,7 +4429,7 @@ export class DataIntersightHyperflexAutoSupportPolicy extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_auto_support_policy intersight_hyperflex_auto_support_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_auto_support_policy intersight_hyperflex_auto_support_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4400,8 +4440,8 @@ export class DataIntersightHyperflexAutoSupportPolicy extends cdktf.TerraformDat
       terraformResourceType: 'intersight_hyperflex_auto_support_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

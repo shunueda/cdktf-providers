@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#default_branch DevopsRepository#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#default_branch DevopsRepository#default_branch}
   */
   readonly defaultBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#defined_tags DevopsRepository#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#defined_tags DevopsRepository#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#description DevopsRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#description DevopsRepository#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#freeform_tags DevopsRepository#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#freeform_tags DevopsRepository#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#id DevopsRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#id DevopsRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#name DevopsRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#name DevopsRepository#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#parent_repository_id DevopsRepository#parent_repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#parent_repository_id DevopsRepository#parent_repository_id}
   */
   readonly parentRepositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#project_id DevopsRepository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#project_id DevopsRepository#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#repository_type DevopsRepository#repository_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#repository_type DevopsRepository#repository_type}
   */
   readonly repositoryType: string;
   /**
   * mirror_repository_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#mirror_repository_config DevopsRepository#mirror_repository_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#mirror_repository_config DevopsRepository#mirror_repository_config}
   */
   readonly mirrorRepositoryConfig?: DevopsRepositoryMirrorRepositoryConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#timeouts DevopsRepository#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#timeouts DevopsRepository#timeouts}
   */
   readonly timeouts?: DevopsRepositoryTimeouts;
 }
 export interface DevopsRepositoryMirrorRepositoryConfigTriggerSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}
   */
   readonly customSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}
   */
   readonly scheduleType: string;
 }
@@ -175,17 +175,17 @@ export class DevopsRepositoryMirrorRepositoryConfigTriggerScheduleOutputReferenc
 }
 export interface DevopsRepositoryMirrorRepositoryConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#connector_id DevopsRepository#connector_id}
   */
   readonly connectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#repository_url DevopsRepository#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
   * trigger_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#trigger_schedule DevopsRepository#trigger_schedule}
   */
   readonly triggerSchedule?: DevopsRepositoryMirrorRepositoryConfigTriggerSchedule;
 }
@@ -327,15 +327,15 @@ export class DevopsRepositoryMirrorRepositoryConfigOutputReference extends cdktf
 }
 export interface DevopsRepositoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#create DevopsRepository#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#create DevopsRepository#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#delete DevopsRepository#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#delete DevopsRepository#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#update DevopsRepository#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#update DevopsRepository#update}
   */
   readonly update?: string;
 }
@@ -487,7 +487,7 @@ export class DevopsRepositoryTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository oci_devops_repository}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository oci_devops_repository}
 */
 export class DevopsRepository extends cdktf.TerraformResource {
 
@@ -503,7 +503,7 @@ export class DevopsRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsRepository to import
-  * @param importFromId The id of the existing DevopsRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -515,7 +515,7 @@ export class DevopsRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/devops_repository oci_devops_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/devops_repository oci_devops_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,8 +526,8 @@ export class DevopsRepository extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_repository',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface ApplianceExternalSyslogSettingConfig extends cdktf.TerraformMet
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#account ApplianceExternalSyslogSetting#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#account ApplianceExternalSyslogSetting#account}
   */
   readonly account?: ApplianceExternalSyslogSettingAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#account_moid ApplianceExternalSyslogSetting#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#account_moid ApplianceExternalSyslogSetting#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#ancestors ApplianceExternalSyslogSetting#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#ancestors ApplianceExternalSyslogSetting#ancestors}
   */
   readonly ancestors?: ApplianceExternalSyslogSettingAncestors[] | cdktf.IResolvable;
   /**
@@ -35,47 +35,47 @@ export interface ApplianceExternalSyslogSettingConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#create_time ApplianceExternalSyslogSetting#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#create_time ApplianceExternalSyslogSetting#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#domain_group_moid ApplianceExternalSyslogSetting#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#domain_group_moid ApplianceExternalSyslogSetting#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enable or disable External Syslog Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#enabled ApplianceExternalSyslogSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#enabled ApplianceExternalSyslogSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If the flag is set, the alarms reported in Intersight Appliances are exported to external syslog server based on the alarm severity selection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#export_alarms ApplianceExternalSyslogSetting#export_alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#export_alarms ApplianceExternalSyslogSetting#export_alarms}
   */
   readonly exportAlarms?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable exporting of Audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#export_audit ApplianceExternalSyslogSetting#export_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#export_audit ApplianceExternalSyslogSetting#export_audit}
   */
   readonly exportAudit?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable exporting of Web Server access logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#export_nginx ApplianceExternalSyslogSetting#export_nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#export_nginx ApplianceExternalSyslogSetting#export_nginx}
   */
   readonly exportNginx?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#id ApplianceExternalSyslogSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#id ApplianceExternalSyslogSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,43 +84,43 @@ export interface ApplianceExternalSyslogSettingConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#mod_time ApplianceExternalSyslogSetting#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#mod_time ApplianceExternalSyslogSetting#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#owners ApplianceExternalSyslogSetting#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#owners ApplianceExternalSyslogSetting#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#parent ApplianceExternalSyslogSetting#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#parent ApplianceExternalSyslogSetting#parent}
   */
   readonly parent?: ApplianceExternalSyslogSettingParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#permission_resources ApplianceExternalSyslogSetting#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#permission_resources ApplianceExternalSyslogSetting#permission_resources}
   */
   readonly permissionResources?: ApplianceExternalSyslogSettingPermissionResources[] | cdktf.IResolvable;
   /**
   * External Syslog Server Port for connection establishment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#port ApplianceExternalSyslogSetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#port ApplianceExternalSyslogSetting#port}
   */
   readonly port?: number;
   /**
@@ -129,13 +129,13 @@ export interface ApplianceExternalSyslogSettingConfig extends cdktf.TerraformMet
   * * `UDP` - External Syslog messages sent over UDP.
   * * `TLS` - Secure External Syslog messages sent over TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#protocol ApplianceExternalSyslogSetting#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#protocol ApplianceExternalSyslogSetting#protocol}
   */
   readonly protocol?: string;
   /**
   * External Syslog Server Address, can be IP address or hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#server ApplianceExternalSyslogSetting#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#server ApplianceExternalSyslogSetting#server}
   */
   readonly server?: string;
   /**
@@ -146,46 +146,46 @@ export interface ApplianceExternalSyslogSettingConfig extends cdktf.TerraformMet
   * * `Warning` - The Enum value Warning represents the Warning level of severity.
   * * `Cleared` - The Enum value Cleared represents that the alarm severity has been cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#severity ApplianceExternalSyslogSetting#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#severity ApplianceExternalSyslogSetting#severity}
   */
   readonly severity?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#shared_scope ApplianceExternalSyslogSetting#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#shared_scope ApplianceExternalSyslogSetting#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#tags ApplianceExternalSyslogSetting#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#tags ApplianceExternalSyslogSetting#tags}
   */
   readonly tags?: ApplianceExternalSyslogSettingTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#version_context ApplianceExternalSyslogSetting#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#version_context ApplianceExternalSyslogSetting#version_context}
   */
   readonly versionContext?: ApplianceExternalSyslogSettingVersionContext[] | cdktf.IResolvable;
 }
 export interface ApplianceExternalSyslogSettingAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -417,23 +417,23 @@ export class ApplianceExternalSyslogSettingAccountList extends cdktf.ComplexList
 }
 export interface ApplianceExternalSyslogSettingAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -665,23 +665,23 @@ export class ApplianceExternalSyslogSettingAncestorsList extends cdktf.ComplexLi
 }
 export interface ApplianceExternalSyslogSettingParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -913,23 +913,23 @@ export class ApplianceExternalSyslogSettingParentList extends cdktf.ComplexList 
 }
 export interface ApplianceExternalSyslogSettingPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -1161,23 +1161,23 @@ export class ApplianceExternalSyslogSettingPermissionResourcesList extends cdktf
 }
 export interface ApplianceExternalSyslogSettingTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -1409,23 +1409,23 @@ export class ApplianceExternalSyslogSettingTagsAncestorDefinitionsList extends c
 }
 export interface ApplianceExternalSyslogSettingTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -1657,31 +1657,35 @@ export class ApplianceExternalSyslogSettingTagsDefinitionList extends cdktf.Comp
 }
 export interface ApplianceExternalSyslogSettingTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#ancestor_definitions ApplianceExternalSyslogSetting#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#ancestor_definitions ApplianceExternalSyslogSetting#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ApplianceExternalSyslogSettingTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#definition ApplianceExternalSyslogSetting#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#definition ApplianceExternalSyslogSetting#definition}
   */
   readonly definition?: ApplianceExternalSyslogSettingTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#key ApplianceExternalSyslogSetting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#key ApplianceExternalSyslogSetting#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#propagated ApplianceExternalSyslogSetting#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#propagated ApplianceExternalSyslogSetting#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#type ApplianceExternalSyslogSetting#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#sys_tag ApplianceExternalSyslogSetting#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#type ApplianceExternalSyslogSetting#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#value ApplianceExternalSyslogSetting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#value ApplianceExternalSyslogSetting#value}
   */
   readonly value?: string;
 }
@@ -1697,6 +1701,7 @@ export function applianceExternalSyslogSettingTagsToTerraform(struct?: Appliance
     definition: cdktf.listMapper(applianceExternalSyslogSettingTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1735,6 +1740,12 @@ export function applianceExternalSyslogSettingTagsToHclTerraform(struct?: Applia
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1797,6 +1808,10 @@ export class ApplianceExternalSyslogSettingTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1817,6 +1832,7 @@ export class ApplianceExternalSyslogSettingTagsOutputReference extends cdktf.Com
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1832,6 +1848,7 @@ export class ApplianceExternalSyslogSettingTagsOutputReference extends cdktf.Com
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1917,6 +1934,22 @@ export class ApplianceExternalSyslogSettingTagsOutputReference extends cdktf.Com
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1971,23 +2004,23 @@ export class ApplianceExternalSyslogSettingTagsList extends cdktf.ComplexList {
 }
 export interface ApplianceExternalSyslogSettingVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2219,23 +2252,23 @@ export class ApplianceExternalSyslogSettingVersionContextInterestedMosList exten
 }
 export interface ApplianceExternalSyslogSettingVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#moid ApplianceExternalSyslogSetting#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#selector ApplianceExternalSyslogSetting#selector}
   */
   readonly selector?: string;
 }
@@ -2467,39 +2500,39 @@ export class ApplianceExternalSyslogSettingVersionContextRefMoList extends cdktf
 }
 export interface ApplianceExternalSyslogSettingVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#additional_properties ApplianceExternalSyslogSetting#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#class_id ApplianceExternalSyslogSetting#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#interested_mos ApplianceExternalSyslogSetting#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#interested_mos ApplianceExternalSyslogSetting#interested_mos}
   */
   readonly interestedMos?: ApplianceExternalSyslogSettingVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#marked_for_deletion ApplianceExternalSyslogSetting#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#marked_for_deletion ApplianceExternalSyslogSetting#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#nr_version ApplianceExternalSyslogSetting#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#nr_version ApplianceExternalSyslogSetting#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#object_type ApplianceExternalSyslogSetting#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#ref_mo ApplianceExternalSyslogSetting#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#ref_mo ApplianceExternalSyslogSetting#ref_mo}
   */
   readonly refMo?: ApplianceExternalSyslogSettingVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#timestamp ApplianceExternalSyslogSetting#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#timestamp ApplianceExternalSyslogSetting#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#version_type ApplianceExternalSyslogSetting#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#version_type ApplianceExternalSyslogSetting#version_type}
   */
   readonly versionType?: string;
 }
@@ -2847,7 +2880,7 @@ export class ApplianceExternalSyslogSettingVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting intersight_appliance_external_syslog_setting}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting intersight_appliance_external_syslog_setting}
 */
 export class ApplianceExternalSyslogSetting extends cdktf.TerraformResource {
 
@@ -2863,7 +2896,7 @@ export class ApplianceExternalSyslogSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceExternalSyslogSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceExternalSyslogSetting to import
-  * @param importFromId The id of the existing ApplianceExternalSyslogSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceExternalSyslogSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceExternalSyslogSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2875,7 +2908,7 @@ export class ApplianceExternalSyslogSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/appliance_external_syslog_setting intersight_appliance_external_syslog_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_external_syslog_setting intersight_appliance_external_syslog_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2886,8 +2919,8 @@ export class ApplianceExternalSyslogSetting extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_external_syslog_setting',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

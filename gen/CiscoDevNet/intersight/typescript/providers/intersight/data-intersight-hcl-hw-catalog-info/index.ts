@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHclHwCatalogInfoConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#account_moid DataIntersightHclHwCatalogInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#account_moid DataIntersightHclHwCatalogInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHclHwCatalogInfoConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#create_time DataIntersightHclHwCatalogInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#create_time DataIntersightHclHwCatalogInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#domain_group_moid DataIntersightHclHwCatalogInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#domain_group_moid DataIntersightHclHwCatalogInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#id DataIntersightHclHwCatalogInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#id DataIntersightHclHwCatalogInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightHclHwCatalogInfoConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#mod_time DataIntersightHclHwCatalogInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#mod_time DataIntersightHclHwCatalogInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#owners DataIntersightHclHwCatalogInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#owners DataIntersightHclHwCatalogInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Server model information for HyperFlex servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#server_model DataIntersightHclHwCatalogInfo#server_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#server_model DataIntersightHclHwCatalogInfo#server_model}
   */
   readonly serverModel?: string;
   /**
   * Server type of the server hardware. For example, server type AF is for an all-flash server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#server_type DataIntersightHclHwCatalogInfo#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#server_type DataIntersightHclHwCatalogInfo#server_type}
   */
   readonly serverType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#shared_scope DataIntersightHclHwCatalogInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#shared_scope DataIntersightHclHwCatalogInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#ancestors DataIntersightHclHwCatalogInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#ancestors DataIntersightHclHwCatalogInfo#ancestors}
   */
   readonly ancestors?: DataIntersightHclHwCatalogInfoAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#parent DataIntersightHclHwCatalogInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#parent DataIntersightHclHwCatalogInfo#parent}
   */
   readonly parent?: DataIntersightHclHwCatalogInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#permission_resources DataIntersightHclHwCatalogInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#permission_resources DataIntersightHclHwCatalogInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightHclHwCatalogInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * server_hw_catalog_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#server_hw_catalog_info DataIntersightHclHwCatalogInfo#server_hw_catalog_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#server_hw_catalog_info DataIntersightHclHwCatalogInfo#server_hw_catalog_info}
   */
   readonly serverHwCatalogInfo?: DataIntersightHclHwCatalogInfoServerHwCatalogInfo[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#tags DataIntersightHclHwCatalogInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#tags DataIntersightHclHwCatalogInfo#tags}
   */
   readonly tags?: DataIntersightHclHwCatalogInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#version_context DataIntersightHclHwCatalogInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#version_context DataIntersightHclHwCatalogInfo#version_context}
   */
   readonly versionContext?: DataIntersightHclHwCatalogInfoVersionContext;
 }
@@ -771,6 +771,11 @@ export class DataIntersightHclHwCatalogInfoResultsTagsOutputReference extends cd
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1275,7 +1280,7 @@ export class DataIntersightHclHwCatalogInfoResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightHclHwCatalogInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1283,19 +1288,19 @@ export interface DataIntersightHclHwCatalogInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1308,7 +1313,7 @@ export interface DataIntersightHclHwCatalogInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1540,7 +1545,7 @@ export class DataIntersightHclHwCatalogInfoAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHclHwCatalogInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1548,19 +1553,19 @@ export interface DataIntersightHclHwCatalogInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1573,7 +1578,7 @@ export interface DataIntersightHclHwCatalogInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1773,7 +1778,7 @@ export class DataIntersightHclHwCatalogInfoParentOutputReference extends cdktf.C
 }
 export interface DataIntersightHclHwCatalogInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1781,19 +1786,19 @@ export interface DataIntersightHclHwCatalogInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1806,7 +1811,7 @@ export interface DataIntersightHclHwCatalogInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2038,7 +2043,7 @@ export class DataIntersightHclHwCatalogInfoPermissionResourcesList extends cdktf
 }
 export interface DataIntersightHclHwCatalogInfoServerHwCatalogInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2046,19 +2051,19 @@ export interface DataIntersightHclHwCatalogInfoServerHwCatalogInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2071,7 +2076,7 @@ export interface DataIntersightHclHwCatalogInfoServerHwCatalogInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2303,7 +2308,7 @@ export class DataIntersightHclHwCatalogInfoServerHwCatalogInfoList extends cdktf
 }
 export interface DataIntersightHclHwCatalogInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2311,19 +2316,19 @@ export interface DataIntersightHclHwCatalogInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2336,7 +2341,7 @@ export interface DataIntersightHclHwCatalogInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2568,7 +2573,7 @@ export class DataIntersightHclHwCatalogInfoTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightHclHwCatalogInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2576,19 +2581,19 @@ export interface DataIntersightHclHwCatalogInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2601,7 +2606,7 @@ export interface DataIntersightHclHwCatalogInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2801,45 +2806,51 @@ export class DataIntersightHclHwCatalogInfoTagsDefinitionOutputReference extends
 }
 export interface DataIntersightHclHwCatalogInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#key DataIntersightHclHwCatalogInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#key DataIntersightHclHwCatalogInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#propagated DataIntersightHclHwCatalogInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#propagated DataIntersightHclHwCatalogInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#sys_tag DataIntersightHclHwCatalogInfo#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#type DataIntersightHclHwCatalogInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#type DataIntersightHclHwCatalogInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#value DataIntersightHclHwCatalogInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#value DataIntersightHclHwCatalogInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#ancestor_definitions DataIntersightHclHwCatalogInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#ancestor_definitions DataIntersightHclHwCatalogInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHclHwCatalogInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#definition DataIntersightHclHwCatalogInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#definition DataIntersightHclHwCatalogInfo#definition}
   */
   readonly definition?: DataIntersightHclHwCatalogInfoTagsDefinition;
 }
@@ -2853,6 +2864,7 @@ export function dataIntersightHclHwCatalogInfoTagsToTerraform(struct?: DataInter
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHclHwCatalogInfoTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2881,6 +2893,12 @@ export function dataIntersightHclHwCatalogInfoTagsToHclTerraform(struct?: DataIn
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2947,6 +2965,10 @@ export class DataIntersightHclHwCatalogInfoTagsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2973,6 +2995,7 @@ export class DataIntersightHclHwCatalogInfoTagsOutputReference extends cdktf.Com
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2988,6 +3011,7 @@ export class DataIntersightHclHwCatalogInfoTagsOutputReference extends cdktf.Com
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3041,6 +3065,22 @@ export class DataIntersightHclHwCatalogInfoTagsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3129,7 +3169,7 @@ export class DataIntersightHclHwCatalogInfoTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHclHwCatalogInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3137,19 +3177,19 @@ export interface DataIntersightHclHwCatalogInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3162,7 +3202,7 @@ export interface DataIntersightHclHwCatalogInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3394,7 +3434,7 @@ export class DataIntersightHclHwCatalogInfoVersionContextInterestedMosList exten
 }
 export interface DataIntersightHclHwCatalogInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3402,19 +3442,19 @@ export interface DataIntersightHclHwCatalogInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#moid DataIntersightHclHwCatalogInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3427,7 +3467,7 @@ export interface DataIntersightHclHwCatalogInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#selector DataIntersightHclHwCatalogInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3627,7 +3667,7 @@ export class DataIntersightHclHwCatalogInfoVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightHclHwCatalogInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#additional_properties DataIntersightHclHwCatalogInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3635,32 +3675,32 @@ export interface DataIntersightHclHwCatalogInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#class_id DataIntersightHclHwCatalogInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#marked_for_deletion DataIntersightHclHwCatalogInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#marked_for_deletion DataIntersightHclHwCatalogInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#nr_version DataIntersightHclHwCatalogInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#nr_version DataIntersightHclHwCatalogInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#object_type DataIntersightHclHwCatalogInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#timestamp DataIntersightHclHwCatalogInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#timestamp DataIntersightHclHwCatalogInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3671,19 +3711,19 @@ export interface DataIntersightHclHwCatalogInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#version_type DataIntersightHclHwCatalogInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#version_type DataIntersightHclHwCatalogInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#interested_mos DataIntersightHclHwCatalogInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#interested_mos DataIntersightHclHwCatalogInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightHclHwCatalogInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#ref_mo DataIntersightHclHwCatalogInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#ref_mo DataIntersightHclHwCatalogInfo#ref_mo}
   */
   readonly refMo?: DataIntersightHclHwCatalogInfoVersionContextRefMo;
 }
@@ -3999,7 +4039,7 @@ export class DataIntersightHclHwCatalogInfoVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info intersight_hcl_hw_catalog_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info intersight_hcl_hw_catalog_info}
 */
 export class DataIntersightHclHwCatalogInfo extends cdktf.TerraformDataSource {
 
@@ -4015,7 +4055,7 @@ export class DataIntersightHclHwCatalogInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHclHwCatalogInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHclHwCatalogInfo to import
-  * @param importFromId The id of the existing DataIntersightHclHwCatalogInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHclHwCatalogInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHclHwCatalogInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4027,7 +4067,7 @@ export class DataIntersightHclHwCatalogInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hcl_hw_catalog_info intersight_hcl_hw_catalog_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hw_catalog_info intersight_hcl_hw_catalog_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4038,8 +4078,8 @@ export class DataIntersightHclHwCatalogInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hcl_hw_catalog_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

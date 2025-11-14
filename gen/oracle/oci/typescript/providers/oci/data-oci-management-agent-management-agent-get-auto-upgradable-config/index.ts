@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciManagementAgentManagementAgentGetAutoUpgradableConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#compartment_id DataOciManagementAgentManagementAgentGetAutoUpgradableConfig#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#compartment_id DataOciManagementAgentManagementAgentGetAutoUpgradableConfig#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#id DataOciManagementAgentManagementAgentGetAutoUpgradableConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#id DataOciManagementAgentManagementAgentGetAutoUpgradableConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciManagementAgentManagementAgentGetAutoUpgradableConfigCon
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config oci_management_agent_management_agent_get_auto_upgradable_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config oci_management_agent_management_agent_get_auto_upgradable_config}
 */
 export class DataOciManagementAgentManagementAgentGetAutoUpgradableConfig extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataOciManagementAgentManagementAgentGetAutoUpgradableConfig extend
   * Generates CDKTF code for importing a DataOciManagementAgentManagementAgentGetAutoUpgradableConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciManagementAgentManagementAgentGetAutoUpgradableConfig to import
-  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentGetAutoUpgradableConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentGetAutoUpgradableConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciManagementAgentManagementAgentGetAutoUpgradableConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataOciManagementAgentManagementAgentGetAutoUpgradableConfig extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config oci_management_agent_management_agent_get_auto_upgradable_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config oci_management_agent_management_agent_get_auto_upgradable_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataOciManagementAgentManagementAgentGetAutoUpgradableConfig extend
       terraformResourceType: 'oci_management_agent_management_agent_get_auto_upgradable_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

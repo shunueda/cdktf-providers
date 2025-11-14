@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDnsRrsetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#domain DataOciDnsRrsets#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#domain DataOciDnsRrsets#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#domain_contains DataOciDnsRrsets#domain_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#domain_contains DataOciDnsRrsets#domain_contains}
   */
   readonly domainContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#id DataOciDnsRrsets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#id DataOciDnsRrsets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#rtype DataOciDnsRrsets#rtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#rtype DataOciDnsRrsets#rtype}
   */
   readonly rtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#scope DataOciDnsRrsets#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#scope DataOciDnsRrsets#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#view_id DataOciDnsRrsets#view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#view_id DataOciDnsRrsets#view_id}
   */
   readonly viewId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#zone_name_or_id DataOciDnsRrsets#zone_name_or_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#zone_name_or_id DataOciDnsRrsets#zone_name_or_id}
   */
   readonly zoneNameOrId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#filter DataOciDnsRrsets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#filter DataOciDnsRrsets#filter}
   */
   readonly filter?: DataOciDnsRrsetsFilter[] | cdktf.IResolvable;
 }
@@ -238,15 +238,15 @@ export class DataOciDnsRrsetsRrsetsList extends cdktf.ComplexList {
 }
 export interface DataOciDnsRrsetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#name DataOciDnsRrsets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#name DataOciDnsRrsets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#regex DataOciDnsRrsets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#regex DataOciDnsRrsets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#values DataOciDnsRrsets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#values DataOciDnsRrsets#values}
   */
   readonly values: string[];
 }
@@ -414,7 +414,7 @@ export class DataOciDnsRrsetsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets oci_dns_rrsets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets oci_dns_rrsets}
 */
 export class DataOciDnsRrsets extends cdktf.TerraformDataSource {
 
@@ -430,7 +430,7 @@ export class DataOciDnsRrsets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDnsRrsets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDnsRrsets to import
-  * @param importFromId The id of the existing DataOciDnsRrsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDnsRrsets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDnsRrsets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class DataOciDnsRrsets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dns_rrsets oci_dns_rrsets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dns_rrsets oci_dns_rrsets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +453,8 @@ export class DataOciDnsRrsets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_dns_rrsets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

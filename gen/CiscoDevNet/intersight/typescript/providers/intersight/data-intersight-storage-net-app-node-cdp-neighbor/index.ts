@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#account_moid DataIntersightStorageNetAppNodeCdpNeighbor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#account_moid DataIntersightStorageNetAppNodeCdpNeighbor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#capabilities DataIntersightStorageNetAppNodeCdpNeighbor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#capabilities DataIntersightStorageNetAppNodeCdpNeighbor#capabilities}
   */
   readonly capabilities?: string[];
   /**
@@ -26,41 +26,41 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#create_time DataIntersightStorageNetAppNodeCdpNeighbor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#create_time DataIntersightStorageNetAppNodeCdpNeighbor#create_time}
   */
   readonly createTime?: string;
   /**
   * The IP address of the CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#device_ip DataIntersightStorageNetAppNodeCdpNeighbor#device_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#device_ip DataIntersightStorageNetAppNodeCdpNeighbor#device_ip}
   */
   readonly deviceIp?: string;
   /**
   * The name of the CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#discovered_device DataIntersightStorageNetAppNodeCdpNeighbor#discovered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#discovered_device DataIntersightStorageNetAppNodeCdpNeighbor#discovered_device}
   */
   readonly discoveredDevice?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#domain_group_moid DataIntersightStorageNetAppNodeCdpNeighbor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#domain_group_moid DataIntersightStorageNetAppNodeCdpNeighbor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The period of time for which CDP advertisements are cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#hold_time_remaining DataIntersightStorageNetAppNodeCdpNeighbor#hold_time_remaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#hold_time_remaining DataIntersightStorageNetAppNodeCdpNeighbor#hold_time_remaining}
   */
   readonly holdTimeRemaining?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#id DataIntersightStorageNetAppNodeCdpNeighbor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#id DataIntersightStorageNetAppNodeCdpNeighbor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,103 +69,103 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborConfig extends cdktf.
   /**
   * The interface of the CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#interface DataIntersightStorageNetAppNodeCdpNeighbor#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#interface DataIntersightStorageNetAppNodeCdpNeighbor#interface}
   */
   readonly interface?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#mod_time DataIntersightStorageNetAppNodeCdpNeighbor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#mod_time DataIntersightStorageNetAppNodeCdpNeighbor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The node that owns the port for this CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#node_name DataIntersightStorageNetAppNodeCdpNeighbor#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#node_name DataIntersightStorageNetAppNodeCdpNeighbor#node_name}
   */
   readonly nodeName?: string;
   /**
   * The version of the operating system running on the CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#nr_version DataIntersightStorageNetAppNodeCdpNeighbor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#nr_version DataIntersightStorageNetAppNodeCdpNeighbor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#owners DataIntersightStorageNetAppNodeCdpNeighbor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#owners DataIntersightStorageNetAppNodeCdpNeighbor#owners}
   */
   readonly owners?: string[];
   /**
   * The platform of the CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#platform DataIntersightStorageNetAppNodeCdpNeighbor#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#platform DataIntersightStorageNetAppNodeCdpNeighbor#platform}
   */
   readonly platform?: string;
   /**
   * The port for this CDP neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#port DataIntersightStorageNetAppNodeCdpNeighbor#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#port DataIntersightStorageNetAppNodeCdpNeighbor#port}
   */
   readonly port?: string;
   /**
   * The protocol used for CDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#protocol DataIntersightStorageNetAppNodeCdpNeighbor#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#protocol DataIntersightStorageNetAppNodeCdpNeighbor#protocol}
   */
   readonly protocol?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#shared_scope DataIntersightStorageNetAppNodeCdpNeighbor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#shared_scope DataIntersightStorageNetAppNodeCdpNeighbor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#ancestors DataIntersightStorageNetAppNodeCdpNeighbor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#ancestors DataIntersightStorageNetAppNodeCdpNeighbor#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppNodeCdpNeighborAncestors[] | cdktf.IResolvable;
   /**
   * array_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#array_controller DataIntersightStorageNetAppNodeCdpNeighbor#array_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#array_controller DataIntersightStorageNetAppNodeCdpNeighbor#array_controller}
   */
   readonly arrayController?: DataIntersightStorageNetAppNodeCdpNeighborArrayController;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#parent DataIntersightStorageNetAppNodeCdpNeighbor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#parent DataIntersightStorageNetAppNodeCdpNeighbor#parent}
   */
   readonly parent?: DataIntersightStorageNetAppNodeCdpNeighborParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#permission_resources DataIntersightStorageNetAppNodeCdpNeighbor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#permission_resources DataIntersightStorageNetAppNodeCdpNeighbor#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppNodeCdpNeighborPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#tags DataIntersightStorageNetAppNodeCdpNeighbor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#tags DataIntersightStorageNetAppNodeCdpNeighbor#tags}
   */
   readonly tags?: DataIntersightStorageNetAppNodeCdpNeighborTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#version_context DataIntersightStorageNetAppNodeCdpNeighbor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#version_context DataIntersightStorageNetAppNodeCdpNeighbor#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppNodeCdpNeighborVersionContext;
 }
@@ -817,6 +817,11 @@ export class DataIntersightStorageNetAppNodeCdpNeighborResultsTagsOutputReferenc
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1361,7 +1366,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborResultsList extends cdktf
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1369,19 +1374,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1394,7 +1399,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -1626,7 +1631,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborAncestorsList extends cdk
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborArrayController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1634,19 +1639,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborArrayController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1659,7 +1664,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborArrayController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -1859,7 +1864,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborArrayControllerOutputRefe
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1867,19 +1872,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1892,7 +1897,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -2092,7 +2097,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborParentOutputReference ext
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2100,19 +2105,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2125,7 +2130,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -2357,7 +2362,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborPermissionResourcesList e
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2365,19 +2370,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2390,7 +2395,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -2622,7 +2627,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitionsLi
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2630,19 +2635,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2655,7 +2660,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -2855,45 +2860,51 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsDefinitionOutputRefer
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#key DataIntersightStorageNetAppNodeCdpNeighbor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#key DataIntersightStorageNetAppNodeCdpNeighbor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#propagated DataIntersightStorageNetAppNodeCdpNeighbor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#propagated DataIntersightStorageNetAppNodeCdpNeighbor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#sys_tag DataIntersightStorageNetAppNodeCdpNeighbor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#type DataIntersightStorageNetAppNodeCdpNeighbor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#type DataIntersightStorageNetAppNodeCdpNeighbor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#value DataIntersightStorageNetAppNodeCdpNeighbor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#value DataIntersightStorageNetAppNodeCdpNeighbor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#ancestor_definitions DataIntersightStorageNetAppNodeCdpNeighbor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#ancestor_definitions DataIntersightStorageNetAppNodeCdpNeighbor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#definition DataIntersightStorageNetAppNodeCdpNeighbor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#definition DataIntersightStorageNetAppNodeCdpNeighbor#definition}
   */
   readonly definition?: DataIntersightStorageNetAppNodeCdpNeighborTagsDefinition;
 }
@@ -2907,6 +2918,7 @@ export function dataIntersightStorageNetAppNodeCdpNeighborTagsToTerraform(struct
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageNetAppNodeCdpNeighborTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2935,6 +2947,12 @@ export function dataIntersightStorageNetAppNodeCdpNeighborTagsToHclTerraform(str
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3001,6 +3019,10 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsOutputReference exten
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3027,6 +3049,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsOutputReference exten
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3042,6 +3065,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsOutputReference exten
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3095,6 +3119,22 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3183,7 +3223,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborTagsList extends cdktf.Co
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3191,19 +3231,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3216,7 +3256,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -3448,7 +3488,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborVersionContextInterestedM
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3456,19 +3496,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#moid DataIntersightStorageNetAppNodeCdpNeighbor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3481,7 +3521,7 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#selector DataIntersightStorageNetAppNodeCdpNeighbor#selector}
   */
   readonly selector?: string;
 }
@@ -3681,7 +3721,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborVersionContextRefMoOutput
 }
 export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#additional_properties DataIntersightStorageNetAppNodeCdpNeighbor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3689,32 +3729,32 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#class_id DataIntersightStorageNetAppNodeCdpNeighbor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#marked_for_deletion DataIntersightStorageNetAppNodeCdpNeighbor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#marked_for_deletion DataIntersightStorageNetAppNodeCdpNeighbor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#nr_version DataIntersightStorageNetAppNodeCdpNeighbor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#nr_version DataIntersightStorageNetAppNodeCdpNeighbor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#object_type DataIntersightStorageNetAppNodeCdpNeighbor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#timestamp DataIntersightStorageNetAppNodeCdpNeighbor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#timestamp DataIntersightStorageNetAppNodeCdpNeighbor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3725,19 +3765,19 @@ export interface DataIntersightStorageNetAppNodeCdpNeighborVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#version_type DataIntersightStorageNetAppNodeCdpNeighbor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#version_type DataIntersightStorageNetAppNodeCdpNeighbor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#interested_mos DataIntersightStorageNetAppNodeCdpNeighbor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#interested_mos DataIntersightStorageNetAppNodeCdpNeighbor#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppNodeCdpNeighborVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#ref_mo DataIntersightStorageNetAppNodeCdpNeighbor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#ref_mo DataIntersightStorageNetAppNodeCdpNeighbor#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppNodeCdpNeighborVersionContextRefMo;
 }
@@ -4053,7 +4093,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighborVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor intersight_storage_net_app_node_cdp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor intersight_storage_net_app_node_cdp_neighbor}
 */
 export class DataIntersightStorageNetAppNodeCdpNeighbor extends cdktf.TerraformDataSource {
 
@@ -4069,7 +4109,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighbor extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightStorageNetAppNodeCdpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppNodeCdpNeighbor to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppNodeCdpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppNodeCdpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppNodeCdpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4081,7 +4121,7 @@ export class DataIntersightStorageNetAppNodeCdpNeighbor extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_net_app_node_cdp_neighbor intersight_storage_net_app_node_cdp_neighbor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_node_cdp_neighbor intersight_storage_net_app_node_cdp_neighbor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4092,8 +4132,8 @@ export class DataIntersightStorageNetAppNodeCdpNeighbor extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_net_app_node_cdp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

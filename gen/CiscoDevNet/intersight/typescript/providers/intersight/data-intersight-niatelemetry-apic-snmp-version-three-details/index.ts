@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsConfig ext
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#account_moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#account_moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * AuthType of SNMP V3 in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#auth_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#auth_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#auth_type}
   */
   readonly authType?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsConfig ext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#create_time DataIntersightNiatelemetryApicSnmpVersionThreeDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#create_time DataIntersightNiatelemetryApicSnmpVersionThreeDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of SNMP V3 attribute in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#dn DataIntersightNiatelemetryApicSnmpVersionThreeDetails#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#dn DataIntersightNiatelemetryApicSnmpVersionThreeDetails#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#domain_group_moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#domain_group_moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,97 +59,97 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsConfig ext
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#mod_time DataIntersightNiatelemetryApicSnmpVersionThreeDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#mod_time DataIntersightNiatelemetryApicSnmpVersionThreeDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * Name of SNMP V3 attribute in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#name DataIntersightNiatelemetryApicSnmpVersionThreeDetails#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#name DataIntersightNiatelemetryApicSnmpVersionThreeDetails#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#owners DataIntersightNiatelemetryApicSnmpVersionThreeDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#owners DataIntersightNiatelemetryApicSnmpVersionThreeDetails#owners}
   */
   readonly owners?: string[];
   /**
   * PrivType of SNMP V3 in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#priv_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#priv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#priv_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#priv_type}
   */
   readonly privType?: string;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#record_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#record_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#record_version DataIntersightNiatelemetryApicSnmpVersionThreeDetails#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#record_version DataIntersightNiatelemetryApicSnmpVersionThreeDetails#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#shared_scope DataIntersightNiatelemetryApicSnmpVersionThreeDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#shared_scope DataIntersightNiatelemetryApicSnmpVersionThreeDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#site_name DataIntersightNiatelemetryApicSnmpVersionThreeDetails#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#site_name DataIntersightNiatelemetryApicSnmpVersionThreeDetails#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ancestors DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ancestors DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#parent DataIntersightNiatelemetryApicSnmpVersionThreeDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#parent DataIntersightNiatelemetryApicSnmpVersionThreeDetails#parent}
   */
   readonly parent?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#permission_resources DataIntersightNiatelemetryApicSnmpVersionThreeDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#permission_resources DataIntersightNiatelemetryApicSnmpVersionThreeDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#registered_device DataIntersightNiatelemetryApicSnmpVersionThreeDetails#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#registered_device DataIntersightNiatelemetryApicSnmpVersionThreeDetails#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#tags DataIntersightNiatelemetryApicSnmpVersionThreeDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#tags DataIntersightNiatelemetryApicSnmpVersionThreeDetails#tags}
   */
   readonly tags?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#version_context DataIntersightNiatelemetryApicSnmpVersionThreeDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#version_context DataIntersightNiatelemetryApicSnmpVersionThreeDetails#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContext;
 }
@@ -801,6 +801,11 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsResultsTagsOut
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1330,7 +1335,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsResultsList ex
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1338,19 +1343,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsAncestors 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1363,7 +1368,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsAncestors 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1595,7 +1600,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsAncestorsList 
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1603,19 +1608,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1628,7 +1633,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1828,7 +1833,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsParentOutputRe
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1836,19 +1841,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsPermission
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1861,7 +1866,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsPermission
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2093,7 +2098,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsPermissionReso
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,19 +2106,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsRegistered
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2126,7 +2131,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsRegistered
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2326,7 +2331,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsRegisteredDevi
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2334,19 +2339,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2359,7 +2364,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2591,7 +2596,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncestorDe
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2599,19 +2604,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2624,7 +2629,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2824,45 +2829,51 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsDefinition
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#key DataIntersightNiatelemetryApicSnmpVersionThreeDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#key DataIntersightNiatelemetryApicSnmpVersionThreeDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#propagated DataIntersightNiatelemetryApicSnmpVersionThreeDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#propagated DataIntersightNiatelemetryApicSnmpVersionThreeDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#sys_tag DataIntersightNiatelemetryApicSnmpVersionThreeDetails#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#value DataIntersightNiatelemetryApicSnmpVersionThreeDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#value DataIntersightNiatelemetryApicSnmpVersionThreeDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ancestor_definitions DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ancestor_definitions DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#definition DataIntersightNiatelemetryApicSnmpVersionThreeDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#definition DataIntersightNiatelemetryApicSnmpVersionThreeDetails#definition}
   */
   readonly definition?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsDefinition;
 }
@@ -2876,6 +2887,7 @@ export function dataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsToTerra
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2904,6 +2916,12 @@ export function dataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsToHclTe
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2970,6 +2988,10 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsOutputRefe
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2996,6 +3018,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsOutputRefe
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3011,6 +3034,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsOutputRefe
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3064,6 +3088,22 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsOutputRefe
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3152,7 +3192,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsTagsList exten
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3160,19 +3200,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3185,7 +3225,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3417,7 +3457,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContext
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3425,19 +3465,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#moid DataIntersightNiatelemetryApicSnmpVersionThreeDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3450,7 +3490,7 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#selector DataIntersightNiatelemetryApicSnmpVersionThreeDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3650,7 +3690,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContext
 }
 export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#additional_properties DataIntersightNiatelemetryApicSnmpVersionThreeDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3658,32 +3698,32 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#class_id DataIntersightNiatelemetryApicSnmpVersionThreeDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#marked_for_deletion DataIntersightNiatelemetryApicSnmpVersionThreeDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#marked_for_deletion DataIntersightNiatelemetryApicSnmpVersionThreeDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#nr_version DataIntersightNiatelemetryApicSnmpVersionThreeDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#nr_version DataIntersightNiatelemetryApicSnmpVersionThreeDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#object_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#timestamp DataIntersightNiatelemetryApicSnmpVersionThreeDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#timestamp DataIntersightNiatelemetryApicSnmpVersionThreeDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3694,19 +3734,19 @@ export interface DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionCon
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#version_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#version_type DataIntersightNiatelemetryApicSnmpVersionThreeDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#interested_mos DataIntersightNiatelemetryApicSnmpVersionThreeDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#interested_mos DataIntersightNiatelemetryApicSnmpVersionThreeDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ref_mo DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#ref_mo DataIntersightNiatelemetryApicSnmpVersionThreeDetails#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContextRefMo;
 }
@@ -4022,7 +4062,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetailsVersionContext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details intersight_niatelemetry_apic_snmp_version_three_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details intersight_niatelemetry_apic_snmp_version_three_details}
 */
 export class DataIntersightNiatelemetryApicSnmpVersionThreeDetails extends cdktf.TerraformDataSource {
 
@@ -4038,7 +4078,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetails extends cdktf
   * Generates CDKTF code for importing a DataIntersightNiatelemetryApicSnmpVersionThreeDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryApicSnmpVersionThreeDetails to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryApicSnmpVersionThreeDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryApicSnmpVersionThreeDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryApicSnmpVersionThreeDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4050,7 +4090,7 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetails extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/niatelemetry_apic_snmp_version_three_details intersight_niatelemetry_apic_snmp_version_three_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_snmp_version_three_details intersight_niatelemetry_apic_snmp_version_three_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4061,8 +4101,8 @@ export class DataIntersightNiatelemetryApicSnmpVersionThreeDetails extends cdktf
       terraformResourceType: 'intersight_niatelemetry_apic_snmp_version_three_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

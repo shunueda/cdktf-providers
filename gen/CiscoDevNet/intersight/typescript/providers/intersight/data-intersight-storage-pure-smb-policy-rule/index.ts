@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightStoragePureSmbPolicyRuleConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#account_moid DataIntersightStoragePureSmbPolicyRule#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#account_moid DataIntersightStoragePureSmbPolicyRule#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Anonymous access allowed of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#anonymous_access_allowed DataIntersightStoragePureSmbPolicyRule#anonymous_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#anonymous_access_allowed DataIntersightStoragePureSmbPolicyRule#anonymous_access_allowed}
   */
   readonly anonymousAccessAllowed?: boolean | cdktf.IResolvable;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightStoragePureSmbPolicyRuleConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * Client of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#client_name DataIntersightStoragePureSmbPolicyRule#client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#client_name DataIntersightStoragePureSmbPolicyRule#client_name}
   */
   readonly clientName?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#create_time DataIntersightStoragePureSmbPolicyRule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#create_time DataIntersightStoragePureSmbPolicyRule#create_time}
   */
   readonly createTime?: string;
   /**
   * A boolean value, if set to true, lists only destroyed objects that are in the eradication pending state. If set to false, lists only objects that are not destroyed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#destroyed DataIntersightStoragePureSmbPolicyRule#destroyed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#destroyed DataIntersightStoragePureSmbPolicyRule#destroyed}
   */
   readonly destroyed?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#domain_group_moid DataIntersightStoragePureSmbPolicyRule#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#domain_group_moid DataIntersightStoragePureSmbPolicyRule#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#id DataIntersightStoragePureSmbPolicyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#id DataIntersightStoragePureSmbPolicyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface DataIntersightStoragePureSmbPolicyRuleConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#mod_time DataIntersightStoragePureSmbPolicyRule#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#mod_time DataIntersightStoragePureSmbPolicyRule#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * Name of the SMB policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#name DataIntersightStoragePureSmbPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#name DataIntersightStoragePureSmbPolicyRule#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#owners DataIntersightStoragePureSmbPolicyRule#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#owners DataIntersightStoragePureSmbPolicyRule#owners}
   */
   readonly owners?: string[];
   /**
   * Name of the SMB policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#policy_name DataIntersightStoragePureSmbPolicyRule#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#policy_name DataIntersightStoragePureSmbPolicyRule#policy_name}
   */
   readonly policyName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#shared_scope DataIntersightStoragePureSmbPolicyRule#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#shared_scope DataIntersightStoragePureSmbPolicyRule#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SMB encryption required of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#smb_encryption_required DataIntersightStoragePureSmbPolicyRule#smb_encryption_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#smb_encryption_required DataIntersightStoragePureSmbPolicyRule#smb_encryption_required}
   */
   readonly smbEncryptionRequired?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#ancestors DataIntersightStoragePureSmbPolicyRule#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#ancestors DataIntersightStoragePureSmbPolicyRule#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureSmbPolicyRuleAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#array DataIntersightStoragePureSmbPolicyRule#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#array DataIntersightStoragePureSmbPolicyRule#array}
   */
   readonly array?: DataIntersightStoragePureSmbPolicyRuleArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#parent DataIntersightStoragePureSmbPolicyRule#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#parent DataIntersightStoragePureSmbPolicyRule#parent}
   */
   readonly parent?: DataIntersightStoragePureSmbPolicyRuleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#permission_resources DataIntersightStoragePureSmbPolicyRule#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#permission_resources DataIntersightStoragePureSmbPolicyRule#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureSmbPolicyRulePermissionResources[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#policy DataIntersightStoragePureSmbPolicyRule#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#policy DataIntersightStoragePureSmbPolicyRule#policy}
   */
   readonly policy?: DataIntersightStoragePureSmbPolicyRulePolicy;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#registered_device DataIntersightStoragePureSmbPolicyRule#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#registered_device DataIntersightStoragePureSmbPolicyRule#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureSmbPolicyRuleRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#tags DataIntersightStoragePureSmbPolicyRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#tags DataIntersightStoragePureSmbPolicyRule#tags}
   */
   readonly tags?: DataIntersightStoragePureSmbPolicyRuleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#version_context DataIntersightStoragePureSmbPolicyRule#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#version_context DataIntersightStoragePureSmbPolicyRule#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureSmbPolicyRuleVersionContext;
 }
@@ -997,6 +997,11 @@ export class DataIntersightStoragePureSmbPolicyRuleResultsTagsOutputReference ex
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1533,7 +1538,7 @@ export class DataIntersightStoragePureSmbPolicyRuleResultsList extends cdktf.Com
 }
 export interface DataIntersightStoragePureSmbPolicyRuleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1541,19 +1546,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1566,7 +1571,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -1798,7 +1803,7 @@ export class DataIntersightStoragePureSmbPolicyRuleAncestorsList extends cdktf.C
 }
 export interface DataIntersightStoragePureSmbPolicyRuleArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1806,19 +1811,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1831,7 +1836,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2031,7 +2036,7 @@ export class DataIntersightStoragePureSmbPolicyRuleArrayOutputReference extends 
 }
 export interface DataIntersightStoragePureSmbPolicyRuleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2039,19 +2044,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2064,7 +2069,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2264,7 +2269,7 @@ export class DataIntersightStoragePureSmbPolicyRuleParentOutputReference extends
 }
 export interface DataIntersightStoragePureSmbPolicyRulePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2272,19 +2277,19 @@ export interface DataIntersightStoragePureSmbPolicyRulePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2297,7 +2302,7 @@ export interface DataIntersightStoragePureSmbPolicyRulePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2529,7 +2534,7 @@ export class DataIntersightStoragePureSmbPolicyRulePermissionResourcesList exten
 }
 export interface DataIntersightStoragePureSmbPolicyRulePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2537,19 +2542,19 @@ export interface DataIntersightStoragePureSmbPolicyRulePolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2562,7 +2567,7 @@ export interface DataIntersightStoragePureSmbPolicyRulePolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2762,7 +2767,7 @@ export class DataIntersightStoragePureSmbPolicyRulePolicyOutputReference extends
 }
 export interface DataIntersightStoragePureSmbPolicyRuleRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2770,19 +2775,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2795,7 +2800,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -2995,7 +3000,7 @@ export class DataIntersightStoragePureSmbPolicyRuleRegisteredDeviceOutputReferen
 }
 export interface DataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3003,19 +3008,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3028,7 +3033,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -3260,7 +3265,7 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitionsList e
 }
 export interface DataIntersightStoragePureSmbPolicyRuleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3268,19 +3273,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3293,7 +3298,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -3493,45 +3498,51 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsDefinitionOutputReference
 }
 export interface DataIntersightStoragePureSmbPolicyRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#key DataIntersightStoragePureSmbPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#key DataIntersightStoragePureSmbPolicyRule#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#propagated DataIntersightStoragePureSmbPolicyRule#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#propagated DataIntersightStoragePureSmbPolicyRule#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#sys_tag DataIntersightStoragePureSmbPolicyRule#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#type DataIntersightStoragePureSmbPolicyRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#type DataIntersightStoragePureSmbPolicyRule#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#value DataIntersightStoragePureSmbPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#value DataIntersightStoragePureSmbPolicyRule#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#ancestor_definitions DataIntersightStoragePureSmbPolicyRule#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#ancestor_definitions DataIntersightStoragePureSmbPolicyRule#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#definition DataIntersightStoragePureSmbPolicyRule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#definition DataIntersightStoragePureSmbPolicyRule#definition}
   */
   readonly definition?: DataIntersightStoragePureSmbPolicyRuleTagsDefinition;
 }
@@ -3545,6 +3556,7 @@ export function dataIntersightStoragePureSmbPolicyRuleTagsToTerraform(struct?: D
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStoragePureSmbPolicyRuleTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3573,6 +3585,12 @@ export function dataIntersightStoragePureSmbPolicyRuleTagsToHclTerraform(struct?
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3639,6 +3657,10 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsOutputReference extends c
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3665,6 +3687,7 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsOutputReference extends c
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3680,6 +3703,7 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsOutputReference extends c
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3733,6 +3757,22 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3821,7 +3861,7 @@ export class DataIntersightStoragePureSmbPolicyRuleTagsList extends cdktf.Comple
 }
 export interface DataIntersightStoragePureSmbPolicyRuleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3829,19 +3869,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3854,7 +3894,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -4086,7 +4126,7 @@ export class DataIntersightStoragePureSmbPolicyRuleVersionContextInterestedMosLi
 }
 export interface DataIntersightStoragePureSmbPolicyRuleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4094,19 +4134,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#moid DataIntersightStoragePureSmbPolicyRule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4119,7 +4159,7 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#selector DataIntersightStoragePureSmbPolicyRule#selector}
   */
   readonly selector?: string;
 }
@@ -4319,7 +4359,7 @@ export class DataIntersightStoragePureSmbPolicyRuleVersionContextRefMoOutputRefe
 }
 export interface DataIntersightStoragePureSmbPolicyRuleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#additional_properties DataIntersightStoragePureSmbPolicyRule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4327,32 +4367,32 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#class_id DataIntersightStoragePureSmbPolicyRule#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#marked_for_deletion DataIntersightStoragePureSmbPolicyRule#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#marked_for_deletion DataIntersightStoragePureSmbPolicyRule#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#nr_version DataIntersightStoragePureSmbPolicyRule#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#nr_version DataIntersightStoragePureSmbPolicyRule#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#object_type DataIntersightStoragePureSmbPolicyRule#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#timestamp DataIntersightStoragePureSmbPolicyRule#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#timestamp DataIntersightStoragePureSmbPolicyRule#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4363,19 +4403,19 @@ export interface DataIntersightStoragePureSmbPolicyRuleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#version_type DataIntersightStoragePureSmbPolicyRule#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#version_type DataIntersightStoragePureSmbPolicyRule#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#interested_mos DataIntersightStoragePureSmbPolicyRule#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#interested_mos DataIntersightStoragePureSmbPolicyRule#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureSmbPolicyRuleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#ref_mo DataIntersightStoragePureSmbPolicyRule#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#ref_mo DataIntersightStoragePureSmbPolicyRule#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureSmbPolicyRuleVersionContextRefMo;
 }
@@ -4691,7 +4731,7 @@ export class DataIntersightStoragePureSmbPolicyRuleVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule intersight_storage_pure_smb_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule intersight_storage_pure_smb_policy_rule}
 */
 export class DataIntersightStoragePureSmbPolicyRule extends cdktf.TerraformDataSource {
 
@@ -4707,7 +4747,7 @@ export class DataIntersightStoragePureSmbPolicyRule extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightStoragePureSmbPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureSmbPolicyRule to import
-  * @param importFromId The id of the existing DataIntersightStoragePureSmbPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureSmbPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureSmbPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4719,7 +4759,7 @@ export class DataIntersightStoragePureSmbPolicyRule extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_pure_smb_policy_rule intersight_storage_pure_smb_policy_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_smb_policy_rule intersight_storage_pure_smb_policy_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4730,8 +4770,8 @@ export class DataIntersightStoragePureSmbPolicyRule extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_pure_smb_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#account_moid DataIntersightCondHclStatusDetail#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#account_moid DataIntersightCondHclStatusDetail#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,19 +22,19 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#create_time DataIntersightCondHclStatusDetail#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#create_time DataIntersightCondHclStatusDetail#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#domain_group_moid DataIntersightCondHclStatusDetail#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#domain_group_moid DataIntersightCondHclStatusDetail#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -53,41 +53,41 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   * * `Not-Evaluated` - The validation for the hardware or software HCL status was not yet evaluated because some previous validation had failed. For example if a server's hardware profile fails to validate with HCL, then the server's software status will not be evaluated.
   * * `Compatible` - The validation has passed for this server PID, processor, OS vendor and version, component model, component firmware and driver version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hardware_status DataIntersightCondHclStatusDetail#hardware_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hardware_status DataIntersightCondHclStatusDetail#hardware_status}
   */
   readonly hardwareStatus?: string;
   /**
   * The current CIMC version for the server normalized for querying HCL data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_cimc_version DataIntersightCondHclStatusDetail#hcl_cimc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_cimc_version DataIntersightCondHclStatusDetail#hcl_cimc_version}
   */
   readonly hclCimcVersion?: string;
   /**
   * The current driver name of the component we are validating normalized for querying HCL data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_driver_name DataIntersightCondHclStatusDetail#hcl_driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_driver_name DataIntersightCondHclStatusDetail#hcl_driver_name}
   */
   readonly hclDriverName?: string;
   /**
   * The current driver version of the component we are validating normalized for querying HCL data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_driver_version DataIntersightCondHclStatusDetail#hcl_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_driver_version DataIntersightCondHclStatusDetail#hcl_driver_version}
   */
   readonly hclDriverVersion?: string;
   /**
   * The current firmware version of the component model normalized for querying HCL data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_firmware_version DataIntersightCondHclStatusDetail#hcl_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_firmware_version DataIntersightCondHclStatusDetail#hcl_firmware_version}
   */
   readonly hclFirmwareVersion?: string;
   /**
   * The component model we are trying to validate normalized for querying HCL data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_model DataIntersightCondHclStatusDetail#hcl_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_model DataIntersightCondHclStatusDetail#hcl_model}
   */
   readonly hclModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#id DataIntersightCondHclStatusDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#id DataIntersightCondHclStatusDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,60 +96,60 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   /**
   * The current CIMC version for the server as received from inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_cimc_version DataIntersightCondHclStatusDetail#inv_cimc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_cimc_version DataIntersightCondHclStatusDetail#inv_cimc_version}
   */
   readonly invCimcVersion?: string;
   /**
   * The current driver name of the component we are validating as received from inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_driver_name DataIntersightCondHclStatusDetail#inv_driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_driver_name DataIntersightCondHclStatusDetail#inv_driver_name}
   */
   readonly invDriverName?: string;
   /**
   * The current driver version of the component we are validating as received from inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_driver_version DataIntersightCondHclStatusDetail#inv_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_driver_version DataIntersightCondHclStatusDetail#inv_driver_version}
   */
   readonly invDriverVersion?: string;
   /**
   * The current firmware version of the component model as received from inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_firmware_version DataIntersightCondHclStatusDetail#inv_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_firmware_version DataIntersightCondHclStatusDetail#inv_firmware_version}
   */
   readonly invFirmwareVersion?: string;
   /**
   * The component model we are trying to validate as received from inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_model DataIntersightCondHclStatusDetail#inv_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_model DataIntersightCondHclStatusDetail#inv_model}
   */
   readonly invModel?: string;
   /**
   * The vendor detail of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#inv_vendor DataIntersightCondHclStatusDetail#inv_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#inv_vendor DataIntersightCondHclStatusDetail#inv_vendor}
   */
   readonly invVendor?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#mod_time DataIntersightCondHclStatusDetail#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#mod_time DataIntersightCondHclStatusDetail#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#owners DataIntersightCondHclStatusDetail#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#owners DataIntersightCondHclStatusDetail#owners}
   */
   readonly owners?: string[];
   /**
@@ -168,14 +168,14 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   * * `Not-Evaluated` - The validation for the hardware or software HCL status was not yet evaluated because some previous validation had failed. For example if a server's hardware profile fails to validate with HCL, then the server's software status will not be evaluated.
   * * `Compatible` - The validation has passed for this server PID, processor, OS vendor and version, component model, component firmware and driver version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#reason DataIntersightCondHclStatusDetail#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#reason DataIntersightCondHclStatusDetail#reason}
   */
   readonly reason?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#shared_scope DataIntersightCondHclStatusDetail#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#shared_scope DataIntersightCondHclStatusDetail#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -194,7 +194,7 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   * * `Not-Evaluated` - The validation for the hardware or software HCL status was not yet evaluated because some previous validation had failed. For example if a server's hardware profile fails to validate with HCL, then the server's software status will not be evaluated.
   * * `Compatible` - The validation has passed for this server PID, processor, OS vendor and version, component model, component firmware and driver version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#software_status DataIntersightCondHclStatusDetail#software_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#software_status DataIntersightCondHclStatusDetail#software_status}
   */
   readonly softwareStatus?: string;
   /**
@@ -205,49 +205,49 @@ export interface DataIntersightCondHclStatusDetailConfig extends cdktf.Terraform
   * * `Validated` - At the HclStatus level, this means that all of the components have passed validation. At HclStatusDetail level, this means that the component's hardware or software profile was found in the HCL.
   * * `Not-Evaluated` - At the HclStatus level this means that this means that SW or Component status has not been evaluated as the previous evaluation step has not passed yet. At the HclStatusDetail level this means that either HW or SW status has not been evaluted because a previous evaluation step has not passed yet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#status DataIntersightCondHclStatusDetail#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#status DataIntersightCondHclStatusDetail#status}
   */
   readonly status?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#ancestors DataIntersightCondHclStatusDetail#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#ancestors DataIntersightCondHclStatusDetail#ancestors}
   */
   readonly ancestors?: DataIntersightCondHclStatusDetailAncestors[] | cdktf.IResolvable;
   /**
   * component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#component DataIntersightCondHclStatusDetail#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#component DataIntersightCondHclStatusDetail#component}
   */
   readonly component?: DataIntersightCondHclStatusDetailComponent;
   /**
   * hcl_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#hcl_status DataIntersightCondHclStatusDetail#hcl_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#hcl_status DataIntersightCondHclStatusDetail#hcl_status}
   */
   readonly hclStatus?: DataIntersightCondHclStatusDetailHclStatus;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#parent DataIntersightCondHclStatusDetail#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#parent DataIntersightCondHclStatusDetail#parent}
   */
   readonly parent?: DataIntersightCondHclStatusDetailParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#permission_resources DataIntersightCondHclStatusDetail#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#permission_resources DataIntersightCondHclStatusDetail#permission_resources}
   */
   readonly permissionResources?: DataIntersightCondHclStatusDetailPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#tags DataIntersightCondHclStatusDetail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#tags DataIntersightCondHclStatusDetail#tags}
   */
   readonly tags?: DataIntersightCondHclStatusDetailTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#version_context DataIntersightCondHclStatusDetail#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#version_context DataIntersightCondHclStatusDetail#version_context}
   */
   readonly versionContext?: DataIntersightCondHclStatusDetailVersionContext;
 }
@@ -994,6 +994,11 @@ export class DataIntersightCondHclStatusDetailResultsTagsOutputReference extends
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1569,7 +1574,7 @@ export class DataIntersightCondHclStatusDetailResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightCondHclStatusDetailAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1577,19 +1582,19 @@ export interface DataIntersightCondHclStatusDetailAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1602,7 +1607,7 @@ export interface DataIntersightCondHclStatusDetailAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -1834,7 +1839,7 @@ export class DataIntersightCondHclStatusDetailAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightCondHclStatusDetailComponent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1842,19 +1847,19 @@ export interface DataIntersightCondHclStatusDetailComponent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1867,7 +1872,7 @@ export interface DataIntersightCondHclStatusDetailComponent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2067,7 +2072,7 @@ export class DataIntersightCondHclStatusDetailComponentOutputReference extends c
 }
 export interface DataIntersightCondHclStatusDetailHclStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2075,19 +2080,19 @@ export interface DataIntersightCondHclStatusDetailHclStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2100,7 +2105,7 @@ export interface DataIntersightCondHclStatusDetailHclStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2300,7 +2305,7 @@ export class DataIntersightCondHclStatusDetailHclStatusOutputReference extends c
 }
 export interface DataIntersightCondHclStatusDetailParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2308,19 +2313,19 @@ export interface DataIntersightCondHclStatusDetailParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2333,7 +2338,7 @@ export interface DataIntersightCondHclStatusDetailParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2533,7 +2538,7 @@ export class DataIntersightCondHclStatusDetailParentOutputReference extends cdkt
 }
 export interface DataIntersightCondHclStatusDetailPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2541,19 +2546,19 @@ export interface DataIntersightCondHclStatusDetailPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2566,7 +2571,7 @@ export interface DataIntersightCondHclStatusDetailPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2798,7 +2803,7 @@ export class DataIntersightCondHclStatusDetailPermissionResourcesList extends cd
 }
 export interface DataIntersightCondHclStatusDetailTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2806,19 +2811,19 @@ export interface DataIntersightCondHclStatusDetailTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2831,7 +2836,7 @@ export interface DataIntersightCondHclStatusDetailTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -3063,7 +3068,7 @@ export class DataIntersightCondHclStatusDetailTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightCondHclStatusDetailTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3071,19 +3076,19 @@ export interface DataIntersightCondHclStatusDetailTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3096,7 +3101,7 @@ export interface DataIntersightCondHclStatusDetailTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -3296,45 +3301,51 @@ export class DataIntersightCondHclStatusDetailTagsDefinitionOutputReference exte
 }
 export interface DataIntersightCondHclStatusDetailTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#key DataIntersightCondHclStatusDetail#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#key DataIntersightCondHclStatusDetail#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#propagated DataIntersightCondHclStatusDetail#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#propagated DataIntersightCondHclStatusDetail#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#sys_tag DataIntersightCondHclStatusDetail#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#type DataIntersightCondHclStatusDetail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#type DataIntersightCondHclStatusDetail#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#value DataIntersightCondHclStatusDetail#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#value DataIntersightCondHclStatusDetail#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#ancestor_definitions DataIntersightCondHclStatusDetail#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#ancestor_definitions DataIntersightCondHclStatusDetail#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCondHclStatusDetailTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#definition DataIntersightCondHclStatusDetail#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#definition DataIntersightCondHclStatusDetail#definition}
   */
   readonly definition?: DataIntersightCondHclStatusDetailTagsDefinition;
 }
@@ -3348,6 +3359,7 @@ export function dataIntersightCondHclStatusDetailTagsToTerraform(struct?: DataIn
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCondHclStatusDetailTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3376,6 +3388,12 @@ export function dataIntersightCondHclStatusDetailTagsToHclTerraform(struct?: Dat
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3442,6 +3460,10 @@ export class DataIntersightCondHclStatusDetailTagsOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3468,6 +3490,7 @@ export class DataIntersightCondHclStatusDetailTagsOutputReference extends cdktf.
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3483,6 +3506,7 @@ export class DataIntersightCondHclStatusDetailTagsOutputReference extends cdktf.
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3536,6 +3560,22 @@ export class DataIntersightCondHclStatusDetailTagsOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3624,7 +3664,7 @@ export class DataIntersightCondHclStatusDetailTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightCondHclStatusDetailVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3632,19 +3672,19 @@ export interface DataIntersightCondHclStatusDetailVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3657,7 +3697,7 @@ export interface DataIntersightCondHclStatusDetailVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -3889,7 +3929,7 @@ export class DataIntersightCondHclStatusDetailVersionContextInterestedMosList ex
 }
 export interface DataIntersightCondHclStatusDetailVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3897,19 +3937,19 @@ export interface DataIntersightCondHclStatusDetailVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#moid DataIntersightCondHclStatusDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3922,7 +3962,7 @@ export interface DataIntersightCondHclStatusDetailVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#selector DataIntersightCondHclStatusDetail#selector}
   */
   readonly selector?: string;
 }
@@ -4122,7 +4162,7 @@ export class DataIntersightCondHclStatusDetailVersionContextRefMoOutputReference
 }
 export interface DataIntersightCondHclStatusDetailVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#additional_properties DataIntersightCondHclStatusDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4130,32 +4170,32 @@ export interface DataIntersightCondHclStatusDetailVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#class_id DataIntersightCondHclStatusDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#marked_for_deletion DataIntersightCondHclStatusDetail#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#marked_for_deletion DataIntersightCondHclStatusDetail#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#nr_version DataIntersightCondHclStatusDetail#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#nr_version DataIntersightCondHclStatusDetail#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#object_type DataIntersightCondHclStatusDetail#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#timestamp DataIntersightCondHclStatusDetail#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#timestamp DataIntersightCondHclStatusDetail#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4166,19 +4206,19 @@ export interface DataIntersightCondHclStatusDetailVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#version_type DataIntersightCondHclStatusDetail#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#version_type DataIntersightCondHclStatusDetail#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#interested_mos DataIntersightCondHclStatusDetail#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#interested_mos DataIntersightCondHclStatusDetail#interested_mos}
   */
   readonly interestedMos?: DataIntersightCondHclStatusDetailVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#ref_mo DataIntersightCondHclStatusDetail#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#ref_mo DataIntersightCondHclStatusDetail#ref_mo}
   */
   readonly refMo?: DataIntersightCondHclStatusDetailVersionContextRefMo;
 }
@@ -4494,7 +4534,7 @@ export class DataIntersightCondHclStatusDetailVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail intersight_cond_hcl_status_detail}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail intersight_cond_hcl_status_detail}
 */
 export class DataIntersightCondHclStatusDetail extends cdktf.TerraformDataSource {
 
@@ -4510,7 +4550,7 @@ export class DataIntersightCondHclStatusDetail extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightCondHclStatusDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCondHclStatusDetail to import
-  * @param importFromId The id of the existing DataIntersightCondHclStatusDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCondHclStatusDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCondHclStatusDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4522,7 +4562,7 @@ export class DataIntersightCondHclStatusDetail extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/cond_hcl_status_detail intersight_cond_hcl_status_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_hcl_status_detail intersight_cond_hcl_status_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4533,8 +4573,8 @@ export class DataIntersightCondHclStatusDetail extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_cond_hcl_status_detail',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/stack_monitoring_monitored_resource_task
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_monitored_resource_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciStackMonitoringMonitoredResourceTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/stack_monitoring_monitored_resource_task#monitored_resource_task_id DataOciStackMonitoringMonitoredResourceTask#monitored_resource_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_monitored_resource_task#monitored_resource_task_id DataOciStackMonitoringMonitoredResourceTask#monitored_resource_task_id}
   */
   readonly monitoredResourceTaskId: string;
 }
@@ -963,7 +963,7 @@ export class DataOciStackMonitoringMonitoredResourceTaskTaskDetailsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/stack_monitoring_monitored_resource_task oci_stack_monitoring_monitored_resource_task}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_monitored_resource_task oci_stack_monitoring_monitored_resource_task}
 */
 export class DataOciStackMonitoringMonitoredResourceTask extends cdktf.TerraformDataSource {
 
@@ -979,7 +979,7 @@ export class DataOciStackMonitoringMonitoredResourceTask extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOciStackMonitoringMonitoredResourceTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciStackMonitoringMonitoredResourceTask to import
-  * @param importFromId The id of the existing DataOciStackMonitoringMonitoredResourceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/stack_monitoring_monitored_resource_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciStackMonitoringMonitoredResourceTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_monitored_resource_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciStackMonitoringMonitoredResourceTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -991,7 +991,7 @@ export class DataOciStackMonitoringMonitoredResourceTask extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/stack_monitoring_monitored_resource_task oci_stack_monitoring_monitored_resource_task} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/stack_monitoring_monitored_resource_task oci_stack_monitoring_monitored_resource_task} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1002,8 +1002,8 @@ export class DataOciStackMonitoringMonitoredResourceTask extends cdktf.Terraform
       terraformResourceType: 'oci_stack_monitoring_monitored_resource_task',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

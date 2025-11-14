@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVnicLcpStatusConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#account_moid DataIntersightVnicLcpStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#account_moid DataIntersightVnicLcpStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightVnicLcpStatusConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#create_time DataIntersightVnicLcpStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#create_time DataIntersightVnicLcpStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#domain_group_moid DataIntersightVnicLcpStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#domain_group_moid DataIntersightVnicLcpStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#id DataIntersightVnicLcpStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#id DataIntersightVnicLcpStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataIntersightVnicLcpStatusConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#mod_time DataIntersightVnicLcpStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#mod_time DataIntersightVnicLcpStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#owners DataIntersightVnicLcpStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#owners DataIntersightVnicLcpStatus#owners}
   */
   readonly owners?: string[];
   /**
   * The reason for the status - it will be empty if status is ok or validating. If error, it will have the appropriate message indicating the reason for failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#reason DataIntersightVnicLcpStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#reason DataIntersightVnicLcpStatus#reason}
   */
   readonly reason?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#shared_scope DataIntersightVnicLcpStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#shared_scope DataIntersightVnicLcpStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -86,49 +86,49 @@ export interface DataIntersightVnicLcpStatusConfig extends cdktf.TerraformMetaAr
   * * `error` - The LCP/SCP/VIF cannot be deployed due to error.
   * * `validating` - Validation in progress for the LCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#status DataIntersightVnicLcpStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#status DataIntersightVnicLcpStatus#status}
   */
   readonly status?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#ancestors DataIntersightVnicLcpStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#ancestors DataIntersightVnicLcpStatus#ancestors}
   */
   readonly ancestors?: DataIntersightVnicLcpStatusAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#parent DataIntersightVnicLcpStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#parent DataIntersightVnicLcpStatus#parent}
   */
   readonly parent?: DataIntersightVnicLcpStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#permission_resources DataIntersightVnicLcpStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#permission_resources DataIntersightVnicLcpStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicLcpStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#profile DataIntersightVnicLcpStatus#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#profile DataIntersightVnicLcpStatus#profile}
   */
   readonly profile?: DataIntersightVnicLcpStatusProfile;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#tags DataIntersightVnicLcpStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#tags DataIntersightVnicLcpStatus#tags}
   */
   readonly tags?: DataIntersightVnicLcpStatusTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#version_context DataIntersightVnicLcpStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#version_context DataIntersightVnicLcpStatus#version_context}
   */
   readonly versionContext?: DataIntersightVnicLcpStatusVersionContext;
   /**
   * vnic_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#vnic_info DataIntersightVnicLcpStatus#vnic_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#vnic_info DataIntersightVnicLcpStatus#vnic_info}
   */
   readonly vnicInfo?: DataIntersightVnicLcpStatusVnicInfo[] | cdktf.IResolvable;
 }
@@ -780,6 +780,11 @@ export class DataIntersightVnicLcpStatusResultsTagsOutputReference extends cdktf
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1390,7 +1395,7 @@ export class DataIntersightVnicLcpStatusResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicLcpStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1398,19 +1403,19 @@ export interface DataIntersightVnicLcpStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1423,7 +1428,7 @@ export interface DataIntersightVnicLcpStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1655,7 +1660,7 @@ export class DataIntersightVnicLcpStatusAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightVnicLcpStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1663,19 +1668,19 @@ export interface DataIntersightVnicLcpStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1688,7 +1693,7 @@ export interface DataIntersightVnicLcpStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1888,7 +1893,7 @@ export class DataIntersightVnicLcpStatusParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightVnicLcpStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1896,19 +1901,19 @@ export interface DataIntersightVnicLcpStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1921,7 +1926,7 @@ export interface DataIntersightVnicLcpStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2153,7 +2158,7 @@ export class DataIntersightVnicLcpStatusPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightVnicLcpStatusProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2161,19 +2166,19 @@ export interface DataIntersightVnicLcpStatusProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2186,7 +2191,7 @@ export interface DataIntersightVnicLcpStatusProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2386,7 +2391,7 @@ export class DataIntersightVnicLcpStatusProfileOutputReference extends cdktf.Com
 }
 export interface DataIntersightVnicLcpStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2394,19 +2399,19 @@ export interface DataIntersightVnicLcpStatusTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2419,7 +2424,7 @@ export interface DataIntersightVnicLcpStatusTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2651,7 +2656,7 @@ export class DataIntersightVnicLcpStatusTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightVnicLcpStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2659,19 +2664,19 @@ export interface DataIntersightVnicLcpStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2684,7 +2689,7 @@ export interface DataIntersightVnicLcpStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2884,45 +2889,51 @@ export class DataIntersightVnicLcpStatusTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightVnicLcpStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#key DataIntersightVnicLcpStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#key DataIntersightVnicLcpStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#propagated DataIntersightVnicLcpStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#propagated DataIntersightVnicLcpStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#sys_tag DataIntersightVnicLcpStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#type DataIntersightVnicLcpStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#type DataIntersightVnicLcpStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#value DataIntersightVnicLcpStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#value DataIntersightVnicLcpStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#ancestor_definitions DataIntersightVnicLcpStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#ancestor_definitions DataIntersightVnicLcpStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicLcpStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#definition DataIntersightVnicLcpStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#definition DataIntersightVnicLcpStatus#definition}
   */
   readonly definition?: DataIntersightVnicLcpStatusTagsDefinition;
 }
@@ -2936,6 +2947,7 @@ export function dataIntersightVnicLcpStatusTagsToTerraform(struct?: DataIntersig
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVnicLcpStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2964,6 +2976,12 @@ export function dataIntersightVnicLcpStatusTagsToHclTerraform(struct?: DataInter
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3030,6 +3048,10 @@ export class DataIntersightVnicLcpStatusTagsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3056,6 +3078,7 @@ export class DataIntersightVnicLcpStatusTagsOutputReference extends cdktf.Comple
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3071,6 +3094,7 @@ export class DataIntersightVnicLcpStatusTagsOutputReference extends cdktf.Comple
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3124,6 +3148,22 @@ export class DataIntersightVnicLcpStatusTagsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3212,7 +3252,7 @@ export class DataIntersightVnicLcpStatusTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicLcpStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3220,19 +3260,19 @@ export interface DataIntersightVnicLcpStatusVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3245,7 +3285,7 @@ export interface DataIntersightVnicLcpStatusVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3477,7 +3517,7 @@ export class DataIntersightVnicLcpStatusVersionContextInterestedMosList extends 
 }
 export interface DataIntersightVnicLcpStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3485,19 +3525,19 @@ export interface DataIntersightVnicLcpStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#moid DataIntersightVnicLcpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3510,7 +3550,7 @@ export interface DataIntersightVnicLcpStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#selector DataIntersightVnicLcpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3710,7 +3750,7 @@ export class DataIntersightVnicLcpStatusVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightVnicLcpStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3718,32 +3758,32 @@ export interface DataIntersightVnicLcpStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#marked_for_deletion DataIntersightVnicLcpStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#marked_for_deletion DataIntersightVnicLcpStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#nr_version DataIntersightVnicLcpStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#nr_version DataIntersightVnicLcpStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#timestamp DataIntersightVnicLcpStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#timestamp DataIntersightVnicLcpStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3754,19 +3794,19 @@ export interface DataIntersightVnicLcpStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#version_type DataIntersightVnicLcpStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#version_type DataIntersightVnicLcpStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#interested_mos DataIntersightVnicLcpStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#interested_mos DataIntersightVnicLcpStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicLcpStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#ref_mo DataIntersightVnicLcpStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#ref_mo DataIntersightVnicLcpStatus#ref_mo}
   */
   readonly refMo?: DataIntersightVnicLcpStatusVersionContextRefMo;
 }
@@ -4082,7 +4122,7 @@ export class DataIntersightVnicLcpStatusVersionContextOutputReference extends cd
 }
 export interface DataIntersightVnicLcpStatusVnicInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#additional_properties DataIntersightVnicLcpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4090,26 +4130,26 @@ export interface DataIntersightVnicLcpStatusVnicInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#class_id DataIntersightVnicLcpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the vNIC for which the status is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#name DataIntersightVnicLcpStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#name DataIntersightVnicLcpStatus#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#object_type DataIntersightVnicLcpStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The reason for the status - it will be empty if status is ok or validating. If error, it will have the appropriate message indicating the reason for failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#reason DataIntersightVnicLcpStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#reason DataIntersightVnicLcpStatus#reason}
   */
   readonly reason?: string;
   /**
@@ -4118,7 +4158,7 @@ export interface DataIntersightVnicLcpStatusVnicInfo {
   * * `error` - The LCP/SCP/VIF cannot be deployed due to error.
   * * `validating` - Validation in progress for the LCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#status DataIntersightVnicLcpStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#status DataIntersightVnicLcpStatus#status}
   */
   readonly status?: string;
 }
@@ -4379,7 +4419,7 @@ export class DataIntersightVnicLcpStatusVnicInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status intersight_vnic_lcp_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status intersight_vnic_lcp_status}
 */
 export class DataIntersightVnicLcpStatus extends cdktf.TerraformDataSource {
 
@@ -4395,7 +4435,7 @@ export class DataIntersightVnicLcpStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightVnicLcpStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicLcpStatus to import
-  * @param importFromId The id of the existing DataIntersightVnicLcpStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicLcpStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicLcpStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4407,7 +4447,7 @@ export class DataIntersightVnicLcpStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/vnic_lcp_status intersight_vnic_lcp_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_lcp_status intersight_vnic_lcp_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4418,8 +4458,8 @@ export class DataIntersightVnicLcpStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_lcp_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FirmwarePciNodeUpgradeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#account_moid FirmwarePciNodeUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#account_moid FirmwarePciNodeUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#ancestors FirmwarePciNodeUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#ancestors FirmwarePciNodeUpgrade#ancestors}
   */
   readonly ancestors?: FirmwarePciNodeUpgradeAncestors[] | cdktf.IResolvable;
   /**
@@ -28,49 +28,49 @@ export interface FirmwarePciNodeUpgradeConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#create_time FirmwarePciNodeUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#create_time FirmwarePciNodeUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#device FirmwarePciNodeUpgrade#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#device FirmwarePciNodeUpgrade#device}
   */
   readonly device?: FirmwarePciNodeUpgradeDevice[] | cdktf.IResolvable;
   /**
   * Direct download options in case the upgradeType is direct download based upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#direct_download FirmwarePciNodeUpgrade#direct_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#direct_download FirmwarePciNodeUpgrade#direct_download}
   */
   readonly directDownload?: FirmwarePciNodeUpgradeDirectDownload[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareDistributable resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#distributable FirmwarePciNodeUpgrade#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#distributable FirmwarePciNodeUpgrade#distributable}
   */
   readonly distributable?: FirmwarePciNodeUpgradeDistributable[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#domain_group_moid FirmwarePciNodeUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#domain_group_moid FirmwarePciNodeUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Location of the image in user software repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#file_server FirmwarePciNodeUpgrade#file_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#file_server FirmwarePciNodeUpgrade#file_server}
   */
   readonly fileServer?: FirmwarePciNodeUpgradeFileServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#id FirmwarePciNodeUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#id FirmwarePciNodeUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,70 +79,70 @@ export interface FirmwarePciNodeUpgradeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#mod_time FirmwarePciNodeUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#mod_time FirmwarePciNodeUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * Deprecated (Use 'fileServer' property). Network share options in case of the upgradeType is network share based upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#network_share FirmwarePciNodeUpgrade#network_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#network_share FirmwarePciNodeUpgrade#network_share}
   */
   readonly networkShare?: FirmwarePciNodeUpgradeNetworkShare[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#owners FirmwarePciNodeUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#owners FirmwarePciNodeUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#parent FirmwarePciNodeUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#parent FirmwarePciNodeUpgrade#parent}
   */
   readonly parent?: FirmwarePciNodeUpgradeParent[] | cdktf.IResolvable;
   /**
   * A reference to a pciNode resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#pci_node FirmwarePciNodeUpgrade#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#pci_node FirmwarePciNodeUpgrade#pci_node}
   */
   readonly pciNode?: FirmwarePciNodeUpgradePciNode[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#permission_resources FirmwarePciNodeUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#permission_resources FirmwarePciNodeUpgrade#permission_resources}
   */
   readonly permissionResources?: FirmwarePciNodeUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#release FirmwarePciNodeUpgrade#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#release FirmwarePciNodeUpgrade#release}
   */
   readonly release?: FirmwarePciNodeUpgradeRelease[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#shared_scope FirmwarePciNodeUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#shared_scope FirmwarePciNodeUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User has the option to skip the estimate impact calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#skip_estimate_impact FirmwarePciNodeUpgrade#skip_estimate_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#skip_estimate_impact FirmwarePciNodeUpgrade#skip_estimate_impact}
   */
   readonly skipEstimateImpact?: boolean | cdktf.IResolvable;
   /**
@@ -153,25 +153,25 @@ export interface FirmwarePciNodeUpgradeConfig extends cdktf.TerraformMetaArgumen
   * * `FAILED` - The upgrade shows failed status.
   * * `TERMINATED` - The upgrade has been terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#status FirmwarePciNodeUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#status FirmwarePciNodeUpgrade#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#tags FirmwarePciNodeUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#tags FirmwarePciNodeUpgrade#tags}
   */
   readonly tags?: FirmwarePciNodeUpgradeTags[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareUpgradeImpactStatus resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#upgrade_impact FirmwarePciNodeUpgrade#upgrade_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#upgrade_impact FirmwarePciNodeUpgrade#upgrade_impact}
   */
   readonly upgradeImpact?: FirmwarePciNodeUpgradeUpgradeImpact[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareUpgradeStatus resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#upgrade_status FirmwarePciNodeUpgrade#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#upgrade_status FirmwarePciNodeUpgrade#upgrade_status}
   */
   readonly upgradeStatus?: FirmwarePciNodeUpgradeUpgradeStatus[] | cdktf.IResolvable;
   /**
@@ -179,35 +179,35 @@ export interface FirmwarePciNodeUpgradeConfig extends cdktf.TerraformMetaArgumen
   * * `direct_upgrade` - Upgrade mode is direct download.
   * * `network_upgrade` - Upgrade mode is network upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#upgrade_type FirmwarePciNodeUpgrade#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#upgrade_type FirmwarePciNodeUpgrade#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#version_context FirmwarePciNodeUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#version_context FirmwarePciNodeUpgrade#version_context}
   */
   readonly versionContext?: FirmwarePciNodeUpgradeVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwarePciNodeUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -439,23 +439,23 @@ export class FirmwarePciNodeUpgradeAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -687,23 +687,23 @@ export class FirmwarePciNodeUpgradeDeviceList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeDirectDownloadHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#location_link FirmwarePciNodeUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#location_link FirmwarePciNodeUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -935,39 +935,39 @@ export class FirmwarePciNodeUpgradeDirectDownloadHttpServerList extends cdktf.Co
 }
 export interface FirmwarePciNodeUpgradeDirectDownload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#http_server FirmwarePciNodeUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#http_server FirmwarePciNodeUpgrade#http_server}
   */
   readonly httpServer?: FirmwarePciNodeUpgradeDirectDownloadHttpServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#image_source FirmwarePciNodeUpgrade#image_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#image_source FirmwarePciNodeUpgrade#image_source}
   */
   readonly imageSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#is_password_set FirmwarePciNodeUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#is_password_set FirmwarePciNodeUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#password FirmwarePciNodeUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#password FirmwarePciNodeUpgrade#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#upgradeoption FirmwarePciNodeUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#upgradeoption FirmwarePciNodeUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#username FirmwarePciNodeUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#username FirmwarePciNodeUpgrade#username}
   */
   readonly username?: string;
 }
@@ -1315,23 +1315,23 @@ export class FirmwarePciNodeUpgradeDirectDownloadList extends cdktf.ComplexList 
 }
 export interface FirmwarePciNodeUpgradeDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1563,15 +1563,15 @@ export class FirmwarePciNodeUpgradeDistributableList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeFileServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -1745,35 +1745,35 @@ export class FirmwarePciNodeUpgradeFileServerList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeNetworkShareCifsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#file_location FirmwarePciNodeUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#file_location FirmwarePciNodeUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_file FirmwarePciNodeUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_file FirmwarePciNodeUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_ip FirmwarePciNodeUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_ip FirmwarePciNodeUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_share FirmwarePciNodeUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_share FirmwarePciNodeUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -2092,23 +2092,23 @@ export class FirmwarePciNodeUpgradeNetworkShareCifsServerList extends cdktf.Comp
 }
 export interface FirmwarePciNodeUpgradeNetworkShareHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#location_link FirmwarePciNodeUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#location_link FirmwarePciNodeUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -2340,35 +2340,35 @@ export class FirmwarePciNodeUpgradeNetworkShareHttpServerList extends cdktf.Comp
 }
 export interface FirmwarePciNodeUpgradeNetworkShareNfsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#file_location FirmwarePciNodeUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#file_location FirmwarePciNodeUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#mount_options FirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_file FirmwarePciNodeUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_file FirmwarePciNodeUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_ip FirmwarePciNodeUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_ip FirmwarePciNodeUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#remote_share FirmwarePciNodeUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#remote_share FirmwarePciNodeUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -2687,47 +2687,47 @@ export class FirmwarePciNodeUpgradeNetworkShareNfsServerList extends cdktf.Compl
 }
 export interface FirmwarePciNodeUpgradeNetworkShare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#cifs_server FirmwarePciNodeUpgrade#cifs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#cifs_server FirmwarePciNodeUpgrade#cifs_server}
   */
   readonly cifsServer?: FirmwarePciNodeUpgradeNetworkShareCifsServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#http_server FirmwarePciNodeUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#http_server FirmwarePciNodeUpgrade#http_server}
   */
   readonly httpServer?: FirmwarePciNodeUpgradeNetworkShareHttpServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#is_password_set FirmwarePciNodeUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#is_password_set FirmwarePciNodeUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#map_type FirmwarePciNodeUpgrade#map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#map_type FirmwarePciNodeUpgrade#map_type}
   */
   readonly mapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#nfs_server FirmwarePciNodeUpgrade#nfs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#nfs_server FirmwarePciNodeUpgrade#nfs_server}
   */
   readonly nfsServer?: FirmwarePciNodeUpgradeNetworkShareNfsServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#password FirmwarePciNodeUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#password FirmwarePciNodeUpgrade#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#upgradeoption FirmwarePciNodeUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#upgradeoption FirmwarePciNodeUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#username FirmwarePciNodeUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#username FirmwarePciNodeUpgrade#username}
   */
   readonly username?: string;
 }
@@ -3133,23 +3133,23 @@ export class FirmwarePciNodeUpgradeNetworkShareList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3381,23 +3381,23 @@ export class FirmwarePciNodeUpgradeParentList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradePciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3629,23 +3629,23 @@ export class FirmwarePciNodeUpgradePciNodeList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3877,23 +3877,23 @@ export class FirmwarePciNodeUpgradePermissionResourcesList extends cdktf.Complex
 }
 export interface FirmwarePciNodeUpgradeRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4125,23 +4125,23 @@ export class FirmwarePciNodeUpgradeReleaseList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4373,23 +4373,23 @@ export class FirmwarePciNodeUpgradeTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface FirmwarePciNodeUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4621,31 +4621,35 @@ export class FirmwarePciNodeUpgradeTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface FirmwarePciNodeUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#ancestor_definitions FirmwarePciNodeUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#ancestor_definitions FirmwarePciNodeUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwarePciNodeUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#definition FirmwarePciNodeUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#definition FirmwarePciNodeUpgrade#definition}
   */
   readonly definition?: FirmwarePciNodeUpgradeTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#key FirmwarePciNodeUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#key FirmwarePciNodeUpgrade#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#propagated FirmwarePciNodeUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#propagated FirmwarePciNodeUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#type FirmwarePciNodeUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#sys_tag FirmwarePciNodeUpgrade#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#type FirmwarePciNodeUpgrade#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#value FirmwarePciNodeUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#value FirmwarePciNodeUpgrade#value}
   */
   readonly value?: string;
 }
@@ -4661,6 +4665,7 @@ export function firmwarePciNodeUpgradeTagsToTerraform(struct?: FirmwarePciNodeUp
     definition: cdktf.listMapper(firmwarePciNodeUpgradeTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -4699,6 +4704,12 @@ export function firmwarePciNodeUpgradeTagsToHclTerraform(struct?: FirmwarePciNod
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4761,6 +4772,10 @@ export class FirmwarePciNodeUpgradeTagsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4781,6 +4796,7 @@ export class FirmwarePciNodeUpgradeTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -4796,6 +4812,7 @@ export class FirmwarePciNodeUpgradeTagsOutputReference extends cdktf.ComplexObje
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -4881,6 +4898,22 @@ export class FirmwarePciNodeUpgradeTagsOutputReference extends cdktf.ComplexObje
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -4935,23 +4968,23 @@ export class FirmwarePciNodeUpgradeTagsList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeUpgradeImpact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5183,23 +5216,23 @@ export class FirmwarePciNodeUpgradeUpgradeImpactList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeUpgradeStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5431,23 +5464,23 @@ export class FirmwarePciNodeUpgradeUpgradeStatusList extends cdktf.ComplexList {
 }
 export interface FirmwarePciNodeUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5679,23 +5712,23 @@ export class FirmwarePciNodeUpgradeVersionContextInterestedMosList extends cdktf
 }
 export interface FirmwarePciNodeUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#moid FirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#selector FirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5927,39 +5960,39 @@ export class FirmwarePciNodeUpgradeVersionContextRefMoList extends cdktf.Complex
 }
 export interface FirmwarePciNodeUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#additional_properties FirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#class_id FirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#interested_mos FirmwarePciNodeUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#interested_mos FirmwarePciNodeUpgrade#interested_mos}
   */
   readonly interestedMos?: FirmwarePciNodeUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#marked_for_deletion FirmwarePciNodeUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#marked_for_deletion FirmwarePciNodeUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#nr_version FirmwarePciNodeUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#nr_version FirmwarePciNodeUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#object_type FirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#ref_mo FirmwarePciNodeUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#ref_mo FirmwarePciNodeUpgrade#ref_mo}
   */
   readonly refMo?: FirmwarePciNodeUpgradeVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#timestamp FirmwarePciNodeUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#timestamp FirmwarePciNodeUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#version_type FirmwarePciNodeUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#version_type FirmwarePciNodeUpgrade#version_type}
   */
   readonly versionType?: string;
 }
@@ -6307,7 +6340,7 @@ export class FirmwarePciNodeUpgradeVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade}
 */
 export class FirmwarePciNodeUpgrade extends cdktf.TerraformResource {
 
@@ -6323,7 +6356,7 @@ export class FirmwarePciNodeUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwarePciNodeUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwarePciNodeUpgrade to import
-  * @param importFromId The id of the existing FirmwarePciNodeUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwarePciNodeUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwarePciNodeUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6335,7 +6368,7 @@ export class FirmwarePciNodeUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6346,8 +6379,8 @@ export class FirmwarePciNodeUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_pci_node_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_oci_jms_java_downloads_java_download_report_content`
 
-Refer to the Terraform Registry for docs: [`data_oci_jms_java_downloads_java_download_report_content`](https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/jms_java_downloads_java_download_report_content).
+Refer to the Terraform Registry for docs: [`data_oci_jms_java_downloads_java_download_report_content`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/jms_java_downloads_java_download_report_content).

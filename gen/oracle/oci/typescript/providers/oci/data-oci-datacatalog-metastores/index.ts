@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatacatalogMetastoresConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#compartment_id DataOciDatacatalogMetastores#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#compartment_id DataOciDatacatalogMetastores#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#display_name DataOciDatacatalogMetastores#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#display_name DataOciDatacatalogMetastores#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#id DataOciDatacatalogMetastores#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#id DataOciDatacatalogMetastores#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#state DataOciDatacatalogMetastores#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#state DataOciDatacatalogMetastores#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#filter DataOciDatacatalogMetastores#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#filter DataOciDatacatalogMetastores#filter}
   */
   readonly filter?: DataOciDatacatalogMetastoresFilter[] | cdktf.IResolvable;
 }
@@ -264,15 +264,15 @@ export class DataOciDatacatalogMetastoresMetastoresList extends cdktf.ComplexLis
 }
 export interface DataOciDatacatalogMetastoresFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#name DataOciDatacatalogMetastores#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#name DataOciDatacatalogMetastores#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#regex DataOciDatacatalogMetastores#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#regex DataOciDatacatalogMetastores#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#values DataOciDatacatalogMetastores#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#values DataOciDatacatalogMetastores#values}
   */
   readonly values: string[];
 }
@@ -440,7 +440,7 @@ export class DataOciDatacatalogMetastoresFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores oci_datacatalog_metastores}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores oci_datacatalog_metastores}
 */
 export class DataOciDatacatalogMetastores extends cdktf.TerraformDataSource {
 
@@ -456,7 +456,7 @@ export class DataOciDatacatalogMetastores extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatacatalogMetastores resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatacatalogMetastores to import
-  * @param importFromId The id of the existing DataOciDatacatalogMetastores that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatacatalogMetastores that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatacatalogMetastores to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -468,7 +468,7 @@ export class DataOciDatacatalogMetastores extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/datacatalog_metastores oci_datacatalog_metastores} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/datacatalog_metastores oci_datacatalog_metastores} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -479,8 +479,8 @@ export class DataOciDatacatalogMetastores extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datacatalog_metastores',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

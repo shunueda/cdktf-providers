@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBridgeAssetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#asset_source_ids CloudBridgeAsset#asset_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#asset_source_ids CloudBridgeAsset#asset_source_ids}
   */
   readonly assetSourceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#asset_type CloudBridgeAsset#asset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#asset_type CloudBridgeAsset#asset_type}
   */
   readonly assetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#compartment_id CloudBridgeAsset#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#compartment_id CloudBridgeAsset#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#defined_tags CloudBridgeAsset#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#defined_tags CloudBridgeAsset#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#display_name CloudBridgeAsset#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#display_name CloudBridgeAsset#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#external_asset_key CloudBridgeAsset#external_asset_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#external_asset_key CloudBridgeAsset#external_asset_key}
   */
   readonly externalAssetKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#freeform_tags CloudBridgeAsset#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#freeform_tags CloudBridgeAsset#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#id CloudBridgeAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#id CloudBridgeAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#inventory_id CloudBridgeAsset#inventory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#inventory_id CloudBridgeAsset#inventory_id}
   */
   readonly inventoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#source_key CloudBridgeAsset#source_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#source_key CloudBridgeAsset#source_key}
   */
   readonly sourceKey: string;
   /**
   * compute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#compute CloudBridgeAsset#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#compute CloudBridgeAsset#compute}
   */
   readonly compute?: CloudBridgeAssetCompute;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#timeouts CloudBridgeAsset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#timeouts CloudBridgeAsset#timeouts}
   */
   readonly timeouts?: CloudBridgeAssetTimeouts;
   /**
   * vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vm CloudBridgeAsset#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vm CloudBridgeAsset#vm}
   */
   readonly vm?: CloudBridgeAssetVm;
   /**
   * vmware_vcenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vmware_vcenter CloudBridgeAsset#vmware_vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vmware_vcenter CloudBridgeAsset#vmware_vcenter}
   */
   readonly vmwareVcenter?: CloudBridgeAssetVmwareVcenter;
   /**
   * vmware_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vmware_vm CloudBridgeAsset#vmware_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vmware_vm CloudBridgeAsset#vmware_vm}
   */
   readonly vmwareVm?: CloudBridgeAssetVmwareVm;
 }
 export interface CloudBridgeAssetComputeDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#boot_order CloudBridgeAsset#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#boot_order CloudBridgeAsset#boot_order}
   */
   readonly bootOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#location CloudBridgeAsset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#location CloudBridgeAsset#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#persistent_mode CloudBridgeAsset#persistent_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#persistent_mode CloudBridgeAsset#persistent_mode}
   */
   readonly persistentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#size_in_mbs CloudBridgeAsset#size_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#size_in_mbs CloudBridgeAsset#size_in_mbs}
   */
   readonly sizeInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#uuid CloudBridgeAsset#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#uuid CloudBridgeAsset#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#uuid_lun CloudBridgeAsset#uuid_lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#uuid_lun CloudBridgeAsset#uuid_lun}
   */
   readonly uuidLun?: string;
 }
@@ -397,23 +397,23 @@ export class CloudBridgeAssetComputeDisksList extends cdktf.ComplexList {
 }
 export interface CloudBridgeAssetComputeGpuDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}
   */
   readonly coresCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#manufacturer CloudBridgeAsset#manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#manufacturer CloudBridgeAsset#manufacturer}
   */
   readonly manufacturer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}
   */
   readonly memoryInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
   */
   readonly name?: string;
 }
@@ -645,27 +645,27 @@ export class CloudBridgeAssetComputeGpuDevicesList extends cdktf.ComplexList {
 }
 export interface CloudBridgeAssetComputeNics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#ip_addresses CloudBridgeAsset#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#ip_addresses CloudBridgeAsset#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#mac_address CloudBridgeAsset#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#mac_address CloudBridgeAsset#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#mac_address_type CloudBridgeAsset#mac_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#mac_address_type CloudBridgeAsset#mac_address_type}
   */
   readonly macAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#network_name CloudBridgeAsset#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#network_name CloudBridgeAsset#network_name}
   */
   readonly networkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#switch_name CloudBridgeAsset#switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#switch_name CloudBridgeAsset#switch_name}
   */
   readonly switchName?: string;
 }
@@ -926,11 +926,11 @@ export class CloudBridgeAssetComputeNicsList extends cdktf.ComplexList {
 }
 export interface CloudBridgeAssetComputeNvdimmController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}
   */
   readonly busNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
   */
   readonly label?: string;
 }
@@ -1043,15 +1043,15 @@ export class CloudBridgeAssetComputeNvdimmControllerOutputReference extends cdkt
 }
 export interface CloudBridgeAssetComputeNvdimms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}
   */
   readonly controllerKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}
   */
   readonly unitNumber?: number;
 }
@@ -1225,15 +1225,15 @@ export class CloudBridgeAssetComputeNvdimmsList extends cdktf.ComplexList {
 }
 export interface CloudBridgeAssetComputeScsiController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#shared_bus CloudBridgeAsset#shared_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#shared_bus CloudBridgeAsset#shared_bus}
   */
   readonly sharedBus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}
   */
   readonly unitNumber?: number;
 }
@@ -1375,131 +1375,131 @@ export class CloudBridgeAssetComputeScsiControllerOutputReference extends cdktf.
 }
 export interface CloudBridgeAssetCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#connected_networks CloudBridgeAsset#connected_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#connected_networks CloudBridgeAsset#connected_networks}
   */
   readonly connectedNetworks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}
   */
   readonly coresCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#cpu_model CloudBridgeAsset#cpu_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#cpu_model CloudBridgeAsset#cpu_model}
   */
   readonly cpuModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#disks_count CloudBridgeAsset#disks_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#disks_count CloudBridgeAsset#disks_count}
   */
   readonly disksCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#dns_name CloudBridgeAsset#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#dns_name CloudBridgeAsset#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#firmware CloudBridgeAsset#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#firmware CloudBridgeAsset#firmware}
   */
   readonly firmware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#gpu_devices_count CloudBridgeAsset#gpu_devices_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#gpu_devices_count CloudBridgeAsset#gpu_devices_count}
   */
   readonly gpuDevicesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#guest_state CloudBridgeAsset#guest_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#guest_state CloudBridgeAsset#guest_state}
   */
   readonly guestState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#hardware_version CloudBridgeAsset#hardware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#hardware_version CloudBridgeAsset#hardware_version}
   */
   readonly hardwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#host_name CloudBridgeAsset#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#host_name CloudBridgeAsset#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#is_pmem_enabled CloudBridgeAsset#is_pmem_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#is_pmem_enabled CloudBridgeAsset#is_pmem_enabled}
   */
   readonly isPmemEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#is_tpm_enabled CloudBridgeAsset#is_tpm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#is_tpm_enabled CloudBridgeAsset#is_tpm_enabled}
   */
   readonly isTpmEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#latency_sensitivity CloudBridgeAsset#latency_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#latency_sensitivity CloudBridgeAsset#latency_sensitivity}
   */
   readonly latencySensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}
   */
   readonly memoryInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#nics_count CloudBridgeAsset#nics_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#nics_count CloudBridgeAsset#nics_count}
   */
   readonly nicsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#operating_system CloudBridgeAsset#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#operating_system CloudBridgeAsset#operating_system}
   */
   readonly operatingSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#operating_system_version CloudBridgeAsset#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#operating_system_version CloudBridgeAsset#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#pmem_in_mbs CloudBridgeAsset#pmem_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#pmem_in_mbs CloudBridgeAsset#pmem_in_mbs}
   */
   readonly pmemInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#power_state CloudBridgeAsset#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#power_state CloudBridgeAsset#power_state}
   */
   readonly powerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#primary_ip CloudBridgeAsset#primary_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#primary_ip CloudBridgeAsset#primary_ip}
   */
   readonly primaryIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#storage_provisioned_in_mbs CloudBridgeAsset#storage_provisioned_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#storage_provisioned_in_mbs CloudBridgeAsset#storage_provisioned_in_mbs}
   */
   readonly storageProvisionedInMbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#threads_per_core_count CloudBridgeAsset#threads_per_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#threads_per_core_count CloudBridgeAsset#threads_per_core_count}
   */
   readonly threadsPerCoreCount?: number;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#disks CloudBridgeAsset#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#disks CloudBridgeAsset#disks}
   */
   readonly disks?: CloudBridgeAssetComputeDisks[] | cdktf.IResolvable;
   /**
   * gpu_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#gpu_devices CloudBridgeAsset#gpu_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#gpu_devices CloudBridgeAsset#gpu_devices}
   */
   readonly gpuDevices?: CloudBridgeAssetComputeGpuDevices[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#nics CloudBridgeAsset#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#nics CloudBridgeAsset#nics}
   */
   readonly nics?: CloudBridgeAssetComputeNics[] | cdktf.IResolvable;
   /**
   * nvdimm_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#nvdimm_controller CloudBridgeAsset#nvdimm_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#nvdimm_controller CloudBridgeAsset#nvdimm_controller}
   */
   readonly nvdimmController?: CloudBridgeAssetComputeNvdimmController;
   /**
   * nvdimms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#nvdimms CloudBridgeAsset#nvdimms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#nvdimms CloudBridgeAsset#nvdimms}
   */
   readonly nvdimms?: CloudBridgeAssetComputeNvdimms[] | cdktf.IResolvable;
   /**
   * scsi_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#scsi_controller CloudBridgeAsset#scsi_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#scsi_controller CloudBridgeAsset#scsi_controller}
   */
   readonly scsiController?: CloudBridgeAssetComputeScsiController;
 }
@@ -2395,15 +2395,15 @@ export class CloudBridgeAssetComputeOutputReference extends cdktf.ComplexObject 
 }
 export interface CloudBridgeAssetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#create CloudBridgeAsset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#create CloudBridgeAsset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#delete CloudBridgeAsset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#delete CloudBridgeAsset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#update CloudBridgeAsset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#update CloudBridgeAsset#update}
   */
   readonly update?: string;
 }
@@ -2555,15 +2555,15 @@ export class CloudBridgeAssetTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface CloudBridgeAssetVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#hypervisor_host CloudBridgeAsset#hypervisor_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#hypervisor_host CloudBridgeAsset#hypervisor_host}
   */
   readonly hypervisorHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#hypervisor_vendor CloudBridgeAsset#hypervisor_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#hypervisor_vendor CloudBridgeAsset#hypervisor_vendor}
   */
   readonly hypervisorVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#hypervisor_version CloudBridgeAsset#hypervisor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#hypervisor_version CloudBridgeAsset#hypervisor_version}
   */
   readonly hypervisorVersion?: string;
 }
@@ -2705,15 +2705,15 @@ export class CloudBridgeAssetVmOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudBridgeAssetVmwareVcenter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#data_center CloudBridgeAsset#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#data_center CloudBridgeAsset#data_center}
   */
   readonly dataCenter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vcenter_key CloudBridgeAsset#vcenter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vcenter_key CloudBridgeAsset#vcenter_key}
   */
   readonly vcenterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vcenter_version CloudBridgeAsset#vcenter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vcenter_version CloudBridgeAsset#vcenter_version}
   */
   readonly vcenterVersion?: string;
 }
@@ -2855,11 +2855,11 @@ export class CloudBridgeAssetVmwareVcenterOutputReference extends cdktf.ComplexO
 }
 export interface CloudBridgeAssetVmwareVmCustomerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}
   */
   readonly name?: string;
 }
@@ -3004,49 +3004,49 @@ export class CloudBridgeAssetVmwareVmCustomerTagsList extends cdktf.ComplexList 
 }
 export interface CloudBridgeAssetVmwareVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#cluster CloudBridgeAsset#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#cluster CloudBridgeAsset#cluster}
   */
   readonly cluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#customer_fields CloudBridgeAsset#customer_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#customer_fields CloudBridgeAsset#customer_fields}
   */
   readonly customerFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#fault_tolerance_bandwidth CloudBridgeAsset#fault_tolerance_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#fault_tolerance_bandwidth CloudBridgeAsset#fault_tolerance_bandwidth}
   */
   readonly faultToleranceBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#fault_tolerance_secondary_latency CloudBridgeAsset#fault_tolerance_secondary_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#fault_tolerance_secondary_latency CloudBridgeAsset#fault_tolerance_secondary_latency}
   */
   readonly faultToleranceSecondaryLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#fault_tolerance_state CloudBridgeAsset#fault_tolerance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#fault_tolerance_state CloudBridgeAsset#fault_tolerance_state}
   */
   readonly faultToleranceState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#instance_uuid CloudBridgeAsset#instance_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#instance_uuid CloudBridgeAsset#instance_uuid}
   */
   readonly instanceUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#is_disks_cbt_enabled CloudBridgeAsset#is_disks_cbt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#is_disks_cbt_enabled CloudBridgeAsset#is_disks_cbt_enabled}
   */
   readonly isDisksCbtEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#is_disks_uuid_enabled CloudBridgeAsset#is_disks_uuid_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#is_disks_uuid_enabled CloudBridgeAsset#is_disks_uuid_enabled}
   */
   readonly isDisksUuidEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#path CloudBridgeAsset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#path CloudBridgeAsset#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#vmware_tools_status CloudBridgeAsset#vmware_tools_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#vmware_tools_status CloudBridgeAsset#vmware_tools_status}
   */
   readonly vmwareToolsStatus?: string;
   /**
   * customer_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#customer_tags CloudBridgeAsset#customer_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#customer_tags CloudBridgeAsset#customer_tags}
   */
   readonly customerTags?: CloudBridgeAssetVmwareVmCustomerTags[] | cdktf.IResolvable;
 }
@@ -3420,7 +3420,7 @@ export class CloudBridgeAssetVmwareVmOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset}
 */
 export class CloudBridgeAsset extends cdktf.TerraformResource {
 
@@ -3436,7 +3436,7 @@ export class CloudBridgeAsset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudBridgeAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBridgeAsset to import
-  * @param importFromId The id of the existing CloudBridgeAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBridgeAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBridgeAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3448,7 +3448,7 @@ export class CloudBridgeAsset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/cloud_bridge_asset oci_cloud_bridge_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3459,8 +3459,8 @@ export class CloudBridgeAsset extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_bridge_asset',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

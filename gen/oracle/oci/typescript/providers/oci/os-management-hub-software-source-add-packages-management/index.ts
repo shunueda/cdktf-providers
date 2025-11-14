@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubSoftwareSourceAddPackagesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}
   */
   readonly isContinueOnMissingPackages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}
   */
   readonly packages: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}
   */
   readonly softwareSourceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubSoftwareSourceAddPackagesManagementTimeouts;
 }
 export interface OsManagementHubSoftwareSourceAddPackagesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#create OsManagementHubSoftwareSourceAddPackagesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#create OsManagementHubSoftwareSourceAddPackagesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#delete OsManagementHubSoftwareSourceAddPackagesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#delete OsManagementHubSoftwareSourceAddPackagesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#update OsManagementHubSoftwareSourceAddPackagesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#update OsManagementHubSoftwareSourceAddPackagesManagement#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class OsManagementHubSoftwareSourceAddPackagesManagementTimeoutsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management oci_os_management_hub_software_source_add_packages_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management oci_os_management_hub_software_source_add_packages_management}
 */
 export class OsManagementHubSoftwareSourceAddPackagesManagement extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class OsManagementHubSoftwareSourceAddPackagesManagement extends cdktf.Te
   * Generates CDKTF code for importing a OsManagementHubSoftwareSourceAddPackagesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubSoftwareSourceAddPackagesManagement to import
-  * @param importFromId The id of the existing OsManagementHubSoftwareSourceAddPackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubSoftwareSourceAddPackagesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubSoftwareSourceAddPackagesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class OsManagementHubSoftwareSourceAddPackagesManagement extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_add_packages_management oci_os_management_hub_software_source_add_packages_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_add_packages_management oci_os_management_hub_software_source_add_packages_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class OsManagementHubSoftwareSourceAddPackagesManagement extends cdktf.Te
       terraformResourceType: 'oci_os_management_hub_software_source_add_packages_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

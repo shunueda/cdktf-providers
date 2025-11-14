@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VolumeGroupIscsiClientV2Config extends cdktf.TerraformMetaArgum
   /**
   * The site where the Volume Group attach operation should be processed. This is an optional field. This field may only be set if Metro DR has been configured for this Volume Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#attachment_site VolumeGroupIscsiClientV2#attachment_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#attachment_site VolumeGroupIscsiClientV2#attachment_site}
   */
   readonly attachmentSite?: string;
   /**
   * iSCSI initiator client secret in case of CHAP authentication. This field should not be provided in case the authentication type is not set to CHAP..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#client_secret VolumeGroupIscsiClientV2#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#client_secret VolumeGroupIscsiClientV2#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The authentication type enabled for the Volume Group. This is an optional field. If omitted, authentication is not configured for the Volume Group. If this is set to CHAP, the target/client secret must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#enabled_authentications VolumeGroupIscsiClientV2#enabled_authentications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#enabled_authentications VolumeGroupIscsiClientV2#enabled_authentications}
   */
   readonly enabledAuthentications?: string;
   /**
   * A globally unique identifier of an instance that is suitable for external consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#ext_id VolumeGroupIscsiClientV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#ext_id VolumeGroupIscsiClientV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#id VolumeGroupIscsiClientV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#id VolumeGroupIscsiClientV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface VolumeGroupIscsiClientV2Config extends cdktf.TerraformMetaArgum
   /**
   * iSCSI initiator name. During the attach operation, exactly one of iscsiInitiatorName and iscsiInitiatorNetworkID must be specified. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#iscsi_initiator_name VolumeGroupIscsiClientV2#iscsi_initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#iscsi_initiator_name VolumeGroupIscsiClientV2#iscsi_initiator_name}
   */
   readonly iscsiInitiatorName?: string;
   /**
   * Number of virtual targets generated for the iSCSI target. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#num_virtual_targets VolumeGroupIscsiClientV2#num_virtual_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#num_virtual_targets VolumeGroupIscsiClientV2#num_virtual_targets}
   */
   readonly numVirtualTargets?: number;
   /**
   * The external identifier of the Volume Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#vg_ext_id VolumeGroupIscsiClientV2#vg_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#vg_ext_id VolumeGroupIscsiClientV2#vg_ext_id}
   */
   readonly vgExtId: string;
   /**
   * iscsi_initiator_network_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#iscsi_initiator_network_id VolumeGroupIscsiClientV2#iscsi_initiator_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#iscsi_initiator_network_id VolumeGroupIscsiClientV2#iscsi_initiator_network_id}
   */
   readonly iscsiInitiatorNetworkId?: VolumeGroupIscsiClientV2IscsiInitiatorNetworkId[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdFqdn {
   /**
   * A fully qualified domain name that specifies its exact location in the tree hierarchy of the Domain Name System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
   */
   readonly value?: string;
 }
@@ -185,13 +185,13 @@ export interface VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdIpv4 {
   /**
   * The prefix length of the network to which this host IPv4 address belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#prefix_length VolumeGroupIscsiClientV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#prefix_length VolumeGroupIscsiClientV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * An unique address that identifies a device on the internet or a local network in IPv4 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
   */
   readonly value?: string;
 }
@@ -338,13 +338,13 @@ export interface VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdIpv6 {
   /**
   * The prefix length of the network to which this host IPv6 address belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#prefix_length VolumeGroupIscsiClientV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#prefix_length VolumeGroupIscsiClientV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * An unique address that identifies a device on the internet or a local network in IPv6 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#value VolumeGroupIscsiClientV2#value}
   */
   readonly value?: string;
 }
@@ -491,19 +491,19 @@ export interface VolumeGroupIscsiClientV2IscsiInitiatorNetworkId {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#fqdn VolumeGroupIscsiClientV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#fqdn VolumeGroupIscsiClientV2#fqdn}
   */
   readonly fqdn?: VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#ipv4 VolumeGroupIscsiClientV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#ipv4 VolumeGroupIscsiClientV2#ipv4}
   */
   readonly ipv4?: VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#ipv6 VolumeGroupIscsiClientV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#ipv6 VolumeGroupIscsiClientV2#ipv6}
   */
   readonly ipv6?: VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdIpv6[] | cdktf.IResolvable;
 }
@@ -677,7 +677,7 @@ export class VolumeGroupIscsiClientV2IscsiInitiatorNetworkIdList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2 nutanix_volume_group_iscsi_client_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2 nutanix_volume_group_iscsi_client_v2}
 */
 export class VolumeGroupIscsiClientV2 extends cdktf.TerraformResource {
 
@@ -693,7 +693,7 @@ export class VolumeGroupIscsiClientV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeGroupIscsiClientV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeGroupIscsiClientV2 to import
-  * @param importFromId The id of the existing VolumeGroupIscsiClientV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeGroupIscsiClientV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeGroupIscsiClientV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class VolumeGroupIscsiClientV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/volume_group_iscsi_client_v2 nutanix_volume_group_iscsi_client_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/volume_group_iscsi_client_v2 nutanix_volume_group_iscsi_client_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class VolumeGroupIscsiClientV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_volume_group_iscsi_client_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

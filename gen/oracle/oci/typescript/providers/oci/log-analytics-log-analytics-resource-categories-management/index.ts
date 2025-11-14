@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsLogAnalyticsResourceCategoriesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#id LogAnalyticsLogAnalyticsResourceCategoriesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#id LogAnalyticsLogAnalyticsResourceCategoriesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#namespace LogAnalyticsLogAnalyticsResourceCategoriesManagement#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#namespace LogAnalyticsLogAnalyticsResourceCategoriesManagement#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_categories LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_categories LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_categories}
   */
   readonly resourceCategories: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_id LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_id LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_type LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#resource_type LogAnalyticsLogAnalyticsResourceCategoriesManagement#resource_type}
   */
   readonly resourceType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#timeouts LogAnalyticsLogAnalyticsResourceCategoriesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#timeouts LogAnalyticsLogAnalyticsResourceCategoriesManagement#timeouts}
   */
   readonly timeouts?: LogAnalyticsLogAnalyticsResourceCategoriesManagementTimeouts;
 }
 export interface LogAnalyticsLogAnalyticsResourceCategoriesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#create LogAnalyticsLogAnalyticsResourceCategoriesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#create LogAnalyticsLogAnalyticsResourceCategoriesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#delete LogAnalyticsLogAnalyticsResourceCategoriesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#delete LogAnalyticsLogAnalyticsResourceCategoriesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#update LogAnalyticsLogAnalyticsResourceCategoriesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#update LogAnalyticsLogAnalyticsResourceCategoriesManagement#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class LogAnalyticsLogAnalyticsResourceCategoriesManagementTimeoutsOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management oci_log_analytics_log_analytics_resource_categories_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management oci_log_analytics_log_analytics_resource_categories_management}
 */
 export class LogAnalyticsLogAnalyticsResourceCategoriesManagement extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class LogAnalyticsLogAnalyticsResourceCategoriesManagement extends cdktf.
   * Generates CDKTF code for importing a LogAnalyticsLogAnalyticsResourceCategoriesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsLogAnalyticsResourceCategoriesManagement to import
-  * @param importFromId The id of the existing LogAnalyticsLogAnalyticsResourceCategoriesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsLogAnalyticsResourceCategoriesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsLogAnalyticsResourceCategoriesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class LogAnalyticsLogAnalyticsResourceCategoriesManagement extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/log_analytics_log_analytics_resource_categories_management oci_log_analytics_log_analytics_resource_categories_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/log_analytics_log_analytics_resource_categories_management oci_log_analytics_log_analytics_resource_categories_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class LogAnalyticsLogAnalyticsResourceCategoriesManagement extends cdktf.
       terraformResourceType: 'oci_log_analytics_log_analytics_resource_categories_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLoadBalancerHostnamesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#id DataOciLoadBalancerHostnames#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#id DataOciLoadBalancerHostnames#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#load_balancer_id DataOciLoadBalancerHostnames#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#load_balancer_id DataOciLoadBalancerHostnames#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#filter DataOciLoadBalancerHostnames#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#filter DataOciLoadBalancerHostnames#filter}
   */
   readonly filter?: DataOciLoadBalancerHostnamesFilter[] | cdktf.IResolvable;
 }
@@ -117,15 +117,15 @@ export class DataOciLoadBalancerHostnamesHostnamesList extends cdktf.ComplexList
 }
 export interface DataOciLoadBalancerHostnamesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#name DataOciLoadBalancerHostnames#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#name DataOciLoadBalancerHostnames#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#regex DataOciLoadBalancerHostnames#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#regex DataOciLoadBalancerHostnames#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#values DataOciLoadBalancerHostnames#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#values DataOciLoadBalancerHostnames#values}
   */
   readonly values: string[];
 }
@@ -293,7 +293,7 @@ export class DataOciLoadBalancerHostnamesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames oci_load_balancer_hostnames}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames oci_load_balancer_hostnames}
 */
 export class DataOciLoadBalancerHostnames extends cdktf.TerraformDataSource {
 
@@ -309,7 +309,7 @@ export class DataOciLoadBalancerHostnames extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciLoadBalancerHostnames resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLoadBalancerHostnames to import
-  * @param importFromId The id of the existing DataOciLoadBalancerHostnames that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLoadBalancerHostnames that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLoadBalancerHostnames to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class DataOciLoadBalancerHostnames extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/load_balancer_hostnames oci_load_balancer_hostnames} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/load_balancer_hostnames oci_load_balancer_hostnames} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class DataOciLoadBalancerHostnames extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_load_balancer_hostnames',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

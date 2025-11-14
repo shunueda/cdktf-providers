@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilityIoCardCapabilityDefConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#account_moid CapabilityIoCardCapabilityDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#account_moid CapabilityIoCardCapabilityDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#ancestors CapabilityIoCardCapabilityDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#ancestors CapabilityIoCardCapabilityDef#ancestors}
   */
   readonly ancestors?: CapabilityIoCardCapabilityDefAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface CapabilityIoCardCapabilityDefConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#create_time CapabilityIoCardCapabilityDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#create_time CapabilityIoCardCapabilityDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Device connector support on Iocard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#dc_supported CapabilityIoCardCapabilityDef#dc_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#dc_supported CapabilityIoCardCapabilityDef#dc_supported}
   */
   readonly dcSupported?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#domain_group_moid CapabilityIoCardCapabilityDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#domain_group_moid CapabilityIoCardCapabilityDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#id CapabilityIoCardCapabilityDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#id CapabilityIoCardCapabilityDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,82 +59,82 @@ export interface CapabilityIoCardCapabilityDefConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#mod_time CapabilityIoCardCapabilityDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#mod_time CapabilityIoCardCapabilityDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#name CapabilityIoCardCapabilityDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#name CapabilityIoCardCapabilityDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#owners CapabilityIoCardCapabilityDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#owners CapabilityIoCardCapabilityDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#parent CapabilityIoCardCapabilityDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#parent CapabilityIoCardCapabilityDef#parent}
   */
   readonly parent?: CapabilityIoCardCapabilityDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#permission_resources CapabilityIoCardCapabilityDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#permission_resources CapabilityIoCardCapabilityDef#permission_resources}
   */
   readonly permissionResources?: CapabilityIoCardCapabilityDefPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#shared_scope CapabilityIoCardCapabilityDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#shared_scope CapabilityIoCardCapabilityDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#tags CapabilityIoCardCapabilityDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#tags CapabilityIoCardCapabilityDef#tags}
   */
   readonly tags?: CapabilityIoCardCapabilityDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#version_context CapabilityIoCardCapabilityDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#version_context CapabilityIoCardCapabilityDef#version_context}
   */
   readonly versionContext?: CapabilityIoCardCapabilityDefVersionContext[] | cdktf.IResolvable;
 }
 export interface CapabilityIoCardCapabilityDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -366,23 +366,23 @@ export class CapabilityIoCardCapabilityDefAncestorsList extends cdktf.ComplexLis
 }
 export interface CapabilityIoCardCapabilityDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -614,23 +614,23 @@ export class CapabilityIoCardCapabilityDefParentList extends cdktf.ComplexList {
 }
 export interface CapabilityIoCardCapabilityDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -862,23 +862,23 @@ export class CapabilityIoCardCapabilityDefPermissionResourcesList extends cdktf.
 }
 export interface CapabilityIoCardCapabilityDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1110,23 +1110,23 @@ export class CapabilityIoCardCapabilityDefTagsAncestorDefinitionsList extends cd
 }
 export interface CapabilityIoCardCapabilityDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1358,31 +1358,35 @@ export class CapabilityIoCardCapabilityDefTagsDefinitionList extends cdktf.Compl
 }
 export interface CapabilityIoCardCapabilityDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#ancestor_definitions CapabilityIoCardCapabilityDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#ancestor_definitions CapabilityIoCardCapabilityDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityIoCardCapabilityDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#definition CapabilityIoCardCapabilityDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#definition CapabilityIoCardCapabilityDef#definition}
   */
   readonly definition?: CapabilityIoCardCapabilityDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#key CapabilityIoCardCapabilityDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#key CapabilityIoCardCapabilityDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#propagated CapabilityIoCardCapabilityDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#propagated CapabilityIoCardCapabilityDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#type CapabilityIoCardCapabilityDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#sys_tag CapabilityIoCardCapabilityDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#type CapabilityIoCardCapabilityDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#value CapabilityIoCardCapabilityDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#value CapabilityIoCardCapabilityDef#value}
   */
   readonly value?: string;
 }
@@ -1398,6 +1402,7 @@ export function capabilityIoCardCapabilityDefTagsToTerraform(struct?: Capability
     definition: cdktf.listMapper(capabilityIoCardCapabilityDefTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1436,6 +1441,12 @@ export function capabilityIoCardCapabilityDefTagsToHclTerraform(struct?: Capabil
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1498,6 +1509,10 @@ export class CapabilityIoCardCapabilityDefTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1518,6 +1533,7 @@ export class CapabilityIoCardCapabilityDefTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1533,6 +1549,7 @@ export class CapabilityIoCardCapabilityDefTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1618,6 +1635,22 @@ export class CapabilityIoCardCapabilityDefTagsOutputReference extends cdktf.Comp
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1672,23 +1705,23 @@ export class CapabilityIoCardCapabilityDefTagsList extends cdktf.ComplexList {
 }
 export interface CapabilityIoCardCapabilityDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -1920,23 +1953,23 @@ export class CapabilityIoCardCapabilityDefVersionContextInterestedMosList extend
 }
 export interface CapabilityIoCardCapabilityDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#moid CapabilityIoCardCapabilityDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#selector CapabilityIoCardCapabilityDef#selector}
   */
   readonly selector?: string;
 }
@@ -2168,39 +2201,39 @@ export class CapabilityIoCardCapabilityDefVersionContextRefMoList extends cdktf.
 }
 export interface CapabilityIoCardCapabilityDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#additional_properties CapabilityIoCardCapabilityDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#class_id CapabilityIoCardCapabilityDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#interested_mos CapabilityIoCardCapabilityDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#interested_mos CapabilityIoCardCapabilityDef#interested_mos}
   */
   readonly interestedMos?: CapabilityIoCardCapabilityDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#marked_for_deletion CapabilityIoCardCapabilityDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#marked_for_deletion CapabilityIoCardCapabilityDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#nr_version CapabilityIoCardCapabilityDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#nr_version CapabilityIoCardCapabilityDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#object_type CapabilityIoCardCapabilityDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#ref_mo CapabilityIoCardCapabilityDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#ref_mo CapabilityIoCardCapabilityDef#ref_mo}
   */
   readonly refMo?: CapabilityIoCardCapabilityDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#timestamp CapabilityIoCardCapabilityDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#timestamp CapabilityIoCardCapabilityDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#version_type CapabilityIoCardCapabilityDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#version_type CapabilityIoCardCapabilityDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2548,7 +2581,7 @@ export class CapabilityIoCardCapabilityDefVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def intersight_capability_io_card_capability_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def intersight_capability_io_card_capability_def}
 */
 export class CapabilityIoCardCapabilityDef extends cdktf.TerraformResource {
 
@@ -2564,7 +2597,7 @@ export class CapabilityIoCardCapabilityDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityIoCardCapabilityDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityIoCardCapabilityDef to import
-  * @param importFromId The id of the existing CapabilityIoCardCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityIoCardCapabilityDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityIoCardCapabilityDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2576,7 +2609,7 @@ export class CapabilityIoCardCapabilityDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_io_card_capability_def intersight_capability_io_card_capability_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_io_card_capability_def intersight_capability_io_card_capability_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2587,8 +2620,8 @@ export class CapabilityIoCardCapabilityDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_io_card_capability_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

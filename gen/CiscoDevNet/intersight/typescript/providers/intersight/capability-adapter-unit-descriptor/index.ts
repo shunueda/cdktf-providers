@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CapabilityAdapterUnitDescriptorConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#account_moid CapabilityAdapterUnitDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#account_moid CapabilityAdapterUnitDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -20,23 +20,23 @@ export interface CapabilityAdapterUnitDescriptorConfig extends cdktf.TerraformMe
   * * `3` - Third generation adapters (13xx). The PIDs of these adapters end with the string 03.
   * * `5` - Fifth generation adapters (15xx). The PIDs of these adapters contain the V5 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#adapter_generation CapabilityAdapterUnitDescriptor#adapter_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#adapter_generation CapabilityAdapterUnitDescriptor#adapter_generation}
   */
   readonly adapterGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#ancestors CapabilityAdapterUnitDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#ancestors CapabilityAdapterUnitDescriptor#ancestors}
   */
   readonly ancestors?: CapabilityAdapterUnitDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * An array of relationships to capabilityCapability resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#capabilities CapabilityAdapterUnitDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#capabilities CapabilityAdapterUnitDescriptor#capabilities}
   */
   readonly capabilities?: CapabilityAdapterUnitDescriptorCapabilities[] | cdktf.IResolvable;
   /**
@@ -44,57 +44,57 @@ export interface CapabilityAdapterUnitDescriptorConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * Order in which the ports are connected; sequential or cyclic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#connectivity_order CapabilityAdapterUnitDescriptor#connectivity_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#connectivity_order CapabilityAdapterUnitDescriptor#connectivity_order}
   */
   readonly connectivityOrder?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#create_time CapabilityAdapterUnitDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#create_time CapabilityAdapterUnitDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#description CapabilityAdapterUnitDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#description CapabilityAdapterUnitDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#domain_group_moid CapabilityAdapterUnitDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#domain_group_moid CapabilityAdapterUnitDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The port speed for ethernet ports in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#ethernet_port_speed CapabilityAdapterUnitDescriptor#ethernet_port_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#ethernet_port_speed CapabilityAdapterUnitDescriptor#ethernet_port_speed}
   */
   readonly ethernetPortSpeed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#features CapabilityAdapterUnitDescriptor#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#features CapabilityAdapterUnitDescriptor#features}
   */
   readonly features?: CapabilityAdapterUnitDescriptorFeatures[] | cdktf.IResolvable;
   /**
   * The port speed for fibre channel ports in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#fibre_channel_port_speed CapabilityAdapterUnitDescriptor#fibre_channel_port_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#fibre_channel_port_speed CapabilityAdapterUnitDescriptor#fibre_channel_port_speed}
   */
   readonly fibreChannelPortSpeed?: number;
   /**
   * The number of SCSI I/O Queue resources to allocate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#fibre_channel_scsi_ioq_limit CapabilityAdapterUnitDescriptor#fibre_channel_scsi_ioq_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#fibre_channel_scsi_ioq_limit CapabilityAdapterUnitDescriptor#fibre_channel_scsi_ioq_limit}
   */
   readonly fibreChannelScsiIoqLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#id CapabilityAdapterUnitDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#id CapabilityAdapterUnitDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,166 +103,166 @@ export interface CapabilityAdapterUnitDescriptorConfig extends cdktf.TerraformMe
   /**
   * Indicates that the Azure Stack Host QoS feature is supported by this adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#is_azure_qos_supported CapabilityAdapterUnitDescriptor#is_azure_qos_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#is_azure_qos_supported CapabilityAdapterUnitDescriptor#is_azure_qos_supported}
   */
   readonly isAzureQosSupported?: boolean | cdktf.IResolvable;
   /**
   * Indicates that the GENEVE offload feature is supported by this adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#is_geneve_supported CapabilityAdapterUnitDescriptor#is_geneve_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#is_geneve_supported CapabilityAdapterUnitDescriptor#is_geneve_supported}
   */
   readonly isGeneveSupported?: boolean | cdktf.IResolvable;
   /**
   * This field determines whether vNICs can be placed to the adapters. It is mandatory for all adapters. For third-party adapters, this field is set to 'false', meaning they will only be inventoried, and no LCP configuration will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#is_placement_applicable CapabilityAdapterUnitDescriptor#is_placement_applicable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#is_placement_applicable CapabilityAdapterUnitDescriptor#is_placement_applicable}
   */
   readonly isPlacementApplicable?: boolean | cdktf.IResolvable;
   /**
   * Indicates support for secure boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#is_secure_boot_supported CapabilityAdapterUnitDescriptor#is_secure_boot_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#is_secure_boot_supported CapabilityAdapterUnitDescriptor#is_secure_boot_supported}
   */
   readonly isSecureBootSupported?: boolean | cdktf.IResolvable;
   /**
   * Maximum Ring Size value for vNIC Receive Queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#max_eth_rx_ring_size CapabilityAdapterUnitDescriptor#max_eth_rx_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#max_eth_rx_ring_size CapabilityAdapterUnitDescriptor#max_eth_rx_ring_size}
   */
   readonly maxEthRxRingSize?: number;
   /**
   * Maximum Ring Size value for vNIC Transmit Queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#max_eth_tx_ring_size CapabilityAdapterUnitDescriptor#max_eth_tx_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#max_eth_tx_ring_size CapabilityAdapterUnitDescriptor#max_eth_tx_ring_size}
   */
   readonly maxEthTxRingSize?: number;
   /**
   * Maximum number of vNIC interfaces that can be RoCEv2 enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#max_rocev2_interfaces CapabilityAdapterUnitDescriptor#max_rocev2_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#max_rocev2_interfaces CapabilityAdapterUnitDescriptor#max_rocev2_interfaces}
   */
   readonly maxRocev2Interfaces?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#mod_time CapabilityAdapterUnitDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#mod_time CapabilityAdapterUnitDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#model CapabilityAdapterUnitDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#model CapabilityAdapterUnitDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#nr_version CapabilityAdapterUnitDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#nr_version CapabilityAdapterUnitDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * Number of Dce Ports for the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#num_dce_ports CapabilityAdapterUnitDescriptor#num_dce_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#num_dce_ports CapabilityAdapterUnitDescriptor#num_dce_ports}
   */
   readonly numDcePorts?: number;
   /**
   * Indicates number of PCI Links of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#number_of_pci_links CapabilityAdapterUnitDescriptor#number_of_pci_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#number_of_pci_links CapabilityAdapterUnitDescriptor#number_of_pci_links}
   */
   readonly numberOfPciLinks?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#owners CapabilityAdapterUnitDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#owners CapabilityAdapterUnitDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#parent CapabilityAdapterUnitDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#parent CapabilityAdapterUnitDescriptor#parent}
   */
   readonly parent?: CapabilityAdapterUnitDescriptorParent[] | cdktf.IResolvable;
   /**
   * Indicates PCI Link status of adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#pci_link CapabilityAdapterUnitDescriptor#pci_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#pci_link CapabilityAdapterUnitDescriptor#pci_link}
   */
   readonly pciLink?: number;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#permission_resources CapabilityAdapterUnitDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#permission_resources CapabilityAdapterUnitDescriptor#permission_resources}
   */
   readonly permissionResources?: CapabilityAdapterUnitDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * Prom card type for the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#prom_card_type CapabilityAdapterUnitDescriptor#prom_card_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#prom_card_type CapabilityAdapterUnitDescriptor#prom_card_type}
   */
   readonly promCardType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#shared_scope CapabilityAdapterUnitDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#shared_scope CapabilityAdapterUnitDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#tags CapabilityAdapterUnitDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#tags CapabilityAdapterUnitDescriptor#tags}
   */
   readonly tags?: CapabilityAdapterUnitDescriptorTags[] | cdktf.IResolvable;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#vendor CapabilityAdapterUnitDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#vendor CapabilityAdapterUnitDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#version_context CapabilityAdapterUnitDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#version_context CapabilityAdapterUnitDescriptor#version_context}
   */
   readonly versionContext?: CapabilityAdapterUnitDescriptorVersionContext[] | cdktf.IResolvable;
   /**
   * Vic Id assigned for the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#vic_id CapabilityAdapterUnitDescriptor#vic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#vic_id CapabilityAdapterUnitDescriptor#vic_id}
   */
   readonly vicId?: string;
 }
 export interface CapabilityAdapterUnitDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -494,23 +494,23 @@ export class CapabilityAdapterUnitDescriptorAncestorsList extends cdktf.ComplexL
 }
 export interface CapabilityAdapterUnitDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -742,23 +742,23 @@ export class CapabilityAdapterUnitDescriptorCapabilitiesList extends cdktf.Compl
 }
 export interface CapabilityAdapterUnitDescriptorFeaturesUnsupportedFeatureMatrix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#generation CapabilityAdapterUnitDescriptor#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#generation CapabilityAdapterUnitDescriptor#generation}
   */
   readonly generation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#unsupportd_features CapabilityAdapterUnitDescriptor#unsupportd_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#unsupportd_features CapabilityAdapterUnitDescriptor#unsupportd_features}
   */
   readonly unsupportdFeatures?: string[];
 }
@@ -990,47 +990,47 @@ export class CapabilityAdapterUnitDescriptorFeaturesUnsupportedFeatureMatrixList
 }
 export interface CapabilityAdapterUnitDescriptorFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#feature_name CapabilityAdapterUnitDescriptor#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#feature_name CapabilityAdapterUnitDescriptor#feature_name}
   */
   readonly featureName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#min_adapter_fw_version CapabilityAdapterUnitDescriptor#min_adapter_fw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#min_adapter_fw_version CapabilityAdapterUnitDescriptor#min_adapter_fw_version}
   */
   readonly minAdapterFwVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#min_fw_version CapabilityAdapterUnitDescriptor#min_fw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#min_fw_version CapabilityAdapterUnitDescriptor#min_fw_version}
   */
   readonly minFwVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#supported_fw_versions CapabilityAdapterUnitDescriptor#supported_fw_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#supported_fw_versions CapabilityAdapterUnitDescriptor#supported_fw_versions}
   */
   readonly supportedFwVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#supported_in_adapters CapabilityAdapterUnitDescriptor#supported_in_adapters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#supported_in_adapters CapabilityAdapterUnitDescriptor#supported_in_adapters}
   */
   readonly supportedInAdapters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#supported_in_generations CapabilityAdapterUnitDescriptor#supported_in_generations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#supported_in_generations CapabilityAdapterUnitDescriptor#supported_in_generations}
   */
   readonly supportedInGenerations?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#unsupported_feature_matrix CapabilityAdapterUnitDescriptor#unsupported_feature_matrix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#unsupported_feature_matrix CapabilityAdapterUnitDescriptor#unsupported_feature_matrix}
   */
   readonly unsupportedFeatureMatrix?: CapabilityAdapterUnitDescriptorFeaturesUnsupportedFeatureMatrix[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#validation_action CapabilityAdapterUnitDescriptor#validation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#validation_action CapabilityAdapterUnitDescriptor#validation_action}
   */
   readonly validationAction?: string;
 }
@@ -1436,23 +1436,23 @@ export class CapabilityAdapterUnitDescriptorFeaturesList extends cdktf.ComplexLi
 }
 export interface CapabilityAdapterUnitDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1684,23 +1684,23 @@ export class CapabilityAdapterUnitDescriptorParentList extends cdktf.ComplexList
 }
 export interface CapabilityAdapterUnitDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1932,23 +1932,23 @@ export class CapabilityAdapterUnitDescriptorPermissionResourcesList extends cdkt
 }
 export interface CapabilityAdapterUnitDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2180,23 +2180,23 @@ export class CapabilityAdapterUnitDescriptorTagsAncestorDefinitionsList extends 
 }
 export interface CapabilityAdapterUnitDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2428,31 +2428,35 @@ export class CapabilityAdapterUnitDescriptorTagsDefinitionList extends cdktf.Com
 }
 export interface CapabilityAdapterUnitDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#ancestor_definitions CapabilityAdapterUnitDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#ancestor_definitions CapabilityAdapterUnitDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityAdapterUnitDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#definition CapabilityAdapterUnitDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#definition CapabilityAdapterUnitDescriptor#definition}
   */
   readonly definition?: CapabilityAdapterUnitDescriptorTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#key CapabilityAdapterUnitDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#key CapabilityAdapterUnitDescriptor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#propagated CapabilityAdapterUnitDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#propagated CapabilityAdapterUnitDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#type CapabilityAdapterUnitDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#sys_tag CapabilityAdapterUnitDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#type CapabilityAdapterUnitDescriptor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#value CapabilityAdapterUnitDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#value CapabilityAdapterUnitDescriptor#value}
   */
   readonly value?: string;
 }
@@ -2468,6 +2472,7 @@ export function capabilityAdapterUnitDescriptorTagsToTerraform(struct?: Capabili
     definition: cdktf.listMapper(capabilityAdapterUnitDescriptorTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2506,6 +2511,12 @@ export function capabilityAdapterUnitDescriptorTagsToHclTerraform(struct?: Capab
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2568,6 +2579,10 @@ export class CapabilityAdapterUnitDescriptorTagsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2588,6 +2603,7 @@ export class CapabilityAdapterUnitDescriptorTagsOutputReference extends cdktf.Co
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2603,6 +2619,7 @@ export class CapabilityAdapterUnitDescriptorTagsOutputReference extends cdktf.Co
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2688,6 +2705,22 @@ export class CapabilityAdapterUnitDescriptorTagsOutputReference extends cdktf.Co
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2742,23 +2775,23 @@ export class CapabilityAdapterUnitDescriptorTagsList extends cdktf.ComplexList {
 }
 export interface CapabilityAdapterUnitDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2990,23 +3023,23 @@ export class CapabilityAdapterUnitDescriptorVersionContextInterestedMosList exte
 }
 export interface CapabilityAdapterUnitDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#moid CapabilityAdapterUnitDescriptor#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#selector CapabilityAdapterUnitDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3238,39 +3271,39 @@ export class CapabilityAdapterUnitDescriptorVersionContextRefMoList extends cdkt
 }
 export interface CapabilityAdapterUnitDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#additional_properties CapabilityAdapterUnitDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#class_id CapabilityAdapterUnitDescriptor#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#interested_mos CapabilityAdapterUnitDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#interested_mos CapabilityAdapterUnitDescriptor#interested_mos}
   */
   readonly interestedMos?: CapabilityAdapterUnitDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#marked_for_deletion CapabilityAdapterUnitDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#marked_for_deletion CapabilityAdapterUnitDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#nr_version CapabilityAdapterUnitDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#nr_version CapabilityAdapterUnitDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#object_type CapabilityAdapterUnitDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#ref_mo CapabilityAdapterUnitDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#ref_mo CapabilityAdapterUnitDescriptor#ref_mo}
   */
   readonly refMo?: CapabilityAdapterUnitDescriptorVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#timestamp CapabilityAdapterUnitDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#timestamp CapabilityAdapterUnitDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#version_type CapabilityAdapterUnitDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#version_type CapabilityAdapterUnitDescriptor#version_type}
   */
   readonly versionType?: string;
 }
@@ -3618,7 +3651,7 @@ export class CapabilityAdapterUnitDescriptorVersionContextList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor intersight_capability_adapter_unit_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor intersight_capability_adapter_unit_descriptor}
 */
 export class CapabilityAdapterUnitDescriptor extends cdktf.TerraformResource {
 
@@ -3634,7 +3667,7 @@ export class CapabilityAdapterUnitDescriptor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityAdapterUnitDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityAdapterUnitDescriptor to import
-  * @param importFromId The id of the existing CapabilityAdapterUnitDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityAdapterUnitDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityAdapterUnitDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3646,7 +3679,7 @@ export class CapabilityAdapterUnitDescriptor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_adapter_unit_descriptor intersight_capability_adapter_unit_descriptor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_adapter_unit_descriptor intersight_capability_adapter_unit_descriptor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3657,8 +3690,8 @@ export class CapabilityAdapterUnitDescriptor extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_adapter_unit_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

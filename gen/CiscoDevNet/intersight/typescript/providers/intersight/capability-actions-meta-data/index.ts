@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilityActionsMetaDataConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#account_moid CapabilityActionsMetaData#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#account_moid CapabilityActionsMetaData#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#ancestors CapabilityActionsMetaData#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#ancestors CapabilityActionsMetaData#ancestors}
   */
   readonly ancestors?: CapabilityActionsMetaDataAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface CapabilityActionsMetaDataConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#create_time CapabilityActionsMetaData#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#create_time CapabilityActionsMetaData#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#domain_group_moid CapabilityActionsMetaData#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#domain_group_moid CapabilityActionsMetaData#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#id CapabilityActionsMetaData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#id CapabilityActionsMetaData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,88 +53,88 @@ export interface CapabilityActionsMetaDataConfig extends cdktf.TerraformMetaArgu
   /**
   * Maximum firmware version of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#max_fw_version CapabilityActionsMetaData#max_fw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#max_fw_version CapabilityActionsMetaData#max_fw_version}
   */
   readonly maxFwVersion?: string;
   /**
   * Minimum firmware version of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#min_fw_version CapabilityActionsMetaData#min_fw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#min_fw_version CapabilityActionsMetaData#min_fw_version}
   */
   readonly minFwVersion?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#mod_time CapabilityActionsMetaData#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#mod_time CapabilityActionsMetaData#mod_time}
   */
   readonly modTime?: string;
   /**
   * Model of the server that supports power or storage operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#model CapabilityActionsMetaData#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#model CapabilityActionsMetaData#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#name CapabilityActionsMetaData#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#name CapabilityActionsMetaData#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#owners CapabilityActionsMetaData#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#owners CapabilityActionsMetaData#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#parent CapabilityActionsMetaData#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#parent CapabilityActionsMetaData#parent}
   */
   readonly parent?: CapabilityActionsMetaDataParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#permission_resources CapabilityActionsMetaData#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#permission_resources CapabilityActionsMetaData#permission_resources}
   */
   readonly permissionResources?: CapabilityActionsMetaDataPermissionResources[] | cdktf.IResolvable;
   /**
   * Location of Sel log script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#sel_log_path CapabilityActionsMetaData#sel_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#sel_log_path CapabilityActionsMetaData#sel_log_path}
   */
   readonly selLogPath?: string;
   /**
   * Location of Sel file script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#sel_script_file_path CapabilityActionsMetaData#sel_script_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#sel_script_file_path CapabilityActionsMetaData#sel_script_file_path}
   */
   readonly selScriptFilePath?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#shared_scope CapabilityActionsMetaData#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#shared_scope CapabilityActionsMetaData#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#supported_actions CapabilityActionsMetaData#supported_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#supported_actions CapabilityActionsMetaData#supported_actions}
   */
   readonly supportedActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#tags CapabilityActionsMetaData#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#tags CapabilityActionsMetaData#tags}
   */
   readonly tags?: CapabilityActionsMetaDataTags[] | cdktf.IResolvable;
   /**
@@ -223,41 +223,41 @@ export interface CapabilityActionsMetaDataConfig extends cdktf.TerraformMetaArgu
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#target_type CapabilityActionsMetaData#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#target_type CapabilityActionsMetaData#target_type}
   */
   readonly targetType?: string;
   /**
   * Manufacturer of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#vendor CapabilityActionsMetaData#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#vendor CapabilityActionsMetaData#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#version_context CapabilityActionsMetaData#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#version_context CapabilityActionsMetaData#version_context}
   */
   readonly versionContext?: CapabilityActionsMetaDataVersionContext[] | cdktf.IResolvable;
 }
 export interface CapabilityActionsMetaDataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -489,23 +489,23 @@ export class CapabilityActionsMetaDataAncestorsList extends cdktf.ComplexList {
 }
 export interface CapabilityActionsMetaDataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -737,23 +737,23 @@ export class CapabilityActionsMetaDataParentList extends cdktf.ComplexList {
 }
 export interface CapabilityActionsMetaDataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -985,23 +985,23 @@ export class CapabilityActionsMetaDataPermissionResourcesList extends cdktf.Comp
 }
 export interface CapabilityActionsMetaDataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -1233,23 +1233,23 @@ export class CapabilityActionsMetaDataTagsAncestorDefinitionsList extends cdktf.
 }
 export interface CapabilityActionsMetaDataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -1481,31 +1481,35 @@ export class CapabilityActionsMetaDataTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface CapabilityActionsMetaDataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#ancestor_definitions CapabilityActionsMetaData#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#ancestor_definitions CapabilityActionsMetaData#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityActionsMetaDataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#definition CapabilityActionsMetaData#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#definition CapabilityActionsMetaData#definition}
   */
   readonly definition?: CapabilityActionsMetaDataTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#key CapabilityActionsMetaData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#key CapabilityActionsMetaData#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#propagated CapabilityActionsMetaData#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#propagated CapabilityActionsMetaData#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#type CapabilityActionsMetaData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#sys_tag CapabilityActionsMetaData#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#type CapabilityActionsMetaData#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#value CapabilityActionsMetaData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#value CapabilityActionsMetaData#value}
   */
   readonly value?: string;
 }
@@ -1521,6 +1525,7 @@ export function capabilityActionsMetaDataTagsToTerraform(struct?: CapabilityActi
     definition: cdktf.listMapper(capabilityActionsMetaDataTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1559,6 +1564,12 @@ export function capabilityActionsMetaDataTagsToHclTerraform(struct?: CapabilityA
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1621,6 +1632,10 @@ export class CapabilityActionsMetaDataTagsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1641,6 +1656,7 @@ export class CapabilityActionsMetaDataTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1656,6 +1672,7 @@ export class CapabilityActionsMetaDataTagsOutputReference extends cdktf.ComplexO
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1741,6 +1758,22 @@ export class CapabilityActionsMetaDataTagsOutputReference extends cdktf.ComplexO
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1795,23 +1828,23 @@ export class CapabilityActionsMetaDataTagsList extends cdktf.ComplexList {
 }
 export interface CapabilityActionsMetaDataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -2043,23 +2076,23 @@ export class CapabilityActionsMetaDataVersionContextInterestedMosList extends cd
 }
 export interface CapabilityActionsMetaDataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#moid CapabilityActionsMetaData#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#selector CapabilityActionsMetaData#selector}
   */
   readonly selector?: string;
 }
@@ -2291,39 +2324,39 @@ export class CapabilityActionsMetaDataVersionContextRefMoList extends cdktf.Comp
 }
 export interface CapabilityActionsMetaDataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#additional_properties CapabilityActionsMetaData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#class_id CapabilityActionsMetaData#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#interested_mos CapabilityActionsMetaData#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#interested_mos CapabilityActionsMetaData#interested_mos}
   */
   readonly interestedMos?: CapabilityActionsMetaDataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#marked_for_deletion CapabilityActionsMetaData#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#marked_for_deletion CapabilityActionsMetaData#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#nr_version CapabilityActionsMetaData#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#nr_version CapabilityActionsMetaData#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#object_type CapabilityActionsMetaData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#ref_mo CapabilityActionsMetaData#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#ref_mo CapabilityActionsMetaData#ref_mo}
   */
   readonly refMo?: CapabilityActionsMetaDataVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#timestamp CapabilityActionsMetaData#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#timestamp CapabilityActionsMetaData#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#version_type CapabilityActionsMetaData#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#version_type CapabilityActionsMetaData#version_type}
   */
   readonly versionType?: string;
 }
@@ -2671,7 +2704,7 @@ export class CapabilityActionsMetaDataVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data intersight_capability_actions_meta_data}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data intersight_capability_actions_meta_data}
 */
 export class CapabilityActionsMetaData extends cdktf.TerraformResource {
 
@@ -2687,7 +2720,7 @@ export class CapabilityActionsMetaData extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityActionsMetaData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityActionsMetaData to import
-  * @param importFromId The id of the existing CapabilityActionsMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityActionsMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityActionsMetaData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2699,7 +2732,7 @@ export class CapabilityActionsMetaData extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_actions_meta_data intersight_capability_actions_meta_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_actions_meta_data intersight_capability_actions_meta_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2710,8 +2743,8 @@ export class CapabilityActionsMetaData extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_actions_meta_data',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

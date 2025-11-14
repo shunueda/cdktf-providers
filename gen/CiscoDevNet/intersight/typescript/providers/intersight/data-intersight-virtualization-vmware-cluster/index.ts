@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwareClusterConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#account_moid DataIntersightVirtualizationVmwareCluster#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#account_moid DataIntersightVirtualizationVmwareCluster#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,31 +22,31 @@ export interface DataIntersightVirtualizationVmwareClusterConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * CPU over commitment associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#cpu_over_commitment DataIntersightVirtualizationVmwareCluster#cpu_over_commitment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#cpu_over_commitment DataIntersightVirtualizationVmwareCluster#cpu_over_commitment}
   */
   readonly cpuOverCommitment?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#create_time DataIntersightVirtualizationVmwareCluster#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#create_time DataIntersightVirtualizationVmwareCluster#create_time}
   */
   readonly createTime?: string;
   /**
   * Count of all datastores associated with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#datastore_count DataIntersightVirtualizationVmwareCluster#datastore_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#datastore_count DataIntersightVirtualizationVmwareCluster#datastore_count}
   */
   readonly datastoreCount?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#domain_group_moid DataIntersightVirtualizationVmwareCluster#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#domain_group_moid DataIntersightVirtualizationVmwareCluster#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -55,17 +55,17 @@ export interface DataIntersightVirtualizationVmwareClusterConfig extends cdktf.T
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#hypervisor_type DataIntersightVirtualizationVmwareCluster#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#hypervisor_type DataIntersightVirtualizationVmwareCluster#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
   * Identifies the version of the hypervisor running on this cluster. Keeping the hypervisor version in the cluster makes it convenient for applications to validate their deployment needs. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#hypervisor_version DataIntersightVirtualizationVmwareCluster#hypervisor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#hypervisor_version DataIntersightVirtualizationVmwareCluster#hypervisor_version}
   */
   readonly hypervisorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#id DataIntersightVirtualizationVmwareCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#id DataIntersightVirtualizationVmwareCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,55 +74,55 @@ export interface DataIntersightVirtualizationVmwareClusterConfig extends cdktf.T
   /**
   * The internally generated identity of this cluster. This entity is not manipulated by users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#identity DataIntersightVirtualizationVmwareCluster#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#identity DataIntersightVirtualizationVmwareCluster#identity}
   */
   readonly identity?: string;
   /**
   * Inventory path of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#inventory_path DataIntersightVirtualizationVmwareCluster#inventory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#inventory_path DataIntersightVirtualizationVmwareCluster#inventory_path}
   */
   readonly inventoryPath?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#mod_time DataIntersightVirtualizationVmwareCluster#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#mod_time DataIntersightVirtualizationVmwareCluster#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The user-provided name for this cluster to facilitate identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#name DataIntersightVirtualizationVmwareCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#name DataIntersightVirtualizationVmwareCluster#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#owners DataIntersightVirtualizationVmwareCluster#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#owners DataIntersightVirtualizationVmwareCluster#owners}
   */
   readonly owners?: string[];
   /**
   * Every cluster has an option to enable proactive HA in vCenter. Set to true when the vCenter admin has enabled proactive HA for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#proactive_ha_enabled DataIntersightVirtualizationVmwareCluster#proactive_ha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#proactive_ha_enabled DataIntersightVirtualizationVmwareCluster#proactive_ha_enabled}
   */
   readonly proactiveHaEnabled?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#shared_scope DataIntersightVirtualizationVmwareCluster#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#shared_scope DataIntersightVirtualizationVmwareCluster#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -132,85 +132,85 @@ export interface DataIntersightVirtualizationVmwareClusterConfig extends cdktf.T
   * * `Critical` - Entity is in a critical state, impacting operations.
   * * `Ok` - Entity status is in a stable state, operating normally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#status DataIntersightVirtualizationVmwareCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#status DataIntersightVirtualizationVmwareCluster#status}
   */
   readonly status?: string;
   /**
   * Total number of CPU cores in this cluster. It is a cumulative number across all hosts in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#total_cores DataIntersightVirtualizationVmwareCluster#total_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#total_cores DataIntersightVirtualizationVmwareCluster#total_cores}
   */
   readonly totalCores?: number;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#alarm_summary DataIntersightVirtualizationVmwareCluster#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#alarm_summary DataIntersightVirtualizationVmwareCluster#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightVirtualizationVmwareClusterAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#ancestors DataIntersightVirtualizationVmwareCluster#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#ancestors DataIntersightVirtualizationVmwareCluster#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareClusterAncestors[] | cdktf.IResolvable;
   /**
   * attached_resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#attached_resource_tags DataIntersightVirtualizationVmwareCluster#attached_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#attached_resource_tags DataIntersightVirtualizationVmwareCluster#attached_resource_tags}
   */
   readonly attachedResourceTags?: DataIntersightVirtualizationVmwareClusterAttachedResourceTags[] | cdktf.IResolvable;
   /**
   * datacenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#datacenter DataIntersightVirtualizationVmwareCluster#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#datacenter DataIntersightVirtualizationVmwareCluster#datacenter}
   */
   readonly datacenter?: DataIntersightVirtualizationVmwareClusterDatacenter;
   /**
   * memory_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#memory_capacity DataIntersightVirtualizationVmwareCluster#memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#memory_capacity DataIntersightVirtualizationVmwareCluster#memory_capacity}
   */
   readonly memoryCapacity?: DataIntersightVirtualizationVmwareClusterMemoryCapacity;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#parent DataIntersightVirtualizationVmwareCluster#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#parent DataIntersightVirtualizationVmwareCluster#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareClusterParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#permission_resources DataIntersightVirtualizationVmwareCluster#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#permission_resources DataIntersightVirtualizationVmwareCluster#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareClusterPermissionResources[] | cdktf.IResolvable;
   /**
   * processor_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#processor_capacity DataIntersightVirtualizationVmwareCluster#processor_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#processor_capacity DataIntersightVirtualizationVmwareCluster#processor_capacity}
   */
   readonly processorCapacity?: DataIntersightVirtualizationVmwareClusterProcessorCapacity;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#registered_device DataIntersightVirtualizationVmwareCluster#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#registered_device DataIntersightVirtualizationVmwareCluster#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareClusterRegisteredDevice;
   /**
   * storage_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#storage_clusters DataIntersightVirtualizationVmwareCluster#storage_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#storage_clusters DataIntersightVirtualizationVmwareCluster#storage_clusters}
   */
   readonly storageClusters?: DataIntersightVirtualizationVmwareClusterStorageClusters[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#tags DataIntersightVirtualizationVmwareCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#tags DataIntersightVirtualizationVmwareCluster#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareClusterTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#version_context DataIntersightVirtualizationVmwareCluster#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#version_context DataIntersightVirtualizationVmwareCluster#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareClusterVersionContext;
 }
@@ -1467,6 +1467,11 @@ export class DataIntersightVirtualizationVmwareClusterResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2047,7 +2052,7 @@ export class DataIntersightVirtualizationVmwareClusterResultsList extends cdktf.
 }
 export interface DataIntersightVirtualizationVmwareClusterAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2055,13 +2060,13 @@ export interface DataIntersightVirtualizationVmwareClusterAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The count of active alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#critical DataIntersightVirtualizationVmwareCluster#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#critical DataIntersightVirtualizationVmwareCluster#critical}
   */
   readonly critical?: number;
   /**
@@ -2070,44 +2075,44 @@ export interface DataIntersightVirtualizationVmwareClusterAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#health DataIntersightVirtualizationVmwareCluster#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#health DataIntersightVirtualizationVmwareCluster#health}
   */
   readonly health?: string;
   /**
   * The count of active alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#info DataIntersightVirtualizationVmwareCluster#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#info DataIntersightVirtualizationVmwareCluster#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The count of active suppressed alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#suppressed_critical DataIntersightVirtualizationVmwareCluster#suppressed_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#suppressed_critical DataIntersightVirtualizationVmwareCluster#suppressed_critical}
   */
   readonly suppressedCritical?: number;
   /**
   * The count of active suppressed alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#suppressed_info DataIntersightVirtualizationVmwareCluster#suppressed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#suppressed_info DataIntersightVirtualizationVmwareCluster#suppressed_info}
   */
   readonly suppressedInfo?: number;
   /**
   * The count of active suppressed alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#suppressed_warning DataIntersightVirtualizationVmwareCluster#suppressed_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#suppressed_warning DataIntersightVirtualizationVmwareCluster#suppressed_warning}
   */
   readonly suppressedWarning?: number;
   /**
   * The count of active alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#warning DataIntersightVirtualizationVmwareCluster#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#warning DataIntersightVirtualizationVmwareCluster#warning}
   */
   readonly warning?: number;
 }
@@ -2452,7 +2457,7 @@ export class DataIntersightVirtualizationVmwareClusterAlarmSummaryOutputReferenc
 }
 export interface DataIntersightVirtualizationVmwareClusterAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2460,19 +2465,19 @@ export interface DataIntersightVirtualizationVmwareClusterAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2485,7 +2490,7 @@ export interface DataIntersightVirtualizationVmwareClusterAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -2717,13 +2722,13 @@ export class DataIntersightVirtualizationVmwareClusterAncestorsList extends cdkt
 }
 export interface DataIntersightVirtualizationVmwareClusterAttachedResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The category of the tag assigned to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#category DataIntersightVirtualizationVmwareCluster#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#category DataIntersightVirtualizationVmwareCluster#category}
   */
   readonly category?: string;
   /**
@@ -2731,20 +2736,20 @@ export interface DataIntersightVirtualizationVmwareClusterAttachedResourceTags {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the tag assigned to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#name DataIntersightVirtualizationVmwareCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#name DataIntersightVirtualizationVmwareCluster#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
 }
@@ -2976,7 +2981,7 @@ export class DataIntersightVirtualizationVmwareClusterAttachedResourceTagsList e
 }
 export interface DataIntersightVirtualizationVmwareClusterDatacenter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2984,19 +2989,19 @@ export interface DataIntersightVirtualizationVmwareClusterDatacenter {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3009,7 +3014,7 @@ export interface DataIntersightVirtualizationVmwareClusterDatacenter {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -3209,13 +3214,13 @@ export class DataIntersightVirtualizationVmwareClusterDatacenterOutputReference 
 }
 export interface DataIntersightVirtualizationVmwareClusterMemoryCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The total memory capacity of the entity in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#capacity DataIntersightVirtualizationVmwareCluster#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#capacity DataIntersightVirtualizationVmwareCluster#capacity}
   */
   readonly capacity?: number;
   /**
@@ -3223,26 +3228,26 @@ export interface DataIntersightVirtualizationVmwareClusterMemoryCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * Free memory (bytes) that is unused and available for allocation, as a point-in-time snapshot. The available memory capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used memory capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#free DataIntersightVirtualizationVmwareCluster#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#free DataIntersightVirtualizationVmwareCluster#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * Memory (bytes) that has been already used up, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#used DataIntersightVirtualizationVmwareCluster#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#used DataIntersightVirtualizationVmwareCluster#used}
   */
   readonly used?: number;
 }
@@ -3471,7 +3476,7 @@ export class DataIntersightVirtualizationVmwareClusterMemoryCapacityOutputRefere
 }
 export interface DataIntersightVirtualizationVmwareClusterParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3479,19 +3484,19 @@ export interface DataIntersightVirtualizationVmwareClusterParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3504,7 +3509,7 @@ export interface DataIntersightVirtualizationVmwareClusterParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -3704,7 +3709,7 @@ export class DataIntersightVirtualizationVmwareClusterParentOutputReference exte
 }
 export interface DataIntersightVirtualizationVmwareClusterPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3712,19 +3717,19 @@ export interface DataIntersightVirtualizationVmwareClusterPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3737,7 +3742,7 @@ export interface DataIntersightVirtualizationVmwareClusterPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -3969,13 +3974,13 @@ export class DataIntersightVirtualizationVmwareClusterPermissionResourcesList ex
 }
 export interface DataIntersightVirtualizationVmwareClusterProcessorCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total capacity of the entity in MHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#capacity DataIntersightVirtualizationVmwareCluster#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#capacity DataIntersightVirtualizationVmwareCluster#capacity}
   */
   readonly capacity?: number;
   /**
@@ -3983,26 +3988,26 @@ export interface DataIntersightVirtualizationVmwareClusterProcessorCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * Free CPU capacity in MHz, as a point-in-time snapshot. The available CPU capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used CPU capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#free DataIntersightVirtualizationVmwareCluster#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#free DataIntersightVirtualizationVmwareCluster#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * Used CPU capacity of the entity in MHz, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#used DataIntersightVirtualizationVmwareCluster#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#used DataIntersightVirtualizationVmwareCluster#used}
   */
   readonly used?: number;
 }
@@ -4231,7 +4236,7 @@ export class DataIntersightVirtualizationVmwareClusterProcessorCapacityOutputRef
 }
 export interface DataIntersightVirtualizationVmwareClusterRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4239,19 +4244,19 @@ export interface DataIntersightVirtualizationVmwareClusterRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4264,7 +4269,7 @@ export interface DataIntersightVirtualizationVmwareClusterRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -4464,7 +4469,7 @@ export class DataIntersightVirtualizationVmwareClusterRegisteredDeviceOutputRefe
 }
 export interface DataIntersightVirtualizationVmwareClusterStorageClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4472,19 +4477,19 @@ export interface DataIntersightVirtualizationVmwareClusterStorageClusters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4497,7 +4502,7 @@ export interface DataIntersightVirtualizationVmwareClusterStorageClusters {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -4729,7 +4734,7 @@ export class DataIntersightVirtualizationVmwareClusterStorageClustersList extend
 }
 export interface DataIntersightVirtualizationVmwareClusterTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4737,19 +4742,19 @@ export interface DataIntersightVirtualizationVmwareClusterTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4762,7 +4767,7 @@ export interface DataIntersightVirtualizationVmwareClusterTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -4994,7 +4999,7 @@ export class DataIntersightVirtualizationVmwareClusterTagsAncestorDefinitionsLis
 }
 export interface DataIntersightVirtualizationVmwareClusterTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5002,19 +5007,19 @@ export interface DataIntersightVirtualizationVmwareClusterTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5027,7 +5032,7 @@ export interface DataIntersightVirtualizationVmwareClusterTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -5227,45 +5232,51 @@ export class DataIntersightVirtualizationVmwareClusterTagsDefinitionOutputRefere
 }
 export interface DataIntersightVirtualizationVmwareClusterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#key DataIntersightVirtualizationVmwareCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#key DataIntersightVirtualizationVmwareCluster#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#propagated DataIntersightVirtualizationVmwareCluster#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#propagated DataIntersightVirtualizationVmwareCluster#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#sys_tag DataIntersightVirtualizationVmwareCluster#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#type DataIntersightVirtualizationVmwareCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#type DataIntersightVirtualizationVmwareCluster#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#value DataIntersightVirtualizationVmwareCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#value DataIntersightVirtualizationVmwareCluster#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#ancestor_definitions DataIntersightVirtualizationVmwareCluster#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#ancestor_definitions DataIntersightVirtualizationVmwareCluster#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareClusterTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#definition DataIntersightVirtualizationVmwareCluster#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#definition DataIntersightVirtualizationVmwareCluster#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareClusterTagsDefinition;
 }
@@ -5279,6 +5290,7 @@ export function dataIntersightVirtualizationVmwareClusterTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVirtualizationVmwareClusterTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5307,6 +5319,12 @@ export function dataIntersightVirtualizationVmwareClusterTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5373,6 +5391,10 @@ export class DataIntersightVirtualizationVmwareClusterTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5399,6 +5421,7 @@ export class DataIntersightVirtualizationVmwareClusterTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5414,6 +5437,7 @@ export class DataIntersightVirtualizationVmwareClusterTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5467,6 +5491,22 @@ export class DataIntersightVirtualizationVmwareClusterTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5555,7 +5595,7 @@ export class DataIntersightVirtualizationVmwareClusterTagsList extends cdktf.Com
 }
 export interface DataIntersightVirtualizationVmwareClusterVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5563,19 +5603,19 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5588,7 +5628,7 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -5820,7 +5860,7 @@ export class DataIntersightVirtualizationVmwareClusterVersionContextInterestedMo
 }
 export interface DataIntersightVirtualizationVmwareClusterVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5828,19 +5868,19 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#moid DataIntersightVirtualizationVmwareCluster#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5853,7 +5893,7 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#selector DataIntersightVirtualizationVmwareCluster#selector}
   */
   readonly selector?: string;
 }
@@ -6053,7 +6093,7 @@ export class DataIntersightVirtualizationVmwareClusterVersionContextRefMoOutputR
 }
 export interface DataIntersightVirtualizationVmwareClusterVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#additional_properties DataIntersightVirtualizationVmwareCluster#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6061,32 +6101,32 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#class_id DataIntersightVirtualizationVmwareCluster#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#marked_for_deletion DataIntersightVirtualizationVmwareCluster#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#marked_for_deletion DataIntersightVirtualizationVmwareCluster#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#nr_version DataIntersightVirtualizationVmwareCluster#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#nr_version DataIntersightVirtualizationVmwareCluster#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#object_type DataIntersightVirtualizationVmwareCluster#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#timestamp DataIntersightVirtualizationVmwareCluster#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#timestamp DataIntersightVirtualizationVmwareCluster#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6097,19 +6137,19 @@ export interface DataIntersightVirtualizationVmwareClusterVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#version_type DataIntersightVirtualizationVmwareCluster#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#version_type DataIntersightVirtualizationVmwareCluster#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#interested_mos DataIntersightVirtualizationVmwareCluster#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#interested_mos DataIntersightVirtualizationVmwareCluster#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareClusterVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#ref_mo DataIntersightVirtualizationVmwareCluster#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#ref_mo DataIntersightVirtualizationVmwareCluster#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareClusterVersionContextRefMo;
 }
@@ -6425,7 +6465,7 @@ export class DataIntersightVirtualizationVmwareClusterVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster intersight_virtualization_vmware_cluster}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster intersight_virtualization_vmware_cluster}
 */
 export class DataIntersightVirtualizationVmwareCluster extends cdktf.TerraformDataSource {
 
@@ -6441,7 +6481,7 @@ export class DataIntersightVirtualizationVmwareCluster extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareCluster to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6453,7 +6493,7 @@ export class DataIntersightVirtualizationVmwareCluster extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_cluster intersight_virtualization_vmware_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_cluster intersight_virtualization_vmware_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6464,8 +6504,8 @@ export class DataIntersightVirtualizationVmwareCluster extends cdktf.TerraformDa
       terraformResourceType: 'intersight_virtualization_vmware_cluster',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

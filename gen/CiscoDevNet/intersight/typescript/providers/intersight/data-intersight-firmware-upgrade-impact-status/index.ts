@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFirmwareUpgradeImpactStatusConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#account_moid DataIntersightFirmwareUpgradeImpactStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#account_moid DataIntersightFirmwareUpgradeImpactStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,11 +22,11 @@ export interface DataIntersightFirmwareUpgradeImpactStatusConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#components DataIntersightFirmwareUpgradeImpactStatus#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#components DataIntersightFirmwareUpgradeImpactStatus#components}
   */
   readonly components?: string[];
   /**
@@ -35,27 +35,27 @@ export interface DataIntersightFirmwareUpgradeImpactStatusConfig extends cdktf.T
   * * `Completed` - Upgrade impact calculation is completed.
   * * `Unavailable` - Upgrade impact is not available since image is not present in FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#computation_state DataIntersightFirmwareUpgradeImpactStatus#computation_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#computation_state DataIntersightFirmwareUpgradeImpactStatus#computation_state}
   */
   readonly computationState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#create_time DataIntersightFirmwareUpgradeImpactStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#create_time DataIntersightFirmwareUpgradeImpactStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#domain_group_moid DataIntersightFirmwareUpgradeImpactStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#domain_group_moid DataIntersightFirmwareUpgradeImpactStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#exclude_components DataIntersightFirmwareUpgradeImpactStatus#exclude_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#exclude_components DataIntersightFirmwareUpgradeImpactStatus#exclude_components}
   */
   readonly excludeComponents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#id DataIntersightFirmwareUpgradeImpactStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#id DataIntersightFirmwareUpgradeImpactStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,31 +64,31 @@ export interface DataIntersightFirmwareUpgradeImpactStatusConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#mod_time DataIntersightFirmwareUpgradeImpactStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#mod_time DataIntersightFirmwareUpgradeImpactStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#owners DataIntersightFirmwareUpgradeImpactStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#owners DataIntersightFirmwareUpgradeImpactStatus#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#shared_scope DataIntersightFirmwareUpgradeImpactStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#shared_scope DataIntersightFirmwareUpgradeImpactStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -96,49 +96,49 @@ export interface DataIntersightFirmwareUpgradeImpactStatusConfig extends cdktf.T
   * * `Basic` - Summary of a single instance involved in the upgrade operation.
   * * `Detail` - Summary of the collection of single instances for a complex component involved in the upgrade operation. For example, in case of a server upgrade, a detailed summary indicates impact of all the single instances which are part of the server, such as storage controller, drives, and BIOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#summary DataIntersightFirmwareUpgradeImpactStatus#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#summary DataIntersightFirmwareUpgradeImpactStatus#summary}
   */
   readonly summary?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#ancestors DataIntersightFirmwareUpgradeImpactStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#ancestors DataIntersightFirmwareUpgradeImpactStatus#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareUpgradeImpactStatusAncestors[] | cdktf.IResolvable;
   /**
   * impacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#impacts DataIntersightFirmwareUpgradeImpactStatus#impacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#impacts DataIntersightFirmwareUpgradeImpactStatus#impacts}
   */
   readonly impacts?: DataIntersightFirmwareUpgradeImpactStatusImpacts[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#parent DataIntersightFirmwareUpgradeImpactStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#parent DataIntersightFirmwareUpgradeImpactStatus#parent}
   */
   readonly parent?: DataIntersightFirmwareUpgradeImpactStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#permission_resources DataIntersightFirmwareUpgradeImpactStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#permission_resources DataIntersightFirmwareUpgradeImpactStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareUpgradeImpactStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#tags DataIntersightFirmwareUpgradeImpactStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#tags DataIntersightFirmwareUpgradeImpactStatus#tags}
   */
   readonly tags?: DataIntersightFirmwareUpgradeImpactStatusTags[] | cdktf.IResolvable;
   /**
   * upgrade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#upgrade DataIntersightFirmwareUpgradeImpactStatus#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#upgrade DataIntersightFirmwareUpgradeImpactStatus#upgrade}
   */
   readonly upgrade?: DataIntersightFirmwareUpgradeImpactStatusUpgrade;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#version_context DataIntersightFirmwareUpgradeImpactStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#version_context DataIntersightFirmwareUpgradeImpactStatus#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareUpgradeImpactStatusVersionContext;
 }
@@ -825,6 +825,11 @@ export class DataIntersightFirmwareUpgradeImpactStatusResultsTagsOutputReference
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1440,7 +1445,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusResultsList extends cdktf.
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1448,19 +1453,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1473,7 +1478,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -1705,7 +1710,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusAncestorsList extends cdkt
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1714,13 +1719,13 @@ export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * Details for the error that occurred during the reboot validation analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#computation_error DataIntersightFirmwareUpgradeImpactStatus#computation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#computation_error DataIntersightFirmwareUpgradeImpactStatus#computation_error}
   */
   readonly computationError?: string;
   /**
@@ -1730,25 +1735,25 @@ export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   * * `Unavailable` - Upgrade impact is not available since the image is not present in the Fabric Interconnect.
   * * `Failed` - Upgrade impact is not available due to an unknown error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#computation_status_detail DataIntersightFirmwareUpgradeImpactStatus#computation_status_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#computation_status_detail DataIntersightFirmwareUpgradeImpactStatus#computation_status_detail}
   */
   readonly computationStatusDetail?: string;
   /**
   * The endpoint type or name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#domain_name DataIntersightFirmwareUpgradeImpactStatus#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#domain_name DataIntersightFirmwareUpgradeImpactStatus#domain_name}
   */
   readonly domainName?: string;
   /**
   * A reference to a REST resource, uniquely identified by object type and MOID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#end_point DataIntersightFirmwareUpgradeImpactStatus#end_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#end_point DataIntersightFirmwareUpgradeImpactStatus#end_point}
   */
   readonly endPoint?: string;
   /**
   * The current firmware version of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#firmware_version DataIntersightFirmwareUpgradeImpactStatus#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#firmware_version DataIntersightFirmwareUpgradeImpactStatus#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
@@ -1756,13 +1761,13 @@ export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   * * `NoReboot` - A reboot is not required for the endpoint after upgrade.
   * * `Reboot` - A reboot is required to the endpoint after upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#impact_type DataIntersightFirmwareUpgradeImpactStatus#impact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#impact_type DataIntersightFirmwareUpgradeImpactStatus#impact_type}
   */
   readonly impactType?: string;
   /**
   * The model details of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#model DataIntersightFirmwareUpgradeImpactStatus#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#model DataIntersightFirmwareUpgradeImpactStatus#model}
   */
   readonly model?: string;
   /**
@@ -1770,13 +1775,13 @@ export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The target firmware version of the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#target_firmware_version DataIntersightFirmwareUpgradeImpactStatus#target_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#target_firmware_version DataIntersightFirmwareUpgradeImpactStatus#target_firmware_version}
   */
   readonly targetFirmwareVersion?: string;
   /**
@@ -1785,7 +1790,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusImpacts {
   * * `Upgrade` - The component will be upgraded.
   * * `Downgrade` - The component will be downgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#version_impact DataIntersightFirmwareUpgradeImpactStatus#version_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#version_impact DataIntersightFirmwareUpgradeImpactStatus#version_impact}
   */
   readonly versionImpact?: string;
 }
@@ -2220,7 +2225,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusImpactsList extends cdktf.
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2228,19 +2233,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2253,7 +2258,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2453,7 +2458,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusParentOutputReference exte
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2461,19 +2466,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2486,7 +2491,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2718,7 +2723,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusPermissionResourcesList ex
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2726,19 +2731,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2751,7 +2756,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2983,7 +2988,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinitionsLis
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2991,19 +2996,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3016,7 +3021,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3216,45 +3221,51 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsDefinitionOutputRefere
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#key DataIntersightFirmwareUpgradeImpactStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#key DataIntersightFirmwareUpgradeImpactStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#propagated DataIntersightFirmwareUpgradeImpactStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#propagated DataIntersightFirmwareUpgradeImpactStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#sys_tag DataIntersightFirmwareUpgradeImpactStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#type DataIntersightFirmwareUpgradeImpactStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#type DataIntersightFirmwareUpgradeImpactStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#value DataIntersightFirmwareUpgradeImpactStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#value DataIntersightFirmwareUpgradeImpactStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#ancestor_definitions DataIntersightFirmwareUpgradeImpactStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#ancestor_definitions DataIntersightFirmwareUpgradeImpactStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#definition DataIntersightFirmwareUpgradeImpactStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#definition DataIntersightFirmwareUpgradeImpactStatus#definition}
   */
   readonly definition?: DataIntersightFirmwareUpgradeImpactStatusTagsDefinition;
 }
@@ -3268,6 +3279,7 @@ export function dataIntersightFirmwareUpgradeImpactStatusTagsToTerraform(struct?
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwareUpgradeImpactStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3296,6 +3308,12 @@ export function dataIntersightFirmwareUpgradeImpactStatusTagsToHclTerraform(stru
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3362,6 +3380,10 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsOutputReference extend
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3388,6 +3410,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsOutputReference extend
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3403,6 +3426,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsOutputReference extend
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3456,6 +3480,22 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsOutputReference extend
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3544,7 +3584,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusTagsList extends cdktf.Com
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3552,19 +3592,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusUpgrade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3577,7 +3617,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusUpgrade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3777,7 +3817,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusUpgradeOutputReference ext
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3785,19 +3825,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3810,7 +3850,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4042,7 +4082,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusVersionContextInterestedMo
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4050,19 +4090,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#moid DataIntersightFirmwareUpgradeImpactStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4075,7 +4115,7 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#selector DataIntersightFirmwareUpgradeImpactStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4275,7 +4315,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusVersionContextRefMoOutputR
 }
 export interface DataIntersightFirmwareUpgradeImpactStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#additional_properties DataIntersightFirmwareUpgradeImpactStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4283,32 +4323,32 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#class_id DataIntersightFirmwareUpgradeImpactStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#marked_for_deletion DataIntersightFirmwareUpgradeImpactStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#marked_for_deletion DataIntersightFirmwareUpgradeImpactStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#nr_version DataIntersightFirmwareUpgradeImpactStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#nr_version DataIntersightFirmwareUpgradeImpactStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#object_type DataIntersightFirmwareUpgradeImpactStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#timestamp DataIntersightFirmwareUpgradeImpactStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#timestamp DataIntersightFirmwareUpgradeImpactStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4319,19 +4359,19 @@ export interface DataIntersightFirmwareUpgradeImpactStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#version_type DataIntersightFirmwareUpgradeImpactStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#version_type DataIntersightFirmwareUpgradeImpactStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#interested_mos DataIntersightFirmwareUpgradeImpactStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#interested_mos DataIntersightFirmwareUpgradeImpactStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareUpgradeImpactStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#ref_mo DataIntersightFirmwareUpgradeImpactStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#ref_mo DataIntersightFirmwareUpgradeImpactStatus#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareUpgradeImpactStatusVersionContextRefMo;
 }
@@ -4647,7 +4687,7 @@ export class DataIntersightFirmwareUpgradeImpactStatusVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status intersight_firmware_upgrade_impact_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status intersight_firmware_upgrade_impact_status}
 */
 export class DataIntersightFirmwareUpgradeImpactStatus extends cdktf.TerraformDataSource {
 
@@ -4663,7 +4703,7 @@ export class DataIntersightFirmwareUpgradeImpactStatus extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightFirmwareUpgradeImpactStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareUpgradeImpactStatus to import
-  * @param importFromId The id of the existing DataIntersightFirmwareUpgradeImpactStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareUpgradeImpactStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareUpgradeImpactStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4675,7 +4715,7 @@ export class DataIntersightFirmwareUpgradeImpactStatus extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_upgrade_impact_status intersight_firmware_upgrade_impact_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_upgrade_impact_status intersight_firmware_upgrade_impact_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4686,8 +4726,8 @@ export class DataIntersightFirmwareUpgradeImpactStatus extends cdktf.TerraformDa
       terraformResourceType: 'intersight_firmware_upgrade_impact_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

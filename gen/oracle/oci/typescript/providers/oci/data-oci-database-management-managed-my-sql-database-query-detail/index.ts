@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedMySqlDatabaseQueryDetailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}
   */
   readonly digest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}
   */
   readonly managedMySqlDatabaseId: string;
 }
@@ -295,7 +295,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseQueryDetailQuerySample
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail oci_database_management_managed_my_sql_database_query_detail}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail oci_database_management_managed_my_sql_database_query_detail}
 */
 export class DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail extends cdktf.TerraformDataSource {
 
@@ -311,7 +311,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail extends cd
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail oci_database_management_managed_my_sql_database_query_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_management_managed_my_sql_database_query_detail oci_database_management_managed_my_sql_database_query_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail extends cd
       terraformResourceType: 'oci_database_management_managed_my_sql_database_query_detail',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

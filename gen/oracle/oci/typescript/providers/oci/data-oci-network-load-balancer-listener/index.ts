@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkLoadBalancerListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}
   */
   readonly listenerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}
   */
   readonly networkLoadBalancerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener oci_network_load_balancer_listener}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener oci_network_load_balancer_listener}
 */
 export class DataOciNetworkLoadBalancerListener extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataOciNetworkLoadBalancerListener extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciNetworkLoadBalancerListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkLoadBalancerListener to import
-  * @param importFromId The id of the existing DataOciNetworkLoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkLoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkLoadBalancerListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataOciNetworkLoadBalancerListener extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/network_load_balancer_listener oci_network_load_balancer_listener} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/network_load_balancer_listener oci_network_load_balancer_listener} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataOciNetworkLoadBalancerListener extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_network_load_balancer_listener',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

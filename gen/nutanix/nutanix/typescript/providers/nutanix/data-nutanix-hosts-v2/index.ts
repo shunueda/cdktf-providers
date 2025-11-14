@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixHostsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#apply DataNutanixHostsV2#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#apply DataNutanixHostsV2#apply}
   */
   readonly apply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#filter DataNutanixHostsV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#filter DataNutanixHostsV2#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#id DataNutanixHostsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#id DataNutanixHostsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#limit DataNutanixHostsV2#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#limit DataNutanixHostsV2#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#order_by DataNutanixHostsV2#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#order_by DataNutanixHostsV2#order_by}
   */
   readonly orderBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#page DataNutanixHostsV2#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#page DataNutanixHostsV2#page}
   */
   readonly page?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#select DataNutanixHostsV2#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#select DataNutanixHostsV2#select}
   */
   readonly select?: string;
 }
@@ -2391,7 +2391,7 @@ export class DataNutanixHostsV2HostEntitiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2 nutanix_hosts_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2 nutanix_hosts_v2}
 */
 export class DataNutanixHostsV2 extends cdktf.TerraformDataSource {
 
@@ -2407,7 +2407,7 @@ export class DataNutanixHostsV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixHostsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixHostsV2 to import
-  * @param importFromId The id of the existing DataNutanixHostsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixHostsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixHostsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2419,7 +2419,7 @@ export class DataNutanixHostsV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/hosts_v2 nutanix_hosts_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/hosts_v2 nutanix_hosts_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2430,8 +2430,8 @@ export class DataNutanixHostsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_hosts_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

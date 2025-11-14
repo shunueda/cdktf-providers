@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ServerUpdateScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * Is the update schedule enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#enabled ServerUpdateSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#enabled ServerUpdateSchedule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Maintenance window [1..24].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#maintenance_window ServerUpdateSchedule#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#maintenance_window ServerUpdateSchedule#maintenance_window}
   */
   readonly maintenanceWindow: number;
   /**
   * The schedule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#name ServerUpdateSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#name ServerUpdateSchedule#name}
   */
   readonly name: string;
   /**
   * STACKIT Project ID to which the server is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#project_id ServerUpdateSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#project_id ServerUpdateSchedule#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#region ServerUpdateSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#region ServerUpdateSchedule#region}
   */
   readonly region?: string;
   /**
   * Update schedule described in `rrule` (recurrence rule) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#rrule ServerUpdateSchedule#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#rrule ServerUpdateSchedule#rrule}
   */
   readonly rrule: string;
   /**
   * Server ID for the update schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#server_id ServerUpdateSchedule#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#server_id ServerUpdateSchedule#server_id}
   */
   readonly serverId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule stackit_server_update_schedule}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule stackit_server_update_schedule}
 */
 export class ServerUpdateSchedule extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ServerUpdateSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerUpdateSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerUpdateSchedule to import
-  * @param importFromId The id of the existing ServerUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerUpdateSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ServerUpdateSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.69.0/docs/resources/server_update_schedule stackit_server_update_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/server_update_schedule stackit_server_update_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ServerUpdateSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_server_update_schedule',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0',
-        providerVersionConstraint: '0.69.0'
+        providerVersion: '0.70.0',
+        providerVersionConstraint: '0.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

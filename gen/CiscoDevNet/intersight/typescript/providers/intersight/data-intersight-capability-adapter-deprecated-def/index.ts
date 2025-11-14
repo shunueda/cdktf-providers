@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#account_moid DataIntersightCapabilityAdapterDeprecatedDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#account_moid DataIntersightCapabilityAdapterDeprecatedDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#create_time DataIntersightCapabilityAdapterDeprecatedDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#create_time DataIntersightCapabilityAdapterDeprecatedDef#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#domain_group_moid DataIntersightCapabilityAdapterDeprecatedDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#domain_group_moid DataIntersightCapabilityAdapterDeprecatedDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#id DataIntersightCapabilityAdapterDeprecatedDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#id DataIntersightCapabilityAdapterDeprecatedDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#mod_time DataIntersightCapabilityAdapterDeprecatedDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#mod_time DataIntersightCapabilityAdapterDeprecatedDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * Model of the unsupported adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#model DataIntersightCapabilityAdapterDeprecatedDef#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#model DataIntersightCapabilityAdapterDeprecatedDef#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#name DataIntersightCapabilityAdapterDeprecatedDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#name DataIntersightCapabilityAdapterDeprecatedDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#owners DataIntersightCapabilityAdapterDeprecatedDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#owners DataIntersightCapabilityAdapterDeprecatedDef#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#shared_scope DataIntersightCapabilityAdapterDeprecatedDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#shared_scope DataIntersightCapabilityAdapterDeprecatedDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Vendor of the unsupported adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#vendor DataIntersightCapabilityAdapterDeprecatedDef#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#vendor DataIntersightCapabilityAdapterDeprecatedDef#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#ancestors DataIntersightCapabilityAdapterDeprecatedDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#ancestors DataIntersightCapabilityAdapterDeprecatedDef#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityAdapterDeprecatedDefAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#parent DataIntersightCapabilityAdapterDeprecatedDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#parent DataIntersightCapabilityAdapterDeprecatedDef#parent}
   */
   readonly parent?: DataIntersightCapabilityAdapterDeprecatedDefParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#permission_resources DataIntersightCapabilityAdapterDeprecatedDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#permission_resources DataIntersightCapabilityAdapterDeprecatedDef#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityAdapterDeprecatedDefPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#tags DataIntersightCapabilityAdapterDeprecatedDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#tags DataIntersightCapabilityAdapterDeprecatedDef#tags}
   */
   readonly tags?: DataIntersightCapabilityAdapterDeprecatedDefTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#version_context DataIntersightCapabilityAdapterDeprecatedDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#version_context DataIntersightCapabilityAdapterDeprecatedDef#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityAdapterDeprecatedDefVersionContext;
 }
@@ -676,6 +676,11 @@ export class DataIntersightCapabilityAdapterDeprecatedDefResultsTagsOutputRefere
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1179,7 +1184,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefResultsList extends cdk
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1187,19 +1192,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1212,7 +1217,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1444,7 +1449,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefAncestorsList extends c
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1452,19 +1457,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1477,7 +1482,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1677,7 +1682,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefParentOutputReference e
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1685,19 +1690,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1710,7 +1715,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -1942,7 +1947,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefPermissionResourcesList
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1950,19 +1955,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1975,7 +1980,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -2207,7 +2212,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinitions
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2215,19 +2220,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2240,7 +2245,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -2440,45 +2445,51 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsDefinitionOutputRef
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#key DataIntersightCapabilityAdapterDeprecatedDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#key DataIntersightCapabilityAdapterDeprecatedDef#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#propagated DataIntersightCapabilityAdapterDeprecatedDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#propagated DataIntersightCapabilityAdapterDeprecatedDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#sys_tag DataIntersightCapabilityAdapterDeprecatedDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#type DataIntersightCapabilityAdapterDeprecatedDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#type DataIntersightCapabilityAdapterDeprecatedDef#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#value DataIntersightCapabilityAdapterDeprecatedDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#value DataIntersightCapabilityAdapterDeprecatedDef#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#ancestor_definitions DataIntersightCapabilityAdapterDeprecatedDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#ancestor_definitions DataIntersightCapabilityAdapterDeprecatedDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#definition DataIntersightCapabilityAdapterDeprecatedDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#definition DataIntersightCapabilityAdapterDeprecatedDef#definition}
   */
   readonly definition?: DataIntersightCapabilityAdapterDeprecatedDefTagsDefinition;
 }
@@ -2492,6 +2503,7 @@ export function dataIntersightCapabilityAdapterDeprecatedDefTagsToTerraform(stru
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightCapabilityAdapterDeprecatedDefTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2520,6 +2532,12 @@ export function dataIntersightCapabilityAdapterDeprecatedDefTagsToHclTerraform(s
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2586,6 +2604,10 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsOutputReference ext
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2612,6 +2634,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsOutputReference ext
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2627,6 +2650,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsOutputReference ext
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2680,6 +2704,22 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2768,7 +2808,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefTagsList extends cdktf.
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2776,19 +2816,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2801,7 +2841,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -3033,7 +3073,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefVersionContextIntereste
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3041,19 +3081,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#moid DataIntersightCapabilityAdapterDeprecatedDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3066,7 +3106,7 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#selector DataIntersightCapabilityAdapterDeprecatedDef#selector}
   */
   readonly selector?: string;
 }
@@ -3266,7 +3306,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefVersionContextRefMoOutp
 }
 export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#additional_properties DataIntersightCapabilityAdapterDeprecatedDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3274,32 +3314,32 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#class_id DataIntersightCapabilityAdapterDeprecatedDef#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#marked_for_deletion DataIntersightCapabilityAdapterDeprecatedDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#marked_for_deletion DataIntersightCapabilityAdapterDeprecatedDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#nr_version DataIntersightCapabilityAdapterDeprecatedDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#nr_version DataIntersightCapabilityAdapterDeprecatedDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#object_type DataIntersightCapabilityAdapterDeprecatedDef#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#timestamp DataIntersightCapabilityAdapterDeprecatedDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#timestamp DataIntersightCapabilityAdapterDeprecatedDef#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3310,19 +3350,19 @@ export interface DataIntersightCapabilityAdapterDeprecatedDefVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#version_type DataIntersightCapabilityAdapterDeprecatedDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#version_type DataIntersightCapabilityAdapterDeprecatedDef#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#interested_mos DataIntersightCapabilityAdapterDeprecatedDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#interested_mos DataIntersightCapabilityAdapterDeprecatedDef#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityAdapterDeprecatedDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#ref_mo DataIntersightCapabilityAdapterDeprecatedDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#ref_mo DataIntersightCapabilityAdapterDeprecatedDef#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityAdapterDeprecatedDefVersionContextRefMo;
 }
@@ -3638,7 +3678,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDefVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def}
 */
 export class DataIntersightCapabilityAdapterDeprecatedDef extends cdktf.TerraformDataSource {
 
@@ -3654,7 +3694,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDef extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightCapabilityAdapterDeprecatedDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityAdapterDeprecatedDef to import
-  * @param importFromId The id of the existing DataIntersightCapabilityAdapterDeprecatedDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityAdapterDeprecatedDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityAdapterDeprecatedDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3666,7 +3706,7 @@ export class DataIntersightCapabilityAdapterDeprecatedDef extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_adapter_deprecated_def intersight_capability_adapter_deprecated_def} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3677,8 +3717,8 @@ export class DataIntersightCapabilityAdapterDeprecatedDef extends cdktf.Terrafor
       terraformResourceType: 'intersight_capability_adapter_deprecated_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

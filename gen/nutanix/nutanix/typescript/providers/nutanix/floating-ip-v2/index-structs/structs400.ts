@@ -19,47 +19,47 @@ floatingIpV2VpcMetadataToHclTerraform,
 FloatingIpV2VpcMetadataList } from './structs0'
 export interface FloatingIpV2Vpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#description FloatingIpV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#description FloatingIpV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ext_id FloatingIpV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ext_id FloatingIpV2#ext_id}
   */
   readonly extId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#external_routing_domain_reference FloatingIpV2#external_routing_domain_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#external_routing_domain_reference FloatingIpV2#external_routing_domain_reference}
   */
   readonly externalRoutingDomainReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#name FloatingIpV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#name FloatingIpV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#vpc_type FloatingIpV2#vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#vpc_type FloatingIpV2#vpc_type}
   */
   readonly vpcType?: string;
   /**
   * common_dhcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#common_dhcp_options FloatingIpV2#common_dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#common_dhcp_options FloatingIpV2#common_dhcp_options}
   */
   readonly commonDhcpOptions?: FloatingIpV2VpcCommonDhcpOptions[] | cdktf.IResolvable;
   /**
   * external_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#external_subnets FloatingIpV2#external_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#external_subnets FloatingIpV2#external_subnets}
   */
   readonly externalSubnets?: FloatingIpV2VpcExternalSubnets[] | cdktf.IResolvable;
   /**
   * externally_routable_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#externally_routable_prefixes FloatingIpV2#externally_routable_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#externally_routable_prefixes FloatingIpV2#externally_routable_prefixes}
   */
   readonly externallyRoutablePrefixes?: FloatingIpV2VpcExternallyRoutablePrefixes[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#metadata FloatingIpV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#metadata FloatingIpV2#metadata}
   */
   readonly metadata?: FloatingIpV2VpcMetadata[] | cdktf.IResolvable;
 }

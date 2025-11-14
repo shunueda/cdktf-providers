@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}
   */
   readonly volumeId: string;
 }
@@ -284,7 +284,7 @@ export class DataOciCoreVolumeSourceDetailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume oci_core_volume}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume oci_core_volume}
 */
 export class DataOciCoreVolume extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataOciCoreVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreVolume to import
-  * @param importFromId The id of the existing DataOciCoreVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataOciCoreVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_volume oci_core_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_volume oci_core_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataOciCoreVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_volume',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

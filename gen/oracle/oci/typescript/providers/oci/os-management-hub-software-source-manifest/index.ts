@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubSoftwareSourceManifestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#content OsManagementHubSoftwareSourceManifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#content OsManagementHubSoftwareSourceManifest#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#id OsManagementHubSoftwareSourceManifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#id OsManagementHubSoftwareSourceManifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#software_source_id OsManagementHubSoftwareSourceManifest#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#software_source_id OsManagementHubSoftwareSourceManifest#software_source_id}
   */
   readonly softwareSourceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#timeouts OsManagementHubSoftwareSourceManifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#timeouts OsManagementHubSoftwareSourceManifest#timeouts}
   */
   readonly timeouts?: OsManagementHubSoftwareSourceManifestTimeouts;
 }
 export interface OsManagementHubSoftwareSourceManifestTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#create OsManagementHubSoftwareSourceManifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#create OsManagementHubSoftwareSourceManifest#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#delete OsManagementHubSoftwareSourceManifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#delete OsManagementHubSoftwareSourceManifest#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#update OsManagementHubSoftwareSourceManifest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#update OsManagementHubSoftwareSourceManifest#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OsManagementHubSoftwareSourceManifestTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest oci_os_management_hub_software_source_manifest}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest oci_os_management_hub_software_source_manifest}
 */
 export class OsManagementHubSoftwareSourceManifest extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OsManagementHubSoftwareSourceManifest extends cdktf.TerraformResour
   * Generates CDKTF code for importing a OsManagementHubSoftwareSourceManifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubSoftwareSourceManifest to import
-  * @param importFromId The id of the existing OsManagementHubSoftwareSourceManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubSoftwareSourceManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubSoftwareSourceManifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OsManagementHubSoftwareSourceManifest extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/os_management_hub_software_source_manifest oci_os_management_hub_software_source_manifest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/os_management_hub_software_source_manifest oci_os_management_hub_software_source_manifest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OsManagementHubSoftwareSourceManifest extends cdktf.TerraformResour
       terraformResourceType: 'oci_os_management_hub_software_source_manifest',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

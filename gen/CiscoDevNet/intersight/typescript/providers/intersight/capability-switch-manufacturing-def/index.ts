@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CapabilitySwitchManufacturingDefConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#account_moid CapabilitySwitchManufacturingDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#account_moid CapabilitySwitchManufacturingDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#ancestors CapabilitySwitchManufacturingDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#ancestors CapabilitySwitchManufacturingDef#ancestors}
   */
   readonly ancestors?: CapabilitySwitchManufacturingDefAncestors[] | cdktf.IResolvable;
   /**
   * Caption for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#caption CapabilitySwitchManufacturingDef#caption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#caption CapabilitySwitchManufacturingDef#caption}
   */
   readonly caption?: string;
   /**
@@ -34,29 +34,29 @@ export interface CapabilitySwitchManufacturingDefConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#create_time CapabilitySwitchManufacturingDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#create_time CapabilitySwitchManufacturingDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#description CapabilitySwitchManufacturingDef#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#description CapabilitySwitchManufacturingDef#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#domain_group_moid CapabilitySwitchManufacturingDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#domain_group_moid CapabilitySwitchManufacturingDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#id CapabilitySwitchManufacturingDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#id CapabilitySwitchManufacturingDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,49 +65,49 @@ export interface CapabilitySwitchManufacturingDefConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#mod_time CapabilitySwitchManufacturingDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#mod_time CapabilitySwitchManufacturingDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#name CapabilitySwitchManufacturingDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#name CapabilitySwitchManufacturingDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#owners CapabilitySwitchManufacturingDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#owners CapabilitySwitchManufacturingDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#parent CapabilitySwitchManufacturingDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#parent CapabilitySwitchManufacturingDef#parent}
   */
   readonly parent?: CapabilitySwitchManufacturingDefParent[] | cdktf.IResolvable;
   /**
   * Part Number for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#part_number CapabilitySwitchManufacturingDef#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#part_number CapabilitySwitchManufacturingDef#part_number}
   */
   readonly partNumber?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#permission_resources CapabilitySwitchManufacturingDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#permission_resources CapabilitySwitchManufacturingDef#permission_resources}
   */
   readonly permissionResources?: CapabilitySwitchManufacturingDefPermissionResources[] | cdktf.IResolvable;
   /**
@@ -122,64 +122,64 @@ export interface CapabilitySwitchManufacturingDefConfig extends cdktf.TerraformM
   * * `UCSXE-ECMC-G1` - Cisco UCS XE ECMC G1 with 2 ports.
   * * `unknown` - Unknown device type, usage is TBD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#pid CapabilitySwitchManufacturingDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#pid CapabilitySwitchManufacturingDef#pid}
   */
   readonly pid?: string;
   /**
   * Product Name for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#product_name CapabilitySwitchManufacturingDef#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#product_name CapabilitySwitchManufacturingDef#product_name}
   */
   readonly productName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#shared_scope CapabilitySwitchManufacturingDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#shared_scope CapabilitySwitchManufacturingDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#sku CapabilitySwitchManufacturingDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#sku CapabilitySwitchManufacturingDef#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#tags CapabilitySwitchManufacturingDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#tags CapabilitySwitchManufacturingDef#tags}
   */
   readonly tags?: CapabilitySwitchManufacturingDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#version_context CapabilitySwitchManufacturingDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#version_context CapabilitySwitchManufacturingDef#version_context}
   */
   readonly versionContext?: CapabilitySwitchManufacturingDefVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#vid CapabilitySwitchManufacturingDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#vid CapabilitySwitchManufacturingDef#vid}
   */
   readonly vid?: string;
 }
 export interface CapabilitySwitchManufacturingDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -411,23 +411,23 @@ export class CapabilitySwitchManufacturingDefAncestorsList extends cdktf.Complex
 }
 export interface CapabilitySwitchManufacturingDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -659,23 +659,23 @@ export class CapabilitySwitchManufacturingDefParentList extends cdktf.ComplexLis
 }
 export interface CapabilitySwitchManufacturingDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -907,23 +907,23 @@ export class CapabilitySwitchManufacturingDefPermissionResourcesList extends cdk
 }
 export interface CapabilitySwitchManufacturingDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1155,23 +1155,23 @@ export class CapabilitySwitchManufacturingDefTagsAncestorDefinitionsList extends
 }
 export interface CapabilitySwitchManufacturingDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1403,31 +1403,35 @@ export class CapabilitySwitchManufacturingDefTagsDefinitionList extends cdktf.Co
 }
 export interface CapabilitySwitchManufacturingDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#ancestor_definitions CapabilitySwitchManufacturingDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#ancestor_definitions CapabilitySwitchManufacturingDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilitySwitchManufacturingDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#definition CapabilitySwitchManufacturingDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#definition CapabilitySwitchManufacturingDef#definition}
   */
   readonly definition?: CapabilitySwitchManufacturingDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#key CapabilitySwitchManufacturingDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#key CapabilitySwitchManufacturingDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#propagated CapabilitySwitchManufacturingDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#propagated CapabilitySwitchManufacturingDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#type CapabilitySwitchManufacturingDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#sys_tag CapabilitySwitchManufacturingDef#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#type CapabilitySwitchManufacturingDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#value CapabilitySwitchManufacturingDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#value CapabilitySwitchManufacturingDef#value}
   */
   readonly value?: string;
 }
@@ -1443,6 +1447,7 @@ export function capabilitySwitchManufacturingDefTagsToTerraform(struct?: Capabil
     definition: cdktf.listMapper(capabilitySwitchManufacturingDefTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1481,6 +1486,12 @@ export function capabilitySwitchManufacturingDefTagsToHclTerraform(struct?: Capa
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1543,6 +1554,10 @@ export class CapabilitySwitchManufacturingDefTagsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1563,6 +1578,7 @@ export class CapabilitySwitchManufacturingDefTagsOutputReference extends cdktf.C
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1578,6 +1594,7 @@ export class CapabilitySwitchManufacturingDefTagsOutputReference extends cdktf.C
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1663,6 +1680,22 @@ export class CapabilitySwitchManufacturingDefTagsOutputReference extends cdktf.C
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1717,23 +1750,23 @@ export class CapabilitySwitchManufacturingDefTagsList extends cdktf.ComplexList 
 }
 export interface CapabilitySwitchManufacturingDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1965,23 +1998,23 @@ export class CapabilitySwitchManufacturingDefVersionContextInterestedMosList ext
 }
 export interface CapabilitySwitchManufacturingDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#moid CapabilitySwitchManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#selector CapabilitySwitchManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2213,39 +2246,39 @@ export class CapabilitySwitchManufacturingDefVersionContextRefMoList extends cdk
 }
 export interface CapabilitySwitchManufacturingDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#additional_properties CapabilitySwitchManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#class_id CapabilitySwitchManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#interested_mos CapabilitySwitchManufacturingDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#interested_mos CapabilitySwitchManufacturingDef#interested_mos}
   */
   readonly interestedMos?: CapabilitySwitchManufacturingDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#marked_for_deletion CapabilitySwitchManufacturingDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#marked_for_deletion CapabilitySwitchManufacturingDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#nr_version CapabilitySwitchManufacturingDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#nr_version CapabilitySwitchManufacturingDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#object_type CapabilitySwitchManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#ref_mo CapabilitySwitchManufacturingDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#ref_mo CapabilitySwitchManufacturingDef#ref_mo}
   */
   readonly refMo?: CapabilitySwitchManufacturingDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#timestamp CapabilitySwitchManufacturingDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#timestamp CapabilitySwitchManufacturingDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#version_type CapabilitySwitchManufacturingDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#version_type CapabilitySwitchManufacturingDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2593,7 +2626,7 @@ export class CapabilitySwitchManufacturingDefVersionContextList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def intersight_capability_switch_manufacturing_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def intersight_capability_switch_manufacturing_def}
 */
 export class CapabilitySwitchManufacturingDef extends cdktf.TerraformResource {
 
@@ -2609,7 +2642,7 @@ export class CapabilitySwitchManufacturingDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilitySwitchManufacturingDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilitySwitchManufacturingDef to import
-  * @param importFromId The id of the existing CapabilitySwitchManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilitySwitchManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilitySwitchManufacturingDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2621,7 +2654,7 @@ export class CapabilitySwitchManufacturingDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/capability_switch_manufacturing_def intersight_capability_switch_manufacturing_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_manufacturing_def intersight_capability_switch_manufacturing_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2632,8 +2665,8 @@ export class CapabilitySwitchManufacturingDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_switch_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

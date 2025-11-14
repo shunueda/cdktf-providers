@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/repository
+// https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataGitRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path to the local Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/repository#directory DataGitRepository#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/repository#directory DataGitRepository#directory}
   */
   readonly directory: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/repository git_repository}
+* Represents a {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/repository git_repository}
 */
 export class DataGitRepository extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataGitRepository extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitRepository to import
-  * @param importFromId The id of the existing DataGitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataGitRepository extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.10.31/docs/data-sources/repository git_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/git/2025.11.14/docs/data-sources/repository git_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataGitRepository extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_repository',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31',
-        providerVersionConstraint: '2025.10.31'
+        providerVersion: '2025.11.14',
+        providerVersionConstraint: '2025.11.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

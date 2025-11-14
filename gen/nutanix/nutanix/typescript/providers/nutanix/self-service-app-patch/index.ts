@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface SelfServiceAppPatchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#app_uuid SelfServiceAppPatch#app_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#app_uuid SelfServiceAppPatch#app_uuid}
   */
   readonly appUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#config_name SelfServiceAppPatch#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#config_name SelfServiceAppPatch#config_name}
   */
   readonly configName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#id SelfServiceAppPatch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#id SelfServiceAppPatch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#patch_name SelfServiceAppPatch#patch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#patch_name SelfServiceAppPatch#patch_name}
   */
   readonly patchName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#runlog_uuid SelfServiceAppPatch#runlog_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#runlog_uuid SelfServiceAppPatch#runlog_uuid}
   */
   readonly runlogUuid?: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#categories SelfServiceAppPatch#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#categories SelfServiceAppPatch#categories}
   */
   readonly categories?: SelfServiceAppPatchCategories[] | cdktf.IResolvable;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#disks SelfServiceAppPatch#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#disks SelfServiceAppPatch#disks}
   */
   readonly disks?: SelfServiceAppPatchDisks[] | cdktf.IResolvable;
   /**
   * nics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#nics SelfServiceAppPatch#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#nics SelfServiceAppPatch#nics}
   */
   readonly nics?: SelfServiceAppPatchNics[] | cdktf.IResolvable;
   /**
   * vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#vm_config SelfServiceAppPatch#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#vm_config SelfServiceAppPatch#vm_config}
   */
   readonly vmConfig?: SelfServiceAppPatchVmConfig[] | cdktf.IResolvable;
 }
 export interface SelfServiceAppPatchCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#value SelfServiceAppPatch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#value SelfServiceAppPatch#value}
   */
   readonly value?: string;
 }
@@ -203,11 +203,11 @@ export class SelfServiceAppPatchCategoriesList extends cdktf.ComplexList {
 }
 export interface SelfServiceAppPatchDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#disk_size_mib SelfServiceAppPatch#disk_size_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#disk_size_mib SelfServiceAppPatch#disk_size_mib}
   */
   readonly diskSizeMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
   */
   readonly operation: string;
 }
@@ -349,15 +349,15 @@ export class SelfServiceAppPatchDisksList extends cdktf.ComplexList {
 }
 export interface SelfServiceAppPatchNics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#index SelfServiceAppPatch#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#index SelfServiceAppPatch#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#operation SelfServiceAppPatch#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#subnet_uuid SelfServiceAppPatch#subnet_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#subnet_uuid SelfServiceAppPatch#subnet_uuid}
   */
   readonly subnetUuid?: string;
 }
@@ -531,15 +531,15 @@ export class SelfServiceAppPatchNicsList extends cdktf.ComplexList {
 }
 export interface SelfServiceAppPatchVmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#memory_size_mib SelfServiceAppPatch#memory_size_mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#memory_size_mib SelfServiceAppPatch#memory_size_mib}
   */
   readonly memorySizeMib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#num_sockets SelfServiceAppPatch#num_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#num_sockets SelfServiceAppPatch#num_sockets}
   */
   readonly numSockets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#num_vcpus_per_socket SelfServiceAppPatch#num_vcpus_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#num_vcpus_per_socket SelfServiceAppPatch#num_vcpus_per_socket}
   */
   readonly numVcpusPerSocket?: number;
 }
@@ -713,7 +713,7 @@ export class SelfServiceAppPatchVmConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch nutanix_self_service_app_patch}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch nutanix_self_service_app_patch}
 */
 export class SelfServiceAppPatch extends cdktf.TerraformResource {
 
@@ -729,7 +729,7 @@ export class SelfServiceAppPatch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SelfServiceAppPatch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SelfServiceAppPatch to import
-  * @param importFromId The id of the existing SelfServiceAppPatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SelfServiceAppPatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SelfServiceAppPatch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -741,7 +741,7 @@ export class SelfServiceAppPatch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/self_service_app_patch nutanix_self_service_app_patch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/self_service_app_patch nutanix_self_service_app_patch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -752,8 +752,8 @@ export class SelfServiceAppPatch extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_self_service_app_patch',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

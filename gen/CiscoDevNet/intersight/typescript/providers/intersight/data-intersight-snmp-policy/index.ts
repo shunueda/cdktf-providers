@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSnmpPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * The default SNMPv1, SNMPv2c community name or SNMPv3 username to include on any trap messages sent to the SNMP host. The name can be 32 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#access_community_string DataIntersightSnmpPolicy#access_community_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#access_community_string DataIntersightSnmpPolicy#access_community_string}
   */
   readonly accessCommunityString?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#account_moid DataIntersightSnmpPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#account_moid DataIntersightSnmpPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,7 +28,7 @@ export interface DataIntersightSnmpPolicyConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -37,41 +37,41 @@ export interface DataIntersightSnmpPolicyConfig extends cdktf.TerraformMetaArgum
   * * `Limited` - Partial access to read the information in the inventory tables.
   * * `Full` - Full access to read the information in the inventory tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#community_access DataIntersightSnmpPolicy#community_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#community_access DataIntersightSnmpPolicy#community_access}
   */
   readonly communityAccess?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#create_time DataIntersightSnmpPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#create_time DataIntersightSnmpPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#description DataIntersightSnmpPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#description DataIntersightSnmpPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#domain_group_moid DataIntersightSnmpPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#domain_group_moid DataIntersightSnmpPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * State of the SNMP Policy on the endpoint. If enabled, the endpoint sends SNMP traps to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#enabled DataIntersightSnmpPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#enabled DataIntersightSnmpPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * User-defined unique identification of the static engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#engine_id DataIntersightSnmpPolicy#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#engine_id DataIntersightSnmpPolicy#engine_id}
   */
   readonly engineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#id DataIntersightSnmpPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#id DataIntersightSnmpPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,127 +80,127 @@ export interface DataIntersightSnmpPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#mod_time DataIntersightSnmpPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#mod_time DataIntersightSnmpPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#name DataIntersightSnmpPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#name DataIntersightSnmpPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#owners DataIntersightSnmpPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#owners DataIntersightSnmpPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#shared_scope DataIntersightSnmpPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#shared_scope DataIntersightSnmpPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Port on which Cisco IMC SNMP agent runs. Enter a value between 1-65535. Reserved ports not allowed (22, 23, 80, 123, 389, 443, 623, 636, 2068, 3268, 3269).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#snmp_port DataIntersightSnmpPolicy#snmp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#snmp_port DataIntersightSnmpPolicy#snmp_port}
   */
   readonly snmpPort?: number;
   /**
   * Contact person responsible for the SNMP implementation. Enter a string up to 64 characters, such as an email address or a name and telephone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#sys_contact DataIntersightSnmpPolicy#sys_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#sys_contact DataIntersightSnmpPolicy#sys_contact}
   */
   readonly sysContact?: string;
   /**
   * Location of host on which the SNMP agent (server) runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#sys_location DataIntersightSnmpPolicy#sys_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#sys_location DataIntersightSnmpPolicy#sys_location}
   */
   readonly sysLocation?: string;
   /**
   * SNMP community group used for sending SNMP trap to other devices. Valid only for SNMPv2c users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#trap_community DataIntersightSnmpPolicy#trap_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#trap_community DataIntersightSnmpPolicy#trap_community}
   */
   readonly trapCommunity?: string;
   /**
   * State of the SNMP v2c on the endpoint. If enabled, the endpoint sends SNMP v2c properties to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#v2_enabled DataIntersightSnmpPolicy#v2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#v2_enabled DataIntersightSnmpPolicy#v2_enabled}
   */
   readonly v2Enabled?: boolean | cdktf.IResolvable;
   /**
   * State of the SNMP v3 on the endpoint. If enabled, the endpoint sends SNMP v3 properties to the designated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#v3_enabled DataIntersightSnmpPolicy#v3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#v3_enabled DataIntersightSnmpPolicy#v3_enabled}
   */
   readonly v3Enabled?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#ancestors DataIntersightSnmpPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#ancestors DataIntersightSnmpPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightSnmpPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#organization DataIntersightSnmpPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#organization DataIntersightSnmpPolicy#organization}
   */
   readonly organization?: DataIntersightSnmpPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#parent DataIntersightSnmpPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#parent DataIntersightSnmpPolicy#parent}
   */
   readonly parent?: DataIntersightSnmpPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#permission_resources DataIntersightSnmpPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#permission_resources DataIntersightSnmpPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightSnmpPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#profiles DataIntersightSnmpPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#profiles DataIntersightSnmpPolicy#profiles}
   */
   readonly profiles?: DataIntersightSnmpPolicyProfiles[] | cdktf.IResolvable;
   /**
   * snmp_traps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#snmp_traps DataIntersightSnmpPolicy#snmp_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#snmp_traps DataIntersightSnmpPolicy#snmp_traps}
   */
   readonly snmpTraps?: DataIntersightSnmpPolicySnmpTraps[] | cdktf.IResolvable;
   /**
   * snmp_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#snmp_users DataIntersightSnmpPolicy#snmp_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#snmp_users DataIntersightSnmpPolicy#snmp_users}
   */
   readonly snmpUsers?: DataIntersightSnmpPolicySnmpUsers[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#tags DataIntersightSnmpPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#tags DataIntersightSnmpPolicy#tags}
   */
   readonly tags?: DataIntersightSnmpPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#version_context DataIntersightSnmpPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#version_context DataIntersightSnmpPolicy#version_context}
   */
   readonly versionContext?: DataIntersightSnmpPolicyVersionContext;
 }
@@ -1202,6 +1202,11 @@ export class DataIntersightSnmpPolicyResultsTagsOutputReference extends cdktf.Co
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1774,7 +1779,7 @@ export class DataIntersightSnmpPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1782,19 +1787,19 @@ export interface DataIntersightSnmpPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1807,7 +1812,7 @@ export interface DataIntersightSnmpPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2039,7 +2044,7 @@ export class DataIntersightSnmpPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2047,19 +2052,19 @@ export interface DataIntersightSnmpPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2072,7 +2077,7 @@ export interface DataIntersightSnmpPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2272,7 +2277,7 @@ export class DataIntersightSnmpPolicyOrganizationOutputReference extends cdktf.C
 }
 export interface DataIntersightSnmpPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2280,19 +2285,19 @@ export interface DataIntersightSnmpPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2305,7 +2310,7 @@ export interface DataIntersightSnmpPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2505,7 +2510,7 @@ export class DataIntersightSnmpPolicyParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightSnmpPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2513,19 +2518,19 @@ export interface DataIntersightSnmpPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2538,7 +2543,7 @@ export interface DataIntersightSnmpPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2770,7 +2775,7 @@ export class DataIntersightSnmpPolicyPermissionResourcesList extends cdktf.Compl
 }
 export interface DataIntersightSnmpPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2778,19 +2783,19 @@ export interface DataIntersightSnmpPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2803,7 +2808,7 @@ export interface DataIntersightSnmpPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3035,7 +3040,7 @@ export class DataIntersightSnmpPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicySnmpTraps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3043,25 +3048,25 @@ export interface DataIntersightSnmpPolicySnmpTraps {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * SNMP community group used for sending SNMP trap to other devices. Applicable only for SNMP v2c.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#community DataIntersightSnmpPolicy#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#community DataIntersightSnmpPolicy#community}
   */
   readonly community?: string;
   /**
   * Address to which the SNMP trap information is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#destination DataIntersightSnmpPolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#destination DataIntersightSnmpPolicy#destination}
   */
   readonly destination?: string;
   /**
   * Enables/disables the trap on the server If enabled, trap is active on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#enabled DataIntersightSnmpPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#enabled DataIntersightSnmpPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -3070,20 +3075,20 @@ export interface DataIntersightSnmpPolicySnmpTraps {
   * * `V1` - SNMP v1 trap version notifications.
   * * `V2` - SNMP v2 trap version notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#nr_version DataIntersightSnmpPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#nr_version DataIntersightSnmpPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Port used by the server to communicate with the trap destination. Enter a value between 1-65535. Reserved ports not allowed (22, 23, 80, 123, 389, 443, 623, 636, 2068, 3268, 3269).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#port DataIntersightSnmpPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#port DataIntersightSnmpPolicy#port}
   */
   readonly port?: number;
   /**
@@ -3092,7 +3097,7 @@ export interface DataIntersightSnmpPolicySnmpTraps {
   * * `NoAuthNoPriv` - The user does not require an authorization or privacy password.
   * * `AuthNoPriv` - The user requires an authorization password but not a privacy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#security_level DataIntersightSnmpPolicy#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#security_level DataIntersightSnmpPolicy#security_level}
   */
   readonly securityLevel?: string;
   /**
@@ -3100,19 +3105,19 @@ export interface DataIntersightSnmpPolicySnmpTraps {
   * * `Trap` - Do not receive notifications when trap is sent to the destination.
   * * `Inform` - Receive notifications when trap is sent to the destination. This option is valid only for V2 users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#type DataIntersightSnmpPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#type DataIntersightSnmpPolicy#type}
   */
   readonly type?: string;
   /**
   * SNMP user for the trap. Applicable only to SNMPv3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#user DataIntersightSnmpPolicy#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#user DataIntersightSnmpPolicy#user}
   */
   readonly user?: string;
   /**
   * VRF name of the SNMP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#vrf_name DataIntersightSnmpPolicy#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#vrf_name DataIntersightSnmpPolicy#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -3547,13 +3552,13 @@ export class DataIntersightSnmpPolicySnmpTrapsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicySnmpUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Authorization password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#auth_password DataIntersightSnmpPolicy#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#auth_password DataIntersightSnmpPolicy#auth_password}
   */
   readonly authPassword?: string;
   /**
@@ -3566,7 +3571,7 @@ export interface DataIntersightSnmpPolicySnmpUsers {
   * * `SHA-384` - SHA-384 protocol is used to authenticate SNMP user.
   * * `SHA-512` - SHA-512 protocol is used to authenticate SNMP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#auth_type DataIntersightSnmpPolicy#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#auth_type DataIntersightSnmpPolicy#auth_type}
   */
   readonly authType?: string;
   /**
@@ -3574,38 +3579,38 @@ export interface DataIntersightSnmpPolicySnmpUsers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates whether the value of the 'authPassword' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#is_auth_password_set DataIntersightSnmpPolicy#is_auth_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#is_auth_password_set DataIntersightSnmpPolicy#is_auth_password_set}
   */
   readonly isAuthPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'privacyPassword' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#is_privacy_password_set DataIntersightSnmpPolicy#is_privacy_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#is_privacy_password_set DataIntersightSnmpPolicy#is_privacy_password_set}
   */
   readonly isPrivacyPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * SNMP username. Must have a minimum of 1 and and a maximum of 31 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#name DataIntersightSnmpPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#name DataIntersightSnmpPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Privacy password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#privacy_password DataIntersightSnmpPolicy#privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#privacy_password DataIntersightSnmpPolicy#privacy_password}
   */
   readonly privacyPassword?: string;
   /**
@@ -3614,7 +3619,7 @@ export interface DataIntersightSnmpPolicySnmpUsers {
   * * `DES` - DES privacy protocol is used for SNMP user.
   * * `AES` - AES privacy protocol is used for SNMP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#privacy_type DataIntersightSnmpPolicy#privacy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#privacy_type DataIntersightSnmpPolicy#privacy_type}
   */
   readonly privacyType?: string;
   /**
@@ -3623,7 +3628,7 @@ export interface DataIntersightSnmpPolicySnmpUsers {
   * * `NoAuthNoPriv` - The user does not require an authorization or privacy password.
   * * `AuthNoPriv` - The user requires an authorization password but not a privacy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#security_level DataIntersightSnmpPolicy#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#security_level DataIntersightSnmpPolicy#security_level}
   */
   readonly securityLevel?: string;
 }
@@ -4029,7 +4034,7 @@ export class DataIntersightSnmpPolicySnmpUsersList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4037,19 +4042,19 @@ export interface DataIntersightSnmpPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4062,7 +4067,7 @@ export interface DataIntersightSnmpPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4294,7 +4299,7 @@ export class DataIntersightSnmpPolicyTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightSnmpPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4302,19 +4307,19 @@ export interface DataIntersightSnmpPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4327,7 +4332,7 @@ export interface DataIntersightSnmpPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4527,45 +4532,51 @@ export class DataIntersightSnmpPolicyTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightSnmpPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#key DataIntersightSnmpPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#key DataIntersightSnmpPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#propagated DataIntersightSnmpPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#propagated DataIntersightSnmpPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#sys_tag DataIntersightSnmpPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#type DataIntersightSnmpPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#type DataIntersightSnmpPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#value DataIntersightSnmpPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#value DataIntersightSnmpPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#ancestor_definitions DataIntersightSnmpPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#ancestor_definitions DataIntersightSnmpPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSnmpPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#definition DataIntersightSnmpPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#definition DataIntersightSnmpPolicy#definition}
   */
   readonly definition?: DataIntersightSnmpPolicyTagsDefinition;
 }
@@ -4579,6 +4590,7 @@ export function dataIntersightSnmpPolicyTagsToTerraform(struct?: DataIntersightS
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightSnmpPolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4607,6 +4619,12 @@ export function dataIntersightSnmpPolicyTagsToHclTerraform(struct?: DataIntersig
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4673,6 +4691,10 @@ export class DataIntersightSnmpPolicyTagsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4699,6 +4721,7 @@ export class DataIntersightSnmpPolicyTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4714,6 +4737,7 @@ export class DataIntersightSnmpPolicyTagsOutputReference extends cdktf.ComplexOb
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4767,6 +4791,22 @@ export class DataIntersightSnmpPolicyTagsOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4855,7 +4895,7 @@ export class DataIntersightSnmpPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSnmpPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4863,19 +4903,19 @@ export interface DataIntersightSnmpPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4888,7 +4928,7 @@ export interface DataIntersightSnmpPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5120,7 +5160,7 @@ export class DataIntersightSnmpPolicyVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightSnmpPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5128,19 +5168,19 @@ export interface DataIntersightSnmpPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#moid DataIntersightSnmpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5153,7 +5193,7 @@ export interface DataIntersightSnmpPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#selector DataIntersightSnmpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5353,7 +5393,7 @@ export class DataIntersightSnmpPolicyVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightSnmpPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#additional_properties DataIntersightSnmpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5361,32 +5401,32 @@ export interface DataIntersightSnmpPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#class_id DataIntersightSnmpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#marked_for_deletion DataIntersightSnmpPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#marked_for_deletion DataIntersightSnmpPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#nr_version DataIntersightSnmpPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#nr_version DataIntersightSnmpPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#object_type DataIntersightSnmpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#timestamp DataIntersightSnmpPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#timestamp DataIntersightSnmpPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5397,19 +5437,19 @@ export interface DataIntersightSnmpPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#version_type DataIntersightSnmpPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#version_type DataIntersightSnmpPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#interested_mos DataIntersightSnmpPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#interested_mos DataIntersightSnmpPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightSnmpPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#ref_mo DataIntersightSnmpPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#ref_mo DataIntersightSnmpPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightSnmpPolicyVersionContextRefMo;
 }
@@ -5725,7 +5765,7 @@ export class DataIntersightSnmpPolicyVersionContextOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy intersight_snmp_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy intersight_snmp_policy}
 */
 export class DataIntersightSnmpPolicy extends cdktf.TerraformDataSource {
 
@@ -5741,7 +5781,7 @@ export class DataIntersightSnmpPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSnmpPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSnmpPolicy to import
-  * @param importFromId The id of the existing DataIntersightSnmpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSnmpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSnmpPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5753,7 +5793,7 @@ export class DataIntersightSnmpPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/snmp_policy intersight_snmp_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/snmp_policy intersight_snmp_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5764,8 +5804,8 @@ export class DataIntersightSnmpPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_snmp_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

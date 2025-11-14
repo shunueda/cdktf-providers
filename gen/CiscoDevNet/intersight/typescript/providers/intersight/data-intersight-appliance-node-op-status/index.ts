@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#account_moid DataIntersightApplianceNodeOpStatus#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#account_moid DataIntersightApplianceNodeOpStatus#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * Percentage of CPU currently in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#cpu_usage DataIntersightApplianceNodeOpStatus#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#cpu_usage DataIntersightApplianceNodeOpStatus#cpu_usage}
   */
   readonly cpuUsage?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#create_time DataIntersightApplianceNodeOpStatus#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#create_time DataIntersightApplianceNodeOpStatus#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#domain_group_moid DataIntersightApplianceNodeOpStatus#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#domain_group_moid DataIntersightApplianceNodeOpStatus#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#id DataIntersightApplianceNodeOpStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#id DataIntersightApplianceNodeOpStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   /**
   * Percentage of memory currently in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#mem_usage DataIntersightApplianceNodeOpStatus#mem_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#mem_usage DataIntersightApplianceNodeOpStatus#mem_usage}
   */
   readonly memUsage?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#mod_time DataIntersightApplianceNodeOpStatus#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#mod_time DataIntersightApplianceNodeOpStatus#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * Hostname of the Intersight Appliance node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#node_hostname DataIntersightApplianceNodeOpStatus#node_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#node_hostname DataIntersightApplianceNodeOpStatus#node_hostname}
   */
   readonly nodeHostname?: string;
   /**
@@ -79,7 +79,7 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   * The system incrementally assigns identifiers to each node in
   * the Intersight Appliance cluster starting with a value of 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#node_id DataIntersightApplianceNodeOpStatus#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#node_id DataIntersightApplianceNodeOpStatus#node_id}
   */
   readonly nodeId?: number;
   /**
@@ -88,14 +88,14 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   * * `Preparing` - The node has come up and joined the Kubernetes cluster,preparing to host Kubernetes pods.
   * * `Ready` - The node is ready to host Kubernetes pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#node_state DataIntersightApplianceNodeOpStatus#node_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#node_state DataIntersightApplianceNodeOpStatus#node_state}
   */
   readonly nodeState?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -118,90 +118,90 @@ export interface DataIntersightApplianceNodeOpStatusConfig extends cdktf.Terrafo
   * * `WorkerNodeInstSuccess` - The worker node installation succeeded.
   * * `WorkerNodeInstFailed` - The worker node installation failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#operational_status DataIntersightApplianceNodeOpStatus#operational_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#operational_status DataIntersightApplianceNodeOpStatus#operational_status}
   */
   readonly operationalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#owners DataIntersightApplianceNodeOpStatus#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#owners DataIntersightApplianceNodeOpStatus#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#shared_scope DataIntersightApplianceNodeOpStatus#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#shared_scope DataIntersightApplianceNodeOpStatus#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#account DataIntersightApplianceNodeOpStatus#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#account DataIntersightApplianceNodeOpStatus#account}
   */
   readonly account?: DataIntersightApplianceNodeOpStatusAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#ancestors DataIntersightApplianceNodeOpStatus#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#ancestors DataIntersightApplianceNodeOpStatus#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceNodeOpStatusAncestors[] | cdktf.IResolvable;
   /**
   * cluster_network_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#cluster_network_status DataIntersightApplianceNodeOpStatus#cluster_network_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#cluster_network_status DataIntersightApplianceNodeOpStatus#cluster_network_status}
   */
   readonly clusterNetworkStatus?: DataIntersightApplianceNodeOpStatusClusterNetworkStatus[] | cdktf.IResolvable;
   /**
   * file_system_op_statuses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#file_system_op_statuses DataIntersightApplianceNodeOpStatus#file_system_op_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#file_system_op_statuses DataIntersightApplianceNodeOpStatus#file_system_op_statuses}
   */
   readonly fileSystemOpStatuses?: DataIntersightApplianceNodeOpStatusFileSystemOpStatuses[] | cdktf.IResolvable;
   /**
   * network_link_statuses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#network_link_statuses DataIntersightApplianceNodeOpStatus#network_link_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#network_link_statuses DataIntersightApplianceNodeOpStatus#network_link_statuses}
   */
   readonly networkLinkStatuses?: DataIntersightApplianceNodeOpStatusNetworkLinkStatuses[] | cdktf.IResolvable;
   /**
   * node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#node_info DataIntersightApplianceNodeOpStatus#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#node_info DataIntersightApplianceNodeOpStatus#node_info}
   */
   readonly nodeInfo?: DataIntersightApplianceNodeOpStatusNodeInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#parent DataIntersightApplianceNodeOpStatus#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#parent DataIntersightApplianceNodeOpStatus#parent}
   */
   readonly parent?: DataIntersightApplianceNodeOpStatusParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#permission_resources DataIntersightApplianceNodeOpStatus#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#permission_resources DataIntersightApplianceNodeOpStatus#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceNodeOpStatusPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#registered_device DataIntersightApplianceNodeOpStatus#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#registered_device DataIntersightApplianceNodeOpStatus#registered_device}
   */
   readonly registeredDevice?: DataIntersightApplianceNodeOpStatusRegisteredDevice;
   /**
   * system_op_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#system_op_status DataIntersightApplianceNodeOpStatus#system_op_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#system_op_status DataIntersightApplianceNodeOpStatus#system_op_status}
   */
   readonly systemOpStatus?: DataIntersightApplianceNodeOpStatusSystemOpStatus;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#tags DataIntersightApplianceNodeOpStatus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#tags DataIntersightApplianceNodeOpStatus#tags}
   */
   readonly tags?: DataIntersightApplianceNodeOpStatusTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#version_context DataIntersightApplianceNodeOpStatus#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#version_context DataIntersightApplianceNodeOpStatus#version_context}
   */
   readonly versionContext?: DataIntersightApplianceNodeOpStatusVersionContext;
 }
@@ -1428,6 +1428,11 @@ export class DataIntersightApplianceNodeOpStatusResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1988,7 +1993,7 @@ export class DataIntersightApplianceNodeOpStatusResultsList extends cdktf.Comple
 }
 export interface DataIntersightApplianceNodeOpStatusAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1996,19 +2001,19 @@ export interface DataIntersightApplianceNodeOpStatusAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2021,7 +2026,7 @@ export interface DataIntersightApplianceNodeOpStatusAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2221,7 +2226,7 @@ export class DataIntersightApplianceNodeOpStatusAccountOutputReference extends c
 }
 export interface DataIntersightApplianceNodeOpStatusAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2229,19 +2234,19 @@ export interface DataIntersightApplianceNodeOpStatusAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2254,7 +2259,7 @@ export interface DataIntersightApplianceNodeOpStatusAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -2486,7 +2491,7 @@ export class DataIntersightApplianceNodeOpStatusAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightApplianceNodeOpStatusClusterNetworkStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2494,32 +2499,32 @@ export interface DataIntersightApplianceNodeOpStatusClusterNetworkStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * Hostname of the destination endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#destination_hostname DataIntersightApplianceNodeOpStatus#destination_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#destination_hostname DataIntersightApplianceNodeOpStatus#destination_hostname}
   */
   readonly destinationHostname?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * Time to reach the destination endpoint in milliseconds from the source endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#ping_time DataIntersightApplianceNodeOpStatus#ping_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#ping_time DataIntersightApplianceNodeOpStatus#ping_time}
   */
   readonly pingTime?: number;
   /**
   * Hostname of the source endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#source_hostname DataIntersightApplianceNodeOpStatus#source_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#source_hostname DataIntersightApplianceNodeOpStatus#source_hostname}
   */
   readonly sourceHostname?: string;
 }
@@ -2780,7 +2785,7 @@ export class DataIntersightApplianceNodeOpStatusClusterNetworkStatusList extends
 }
 export interface DataIntersightApplianceNodeOpStatusFileSystemOpStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2788,19 +2793,19 @@ export interface DataIntersightApplianceNodeOpStatusFileSystemOpStatuses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2813,7 +2818,7 @@ export interface DataIntersightApplianceNodeOpStatusFileSystemOpStatuses {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3045,7 +3050,7 @@ export class DataIntersightApplianceNodeOpStatusFileSystemOpStatusesList extends
 }
 export interface DataIntersightApplianceNodeOpStatusNetworkLinkStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3053,19 +3058,19 @@ export interface DataIntersightApplianceNodeOpStatusNetworkLinkStatuses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3078,7 +3083,7 @@ export interface DataIntersightApplianceNodeOpStatusNetworkLinkStatuses {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3310,7 +3315,7 @@ export class DataIntersightApplianceNodeOpStatusNetworkLinkStatusesList extends 
 }
 export interface DataIntersightApplianceNodeOpStatusNodeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3318,19 +3323,19 @@ export interface DataIntersightApplianceNodeOpStatusNodeInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3343,7 +3348,7 @@ export interface DataIntersightApplianceNodeOpStatusNodeInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3543,7 +3548,7 @@ export class DataIntersightApplianceNodeOpStatusNodeInfoOutputReference extends 
 }
 export interface DataIntersightApplianceNodeOpStatusParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3551,19 +3556,19 @@ export interface DataIntersightApplianceNodeOpStatusParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3576,7 +3581,7 @@ export interface DataIntersightApplianceNodeOpStatusParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -3776,7 +3781,7 @@ export class DataIntersightApplianceNodeOpStatusParentOutputReference extends cd
 }
 export interface DataIntersightApplianceNodeOpStatusPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3784,19 +3789,19 @@ export interface DataIntersightApplianceNodeOpStatusPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3809,7 +3814,7 @@ export interface DataIntersightApplianceNodeOpStatusPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4041,7 +4046,7 @@ export class DataIntersightApplianceNodeOpStatusPermissionResourcesList extends 
 }
 export interface DataIntersightApplianceNodeOpStatusRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4049,19 +4054,19 @@ export interface DataIntersightApplianceNodeOpStatusRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4074,7 +4079,7 @@ export interface DataIntersightApplianceNodeOpStatusRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4274,7 +4279,7 @@ export class DataIntersightApplianceNodeOpStatusRegisteredDeviceOutputReference 
 }
 export interface DataIntersightApplianceNodeOpStatusSystemOpStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4282,19 +4287,19 @@ export interface DataIntersightApplianceNodeOpStatusSystemOpStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4307,7 +4312,7 @@ export interface DataIntersightApplianceNodeOpStatusSystemOpStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4507,7 +4512,7 @@ export class DataIntersightApplianceNodeOpStatusSystemOpStatusOutputReference ex
 }
 export interface DataIntersightApplianceNodeOpStatusTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4515,19 +4520,19 @@ export interface DataIntersightApplianceNodeOpStatusTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4540,7 +4545,7 @@ export interface DataIntersightApplianceNodeOpStatusTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -4772,7 +4777,7 @@ export class DataIntersightApplianceNodeOpStatusTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightApplianceNodeOpStatusTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4780,19 +4785,19 @@ export interface DataIntersightApplianceNodeOpStatusTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4805,7 +4810,7 @@ export interface DataIntersightApplianceNodeOpStatusTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -5005,45 +5010,51 @@ export class DataIntersightApplianceNodeOpStatusTagsDefinitionOutputReference ex
 }
 export interface DataIntersightApplianceNodeOpStatusTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#key DataIntersightApplianceNodeOpStatus#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#key DataIntersightApplianceNodeOpStatus#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#propagated DataIntersightApplianceNodeOpStatus#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#propagated DataIntersightApplianceNodeOpStatus#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#sys_tag DataIntersightApplianceNodeOpStatus#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#type DataIntersightApplianceNodeOpStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#type DataIntersightApplianceNodeOpStatus#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#value DataIntersightApplianceNodeOpStatus#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#value DataIntersightApplianceNodeOpStatus#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#ancestor_definitions DataIntersightApplianceNodeOpStatus#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#ancestor_definitions DataIntersightApplianceNodeOpStatus#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceNodeOpStatusTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#definition DataIntersightApplianceNodeOpStatus#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#definition DataIntersightApplianceNodeOpStatus#definition}
   */
   readonly definition?: DataIntersightApplianceNodeOpStatusTagsDefinition;
 }
@@ -5057,6 +5068,7 @@ export function dataIntersightApplianceNodeOpStatusTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightApplianceNodeOpStatusTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -5085,6 +5097,12 @@ export function dataIntersightApplianceNodeOpStatusTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5151,6 +5169,10 @@ export class DataIntersightApplianceNodeOpStatusTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -5177,6 +5199,7 @@ export class DataIntersightApplianceNodeOpStatusTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -5192,6 +5215,7 @@ export class DataIntersightApplianceNodeOpStatusTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -5245,6 +5269,22 @@ export class DataIntersightApplianceNodeOpStatusTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -5333,7 +5373,7 @@ export class DataIntersightApplianceNodeOpStatusTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightApplianceNodeOpStatusVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5341,19 +5381,19 @@ export interface DataIntersightApplianceNodeOpStatusVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5366,7 +5406,7 @@ export interface DataIntersightApplianceNodeOpStatusVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -5598,7 +5638,7 @@ export class DataIntersightApplianceNodeOpStatusVersionContextInterestedMosList 
 }
 export interface DataIntersightApplianceNodeOpStatusVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5606,19 +5646,19 @@ export interface DataIntersightApplianceNodeOpStatusVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#moid DataIntersightApplianceNodeOpStatus#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5631,7 +5671,7 @@ export interface DataIntersightApplianceNodeOpStatusVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#selector DataIntersightApplianceNodeOpStatus#selector}
   */
   readonly selector?: string;
 }
@@ -5831,7 +5871,7 @@ export class DataIntersightApplianceNodeOpStatusVersionContextRefMoOutputReferen
 }
 export interface DataIntersightApplianceNodeOpStatusVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#additional_properties DataIntersightApplianceNodeOpStatus#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5839,32 +5879,32 @@ export interface DataIntersightApplianceNodeOpStatusVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#class_id DataIntersightApplianceNodeOpStatus#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#marked_for_deletion DataIntersightApplianceNodeOpStatus#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#marked_for_deletion DataIntersightApplianceNodeOpStatus#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#nr_version DataIntersightApplianceNodeOpStatus#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#nr_version DataIntersightApplianceNodeOpStatus#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#object_type DataIntersightApplianceNodeOpStatus#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#timestamp DataIntersightApplianceNodeOpStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#timestamp DataIntersightApplianceNodeOpStatus#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5875,19 +5915,19 @@ export interface DataIntersightApplianceNodeOpStatusVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#version_type DataIntersightApplianceNodeOpStatus#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#version_type DataIntersightApplianceNodeOpStatus#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#interested_mos DataIntersightApplianceNodeOpStatus#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#interested_mos DataIntersightApplianceNodeOpStatus#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceNodeOpStatusVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#ref_mo DataIntersightApplianceNodeOpStatus#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#ref_mo DataIntersightApplianceNodeOpStatus#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceNodeOpStatusVersionContextRefMo;
 }
@@ -6203,7 +6243,7 @@ export class DataIntersightApplianceNodeOpStatusVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status intersight_appliance_node_op_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status intersight_appliance_node_op_status}
 */
 export class DataIntersightApplianceNodeOpStatus extends cdktf.TerraformDataSource {
 
@@ -6219,7 +6259,7 @@ export class DataIntersightApplianceNodeOpStatus extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightApplianceNodeOpStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceNodeOpStatus to import
-  * @param importFromId The id of the existing DataIntersightApplianceNodeOpStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceNodeOpStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceNodeOpStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6231,7 +6271,7 @@ export class DataIntersightApplianceNodeOpStatus extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/appliance_node_op_status intersight_appliance_node_op_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_node_op_status intersight_appliance_node_op_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6242,8 +6282,8 @@ export class DataIntersightApplianceNodeOpStatus extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_appliance_node_op_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

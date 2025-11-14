@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixNdbCloneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#clone_id DataNutanixNdbClone#clone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#clone_id DataNutanixNdbClone#clone_id}
   */
   readonly cloneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#clone_name DataNutanixNdbClone#clone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#clone_name DataNutanixNdbClone#clone_name}
   */
   readonly cloneName?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#filters DataNutanixNdbClone#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#filters DataNutanixNdbClone#filters}
   */
   readonly filters?: DataNutanixNdbCloneFilters[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#tags DataNutanixNdbClone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#tags DataNutanixNdbClone#tags}
   */
   readonly tags?: DataNutanixNdbCloneTags[] | cdktf.IResolvable;
 }
@@ -3486,19 +3486,19 @@ export class DataNutanixNdbCloneTimeMachineList extends cdktf.ComplexList {
 }
 export interface DataNutanixNdbCloneFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#any_status DataNutanixNdbClone#any_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#any_status DataNutanixNdbClone#any_status}
   */
   readonly anyStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#detailed DataNutanixNdbClone#detailed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#detailed DataNutanixNdbClone#detailed}
   */
   readonly detailed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#load_dbserver_cluster DataNutanixNdbClone#load_dbserver_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#load_dbserver_cluster DataNutanixNdbClone#load_dbserver_cluster}
   */
   readonly loadDbserverCluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#timezone DataNutanixNdbClone#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#timezone DataNutanixNdbClone#timezone}
   */
   readonly timezone?: string;
 }
@@ -3701,15 +3701,15 @@ export class DataNutanixNdbCloneFiltersList extends cdktf.ComplexList {
 }
 export interface DataNutanixNdbCloneTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#tag_id DataNutanixNdbClone#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#tag_id DataNutanixNdbClone#tag_id}
   */
   readonly tagId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#tag_name DataNutanixNdbClone#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#tag_name DataNutanixNdbClone#tag_name}
   */
   readonly tagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#value DataNutanixNdbClone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#value DataNutanixNdbClone#value}
   */
   readonly value?: string;
 }
@@ -3893,7 +3893,7 @@ export class DataNutanixNdbCloneTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone nutanix_ndb_clone}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone nutanix_ndb_clone}
 */
 export class DataNutanixNdbClone extends cdktf.TerraformDataSource {
 
@@ -3909,7 +3909,7 @@ export class DataNutanixNdbClone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNutanixNdbClone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixNdbClone to import
-  * @param importFromId The id of the existing DataNutanixNdbClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixNdbClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixNdbClone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3921,7 +3921,7 @@ export class DataNutanixNdbClone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/ndb_clone nutanix_ndb_clone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/ndb_clone nutanix_ndb_clone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3932,8 +3932,8 @@ export class DataNutanixNdbClone extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_ndb_clone',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

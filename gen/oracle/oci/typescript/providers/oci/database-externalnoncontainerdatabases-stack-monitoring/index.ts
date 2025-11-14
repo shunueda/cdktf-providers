@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExternalnoncontainerdatabasesStackMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#enable_stack_monitoring DatabaseExternalnoncontainerdatabasesStackMonitoring#enable_stack_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#enable_stack_monitoring DatabaseExternalnoncontainerdatabasesStackMonitoring#enable_stack_monitoring}
   */
   readonly enableStackMonitoring: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#external_database_connector_id DatabaseExternalnoncontainerdatabasesStackMonitoring#external_database_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#external_database_connector_id DatabaseExternalnoncontainerdatabasesStackMonitoring#external_database_connector_id}
   */
   readonly externalDatabaseConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#external_non_container_database_id DatabaseExternalnoncontainerdatabasesStackMonitoring#external_non_container_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#external_non_container_database_id DatabaseExternalnoncontainerdatabasesStackMonitoring#external_non_container_database_id}
   */
   readonly externalNonContainerDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#id DatabaseExternalnoncontainerdatabasesStackMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#id DatabaseExternalnoncontainerdatabasesStackMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,21 +29,21 @@ export interface DatabaseExternalnoncontainerdatabasesStackMonitoringConfig exte
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#timeouts DatabaseExternalnoncontainerdatabasesStackMonitoring#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#timeouts DatabaseExternalnoncontainerdatabasesStackMonitoring#timeouts}
   */
   readonly timeouts?: DatabaseExternalnoncontainerdatabasesStackMonitoringTimeouts;
 }
 export interface DatabaseExternalnoncontainerdatabasesStackMonitoringTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#create DatabaseExternalnoncontainerdatabasesStackMonitoring#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#create DatabaseExternalnoncontainerdatabasesStackMonitoring#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#delete DatabaseExternalnoncontainerdatabasesStackMonitoring#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#delete DatabaseExternalnoncontainerdatabasesStackMonitoring#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#update DatabaseExternalnoncontainerdatabasesStackMonitoring#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#update DatabaseExternalnoncontainerdatabasesStackMonitoring#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class DatabaseExternalnoncontainerdatabasesStackMonitoringTimeoutsOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring oci_database_externalnoncontainerdatabases_stack_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring oci_database_externalnoncontainerdatabases_stack_monitoring}
 */
 export class DatabaseExternalnoncontainerdatabasesStackMonitoring extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class DatabaseExternalnoncontainerdatabasesStackMonitoring extends cdktf.
   * Generates CDKTF code for importing a DatabaseExternalnoncontainerdatabasesStackMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExternalnoncontainerdatabasesStackMonitoring to import
-  * @param importFromId The id of the existing DatabaseExternalnoncontainerdatabasesStackMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExternalnoncontainerdatabasesStackMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExternalnoncontainerdatabasesStackMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class DatabaseExternalnoncontainerdatabasesStackMonitoring extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/database_externalnoncontainerdatabases_stack_monitoring oci_database_externalnoncontainerdatabases_stack_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/database_externalnoncontainerdatabases_stack_monitoring oci_database_externalnoncontainerdatabases_stack_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class DatabaseExternalnoncontainerdatabasesStackMonitoring extends cdktf.
       terraformResourceType: 'oci_database_externalnoncontainerdatabases_stack_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

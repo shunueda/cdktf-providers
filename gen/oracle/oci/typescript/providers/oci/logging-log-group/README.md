@@ -1,3 +1,3 @@
 # `oci_logging_log_group`
 
-Refer to the Terraform Registry for docs: [`oci_logging_log_group`](https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/logging_log_group).
+Refer to the Terraform Registry for docs: [`oci_logging_log_group`](https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/logging_log_group).

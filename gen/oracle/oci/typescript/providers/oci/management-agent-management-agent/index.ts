@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementAgentManagementAgentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#defined_tags ManagementAgentManagementAgent#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#defined_tags ManagementAgentManagementAgent#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#deploy_plugins_id ManagementAgentManagementAgent#deploy_plugins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#deploy_plugins_id ManagementAgentManagementAgent#deploy_plugins_id}
   */
   readonly deployPluginsId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#display_name ManagementAgentManagementAgent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#display_name ManagementAgentManagementAgent#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#freeform_tags ManagementAgentManagementAgent#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#freeform_tags ManagementAgentManagementAgent#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#id ManagementAgentManagementAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#id ManagementAgentManagementAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#managed_agent_id ManagementAgentManagementAgent#managed_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#managed_agent_id ManagementAgentManagementAgent#managed_agent_id}
   */
   readonly managedAgentId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#timeouts ManagementAgentManagementAgent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#timeouts ManagementAgentManagementAgent#timeouts}
   */
   readonly timeouts?: ManagementAgentManagementAgentTimeouts;
 }
@@ -564,15 +564,15 @@ export class ManagementAgentManagementAgentPluginListStructList extends cdktf.Co
 }
 export interface ManagementAgentManagementAgentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#create ManagementAgentManagementAgent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#create ManagementAgentManagementAgent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#delete ManagementAgentManagementAgent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#delete ManagementAgentManagementAgent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#update ManagementAgentManagementAgent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#update ManagementAgentManagementAgent#update}
   */
   readonly update?: string;
 }
@@ -724,7 +724,7 @@ export class ManagementAgentManagementAgentTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent oci_management_agent_management_agent}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent oci_management_agent_management_agent}
 */
 export class ManagementAgentManagementAgent extends cdktf.TerraformResource {
 
@@ -740,7 +740,7 @@ export class ManagementAgentManagementAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAgentManagementAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAgentManagementAgent to import
-  * @param importFromId The id of the existing ManagementAgentManagementAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAgentManagementAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAgentManagementAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -752,7 +752,7 @@ export class ManagementAgentManagementAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/management_agent_management_agent oci_management_agent_management_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/management_agent_management_agent oci_management_agent_management_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -763,8 +763,8 @@ export class ManagementAgentManagementAgent extends cdktf.TerraformResource {
       terraformResourceType: 'oci_management_agent_management_agent',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

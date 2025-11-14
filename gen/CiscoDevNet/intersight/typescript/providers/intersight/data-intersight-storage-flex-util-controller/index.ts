@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageFlexUtilControllerConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#account_moid DataIntersightStorageFlexUtilController#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#account_moid DataIntersightStorageFlexUtilController#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,53 +22,53 @@ export interface DataIntersightStorageFlexUtilControllerConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the Flex Util Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#controller_name DataIntersightStorageFlexUtilController#controller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#controller_name DataIntersightStorageFlexUtilController#controller_name}
   */
   readonly controllerName?: string;
   /**
   * The current status of the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#controller_status DataIntersightStorageFlexUtilController#controller_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#controller_status DataIntersightStorageFlexUtilController#controller_status}
   */
   readonly controllerStatus?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#create_time DataIntersightStorageFlexUtilController#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#create_time DataIntersightStorageFlexUtilController#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#device_mo_id DataIntersightStorageFlexUtilController#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#device_mo_id DataIntersightStorageFlexUtilController#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#dn DataIntersightStorageFlexUtilController#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#dn DataIntersightStorageFlexUtilController#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#domain_group_moid DataIntersightStorageFlexUtilController#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#domain_group_moid DataIntersightStorageFlexUtilController#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Identifier for the Storage Flex Util Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#ff_controller_id DataIntersightStorageFlexUtilController#ff_controller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#ff_controller_id DataIntersightStorageFlexUtilController#ff_controller_id}
   */
   readonly ffControllerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#id DataIntersightStorageFlexUtilController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#id DataIntersightStorageFlexUtilController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,103 +77,103 @@ export interface DataIntersightStorageFlexUtilControllerConfig extends cdktf.Ter
   /**
   * The internal state of the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#internal_state DataIntersightStorageFlexUtilController#internal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#internal_state DataIntersightStorageFlexUtilController#internal_state}
   */
   readonly internalState?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#mod_time DataIntersightStorageFlexUtilController#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#mod_time DataIntersightStorageFlexUtilController#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#owners DataIntersightStorageFlexUtilController#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#owners DataIntersightStorageFlexUtilController#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#rn DataIntersightStorageFlexUtilController#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#rn DataIntersightStorageFlexUtilController#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#shared_scope DataIntersightStorageFlexUtilController#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#shared_scope DataIntersightStorageFlexUtilController#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#ancestors DataIntersightStorageFlexUtilController#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#ancestors DataIntersightStorageFlexUtilController#ancestors}
   */
   readonly ancestors?: DataIntersightStorageFlexUtilControllerAncestors[] | cdktf.IResolvable;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#compute_board DataIntersightStorageFlexUtilController#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#compute_board DataIntersightStorageFlexUtilController#compute_board}
   */
   readonly computeBoard?: DataIntersightStorageFlexUtilControllerComputeBoard;
   /**
   * flex_util_physical_drives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#flex_util_physical_drives DataIntersightStorageFlexUtilController#flex_util_physical_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#flex_util_physical_drives DataIntersightStorageFlexUtilController#flex_util_physical_drives}
   */
   readonly flexUtilPhysicalDrives?: DataIntersightStorageFlexUtilControllerFlexUtilPhysicalDrives[] | cdktf.IResolvable;
   /**
   * flex_util_virtual_drives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#flex_util_virtual_drives DataIntersightStorageFlexUtilController#flex_util_virtual_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#flex_util_virtual_drives DataIntersightStorageFlexUtilController#flex_util_virtual_drives}
   */
   readonly flexUtilVirtualDrives?: DataIntersightStorageFlexUtilControllerFlexUtilVirtualDrives[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#inventory_device_info DataIntersightStorageFlexUtilController#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#inventory_device_info DataIntersightStorageFlexUtilController#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageFlexUtilControllerInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#parent DataIntersightStorageFlexUtilController#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#parent DataIntersightStorageFlexUtilController#parent}
   */
   readonly parent?: DataIntersightStorageFlexUtilControllerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#permission_resources DataIntersightStorageFlexUtilController#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#permission_resources DataIntersightStorageFlexUtilController#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageFlexUtilControllerPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#registered_device DataIntersightStorageFlexUtilController#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#registered_device DataIntersightStorageFlexUtilController#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageFlexUtilControllerRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#tags DataIntersightStorageFlexUtilController#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#tags DataIntersightStorageFlexUtilController#tags}
   */
   readonly tags?: DataIntersightStorageFlexUtilControllerTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#version_context DataIntersightStorageFlexUtilController#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#version_context DataIntersightStorageFlexUtilController#version_context}
   */
   readonly versionContext?: DataIntersightStorageFlexUtilControllerVersionContext;
 }
@@ -1205,6 +1205,11 @@ export class DataIntersightStorageFlexUtilControllerResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1758,7 +1763,7 @@ export class DataIntersightStorageFlexUtilControllerResultsList extends cdktf.Co
 }
 export interface DataIntersightStorageFlexUtilControllerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1766,19 +1771,19 @@ export interface DataIntersightStorageFlexUtilControllerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1791,7 +1796,7 @@ export interface DataIntersightStorageFlexUtilControllerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -2023,7 +2028,7 @@ export class DataIntersightStorageFlexUtilControllerAncestorsList extends cdktf.
 }
 export interface DataIntersightStorageFlexUtilControllerComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2031,19 +2036,19 @@ export interface DataIntersightStorageFlexUtilControllerComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2056,7 +2061,7 @@ export interface DataIntersightStorageFlexUtilControllerComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -2256,7 +2261,7 @@ export class DataIntersightStorageFlexUtilControllerComputeBoardOutputReference 
 }
 export interface DataIntersightStorageFlexUtilControllerFlexUtilPhysicalDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2264,19 +2269,19 @@ export interface DataIntersightStorageFlexUtilControllerFlexUtilPhysicalDrives {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2289,7 +2294,7 @@ export interface DataIntersightStorageFlexUtilControllerFlexUtilPhysicalDrives {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -2521,7 +2526,7 @@ export class DataIntersightStorageFlexUtilControllerFlexUtilPhysicalDrivesList e
 }
 export interface DataIntersightStorageFlexUtilControllerFlexUtilVirtualDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2529,19 +2534,19 @@ export interface DataIntersightStorageFlexUtilControllerFlexUtilVirtualDrives {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2554,7 +2559,7 @@ export interface DataIntersightStorageFlexUtilControllerFlexUtilVirtualDrives {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -2786,7 +2791,7 @@ export class DataIntersightStorageFlexUtilControllerFlexUtilVirtualDrivesList ex
 }
 export interface DataIntersightStorageFlexUtilControllerInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2794,19 +2799,19 @@ export interface DataIntersightStorageFlexUtilControllerInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2819,7 +2824,7 @@ export interface DataIntersightStorageFlexUtilControllerInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -3019,7 +3024,7 @@ export class DataIntersightStorageFlexUtilControllerInventoryDeviceInfoOutputRef
 }
 export interface DataIntersightStorageFlexUtilControllerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3027,19 +3032,19 @@ export interface DataIntersightStorageFlexUtilControllerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3052,7 +3057,7 @@ export interface DataIntersightStorageFlexUtilControllerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -3252,7 +3257,7 @@ export class DataIntersightStorageFlexUtilControllerParentOutputReference extend
 }
 export interface DataIntersightStorageFlexUtilControllerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3260,19 +3265,19 @@ export interface DataIntersightStorageFlexUtilControllerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3285,7 +3290,7 @@ export interface DataIntersightStorageFlexUtilControllerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -3517,7 +3522,7 @@ export class DataIntersightStorageFlexUtilControllerPermissionResourcesList exte
 }
 export interface DataIntersightStorageFlexUtilControllerRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3525,19 +3530,19 @@ export interface DataIntersightStorageFlexUtilControllerRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3550,7 +3555,7 @@ export interface DataIntersightStorageFlexUtilControllerRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -3750,7 +3755,7 @@ export class DataIntersightStorageFlexUtilControllerRegisteredDeviceOutputRefere
 }
 export interface DataIntersightStorageFlexUtilControllerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3758,19 +3763,19 @@ export interface DataIntersightStorageFlexUtilControllerTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3783,7 +3788,7 @@ export interface DataIntersightStorageFlexUtilControllerTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -4015,7 +4020,7 @@ export class DataIntersightStorageFlexUtilControllerTagsAncestorDefinitionsList 
 }
 export interface DataIntersightStorageFlexUtilControllerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4023,19 +4028,19 @@ export interface DataIntersightStorageFlexUtilControllerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4048,7 +4053,7 @@ export interface DataIntersightStorageFlexUtilControllerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -4248,45 +4253,51 @@ export class DataIntersightStorageFlexUtilControllerTagsDefinitionOutputReferenc
 }
 export interface DataIntersightStorageFlexUtilControllerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#key DataIntersightStorageFlexUtilController#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#key DataIntersightStorageFlexUtilController#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#propagated DataIntersightStorageFlexUtilController#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#propagated DataIntersightStorageFlexUtilController#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#sys_tag DataIntersightStorageFlexUtilController#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#type DataIntersightStorageFlexUtilController#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#type DataIntersightStorageFlexUtilController#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#value DataIntersightStorageFlexUtilController#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#value DataIntersightStorageFlexUtilController#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#ancestor_definitions DataIntersightStorageFlexUtilController#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#ancestor_definitions DataIntersightStorageFlexUtilController#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageFlexUtilControllerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#definition DataIntersightStorageFlexUtilController#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#definition DataIntersightStorageFlexUtilController#definition}
   */
   readonly definition?: DataIntersightStorageFlexUtilControllerTagsDefinition;
 }
@@ -4300,6 +4311,7 @@ export function dataIntersightStorageFlexUtilControllerTagsToTerraform(struct?: 
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageFlexUtilControllerTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -4328,6 +4340,12 @@ export function dataIntersightStorageFlexUtilControllerTagsToHclTerraform(struct
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4394,6 +4412,10 @@ export class DataIntersightStorageFlexUtilControllerTagsOutputReference extends 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4420,6 +4442,7 @@ export class DataIntersightStorageFlexUtilControllerTagsOutputReference extends 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4435,6 +4458,7 @@ export class DataIntersightStorageFlexUtilControllerTagsOutputReference extends 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4488,6 +4512,22 @@ export class DataIntersightStorageFlexUtilControllerTagsOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4576,7 +4616,7 @@ export class DataIntersightStorageFlexUtilControllerTagsList extends cdktf.Compl
 }
 export interface DataIntersightStorageFlexUtilControllerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4584,19 +4624,19 @@ export interface DataIntersightStorageFlexUtilControllerVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4609,7 +4649,7 @@ export interface DataIntersightStorageFlexUtilControllerVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -4841,7 +4881,7 @@ export class DataIntersightStorageFlexUtilControllerVersionContextInterestedMosL
 }
 export interface DataIntersightStorageFlexUtilControllerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4849,19 +4889,19 @@ export interface DataIntersightStorageFlexUtilControllerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#moid DataIntersightStorageFlexUtilController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4874,7 +4914,7 @@ export interface DataIntersightStorageFlexUtilControllerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#selector DataIntersightStorageFlexUtilController#selector}
   */
   readonly selector?: string;
 }
@@ -5074,7 +5114,7 @@ export class DataIntersightStorageFlexUtilControllerVersionContextRefMoOutputRef
 }
 export interface DataIntersightStorageFlexUtilControllerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#additional_properties DataIntersightStorageFlexUtilController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5082,32 +5122,32 @@ export interface DataIntersightStorageFlexUtilControllerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#class_id DataIntersightStorageFlexUtilController#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#marked_for_deletion DataIntersightStorageFlexUtilController#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#marked_for_deletion DataIntersightStorageFlexUtilController#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#nr_version DataIntersightStorageFlexUtilController#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#nr_version DataIntersightStorageFlexUtilController#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#object_type DataIntersightStorageFlexUtilController#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#timestamp DataIntersightStorageFlexUtilController#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#timestamp DataIntersightStorageFlexUtilController#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5118,19 +5158,19 @@ export interface DataIntersightStorageFlexUtilControllerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#version_type DataIntersightStorageFlexUtilController#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#version_type DataIntersightStorageFlexUtilController#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#interested_mos DataIntersightStorageFlexUtilController#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#interested_mos DataIntersightStorageFlexUtilController#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageFlexUtilControllerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#ref_mo DataIntersightStorageFlexUtilController#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#ref_mo DataIntersightStorageFlexUtilController#ref_mo}
   */
   readonly refMo?: DataIntersightStorageFlexUtilControllerVersionContextRefMo;
 }
@@ -5446,7 +5486,7 @@ export class DataIntersightStorageFlexUtilControllerVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller intersight_storage_flex_util_controller}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller intersight_storage_flex_util_controller}
 */
 export class DataIntersightStorageFlexUtilController extends cdktf.TerraformDataSource {
 
@@ -5462,7 +5502,7 @@ export class DataIntersightStorageFlexUtilController extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightStorageFlexUtilController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageFlexUtilController to import
-  * @param importFromId The id of the existing DataIntersightStorageFlexUtilController that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageFlexUtilController that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageFlexUtilController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5474,7 +5514,7 @@ export class DataIntersightStorageFlexUtilController extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_flex_util_controller intersight_storage_flex_util_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_util_controller intersight_storage_flex_util_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5485,8 +5525,8 @@ export class DataIntersightStorageFlexUtilController extends cdktf.TerraformData
       terraformResourceType: 'intersight_storage_flex_util_controller',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

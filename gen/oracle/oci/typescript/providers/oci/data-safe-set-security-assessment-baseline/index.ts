@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSetSecurityAssessmentBaselineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#assessment_ids DataSafeSetSecurityAssessmentBaseline#assessment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#assessment_ids DataSafeSetSecurityAssessmentBaseline#assessment_ids}
   */
   readonly assessmentIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#id DataSafeSetSecurityAssessmentBaseline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#id DataSafeSetSecurityAssessmentBaseline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#security_assessment_id DataSafeSetSecurityAssessmentBaseline#security_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#security_assessment_id DataSafeSetSecurityAssessmentBaseline#security_assessment_id}
   */
   readonly securityAssessmentId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#timeouts DataSafeSetSecurityAssessmentBaseline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#timeouts DataSafeSetSecurityAssessmentBaseline#timeouts}
   */
   readonly timeouts?: DataSafeSetSecurityAssessmentBaselineTimeouts;
 }
 export interface DataSafeSetSecurityAssessmentBaselineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#create DataSafeSetSecurityAssessmentBaseline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#create DataSafeSetSecurityAssessmentBaseline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#delete DataSafeSetSecurityAssessmentBaseline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#delete DataSafeSetSecurityAssessmentBaseline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#update DataSafeSetSecurityAssessmentBaseline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#update DataSafeSetSecurityAssessmentBaseline#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class DataSafeSetSecurityAssessmentBaselineTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline oci_data_safe_set_security_assessment_baseline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline oci_data_safe_set_security_assessment_baseline}
 */
 export class DataSafeSetSecurityAssessmentBaseline extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class DataSafeSetSecurityAssessmentBaseline extends cdktf.TerraformResour
   * Generates CDKTF code for importing a DataSafeSetSecurityAssessmentBaseline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSetSecurityAssessmentBaseline to import
-  * @param importFromId The id of the existing DataSafeSetSecurityAssessmentBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSetSecurityAssessmentBaseline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSetSecurityAssessmentBaseline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DataSafeSetSecurityAssessmentBaseline extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_set_security_assessment_baseline oci_data_safe_set_security_assessment_baseline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_set_security_assessment_baseline oci_data_safe_set_security_assessment_baseline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DataSafeSetSecurityAssessmentBaseline extends cdktf.TerraformResour
       terraformResourceType: 'oci_data_safe_set_security_assessment_baseline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

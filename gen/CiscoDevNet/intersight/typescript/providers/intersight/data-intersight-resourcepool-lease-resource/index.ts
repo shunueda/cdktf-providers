@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourcepoolLeaseResourceAConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#account_moid DataIntersightResourcepoolLeaseResourceA#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#account_moid DataIntersightResourcepoolLeaseResourceA#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightResourcepoolLeaseResourceAConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#create_time DataIntersightResourcepoolLeaseResourceA#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#create_time DataIntersightResourcepoolLeaseResourceA#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#domain_group_moid DataIntersightResourcepoolLeaseResourceA#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#domain_group_moid DataIntersightResourcepoolLeaseResourceA#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Lease opertion applied for the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#feature DataIntersightResourcepoolLeaseResourceA#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#feature DataIntersightResourcepoolLeaseResourceA#feature}
   */
   readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#id DataIntersightResourcepoolLeaseResourceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#id DataIntersightResourcepoolLeaseResourceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightResourcepoolLeaseResourceAConfig extends cdktf.Te
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#mod_time DataIntersightResourcepoolLeaseResourceA#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#mod_time DataIntersightResourcepoolLeaseResourceA#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#owners DataIntersightResourcepoolLeaseResourceA#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#owners DataIntersightResourcepoolLeaseResourceA#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#shared_scope DataIntersightResourcepoolLeaseResourceA#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#shared_scope DataIntersightResourcepoolLeaseResourceA#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#ancestors DataIntersightResourcepoolLeaseResourceA#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#ancestors DataIntersightResourcepoolLeaseResourceA#ancestors}
   */
   readonly ancestors?: DataIntersightResourcepoolLeaseResourceAncestorsA[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#parent DataIntersightResourcepoolLeaseResourceA#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#parent DataIntersightResourcepoolLeaseResourceA#parent}
   */
   readonly parent?: DataIntersightResourcepoolLeaseResourceParentA;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#permission_resources DataIntersightResourcepoolLeaseResourceA#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#permission_resources DataIntersightResourcepoolLeaseResourceA#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourcepoolLeaseResourcePermissionResourcesA[] | cdktf.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#resource DataIntersightResourcepoolLeaseResourceA#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#resource DataIntersightResourcepoolLeaseResourceA#resource}
   */
   readonly resource?: DataIntersightResourcepoolLeaseResourceResource;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#tags DataIntersightResourcepoolLeaseResourceA#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#tags DataIntersightResourcepoolLeaseResourceA#tags}
   */
   readonly tags?: DataIntersightResourcepoolLeaseResourceTagsA[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#version_context DataIntersightResourcepoolLeaseResourceA#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#version_context DataIntersightResourcepoolLeaseResourceA#version_context}
   */
   readonly versionContext?: DataIntersightResourcepoolLeaseResourceVersionContextA;
 }
@@ -765,6 +765,11 @@ export class DataIntersightResourcepoolLeaseResourceResultsTagsOutputReference e
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1264,7 +1269,7 @@ export class DataIntersightResourcepoolLeaseResourceResultsList extends cdktf.Co
 }
 export interface DataIntersightResourcepoolLeaseResourceAncestorsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1272,19 +1277,19 @@ export interface DataIntersightResourcepoolLeaseResourceAncestorsA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1297,7 +1302,7 @@ export interface DataIntersightResourcepoolLeaseResourceAncestorsA {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -1529,7 +1534,7 @@ export class DataIntersightResourcepoolLeaseResourceAncestorsAList extends cdktf
 }
 export interface DataIntersightResourcepoolLeaseResourceParentA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1537,19 +1542,19 @@ export interface DataIntersightResourcepoolLeaseResourceParentA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1562,7 +1567,7 @@ export interface DataIntersightResourcepoolLeaseResourceParentA {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -1762,7 +1767,7 @@ export class DataIntersightResourcepoolLeaseResourceParentAOutputReference exten
 }
 export interface DataIntersightResourcepoolLeaseResourcePermissionResourcesA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1770,19 +1775,19 @@ export interface DataIntersightResourcepoolLeaseResourcePermissionResourcesA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1795,7 +1800,7 @@ export interface DataIntersightResourcepoolLeaseResourcePermissionResourcesA {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -2027,7 +2032,7 @@ export class DataIntersightResourcepoolLeaseResourcePermissionResourcesAList ext
 }
 export interface DataIntersightResourcepoolLeaseResourceResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2035,19 +2040,19 @@ export interface DataIntersightResourcepoolLeaseResourceResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2060,7 +2065,7 @@ export interface DataIntersightResourcepoolLeaseResourceResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -2260,7 +2265,7 @@ export class DataIntersightResourcepoolLeaseResourceResourceOutputReference exte
 }
 export interface DataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2268,19 +2273,19 @@ export interface DataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2293,7 +2298,7 @@ export interface DataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsA
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -2525,7 +2530,7 @@ export class DataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsAList
 }
 export interface DataIntersightResourcepoolLeaseResourceTagsDefinitionA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2533,19 +2538,19 @@ export interface DataIntersightResourcepoolLeaseResourceTagsDefinitionA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2558,7 +2563,7 @@ export interface DataIntersightResourcepoolLeaseResourceTagsDefinitionA {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -2758,45 +2763,51 @@ export class DataIntersightResourcepoolLeaseResourceTagsDefinitionAOutputReferen
 }
 export interface DataIntersightResourcepoolLeaseResourceTagsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#key DataIntersightResourcepoolLeaseResourceA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#key DataIntersightResourcepoolLeaseResourceA#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#propagated DataIntersightResourcepoolLeaseResourceA#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#propagated DataIntersightResourcepoolLeaseResourceA#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#sys_tag DataIntersightResourcepoolLeaseResourceA#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#type DataIntersightResourcepoolLeaseResourceA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#type DataIntersightResourcepoolLeaseResourceA#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#value DataIntersightResourcepoolLeaseResourceA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#value DataIntersightResourcepoolLeaseResourceA#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#ancestor_definitions DataIntersightResourcepoolLeaseResourceA#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#ancestor_definitions DataIntersightResourcepoolLeaseResourceA#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsA[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#definition DataIntersightResourcepoolLeaseResourceA#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#definition DataIntersightResourcepoolLeaseResourceA#definition}
   */
   readonly definition?: DataIntersightResourcepoolLeaseResourceTagsDefinitionA;
 }
@@ -2810,6 +2821,7 @@ export function dataIntersightResourcepoolLeaseResourceTagsAToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightResourcepoolLeaseResourceTagsAncestorDefinitionsAToTerraform, true)(struct!.ancestorDefinitions),
@@ -2838,6 +2850,12 @@ export function dataIntersightResourcepoolLeaseResourceTagsAToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2904,6 +2922,10 @@ export class DataIntersightResourcepoolLeaseResourceTagsAOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2930,6 +2952,7 @@ export class DataIntersightResourcepoolLeaseResourceTagsAOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2945,6 +2968,7 @@ export class DataIntersightResourcepoolLeaseResourceTagsAOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2998,6 +3022,22 @@ export class DataIntersightResourcepoolLeaseResourceTagsAOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3086,7 +3126,7 @@ export class DataIntersightResourcepoolLeaseResourceTagsAList extends cdktf.Comp
 }
 export interface DataIntersightResourcepoolLeaseResourceVersionContextInterestedMosA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3094,19 +3134,19 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3119,7 +3159,7 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -3351,7 +3391,7 @@ export class DataIntersightResourcepoolLeaseResourceVersionContextInterestedMosA
 }
 export interface DataIntersightResourcepoolLeaseResourceVersionContextRefMoA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3359,19 +3399,19 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextRefMoA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#moid DataIntersightResourcepoolLeaseResourceA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3384,7 +3424,7 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextRefMoA {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#selector DataIntersightResourcepoolLeaseResourceA#selector}
   */
   readonly selector?: string;
 }
@@ -3584,7 +3624,7 @@ export class DataIntersightResourcepoolLeaseResourceVersionContextRefMoAOutputRe
 }
 export interface DataIntersightResourcepoolLeaseResourceVersionContextA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#additional_properties DataIntersightResourcepoolLeaseResourceA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3592,32 +3632,32 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextA {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#class_id DataIntersightResourcepoolLeaseResourceA#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#marked_for_deletion DataIntersightResourcepoolLeaseResourceA#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#marked_for_deletion DataIntersightResourcepoolLeaseResourceA#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#nr_version DataIntersightResourcepoolLeaseResourceA#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#nr_version DataIntersightResourcepoolLeaseResourceA#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#object_type DataIntersightResourcepoolLeaseResourceA#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#timestamp DataIntersightResourcepoolLeaseResourceA#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#timestamp DataIntersightResourcepoolLeaseResourceA#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3628,19 +3668,19 @@ export interface DataIntersightResourcepoolLeaseResourceVersionContextA {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#version_type DataIntersightResourcepoolLeaseResourceA#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#version_type DataIntersightResourcepoolLeaseResourceA#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#interested_mos DataIntersightResourcepoolLeaseResourceA#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#interested_mos DataIntersightResourcepoolLeaseResourceA#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourcepoolLeaseResourceVersionContextInterestedMosA[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#ref_mo DataIntersightResourcepoolLeaseResourceA#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#ref_mo DataIntersightResourcepoolLeaseResourceA#ref_mo}
   */
   readonly refMo?: DataIntersightResourcepoolLeaseResourceVersionContextRefMoA;
 }
@@ -3956,7 +3996,7 @@ export class DataIntersightResourcepoolLeaseResourceVersionContextAOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource intersight_resourcepool_lease_resource}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource intersight_resourcepool_lease_resource}
 */
 export class DataIntersightResourcepoolLeaseResourceA extends cdktf.TerraformDataSource {
 
@@ -3972,7 +4012,7 @@ export class DataIntersightResourcepoolLeaseResourceA extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightResourcepoolLeaseResourceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourcepoolLeaseResourceA to import
-  * @param importFromId The id of the existing DataIntersightResourcepoolLeaseResourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourcepoolLeaseResourceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourcepoolLeaseResourceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3984,7 +4024,7 @@ export class DataIntersightResourcepoolLeaseResourceA extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/resourcepool_lease_resource intersight_resourcepool_lease_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resourcepool_lease_resource intersight_resourcepool_lease_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3995,8 +4035,8 @@ export class DataIntersightResourcepoolLeaseResourceA extends cdktf.TerraformDat
       terraformResourceType: 'intersight_resourcepool_lease_resource',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

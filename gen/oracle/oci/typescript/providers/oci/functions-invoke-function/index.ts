@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface FunctionsInvokeFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#base64_encode_content FunctionsInvokeFunction#base64_encode_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#base64_encode_content FunctionsInvokeFunction#base64_encode_content}
   */
   readonly base64EncodeContent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#fn_intent FunctionsInvokeFunction#fn_intent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#fn_intent FunctionsInvokeFunction#fn_intent}
   */
   readonly fnIntent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#fn_invoke_type FunctionsInvokeFunction#fn_invoke_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#fn_invoke_type FunctionsInvokeFunction#fn_invoke_type}
   */
   readonly fnInvokeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#function_id FunctionsInvokeFunction#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#function_id FunctionsInvokeFunction#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#id FunctionsInvokeFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#id FunctionsInvokeFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#input_body_source_path FunctionsInvokeFunction#input_body_source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#input_body_source_path FunctionsInvokeFunction#input_body_source_path}
   */
   readonly inputBodySourcePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#invoke_function_body FunctionsInvokeFunction#invoke_function_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#invoke_function_body FunctionsInvokeFunction#invoke_function_body}
   */
   readonly invokeFunctionBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#invoke_function_body_base64_encoded FunctionsInvokeFunction#invoke_function_body_base64_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#invoke_function_body_base64_encoded FunctionsInvokeFunction#invoke_function_body_base64_encoded}
   */
   readonly invokeFunctionBodyBase64Encoded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#is_dry_run FunctionsInvokeFunction#is_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#is_dry_run FunctionsInvokeFunction#is_dry_run}
   */
   readonly isDryRun?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#timeouts FunctionsInvokeFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#timeouts FunctionsInvokeFunction#timeouts}
   */
   readonly timeouts?: FunctionsInvokeFunctionTimeouts;
 }
 export interface FunctionsInvokeFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#create FunctionsInvokeFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#create FunctionsInvokeFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#delete FunctionsInvokeFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#delete FunctionsInvokeFunction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#update FunctionsInvokeFunction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#update FunctionsInvokeFunction#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class FunctionsInvokeFunctionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function oci_functions_invoke_function}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function oci_functions_invoke_function}
 */
 export class FunctionsInvokeFunction extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class FunctionsInvokeFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionsInvokeFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionsInvokeFunction to import
-  * @param importFromId The id of the existing FunctionsInvokeFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionsInvokeFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionsInvokeFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class FunctionsInvokeFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_invoke_function oci_functions_invoke_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_invoke_function oci_functions_invoke_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class FunctionsInvokeFunction extends cdktf.TerraformResource {
       terraformResourceType: 'oci_functions_invoke_function',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

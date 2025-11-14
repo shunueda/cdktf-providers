@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeDataSafePrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#compartment_id DataSafeDataSafePrivateEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#compartment_id DataSafeDataSafePrivateEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#defined_tags DataSafeDataSafePrivateEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#defined_tags DataSafeDataSafePrivateEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#description DataSafeDataSafePrivateEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#description DataSafeDataSafePrivateEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#display_name DataSafeDataSafePrivateEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#display_name DataSafeDataSafePrivateEndpoint#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#freeform_tags DataSafeDataSafePrivateEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#freeform_tags DataSafeDataSafePrivateEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#id DataSafeDataSafePrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#id DataSafeDataSafePrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#nsg_ids DataSafeDataSafePrivateEndpoint#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#nsg_ids DataSafeDataSafePrivateEndpoint#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#private_endpoint_ip DataSafeDataSafePrivateEndpoint#private_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#private_endpoint_ip DataSafeDataSafePrivateEndpoint#private_endpoint_ip}
   */
   readonly privateEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#subnet_id DataSafeDataSafePrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#subnet_id DataSafeDataSafePrivateEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#vcn_id DataSafeDataSafePrivateEndpoint#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#vcn_id DataSafeDataSafePrivateEndpoint#vcn_id}
   */
   readonly vcnId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#timeouts DataSafeDataSafePrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#timeouts DataSafeDataSafePrivateEndpoint#timeouts}
   */
   readonly timeouts?: DataSafeDataSafePrivateEndpointTimeouts;
 }
 export interface DataSafeDataSafePrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#create DataSafeDataSafePrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#create DataSafeDataSafePrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#delete DataSafeDataSafePrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#delete DataSafeDataSafePrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#update DataSafeDataSafePrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#update DataSafeDataSafePrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class DataSafeDataSafePrivateEndpointTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint}
 */
 export class DataSafeDataSafePrivateEndpoint extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class DataSafeDataSafePrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeDataSafePrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeDataSafePrivateEndpoint to import
-  * @param importFromId The id of the existing DataSafeDataSafePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeDataSafePrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeDataSafePrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class DataSafeDataSafePrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class DataSafeDataSafePrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_data_safe_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

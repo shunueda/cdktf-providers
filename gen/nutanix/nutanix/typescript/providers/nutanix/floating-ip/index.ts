@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface FloatingIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#api_version FloatingIp#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#api_version FloatingIp#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#external_subnet_reference_name FloatingIp#external_subnet_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#external_subnet_reference_name FloatingIp#external_subnet_reference_name}
   */
   readonly externalSubnetReferenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#external_subnet_reference_uuid FloatingIp#external_subnet_reference_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#external_subnet_reference_uuid FloatingIp#external_subnet_reference_uuid}
   */
   readonly externalSubnetReferenceUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#id FloatingIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#id FloatingIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#private_ip FloatingIp#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#private_ip FloatingIp#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#vm_nic_reference_uuid FloatingIp#vm_nic_reference_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#vm_nic_reference_uuid FloatingIp#vm_nic_reference_uuid}
   */
   readonly vmNicReferenceUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#vpc_reference_name FloatingIp#vpc_reference_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#vpc_reference_name FloatingIp#vpc_reference_name}
   */
   readonly vpcReferenceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#vpc_reference_uuid FloatingIp#vpc_reference_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#vpc_reference_uuid FloatingIp#vpc_reference_uuid}
   */
   readonly vpcReferenceUuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip nutanix_floating_ip}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip nutanix_floating_ip}
 */
 export class FloatingIp extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class FloatingIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FloatingIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FloatingIp to import
-  * @param importFromId The id of the existing FloatingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FloatingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FloatingIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class FloatingIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip nutanix_floating_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip nutanix_floating_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class FloatingIp extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_floating_ip',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

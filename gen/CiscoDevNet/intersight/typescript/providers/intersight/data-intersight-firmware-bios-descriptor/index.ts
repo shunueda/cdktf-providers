@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareBiosDescriptorConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#account_moid DataIntersightFirmwareBiosDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#account_moid DataIntersightFirmwareBiosDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#brand_string DataIntersightFirmwareBiosDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#brand_string DataIntersightFirmwareBiosDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
@@ -29,29 +29,29 @@ export interface DataIntersightFirmwareBiosDescriptorConfig extends cdktf.Terraf
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#create_time DataIntersightFirmwareBiosDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#create_time DataIntersightFirmwareBiosDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#description DataIntersightFirmwareBiosDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#description DataIntersightFirmwareBiosDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#domain_group_moid DataIntersightFirmwareBiosDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#domain_group_moid DataIntersightFirmwareBiosDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#id DataIntersightFirmwareBiosDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#id DataIntersightFirmwareBiosDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,31 +60,31 @@ export interface DataIntersightFirmwareBiosDescriptorConfig extends cdktf.Terraf
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#label DataIntersightFirmwareBiosDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#label DataIntersightFirmwareBiosDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#mod_time DataIntersightFirmwareBiosDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#mod_time DataIntersightFirmwareBiosDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#model DataIntersightFirmwareBiosDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#model DataIntersightFirmwareBiosDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#nr_version DataIntersightFirmwareBiosDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#nr_version DataIntersightFirmwareBiosDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -92,66 +92,66 @@ export interface DataIntersightFirmwareBiosDescriptorConfig extends cdktf.Terraf
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#owners DataIntersightFirmwareBiosDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#owners DataIntersightFirmwareBiosDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#revision DataIntersightFirmwareBiosDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#revision DataIntersightFirmwareBiosDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#shared_scope DataIntersightFirmwareBiosDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#shared_scope DataIntersightFirmwareBiosDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#vendor DataIntersightFirmwareBiosDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#vendor DataIntersightFirmwareBiosDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#ancestors DataIntersightFirmwareBiosDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#ancestors DataIntersightFirmwareBiosDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareBiosDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#capabilities DataIntersightFirmwareBiosDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#capabilities DataIntersightFirmwareBiosDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightFirmwareBiosDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#parent DataIntersightFirmwareBiosDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#parent DataIntersightFirmwareBiosDescriptor#parent}
   */
   readonly parent?: DataIntersightFirmwareBiosDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#permission_resources DataIntersightFirmwareBiosDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#permission_resources DataIntersightFirmwareBiosDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareBiosDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#tags DataIntersightFirmwareBiosDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#tags DataIntersightFirmwareBiosDescriptor#tags}
   */
   readonly tags?: DataIntersightFirmwareBiosDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#version_context DataIntersightFirmwareBiosDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#version_context DataIntersightFirmwareBiosDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareBiosDescriptorVersionContext;
 }
@@ -803,6 +803,11 @@ export class DataIntersightFirmwareBiosDescriptorResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1332,7 +1337,7 @@ export class DataIntersightFirmwareBiosDescriptorResultsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwareBiosDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1340,19 +1345,19 @@ export interface DataIntersightFirmwareBiosDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1365,7 +1370,7 @@ export interface DataIntersightFirmwareBiosDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1597,7 +1602,7 @@ export class DataIntersightFirmwareBiosDescriptorAncestorsList extends cdktf.Com
 }
 export interface DataIntersightFirmwareBiosDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1605,19 +1610,19 @@ export interface DataIntersightFirmwareBiosDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1630,7 +1635,7 @@ export interface DataIntersightFirmwareBiosDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1862,7 +1867,7 @@ export class DataIntersightFirmwareBiosDescriptorCapabilitiesList extends cdktf.
 }
 export interface DataIntersightFirmwareBiosDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1870,19 +1875,19 @@ export interface DataIntersightFirmwareBiosDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1895,7 +1900,7 @@ export interface DataIntersightFirmwareBiosDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2095,7 +2100,7 @@ export class DataIntersightFirmwareBiosDescriptorParentOutputReference extends c
 }
 export interface DataIntersightFirmwareBiosDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2103,19 +2108,19 @@ export interface DataIntersightFirmwareBiosDescriptorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2128,7 +2133,7 @@ export interface DataIntersightFirmwareBiosDescriptorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2360,7 +2365,7 @@ export class DataIntersightFirmwareBiosDescriptorPermissionResourcesList extends
 }
 export interface DataIntersightFirmwareBiosDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2368,19 +2373,19 @@ export interface DataIntersightFirmwareBiosDescriptorTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2393,7 +2398,7 @@ export interface DataIntersightFirmwareBiosDescriptorTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2625,7 +2630,7 @@ export class DataIntersightFirmwareBiosDescriptorTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightFirmwareBiosDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2633,19 +2638,19 @@ export interface DataIntersightFirmwareBiosDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2658,7 +2663,7 @@ export interface DataIntersightFirmwareBiosDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2858,45 +2863,51 @@ export class DataIntersightFirmwareBiosDescriptorTagsDefinitionOutputReference e
 }
 export interface DataIntersightFirmwareBiosDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#key DataIntersightFirmwareBiosDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#key DataIntersightFirmwareBiosDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#propagated DataIntersightFirmwareBiosDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#propagated DataIntersightFirmwareBiosDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#sys_tag DataIntersightFirmwareBiosDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#type DataIntersightFirmwareBiosDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#type DataIntersightFirmwareBiosDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#value DataIntersightFirmwareBiosDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#value DataIntersightFirmwareBiosDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#ancestor_definitions DataIntersightFirmwareBiosDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#ancestor_definitions DataIntersightFirmwareBiosDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareBiosDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#definition DataIntersightFirmwareBiosDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#definition DataIntersightFirmwareBiosDescriptor#definition}
   */
   readonly definition?: DataIntersightFirmwareBiosDescriptorTagsDefinition;
 }
@@ -2910,6 +2921,7 @@ export function dataIntersightFirmwareBiosDescriptorTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwareBiosDescriptorTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2938,6 +2950,12 @@ export function dataIntersightFirmwareBiosDescriptorTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3004,6 +3022,10 @@ export class DataIntersightFirmwareBiosDescriptorTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3030,6 +3052,7 @@ export class DataIntersightFirmwareBiosDescriptorTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3045,6 +3068,7 @@ export class DataIntersightFirmwareBiosDescriptorTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3098,6 +3122,22 @@ export class DataIntersightFirmwareBiosDescriptorTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3186,7 +3226,7 @@ export class DataIntersightFirmwareBiosDescriptorTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightFirmwareBiosDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3194,19 +3234,19 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3219,7 +3259,7 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3451,7 +3491,7 @@ export class DataIntersightFirmwareBiosDescriptorVersionContextInterestedMosList
 }
 export interface DataIntersightFirmwareBiosDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3459,19 +3499,19 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#moid DataIntersightFirmwareBiosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3484,7 +3524,7 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#selector DataIntersightFirmwareBiosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3684,7 +3724,7 @@ export class DataIntersightFirmwareBiosDescriptorVersionContextRefMoOutputRefere
 }
 export interface DataIntersightFirmwareBiosDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#additional_properties DataIntersightFirmwareBiosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3692,32 +3732,32 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#class_id DataIntersightFirmwareBiosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#marked_for_deletion DataIntersightFirmwareBiosDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#marked_for_deletion DataIntersightFirmwareBiosDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#nr_version DataIntersightFirmwareBiosDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#nr_version DataIntersightFirmwareBiosDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#object_type DataIntersightFirmwareBiosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#timestamp DataIntersightFirmwareBiosDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#timestamp DataIntersightFirmwareBiosDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3728,19 +3768,19 @@ export interface DataIntersightFirmwareBiosDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#version_type DataIntersightFirmwareBiosDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#version_type DataIntersightFirmwareBiosDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#interested_mos DataIntersightFirmwareBiosDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#interested_mos DataIntersightFirmwareBiosDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareBiosDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#ref_mo DataIntersightFirmwareBiosDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#ref_mo DataIntersightFirmwareBiosDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareBiosDescriptorVersionContextRefMo;
 }
@@ -4056,7 +4096,7 @@ export class DataIntersightFirmwareBiosDescriptorVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor intersight_firmware_bios_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor intersight_firmware_bios_descriptor}
 */
 export class DataIntersightFirmwareBiosDescriptor extends cdktf.TerraformDataSource {
 
@@ -4072,7 +4112,7 @@ export class DataIntersightFirmwareBiosDescriptor extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightFirmwareBiosDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareBiosDescriptor to import
-  * @param importFromId The id of the existing DataIntersightFirmwareBiosDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareBiosDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareBiosDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4084,7 +4124,7 @@ export class DataIntersightFirmwareBiosDescriptor extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_bios_descriptor intersight_firmware_bios_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_bios_descriptor intersight_firmware_bios_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4095,8 +4135,8 @@ export class DataIntersightFirmwareBiosDescriptor extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_firmware_bios_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

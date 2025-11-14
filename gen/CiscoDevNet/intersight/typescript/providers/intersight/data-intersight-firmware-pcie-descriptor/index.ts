@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwarePcieDescriptorConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#account_moid DataIntersightFirmwarePcieDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#account_moid DataIntersightFirmwarePcieDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#brand_string DataIntersightFirmwarePcieDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#brand_string DataIntersightFirmwarePcieDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
@@ -29,29 +29,29 @@ export interface DataIntersightFirmwarePcieDescriptorConfig extends cdktf.Terraf
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#create_time DataIntersightFirmwarePcieDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#create_time DataIntersightFirmwarePcieDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#description DataIntersightFirmwarePcieDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#description DataIntersightFirmwarePcieDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#domain_group_moid DataIntersightFirmwarePcieDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#domain_group_moid DataIntersightFirmwarePcieDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#id DataIntersightFirmwarePcieDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#id DataIntersightFirmwarePcieDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,31 +60,31 @@ export interface DataIntersightFirmwarePcieDescriptorConfig extends cdktf.Terraf
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#label DataIntersightFirmwarePcieDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#label DataIntersightFirmwarePcieDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#mod_time DataIntersightFirmwarePcieDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#mod_time DataIntersightFirmwarePcieDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#model DataIntersightFirmwarePcieDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#model DataIntersightFirmwarePcieDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#nr_version DataIntersightFirmwarePcieDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#nr_version DataIntersightFirmwarePcieDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -92,66 +92,66 @@ export interface DataIntersightFirmwarePcieDescriptorConfig extends cdktf.Terraf
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#owners DataIntersightFirmwarePcieDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#owners DataIntersightFirmwarePcieDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#revision DataIntersightFirmwarePcieDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#revision DataIntersightFirmwarePcieDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#shared_scope DataIntersightFirmwarePcieDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#shared_scope DataIntersightFirmwarePcieDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#vendor DataIntersightFirmwarePcieDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#vendor DataIntersightFirmwarePcieDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#ancestors DataIntersightFirmwarePcieDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#ancestors DataIntersightFirmwarePcieDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwarePcieDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#capabilities DataIntersightFirmwarePcieDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#capabilities DataIntersightFirmwarePcieDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightFirmwarePcieDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#parent DataIntersightFirmwarePcieDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#parent DataIntersightFirmwarePcieDescriptor#parent}
   */
   readonly parent?: DataIntersightFirmwarePcieDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#permission_resources DataIntersightFirmwarePcieDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#permission_resources DataIntersightFirmwarePcieDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwarePcieDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#tags DataIntersightFirmwarePcieDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#tags DataIntersightFirmwarePcieDescriptor#tags}
   */
   readonly tags?: DataIntersightFirmwarePcieDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#version_context DataIntersightFirmwarePcieDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#version_context DataIntersightFirmwarePcieDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightFirmwarePcieDescriptorVersionContext;
 }
@@ -803,6 +803,11 @@ export class DataIntersightFirmwarePcieDescriptorResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1332,7 +1337,7 @@ export class DataIntersightFirmwarePcieDescriptorResultsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwarePcieDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1340,19 +1345,19 @@ export interface DataIntersightFirmwarePcieDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1365,7 +1370,7 @@ export interface DataIntersightFirmwarePcieDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1597,7 +1602,7 @@ export class DataIntersightFirmwarePcieDescriptorAncestorsList extends cdktf.Com
 }
 export interface DataIntersightFirmwarePcieDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1605,19 +1610,19 @@ export interface DataIntersightFirmwarePcieDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1630,7 +1635,7 @@ export interface DataIntersightFirmwarePcieDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1862,7 +1867,7 @@ export class DataIntersightFirmwarePcieDescriptorCapabilitiesList extends cdktf.
 }
 export interface DataIntersightFirmwarePcieDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1870,19 +1875,19 @@ export interface DataIntersightFirmwarePcieDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1895,7 +1900,7 @@ export interface DataIntersightFirmwarePcieDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2095,7 +2100,7 @@ export class DataIntersightFirmwarePcieDescriptorParentOutputReference extends c
 }
 export interface DataIntersightFirmwarePcieDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2103,19 +2108,19 @@ export interface DataIntersightFirmwarePcieDescriptorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2128,7 +2133,7 @@ export interface DataIntersightFirmwarePcieDescriptorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2360,7 +2365,7 @@ export class DataIntersightFirmwarePcieDescriptorPermissionResourcesList extends
 }
 export interface DataIntersightFirmwarePcieDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2368,19 +2373,19 @@ export interface DataIntersightFirmwarePcieDescriptorTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2393,7 +2398,7 @@ export interface DataIntersightFirmwarePcieDescriptorTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2625,7 +2630,7 @@ export class DataIntersightFirmwarePcieDescriptorTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightFirmwarePcieDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2633,19 +2638,19 @@ export interface DataIntersightFirmwarePcieDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2658,7 +2663,7 @@ export interface DataIntersightFirmwarePcieDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2858,45 +2863,51 @@ export class DataIntersightFirmwarePcieDescriptorTagsDefinitionOutputReference e
 }
 export interface DataIntersightFirmwarePcieDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#key DataIntersightFirmwarePcieDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#key DataIntersightFirmwarePcieDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#propagated DataIntersightFirmwarePcieDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#propagated DataIntersightFirmwarePcieDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#sys_tag DataIntersightFirmwarePcieDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#type DataIntersightFirmwarePcieDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#type DataIntersightFirmwarePcieDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#value DataIntersightFirmwarePcieDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#value DataIntersightFirmwarePcieDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#ancestor_definitions DataIntersightFirmwarePcieDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#ancestor_definitions DataIntersightFirmwarePcieDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwarePcieDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#definition DataIntersightFirmwarePcieDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#definition DataIntersightFirmwarePcieDescriptor#definition}
   */
   readonly definition?: DataIntersightFirmwarePcieDescriptorTagsDefinition;
 }
@@ -2910,6 +2921,7 @@ export function dataIntersightFirmwarePcieDescriptorTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwarePcieDescriptorTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2938,6 +2950,12 @@ export function dataIntersightFirmwarePcieDescriptorTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3004,6 +3022,10 @@ export class DataIntersightFirmwarePcieDescriptorTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3030,6 +3052,7 @@ export class DataIntersightFirmwarePcieDescriptorTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3045,6 +3068,7 @@ export class DataIntersightFirmwarePcieDescriptorTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3098,6 +3122,22 @@ export class DataIntersightFirmwarePcieDescriptorTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3186,7 +3226,7 @@ export class DataIntersightFirmwarePcieDescriptorTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightFirmwarePcieDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3194,19 +3234,19 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3219,7 +3259,7 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3451,7 +3491,7 @@ export class DataIntersightFirmwarePcieDescriptorVersionContextInterestedMosList
 }
 export interface DataIntersightFirmwarePcieDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3459,19 +3499,19 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#moid DataIntersightFirmwarePcieDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3484,7 +3524,7 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#selector DataIntersightFirmwarePcieDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3684,7 +3724,7 @@ export class DataIntersightFirmwarePcieDescriptorVersionContextRefMoOutputRefere
 }
 export interface DataIntersightFirmwarePcieDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#additional_properties DataIntersightFirmwarePcieDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3692,32 +3732,32 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#class_id DataIntersightFirmwarePcieDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#marked_for_deletion DataIntersightFirmwarePcieDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#marked_for_deletion DataIntersightFirmwarePcieDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#nr_version DataIntersightFirmwarePcieDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#nr_version DataIntersightFirmwarePcieDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#object_type DataIntersightFirmwarePcieDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#timestamp DataIntersightFirmwarePcieDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#timestamp DataIntersightFirmwarePcieDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3728,19 +3768,19 @@ export interface DataIntersightFirmwarePcieDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#version_type DataIntersightFirmwarePcieDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#version_type DataIntersightFirmwarePcieDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#interested_mos DataIntersightFirmwarePcieDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#interested_mos DataIntersightFirmwarePcieDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwarePcieDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#ref_mo DataIntersightFirmwarePcieDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#ref_mo DataIntersightFirmwarePcieDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwarePcieDescriptorVersionContextRefMo;
 }
@@ -4056,7 +4096,7 @@ export class DataIntersightFirmwarePcieDescriptorVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor intersight_firmware_pcie_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor intersight_firmware_pcie_descriptor}
 */
 export class DataIntersightFirmwarePcieDescriptor extends cdktf.TerraformDataSource {
 
@@ -4072,7 +4112,7 @@ export class DataIntersightFirmwarePcieDescriptor extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightFirmwarePcieDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwarePcieDescriptor to import
-  * @param importFromId The id of the existing DataIntersightFirmwarePcieDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwarePcieDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwarePcieDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4084,7 +4124,7 @@ export class DataIntersightFirmwarePcieDescriptor extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_pcie_descriptor intersight_firmware_pcie_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pcie_descriptor intersight_firmware_pcie_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4095,8 +4135,8 @@ export class DataIntersightFirmwarePcieDescriptor extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_firmware_pcie_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

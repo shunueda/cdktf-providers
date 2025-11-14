@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataNutanixFoundationCentralImagedClustersListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#id DataNutanixFoundationCentralImagedClustersList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#id DataNutanixFoundationCentralImagedClustersList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#length DataNutanixFoundationCentralImagedClustersList#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#length DataNutanixFoundationCentralImagedClustersList#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#offset DataNutanixFoundationCentralImagedClustersList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#offset DataNutanixFoundationCentralImagedClustersList#offset}
   */
   readonly offset?: number;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#filters DataNutanixFoundationCentralImagedClustersList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#filters DataNutanixFoundationCentralImagedClustersList#filters}
   */
   readonly filters?: DataNutanixFoundationCentralImagedClustersListFilters;
 }
@@ -1298,7 +1298,7 @@ export class DataNutanixFoundationCentralImagedClustersListMetadataList extends 
 }
 export interface DataNutanixFoundationCentralImagedClustersListFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#archived DataNutanixFoundationCentralImagedClustersList#archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#archived DataNutanixFoundationCentralImagedClustersList#archived}
   */
   readonly archived?: boolean | cdktf.IResolvable;
 }
@@ -1382,7 +1382,7 @@ export class DataNutanixFoundationCentralImagedClustersListFiltersOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list nutanix_foundation_central_imaged_clusters_list}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list nutanix_foundation_central_imaged_clusters_list}
 */
 export class DataNutanixFoundationCentralImagedClustersList extends cdktf.TerraformDataSource {
 
@@ -1398,7 +1398,7 @@ export class DataNutanixFoundationCentralImagedClustersList extends cdktf.Terraf
   * Generates CDKTF code for importing a DataNutanixFoundationCentralImagedClustersList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNutanixFoundationCentralImagedClustersList to import
-  * @param importFromId The id of the existing DataNutanixFoundationCentralImagedClustersList that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNutanixFoundationCentralImagedClustersList that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNutanixFoundationCentralImagedClustersList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1410,7 +1410,7 @@ export class DataNutanixFoundationCentralImagedClustersList extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/data-sources/foundation_central_imaged_clusters_list nutanix_foundation_central_imaged_clusters_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/data-sources/foundation_central_imaged_clusters_list nutanix_foundation_central_imaged_clusters_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1421,8 +1421,8 @@ export class DataNutanixFoundationCentralImagedClustersList extends cdktf.Terraf
       terraformResourceType: 'nutanix_foundation_central_imaged_clusters_list',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

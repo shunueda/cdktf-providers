@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageControllerDriveConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#account_moid DataIntersightStorageControllerDrive#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#account_moid DataIntersightStorageControllerDrive#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,7 +22,7 @@ export interface DataIntersightStorageControllerDriveConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
@@ -31,41 +31,41 @@ export interface DataIntersightStorageControllerDriveConfig extends cdktf.Terraf
   * * `FlexMMC` - The FlexMMC type of storage local drive.
   * * `USB` - The USB type of storage drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#controller_type DataIntersightStorageControllerDrive#controller_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#controller_type DataIntersightStorageControllerDrive#controller_type}
   */
   readonly controllerType?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#create_time DataIntersightStorageControllerDrive#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#create_time DataIntersightStorageControllerDrive#create_time}
   */
   readonly createTime?: string;
   /**
   * The description of local storage drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#description DataIntersightStorageControllerDrive#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#description DataIntersightStorageControllerDrive#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#device_mo_id DataIntersightStorageControllerDrive#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#device_mo_id DataIntersightStorageControllerDrive#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#dn DataIntersightStorageControllerDrive#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#dn DataIntersightStorageControllerDrive#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#domain_group_moid DataIntersightStorageControllerDrive#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#domain_group_moid DataIntersightStorageControllerDrive#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#id DataIntersightStorageControllerDrive#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#id DataIntersightStorageControllerDrive#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,55 +74,55 @@ export interface DataIntersightStorageControllerDriveConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#mod_time DataIntersightStorageControllerDrive#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#mod_time DataIntersightStorageControllerDrive#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * Name of the local Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#name DataIntersightStorageControllerDrive#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#name DataIntersightStorageControllerDrive#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#owners DataIntersightStorageControllerDrive#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#owners DataIntersightStorageControllerDrive#owners}
   */
   readonly owners?: string[];
   /**
   * Total Partition count in local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#partition_count DataIntersightStorageControllerDrive#partition_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#partition_count DataIntersightStorageControllerDrive#partition_count}
   */
   readonly partitionCount?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#rn DataIntersightStorageControllerDrive#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#rn DataIntersightStorageControllerDrive#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#shared_scope DataIntersightStorageControllerDrive#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#shared_scope DataIntersightStorageControllerDrive#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Id of the local Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#storage_id DataIntersightStorageControllerDrive#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#storage_id DataIntersightStorageControllerDrive#storage_id}
   */
   readonly storageId?: string;
   /**
@@ -131,55 +131,55 @@ export interface DataIntersightStorageControllerDriveConfig extends cdktf.Terraf
   * * `Internal` - The internal storage type.
   * * `External` - The external storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#type DataIntersightStorageControllerDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#type DataIntersightStorageControllerDrive#type}
   */
   readonly type?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#ancestors DataIntersightStorageControllerDrive#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#ancestors DataIntersightStorageControllerDrive#ancestors}
   */
   readonly ancestors?: DataIntersightStorageControllerDriveAncestors[] | cdktf.IResolvable;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#compute_board DataIntersightStorageControllerDrive#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#compute_board DataIntersightStorageControllerDrive#compute_board}
   */
   readonly computeBoard?: DataIntersightStorageControllerDriveComputeBoard;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#parent DataIntersightStorageControllerDrive#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#parent DataIntersightStorageControllerDrive#parent}
   */
   readonly parent?: DataIntersightStorageControllerDriveParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#permission_resources DataIntersightStorageControllerDrive#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#permission_resources DataIntersightStorageControllerDrive#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageControllerDrivePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#registered_device DataIntersightStorageControllerDrive#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#registered_device DataIntersightStorageControllerDrive#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageControllerDriveRegisteredDevice;
   /**
   * storage_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#storage_item DataIntersightStorageControllerDrive#storage_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#storage_item DataIntersightStorageControllerDrive#storage_item}
   */
   readonly storageItem?: DataIntersightStorageControllerDriveStorageItem[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#tags DataIntersightStorageControllerDrive#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#tags DataIntersightStorageControllerDrive#tags}
   */
   readonly tags?: DataIntersightStorageControllerDriveTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#version_context DataIntersightStorageControllerDrive#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#version_context DataIntersightStorageControllerDrive#version_context}
   */
   readonly versionContext?: DataIntersightStorageControllerDriveVersionContext;
 }
@@ -1021,6 +1021,11 @@ export class DataIntersightStorageControllerDriveResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1572,7 +1577,7 @@ export class DataIntersightStorageControllerDriveResultsList extends cdktf.Compl
 }
 export interface DataIntersightStorageControllerDriveAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1580,19 +1585,19 @@ export interface DataIntersightStorageControllerDriveAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1605,7 +1610,7 @@ export interface DataIntersightStorageControllerDriveAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -1837,7 +1842,7 @@ export class DataIntersightStorageControllerDriveAncestorsList extends cdktf.Com
 }
 export interface DataIntersightStorageControllerDriveComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1845,19 +1850,19 @@ export interface DataIntersightStorageControllerDriveComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1870,7 +1875,7 @@ export interface DataIntersightStorageControllerDriveComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2070,7 +2075,7 @@ export class DataIntersightStorageControllerDriveComputeBoardOutputReference ext
 }
 export interface DataIntersightStorageControllerDriveParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2078,19 +2083,19 @@ export interface DataIntersightStorageControllerDriveParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2103,7 +2108,7 @@ export interface DataIntersightStorageControllerDriveParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2303,7 +2308,7 @@ export class DataIntersightStorageControllerDriveParentOutputReference extends c
 }
 export interface DataIntersightStorageControllerDrivePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2311,19 +2316,19 @@ export interface DataIntersightStorageControllerDrivePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2336,7 +2341,7 @@ export interface DataIntersightStorageControllerDrivePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2568,7 +2573,7 @@ export class DataIntersightStorageControllerDrivePermissionResourcesList extends
 }
 export interface DataIntersightStorageControllerDriveRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2576,19 +2581,19 @@ export interface DataIntersightStorageControllerDriveRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2601,7 +2606,7 @@ export interface DataIntersightStorageControllerDriveRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2801,7 +2806,7 @@ export class DataIntersightStorageControllerDriveRegisteredDeviceOutputReference
 }
 export interface DataIntersightStorageControllerDriveStorageItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2809,19 +2814,19 @@ export interface DataIntersightStorageControllerDriveStorageItem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2834,7 +2839,7 @@ export interface DataIntersightStorageControllerDriveStorageItem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3066,7 +3071,7 @@ export class DataIntersightStorageControllerDriveStorageItemList extends cdktf.C
 }
 export interface DataIntersightStorageControllerDriveTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3074,19 +3079,19 @@ export interface DataIntersightStorageControllerDriveTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3099,7 +3104,7 @@ export interface DataIntersightStorageControllerDriveTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3331,7 +3336,7 @@ export class DataIntersightStorageControllerDriveTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightStorageControllerDriveTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3339,19 +3344,19 @@ export interface DataIntersightStorageControllerDriveTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3364,7 +3369,7 @@ export interface DataIntersightStorageControllerDriveTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3564,45 +3569,51 @@ export class DataIntersightStorageControllerDriveTagsDefinitionOutputReference e
 }
 export interface DataIntersightStorageControllerDriveTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#key DataIntersightStorageControllerDrive#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#key DataIntersightStorageControllerDrive#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#propagated DataIntersightStorageControllerDrive#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#propagated DataIntersightStorageControllerDrive#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#sys_tag DataIntersightStorageControllerDrive#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#type DataIntersightStorageControllerDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#type DataIntersightStorageControllerDrive#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#value DataIntersightStorageControllerDrive#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#value DataIntersightStorageControllerDrive#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#ancestor_definitions DataIntersightStorageControllerDrive#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#ancestor_definitions DataIntersightStorageControllerDrive#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageControllerDriveTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#definition DataIntersightStorageControllerDrive#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#definition DataIntersightStorageControllerDrive#definition}
   */
   readonly definition?: DataIntersightStorageControllerDriveTagsDefinition;
 }
@@ -3616,6 +3627,7 @@ export function dataIntersightStorageControllerDriveTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightStorageControllerDriveTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3644,6 +3656,12 @@ export function dataIntersightStorageControllerDriveTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3710,6 +3728,10 @@ export class DataIntersightStorageControllerDriveTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3736,6 +3758,7 @@ export class DataIntersightStorageControllerDriveTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3751,6 +3774,7 @@ export class DataIntersightStorageControllerDriveTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3804,6 +3828,22 @@ export class DataIntersightStorageControllerDriveTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3892,7 +3932,7 @@ export class DataIntersightStorageControllerDriveTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightStorageControllerDriveVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3900,19 +3940,19 @@ export interface DataIntersightStorageControllerDriveVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3925,7 +3965,7 @@ export interface DataIntersightStorageControllerDriveVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4157,7 +4197,7 @@ export class DataIntersightStorageControllerDriveVersionContextInterestedMosList
 }
 export interface DataIntersightStorageControllerDriveVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4165,19 +4205,19 @@ export interface DataIntersightStorageControllerDriveVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#moid DataIntersightStorageControllerDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4190,7 +4230,7 @@ export interface DataIntersightStorageControllerDriveVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#selector DataIntersightStorageControllerDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4390,7 +4430,7 @@ export class DataIntersightStorageControllerDriveVersionContextRefMoOutputRefere
 }
 export interface DataIntersightStorageControllerDriveVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#additional_properties DataIntersightStorageControllerDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4398,32 +4438,32 @@ export interface DataIntersightStorageControllerDriveVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#class_id DataIntersightStorageControllerDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#marked_for_deletion DataIntersightStorageControllerDrive#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#marked_for_deletion DataIntersightStorageControllerDrive#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#nr_version DataIntersightStorageControllerDrive#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#nr_version DataIntersightStorageControllerDrive#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#object_type DataIntersightStorageControllerDrive#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#timestamp DataIntersightStorageControllerDrive#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#timestamp DataIntersightStorageControllerDrive#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4434,19 +4474,19 @@ export interface DataIntersightStorageControllerDriveVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#version_type DataIntersightStorageControllerDrive#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#version_type DataIntersightStorageControllerDrive#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#interested_mos DataIntersightStorageControllerDrive#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#interested_mos DataIntersightStorageControllerDrive#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageControllerDriveVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#ref_mo DataIntersightStorageControllerDrive#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#ref_mo DataIntersightStorageControllerDrive#ref_mo}
   */
   readonly refMo?: DataIntersightStorageControllerDriveVersionContextRefMo;
 }
@@ -4762,7 +4802,7 @@ export class DataIntersightStorageControllerDriveVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive intersight_storage_controller_drive}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive intersight_storage_controller_drive}
 */
 export class DataIntersightStorageControllerDrive extends cdktf.TerraformDataSource {
 
@@ -4778,7 +4818,7 @@ export class DataIntersightStorageControllerDrive extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightStorageControllerDrive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageControllerDrive to import
-  * @param importFromId The id of the existing DataIntersightStorageControllerDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageControllerDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageControllerDrive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4790,7 +4830,7 @@ export class DataIntersightStorageControllerDrive extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/storage_controller_drive intersight_storage_controller_drive} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_controller_drive intersight_storage_controller_drive} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4801,8 +4841,8 @@ export class DataIntersightStorageControllerDrive extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_storage_controller_drive',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface RproxyReverseProxyConfig extends cdktf.TerraformMetaArguments {
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#account RproxyReverseProxy#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#account RproxyReverseProxy#account}
   */
   readonly account?: RproxyReverseProxyAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#account_moid RproxyReverseProxy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#account_moid RproxyReverseProxy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#ancestors RproxyReverseProxy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#ancestors RproxyReverseProxy#ancestors}
   */
   readonly ancestors?: RproxyReverseProxyAncestors[] | cdktf.IResolvable;
   /**
@@ -35,23 +35,23 @@ export interface RproxyReverseProxyConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#create_time RproxyReverseProxy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#create_time RproxyReverseProxy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#domain_group_moid RproxyReverseProxy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#domain_group_moid RproxyReverseProxy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#id RproxyReverseProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#id RproxyReverseProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,76 +60,76 @@ export interface RproxyReverseProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#mod_time RproxyReverseProxy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#mod_time RproxyReverseProxy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#owners RproxyReverseProxy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#owners RproxyReverseProxy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#parent RproxyReverseProxy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#parent RproxyReverseProxy#parent}
   */
   readonly parent?: RproxyReverseProxyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#permission_resources RproxyReverseProxy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#permission_resources RproxyReverseProxy#permission_resources}
   */
   readonly permissionResources?: RproxyReverseProxyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#shared_scope RproxyReverseProxy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#shared_scope RproxyReverseProxy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#tags RproxyReverseProxy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#tags RproxyReverseProxy#tags}
   */
   readonly tags?: RproxyReverseProxyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#version_context RproxyReverseProxy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#version_context RproxyReverseProxy#version_context}
   */
   readonly versionContext?: RproxyReverseProxyVersionContext[] | cdktf.IResolvable;
 }
 export interface RproxyReverseProxyAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -361,23 +361,23 @@ export class RproxyReverseProxyAccountList extends cdktf.ComplexList {
 }
 export interface RproxyReverseProxyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -609,23 +609,23 @@ export class RproxyReverseProxyAncestorsList extends cdktf.ComplexList {
 }
 export interface RproxyReverseProxyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -857,23 +857,23 @@ export class RproxyReverseProxyParentList extends cdktf.ComplexList {
 }
 export interface RproxyReverseProxyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -1105,23 +1105,23 @@ export class RproxyReverseProxyPermissionResourcesList extends cdktf.ComplexList
 }
 export interface RproxyReverseProxyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -1353,23 +1353,23 @@ export class RproxyReverseProxyTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface RproxyReverseProxyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -1601,31 +1601,35 @@ export class RproxyReverseProxyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface RproxyReverseProxyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#ancestor_definitions RproxyReverseProxy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#ancestor_definitions RproxyReverseProxy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: RproxyReverseProxyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#definition RproxyReverseProxy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#definition RproxyReverseProxy#definition}
   */
   readonly definition?: RproxyReverseProxyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#key RproxyReverseProxy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#key RproxyReverseProxy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#propagated RproxyReverseProxy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#propagated RproxyReverseProxy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#type RproxyReverseProxy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#sys_tag RproxyReverseProxy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#type RproxyReverseProxy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#value RproxyReverseProxy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#value RproxyReverseProxy#value}
   */
   readonly value?: string;
 }
@@ -1641,6 +1645,7 @@ export function rproxyReverseProxyTagsToTerraform(struct?: RproxyReverseProxyTag
     definition: cdktf.listMapper(rproxyReverseProxyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -1679,6 +1684,12 @@ export function rproxyReverseProxyTagsToHclTerraform(struct?: RproxyReverseProxy
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1741,6 +1752,10 @@ export class RproxyReverseProxyTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -1761,6 +1776,7 @@ export class RproxyReverseProxyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -1776,6 +1792,7 @@ export class RproxyReverseProxyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -1861,6 +1878,22 @@ export class RproxyReverseProxyTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1915,23 +1948,23 @@ export class RproxyReverseProxyTagsList extends cdktf.ComplexList {
 }
 export interface RproxyReverseProxyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -2163,23 +2196,23 @@ export class RproxyReverseProxyVersionContextInterestedMosList extends cdktf.Com
 }
 export interface RproxyReverseProxyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#moid RproxyReverseProxy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#selector RproxyReverseProxy#selector}
   */
   readonly selector?: string;
 }
@@ -2411,39 +2444,39 @@ export class RproxyReverseProxyVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface RproxyReverseProxyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#additional_properties RproxyReverseProxy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#class_id RproxyReverseProxy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#interested_mos RproxyReverseProxy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#interested_mos RproxyReverseProxy#interested_mos}
   */
   readonly interestedMos?: RproxyReverseProxyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#marked_for_deletion RproxyReverseProxy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#marked_for_deletion RproxyReverseProxy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#nr_version RproxyReverseProxy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#nr_version RproxyReverseProxy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#object_type RproxyReverseProxy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#ref_mo RproxyReverseProxy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#ref_mo RproxyReverseProxy#ref_mo}
   */
   readonly refMo?: RproxyReverseProxyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#timestamp RproxyReverseProxy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#timestamp RproxyReverseProxy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#version_type RproxyReverseProxy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#version_type RproxyReverseProxy#version_type}
   */
   readonly versionType?: string;
 }
@@ -2791,7 +2824,7 @@ export class RproxyReverseProxyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy intersight_rproxy_reverse_proxy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy intersight_rproxy_reverse_proxy}
 */
 export class RproxyReverseProxy extends cdktf.TerraformResource {
 
@@ -2807,7 +2840,7 @@ export class RproxyReverseProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RproxyReverseProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RproxyReverseProxy to import
-  * @param importFromId The id of the existing RproxyReverseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RproxyReverseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RproxyReverseProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2819,7 +2852,7 @@ export class RproxyReverseProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/rproxy_reverse_proxy intersight_rproxy_reverse_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/rproxy_reverse_proxy intersight_rproxy_reverse_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2830,8 +2863,8 @@ export class RproxyReverseProxy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_rproxy_reverse_proxy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

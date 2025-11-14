@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDbmulticloudOracleDbAzureVaultsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#compartment_id DataOciDbmulticloudOracleDbAzureVaults#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#compartment_id DataOciDbmulticloudOracleDbAzureVaults#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#display_name DataOciDbmulticloudOracleDbAzureVaults#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#display_name DataOciDbmulticloudOracleDbAzureVaults#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#id DataOciDbmulticloudOracleDbAzureVaults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#id DataOciDbmulticloudOracleDbAzureVaults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_connector_id DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_connector_id}
   */
   readonly oracleDbAzureConnectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_resource_group DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_resource_group DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_resource_group}
   */
   readonly oracleDbAzureResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVaults#oracle_db_azure_vault_id}
   */
   readonly oracleDbAzureVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#state DataOciDbmulticloudOracleDbAzureVaults#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#state DataOciDbmulticloudOracleDbAzureVaults#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#filter DataOciDbmulticloudOracleDbAzureVaults#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#filter DataOciDbmulticloudOracleDbAzureVaults#filter}
   */
   readonly filter?: DataOciDbmulticloudOracleDbAzureVaultsFilter[] | cdktf.IResolvable;
 }
@@ -282,15 +282,15 @@ export class DataOciDbmulticloudOracleDbAzureVaultsOracleDbAzureVaultSummaryColl
 }
 export interface DataOciDbmulticloudOracleDbAzureVaultsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#name DataOciDbmulticloudOracleDbAzureVaults#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#name DataOciDbmulticloudOracleDbAzureVaults#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#regex DataOciDbmulticloudOracleDbAzureVaults#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#regex DataOciDbmulticloudOracleDbAzureVaults#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#values DataOciDbmulticloudOracleDbAzureVaults#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#values DataOciDbmulticloudOracleDbAzureVaults#values}
   */
   readonly values: string[];
 }
@@ -458,7 +458,7 @@ export class DataOciDbmulticloudOracleDbAzureVaultsFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults oci_dbmulticloud_oracle_db_azure_vaults}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults oci_dbmulticloud_oracle_db_azure_vaults}
 */
 export class DataOciDbmulticloudOracleDbAzureVaults extends cdktf.TerraformDataSource {
 
@@ -474,7 +474,7 @@ export class DataOciDbmulticloudOracleDbAzureVaults extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDbmulticloudOracleDbAzureVaults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDbmulticloudOracleDbAzureVaults to import
-  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbAzureVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbAzureVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDbmulticloudOracleDbAzureVaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -486,7 +486,7 @@ export class DataOciDbmulticloudOracleDbAzureVaults extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_vaults oci_dbmulticloud_oracle_db_azure_vaults} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/dbmulticloud_oracle_db_azure_vaults oci_dbmulticloud_oracle_db_azure_vaults} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -497,8 +497,8 @@ export class DataOciDbmulticloudOracleDbAzureVaults extends cdktf.TerraformDataS
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_vaults',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
